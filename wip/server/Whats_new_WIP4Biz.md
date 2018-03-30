@@ -214,29 +214,4 @@ start—it's built-in and always-on. Learn more at
 *Caption: New charts in Project Honolulu, powered by built-in cluster
 performance history.*
 
-## Available Content
-<b>Windows Server 2019 LTSC Build 17623</b> is available in ISO format in 18 languages. This build and all future pre-release builds will require use of activation keys during setup. The following keys allow for unlimited activations:
-<table>
-    <tr>
-        <td>Datacenter Edition
-        </td>
-        <td>6XBNX-4JQGW-QX6QG-74P76-72V67
-        </td>
-    </tr>
-    <tr>
-        <td>Standard Edition
-        </td>
-        <td>MFY9F-XBN2F-TYFMP-CCV49-RMYVH
-        </td>
-    </tr>
-</table>
-<b>Windows Server vNext Semi-Annual Build 17623</b> The Server Core Edition is available in English only, in ISO or VHDX format. The images are pre-keyed –  no need to enter a key during setup.
-<b>Symbols</b> are available on the public symbol server – see [Update on Microsoft’s Symbol Server](https://blogs.msdn.microsoft.com/windbg/2017/10/18/update-on-microsofts-symbol-server/) blog post and [Using the Microsoft Symbol Server](https://msdn.microsoft.com/library/windows/desktop/ee416588(v=vs.85).aspx#using_the_microsoft_symbol_server). As before, matching Windows Server container images will be available via Docker Hub. For more information about Windows Server containers and Insider builds, click [here](http://aka.ms/containers/insiders).
 
-This build will expire July 2nd, 2018.
-
-## How to download
-To obtain the Insider software downloads, registered Insiders may navigate directly to the [Windows Server Insider Preview download page](https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewserver).  If you have not yet registered as an Insider, see [GETTING STARTED WITH SERVER](https://insider.windows.com/en-us/for-business-getting-started-server/) on the [Windows Insiders for Business portal](https://insider.windows.com/ForBusiness).
-
-## It's all about your feedback!
-The most important part of a frequent release cycle is to hear what’s working and what needs to be improved, so your feedback is extremely valued. Use your registered Windows 10 Insider device and use the Feedback Hub application. In the app, choose the <b>Server</b> category and then the appropriate subcategory for your feedback. Please indicate what <b>build number</b> you are providing feedback on. We also encourage you to visit the [Windows Server Insiders](https://techcommunity.microsoft.com/t5/Windows-Server-Insiders/bd-p/WindowsServerInsiders) space on the [Microsoft Tech Communities](https://techcommunity.microsoft.com/) forum to collaborate, share and learn from experts.
