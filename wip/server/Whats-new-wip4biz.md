@@ -7,10 +7,6 @@ ms.date: 4/5/2018
 # What’s New in Windows Server 2019 Insider Preview
 The features listed below have been made available in preview builds of Windows Server 2019 via the Windows Server Insider Program.  To obtain the Insider software downloads, registered Insiders may navigate directly to the [Windows Server Insider Preview download page](https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewserver).  If you have not yet registered as an Insider, see [GETTING STARTED WITH SERVER](https://insider.windows.com/en-us/for-business-getting-started-server/) on the [Windows Insiders for Business](https://insider.windows.com/ForBusiness) portal. We also encourage you to visit the [Windows Server Insiders space](https://techcommunity.microsoft.com/t5/Windows-Server-Insiders/bd-p/WindowsServerInsiders) on the [Microsoft Tech Communities forum](https://techcommunity.microsoft.com/) to collaborate, share and learn from experts.
 
-Validation for every preview: There are two major areas that we would like you to try out in each preview release and report back any issues: 
-* <b>In-place OS Upgrade </b> (from Windows Server 2012 R2, Windows Server 2016) 
-* <b>Application compatibility </b> Let us know if any server roles or applications stops working or fails to function as it used to. 
-
 <b>Extending your Clusters with Cluster Sets</b>
 
 “Cluster Sets” is the new cloud scale-out technology in this Preview release that increases cluster node count in a single SDDC (Software-Defined Data Center) cloud by orders of magnitude. A Cluster Set is a loosely-coupled grouping of multiple Failover Clusters: compute, storage or hyper-converged. Cluster Sets technology enables virtual machine fluidity across member clusters within a Cluster Set and a unified storage namespace across the "set" in support of virtual machine fluidity.  While preserving existing Failover Cluster management experiences on member clusters, a Cluster Set instance additionally offers key use cases around lifecycle management of a Cluster Set at the aggregate.
