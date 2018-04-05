@@ -2,7 +2,7 @@
 title: What’s New in Windows Server 2019 Insider Preview
 description: new features for you to test
 ms.author: dawnwood
-ms.date: 4/5/2018
+ms.date: 4/10/2018
 ---
 # What’s New in Windows Server 2019 Insider Preview
 The features listed below have been made available in preview builds of Windows Server 2019 via the Windows Server Insider Program.  To obtain the Insider software downloads, registered Insiders may navigate directly to the [Windows Server Insider Preview download page](https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewserver).  If you have not yet registered as an Insider, see [GETTING STARTED WITH SERVER](https://insider.windows.com/en-us/for-business-getting-started-server/) on the [Windows Insiders for Business](https://insider.windows.com/ForBusiness) portal. We also encourage you to visit the [Windows Server Insiders space](https://techcommunity.microsoft.com/t5/Windows-Server-Insiders/bd-p/WindowsServerInsiders) on the [Microsoft Tech Communities forum](https://techcommunity.microsoft.com/) to collaborate, share and learn from experts.
@@ -110,7 +110,6 @@ Set-ProcessMitigation -PolicyFilePath ProcessMitigation.xml
 <b>Windows Defender Application Control</b>
 
 Windows Defender Application Control—also known as Code Integrity (CI) policy—was released in Windows Server 2016. Customer feedback has suggested that it is a great concept, but hard to deploy. To address this, we are building default CI policies, which will allow all Windows in-box files and Microsoft applications, such as SQL Server, and block known executables that can bypass CI.  
-You can download the default policies at: [https://developer.microsoft.com/en-us/dashboard/collaborate/packages/4265](https://developer.microsoft.com/en-us/dashboard/collaborate/packages/4265).
 
 The package contains an audit version and an enforced version. If the server doesn’t require additional drivers/applications, you can deploy the enforced version. Otherwise, you can use the audit policy, check uncovered executables, and then merge them into the default CI policy. 
 
@@ -205,9 +204,6 @@ answer these questions. There's nothing to install, configure, or
 start—it's built-in and always-on. Learn more at
 <https://aka.ms/clusterperformancehistory>.
 
-<img src="honolulu.bmp" />
 
-*Caption: New charts in Project Honolulu, powered by built-in cluster
-performance history.*
 
 
