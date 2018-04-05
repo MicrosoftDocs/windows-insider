@@ -60,7 +60,7 @@ WIP for Business helps you deploy the Windows Insider Program in your enterprise
 
 ---
 
-<ul class="cardsF panelContent">
+<ul class="cardsF panelContent col cols2">
     <li>
         <a href="">
         <div class="cardSize">
