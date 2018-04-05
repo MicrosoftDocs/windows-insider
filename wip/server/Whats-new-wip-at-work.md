@@ -204,7 +204,7 @@ answer these questions. There's nothing to install, configure, or
 start—it's built-in and always-on. Learn more at
 <https://aka.ms/clusterperformancehistory>.
 
-<img src="honolulu.bmp" />
+<img src=" honolulu.bmp" />
 
 *Caption: New charts in Project Honolulu, powered by built-in cluster
 performance history.*
