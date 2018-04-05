@@ -1,1 +1,1 @@
-# Welcome to wip for work! This 
+# this is where the Windows Insider Program at-work landing page goes
