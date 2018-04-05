@@ -19,7 +19,7 @@ WIP for Business helps you deploy the Windows Insider Program in your enterprise
 
 <ul id="main" class="cardsC cols col2">
     <li>
-        <a href="Whats-new-wip-at-work">
+        <a href="Whats-new-wip-at-work.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
@@ -38,7 +38,7 @@ WIP for Business helps you deploy the Windows Insider Program in your enterprise
         </a>
     </li>
     <li>
-        <a href="Get-started-wip-at-work">
+        <a href="Get-started-wip-at-work.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
