@@ -17,7 +17,7 @@ ms.author: dawn.wood
 
 WIP for Business helps you deploy the Windows Insider Program in your enterprise. The docs cover the new enterprise features we'd like you to test and describes how to do the most common tasks. If you are an administrator, you're in the right place. If you are interested in the Windows Insider Program for your personal computer, see Windows Insider Program docs.
 
-<ul class="cardsA panelContent">
+<ul class="cardsC panelContent">
     <li>
         <a href="Whats-new-wip-at-work.md">
             <div class="cardSize">
@@ -60,7 +60,7 @@ WIP for Business helps you deploy the Windows Insider Program in your enterprise
 
 ---
 
-<ul class="cardsF panelContent cols cols2">
+<ul class="cardsF panelContent fullspan">
     <li>
         <a href="">
         <div class="cardSize">
