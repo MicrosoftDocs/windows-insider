@@ -17,7 +17,7 @@ ms.author: dawn.wood
 
 The [Windows Insider Program](https://insider.windows.com/en-us/) lets you install and use the latest Windows 10 Insider Preview builds. The docs cover the new features and describes how to do the most common tasks. If you are an administrator, see [Windows Insider Program for Server](https://docs.microsoft.com/en-us/windows-insider/at-work/). 
 
-<ul class="cardsFTitle panelContent" >
+<ul class="cardsF panelContent" >
     <li>
         <a href="Whats-new-wip-at-home.md">
         <div class="cardSize">
