@@ -38,11 +38,7 @@ The [Windows Insider Program](https://insider.windows.com/en-us/) lets you insta
         </a>
     </li>
     <li>
-<<<<<<< HEAD
         <a href="https://insider.windows.com/en-us/getting-started/>"
-=======
-        <a href="https://insider.windows.com/en-us/getting-started/">
->>>>>>> 4f8c1c1472b4aa3b4a5c5d85060351603b058264
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
