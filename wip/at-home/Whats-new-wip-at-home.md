@@ -35,7 +35,7 @@ What belongs together stays together – we designed Sets to help you keep webpa
 
 Finally, we’ve added some new UI for easily opening new tabs and windows in the File Menu.
 
-TODO: IMAGE HERE
+![alt text](images\tabsinfilewindow.png "tabs in file explorer")
 
 
 And also, in the context menu when right-clicking on a folder.
