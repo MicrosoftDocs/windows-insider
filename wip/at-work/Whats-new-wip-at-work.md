@@ -13,7 +13,7 @@ ms.date: 04/10/2018
 ms.author: dawn.wood
 
 # What’s New in Windows Server 2019 Insider Preview Builds 
-The features listed below are available in preview builds of Windows Server 2019 via the Windows Insider Program for Business.  To obtain the Insider software downloads, registered Insiders may navigate directly to the [Windows Server Insider Preview download page](https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewserver). If you have not yet registered as an Insider, see [Getting started with Server](https://insider.windows.com/en-us/for-business-getting-started-server/) on the [Windows Insider Program for Business](https://insider.windows.com/ForBusiness) portal. 
+The features listed below are available in preview builds of Windows Server 2019 via the Windows Insider Program for Server.  To obtain the Insider software downloads, registered Insiders may navigate directly to the [Windows Server Insider Preview download page](https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewserver). If you have not yet registered as an Insider, see [Getting started with Server](https://insider.windows.com/en-us/for-business-getting-started-server/). 
 
 
 We also encourage you to visit the [Windows Server Insiders space](https://techcommunity.microsoft.com/t5/Windows-Server-Insiders/bd-p/WindowsServerInsiders) on the [Microsoft Tech Communities forum](https://techcommunity.microsoft.com/) to collaborate, share and learn from experts.
