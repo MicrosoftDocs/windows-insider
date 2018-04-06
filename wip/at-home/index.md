@@ -38,7 +38,7 @@ The [Windows Insider Program](https://insider.windows.com/en-us/) lets you insta
         </a>
     </li>
     <li>
-        <a href="https://insider.windows.com/en-us/for-business-getting-started-server/">
+        <a href="https://insider.windows.com/en-us/getting-started/>"
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -49,7 +49,7 @@ The [Windows Insider Program](https://insider.windows.com/en-us/) lets you insta
                     </div>
                     <div class="cardText">
                         <h3>Get Started</h3>
-                <p>Start here for how to complete most common tasks with Windows 10 Insider Preview builds.</p>
+                <p>Start here to complete the initial tasks to get set up with the Windows 10 Insider Program.</p>
                     </div>
                 </div>
             </div>

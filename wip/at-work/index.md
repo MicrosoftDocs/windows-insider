@@ -38,7 +38,7 @@ Windows Insider Program for Server allows you deploy the Windows Server 2019 Ins
         </a>
     </li>
     <li>
-        <a href="https://insider.windows.com/en-us/getting-started/">
+        <a href="https://insider.windows.com/en-us/for-business-getting-started-server/">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -49,7 +49,7 @@ Windows Insider Program for Server allows you deploy the Windows Server 2019 Ins
                     </div>
                     <div class="cardText">
                         <h3>Get Started</h3>
-                <p>Start here for how to complete most common tasks with Windows Server 2019 Insider Preview.</p>
+                <p>Start here to complete the initial tasks to get set up with the Windows 10 Insider Program for Server.</p>
                     </div>
                 </div>
             </div>
