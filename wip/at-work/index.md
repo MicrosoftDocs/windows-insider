@@ -15,9 +15,9 @@ ms.author: dawn.wood
 ---
 # Windows Insider Program for Server docs
 
-Windows Insider Program for Server allows you deploy the Windows Server 2019 Insider Preview builds in your enterprise. The docs cover the new enterprise features we'd like you to test and describes how to do the most common tasks. If you are an administrator, you're in the right place. If you are interested in the Windows Insider Program for your personal computer, see [Windows Insider Program docs](https://docs.microsoft.com/en-us/windows-insider/at-work/).
+Windows Insider Program for Server allows you deploy the Windows Server 2019 Insider Preview builds in your enterprise. The docs cover the new enterprise features we'd like you to test and describes how to do the most common tasks. If you are an administrator, you're in the right place. If you are interested in the Windows Insider Program for your personal computer, see [Windows Insider Program docs](https://docs.microsoft.com/en-us/windows-insider/at-home/).
 
-<ul class="cardsFTitle panelContent">
+<ul class="cardsF panelContent">
     <li>
         <a href="Whats-new-wip-at-work.md">
         <div class="cardSize">
@@ -49,7 +49,7 @@ Windows Insider Program for Server allows you deploy the Windows Server 2019 Ins
                     </div>
                     <div class="cardText">
                         <h3>Get Started</h3>
-                <p>Start here for how to complete most common tasks with Windows Server 2019 Insider Preview.</p>
+                <p>Start here to complete the initial tasks to get set up with the Windows 10 Insider Program for Server.</p>
                     </div>
                 </div>
             </div>
@@ -62,7 +62,7 @@ Windows Insider Program for Server allows you deploy the Windows Server 2019 Ins
 
 <ul class="cardsF panelContent cols cols2">
     <li>
-        <a href="">
+        <a href="https://support.microsoft.com/help/4021566/windows-10-send-feedback-to-microsoft-with-feedback-hub-app">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -73,7 +73,7 @@ Windows Insider Program for Server allows you deploy the Windows Server 2019 Ins
                     </div>
                     <div class="cardText">
                         <h3>Got Feedback?</h3>
-                <p>Use the [Feedback Hub App](https://support.microsoft.com/help/4021566/windows-10-send-feedback-to-microsoft-with-feedback-hub-app) to submit your feedback to Microsoft.</p>
+                <p>Use the Feedback Hub App to submit your feedback to Microsoft.</p>
                     </div>
                 </div>
             </div>
