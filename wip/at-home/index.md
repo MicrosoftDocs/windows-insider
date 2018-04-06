@@ -1,6 +1,6 @@
 ---
 title: Windows Insider Program Documentation
-description: WIP helps you deploy the Windows Insider Program If you are an administrator, see Windows Insider Program for Server. 
+description: Windows Insider Program helps you install and use the latest builds. If you are an administrator, see Windows Insider Program for Server. 
 services: WIP-at-home
 author: dawn.wood
 manager: elizapo
@@ -15,9 +15,9 @@ ms.author: dawn.wood
 ---
 # Windows Insider Program Documentation
 
-WIP for Business helps you deploy the Windows Insider Program in your enterprise. The docs cover the new enterprise features we'd like you to test and describes how to do the most common tasks. If you are an administrator, you're in the right place. If you are interested in the Windows Insider Program for your personal computer, see Windows Insider Program docs.
+The Windows Insider Program helps you install and use the latest Windows 10 Insider Preview builds. The docs cover the new features we'd like you to test and describes how to do the most common tasks. If you are an administrator, see . 
 
-<ul class="cardsFTitle panelContent">
+<ul class="cardsFTitle panelContent cols cols2" >
     <li>
         <a href="Whats-new-wip-at-home.md">
         <div class="cardSize">
