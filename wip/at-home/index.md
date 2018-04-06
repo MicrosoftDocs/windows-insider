@@ -48,7 +48,7 @@ WIP for Business helps you deploy the Windows Insider Program in your enterprise
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Get Started</h3>
+                        <b>Get Started</>b
                 <p>Start here for how to complete most common tasks with Windows 10 Insider Preview builds.</p>
                     </div>
                 </div>
