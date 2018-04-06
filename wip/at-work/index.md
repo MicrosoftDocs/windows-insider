@@ -73,7 +73,7 @@ Windows Insider Program for Server allows you deploy the Windows Server 2019 Ins
                     </div>
                     <div class="cardText">
                         <h3>Got Feedback?</h3>
-                <p>Use the Feedback Hub App to submit your feedback to Microsoft.</p>
+                <p>Use the [Feedback Hub App](https://support.microsoft.com/help/4021566/windows-10-send-feedback-to-microsoft-with-feedback-hub-app) to submit your feedback to Microsoft.</p>
                     </div>
                 </div>
             </div>
