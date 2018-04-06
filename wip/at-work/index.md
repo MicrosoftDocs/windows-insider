@@ -38,7 +38,7 @@ Windows Insider Program for Server allows you deploy the Windows Server 2019 Ins
         </a>
     </li>
     <li>
-        <a href="Get-started-wip-at-work.md">
+        <a href="https://insider.windows.com/en-us/getting-started/">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
