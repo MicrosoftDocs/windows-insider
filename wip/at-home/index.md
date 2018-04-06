@@ -38,7 +38,7 @@ The [Windows Insider Program](https://insider.windows.com/en-us/) lets you insta
         </a>
     </li>
     <li>
-        <a href="Get-started-wip-at-home.md">
+        <a href="https://insider.windows.com/en-us/getting-started/">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
