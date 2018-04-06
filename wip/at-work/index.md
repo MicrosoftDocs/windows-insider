@@ -10,12 +10,12 @@ ms.service: WIP-at-work
 ms.tgt_pltfrm: na
 ms.devlang: na
 ms.topic: landing-page
-ms.date: 04/05/2018
+ms.date: 04/10/2018
 ms.author: dawn.wood
 ---
-# Windows Insider Program for Business Documentation
+# Windows Insider Program for Server docs
 
-WIP for Business helps you deploy the Windows Insider Program in your enterprise. The docs cover the new enterprise features we'd like you to test and describes how to do the most common tasks. If you are an administrator, you're in the right place. If you are interested in the Windows Insider Program for your personal computer, see Windows Insider Program docs.
+Windows Insider Program for Server allows you deploy the Windows Server 2019 Insider Preview builds in your enterprise. The docs cover the new enterprise features we'd like you to test and describes how to do the most common tasks. If you are an administrator, you're in the right place. If you are interested in the Windows Insider Program for your personal computer, see [Windows Insider Program docs](https://docs.microsoft.com/en-us/windows-insider/at-work/).
 
 <ul class="cardsFTitle panelContent">
     <li>

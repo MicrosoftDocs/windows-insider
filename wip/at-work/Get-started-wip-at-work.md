@@ -9,9 +9,12 @@ ms.assetid:
 ms.service: WIP-at-work
 ms.tgt_pltfrm: na
 ms.devlang: na
-ms.topic: landing-page
 ms.date: 04/10/2018
 ms.author: dawn.wood
 ---
 
-# Getting started with Windows Insider Program for Server
+# Getting started with the Windows Insider Program for Server
+There are three steps to get you set up with the Windows Insider Program for Server: register as a Windows Server Insider, install a build, and engage by providing feedback via the Feedback Hub or Windows Server Insiders Tech Community. 
+
+All of these steps are outlined at [Getting started with Server](https://insider.windows.com/en-us/for-business-getting-started-server/). 
+

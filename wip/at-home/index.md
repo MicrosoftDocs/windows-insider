@@ -15,9 +15,9 @@ ms.author: dawn.wood
 ---
 # Windows Insider Program Documentation
 
-The Windows Insider Program helps you install and use the latest Windows 10 Insider Preview builds. The docs cover the new features we'd like you to test and describes how to do the most common tasks. If you are an administrator, see . 
+The [Windows Insider Program](https://insider.windows.com/en-us/) lets you install and use the latest Windows 10 Insider Preview builds. The docs cover the new features and describes how to do the most common tasks. If you are an administrator, see [Windows Insider Program for Server](https://docs.microsoft.com/en-us/windows-insider/at-work/). 
 
-<ul class="cardsFTitle panelContent cols cols2" >
+<ul class="cardsFTitle panelContent" >
     <li>
         <a href="Whats-new-wip-at-home.md">
         <div class="cardSize">
@@ -48,7 +48,7 @@ The Windows Insider Program helps you install and use the latest Windows 10 Insi
                         </div>
                     </div>
                     <div class="cardText">
-                        <b>Get Started</>b
+                        <b>Get Started</b>
                 <p>Start here for how to complete most common tasks with Windows 10 Insider Preview builds.</p>
                     </div>
                 </div>
@@ -68,7 +68,7 @@ The Windows Insider Program helps you install and use the latest Windows 10 Insi
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/media/common/i_feedback.svg" alt="" />
+                            <img src="https://docs.microsoft.com/media/common/i_feedback.svg" alt="got feedback" />
                         </div>
                     </div>
                     <div class="cardText">
