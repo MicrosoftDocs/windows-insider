@@ -66,6 +66,8 @@ After this update, the square root calculation now recognizes perfect squares an
 
 <b>Emoji design updates</b> Based on your feedback and to improve consistency, we’ve made adjustments to the design of some of our emoji. Examples of updated emoji include:
 <b>Before</b>
-![alt text](images/before_emojis.png "emojis before")
+![alt text](images/before_emoji.png "emojis before")
 <b>After</b>
-![alt text](images/after_emojis.png "emojis after")
+![alt text](images/after_emoji.png "emojis after")
+
+<b>Emoji search comes to more languages</b>: Earlier in RS4, we updated the Emoji Panel to support browsing and picking emoji in many new locales. With today’s build, we’re bringing search support to more locales too! Now you can find an emoji by keyword in over 150 locales, including English (Great Britain), French (France), German (Germany), Spanish (Spain), and more. This will help you get the emoji you want easily and quickly. As a reminder, to bring up the Emoji Panel set focus to a text field and press WIN + (period) or WIN + (semicolon).
