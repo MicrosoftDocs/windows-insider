@@ -34,6 +34,10 @@ Resume your project with more control – When restoring your projects you’ll 
 -<b>Improved Settings for Sets</b>: We’ve updated the Settings for Sets via Settings > System > Multitasking. To start with, Sets now has its own section on this page, and is searchable (try typing “Sets” or “tabs” and it will appear in the dropdown). We’ve also added a setting to control the Alt + Tab behavior mentioned above.
 ![alt text](images/Win10Sets.png "Sets")
 -<b>File Explorer & Sets Improvements</b>: We’ve heard your feedback – you’d like it to be easier to get two File Explorer windows grouped together, and we’re working on it. To start with, you no longer need to hold CTRL on the new tab page to launch a File Explorer window in a tab (this was a temporary necessity with the last wave). We’ve also added a new keyboard shortcut to open a new tab when a File Explorer window is in focus: Ctrl + T. Remember, you can use Ctrl + N to open a new window, and Ctrl + W to close the window/tab.
+
+<b>New UI for opening new tabs and windows</b> in the File Menu.
+![alt text](imagestabsinfilewindow/.png "tabs in file window")
+
 -<b>Keyboard shortcuts</b>
 --<b>Ctrl + Win + Tab</b> – switch to next tab.
 --<b>Ctrl + Win + Shift + Tab</b> – switch to previous tab.
@@ -43,8 +47,12 @@ Resume your project with more control – When restoring your projects you’ll 
 -<b>new UI</b> for easily opening new tabs and windows in the File Menu.
 ![alt text](images/tabsinfilewindow.png "tabs in file explorer")
 <b>New context menu options for tabs in Sets</b>: If you right-click on a Sets tab, you’ll discover several options to leverage, including “close other tabs”, “move to new window”, and “close tabs to the right”.
+![alt text](images/newcontextmenu.png "new context menu")
 
 ### Improvements to Tabs
+
+-<b>Improvements to Previous Tabs</b>: We’ve done a few things to improve the experience in this space, including:
+![alt text](images/previoustabs.png "previous tabs")
 -<b>You can choose which Previous Tabs you want to restore</b>, in addition to being able to restore all tabs. 
 -<b>You can now restore Previous Tabs from any type of activity</b> – in addition to restoring tabs when the primary window is a document.
 -When you open a document that previously had tabs, a prompt will appear offering to restore those tabs, and the Previous Tabs button will be in the filled state. For things that aren’t documents, a prompt will not automatically appear, but you’ll know that there are tabs available to restore because the Previous Tabs button will be in the filled state.
@@ -70,4 +78,22 @@ After this update, the square root calculation now recognizes perfect squares an
 <b>After</b>
 ![alt text](images/after_emoji.png "emojis after")
 
-<b>Emoji search comes to more languages</b>: Earlier in RS4, we updated the Emoji Panel to support browsing and picking emoji in many new locales. With today’s build, we’re bringing search support to more locales too! Now you can find an emoji by keyword in over 150 locales, including English (Great Britain), French (France), German (Germany), Spanish (Spain), and more. This will help you get the emoji you want easily and quickly. As a reminder, to bring up the Emoji Panel set focus to a text field and press WIN + (period) or WIN + (semicolon).
+<b>Emoji search comes to more languages</b>: You can find an emoji by keyword in over 150 locales, including English (Great Britain), French (France), German (Germany), Spanish (Spain), and more. This will help you get the emoji you want easily and quickly. As a reminder, to bring up the Emoji Panel set focus to a text field and press WIN + (period) or WIN + (semicolon).
+
+## Windows App Permissions 
+
+You have more control so you can now decide which UWP apps can access your full file system. Particular UWP apps will be granted permission to have broad file system access. This capability will be granted on a per app basis by Microsoft. If a UWP app has the broad file system access restricted capability, you will receive a consent dialog prompting you to accept or deny the request. If at any time you change your mind about the decision, you can go to Settings > Privacy where you’ll find a new Settings page for File System Access. On this page, you can turn access on or off globally, and if it’s on you can also turn it on or off for each app that has requested the capability. UWPs with broad file system access will not appear in the Photos, Videos, or Documents privacy settings pages. If you grant broad file system access, this includes Photos, Videos and Documents.
+
+## New features for Windows 10 Pro for Workstations
+
+<b>A new power scheme – Ultimate Performance</b>: Demanding workloads on workstations always desire more performance. As part of our effort to provide the absolute maximum performance we’re introducing a new power policy called Ultimate Performance. Windows has developed key areas where performance and efficiency tradeoffs are made in the OS. Over time, we’ve amassed a collection of settings which allow the OS to quickly tune the behavior based on user preference, policy, underlying hardware or workload.
+This new policy builds on the current High-Performance policy, and it goes a step further to eliminate micro-latencies associated with fine grained power management techniques. The Ultimate Performance Power plan is selectable either by an OEM on new systems or selectable by a user. To do so, you can go to Control Panel and navigate to Power Options under Hardware and Sound (you can also “run” Powercfg.cpl). Just like other power policies in Windows, the contents of the Ultimate Performance policy can be customized.
+
+![alt text](images/ultimate_power_scheme.png "Ultimate power scheme")
+
+As the power scheme is geared towards reducing micro-latencies it may directly impact hardware; and consume more power than the default balanced plan. The Ultimate Performance power policy is currently not available on battery powered systems.
+
+<b>Productivity focused out of box applications</b>: In the Windows 10 Fall Creators Update, the out of box experience for Windows 10 Pro for Workstations draws from the Pro edition of Windows 10. One area where this is noticeable is the suite of applications installed out of the box visible as tiles in the start menu. In the next release for Windows, you will see for Windows 10 Pro for Workstations productivity and enterprise focused applications in place of consumer applications and games. This was one of the top feedback shared with us by our partners and users and we’re delivering this in our next update.
+
+![alt text](images/productivity_apps.png "productivity apps")
+
