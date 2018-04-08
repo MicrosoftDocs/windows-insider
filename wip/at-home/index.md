@@ -38,23 +38,7 @@ The [Windows Insider Program](https://insider.windows.com/en-us/) lets you insta
         </a>
     </li>
     <li>
-        <a href="https://insider.windows.com/en-us/getting-started/>"
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/media/common/i_get-started.svg" alt="" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Get Started</h3>
-                <p>Start here to complete the initial tasks to get set up with the Windows 10 Insider Program.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
+
     </li>
 </ul>
 
