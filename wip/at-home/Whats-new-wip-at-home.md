@@ -61,3 +61,11 @@ TODO: IMAGE HERE
 Windows Calculator has been updated (version 10.1803.711.0) to now correctly calculate square roots for perfect squares (integers that are squares of other integers). Because of the [arbitrary precision arithmetic library](https://blogs.msdn.microsoft.com/oldnewthing/20160628-00/?p=93765) used by the Calculator app, the square root calculation is an approximation calculated using the [Exponential Identity](https://en.wikipedia.org/wiki/Methods_of_computing_square_roots%23Exponential_identity) function.
 Previously, when you would calculate the square root of 4, the result would be 1.99999999999999999989317180305609 which would be rounded to 2 when displayed, because we calculated enough digits to do the rounding correctly. However, as soon as you subtract 2, you would see the remaining digits.
 After this update, the square root calculation now recognizes perfect squares and correctly returns exactly 2 for the square root of 4.
+
+## Input Improvements 
+
+<b>Emoji design updates</b> Based on your feedback and to improve consistency, we’ve made adjustments to the design of some of our emoji. Examples of updated emoji include:
+<b>Before</b>
+![alt text](images/before_emojis.png "emojis before")
+<b>After</b>
+![alt text](images/after_emojis.png "emojis after")
