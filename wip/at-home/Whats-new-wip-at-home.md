@@ -164,14 +164,14 @@ Steps:
 1. Navigate to Local Group Policy Editor > Administrative Templates > Windows Components > Windows Defender Application Guard.
 ![alt text](images/wdag.png "App Guard")
 2. Select Allow files to download and save to the host operating system from Windows Defender Application Guard
-3. Select Enabled and Apply
+3. Select <b>Enabled</b> and <b>Apply<b/>
 ![alt text](images/enablewdag.png "Enable App Guard")
 4. After this policy is enabled, you can download files from your Windows Defender Edge session to your Downloads folder. The files from Application Guard will be saved in a folder called “Untrusted files” nested inside the Downloads folder. This folder is created automatically when you first download a file from Application Guard after enabling the policy.
 
 ![alt text](images/untrustedfiles.png "untrusted files")
 
 Notes:
-This feature is off by default.
-Users will need to assess the files they downloaded and assume any risks of opening on the host.
-We encourage you to try our new download feature and assess our improved launch performance. Your feedback and suggestion are important to us as we continue to improve our products. You can click here to open Feedback Hub to give feedback on WDAG.
-We’ve also made updates to Windows Defender System Guard.  With Windows Defender System Guard, we are making a leap forward in platform security with memory integrity by default and bringing a born secure device promise to our user base.  To learn more about these changes and talk with product team, see their post in the Windows Insider Technical Community.
+-This feature is off by default.
+-Users will need to assess the files they downloaded and assume any risks of opening on the host.
+-We encourage you to try our new download feature and assess our improved launch performance. Your feedback and suggestion are important to us as we continue to improve our products. You can click here to open Feedback Hub to give feedback on WDAG.
+-We’ve also made updates to Windows Defender System Guard.  With Windows Defender System Guard, we are making a leap forward in platform security with memory integrity by default and bringing a born secure device promise to our user base.  To learn more about these changes and talk with product team, see their post in the Windows Insider Technical Community.
