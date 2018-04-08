@@ -36,7 +36,7 @@ Resume your project with more control – When restoring your projects you’ll 
 -<b>File Explorer & Sets Improvements</b>: We’ve heard your feedback – you’d like it to be easier to get two File Explorer windows grouped together, and we’re working on it. To start with, you no longer need to hold CTRL on the new tab page to launch a File Explorer window in a tab (this was a temporary necessity with the last wave). We’ve also added a new keyboard shortcut to open a new tab when a File Explorer window is in focus: Ctrl + T. Remember, you can use Ctrl + N to open a new window, and Ctrl + W to close the window/tab.
 
 <b>New UI for opening new tabs and windows</b> in the File Menu.
-![alt text](imagestabsinfilewindow/.png "tabs in file window")
+![alt text](images/tabsinfilewindow.png "tabs in file window")
 
 -<b>Keyboard shortcuts</b>
 --<b>Ctrl + Win + Tab</b> – switch to next tab.
