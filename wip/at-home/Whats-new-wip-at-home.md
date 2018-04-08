@@ -62,7 +62,7 @@ Resume your project with more control – When restoring your projects you’ll 
 
 In Bluetooth & other devices Settings, you can now check the battery level of your Bluetooth devices. For Bluetooth devices that support this feature, the battery percentage will update whenever your PC and the device are connected.
 
-TODO: IMAGE HERE
+![alt text](images/bluetoothbattery.png "bluetooth battery")
 
 ## Windows Calculator 
 
