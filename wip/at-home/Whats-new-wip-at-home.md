@@ -127,17 +127,18 @@ Search will work for Outlook, Hotmail, Live and Office 365 accounts. We do not y
 
 ## High Efficiency Image File Format (HEIF)
 
-The <b>High Efficiency Image File Format (HEIF)</b> has arrived for Windows 10 and the Photos app! HEIF is an image container that leverages modern codecs like HEVC to improve quality, compression, and capabilities compared to earlier formats like JPEG, GIF, and PNG. In addition to traditional single images, HEIF supports encoding image sequences, image collections, auxiliary images like alpha or depth maps, live images & video, audio, and HDR for greater contrast. We have heard your feedback that these features and the ability to share photos easily with other platforms is important to you. This release we are delivering essential viewing support (You cannot edit HEIF images in this release).
+The <b>High Efficiency Image File Format (HEIF)</b> has arrived for Windows 10 and the Photos app! [HEIF is an image container](https://en.wikipedia.org/wiki/High_Efficiency_Image_File_Format) that leverages modern codecs like HEVC to improve quality, compression, and capabilities compared to earlier formats like JPEG, GIF, and PNG. In addition to traditional single images, HEIF supports encoding image sequences, image collections, auxiliary images like alpha or depth maps, live images & video, audio, and HDR for greater contrast. We have heard your feedback that these features and the ability to share photos easily with other platforms is important to you. 
 
-In order to try this out, you need to join the Windows App Preview Program for the Photos app and make sure you are running the March release of the  Photos app (Version 2018.18022.13740.0 or newer). This version of the Photos app has been updated for RS4 and RS5 to support viewing the primary image inside a HEIF file and to guide the install of dependencies like the HEIF and HEVC media extensions from the Microsoft Store. Once installed, these media extensions enable HEIF viewing in Photos as well as thumbnails and metadata in File Explorer.
+In order to try this out, you need to join the Windows App Preview Program for the Photos app and make sure you are running the March release of the  Photos app (Version 2018.18022.13740.0 or newer). This version of the [Photos](https://www.microsoft.com/store/productId/9WZDNCRFJBH4) app has been updated for RS4 and RS5 to support viewing the primary image inside a HEIF file and to guide the install of dependencies like the HEIF and HEVC media extensions from the Microsoft Store. Once installed, these media extensions enable HEIF viewing in Photos as well as thumbnails and metadata in File Explorer.
 
-Additionally, any application that uses WIC, WinRT Imaging APIs, or the XAML Image control can now add similar support for viewing single HEIF images.
+Additionally, any application that uses [WIC](https://msdn.microsoft.com/en-us/library/windows/desktop/ee719654(v=vs.85).aspx), [WinRT Imaging APIs](https://docs.microsoft.com/en-us/uwp/api/windows.graphics.imaging), or the [XAML Image control](https://docs.microsoft.com/en-us/uwp/api/windows.ui.xaml.controls.image) can now add similar support for viewing single HEIF images.
 
-Click here to open Feedback Hub and send us feedback on the HEIF experience with the Photos app and Windows 10.
+[Click here](https://aka.ms/photosfb) to open Feedback Hub and send us feedback on the HEIF experience with the Photos app and Windows 10.
 
 ## External GPU Safe Remove Experience
 
-In RS5, we are introducing a safe remove experience for external GPUs connected via Thunderbolt 3. The safe remove experience allows you to know which applications are running on an external GPU so that you can safely remove to prevent data loss during detach.
+Safe remove experience for external GPUs connected via Thunderbolt 3. The safe remove experience allows you to know which applications are running on an external GPU so that you can safely remove to prevent data loss during detach.
+
 To safely remove an external graphics card, go to the “Safely Remove Hardware and Eject Media” icon and click to eject your GPU. If there are applications running on your external GPU, then a dialog will appear with the applications that are currently running. Close the applications to safely remove the device. If there are no applications currently running on your external graphics device then no dialog will appear and you can safely detach your external GPU.
 
 ## A new privacy settings layout in the set up experience 
@@ -145,10 +146,14 @@ To safely remove an external graphics card, go to the “Safely Remove Hardware 
 This build includes the same changes to the set up experience for privacy settings mentioned last week in RS4 Build 17115. This new design conveys focused information to help our customers make focused choices about their privacy and offers two new settings for Inking & Typing and Find my device. More details about the change can be found in this blog post.
 
 ## Windows Defender Application Guard (WDAG) Improvements
+
 The Windows Defender Application Guard (WDAG) Team has introduced new improvements for users to have a better experience with our upcoming release. We have combed through our user feedback and acted to ensure your needs are met. On top of significant performance improvements, we have added an ability to download documents highlighted below.
-Performance improvements: The teams at Microsoft are constantly working to improve performance for our users. Windows Defender Application Guard is no different. In this upcoming feature update, you will notice an improvement in the launch time for Application Guard. We have made the start process lighter and faster, which will provide our users with a better experience when accessing Microsoft Edge in Windows Defender Application Guard.
-Download files to the host: One of the items our users voiced was an inability to “download files from within WDAG” to the host. This created an inconsistent experience for Edge overall as downloaded files were stuck inside the container. In this release, users can turn on a feature to download files from their WDAG browsing session onto the host file system. This feature is available in the Windows 10 Enterprise edition and must be turned on. Once the feature is enabled, users will be able to download files into a folder created in their Downloads folder and open all files on the host.
-How to enable and configure the Download to host feature:
+
+<b>Performance improvements</b>: The teams at Microsoft are constantly working to improve performance for our users. Windows Defender Application Guard is no different. In this upcoming feature update, you will notice an improvement in the launch time for Application Guard. We have made the start process lighter and faster, which will provide our users with a better experience when accessing Microsoft Edge in Windows Defender Application Guard.
+
+<b>Download files to the host</b>: One of the items our users voiced was an inability to “download files from within WDAG” to the host. This created an inconsistent experience for Edge overall as downloaded files were stuck inside the container. In this release, users can turn on a feature to download files from their WDAG browsing session onto the host file system. This feature is available in the Windows 10 Enterprise edition and must be turned on. Once the feature is enabled, users will be able to download files into a folder created in their Downloads folder and open all files on the host.
+
+<i>How to enable and configure the Download to host feature</i>:
 
 Requirements:
 Latest Windows 10 Enterprise RS4 Builds.
