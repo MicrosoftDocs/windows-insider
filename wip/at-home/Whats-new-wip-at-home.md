@@ -97,3 +97,79 @@ As the power scheme is geared towards reducing micro-latencies it may directly i
 
 ![alt text](images/productivity_apps.png "productivity apps")
 
+## Search in Calendar
+
+Now you can find past or future events by searching for the name, location, people included or words in the event body. Events that match your search will be clearly visible on your calendar, while those that don’t will be greyed-out so you can find what you need quickly.
+
+![alt text](images/calendarwithsearch.png "productivity apps")
+
+Search will work for Outlook, Hotmail, Live and Office 365 accounts. We do not yet support searching Exchange Server, Gmail, Yahoo or other IMAP calendars.
+
+## Cortana Show Me voice queries
+
+ You can now launch the app through voice queries. Simply say to Cortana, “Show me how to change my background,” and you’ll get the previous help results, with a new “Let’s go” button below, which launches the guided help experience. Everything else is the same as last week – the app is available in English (US and Great Britain) and in German, and there are 15 settings guides. While most Insiders don’t need pointers like this, it’s for all the friends and family we have who need a pointer – please share it with them.
+
+ You can download [Cortana Show Me](https://www.microsoft.com/en-us/store/r/cortana-follow-me/9pl1gmkcxm8c) from the Microsoft Store.
+
+ Here are some voice queries to try:
+-Update Windows – Try, “Update my Windows device”
+-Check if an app is installed – Try, “How to see what apps are installed”
+-Uninstall an app – Try “How to uninstall apps”
+-Change your desktop background – Try, “Show me how to change my background”
+-Use Airplane Mode – Try, “How do I turn on airplane mode”
+-Change your display brightness – Try, “Show me how to change my screen brightness”
+-Add nearby printers or scanners – Try, “How to add a printer”
+-Turn off Windows Defender Security Center – Try, “Show me how to turn off Windows Defender Security Center”
+-Change Wi-Fi settings – Try, “Show me how to change Wi-Fi network”
+-Change your power settings – Try, “How to change when my computer goes to sleep”
+-Discover Bluetooth devices – Try, “Show me how to discover devices”
+-Check your version of Windows – Try, “How do I find my current version of Windows”
+
+## High Efficiency Image File Format (HEIF)
+
+The <b>High Efficiency Image File Format (HEIF)</b> has arrived for Windows 10 and the Photos app! HEIF is an image container that leverages modern codecs like HEVC to improve quality, compression, and capabilities compared to earlier formats like JPEG, GIF, and PNG. In addition to traditional single images, HEIF supports encoding image sequences, image collections, auxiliary images like alpha or depth maps, live images & video, audio, and HDR for greater contrast. We have heard your feedback that these features and the ability to share photos easily with other platforms is important to you. This release we are delivering essential viewing support (You cannot edit HEIF images in this release).
+
+In order to try this out, you need to join the Windows App Preview Program for the Photos app and make sure you are running the March release of the  Photos app (Version 2018.18022.13740.0 or newer). This version of the Photos app has been updated for RS4 and RS5 to support viewing the primary image inside a HEIF file and to guide the install of dependencies like the HEIF and HEVC media extensions from the Microsoft Store. Once installed, these media extensions enable HEIF viewing in Photos as well as thumbnails and metadata in File Explorer.
+
+Additionally, any application that uses WIC, WinRT Imaging APIs, or the XAML Image control can now add similar support for viewing single HEIF images.
+
+Click here to open Feedback Hub and send us feedback on the HEIF experience with the Photos app and Windows 10.
+
+## External GPU Safe Remove Experience
+
+In RS5, we are introducing a safe remove experience for external GPUs connected via Thunderbolt 3. The safe remove experience allows you to know which applications are running on an external GPU so that you can safely remove to prevent data loss during detach.
+To safely remove an external graphics card, go to the “Safely Remove Hardware and Eject Media” icon and click to eject your GPU. If there are applications running on your external GPU, then a dialog will appear with the applications that are currently running. Close the applications to safely remove the device. If there are no applications currently running on your external graphics device then no dialog will appear and you can safely detach your external GPU.
+
+## A new privacy settings layout in the set up experience 
+
+This build includes the same changes to the set up experience for privacy settings mentioned last week in RS4 Build 17115. This new design conveys focused information to help our customers make focused choices about their privacy and offers two new settings for Inking & Typing and Find my device. More details about the change can be found in this blog post.
+
+## Windows Defender Application Guard (WDAG) Improvements
+The Windows Defender Application Guard (WDAG) Team has introduced new improvements for users to have a better experience with our upcoming release. We have combed through our user feedback and acted to ensure your needs are met. On top of significant performance improvements, we have added an ability to download documents highlighted below.
+Performance improvements: The teams at Microsoft are constantly working to improve performance for our users. Windows Defender Application Guard is no different. In this upcoming feature update, you will notice an improvement in the launch time for Application Guard. We have made the start process lighter and faster, which will provide our users with a better experience when accessing Microsoft Edge in Windows Defender Application Guard.
+Download files to the host: One of the items our users voiced was an inability to “download files from within WDAG” to the host. This created an inconsistent experience for Edge overall as downloaded files were stuck inside the container. In this release, users can turn on a feature to download files from their WDAG browsing session onto the host file system. This feature is available in the Windows 10 Enterprise edition and must be turned on. Once the feature is enabled, users will be able to download files into a folder created in their Downloads folder and open all files on the host.
+How to enable and configure the Download to host feature:
+
+Requirements:
+Latest Windows 10 Enterprise RS4 Builds.
+Windows Defender Application Guard feature is installed.
+Network isolation policies are configured.
+Steps:
+Navigate to Local Group Policy Editor > Administrative Templates > Windows Components > Windows Defender Application Guard.
+
+![alt text](images/wdag.png "App Guard")
+
+Select Allow files to download and save to the host operating system from Windows Defender Application Guard
+Select Enabled and Apply
+
+![alt text](images/enablewdag.png "Enable App Guard")
+
+After this policy is enabled, you can download files from your Windows Defender Edge session to your Downloads folder. The files from Application Guard will be saved in a folder called “Untrusted files” nested inside the Downloads folder. This folder is created automatically when you first download a file from Application Guard after enabling the policy.
+
+![alt text](images/untrustedfiles.png "untrusted files")
+
+Notes:
+This feature is off by default.
+Users will need to assess the files they downloaded and assume any risks of opening on the host.
+We encourage you to try our new download feature and assess our improved launch performance. Your feedback and suggestion are important to us as we continue to improve our products. You can click here to open Feedback Hub to give feedback on WDAG.
+We’ve also made updates to Windows Defender System Guard.  With Windows Defender System Guard, we are making a leap forward in platform security with memory integrity by default and bringing a born secure device promise to our user base.  To learn more about these changes and talk with product team, see their post in the Windows Insider Technical Community.
