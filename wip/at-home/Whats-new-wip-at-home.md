@@ -156,20 +156,17 @@ The Windows Defender Application Guard (WDAG) Team has introduced new improvemen
 <i>How to enable and configure the Download to host feature</i>:
 
 Requirements:
-Latest Windows 10 Enterprise RS4 Builds.
-Windows Defender Application Guard feature is installed.
-Network isolation policies are configured.
+-Latest Windows 10 Enterprise RS4 Builds.
+-Windows Defender Application Guard feature is installed.
+-Network isolation policies are configured.
+
 Steps:
-Navigate to Local Group Policy Editor > Administrative Templates > Windows Components > Windows Defender Application Guard.
-
+1. Navigate to Local Group Policy Editor > Administrative Templates > Windows Components > Windows Defender Application Guard.
 ![alt text](images/wdag.png "App Guard")
-
-Select Allow files to download and save to the host operating system from Windows Defender Application Guard
-Select Enabled and Apply
-
+2. Select Allow files to download and save to the host operating system from Windows Defender Application Guard
+3. Select Enabled and Apply
 ![alt text](images/enablewdag.png "Enable App Guard")
-
-After this policy is enabled, you can download files from your Windows Defender Edge session to your Downloads folder. The files from Application Guard will be saved in a folder called “Untrusted files” nested inside the Downloads folder. This folder is created automatically when you first download a file from Application Guard after enabling the policy.
+4. After this policy is enabled, you can download files from your Windows Defender Edge session to your Downloads folder. The files from Application Guard will be saved in a folder called “Untrusted files” nested inside the Downloads folder. This folder is created automatically when you first download a file from Application Guard after enabling the policy.
 
 ![alt text](images/untrustedfiles.png "untrusted files")
 
