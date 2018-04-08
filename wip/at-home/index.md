@@ -1,5 +1,5 @@
 ---
-title: Windows Insider Program Documentation
+title: Windows Insider Program docs
 description: Windows Insider Program helps you install and use the latest builds. If you are an administrator, see Windows Insider Program for Server. 
 services: WIP-at-home
 author: dawn.wood
@@ -13,7 +13,7 @@ ms.topic: landing-page
 ms.date: 04/10/2018
 ms.author: dawn.wood
 ---
-# Windows Insider Program Documentation
+# Windows Insider Program docs
 
 The [Windows Insider Program](https://insider.windows.com/en-us/) lets you install and use the latest Windows 10 Insider Preview builds. The docs cover the new features and describes how to do the most common tasks. If you are an administrator, see <b>Windows Insider Program for Server</b>.<!--(https://docs.microsoft.com/en-us/windows-insider/at-work/) change when ready--> 
 
