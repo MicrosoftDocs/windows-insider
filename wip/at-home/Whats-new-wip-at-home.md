@@ -15,7 +15,7 @@ ms.author: dawn.wood
 ---
 
 #  What's new in the Windows 10 Insider Preview Builds (RS5)
-The [Windows Insider Program](https://insider.windows.com/en-us/) lets you preview builds of the upcoming release of Windows 10. This topic lists all new Windows 10 features for you to try. Unlike the [Windows Insider Program Blog](https://blogs.windows.com/windowsexperience/tag/windows-insider-program) and the Windows Insider Program for Server community posts, this topic is organized by feature, then by date. 
+The [Windows Insider Program](https://insider.windows.com/en-us/) lets you preview builds of the upcoming release of Windows 10. This topic lists all new Windows 10 features for you to try. Unlike the [Windows Insider Program Blog](https://blogs.windows.com/windowsexperience/tag/windows-insider-program) and the Windows Insider Program for Server community posts, this topic is organized by feature instead of the by the build number. 
 
 ## Sets
 Sets is designed to make sure that everything related to your task: relevant webpages, research documents, necessary files, and applications, is connected and available to you in one click. With Sets, 1st party experiences like Mail, Calendar, OneNote, MSN News, Windows, and Microsoft Edge become more integrated to create a seamless experience, so you can get back to what’s important and be productive, recapturing that moment, saving time – we believe that’s the true value of Sets. Here are some of the things you can do with sets.
@@ -37,35 +37,38 @@ The tab UI in Sets now shows icons including website favicons and app icons.
 Resume your project with more control – When restoring your projects you’ll be prompted to restore related apps and webpages. In Timeline you’ll see when a project has multiple activities associated with it.
 
 <b>Improved Settings for Sets</b>: We’ve updated the Settings for Sets via Settings > System > Multitasking. To start with, Sets now has its own section on this page, and is searchable (try typing “Sets” or “tabs” and it will appear in the dropdown). We’ve also added a setting to control the Alt + Tab behavior mentioned above.
+
 ![alt text](images/Win10Sets.png "Sets")
 
 <b>File Explorer & Sets Improvements</b>: We’ve heard your feedback – you’d like it to be easier to get two File Explorer windows grouped together, and we’re working on it. To start with, you no longer need to hold CTRL on the new tab page to launch a File Explorer window in a tab (this was a temporary necessity with the last wave). We’ve also added a new keyboard shortcut to open a new tab when a File Explorer window is in focus: Ctrl + T. Remember, you can use Ctrl + N to open a new window, and Ctrl + W to close the window/tab.
 
 <b>New UI for opening new tabs and windows</b> in the File Menu.
+
 ![alt text](images/tabsinfilewindow.png "tabs in file window")
 
 <b>Keyboard shortcuts</b>
 
-<b>Ctrl + Win + Tab</b> – switch to next tab.
+* <b>Ctrl + Win + Tab</b> – switch to next tab.
 * <b>Ctrl + Win + Shift + Tab</b> – switch to previous tab.
 * <b>Ctrl + Win + T </b>– open a new tab.
 * <b>Ctrl + Win + N </b> - open a new window.
 * <b>Ctrl + Win + W </b>– close current tab or window.
 
 <b>new UI</b> for easily opening new tabs and windows in the File Menu.
+
 ![alt text](images/tabsinfilewindow.png "tabs in file explorer")
 
 <b>New context menu options for tabs in Sets</b>: If you right-click on a Sets tab, you’ll discover several options to leverage, including “close other tabs”, “move to new window”, and “close tabs to the right”.
+
 ![alt text](images/newcontextmenu.png "new context menu")
 
-## Tabs
-
 <b>Improvements to Previous Tabs</b>: We’ve done a few things to improve the experience in this space, including:
-![alt text](images/previoustabs.png "previous tabs")
 
 <b>You can choose which Previous Tabs you want to restore</b>, in addition to being able to restore all tabs. 
 
 <b>You can now restore Previous Tabs from any type of activity</b> – in addition to restoring tabs when the primary window is a document.
+
+![alt text](images/previoustabs.png "previous tabs")
 
 When you open a document that previously had tabs, a prompt will appear offering to restore those tabs, and the Previous Tabs button will be in the filled state. For things that aren’t documents, a prompt will not automatically appear, but you’ll know that there are tabs available to restore because the Previous Tabs button will be in the filled state.
 
@@ -86,9 +89,13 @@ After this update, the square root calculation now recognizes perfect squares an
 ## Input 
 
 <b>Emoji design updates</b> Based on your feedback and to improve consistency, we’ve made adjustments to the design of some of our emoji. Examples of updated emoji include:
+
 <b>Before</b>
+
 ![alt text](images/before_emoji.png "emojis before")
+
 <b>After</b>
+
 ![alt text](images/after_emoji.png "emojis after")
 
 <b>Emoji search comes to more languages</b>: You can find an emoji by keyword in over 150 locales, including English (Great Britain), French (France), German (Germany), Spanish (Spain), and more. This will help you get the emoji you want easily and quickly. As a reminder, to bring up the Emoji Panel set focus to a text field and press WIN + (period) or WIN + (semicolon).
@@ -176,10 +183,14 @@ The Windows Defender Application Guard (WDAG) Team has introduced new improvemen
 
 <b>Steps:</b>
 1. Navigate to Local Group Policy Editor > Administrative Templates > Windows Components > Windows Defender Application Guard.
+
 ![alt text](images/wdag.png "App Guard")
+
 2. Select Allow files to download and save to the host operating system from Windows Defender Application Guard
 3. Select <b>Enabled</b> and <b>Apply<b/>
+
 ![alt text](images/enablewdag.png "Enable App Guard")
+
 4. After this policy is enabled, you can download files from your Windows Defender Edge session to your Downloads folder. The files from Application Guard will be saved in a folder called “Untrusted files” nested inside the Downloads folder. This folder is created automatically when you first download a file from Application Guard after enabling the policy.
 
 ![alt text](images/untrustedfiles.png "untrusted files")
