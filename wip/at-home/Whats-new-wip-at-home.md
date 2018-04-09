@@ -64,10 +64,14 @@ Resume your project with more control – When restoring your projects you’ll 
 
 <b>Improvements to Previous Tabs</b>: We’ve done a few things to improve the experience in this space, including:
 ![alt text](images/previoustabs.png "previous tabs")
--<b>You can choose which Previous Tabs you want to restore</b>, in addition to being able to restore all tabs. 
--<b>You can now restore Previous Tabs from any type of activity</b> – in addition to restoring tabs when the primary window is a document.
--When you open a document that previously had tabs, a prompt will appear offering to restore those tabs, and the Previous Tabs button will be in the filled state. For things that aren’t documents, a prompt will not automatically appear, but you’ll know that there are tabs available to restore because the Previous Tabs button will be in the filled state.
--We added an animation to the experience when there are no Previous Tabs available to be restored.
+
+<b>You can choose which Previous Tabs you want to restore</b>, in addition to being able to restore all tabs. 
+
+<b>You can now restore Previous Tabs from any type of activity</b> – in addition to restoring tabs when the primary window is a document.
+
+When you open a document that previously had tabs, a prompt will appear offering to restore those tabs, and the Previous Tabs button will be in the filled state. For things that aren’t documents, a prompt will not automatically appear, but you’ll know that there are tabs available to restore because the Previous Tabs button will be in the filled state.
+
+We added an animation to the experience when there are no Previous Tabs available to be restored.
 
 ## Bluetooth battery percentage in Settings
 
