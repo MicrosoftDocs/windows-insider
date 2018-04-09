@@ -15,7 +15,7 @@ ms.author: dawn.wood
 ---
 # Windows Insider Program for Server docs
 
-Windows Insider Program for Server allows you deploy the Windows Server 2019 Insider Preview builds in your enterprise. The docs cover the new enterprise features we'd like you to test and describes how to do the most common tasks. If you are an administrator, you're in the right place. If you are interested in the Windows Insider Program for your personal computer, see <b>Windows Insider Program docs</b>. <!--Change to real link once we're ready.-->
+Windows Insider Program for Server allows you deploy the Windows Server 2019 Insider Preview builds in your enterprise. The docs cover the new enterprise features we'd like you to test and describes how to do the most common tasks. If you are an administrator, you're in the right place. 
 
 <ul class="cardsF panelContent">
     <li>
