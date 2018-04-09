@@ -22,11 +22,15 @@ Sets is designed to make sure that everything related to your task: relevant web
 
 Here are the new features:
 
--<b>Drag and drop app tabs within and between Sets windows is now supported</b>: It works just like it sounds! You can now drag an app tab around within the Set or combine tabbed app windows into Sets.
-<i>Note: If you open a Microsoft Edge tab outside of a Set, you can’t drag and drop it into a Sets window. Drag and drop for Microsoft Edge web tabs within Sets isn’t supported yet and you may experience a crash if this is attempted.</i>
--<b>Tabs are now bubbled up in Alt + Tab</b>: Have Photos, Microsoft Edge, and OneNote tabbed together? You can now use Alt + Tab to switch between them. Prefer to only show the primary window in Alt + Tab? There’s a new setting – more on that in just a moment…
+* <b>Drag and drop app tabs within and between Sets windows is now supported</b>: It works just like it sounds! You can now drag an app tab around within the Set or combine tabbed app windows into Sets.  
+
+<i>Note: If you open a Microsoft Edge tab outside of a Set, you can’t drag and drop it into a Sets window. Drag and drop for Microsoft Edge web tabs within Sets isn’t supported yet and you may experience a crash if this is attempted.</i>  
+
+<b>Tabs are now bubbled up in Alt + Tab</b>: Have Photos, Microsoft Edge, and OneNote tabbed together? You can now use Alt + Tab to switch between them. Prefer to only show the primary window in Alt + Tab? 
+
 <i>Note: If you have multiple Microsoft Edge windows in a Set, only the one most recently accessed will be visible in Alt + Tab.</i>
--<b>Support for desktop (Win32) apps.</b> Sets now supports File Explorer, Notepad, Command Prompt, and PowerShell. One of the top feature requests by Insiders has been tabs for File Explorer and with Sets you can get a tabbed File Explorer experience.
+
+<b>Support for desktop (Win32) apps.</b> Sets now supports File Explorer, Notepad, Command Prompt, and PowerShell. One of the top feature requests by Insiders has been tabs for File Explorer and with Sets you can get a tabbed File Explorer experience.
 -<b>Launch apps from the new tab page</b> by typing the app name into the search box.
 -<b>UWP apps are launched in the same window</b> replacing the new tab page.
 The tab UI in Sets now shows icons including website favicons and app icons.
@@ -38,20 +42,22 @@ Resume your project with more control – When restoring your projects you’ll 
 <b>New UI for opening new tabs and windows</b> in the File Menu.
 ![alt text](images/tabsinfilewindow.png "tabs in file window")
 
--<b>Keyboard shortcuts</b>
---<b>Ctrl + Win + Tab</b> – switch to next tab.
+<b>Keyboard shortcuts</b>
+
+<b>Ctrl + Win + Tab</b> – switch to next tab.
 --<b>Ctrl + Win + Shift + Tab</b> – switch to previous tab.
 --<b>Ctrl + Win + T </b>– open a new tab.
 --<b>Ctrl + Win + N </b> - open a new window.
 --<b>Ctrl + Win + W </b>– close current tab or window.
--<b>new UI</b> for easily opening new tabs and windows in the File Menu.
+
+<b>new UI</b> for easily opening new tabs and windows in the File Menu.
 ![alt text](images/tabsinfilewindow.png "tabs in file explorer")
 <b>New context menu options for tabs in Sets</b>: If you right-click on a Sets tab, you’ll discover several options to leverage, including “close other tabs”, “move to new window”, and “close tabs to the right”.
 ![alt text](images/newcontextmenu.png "new context menu")
 
 ### Improvements to Tabs
 
--<b>Improvements to Previous Tabs</b>: We’ve done a few things to improve the experience in this space, including:
+<b>Improvements to Previous Tabs</b>: We’ve done a few things to improve the experience in this space, including:
 ![alt text](images/previoustabs.png "previous tabs")
 -<b>You can choose which Previous Tabs you want to restore</b>, in addition to being able to restore all tabs. 
 -<b>You can now restore Previous Tabs from any type of activity</b> – in addition to restoring tabs when the primary window is a document.
