@@ -133,18 +133,18 @@ Search will work for Outlook, Hotmail, Live and Office 365 accounts. We do not y
 
  Here are some voice queries to try:
 
-* Update Windows – Try, “Update my Windows device”
-* Check if an app is installed – Try, “How to see what apps are installed”
-* Uninstall an app – Try “How to uninstall apps”
-* Change your desktop background – Try, “Show me how to change my background”
-* Use Airplane Mode – Try, “How do I turn on airplane mode”
-* Change your display brightness – Try, “Show me how to change my screen brightness”
-* Add nearby printers or scanners – Try, “How to add a printer”
-* Turn off Windows Defender Security Center – Try, “Show me how to turn off Windows Defender Security Center”
-* Change Wi-Fi settings – Try, “Show me how to change Wi-Fi network”
-* Change your power settings – Try, “How to change when my computer goes to sleep”
-* Discover Bluetooth devices – Try, “Show me how to discover devices”
-* Check your version of Windows – Try, “How do I find my current version of Windows”
+* <b>Update Windows</b>– Try, “Update my Windows device”
+* <b>Check if an app is installed</b> – Try, “How to see what apps are installed”
+* <b>Uninstall an app</b> – Try “How to uninstall apps”
+* <b>Change your desktop background</b>– Try, “Show me how to change my background”
+* <b>Use Airplane Mode</b> – Try, “How do I turn on airplane mode”
+* <b>Change your display brightness</b> – Try, “Show me how to change my screen brightness”
+* <b>Add nearby printers or scanners</b> – Try, “How to add a printer”
+* <b>Turn off Windows Defender Security Center</b> – Try, “Show me how to turn off Windows Defender Security Center”
+* <b>Change Wi-Fi settings</b> – Try, “Show me how to change Wi-Fi network”
+* <b>Change your power settings</b> – Try, “How to change when my computer goes to sleep”
+* <b>Discover Bluetooth devices</b> – Try, “Show me how to discover devices”
+* <b>Check your version of Windows</b> – Try, “How do I find my current version of Windows”
 
 ## High Efficiency Image File Format (HEIF)
 
