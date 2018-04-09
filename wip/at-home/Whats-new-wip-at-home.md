@@ -31,13 +31,17 @@ Here are the new features:
 <i>Note: If you have multiple Microsoft Edge windows in a Set, only the one most recently accessed will be visible in Alt + Tab.</i>
 
 <b>Support for desktop (Win32) apps.</b> Sets now supports File Explorer, Notepad, Command Prompt, and PowerShell. One of the top feature requests by Insiders has been tabs for File Explorer and with Sets you can get a tabbed File Explorer experience.
--<b>Launch apps from the new tab page</b> by typing the app name into the search box.
--<b>UWP apps are launched in the same window</b> replacing the new tab page.
+
+<b>Launch apps from the new tab page</b> by typing the app name into the search box.
+
+<b>UWP apps are launched in the same window</b> replacing the new tab page.
 The tab UI in Sets now shows icons including website favicons and app icons.
 Resume your project with more control – When restoring your projects you’ll be prompted to restore related apps and webpages. In Timeline you’ll see when a project has multiple activities associated with it.
--<b>Improved Settings for Sets</b>: We’ve updated the Settings for Sets via Settings > System > Multitasking. To start with, Sets now has its own section on this page, and is searchable (try typing “Sets” or “tabs” and it will appear in the dropdown). We’ve also added a setting to control the Alt + Tab behavior mentioned above.
+
+<b>Improved Settings for Sets</b>: We’ve updated the Settings for Sets via Settings > System > Multitasking. To start with, Sets now has its own section on this page, and is searchable (try typing “Sets” or “tabs” and it will appear in the dropdown). We’ve also added a setting to control the Alt + Tab behavior mentioned above.
 ![alt text](images/Win10Sets.png "Sets")
--<b>File Explorer & Sets Improvements</b>: We’ve heard your feedback – you’d like it to be easier to get two File Explorer windows grouped together, and we’re working on it. To start with, you no longer need to hold CTRL on the new tab page to launch a File Explorer window in a tab (this was a temporary necessity with the last wave). We’ve also added a new keyboard shortcut to open a new tab when a File Explorer window is in focus: Ctrl + T. Remember, you can use Ctrl + N to open a new window, and Ctrl + W to close the window/tab.
+
+<b>File Explorer & Sets Improvements</b>: We’ve heard your feedback – you’d like it to be easier to get two File Explorer windows grouped together, and we’re working on it. To start with, you no longer need to hold CTRL on the new tab page to launch a File Explorer window in a tab (this was a temporary necessity with the last wave). We’ve also added a new keyboard shortcut to open a new tab when a File Explorer window is in focus: Ctrl + T. Remember, you can use Ctrl + N to open a new window, and Ctrl + W to close the window/tab.
 
 <b>New UI for opening new tabs and windows</b> in the File Menu.
 ![alt text](images/tabsinfilewindow.png "tabs in file window")
@@ -45,13 +49,14 @@ Resume your project with more control – When restoring your projects you’ll 
 <b>Keyboard shortcuts</b>
 
 <b>Ctrl + Win + Tab</b> – switch to next tab.
---<b>Ctrl + Win + Shift + Tab</b> – switch to previous tab.
---<b>Ctrl + Win + T </b>– open a new tab.
---<b>Ctrl + Win + N </b> - open a new window.
---<b>Ctrl + Win + W </b>– close current tab or window.
+* <b>Ctrl + Win + Shift + Tab</b> – switch to previous tab.
+* <b>Ctrl + Win + T </b>– open a new tab.
+* <b>Ctrl + Win + N </b> - open a new window.
+* <b>Ctrl + Win + W </b>– close current tab or window.
 
 <b>new UI</b> for easily opening new tabs and windows in the File Menu.
 ![alt text](images/tabsinfilewindow.png "tabs in file explorer")
+
 <b>New context menu options for tabs in Sets</b>: If you right-click on a Sets tab, you’ll discover several options to leverage, including “close other tabs”, “move to new window”, and “close tabs to the right”.
 ![alt text](images/newcontextmenu.png "new context menu")
 
