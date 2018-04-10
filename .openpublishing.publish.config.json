@@ -1,4 +1,4 @@
-{
+{"build_entry_point": "op",
   "docsets_to_publish": [
     {
       "docset_name": "wip",
@@ -38,6 +38,10 @@
   ],
   "branch_target_mapping": {
     "live": [
+      "Publish",
+      "Pdf"
+    ],
+    "master": [
       "Publish",
       "Pdf"
     ]
