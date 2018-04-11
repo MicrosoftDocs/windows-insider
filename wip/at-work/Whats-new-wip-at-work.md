@@ -159,10 +159,10 @@ The package contains an audit version and an enforced version. If the server doe
 
 To deploy the default code integrity policy, run the following commands:
 
-<blockquote>
+<pre>
 Copy-Item C:\\CI\\ServerDefault-EnforcedCI.bin<br/>
 C:\\Windows\\System32\\CodeIntegrity\\SiPolicy.p7b
-</blockquote>
+</pre>
 
 
 Reboot the server to allow code integrity service to load the policy.
