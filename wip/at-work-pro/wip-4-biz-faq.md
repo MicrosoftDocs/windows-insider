@@ -44,8 +44,6 @@ Yes. Starting with Windows 10, version 1709, the Windows Insider Program for Bus
 **Manage preview builds:** Administrators can enable or prevent builds from installing on a device. You also have an option to disable preview builds once the release is public.    
 **Branch Readiness Level:** Administrators can set the Windows readiness level, including Fast, Slow, Release Preview Rings of Windows Insider Preview) and allows administrators to defer or pause delivery of updates.  
 
-See more information on the [Getting started with Windows Insider Program for Business](waas-windows-insider-for-business.md#getting-started-with-windows-insider-program-for-business) section.
-
 ### <a id="connected-to-aad"> </a>How can I find out if my corporate account is on Azure Active Directory? 
 On your PC, go to **Settings > Accounts > Access work or school**. If your organization has set up your corporate account in Azure Active Directory and it is connected to your PC, you will see the account listed as highlighted in the image below.
 
