@@ -25,6 +25,7 @@ Builds of RS5 client are only released to Windows Insiders in the Fast ring who 
 |-------|------|--------|
 | 17639| [<b>4/04/2018</b>]((https://blogs.windows.com/windowsexperience/2018/04/04/announcing-windows-10-insider-preview-build-17639-for-skip-ahead/)) | |
 | 17634| [3/29/2018]((https://blogs.windows.com/windowsexperience/2018/03/29/announcing-windows-10-insider-preview-build-17634-for-skip-ahead/)) | |
+| 17627 | [3/21/2018](https://blogs.windows.com/windowsexperience/2018/03/21/announcing-windows-10-insider-preview-build-17627-for-skip-ahead/) | |
 | 17623 | [3/16/2018]() | [3/20/2018]() |
 | 17618 | [3/07/2018]() | |
 | 17604 | [2/14/2018]() | |
