@@ -23,11 +23,11 @@ Builds of RS5 client are only released to Windows Insiders in the Fast ring who 
 
 | Build | Fast | Server |
 |-------|------|--------|
-| [Build 17639](https://blogs.windows.com/windowsexperience/2018/04/04/announcing-windows-10-insider-preview-build-17639-for-skip-ahead/)| <b>4/4/2018</b> | |
-| [Build 17634](https://blogs.windows.com/windowsexperience/2018/03/29/announcing-windows-10-insider-preview-build-17634-for-skip-ahead/)| 3/29/2018 | |
-| []() | |
-
-
+| 17639| [<b>4/04/2018</b>]((https://blogs.windows.com/windowsexperience/2018/04/04/announcing-windows-10-insider-preview-build-17639-for-skip-ahead/)) | |
+| 17634| [3/29/2018]((https://blogs.windows.com/windowsexperience/2018/03/29/announcing-windows-10-insider-preview-build-17634-for-skip-ahead/)) | |
+| 17623 | [3/16/2018]() | [3/20/2018]() |
+| 17618 | [3/07/2018]() | |
+| 17604 | [2/14/2018]() | |
 
 ## Feature updates for Windows 10 (RS4)
 | Build | Fast | Slow | Server | IoT | ISO | SDK | 
