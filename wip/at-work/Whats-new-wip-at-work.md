@@ -35,9 +35,9 @@ A common issue around Windows Server is a lack of data migration options from ol
 
 Windows Server 2019 introduces the Storage Migration Service (SMS), a new role included in Windows Server Standard and Datacenter editions. SMS is a job-based orchestration and proxy that:
  
-1. Allows administrators to inventory existing servers for their data, security, and network settings.
-2. Migrates that data, security, and network settings to a new, modern target by using the SMB protocol.
-3. Takes over the identity of the old server completely, while decommissioning the original source, in such a way that users and applications are unaffected and unaware that migration has taken place. 
+* Allows administrators to inventory existing servers for their data, security, and network settings.
+* Migrates that data, security, and network settings to a new, modern target by using the SMB protocol.
+* Takes over the identity of the old server completely, while decommissioning the original source, in such a way that users and applications are unaffected and unaware that migration has taken place. 
 
 SMS provides orchestrated workflow with a Honolulu-based graphical management system, allowing scalable migrations of many servers simultaneously to new targets running on premises or in Azure.
 
@@ -157,8 +157,11 @@ The package contains an audit version and an enforced version. If the server doe
 
 To deploy the default code integrity policy, run the following commands:
 
-Copy-Item C:\\CI\\ServerDefault-EnforcedCI.bin
+<blockquote>
+Copy-Item C:\\CI\\ServerDefault-EnforcedCI.bin<br/>
 C:\\Windows\\System32\\CodeIntegrity\\SiPolicy.p7b
+</blockquote>
+
 
 Reboot the server to allow code integrity service to load the policy.
 
@@ -226,6 +229,7 @@ If you are using Storage Spaces Direct, take a look at another area to
 explore for this release: performance history for Storage Spaces Direct.
 
 <b>Software Defined Datacenter</b>
+
 If you are using Storage Spaces Direct, take a look at  performance history for Storage Spaces Direct. 
 
 <b>Performance history for Storage Spaces Direct</b>
@@ -246,10 +250,9 @@ answer these questions. There's nothing to install, configure, or
 start—it's built-in and always-on. Learn more at
 <https://aka.ms/clusterperformancehistory>.
 
-![alt text](images/Hyper-Converged-in-Honolulu.png "Honolulu")
+![alt text](images/Hyper-Converged-in-Honolulu.png "New charts in Project Honolulu, powered by built-in cluster
+performance history.")
 
-*Caption: New charts in Project Honolulu, powered by built-in cluster
-performance history.*
 
 
 
