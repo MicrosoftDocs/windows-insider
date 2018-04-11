@@ -221,6 +221,16 @@ start—it's built-in and always-on. Learn more at
 *Caption: New charts in Project Honolulu, powered by built-in cluster
 performance history.*
 
+<b>In place upgrades</b>
+In-place upgrade allows an administrator to upgrade an existing installation of Windows Server to a newer version, retaining settings and installed features. The LTSC versions and editions of Windows Server that are supported for in-place upgrade are shown in the following table.
+
+|CURRENTLY INSTALLED OPERATING SYSTEM |AVAILABLE UPGRADE VERSION & EDITION |
+|--- |--- |
+|Windows Server 2016 Standard |Windows Server 2019 Standard or Datacenter |
+|Windows Server 2016 Datacenter | Windows Server 2019 Datacenter|
+|Windows Server 2012 R2 Standard| Windows Server 2019 Standard or Datacenter|
+|Windows Server 2012 R2 Datacenter | Windows Server 2019 Datacenter|
+
 <b>Storage Migration Service</b>
 
 A common issue around Windows Server is a lack of data migration options from older operating systems and storage platforms. Many customers run Windows Server 2012 R2, Windows Server 2008 R2, or even Windows Server 2003 simply because in-place upgrades were impossible and manual data migrations were slow and likely to cause significant service interruption or even loss of access to users and applications.
