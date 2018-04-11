@@ -221,20 +221,5 @@ start—it's built-in and always-on. Learn more at
 *Caption: New charts in Project Honolulu, powered by built-in cluster
 performance history.*
 
-<b>Storage Migration</b>
-
-A common issue around Windows Server is a lack of data migration options from older operating systems and storage platforms. Many customers run Windows Server 2012 R2, Windows Server 2008 R2, or even Windows Server 2003 simply because in-place upgrades were impossible and manual data migrations were slow and likely to cause significant service interruption or even loss of access to users and applications.
-Windows Server 2019 introduces the Storage Migration Service (SMS), a new role included in Windows Server Standard and Datacenter editions. SMS is a job-based orchestration and proxy that:
- 
-Allows administrators to inventory existing servers for their data, security, and network settings.
-Migrates that data, security, and network settings to a new, modern target by using the SMB protocol.
-Takes over the identity of the old server completely, while decommissioning the original source, in such a way that users and applications are unaffected and unaware that migration has taken place. 
-SMS provides orchestrated workflow with a Honolulu-based graphical management system, allowing scalable migrations of many servers simultaneously to new targets running on premises or in Azure.
-
-![alt text](images/storagemigration.png "Storage Migration")
-
-SMS handles common problems and subtleties of a migration, including in-use files, share settings, security settings, network addresses and names, local security principals, encrypted data, and more. All of this is available from an intuitive graphical interface, which is backed by robust PowerShell automation.
-SMS is under active development, and you will see many changes and improvements with each preview. Furthermore, the use of the Honolulu management system enables out-of-band changes through its extension manager system, allowing us to act on your feedback more frequently than the Windows Server preview mechanism allows.
-For more information on deploying and using the Storage Migration Service, please visit https://aka.ms/stormigser.
 
 
