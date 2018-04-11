@@ -19,6 +19,36 @@ The features listed below are available in preview builds of Windows Server 2019
 
 We also encourage you to visit the [Windows Server Insiders space](https://techcommunity.microsoft.com/t5/Windows-Server-Insiders/bd-p/WindowsServerInsiders) on the [Microsoft Tech Communities forum](https://techcommunity.microsoft.com/) to collaborate, share, and learn from experts.
 
+<b>In place upgrades</b>
+In-place upgrade allows an administrator to upgrade an existing installation of Windows Server to a newer version, retaining settings and installed features. The LTSC versions and editions of Windows Server that are supported for in-place upgrade are shown in the following table.
+
+|CURRENTLY INSTALLED OPERATING SYSTEM |AVAILABLE UPGRADE VERSION & EDITION |
+|--- |--- |
+|Windows Server 2016 Standard |Windows Server 2019 Standard or Datacenter |
+|Windows Server 2016 Datacenter | Windows Server 2019 Datacenter|
+|Windows Server 2012 R2 Standard| Windows Server 2019 Standard or Datacenter|
+|Windows Server 2012 R2 Datacenter | Windows Server 2019 Datacenter|
+
+<b>Storage Migration Service</b>
+
+A common issue around Windows Server is a lack of data migration options from older operating systems and storage platforms. Many customers run Windows Server 2012 R2, Windows Server 2008 R2, or even Windows Server 2003 simply because in-place upgrades were impossible and manual data migrations were slow and likely to cause significant service interruption or even loss of access to users and applications.
+
+Windows Server 2019 introduces the Storage Migration Service (SMS), a new role included in Windows Server Standard and Datacenter editions. SMS is a job-based orchestration and proxy that:
+ 
+1. Allows administrators to inventory existing servers for their data, security, and network settings.
+2. Migrates that data, security, and network settings to a new, modern target by using the SMB protocol.
+3. Takes over the identity of the old server completely, while decommissioning the original source, in such a way that users and applications are unaffected and unaware that migration has taken place. 
+
+SMS provides orchestrated workflow with a Honolulu-based graphical management system, allowing scalable migrations of many servers simultaneously to new targets running on premises or in Azure.
+
+![alt text](images/scalable-migrations.png "Scalable migrations")
+
+SMS handles common problems and subtleties of a migration, including in-use files, share settings, security settings, network addresses and names, local security principals, encrypted data, and more. All of this is available from an intuitive graphical interface, which is backed by robust PowerShell automation.
+
+SMS is under active development, and you will see many changes and improvements with each preview. Furthermore, the use of the Honolulu management system enables out-of-band changes through its extension manager system, allowing us to act on your feedback more frequently than the Windows Server preview mechanism allows.
+
+For more information on deploying and using the Storage Migration Service, please visit [https://aka.ms/stormigser](https://aka.ms/stormigser)
+
 <b>Extending your Clusters with Cluster Sets</b>
 
 “Cluster Sets” is the new cloud scale-out technology that increases cluster node count in a single SDDC (Software-Defined Data Center) cloud by orders of magnitude. A Cluster Set is a loosely-coupled grouping of multiple Failover Clusters: compute, storage or hyper-converged. Cluster Sets technology enables virtual machine fluidity across member clusters within a Cluster Set and a unified storage namespace across the "set" in support of virtual machine fluidity.  While preserving existing Failover Cluster management experiences on member clusters, a Cluster Set instance additionally offers key use cases around lifecycle management of a Cluster Set at the aggregate.
@@ -221,34 +251,6 @@ start—it's built-in and always-on. Learn more at
 *Caption: New charts in Project Honolulu, powered by built-in cluster
 performance history.*
 
-<b>In place upgrades</b>
-In-place upgrade allows an administrator to upgrade an existing installation of Windows Server to a newer version, retaining settings and installed features. The LTSC versions and editions of Windows Server that are supported for in-place upgrade are shown in the following table.
 
-|CURRENTLY INSTALLED OPERATING SYSTEM |AVAILABLE UPGRADE VERSION & EDITION |
-|--- |--- |
-|Windows Server 2016 Standard |Windows Server 2019 Standard or Datacenter |
-|Windows Server 2016 Datacenter | Windows Server 2019 Datacenter|
-|Windows Server 2012 R2 Standard| Windows Server 2019 Standard or Datacenter|
-|Windows Server 2012 R2 Datacenter | Windows Server 2019 Datacenter|
-
-<b>Storage Migration Service</b>
-
-A common issue around Windows Server is a lack of data migration options from older operating systems and storage platforms. Many customers run Windows Server 2012 R2, Windows Server 2008 R2, or even Windows Server 2003 simply because in-place upgrades were impossible and manual data migrations were slow and likely to cause significant service interruption or even loss of access to users and applications.
-
-Windows Server 2019 introduces the Storage Migration Service (SMS), a new role included in Windows Server Standard and Datacenter editions. SMS is a job-based orchestration and proxy that:
- 
-1. Allows administrators to inventory existing servers for their data, security, and network settings.
-2. Migrates that data, security, and network settings to a new, modern target by using the SMB protocol.
-3. Takes over the identity of the old server completely, while decommissioning the original source, in such a way that users and applications are unaffected and unaware that migration has taken place. 
-
-SMS provides orchestrated workflow with a Honolulu-based graphical management system, allowing scalable migrations of many servers simultaneously to new targets running on premises or in Azure.
-
-![alt text](images/scalable-migrations.png "Scalable migrations")
-
-SMS handles common problems and subtleties of a migration, including in-use files, share settings, security settings, network addresses and names, local security principals, encrypted data, and more. All of this is available from an intuitive graphical interface, which is backed by robust PowerShell automation.
-
-SMS is under active development, and you will see many changes and improvements with each preview. Furthermore, the use of the Honolulu management system enables out-of-band changes through its extension manager system, allowing us to act on your feedback more frequently than the Windows Server preview mechanism allows.
-
-For more information on deploying and using the Storage Migration Service, please visit [https://aka.ms/stormigser](https://aka.ms/stormigser).
 
 
