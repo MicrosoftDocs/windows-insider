@@ -15,6 +15,8 @@ ms.author: dawn.wood
 ---
 # Windows Insider Program for Business docs
 
+For many IT Pros, it's valuable to have visibility into feature updates early--before they’re available in the Semi-Annual Channel. With Windows 10, feature flighting enables participants in the Windows Insider Preview program can consume and deploy preproduction code to test devices, gaining early visibility into the next build. This is better for your organization because you can test the early builds of Windows 10 to discover possible issues with the code or with device and app compatibility in your organization before the update is ever publicly available. We at Microsoft also appreciate it because Insiders can report issues back to us in time for us to make improvements in a release before it is more generally available.
+
 WIP for Business helps you deploy the Windows Insider Program in your enterprise. The docs cover the new enterprise features we'd like you to test and describes how to do the most common tasks. If you are an administrator or a user in a business environment, you're in the right place.  
 
 <ul class="cardsF panelContent">
