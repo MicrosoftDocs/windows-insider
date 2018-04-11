@@ -21,7 +21,7 @@ WIP for Business helps you deploy the Windows Insider Program in your enterprise
 
 <ul class="cardsF panelContent">
     <li>
-        <a href="Whats-new-wip-at-work-pro.md">
+        <a href="wip-4-biz-whats-new.md">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
