@@ -1,6 +1,6 @@
 ---
-title: What's new in the Windows Server 10 Insider Program for Business Preview Builds
-description: New features to use and test in the Windows 10 Insider Program for Business Preview Builds
+title: Windows Insider Program for Business Frequently Asked Questions (faq)
+description: Windows Insider Program for Business Frequently Asked Questions (faq)
 services: WIP-at-work-pro
 author: dawn.wood
 manager: elizapo
@@ -9,36 +9,23 @@ ms.assetid:
 ms.service: WIP-at-work-pro
 ms.tgt_pltfrm: na
 ms.devlang: na
-ms.date: 04/16/2018
+ms.date: 04/20/2018
 ms.author: dawn.wood
 ---
 
 # Windows Insider Program for Business Frequently Asked Questions
 
 ### Are the Windows Insider Program and Windows Insider Program for Business separate programs?
-No, in fact just the opposite. The Windows Insider Program was created in 2014 to help Microsoft engage with Windows Fans worldwide. Windows Insiders are the first to be able to try new Windows features that we introduce through Windows 10 Insider Preview Builds. At the same time, they can provide feedback through the Feedback Hub App which helps create even better versions of Windows for all users. The Windows Insider Program for Business enables you to incorporate Insider Preview builds into your deployment plans using your corporate credentials, deepen connections with the IT Pro community, collect feedback within your organization, and increase the visibility of your organization’s feedback – especially on features that support productivity and business needs. Together we can resolve blocking or critical issues to better support your organization’s needs sooner. Incorporating the Windows Insider Program for Business into your deployment plans enables you to prepare your organization for the next update of Windows 10, to deploy new services and tools more quickly, to help secure your applications, and to increase productivity and confidence in the stability of your environment. Windows Insider Program for Business participants collaborate with the Windows team to build and document features, infuse innovation, and plan for what’s around the bend. We’ve architected some great features together, received amazing feedback, and we’re not done.
+No, in fact just the opposite. The Windows Insider Program was created in 2014 to help Microsoft engage with Windows fans worldwide. Windows Insiders are the first to be able to try new Windows features that we introduce through Windows 10 Insider Preview Builds. At the same time, they can provide feedback through the Feedback Hub App which helps create even better versions of Windows for all users. 
 
-### What Languages are available? 
-Insider Preview builds are available in the following languages: English (United States), English (United Kingdom), Chinese (Simplified), Chinese (Traditional), Portuguese (Brazilian), Japanese, Russian, German, French, French (Canada), Korean, Italian, Spanish, Spanish (Latin America), Swedish, Finnish, Turkish, Arabic, Dutch, Czech, Polish, Thai, Catalan, Hindi, and Vietnamese.
+The Windows Insider Program for Business enables you to incorporate Insider Preview builds into your deployment plans using your corporate credentials, deepen connections with the IT Pro community, collect feedback within your organization, and increase the visibility of your organization’s feedback – especially on features that support productivity and business needs. Together we can resolve blocking or critical issues to better support your organization’s needs sooner. Incorporating the Windows Insider Program for Business into your deployment plans enables you to prepare your organization for the next update of Windows 10, to deploy new services and tools more quickly, to help secure your applications, and to increase productivity and confidence in the stability of your environment. 
 
-If your Windows build is not in one of the available base languages, you will not receive Insider Preview builds.
-
-Hindi, Catalan, and Vietnamese can only be installed as a language pack over [supported base languages](https://support.microsoft.com/help/14236/language-packs).
-
->[!NOTE]
-> To learn how to install a language pack, see [How to add an input language to your PC Additional](https://support.microsoft.com/instantanswers/60f32ff8-8697-4452-af7d-647439c38433/how-to-add-and-switch-input-languages-on-your-pc).
+Windows Insider Program for Business participants collaborate with the Windows team to build and document features, infuse innovation, and plan for what’s around the bend. We’ve architected some great features together, received amazing feedback, and we’re not done.
 
 ### How do I register for the Windows Insider Program for Business? 
 To register for the Windows Insider Program for Business, go to [Get Started with Windows Insider Program for Business](https://insider.windows.com/en-us/for-business-getting-started/) and follow the steps using your corporate account in Azure Active Directory (AAD). This account is the same account that you use for Office 365 and other Microsoft services. 
 
-
-### Are there any management capabilities that allow an IT admin to manage settings for a corporate environment? 
-Yes. Starting with Windows 10, version 1709, the Windows Insider Program for Business now enables administrators to apply the following group policies to help them manage their organization’s preview builds: 
- 
-**Manage preview builds:** Administrators can enable or prevent builds from installing on a device. You also have an option to disable preview builds once the release is public.    
-**Branch Readiness Level:** Administrators can set the Windows readiness level, including Fast, Slow, Release Preview Rings of Windows Insider Preview) and allows administrators to defer or pause delivery of updates.  
-
-### <a id="connected-to-aad"> </a>How can I find out if my corporate account is on Azure Active Directory? 
+### <a id="connected-to-aad"/>How can I find out if my corporate account is on Azure Active Directory? 
 On your PC, go to **Settings > Accounts > Access work or school**. If your organization has set up your corporate account in Azure Active Directory and it is connected to your PC, you will see the account listed as highlighted in the image below.
 
 ![Device connected to Work Account](images/waas-wipfb-work-account.jpg)
@@ -66,6 +53,25 @@ In just a few steps, you can switch your existing program registration from your
 >[!NOTE]
 >Your corporate account must be connected to the device for it to appear in the account list.
 
+### Can a single MSA or AAD account be used to register more than one PC in the program? 
+Yes. If each PC has a valid Windows 10 or Windows 10 Mobile license you can use your MSA on as many devices as you’d like, however, the feedback it all looks like it comes from a single user. If multiple devices are experiencing problems with a build, you may want the ability to submit the same feedback from multiple accounts (or upvote the same piece of feedback). 
+
+### What Languages are available? 
+Insider Preview builds are available in the following languages: English (United States), English (United Kingdom), Chinese (Simplified), Chinese (Traditional), Portuguese (Brazilian), Japanese, Russian, German, French, French (Canada), Korean, Italian, Spanish, Spanish (Latin America), Swedish, Finnish, Turkish, Arabic, Dutch, Czech, Polish, Thai, Catalan, Hindi, and Vietnamese.
+
+If your Windows build is not in one of the available base languages, you will not receive Insider Preview builds.
+
+Hindi, Catalan, and Vietnamese can only be installed as a language pack over [supported base languages](https://support.microsoft.com/help/14236/language-packs).
+
+>[!NOTE]
+> To learn how to install a language pack, see [How to add an input language to your PC Additional](https://support.microsoft.com/instantanswers/60f32ff8-8697-4452-af7d-647439c38433/how-to-add-and-switch-input-languages-on-your-pc).
+
+### Are there any management capabilities that allow an IT admin to manage settings for a corporate environment? 
+Yes. Starting with Windows 10, version 1709, the Windows Insider Program for Business now enables administrators to apply the following group policies to help them manage their organization’s preview builds: 
+ 
+**Manage preview builds:** Administrators can enable or prevent builds from installing on a device. You also have an option to disable preview builds once the release is public.    
+**Branch Readiness Level:** Administrators can set the Windows readiness level, including Fast, Slow, Release Preview Rings of Windows Insider Preview) and allows administrators to defer or pause delivery of updates.  
+
 ### How do I sign into the Feedback Hub with my corporate credentials? 
 Sign in to the Feedback Hub using the same AAD account you are using to flight builds.
 
@@ -78,5 +84,4 @@ All PCs need to have a valid Windows 10 license. This requirement applies whethe
 ### Can I use the Software in a live operating environment? 
 The software is a pre-release version, and we do not recommend that organizations run Windows Insider Preview builds outside of their test environments. This software may not work the way a final version of the software will. We may change it for the final, commercial version. We also may not release a commercial version.
 
-### Can a single MSA or AAD account be used to register more than one PC in the program? 
-Yes. If each PC has a valid Windows 10 or Windows 10 Mobile license you can use your MSA on as many devices as you’d like. However, the main concern would be that within the feedback it all looks like it comes from a single user. If multiple devices are experiencing problems with a build, you’d want the ability to submit the same feedback from multiple people (or upvote the same piece of feedback). 
+
