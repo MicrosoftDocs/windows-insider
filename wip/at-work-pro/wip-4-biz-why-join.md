@@ -52,7 +52,6 @@ Along with exploring new features, you also have the option to validate your app
 - Maximize the 18-month support Window that comes with each Semi-Annual release. 
 
 
-
 |Objective |Feature exploration|
 |---------|---------|
 |Release channel  |**Slow Ring:** Insider Preview builds in the Slow Ring are released approximately once a month. They are more stable than Fast Ring releases, making them better suited for validation purposes. Slow Ring releases can be run on either secondary or primary production devices by skilled users.|
