@@ -1,5 +1,5 @@
 ---
-title: Windows Insider Program Flight Hub
+title: Flight Hub
 description: flight schedules and status for Windows Insider Program
 services: WIP
 author: dawn.wood
@@ -13,9 +13,9 @@ ms.date: 04/16/2018
 ms.author: dawn.wood
 ---
 
-# Windows Insider Program Flight Hub
+# Flight Hub
 
-Welcome to Flight Hub. This is a prototype "dashboard" for Windows Insiders to quickly identify the latest Insider Preview releases for PC, Server, IoT, and SDKs as well as ISO images. 
+Welcome to Flight Hub, a dashboard for Windows Insiders to quickly identify the latest Insider Preview releases for PC, Server, IoT, as well as SDKs and ISO images. 
 
 ## Feature updates for Windows 10 (RS5)
 Builds of RS5 client are only released to Windows Insiders in the Fast ring who opted in to Skip Ahead. Builds of Windows Server 2019 are released to members of the Windows Insider Program for Server. The items in <b>bold</b> typeface are the latest release for that version of the item. 
@@ -47,7 +47,7 @@ Builds of RS5 client are only released to Windows Insiders in the Fast ring who 
 | [17101](https://blogs.windows.com/windowsexperience/2018/02/14/announcing-windows-10-insider-preview-build-17101-fast-build-17604-skip-ahead/) | 2/14/2018 |
 | 17905 | | | | | |[2/13/2018](https://blogs.windows.com/buildingapps/2018/02/13/windows-10-sdk-preview-build-17095-now-available/) |
 | [17093](https://blogs.windows.com/windowsexperience/2018/02/07/announcing-windows-10-insider-preview-build-17093-pc/) | 2/07/2018 | |[<b>2/13/2018</b>](https://blogs.windows.com/windowsexperience/2018/02/13/announcing-windows-server-insider-preview-build-17093-project-honolulu-technical-preview-1802/) | 
-| [17083]() | 1/24/2018 | | 1/31/2018| | | [<b>1/31/2018</b>]()|
+| [17083](https://blogs.windows.com/windowsexperience/2018/01/24/announcing-windows-10-insider-preview-build-17083-for-pc/) | 1/24/2018 | | 1/31/2018| | | [<b>1/31/2018</b>](https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewSDK)|
 | 17079 | | | | | | |
 | [17074.1002]() | 1/18/2018 | | | | | |
 | [17074]() | 1/11/2018 | | | | | |
