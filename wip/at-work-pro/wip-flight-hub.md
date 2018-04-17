@@ -32,6 +32,7 @@ Builds of RS5 client are only released to Windows Insiders in the Fast ring who 
 | 17604 | [2/14/2018](https://blogs.windows.com/windowsexperience/2018/02/14/announcing-windows-10-insider-preview-build-17101-fast-build-17604-skip-ahead/) | 
 
 ## Feature updates for Windows 10 (RS4)
+
 | Build | Fast | Slow | Server | IoT | ISO | SDK | 
 |-------|------|------|--------|-----|-----|-----|
 | 17134 | [<b>4/16/2018</b>](https://blogs.windows.com/windowsexperience/2018/04/16/announcing-windows-10-insider-preview-build-17134-for-fast/)| 
@@ -68,9 +69,13 @@ Builds of RS5 client are only released to Windows Insiders in the Fast ring who 
 
 ## Windows 10 Fall Creators Update (RS3)
 [The Windows 10 Fall Creators Update](https://blogs.windows.com/windowsexperience/2017/10/17/windows-10-fall-creators-update-and-mixed-reality-headsets-available-today-announcing-surface-book-2/) was released to the world on October 17th, 2017. Windows Insiders helped test 24 builds.
+
 | Build | Fast | Slow |
 |-------|------|------|
 | 16299.15 | [10/2/2017](https://blogs.windows.com/windowsexperience/2017/09/26/announcing-windows-10-insider-preview-build-16299-pc/) | 10/4/2017 |
 | 16299.1 | [9/26/2017](https://blogs.windows.com/windowsexperience/2017/09/26/announcing-windows-10-insider-preview-build-16299-pc/) | 9/28/2017 |
 | 16296 | [9/2/2017]() | 9/28/2017 |
 | 16294 | [9/20/2017](https://blogs.windows.com/windowsexperience/2017/09/20/announcing-windows-10-insider-preview-build-16294-pc/) | |
+| 16291 | [9/19/2017](https://blogs.windows.com/windowsexperience/2017/09/19/announcing-windows-10-insider-preview-build-16291-pc/) | 9/22/2017 |
+| 16288 | [9/12/2017](https://blogs.windows.com/windowsexperience/2017/09/12/announcing-windows-10-insider-preview-build-16288-pc-build-15250-mobile/) | 9/15/2017 |
+
