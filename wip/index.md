@@ -1,5 +1,5 @@
 ---
-layout: HubPage
+layout: LandingPage
 hide_bc: true
 author: dawnwood
 ms.author: apexprodleads
