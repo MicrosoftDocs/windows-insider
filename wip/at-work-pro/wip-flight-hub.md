@@ -21,8 +21,8 @@ Welcome to Flight Hub, a dashboard for Windows Insiders to quickly identify the 
 Builds of RS5 client are only released to Windows Insiders in the Fast ring who opted in to Skip Ahead. Builds of Windows Server 2019 are released to members of the Windows Insider Program for Server. The items in <b>bold</b> typeface are the latest release for that version of the item. 
 
 
-| Build | Fast | Slow |Server| Iot | ISO | SDK |
-|-------|------|------|------|-----|-----|-----|
+| Build | Fast | Slow |Server | Iot | ISO | SDK |
+|-------|------|------|-------|-----|-----|-----|
 | 17643 | [<b>4/12/2018</b>](https://blogs.windows.com/windowsexperience/2018/04/12/announcing-windows-10-insider-preview-build-17643-for-skip-ahead/)
 | 17639| [4/04/2018]((https://blogs.windows.com/windowsexperience/2018/04/04/announcing-windows-10-insider-preview-build-17639-for-skip-ahead/))
 | 17634| [3/29/2018]((https://blogs.windows.com/windowsexperience/2018/03/29/announcing-windows-10-insider-preview-build-17634-for-skip-ahead/)) |
