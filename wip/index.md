@@ -90,6 +90,9 @@ description: The Windows Insider Program lets you get preview builds of Windows 
             </div>
             </a>
         </li>
+    </ul>
+    <hr />
+    <ul id="feedbackCard" class="panelContent cardsF">
         <li class="fullSpan">
             <a href="https://support.microsoft.com/help/4021566/windows-10-send-feedback-to-microsoft-with-feedback-hub-app">
             <div class="cardSize">
