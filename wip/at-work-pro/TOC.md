@@ -1,5 +1,0 @@
-# [Windows Insider Program for Business](index.md)
-## [What's new for Windows 10 Insider Program for Business Preview Builds](wip-4-biz-whats-new.md)
-## [Why join the Windows Insider Program for Business](wip-4-biz-why-join.md)
-## [Windows Insider Program for Business faq](wip-4-biz-faq.md)
-## [Olympia Corp](olympia/olympia-enrollment-guidelines.md)
