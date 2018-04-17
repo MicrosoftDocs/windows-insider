@@ -22,7 +22,7 @@ Builds of RS5 client are only released to Windows Insiders in the Fast ring who 
 
 
 | Build | Fast | Slow | Server | Iot | ISO | SDK |
-|-------|------|-|--------|
+|-------|------|------|--------|-----|-----|-----|
 | 17643 | [<b>4/12/2018</b>](https://blogs.windows.com/windowsexperience/2018/04/12/announcing-windows-10-insider-preview-build-17643-for-skip-ahead/)
 | 17639| [4/04/2018]((https://blogs.windows.com/windowsexperience/2018/04/04/announcing-windows-10-insider-preview-build-17639-for-skip-ahead/)) | | | | ||
 | 17634| [3/29/2018]((https://blogs.windows.com/windowsexperience/2018/03/29/announcing-windows-10-insider-preview-build-17634-for-skip-ahead/)) | | | | ||
@@ -34,20 +34,20 @@ Builds of RS5 client are only released to Windows Insiders in the Fast ring who 
 ## Feature updates for Windows 10 (RS4)
 | Build | Fast | Slow | Server | IoT | ISO | SDK | 
 |-------|------|------|--------|-----|-----|-----|
-| [17133](https://blogs.windows.com/windowsexperience/2018/03/27/announcing-windows-10-insider-preview-build-17133-for-fast/) |<b>3/27/2018</b> | <b>3/30/2018</b>| |[<b>3/28/2018</b>](https://social.msdn.microsoft.com/Forums/en-US/4587bb75-0143-4bac-9af0-8fea437dbfba/new-flight-17133-released-for-insiders?forum=WindowsIoT) | | |
-| [17128](https://blogs.windows.com/windowsexperience/2018/03/23/announcing-windows-10-insider-preview-build-17128-for-fast/) | 3/23/2018| | | | | |
-| [17127](https://blogs.windows.com/windowsexperience/2018/03/20/announcing-windows-10-insider-preview-build-17127-for-fast/) | 3/20/2018 |3/23/2018 | | | [3/27/2018](https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewadvanced) | |
+| 17133 |[<b>3/27/2018</b>](https://blogs.windows.com/windowsexperience/2018/03/27/announcing-windows-10-insider-preview-build-17133-for-fast/) | <b>3/30/2018</b>| |[<b>3/28/2018</b>](https://social.msdn.microsoft.com/Forums/en-US/4587bb75-0143-4bac-9af0-8fea437dbfba/new-flight-17133-released-for-insiders?forum=WindowsIoT) | | |
+| 17128 | [3/23/2018](https://blogs.windows.com/windowsexperience/2018/03/23/announcing-windows-10-insider-preview-build-17128-for-fast/)| | | | | |
+| 17127| [3/20/2018](https://blogs.windows.com/windowsexperience/2018/03/20/announcing-windows-10-insider-preview-build-17127-for-fast/) |3/23/2018 | | | [3/27/2018](https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewadvanced) | |
 | 17125 | | | | | | [3/27/2018](https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewSDK) |
-| [17123](https://blogs.windows.com/windowsexperience/2018/03/16/announcing-windows-10-insider-preview-build-17123-for-fast/) | 3/16/2018 | | | | | |
-| [17120](https://blogs.windows.com/windowsexperience/2018/03/13/announcing-windows-10-insider-preview-build-17120-for-fast/) | 3/13/2018 | 3/16/2018 | | | | [3/20/2018]https://blogs.windows.com/buildingapps/2018/03/20/windows-10-sdk-preview-build-17120-now-available/() |
-| [17115](https://blogs.windows.com/windowsexperience/2018/03/06/announcing-windows-10-insider-preview-build-17115-fast/) | 3/06/2018 | 3/09/2018 | | 3/13/2018 | [3/13/2018](https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewadvanced) | [3/13/2018](https://blogs.windows.com/buildingapps/2018/03/13/windows-10-sdk-preview-build-17115-now-available/) |
-| [17112](https://blogs.windows.com/windowsexperience/2018/03/02/announcing-windows-10-insider-preview-build-17112-fast/) | 3/02/2018 | 
-| [17110](https://blogs.windows.com/windowsexperience/2018/02/27/announcing-windows-10-insider-preview-build-17110-fast/) | 2/27/2018 | | | 3/07/2018 | | [3/07/2018](https://blogs.windows.com/buildingapps/2018/03/07/windows-10-sdk-preview-build-17110-now-available/) |
-| [17107](https://blogs.windows.com/windowsexperience/2018/02/23/announcing-windows-10-insider-preview-build-17107-fast-ring/) | 2/23/2018 |
-| [17101](https://blogs.windows.com/windowsexperience/2018/02/14/announcing-windows-10-insider-preview-build-17101-fast-build-17604-skip-ahead/) | 2/14/2018 |
+| 17123 | [3/16/2018](https://blogs.windows.com/windowsexperience/2018/03/16/announcing-windows-10-insider-preview-build-17123-for-fast/) | | | | | |
+| 17120| [3/13/2018](https://blogs.windows.com/windowsexperience/2018/03/13/announcing-windows-10-insider-preview-build-17120-for-fast/) | 3/16/2018 | | | | [3/20/2018](https://blogs.windows.com/buildingapps/2018/03/20/windows-10-sdk-preview-build-17120-now-available/) |
+| 17115 | [3/06/2018](https://blogs.windows.com/windowsexperience/2018/03/06/announcing-windows-10-insider-preview-build-17115-fast/) | 3/09/2018 | | 3/13/2018 | [3/13/2018](https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewadvanced) | [3/13/2018](https://blogs.windows.com/buildingapps/2018/03/13/windows-10-sdk-preview-build-17115-now-available/) |
+| 17112 | [3/02/2018](https://blogs.windows.com/windowsexperience/2018/03/02/announcing-windows-10-insider-preview-build-17112-fast/)| 
+| 17110 | [2/27/2018](https://blogs.windows.com/windowsexperience/2018/02/27/announcing-windows-10-insider-preview-build-17110-fast/) | | | 3/07/2018 | | [3/07/2018](https://blogs.windows.com/buildingapps/2018/03/07/windows-10-sdk-preview-build-17110-now-available/) |
+| 17107 | [2/23/2018](https://blogs.windows.com/windowsexperience/2018/02/23/announcing-windows-10-insider-preview-build-17107-fast-ring/) |
+| 17101 | [2/14/2018](https://blogs.windows.com/windowsexperience/2018/02/14/announcing-windows-10-insider-preview-build-17101-fast-build-17604-skip-ahead/) |
 | 17905 | | | | | |[2/13/2018](https://blogs.windows.com/buildingapps/2018/02/13/windows-10-sdk-preview-build-17095-now-available/) |
-| [17093](https://blogs.windows.com/windowsexperience/2018/02/07/announcing-windows-10-insider-preview-build-17093-pc/) | 2/07/2018 | |[<b>2/13/2018</b>](https://blogs.windows.com/windowsexperience/2018/02/13/announcing-windows-server-insider-preview-build-17093-project-honolulu-technical-preview-1802/) | 
-| [17083](https://blogs.windows.com/windowsexperience/2018/01/24/announcing-windows-10-insider-preview-build-17083-for-pc/) | 1/24/2018 | | 1/31/2018| | | [<b>1/31/2018</b>](https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewSDK)|
+| 17093 | [2/07/2018](https://blogs.windows.com/windowsexperience/2018/02/07/announcing-windows-10-insider-preview-build-17093-pc/) | |[<b>2/13/2018</b>](https://blogs.windows.com/windowsexperience/2018/02/13/announcing-windows-server-insider-preview-build-17093-project-honolulu-technical-preview-1802/) | 
+| 17083| [1/24/2018](https://blogs.windows.com/windowsexperience/2018/01/24/announcing-windows-10-insider-preview-build-17083-for-pc/) | | 1/31/2018| | | [<b>1/31/2018</b>](https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewSDK)|
 | 17079 | | | | | | |
 | [17074.1002]() | 1/18/2018 | | | | | |
 | [17074]() | 1/11/2018 | | | | | |
