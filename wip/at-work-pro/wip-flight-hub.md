@@ -15,13 +15,15 @@ ms.author: dawn.wood
 
 # Flight Hub
 
-Welcome to Flight Hub, a dashboard for Windows Insiders to quickly identify the latest Insider Preview releases for PC, Server, IoT, as well as SDKs and ISO images. 
+Welcome to Flight Hub! Use this dashboard to quickly identify the latest Windows Insider Preview releases for PC, Server, IoT. You can also look up the status of the SDK and ISO images. 
 
 ## Feature updates for Windows 10 (RS5)
-Builds of RS5 client are only released to Windows Insiders in the Fast ring who opted in to Skip Ahead. Builds of Windows Server 2019 are released to members of the Windows Insider Program for Server. The items in <b>bold</b> typeface are the latest release for that version of the item. 
+You can get builds of RS5 client if you join the Windows Insiders Program in the Fast ring, and also opted to Skip Ahead. Builds of Windows Server 2019 are released to members of the Windows Insider Program for Server. 
+
+The items in <b>bold</b> typeface are the latest release for that version of the item. 
 
 
-| Build | Fast | Slow | Server | Iot | ISO | SDK |
+| Build | Fast | Slow | Server | IoT | ISO | SDK |
 |-------|------|------|--------|-----|-----|-----|
 | 17643 | [<b>4/12/2018</b>](https://blogs.windows.com/windowsexperience/2018/04/12/announcing-windows-10-insider-preview-build-17643-for-skip-ahead/)
 | 17639| [4/04/2018]((https://blogs.windows.com/windowsexperience/2018/04/04/announcing-windows-10-insider-preview-build-17639-for-skip-ahead/))
@@ -32,6 +34,7 @@ Builds of RS5 client are only released to Windows Insiders in the Fast ring who 
 | 17604 | [2/14/2018](https://blogs.windows.com/windowsexperience/2018/02/14/announcing-windows-10-insider-preview-build-17101-fast-build-17604-skip-ahead/) | 
 
 ## Feature updates for Windows 10 (RS4)
+RS4 is still in development and will release in the spring of 2018. Here are the interim builds we released to Windows Insiders. 
 
 | Build | Fast | Slow | Server | IoT | ISO | SDK | 
 |-------|------|------|--------|-----|-----|-----|
@@ -67,7 +70,7 @@ Builds of RS5 client are only released to Windows Insiders in the Fast ring who 
 | 16353|[8/31/2017*](https://blogs.windows.com/windowsexperience/2017/08/31/announcing-windows-10-insider-preview-build-16353-pc-skip-ahead/) |
 
 
-## Windows 10 Fall Creators Update (RS3)
+## Feature updates for Windows 10 Fall Creators Update (RS3)
 [The Windows 10 Fall Creators Update](https://blogs.windows.com/windowsexperience/2017/10/17/windows-10-fall-creators-update-and-mixed-reality-headsets-available-today-announcing-surface-book-2/) was released to the world on October 17th, 2017. Windows Insiders helped test 24 builds.
 
 
