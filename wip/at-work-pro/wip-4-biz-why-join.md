@@ -15,25 +15,24 @@ ms.author: dawn.wood
 
 # Why join the Windows Insider Program for Business?
 
-Microsoft recommends that all organizations have at least a few devices enrolled in the Windows Insider Program, to include the Windows Insider Program in their deployment plans, and to provide feedback on any issues they encounter to Microsoft via our Feedback Hub App. 
+We recommend that all organizations have at least a few devices enrolled in the Windows Insider Program. This means you should include the Windows Insider Program in your deployment plans, and you get the opportunity to provide feedback to Microsoft via our Feedback Hub App. 
 
-The Windows Insider Program for Business gives you the opportunity to:
+When you join the Windows Insider Program for Business, you can:
+
 * Get early access to Windows Insider Preview Builds. 
-* Provide feedback to Microsoft in real time by using the Feedback Hub app.
-* Sign in with corporate credentials (Azure Active Directory) and increase the visibility of your organization's feedback with Microsoft – especially on features that support your productivity and business needs.
-* Register your Azure Active Directory domain in the program, allowing you to cover all users within your organization with just one registration.
-* Starting with Windows 10, version 1709, enable, disable, defer, and pause the installation of preview builds through policies.
-* Track feedback provided through the Feedback Hub App across your organization.
-
-The Windows Insider Program doesn't replace Semi-Annual Channel deployments in an organization. Rather, it provides IT Pros and other interested parties with pre-release Windows builds that they can test and ultimately provide feedback on to Microsoft.
-
+* Give feedback to Microsoft in real time.
+* Sign in with your Azure Active Directory (AAD) account. Signing in with your AAD account can increase the visibility of your organization's feedback.
+* Register your AAD domain in the program to cover all users within your organization with just one registration.
+* Enable, disable, defer, and pause the installation of preview builds through policies
+* Track feedback across your organization.
 
 [![Illustration showing the Windows Insider PreviewFast Ring for exploration, the Slow Ring for validation, the Semi-Annual Channel Targeted ring for Pilot deployment, and the Semi-Annual Channel for broad deployment](images/WIP4Biz_deployment.png)](images/WIP4Biz_deployment.png)<br>
-Windows 10 Insider Preview builds enable organizations to prepare sooner for Windows Semi-Annual releases and reduce the overall validation effort required with traditional deployments. 
+
+The Windows Insider Program doesn't replace Semi-Annual Channel deployments. Windows 10 Insider Preview builds enable organizations to prepare sooner for Windows Semi-Annual releases and reduce the effort required with traditional deployments. 
 
 
 ## Explore new Windows 10 features in Insider Previews
-Windows 10 Insider Preview builds offer organizations a valuable and exciting opportunity to evaluate new Windows features well before general release. What’s more, by providing feedback to Microsoft on these features, you and other Insiders in your organization can help shape Windows for your specific business needs. Here’s how to get the most out of your feature exploration: 
+Windows 10 Insider Preview builds give you an opportunity to evaluate new Windows features before a general release. Your feedback can help shape Windows for your specific business needs. Here’s how to get the most out of your feature exploration: 
 
 |Objective |Feature exploration|
 |---------|---------|
