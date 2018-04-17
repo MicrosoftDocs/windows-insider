@@ -21,8 +21,8 @@ Welcome to Flight Hub, a dashboard for Windows Insiders to quickly identify the 
 Builds of RS5 client are only released to Windows Insiders in the Fast ring who opted in to Skip Ahead. Builds of Windows Server 2019 are released to members of the Windows Insider Program for Server. The items in <b>bold</b> typeface are the latest release for that version of the item. 
 
 
-| Build | Fast | Slow |Server | Iot | ISO | SDK |
-|-------|------|------|-------|-----|-----|-----|
+| Build | Fast | Slow | Server | Iot | ISO | SDK |
+|-------|------|------|--------|-----|-----|-----|
 | 17643 | [<b>4/12/2018</b>](https://blogs.windows.com/windowsexperience/2018/04/12/announcing-windows-10-insider-preview-build-17643-for-skip-ahead/)
 | 17639| [4/04/2018]((https://blogs.windows.com/windowsexperience/2018/04/04/announcing-windows-10-insider-preview-build-17639-for-skip-ahead/))
 | 17634| [3/29/2018]((https://blogs.windows.com/windowsexperience/2018/03/29/announcing-windows-10-insider-preview-build-17634-for-skip-ahead/)) |
@@ -82,7 +82,7 @@ Builds of RS5 client are only released to Windows Insiders in the Fast ring who 
 | 16281 | [9/1/2017 ](https://blogs.windows.com/windowsexperience/2017/09/01/announcing-windows-10-insider-preview-build-16281-pc/) |
 | 16278 | [8/29/2017](https://blogs.windows.com/windowsexperience/2017/08/29/announcing-windows-10-insider-preview-build-16278-pc/) | 9/01/2017 |
 | 16275 | [8/25/2017](https://blogs.windows.com/windowsexperience/2017/08/25/announcing-windows-10-insider-preview-build-16275-pc-build-15245-mobile/) |
-| 16273  [8/23/2017](https://blogs.windows.com/windowsexperience/2017/08/23/announcing-windows-10-insider-preview-build-16273-pc/) |
+| 16273  | [8/23/2017](https://blogs.windows.com/windowsexperience/2017/08/23/announcing-windows-10-insider-preview-build-16273-pc/) |
 | 16257 | [8/01/2017](https://blogs.windows.com/windowsexperience/2017/08/02/announcing-windows-10-insider-preview-build-16257-pc-build-15237-mobile/) |
 | 16251 | [7/26/2017](https://blogs.windows.com/windowsexperience/2017/07/26/announcing-windows-10-insider-preview-build-16251-pc-build-15235-mobile/) | 8/02/2017 |
 | 16241 | [7/13/2017](https://blogs.windows.com/windowsexperience/2017/07/13/announcing-windows-10-insider-preview-build-16241-pc-build-15230-mobile/) |
