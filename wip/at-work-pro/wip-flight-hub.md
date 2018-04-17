@@ -63,5 +63,9 @@ Builds of RS5 client are only released to Windows Insiders in the Fast ring who 
 | 17004|[9/27/2017*](https://blogs.windows.com/windowsexperience/2017/09/27/announcing-windows-10-insider-preview-build-17004-pc-skip-ahead/) | | | | | |
 | 16362|[9/13/2017*](https://blogs.windows.com/windowsexperience/2017/09/13/announcing-windows-10-insider-preview-build-16362-pc-skip-ahead/) | | | | | |
 | 16353|[8/31/2017*](https://blogs.windows.com/windowsexperience/2017/08/31/announcing-windows-10-insider-preview-build-16353-pc-skip-ahead/) | | | | | |
-| []() | | | | | | |
-| []() | | | | | | |
+
+
+## Windows 10 Fall Creators Update (RS3)
+[The Windows 10 Fall Creators Update](https://blogs.windows.com/windowsexperience/2017/10/17/windows-10-fall-creators-update-and-mixed-reality-headsets-available-today-announcing-surface-book-2/) was released to the world on October 17th, 2017. Windows Insiders helped test 24 builds.
+| | | | | | | |
+| | | | | | | |
