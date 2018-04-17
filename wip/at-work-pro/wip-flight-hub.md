@@ -70,9 +70,10 @@ Builds of RS5 client are only released to Windows Insiders in the Fast ring who 
 ## Windows 10 Fall Creators Update (RS3)
 [The Windows 10 Fall Creators Update](https://blogs.windows.com/windowsexperience/2017/10/17/windows-10-fall-creators-update-and-mixed-reality-headsets-available-today-announcing-surface-book-2/) was released to the world on October 17th, 2017. Windows Insiders helped test 24 builds.
 
-| Build | Fast | Slow |
-|-------|------|------|
-| 16299.15 | [10/2/2017](https://blogs.windows.com/windowsexperience/2017/09/26/announcing-windows-10-insider-preview-build-16299-pc/) | 10/4/2017 |
+
+| Build | Fast | Slow | Release Preview |
+|-------|------|------|-----------------|
+| 16299.15 | [10/2/2017](https://blogs.windows.com/windowsexperience/2017/09/26/announcing-windows-10-insider-preview-build-16299-pc/) | 10/4/2017 | 10/10/2017 |
 | 16299.1 | [9/26/2017](https://blogs.windows.com/windowsexperience/2017/09/26/announcing-windows-10-insider-preview-build-16299-pc/) | 9/28/2017 |
 | 16296 | [9/2/2017]() | 9/28/2017 |
 | 16294 | [9/20/2017](https://blogs.windows.com/windowsexperience/2017/09/20/announcing-windows-10-insider-preview-build-16294-pc/) | |
@@ -86,12 +87,19 @@ Builds of RS5 client are only released to Windows Insiders in the Fast ring who 
 | 16251 | [7/26/2017](https://blogs.windows.com/windowsexperience/2017/07/26/announcing-windows-10-insider-preview-build-16251-pc-build-15235-mobile/) | 8/02/2017 |
 | 16241 | [7/13/2017](https://blogs.windows.com/windowsexperience/2017/07/13/announcing-windows-10-insider-preview-build-16241-pc-build-15230-mobile/) |
 | 16237 | [7/07/2017](https://blogs.windows.com/windowsexperience/2017/07/07/announcing-windows-10-insider-preview-build-16237-pc/) |
-| 16232 | [6/28/2017](https://blogs.windows.com/windowsexperience/2017/06/28/announcing-windows-10-insider-preview-build-16232-pc-build-15228-mobile/) |
-| 16226 |
-| 16215
-| 16199
-| 16193
-| 16188
-| 16179
-| 16176
-| 16170
+| 16232 | [6/28/2017](https://blogs.windows.com/windowsexperience/2017/06/28/announcing-windows-10-insider-preview-build-16232-pc-build-15228-mobile/) | 7/07/2017 |
+| 16226 | [6/21/2017](https://blogs.windows.com/windowsexperience/2017/06/21/announcing-windows-10-insider-preview-build-16226-pc/) |
+| 16215 | [6/08/2017](https://blogs.windows.com/windowsexperience/2017/06/08/announcing-windows-10-insider-preview-build-16215-pc-build-15222-mobile/) |
+| 16199 | [5/17/2017](https://blogs.windows.com/windowsexperience/2017/05/17/announcing-windows-10-insider-preview-build-16199-pc-build-15215-mobile/)
+| 16193 |[5/11/2017](https://blogs.windows.com/windowsexperience/2017/05/11/announcing-windows-10-insider-preview-build-16193-pc-build-15213-mobile/) |
+| 16188 | [5/05/2017](https://blogs.windows.com/windowsexperience/2017/05/04/announcing-windows-10-insider-preview-build-16188-pc-build-15210-mobile/) |
+| 16179 | [4/28/2017](https://blogs.windows.com/windowsexperience/2017/04/19/announcing-windows-10-insider-preview-build-16179-pc-build-15205-mobile/) |
+| 16176 | [4/14/2017](https://blogs.windows.com/windowsexperience/2017/04/14/announcing-windows-10-insider-preview-build-16176-pc-build-15204-mobile/) |
+| 16170 | [4/07/2017](https://blogs.windows.com/windowsexperience/2017/04/07/announcing-windows-10-insider-preview-build-16170-pc/) |
+
+## Windows 10 Creators Update (RS2)
+The [Windows 10 Creators Update](https://blogs.windows.com/windowsexperience/2017/04/11/whats-new-in-the-windows-10-creators-update/) was released to the world on April 11th, 2017. 
+
+| Build | Fast | Slow | Release Preview |
+|-------|------|------|-----------------|
+| 15063 | [3/20/2017](https://blogs.windows.com/windowsexperience/2017/03/20/announcing-windows-10-insider-preview-build-15063-pc-mobile/) | 3/23/2017 | 3/30/2017 |
