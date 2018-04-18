@@ -23,6 +23,8 @@ You can get builds of RS5 client if you join the Windows Insiders Program in the
 The items with the famous ![alt text](images/taco.png "taco hat") are the latest release for that version of the item. 
 
 
+
+
 | Build | Fast | Slow | Server | IoT | ISO | SDK |
 |-------|------|------|--------|-----|-----|-----|
 | 17643 | ![alt text](images/taco.png "taco hat") [<b>4/12/2018</b>](https://blogs.windows.com/windowsexperience/2018/04/12/announcing-windows-10-insider-preview-build-17643-for-skip-ahead/)

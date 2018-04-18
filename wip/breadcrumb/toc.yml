@@ -1,3 +1,41 @@
 - name: Docs
+
   tocHref: /
+
   topicHref: /
+
+  items:
+
+  - name: Windows
+
+    tocHref: /windows/
+
+    topicHref: /windows/
+
+    items:
+
+      - name: Windows Insider Program
+
+        tocHref: /windows/windows-insider/
+
+        topicHref: "/windows/windows-insider/index"  
+
+        items:
+
+              - name: Windows Insider Program 
+
+                tocHref: /windows/windows-insider/at-home/
+
+                topicHref: "/windows/windows-insider/at-home/index"         
+
+              - name: Windows Insider Program for Business
+
+                tocHref: /windows/windows-insider/windows-insider/
+
+                topicHref: "/windows-insider/windows-insider/index"
+
+              -name:  Windows Insider Program for Server
+                
+                tocHref: /windows/windows-insider/at-work/
+
+                topicHref: "/windows/windows-insider/at-work/index"
