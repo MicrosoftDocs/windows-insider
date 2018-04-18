@@ -80,7 +80,7 @@ description: The Windows Insider Program lets you get preview builds of Windows 
                         </li>
                         <li></li>
                         <li>
-                            <a href="/windows-insider/wip/flight-hub">
+                            <a href="/windows-insider/flight-hub">
                             <div class="cardSize">
                                 <div class="cardPadding">
                                     <div class="card">
