@@ -20,7 +20,7 @@ Welcome to Flight Hub! Use this dashboard to quickly identify the latest Windows
 ## Feature updates for Windows 10 (RS5)
 You can get builds of RS5 client if you join the Windows Insiders Program in the Fast ring, and also opt to Skip Ahead. Builds of Windows Server 2019 are released to members of the Windows Insider Program for Server. 
 
-The items in <b>bold</b> typeface are the latest release for that version of the item. ![alt text](images/taco.png "taco hat")
+The items with the famous ![alt text](images/taco.png "taco hat") are the latest release for that version of the item. 
 
 
 | Build | Fast | Slow | Server | IoT | ISO | SDK |
@@ -29,7 +29,7 @@ The items in <b>bold</b> typeface are the latest release for that version of the
 | 17639| [4/04/2018]((https://blogs.windows.com/windowsexperience/2018/04/04/announcing-windows-10-insider-preview-build-17639-for-skip-ahead/))
 | 17634| [3/29/2018]((https://blogs.windows.com/windowsexperience/2018/03/29/announcing-windows-10-insider-preview-build-17634-for-skip-ahead/)) |
 | 17627 | [3/21/2018](https://blogs.windows.com/windowsexperience/2018/03/21/announcing-windows-10-insider-preview-build-17627-for-skip-ahead/) | 
-| 17623 | [3/16/2018](https://blogs.windows.com/windowsexperience/2018/03/16/announcing-windows-10-insider-preview-build-17623-for-skip-ahead/) | | <b>[3/20/2018](https://blogs.windows.com/windowsexperience/2018/03/20/announcing-windows-server-vnext-ltsc-build-17623/)</b> | 
+| 17623 | [3/16/2018](https://blogs.windows.com/windowsexperience/2018/03/16/announcing-windows-10-insider-preview-build-17623-for-skip-ahead/) | | ![alt text](images/taco.png "taco hat")<b>[3/20/2018](https://blogs.windows.com/windowsexperience/2018/03/20/announcing-windows-server-vnext-ltsc-build-17623/)</b> | 
 | 17618 | [3/07/2018](https://blogs.windows.com/windowsexperience/2018/03/07/announcing-windows-10-insider-preview-build-17618-skip-ahead/) | 
 | 17604 | [2/14/2018](https://blogs.windows.com/windowsexperience/2018/02/14/announcing-windows-10-insider-preview-build-17101-fast-build-17604-skip-ahead/) | 
 
