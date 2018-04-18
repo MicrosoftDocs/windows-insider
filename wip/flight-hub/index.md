@@ -20,7 +20,7 @@ Welcome to Flight Hub! Use this dashboard to quickly identify the latest Windows
 ## Feature updates for Windows 10 (RS5)
 You can get builds of RS5 client if you join the Windows Insiders Program in the Fast ring, and also opt to Skip Ahead. Builds of Windows Server 2019 are released to members of the Windows Insider Program for Server. 
 
-The items in <b>bold</b> typeface are the latest release for that version of the item. 
+The items in <b>bold</b> typeface are the latest release for that version of the item. ![alt text](images/taco.png "taco hat")
 
 
 | Build | Fast | Slow | Server | IoT | ISO | SDK |
