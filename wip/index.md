@@ -86,7 +86,7 @@ description: The Windows Insider Program lets you get preview builds of Windows 
                                     <div class="card">
                                         <div class="cardImageOuter">
                                             <div class="cardImage">
-                                                <img src="https://docs.microsoft.com/media/common/i_get-started.svg" alt="" />
+                                                <img src="../images/flight-hub.png" alt="" />
                                             </div>
                                         </div>
                                         <div class="cardText">
