@@ -15,10 +15,10 @@ ms.author: dawn.wood
 
 # Flight Hub
 
-Welcome to Flight Hub! Use this dashboard to quickly identify the latest Windows Insider Preview releases for PC, Server, IoT. You can also look up the status of the SDK and ISO images. 
+Welcome to Flight Hub! Use this dashboard to quickly identify the latest Windows Insider Preview releases for PC, Server, and IoT. You can also look up SDK releases and ISO images. 
 
 ## Feature updates for Windows 10 (RS5)
-You can get builds of RS5 client if you join the Windows Insiders Program in the Fast ring, and also opted to Skip Ahead. Builds of Windows Server 2019 are released to members of the Windows Insider Program for Server. 
+You can get builds of RS5 client if you join the Windows Insiders Program in the Fast ring, and also opt to Skip Ahead. Builds of Windows Server 2019 are released to members of the Windows Insider Program for Server. 
 
 The items in <b>bold</b> typeface are the latest release for that version of the item. 
 
