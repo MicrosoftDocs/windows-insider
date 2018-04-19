@@ -13,7 +13,7 @@ ms.date: 04/20/2018
 ms.author: dawn.wood
 ---
 
-#![alt text](images/plane.png "take off with Windows Insider Program") Flight Hub
+# Flight Hub
 
  Welcome to Flight Hub! Use this dashboard to quickly identify the latest <b>Windows Insider Preview</b> releases for PC, Server, and IoT. You can also look up SDK releases and ISO images. 
 

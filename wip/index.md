@@ -91,7 +91,7 @@ description: The Windows Insider Program lets you get preview builds of Windows 
                                         </div>
                                         <div class="cardText">
                                             <h3>Flight Hub</h3>
-                                            <p>If you want to see the status of a flight, check out our WIP Flight hub.</p>
+                                            <p>If you want to see the status of a flight, check out our Flight Hub.</p>
                                         </div>
                                     </div>
                                 </div>
