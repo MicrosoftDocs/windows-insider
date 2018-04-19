@@ -1,6 +1,6 @@
 ---
 title: Flight Hub
-description: flight schedules and status for Windows Insider Program
+description: Flight schedules and status for Windows Insider Program
 services: WIP
 author: dawn.wood
 manager: elizapo
