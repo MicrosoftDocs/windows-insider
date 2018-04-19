@@ -3,23 +3,3 @@
   tocHref: /
 
   topicHref: /
-    items:
-      - name: Windows Insider Program
-        tocHref: /windows-insider/
-        topicHref: "windows-insider/index"
-        items:
-            - name: Windows Insider Program
-              tocHref: /windows-insider/
-              topicHref: "windows-insider/index"          
-            -name: Windows Insider Program for Business
-              tocHref: /windows-insider/at-work-pro
-              topicHref: "windows-insider/at-work-pro/index"
-            -name: Windows Insider Program for Business
-              tocHref: /windows-insider/at-work
-              topicHref: "windows-insider/at-work/index"
-            -name: Windows Insider Program for Server
-              tocHref: /windows-insider/at-work
-              topicHref: "windows-insider/at-work/index"
-            -name: Flight Hub
-              tocHref: /windows-insider/flight-hub
-              topicHref: "windows-insider/flight-hub/index"
