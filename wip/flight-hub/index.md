@@ -21,7 +21,7 @@ ms.author: dawn.wood
 ## Feature updates for Windows 10 (RS5)
 You can get builds of RS5 client if you join the Windows Insiders Program in the Fast ring, and also opt to Skip Ahead. Builds of Windows Server 2019 are released to members of the Windows Insider Program for Server. 
 
-The items with the famous ![alt text](images/taco.png "taco hat") are the latest release for that version of the item. 
+The items with the famous ![alt text](images/taco.png "taco hat"){:height="36px" width="36px"} are the latest release for that version of the item. 
 
 
 
