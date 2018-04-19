@@ -12,7 +12,7 @@ description: The Windows Insider Program lets you get preview builds of Windows 
 <div id="main" class="v2">
 <div class="container">
     <h1>Windows Insider Program documentation</h1>
-    <p>The <a href="https://insider.windows.com/"><b>Windows Insider Program</b></a> lets you get preview builds of Windows 10 and Windows Server 2019,and provide feedback directly to Microsoft.</p>
+    <p>The <a href="https://insider.windows.com/"><b>Windows Insider Program</b></a> lets you get preview builds of Windows 10 and Windows Server 2019, so that you can try out new features and  provide feedback directly to Microsoft.</p>
     <p> </p>
     <ul class="pivots">
         <li>
@@ -52,7 +52,7 @@ description: The Windows Insider Program lets you get preview builds of Windows 
                                         </div>
                                         <div class="cardText">
                                             <h3>Windows Insider Program for Business</h3>
-                                            <p>If you have a Windows 10 device that you use at work, and you want to participate in the program; or if you are an admin with workers participating in WIP, these docs are for you.</p>
+                                            <p>If you have a Windows 10 device that you use at work, and you want to participate in the program; or if you are an admin with workers participating in the Windows Insider Program, these docs are for you.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -91,7 +91,7 @@ description: The Windows Insider Program lets you get preview builds of Windows 
                                         </div>
                                         <div class="cardText">
                                             <h3>Flight Hub</h3>
-                                            <p>If you want to see the status of a flight, check out our Flight Hub.</p>
+                                            <p>Want to see the status of a flight? Check out our Flight Hub.</p>
                                         </div>
                                     </div>
                                 </div>
