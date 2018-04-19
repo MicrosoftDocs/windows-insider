@@ -28,11 +28,11 @@ The items with the famous <img src="images/taco.png" height=20 width=20)/> are t
 
 | Build | Fast | Slow | Server | IoT | ISO | SDK |
 |-------|------|------|--------|-----|-----|-----|
-| 17643 | [4/12/2018](https://blogs.windows.com/windowsexperience/2018/04/12/announcing-windows-10-insider-preview-build-17643-for-skip-ahead/) ![alt text](images/taco.png "taco hat")
+| 17643 | [4/12/2018](https://blogs.windows.com/windowsexperience/2018/04/12/announcing-windows-10-insider-preview-build-17643-for-skip-ahead/) <img src="images/taco.png" height=20 width=20)/>
 | 17639| [4/04/2018]((https://blogs.windows.com/windowsexperience/2018/04/04/announcing-windows-10-insider-preview-build-17639-for-skip-ahead/))
 | 17634| [3/29/2018]((https://blogs.windows.com/windowsexperience/2018/03/29/announcing-windows-10-insider-preview-build-17634-for-skip-ahead/)) |
 | 17627 | [3/21/2018](https://blogs.windows.com/windowsexperience/2018/03/21/announcing-windows-10-insider-preview-build-17627-for-skip-ahead/) | 
-| 17623 | [3/16/2018](https://blogs.windows.com/windowsexperience/2018/03/16/announcing-windows-10-insider-preview-build-17623-for-skip-ahead/) | | [3/20/2018](https://blogs.windows.com/windowsexperience/2018/03/20/announcing-windows-server-vnext-ltsc-build-17623/) ![alt text](images/taco.png "taco hat") | 
+| 17623 | [3/16/2018](https://blogs.windows.com/windowsexperience/2018/03/16/announcing-windows-10-insider-preview-build-17623-for-skip-ahead/) | | [3/20/2018](https://blogs.windows.com/windowsexperience/2018/03/20/announcing-windows-server-vnext-ltsc-build-17623/) <img src="images/taco.png" height=20 width=20)/> | 
 | 17618 | [3/07/2018](https://blogs.windows.com/windowsexperience/2018/03/07/announcing-windows-10-insider-preview-build-17618-skip-ahead/) | 
 | 17604 | [2/14/2018](https://blogs.windows.com/windowsexperience/2018/02/14/announcing-windows-10-insider-preview-build-17101-fast-build-17604-skip-ahead/) | 
 
@@ -41,11 +41,11 @@ RS4 is still in development and will release in the spring of 2018. Here are the
 
 | Build | Fast | Slow | Server | IoT | ISO | SDK | 
 |-------|------|------|--------|-----|-----|-----|
-| 17134 | [4/16/2018](https://blogs.windows.com/windowsexperience/2018/04/16/announcing-windows-10-insider-preview-build-17134-for-fast/) ![alt text](images/taco.png "taco hat")| 
-| 17133 |[3/27/2018](https://blogs.windows.com/windowsexperience/2018/03/27/announcing-windows-10-insider-preview-build-17133-for-fast/) | 3/30/2018 ![alt text](images/taco.png "taco hat")| |[3/28/2018](https://social.msdn.microsoft.com/Forums/en-US/4587bb75-0143-4bac-9af0-8fea437dbfba/new-flight-17133-released-for-insiders?forum=WindowsIoT) ![alt text](images/taco.png "taco hat") |
+| 17134 | [4/16/2018](https://blogs.windows.com/windowsexperience/2018/04/16/announcing-windows-10-insider-preview-build-17134-for-fast/) <img src="images/taco.png" height=20 width=20)/>| 
+| 17133 |[3/27/2018](https://blogs.windows.com/windowsexperience/2018/03/27/announcing-windows-10-insider-preview-build-17133-for-fast/) | 3/30/2018 <img src="images/taco.png" height=20 width=20)/>| |[3/28/2018](https://social.msdn.microsoft.com/Forums/en-US/4587bb75-0143-4bac-9af0-8fea437dbfba/new-flight-17133-released-for-insiders?forum=WindowsIoT) <img src="images/taco.png" height=20 width=20)/> |
 | 17128 | [3/23/2018](https://blogs.windows.com/windowsexperience/2018/03/23/announcing-windows-10-insider-preview-build-17128-for-fast/)|
-| 17127| [3/20/2018](https://blogs.windows.com/windowsexperience/2018/03/20/announcing-windows-10-insider-preview-build-17127-for-fast/) |3/23/2018 | | | [3/27/2018](https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewadvanced) ![alt text](images/taco.png "taco hat") |
-| 17125 | | | | | | [3/27/2018](https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewSDK) ![alt text](images/taco.png "taco hat")|
+| 17127| [3/20/2018](https://blogs.windows.com/windowsexperience/2018/03/20/announcing-windows-10-insider-preview-build-17127-for-fast/) |3/23/2018 | | | [3/27/2018](https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewadvanced) <img src="images/taco.png" height=20 width=20)/> |
+| 17125 | | | | | | [3/27/2018](https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewSDK) <img src="images/taco.png" height=20 width=20)/>|
 | 17123 | [3/16/2018](https://blogs.windows.com/windowsexperience/2018/03/16/announcing-windows-10-insider-preview-build-17123-for-fast/) |
 | 17120| [3/13/2018](https://blogs.windows.com/windowsexperience/2018/03/13/announcing-windows-10-insider-preview-build-17120-for-fast/) | 3/16/2018 | | | | [3/20/2018](https://blogs.windows.com/buildingapps/2018/03/20/windows-10-sdk-preview-build-17120-now-available/) |
 | 17115 | [3/06/2018](https://blogs.windows.com/windowsexperience/2018/03/06/announcing-windows-10-insider-preview-build-17115-fast/) | 3/09/2018 | | 3/13/2018 | [3/13/2018](https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewadvanced) | [3/13/2018](https://blogs.windows.com/buildingapps/2018/03/13/windows-10-sdk-preview-build-17115-now-available/) |
@@ -54,7 +54,7 @@ RS4 is still in development and will release in the spring of 2018. Here are the
 | 17107 | [2/23/2018](https://blogs.windows.com/windowsexperience/2018/02/23/announcing-windows-10-insider-preview-build-17107-fast-ring/) |
 | 17101 | [2/14/2018](https://blogs.windows.com/windowsexperience/2018/02/14/announcing-windows-10-insider-preview-build-17101-fast-build-17604-skip-ahead/) |
 | 17905 | | | | | |[2/13/2018](https://blogs.windows.com/buildingapps/2018/02/13/windows-10-sdk-preview-build-17095-now-available/) |
-| 17093 | [2/07/2018](https://blogs.windows.com/windowsexperience/2018/02/07/announcing-windows-10-insider-preview-build-17093-pc/) | |[2/13/2018](https://blogs.windows.com/windowsexperience/2018/02/13/announcing-windows-server-insider-preview-build-17093-project-honolulu-technical-preview-1802/) ![alt text](images/taco.png "taco hat") | 
+| 17093 | [2/07/2018](https://blogs.windows.com/windowsexperience/2018/02/07/announcing-windows-10-insider-preview-build-17093-pc/) | |[2/13/2018](https://blogs.windows.com/windowsexperience/2018/02/13/announcing-windows-server-insider-preview-build-17093-project-honolulu-technical-preview-1802/) <img src="images/taco.png" height=20 width=20)/>| 
 | 17083| [1/24/2018](https://blogs.windows.com/windowsexperience/2018/01/24/announcing-windows-10-insider-preview-build-17083-for-pc/) | | 1/31/2018| | | [1/31/2018](https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewSDK)|
 | 17079 | | | [1/23/2018](https://blogs.windows.com/windowsexperience/2018/01/23/announcing-windows-server-insider-preview-build-17079/)|
 | 17074.1002 | [1/18/2018](https://blogs.windows.com/windowsexperience/2018/01/11/announcing-windows-10-insider-preview-build-17074-pc/#s32iZObXeU224sD5.97) | 1/19/2018 | 
