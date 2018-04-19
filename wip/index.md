@@ -12,7 +12,7 @@ description: The Windows Insider Program lets you get preview builds of Windows 
 <div id="main" class="v2">
 <div class="container">
     <h1>Windows Insider Program documentation</h1>
-    <p>The <a href="https://insider.windows.com/">Windows Insider Program</a> lets you get preview builds of Windows 10 and provide feedback directly to Microsoft.</p>
+    <p>The <a href="https://insider.windows.com/"><b>Windows Insider Program</b></a> lets you get preview builds of Windows 10 and provide feedback directly to Microsoft.</p>
     <p> </p>
     <ul class="pivots">
         <li>
