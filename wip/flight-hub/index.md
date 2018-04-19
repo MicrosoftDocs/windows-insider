@@ -17,7 +17,7 @@ ms.author: dawn.wood
 
 Welcome to Flight Hub! Use this dashboard to quickly identify the latest Windows Insider Preview releases for PC, Server, IoT. You can also look up the status of the SDK and ISO images. 
 
-## Next feature updates for Windows 10 (RS5)
+## Next feature update for Windows 10 (RS5)
 You can get builds of RS5 client if you join the Windows Insiders Program in the Fast ring, and also opted to Skip Ahead. Builds of Windows Server 2019 are released to members of the Windows Insider Program for Server. 
 
 The items in <b>bold</b> typeface are the latest release for that version of the item. 
@@ -33,7 +33,7 @@ The items in <b>bold</b> typeface are the latest release for that version of the
 | 17618 | [3/07/2018](https://blogs.windows.com/windowsexperience/2018/03/07/announcing-windows-10-insider-preview-build-17618-skip-ahead/) | 
 | 17604 | [2/14/2018](https://blogs.windows.com/windowsexperience/2018/02/14/announcing-windows-10-insider-preview-build-17101-fast-build-17604-skip-ahead/) | 
 
-## Upcoming feature updates for Windows 10 (RS4)
+## Upcoming feature update for Windows 10 (RS4)
 RS4 is still in development and will release in the spring of 2018. Here are the interim builds we released to Windows Insiders. 
 
 | Build | Fast | Slow | Server | IoT | ISO | SDK | 
