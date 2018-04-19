@@ -1,4 +1,4 @@
-# [Windows Insider Program](https://docs.microsoft.com/en-us/windows-insider/)
+# [Windows Insider Program](/windows-insider/index.md)
 ## [Flight Hub](index.md)
 
 
