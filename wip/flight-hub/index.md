@@ -18,20 +18,22 @@ ms.author: dawn.wood
 Welcome to Flight Hub! Use this dashboard to quickly identify the latest Windows Insider Preview releases for PC, Server, IoT. You can also look up the status of the SDK and ISO images. 
 
 ## Next feature update for Windows 10 (RS5)
-You can get builds of RS5 client if you join the Windows Insiders Program in the Fast ring, and also opt to Skip Ahead. Builds of Windows Server 2019 are released to members of the Windows Insider Program for Server. 
+You can get builds of RS5 today if your PC is in the Fast ring and is opted in to Skip Ahead. (Currently, Skip Ahead is closed to new PCs.) In the future, the Fast ring will move to RS5 and receive the same RS5 builds as Skip Ahead. The builds with an asterisk are Skip Ahead builds. 
+
+Builds of Windows Server 2019 are released to members of the Windows Insider Program for Server. 
 
 The items in <b>bold</b> typeface are the latest release for that version of the item. 
 
 
 | Build | Fast | Slow | Server | IoT | ISO | SDK |
 |-------|------|------|--------|-----|-----|-----|
-| 17643 | [<b>4/12/2018</b>](https://blogs.windows.com/windowsexperience/2018/04/12/announcing-windows-10-insider-preview-build-17643-for-skip-ahead/)
-| 17639| [4/04/2018]((https://blogs.windows.com/windowsexperience/2018/04/04/announcing-windows-10-insider-preview-build-17639-for-skip-ahead/))
-| 17634| [3/29/2018]((https://blogs.windows.com/windowsexperience/2018/03/29/announcing-windows-10-insider-preview-build-17634-for-skip-ahead/)) |
-| 17627 | [3/21/2018](https://blogs.windows.com/windowsexperience/2018/03/21/announcing-windows-10-insider-preview-build-17627-for-skip-ahead/) | 
-| 17623 | [3/16/2018](https://blogs.windows.com/windowsexperience/2018/03/16/announcing-windows-10-insider-preview-build-17623-for-skip-ahead/) | | <b>[3/20/2018](https://blogs.windows.com/windowsexperience/2018/03/20/announcing-windows-server-vnext-ltsc-build-17623/)</b> | 
-| 17618 | [3/07/2018](https://blogs.windows.com/windowsexperience/2018/03/07/announcing-windows-10-insider-preview-build-17618-skip-ahead/) | 
-| 17604 | [2/14/2018](https://blogs.windows.com/windowsexperience/2018/02/14/announcing-windows-10-insider-preview-build-17101-fast-build-17604-skip-ahead/) | 
+| 17643 | [<b>4/12/2018</b>*](https://blogs.windows.com/windowsexperience/2018/04/12/announcing-windows-10-insider-preview-build-17643-for-skip-ahead/)
+| 17639| [4/04/2018*]((https://blogs.windows.com/windowsexperience/2018/04/04/announcing-windows-10-insider-preview-build-17639-for-skip-ahead/))
+| 17634| [3/29/2018*]((https://blogs.windows.com/windowsexperience/2018/03/29/announcing-windows-10-insider-preview-build-17634-for-skip-ahead/)) |
+| 17627 | [3/21/2018*](https://blogs.windows.com/windowsexperience/2018/03/21/announcing-windows-10-insider-preview-build-17627-for-skip-ahead/) | 
+| 17623 | [3/16/2018*](https://blogs.windows.com/windowsexperience/2018/03/16/announcing-windows-10-insider-preview-build-17623-for-skip-ahead/) | | <b>[3/20/2018](https://blogs.windows.com/windowsexperience/2018/03/20/announcing-windows-server-vnext-ltsc-build-17623/)</b> | 
+| 17618 | [3/07/2018*](https://blogs.windows.com/windowsexperience/2018/03/07/announcing-windows-10-insider-preview-build-17618-skip-ahead/) | 
+| 17604 | [2/14/2018*](https://blogs.windows.com/windowsexperience/2018/02/14/announcing-windows-10-insider-preview-build-17101-fast-build-17604-skip-ahead/) | 
 
 ## Upcoming feature update for Windows 10 (RS4)
 RS4 is still in development and will release in the spring of 2018. Here are the interim builds we released to Windows Insiders. 
