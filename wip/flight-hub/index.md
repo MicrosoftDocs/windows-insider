@@ -14,8 +14,8 @@ ms.author: dawn.wood
 ---
 
 
-![alt text](images/plane.png "hub plane") 
-# Flight Hub
+ 
+# Flight Hub ![alt text](images/plane.png "hub plane")
  Welcome to Flight Hub! Use this dashboard to quickly identify the latest <b>Windows Insider Preview</b> releases for PC, Server, and IoT. You can also look up SDK releases and ISO images. 
 
 ## Feature updates for Windows 10 (RS5)
