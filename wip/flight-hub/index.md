@@ -4,7 +4,6 @@ description: Flight schedules and status for Windows Insider Program
 services: WIP
 author: dawn.wood
 manager: elizapo
-layout: LandingPage
 ms.assetid: 
 ms.service: WIP
 ms.tgt_pltfrm: na

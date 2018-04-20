@@ -4,7 +4,6 @@ description: New features to use and test in the Windows Insider Program for Ser
 services: WIP-at-work
 author: dawn.wood
 manager: elizapo
-layout: LandingPage
 ms.assetid: 
 ms.service: WIP-at-work
 ms.tgt_pltfrm: na
