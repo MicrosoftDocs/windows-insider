@@ -4,7 +4,6 @@ description: New features to use and test in the Windows Insider Program for Ser
 services: WIP-at-work
 author: dawn.wood
 manager: elizapo
-layout: LandingPage
 ms.assetid: 
 ms.service: WIP-at-work
 ms.tgt_pltfrm: na
@@ -20,7 +19,7 @@ The features listed below are available in preview builds of Windows Server 2019
 
 We also encourage you to visit the [Windows Server Insiders space](https://techcommunity.microsoft.com/t5/Windows-Server-Insiders/bd-p/WindowsServerInsiders) on the [Microsoft Tech Communities forum](https://techcommunity.microsoft.com/) to collaborate, share, and learn from experts.
 
-<b>In place upgrades</b>
+## In place upgrades
 
 In-place upgrade allows an administrator to upgrade an existing installation of Windows Server to a newer version, retaining settings and installed features. The LTSC versions and editions of Windows Server that are supported for in-place upgrade are shown in the following table.
 
@@ -31,7 +30,7 @@ In-place upgrade allows an administrator to upgrade an existing installation of 
 |Windows Server 2012 R2 Standard| Windows Server 2019 Standard or Datacenter|
 |Windows Server 2012 R2 Datacenter | Windows Server 2019 Datacenter|
 
-<b>Storage Migration Service</b>
+## Storage Migration Service
 
 A common issue around Windows Server is a lack of data migration options from older operating systems and storage platforms. Many customers run Windows Server 2012 R2, Windows Server 2008 R2, or even Windows Server 2003 simply because in-place upgrades were impossible and manual data migrations were slow and likely to cause significant service interruption or even loss of access to users and applications.
 
@@ -51,11 +50,11 @@ SMS is under active development, and you will see many changes and improvements 
 
 For more information on deploying and using the Storage Migration Service, please visit [https://aka.ms/stormigser](https://aka.ms/stormigser)
 
-<b>Extending your Clusters with Cluster Sets</b>
+## Extending your Clusters with Cluster Sets
 
 “Cluster Sets” is the new cloud scale-out technology that increases cluster node count in a single SDDC (Software-Defined Data Center) cloud by orders of magnitude. A Cluster Set is a loosely-coupled grouping of multiple Failover Clusters: compute, storage or hyper-converged. Cluster Sets technology enables virtual machine fluidity across member clusters within a Cluster Set and a unified storage namespace across the "set" in support of virtual machine fluidity.  While preserving existing Failover Cluster management experiences on member clusters, a Cluster Set instance additionally offers key use cases around lifecycle management of a Cluster Set at the aggregate.
 
-<b>Windows Defender Advanced Threat Protection</b>
+## Windows Defender Advanced Threat Protection
 
 We provide deep platform sensors and response actions, providing visibility to memory and kernel level attacker activities and abilities to take actions on compromised machines in response to incidents such as remote collection of additional forensic data, remediating malicious files, terminating malicious processes etc. 
  
@@ -65,7 +64,7 @@ Otherwise, sign up for the Windows Defender ATP trial on [Windows
 Defender Advanced Threat
 Protection](https://www.microsoft.com/en-us/windowsforbusiness/windows-atp).
 
-<b>Windows Defender ATP Exploit Guard</b>
+## Windows Defender ATP Exploit Guard
 
 Windows Defender ATP Exploit Guard is a new set of host-intrusion
 prevention capabilities. The four components of Windows Defender Exploit
@@ -74,8 +73,8 @@ attack vectors and block behaviors commonly used in malware attacks,
 while enabling enterprises to balance their security risk and
 productivity requirements.
 
--   <b><a href="https://docs.microsoft.com/en-us/windows/threat-protection/windows-defender-exploit-guard/attack-surface-reduction-exploit-guard?ocid=cx-blog-mmpc">Attack Surface Reduction
-    (ASR)</a></b>:
+- <a href="https://docs.microsoft.com/en-us/windows/threat-protection/windows-defender-exploit-guard/attack-surface-reduction-exploit-guard?ocid=cx-blog-mmpc">Attack Surface Reduction
+    (ASR)</a>:
     A set of controls that enterprises can enable to prevent malware
     from getting on the machine by blocking suspicious malicious files
     (for example, Office files), scripts, lateral movement, ransomware
@@ -151,7 +150,7 @@ Set-ProcessMitigation -PolicyFilePath ProcessMitigation.xml
 </pre>
 
 
-<b>Windows Defender Application Control</b>
+## Windows Defender Application Control
 
 Windows Defender Application Control—also known as Code Integrity (CI) policy—was released in Windows Server 2016. Customer feedback has suggested that it is a great concept, but hard to deploy. To address this, we are building default CI policies, which will allow all Windows in-box files and Microsoft applications, such as SQL Server, and block known executables that can bypass CI.  
 
@@ -168,11 +167,11 @@ C:\\Windows\\System32\\CodeIntegrity\\SiPolicy.p7b
 Reboot the server to allow code integrity service to load the policy.
 
 
-<b>Failover Cluster removing use of NTLM authentication</b>
+Failover Cluster removing use of NTLM authentication
 
 Windows Server Failover Clusters no longer use NTLM authentication by exclusively using Kerberos and certificate based authentication.  There are no changes required by the user, or deployment tools,  to take advantage of this security enhancement.  It also allows failover clusters to be deployed in environments where NTLM has been disabled. 
 
-<b>Shielded virtual machines – Offline mode, VMConnect and Linux support</b>
+Shielded virtual machines – Offline mode, VMConnect and Linux support
 
 You can now run [shielded virtual
 machines](https://docs.microsoft.com/en-us/windows-server/virtualization/guarded-fabric-shielded-vm/guarded-fabric-and-shielded-vms)
@@ -206,7 +205,7 @@ template
 disk](https://docs.microsoft.com/en-us/windows-server/virtualization/guarded-fabric-shielded-vm/guarded-fabric-create-a-linux-shielded-vm-template)—and
 send us your feedback in the Feedback Hub.
 
-<b>Encrypted Network in SDN</b>
+## Encrypted Network in SDN
 
 Network traffic going out from a VM host can be snooped on and/or
 manipulated by anyone with access to the physical fabric. While shielded
@@ -230,11 +229,11 @@ send us your feedback in the Feedback Hub.
 If you are using Storage Spaces Direct, take a look at another area to
 explore for this release: performance history for Storage Spaces Direct.
 
-<b>Software Defined Datacenter</b>
+## Software Defined Datacenter
 
 If you are using Storage Spaces Direct, take a look at  performance history for Storage Spaces Direct. 
 
-<b>Performance history for Storage Spaces Direct</b>
+## Performance history for Storage Spaces Direct
 
 Administrators of [Storage Spaces
 Direct](https://docs.microsoft.com/windows-server/storage/storage-spaces/storage-spaces-direct-overview)
