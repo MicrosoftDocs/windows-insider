@@ -27,3 +27,14 @@ You can switch between your Microsoft Account (MSA) and your organizational acco
 
 
 ## Install Windows Insider Preview builds
+You can install Windows 10 Insider Preview builds on individual devices, manage installation across multiple devices in an organization, or install on a virtual machine. 
+
+### Install on an individual device
+Getting set up on a single device is easy. 
+1. Open Windows Insider Program settings. You can find the settings by going to <b>Start > Settings > Update & security > Windows Insider Program</b>. To see this setting, you must have administrator rights to your device.
+2. Click <b>Get started</d> and follow the prompts to link your Microsoft or work account that you used to register as a Windows Insider. 
+
+### Install across multiple devices
+
+### Install on a virtual machine
+There isn't anything special you have to do to run Windows 10 Insider Preview builds on a virtual machine. Once you have a virtual machine set up, you install just as you would on an individual device. If you need help setting up a virtual machine, see [Introduction to Hyper-V on Windows 10](https://docs.microsoft.com/virtualization/hyper-v-on-windows/about/).
