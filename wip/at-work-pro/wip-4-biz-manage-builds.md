@@ -26,3 +26,4 @@ Here's the console screen you can use to set these policies.
 
 <b>MDM</b>
 To use MDM, use the [Update/ManagePreviewBuilds](https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-update#update-managepreviewbuilds) setting. To set the readiness level, use the [Update/BranchReadinessLevel](https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-update#update-branchreadinesslevel).
+

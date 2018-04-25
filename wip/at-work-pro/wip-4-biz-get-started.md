@@ -50,3 +50,4 @@ Administrators can install and manage Insider Preview builds centrally across de
 
 ### Install on a virtual machine
 There isn't anything special you have to do to run Windows 10 Insider Preview builds on a virtual machine. Once you have a virtual machine set up, you install just as you would on an individual device. If you need help setting up a virtual machine, see [Introduction to Hyper-V on Windows 10](https://docs.microsoft.com/virtualization/hyper-v-on-windows/about/).
+
