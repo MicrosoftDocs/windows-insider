@@ -42,13 +42,11 @@ Getting set up on a single device is easy.
 4. Read the privacy statement and then click <b>Next</b>.
 5. Restart the device. After restarting, you are now ready to install your first preview build.
 6. To install the first preview, open <b>Start > Settings > Update & security > Windows Insider Program</b> and select your Windows Insider level. The device receives the most recent Windows Insider build for the Windows Insider level you select. 
-![alt text](images/waas-wipfb-policy1.png "set insider level")
 
-See [Windows readiness levels and flight rings]() for more information about each choice. 
+See [Windows readiness levels and flight rings](wip-4-biz-flight-levels-and-rings.md) for more information about each choice. 
 
 ### Install across multiple devices in a domain
 Administrators can install and manage Insider Preview builds centrally across devices in their domain. To register a domain, you must be registered in the Windows Insider Program with your work account in Azure Active Directory and you must be assigned a Global Administrator role on that AAD domain. Also requires Windows 10 Version 1703 or later. 
-
 
 ### Install on a virtual machine
 There isn't anything special you have to do to run Windows 10 Insider Preview builds on a virtual machine. Once you have a virtual machine set up, you install just as you would on an individual device. If you need help setting up a virtual machine, see [Introduction to Hyper-V on Windows 10](https://docs.microsoft.com/virtualization/hyper-v-on-windows/about/).
