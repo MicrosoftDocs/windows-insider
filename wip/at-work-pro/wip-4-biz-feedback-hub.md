@@ -24,7 +24,7 @@ Feedback Hub needs your consent to access your AAD account profile data (we read
 In an enterprise environment, AAD administrators have the ability to allow or block users from giving consent. If you cannot give consent, Feedback Hub is blocked, your admin (or you if you're the admin) can unblock it by using the following steps.
 
 1. Go to https://portal.azure.com/.
-2. Switch to the Azure Active Directory dashboard. ![alt text](images/waas-wipfb-aad-newaad.png "Active Directory button")
+2. Switch to the Azure Active Directory dashboard using the Azure Active Directory (![alt text](images/waas-wipfb-aad-newaad.png "Active Directory button")) button. 
 3. Switch to the appropriate directory. ![alt text](images/waas-wipfb-aad-newdirectorybutton.png "Switch directory button")
 4. Under the Manage section, select User settings. ![alt text](images/waas-wipfb-aad-newusersettings.png "User settings")
 5. In the <b>Enterprise applications</b> section, enable <b>Users can allow apps to access their data</b>. ![alt text](images/waas-wipfb-aad-newenable.png "allow data access")
