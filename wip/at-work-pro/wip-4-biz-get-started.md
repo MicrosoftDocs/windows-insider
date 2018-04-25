@@ -36,10 +36,10 @@ Getting set up on a single device is easy.
 1. Open Windows Insider Program settings. You can find the settings by going to <b>Start > Settings > Update & security > Windows Insider Program</b>. To see this setting, you must have administrator rights to your device.
 2. Click <b>Get started</b> and follow the prompts to link your Microsoft or work account that you used to register as a Windows Insider. 
 
-![alt text](images/wip4biz-prompts.png "Get started button for installing WIP builds")
+![alt text](images/wip4biz_prompts.png "Get started button for installing WIP builds")
 
 ### Install across multiple devices in a domain
-Administrators can install and manage Insider Preview builds centrally across devices in their domain. To register a domain, you must be registered in the Windows Insider Program with your work account in Azure Active Directory and you must be assigned a Global Administrator role on that Azure AD domain. Also requires Windows 10 Version 1703 or later. 
+Administrators can install and manage Insider Preview builds centrally across devices in their domain. To register a domain, you must be registered in the Windows Insider Program with your work account in Azure Active Directory and you must be assigned a Global Administrator role on that AAD domain. Also requires Windows 10 Version 1703 or later. 
 
 
 ### Install on a virtual machine
