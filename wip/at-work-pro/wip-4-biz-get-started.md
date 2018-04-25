@@ -13,27 +13,31 @@ ms.author: dawn.wood
 ---
 
 # Getting started with the Windows 10 Insider Program for Business
-The are two steps for you to take to make you a Windows Insider: register for the program, and install an insider build. After that, you're ready to use the features and provide feedback directly to Microsoft. We take you feedback into account when deciding what to work on next. 
+The are two steps for you to take to make you a Windows Insider: register for the program, and install an insider build. After that, you're ready to use the features and provide feedback directly to Microsoft. We take you feedback seriously when deciding what to work on next. Instructions for giving feedback are in [Sharing Feedback Via the Feedback Hub](wip-4-biz-feedback-hub-md).
 
 ## Register for the Windows Insider Program for Business
 If you are an IT administrator in an enterprise environment, you work with your end-users to participate in the Windows Insider Program for Business. Microsoft recommends that all enterprise devices register with a work account in Azure Active Directory (AAD), either individually or as part of a domain registration. It is required to submit feedback on behalf of your organization, and for you as administrator to manage Insider Preview builds on other devices in your domain.
 
+### <b>Do you want to use your Azure Active Directory (AAD) account?</b>
 Registering with your AAD account requires Windows 10 Version 1703 or later. Confirm by going to <b>Settings>System>About</b>. If you do not have an AAD account, find out how to get an [Azure Active Directory tenant](https://docs.microsoft.com/azure/active-directory/develop/active-directory-howto-tenant).
 
+### <b>Do you want to use your Microsoft account (MSA)?</b>
 If you want to register using a Microsoft account, see [Quick Start](https://insider.windows.com/en-us/getting-started).
 
+### <b>Are you ready to register with your MSA or AAD account?</b>
 Once you have an MSA or corporate AAD account, you can register [here](https://insider.windows.com/en-us/register/). 
 
-### Switch between your MSA and your Corporate AAD account
+### <b>Do you want to switch between your MSA and your Corporate AAD account?</b>
 You can switch between your Microsoft Account (MSA) and your organizational account (AAD) by going to <b>Settings > Updates & Security > Windows Insider Program</b>. Under <b>Windows Insider account</b> select <b>Change</b>.
 
 ![alt text](images/waas-wipfb-change-user.png "switch between accounts")
 
+Now that you're registered, the next step is to install a build. 
 
 ## Install Windows Insider Preview builds
 You can install Windows 10 Insider Preview builds on individual devices, manage installation across multiple devices in an organization, or install on a virtual machine. 
 
-### Install on an individual device
+### <b>Install on an individual device</b>
 Getting set up on a single device is easy. 
 1. Open Windows Insider Program settings. You can find the settings by going to <b>Start > Settings > Update & security > Windows Insider Program</b>. To see this setting, you must have administrator rights to your device.
 2. Click <b>Get started</b> and follow the prompts to link your Microsoft or work account that you used to register as a Windows Insider. 
@@ -45,9 +49,9 @@ Getting set up on a single device is easy.
 
 See [Windows readiness levels and flight rings](wip-4-biz-flight-levels-and-rings.md) for more information about each choice. 
 
-### Install across multiple devices in a domain
-Administrators can install and manage Insider Preview builds centrally across devices in their domain. To register a domain, you must be registered in the Windows Insider Program with your work account in Azure Active Directory and you must be assigned a Global Administrator role on that AAD domain. Also requires Windows 10 Version 1703 or later. 
+### <b>Install across multiple devices in a domain</b>
+Administrators can install and manage Insider Preview builds centrally across devices in their domain. To register a domain, you must be registered in the Windows Insider Program with your work account in Azure Active Directory and you have to be a Global Administrator role on that AAD domain. This feature is available on Windows 10 Version 1703 or later. 
 
-### Install on a virtual machine
+### <b>Install on a virtual machine</b>
 There isn't anything special you have to do to run Windows 10 Insider Preview builds on a virtual machine. Once you have a virtual machine set up, you install just as you would on an individual device. If you need help setting up a virtual machine, see [Introduction to Hyper-V on Windows 10](https://docs.microsoft.com/virtualization/hyper-v-on-windows/about/).
 
