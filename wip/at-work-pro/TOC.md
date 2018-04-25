@@ -4,5 +4,5 @@
 ### [Register with the Windows 10 Insider Program for Business](wip-4-biz-register.md)
 ### [Install Windows Insider preview builds](wip-4-biz-install.md)
 ### [Manage Windows Insider Preview builds](wip-4-biz-manage-builds.md)
-### [Sharing Feedback Via the Feedback Hub](wip-4-biz-feedback-hub.md)
+### [Share Feedback Via the Feedback Hub](wip-4-biz-feedback-hub.md)
 ### [Windows readiness levels and flight rings](wip-4-biz-flight-levels-and-rings.md)
