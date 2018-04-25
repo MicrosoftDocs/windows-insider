@@ -12,6 +12,5 @@ ms.date: 05/01/2018
 ms.author: dawn.wood
 ---
 
-# Getting started with the Windows 10 Insider Program for Business
-
-## Register for the Windows Insider Program for Business
+# Manage Windows Insider Preview builds
+If you have registered a domain and want to control how and when devices receive Windows Insider Preview builds, you have two choices. The first is to use 
