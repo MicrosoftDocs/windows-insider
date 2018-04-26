@@ -23,6 +23,9 @@ Builds of Windows Server 2019 are released to members of the Windows Insider Pro
 
 The items in <b>bold</b> typeface are the latest release for that version of the item. 
 
+<iframe height='265' scrolling='no' title='Windows Insider Program tables' src='//codepen.io/dawnwood/embed/KRgrNr/?height=265&theme-id=0&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/dawnwood/pen/KRgrNr/'>Windows Insider Program tables</a> by Dawn Wood  (<a href='https://codepen.io/dawnwood'>@dawnwood</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+
 
 | Build | Fast | Slow | Server | IoT | ISO | SDK |
 |-------|------|------|--------|-----|-----|-----|
