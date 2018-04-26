@@ -29,17 +29,18 @@ As an IT administrator in an enterprise environment, you work with your end-user
 Registering with your AAD account requires Windows 10 Version 1703 or later. Confirm by going to <b>Settings>System>About</b>. If you do not have an AAD account, find out how to get an [Azure Active Directory tenant](https://docs.microsoft.com/azure/active-directory/develop/active-directory-howto-tenant).
 
 ## Use your Microsoft account (MSA)
-If you want to register using a Microsoft account, see [Quick Start](https://insider.windows.com/en-us/getting-started).
+If you want to register using a Microsoft account and don't have one yet, see [Microsoft account](https://signup.live.com/).
 
 ## Register!
-Once you have an MSA or corporate AAD account, you can register [here](https://insider.windows.com/en-us/register/). 
+Once you have an MSA or corporate AAD account, you can register on the [insider.windows.com site](https://insider.windows.com/en-us/register/). 
 
-## To switch between your MSA and your Corporate AAD account?
+## Switch between accounts
 You can switch between your Microsoft Account (MSA) and your organizational account (AAD) by going to <b>Settings > Updates & Security > Windows Insider Program</b>. Under <b>Windows Insider account</b> select <b>Change</b>.
 
 ![alt text](images/waas-wipfb-change-user.png "switch between accounts")
 
-Now that you're registered, the next step is to install a build. See Ins
+## Next up
+Now that you're registered, the next step is to install a build. See [Install Windows 10 preview builds](wip-4-biz-install.md).
 
 
 

@@ -15,7 +15,7 @@ ms.author: dawn.wood
 
 
 # Install Windows Insider Preview builds
-You can install Windows 10 Insider Preview builds on individual devices, manage installation across multiple devices in an organization, or install on a virtual machine. 
+You can install Windows 10 Insider Preview builds on individual devices, manage installation across multiple devices in an organization, or install on a virtual machine. To receive Windows Insider Preview builds, set the Allow Telemetry setting in Group Policy to 2 or higher. This setting is in <b>Computer Configuration/Administrative Templates/Windows Components/Data Collection and Preview Builds</b> - Allow Telemetry. In MDM, the setting is in [System/AllowTelemetry](https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-system#system-allowtelemetry). 
 
 ## Install on an individual device
 Getting set up on a single device is easy. 
