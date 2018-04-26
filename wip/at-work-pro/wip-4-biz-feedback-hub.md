@@ -18,7 +18,7 @@ Sharing your feedback is quick and easy. You can go directly to the [Feedback Hu
 
 If you're signed in to the Feedback Hub App using your personal Microsoft Account (MSA), you can switch to your work account by clicking on your account, signing out, and signing back in.
 
-##User consent requirement
+## User consent requirement
 Feedback Hub needs your consent to access your AAD account profile data (we read name, organizational tenant ID, and user ID). When you sign in for the first time with the AAD account, you will see a popup asking for their permission. You must allow Feedback Hub to access your data in order to use it. 
 
 In an enterprise environment, AAD administrators have the ability to allow or block users from giving consent. If you cannot give consent, Feedback Hub is blocked, your admin (or you if you're the admin) can unblock it by using the following steps.

@@ -13,7 +13,17 @@ ms.author: dawn.wood
 ---
 
 # Register for the Windows Insider Program for Business
-If you are an IT administrator in an enterprise environment, you work with your end-users to participate in the Windows Insider Program for Business. Microsoft recommends that all enterprise devices register with a work account in Azure Active Directory (AAD), either individually or as part of a domain registration. It is required to submit feedback on behalf of your organization, and for you as administrator to manage Insider Preview builds on other devices in your domain.
+All users registered in the Windows Insider Program for Business have the opportunity to:
+* Get early access to Windows Insider Preview Builds. 
+* Provide feedback to Microsoft in real time by using the Feedback Hub app.
+* Sign in with corporate credentials (Azure Active Directory) and increase the visibility of your organization's feedback with Microsoft – especially on features that support your productivity and business needs.
+
+If you are a IT administrator, you also have the option to:
+* Register your Azure Active Directory domain in the program, allowing you to cover all users within your organization with just one registration.
+* Enable, disable, defer, and pause the installation of preview builds through policies (starting with Windows 10, version 1709).
+* Track feedback provided through the Feedback Hub App across your organization.
+
+As an IT administrator in an enterprise environment, you work with your end-users to participate in the Windows Insider Program for Business. Microsoft recommends that all enterprise devices register with a work account in Azure Active Directory (AAD), either individually or as part of a domain registration. It is required to submit feedback on behalf of your organization, and for you as administrator to manage Insider Preview builds on other devices in your domain.
 
 ## Use your Azure Active Directory (AAD) account
 Registering with your AAD account requires Windows 10 Version 1703 or later. Confirm by going to <b>Settings>System>About</b>. If you do not have an AAD account, find out how to get an [Azure Active Directory tenant](https://docs.microsoft.com/azure/active-directory/develop/active-directory-howto-tenant).
