@@ -30,6 +30,9 @@ The items in <b>bold</b> typeface are the latest release for that version of the
 ## Upcoming feature update for Windows 10 (RS4)
 RS4 is still in development and will release in the spring of 2018. Here are the interim builds we released to Windows Insiders. 
 
+<iframe height='265' scrolling='no' title='Windows Insider Program Flight Hub RS4' src='//codepen.io/dawnwood/embed/QrGaJb/?height=265&theme-id=0&default-tab=html,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/dawnwood/pen/QrGaJb/'>Windows Insider Program Flight Hub RS4</a> by Dawn Wood  (<a href='https://codepen.io/dawnwood'>@dawnwood</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+
 | Build | Fast | Slow | Server | IoT | ISO | SDK | 
 |-------|------|------|--------|-----|-----|-----|
 | 17134 | [<b>4/16/2018</b>](https://blogs.windows.com/windowsexperience/2018/04/16/announcing-windows-10-insider-preview-build-17134-for-fast/)| <b>4/20/2018</b> |
