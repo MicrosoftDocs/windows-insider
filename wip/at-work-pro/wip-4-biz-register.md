@@ -42,7 +42,8 @@ You can switch between your Microsoft Account (MSA) and your organizational acco
 ## Next up
 Now that you're registered, the next step is to install a build. 
 
-[!div class="nextstepaction"] [Install Windows 10 preview builds](wip-4-biz-install.md).
+[!div class="nextstepaction"]
+[Install Windows 10 preview builds](wip-4-biz-install.md).
 
 
 
