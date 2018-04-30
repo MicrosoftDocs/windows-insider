@@ -40,8 +40,6 @@ You can switch between your Microsoft Account (MSA) and your organizational acco
 ![alt text](images/waas-wipfb-change-user.png "switch between accounts")
 
 ## Next up
-Now that you're registered, the next step is to install a build. 
-
 [!div class="nextstepaction"]
 [Install Windows 10 preview builds](wip-4-biz-install.md).
 
