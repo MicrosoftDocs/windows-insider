@@ -36,6 +36,8 @@ Administrators can install and manage Insider Preview builds centrally across de
 There isn't anything special you have to do to run Windows 10 Insider Preview builds on a virtual machine. Once you have a virtual machine set up, you install just as you would on an individual device. If you need help setting up a virtual machine, see [Introduction to Hyper-V on Windows 10](https://docs.microsoft.com/virtualization/hyper-v-on-windows/about/).
 
 ## Next step
-If you have registered a domain and want to control how and when devices receive Windows Insider Preview builds, you should read [!div class="nextstepaction"][Manage Windows Insider Preview builds](wip-4-biz-manage-builds.md).
+If you have registered a domain and want to control how and when devices receive Windows Insider Preview builds, you should read >[!div class="nextstepaction"]>[Manage Windows Insider Preview builds](wip-4-biz-manage-builds.md).
 
-If you are installing on an individual device, you should learn how to [!div class="nextstepaction"] [Share Feedback via the Feedback Hub](wip-4-biz-feedback-hub.md).
+If you are installing on an individual device, you should learn how to 
+>[!div class="nextstepaction"] 
+>[Share Feedback via the Feedback Hub](wip-4-biz-feedback-hub.md).
