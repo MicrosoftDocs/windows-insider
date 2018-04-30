@@ -41,7 +41,7 @@ You can switch between your Microsoft Account (MSA) and your organizational acco
 
 ## Next up
 > [!div class="nextstepaction"]
-> [Install Windows 10 preview builds](wip-4-biz-install.md)
+> [Install Windows Insider Preview builds](wip-4-biz-install.md)
 
 
 
