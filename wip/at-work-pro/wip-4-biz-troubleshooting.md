@@ -16,4 +16,11 @@ ms.author: dawn.wood
 You can find answers to common issues here. 
 
 ## Not getting updates?
+
+## Something went wrong error message
+The option for users to give consent for apps to access their profile data is controlled through Azure Active Directory. This means the AAD administrators have the ability to allow or block users from giving consent.
+In case the administrators blocked this option, when the user signs in with the AAD account, they will see the following error message:
+[Windows readiness levels and flight rings](wip-4-biz-flight-levels-and-rings.md)
+
  
+waas-wipfb-aad-error.png
