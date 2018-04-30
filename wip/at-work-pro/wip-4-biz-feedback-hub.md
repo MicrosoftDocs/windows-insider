@@ -8,7 +8,7 @@ ms.assetid:
 ms.service: WIP-at-work-pro
 ms.tgt_pltfrm: na
 ms.devlang: na
-ms.date: 05/01/2018
+ms.date: 05/07/2018
 ms.author: dawn.wood
 ---
 
@@ -28,4 +28,7 @@ In an enterprise environment, AAD administrators have the ability to allow or bl
 3. Switch to the appropriate directory using the <b>Switch Directory</b> button.
 4. Under the <b>Manage</b> section, select User settings. 
 5. In the <b>Enterprise applications</b> section, enable <b>Users can allow apps to access their data</b>. ![alt text](images/waas-wipfb-aad-newenable.png "allow data access")
+
+## Related resources
+[Send feedback to Microsoft with the Feedback Hub app](https://support.microsoft.com/en-us/help/4021566/windows-10-send-feedback-to-microsoft-with-feedback-hub-app)
 
