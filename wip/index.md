@@ -71,7 +71,7 @@ description: The Windows Insider Program lets you get preview builds of Windows 
                                         </div>
                                         <div class="cardText">
                                             <h3>Windows Insider Program for Server</h3>
-                                            <p>If you are a system administrator and want to test the preview builds for Windows Server 2019, click here.</p>
+                                            <p>If you are a system administrator and want to test the preview builds for Windows Server 2019, these docs are for you.</p>
                                         </div>
                                     </div>
                                 </div>
