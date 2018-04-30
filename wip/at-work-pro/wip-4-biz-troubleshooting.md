@@ -1,5 +1,5 @@
 ---
-title: Troubleshooting
+title: Windows Insider Program troubleshooting
 description: how to fix common problems and uninstall or unregister from the Windows Insider Program
 services: WIP-at-work-pro
 author: dawn.wood
