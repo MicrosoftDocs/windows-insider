@@ -14,9 +14,13 @@ ms.date: 04/16/2018
 ms.author: dawn.wood
 ---
 # Windows Insider Program for Business docs
-With Windows 10, feature flighting allows participants in the Windows Insider Preview program to deploy pre-production code, to test devices, and to gain early visibility into the next version of Windows. This is better for your organization because you can test the early builds of Windows 10 to discover possible issues with the code or with device and app compatibility in your organization before the update is made publicly available. 
+The Windows Insider Program for Business enables you as an IT administrator to incorporate Insider Preview builds into your deployment plans using your corporate credentials, deepen connections with the IT Pro community, collect feedback within your organization, and increase the visibility of your organization’s feedback – especially on features that support productivity and business needs. Together we can resolve blocking or critical issues to better support your organization’s needs sooner. Incorporating the Windows Insider Program for Business into your deployment plans enables you to prepare your organization for the next update of Windows 10, to deploy new services and tools more quickly, to help secure your applications, and to increase productivity and confidence in the stability of your environment.
 
-WIP for Business helps you deploy the Windows Insider Program in your enterprise. The docs cover the new enterprise features we'd like you to test and describes how to do the most common tasks. If you are an administrator or a user in a business environment, you're in the right place. If you are interested in flighting For Windows Server 2019, we also have the Windows Server Insider Program, which you can read about in the [Windows Insider Program for Server docs](https://docs.microsoft.com/en-us/windows-insider/at-work/).
+Specifically, feature flighting allows participants in the Windows Insider Preview program to deploy pre-production code, to test devices, and to gain early visibility into the next version of Windows. This is better for your organization because you can test the early builds of Windows 10 to discover possible issues with the code or with device and app compatibility in your organization before the update is made publicly available. 
+
+If you are a enterprise user, you can work with your system admin to join the Windows Insider for Business program. 
+
+WIP for Business helps you deploy the Windows Insider Program in your enterprise. The docs cover the new enterprise features we'd like you to test and describes how to do the most common tasks with the Enterprise edition of Windows 10. If you are an administrator or a user in a business environment, you're in the right place. If you are interested in flighting For Windows Server 2019, we also have the Windows Server Insider Program, which you can read about in the [Windows Insider Program for Server docs](https://docs.microsoft.com/en-us/windows-insider/at-work/).
 
 <ul class="cardsF panelContent">
     <li>
