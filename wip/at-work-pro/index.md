@@ -14,17 +14,13 @@ ms.date: 05/07/2018
 ms.author: dawn.wood
 ---
 # Windows Insider Program for Business docs
-WIP for Business helps you deploy the Windows Insider Program in your enterprise. The Windows Insider Program for Business serves two audiences: The IT Pro, and the enterprise user, who work together to as they would in most enterprise environments. 
+Incorporating the Windows Insider Program for Business into your deployment plans enables you to prepare your organization for the next update of Windows 10, to deploy new services and tools more quickly, to help secure your applications, and to increase productivity and confidence in the stability of your environment. Specifically, feature flighting (see [Windows readiness levels and flight rings](wip-4-biz-flight-levels-and-rings.md)) allows participants in the Windows Insider Preview program to deploy pre-production code, to test devices, and to gain early visibility into the next version of Windows. 
 
-## IT admin role
-As an IT Pro, The Windows Insider Program for Business enables you to incorporate Insider Preview builds into your deployment plans using your corporate credentials. You be able to deepen your connections with the IT Pro community, collect feedback within your organization, and increase the visibility of your organization’s feedback – especially on features that support your productivity and business needs. Together we can resolve blocking or critical issues to better support your organization’s needs. 
+If you are an IT Pro, the Windows Insider Program for Business enables you to incorporate Insider Preview builds into your deployment plans using your corporate credentials, allowing you to collect feedback within your organization, to deepen your connections with the IT Pro community, and to increase the visibility of your organization’s feedback.
 
-Incorporating the Windows Insider Program for Business into your deployment plans enables you to prepare your organization for the next update of Windows 10, to deploy new services and tools more quickly, to help secure your applications, and to increase productivity and confidence in the stability of your environment. Specifically, feature flighting allows participants in the Windows Insider Preview program to deploy pre-production code, to test devices, and to gain early visibility into the next version of Windows. 
+If you are a enterprise user, you can work with your system admin to join the Windows Insider for Business program. After enrolling, you are able to install new builds and provide feedback on them. 
 
-## Enterprise user role
-If you are a enterprise user, you can work with your system admin to join the Windows Insider for Business program. After enrolling, you are able to install new builds and provide feedback on them. The steps for you are similar to what the ITPro does to set up the domain, so you will find the topics you need to register, install, and provide feedback.
-
-The docs cover the new enterprise features we'd like you to test and describes how to do the most common tasks with the Enterprise edition of Windows 10. If you are an administrator or a user in a business environment, you're in the right place. If you are interested in flighting For Windows Server 2019, we also have the Windows Server Insider Program, which you can read about in the [Windows Insider Program for Server docs](https://docs.microsoft.com/en-us/windows-insider/at-work/).
+The docs cover the new enterprise features we'd like you to test and describes how to do the most common tasks with the Enterprise edition of Windows 10. If you are interested in flighting For Windows Server 2019, we also have the Windows Server Insider Program, which you can read about in the [Windows Insider Program for Server docs](https://docs.microsoft.com/en-us/windows-insider/at-work/).
 
 <ul class="cardsF panelContent">
     <li>
