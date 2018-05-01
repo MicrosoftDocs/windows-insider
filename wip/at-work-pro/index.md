@@ -20,7 +20,7 @@ If you are an IT Pro, the Windows Insider Program for Business enables you to in
 
 If you are a enterprise user, you can work with your system admin to join the Windows Insider for Business program. After enrolling, you are able to install new builds and provide feedback on them. 
 
-The docs cover the new enterprise features we'd like you to test and describes how to do the most common tasks with the Enterprise edition of Windows 10. If you are interested in flighting For Windows Server 2019, we also have the Windows Server Insider Program, which you can read about in the [Windows Insider Program for Server docs](https://docs.microsoft.com/en-us/windows-insider/at-work/).
+If you are interested in flighting For Windows Server 2019, we also have the Windows Server Insider Program, which you can read about in the [Windows Insider Program for Server docs](https://docs.microsoft.com/en-us/windows-insider/at-work/).
 
 <ul class="cardsF panelContent">
     <li>

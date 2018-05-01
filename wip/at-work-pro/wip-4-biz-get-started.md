@@ -24,7 +24,7 @@ You can get started with two easy steps: register and then install a build. Afte
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/media/common/i_whats-new.svg" alt="" />
+                            <img src="https://docs.microsoft.com/media/common/i_form.svg" alt="" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -43,7 +43,7 @@ You can get started with two easy steps: register and then install a build. Afte
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/media/common/i_get-started.svg" alt="" />
+                            <img src="https://docs.microsoft.com/media/common/i_download-install.svg" alt="" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -67,7 +67,7 @@ You can get started with two easy steps: register and then install a build. Afte
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/media/common/i_whats-new.svg" alt="" />
+                            <img src="https://docs.microsoft.com/media/common/i_management.svg" alt="" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -86,7 +86,7 @@ You can get started with two easy steps: register and then install a build. Afte
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/media/common/i_get-started.svg" alt="" />
+                            <img src="https://docs.microsoft.com/media/common/i_whats-new.svg" alt="" />
                         </div>
                     </div>
                     <div class="cardText">
