@@ -14,11 +14,11 @@ ms.date: 05/07/2018
 ms.author: dawn.wood
 ---
 # Windows Insider Program for Business getting started
-
+You can get started with two easy steps: register and then install a build. After that, you're set up to provide feedback. If you're an IT admin, you may also want to manage your domain with group policy or MDM.
 
 <ul class="cardsF panelContent">
     <li>
-        <a href="wip-4-biz-whats-new.md">
+        <a href="wip-4-biz-register.md">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -37,7 +37,7 @@ ms.author: dawn.wood
         </a>
     </li>
     <li>
-        <a href="https://insider.windows.com/en-us/for-business-getting-started/">
+        <a href="(wip-4-biz-install.md)">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -61,7 +61,7 @@ ms.author: dawn.wood
 
 <ul class="cardsF panelContent">
     <li>
-        <a href="wip-4-biz-whats-new.md">
+        <a href="wip-4-biz-manage.md">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -80,7 +80,7 @@ ms.author: dawn.wood
         </a>
     </li>
     <li>
-        <a href="https://insider.windows.com/en-us/for-business-getting-started/">
+        <a href="(wip-4-biz-feedback-hub.md)">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
