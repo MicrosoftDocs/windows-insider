@@ -14,9 +14,7 @@ ms.date: 05/07/2018
 ms.author: dawn.wood
 ---
 # Windows Insider Program for Business docs
-Incorporating the Windows Insider Program for Business into your deployment plans enables you to prepare your organization for the next update of Windows 10, to deploy new services and tools more quickly, to help secure your applications, and to increase productivity and confidence in the stability of your environment. Specifically, feature flighting (see [Windows readiness levels and flight rings](wip-4-biz-flight-levels-and-rings.md)) allows participants in the Windows Insider Preview program to deploy pre-production code, to test devices, and to gain early visibility into the next version of Windows. 
-
-If you are an IT Pro, the Windows Insider Program for Business enables you to incorporate Insider Preview builds into your deployment plans using your corporate credentials, allowing you to collect feedback within your organization, to deepen your connections with the IT Pro community, and to increase the visibility of your organization’s feedback.
+If you are an IT Pro, incorporating the Windows Insider Program for Business into your deployment plans enables you to prepare your organization for the next update of Windows 10, to deploy new services and tools more quickly, to help secure your applications, and to increase productivity and confidence in the stability of your environment. Specifically, feature flighting (see [Windows readiness levels and flight rings](wip-4-biz-flight-levels-and-rings.md)) allows participants in the Windows Insider Preview program to deploy pre-production code, to test devices, and to gain early visibility into the next version of Windows. 
 
 If you are a enterprise user, you can work with your system admin to join the Windows Insider for Business program. After enrolling, you are able to install new builds and provide feedback on them. 
 
@@ -43,7 +41,7 @@ If you are interested in flighting For Windows Server 2019, we also have the Win
         </a>
     </li>
     <li>
-        <a href="https://insider.windows.com/en-us/for-business-getting-started/">
+        <a href="wip-4-biz-get-started.md">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
