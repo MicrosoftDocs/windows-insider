@@ -38,7 +38,7 @@ You can get started with two easy steps: register and then install a build. Afte
         </a>
     </li>
     <li>
-        <a href="(wip-4-biz-install.md)">
+        <a href="wip-4-biz-install.md">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -81,7 +81,7 @@ You can get started with two easy steps: register and then install a build. Afte
         </a>
     </li>
     <li>
-        <a href="(wip-4-biz-feedback-hub.md)">
+        <a href="wip-4-biz-feedback-hub.md">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
