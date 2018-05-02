@@ -4,12 +4,12 @@ description: WIP for Business helps you deploy the Windows Insider Program in yo
 services: WIP-at-work
 author: dawn.wood
 manager: elizapo
-layout: LandingPage
+layout: HubPage
 ms.assetid: 
 ms.service: WIP-at-work
 ms.tgt_pltfrm: na
 ms.devlang: na
-ms.topic: landing-page
+ms.topic: hub-page
 ms.date: 05/07/2018
 ms.author: dawn.wood
 ---
