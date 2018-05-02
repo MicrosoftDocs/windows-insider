@@ -62,7 +62,7 @@ You can get started with two easy steps: register and then install a build. Afte
 
 <ul class="cardsF panelContent">
     <li>
-        <a href="wip-4-biz-manage.md">
+        <a href="wip-4-biz-manage-builds.md">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
