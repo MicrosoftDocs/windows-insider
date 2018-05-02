@@ -13,6 +13,7 @@ ms.topic: landing-page
 ms.date: 05/07/2018
 ms.author: dawn.wood
 ---
+
 # Windows Insider Program for Business getting started
 You can get started with two easy steps: register and then install a build. After that, you're set up to provide feedback. If you're an IT admin, you may also want to manage your domain with group policy or MDM.
 
