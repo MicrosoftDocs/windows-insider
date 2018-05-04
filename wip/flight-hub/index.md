@@ -29,8 +29,8 @@ The items in <b>bold</b> typeface are the latest release for that version of the
 | 17655 | [<b>4/25/2018</b>*](https://blogs.windows.com/windowsexperience/2018/04/25/announcing-windows-10-insider-preview-build-17655-for-skip-ahead/)
 | 17650 | [4/20/2018*](https://blogs.windows.com/windowsexperience/2018/04/19/announcing-windows-10-insider-preview-build-17650-for-skip-ahead/) | 
 | 17643 | [4/12/2018*](https://blogs.windows.com/windowsexperience/2018/04/12/announcing-windows-10-insider-preview-build-17643-for-skip-ahead/)
-| 17639| [4/04/2018*]((https://blogs.windows.com/windowsexperience/2018/04/04/announcing-windows-10-insider-preview-build-17639-for-skip-ahead/))
-| 17634| [3/29/2018*]((https://blogs.windows.com/windowsexperience/2018/03/29/announcing-windows-10-insider-preview-build-17634-for-skip-ahead/)) |
+| 17639| [4/04/2018*](https://blogs.windows.com/windowsexperience/2018/04/04/announcing-windows-10-insider-preview-build-17639-for-skip-ahead/)
+| 17634| [3/29/2018*](https://blogs.windows.com/windowsexperience/2018/03/29/announcing-windows-10-insider-preview-build-17634-for-skip-ahead/) |
 | 17627 | [3/21/2018*](https://blogs.windows.com/windowsexperience/2018/03/21/announcing-windows-10-insider-preview-build-17627-for-skip-ahead/) | 
 | 17623 | [3/16/2018*](https://blogs.windows.com/windowsexperience/2018/03/16/announcing-windows-10-insider-preview-build-17623-for-skip-ahead/) | | <b>[3/20/2018](https://blogs.windows.com/windowsexperience/2018/03/20/announcing-windows-server-vnext-ltsc-build-17623/)</b> | 
 | 17618 | [3/07/2018*](https://blogs.windows.com/windowsexperience/2018/03/07/announcing-windows-10-insider-preview-build-17618-skip-ahead/) | 
