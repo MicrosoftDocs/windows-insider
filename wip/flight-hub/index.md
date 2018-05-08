@@ -17,7 +17,7 @@ ms.author: dawn.wood
 Welcome to Flight Hub! Use this dashboard to quickly identify the latest Windows Insider Preview releases for PC, Server, IoT. You can also look up the status of the SDK and ISO images. 
 
 ## Next feature update for Windows 10 (RS5)
-You can get builds of RS5 today if your PC is in the Fast ring and is opted in to Skip Ahead. (Currently, Skip Ahead is closed to new PCs.) In the future, the Fast ring will move to RS5 and receive the same RS5 builds as Skip Ahead. The builds with an asterisk are Skip Ahead builds. 
+You can get builds of RS5 today if your device is in the Fast ring. RS5 Skip Ahead is complete but you can see the builds that went out as Skip Ahead below, marked with an asterisk.  
 
 Builds of Windows Server 2019 are released to members of the Windows Insider Program for Server. 
 
