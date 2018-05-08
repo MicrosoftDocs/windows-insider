@@ -26,7 +26,7 @@ The items in <b>bold</b> typeface are the latest release for that version of the
 
 | Build | Fast | Slow | Server | IoT | ISO | SDK |
 |-------|------|------|--------|-----|-----|-----|
-| 17661 | [<b>5/03/2018</b>](https://blogs.windows.com/windowsexperience/2018/05/03/announcing-windows-10-insider-preview-build-17661/)
+| 17661 | [<b>5/03/2018</b>](https://blogs.windows.com/windowsexperience/2018/05/03/announcing-windows-10-insider-preview-build-17661/)| | | | |[<b>5/08/2018</b>](https://blogs.windows.com/buildingapps/2018/05/08/windows-10-sdk-preview-build-17661-now-available/)
 | 17655 | [4/25/2018*](https://blogs.windows.com/windowsexperience/2018/04/25/announcing-windows-10-insider-preview-build-17655-for-skip-ahead/)
 | 17650 | [4/20/2018*](https://blogs.windows.com/windowsexperience/2018/04/19/announcing-windows-10-insider-preview-build-17650-for-skip-ahead/) | 
 | 17643 | [4/12/2018*](https://blogs.windows.com/windowsexperience/2018/04/12/announcing-windows-10-insider-preview-build-17643-for-skip-ahead/)
