@@ -29,7 +29,9 @@ Registering with your AAD account requires Windows 10 Version 1703 or later. Con
 If you want to register using a Microsoft account and don't have one yet, see [Microsoft account](https://signup.live.com/).
 
 ## Register!
-Once you have an MSA or corporate AAD account, you can register on the [insider.windows.com site](https://insider.windows.com/en-us/register/). 
+Once you have an MSA or corporate AAD account, you can register on the
+> !div class="nextstepaction"
+> [insider.windows.com site](https://insider.windows.com/en-us/register/). 
 
 ## Switch between accounts
 You can switch between your Microsoft Account (MSA) and your organizational account (AAD) by going to <b>Settings > Updates & Security > Windows Insider Program</b>. Under <b>Windows Insider account</b> select <b>Change</b>.
