@@ -44,5 +44,5 @@ There isn't anything special you have to do to run Windows 10 Insider Preview bu
 
 ## Related topics
 
-* [Register for the Windows Insider Program for Business](wip-4-biz-install.md)
+* [Register for the Windows Insider Program for Business](wip-4-biz-register.md)
 * [Share Feedback via the Feedback Hub](wip-4-biz-feedback-hub.md)

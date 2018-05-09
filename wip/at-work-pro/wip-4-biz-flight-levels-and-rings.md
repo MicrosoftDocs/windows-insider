@@ -45,5 +45,5 @@ Once your device is updated to Windows 10 and you select your desired Windows re
 
 ## Related topics
 
-* [Register for the Windows Insider Program for Business](wip-4-biz-install.md)
+* [Register for the Windows Insider Program for Business](wip-4-biz-register.md)
 * [Manage Windows Insider Preview builds](wip-4-biz-manage-builds.md)

@@ -24,4 +24,7 @@ To set group policy, use the
 ## MDM
 To use MDM, use the [Update/ManagePreviewBuilds](https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-update#update-managepreviewbuilds) setting. To set the readiness level, use the [Update/BranchReadinessLevel](https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-update#update-branchreadinesslevel).
 
+## Related topics
 
+* [Register for the Windows Insider Program for Business](wip-4-biz-register.md)
+* [Share Feedback via the Feedback Hub](wip-4-biz-feedback-hub.md)
