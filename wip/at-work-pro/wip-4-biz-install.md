@@ -24,7 +24,9 @@ The Windows Insider for Business allows you to install preview enterprise client
 Getting set up on a single device is easy. 
 1. Open Windows Insider Program settings. You can find the settings by going to <b>Start > Settings > Update & security > Windows Insider Program</b>. To see this setting, you must have administrator rights to your device.
 2. Click <b>Get started</b> and follow the prompts to link your Microsoft or work account that you used to register as a Windows Insider. 
+
 ![alt text](images/wip4biz_prompts.png "Get started button for installing WIP builds")
+
 3. Sign-in using the account you used to register for the Windows Insider Program.
 4. Read the privacy statement and then click <b>Next</b>.
 5. Restart the device. After restarting, you are now ready to install your first preview build.
@@ -35,16 +37,12 @@ See [Windows readiness levels and flight rings](wip-4-biz-flight-levels-and-ring
 ## Install across multiple devices in a domain 
 Administrators can install and manage Insider Preview builds centrally across devices in their domain. To register a domain, you must be registered in the Windows Insider Program with your work account in Azure Active Directory and you have to be a Global Administrator role on that AAD domain. This feature is available on Windows 10 Version 1703 or later. 
 
-To configure your domain install, see [Manage Windows Insider Preview builds](wip-4-biz-manage-builds.md).
+For instructions, see [Manage Windows Insider Preview builds](wip-4-biz-manage-builds.md).
 
 ## Install on a virtual machine
 There isn't anything special you have to do to run Windows 10 Insider Preview builds on a virtual machine. Once you have a virtual machine set up, you install just as you would on an individual device. If you need help setting up a virtual machine, see [Introduction to Hyper-V on Windows 10](https://docs.microsoft.com/virtualization/hyper-v-on-windows/about/).
 
-## Next steps
-If you have registered a domain and want to control how and when devices in your domain receive Windows Insider Preview builds:
->[!div class="nextstepaction"]
->[Manage Windows Insider Preview builds](wip-4-biz-manage-builds.md)
+## Related topics
 
-If you are installing on an individual device, or are an administrator and want to share feedback: 
->[!div class="nextstepaction"] 
->[Share Feedback via the Feedback Hub](wip-4-biz-feedback-hub.md)
+* [Register for the Windows Insider Program for Business](wip-4-biz-install.md)
+* [Share Feedback via the Feedback Hub](wip-4-biz-feedback-hub.md)
