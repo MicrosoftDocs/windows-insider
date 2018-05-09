@@ -19,6 +19,40 @@ The features listed below are available in preview builds of Windows Server 2019
 
 We also encourage you to visit the [Windows Server Insiders space](https://techcommunity.microsoft.com/t5/Windows-Server-Insiders/bd-p/WindowsServerInsiders) on the [Microsoft Tech Communities forum](https://techcommunity.microsoft.com/) to collaborate, share, and learn from experts.
 
+## Failover Clustering: File Share Witness
+
+One of the witness options available for failover clustering, File Share Witness, has two new enhancements. 
+
+The first enhancement blocks the use of a Distributed File System (DFS) share as a location. Adding a File Share Witness (FSW) to a DFS share can cause stability issues for your cluster, and this configuration has never been supported. So, we added logic to detect if a share uses DFS, and if DFS is detected, Failover Cluster Manager blocks creation of the witness and displays an error message about not being supported.
+The second enhancement enables use of an FSW for several scenarios that were previously not supported: 
+Absent or extremely poor Internet access because of a remote location, preventing the use of a cloud witness. 
+Lack of shared drives for a disk witness. This could be a Storage Spaces Direct hyperconverged configuration, a SQL Server Always On Availability Groups (AG), or an Exchange Database Availability Group (DAG), none of which use shared disks. 
+Lack of a domain controller connection due to the cluster being behind a DMZ. 
+A workgroup or cross-domain cluster for which there is no Active Directory cluster name object (CNO). Find out more about these enhancements in the following posts in Server & Management Blogs: Failover Cluster File Share Witness and DFS New File Share Witness Feature in Windows Server 2019.
+
+## Failover clustering: Moving Clusters between domains 
+Moving a cluster from one domain to another has always been a daunting task because you must destroy the cluster to move it.  Depending on the roles in the cluster, that role must also be removed and recreated.  The following are two common scenarios:
+Company A purchases Company B and must move all servers to Company A's domain 
+Main office builds a cluster and ships it to another location 
+We have added two new PowerShell commandlets to quickly take you from one domain to another without the need to destroy it.  For more information about this new capability, see [How to Switch a Failover Cluster to a New Domain](https://blogs.msdn.microsoft.com/clustering/2018/01/09/how-to-switch-a-failover-cluster-to-a-new-domain/) in Server & Management blogs. 
+
+## Storage Replica
+Storage Replica (SR) was first released as a technology for Windows Server 2016 Datacenter Edition. SR enables synchronous and asynchronous block replication of volumes between servers or clusters for disaster recovery. SR also enables you to create stretch failover clusters that span two sites, with all nodes staying in sync. 
+Beginning with Windows Server 2019, responding to customer requests, we've added the following improvement to SR: 
+ 
+Storage Replica Standard. SR is available on Windows Server 2019 Standard Edition, not just on Datacenter Edition. When installed on servers running Standard Edition, SR has the following limitations: 
+ 
+*  SR replicates a single volume instead of an unlimited number of volumes.  
+*  Volumes can have one partnership instead of an unlimited number of partners.  
+*  Volumes can have a size of up to 2 TB instead of an unlimited size. 
+ 
+We will continue to listen to your feedback and evaluate these settings through our telemetry during Insider previews of Windows Server 2019. These limitations may change several times during the preview phase and at RTM. 
+For more information about Storage Replica, visit [http://aka.ms/StorageReplica](http://aka.ms/StorageReplica).  
+
+## Remote Desktop Session Host (RDSH)
+
+RD Session Host is a Remote Desktop Services role service that enables users to share Windows-based programs or the full Windows desktop. Users can connect to an RD Session Host server to run programs, save files, and use network resources on that server. Because of a bug, the RDSH role was missing in previous releases of Windows Server 2019 – this build fixes that. 
+
 ## In place upgrades
 
 In-place upgrade allows an administrator to upgrade an existing installation of Windows Server to a newer version, retaining settings and installed features. The LTSC versions and editions of Windows Server that are supported for in-place upgrade are shown in the following table.
