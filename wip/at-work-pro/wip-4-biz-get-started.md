@@ -60,43 +60,24 @@ You can get started with two easy steps: register and then install a build. Afte
 
 ---
 
-<ul class="cardsF panelContent">
+<ul class="cardsF panelContent cols cols2">
     <li>
-        <a href="wip-4-biz-manage-builds.md">
+        <a href="https://support.microsoft.com/help/4021566/windows-10-send-feedback-to-microsoft-with-feedback-hub-app">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/media/common/i_management.svg" alt="" />
+                            <img src="https://docs.microsoft.com/media/common/i_feedback.svg" alt="" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Manage</h3>
-                <p>If you are an IT admin and you want to use group policy or MDM to manage your enrollment, start here.</p>
+                        <h3>Got Feedback?</h3>
+                <p>Use the Feedback Hub App to submit your feedback to Microsoft.</p>
                     </div>
                 </div>
             </div>
         </div>
         </a>
-    </li>
-    <li>
-        <a href="wip-4-biz-feedback-hub.md">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/media/common/i_whats-new.svg" alt="" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Feedback</h3>
-                <p>Whether you're an enterprise user or an administrator, we want your feedback. Start here.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
+    </li> 
 </ul>
