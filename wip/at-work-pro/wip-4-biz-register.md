@@ -23,7 +23,7 @@ Additionally, you can track feedback provided through the Feedback Hub App acros
 For enterprise users, you get to use early builds of the enterprise edition and provide feedback to Microsoft before the public release is finalized. 
 
 ## Register!
-You register with either your Microsoft account (MSA) or your Azure Active Directory (AAD) account. If you don't have an AAD account, find out how to out how to get an [Azure Active Directory tenant](https://docs.microsoft.com/azure/active-directory/develop/active-directory-howto-tenant). If you want to register using a Microsoft account and don't have one yet, see [Microsoft account](https://signup.live.com/).
+You register with either your Microsoft account (MSA) or your Azure Active Directory (AAD) account. If you want to register using a Microsoft account and don't have one yet, see [create account](https://signup.live.com/). If you don't have an AAD account, find out how to out how to get an [Azure Active Directory tenant](https://docs.microsoft.com/azure/active-directory/develop/active-directory-howto-tenant). 
 
 > [!div class="nextstepaction"]
 > [Register on insider.windows.com site](https://insider.windows.com/en-us/register/). 

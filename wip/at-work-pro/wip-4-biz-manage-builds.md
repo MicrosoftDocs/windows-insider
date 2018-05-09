@@ -17,13 +17,11 @@ If you have registered a domain and want to control how and when devices receive
 
 In either case, you will be using the <b>Manage preview builds</b> and <b>Branch Readiness Level</b> settings. The <b>Manage preview builds</b> setting allows you to enable or disable installation of the preview builds. The <b>Branch Readiness Level</b> setting allows you to set which branch a device receives their updates from.
 
-<b>Group policy</b>
+## Group policy
 To set group policy, use the 
 <b>Computer Configuration/Administrative Templates/Windows Components/Windows Update/Windows Update for Business/Manage preview builds</b> setting and the <b>Computer Configuration/Administrative Templates/Windows Components/Windows Update/ Windows Update for Business</b> setting. 
 
-Here's the console screen you can use to set these policies.
-![alt text](images/waas-wipfb-policy1.png "set group policies")
-
-<b>MDM</b>
+## MDM
 To use MDM, use the [Update/ManagePreviewBuilds](https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-update#update-managepreviewbuilds) setting. To set the readiness level, use the [Update/BranchReadinessLevel](https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-update#update-branchreadinesslevel).
+
 

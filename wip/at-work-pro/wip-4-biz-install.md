@@ -14,8 +14,11 @@ ms.author: dawn.wood
 
 
 
-# Install Windows Insider Preview builds
-You can install Windows 10 Insider Preview builds on individual devices, manage installation across multiple devices in an organization, or install on a virtual machine. To receive Windows Insider Preview builds, set the Allow Telemetry setting in Group Policy to 2 or higher. This setting is in <b>Computer Configuration/Administrative Templates/Windows Components/Data Collection and Preview Builds</b> - Allow Telemetry. In MDM, the setting is in [System/AllowTelemetry](https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-system#system-allowtelemetry). 
+# Install Windows Insider for Business Preview builds
+The Windows Insider for Business allows you to install preview enterprise client editions of the next version of Windows. You can install Windows 10 Insider Preview builds on individual devices, manage installation across multiple devices in an organization, or install on a virtual machine. This article describes how.
+
+
+
 
 ## Install on an individual device
 Getting set up on a single device is easy. 
@@ -31,6 +34,8 @@ See [Windows readiness levels and flight rings](wip-4-biz-flight-levels-and-ring
 
 ## Install across multiple devices in a domain 
 Administrators can install and manage Insider Preview builds centrally across devices in their domain. To register a domain, you must be registered in the Windows Insider Program with your work account in Azure Active Directory and you have to be a Global Administrator role on that AAD domain. This feature is available on Windows 10 Version 1703 or later. 
+
+To configure your domain install, see [Manage Windows Insider Preview builds](wip-4-biz-manage-builds.md).
 
 ## Install on a virtual machine
 There isn't anything special you have to do to run Windows 10 Insider Preview builds on a virtual machine. Once you have a virtual machine set up, you install just as you would on an individual device. If you need help setting up a virtual machine, see [Introduction to Hyper-V on Windows 10](https://docs.microsoft.com/virtualization/hyper-v-on-windows/about/).
