@@ -15,7 +15,14 @@ ms.author: dawn.wood
 ---
 
 # Windows Insider Program for Business getting started
-You can get started with two easy steps: register and then install a build. After that, you're set up to provide feedback. If you're an IT admin, you may also want to manage your domain with group policy or MDM.
+You can get started with two easy steps: register and then install a build. 
+
+## Supported languages
+Insider Preview builds are available in the following languages: English (United States), English (United Kingdom), Chinese (Simplified), Chinese (Traditional), Portuguese (Brazilian), Japanese, Russian, German, French, French (Canada), Korean, Italian, Spanish, Spanish (Latin America), Swedish, Finnish, Turkish, Arabic, Dutch, Czech, Polish, Thai, Catalan, Hindi, and Vietnamese.
+
+Hindi, Catalan, and Vietnamese can be installed as a language pack over [supported base languages](https://support.microsoft.com/en-us/help/14236/language-packs).
+
+If your Windows build is not in one of the available base languages, you will not receive Insider Preview builds.
 
 <ul class="cardsF panelContent">
     <li>
