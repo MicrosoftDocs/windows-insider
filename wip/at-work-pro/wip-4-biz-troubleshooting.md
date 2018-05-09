@@ -22,3 +22,6 @@ The option for users to give consent for apps to access their profile data is co
 In case the administrators blocked this option, when the user signs in with the AAD account, they will see the following error message:
 
 ![alt text](images/waas-wipfb-aad-error.png "something went wrong")
+
+## Do I have the right license?
+To install Windows 10 Insider Preview, you’ll also need to be running a licensed version of Windows 10 on your PC. If your PC is currently running Windows 7/8/8.1, you can install Windows 10 [here](https://www.microsoft.com/en-us/windows/get-windows-10?step=Win10Question1). If you are having problems installing Windows 10, you can download a [Windows 10 Insider Preview ISO](https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewadvanced). To check what version of Windows your device is using, go to <b>Start</b>, type <b>winver</b>, click <b>winver - run command</b>.

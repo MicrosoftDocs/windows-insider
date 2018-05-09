@@ -15,10 +15,7 @@ ms.author: dawn.wood
 
 
 # Install Windows Insider for Business Preview builds
-The Windows Insider for Business allows you to install preview enterprise client editions of the next version of Windows. You can install Windows 10 Insider Preview builds on individual devices, manage installation across multiple devices in an organization, or install on a virtual machine. This article describes how.
-
-All devices need to have a valid Windows 10 license, whether joined using a Microsoft account or an Azure Active Directory account. 
-
+The Windows Insider for Business allows you to install preview enterprise client editions of the next version of Windows. You can install Windows 10 Insider Preview builds on individual devices, manage installation across multiple devices in an organization, or install on a virtual machine. 
 
 ## Install on an individual device
 Getting set up on a single device is easy. 

@@ -18,11 +18,14 @@ ms.author: dawn.wood
 You can get started with two easy steps: register and then install a build. 
 
 ## Supported languages
-Insider Preview builds are available in the following languages: English (United States), English (United Kingdom), Chinese (Simplified), Chinese (Traditional), Portuguese (Brazilian), Japanese, Russian, German, French, French (Canada), Korean, Italian, Spanish, Spanish (Latin America), Swedish, Finnish, Turkish, Arabic, Dutch, Czech, Polish, Thai, Catalan, Hindi, and Vietnamese.
+Windows 10 Insider Preview is available in the following SKU languages:
+Arabic (Saudi Arabia), Bulgarian (Bulgaria), Chinese (Simplified, China), Chinese (Traditional, Taiwan), Croatian (Croatia), Czech (Czech Republic), Danish (Denmark), Dutch (Netherlands), English (United Kingdom), English (United States), Estonian (Estonia), Finnish (Finland), French (Canada), French (France), German (Germany), Greek (Greece), Hebrew (Israel), Hungarian (Hungary), Italian (Italy), Japanese (Japan), Korean (Korea), Latvian (Latvia), Lithuanian (Lithuania), Norwegian, Bokmål (Norway), Polish (Poland), Portuguese (Brazil), Portuguese (Portugal), Romanian (Romania), Russian (Russia), Serbian (Latin, Serbia), Slovak (Slovakia), Slovenian (Slovenia), Spanish (Mexico), Spanish (Spain, International Sort), Swedish (Sweden), Thai (Thailand), Turkish (Turkey), Ukrainian (Ukraine).
 
-Hindi, Catalan, and Vietnamese can be installed as a language pack over [supported base languages](https://support.microsoft.com/en-us/help/14236/language-packs).
+Windows 10 Insider Preview is available in the following Language Interface Packs (LIP) languages:
+Afrikaans (South Africa), Albanian (Albania), Amharic, Armenian, Assamese, Azerbaijani (Latin, Azerbaijan), Bangla (Bangladesh), Bangla (India), Basque, Belarusian (Belarus), Bosnian (Latin), Catalan (Catalan), Cherokee (Cherokee), Dari, Filipino (Philippines), Galician (Galician), Georgian, Gujarati, Hindi (India), Icelandic, Indonesian (Indonesia), Irish, Kannada, Kazakh (Kazakhstan), Khmer (Cambodia), KiSwahili, Konkani, Kyrgyz, Lao (Laos), Luxembourgish, Macedonian (Former Yugoslav Republic of Macedonia), Malay (Malaysia), Malayalam, Maltese, Maori, Marathi, Mongolian (Cyrillic), Nepali, Norwegian (Nynorsk), Odia, Persian, Punjabi, Quechua, Scottish Gaelic, Serbian (Cyrillic, Bosnia and Herzegovina), Serbian (Cyrillic, Serbia), Sindhi (Arabic), Sinhala, Tamil (India), Tatar, Telugu, Turkmen, Urdu, Uyghur, Uzbek (Latin, Uzbekistan), Valencian, Vietnamese, Welsh.
 
-If your Windows build is not in one of the available base languages, you will not receive Insider Preview builds.
+LIP languages can be installed as a language pack over [supported base languages](https://support.microsoft.com/en-us/help/14236/language-packs).
+
 
 <ul class="cardsF panelContent">
     <li>
