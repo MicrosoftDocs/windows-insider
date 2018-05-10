@@ -14,9 +14,9 @@ ms.date: 05/07/2018
 ms.author: dawn.wood
 ---
 # Windows Insider Program for Business docs
-If you are an IT Pro, incorporating the Windows Insider Program for Business into your deployment plans enables you to prepare your organization for the next update of Windows 10, to deploy new services and tools more quickly, to help secure your applications, and to increase productivity and confidence in the stability of your environment. Specifically, feature flighting (see [Windows readiness levels and flight rings](wip-4-biz-flight-levels-and-rings.md)) allows participants in the Windows Insider Preview program to deploy pre-production code, to test devices, and to gain early visibility into the next version of Windows. 
+If you are an IT Pro, incorporating the Windows Insider Program for Business into your deployment plans enables you to prepare your organization for the next update of Windows 10, to deploy new services and tools more quickly, to help secure your applications, and to increase productivity and confidence in the stability of your environment. Specifically, feature flighting (see [Windows readiness levels and flight rings](wip-4-biz-flight-levels-and-rings.md)) allows participants in the Windows Insider Program to deploy pre-production code, to test devices, and to gain early visibility into the next version of Windows. 
 
-If you are a enterprise user, you can work with your system admin to join the Windows Insider for Business program. After enrolling, you are able to install new builds and provide feedback on them. 
+If you are a enterprise user, you can also join the Windows Insider for Business program. In some scenarios, you work with your IT Pro to create a domain registration that you can participate in. Either way, you are able to install new builds and provide feedback on them after you register. 
 
 If you are interested in flighting For Windows Server 2019, we also have the Windows Server Insider Program, which you can read about in the [Windows Insider Program for Server docs](https://docs.microsoft.com/en-us/windows-insider/at-work/).
 
@@ -33,7 +33,7 @@ If you are interested in flighting For Windows Server 2019, we also have the Win
                     </div>
                     <div class="cardText">
                         <h3>What's New</h3>
-                <p>Find out more about the new features in Windows 10 Insider Program for Business Previews.</p>
+                <p>Find out more about the new enterprise features in Windows 10 Insider Program for Business Previews.</p>
                     </div>
                 </div>
             </div>
