@@ -13,7 +13,7 @@ ms.author: dawn.wood
 ---
 
 # Manage Windows Insider Preview builds
-If you have registered a domain and want to control how and when devices receive Windows Insider Preview builds, you have two choices. The first is to use group policy, the second is to use MDM. 
+If you are a IT Pro, you have the option to: enable, disable, defer, and pause the installation of preview builds through policies (starting with Windows 10, version 1709), and through MDM.If you have registered a domain and want to control how and when devices receive Windows Insider Preview builds, you have two choices. The first is to use group policy, the second is to use MDM. 
 
 In either case, you will be using the <b>Manage preview builds</b> and <b>Branch Readiness Level</b> settings. The <b>Manage preview builds</b> setting allows you to enable or disable installation of the preview builds. The <b>Branch Readiness Level</b> setting allows you to set which branch a device receives their updates from.
 
