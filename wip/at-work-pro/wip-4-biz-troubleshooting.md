@@ -18,10 +18,10 @@ You can find answers to common issues here.
 ## I'm not getting updates
 
 Here are some things you can check if you are not getting updates. 
-1. Manually check for updates by opening <b>Settings > Update & Security</b>. You can review available updates or select Check for Updates. If you have set Active Hours, ensure your device is left turned on and signed in during the off-hours so the install process can complete.
-2. Check for Windows activation in <b>Settings > Update & Security > Activation </b>. Your copy of Windows must be activated in order to participate in the Windows Insider Program.
-3. Check to see that you have chosen a Windows readiness level by going to <b>Settings > Update & Security > Windows Insider Program. Choose your Insider level using the drop-down selection box
-4. If you've recently done a clean install, the appropriate targeting needs to take place for your PC. This is true even for devices that previously received Windows Insider preview builds. This background process is known as Compatibility Checker and will run during idle time on your PC and may take up to 24 hours.
+* Manually check for updates by opening <b>Settings > Update & Security</b>. You can review available updates or select Check for Updates. If you have set Active Hours, ensure your device is left turned on and signed in during the off-hours so the install process can complete.
+* Check for Windows activation in <b>Settings > Update & Security > Activation </b>. Your copy of Windows must be activated in order to participate in the Windows Insider Program.
+* Check to see that you have chosen a Windows readiness level by going to <b>Settings > Update & Security > Windows Insider Program. Choose your Insider level using the drop-down selection box
+* If you've recently done a clean install, the appropriate targeting needs to take place for your PC. This is true even for devices that previously received Windows Insider preview builds. This background process is known as Compatibility Checker and will run during idle time on your PC and may take up to 24 hours.
 
 ## Something went wrong error message
 
