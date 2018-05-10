@@ -24,12 +24,14 @@ Getting set up on a single device is easy.
 
 ![alt text](images/wip4biz_prompts.png "Get started button for installing WIP builds")
 
-3. Sign-in using the account you used to register for the Windows Insider Program.
-4. Read the privacy statement and then click <b>Next</b>.
-5. Restart the device. After restarting, you are now ready to install your first preview build.
-6. To install the first preview, open <b>Start > Settings > Update & security > Windows Insider Program</b> and select your Windows Insider level. The device receives the most recent Windows Insider build for the Windows Insider level you select. 
-
-See [Windows readiness levels and flight rings](wip-4-biz-flight-levels-and-rings.md) for more information about each choice. 
+3. Sign-in using the account you used to register for the Windows Insider Program <b>Next</b>.
+4. Under “What kind of content that you would like to receive”, select <b>active development of Windows</b> to receive Windows 10 Insider Preview builds and click <b>Confirm</b>. Select “Fixes, apps and drivers” if you want to install builds from the Release Preview Ring. 
+5. Under “What pace do you want to receive preview builds” select <b>Fast</b> if you would like to receive the latest Insider Preview builds. Note that this ring may contain bugs and other issues. If you prefer to wait for a more stable build, select <b>Slow</b> . Click <b>Confirm</b>. See [Windows readiness levels and flight rings](wip-4-biz-flight-levels-and-rings.md) for more information about each choice. 
+6. Review the privacy statement and click <b>Continue</b>
+7. Reboot the device. 
+8. Go to <b>Start > Settings > Update & Security > Windows Update</b>, and click Check for updates to download the latest Insider Preview build based on the criteria you selected.
+9. Once the download is complete, reboot your device again. 
+10. The Windows 10 Insider Preview build is on your device. 
 
 ## Install across multiple devices in a domain 
 Administrators can install and manage Insider Preview builds centrally across devices in their domain. To register a domain, you must be registered in the Windows Insider Program with your work account in Azure Active Directory and you have to be a Global Administrator role on that AAD domain. This feature is available on Windows 10 Version 1703 or later. 
