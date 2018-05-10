@@ -24,6 +24,11 @@ To set group policy, use the
 ## MDM
 To use MDM, use the [Update/ManagePreviewBuilds](https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-update#update-managepreviewbuilds) setting. To set the readiness level, use the [Update/BranchReadinessLevel](https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-update#update-branchreadinesslevel).
 
+> [!NOTE]
+> The signed-in user needs to be a Global Administrator of the Azure Active Directory (AAD) domain in order to be able to register the domain. Currently, the Windows Insider Program for Business supports AAD--but not on-premises Active Directory--as a corporate authentication method. 
+>If your company has a paid subscription to Office 365, Microsoft Dynamics CRM Online, Enterprise Mobility Suite, or other Microsoft services--you have a free subscription to Microsoft Azure Active Directory. This subscription can be used to create users for enrollment in the Windows Insider Program for Business.
+If you do not have an AAD account, install Insider Preview builds on individual devices with a registered Microsoft account.
+
 ## Related topics
 
 * [Register for the Windows Insider Program for Business](wip-4-biz-register.md)
