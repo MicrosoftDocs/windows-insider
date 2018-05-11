@@ -38,7 +38,7 @@ The items in <b>bold</b> typeface are the latest release for that version of the
 | 17604 | [2/14/2018*](https://blogs.windows.com/windowsexperience/2018/02/14/announcing-windows-10-insider-preview-build-17101-fast-build-17604-skip-ahead/) | 
 
 ## Upcoming feature update for Windows 10 (RS4)
-RS4 is still in development and will release in the spring of 2018. Here are the interim builds we released to Windows Insiders. 
+Window 10 version 1803 was released to the world on April 30, 2018. Windows Insiders helped test 46 builds.  
 
 | Build | Fast | Slow | Server | IoT | ISO | SDK | 
 |-------|------|------|--------|-----|-----|-----|
