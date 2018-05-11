@@ -42,7 +42,8 @@ Window 10 version 1803 was released to the world on April 30, 2018. Windows Insi
 
 | Build | Fast | Slow | Server | IoT | ISO | SDK | 
 |-------|------|------|--------|-----|-----|-----|
-| 17134 | [<b>4/16/2018</b>](https://blogs.windows.com/windowsexperience/2018/04/16/announcing-windows-10-insider-preview-build-17134-for-fast/)| <b>4/20/2018</b> |
+| 17666 | [<b>5/09/18</b>](https://blogs.windows.com/windowsexperience/2018/05/09/announcing-windows-10-insider-preview-build-17666/#M7FCi6B0ZpCY4562.97)
+| 17134 | [4/16/2018](https://blogs.windows.com/windowsexperience/2018/04/16/announcing-windows-10-insider-preview-build-17134-for-fast/)| <b>4/20/2018</b> |
 | 17133 |[3/27/2018](https://blogs.windows.com/windowsexperience/2018/03/27/announcing-windows-10-insider-preview-build-17133-for-fast/) | 3/30/2018| |[<b>3/28/2018</b>](https://social.msdn.microsoft.com/Forums/en-US/4587bb75-0143-4bac-9af0-8fea437dbfba/new-flight-17133-released-for-insiders?forum=WindowsIoT) |
 | 17128 | [3/23/2018](https://blogs.windows.com/windowsexperience/2018/03/23/announcing-windows-10-insider-preview-build-17128-for-fast/)|
 | 17127| [3/20/2018](https://blogs.windows.com/windowsexperience/2018/03/20/announcing-windows-10-insider-preview-build-17127-for-fast/) |3/23/2018 | | | [3/27/2018](https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewadvanced) |
