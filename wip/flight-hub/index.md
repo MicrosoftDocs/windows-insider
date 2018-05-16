@@ -26,7 +26,8 @@ The items in <b>bold</b> typeface are the latest release for that version of the
 
 | Build | Fast | Slow | Server | IoT | ISO | SDK |
 |-------|------|------|--------|-----|-----|-----|
-| 17661 | [<b>5/03/2018</b>](https://blogs.windows.com/windowsexperience/2018/05/03/announcing-windows-10-insider-preview-build-17661/)| | | | |[<b>5/08/2018</b>](https://blogs.windows.com/buildingapps/2018/05/08/windows-10-sdk-preview-build-17661-now-available/)
+| 17666 | [<b>5/09/2018</b>](https://blogs.windows.com/windowsexperience/2018/05/09/announcing-windows-10-insider-preview-build-17666/#M7FCi6B0ZpCY4562.97)| | [<b>5/15/2018</b>](https://blogs.windows.com/windowsexperience/2018/05/15/announcing-windows-server-2019-insider-preview-build-17666/#zT1HTYdyZppL40da.97) | | | [<b>5/15/2018</b>](https://blogs.windows.com/buildingapps/2018/05/15/windows-10-sdk-preview-build-17666-now-available/#pH3wMbmYmFGPKm5p.97)
+| 17661 | [5/03/2018](https://blogs.windows.com/windowsexperience/2018/05/03/announcing-windows-10-insider-preview-build-17661/)| | | | |[5/08/2018](https://blogs.windows.com/buildingapps/2018/05/08/windows-10-sdk-preview-build-17661-now-available/)
 | 17655 | [4/25/2018*](https://blogs.windows.com/windowsexperience/2018/04/25/announcing-windows-10-insider-preview-build-17655-for-skip-ahead/)
 | 17650 | [4/20/2018*](https://blogs.windows.com/windowsexperience/2018/04/19/announcing-windows-10-insider-preview-build-17650-for-skip-ahead/) | 
 | 17643 | [4/12/2018*](https://blogs.windows.com/windowsexperience/2018/04/12/announcing-windows-10-insider-preview-build-17643-for-skip-ahead/)
@@ -38,11 +39,11 @@ The items in <b>bold</b> typeface are the latest release for that version of the
 | 17604 | [2/14/2018*](https://blogs.windows.com/windowsexperience/2018/02/14/announcing-windows-10-insider-preview-build-17101-fast-build-17604-skip-ahead/) | 
 
 ## Upcoming feature update for Windows 10 (RS4)
-RS4 is still in development and will release in the spring of 2018. Here are the interim builds we released to Windows Insiders. 
+Window 10 version 1803 was released to the world on April 30, 2018. Windows Insiders helped test 46 builds.  
 
 | Build | Fast | Slow | Server | IoT | ISO | SDK | 
 |-------|------|------|--------|-----|-----|-----|
-| 17134 | [<b>4/16/2018</b>](https://blogs.windows.com/windowsexperience/2018/04/16/announcing-windows-10-insider-preview-build-17134-for-fast/)| <b>4/20/2018</b> |
+| 17134 | [4/16/2018](https://blogs.windows.com/windowsexperience/2018/04/16/announcing-windows-10-insider-preview-build-17134-for-fast/)| <b>4/20/2018</b> |
 | 17133 |[3/27/2018](https://blogs.windows.com/windowsexperience/2018/03/27/announcing-windows-10-insider-preview-build-17133-for-fast/) | 3/30/2018| |[<b>3/28/2018</b>](https://social.msdn.microsoft.com/Forums/en-US/4587bb75-0143-4bac-9af0-8fea437dbfba/new-flight-17133-released-for-insiders?forum=WindowsIoT) |
 | 17128 | [3/23/2018](https://blogs.windows.com/windowsexperience/2018/03/23/announcing-windows-10-insider-preview-build-17128-for-fast/)|
 | 17127| [3/20/2018](https://blogs.windows.com/windowsexperience/2018/03/20/announcing-windows-10-insider-preview-build-17127-for-fast/) |3/23/2018 | | | [3/27/2018](https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewadvanced) |
