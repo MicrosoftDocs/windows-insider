@@ -19,6 +19,18 @@ The features listed below are available in preview builds of Windows Server 2019
 
 We also encourage you to visit the [Windows Server Insiders space](https://techcommunity.microsoft.com/t5/Windows-Server-Insiders/bd-p/WindowsServerInsiders) on the [Microsoft Tech Communities forum](https://techcommunity.microsoft.com/) to collaborate, share, and learn from experts.
 
+## Performance history for Storage Spaces Direct
+
+This build improves the Get-ClusterPerformanceHistory cmdlet to be more scripting-friendly. It’s now convenient to pipe performance history into utility cmdlets like Sort-Object, Where-Object, and Measure-Object so you can quickly find the average or peak value, filter values, plot trend lines, run outlier detection, and more. You can see examples with these cmdlets in the topics linked under "Insider Preview content" on [aka.ms/StorageSpacesDirect](https://docs.microsoft.com/en-us/windows-server/storage/storage-spaces/storage-spaces-direct-overview).
+
+This build adds performance history for the Storage Spaces Direct cache for reads (% hit rate) and writes (% full), as well as the CSV in-memory read cache (% hit rate). These new series are available per-server and in aggregate.
+
+Some performance history series have changed names in this build for greater clarity and consistency—for example, Node.Cpu.Usage is now ClusterNode.Cpu.Usage. Note that this change will result in some blank charts in Windows Admin Center until its next update.
+
+## Delimit volume allocation with Storage Spaces Direct
+
+New cmdlets, provided in this build, simplify the management of volumes with delimited allocation. Use Get-StorageScaleUnit to see fault domains; follow associations to/from Get-VirtualDisk to see the current allocation; and set or modify allocation by using friendly names for fault domains. For more details, see the links under "Insider Preview content" on [aka.ms/StorageSpacesDirect](https://docs.microsoft.com/en-us/windows-server/storage/storage-spaces/storage-spaces-direct-overview).
+
 ## Failover Clustering: File Share Witness
 
 One of the witness options available for failover clustering, File Share Witness, has two new enhancements. 
