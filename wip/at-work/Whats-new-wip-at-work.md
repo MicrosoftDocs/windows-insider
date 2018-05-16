@@ -74,6 +74,7 @@ We have added two new PowerShell commandlets to quickly take you from one domain
 
 In-place upgrade allows an administrator to upgrade an existing installation of Windows Server to a newer version, retaining settings and installed features. The LTSC versions and editions of Windows Server that are supported for in-place upgrade are shown in the following table.
 
+<br/>
 
 |CURRENTLY INSTALLED OPERATING SYSTEM |AVAILABLE UPGRADE VERSION & EDITION |
 |--- |--- |
