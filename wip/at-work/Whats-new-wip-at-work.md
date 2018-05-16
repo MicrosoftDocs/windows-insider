@@ -83,9 +83,8 @@ In-place upgrade allows an administrator to upgrade an existing installation of 
 |Windows Server 2012 R2 Standard| Windows Server 2019 Standard or Datacenter|
 |Windows Server 2012 R2 Datacenter | Windows Server 2019 Datacenter|
 
-## Software Defined Datacenter
-
-If you are using Storage Spaces Direct, take a look at  performance history for Storage Spaces Direct. TODO: Can we have a heading called Storage Spaces Direct with the list of entries related to that feature?
+## Storage Spaces Direct
+Storage Spaces Direct uses industry-standard servers with local-attached drives to create highly available, highly scalable software-defined storage at a fraction of the cost of traditional SAN or NAS arrays. Its converged or hyper-converged architecture radically simplifies procurement and deployment, while features such as caching, storage tiers, and erasure coding, together with the latest hardware innovations such as RDMA networking and NVMe drives, deliver unrivaled efficiency and performance. 
 
 ### Performance history for Storage Spaces Direct
 
