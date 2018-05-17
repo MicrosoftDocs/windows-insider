@@ -19,19 +19,40 @@ The features listed below are available in preview builds of Windows Server 2019
 
 We also encourage you to visit the [Windows Server Insiders space](https://techcommunity.microsoft.com/t5/Windows-Server-Insiders/bd-p/WindowsServerInsiders) on the [Microsoft Tech Communities forum](https://techcommunity.microsoft.com/) to collaborate, share, and learn from experts.
 
-## Performance history for Storage Spaces Direct
-
-This build improves the Get-ClusterPerformanceHistory cmdlet to be more scripting-friendly. It’s now convenient to pipe performance history into utility cmdlets like Sort-Object, Where-Object, and Measure-Object so you can quickly find the average or peak value, filter values, plot trend lines, run outlier detection, and more. You can see examples with these cmdlets in the topics linked under "Insider Preview content" on [aka.ms/StorageSpacesDirect](https://docs.microsoft.com/en-us/windows-server/storage/storage-spaces/storage-spaces-direct-overview).
-
-This build adds performance history for the Storage Spaces Direct cache for reads (% hit rate) and writes (% full), as well as the CSV in-memory read cache (% hit rate). These new series are available per-server and in aggregate.
-
-Some performance history series have changed names in this build for greater clarity and consistency—for example, Node.Cpu.Usage is now ClusterNode.Cpu.Usage. Note that this change will result in some blank charts in Windows Admin Center until its next update.
 
 ## Delimit volume allocation with Storage Spaces Direct
 
-New cmdlets, provided in this build, simplify the management of volumes with delimited allocation. Use Get-StorageScaleUnit to see fault domains; follow associations to/from Get-VirtualDisk to see the current allocation; and set or modify allocation by using friendly names for fault domains. For more details, see the links under "Insider Preview content" on [aka.ms/StorageSpacesDirect](https://docs.microsoft.com/en-us/windows-server/storage/storage-spaces/storage-spaces-direct-overview).
+New cmdlets simplify the management of volumes with delimited allocation. Use Get-StorageScaleUnit to see fault domains; follow associations to/from Get-VirtualDisk to see the current allocation; and set or modify allocation by using friendly names for fault domains. For more details, see the links under "Insider Preview content" on [aka.ms/StorageSpacesDirect](https://docs.microsoft.com/en-us/windows-server/storage/storage-spaces/storage-spaces-direct-overview).
 
-## Failover Clustering: File Share Witness
+## Encrypted Network in SDN
+
+Network traffic going out from a VM host can be snooped on and/or
+manipulated by anyone with access to the physical fabric. While shielded
+VMs protect VM data from theft and manipulation, similar protection is
+required for network traffic to and from a VM. While the tenant can
+setup protection such as IPSEC, this is difficult due to configuration
+complexity and heterogeneous environments.
+
+Encrypted Networks is a feature which provides simple to configure
+DTLS-based encryption using the Network Controller to manage the
+end-to-end encryption and protect data as it travels through the wires
+and network devices between the hosts It is configured by the
+Administrator on a per-subnet basis.  This enables the VM to VM traffic
+within the VM subnet to be automatically encrypted as it leaves the host
+and prevents snooping and manipulation of traffic on the wire. This is
+done without requiring any configuration changes in the VMs themselves.
+Try it out—[Configure Encryption for a Virtual
+Subnet](https://docs.microsoft.com/en-us/windows-server/networking/sdn/vnet-encryption/sdn-config-vnet-encryption)—and
+send us your feedback in the Feedback Hub.
+
+If you are using Storage Spaces Direct, take a look at another area to
+explore for this release: performance history for Storage Spaces Direct.
+
+## Extending your Clusters with Cluster Sets
+
+“Cluster Sets” is the new cloud scale-out technology that increases cluster node count in a single SDDC (Software-Defined Data Center) cloud by orders of magnitude. A Cluster Set is a loosely-coupled grouping of multiple Failover Clusters: compute, storage or hyper-converged. Cluster Sets technology enables virtual machine fluidity across member clusters within a Cluster Set and a unified storage namespace across the "set" in support of virtual machine fluidity.  While preserving existing Failover Cluster management experiences on member clusters, a Cluster Set instance additionally offers key use cases around lifecycle management of a Cluster Set at the aggregate.
+
+## Failover clustering: file share witness
 
 One of the witness options available for failover clustering, File Share Witness, has two new enhancements. 
 
@@ -43,32 +64,17 @@ The second enhancement enables use of an FSW for several scenarios that were pre
 *  Lack of a domain controller connection due to the cluster being behind a DMZ. 
 *  A workgroup or cross-domain cluster for which there is no Active Directory cluster name object (CNO). Find out more about these enhancements in the following posts in Server & Management Blogs: Failover Cluster File Share Witness and DFS New File Share Witness Feature in Windows Server 2019.
 
-## Failover clustering: Moving Clusters between domains 
+## Failover clustering: moving clusters between domains 
 Moving a cluster from one domain to another has always been a daunting task because you must destroy the cluster to move it.  Depending on the roles in the cluster, that role must also be removed and recreated.  The following are two common scenarios:
 Company A purchases Company B and must move all servers to Company A's domain 
 Main office builds a cluster and ships it to another location 
 We have added two new PowerShell commandlets to quickly take you from one domain to another without the need to destroy it.  For more information about this new capability, see [How to Switch a Failover Cluster to a New Domain](https://blogs.msdn.microsoft.com/clustering/2018/01/09/how-to-switch-a-failover-cluster-to-a-new-domain/) in Server & Management blogs. 
 
-## Storage Replica
-<b>Storage Replica (SR)</b> was first released as a technology for Windows Server 2016 Datacenter Edition. SR enables synchronous and asynchronous block replication of volumes between servers or clusters for disaster recovery. SR also enables you to create stretch failover clusters that span two sites, with all nodes staying in sync. 
-Beginning with Windows Server 2019, responding to customer requests, we've added the following improvement to SR: 
- 
-Storage Replica Standard. SR is available on Windows Server 2019 Standard Edition, not just on Datacenter Edition. When installed on servers running Standard Edition, SR has the following limitations: 
- 
-*  SR replicates a single volume instead of an unlimited number of volumes.  
-*  Volumes can have one partnership instead of an unlimited number of partners.  
-*  Volumes can have a size of up to 2 TB instead of an unlimited size. 
- 
-We will continue to listen to your feedback and evaluate these settings through our telemetry during Insider previews of Windows Server 2019. These limitations may change several times during the preview phase and at RTM. 
-For more information about Storage Replica, visit [http://aka.ms/StorageReplica](http://aka.ms/StorageReplica).  
-
-## Remote Desktop Session Host (RDSH)
-
-RD Session Host is a Remote Desktop Services role service that enables users to share Windows-based programs or the full Windows desktop. Users can connect to an RD Session Host server to run programs, save files, and use network resources on that server. Because of a bug, the RDSH role was missing in previous releases of Windows Server 2019 – this build fixes that. 
-
 ## In place upgrades
 
 In-place upgrade allows an administrator to upgrade an existing installation of Windows Server to a newer version, retaining settings and installed features. The LTSC versions and editions of Windows Server that are supported for in-place upgrade are shown in the following table.
+
+<br/>
 
 |CURRENTLY INSTALLED OPERATING SYSTEM |AVAILABLE UPGRADE VERSION & EDITION |
 |--- |--- |
@@ -76,6 +82,40 @@ In-place upgrade allows an administrator to upgrade an existing installation of 
 |Windows Server 2016 Datacenter | Windows Server 2019 Datacenter|
 |Windows Server 2012 R2 Standard| Windows Server 2019 Standard or Datacenter|
 |Windows Server 2012 R2 Datacenter | Windows Server 2019 Datacenter|
+
+## Storage Spaces Direct
+Storage Spaces Direct uses industry-standard servers with local-attached drives to create highly available, highly scalable software-defined storage at a fraction of the cost of traditional SAN or NAS arrays. Its converged or hyper-converged architecture radically simplifies procurement and deployment, while features such as caching, storage tiers, and erasure coding, together with the latest hardware innovations such as RDMA networking and NVMe drives, deliver unrivaled efficiency and performance. 
+
+### Performance history for Storage Spaces Direct
+
+The Get-ClusterPerformanceHistory cmdlet is more scripting-friendly. It’s now convenient to pipe performance history into utility cmdlets like Sort-Object, Where-Object, and Measure-Object so you can quickly find the average or peak value, filter values, plot trend lines, run outlier detection, and more. You can see examples with these cmdlets in the topics linked under "Insider Preview content" on [aka.ms/StorageSpacesDirect](https://docs.microsoft.com/en-us/windows-server/storage/storage-spaces/storage-spaces-direct-overview.
+
+Performance history for the Storage Spaces Direct cache for reads (% hit rate) and writes (% full), as well as the CSV in-memory read cache (% hit rate), is now available. These new series are available per-server and in aggregate.
+
+Some performance history series have changed names for greater clarity and consistency—for example, Node.Cpu.Usage is now ClusterNode.Cpu.Usage. Note that this change will result in some blank charts in Windows Admin Center until its next update.
+
+Administrators of [Storage Spaces
+Direct](https://docs.microsoft.com/windows-server/storage/storage-spaces/storage-spaces-direct-overview)
+can now get easy access to historical performance and capacity data from
+their cluster. *Did CPU usage spike last night? When did this drive
+become slow? Which virtual machine used the most memory last month? Is
+network activity trending up or down? The cluster is pushing 1,000,000
+IOPS – is that my new record?* Previously, you'd need external tooling
+to answer these questions. No more!
+
+Beautiful new charts in [Project
+Honolulu](https://docs.microsoft.com/en-us/windows-server/manage/honolulu/honolulu-manage-hci)
+(and new PowerShell cmdlets, for those so inclined) empower you to
+answer these questions. There's nothing to install, configure, or
+start—it's built-in and always-on. Learn more at
+<https://aka.ms/clusterperformancehistory>.
+
+![alt text](images/Hyper-Converged-in-Honolulu.png "New charts in Project Honolulu, powered by built-in cluster
+performance history.")
+
+## Remote Desktop Session Host (RDSH)
+
+RD Session Host is a Remote Desktop Services role service that enables users to share Windows-based programs or the full Windows desktop. Users can connect to an RD Session Host server to run programs, save files, and use network resources on that server. Because of a bug, the RDSH role was missing in previous releases of Windows Server 2019 – this build fixes that. 
 
 ## Storage Migration Service
 
@@ -97,9 +137,18 @@ SMS is under active development, and you will see many changes and improvements 
 
 For more information on deploying and using the Storage Migration Service, please visit [https://aka.ms/stormigser](https://aka.ms/stormigser)
 
-## Extending your Clusters with Cluster Sets
-
-“Cluster Sets” is the new cloud scale-out technology that increases cluster node count in a single SDDC (Software-Defined Data Center) cloud by orders of magnitude. A Cluster Set is a loosely-coupled grouping of multiple Failover Clusters: compute, storage or hyper-converged. Cluster Sets technology enables virtual machine fluidity across member clusters within a Cluster Set and a unified storage namespace across the "set" in support of virtual machine fluidity.  While preserving existing Failover Cluster management experiences on member clusters, a Cluster Set instance additionally offers key use cases around lifecycle management of a Cluster Set at the aggregate.
+## Storage Replica
+<b>Storage Replica (SR)</b> was first released as a technology for Windows Server 2016 Datacenter Edition. SR enables synchronous and asynchronous block replication of volumes between servers or clusters for disaster recovery. SR also enables you to create stretch failover clusters that span two sites, with all nodes staying in sync. 
+Beginning with Windows Server 2019, responding to customer requests, we've added the following improvement to SR: 
+ 
+Storage Replica Standard. SR is available on Windows Server 2019 Standard Edition, not just on Datacenter Edition. When installed on servers running Standard Edition, SR has the following limitations: 
+ 
+*  SR replicates a single volume instead of an unlimited number of volumes.  
+*  Volumes can have one partnership instead of an unlimited number of partners.  
+*  Volumes can have a size of up to 2 TB instead of an unlimited size. 
+ 
+We will continue to listen to your feedback and evaluate these settings through our telemetry during Insider previews of Windows Server 2019. These limitations may change several times during the preview phase and at RTM. 
+For more information about Storage Replica, visit [http://aka.ms/StorageReplica](http://aka.ms/StorageReplica).  
 
 ## Windows Defender Advanced Threat Protection
 
@@ -251,57 +300,4 @@ inside shielded virtual machines. Try it out—[Create a Linux shielded VM
 template
 disk](https://docs.microsoft.com/en-us/windows-server/virtualization/guarded-fabric-shielded-vm/guarded-fabric-create-a-linux-shielded-vm-template)—and
 send us your feedback in the Feedback Hub.
-
-## Encrypted Network in SDN
-
-Network traffic going out from a VM host can be snooped on and/or
-manipulated by anyone with access to the physical fabric. While shielded
-VMs protect VM data from theft and manipulation, similar protection is
-required for network traffic to and from a VM. While the tenant can
-setup protection such as IPSEC, this is difficult due to configuration
-complexity and heterogeneous environments.
-
-Encrypted Networks is a feature which provides simple to configure
-DTLS-based encryption using the Network Controller to manage the
-end-to-end encryption and protect data as it travels through the wires
-and network devices between the hosts It is configured by the
-Administrator on a per-subnet basis.  This enables the VM to VM traffic
-within the VM subnet to be automatically encrypted as it leaves the host
-and prevents snooping and manipulation of traffic on the wire. This is
-done without requiring any configuration changes in the VMs themselves.
-Try it out—[Configure Encryption for a Virtual
-Subnet](https://docs.microsoft.com/en-us/windows-server/networking/sdn/vnet-encryption/sdn-config-vnet-encryption)—and
-send us your feedback in the Feedback Hub.
-
-If you are using Storage Spaces Direct, take a look at another area to
-explore for this release: performance history for Storage Spaces Direct.
-
-## Software Defined Datacenter
-
-If you are using Storage Spaces Direct, take a look at  performance history for Storage Spaces Direct. 
-
-## Performance history for Storage Spaces Direct
-
-Administrators of [Storage Spaces
-Direct](https://docs.microsoft.com/windows-server/storage/storage-spaces/storage-spaces-direct-overview)
-can now get easy access to historical performance and capacity data from
-their cluster. *Did CPU usage spike last night? When did this drive
-become slow? Which virtual machine used the most memory last month? Is
-network activity trending up or down? The cluster is pushing 1,000,000
-IOPS – is that my new record?* Previously, you'd need external tooling
-to answer these questions. No more!
-
-Beginning in build 17090, beautiful new charts in [Project
-Honolulu](https://docs.microsoft.com/en-us/windows-server/manage/honolulu/honolulu-manage-hci)
-(and new PowerShell cmdlets, for those so inclined) empower you to
-answer these questions. There's nothing to install, configure, or
-start—it's built-in and always-on. Learn more at
-<https://aka.ms/clusterperformancehistory>.
-
-![alt text](images/Hyper-Converged-in-Honolulu.png "New charts in Project Honolulu, powered by built-in cluster
-performance history.")
-
-
-
-
 
