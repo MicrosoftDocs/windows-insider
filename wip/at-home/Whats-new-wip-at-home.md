@@ -130,7 +130,7 @@ We’ve heard your feedback that settings can be confusing sometimes, so we’re
 Sets is designed to make sure that everything related to your task: relevant webpages, research documents, necessary files, and applications, is connected and available to you in one click. With Sets, 1st party experiences like Mail, Calendar, OneNote, MSN News, Windows, and Microsoft Edge become more integrated to create a seamless experience, so you can get back to what’s important and be productive, recapturing that moment, saving time – we believe that’s the true value of Sets. Here are some of the things you can do with sets.
 
 <b>Bring on the acrylic!</b> We love Fluent Design as much as you do – Sets now have an acrylic title bar. We also adjusted the window border so that it’s now grey. 
-![alt text](images/fluid.png "fluent design with sets")
+![alt text](images/fluent.png "fluent design with sets")
 
 <b>Recent Microsoft Edge tabs now show in Alt + Tab</b>: Do you use Alt + Tab to quickly switch back and forth between apps? All of your recent Microsoft Edge tabs will now be included, not just the active one. Prefer it the old way? Use the “Pressing Alt + Tab shows the recently used…” setting in Multitasking Settings. 
 
@@ -203,7 +203,7 @@ Resume your project with more control – When restoring your projects you’ll 
 
 To create a tile folder in Start, just drag one tile on top of another for a second then release. Continue dropping as many tiles into the folder as you’d like. When you expand the folder, you’ll see a new option to name it. The name will be visible when the folder is medium, wide, or large-sized. 
 
-![alt text](images/namedfolder_optionalgif.gif "folder naming in Start")
+![alt text](images/namedfolder_optionalgif.png "folder naming in Start")
 
 ## Windows App Permissions 
 
