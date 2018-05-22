@@ -14,13 +14,26 @@ ms.author: dawn.wood
 ---
 
 #  What's new in the Windows 10 Insider Preview Builds (RS5)
-The [Windows Insider Program](https://insider.windows.com/en-us/) lets you preview builds of the upcoming release of Windows 10. This topic lists all new Windows 10 features for you to try. Unlike the [Windows Insider Program Blog](https://blogs.windows.com/windowsexperience/tag/windows-insider-program), this topic is organized by feature instead of by the build number. 
+The [Windows Insider Program](https://insider.windows.com/en-us/) lets you preview builds of the upcoming release of Windows 10. This topic lists all new Windows 10 features for you to try. Unlike the [Windows Insider Program Blog](https://blogs.windows.com/windowsexperience/tag/windows-insider-program), this topic is organized by feature instead of by the build number so that you can see all items about a specific feature listed together. 
 
 ## Bluetooth battery percentage in Settings
 
 In Bluetooth & other devices Settings, you can now check the battery level of your Bluetooth devices. For Bluetooth devices that support this feature, the battery percentage will update whenever your PC and the device are connected.
 
 ![alt text](images/bluetoothbattery.png "bluetooth battery")
+
+## Say hello to your new clipboard experience! 
+Copy paste - it's something we all do, probably multiple times a day. But what do you do if you need to copy the same few things again and again? How do you copy content across your devices? Today we're addressing that and taking the clipboard to the next level - simply press WIN+V and you'll be presented with our brand-new clipboard experience!  
+
+![alt text](images/clipboardhistory.png "clipboard history")
+
+Not only can you can paste from the clipboard history, but you can also pin the items you find yourself using all the time. This history is roamed using the same technology which powers Timeline and Sets, which means you can access your clipboard across any PC with this build of Windows or higher.  
+
+Our new settings page for enabling this experience is under Settings > System > Clipboard - please try this out and share feedback! This link will open the Feedback Hub to where you can tell us about your experience and what you'd like to see next. 
+
+![alt text](images/clipboardsettings.png "clipboard settings")
+
+<b>Note:</b> Roamed text on the clipboard is only supported for clipboard content less than 100kb. Currently, the clipboard history supports plain text, HTML and image less than 1MB. 
 
 ## Cortana Show Me voice queries
 
@@ -43,6 +56,10 @@ In Bluetooth & other devices Settings, you can now check the battery level of yo
 * <b>Discover Bluetooth devices</b> – Try, “Show me how to discover devices”
 * <b>Check your version of Windows</b> – Try, “How do I find my current version of Windows”
 
+## Dark theme comes to File Explorer (and more!) 
+
+As many of you know, we added dark theme support to Windows based on your feedback. This setting is available under Settings > Personalization > Colors, and if you switch it any apps and system UI that support it will follow suit. Since releasing this feature, our top feedback request from you has been to update File Explorer to support dark theme. Along the way, we also added dark theme support to the File Explorer context menu, as well as the Common File Dialog (aka the Open and Save dialogs). Thanks again for everyone’s feedback! 
+
 ## External GPU Safe Remove Experience
 
 <b>Safe remove experience for external GPUs</b> connected via Thunderbolt 3. The safe remove experience allows you to know which applications are running on an external GPU so that you can safely remove to prevent data loss during detach.
@@ -58,6 +75,11 @@ In order to try this out, you need to join the Windows App Preview Program for t
 Additionally, any application that uses [WIC](https://msdn.microsoft.com/en-us/library/windows/desktop/ee719654(v=vs.85).aspx), [WinRT Imaging APIs](https://docs.microsoft.com/en-us/uwp/api/windows.graphics.imaging), or the [XAML Image control](https://docs.microsoft.com/en-us/uwp/api/windows.ui.xaml.controls.image) can now add similar support for viewing single HEIF images.
 
 [Click here](https://aka.ms/photosfb) to open Feedback Hub and send us feedback on the HEIF experience with the Photos app and Windows 10.
+
+## Introducing extended line endings support for Notepad 
+Announced at Microsoft Build 2018, we’re excited to let you know that in addition to Windows line endings (CRLF), with today’s build Notepad now supports Unix/Linux line endings (LF) and Macintosh line endings (CR)! 
+
+![alt text](images/notepad.png "notepad")
 
 ## Input 
 
@@ -87,6 +109,22 @@ Search will work for Outlook, Hotmail, Live and Office 365 accounts. We do not y
 
 ## Sets
 Sets is designed to make sure that everything related to your task: relevant webpages, research documents, necessary files, and applications, is connected and available to you in one click. With Sets, 1st party experiences like Mail, Calendar, OneNote, MSN News, Windows, and Microsoft Edge become more integrated to create a seamless experience, so you can get back to what’s important and be productive, recapturing that moment, saving time – we believe that’s the true value of Sets. Here are some of the things you can do with sets.
+
+<b>Bring on the acrylic!</b> We love Fluent Design as much as you do – Sets now have an acrylic title bar. We also adjusted the window border so that it’s now grey. 
+![alt text](images/fluid.png "fluent design with sets")
+
+<b>Recent Microsoft Edge tabs now show in Alt + Tab</b>: Do you use Alt + Tab to quickly switch back and forth between apps? All of your recent Microsoft Edge tabs will now be included, not just the active one. Prefer it the old way? Use the “Pressing Alt + Tab shows the recently used…” setting in Multitasking Settings. 
+
+<b>Should apps and websites open in a new window or a new tab? It’s up to you!</b> The Sets section of Multitasking Settings now lets you set your windowing preference. If you choose “Window”, new windows won’t open into a new tab unless you explicitly click the + or drag with your mouse. Choosing “Tab” opens any new windows invoked from your running apps into tabs. As a reminder, if you would like to exclude any particular app from Sets, you can do this from this same settings page. 
+
+<b>Want to mute one of your web tabs? You can now do that!</b> When a webpage in Sets starts playing audio, you’ll now see a volume icon on the tab. Simply click it and the audio will mute, just like in Microsoft Edge. 
+
+<b>Tabs restore with better performance</b> – they’ll open in the background and use no resources until you go to the tab. This means you can restore a lot of tabs at once with no issues. 
+
+We’ve also made other fixes, changes, and improvements to Sets, including: 
+* Task Manager has now been added by default to the list of apps where not to enable Sets. 
+* We fixed an issue where right clicking a tab in the Sets title bar didn’t bring up a context menu. 
+* We fixed an issue where if Microsoft Edge wasn’t already open, clicking the plus button in Sets would open all of your default websites along with the new tab page. 
 
 <b>Drag and drop app tabs within and between Sets windows is now supported</b>: It works just like it sounds! You can now drag an app tab around within the Set or combine tabbed app windows into Sets.  
 
@@ -142,6 +180,10 @@ Resume your project with more control – When restoring your projects you’ll 
 * <b>Ctrl + Win + N </b> - open a new window.
 * <b>Ctrl + Win + W </b>– close current tab or window.
 
+## Start tile folder naming 
+
+To create a tile folder in Start, just drag one tile on top of another for a second then release. Continue dropping as many tiles into the folder as you’d like. When you expand the folder, you’ll see a new option to name it. The name will be visible when the folder is medium, wide, or large-sized. 
+
 ## Windows App Permissions 
 
 You have more control so you can now decide which UWP apps can access your full file system. Particular UWP apps will be granted permission to have broad file system access. This capability will be granted on a per app basis by Microsoft. If a UWP app has the broad file system access restricted capability, you will receive a consent dialog prompting you to accept or deny the request. If at any time you change your mind about the decision, you can go to Settings > Privacy where you’ll find a new Settings page for File System Access. On this page, you can turn access on or off globally, and if it’s on you can also turn it on or off for each app that has requested the capability. UWPs with broad file system access will not appear in the Photos, Videos, or Documents privacy settings pages. If you grant broad file system access, this includes Photos, Videos and Documents.
@@ -195,6 +237,12 @@ We’ve heard your feedback and we’ve updated Windows Defender Security Center
 ## Windows Defender Firewall now supports Windows Subsystem for Linux (WSL) processes 
 You can add specific rules for a WSL process in Windows Defender Firewall, just as you would for any Windows process. Also, Windows Defender Firewall now supports notifications for WSL processes. For example, when a Linux tool wants to allow access to a port from the outside (like SSH or a web server like nginx), the Windows Defender Firewall will prompt to allow access just like it would for a Windows process when the port starts accepting connections. This was first introduced in [Build 17627](https://docs.microsoft.com/en-us/windows/wsl/release-notes#build-17618-skip-ahead).
 
+## Windows Security Improvements 
+The Windows Security Center (WSC) service now requires antivirus products to run as a protected process to register. Products that have not yet implemented this will not appear in the Windows Security UI, and Windows Defender Antivirus will remain enabled side-by-side with these products. 
+For testing purposes, you can disable this new behavior in Windows Insider builds by creating the following registry key and rebooting the device.  This key will be removed as we get closer to release. 
+
+<pre>HKLM\SOFTWARE\Microsoft\Security Center\Feature 
+DisableAvCheck (DWORD) = 1 </pre>
 
 ## Windows 10 Pro for Workstations
 
