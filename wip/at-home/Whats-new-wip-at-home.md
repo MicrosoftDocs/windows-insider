@@ -105,16 +105,26 @@ For more details, check out the [command line blog](https://aka.ms/notepadeol).
 
 Now you can find past or future events by searching for the name, location, people included or words in the event body. Events that match your search will be clearly visible on your calendar, while those that don’t will be greyed-out so you can find what you need quickly.
 
-![alt text](images/calendarwithsearch.png "productivity apps")
+![alt text](images/calendarwithsearch.png "calendar with search")
 
 Search will work for Outlook, Hotmail, Live and Office 365 accounts. We do not yet support searching Exchange Server, Gmail, Yahoo or other IMAP calendars.
 
 ## Search preview
 We have expanded previews to support apps, documents, and more. Search previews are here to help you: 
 * Get back to what you were doing, such as a recent Word doc or Remote Desktop session 
-Jump-start your task, be it a new Outlook meeting, a quick comment in OneNote, or changing a setting 
-Disambiguate between files by seeing more info including file location, last modified, or author 
-Access quick answers from the web like “are bananas good for you?” “height of mt everest”  
+* Jump-start your task, be it a new Outlook meeting, a quick comment in OneNote, or changing a setting 
+* Disambiguate between files by seeing more info including file location, last modified, or author 
+* Access quick answers from the web like “are bananas good for you?” “height of mt everest”  
+
+We made the Search experience wider so you can access information and actions in the preview faster than ever. 
+
+![alt text](images/notepad-bing-search.png "notepad bing search")
+
+## Settings
+
+We’ve heard your feedback that settings can be confusing sometimes, so we’re working with Bing to bubble up some of the most common questions we hear right into the Settings pages themselves. The FAQ’s are contextual in nature and aim to you to quickly get the answer you’re looking for to complete configuration tasks. It may even help you discover something you didn’t know was an option! Clicking on these questions will take you to Bing.com to display the answer.  
+
+![alt text](images/questions.png "settings faq")
 
 ## Sets
 Sets is designed to make sure that everything related to your task: relevant webpages, research documents, necessary files, and applications, is connected and available to you in one click. With Sets, 1st party experiences like Mail, Calendar, OneNote, MSN News, Windows, and Microsoft Edge become more integrated to create a seamless experience, so you can get back to what’s important and be productive, recapturing that moment, saving time – we believe that’s the true value of Sets. Here are some of the things you can do with sets.
@@ -192,6 +202,8 @@ Resume your project with more control – When restoring your projects you’ll 
 ## Start tile folder naming 
 
 To create a tile folder in Start, just drag one tile on top of another for a second then release. Continue dropping as many tiles into the folder as you’d like. When you expand the folder, you’ll see a new option to name it. The name will be visible when the folder is medium, wide, or large-sized. 
+
+![alt text](images/namedfolder_optionalgif.gif "folder naming in Start")
 
 ## Windows App Permissions 
 
