@@ -199,6 +199,11 @@ Resume your project with more control – When restoring your projects you’ll 
 * <b>Ctrl + Win + N </b> - open a new window.
 * <b>Ctrl + Win + W </b>– close current tab or window.
 
+## A modern snipping experience 
+Today we’re taking the first step toward converging our snipping experiences. The new modern snipping experience is here to help you effortlessly capture and annotate what you see on your screen. While working on this we’ve been carefully going over all your feedback about taking screenshots in Windows - you’ll find the flow and tools are optimized for sharing and make communicating visually with others quick and easy.
+
+![alt text](images/namedfolder_optionalgif.png "folder naming in Start")
+
 ## Start tile folder naming 
 
 To create a tile folder in Start, just drag one tile on top of another for a second then release. Continue dropping as many tiles into the folder as you’d like. When you expand the folder, you’ll see a new option to name it. The name will be visible when the folder is medium, wide, or large-sized. 
