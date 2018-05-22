@@ -81,6 +81,8 @@ Announced at Microsoft Build 2018, we’re excited to let you know that in addit
 
 ![alt text](images/notepad.png "notepad")
 
+For more details, check out the [command line blog](https://aka.ms/notepadeol). 
+
 ## Input 
 
 <b>Emoji design updates</b> Based on your feedback and to improve consistency, we’ve made adjustments to the design of some of our emoji. Examples of updated emoji include:
@@ -106,6 +108,13 @@ Now you can find past or future events by searching for the name, location, peop
 ![alt text](images/calendarwithsearch.png "productivity apps")
 
 Search will work for Outlook, Hotmail, Live and Office 365 accounts. We do not yet support searching Exchange Server, Gmail, Yahoo or other IMAP calendars.
+
+## Search preview
+We have expanded previews to support apps, documents, and more. Search previews are here to help you: 
+* Get back to what you were doing, such as a recent Word doc or Remote Desktop session 
+Jump-start your task, be it a new Outlook meeting, a quick comment in OneNote, or changing a setting 
+Disambiguate between files by seeing more info including file location, last modified, or author 
+Access quick answers from the web like “are bananas good for you?” “height of mt everest”  
 
 ## Sets
 Sets is designed to make sure that everything related to your task: relevant webpages, research documents, necessary files, and applications, is connected and available to you in one click. With Sets, 1st party experiences like Mail, Calendar, OneNote, MSN News, Windows, and Microsoft Edge become more integrated to create a seamless experience, so you can get back to what’s important and be productive, recapturing that moment, saving time – we believe that’s the true value of Sets. Here are some of the things you can do with sets.
