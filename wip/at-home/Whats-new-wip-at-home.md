@@ -152,8 +152,6 @@ If your PC supports Mobile Broadband, i.e., your PC relies on cellular network f
 
 <b>Note</b>: Follow the instructions in Step 4 to revert to the default driver(xxxxx Mobile Broadband Adapter), in case of issues with Net Adapter driver(Generic Mobile Broadband Cx Net Adapter). 
 
-You are all set. We are excited for you to try our driver!
-
 <b>Step 4</b>: For Internet access, try using cellular network primarily by turning off Wi-Fi 
 To report issues and give feedback, use Feedback Hub on your PC and set Category and subcategory as Network and Internet -> Connecting to a cellular network. Use [cxwmbclass] in the summary.
 
