@@ -129,6 +129,35 @@ Design improvements - a new logo (for the Microsoft Pinyin IME), new IME toolbar
 
 ![alt text](images/imeemoji.png "ime emojis")
 
+## Mobile Broadband (LTE) connectivity on Windows gets a makeover 
+
+Windows is transforming the networking stack after 20 years through the Net Adapter framework. This framework introduces a new, more reliable, network driver model that inherits the goodness of the Windows driver framework, while bringing an accelerated data path. 
+
+If your PC supports Mobile Broadband, i.e., your PC relies on cellular network for connectivity, and you want to try it out? Here is what you need to do:
+
+<b>Step 1</b>: Ensure your PC can support SIM cards and USB modems (either over the internal USB bus or using a USB dongle for cellular connectivity). 
+
+<b>Step 2</b>: Install this build (Build 17655 and higher) and setup cellular connectivity. 
+
+<b>Step 3</b>: Choose the Net Adapter based MBB USB class driver as default driver. 
+
+* Navigate to Device Manager. (You can right-click on the Start button to get there.) 
+* Go to Network Adapters -> Generic Mobile Broadband Adapter or xxxxx Mobile Broadband Adapter 
+* Right click and choose update driver -> Browse my computer for driver software -> Click on Let me pick from a list of available drivers on my computer -> Choose Generic Mobile Broadband Cx Net Adapter -> Click Next. 
+* Once installed reboot for the new driver to take effect. 
+* Ensure the status of the connection remains “Connected”.
+
+![alt text](images/NetAdapterSteps_Pic1.png "Net adapter steps")
+![alt text](images/NetAdapterSteps_Pic2.png "Net adapter steps")
+![alt text](images/NetAdapterSteps_Pic3.png "Net adapter steps")
+
+<b>Note</b>: Follow the instructions in Step 4 to revert to the default driver(xxxxx Mobile Broadband Adapter), in case of issues with Net Adapter driver(Generic Mobile Broadband Cx Net Adapter). 
+
+You are all set. We are excited for you to try our driver!
+
+<b>Step 4</b>: For Internet access, try using cellular network primarily by turning off Wi-Fi 
+To report issues and give feedback, use Feedback Hub on your PC and set Category and subcategory as Network and Internet -> Connecting to a cellular network. Use [cxwmbclass] in the summary.
+
 ## Privacy settings layout in the set-up experience 
 
 <b>Changes to the set up experience for privacy settings</b> This new design conveys focused information to help our customers make focused choices about their privacy and offers two new settings for Inking & Typing and Find my device.
