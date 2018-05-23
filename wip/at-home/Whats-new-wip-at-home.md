@@ -185,7 +185,7 @@ We’ve heard your feedback that settings can be confusing sometimes, so we’re
 ![alt text](images/questions.png "settings faq")
 
 ## Sets
-Sets is designed to make sure that everything related to your task: relevant webpages, research documents, necessary files, and applications, is connected and available to you in one click. With Sets, 1st party experiences like Mail, Calendar, OneNote, MSN News, Windows, and Microsoft Edge become more integrated to create a seamless experience, so you can get back to what’s important and be productive, recapturing that moment, saving time – we believe that’s the true value of Sets. Here are some of the things you can do with sets.
+Sets is designed to make sure that everything related to your task: relevant webpages, research documents, necessary files, and applications, is connected and available to you in one click. With Sets, first party experiences like Mail, Calendar, OneNote, MSN News, Windows, and Microsoft Edge become more integrated to create a seamless experience, so you can get back to what’s important and be productive, recapturing that moment, saving time – we believe that’s the true value of Sets. Here are some of the things you can do with sets.
 
 <b>Bring on the acrylic!</b> We love Fluent Design as much as you do – Sets now have an acrylic title bar. We also adjusted the window border so that it’s now grey. 
 ![alt text](images/fluent.png "fluent design with sets")
@@ -199,7 +199,7 @@ Sets is designed to make sure that everything related to your task: relevant web
 <b>Tabs restore with better performance</b> – they’ll open in the background and use no resources until you go to the tab. This means you can restore a lot of tabs at once with no issues. 
 
 We’ve also made other fixes, changes, and improvements to Sets, including: 
-* Task Manager has now been added by default to the list of apps where not to enable Sets. 
+* Task Manager is in the list of apps where Sets are not enabled. 
 * We fixed an issue where right clicking a tab in the Sets title bar didn’t bring up a context menu. 
 * We fixed an issue where if Microsoft Edge wasn’t already open, clicking the plus button in Sets would open all of your default websites along with the new tab page. 
 
@@ -258,7 +258,7 @@ Resume your project with more control – When restoring your projects you’ll 
 * <b>Ctrl + Win + W </b>– close current tab or window.
 
 ## A modern snipping experience 
-Today we’re taking the first step toward converging our snipping experiences. The new modern snipping experience is here to help you effortlessly capture and annotate what you see on your screen. While working on this we’ve been carefully going over all your feedback about taking screenshots in Windows - you’ll find the flow and tools are optimized for sharing and make communicating visually with others quick and easy.
+The new modern snipping experience is here to help you effortlessly capture and annotate what you see on your screen. While working on this we’ve been carefully going over all your feedback about taking screenshots in Windows - you’ll find the flow and tools are optimized for sharing and make communicating visually with others quick and easy.
 
 ![alt text](images/screen-sketch1.png "screen sketch")
 
@@ -283,7 +283,7 @@ But wait, there’s more! Is the WIN + Shift + S keyboard shortcut too long to r
 
 ## Focus assist improvements when gaming 
 
-Now Focus assist will turn on automatically when you’re playing any full screen game. No more interruptions when you’re crushing it. This behavior should be turned on automatically, but you can always check by going to Settings > System > Focus assist and ensuring the “When I’m playing a game” automatic rule is enabled.
+Now Focus assist will turn on automatically when you’re playing any full screen game. No more interruptions when you’re crushing it. This behavior should be turned on automatically, but you can always check by going to Settings > System > Focus assist and ensuring the “When I’m playing a game” automatic rule is enabled. For more information, see [Windows 10 Tip: How to enable Focus Assist in the Windows 10 April 2018 Update](https://blogs.windows.com/windowsexperience/2018/05/09/windows-10-tip-how-to-enable-focus-assist-in-the-windows-10-april-2018-update/).
 
 ![alt text](images/speakers2.png "sound settings")
 
