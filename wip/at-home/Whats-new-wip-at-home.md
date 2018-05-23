@@ -92,7 +92,7 @@ HEIF files use the HEVC video codec to compress the image into approximately hal
 
 To rotate a HEIF image file, simply right-click on it in File Explorer and select "Rotate right" or "Rotate left" from the menu. "Date taken" and other properties can be edited by clicking on "Properties" and selecting the "Details" tab.
 
-![alt text](images/heif2.png "HEIF in file explorer")
+![alt text](images/heic2.png "HEIF in file explorer")
 
 
 ## Introducing extended line endings support for Notepad 
