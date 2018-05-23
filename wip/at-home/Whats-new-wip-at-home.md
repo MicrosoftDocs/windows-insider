@@ -38,11 +38,11 @@ Our new settings page for enabling this experience is under Settings > System > 
 
 ![alt text](images/clipboardsettings.png "clipboard settings")
 
-<b>Note:</b> Roamed text on the clipboard is only supported for clipboard content less than 100kb. Currently, the clipboard history supports plain text, HTML and image less than 1MB. 
+<b>Note:</b> Roamed text on the clipboard is only supported for clipboard content less than 100kb. Currently, the clipboard history supports plain text, HTML and images less than 1MB. 
 
 ## Cortana Show Me voice queries
 
- You can now launch the app through voice queries. Simply say to Cortana, “Show me how to change my background,” and you’ll get the previous help results, with a new “Let’s go” button below, which launches the guided help experience. Everything else is the same as last week – the app is available in English (US and Great Britain) and in German, and there are 15 settings guides. While most Insiders don’t need pointers like this, it’s for all the friends and family we have who need a pointer – please share it with them.
+ You can now launch the Cortana Show Me app through voice queries. Simply say to Cortana, “Show me how to change my background,” and you’ll get help content, with a new “Let’s go” button below, which launches the guided help experience. 
 
  You can download [Cortana Show Me](https://www.microsoft.com/en-us/store/r/cortana-follow-me/9pl1gmkcxm8c) from the Microsoft Store.
 
@@ -65,9 +65,9 @@ Our new settings page for enabling this experience is under Settings > System > 
 
 As many of you know, we added dark theme support to Windows based on your feedback. This setting is available under Settings > Personalization > Colors, and if you switch it any apps and system UI that support it will follow suit. Since releasing this feature, our top feedback request from you has been to update File Explorer to support dark theme. Along the way, we also added dark theme support to the File Explorer context menu, as well as the Common File Dialog (aka the Open and Save dialogs). Thanks again for everyone’s feedback! 
 
-## External GPU Safe Remove Experience
+## External GPU Safe Removal Experience
 
-<b>Safe remove experience for external GPUs</b> connected via Thunderbolt 3. The safe remove experience allows you to know which applications are running on an external GPU so that you can safely remove to prevent data loss during detach.
+We added a safe removal experience for external GPUs connected via Thunderbolt 3. The safe remove experience allows you to know which applications are running on an external GPU so that you can safely remove to prevent data loss during detach.
 
 To safely remove an external graphics card, go to the “Safely Remove Hardware and Eject Media” icon and click to eject your GPU. If there are applications running on your external GPU, then a dialog will appear with the applications that are currently running. Close the applications to safely remove the device. If there are no applications currently running on your external graphics device then no dialog will appear and you can safely detach your external GPU.
 
@@ -96,15 +96,15 @@ To rotate a HEIF image file, simply right-click on it in File Explorer and selec
 
 
 ## Introducing extended line endings support for Notepad 
-Announced at Microsoft Build 2018, we’re excited to let you know that in addition to Windows line endings (CRLF), with today’s build Notepad now supports Unix/Linux line endings (LF) and Macintosh line endings (CR)! 
+Announced at Microsoft Build 2018, we’re excited to let you know that in addition to Windows line endings (CRLF), wNotepad now supports Unix/Linux line endings (LF) and Macintosh line endings (CR)! 
 
 ![alt text](images/notepad.png "notepad")
 
-For more details, check out the [command line blog](https://aka.ms/notepadeol). 
+For more details, check out [Introducing extended line endings support in Notepad](https://aka.ms/notepadeol). 
 
 ## Input 
 
-<b>Emoji design updates</b> Based on your feedback and to improve consistency, we’ve made adjustments to the design of some of our emoji. Examples of updated emoji include:
+<b>Emoji design updates</b> based on your feedback and to improve consistency, we’ve made adjustments to the design of some of our emoji. Examples of updated emoji include:
 
 <b>Before</b>
 
@@ -118,10 +118,9 @@ For more details, check out the [command line blog](https://aka.ms/notepadeol).
 
 ## Taking the Microsoft Pinyin and Wubi IMEs to the next level
 
-* <b>We updated the Microsoft Pinyin IME</b>. We’ve been focusing on addressing your performance, reliability and compatibility feedback. You'll also notice a number of other improvements, including: 
-Design improvements - a new logo (for the Microsoft Pinyin IME), new IME toolbar, and dark theme support!
+* <b>We updated the Microsoft Pinyin IME</b>. We’ve been focusing on addressing your performance, reliability and compatibility feedback. You'll also notice a number of other improvements, including design improvements, a new logo for the Microsoft Pinyin IME, new IME toolbar, and dark theme support!
 
-![alt text](images/imeupdate.png "new look for imes")
+    ![alt text](images/imeupdate.png "new look for imes")
 
 * <b>We updated the context menu</b>. We’ve added a bunch of options to the IME mode indicator’s context menu in the taskbar, so you can quickly access the things you need.
 
@@ -141,11 +140,11 @@ If your PC supports Mobile Broadband, i.e., your PC relies on cellular network f
 
 <b>Step 3</b>: Choose the Net Adapter based MBB USB class driver as default driver. 
 
-* Navigate to Device Manager. (You can right-click on the Start button to get there.) 
-* Go to Network Adapters -> Generic Mobile Broadband Adapter or xxxxx Mobile Broadband Adapter 
-* Right click and choose update driver -> Browse my computer for driver software -> Click on Let me pick from a list of available drivers on my computer -> Choose Generic Mobile Broadband Cx Net Adapter -> Click Next. 
-* Once installed reboot for the new driver to take effect. 
-* Ensure the status of the connection remains “Connected”.
+1. Navigate to Device Manager. (You can right-click on the Start button to get there.) 
+2. Go to Network Adapters -> Generic Mobile Broadband Adapter or xxxxx Mobile Broadband Adapter 
+3. Right click and choose update driver -> Browse my computer for driver software -> Click on Let me pick from a list of available drivers on my computer -> Choose Generic Mobile Broadband Cx Net Adapter -> Click Next. 
+4. Once installed reboot for the new driver to take effect. 
+5. Ensure the status of the connection remains “Connected”.
 
 ![alt text](images/NetAdapterSteps_Pic1.png "Net adapter steps")
 ![alt text](images/NetAdapterSteps_Pic2.png "Net adapter steps")
