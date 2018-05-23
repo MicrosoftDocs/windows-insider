@@ -16,6 +16,11 @@ ms.author: dawn.wood
 #  What's new in the Windows 10 Insider Preview Builds (RS5)
 The [Windows Insider Program](https://insider.windows.com/en-us/) lets you preview builds of the upcoming release of Windows 10. This topic lists all new Windows 10 features for you to try. Unlike the [Windows Insider Program Blog](https://blogs.windows.com/windowsexperience/tag/windows-insider-program), this topic is organized by feature instead of by the build number so that you can see all items about a specific feature listed together. 
 
+## Acrylic in Task View 
+The entire task View background now has a soft blur effect.
+
+![alt text](images/taskviewacrylic.png "acrylic task view")
+
 ## Bluetooth battery percentage in Settings
 
 In Bluetooth & other devices Settings, you can now check the battery level of your Bluetooth devices. For Bluetooth devices that support this feature, the battery percentage will update whenever your PC and the device are connected.
@@ -66,6 +71,10 @@ As many of you know, we added dark theme support to Windows based on your feedba
 
 To safely remove an external graphics card, go to the “Safely Remove Hardware and Eject Media” icon and click to eject your GPU. If there are applications running on your external GPU, then a dialog will appear with the applications that are currently running. Close the applications to safely remove the device. If there are no applications currently running on your external graphics device then no dialog will appear and you can safely detach your external GPU.
 
+## Focus assist improvements when gaming 
+
+Now Focus assist will turn on automatically when you’re playing any full screen game. No more interruptions when you’re crushing it. This behavior should be turned on automatically, but you can always check by going to Settings > System > Focus assist and ensuring the “When I’m playing a game” automatic rule is enabled.
+
 ## High Efficiency Image File Format (HEIF)
 
 The <b>High Efficiency Image File Format (HEIF)</b> is supported in Windows 10 and the Photos app. [HEIF is an image container](https://en.wikipedia.org/wiki/High_Efficiency_Image_File_Format) that leverages modern codecs like HEVC to improve quality, compression, and capabilities compared to earlier formats like JPEG, GIF, and PNG. In addition to traditional single images, HEIF supports encoding image sequences, image collections, auxiliary images like alpha or depth maps, live images & video, audio, and HDR for greater contrast. We have heard your feedback that these features and the ability to share photos easily with other platforms is important to you. 
@@ -96,6 +105,19 @@ For more details, check out the [command line blog](https://aka.ms/notepadeol).
 ![alt text](images/after_emoji.png "emojis after")
 
 <b>Emoji search comes to more languages</b>: You can find an emoji by keyword in over 150 locales, including English (Great Britain), French (France), German (Germany), Spanish (Spain), and more. This will help you get the emoji you want easily and quickly. As a reminder, to bring up the Emoji Panel set focus to a text field and press WIN + (period) or WIN + (semicolon).
+
+## Taking the Microsoft Pinyin and Wubi IMEs to the next level
+
+* <b>We updated the Microsoft Pinyin IME</b>. We’ve been focusing on addressing your performance, reliability and compatibility feedback. You'll also notice a number of other improvements, including: 
+Design improvements - a new logo (for the Microsoft Pinyin IME), new IME toolbar, and dark theme support!
+
+![alt text](images/imeupdate.png "new look for imes")
+
+* <b>We updated the context menu</b>. We’ve added a bunch of options to the IME mode indicator’s context menu in the taskbar, so you can quickly access the things you need.
+
+* <b>The IME now uses the same UX for Expressive Input as other languages</b>. You can bring it up by clicking the emoji button in the IME toolbar, or use the Emoji Panel hotkeys (WIN + period (.) or WIN + semicolon (;)). You can browse between Emoji, Kaomoji, and Symbol input when Chinese (Simplified) is the active locale.
+
+![alt text](images/imeemoji.png "ime emojis")
 
 ## Privacy settings layout in the set-up experience 
 
@@ -202,7 +224,32 @@ Resume your project with more control – When restoring your projects you’ll 
 ## A modern snipping experience 
 Today we’re taking the first step toward converging our snipping experiences. The new modern snipping experience is here to help you effortlessly capture and annotate what you see on your screen. While working on this we’ve been carefully going over all your feedback about taking screenshots in Windows - you’ll find the flow and tools are optimized for sharing and make communicating visually with others quick and easy.
 
-![alt text](images/namedfolder_optionalgif.png "folder naming in Start")
+![alt text](images/screen-sketch1.png "screen sketch")
+
+### Screen Sketch is now an app! 
+
+Originally introduced as part of the Windows Ink Workspace, this comes with a variety of benefits, including that it can now be updated via the Microsoft Store, it will now show up in the list when you press Alt + tab, you can set the window size to be your preference if you like multitasking, and it even supports multiple windows (and tabs, thanks to Sets!). 
+
+### Easy snipping is only a single step away. 
+
+One of the loudest things we heard is that you want to be able to quickly snip & share a screenshot, and we’re making it happen! WIN + Shift + S will now bring up a snipping toolbar – snip a rectangle, something a bit more freeform, or full screen and it will go straight to your clipboard. If that’s all you need, you can take it from there. Want more, though? Immediately after taking a snip you’ll now get a notification that will take you and your snip to the Screen Sketch app where you can annotate and share away!
+
+![alt text](images/screen-sketch2.png "screen sketch")
+
+But wait, there’s more! Is the WIN + Shift + S keyboard shortcut too long to remember? Guess what! We’ve added easy entry options for every input modality: 
+* <b>Just click the pen tail button</b>. If you have a pen, go into Pen & Windows Ink Settings – you’ll find Screen Snipping is now an option for single click. This will launch you directly into our snipping experience:
+
+![alt text](images/pensettingsinked.png "pen settings")
+
+* <b>Press Print Screen</b>. You heard it right, just one button! It’s not enabled by default – go to Keyboard Settings – you’ll see a new option that says “Use the Print Screen key to launch screen snipping”. Opening Settings and searching for “print screen” will take you to the right page.
+
+* <b>Press the quick action button in Action Center</b>. Called “Screen snip” – it should be there as soon as you upgrade, but if not you can always enable it via Notifications & Actions Settings.
+
+## Focus assist improvements when gaming 
+
+Now Focus assist will turn on automatically when you’re playing any full screen game. No more interruptions when you’re crushing it. This behavior should be turned on automatically, but you can always check by going to Settings > System > Focus assist and ensuring the “When I’m playing a game” automatic rule is enabled.
+
+![alt text](images/speakers2.png "sound settings")
 
 ## Start tile folder naming 
 
@@ -255,10 +302,15 @@ Notes:
 * We encourage you to try our download feature and assess our launch performance. Your feedback and suggestion are important to us as we continue to improve our products. You can click here to open Feedback Hub to give feedback on WDAG.
 * We’ve also made updates to Windows Defender System Guard. With Windows Defender System Guard, we are making a leap forward in platform security with memory integrity by default and bringing a born secure device promise to our user base. To learn more about these changes and talk with product team, see their post in the Windows Insider Technical Community.
 
-## Windows Defender Security Center gets a Fluent Design refresh
+
+## Windows Security Center gets a Fluent Design refresh
 We’ve heard your feedback and we’ve updated Windows Defender Security Center (WDSC) to include the Fluent Design elements you know and love. You’ll also notice we’ve adjusted the spacing and padding around the app and will now dynamically size the categories on the main page if more room is needed for extra info. Last but not least, we’ve also updated the title bar of the app so that it will now use your accent color if you’ve enabled that option in Color Settings – with Sets enabled, you will see this color in the WDSC tab.
 
-![alt text](images/defender.png "Windows Defender Security Center")
+![alt text](images/defender.png "Windows Security Center")
+
+##Windows Defender Security Center is now called Windows Security. 
+
+You can still get to the app in all the usual ways – simply ask Cortana to open Windows Security or interact with the taskbar icon. Windows Security lets you manage all your security needs, including Windows Defender Antivirus and Windows Defender Firewall. 
 
 ## Windows Defender Firewall now supports Windows Subsystem for Linux (WSL) processes 
 You can add specific rules for a WSL process in Windows Defender Firewall, just as you would for any Windows process. Also, Windows Defender Firewall now supports notifications for WSL processes. For example, when a Linux tool wants to allow access to a port from the outside (like SSH or a web server like nginx), the Windows Defender Firewall will prompt to allow access just like it would for a Windows process when the port starts accepting connections. This was first introduced in [Build 17627](https://docs.microsoft.com/en-us/windows/wsl/release-notes#build-17618-skip-ahead).
