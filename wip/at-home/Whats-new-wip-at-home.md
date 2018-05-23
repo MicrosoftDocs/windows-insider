@@ -34,7 +34,7 @@ Copy paste - it's something we all do, probably multiple times a day. But what d
 
 Not only can you can paste from the clipboard history, but you can also pin the items you find yourself using all the time. This history is roamed using the same technology which powers Timeline and Sets, which means you can access your clipboard across any PC with this build of Windows or higher.  
 
-Our new settings page for enabling this experience is under Settings > System > Clipboard - please try this out and share feedback! This link will open the Feedback Hub to where you can tell us about your experience and what you'd like to see next. 
+Our new settings page for enabling this experience is under Settings > System > Clipboard - please try this out and share feedback! [This link](feedback-hub:///) will open the Feedback Hub to where you can tell us about your experience and what you'd like to see next. 
 
 ![alt text](images/clipboardsettings.png "clipboard settings")
 
