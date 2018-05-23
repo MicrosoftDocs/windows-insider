@@ -19,7 +19,7 @@ The [Windows Insider Program](https://insider.windows.com/en-us/) lets you previ
 ## Acrylic in Task View 
 The entire task View background now has a soft blur effect.
 
-![alt text](images/taskviewacrylic.png "acrylic task view")
+![alt text](images/taskview-acrylic.png "acrylic task view")
 
 ## Bluetooth battery percentage in Settings
 
