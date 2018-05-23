@@ -85,6 +85,16 @@ Additionally, any application that uses [WIC](https://msdn.microsoft.com/en-us/l
 
 [Click here](https://aka.ms/photosfb) to open Feedback Hub and send us feedback on the HEIF experience with the Photos app and Windows 10.
 
+You can now rotate HEIF-format images in File Explorer, and edit metadata, such as "Date taken". 
+The new functionality requires the latest version of the HEIF package. The latest version will be installed automatically be the Store. If automatic updates are disabled you can download the HEIF package manually using [this link](https://aka.ms/HEIFpackage). 
+
+HEIF files use the HEVC video codec to compress the image into approximately half the size of JPEG. If your Windows PC does not already have the HEVC video codec, it can be purchased from the Windows Store using [this link](https://aka.ms/HEVCcodec). 
+
+To rotate a HEIF image file, simply right-click on it in File Explorer and select "Rotate right" or "Rotate left" from the menu. "Date taken" and other properties can be edited by clicking on "Properties" and selecting the "Details" tab.
+
+![alt text](images/heif2.png "HEIF in file explorer")
+
+
 ## Introducing extended line endings support for Notepad 
 Announced at Microsoft Build 2018, we’re excited to let you know that in addition to Windows line endings (CRLF), with today’s build Notepad now supports Unix/Linux line endings (LF) and Macintosh line endings (CR)! 
 
