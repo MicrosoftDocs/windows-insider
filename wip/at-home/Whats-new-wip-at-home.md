@@ -147,8 +147,8 @@ If your PC supports Mobile Broadband, i.e., your PC relies on cellular network f
 5. Ensure the status of the connection remains “Connected”.
 
 ![alt text](images/NetAdapterSteps_Pic1.png "Net adapter steps")
-![alt text](images/NetAdapterSteps_Pic2.png "Net adapter steps")
-![alt text](images/NetAdapterSteps_Pic3.png "Net adapter steps")
+![alt text](images/NetAdpaterSteps_Pic2.PNG "Net adapter steps")
+![alt text](images/NetAdapterSteps_Pic3.jpg "Net adapter steps")
 
 <b>Note</b>: Follow the instructions in Step 4 to revert to the default driver(xxxxx Mobile Broadband Adapter), in case of issues with Net Adapter driver(Generic Mobile Broadband Cx Net Adapter). 
 
