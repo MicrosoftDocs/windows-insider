@@ -223,7 +223,7 @@ Resume your project with more control – When restoring your projects you’ll 
 
 ![alt text](images/Win10Sets.png "Sets")
 
-<b>File Explorer & Sets Improvements</b>: We’ve heard your feedback – you’d like it to be easier to get two File Explorer windows grouped together, and we’re working on it. To start with, you no longer need to hold CTRL on the new tab page to launch a File Explorer window in a tab (this was a temporary necessity with the last wave). We’ve also added a new keyboard shortcut to open a new tab when a File Explorer window is in focus: Ctrl + T. Remember, you can use Ctrl + N to open a new window, and Ctrl + W to close the window/tab.
+<b>File Explorer & Sets Improvements</b>: We’ve heard your feedback – you’d like it to be easier to get two File Explorer windows grouped together. We  added a new keyboard shortcut to open a new tab when a File Explorer window is in focus: Ctrl + T. Remember, you can use Ctrl + N to open a new window, and Ctrl + W to close the window/tab.
 
 <b>New UI for opening new tabs and windows</b> in the File Menu.
 
@@ -344,7 +344,7 @@ We’ve heard your feedback and we’ve updated Windows Defender Security Center
 
 ![alt text](images/defender.png "Windows Security Center")
 
-##Windows Defender Security Center is now called Windows Security. 
+## Windows Defender Security Center is now called Windows Security. 
 
 You can still get to the app in all the usual ways – simply ask Cortana to open Windows Security or interact with the taskbar icon. Windows Security lets you manage all your security needs, including Windows Defender Antivirus and Windows Defender Firewall. 
 
