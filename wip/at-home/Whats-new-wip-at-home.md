@@ -61,9 +61,30 @@ Our new settings page for enabling this experience is under Settings > System > 
 * <b>Discover Bluetooth devices</b> – Try, “Show me how to discover devices”
 * <b>Check your version of Windows</b> – Try, “How do I find my current version of Windows”
 
-## Dark theme comes to File Explorer (and more!) 
+## Introducing extended line endings support for Notepad 
+Announced at Microsoft Build 2018, we’re excited to let you know that in addition to Windows line endings (CRLF), wNotepad now supports Unix/Linux line endings (LF) and Macintosh line endings (CR)! 
+
+![alt text](images/notepad.png "notepad")
+
+For more details, check out [Introducing extended line endings support in Notepad](https://aka.ms/notepadeol). ## Dark theme comes to File Explorer (and more!) 
 
 As many of you know, we added dark theme support to Windows based on your feedback. This setting is available under Settings > Personalization > Colors, and if you switch it any apps and system UI that support it will follow suit. Since releasing this feature, our top feedback request from you has been to update File Explorer to support dark theme. Along the way, we also added dark theme support to the File Explorer context menu, as well as the Common File Dialog (aka the Open and Save dialogs). Thanks again for everyone’s feedback! 
+
+## Microsoft Edge Improvements
+
+<b>New, clearer “Settings and more” (“…”) menu:</b> We’ve redesigned the “Settings and more” menu in Microsoft Edge so it’s easier to find the options you’re looking for. The menu options are now organized into groups, with icons for each entry, and keyboard shortcuts (where applicable). Click the “…” button in the top-right corner of Microsoft Edge to see what’s new! 
+
+![alt text](images/SettingsandMore.png "Edge menu options")
+
+<b>See your top sites in the Jump List:</b> You can now see your top sites in the Jump List on the Windows taskbar or Start Menu. Just right-click the Microsoft Edge icon to see a list of your most visited sites and pin the ones that matter most to you. Right-click on any entry to remove it from the list. 
+
+<b>Organize the tabs you’ve set aside:</b> It's easier to organize the groups of tabs you’ve set aside, so you can remember what’s in each group when come back to it later. Once you’ve set a group of tabs aside, choose the “Tabs you’ve set aside” icon (top left corner), and click on the label for any group to rename it.  
+
+![alt text](images/tabsaside.png "Tabs you've set aside")
+
+<b>Do more from the “Downloads” pane:</b> We’ve added options for “Show in folder” and “Copy link” to the right-click menu for downloads in the “Downloads” pane. 
+
+![alt text](images/downloads.png "Downloads pane")
 
 ## External GPU Safe Removal Experience
 
@@ -93,14 +114,6 @@ HEIF files use the HEVC video codec to compress the image into approximately hal
 To rotate a HEIF image file, simply right-click on it in File Explorer and select "Rotate right" or "Rotate left" from the menu. "Date taken" and other properties can be edited by clicking on "Properties" and selecting the "Details" tab.
 
 ![alt text](images/heic2.png "HEIF in file explorer")
-
-
-## Introducing extended line endings support for Notepad 
-Announced at Microsoft Build 2018, we’re excited to let you know that in addition to Windows line endings (CRLF), wNotepad now supports Unix/Linux line endings (LF) and Macintosh line endings (CR)! 
-
-![alt text](images/notepad.png "notepad")
-
-For more details, check out [Introducing extended line endings support in Notepad](https://aka.ms/notepadeol). 
 
 ## Input 
 
