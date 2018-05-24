@@ -155,11 +155,9 @@ We are adding support for IPv6 to KDNET. To make room for the larger headers req
 
 ## Mobile Broadband (LTE) connectivity on Windows gets a makeover
 
-Windows is transforming the networking stack after 20 years through the NetAdapter framework. This framework introduces a new, more reliable, network driver model that inherits the goodness of the Windows driver framework while bringing an accelerated data path. Interested in learning more? Please go here.
+Windows is transforming the networking stack after 20 years through the NetAdapter framework. This framework introduces a new, more reliable, network driver model that inherits the goodness of the Windows driver framework while bringing an accelerated data path. 
 
 The Mobile Broadband USB NetAdapter driver, a new and improved USB class driver based on the NetAdapter framework, is the default driver in Windows 10 RS5. To try this out – install on a PC that relies on mobile broadband for cellular connectivity and setup cellular connectivity and turn off Wi-fi. 
-
-Windows is transforming the networking stack after 20 years through the Net Adapter framework. This framework introduces a new, more reliable, network driver model that inherits the goodness of the Windows driver framework, while bringing an accelerated data path. 
 
 If your PC supports Mobile Broadband, i.e., your PC relies on cellular network for connectivity, and you want to try it out? Here is what you need to do:
 
