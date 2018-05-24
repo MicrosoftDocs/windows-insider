@@ -94,7 +94,9 @@ To safely remove an external graphics card, go to the “Safely Remove Hardware 
 
 ## Focus assist improvements when gaming 
 
-Now Focus assist will turn on automatically when you’re playing any full screen game. No more interruptions when you’re crushing it. This behavior should be turned on automatically, but you can always check by going to Settings > System > Focus assist and ensuring the “When I’m playing a game” automatic rule is enabled.
+Now Focus assist will turn on automatically when you’re playing any full screen game. No more interruptions when you’re crushing it. This behavior should be turned on automatically, but you can always check by going to Settings > System > Focus assist and ensuring the “When I’m playing a game” automatic rule is enabled. For more information, see [Windows 10 Tip: How to enable Focus Assist in the Windows 10 April 2018 Update](https://blogs.windows.com/windowsexperience/2018/05/09/windows-10-tip-how-to-enable-focus-assist-in-the-windows-10-april-2018-update/).
+
+![alt text](images/speakers2.png "sound settings")
 
 ## High Efficiency Image File Format (HEIF)
 
@@ -114,6 +116,16 @@ HEIF files use the HEVC video codec to compress the image into approximately hal
 To rotate a HEIF image file, simply right-click on it in File Explorer and select "Rotate right" or "Rotate left" from the menu. "Date taken" and other properties can be edited by clicking on "Properties" and selecting the "Details" tab.
 
 ![alt text](images/heic2.png "HEIF in file explorer")
+
+## Kernel Debugging Improvements 
+
+We are adding support for IPv6 to KDNET. To make room for the larger headers required for IPv6, we’re decreasing the payload size of packets. As a result, we’re declaring a new version of the protocol, so that host PCs running the latest version of the debugger can be used to debug target PCs that only support IPv4. An updated SDK and WDK will be released soon with this support. There is a version of WinDbg Preview available at [http://aka.ms/windbgpreview](http://aka.ms/windbgpreview) today. Follow the [Debugging Tools for Windows](http://aka.ms/windbgblog) blog for updates on KDNET IPv6 support and documentation in the future. 
+
+## Narrator Improvements 
+
+<b>Selection commands in Narrator Scan Mode:</b> Narrator’s scan mode now supports selecting content in Microsoft Edge, Word, Outlook, Mail and most text surfaces. Standard shift- selection commands can be used as well as Control + A for the entire document. Caps + Shift + Down Arrow will speak the current selection. For a full list of selection commands, you can refer to Narrator’s Show Commands List by pressing Caps+F1. Once content is selected you can copy it to the clipboard by pressing Control + C. Formatting information will also be retained. 
+
+
 
 ## Input 
 
@@ -141,7 +153,11 @@ To rotate a HEIF image file, simply right-click on it in File Explorer and selec
 
 ![alt text](images/imeemoji.png "ime emojis")
 
-## Mobile Broadband (LTE) connectivity on Windows gets a makeover 
+## Mobile Broadband (LTE) connectivity on Windows gets a makeover
+
+Windows is transforming the networking stack after 20 years through the NetAdapter framework. This framework introduces a new, more reliable, network driver model that inherits the goodness of the Windows driver framework while bringing an accelerated data path. Interested in learning more? Please go here.
+
+The Mobile Broadband USB NetAdapter driver, a new and improved USB class driver based on the NetAdapter framework, is the default driver in Windows 10 RS5. To try this out – install on a PC that relies on mobile broadband for cellular connectivity and setup cellular connectivity and turn off Wi-fi. 
 
 Windows is transforming the networking stack after 20 years through the Net Adapter framework. This framework introduces a new, more reliable, network driver model that inherits the goodness of the Windows driver framework, while bringing an accelerated data path. 
 
@@ -294,17 +310,17 @@ But wait, there’s more! Is the WIN + Shift + S keyboard shortcut too long to r
 
 * <b>Press the quick action button in Action Center</b>. Called “Screen snip” – it should be there as soon as you upgrade, but if not you can always enable it via Notifications & Actions Settings.
 
-## Focus assist improvements when gaming 
 
-Now Focus assist will turn on automatically when you’re playing any full screen game. No more interruptions when you’re crushing it. This behavior should be turned on automatically, but you can always check by going to Settings > System > Focus assist and ensuring the “When I’m playing a game” automatic rule is enabled. For more information, see [Windows 10 Tip: How to enable Focus Assist in the Windows 10 April 2018 Update](https://blogs.windows.com/windowsexperience/2018/05/09/windows-10-tip-how-to-enable-focus-assist-in-the-windows-10-april-2018-update/).
-
-![alt text](images/speakers2.png "sound settings")
 
 ## Start tile folder naming 
 
 To create a tile folder in Start, just drag one tile on top of another for a second then release. Continue dropping as many tiles into the folder as you’d like. When you expand the folder, you’ll see a new option to name it. The name will be visible when the folder is medium, wide, or large-sized. 
 
 ![alt text](images/namedfolder_optionalgif.png "folder naming in Start")
+
+## Task Manager Memory Reporting Improvements
+In Windows 10 code name RS5, the main memory column in Task Manager “Processes” tab do not include memory used by suspended UWP processes. This more accurately reflects the OS behavior in which the OS can reclaim memory used by suspended UWP processes if needed. This means that if you have several UWP processes suspended in the background, the OS can take back memory from these suspended UWP processes if needed and use it for something that requires more memory. New and old memory columns will be available in “Details” tab for you to do comparisons. 
+
 
 ## Windows App Permissions 
 
