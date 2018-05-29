@@ -88,13 +88,19 @@ Storage Spaces Direct uses industry-standard servers with local-attached drives 
 
 ### Performance history for Storage Spaces Direct
 
-The Get-ClusterPerformanceHistory cmdlet is more scripting-friendly. It’s now convenient to pipe performance history into utility cmdlets like Sort-Object, Where-Object, and Measure-Object so you can quickly find the average or peak value, filter values, plot trend lines, run outlier detection, and more. You can see examples with these cmdlets in the topics linked under "Insider Preview content" on [aka.ms/StorageSpacesDirect](https://docs.microsoft.com/en-us/windows-server/storage/storage-spaces/storage-spaces-direct-overview.
+* The Get-ClusterPerf cmdlet includes self-diagnosis logic: if the cmdlet finds nothing to report, it looks for common issues that would prevent performance history from working properly (for example, if its storage is missing) so that the cmdlet can provide clear error text.
 
-Performance history for the Storage Spaces Direct cache for reads (% hit rate) and writes (% full), as well as the CSV in-memory read cache (% hit rate), is now available. These new series are available per-server and in aggregate.
+* New cmdlets, Start-ClusterPerformanceHistory and Stop-ClusterPerformanceHistory, that are provided in this build make it easy to remediate such issues by cleaning up and/or re-provisioning performance history.
 
-Some performance history series have changed names for greater clarity and consistency—for example, Node.Cpu.Usage is now ClusterNode.Cpu.Usage. Note that this change will result in some blank charts in Windows Admin Center until its next update.
+* New series records how much Storage Spaces Direct data needs to repair/resync per server. 
 
-Administrators of [Storage Spaces
+* The Get-ClusterPerformanceHistory cmdlet is more scripting-friendly. It’s now convenient to pipe performance history into utility cmdlets like Sort-Object, Where-Object, and Measure-Object so you can quickly find the average or peak value, filter values, plot trend lines, run outlier detection, and more. You can see examples with these cmdlets in the topics linked under "Insider Preview content" on [aka.ms/StorageSpacesDirect](https://docs.microsoft.com/en-us/windows-server/storage/storage-spaces/storage-spaces-direct-overview.
+
+* Performance history for the Storage Spaces Direct cache for reads (% hit rate) and writes (% full), as well as the CSV in-memory read cache (% hit rate), is now available. These new series are available per-server and in aggregate.
+
+* Some performance history series have changed names for greater clarity and consistency—for example, Node.Cpu.Usage is now ClusterNode.Cpu.Usage. Note that this change will result in some blank charts in Windows Admin Center until its next update.
+
+* Administrators of [Storage Spaces
 Direct](https://docs.microsoft.com/windows-server/storage/storage-spaces/storage-spaces-direct-overview)
 can now get easy access to historical performance and capacity data from
 their cluster. *Did CPU usage spike last night? When did this drive
@@ -103,7 +109,7 @@ network activity trending up or down? The cluster is pushing 1,000,000
 IOPS – is that my new record?* Previously, you'd need external tooling
 to answer these questions. No more!
 
-Beautiful new charts in [Project
+* Beautiful new charts in [Project
 Honolulu](https://docs.microsoft.com/en-us/windows-server/manage/honolulu/honolulu-manage-hci)
 (and new PowerShell cmdlets, for those so inclined) empower you to
 answer these questions. There's nothing to install, configure, or
