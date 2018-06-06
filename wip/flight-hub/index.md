@@ -61,7 +61,7 @@ Window 10 version 1803 was released to the world on April 30, 2018. Windows Insi
 | 17101 | [2/14/2018](https://blogs.windows.com/windowsexperience/2018/02/14/announcing-windows-10-insider-preview-build-17101-fast-build-17604-skip-ahead/) |
 | 17905 | | | | | |[2/13/2018](https://blogs.windows.com/buildingapps/2018/02/13/windows-10-sdk-preview-build-17095-now-available/) |
 | 17093 | [2/07/2018](https://blogs.windows.com/windowsexperience/2018/02/07/announcing-windows-10-insider-preview-build-17093-pc/) | |[<b>2/13/2018</b>](https://blogs.windows.com/windowsexperience/2018/02/13/announcing-windows-server-insider-preview-build-17093-project-honolulu-technical-preview-1802/) | 
-| 17083| [1/24/2018](https://blogs.windows.com/windowsexperience/2018/01/24/announcing-windows-10-insider-preview-build-17083-for-pc/) | | 1/31/2018| | | [<b>1/31/2018</b>](https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewSDK)|
+| 17083| [1/24/2018](https://blogs.windows.com/windowsexperience/2018/01/24/announcing-windows-10-insider-preview-build-17083-for-pc/) | | 1/31/2018| [2/02/2018](https://docs.microsoft.com/en-us/windows/iot-core/release-notes/insider/17083) | | [<b>1/31/2018</b>](https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewSDK)|
 | 17079 | | | [1/23/2018](https://blogs.windows.com/windowsexperience/2018/01/23/announcing-windows-server-insider-preview-build-17079/)|
 | 17074.1002 | [1/18/2018](https://blogs.windows.com/windowsexperience/2018/01/11/announcing-windows-10-insider-preview-build-17074-pc/#s32iZObXeU224sD5.97) | 1/19/2018 | 
 | 17074 | [1/11/2018](https://blogs.windows.com/windowsexperience/2018/01/11/announcing-windows-10-insider-preview-build-17074-pc/#s32iZObXeU224sD5.97) |
