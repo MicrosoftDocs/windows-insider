@@ -26,7 +26,8 @@ The items in <b>bold</b> typeface are the latest release for that version of the
 
 | Build | Fast | Slow | Server | IoT | ISO | SDK |
 |-------|------|------|--------|-----|-----|-----|
-| 17682 | [<b>5/31/2018</b>](https://aka.ms/hulkbuster)|||||[<b>6/05/2018</b>](https://blogs.windows.com/buildingapps/2018/06/05/windows-10-sdk-preview-build-17682-available-now/)
+| 17686 | [<b>6/06/2018</b>](https://aka.ms/jumanji)
+| 17682 | [5/31/2018](https://aka.ms/hulkbuster)|||||[<b>6/05/2018</b>](https://blogs.windows.com/buildingapps/2018/06/05/windows-10-sdk-preview-build-17682-available-now/)
 | 17677 | [5/24/2018](https://aka.ms/we-are-groot) | | [<b>5/29/2018</b>](https://aka.ms/wipserver17677)| | | [5/29/2018](https://blogs.windows.com/buildingapps/2018/05/29/windows-10-sdk-preview-build-17677-available-now/)
 | 17672 | [5/16/2018](https://blogs.windows.com/windowsexperience/2018/05/16/announcing-windows-10-insider-preview-build-17672/) | | | | | [5/22/2018](https://blogs.windows.com/buildingapps/2018/05/22/windows-10-sdk-preview-build-17672-available-now/)
 | 17666 | [5/09/2018](https://blogs.windows.com/windowsexperience/2018/05/09/announcing-windows-10-insider-preview-build-17666/)| | [5/15/2018](https://blogs.windows.com/windowsexperience/2018/05/15/announcing-windows-server-2019-insider-preview-build-17666/) | | | [5/15/2018](https://blogs.windows.com/buildingapps/2018/05/15/windows-10-sdk-preview-build-17666-now-available/)
