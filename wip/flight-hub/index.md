@@ -74,7 +74,7 @@ Window 10 version 1803 was released to the world on April 30, 2018. Windows Insi
 | 17035| [11/08/2017](https://blogs.windows.com/windowsexperience/2017/11/08/announcing-windows-10-insider-preview-build-17035-pc/)| | [11/15/2017](https://blogs.windows.com/windowsexperience/2017/11/15/announcing-windows-server-insider-preview-build-17035/)| 11/15/2017| | [11/15/2017](https://blogs.windows.com/buildingapps/2017/11/15/windows-10-sdk-preview-build-17035-now-available/)|
 | 17025 | [10/25/2017](https://blogs.windows.com/windowsexperience/2017/10/25/announcing-windows-10-insider-preview-build-17025-pc/)| 11/01/2017| | |11/15/2017 | [11/1/2017](https://blogs.windows.com/buildingapps/2017/11/01/windows-10-sdk-preview-build-17025/)|
 | 17017 | [10/13/2017](https://blogs.windows.com/windowsexperience/2017/10/13/announcing-windows-10-insider-preview-build-17017-pc/)|
-| 17015 | | | | [<b>10/31/2017</b>](https://docs.microsoft.com/en-us/windows/iot-core/release-notes/insider/17015)
+| 17015 | | | | [10/31/2017](https://docs.microsoft.com/en-us/windows/iot-core/release-notes/insider/17015)
 | 17004|[9/27/2017*](https://blogs.windows.com/windowsexperience/2017/09/27/announcing-windows-10-insider-preview-build-17004-pc-skip-ahead/) |
 | 16362|[9/13/2017*](https://blogs.windows.com/windowsexperience/2017/09/13/announcing-windows-10-insider-preview-build-16362-pc-skip-ahead/) |
 | 16353|[8/31/2017*](https://blogs.windows.com/windowsexperience/2017/08/31/announcing-windows-10-insider-preview-build-16353-pc-skip-ahead/) |
