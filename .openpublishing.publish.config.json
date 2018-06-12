@@ -1,4 +1,5 @@
-{"build_entry_point": "op",
+{
+  "build_entry_point": "op",
   "docsets_to_publish": [
     {
       "docset_name": "wip",
@@ -17,8 +18,13 @@
       "template_folder": "_themes"
     }
   ],
-  "notification_subscribers": [],
+  "notification_subscribers": [
+    "dawnwood@microsoft.com"
+  ],
+  "sync_notification_subscribers": [],
   "branches_to_filter": [],
+  "git_repository_url_open_to_public_contributors": "https://github.com/Microsoft/windows-insider",
+  "git_repository_branch_open_to_public_contributors": "https://cpubwin.visualstudio.com/windows-insider",
   "skip_source_output_uploading": false,
   "need_preview_pull_request": true,
   "contribution_branch_mappings": {},
@@ -47,9 +53,5 @@
     ]
   },
   "need_generate_pdf_url_template": true,
-  "targets": {
-    "pdf": {
-      "template_folder": "_themes.pdf"
-    }
-  }
+  "targets": {}
 }
