@@ -70,11 +70,6 @@ Company A purchases Company B and must move all servers to Company A's domain
 Main office builds a cluster and ships it to another location 
 We have added two new PowerShell commandlets to quickly take you from one domain to another without the need to destroy it.  For more information about this new capability, see [How to Switch a Failover Cluster to a New Domain](https://blogs.msdn.microsoft.com/clustering/2018/01/09/how-to-switch-a-failover-cluster-to-a-new-domain/) in Server & Management blogs. 
 
-## Microsoft Hyper-V 2019 Preview
-This is the first Insider Preview of Microsoft Hyper-V 2019. Microsoft Hyper-V Server is a stand-alone product that contains only the Windows hypervisor, a Windows Server driver model, and virtualization components. It provides a simple and reliable virtualization solution to help you improve your server utilization and reduce costs.
-
-The Windows hypervisor technology in Microsoft Hyper-V Server is the same as what's in the Hyper-V role on Windows Server. So, much of the content available for the Hyper-V role on Windows Server 2016 also applies to Microsoft Hyper-V Server.
-
 ## In place upgrades
 
 In-place upgrade allows an administrator to upgrade an existing installation of Windows Server to a newer version, retaining settings and installed features. The LTSC versions and editions of Windows Server that are supported for in-place upgrade are shown in the following table.
@@ -88,41 +83,10 @@ In-place upgrade allows an administrator to upgrade an existing installation of 
 |Windows Server 2012 R2 Standard| Windows Server 2019 Standard or Datacenter|
 |Windows Server 2012 R2 Datacenter | Windows Server 2019 Datacenter|
 
-## Storage Spaces Direct
-Storage Spaces Direct uses industry-standard servers with local-attached drives to create highly available, highly scalable software-defined storage at a fraction of the cost of traditional SAN or NAS arrays. Its converged or hyper-converged architecture radically simplifies procurement and deployment, while features such as caching, storage tiers, and erasure coding, together with the latest hardware innovations such as RDMA networking and NVMe drives, deliver unrivaled efficiency and performance. 
+## Microsoft Hyper-V 2019 Preview
+This is the first Insider Preview of Microsoft Hyper-V 2019. Microsoft Hyper-V Server is a stand-alone product that contains only the Windows hypervisor, a Windows Server driver model, and virtualization components. It provides a simple and reliable virtualization solution to help you improve your server utilization and reduce costs.
 
-### Performance history for Storage Spaces Direct
-
-* The Get-ClusterPerf cmdlet includes self-diagnosis logic: if the cmdlet finds nothing to report, it looks for common issues that would prevent performance history from working properly (for example, if its storage is missing) so that the cmdlet can provide clear error text.
-
-* New cmdlets, Start-ClusterPerformanceHistory and Stop-ClusterPerformanceHistory, that are provided in this build make it easy to remediate such issues by cleaning up and/or re-provisioning performance history.
-
-* New series records how much Storage Spaces Direct data needs to repair/resync per server. 
-
-* The Get-ClusterPerformanceHistory cmdlet is more scripting-friendly. It’s now convenient to pipe performance history into utility cmdlets like Sort-Object, Where-Object, and Measure-Object so you can quickly find the average or peak value, filter values, plot trend lines, run outlier detection, and more. You can see examples with these cmdlets in the topics linked under "Insider Preview content" on [aka.ms/StorageSpacesDirect](https://docs.microsoft.com/en-us/windows-server/storage/storage-spaces/storage-spaces-direct-overview.
-
-* Performance history for the Storage Spaces Direct cache for reads (% hit rate) and writes (% full), as well as the CSV in-memory read cache (% hit rate), is now available. These new series are available per-server and in aggregate.
-
-* Some performance history series have changed names for greater clarity and consistency—for example, Node.Cpu.Usage is now ClusterNode.Cpu.Usage. Note that this change will result in some blank charts in Windows Admin Center until its next update.
-
-* Administrators of [Storage Spaces
-Direct](https://docs.microsoft.com/windows-server/storage/storage-spaces/storage-spaces-direct-overview)
-can now get easy access to historical performance and capacity data from
-their cluster. *Did CPU usage spike last night? When did this drive
-become slow? Which virtual machine used the most memory last month? Is
-network activity trending up or down? The cluster is pushing 1,000,000
-IOPS – is that my new record?* Previously, you'd need external tooling
-to answer these questions. No more!
-
-* Beautiful new charts in [Project
-Honolulu](https://docs.microsoft.com/en-us/windows-server/manage/honolulu/honolulu-manage-hci)
-(and new PowerShell cmdlets, for those so inclined) empower you to
-answer these questions. There's nothing to install, configure, or
-start—it's built-in and always-on. Learn more at
-<https://aka.ms/clusterperformancehistory>.
-
-![alt text](images/Hyper-Converged-in-Honolulu.png "New charts in Project Honolulu, powered by built-in cluster
-performance history.")
+The Windows hypervisor technology in Microsoft Hyper-V Server is the same as what's in the Hyper-V role on Windows Server. So, much of the content available for the Hyper-V role on Windows Server 2016 also applies to Microsoft Hyper-V Server.
 
 ## Remote Desktop Session Host (RDSH)
 
@@ -165,6 +129,42 @@ The following installation procedure uses Deployment Image Servicing and Managem
 8. Enter exit to exit PowerShell.  
 9. Enter the following command: DISM /Online /Add-Capability /CapabilityName:"ServerCore.AppCompatibility~~~~0.0.1.0" /Source:drive_letter_of_mounted_ISO: /LimitAccess
 10. After the progress bar completes, restart the operating system at the prompt.
+
+## Storage Spaces Direct
+Storage Spaces Direct uses industry-standard servers with local-attached drives to create highly available, highly scalable software-defined storage at a fraction of the cost of traditional SAN or NAS arrays. Its converged or hyper-converged architecture radically simplifies procurement and deployment, while features such as caching, storage tiers, and erasure coding, together with the latest hardware innovations such as RDMA networking and NVMe drives, deliver unrivaled efficiency and performance. 
+
+### Performance history for Storage Spaces Direct
+
+* The Get-ClusterPerf cmdlet includes self-diagnosis logic: if the cmdlet finds nothing to report, it looks for common issues that would prevent performance history from working properly (for example, if its storage is missing) so that the cmdlet can provide clear error text.
+
+* New cmdlets, Start-ClusterPerformanceHistory and Stop-ClusterPerformanceHistory, that are provided in this build make it easy to remediate such issues by cleaning up and/or re-provisioning performance history.
+
+* New series records how much Storage Spaces Direct data needs to repair/resync per server. 
+
+* The Get-ClusterPerformanceHistory cmdlet is more scripting-friendly. It’s now convenient to pipe performance history into utility cmdlets like Sort-Object, Where-Object, and Measure-Object so you can quickly find the average or peak value, filter values, plot trend lines, run outlier detection, and more. You can see examples with these cmdlets in the topics linked under "Insider Preview content" on [aka.ms/StorageSpacesDirect](https://docs.microsoft.com/en-us/windows-server/storage/storage-spaces/storage-spaces-direct-overview.
+
+* Performance history for the Storage Spaces Direct cache for reads (% hit rate) and writes (% full), as well as the CSV in-memory read cache (% hit rate), is now available. These new series are available per-server and in aggregate.
+
+* Some performance history series have changed names for greater clarity and consistency—for example, Node.Cpu.Usage is now ClusterNode.Cpu.Usage. Note that this change will result in some blank charts in Windows Admin Center until its next update.
+
+* Administrators of [Storage Spaces
+Direct](https://docs.microsoft.com/windows-server/storage/storage-spaces/storage-spaces-direct-overview)
+can now get easy access to historical performance and capacity data from
+their cluster. *Did CPU usage spike last night? When did this drive
+become slow? Which virtual machine used the most memory last month? Is
+network activity trending up or down? The cluster is pushing 1,000,000
+IOPS – is that my new record?* Previously, you'd need external tooling
+to answer these questions. No more!
+
+* Beautiful new charts in [Project
+Honolulu](https://docs.microsoft.com/en-us/windows-server/manage/honolulu/honolulu-manage-hci)
+(and new PowerShell cmdlets, for those so inclined) empower you to
+answer these questions. There's nothing to install, configure, or
+start—it's built-in and always-on. Learn more at
+<https://aka.ms/clusterperformancehistory>.
+
+![alt text](images/Hyper-Converged-in-Honolulu.png "New charts in Project Honolulu, powered by built-in cluster
+performance history.")
 
 ## Storage Migration Service
 
