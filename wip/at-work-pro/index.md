@@ -30,7 +30,7 @@ WIP for Business helps you deploy the Windows Insider Program in your enterprise
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>What's New</h3>
+                        <h2>What's New</h2>
                 <p>Find out more about the new features in Windows 10 Insider Program for Business Previews.</p>
                     </div>
                 </div>
@@ -49,7 +49,7 @@ WIP for Business helps you deploy the Windows Insider Program in your enterprise
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Get Started</h3>
+                        <h2>Get Started</h2>
                 <p>Start here to complete the initial tasks to get set up with the Windows 10 Insider Program for Business.</p>
                     </div>
                 </div>
