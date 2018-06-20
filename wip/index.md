@@ -32,7 +32,7 @@ description: The Windows Insider Program lets you get preview builds of Windows 
                                             </div>
                                         </div>
                                         <div class="cardText">
-                                            <h3>Windows Insider Program</h3>
+                                            <h2>Windows Insider Program</h2>
                                             <p>If you have a personal Windows 10 device and want to participate in the program, these docs are for you.</p>
                                         </div>
                                     </div>
@@ -51,7 +51,7 @@ description: The Windows Insider Program lets you get preview builds of Windows 
                                             </div>
                                         </div>
                                         <div class="cardText">
-                                            <h3>Windows Insider Program for Business</h3>
+                                            <h2>Windows Insider Program for Business</h2>
                                             <p>If you have a Windows 10 device that you use at work, and you want to participate in the program; or if you are an admin with workers participating in the Windows Insider Program, these docs are for you.</p>
                                         </div>
                                     </div>
@@ -70,7 +70,7 @@ description: The Windows Insider Program lets you get preview builds of Windows 
                                             </div>
                                         </div>
                                         <div class="cardText">
-                                            <h3>Windows Insider Program for Server</h3>
+                                            <h2>Windows Insider Program for Server</h2>
                                             <p>If you are a system administrator and want to test the preview builds for Windows Server 2019, these docs are for you.</p>
                                         </div>
                                     </div>
@@ -90,7 +90,7 @@ description: The Windows Insider Program lets you get preview builds of Windows 
                                             </div>
                                         </div>
                                         <div class="cardText">
-                                            <h3>Flight Hub</h3>
+                                            <h2>Flight Hub</h2>
                                             <p>Want to see the status of a flight? Check out our Flight Hub.</p>
                                         </div>
                                     </div>
@@ -112,7 +112,7 @@ description: The Windows Insider Program lets you get preview builds of Windows 
                                             </div>
                                         </div>
                                         <div class="cardText">
-                                            <h3>Feedback?</h3>
+                                            <h2>Feedback?</h2>
                                             <p>Use the Feedback Hub to submit your feedback to Microsoft.</p>
                                         </div>
                                     </div>
