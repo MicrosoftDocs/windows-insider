@@ -73,7 +73,7 @@ WIP for Business helps you deploy the Windows Insider Program in your enterprise
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Got Feedback?</h3>
+                        <h2>Got Feedback?</h2>
                 <p>Use the Feedback Hub App to submit your feedback to Microsoft.</p>
                     </div>
                 </div>
