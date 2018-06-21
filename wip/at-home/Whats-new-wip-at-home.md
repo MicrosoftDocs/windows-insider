@@ -16,10 +16,25 @@ ms.author: dawn.wood
 #  What's new in the Windows 10 Insider Preview Builds (RS5)
 The [Windows Insider Program](https://insider.windows.com/en-us/) lets you preview builds of the upcoming release of Windows 10. This topic lists all new Windows 10 features for you to try. Unlike the [Windows Insider Program Blog](https://blogs.windows.com/windowsexperience/tag/windows-insider-program), this topic is organized by feature instead of by the build number so that you can see all items about a specific feature listed together. 
 
-## Acrylic in Task View 
+## Acrylic Improvements
+
+### Acrylic in Task View 
 The entire task View background now has a soft blur effect.
 
 ![alt text](images/taskview-acrylic.png "acrylic task view")
+
+### Acrylic comes to menus and more!
+Our Acrylic material is being used by default in light-dismiss XAML controls and on transient XAML surfaces like flyouts. The new Acrylic material is now applied to:
+* Context menus
+* Flyouts
+* Auto-suggest drop down list boxes
+* combo box drop down list boxes
+* date and time picker flyouts
+* media transport control flyouts and overflows
+
+You will notice new acrylic backgrounds in places on the system using these controls – for example when you right-click open apps in Task View. Apps using the SDK for this build or higher will see this change by default as well.
+
+![alt text](images/acrylic.png "acrylic settings")
 
 ## Bluetooth battery percentage in Settings
 
@@ -119,6 +134,9 @@ Now Focus assist will turn on automatically when you’re playing any full scree
 
 ![alt text](images/New-Game-bar.png "game bar")
 
+## Game mode improvements
+New options are now available for Game Mode that are expected to improve the gaming experience on desktop PCs.  Gamers on PCs with many background processes may also see performance improvements when they toggle “Dedicate resources” in Game bar.
+
 ## High Efficiency Image File Format (HEIF)
 The <b>High Efficiency Image File Format (HEIF)</b> is supported in Windows 10 and the Photos app. [HEIF is an image container](https://en.wikipedia.org/wiki/High_Efficiency_Image_File_Format) that leverages modern codecs like HEVC to improve quality, compression, and capabilities compared to earlier formats like JPEG, GIF, and PNG. In addition to traditional single images, HEIF supports encoding image sequences, image collections, auxiliary images like alpha or depth maps, live images & video, audio, and HDR for greater contrast. We have heard your feedback that these features and the ability to share photos easily with other platforms is important to you. 
 
@@ -178,6 +196,9 @@ We would love to hear what you think as you try out these improvements. This [li
 
 ![alt text](images/imeemoji.png "ime emojis")
 
+## Windows mixed reality improvements
+You can stream audio to both the headset and the PC speakers simultaneously. To try it out make sure that you can hear sound from your normal PC speakers when not running the Mixed Reality Portal (MRP) and from the headset’s audio jack or built-in headphones when mixed reality is running. Then close all apps, including MRP, and go to Settings > Mixed reality > Audio and speech to turn on “When Mixed Reality Portal is running, mirror headset audio to desktop.” You should now hear audio from both the headset and PC speakers when running mixed reality.
+
 ## Mobile Broadband (LTE) connectivity on Windows gets a makeover
 
 Windows is transforming the networking stack after 20 years through the NetAdapter framework. This framework introduces a new, more reliable, network driver model that inherits the goodness of the Windows driver framework while bringing an accelerated data path. 
@@ -211,7 +232,9 @@ To report issues and give feedback, use Feedback Hub on your PC and set Category
 
 <b>Changes to the set up experience for privacy settings</b> This new design conveys focused information to help our customers make focused choices about their privacy and offers two new settings for Inking & Typing and Find my device.
 
-## Search in Calendar
+## Search improvements
+
+### Search in Calendar
 
 Now you can find past or future events by searching for the name, location, people included or words in the event body. Events that match your search will be clearly visible on your calendar, while those that don’t will be greyed-out so you can find what you need quickly.
 
@@ -219,7 +242,7 @@ Now you can find past or future events by searching for the name, location, peop
 
 Search will work for Outlook, Hotmail, Live and Office 365 accounts. We do not yet support searching Exchange Server, Gmail, Yahoo or other IMAP calendars.
 
-## Search preview
+### Search preview
 We have expanded previews to support apps, documents, and more. Search previews are here to help you: 
 * Get back to what you were doing, such as a recent Word doc or Remote Desktop session 
 * Jump-start your task, be it a new Outlook meeting, a quick comment in OneNote, or changing a setting 
@@ -229,6 +252,10 @@ We have expanded previews to support apps, documents, and more. Search previews 
 We made the Search experience wider so you can access information and actions in the preview faster than ever. 
 
 ![alt text](images/notepad-bing-search.png "notepad bing search")
+
+<b>Find software downloads faster in Search!</b>: Continuing our theme of improving the search preview experience, we’re rolling out an update to make it easier to find official download pages for Windows software you want to install. The team is continuing to develop this experience and more is coming. 
+
+![alt text](images/search.png "GitHub search example")
 
 ## Settings
 
