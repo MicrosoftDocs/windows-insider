@@ -243,6 +243,11 @@ To report issues and give feedback, use Feedback Hub on your PC and set Category
 
 ![alt text](images/imeemoji.png "ime emojis")
 
+## Post-upgrade setup
+You may see this window showing after you upgrade. Don’t worry – all your stuff is still there! We know some of you bought and setup your devices a long time ago – the features available in Windows have changed since then, so we’re giving you an opportunity to go through the setup questions you may have missed to ensure your device has the best setup possible. Click “Let’s Go” to go through those setup questions or click “Skip for now” if you want to go straight to your desktop. The conditions for showing this page are cloud programmable and may change over time.
+
+![alt text](images/SCOOBE-Intro.png "oobe")
+
 ## Privacy improvements
 We wanted to let you know that if access to the microphone has been disabled in your privacy settings, we’ll now pop a notification the first time an attempt to use the microphone is blocked so you can review the settings if desired.
 
