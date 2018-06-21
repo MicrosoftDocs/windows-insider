@@ -32,12 +32,12 @@ Our Acrylic material is being used by default in light-dismiss XAML controls and
 * date and time picker flyouts
 * media transport control flyouts and overflows
 
-You will notice new acrylic backgrounds in places on the system using these controls – for example when you right-click open apps in Task View. Apps using the SDK for this build or higher will see this change by default as well.
+You will notice new acrylic backgrounds in places on the system using these controls – for example when you right-click open apps in Task View. Apps using the SDK for Windows 10, 1809 or higher will see this change by default as well.
 
 ![alt text](images/acrylic.png "acrylic settings")
 
 ## Bluetooth battery percentage in Settings
-In Bluetooth & other devices Settings, you can now check the battery level of your Bluetooth devices. For Bluetooth devices that support this feature, the battery percentage will update whenever your PC and the device are connected.
+In the <b>Bluetooth & other devices</b> page in Settings, you can check the battery level of your Bluetooth devices for Bluetooth devices that support this feature, in which case the battery percentage will update whenever your PC and the device are connected.
 
 ![alt text](images/bluetoothbattery.png "bluetooth battery")
 
