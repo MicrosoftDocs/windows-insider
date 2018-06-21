@@ -106,6 +106,11 @@ To install WebDriver, just turn on Developer Mode in Windows 10 Settings, or ins
 
 We’ve also updated WebDriver to match the latest [W3C Recommendation spec](https://www.w3.org/TR/webdriver/) with major new improvements. You can learn all about these changes on the [Microsoft Edge Dev Blog](https://www.w3.org/TR/webdriver/).
 
+### Web Authentication preview
+Microsoft Edge now includes unprefixed support for the new Web Authentication API (a.k.a. WebAuthN). This evolves our previous support for the WebAuthN specification to enable the updated version of the API by default.
+
+Web Authentication provides an open, scalable, and interoperable solution to facilitate authentication, which replaces passwords with stronger hardware-bound credentials. The implementation in Microsoft Edge allows users to use Windows Hello (via PIN or biometrics) and external authenticators like FIDO2 Security Keys or FIDO U2F Security Keys, to securely authenticate to websites. 
+
 ## Ease of access improvements
 <b>Make Text Bigger</b>: We’ve heard your feedback and are excited to announce that the ability to increase text size across the system is back and better than ever! When you go to Settings > Ease of Access > Display in today’s build, you’ll find a new setting called “Make everything bigger” – this slider will adjust text across the system, win32 apps, and UWP apps.
 
@@ -117,8 +122,6 @@ That means you can now make text bigger in Start menu, File Explorer, Settings, 
 We added a safe removal experience for external GPUs connected via Thunderbolt 3. The safe remove experience allows you to know which applications are running on an external GPU so that you can safely remove to prevent data loss during detach.
 
 To safely remove an external graphics card, go to the “Safely Remove Hardware and Eject Media” icon and click to eject your GPU. If there are applications running on your external GPU, then a dialog will appear with the applications that are currently running. Close the applications to safely remove the device. If there are no applications currently running on your external graphics device then no dialog will appear and you can safely detach your external GPU.
-
-
 
 ## Focus assist improvements when gaming 
 Now Focus assist will turn on automatically when you’re playing any full screen game. No more interruptions when you’re crushing it. This behavior should be turned on automatically, but you can always check by going to Settings > System > Focus assist and ensuring the “When I’m playing a game” automatic rule is enabled. For more information, see [Windows 10 Tip: How to enable Focus Assist in the Windows 10 April 2018 Update](https://blogs.windows.com/windowsexperience/2018/05/09/windows-10-tip-how-to-enable-focus-assist-in-the-windows-10-april-2018-update/).
@@ -249,6 +252,11 @@ We wanted to let you know that if access to the microphone has been disabled in 
 
 <b>Changes to the set up experience for privacy settings</b> This new design conveys focused information to help our customers make focused choices about their privacy and offers two new settings for Inking & Typing and Find my device.
 
+## RSAT is now available on demand!
+What does that mean? You no longer have to manually download RSAT every time you upgrade! Just go to “Manage optional features” in Settings (the fastest way there is to search for that) and click “Add a feature” – you’ll now see all of the RSAT components listed. Pick the ones you want, and the next time you upgrade Windows will automatically ensure all those components persist the upgrade (just like any of our other on-demand features, like speech resources or OpenSSH). Thanks to everyone who logged feedback asking for this! We’d love for you to try this out on today’s build and [let us know what you think](http://aka.ms/rsatfeedback).
+
+![alt text](images/rsat.png "RSAT")
+
 ## Search improvements
 
 ### Search in Calendar
@@ -355,6 +363,8 @@ Resume your project with more control – When restoring your projects you’ll 
 
 We’ve heard your feedback and have been hard at work updating the new tab page to make it more obvious you can launch apps. When you click the plus button in a Sets window, you will now see apps included in your frequent destinations list. You’ll also find that we’ve integrated the all apps list into this page so you can browse your apps, rather than just using the search box – apps that support Sets will launch into a tab when clicked. If you have News Feed selected, simply click the “Apps” link next to “News Feed” to switch to the all apps list.
 
+![alt text](images/ntpnew.png "apps in a sets window")
+
 ## A modern snipping experience 
 The new modern snipping experience is here to help you effortlessly capture and annotate what you see on your screen. While working on this we’ve been carefully going over all your feedback about taking screenshots in Windows - you’ll find the flow and tools are optimized for sharing and make communicating visually with others quick and easy.
 
@@ -442,6 +452,13 @@ Notes:
 * We encourage you to try our download feature and assess our launch performance. Your feedback and suggestion are important to us as we continue to improve our products. You can click here to open Feedback Hub to give feedback on WDAG.
 * We’ve also made updates to Windows Defender System Guard. With Windows Defender System Guard, we are making a leap forward in platform security with memory integrity by default and bringing a born secure device promise to our user base. To learn more about these changes and talk with product team, see their post in the Windows Insider Technical Community.
 
+## Wireless projection experience
+One of the things we’ve heard from you is that it’s hard to know when you’re wirelessly projecting and how to disconnect if your session especially if started from file explorer or from an app. In today’s build, just like remote desktop you’ll see a control banner at the top of your screen when you’re in a session. The banner keeps you informed of the state of your connection, allows you to quick disconnect or reconnect to the same sink and allows you to tune the connection based on what you are doing. This tuning is done via the settings gear, which optimizes the screen to screen latency based on one of the three scenarios:
+* Game mode minimizes the screen to screen latency to make gaming over a wireless connection possible.
+* Video mode increases the screen to screen latency to ensure the video on the big screen plays back smoothly and without glitching.
+* Productivity modes strikes a good balance between game mode and video mode where the screen to screen latency is responsive enough that typing feels natural, while ensuring videos don’t glitch too often.
+
+![alt text](images/beaming.png "wireless projection banner")
 
 ## Windows Security Center gets a Fluent Design refresh
 We’ve heard your feedback and we’ve updated Windows Defender Security Center (WDSC) to include the Fluent Design elements you know and love. You’ll also notice we’ve adjusted the spacing and padding around the app and will now dynamically size the categories on the main page if more room is needed for extra info. Last but not least, we’ve also updated the title bar of the app so that it will now use your accent color if you’ve enabled that option in Color Settings – with Sets enabled, you will see this color in the WDSC tab.
