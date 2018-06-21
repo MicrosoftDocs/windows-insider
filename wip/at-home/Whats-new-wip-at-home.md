@@ -365,6 +365,11 @@ To create a tile folder in Start, just drag one tile on top of another for a sec
 
 ![alt text](images/namedfolder_optionalgif.png "folder naming in Start")
 
+
+## Storage Improvements
+<b>Storage Sense picks up a new skill</b>:  Starting with the [Creators Update](https://blogs.windows.com/windowsexperience/2017/01/19/announcing-windows-10-insider-preview-build-15014-for-pc-and-mobile-hello-windows-insiders-today-we-are-excited-to-be-releasing-windows-10-insider-preview-build-15014-for-pc-and-mobile/) we embarked on a journey to help you automatically clean up storage when low on disk space. We expanded on that with the Fall Creators Update ([here](https://blogs.windows.com/windowsexperience/2017/05/17/announcing-windows-10-insider-preview-build-16199-pc-build-15215-mobile/) and [here](https://blogs.windows.com/windowsexperience/2017/06/21/announcing-windows-10-insider-preview-build-16226-pc/)), and today we’re taking the next step by adding the ability to automatically make any downloaded Files On-Demand online-only if you haven’t used them in a certain number of days. Head to Settings > System > Storage > Storage Sense to try out this new feature! We’d love to hear what you think.
+
+
 ## SwiftKey intelligence comes to Windows
 [SwiftKey](https://www.microsoft.com/en-us/swiftkey) gives you more accurate auto-corrections and predictions by learning your writing style – including the words, phrases and emoji that matter to you. It’s available for Android and iOS, and starting with today’s build SwiftKey will now power the typing experience on Windows when using the touch keyboard to write in English (United States), English (United Kingdom), French (France), German (Germany), Italian (Italy), Spanish (Spain), Portuguese (Brazil), or Russian.
 
