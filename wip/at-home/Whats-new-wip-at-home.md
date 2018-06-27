@@ -178,7 +178,7 @@ We have also started utilizing Artificial Intelligence (AI) and neural network-b
 
 We have introduced a new Region page that allows overrides to default regional format settings such as Calendar, First day of the week, Dates, Times, and Currency. Please go to Settings App – Time & Language – Region and give it a try.
 
-![alt text](images/Regions-Page.png "Region page")
+![alt text](images/Region.png "Region page")
 
 Local Experience Packs are Microsoft Store apps that deliver Windows display language quality improvements. You can now access them easily via the Settings App. Please go to Settings App – Time & Language – Language. Once here click on <i>Add a Windows display language with Local Experience Packs</i> link to download a Local Experience Pack from the Microsoft Store and start enjoying Windows in your preferred language.
 
