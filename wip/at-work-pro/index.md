@@ -32,7 +32,7 @@ If you are interested in flighting For Windows Server 2019, we also have the Win
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>What's New</h3>
+                        <h2>What's New</h2>
                 <p>Find out more about the new enterprise features in Windows 10 Insider Program for Business Previews.</p>
                     </div>
                 </div>
