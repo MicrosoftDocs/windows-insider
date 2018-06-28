@@ -29,7 +29,7 @@ You can get started with two easy steps: register and then install a build.
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Register</h3>
+                        <h2>Register</h2>
                 <p>The first step is to register your device or domain. Start here.</p>
                     </div>
                 </div>
@@ -48,7 +48,7 @@ You can get started with two easy steps: register and then install a build.
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Install</h3>
+                        <h2>Install</h2>
                 <p>The second step is to install a Windows Insider Preview build. Click here to learn how.</p>
                     </div>
                 </div>
@@ -72,7 +72,7 @@ You can get started with two easy steps: register and then install a build.
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Got Feedback?</h3>
+                        <h2>Got Feedback?</h2>
                 <p>Use the Feedback Hub App to submit your feedback to Microsoft.</p>
                     </div>
                 </div>
