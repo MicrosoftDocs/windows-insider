@@ -83,18 +83,71 @@ In-place upgrade allows an administrator to upgrade an existing installation of 
 |Windows Server 2012 R2 Standard| Windows Server 2019 Standard or Datacenter|
 |Windows Server 2012 R2 Datacenter | Windows Server 2019 Datacenter|
 
+## Microsoft Hyper-V 2019 Preview
+This is the first Insider Preview of Microsoft Hyper-V 2019. Microsoft Hyper-V Server is a stand-alone product that contains only the Windows hypervisor, a Windows Server driver model, and virtualization components. It provides a simple and reliable virtualization solution to help you improve your server utilization and reduce costs.
+
+The Windows hypervisor technology in Microsoft Hyper-V Server is the same as what's in the Hyper-V role on Windows Server. So, much of the content available for the Hyper-V role on Windows Server 2016 also applies to Microsoft Hyper-V Server.
+
+## Remote Desktop Session Host (RDSH)
+
+RD Session Host is a Remote Desktop Services role service that enables users to share Windows-based programs or the full Windows desktop. Users can connect to an RD Session Host server to run programs, save files, and use network resources on that server. Because of a bug, the RDSH role was missing in previous releases of Windows Server 2019 – this build fixes that. 
+
+## Server Core App Compatibility Feature on Demand
+This new Feature on Demand (FoD) significantly improves the app compatibility of Windows Server Core by including a set of binaries and packages from Windows Server with Desktop, without adding any of the Windows Server Desktop GUI or Windows 10 GUI experiences. The FoD package is available on a separate ISO and installs on Windows Server Core only. 
+
+* Available operating system components with this build:
+* Performance Monitor (PerfMon.exe)
+* Resource Monitor (Resmon.exe)
+* Device Manager (Devmgmt.msc)
+* Microsoft Management Console (mmc.exe)
+* Windows PowerShell (Powershell_ISE.exe)
+* Failover Cluster Manager (CluAdmin.msc)
+* Process Monitor (Procmon.exe) and other Sysinternals
+
+These components come with support for [SQL Server Management Studio (SSMS)](https://docs.microsoft.com/en-us/sql/ssms/sql-server-management-studio-ssms) versions 16 and 17, which must be installed separately from SQL Server via command line.
+
+The components that are available with this release are different from earlier releases as follows:
+* Event Viewer was functioning on previous versions, but is currently blocked
+* We have added support for Failover Cluster Manager. To install Failover Cluster Manager, launch PowerShell, and then enter the following command:
+<b>Install-WindowsFeature -Name Failover-Clustering -IncludeManagementTools</b>
+
+To run Failover Cluster Manager, enter <b>cluadmin</b> at a regular command prompt.
+We have added support for Process Monitor (procmon). You can download procmon from [Process Monitor v3.50](https://docs.microsoft.com/en-us/sysinternals/downloads/procmon). For more information, see [Windows Sysinternals](https://docs.microsoft.com/en-us/sysinternals/).
+
+Please try out this FoD and verify that current applications and tools run on the preview release as expected.
+
+The following installation procedure uses Deployment Image Servicing and Management (DISM.exe), a command-line tool. For more information, see [DISM Capabilities Package Servicing Command-Line Options](https://docs.microsoft.com/en-us/windows-hardware/manufacture/desktop/dism-capabilities-package-servicing-command-line-options).
+
+<b>To install Server Core with FoD binaries</b>
+1. Download the FoD ISO and copy the ISO to a shared folder on your local network.  
+2. Download the ISO of the matching preview release of Windows Server and install the operating system. Do not choose Desktop Experience options; the FoD is for Server Core only.  
+3. Sign in as administrator on the newly installed preview release of Server Core.  
+4. Use net use, or some other method, to connect to the location of the FoD ISO.  
+5. Copy the FoD ISO to a local folder of your choosing.  
+6. Start PowerShell by entering powershell.exe at a command prompt.  
+7. Mount the FoD ISO by using the following command: Mount-DiskImage -ImagePath 'drive_letter:\folder_where_ISO_is_saved '
+8. Enter exit to exit PowerShell.  
+9. Enter the following command: DISM /Online /Add-Capability /CapabilityName:"ServerCore.AppCompatibility~~~~0.0.1.0" /Source:drive_letter_of_mounted_ISO: /LimitAccess
+10. After the progress bar completes, restart the operating system at the prompt.
+
 ## Storage Spaces Direct
 Storage Spaces Direct uses industry-standard servers with local-attached drives to create highly available, highly scalable software-defined storage at a fraction of the cost of traditional SAN or NAS arrays. Its converged or hyper-converged architecture radically simplifies procurement and deployment, while features such as caching, storage tiers, and erasure coding, together with the latest hardware innovations such as RDMA networking and NVMe drives, deliver unrivaled efficiency and performance. 
 
 ### Performance history for Storage Spaces Direct
 
-The Get-ClusterPerformanceHistory cmdlet is more scripting-friendly. It’s now convenient to pipe performance history into utility cmdlets like Sort-Object, Where-Object, and Measure-Object so you can quickly find the average or peak value, filter values, plot trend lines, run outlier detection, and more. You can see examples with these cmdlets in the topics linked under "Insider Preview content" on [aka.ms/StorageSpacesDirect](https://docs.microsoft.com/en-us/windows-server/storage/storage-spaces/storage-spaces-direct-overview.
+* The Get-ClusterPerf cmdlet includes self-diagnosis logic: if the cmdlet finds nothing to report, it looks for common issues that would prevent performance history from working properly (for example, if its storage is missing) so that the cmdlet can provide clear error text.
 
-Performance history for the Storage Spaces Direct cache for reads (% hit rate) and writes (% full), as well as the CSV in-memory read cache (% hit rate), is now available. These new series are available per-server and in aggregate.
+* New cmdlets, Start-ClusterPerformanceHistory and Stop-ClusterPerformanceHistory, that are provided in this build make it easy to remediate such issues by cleaning up and/or re-provisioning performance history.
 
-Some performance history series have changed names for greater clarity and consistency—for example, Node.Cpu.Usage is now ClusterNode.Cpu.Usage. Note that this change will result in some blank charts in Windows Admin Center until its next update.
+* New series records how much Storage Spaces Direct data needs to repair/resync per server. 
 
-Administrators of [Storage Spaces
+* The Get-ClusterPerformanceHistory cmdlet is more scripting-friendly. It’s now convenient to pipe performance history into utility cmdlets like Sort-Object, Where-Object, and Measure-Object so you can quickly find the average or peak value, filter values, plot trend lines, run outlier detection, and more. You can see examples with these cmdlets in the topics linked under "Insider Preview content" on [aka.ms/StorageSpacesDirect](https://docs.microsoft.com/en-us/windows-server/storage/storage-spaces/storage-spaces-direct-overview.
+
+* Performance history for the Storage Spaces Direct cache for reads (% hit rate) and writes (% full), as well as the CSV in-memory read cache (% hit rate), is now available. These new series are available per-server and in aggregate.
+
+* Some performance history series have changed names for greater clarity and consistency—for example, Node.Cpu.Usage is now ClusterNode.Cpu.Usage. Note that this change will result in some blank charts in Windows Admin Center until its next update.
+
+* Administrators of [Storage Spaces
 Direct](https://docs.microsoft.com/windows-server/storage/storage-spaces/storage-spaces-direct-overview)
 can now get easy access to historical performance and capacity data from
 their cluster. *Did CPU usage spike last night? When did this drive
@@ -103,7 +156,7 @@ network activity trending up or down? The cluster is pushing 1,000,000
 IOPS – is that my new record?* Previously, you'd need external tooling
 to answer these questions. No more!
 
-Beautiful new charts in [Project
+* Beautiful new charts in [Project
 Honolulu](https://docs.microsoft.com/en-us/windows-server/manage/honolulu/honolulu-manage-hci)
 (and new PowerShell cmdlets, for those so inclined) empower you to
 answer these questions. There's nothing to install, configure, or
@@ -112,10 +165,6 @@ start—it's built-in and always-on. Learn more at
 
 ![alt text](images/Hyper-Converged-in-Honolulu.png "New charts in Project Honolulu, powered by built-in cluster
 performance history.")
-
-## Remote Desktop Session Host (RDSH)
-
-RD Session Host is a Remote Desktop Services role service that enables users to share Windows-based programs or the full Windows desktop. Users can connect to an RD Session Host server to run programs, save files, and use network resources on that server. Because of a bug, the RDSH role was missing in previous releases of Windows Server 2019 – this build fixes that. 
 
 ## Storage Migration Service
 
@@ -149,6 +198,20 @@ Storage Replica Standard. SR is available on Windows Server 2019 Standard Editio
  
 We will continue to listen to your feedback and evaluate these settings through our telemetry during Insider previews of Windows Server 2019. These limitations may change several times during the preview phase and at RTM. 
 For more information about Storage Replica, visit [http://aka.ms/StorageReplica](http://aka.ms/StorageReplica).  
+
+## System Insights
+System Insights is a new feature available in Windows Server 2019 that brings local predictive analytics capabilities natively to Windows Server. These predictive capabilities—each backed by a machine-learning model—locally analyze Windows Server system data, such as performance counters and events, providing insight into the functioning of your deployments and helping you reduce the operational expenses associated with monitoring your Windows Server instances.
+
+Because each of these capabilities runs locally, all your data is collected, persisted, and analyzed directly on your Windows Server instance, allowing you to use predictive analytics capabilities without any cloud connectivity. In Windows Server 2019, System Insights introduces a set of capabilities focused on capacity forecasting, predicting future usage for compute, networking, and storage.
+
+![alt text](images/system-insights.png "System Insights")
+
+You can manage System Insights through an intuitive Windows Admin Center extension or directly through PowerShell, and System Insights allows you to manage each capability individually. This includes configuring custom schedules to run each capability and adding remediation scripts to automatically address any issue detected by a capability.
+
+For more information about System Insights, please visit [aka.ms/SystemInsights](https://aka.ms/SystemInsights).
+
+## Windows Admin Center Preview 1806
+For full details, see the [Windows Admin Center Preview 1806 Announcement](https://aka.ms/WACPreview1806-InsiderBlog).
 
 ## Windows Defender Advanced Threat Protection
 

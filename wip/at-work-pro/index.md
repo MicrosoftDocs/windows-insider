@@ -32,8 +32,13 @@ If you are interested in flighting For Windows Server 2019, we also have the Win
                         </div>
                     </div>
                     <div class="cardText">
+<<<<<<< HEAD
                         <h3>What's New</h3>
                 <p>Find out more about the new enterprise features in Windows 10 Insider Program for Business Previews.</p>
+=======
+                        <h2>What's New</h2>
+                <p>Find out more about the new features in Windows 10 Insider Program for Business Previews.</p>
+>>>>>>> 4c2012595b857e49a63ba4881582a3f6b708e7ac
                     </div>
                 </div>
             </div>
@@ -51,7 +56,7 @@ If you are interested in flighting For Windows Server 2019, we also have the Win
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Get Started</h3>
+                        <h2>Get Started</h2>
                 <p>Start here to complete the initial tasks to get set up with the Windows 10 Insider Program for Business.</p>
                     </div>
                 </div>
@@ -75,7 +80,7 @@ If you are interested in flighting For Windows Server 2019, we also have the Win
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Got Feedback?</h3>
+                        <h2>Got Feedback?</h2>
                 <p>Use the Feedback Hub App to submit your feedback to Microsoft.</p>
                     </div>
                 </div>
