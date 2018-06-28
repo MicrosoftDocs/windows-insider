@@ -10,7 +10,7 @@ ms.service: WIP-at-work
 ms.tgt_pltfrm: na
 ms.devlang: na
 ms.topic: landing-page
-ms.date: 05/07/2018
+ms.date: 06/28/2018
 ms.author: dawn.wood
 ---
 
