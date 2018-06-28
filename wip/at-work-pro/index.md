@@ -32,13 +32,8 @@ If you are interested in flighting For Windows Server 2019, we also have the Win
                         </div>
                     </div>
                     <div class="cardText">
-<<<<<<< HEAD
                         <h3>What's New</h3>
                 <p>Find out more about the new enterprise features in Windows 10 Insider Program for Business Previews.</p>
-=======
-                        <h2>What's New</h2>
-                <p>Find out more about the new features in Windows 10 Insider Program for Business Previews.</p>
->>>>>>> 4c2012595b857e49a63ba4881582a3f6b708e7ac
                     </div>
                 </div>
             </div>
