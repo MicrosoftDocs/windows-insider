@@ -8,7 +8,7 @@ ms.assetid:
 ms.service: WIP
 ms.tgt_pltfrm: na
 ms.devlang: na
-ms.date: 04/20/2018
+ms.date: 07/03/2018
 ms.author: dawn.wood
 ---
 
@@ -26,8 +26,8 @@ The items in <b>bold</b> typeface are the latest release for that version of the
 
 | Build | Fast | Slow | Server | IoT | ISO | SDK |
 |-------|------|------|--------|-----|-----|-----|
-| 17704 | [<b>6/27/2018</b>](https://aka.ms/jasons-build)
-| 17692 | [6/14/2018](https://aka.ms/e3-was-fun)||[<b>6/19/2018</b>](https://aka.ms/wipserver17692)|||[<b>6/19/2018</b>](https://blogs.windows.com/buildingapps/2018/06/19/windows-10-sdk-preview-build-17692-available-now/)
+| 17704 | [<b>6/27/2018</b>](https://aka.ms/jasons-build)|||||[<b>7/03/2018</b>](https://blogs.windows.com/buildingapps/2018/07/03/windows-10-sdk-preview-build-17704-available-now/)|
+| 17692 | [6/14/2018](https://aka.ms/e3-was-fun)|7/02/2018|[<b>6/19/2018</b>](https://aka.ms/wipserver17692)|||[<b>6/19/2018</b>](https://blogs.windows.com/buildingapps/2018/06/19/windows-10-sdk-preview-build-17692-available-now/)
 | 17686 | [6/06/2018](https://aka.ms/jumanji)|||||[6/12/2018](https://blogs.windows.com/buildingapps/2018/06/12/windows-10-sdk-preview-build-17686-available-now/)
 | 17682 | [5/31/2018](https://aka.ms/hulkbuster)|||||[6/05/2018](https://blogs.windows.com/buildingapps/2018/06/05/windows-10-sdk-preview-build-17682-available-now/)
 | 17677 | [5/24/2018](https://aka.ms/we-are-groot) | | [5/29/2018](https://aka.ms/wipserver17677)| | | [5/29/2018](https://blogs.windows.com/buildingapps/2018/05/29/windows-10-sdk-preview-build-17677-available-now/)
