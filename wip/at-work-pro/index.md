@@ -10,13 +10,15 @@ ms.service: WIP-at-work
 ms.tgt_pltfrm: na
 ms.devlang: na
 ms.topic: landing-page
-ms.date: 04/16/2018
+ms.date: 06/28/2018
 ms.author: dawn.wood
 ---
 # Windows Insider Program for Business docs
-With Windows 10, feature flighting allows participants in the Windows Insider Preview program to deploy pre-production code, to test devices, and to gain early visibility into the next version of Windows. This is better for your organization because you can test the early builds of Windows 10 to discover possible issues with the code or with device and app compatibility in your organization before the update is made publicly available. 
+If you are an IT Pro, incorporating the Windows Insider Program for Business into your deployment plans enables you to prepare your organization for the next update of Windows 10, to deploy new services and tools more quickly, to help secure your applications, and to increase productivity and confidence in the stability of your environment. Specifically, feature flighting (see [Windows readiness levels and flight rings](wip-4-biz-flight-levels-and-rings.md)) allows participants in the Windows Insider Program to deploy pre-production code, to test devices, and to gain early visibility into the next version of Windows. 
 
-WIP for Business helps you deploy the Windows Insider Program in your enterprise. The docs cover the new enterprise features we'd like you to test and describes how to do the most common tasks. If you are an administrator or a user in a business environment, you're in the right place. If you are interested in flighting For Windows Server 2019, we also have the Windows Server Insider Program, which you can read about in the [Windows Insider Program for Server docs](https://docs.microsoft.com/en-us/windows-insider/at-work/).
+If you are a enterprise user, you can also join the Windows Insider for Business program. In some scenarios, you work with your IT Pro to create a domain registration that you can participate in. Either way, you are able to install new builds and provide feedback on them after you register. 
+
+If you are interested in flighting For Windows Server 2019, we also have the Windows Server Insider Program, which you can read about in the [Windows Insider Program for Server docs](https://docs.microsoft.com/en-us/windows-insider/at-work/).
 
 <ul class="cardsF panelContent">
     <li>
@@ -30,8 +32,8 @@ WIP for Business helps you deploy the Windows Insider Program in your enterprise
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>What's New</h3>
-                <p>Find out more about the new features in Windows 10 Insider Program for Business Previews.</p>
+                        <h2>What's New</h2>
+                <p>Find out more about the new enterprise features in Windows 10 Insider Program for Business Previews.</p>
                     </div>
                 </div>
             </div>
@@ -39,7 +41,7 @@ WIP for Business helps you deploy the Windows Insider Program in your enterprise
         </a>
     </li>
     <li>
-        <a href="https://insider.windows.com/en-us/for-business-getting-started/">
+        <a href="wip-4-biz-get-started.md">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -49,7 +51,7 @@ WIP for Business helps you deploy the Windows Insider Program in your enterprise
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Get Started</h3>
+                        <h2>Get Started</h2>
                 <p>Start here to complete the initial tasks to get set up with the Windows 10 Insider Program for Business.</p>
                     </div>
                 </div>
@@ -73,7 +75,7 @@ WIP for Business helps you deploy the Windows Insider Program in your enterprise
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Got Feedback?</h3>
+                        <h2>Got Feedback?</h2>
                 <p>Use the Feedback Hub App to submit your feedback to Microsoft.</p>
                     </div>
                 </div>
