@@ -66,10 +66,25 @@ We’re continuing to work on how other security apps you’ve installed show up
 
 This also means you’ll see more links to other security apps within the Windows Security app. For example, if you open the **Firewall & network protection** section, you’ll see the firewall apps that are running on your device under each firewall type (domain, private, and public networks).
 
-## Web Sign-in to Windows 10
+## Web sign-in to Windows 10
 Until now, Windows logon only supported the use of identities federated to ADFS or other providers that support the WS-Fed protocol. We are introducing “Web Sign-in,” a new way of signing into your Windows PC. Web Sign-in enables Windows logon support for non-ADFS federated providers(e.g.SAML).
 
-### To try out Web Sign-in:
+![Web sign-in](images/websignin.png "web sign-in")
+
+### To try out web sign-in:
+1. Azure AD Join your Windows 10 PC. (Web Sign-in is only supported on Azure AD Joined PCs).
+2. Set the Policy CSP/Authentication/EnableWebSignIn policy to enable Web Sign-in. 
+3. On the lock screen, select Web Sign-in under Sign-in options.
+4. Click the “Sign in” button to continue.
+
+## Faster sign-in to a Windows 10 shared pc
+Do you have shared PCs deployed in your work place? Introducing “Fast Sign-in,” which enables users to sign in to a shared Windows 10 PC in a flash!
+![Web sign-in](images/fastsignin.png "web sign-in")
+
+To enable Fast Sign in,
+1. Set up a shared or guest PC with Windows 10
+2. Set Policy/Authentication/EnableFastFirstSignIn to enable fast sign-in
+3. With the policy enabled, sign-in to a shared PC with your account and notice the difference!
 
 ## Windows Defender Application Guard Improvements 
 Windows Defender Application Guard introduced a new user interface inside Windows Security in this release. Standalone users can now install and configure their Windows Defender Application Guard settings in Windows Security without needing to change Registry key settings. Additionally, users who are managed by enterprise policies will be able to check their settings to see what their administrators have configured for their machines to better understand the behavior of Windows Defender Application Guard. This new UI aims to improve the overall experience for users to manage and check their Windows Defender Application Guard settings. As long as devices meet the minimum requirements, these settings will appear in Windows Security.
