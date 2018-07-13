@@ -87,4 +87,16 @@ To enable Fast Sign in,
 3. With the policy enabled, sign-in to a shared PC with your account and notice the difference!
 
 ## Windows Defender Application Guard Improvements 
-Windows Defender Application Guard introduced a new user interface inside Windows Security in this release. Standalone users can now install and configure their Windows Defender Application Guard settings in Windows Security without needing to change Registry key settings. Additionally, users who are managed by enterprise policies will be able to check their settings to see what their administrators have configured for their machines to better understand the behavior of Windows Defender Application Guard. This new UI aims to improve the overall experience for users to manage and check their Windows Defender Application Guard settings. As long as devices meet the minimum requirements, these settings will appear in Windows Security.
+Windows Defender Application Guard introduced a new user interface inside Windows Security in this release. Standalone users can now install and configure their Windows Defender Application Guard settings in Windows Security without needing to change Registry key settings. 
+
+Additionally, users who are managed by enterprise policies will be able to check their settings to see what their administrators have configured for their machines to better understand the behavior of Windows Defender Application Guard. This new UI aims to improve the overall experience for users to manage and check their Windows Defender Application Guard settings. As long as devices meet the minimum requirements, these settings will appear in Windows Security.For detailed information, click [here](https://techcommunity.microsoft.com/t5/Windows-Insider-Program/test/m-p/214102#M1709).
+
+To check this out, 
+1. go to Windows Security and select App & browser control.
+![Security at a glance](images/1_AppBrowser.png "app and browser control")
+2. Select Install Windows Defender Application Guard under Isolated browsing, install and restart the device (only for standalone users).
+![Isolated browser](images/2_InstallWDAG.png "isolated browsing")
+3. Select Change Application Guard settings.
+![change WDAG settings](images/3_ChangeSettings.png "change settings")
+4. Configure or check Application Guard Settings.
+![view WDAG settings](images/4_ViewSettings.jpg "view settings")
