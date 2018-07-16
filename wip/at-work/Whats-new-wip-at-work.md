@@ -326,11 +326,11 @@ C:\\Windows\\System32\\CodeIntegrity\\SiPolicy.p7b
 Reboot the server to allow code integrity service to load the policy.
 
 
-Failover Cluster removing use of NTLM authentication
+## Failover Cluster removing use of NTLM authentication
 
 Windows Server Failover Clusters no longer use NTLM authentication by exclusively using Kerberos and certificate based authentication.  There are no changes required by the user, or deployment tools,  to take advantage of this security enhancement.  It also allows failover clusters to be deployed in environments where NTLM has been disabled. 
 
-Shielded virtual machines – Offline mode, VMConnect and Linux support
+## Shielded virtual machines – Offline mode, VMConnect and Linux support
 
 You can now run [shielded virtual
 machines](https://docs.microsoft.com/en-us/windows-server/virtualization/guarded-fabric-shielded-vm/guarded-fabric-and-shielded-vms)
