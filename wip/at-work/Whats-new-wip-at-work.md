@@ -19,6 +19,12 @@ The features listed below are available in preview builds of Windows Server 2019
 
 We also encourage you to visit the [Windows Server Insiders space](https://techcommunity.microsoft.com/t5/Windows-Server-Insiders/bd-p/WindowsServerInsiders) on the [Microsoft Tech Communities forum](https://techcommunity.microsoft.com/) to collaborate, share, and learn from experts.
 
+## Containers
+### Group Managed Service Accounts 
+We’ve improved the scalability and reliability of containers that use group managed service accounts (gMSA) to access network resources. You should see fewer authentication errors when using a single gMSA with multiple container instances. Additionally, you no longer need to set the container's host name to be the same as the gMSA. We also fixed a bug that prevented you from using gMSAs with Hyper-V isolated containers.  
+
+### New Container base image: Windows 
+We added a new base image to the Windows Server container collection. In addition to nanoserver and windowsservercore container images, the new windows image is now available. This image carries even more components than its nanoserver and servercore siblings, meaning it can support applications that have additional API dependencies. To learn more and get started, go to https://aka.ms/windowscontainer. 
 
 ## Delimit volume allocation with Storage Spaces Direct
 
