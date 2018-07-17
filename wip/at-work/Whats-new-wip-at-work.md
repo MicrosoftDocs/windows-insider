@@ -62,7 +62,7 @@ The second enhancement enables use of an FSW for several scenarios that were pre
 *  Absent or extremely poor Internet access because of a remote location, preventing the use of a cloud witness. 
 *  Lack of shared drives for a disk witness. This could be a Storage Spaces Direct hyperconverged configuration, a SQL Server Always On Availability Groups (AG), or an *  Exchange Database Availability Group (DAG), none of which use shared disks. 
 *  Lack of a domain controller connection due to the cluster being behind a DMZ. 
-*  A workgroup or cross-domain cluster for which there is no Active Directory cluster name object (CNO). Find out more about these enhancements in the following posts in Server & Management Blogs: Failover Cluster File Share Witness and DFS New File Share Witness Feature in Windows Server 2019.
+*  A workgroup or cross-domain cluster for which there is no Active Directory cluster name object (CNO). Find out more about these enhancements in the following post in Server & Management Blogs: [Failover Cluster File Share Witness and DFS](https://blogs.msdn.microsoft.com/clustering/2018/04/13/failover-cluster-file-share-witness-and-dfs/).
 
 ## Failover clustering: moving clusters between domains 
 Moving a cluster from one domain to another has always been a daunting task because you must destroy the cluster to move it.  Depending on the roles in the cluster, that role must also be removed and recreated.  The following are two common scenarios:
@@ -326,11 +326,11 @@ C:\\Windows\\System32\\CodeIntegrity\\SiPolicy.p7b
 Reboot the server to allow code integrity service to load the policy.
 
 
-Failover Cluster removing use of NTLM authentication
+## Failover Cluster removing use of NTLM authentication
 
 Windows Server Failover Clusters no longer use NTLM authentication by exclusively using Kerberos and certificate based authentication.  There are no changes required by the user, or deployment tools,  to take advantage of this security enhancement.  It also allows failover clusters to be deployed in environments where NTLM has been disabled. 
 
-Shielded virtual machines – Offline mode, VMConnect and Linux support
+## Shielded virtual machines – Offline mode, VMConnect and Linux support
 
 You can now run [shielded virtual
 machines](https://docs.microsoft.com/en-us/windows-server/virtualization/guarded-fabric-shielded-vm/guarded-fabric-and-shielded-vms)
