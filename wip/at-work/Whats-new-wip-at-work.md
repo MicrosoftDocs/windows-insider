@@ -22,7 +22,8 @@ We also encourage you to visit the [Windows Server Insiders space](https://techc
 ## App Compatibility: Features added to App Compatibility, a Feature on Demand for Server Core
 App Compatibility, a Feature on Demand (FoD), has been updated with additional features and two additional components: Event Viewer and File Explorer.
 This FoD significantly improves the app compatibility of Windows Server Core by including a set of binaries and packages from Windows Server with Desktop, without adding any of the Windows Server Desktop GUI or Windows 10 GUI experiences. The FoD package is available on a separate ISO and installs on Windows Server Core only.
-	Important   Please try out this FoD, and verify that current applications and tools run on the preview release as expected. Also, try any server app (from Microsoft or not) that you want to use on Server Core but currently cannot use, and please let us know about any successes or failures.
+
+Important   Please try out this FoD, and verify that current applications and tools run on the preview release as expected. Also, try any server app (from Microsoft or not) that you want to use on Server Core but currently cannot use, and please let us know about any successes or failures.
 Operating system components that are available with this update:
 * Event Viewer (Eventvwr.msc)
 * Performance Monitor (PerfMon.exe)
@@ -35,12 +36,11 @@ Operating system components that are available with this update:
 
 These components come with support for SQL Server Management Studio (SSMS), version 16 and 17, which must be installed separately from SQL Server via command line.
 
-	Note   To install Failover Cluster Manager, launch PowerShell, and then enter the following command:
+To install Failover Cluster Manager, launch PowerShell, and then enter the following command:
 		Install-WindowsFeature -Name Failover-Clustering -IncludeManagementTools
-	To run Failover Cluster Manager, enter cluadmin at a regular command prompt.
-The following installation procedure uses Deployment Image Servicing and Management (DISM.exe), a command-line tool. For more information about DISM commands, see DISM Capabilities Package Servicing Command-Line Options.
+To run Failover Cluster Manager, enter cluadmin at a regular command prompt.
+The following installation procedure uses Deployment Image Servicing and Management (DISM.exe), a command-line tool. For more information about DISM commands, see [DISM Capabilities Package Servicing Command-Line Options](https://docs.microsoft.com/en-us/windows-hardware/manufacture/desktop/dism-capabilities-package-servicing-command-line-options).
 
-	Note   These instructions correct previously published versions.
 To install Server Core with FoD binaries
 1. Download the FoD ISO, and copy the ISO to a shared folder on your local network.
 2. Download the ISO of the matching preview release of Windows Server, and install the operating system. Do not choose Desktop Experience options; the FoD is for Server Core only.
@@ -49,10 +49,10 @@ To install Server Core with FoD binaries
 5. Copy the FoD ISO to a local folder of your choosing.
 6. Start PowerShell by entering powershell.exe at a command prompt.
 7. Mount the FoD ISO by using the following command:
-	Mount-DiskImage -ImagePath drive_letter:\folder_where_ISO_is_saved
+Mount-DiskImage -ImagePath drive_letter:\folder_where_ISO_is_saved
 8. Enter exit to exit PowerShell.
 9. Enter the following command:
-	DISM /Online /Add-Capability /CapabilityName:Server.Appcompat~~~~0.0.1.0 /Source:drive_letter_of_mounted_ISO: /LimitAccess
+DISM /Online /Add-Capability /CapabilityName:Server.Appcompat~~~~0.0.1.0 /Source:drive_letter_of_mounted_ISO: /LimitAccess
 10. After the progress bar completes, restart the operating system at the prompt.
 
 
