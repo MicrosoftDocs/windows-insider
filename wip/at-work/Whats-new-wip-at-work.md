@@ -19,6 +19,49 @@ The features listed below are available in preview builds of Windows Server 2019
 
 We also encourage you to visit the [Windows Server Insiders space](https://techcommunity.microsoft.com/t5/Windows-Server-Insiders/bd-p/WindowsServerInsiders) on the [Microsoft Tech Communities forum](https://techcommunity.microsoft.com/) to collaborate, share, and learn from experts.
 
+## App Compatibility: Features added to App Compatibility, a Feature on Demand for Server Core
+App Compatibility, a Feature on Demand (FoD), has been updated with additional features and two additional components: Event Viewer and File Explorer.
+This FoD significantly improves the app compatibility of Windows Server Core by including a set of binaries and packages from Windows Server with Desktop, without adding any of the Windows Server Desktop GUI or Windows 10 GUI experiences. The FoD package is available on a separate ISO and installs on Windows Server Core only.
+	Important   Please try out this FoD, and verify that current applications and tools run on the preview release as expected. Also, try any server app (from Microsoft or not) that you want to use on Server Core but currently cannot use, and please let us know about any successes or failures.
+Operating system components that are available with this update:
+* Event Viewer (Eventvwr.msc)
+* Performance Monitor (PerfMon.exe)
+* Resource Monitor (Resmon.exe)
+* Device Manager (Devmgmt.msc)
+* Microsoft Management Console (mmc.exe)
+* File Explorer (Explorer.exe)
+* Windows PowerShell (Powershell_ISE.exe)
+* Failover Cluster Manager (CluAdmin.msc)
+
+These components come with support for SQL Server Management Studio (SSMS), version 16 and 17, which must be installed separately from SQL Server via command line.
+
+	Note   To install Failover Cluster Manager, launch PowerShell, and then enter the following command:
+		Install-WindowsFeature -Name Failover-Clustering -IncludeManagementTools
+	To run Failover Cluster Manager, enter cluadmin at a regular command prompt.
+The following installation procedure uses Deployment Image Servicing and Management (DISM.exe), a command-line tool. For more information about DISM commands, see DISM Capabilities Package Servicing Command-Line Options.
+
+	Note   These instructions correct previously published versions.
+To install Server Core with FoD binaries
+1. Download the FoD ISO, and copy the ISO to a shared folder on your local network.
+2. Download the ISO of the matching preview release of Windows Server, and install the operating system. Do not choose Desktop Experience options; the FoD is for Server Core only.
+3. Sign in as administrator on the newly installed preview release of Server Core.
+4. Use net use, or some other method, to connect to the location of the FoD ISO.
+5. Copy the FoD ISO to a local folder of your choosing.
+6. Start PowerShell by entering powershell.exe at a command prompt.
+7. Mount the FoD ISO by using the following command:
+	Mount-DiskImage -ImagePath drive_letter:\folder_where_ISO_is_saved
+8. Enter exit to exit PowerShell.
+9. Enter the following command:
+	DISM /Online /Add-Capability /CapabilityName:Server.Appcompat~~~~0.0.1.0 /Source:drive_letter_of_mounted_ISO: /LimitAccess
+10. After the progress bar completes, restart the operating system at the prompt.
+
+
+## Containers
+### Group Managed Service Accounts 
+We’ve improved the scalability and reliability of containers that use group managed service accounts (gMSA) to access network resources. You should see fewer authentication errors when using a single gMSA with multiple container instances. Additionally, you no longer need to set the container's host name to be the same as the gMSA. We also fixed a bug that prevented you from using gMSAs with Hyper-V isolated containers.  
+
+### New Container base image: Windows 
+We added a new base image to the Windows Server container collection. In addition to nanoserver and windowsservercore container images, the new windows image is now available. This image carries even more components than its nanoserver and servercore siblings, meaning it can support applications that have additional API dependencies. To learn more and get started, go to https://aka.ms/windowscontainer. 
 
 ## Delimit volume allocation with Storage Spaces Direct
 
@@ -62,7 +105,7 @@ The second enhancement enables use of an FSW for several scenarios that were pre
 *  Absent or extremely poor Internet access because of a remote location, preventing the use of a cloud witness. 
 *  Lack of shared drives for a disk witness. This could be a Storage Spaces Direct hyperconverged configuration, a SQL Server Always On Availability Groups (AG), or an *  Exchange Database Availability Group (DAG), none of which use shared disks. 
 *  Lack of a domain controller connection due to the cluster being behind a DMZ. 
-*  A workgroup or cross-domain cluster for which there is no Active Directory cluster name object (CNO). Find out more about these enhancements in the following posts in Server & Management Blogs: Failover Cluster File Share Witness and DFS New File Share Witness Feature in Windows Server 2019.
+*  A workgroup or cross-domain cluster for which there is no Active Directory cluster name object (CNO). Find out more about these enhancements in the following post in Server & Management Blogs: [Failover Cluster File Share Witness and DFS](https://blogs.msdn.microsoft.com/clustering/2018/04/13/failover-cluster-file-share-witness-and-dfs/).
 
 ## Failover clustering: moving clusters between domains 
 Moving a cluster from one domain to another has always been a daunting task because you must destroy the cluster to move it.  Depending on the roles in the cluster, that role must also be removed and recreated.  The following are two common scenarios:
@@ -326,11 +369,11 @@ C:\\Windows\\System32\\CodeIntegrity\\SiPolicy.p7b
 Reboot the server to allow code integrity service to load the policy.
 
 
-Failover Cluster removing use of NTLM authentication
+## Failover Cluster removing use of NTLM authentication
 
 Windows Server Failover Clusters no longer use NTLM authentication by exclusively using Kerberos and certificate based authentication.  There are no changes required by the user, or deployment tools,  to take advantage of this security enhancement.  It also allows failover clusters to be deployed in environments where NTLM has been disabled. 
 
-Shielded virtual machines – Offline mode, VMConnect and Linux support
+## Shielded virtual machines – Offline mode, VMConnect and Linux support
 
 You can now run [shielded virtual
 machines](https://docs.microsoft.com/en-us/windows-server/virtualization/guarded-fabric-shielded-vm/guarded-fabric-and-shielded-vms)
