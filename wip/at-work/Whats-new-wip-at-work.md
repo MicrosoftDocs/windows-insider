@@ -19,10 +19,6 @@ The features listed below are available in preview builds of Windows Server 2019
 
 We also encourage you to visit the [Windows Server Insiders space](https://techcommunity.microsoft.com/t5/Windows-Server-Insiders/bd-p/WindowsServerInsiders) on the [Microsoft Tech Communities forum](https://techcommunity.microsoft.com/) to collaborate, share, and learn from experts.
 
-## App Compatibility: Features added to App Compatibility, a Feature on Demand for Server Core
-
-
-
 ## Containers
 ### Group Managed Service Accounts 
 We’ve improved the scalability and reliability of containers that use group managed service accounts (gMSA) to access network resources. You should see fewer authentication errors when using a single gMSA with multiple container instances. Additionally, you no longer need to set the container's host name to be the same as the gMSA. We also fixed a bug that prevented you from using gMSAs with Hyper-V isolated containers.  
