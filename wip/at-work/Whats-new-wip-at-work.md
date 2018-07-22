@@ -19,43 +19,6 @@ The features listed below are available in preview builds of Windows Server 2019
 
 We also encourage you to visit the [Windows Server Insiders space](https://techcommunity.microsoft.com/t5/Windows-Server-Insiders/bd-p/WindowsServerInsiders) on the [Microsoft Tech Communities forum](https://techcommunity.microsoft.com/) to collaborate, share, and learn from experts.
 
-## App Compatibility: Features added to App Compatibility, a Feature on Demand for Server Core
-App Compatibility, a Feature on Demand (FoD), has been updated with additional features and two additional components: Event Viewer and File Explorer.
-This FoD significantly improves the app compatibility of Windows Server Core by including a set of binaries and packages from Windows Server with Desktop, without adding any of the Windows Server Desktop GUI or Windows 10 GUI experiences. The FoD package is available on a separate ISO and installs on Windows Server Core only.
-	Important   Please try out this FoD, and verify that current applications and tools run on the preview release as expected. Also, try any server app (from Microsoft or not) that you want to use on Server Core but currently cannot use, and please let us know about any successes or failures.
-Operating system components that are available with this update:
-* Event Viewer (Eventvwr.msc)
-* Performance Monitor (PerfMon.exe)
-* Resource Monitor (Resmon.exe)
-* Device Manager (Devmgmt.msc)
-* Microsoft Management Console (mmc.exe)
-* File Explorer (Explorer.exe)
-* Windows PowerShell (Powershell_ISE.exe)
-* Failover Cluster Manager (CluAdmin.msc)
-
-These components come with support for SQL Server Management Studio (SSMS), version 16 and 17, which must be installed separately from SQL Server via command line.
-
-	Note   To install Failover Cluster Manager, launch PowerShell, and then enter the following command:
-		Install-WindowsFeature -Name Failover-Clustering -IncludeManagementTools
-	To run Failover Cluster Manager, enter cluadmin at a regular command prompt.
-The following installation procedure uses Deployment Image Servicing and Management (DISM.exe), a command-line tool. For more information about DISM commands, see DISM Capabilities Package Servicing Command-Line Options.
-
-	Note   These instructions correct previously published versions.
-To install Server Core with FoD binaries
-1. Download the FoD ISO, and copy the ISO to a shared folder on your local network.
-2. Download the ISO of the matching preview release of Windows Server, and install the operating system. Do not choose Desktop Experience options; the FoD is for Server Core only.
-3. Sign in as administrator on the newly installed preview release of Server Core.
-4. Use net use, or some other method, to connect to the location of the FoD ISO.
-5. Copy the FoD ISO to a local folder of your choosing.
-6. Start PowerShell by entering powershell.exe at a command prompt.
-7. Mount the FoD ISO by using the following command:
-	Mount-DiskImage -ImagePath drive_letter:\folder_where_ISO_is_saved
-8. Enter exit to exit PowerShell.
-9. Enter the following command:
-	DISM /Online /Add-Capability /CapabilityName:Server.Appcompat~~~~0.0.1.0 /Source:drive_letter_of_mounted_ISO: /LimitAccess
-10. After the progress bar completes, restart the operating system at the prompt.
-
-
 ## Containers
 ### Group Managed Service Accounts 
 We’ve improved the scalability and reliability of containers that use group managed service accounts (gMSA) to access network resources. You should see fewer authentication errors when using a single gMSA with multiple container instances. Additionally, you no longer need to set the container's host name to be the same as the gMSA. We also fixed a bug that prevented you from using gMSAs with Hyper-V isolated containers.  
@@ -136,41 +99,39 @@ The Windows hypervisor technology in Microsoft Hyper-V Server is the same as wha
 RD Session Host is a Remote Desktop Services role service that enables users to share Windows-based programs or the full Windows desktop. Users can connect to an RD Session Host server to run programs, save files, and use network resources on that server. Because of a bug, the RDSH role was missing in previous releases of Windows Server 2019 – this build fixes that. 
 
 ## Server Core App Compatibility Feature on Demand
-This new Feature on Demand (FoD) significantly improves the app compatibility of Windows Server Core by including a set of binaries and packages from Windows Server with Desktop, without adding any of the Windows Server Desktop GUI or Windows 10 GUI experiences. The FoD package is available on a separate ISO and installs on Windows Server Core only. 
+App Compatibility, a Feature on Demand (FoD), has been updated with additional features and two additional components: Event Viewer and File Explorer.
+This FoD significantly improves the app compatibility of Windows Server Core by including a set of binaries and packages from Windows Server with Desktop, without adding any of the Windows Server Desktop GUI or Windows 10 GUI experiences. The FoD package is available on a separate ISO and installs on Windows Server Core only.
 
-* Available operating system components with this build:
+Important   Please try out this FoD, and verify that current applications and tools run on the preview release as expected. Also, try any server app (from Microsoft or not) that you want to use on Server Core but currently cannot use, and please let us know about any successes or failures.
+Operating system components that are available with this update:
+* Event Viewer (Eventvwr.msc)
 * Performance Monitor (PerfMon.exe)
 * Resource Monitor (Resmon.exe)
 * Device Manager (Devmgmt.msc)
 * Microsoft Management Console (mmc.exe)
+* File Explorer (Explorer.exe)
 * Windows PowerShell (Powershell_ISE.exe)
 * Failover Cluster Manager (CluAdmin.msc)
-* Process Monitor (Procmon.exe) and other Sysinternals
 
-These components come with support for [SQL Server Management Studio (SSMS)](https://docs.microsoft.com/en-us/sql/ssms/sql-server-management-studio-ssms) versions 16 and 17, which must be installed separately from SQL Server via command line.
+These components come with support for SQL Server Management Studio (SSMS), version 16 and 17, which must be installed separately from SQL Server via command line.
 
-The components that are available with this release are different from earlier releases as follows:
-* Event Viewer was functioning on previous versions, but is currently blocked
-* We have added support for Failover Cluster Manager. To install Failover Cluster Manager, launch PowerShell, and then enter the following command:
-<b>Install-WindowsFeature -Name Failover-Clustering -IncludeManagementTools</b>
+To install Failover Cluster Manager, launch PowerShell, and then enter the following command:
+		Install-WindowsFeature -Name Failover-Clustering -IncludeManagementTools
+To run Failover Cluster Manager, enter cluadmin at a regular command prompt.
+The following installation procedure uses Deployment Image Servicing and Management (DISM.exe), a command-line tool. For more information about DISM commands, see [DISM Capabilities Package Servicing Command-Line Options](https://docs.microsoft.com/en-us/windows-hardware/manufacture/desktop/dism-capabilities-package-servicing-command-line-options).
 
-To run Failover Cluster Manager, enter <b>cluadmin</b> at a regular command prompt.
-We have added support for Process Monitor (procmon). You can download procmon from [Process Monitor v3.50](https://docs.microsoft.com/en-us/sysinternals/downloads/procmon). For more information, see [Windows Sysinternals](https://docs.microsoft.com/en-us/sysinternals/).
-
-Please try out this FoD and verify that current applications and tools run on the preview release as expected.
-
-The following installation procedure uses Deployment Image Servicing and Management (DISM.exe), a command-line tool. For more information, see [DISM Capabilities Package Servicing Command-Line Options](https://docs.microsoft.com/en-us/windows-hardware/manufacture/desktop/dism-capabilities-package-servicing-command-line-options).
-
-<b>To install Server Core with FoD binaries</b>
-1. Download the FoD ISO and copy the ISO to a shared folder on your local network.  
-2. Download the ISO of the matching preview release of Windows Server and install the operating system. Do not choose Desktop Experience options; the FoD is for Server Core only.  
-3. Sign in as administrator on the newly installed preview release of Server Core.  
-4. Use net use, or some other method, to connect to the location of the FoD ISO.  
-5. Copy the FoD ISO to a local folder of your choosing.  
-6. Start PowerShell by entering powershell.exe at a command prompt.  
-7. Mount the FoD ISO by using the following command: Mount-DiskImage -ImagePath 'drive_letter:\folder_where_ISO_is_saved '
-8. Enter exit to exit PowerShell.  
-9. Enter the following command: DISM /Online /Add-Capability /CapabilityName:"ServerCore.AppCompatibility~~~~0.0.1.0" /Source:drive_letter_of_mounted_ISO: /LimitAccess
+To install Server Core with FoD binaries
+1. Download the FoD ISO, and copy the ISO to a shared folder on your local network.
+2. Download the ISO of the matching preview release of Windows Server, and install the operating system. Do not choose Desktop Experience options; the FoD is for Server Core only.
+3. Sign in as administrator on the newly installed preview release of Server Core.
+4. Use net use, or some other method, to connect to the location of the FoD ISO.
+5. Copy the FoD ISO to a local folder of your choosing.
+6. Start PowerShell by entering powershell.exe at a command prompt.
+7. Mount the FoD ISO by using the following command:
+Mount-DiskImage -ImagePath drive_letter:\folder_where_ISO_is_saved
+8. Enter exit to exit PowerShell.
+9. Enter the following command:
+DISM /Online /Add-Capability /CapabilityName:Server.Appcompat~~~~0.0.1.0 /Source:drive_letter_of_mounted_ISO: /LimitAccess
 10. After the progress bar completes, restart the operating system at the prompt.
 
 ## Storage Spaces Direct
