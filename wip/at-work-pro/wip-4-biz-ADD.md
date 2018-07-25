@@ -94,6 +94,8 @@ Under the Manage section, select User settings.
 In the Enterprise applications section, enable Users can allow apps to access their data.
 ![enable users](images/wip-4-biz-aad-new-enable.png "enable users")
 
+## Stop receiving updates
+You can “unlink” your account by going to <b>Settings > Updates & Security > Windows Insider Program</b>, select <>Windows Insider Account</b> and click <b>Unlink</b>.
 
 ## New to Azure Active Directory? 
 
@@ -103,4 +105,5 @@ In the Enterprise applications section, enable Users can allow apps to access th
  3. [Device registration](https://docs.microsoft.com/azure/active-directory/active-directory-device-registration-overview) 
  4. [Integrate your on-premises directories with Azure AD](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect).
 
- 
+## Related topics
+
