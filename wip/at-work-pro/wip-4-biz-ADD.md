@@ -78,17 +78,21 @@ To fix this issue, an administrator of the AAD directory will need to enable use
 To do this through the classic Azure portal:
 1. Go to https://manage.windowsazure.com/ .
 2. Switch to the Active Directory dashboard.
+
 ![AAD dashboard](images/wip-4-biz-classic-aad.png "AAD dashboard")
 3. Select the appropriate directory and go to the <b>Configure</b> tab.
 4. Under the <b>integrated applications</b> section, enable <b>Users may give applications permissions to access their data</b>.
+
 ![enable applications](images/wip-4-biz-aad-classic-enable.png "enable applications")
 
 To do this through the new Azure portal:
 1. Go to [https://portal.azure.com/](https://portal.azure.com/)
 2. Switch to the Active Directory dashboard.
+
 ![AAD dashboard](images/wip-4-biz-new-aad.png" AAD dashboard")
 3. Switch to the appropriate directory.
 ![new directory](images/wip-4-biz-aad-new-directory-button.png "new directory")
+
 4. Under the Manage section, select User settings.
 ![user settings](images/wip-4-biz-aad-new-user-settings.png "user settings")
 5. In the Enterprise applications section, enable Users can allow apps to access their data.
@@ -99,10 +103,10 @@ You can “unlink” your account by going to <b>Settings > Updates & Security >
 
 ## New to Azure Active Directory? 
 
- Try these topics.
+ Try these topics to learn more about Azure Active Directory (AAD).
  1. [Introduction to AAD](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect)
  2. [Add users](https://docs.microsoft.com/azure/active-directory/active-directory-users-create-azure-portal)
  3. [Device registration](https://docs.microsoft.com/azure/active-directory/active-directory-device-registration-overview) 
- 4. [Integrate your on-premises directories with Azure AD](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect).
+ 4. [Integrate your on-premises directories with Azure AD](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect)
 
 
