@@ -89,6 +89,9 @@ To do this through the classic Azure portal:
 To do this through the new Azure portal:
 1. Go to [https://portal.azure.com/](https://portal.azure.com/)
 2. Switch to the Active Directory dashboard.
+
+![new ADD dashboard](images/wip-4-biz-new-aad.png "new ADD dashboard")
+
 3. Switch to the appropriate directory.
 
 ![new directory](images/wip-4-biz-aad-new-directory-button.png "new directory")
