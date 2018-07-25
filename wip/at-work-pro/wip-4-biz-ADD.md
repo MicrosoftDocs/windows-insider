@@ -26,7 +26,7 @@ In order to get the most benefit out of the Windows Insider Program for Business
 
 Rather than have each user in your organization register for Windows 10 Insider Preview builds, you can now simply register your domain – and cover all users with just one registration.
 
-<b>Important</b>You need to be signed in as a Global Administrator of the Azure AD domain in order to be able to register the domain.
+<b>Important</b> You need to be signed in as a Global Administrator of the Azure AD domain in order to be able to register the domain.
 
 1. On the [Windows Insider website](https://insider.windows.com/), go to <b>For Business</b> > <b>Getting Started</b> to [register your organizational Azure AD account](https://insider.windows.com/en-us/insidersigninaad/).
 2. [Register your domain](https://insider.windows.com/en-us/for-business-organization-admin/) and control settings centrally.
@@ -84,14 +84,14 @@ To do this through the classic Azure portal:
 ![enable applications](images/wip-4-biz-aad-classic-enable.png "enable applications")
 
 To do this through the new Azure portal:
-Go to [https://portal.azure.com/](https://portal.azure.com/)
-Switch to the Active Directory dashboard.
+1. Go to [https://portal.azure.com/](https://portal.azure.com/)
+2. Switch to the Active Directory dashboard.
 ![AAD dashboard](images/wip-4-biz-new-aad.png" AAD dashboard")
-Switch to the appropriate directory.
+3. Switch to the appropriate directory.
 ![new directory](images/wip-4-biz-aad-new-directory-button.png "new directory")
-Under the Manage section, select User settings.
+4. Under the Manage section, select User settings.
 ![user settings](images/wip-4-biz-aad-new-user-settings.png "user settings")
-In the Enterprise applications section, enable Users can allow apps to access their data.
+5. In the Enterprise applications section, enable Users can allow apps to access their data.
 ![enable users](images/wip-4-biz-aad-new-enable.png "enable users")
 
 ## Stop receiving updates
