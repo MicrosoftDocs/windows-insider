@@ -89,12 +89,16 @@ To do this through the new Azure portal:
 1. Go to [https://portal.azure.com/](https://portal.azure.com/)
 2. Switch to the Active Directory dashboard.
 
-![AAD dashboard](images/wip-4-biz-new-aad.png" AAD dashboard")
+![AAD dashboard](images/wip-4-biz-classic-aad.png" AAD dashboard")
+
 3. Switch to the appropriate directory.
+
 ![new directory](images/wip-4-biz-aad-new-directory-button.png "new directory")
 
 4. Under the Manage section, select User settings.
+
 ![user settings](images/wip-4-biz-aad-new-user-settings.png "user settings")
+
 5. In the Enterprise applications section, enable Users can allow apps to access their data.
 ![enable users](images/wip-4-biz-aad-new-enable.png "enable users")
 
