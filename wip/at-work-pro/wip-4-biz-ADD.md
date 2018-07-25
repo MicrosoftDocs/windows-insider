@@ -80,6 +80,7 @@ To do this through the classic Azure portal:
 2. Switch to the Active Directory dashboard.
 
 ![AAD dashboard](images/wip-4-biz-classic-aad.png "AAD dashboard")
+
 3. Select the appropriate directory and go to the <b>Configure</b> tab.
 4. Under the <b>integrated applications</b> section, enable <b>Users may give applications permissions to access their data</b>.
 
@@ -88,9 +89,6 @@ To do this through the classic Azure portal:
 To do this through the new Azure portal:
 1. Go to [https://portal.azure.com/](https://portal.azure.com/)
 2. Switch to the Active Directory dashboard.
-
-![AAD dashboard](images/wip-4-biz-classic-aad.png" "AAD dashboard")
-
 3. Switch to the appropriate directory.
 
 ![new directory](images/wip-4-biz-aad-new-directory-button.png "new directory")
