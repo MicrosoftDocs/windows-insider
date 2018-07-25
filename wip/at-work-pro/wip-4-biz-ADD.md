@@ -35,7 +35,7 @@ Rather than have each user in your organization register for Windows 10 Insider 
 
 Go to <b>Settings > Accounts > Access work or school</b>. If a corporate account is on Azure Active Directory and it is connected to the device, you will see the account listed as highlighted in the image below.
 
-![ADD subscription](images/wip-4-biz-ADD.png "ADD")
+![ADD subscription](images/wip-4-biz-settings.png "ADD")
 
 ## Enroll a device with an AAD account
 
