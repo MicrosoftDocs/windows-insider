@@ -63,7 +63,7 @@ With the current version of the Feedback Hub app, we need the user's consent to 
 
 Once agreed, everything will work fine, and that user won't be prompted for permission again.
 
-### Something went wrong
+### Something went wrong error
 
 The option for users to give consent for apps to access their profile data is controlled through Azure Active Directory. This means the AAD administrators have the ability to allow or block users from giving consent.
 
@@ -73,6 +73,26 @@ In case the administrators blocked this option, when the user signs in with the 
 
 This blocks the user from signing in, which means they won't be able to use the Feedback Hub app with their AAD credentials.
 
+To fix this issue, an administrator of the AAD directory will need to enable user consent for apps to access their data.
+
+To do this through the classic Azure portal:
+1. Go to https://manage.windowsazure.com/ .
+2. Switch to the Active Directory dashboard.
+![AAD dashboard](images/wip-4-biz-classic-aad.png "AAD dashboard")
+3. Select the appropriate directory and go to the <b>Configure</b> tab.
+4. Under the <b>integrated applications</b> section, enable <b>Users may give applications permissions to access their data</b>.
+![enable applications](images/wip-4-biz-aad-classic-enable.png "enable applications")
+
+To do this through the new Azure portal:
+Go to [https://portal.azure.com/](https://portal.azure.com/)
+Switch to the Active Directory dashboard.
+![AAD dashboard](images/wip-4-biz-new-aad.png" AAD dashboard")
+Switch to the appropriate directory.
+![new directory](images/wip-4-biz-aad-new-directory-button.png "new directory")
+Under the Manage section, select User settings.
+![user settings](images/wip-4-biz-aad-new-user-settings.png "user settings")
+In the Enterprise applications section, enable Users can allow apps to access their data.
+![enable users](images/wip-4-biz-aad-new-enable.png "enable users")
 
 
 ## New to Azure Active Directory? 
