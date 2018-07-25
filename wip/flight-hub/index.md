@@ -16,8 +16,15 @@ ms.author: dawn.wood
 
 Welcome to Flight Hub! Use this dashboard to quickly identify the latest Windows Insider Preview releases for PC, Server, IoT. You can also look up the status of the SDK and ISO images. 
 
-## Next feature update for Windows 10 (RS5)
-You can get builds of RS5 today if your device is in the Fast ring. RS5 Skip Ahead is complete but you can see the builds that went out as Skip Ahead below, marked with an asterisk.  
+## Next feature update for Windows 10 (19H1)
+You can now get Skip Ahead builds of Windows 10 (19H1) if your device is in the Skip ahead ring, denoted in the table below with asterisk.
+
+| Build | Fast | Slow | Server | IoT | ISO | SDK |
+|-------|------|------|--------|-----|-----|-----|
+|18204| [<b>7/25/2018*</b>](https://aka.ms/for-kevin)||
+
+## Upcoming feature update for Windows 10 (RS5)
+You can get builds of RS5 today if your device is in the Fast ring. RS5 Skip ahead is complete but you can see the builds that went out as Skip Ahead below, marked with an asterisk.  
 
 Builds of Windows Server 2019 are released to members of the Windows Insider Program for Server. 
 
@@ -26,9 +33,10 @@ The items in <b>bold</b> typeface are the latest release for that version of the
 
 | Build | Fast | Slow | Server | IoT | ISO | SDK |
 |-------|------|------|--------|-----|-----|-----|
-|17713|[<b>7/11/2018</b>](https://blogs.windows.com/windowsexperience/2018/07/11/announcing-windows-10-insider-preview-build-17713/#VfTc9eZ8VUTwkTZa.97)||[<b>7/17/2018</b>](https://blogs.windows.com/windowsexperience/2018/07/17/announcing-windows-server-2019-insider-preview-build-17713/)|||[<b>7/17/2018</b>](https://blogs.windows.com/buildingapps/2018/07/17/windows-10-sdk-preview-build-17713-available-now/)|
+|17723|[<b>7/25/2018</b>](https://aka.ms/for-kevin)
+|17713|[7/11/2018](https://blogs.windows.com/windowsexperience/2018/07/11/announcing-windows-10-insider-preview-build-17713/#VfTc9eZ8VUTwkTZa.97)||[<b>7/17/2018</b>](https://blogs.windows.com/windowsexperience/2018/07/17/announcing-windows-server-2019-insider-preview-build-17713/)|||[<b>7/17/2018</b>](https://blogs.windows.com/buildingapps/2018/07/17/windows-10-sdk-preview-build-17713-available-now/)|
 |17711 |[7/06/2018](https://blogs.windows.com/windowsexperience/2018/07/06/announcing-windows-10-insider-preview-build-17711/#pUW9cjmXxe9x6w6x.97)||||||
-| 17709|||[<b>7/10/2018</b>](https://blogs.windows.com/windowsexperience/2018/07/10/announcing-windows-server-2019-insider-preview-build-17709/#b6poiiddhTvuBjzy.97)|||[<b>7/10/2018</b>](https://blogs.windows.com/buildingapps/2018/07/10/windows-10-sdk-preview-build-17709-available-now/)|
+| 17709|||[7/10/2018](https://blogs.windows.com/windowsexperience/2018/07/10/announcing-windows-server-2019-insider-preview-build-17709/#b6poiiddhTvuBjzy.97)|||[7/10/2018](https://blogs.windows.com/buildingapps/2018/07/10/windows-10-sdk-preview-build-17709-available-now/)|
 | 17704 | [6/27/2018](https://aka.ms/jasons-build)|||||[7/03/2018](https://blogs.windows.com/buildingapps/2018/07/03/windows-10-sdk-preview-build-17704-available-now/)|
 | 17692 | [6/14/2018](https://aka.ms/e3-was-fun)|7/02/2018|[6/19/2018](https://aka.ms/wipserver17692)|||[6/19/2018](https://blogs.windows.com/buildingapps/2018/06/19/windows-10-sdk-preview-build-17692-available-now/)
 | 17686 | [6/06/2018](https://aka.ms/jumanji)|||||[6/12/2018](https://blogs.windows.com/buildingapps/2018/06/12/windows-10-sdk-preview-build-17686-available-now/)
@@ -47,7 +55,7 @@ The items in <b>bold</b> typeface are the latest release for that version of the
 | 17618 | [3/07/2018*](https://blogs.windows.com/windowsexperience/2018/03/07/announcing-windows-10-insider-preview-build-17618-skip-ahead/) | 
 | 17604 | [2/14/2018*](https://blogs.windows.com/windowsexperience/2018/02/14/announcing-windows-10-insider-preview-build-17101-fast-build-17604-skip-ahead/) | 
 
-## Upcoming feature update for Windows 10 (RS4)
+## Windows 10 April 2018 Update (RS4)
 Window 10 version 1803 was released to the world on April 30, 2018. Windows Insiders helped test 46 builds.  
 
 | Build | Fast | Slow | Server | IoT | ISO | SDK | 
