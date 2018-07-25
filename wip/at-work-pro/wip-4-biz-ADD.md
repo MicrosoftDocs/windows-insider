@@ -89,7 +89,7 @@ To do this through the new Azure portal:
 1. Go to [https://portal.azure.com/](https://portal.azure.com/)
 2. Switch to the Active Directory dashboard.
 
-![AAD dashboard](images/wip-4-biz-classic-aad.png" AAD dashboard")
+![AAD dashboard](images/wip-4-biz-classic-aad.png" "AAD dashboard")
 
 3. Switch to the appropriate directory.
 
