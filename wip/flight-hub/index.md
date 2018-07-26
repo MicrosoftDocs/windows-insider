@@ -33,7 +33,7 @@ The items in <b>bold</b> typeface are the latest release for that version of the
 
 | Build | Fast | Slow | Server | IoT | ISO | SDK |
 |-------|------|------|--------|-----|-----|-----|
-|17723|[<b>7/25/2018</b>](https://aka.ms/for-kevin)
+|17723|[<b>7/25/2018</b>](https://aka.ms/for-kevin)|[<b>7/26/2018</b>](https://aka.ms/ant-man)
 |17713|[7/11/2018](https://blogs.windows.com/windowsexperience/2018/07/11/announcing-windows-10-insider-preview-build-17713/#VfTc9eZ8VUTwkTZa.97)||[<b>7/17/2018</b>](https://blogs.windows.com/windowsexperience/2018/07/17/announcing-windows-server-2019-insider-preview-build-17713/)|||[<b>7/17/2018</b>](https://blogs.windows.com/buildingapps/2018/07/17/windows-10-sdk-preview-build-17713-available-now/)|
 |17711 |[7/06/2018](https://blogs.windows.com/windowsexperience/2018/07/06/announcing-windows-10-insider-preview-build-17711/#pUW9cjmXxe9x6w6x.97)||||||
 | 17709|||[7/10/2018](https://blogs.windows.com/windowsexperience/2018/07/10/announcing-windows-server-2019-insider-preview-build-17709/#b6poiiddhTvuBjzy.97)|||[7/10/2018](https://blogs.windows.com/buildingapps/2018/07/10/windows-10-sdk-preview-build-17709-available-now/)|
