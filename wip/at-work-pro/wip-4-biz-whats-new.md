@@ -26,10 +26,10 @@ For Microsoft Edge kiosk mode running in single-app assigned access the two kios
 
 ![single app assigned access](images/SingleApp_contosoHotel_inFrame@2x.png "single app assigned access")
 
-For Microsoft Edge kiosk mode running in multi-app assigned access the two kiosk types are (Note the following Microsoft Edge kiosk mode types cannot be setup using the new simplified assigned access configuration page in Windows 10 Settings):
+For Microsoft Edge kiosk mode running in multi-app assigned access the two kiosk types are (<i>Note the following Microsoft Edge kiosk mode types cannot be setup using the new simplified assigned access configuration page in Windows 10 Settings</i>):
+
 3. <b>Public browsing</b> supports multi-tab browsing and runs InPrivate mode with minimal features available. In this configuration, Microsoft Edge can be one of many apps available. Users can close and open multiple InPrivate windows.
 ![multi-app assigned access](images/Multi-app_kiosk_inFrame@2x.png "multi-app assigned access")
-
 4. <b>Normal mode<b> runs a full version of Microsoft Edge, although some features may not work depending on what apps are configured in assigned access. For example, if the Microsoft Store is not set up, users cannot get books.
 ![normal mode](images/Normal_inFrame.png "normal mode")
 
