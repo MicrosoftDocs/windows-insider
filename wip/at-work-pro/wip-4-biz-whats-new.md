@@ -5,7 +5,7 @@ services: WIP-at-work-pro
 author: dawn.wood
 manager: elizapo
 ms.service: WIP-at-work-pro
-ms.date: 07/12/2018
+ms.date: 07/30/2018
 ms.author: dawn.wood
 ---
 
@@ -15,6 +15,8 @@ ms.author: dawn.wood
 We have introduced a simplified assigned access configuration page in Settings that allows device administrators to easily set up their PC as a kiosk or digital sign. This new page provides a wizard experience that walks you through the kiosk setup flow including creating a kiosk account that will automatically sign in on device start.
 
 Please go to Settings, search for assigned access, and open the “Set up a kiosk” page to give it a try. We would love to hear your feedback! Let us know via the [Feedback Hub](wip-4-biz-feedback-hub.md).   
+
+![set up a kiosk](images/kiosk-mode.png "set up a kiosk")
 
 We are very excited to announce that Microsoft Edge now works with assigned access which allows IT administrators to create a tailored browsing experience designed for kiosk devices. Microsoft Edge kiosk mode supports the following four types:
 1. Digital / Interactive signage that displays a specific website full-screen InPrivate.
