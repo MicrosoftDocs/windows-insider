@@ -84,6 +84,9 @@ For more details, check out [Introducing extended line endings support in Notepa
 As many of you know, we added dark theme support to Windows based on your feedback. This setting is available under Settings > Personalization > Colors, and if you switch it any apps and system UI that support it will follow suit. Since releasing this feature, our top feedback request from you has been to update File Explorer to support dark theme. Along the way, we also added dark theme support to the File Explorer context menu, as well as the Common File Dialog (aka the Open and Save dialogs). Thanks again for everyone’s feedback! 
 
 ## Microsoft Edge Improvements
+
+<b>Retired XSS Filter:</b> We are retiring the XSS filter in Microsoft Edge. Our customers remain protected thanks to modern standards like Content Security Policy, which provide more powerful, performant, and secure mechanisms to protect against content injection attacks, with high compatibility across modern browsers.
+
 <b>New, clearer “Settings and more” (“…”) menu:</b> We’ve redesigned the “Settings and more” menu in Microsoft Edge so it’s easier to find the options you’re looking for. The menu options are now organized into groups, with icons for each entry, and keyboard shortcuts (where applicable). Click the “…” button in the top-right corner of Microsoft Edge to see what’s new! 
 
 ![alt text](images/SettingsandMore.png "Edge menu options")
@@ -156,15 +159,27 @@ To rotate a HEIF image file, simply right-click on it in File Explorer and selec
 
 ## Input 
 
+### Emoji 11
+[Unicode 11 comes with 157 new emoji](http://blog.unicode.org/2018/06/announcing-unicode-standard-version-110.html) – as of today they’re now available for Insiders to try in the build. Including superheroes, redheads, a softball, a pirate flag and a llama all made the cut. You can access them using the Emoji Panel (WIN+.) or the touch keyboard.
+
+![new emojis](images/WindowsInsiderBlog_EmojiRS5.png "new emojis")
+
+When you get today’s build, you’ll also find that we’ve made tweaks to some of our existing emoji – here are some examples:
+
+![emojis before after combo](images/emoji_beforeaftercombo.png "emojis before after combo")
+
+Our ninja cats got a bit of love too – can you spot the difference?
+![ninja cat emojis](images/WindowsInsiderBlog_EmojiRS5_NinjaCats.png "ninja cat emojis")
+
 <b>Emoji design updates</b> based on your feedback and to improve consistency, we’ve made adjustments to the design of some of our emoji. Examples of updated emoji include:
 
 <b>Before</b>
 
-![alt text](images/before_emoji.png "emojis before")
+![emojis before](images/before_emoji.png "emojis before")
 
 <b>After</b>
 
-![alt text](images/after_emoji.png "emojis after")
+![emojis after](images/after_emoji.png "emojis after")
 
 <b>Emoji search comes to more languages</b>: You can find an emoji by keyword in over 150 locales, including English (Great Britain), French (France), German (Germany), Spanish (Spain), and more. This will help you get the emoji you want easily and quickly. As a reminder, to bring up the Emoji Panel set focus to a text field and press WIN + (period) or WIN + (semicolon).
 
