@@ -204,7 +204,18 @@ We would love to hear what you think as you try out these improvements. This [li
 
 ## Windows mixed reality flashlight
 
+How many times have you been immersed in a captivating virtual experience and…
+* Wanted to take a quick peek at someone nearby?
+* Wanted to reach for a drink, your phone or a keyboard?
+* Needed to find a surface to set down your controllers?
 
+In the past you probably fumbled about or removed your headset, which can be clumsy if you have controllers in your hands.
+
+We added the ability to peer into your physical environment through Flashlight – without removing your headset! With the latest Windows Insider Program build, you can open a portal into your real world at any time via the Start menu, a button shortcut, or a voice command. This opens a low-latency pass-through camera feed connected to your controller. It’s comfortable, intuitive, and keeps you immersed.
+
+![mixed reality flashlight](images/NetAdapterSteps_Pic1.png "Net adapter steps")
+
+Flashlight finally allows you to mix your physical and virtual realities. 
 
 ## Mobile Broadband (LTE) connectivity on Windows gets a makeover
 
@@ -226,9 +237,9 @@ If your PC supports Mobile Broadband, i.e., your PC relies on cellular network f
 4. Once installed reboot for the new driver to take effect. 
 5. Ensure the status of the connection remains “Connected”.
 
-![alt text](images/NetAdapterSteps_Pic1.png "Net adapter steps")
-![alt text](images/NetAdpaterSteps_Pic2.PNG "Net adapter steps")
-![alt text](images/NetAdapterSteps_Pic3.jpg "Net adapter steps")
+![net adapter steps](images/NetAdapterSteps_Pic1.png "Net adapter steps")
+![net adapter steps](images/NetAdpaterSteps_Pic2.PNG "Net adapter steps")
+![net adapter steps](images/NetAdapterSteps_Pic3.jpg "Net adapter steps")
 
 <b>Note</b>: Follow the instructions in Step 4 to revert to the default driver(xxxxx Mobile Broadband Adapter), in case of issues with Net Adapter driver(Generic Mobile Broadband Cx Net Adapter). 
 
