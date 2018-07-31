@@ -8,7 +8,7 @@ ms.assetid:
 ms.service: WIP-at-work
 ms.tgt_pltfrm: na
 ms.devlang: na
-ms.date: 04/10/2018
+ms.date: 07/31/2018
 ms.author: dawn.wood
 ---
 
@@ -116,8 +116,11 @@ Operating system components that are available with this update:
 These components come with support for SQL Server Management Studio (SSMS), version 16 and 17, which must be installed separately from SQL Server via command line.
 
 To install Failover Cluster Manager, launch PowerShell, and then enter the following command:
-		Install-WindowsFeature -Name Failover-Clustering -IncludeManagementTools
-To run Failover Cluster Manager, enter cluadmin at a regular command prompt.
+<p><i>Install-WindowsFeature -Name Failover-Clustering -IncludeManagementTools</i>
+
+To run Failover Cluster Manager, enter <i>cluadmin</i> at a regular command prompt.
+
+
 The following installation procedure uses Deployment Image Servicing and Management (DISM.exe), a command-line tool. For more information about DISM commands, see [DISM Capabilities Package Servicing Command-Line Options](https://docs.microsoft.com/en-us/windows-hardware/manufacture/desktop/dism-capabilities-package-servicing-command-line-options).
 
 To install Server Core with FoD binaries
@@ -128,10 +131,14 @@ To install Server Core with FoD binaries
 5. Copy the FoD ISO to a local folder of your choosing.
 6. Start PowerShell by entering powershell.exe at a command prompt.
 7. Mount the FoD ISO by using the following command:
-Mount-DiskImage -ImagePath drive_letter:\folder_where_ISO_is_saved
+
+<i>Mount-DiskImage -ImagePath drive_letter:\folder_where_ISO_is_saved</i>
+
 8. Enter exit to exit PowerShell.
 9. Enter the following command:
-DISM /Online /Add-Capability /CapabilityName:Server.Appcompat~~~~0.0.1.0 /Source:drive_letter_of_mounted_ISO: /LimitAccess
+
+<i>DISM /Online /Add-Capability /CapabilityName:Server.Appcompat~~~~0.0.1.0 /Source:drive_letter_of_mounted_ISO: /LimitAccess</i>
+
 10. After the progress bar completes, restart the operating system at the prompt.
 
 ## Storage Spaces Direct

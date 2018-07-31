@@ -9,7 +9,7 @@ ms.service: WIP-at-work
 ms.tgt_pltfrm: na
 ms.devlang: na
 
-ms.date: 04/10/2018
+ms.date: 07/31/2018
 ms.author: dawn.wood
 ---
 
@@ -196,10 +196,15 @@ Local Experience Packs are Microsoft Store apps that deliver Windows display lan
 We would love to hear what you think as you try out these improvements. This [link](http://aka.ms/narratorfb) will take you to the Narrator section of the Feedback Hub, or you can press Caps + E while Narrator is running.
 
 ## Windows mixed reality improvements
+
 * You can stream audio to both the headset and the PC speakers simultaneously. To try it out make sure that you can hear sound from your normal PC speakers when not running the Mixed Reality Portal (MRP) and from the headset’s audio jack or built-in headphones when mixed reality is running. Then close all apps, including MRP, and go to Settings > Mixed reality > Audio and speech to turn on “When Mixed Reality Portal is running, mirror headset audio to desktop.” You should now hear audio from both the headset and PC speakers when running mixed reality.
 * Windows no longer requires a physical monitor to be connected while running Mixed Reality in cases such as backpack PCs. Setting up WMR for the first time in Mixed Reality Portal and unlocking the PC on the sign in screen still, require a monitor to be connected initially. However, you can configure auto login to prevent needing to sign in for subsequent usage here. Using Windows Mixed Reality while standing requires setting up a room boundary.
 * Apps running in Windows Mixed Reality can now make use of the Camera Capture UI API to capture images of the mixed reality world using the system capture experience. Try running Mail in the Cliff House and inserting an image from your camera in a new message to share an image of the scenic view.
 * We’ve also made some adjustments to the mixed reality video capture experience in this build to make it easier to stop videos from the Start menu.
+
+## Windows mixed reality flashlight
+
+
 
 ## Mobile Broadband (LTE) connectivity on Windows gets a makeover
 
