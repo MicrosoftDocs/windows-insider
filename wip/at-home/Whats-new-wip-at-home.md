@@ -213,7 +213,7 @@ In the past you probably fumbled about or removed your headset, which can be clu
 
 We added the ability to peer into your physical environment through Flashlight – without removing your headset! With the latest Windows Insider Program build, you can open a portal into your real world at any time via the Start menu, a button shortcut, or a voice command. This opens a low-latency pass-through camera feed connected to your controller. It’s comfortable, intuitive, and keeps you immersed.
 
-![mixed reality flashlight](images/NetAdapterSteps_Pic1.png "Net adapter steps")
+![mixed reality flashlight](images/Flashlight_7-13.png "mixed reality flashlight")
 
 Flashlight finally allows you to mix your physical and virtual realities. 
 
