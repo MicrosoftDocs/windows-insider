@@ -210,6 +210,10 @@ Local Experience Packs are Microsoft Store apps that deliver Windows display lan
 
 We would love to hear what you think as you try out these improvements. This [link](http://aka.ms/narratorfb) will take you to the Narrator section of the Feedback Hub, or you can press Caps + E while Narrator is running.
 
+## Time Accuracy and Traceability improvements
+
+* <b>Leap Second Support:</b> Windows will now support these occasional 1-second adjustments in a traceable and UTC-compliant manner. What’s a leap second? As the earth’s rotation slows, [UTC](https://en.wikipedia.org/wiki/Coordinated_Universal_Time) (an atomic timescale) diverges from [mean solar time](https://en.wikipedia.org/wiki/Solar_time#Mean_solar_time) or astronomical time.  Once UTC has diverged by at most .9 seconds, a [Leap Second](https://en.wikipedia.org/wiki/Leap_second) is inserted to keep UTC in-sync with mean solar time.  Since the practice of inserting leap seconds began in 1972, a leap second has typically occurred every 18 months.
+
 ## Windows mixed reality improvements
 
 * You can stream audio to both the headset and the PC speakers simultaneously. To try it out make sure that you can hear sound from your normal PC speakers when not running the Mixed Reality Portal (MRP) and from the headset’s audio jack or built-in headphones when mixed reality is running. Then close all apps, including MRP, and go to Settings > Mixed reality > Audio and speech to turn on “When Mixed Reality Portal is running, mirror headset audio to desktop.” You should now hear audio from both the headset and PC speakers when running mixed reality.
