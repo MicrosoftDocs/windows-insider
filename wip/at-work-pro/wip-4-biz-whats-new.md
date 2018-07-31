@@ -5,13 +5,40 @@ services: WIP-at-work-pro
 author: dawn.wood
 manager: elizapo
 ms.service: WIP-at-work-pro
-ms.date: 07/12/2018
+ms.date: 07/30/2018
 ms.author: dawn.wood
 ---
 
 # What’s New in Windows 10 Insider Program for Business Preview Builds 
+## Improved Kiosk Setup Experience (Build 17723)
+
+We have introduced a simplified assigned access configuration page in Settings that allows device administrators to easily set up their PC as a kiosk or digital sign. This new page provides a wizard experience that walks you through the kiosk setup flow including creating a kiosk account that will automatically sign in on device start.
+
+Please go to Settings, search for assigned access, and open the “Set up a kiosk” page to give it a try. We would love to hear your feedback! Let us know via the [Feedback Hub](wip-4-biz-feedback-hub.md).   
+
+![set up a kiosk](images/kiosk-mode.png "set up a kiosk")
+
+We are very excited to announce that Microsoft Edge now works with assigned access which allows IT administrators to create a tailored browsing experience designed for kiosk devices. Microsoft Edge kiosk mode supports the following four types.
+
+For Microsoft Edge kiosk mode running in single-app assigned access the two kiosk types are:
+1. <b>Digital / Interactive signage</b> that displays a specific website full-screen InPrivate.
+2. <b>Public browsing</b> supports multi-tab browsing and runs InPrivate with minimal features available. Users cannot minimize, close, or open a new Microsoft Edge windows or customize it using Microsoft Edge Settings. Users can clear browsing data, downloads and restart Microsoft Edge by clicking “End session.” Administrators can configure Microsoft Edge to restart after a period of inactivity.
+
+![single app assigned access](images/SingleApp_contosoHotel_inFrame@2x.png "single app assigned access")
+
+For Microsoft Edge kiosk mode running in multi-app assigned access the two kiosk types are (<i>Note the following Microsoft Edge kiosk mode types cannot be setup using the new simplified assigned access configuration page in Windows 10 Settings</i>):
+
+3. <b>Public browsing</b> supports multi-tab browsing and runs InPrivate mode with minimal features available. In this configuration, Microsoft Edge can be one of many apps available. Users can close and open multiple InPrivate windows.
+![multi-app assigned access](images/Multi-app_kiosk_inFrame@2x.png "multi-app assigned access")
+4. <b>Normal mode</b> runs a full version of Microsoft Edge, although some features may not work depending on what apps are configured in assigned access. For example, if the Microsoft Store is not set up, users cannot get books.
+![normal mode](images/Normal_inFrame.png "normal mode")
+
+
+## New Microsoft Edge Group Policies (Build 17723)
+The Microsoft Edge team introduced new Group Policies and MDM settings for IT administrators to manage Microsoft Edge. The new policies include enabling/disabling full-screen mode, printing, favorites bar, and saving history; prevent certificate error overrides; configuring the Home button and startup options; setting the New Tab page and Home button URL and managing extensions. Learn more about the [new Microsoft Edge policies](https://aka.ms/new-microsoft-edge-group-policies).
 
 ## Microsoft Edge kiosk mode (Build 17713)
+
 Microsoft Edge kiosk mode works with assigned access to let IT administrators create a tailored browsing experience designed for kiosk devices. 
 When you configure Microsoft Edge kiosk mode in assigned access, you can set it up to show only a single URL in full-screen, in the case of digital/interactive signage on a single-app kiosk device. You can restrict Microsoft Edge for public browsing (on a single and multi-app kiosk device) which runs a multi-tab version of InPrivate with limited functionality. Also, you can configure a multi-app kiosk device to run a full or normal version of Microsoft Edge. 
 Learn more about [Microsoft Edge kiosk mode](https://docs.microsoft.com/en-us/microsoft-edge/deploy/microsoft-edge-kiosk-mode-deploy).

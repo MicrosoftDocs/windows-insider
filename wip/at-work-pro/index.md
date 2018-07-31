@@ -65,7 +65,7 @@ If you are interested in flighting For Windows Server 2019, we also have the Win
 
 <ul class="cardsF panelContent cols cols2">
     <li>
-        <a href="https://support.microsoft.com/help/4021566/windows-10-send-feedback-to-microsoft-with-feedback-hub-app">
+        <a href="https://docs.microsoft.com/en-us/windows-insider/at-work-pro/wip-4-biz-feedback-hub">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
