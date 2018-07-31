@@ -214,6 +214,24 @@ We would love to hear what you think as you try out these improvements. This [li
 
 * <b>Leap Second Support:</b> Windows will now support these occasional 1-second adjustments in a traceable and UTC-compliant manner. What’s a leap second? As the earth’s rotation slows, [UTC](https://en.wikipedia.org/wiki/Coordinated_Universal_Time) (an atomic timescale) diverges from [mean solar time](https://en.wikipedia.org/wiki/Solar_time#Mean_solar_time) or astronomical time.  Once UTC has diverged by at most .9 seconds, a [Leap Second](https://en.wikipedia.org/wiki/Leap_second) is inserted to keep UTC in-sync with mean solar time.  Since the practice of inserting leap seconds began in 1972, a leap second has typically occurred every 18 months.
 
+* <b>Precision Time Protocol:</b> For the highest accuracy environments, you can now improve your time accuracy by leveraging a new time protocol that delivers far more accurate time samples to the endpoint (Windows Server 2019 or Windows 10, host or virtual machine).
+
+* <b>Software Timestamping:</b> You can now further improve your network time accuracy by eliminating the software delay introduced by the Windows networking stack.
+
+For a full write up with more details about these new improvements, please see our announcement [here](https://blogs.technet.microsoft.com/networking/2018/07/18/top10-ws2019-hatime/).
+
+## Improving your update experience
+
+Have you ever had to stop what you were doing, or wait for your computer to boot up because the device updated at the wrong time? We heard you, and to alleviate this pain, if you have an update pending we’ve updated our reboot logic to use a new system that is more adaptive and proactive. We trained a predictive model that can accurately predict when the right time to restart the device is. Meaning, that we will not only check if you are currently using your device before we restart, but we will also try to predict if you had just left the device to grab a cup of coffee and return shortly after.
+
+### How accurate is this model?
+
+We’ve been using this model on internal devices, and we’ve seen promising results upon rollout.  Due to the nature of its architecture, we’re able to update the model with minimal turnaround time based on our insights from its performance. It’s all thanks to our cloud infrastructure.
+
+### How do you give us feedback?
+
+If you find your device restarting at the wrong time, please file a bug in the [feedback hub](https://aka.ms/updatefeedback) with the details on your experience. (i.e. I went to grab a cup of coffee for 5 minutes and it updated!). We would love to hear your stories and take it into account when training our update model.
+
 ## Windows mixed reality improvements
 
 * You can stream audio to both the headset and the PC speakers simultaneously. To try it out make sure that you can hear sound from your normal PC speakers when not running the Mixed Reality Portal (MRP) and from the headset’s audio jack or built-in headphones when mixed reality is running. Then close all apps, including MRP, and go to Settings > Mixed reality > Audio and speech to turn on “When Mixed Reality Portal is running, mirror headset audio to desktop.” You should now hear audio from both the headset and PC speakers when running mixed reality.
