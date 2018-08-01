@@ -33,41 +33,6 @@ The items in <b>bold</b> typeface are the latest release for that version of the
 
 | Build | Fast | Slow | Server | IoT | ISO | SDK |
 |-------|------|------|--------|-----|-----|-----|
----
-title: Flight Hub
-description: Flight schedules and status for Windows Insider Program
-services: WIP
-author: dawn.wood
-manager: elizapo
-ms.assetid: 
-ms.service: WIP
-ms.tgt_pltfrm: na
-ms.devlang: na
-ms.date: 07/31/2018
-ms.author: dawn.wood
----
-
-# Flight Hub
-
-Welcome to Flight Hub! Use this dashboard to quickly identify the latest Windows Insider Preview releases for PC, Server, IoT. You can also look up the status of the SDK and ISO images. 
-
-## Next feature update for Windows 10 (19H1)
-You can now get Skip Ahead builds of Windows 10 (19H1) if your device is in the Skip ahead ring, denoted in the table below with asterisk.
-
-| Build | Fast | Slow | Server | IoT | ISO | SDK |
-|-------|------|------|--------|-----|-----|-----|
-|18204| [<b>7/25/2018*</b>](https://aka.ms/for-kevin)||
-
-## Upcoming feature update for Windows 10 (RS5)
-You can get builds of RS5 today if your device is in the Fast ring. RS5 Skip ahead is complete but you can see the builds that went out as Skip Ahead below, marked with an asterisk.  
-
-Builds of Windows Server 2019 are released to members of the Windows Insider Program for Server. 
-
-The items in <b>bold</b> typeface are the latest release for that version of the item. 
-
-
-| Build | Fast | Slow | Server | IoT | ISO | SDK |
-|-------|------|------|--------|-----|-----|-----|
 |17728| [<b>7/31/2018</b>](https://aka.ms/gul-dukat)
 |17723|[7/25/2018](https://aka.ms/for-kevin)||[<b>7/31/2018</b>](https://blogs.windows.com/windowsexperience/2018/07/31/announcing-windows-server-2019-insider-preview-build-17723)||[<b>7/31/2018</b>](https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewadvanced)|[<b>7/31/2018</b>](https://blogs.windows.com/buildingapps/2018/07/31/windows-10-sdk-preview-build-17723-available-now/)
 |17713|[7/11/2018](https://blogs.windows.com/windowsexperience/2018/07/11/announcing-windows-10-insider-preview-build-17713/)|[<b>7/26/2018</b>](https://blogs.windows.com/windowsexperience/2018/07/11/announcing-windows-10-insider-preview-build-17713/)|[7/17/2018](https://blogs.windows.com/windowsexperience/2018/07/17/announcing-windows-server-2019-insider-preview-build-17713/)|||[7/17/2018](https://blogs.windows.com/buildingapps/2018/07/17/windows-10-sdk-preview-build-17713-available-now/)|
