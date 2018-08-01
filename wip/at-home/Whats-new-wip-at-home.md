@@ -94,12 +94,12 @@ WrapAround
 ### Text zooming
 We’ve added options to make it quick and easy to zoom text in Notepad. There is a new menu option under View > Zoom to change the zoom level and we display the current zoom level in the status bar. You can also use Ctrl + Plus, Ctrl + Minus and Ctrl + MouseWheel to zoom in and out and use Ctrl + 0 to restore the zoom level to the default.
 
-![text zooming](images/zooming2.gif "text zooming")
+![text zooming](images/zooming2.png "text zooming")
 
 ### Line numbers with word-wrap
 A long outstanding request has been to add the ability to display line and column numbers when word-wrap is enabled. This is now possible in Notepad and we’ve made the status bar visible by default. You can still turn the status bar off in the View menu.
 
-![word-wrap](images/linenumbers.gif "word-wrap")
+![word-wrap](images/linenumbers.png "word-wrap")
 
 ## Microsoft Edge Improvements
 
