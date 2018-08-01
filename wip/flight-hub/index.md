@@ -8,7 +8,7 @@ ms.assetid:
 ms.service: WIP
 ms.tgt_pltfrm: na
 ms.devlang: na
-ms.date: 08/01/2018
+ms.date: 08/1/2018
 ms.author: dawn.wood
 ---
 
