@@ -74,16 +74,62 @@ Our new settings page for enabling this experience is under Settings > System > 
 * <b>Discover Bluetooth devices</b> – Try, “Show me how to discover devices”
 * <b>Check your version of Windows</b> – Try, “How do I find my current version of Windows”
 
-## Extended line endings support for Notepad 
+## Notepad improvements
+
+### Extended line endings support for Notepad 
 In addition to Windows line endings (CRLF), Notepad now supports Unix/Linux line endings (LF) and Macintosh line endings (CR)! 
 
-![alt text](images/notepad.png "notepad")
+![notepad](images/notepad.png "notepad")
 
 For more details, check out [Introducing extended line endings support in Notepad](https://aka.ms/notepadeol). ## Dark theme comes to File Explorer (and more!) 
 
 As many of you know, we added dark theme support to Windows based on your feedback. This setting is available under Settings > Personalization > Colors, and if you switch it any apps and system UI that support it will follow suit. Since releasing this feature, our top feedback request from you has been to update File Explorer to support dark theme. Along the way, we also added dark theme support to the File Explorer context menu, as well as the Common File Dialog (aka the Open and Save dialogs). Thanks again for everyone’s feedback! 
 
+### Wrap-around find and replace 
+We’ve made significant improvement to the find/replace experience in Notepad. We added the option to do wrap-around find/replace to the find dialog and Notepad will now remember previously entered values and the state of checkboxes and automatically populate them the next time you open the find dialog. Additionally, when you have text selected and open the find dialog we will automatically populate the search field with the selected text.
+WrapAround
+
+![wrap around find and replace](images/notepad.png "wrap around find and replace")
+
+### Text zooming
+We’ve added options to make it quick and easy to zoom text in Notepad. There is a new menu option under View > Zoom to change the zoom level and we display the current zoom level in the status bar. You can also use Ctrl + Plus, Ctrl + Minus and Ctrl + MouseWheel to zoom in and out and use Ctrl + 0 to restore the zoom level to the default.
+
+![text zooming](images/zooming2.gif "text zooming")
+
+### Line numbers with word-wrap
+A long outstanding request has been to add the ability to display line and column numbers when word-wrap is enabled. This is now possible in Notepad and we’ve made the status bar visible by default. You can still turn the status bar off in the View menu.
+
+![word-wrap](images/zooming2.gif "word-wrap")
+
 ## Microsoft Edge Improvements
+
+<b>New, clearer “Settings and more” (“…”) menu:</b> We’ve redesigned the “Settings and more” menu in Microsoft Edge so it’s easier to find the options you’re looking for. The menu options are now organized into groups, with icons for each entry, and keyboard shortcuts (where applicable). Click the “…” button in the top-right corner of Microsoft Edge to see what’s new! 
+
+![Edge menu options](images/SettingsandMore.png "Edge menu options")
+
+<b>See your top sites in the Jump List:</b> You can now see your top sites in the Jump List on the Windows taskbar or Start Menu. Just right-click the Microsoft Edge icon to see a list of your most visited sites and pin the ones that matter most to you. Right-click on any entry to remove it from the list. 
+
+<b>Organize the tabs you’ve set aside:</b> It's easier to organize the groups of tabs you’ve set aside, so you can remember what’s in each group when come back to it later. Once you’ve set a group of tabs aside, choose the “Tabs you’ve set aside” icon (top left corner), and click on the label for any group to rename it.  
+
+![tabs you've set aside](images/tabsaside.png "Tabs you've set aside")
+
+<b>Do more from the “Downloads” pane:</b> We’ve added options for “Show in folder” and “Copy link” to the right-click menu for downloads in the “Downloads” pane. 
+
+![downloads pane](images/downloads.png "Downloads pane")
+
+<b>Retired XSS Filter:</b> We are retiring the XSS filter in Microsoft Edge. Our customers remain protected thanks to modern standards like Content Security Policy, which provide more powerful, performant, and secure mechanisms to protect against content injection attacks, with high compatibility across modern browsers.
+
+### Microsoft Edge PDF Reader Improvements
+
+<b>Improved toolbar options:</b> The toolbar available on a PDF document opened in Microsoft Edge will now show text descriptions for the icons to make them easily understandable. by the users. New options like “Add notes” are now available in the toolbar so that these tools are handy when you need them.
+
+![improved toolbar](images/PDFImprovedToolbar.png "improved toolbar")
+
+<b>Pin/unpin PDF toolbar:</b> The toolbar can now be pinned at the top of the document, making all the PDF tools easily accessible if you need them. You can also unpin the toolbar for an immersive reading experience. If the toolbar is unpinned, it will hide itself – just hover over the top area to bring it back.
+
+![pin or unpin the toolbar](images/PDFPinButton.png "pin or unpin the toolbar")
+
+<b>Rendering improvements:</b> We’ve included a bunch of rendering performance fixes with this build. Now you will see less and less of the white pages when you navigate through PDF files in Microsoft Edge.
 
 ### Per-site media autoplay controls
 
@@ -97,21 +143,7 @@ We’ve added a new dictionary function, so you can look up definitions for key 
 
 ![dictionary](images/dictionary.png "dictionary")
 
-<b>Retired XSS Filter:</b> We are retiring the XSS filter in Microsoft Edge. Our customers remain protected thanks to modern standards like Content Security Policy, which provide more powerful, performant, and secure mechanisms to protect against content injection attacks, with high compatibility across modern browsers.
-
-<b>New, clearer “Settings and more” (“…”) menu:</b> We’ve redesigned the “Settings and more” menu in Microsoft Edge so it’s easier to find the options you’re looking for. The menu options are now organized into groups, with icons for each entry, and keyboard shortcuts (where applicable). Click the “…” button in the top-right corner of Microsoft Edge to see what’s new! 
-
-![Edge menu options](images/SettingsandMore.png "Edge menu options")
-
-<b>See your top sites in the Jump List:</b> You can now see your top sites in the Jump List on the Windows taskbar or Start Menu. Just right-click the Microsoft Edge icon to see a list of your most visited sites and pin the ones that matter most to you. Right-click on any entry to remove it from the list. 
-
-<b>Organize the tabs you’ve set aside:</b> It's easier to organize the groups of tabs you’ve set aside, so you can remember what’s in each group when come back to it later. Once you’ve set a group of tabs aside, choose the “Tabs you’ve set aside” icon (top left corner), and click on the label for any group to rename it.  
-
-![alt text](images/tabsaside.png "Tabs you've set aside")
-
-<b>Do more from the “Downloads” pane:</b> We’ve added options for “Show in folder” and “Copy link” to the right-click menu for downloads in the “Downloads” pane. 
-
-![alt text](images/downloads.png "Downloads pane")
+You can choose to have a word read aloud to you to hear the correct pronunciation or expand more details from the definition. You can toggle whether definitions appear and which types of content they work in under the “General” tab of the Microsoft Edge settings menu.
 
 ### WebDriver improvements
 It's easier than ever to automate testing in Microsoft Edge using WebDriver. First, we’ve made WebDriver a Windows Feature on Demand, so you no longer need to match the build/branch/flavor manually when installing WebDriver. When you take new Windows 10 updates, your WebDriver binary will be automatically updated to match.
