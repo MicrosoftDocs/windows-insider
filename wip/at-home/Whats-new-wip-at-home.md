@@ -14,7 +14,7 @@ ms.author: dawn.wood
 ---
 
 #  What's new in the Windows 10 Insider Preview Builds (RS5)
-The [Windows Insider Program](https://insider.windows.com/en-us/) lets you preview builds of the upcoming release of Windows 10. This topic lists all new Windows 10 features for you to try. Unlike the [Windows Insider Program Blog](https://blogs.windows.com/windowsexperience/tag/windows-insider-program), this topic is organized by feature instead of by the build number so that you can see all items about a specific feature listed together. 
+The [Windows Insider Program](https://insider.windows.com/en-us/) lets you preview builds of the upcoming release of Windows 10. This topic lists all new Windows 10 features for you to try. Unlike the [Windows Insider Program Blog](https://blogs.windows.com/windowsexperience/tag/windows-insider-program), this topic is organized by feature instead of by the build number so that you can see all items about a specific feature listed together.
 
 ## Acrylic Improvements
 
@@ -37,11 +37,13 @@ You will notice new acrylic backgrounds in places on the system using these cont
 ![alt text](images/acrylic.png "acrylic settings")
 
 ## Bluetooth battery percentage in Settings
+
 In the <b>Bluetooth & other devices</b> page in Settings, you can check the battery level of your Bluetooth devices for Bluetooth devices that support this feature, in which case the battery percentage will update whenever your PC and the device are connected.
 
 ![alt text](images/bluetoothbattery.png "bluetooth battery")
 
-## Say hello to your new clipboard experience! 
+## New clipboard experience
+
 Copy paste - it's something we all do, probably multiple times a day. But what do you do if you need to copy the same few things again and again? How do you copy content across your devices? Today we're addressing that and taking the clipboard to the next level - simply press WIN+V and you'll be presented with our brand-new clipboard experience!  
 
 ![alt text](images/clipboardhistory.png "clipboard history")
@@ -55,6 +57,7 @@ Our new settings page for enabling this experience is under Settings > System > 
 <b>Note:</b> Roamed text on the clipboard is only supported for clipboard content less than 100kb. Currently, the clipboard history supports plain text, HTML and images less than 1MB. 
 
 ## Cortana Show Me voice queries
+
  You can now launch the Cortana Show Me app through voice queries. Simply say to Cortana, “Show me how to change my background,” and you’ll get help content, with a new “Let’s go” button below, which launches the guided help experience. 
 
  You can download [Cortana Show Me](https://www.microsoft.com/en-us/store/r/cortana-follow-me/9pl1gmkcxm8c) from the Microsoft Store.
@@ -74,14 +77,12 @@ Our new settings page for enabling this experience is under Settings > System > 
 * <b>Discover Bluetooth devices</b> – Try, “Show me how to discover devices”
 * <b>Check your version of Windows</b> – Try, “How do I find my current version of Windows”
 
-## Extended line endings support for Notepad 
-In addition to Windows line endings (CRLF), Notepad now supports Unix/Linux line endings (LF) and Macintosh line endings (CR)! 
+## Ease of access improvements
+<b>Make Text Bigger</b>: We’ve heard your feedback and are excited to announce that the ability to increase text size across the system is back and better than ever! When you go to Settings > Ease of Access > Display in today’s build, you’ll find a new setting called “Make everything bigger” – this slider will adjust text across the system, win32 apps, and UWP apps.
 
-![alt text](images/notepad.png "notepad")
+![alt text](images/bigger-text.png "bigger text")
 
-For more details, check out [Introducing extended line endings support in Notepad](https://aka.ms/notepadeol). ## Dark theme comes to File Explorer (and more!) 
-
-As many of you know, we added dark theme support to Windows based on your feedback. This setting is available under Settings > Personalization > Colors, and if you switch it any apps and system UI that support it will follow suit. Since releasing this feature, our top feedback request from you has been to update File Explorer to support dark theme. Along the way, we also added dark theme support to the File Explorer context menu, as well as the Common File Dialog (aka the Open and Save dialogs). Thanks again for everyone’s feedback! 
+That means you can now make text bigger in Start menu, File Explorer, Settings, etc., without having to change the overall scaling of your system. 
 
 ## Microsoft Edge Improvements
 <b>New, clearer “Settings and more” (“…”) menu:</b> We’ve redesigned the “Settings and more” menu in Microsoft Edge so it’s easier to find the options you’re looking for. The menu options are now organized into groups, with icons for each entry, and keyboard shortcuts (where applicable). Click the “…” button in the top-right corner of Microsoft Edge to see what’s new! 
@@ -109,13 +110,7 @@ We’ve also updated WebDriver to match the latest [W3C Recommendation spec](htt
 Microsoft Edge now includes unprefixed support for the new Web Authentication API (a.k.a. WebAuthN). This evolves our previous support for the WebAuthN specification to enable the updated version of the API by default.
 
 Web Authentication provides an open, scalable, and interoperable solution to facilitate authentication, which replaces passwords with stronger hardware-bound credentials. The implementation in Microsoft Edge allows users to use Windows Hello (via PIN or biometrics) and external authenticators like FIDO2 Security Keys or FIDO U2F Security Keys, to securely authenticate to websites. 
-
-## Ease of access improvements
-<b>Make Text Bigger</b>: We’ve heard your feedback and are excited to announce that the ability to increase text size across the system is back and better than ever! When you go to Settings > Ease of Access > Display in today’s build, you’ll find a new setting called “Make everything bigger” – this slider will adjust text across the system, win32 apps, and UWP apps.
-
-![alt text](images/bigger-text.png "bigger text")
-
-That means you can now make text bigger in Start menu, File Explorer, Settings, etc., without having to change the overall scaling of your system. 
+ 
 
 ## External GPU Safe Removal Experience
 We added a safe removal experience for external GPUs connected via Thunderbolt 3. The safe remove experience allows you to know which applications are running on an external GPU so that you can safely remove to prevent data loss during detach.
@@ -234,6 +229,17 @@ If your PC supports Mobile Broadband, i.e., your PC relies on cellular network f
 
 <b>Step 4</b>: For Internet access, try using cellular network primarily by turning off Wi-Fi 
 To report issues and give feedback, use Feedback Hub on your PC and set Category and subcategory as Network and Internet -> Connecting to a cellular network. Use [cxwmbclass] in the summary.
+
+## Notepad improvements
+
+### Extended line endings support for Notepad 
+In addition to Windows line endings (CRLF), Notepad now supports Unix/Linux line endings (LF) and Macintosh line endings (CR)! 
+
+![alt text](images/notepad.png "notepad")
+
+For more details, check out [Introducing extended line endings support in Notepad](https://aka.ms/notepadeol). ## Dark theme comes to File Explorer (and more!) 
+
+As many of you know, we added dark theme support to Windows based on your feedback. This setting is available under Settings > Personalization > Colors, and if you switch it any apps and system UI that support it will follow suit. Since releasing this feature, our top feedback request from you has been to update File Explorer to support dark theme. Along the way, we also added dark theme support to the File Explorer context menu, as well as the Common File Dialog (aka the Open and Save dialogs). Thanks again for everyone’s feedback!
 
 ## Microsoft Pinyin and Wubi IMEs
 
