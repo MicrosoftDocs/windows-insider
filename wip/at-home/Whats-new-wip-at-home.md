@@ -77,17 +77,8 @@ Our new settings page for enabling this experience is under Settings > System > 
 * <b>Discover Bluetooth devices</b> – Try, “Show me how to discover devices”
 * <b>Check your version of Windows</b> – Try, “How do I find my current version of Windows”
 
-<<<<<<< HEAD
-## Notepad improvements
-
-### Extended line endings support for Notepad 
-In addition to Windows line endings (CRLF), Notepad now supports Unix/Linux line endings (LF) and Macintosh line endings (CR)! 
-
-![notepad](images/notepad.png "notepad")
-=======
 ## Ease of access improvements
 <b>Make Text Bigger</b>: We’ve heard your feedback and are excited to announce that the ability to increase text size across the system is back and better than ever! When you go to Settings > Ease of Access > Display in today’s build, you’ll find a new setting called “Make everything bigger” – this slider will adjust text across the system, win32 apps, and UWP apps.
->>>>>>> 76ee84905278ac1db2a5a3c30871d0ae41cc7b39
 
 ![alt text](images/bigger-text.png "bigger text")
 
@@ -102,7 +93,7 @@ WrapAround
 ### Text zooming
 We’ve added options to make it quick and easy to zoom text in Notepad. There is a new menu option under View > Zoom to change the zoom level and we display the current zoom level in the status bar. You can also use Ctrl + Plus, Ctrl + Minus and Ctrl + MouseWheel to zoom in and out and use Ctrl + 0 to restore the zoom level to the default.
 
-![text zooming](images/zooming2.png "text zooming")
+![text zooming](images/zooming2 .png "text zooming")
 
 ### Line numbers with word-wrap
 A long outstanding request has been to add the ability to display line and column numbers when word-wrap is enabled. This is now possible in Notepad and we’ve made the status bar visible by default. You can still turn the status bar off in the View menu.
