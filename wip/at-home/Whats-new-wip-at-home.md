@@ -266,7 +266,7 @@ We would love to hear what you think as you try out these improvements. This [li
 
 For a full write up with more details about these new improvements, please see our announcement [here](https://blogs.technet.microsoft.com/networking/2018/07/18/top10-ws2019-hatime/).
 
-## Improving your update experience
+## Update experience
 
 Have you ever had to stop what you were doing, or wait for your computer to boot up because the device updated at the wrong time? We heard you, and to alleviate this pain, if you have an update pending we’ve updated our reboot logic to use a new system that is more adaptive and proactive. We trained a predictive model that can accurately predict when the right time to restart the device is. Meaning, that we will not only check if you are currently using your device before we restart, but we will also try to predict if you had just left the device to grab a cup of coffee and return shortly after.
 
@@ -396,12 +396,6 @@ We made the Search experience wider so you can access information and actions in
 
 ![alt text](images/search.png "GitHub search example")
 
-## Settings
-
-We’ve heard your feedback that settings can be confusing sometimes, so we’re working with Bing to bubble up some of the most common questions we hear right into the Settings pages themselves. The FAQ’s are contextual in nature and aim to you to quickly get the answer you’re looking for to complete configuration tasks. It may even help you discover something you didn’t know was an option! Clicking on these questions will take you to Bing.com to display the answer.  
-
-![alt text](images/questions.png "settings faq")
-
 ## Sets
 Sets is designed to make sure that everything related to your task: relevant webpages, research documents, necessary files, and applications, is connected and available to you in one click. With Sets, first party experiences like Mail, Calendar, OneNote, MSN News, Windows, and Microsoft Edge become more integrated to create a seamless experience, so you can get back to what’s important and be productive, recapturing that moment, saving time – we believe that’s the true value of Sets. Here are some of the things you can do with sets.
 
@@ -479,7 +473,13 @@ We’ve heard your feedback and have been hard at work updating the new tab page
 
 ![alt text](images/ntpnew.png "apps in a sets window")
 
-## A modern snipping experience 
+## Settings
+
+We’ve heard your feedback that settings can be confusing sometimes, so we’re working with Bing to bubble up some of the most common questions we hear right into the Settings pages themselves. The FAQ’s are contextual in nature and aim to you to quickly get the answer you’re looking for to complete configuration tasks. It may even help you discover something you didn’t know was an option! Clicking on these questions will take you to Bing.com to display the answer.  
+
+![alt text](images/questions.png "settings faq")
+
+## Snipping experience 
 The new modern snipping experience is here to help you effortlessly capture and annotate what you see on your screen. While working on this we’ve been carefully going over all your feedback about taking screenshots in Windows - you’ll find the flow and tools are optimized for sharing and make communicating visually with others quick and easy.
 
 ![alt text](images/screen-sketch1.png "screen sketch")
@@ -574,35 +574,6 @@ One of the things we’ve heard from you is that it’s hard to know when you’
 
 ![alt text](images/beaming.png "wireless projection banner")
 
-## Windows Security Center gets a Fluent Design refresh
-We’ve heard your feedback and we’ve updated Windows Defender Security Center (WDSC) to include the Fluent Design elements you know and love. You’ll also notice we’ve adjusted the spacing and padding around the app and will now dynamically size the categories on the main page if more room is needed for extra info. Last but not least, we’ve also updated the title bar of the app so that it will now use your accent color if you’ve enabled that option in Color Settings – with Sets enabled, you will see this color in the WDSC tab.
 
-![alt text](images/defender.png "Windows Security Center")
 
-## Windows Defender Security Center is now called Windows Security. 
-
-You can still get to the app in all the usual ways – simply ask Cortana to open Windows Security or interact with the taskbar icon. Windows Security lets you manage all your security needs, including Windows Defender Antivirus and Windows Defender Firewall. 
-
-## Windows Defender Firewall now supports Windows Subsystem for Linux (WSL) processes 
-You can add specific rules for a WSL process in Windows Defender Firewall, just as you would for any Windows process. Also, Windows Defender Firewall now supports notifications for WSL processes. For example, when a Linux tool wants to allow access to a port from the outside (like SSH or a web server like nginx), the Windows Defender Firewall will prompt to allow access just like it would for a Windows process when the port starts accepting connections. This was first introduced in [Build 17627](https://docs.microsoft.com/en-us/windows/wsl/release-notes#build-17618-skip-ahead).
-
-## Windows Security Improvements 
-The Windows Security Center (WSC) service now requires antivirus products to run as a protected process to register. Products that have not yet implemented this will not appear in the Windows Security UI, and Windows Defender Antivirus will remain enabled side-by-side with these products. 
-For testing purposes, you can disable this new behavior in Windows Insider builds by creating the following registry key and rebooting the device.  This key will be removed as we get closer to release. 
-
-<pre>HKLM\SOFTWARE\Microsoft\Security Center\Feature 
-DisableAvCheck (DWORD) = 1 </pre>
-
-## Windows 10 Pro for Workstations
-
-<b>A new power scheme – Ultimate Performance</b>: Demanding workloads on workstations always desire more performance. As part of our effort to provide the absolute maximum performance we’re introducing a new power policy called Ultimate Performance. Windows has developed key areas where performance and efficiency tradeoffs are made in the OS. Over time, we’ve amassed a collection of settings which allow the OS to quickly tune the behavior based on user preference, policy, underlying hardware or workload.
-This new policy builds on the current High-Performance policy, and it goes a step further to eliminate micro-latencies associated with fine grained power management techniques. The Ultimate Performance Power plan is selectable either by an OEM on new systems or selectable by a user. To do so, you can go to Control Panel and navigate to Power Options under Hardware and Sound (you can also “run” Powercfg.cpl). Just like other power policies in Windows, the contents of the Ultimate Performance policy can be customized.
-
-![alt text](images/ultimate-power-scheme.png "Ultimate power scheme")
-
-As the power scheme is geared towards reducing micro-latencies it may directly impact hardware; and consume more power than the default balanced plan. The Ultimate Performance power policy is currently not available on battery powered systems.
-
-<b>Productivity focused out of box applications</b>: The out of box experience for Windows 10 Pro for Workstations display  productivity and enterprise focused applications in place of consumer applications and games. 
-
-![alt text](images/productivity_apps.png "productivity apps")
 
