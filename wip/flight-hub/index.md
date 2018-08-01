@@ -33,6 +33,7 @@ The items in <b>bold</b> typeface are the latest release for that version of the
 
 | Build | Fast | Slow | Server | IoT | ISO | SDK |
 |-------|------|------|--------|-----|-----|-----|
+| 17704 | [6/27/2018](https://aka.ms/jasons-build)|||||[7/03/2018](https://blogs.windows.com/buildingapps/2018/07/03/windows-10-sdk-preview-build-17704-available-now/)|
 | 17692 | [6/14/2018](https://aka.ms/e3-was-fun)|7/02/2018|[6/19/2018](https://aka.ms/wipserver17692)|||[6/19/2018](https://blogs.windows.com/buildingapps/2018/06/19/windows-10-sdk-preview-build-17692-available-now/)
 | 17686 | [6/06/2018](https://aka.ms/jumanji)|||||[6/12/2018](https://blogs.windows.com/buildingapps/2018/06/12/windows-10-sdk-preview-build-17686-available-now/)
 | 17682 | [5/31/2018](https://aka.ms/hulkbuster)|||||[6/05/2018](https://blogs.windows.com/buildingapps/2018/06/05/windows-10-sdk-preview-build-17682-available-now/)
