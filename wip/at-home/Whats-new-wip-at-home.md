@@ -79,7 +79,9 @@ In addition to Windows line endings (CRLF), Notepad now supports Unix/Linux line
 
 ![alt text](images/notepad.png "notepad")
 
-For more details, check out [Introducing extended line endings support in Notepad](https://aka.ms/notepadeol). ## Dark theme comes to File Explorer (and more!) 
+For more details, check out [Introducing extended line endings support in Notepad](https://aka.ms/notepadeol).
+
+## Dark theme comes to File Explorer (and more!) 
 
 As many of you know, we added dark theme support to Windows based on your feedback. This setting is available under Settings > Personalization > Colors, and if you switch it any apps and system UI that support it will follow suit. Since releasing this feature, our top feedback request from you has been to update File Explorer to support dark theme. Along the way, we also added dark theme support to the File Explorer context menu, as well as the Common File Dialog (aka the Open and Save dialogs). Thanks again for everyone’s feedback! 
 
