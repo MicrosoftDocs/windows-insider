@@ -99,7 +99,7 @@ We’ve added options to make it quick and easy to zoom text in Notepad. There i
 ### Line numbers with word-wrap
 A long outstanding request has been to add the ability to display line and column numbers when word-wrap is enabled. This is now possible in Notepad and we’ve made the status bar visible by default. You can still turn the status bar off in the View menu.
 
-![word-wrap](images/zooming2.gif "word-wrap")
+![word-wrap](images/linenumbers.gif "word-wrap")
 
 ## Microsoft Edge Improvements
 
