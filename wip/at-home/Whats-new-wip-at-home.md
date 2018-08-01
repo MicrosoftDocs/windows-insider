@@ -85,11 +85,23 @@ As many of you know, we added dark theme support to Windows based on your feedba
 
 ## Microsoft Edge Improvements
 
+### Per-site media autoplay controls
+
+You can now control autoplay permissions on a per-site basis under the “Website permission” section of the Website Identification pane – just click the information icon or lock icon on the left side of the address bar and click “manage permissions” to get started.
+
+![autoplay permissions](images/autoplay.png "autoplay permissions")
+
+### Lookup definitions for words in Reading View, Books, and PDFs
+
+We’ve added a new dictionary function, so you can look up definitions for key words when reading a page or document. Simply select a single word to see the definition appear above your selection.
+
+![dictionary](images/dictionary.png "dictionary")
+
 <b>Retired XSS Filter:</b> We are retiring the XSS filter in Microsoft Edge. Our customers remain protected thanks to modern standards like Content Security Policy, which provide more powerful, performant, and secure mechanisms to protect against content injection attacks, with high compatibility across modern browsers.
 
 <b>New, clearer “Settings and more” (“…”) menu:</b> We’ve redesigned the “Settings and more” menu in Microsoft Edge so it’s easier to find the options you’re looking for. The menu options are now organized into groups, with icons for each entry, and keyboard shortcuts (where applicable). Click the “…” button in the top-right corner of Microsoft Edge to see what’s new! 
 
-![alt text](images/SettingsandMore.png "Edge menu options")
+![Edge menu options](images/SettingsandMore.png "Edge menu options")
 
 <b>See your top sites in the Jump List:</b> You can now see your top sites in the Jump List on the Windows taskbar or Start Menu. Just right-click the Microsoft Edge icon to see a list of your most visited sites and pin the ones that matter most to you. Right-click on any entry to remove it from the list. 
 
