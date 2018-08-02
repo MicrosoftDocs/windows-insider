@@ -94,6 +94,26 @@ This is the first Insider Preview of Microsoft Hyper-V 2019. Microsoft Hyper-V S
 
 The Windows hypervisor technology in Microsoft Hyper-V Server is the same as what's in the Hyper-V role on Windows Server. So, much of the content available for the Hyper-V role on Windows Server 2016 also applies to Microsoft Hyper-V Server.
 
+## Deploying Kubernetes on Windows Server
+
+Kubernetes is a popular orchestration tool for <i>containers</i> (see [What are Containers](https://docs.microsoft.com/en-us/virtualization/windowscontainers/about/#what-are-containers)) that makes deployment and management intuitive, scalable, and effective. This includes built-in features such as:
+
+* Scheduling: Given a container image and a resource request, find a suitable machine on which to run the container.
+* Health monitoring: Watch for container failures and automatically reschedule them.
+* Networking: Provide a network for coordinating containers to communicate across machines.
+* Service Discovery: Enable containers to locate each other automatically even as they switch hosts or change IP addresses.
+* Scaling: Add or remove container instances to match demand, either manually or automatically.
+And much more! For guidance that walks you through how to install Kubernetes onto your on-premise Windows datacenter, please see [How To Guide: Kubernetes for Windows Flannel (Host-Gateway)](https://1drv.ms/w/s!AgH65RVQdrbiglNr7P7P4VrO8Rxr). For more information about container orchestrators in general, see [Container orchestrators](https://docs.microsoft.com/en-us/virtualization/windowscontainers/about/#container-orchestrators) on docs.microsoft.com.
+
+## Congestion Control with LEDBAT
+
+Keeping a network secure is a never-ending job for IT Pros, and doing so requires regularly updating systems to protect against the latest threat vectors.  This is one of the most common tasks that an IT Pro must perform.  Unfortunately, it can result in dissatisfaction for end-us
+ers as the network bandwidth used for the update can compete with interactive tasks that the end user requires to be productive.
+With Windows Server 2019, we bring a latency optimized, network congestion control provider called LEDBAT which scavenges whatever network bandwidth is available on the network, and uses it
+
+For a full write up detailing this improvement, please see our announcement [LEDBAT – Latency Optimized Background Transport](https://blogs.technet.microsoft.com/networking/2018/07/25/ledbat/)
+
+
 ## Remote Desktop Session Host (RDSH)
 
 RD Session Host is a Remote Desktop Services role service that enables users to share Windows-based programs or the full Windows desktop. Users can connect to an RD Session Host server to run programs, save files, and use network resources on that server. Because of a bug, the RDSH role was missing in previous releases of Windows Server 2019 – this build fixes that. 
@@ -218,6 +238,12 @@ Because each of these capabilities runs locally, all your data is collected, per
 ![alt text](images/system-insights.png "System Insights")
 
 You can manage System Insights through an intuitive Windows Admin Center extension or directly through PowerShell, and System Insights allows you to manage each capability individually. This includes configuring custom schedules to run each capability and adding remediation scripts to automatically address any issue detected by a capability.
+
+You can add new predictive capabilities to System Insights, without requiring any OS updates. This functionality enables developers, including Microsoft and third parties, to create and deliver new capabilities mid-release to address the scenarios you care about. New [developer documentation and resources](https://aka.ms/systeminsights-addcapabilities) are now available, which help you write your own custom capabilities.
+
+Any new capability can integrate with and extend the existing System Insights infrastructure:
+* New capabilities can specify any performance counter or ETW event, which will be collected, persisted locally, and returned to the capability for analysis when the capability is invoked.
+* New capabilities can leverage the existing Windows Admin Center and PowerShell management planes. Not only will new capabilities be discoverable in System Insights, they also benefit from custom schedules and remediation actions.
 
 For more information about System Insights, please visit [aka.ms/SystemInsights](https://aka.ms/SystemInsights).
 
