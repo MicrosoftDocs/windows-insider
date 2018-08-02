@@ -237,6 +237,15 @@ Local Experience Packs are Microsoft Store apps that deliver Windows display lan
 ![alt text](images/Get-LXP-from-Store.png "local experience packs")
 
 ## Narrator Improvements 
+
+* <b>Reliability:</b> We have made improvements in Narrator reliability.
+Scan Mode: Reading and navigating while in Scan Mode has been improved. Selecting text in Scan Mode has also been improved. Selecting forward in Edge has some known issues that we are actively investigating.
+* <b>QuickStart:</b> The link in settings to relaunch the QuickStart should now reliably be working and will launch from the very first Welcome page. The QuickStart should also more reliably take focus when Narrator is launched, which means Narrator should start reading it automatically.
+* <b>Providing Feedback:</b> The keystroke to provide feedback has changed. The new keystroke is Narrator + Alt + F. This will work both in the Standard and Legacy layouts.
+<i>Note: The Legacy layout also allows you to use Narrator + E to send us feedback.</i>
+* <b>Move Next, Move Previous, and Change View:</b> When changing Narrator’s view to either characters, words, lines or paragraphs the Read Current Item command will read the text of that specific view type more reliably.
+* <b>Keyboard command changes:</b> The keystroke to Move to beginning of text has changed to Narrator + B (was Narrator + Control + B), Move to end of text has changed to Narrator + E (was Narrator + Control + E).
+* <b>Braille:</b> Improved usage of Braille commanding when using the Narrator key from the braille display.
 * <b>Narrator Standard Keyboard Layout</b>: Narrator now ships with a new keyboard layout that is designed to be more familiar to screen reader users. Please refer to the accompanying documentation for details on these changes (Intro to New Narrator Keyboard Layout doc).
 * <b>Selection commands in Narrator Scan Mode</b>: Narrator’s scan mode now supports selecting content in Microsoft Edge, Word, Outlook, Mail and most text surfaces. Standard shift- selection commands can be used as well as Control + A for the entire document. Caps + Shift + Down Arrow will speak the current selection. For a full list of selection commands, you can refer to Narrator’s Show Commands List by pressing Caps+F1. Once content is selected you can copy it to the clipboard by pressing Control + C. Formatting information will also be retained. 
 * <b>Automatic Dialog Reading</b>: Narrator automatically reads the contents of a dialog box when brought to the foreground.  The experience is for Narrator to speak the title of the dialog, the focused element within the dialog and the static text, if any, at the top of the dialog. For example, if you try to close a document in Word with unsaved changes, Narrator will speak the title “Microsoft Word,” the focus “Save button” and the static text within the dialog.
@@ -245,7 +254,7 @@ Local Experience Packs are Microsoft Store apps that deliver Windows display lan
 * <b>Selection in Scan Mode</b>: Along with being able to select content in Narrator’s scan mode using Shift-selection commands, you can now also select a block of data by first moving to one end of the block and pressing F9, moving to the other end of the block and pressing F10. Once F10 is pressed the entire contents between the two points will be selected. 
 * <b>Stop on Controls in Scan Mode</b>: Scan mode is a feature of Narrator that lets you use just a few keys to move around your screen. Scan mode is already on by default in Edge and you can toggle it on and off by pressing Caps lock + Spacebar. While you’re in scan mode, you can press the Up and Down arrow keys to read different parts of the page. With this update, the press of a Down arrow in Scan Mode will stop on interactive elements, so that they are easier to use. An example of this new behavior is that if you are reading a paragraph with multiple links, Narrator will stop on these links when you press the Down arrow.
 
-We would love to hear what you think as you try out these improvements. This [link](http://aka.ms/narratorfb) will take you to the Narrator section of the Feedback Hub, or you can press Caps + E while Narrator is running.
+For more information about Narrator new keyboard layout and other known issues, refer to [Intro to New Narrator Keyboard Layout doc](aka.ms/RS5NarratorKeyboard).
 
 ## Time Accuracy and Traceability improvements
 
