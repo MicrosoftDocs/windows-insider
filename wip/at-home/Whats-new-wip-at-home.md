@@ -84,20 +84,65 @@ Our new settings page for enabling this experience is under Settings > System > 
 
 That means you can now make text bigger in Start menu, File Explorer, Settings, etc., without having to change the overall scaling of your system. 
 
+### Wrap-around find and replace 
+We’ve made significant improvement to the find/replace experience in Notepad. We added the option to do wrap-around find/replace to the find dialog and Notepad will now remember previously entered values and the state of checkboxes and automatically populate them the next time you open the find dialog. Additionally, when you have text selected and open the find dialog we will automatically populate the search field with the selected text.
+WrapAround
+
+![wrap around find and replace](images/notepad.png "wrap around find and replace")
+
+### Text zooming
+We’ve added options to make it quick and easy to zoom text in Notepad. There is a new menu option under View > Zoom to change the zoom level and we display the current zoom level in the status bar. You can also use Ctrl + Plus, Ctrl + Minus and Ctrl + MouseWheel to zoom in and out and use Ctrl + 0 to restore the zoom level to the default.
+
+![text zooming](images/zooming2 .png "text zooming")
+
+### Line numbers with word-wrap
+A long outstanding request has been to add the ability to display line and column numbers when word-wrap is enabled. This is now possible in Notepad and we’ve made the status bar visible by default. You can still turn the status bar off in the View menu.
+
+![word-wrap](images/linenumbers.png "word-wrap")
+
 ## Microsoft Edge Improvements
+
 <b>New, clearer “Settings and more” (“…”) menu:</b> We’ve redesigned the “Settings and more” menu in Microsoft Edge so it’s easier to find the options you’re looking for. The menu options are now organized into groups, with icons for each entry, and keyboard shortcuts (where applicable). Click the “…” button in the top-right corner of Microsoft Edge to see what’s new! 
 
-![alt text](images/SettingsandMore.png "Edge menu options")
+![Edge menu options](images/SettingsandMore.png "Edge menu options")
 
 <b>See your top sites in the Jump List:</b> You can now see your top sites in the Jump List on the Windows taskbar or Start Menu. Just right-click the Microsoft Edge icon to see a list of your most visited sites and pin the ones that matter most to you. Right-click on any entry to remove it from the list. 
 
 <b>Organize the tabs you’ve set aside:</b> It's easier to organize the groups of tabs you’ve set aside, so you can remember what’s in each group when come back to it later. Once you’ve set a group of tabs aside, choose the “Tabs you’ve set aside” icon (top left corner), and click on the label for any group to rename it.  
 
-![alt text](images/tabsaside.png "Tabs you've set aside")
+![tabs you've set aside](images/tabsaside.png "Tabs you've set aside")
 
 <b>Do more from the “Downloads” pane:</b> We’ve added options for “Show in folder” and “Copy link” to the right-click menu for downloads in the “Downloads” pane. 
 
-![alt text](images/downloads.png "Downloads pane")
+![downloads pane](images/downloads.png "Downloads pane")
+
+<b>Retired XSS Filter:</b> We are retiring the XSS filter in Microsoft Edge. Our customers remain protected thanks to modern standards like Content Security Policy, which provide more powerful, performant, and secure mechanisms to protect against content injection attacks, with high compatibility across modern browsers.
+
+### Microsoft Edge PDF Reader Improvements
+
+<b>Improved toolbar options:</b> The toolbar available on a PDF document opened in Microsoft Edge will now show text descriptions for the icons to make them easily understandable. by the users. New options like “Add notes” are now available in the toolbar so that these tools are handy when you need them.
+
+![improved toolbar](images/PDFImprovedToolbar.png "improved toolbar")
+
+<b>Pin/unpin PDF toolbar:</b> The toolbar can now be pinned at the top of the document, making all the PDF tools easily accessible if you need them. You can also unpin the toolbar for an immersive reading experience. If the toolbar is unpinned, it will hide itself – just hover over the top area to bring it back.
+
+![pin or unpin the toolbar](images/PDFPinButton.png "pin or unpin the toolbar")
+
+<b>Rendering improvements:</b> We’ve included a bunch of rendering performance fixes with this build. Now you will see less and less of the white pages when you navigate through PDF files in Microsoft Edge.
+
+### Per-site media autoplay controls
+
+You can now control autoplay permissions on a per-site basis under the “Website permission” section of the Website Identification pane – just click the information icon or lock icon on the left side of the address bar and click “manage permissions” to get started.
+
+![autoplay permissions](images/autoplay.png "autoplay permissions")
+
+### Lookup definitions for words in Reading View, Books, and PDFs
+
+We’ve added a new dictionary function, so you can look up definitions for key words when reading a page or document. Simply select a single word to see the definition appear above your selection.
+
+![dictionary](images/dictionary.png "dictionary")
+
+You can choose to have a word read aloud to you to hear the correct pronunciation or expand more details from the definition. You can toggle whether definitions appear and which types of content they work in under the “General” tab of the Microsoft Edge settings menu.
 
 ### WebDriver improvements
 It's easier than ever to automate testing in Microsoft Edge using WebDriver. First, we’ve made WebDriver a Windows Feature on Demand, so you no longer need to match the build/branch/flavor manually when installing WebDriver. When you take new Windows 10 updates, your WebDriver binary will be automatically updated to match.
@@ -151,15 +196,27 @@ To rotate a HEIF image file, simply right-click on it in File Explorer and selec
 
 ## Input 
 
+### Emoji 11
+[Unicode 11 comes with 157 new emoji](http://blog.unicode.org/2018/06/announcing-unicode-standard-version-110.html) – as of today they’re now available for Insiders to try in the build. Including superheroes, redheads, a softball, a pirate flag and a llama all made the cut. You can access them using the Emoji Panel (WIN+.) or the touch keyboard.
+
+![new emojis](images/WindowsInsiderBlog_EmojiRS5.png "new emojis")
+
+When you get today’s build, you’ll also find that we’ve made tweaks to some of our existing emoji – here are some examples:
+
+![emojis before after combo](images/emoji_beforeaftercombo.png "emojis before after combo")
+
+Our ninja cats got a bit of love too – can you spot the difference?
+![ninja cat emojis](images/WindowsInsiderBlog_EmojiRS5_NinjaCats.png "ninja cat emojis")
+
 <b>Emoji design updates</b> based on your feedback and to improve consistency, we’ve made adjustments to the design of some of our emoji. Examples of updated emoji include:
 
 <b>Before</b>
 
-![alt text](images/before_emoji.png "emojis before")
+![emojis before](images/before_emoji.png "emojis before")
 
 <b>After</b>
 
-![alt text](images/after_emoji.png "emojis after")
+![emojis after](images/after_emoji.png "emojis after")
 
 <b>Emoji search comes to more languages</b>: You can find an emoji by keyword in over 150 locales, including English (Great Britain), French (France), German (Germany), Spanish (Spain), and more. This will help you get the emoji you want easily and quickly. As a reminder, to bring up the Emoji Panel set focus to a text field and press WIN + (period) or WIN + (semicolon).
 
@@ -180,6 +237,15 @@ Local Experience Packs are Microsoft Store apps that deliver Windows display lan
 ![alt text](images/Get-LXP-from-Store.png "local experience packs")
 
 ## Narrator Improvements 
+
+* <b>Reliability:</b> We have made improvements in Narrator reliability.
+Scan Mode: Reading and navigating while in Scan Mode has been improved. Selecting text in Scan Mode has also been improved. Selecting forward in Edge has some known issues that we are actively investigating.
+* <b>QuickStart:</b> The link in settings to relaunch the QuickStart should now reliably be working and will launch from the very first Welcome page. The QuickStart should also more reliably take focus when Narrator is launched, which means Narrator should start reading it automatically.
+* <b>Providing Feedback:</b> The keystroke to provide feedback has changed. The new keystroke is Narrator + Alt + F. This will work both in the Standard and Legacy layouts.
+<i>Note: The Legacy layout also allows you to use Narrator + E to send us feedback.</i>
+* <b>Move Next, Move Previous, and Change View:</b> When changing Narrator’s view to either characters, words, lines or paragraphs the Read Current Item command will read the text of that specific view type more reliably.
+* <b>Keyboard command changes:</b> The keystroke to Move to beginning of text has changed to Narrator + B (was Narrator + Control + B), Move to end of text has changed to Narrator + E (was Narrator + Control + E).
+* <b>Braille:</b> Improved usage of Braille commanding when using the Narrator key from the braille display.
 * <b>Narrator Standard Keyboard Layout</b>: Narrator now ships with a new keyboard layout that is designed to be more familiar to screen reader users. Please refer to the accompanying documentation for details on these changes (Intro to New Narrator Keyboard Layout doc).
 * <b>Selection commands in Narrator Scan Mode</b>: Narrator’s scan mode now supports selecting content in Microsoft Edge, Word, Outlook, Mail and most text surfaces. Standard shift- selection commands can be used as well as Control + A for the entire document. Caps + Shift + Down Arrow will speak the current selection. For a full list of selection commands, you can refer to Narrator’s Show Commands List by pressing Caps+F1. Once content is selected you can copy it to the clipboard by pressing Control + C. Formatting information will also be retained. 
 * <b>Automatic Dialog Reading</b>: Narrator automatically reads the contents of a dialog box when brought to the foreground.  The experience is for Narrator to speak the title of the dialog, the focused element within the dialog and the static text, if any, at the top of the dialog. For example, if you try to close a document in Word with unsaved changes, Narrator will speak the title “Microsoft Word,” the focus “Save button” and the static text within the dialog.
@@ -188,7 +254,29 @@ Local Experience Packs are Microsoft Store apps that deliver Windows display lan
 * <b>Selection in Scan Mode</b>: Along with being able to select content in Narrator’s scan mode using Shift-selection commands, you can now also select a block of data by first moving to one end of the block and pressing F9, moving to the other end of the block and pressing F10. Once F10 is pressed the entire contents between the two points will be selected. 
 * <b>Stop on Controls in Scan Mode</b>: Scan mode is a feature of Narrator that lets you use just a few keys to move around your screen. Scan mode is already on by default in Edge and you can toggle it on and off by pressing Caps lock + Spacebar. While you’re in scan mode, you can press the Up and Down arrow keys to read different parts of the page. With this update, the press of a Down arrow in Scan Mode will stop on interactive elements, so that they are easier to use. An example of this new behavior is that if you are reading a paragraph with multiple links, Narrator will stop on these links when you press the Down arrow.
 
-We would love to hear what you think as you try out these improvements. This [link](http://aka.ms/narratorfb) will take you to the Narrator section of the Feedback Hub, or you can press Caps + E while Narrator is running.
+For more information about Narrator new keyboard layout and other known issues, refer to [Intro to New Narrator Keyboard Layout doc](http://aka.ms/RS5NarratorKeyboard).
+
+## Time Accuracy and Traceability improvements
+
+* <b>Leap Second Support:</b> Windows will now support these occasional 1-second adjustments in a traceable and UTC-compliant manner. What’s a leap second? As the earth’s rotation slows, [UTC](https://en.wikipedia.org/wiki/Coordinated_Universal_Time) (an atomic timescale) diverges from [mean solar time](https://en.wikipedia.org/wiki/Solar_time#Mean_solar_time) or astronomical time.  Once UTC has diverged by at most .9 seconds, a [Leap Second](https://en.wikipedia.org/wiki/Leap_second) is inserted to keep UTC in-sync with mean solar time.  Since the practice of inserting leap seconds began in 1972, a leap second has typically occurred every 18 months.
+
+* <b>Precision Time Protocol:</b> For the highest accuracy environments, you can now improve your time accuracy by leveraging a new time protocol that delivers far more accurate time samples to the endpoint (Windows Server 2019 or Windows 10, host or virtual machine).
+
+* <b>Software Timestamping:</b> You can now further improve your network time accuracy by eliminating the software delay introduced by the Windows networking stack.
+
+For a full write up with more details about these new improvements, please see our announcement [here](https://blogs.technet.microsoft.com/networking/2018/07/18/top10-ws2019-hatime/).
+
+## Update experience
+
+Have you ever had to stop what you were doing, or wait for your computer to boot up because the device updated at the wrong time? We heard you, and to alleviate this pain, if you have an update pending we’ve updated our reboot logic to use a new system that is more adaptive and proactive. We trained a predictive model that can accurately predict when the right time to restart the device is. Meaning, that we will not only check if you are currently using your device before we restart, but we will also try to predict if you had just left the device to grab a cup of coffee and return shortly after.
+
+### How accurate is this model?
+
+We’ve been using this model on internal devices, and we’ve seen promising results upon rollout.  Due to the nature of its architecture, we’re able to update the model with minimal turnaround time based on our insights from its performance. It’s all thanks to our cloud infrastructure.
+
+### How do you give us feedback?
+
+If you find your device restarting at the wrong time, please file a bug in the [feedback hub](https://aka.ms/updatefeedback) with the details on your experience. (i.e. I went to grab a cup of coffee for 5 minutes and it updated!). We would love to hear your stories and take it into account when training our update model.
 
 ## Windows mixed reality improvements
 
@@ -199,7 +287,18 @@ We would love to hear what you think as you try out these improvements. This [li
 
 ## Windows mixed reality flashlight
 
+How many times have you been immersed in a captivating virtual experience and…
+* Wanted to take a quick peek at someone nearby?
+* Wanted to reach for a drink, your phone or a keyboard?
+* Needed to find a surface to set down your controllers?
 
+In the past you probably fumbled about or removed your headset, which can be clumsy if you have controllers in your hands.
+
+We added the ability to peer into your physical environment through Flashlight – without removing your headset! With the latest Windows Insider Program build, you can open a portal into your real world at any time via the Start menu, a button shortcut, or a voice command. This opens a low-latency pass-through camera feed connected to your controller. It’s comfortable, intuitive, and keeps you immersed.
+
+![mixed reality flashlight](images/Flashlight_7-13.png "mixed reality flashlight")
+
+Flashlight finally allows you to mix your physical and virtual realities. 
 
 ## Mobile Broadband (LTE) connectivity on Windows gets a makeover
 
@@ -221,9 +320,9 @@ If your PC supports Mobile Broadband, i.e., your PC relies on cellular network f
 4. Once installed reboot for the new driver to take effect. 
 5. Ensure the status of the connection remains “Connected”.
 
-![alt text](images/NetAdapterSteps_Pic1.png "Net adapter steps")
-![alt text](images/NetAdpaterSteps_Pic2.PNG "Net adapter steps")
-![alt text](images/NetAdapterSteps_Pic3.jpg "Net adapter steps")
+![net adapter steps](images/NetAdapterSteps_Pic1.png "Net adapter steps")
+![net adapter steps](images/NetAdpaterSteps_Pic2.PNG "Net adapter steps")
+![net adapter steps](images/NetAdapterSteps_Pic3.jpg "Net adapter steps")
 
 <b>Note</b>: Follow the instructions in Step 4 to revert to the default driver(xxxxx Mobile Broadband Adapter), in case of issues with Net Adapter driver(Generic Mobile Broadband Cx Net Adapter). 
 
@@ -296,12 +395,6 @@ We made the Search experience wider so you can access information and actions in
 <b>Find software downloads faster in Search!</b>: Continuing our theme of improving the search preview experience, we’re rolling out an update to make it easier to find official download pages for Windows software you want to install. The team is continuing to develop this experience and more is coming. 
 
 ![alt text](images/search.png "GitHub search example")
-
-## Settings
-
-We’ve heard your feedback that settings can be confusing sometimes, so we’re working with Bing to bubble up some of the most common questions we hear right into the Settings pages themselves. The FAQ’s are contextual in nature and aim to you to quickly get the answer you’re looking for to complete configuration tasks. It may even help you discover something you didn’t know was an option! Clicking on these questions will take you to Bing.com to display the answer.  
-
-![alt text](images/questions.png "settings faq")
 
 ## Sets
 Sets is designed to make sure that everything related to your task: relevant webpages, research documents, necessary files, and applications, is connected and available to you in one click. With Sets, first party experiences like Mail, Calendar, OneNote, MSN News, Windows, and Microsoft Edge become more integrated to create a seamless experience, so you can get back to what’s important and be productive, recapturing that moment, saving time – we believe that’s the true value of Sets. Here are some of the things you can do with sets.
@@ -380,7 +473,13 @@ We’ve heard your feedback and have been hard at work updating the new tab page
 
 ![alt text](images/ntpnew.png "apps in a sets window")
 
-## A modern snipping experience 
+## Settings
+
+We’ve heard your feedback that settings can be confusing sometimes, so we’re working with Bing to bubble up some of the most common questions we hear right into the Settings pages themselves. The FAQ’s are contextual in nature and aim to you to quickly get the answer you’re looking for to complete configuration tasks. It may even help you discover something you didn’t know was an option! Clicking on these questions will take you to Bing.com to display the answer.  
+
+![alt text](images/questions.png "settings faq")
+
+## Snipping experience 
 The new modern snipping experience is here to help you effortlessly capture and annotate what you see on your screen. While working on this we’ve been carefully going over all your feedback about taking screenshots in Windows - you’ll find the flow and tools are optimized for sharing and make communicating visually with others quick and easy.
 
 ![alt text](images/screen-sketch1.png "screen sketch")
@@ -475,35 +574,6 @@ One of the things we’ve heard from you is that it’s hard to know when you’
 
 ![alt text](images/beaming.png "wireless projection banner")
 
-## Windows Security Center gets a Fluent Design refresh
-We’ve heard your feedback and we’ve updated Windows Defender Security Center (WDSC) to include the Fluent Design elements you know and love. You’ll also notice we’ve adjusted the spacing and padding around the app and will now dynamically size the categories on the main page if more room is needed for extra info. Last but not least, we’ve also updated the title bar of the app so that it will now use your accent color if you’ve enabled that option in Color Settings – with Sets enabled, you will see this color in the WDSC tab.
 
-![alt text](images/defender.png "Windows Security Center")
 
-## Windows Defender Security Center is now called Windows Security. 
-
-You can still get to the app in all the usual ways – simply ask Cortana to open Windows Security or interact with the taskbar icon. Windows Security lets you manage all your security needs, including Windows Defender Antivirus and Windows Defender Firewall. 
-
-## Windows Defender Firewall now supports Windows Subsystem for Linux (WSL) processes 
-You can add specific rules for a WSL process in Windows Defender Firewall, just as you would for any Windows process. Also, Windows Defender Firewall now supports notifications for WSL processes. For example, when a Linux tool wants to allow access to a port from the outside (like SSH or a web server like nginx), the Windows Defender Firewall will prompt to allow access just like it would for a Windows process when the port starts accepting connections. This was first introduced in [Build 17627](https://docs.microsoft.com/en-us/windows/wsl/release-notes#build-17618-skip-ahead).
-
-## Windows Security Improvements 
-The Windows Security Center (WSC) service now requires antivirus products to run as a protected process to register. Products that have not yet implemented this will not appear in the Windows Security UI, and Windows Defender Antivirus will remain enabled side-by-side with these products. 
-For testing purposes, you can disable this new behavior in Windows Insider builds by creating the following registry key and rebooting the device.  This key will be removed as we get closer to release. 
-
-<pre>HKLM\SOFTWARE\Microsoft\Security Center\Feature 
-DisableAvCheck (DWORD) = 1 </pre>
-
-## Windows 10 Pro for Workstations
-
-<b>A new power scheme – Ultimate Performance</b>: Demanding workloads on workstations always desire more performance. As part of our effort to provide the absolute maximum performance we’re introducing a new power policy called Ultimate Performance. Windows has developed key areas where performance and efficiency tradeoffs are made in the OS. Over time, we’ve amassed a collection of settings which allow the OS to quickly tune the behavior based on user preference, policy, underlying hardware or workload.
-This new policy builds on the current High-Performance policy, and it goes a step further to eliminate micro-latencies associated with fine grained power management techniques. The Ultimate Performance Power plan is selectable either by an OEM on new systems or selectable by a user. To do so, you can go to Control Panel and navigate to Power Options under Hardware and Sound (you can also “run” Powercfg.cpl). Just like other power policies in Windows, the contents of the Ultimate Performance policy can be customized.
-
-![alt text](images/ultimate-power-scheme.png "Ultimate power scheme")
-
-As the power scheme is geared towards reducing micro-latencies it may directly impact hardware; and consume more power than the default balanced plan. The Ultimate Performance power policy is currently not available on battery powered systems.
-
-<b>Productivity focused out of box applications</b>: The out of box experience for Windows 10 Pro for Workstations display  productivity and enterprise focused applications in place of consumer applications and games. 
-
-![alt text](images/productivity_apps.png "productivity apps")
 
