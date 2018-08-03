@@ -7,7 +7,7 @@ manager: elizapo
 ms.service: WIP-at-work-pro
 ms.date: 08/03/2018
 ms.author: dawn.wood
-experiemental:false
+experimental:false
 experiment_id: 82280469-5e4c-44
 ---
 
