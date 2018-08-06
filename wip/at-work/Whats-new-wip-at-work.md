@@ -10,6 +10,7 @@ ms.tgt_pltfrm: na
 ms.devlang: na
 ms.date: 07/31/2018
 ms.author: dawn.wood
+ms.localizationpriority: medium
 ---
 
 # What’s New in Windows Server 2019 Insider Preview Builds 
