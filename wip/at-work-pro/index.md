@@ -12,6 +12,7 @@ ms.devlang: na
 ms.topic: landing-page
 ms.date: 06/28/2018
 ms.author: dawn.wood
+ms.localizationpriority: medium
 ---
 # Windows Insider Program for Business docs
 If you are an IT Pro, incorporating the Windows Insider Program for Business into your deployment plans enables you to prepare your organization for the next update of Windows 10, to deploy new services and tools more quickly, to help secure your applications, and to increase productivity and confidence in the stability of your environment. Specifically, feature flighting (see [Windows readiness levels and flight rings](wip-4-biz-flight-levels-and-rings.md)) allows participants in the Windows Insider Program to deploy pre-production code, to test devices, and to gain early visibility into the next version of Windows. 
