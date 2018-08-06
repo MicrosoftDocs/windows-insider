@@ -8,9 +8,9 @@ ms.assetid:
 ms.service: WIP-at-work
 ms.tgt_pltfrm: na
 ms.devlang: na
-
-ms.date: 07/31/2018
+ms.date: 08/06/2018
 ms.author: dawn.wood
+ms.localizationpriority: medium
 ---
 
 #  What's new in the Windows 10 Insider Preview Builds (RS5)

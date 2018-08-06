@@ -9,6 +9,7 @@ ms.date: 08/03/2018
 ms.author: dawn.wood
 experimental: true
 experiment_id: 82280469-5e4c-44
+ms.localizationpriority: medium
 ---
 
 # What’s New in Windows 10 Insider Program for Business Preview Builds 

@@ -10,6 +10,7 @@ ms.tgt_pltfrm: na
 ms.devlang: na
 ms.date: 06/28/2018
 ms.author: dawn.wood
+ms.localizationpriority: medium
 ---
 
 # Register for the Windows Insider Program for Business
