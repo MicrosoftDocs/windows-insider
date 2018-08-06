@@ -12,6 +12,7 @@ ms.devlang: na
 ms.topic: landing-page
 ms.date: 04/10/2018
 ms.author: dawn.wood
+ms.localizationpriority: medium
 ---
 # Windows Insider Program for Server docs
 

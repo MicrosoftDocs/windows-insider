@@ -12,6 +12,7 @@ ms.devlang: na
 ms.topic: landing-page
 ms.date: 06/28/2018
 ms.author: dawn.wood
+ms.localizationpriority: medium
 ---
 # Windows Insider Program for Business docs
 If you are an IT Pro, incorporating the Windows Insider Program for Business into your deployment plans enables you to prepare your organization for the next update of Windows 10, to deploy new services and tools more quickly, to help secure your applications, and to increase productivity and confidence in the stability of your environment. Specifically, feature flighting (see [Windows readiness levels and flight rings](wip-4-biz-flight-levels-and-rings.md)) allows participants in the Windows Insider Program to deploy pre-production code, to test devices, and to gain early visibility into the next version of Windows. 
@@ -65,7 +66,7 @@ If you are interested in flighting For Windows Server 2019, we also have the Win
 
 <ul class="cardsF panelContent cols cols2">
     <li>
-        <a href="https://support.microsoft.com/help/4021566/windows-10-send-feedback-to-microsoft-with-feedback-hub-app">
+        <a href="https://docs.microsoft.com/en-us/windows-insider/at-work-pro/wip-4-biz-feedback-hub">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
