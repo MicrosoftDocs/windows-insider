@@ -10,6 +10,7 @@ ms.tgt_pltfrm: na
 ms.devlang: na
 ms.date: 07/11/2018
 ms.author: dawn.wood
+ms.localizationpriority: medium
 ---
 
 # Flight Hub
