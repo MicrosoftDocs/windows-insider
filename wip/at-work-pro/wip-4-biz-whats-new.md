@@ -131,16 +131,16 @@ For testing purposes, you can disable this new behavior in Windows Insider build
 DisableAvCheck (DWORD) = 1 </pre>
 
 
-### Windows Security Center gets a Fluent Design refresh
+## Windows Security Center gets a Fluent Design refresh
 We’ve heard your feedback and we’ve updated Windows Defender Security Center (WDSC) to include the Fluent Design elements you know and love. You’ll also notice we’ve adjusted the spacing and padding around the app and will now dynamically size the categories on the main page if more room is needed for extra info. Last but not least, we’ve also updated the title bar of the app so that it will now use your accent color if you’ve enabled that option in Color Settings – with Sets enabled, you will see this color in the WDSC tab.
 
 ![alt text](images/defender.png "Windows Security Center")
 
-### Windows Defender Security Center is now called Windows Security. 
+## Windows Defender Security Center is now called Windows Security. 
 
 You can still get to the app in all the usual ways – simply ask Cortana to open Windows Security or interact with the taskbar icon. Windows Security lets you manage all your security needs, including Windows Defender Antivirus and Windows Defender Firewall. 
 
-### Windows Defender Firewall now supports Windows Subsystem for Linux (WSL) processes 
+## Windows Defender Firewall now supports Windows Subsystem for Linux (WSL) processes 
 You can add specific rules for a WSL process in Windows Defender Firewall, just as you would for any Windows process. Also, Windows Defender Firewall now supports notifications for WSL processes. For example, when a Linux tool wants to allow access to a port from the outside (like SSH or a web server like nginx), the Windows Defender Firewall will prompt to allow access just like it would for a Windows process when the port starts accepting connections. This was first introduced in [Build 17627](https://docs.microsoft.com/en-us/windows/wsl/release-notes#build-17618-skip-ahead).
 
 ## Windows Autopilot self-deploying mode (Build 17672)
@@ -159,15 +159,13 @@ Credential Guard is a security service in Windows 10 built to protect Active Dir
 
 Credential Guard has always been an optional feature, but Windows 10-S turns this functionality on by default when the machine has been AAD joined. This provides an added level of security when connecting to domain resources not normally present on 10-S devices. Please note that Credential Guard is available only to S-Mode devices or Enterprise and Education Editions. 
 
-## Bitlocker
-
-### Silent enforcement on fixed drives
+## BitLocker silent enforcement on fixed drives
 Through an MDM policy, BitLocker can silently be enabled for standard AAD Joined users. In RS4 (Windows 10 build 1803) automatic BitLocker encryption was enabled for standard AADJ users, but this still required modern hardware that passed the Hardware Security Test Interface (HSTI). This new feature functionality enables BitLocker via policy even on devices that don’t pass the HSTI. 
 
 This is an update to the [BitLocker CSP](https://docs.microsoft.com/en-us/windows/client-management/mdm/bitlocker-csp), which was introduced in Windows 10 build 1703, and leveraged by Intune and others. 
 This feature will soon be enabled on Olympia Corp as an optional feature.
 
-###  Delivering BitLocker policy to AutoPilot devices during OOBE 
+##  Delivering BitLocker policy to AutoPilot devices during OOBE 
 
 As an IT admin you can choose which encryption algorithm to apply to a device on your automatic BitLocker encryption capable devices, rather than automatically having those devices encrypt themselves with the default algorithm. This new functionality allows the encryption algorithm, and other BitLocker policies that must be applied prior to encryption starting, to get delivered before automatic BitLocker encryption begins. 
 
