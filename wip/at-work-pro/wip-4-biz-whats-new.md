@@ -130,17 +130,17 @@ For testing purposes, you can disable this new behavior in Windows Insider build
 <pre>HKLM\SOFTWARE\Microsoft\Security Center\Feature 
 DisableAvCheck (DWORD) = 1 </pre>
 
-
-## Windows Security Center gets a Fluent Design refresh
-We’ve heard your feedback and we’ve updated Windows Defender Security Center (WDSC) to include the Fluent Design elements you know and love. You’ll also notice we’ve adjusted the spacing and padding around the app and will now dynamically size the categories on the main page if more room is needed for extra info. Last but not least, we’ve also updated the title bar of the app so that it will now use your accent color if you’ve enabled that option in Color Settings – with Sets enabled, you will see this color in the WDSC tab.
-
-![alt text](images/defender.png "Windows Security Center")
-
-## Windows Defender Security Center is now called Windows Security. 
+## Windows Defender Security Center is now called Windows Security (Build 17661)
 
 You can still get to the app in all the usual ways – simply ask Cortana to open Windows Security or interact with the taskbar icon. Windows Security lets you manage all your security needs, including Windows Defender Antivirus and Windows Defender Firewall. 
 
-## Windows Defender Firewall now supports Windows Subsystem for Linux (WSL) processes 
+## Windows Security Center gets a Fluent Design refresh (Build 17650)
+We’ve heard your feedback and we’ve updated Windows Security Center (WSC) to include the Fluent Design elements you know and love. You’ll also notice we’ve adjusted the spacing and padding around the app and will now dynamically size the categories on the main page if more room is needed for extra info. Last but not least, we’ve also updated the title bar of the app so that it will now use your accent color if you’ve enabled that option in Color Settings – with Sets enabled, you will see this color in the WDSC tab.
+
+![alt text](images/defender.png "Windows Security Center")
+
+
+## Windows Defender Firewall now supports Windows Subsystem for Linux (WSL) processes (Build 17627)
 You can add specific rules for a WSL process in Windows Defender Firewall, just as you would for any Windows process. Also, Windows Defender Firewall now supports notifications for WSL processes. For example, when a Linux tool wants to allow access to a port from the outside (like SSH or a web server like nginx), the Windows Defender Firewall will prompt to allow access just like it would for a Windows process when the port starts accepting connections. This was first introduced in [Build 17627](https://docs.microsoft.com/en-us/windows/wsl/release-notes#build-17618-skip-ahead).
 
 ## Windows Autopilot self-deploying mode (Build 17672)
