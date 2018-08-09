@@ -5,7 +5,7 @@ services: WIP-at-work-pro
 author: dawn.wood
 manager: elizapo
 ms.service: WIP-at-work-pro
-ms.date: 08/03/2018
+ms.date: 08/08/2018
 ms.author: dawn.wood
 experimental: false
 experiment_id: 82280469-5e4c-44
@@ -122,13 +122,15 @@ To check this out,
 4. Configure or check Application Guard Settings.
 ![view WDAG settings](images/4_ViewSettings.jpg "view settings")
 
-### Windows Defender Security Center is now called Windows Security 
+### Windows Security Center
+Windows Defender Security Center is now called Windows Security Center. 
 
 You can still get to the app in all the usual ways – simply ask Cortana to open Windows Security or interact with the taskbar icon. Windows Security lets you manage all your security needs, including Windows Defender Antivirus and Windows Defender Firewall. 
 
 The Windows Security Center (WSC) service now requires antivirus products to run as a protected process to register. Products that have not yet implemented this will not appear in the Windows Security UI, and Windows Defender Antivirus will remain enabled side-by-side with these products. 
 For testing purposes, you can disable this new behavior in Windows Insider builds by creating the following registry key and rebooting the device.  This key will be removed as we get closer to release.
-We’ve heard your feedback and we’ve updated Windows Defender Security Center (WDSC) to include the Fluent Design elements you know and love. You’ll also notice we’ve adjusted the spacing and padding around the app and will now dynamically size the categories on the main page if more room is needed for extra info. Last but not least, we’ve also updated the title bar of the app so that it will now use your accent color if you’ve enabled that option in Color Settings – with Sets enabled, you will see this color in the WDSC tab.
+
+Windows Security Center (WSC) now includes the Fluent Design elements you know and love. You’ll also notice we’ve adjusted the spacing and padding around the app and will now dynamically size the categories on the main page if more room is needed for extra info. Last but not least, we’ve also updated the title bar of the app so that it will now use your accent color if you’ve enabled that option in Color Settings – with Sets enabled, you will see this color in the WSC tab.
 
 ![alt text](images/defender.png "Windows Security Center")
 
@@ -144,6 +146,15 @@ Credential Guard is a security service in Windows 10 built to protect Active Dir
 
 Credential Guard has always been an optional feature, but Windows 10-S turns this functionality on by default when the machine has been AAD joined. This provides an added level of security when connecting to domain resources not normally present on 10-S devices. Please note that Credential Guard is available only to S-Mode devices or Enterprise and Education Editions. 
 
+## Faster sign-in to a Windows 10 shared pc
+Do you have shared PCs deployed in your work place? Introducing “Fast Sign-in,” which enables users to sign in to a shared Windows 10 PC in a flash!
+![Web sign-in](images/fastsignin.png "web sign-in")
+
+### To enable Fast Sign in,
+1. Set up a shared or guest PC with Windows 10
+2. Set Policy/Authentication/EnableFastFirstSignIn to enable fast sign-in
+3. With the policy enabled, sign-in to a shared PC with your account and notice the difference!
+
 ## Web sign-in to Windows 10
 Until now, Windows logon only supported the use of identities federated to ADFS or other providers that support the WS-Fed protocol. We are introducing “Web Sign-in,” a new way of signing into your Windows PC. Web Sign-in enables Windows logon support for non-ADFS federated providers(e.g.SAML).
 
@@ -155,11 +166,4 @@ Until now, Windows logon only supported the use of identities federated to ADFS 
 3. On the lock screen, select Web Sign-in under Sign-in options.
 4. Click the “Sign in” button to continue.
 
-## Faster sign-in to a Windows 10 shared pc
-Do you have shared PCs deployed in your work place? Introducing “Fast Sign-in,” which enables users to sign in to a shared Windows 10 PC in a flash!
-![Web sign-in](images/fastsignin.png "web sign-in")
 
-### To enable Fast Sign in,
-1. Set up a shared or guest PC with Windows 10
-2. Set Policy/Authentication/EnableFastFirstSignIn to enable fast sign-in
-3. With the policy enabled, sign-in to a shared PC with your account and notice the difference!
