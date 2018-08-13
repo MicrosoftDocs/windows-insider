@@ -8,7 +8,7 @@ ms.assetid:
 ms.service: WIP-at-work
 ms.tgt_pltfrm: na
 ms.devlang: na
-ms.date: 07/31/2018
+ms.date: 08/13/2018
 ms.author: dawn.wood
 ms.localizationpriority: medium
 ---
@@ -95,11 +95,34 @@ This is the first Insider Preview of Microsoft Hyper-V 2019. Microsoft Hyper-V S
 
 The Windows hypervisor technology in Microsoft Hyper-V Server is the same as what's in the Hyper-V role on Windows Server. So, much of the content available for the Hyper-V role on Windows Server 2016 also applies to Microsoft Hyper-V Server.
 
+## Deploying Kubernetes on Windows Server
+
+Kubernetes is a popular orchestration tool for <i>containers</i> (see [What are Containers](https://docs.microsoft.com/en-us/virtualization/windowscontainers/about/#what-are-containers)) that makes deployment and management intuitive, scalable, and effective. This includes built-in features such as:
+
+* Scheduling: Given a container image and a resource request, find a suitable machine on which to run the container.
+* Health monitoring: Watch for container failures and automatically reschedule them.
+* Networking: Provide a network for coordinating containers to communicate across machines.
+* Service Discovery: Enable containers to locate each other automatically even as they switch hosts or change IP addresses.
+* Scaling: Add or remove container instances to match demand, either manually or automatically.
+And much more! For guidance that walks you through how to install Kubernetes onto your on-premise Windows datacenter, please see [How To Guide: Kubernetes for Windows Flannel (Host-Gateway)](https://1drv.ms/w/s!AgH65RVQdrbiglNr7P7P4VrO8Rxr). For more information about container orchestrators in general, see [Container orchestrators](https://docs.microsoft.com/en-us/virtualization/windowscontainers/about/#container-orchestrators) on docs.microsoft.com.
+
+## Congestion Control with LEDBAT
+
+Keeping a network secure is a never-ending job for IT Pros, and doing so requires regularly updating systems to protect against the latest threat vectors.  This is one of the most common tasks that an IT Pro must perform.  Unfortunately, it can result in dissatisfaction for end-us
+ers as the network bandwidth used for the update can compete with interactive tasks that the end user requires to be productive.
+With Windows Server 2019, we bring a latency optimized, network congestion control provider called LEDBAT which scavenges whatever network bandwidth is available on the network, and uses it
+
+For a full write up detailing this improvement, please see our announcement [LEDBAT – Latency Optimized Background Transport](https://blogs.technet.microsoft.com/networking/2018/07/25/ledbat/)
+
+
 ## Remote Desktop Session Host (RDSH)
 
 RD Session Host is a Remote Desktop Services role service that enables users to share Windows-based programs or the full Windows desktop. Users can connect to an RD Session Host server to run programs, save files, and use network resources on that server. Because of a bug, the RDSH role was missing in previous releases of Windows Server 2019 – this build fixes that. 
 
 ## Server Core App Compatibility Feature on Demand
+
+Last updated 08/13/2018
+
 App Compatibility, a Feature on Demand (FoD), has been updated with additional features and two additional components: Event Viewer and File Explorer.
 This FoD significantly improves the app compatibility of Windows Server Core by including a set of binaries and packages from Windows Server with Desktop, without adding any of the Windows Server Desktop GUI or Windows 10 GUI experiences. The FoD package is available on a separate ISO and installs on Windows Server Core only.
 
@@ -132,15 +155,26 @@ To install Server Core with FoD binaries
 5. Copy the FoD ISO to a local folder of your choosing.
 6. Start PowerShell by entering powershell.exe at a command prompt.
 7. Mount the FoD ISO by using the following command:
-
-<i>Mount-DiskImage -ImagePath drive_letter:\folder_where_ISO_is_saved</i>
-
+```Mount-DiskImage -ImagePath drive_letter:\folder_where_ISO_is_saved```
 8. Enter exit to exit PowerShell.
 9. Enter the following command:
-
-<i>DISM /Online /Add-Capability /CapabilityName:Server.Appcompat~~~~0.0.1.0 /Source:drive_letter_of_mounted_ISO: /LimitAccess</i>
-
+```DISM /Online /Add-Capability /CapabilityName:Server.Appcompat~~~~0.0.1.0 /Source:drive_letter_of_mounted_ISO: /LimitAccess ```
 10. After the progress bar completes, restart the operating system at the prompt.
+
+To optionally install Internet Explorer 11
+1. Start PowerShell by entering powershell.exe at a command prompt.
+2. Mount the FoD ISO by using the following command:
+```Mount-DiskImage -ImagePath drive_letter:\folder_where_ISO_is_saved.```
+3. Enter exit to exit PowerShell.
+4. In a command window, change the default directory to drive letter of the mounted ISO. 
+5. Run the following command:
+```Dism /online /add-package:"Microsoft-Windows-InternetExplorer-Optional-Package~31bf3856ad364e35~amd64~~.cab"```
+6. Restart the computer.
+7. After logging in again, mount the FoD ISO again by repeating Step 1 through Step 3.
+8. In a command window, change the default directory to drive letter of the mounted ISO.
+9. Run the following command:
+```Dism /online /add-package:"Microsoft-Windows-InternetExplorer-Optional-Package~31bf3856ad364e35~amd64~en-US~.cab"```
+This instance of running DISM specifies a different package than the previous instance in this procedure.
 
 ## Storage Spaces Direct
 Storage Spaces Direct uses industry-standard servers with local-attached drives to create highly available, highly scalable software-defined storage at a fraction of the cost of traditional SAN or NAS arrays. Its converged or hyper-converged architecture radically simplifies procurement and deployment, while features such as caching, storage tiers, and erasure coding, together with the latest hardware innovations such as RDMA networking and NVMe drives, deliver unrivaled efficiency and performance. 
@@ -219,6 +253,12 @@ Because each of these capabilities runs locally, all your data is collected, per
 ![alt text](images/system-insights.png "System Insights")
 
 You can manage System Insights through an intuitive Windows Admin Center extension or directly through PowerShell, and System Insights allows you to manage each capability individually. This includes configuring custom schedules to run each capability and adding remediation scripts to automatically address any issue detected by a capability.
+
+You can add new predictive capabilities to System Insights, without requiring any OS updates. This functionality enables developers, including Microsoft and third parties, to create and deliver new capabilities mid-release to address the scenarios you care about. New [developer documentation and resources](https://aka.ms/systeminsights-addcapabilities) are now available, which help you write your own custom capabilities.
+
+Any new capability can integrate with and extend the existing System Insights infrastructure:
+* New capabilities can specify any performance counter or ETW event, which will be collected, persisted locally, and returned to the capability for analysis when the capability is invoked.
+* New capabilities can leverage the existing Windows Admin Center and PowerShell management planes. Not only will new capabilities be discoverable in System Insights, they also benefit from custom schedules and remediation actions.
 
 For more information about System Insights, please visit [aka.ms/SystemInsights](https://aka.ms/SystemInsights).
 
