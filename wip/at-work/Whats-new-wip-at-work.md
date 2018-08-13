@@ -8,7 +8,7 @@ ms.assetid:
 ms.service: WIP-at-work
 ms.tgt_pltfrm: na
 ms.devlang: na
-ms.date: 07/31/2018
+ms.date: 08/13/2018
 ms.author: dawn.wood
 ms.localizationpriority: medium
 ---
@@ -120,6 +120,9 @@ For a full write up detailing this improvement, please see our announcement [LED
 RD Session Host is a Remote Desktop Services role service that enables users to share Windows-based programs or the full Windows desktop. Users can connect to an RD Session Host server to run programs, save files, and use network resources on that server. Because of a bug, the RDSH role was missing in previous releases of Windows Server 2019 – this build fixes that. 
 
 ## Server Core App Compatibility Feature on Demand
+
+Last updated 08/13/2018
+
 App Compatibility, a Feature on Demand (FoD), has been updated with additional features and two additional components: Event Viewer and File Explorer.
 This FoD significantly improves the app compatibility of Windows Server Core by including a set of binaries and packages from Windows Server with Desktop, without adding any of the Windows Server Desktop GUI or Windows 10 GUI experiences. The FoD package is available on a separate ISO and installs on Windows Server Core only.
 
