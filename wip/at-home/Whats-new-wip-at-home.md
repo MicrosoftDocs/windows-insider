@@ -8,9 +8,9 @@ ms.assetid:
 ms.service: WIP-at-work
 ms.tgt_pltfrm: na
 ms.devlang: na
-
-ms.date: 07/31/2018
+ms.date: 08/06/2018
 ms.author: dawn.wood
+ms.localizationpriority: medium
 ---
 
 #  What's new in the Windows 10 Insider Preview Builds (RS5)
@@ -219,6 +219,13 @@ Our ninja cats got a bit of love too – can you spot the difference?
 ![emojis after](images/after_emoji.png "emojis after")
 
 <b>Emoji search comes to more languages</b>: You can find an emoji by keyword in over 150 locales, including English (Great Britain), French (France), German (Germany), Spanish (Spain), and more. This will help you get the emoji you want easily and quickly. As a reminder, to bring up the Emoji Panel set focus to a text field and press WIN + (period) or WIN + (semicolon).
+
+## A Faster Safer Internet with HTTP/2 and CUBIC
+The Internet is part of our daily lives both at work and at home, in the enterprise and in the cloud.  We are committed to making your Internet experience faster and safer, and in this blog, we discuss how the features in Windows Server 2019 and Windows 10 brings those goals to reality.
+Windows 10 Microsoft Edge clients will take advantage of connection coalescing for HTTP/2 as supported in Windows Server 2019
+Improved security on Microsoft Edge browsers by guaranteeing HTTP/2 preferred cipher suites
+Improved performance on Windows 10 thanks to Cubic, the new default TCP congestion provider
+For a full writeup detailing this improvement, please see our announcement [A Faster, Safer Internet](https://blogs.technet.microsoft.com/networking/2018/08/01/faster-safer-internet/).
 
 ## Kernel Debugging Improvements 
 We are adding support for IPv6 to KDNET. To make room for the larger headers required for IPv6, we’re decreasing the payload size of packets. As a result, we’re declaring a new version of the protocol, so that host PCs running the latest version of the debugger can be used to debug target PCs that only support IPv4. An updated SDK and WDK will be released soon with this support. There is a version of WinDbg Preview available at [http://aka.ms/windbgpreview](http://aka.ms/windbgpreview) today. Follow the [Debugging Tools for Windows](http://aka.ms/windbgblog) blog for updates on KDNET IPv6 support and documentation in the future. 
@@ -574,6 +581,8 @@ One of the things we’ve heard from you is that it’s hard to know when you’
 
 ![alt text](images/beaming.png "wireless projection banner")
 
-
+## Your Phone app
+Android phone users, you can finally stop emailing yourself photos. Drag and drop that photo from your phone onto your PC. Copy, edit, or ink on that photo, right from your PC. With Your Phone app, live today for Windows Insiders, you get instant access to your Android’s most recent photos on your PC. Try it out by opening Your Phone app. You will receive an app from Microsoft which you must download to your mobile phone and follow the setup prompts. Build 17723+ is highly recommended for the best experience. Android 7.0+ are compatible with Your Phone app. For PCs tied to the China region, Your Phone app services will be enabled in the future.
+For iPhone users, Your Phone app helps you to link your phone to your PC. Surf the web on your phone, then send the webpage instantly to your computer to pick up where you left off to continue what you’re doing–read, watch, or browse with all the benefits of a bigger screen. With a linked phone, continuing on your PC is one share away.
 
 

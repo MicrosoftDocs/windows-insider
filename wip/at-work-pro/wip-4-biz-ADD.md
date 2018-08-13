@@ -10,6 +10,7 @@ ms.tgt_pltfrm: na
 ms.devlang: na
 ms.date: 7/25/2018
 ms.author: dawnwood
+ms.localizationpriority: medium
 ---
 
 # Windows Insider Program for Business using Azure Active Directory

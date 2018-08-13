@@ -10,6 +10,7 @@ ms.tgt_pltfrm: na
 ms.devlang: na
 ms.date: 06/28/2018
 ms.author: dawn.wood
+ms.localizationpriority: medium
 ---
 
 # Share Feedback via the Feedback Hub
