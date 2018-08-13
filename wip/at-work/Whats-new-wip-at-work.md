@@ -152,25 +152,25 @@ To install Server Core with FoD binaries
 5. Copy the FoD ISO to a local folder of your choosing.
 6. Start PowerShell by entering powershell.exe at a command prompt.
 7. Mount the FoD ISO by using the following command:
-<p><i>Mount-DiskImage -ImagePath drive_letter:\folder_where_ISO_is_saved</i>
+```Mount-DiskImage -ImagePath drive_letter:\folder_where_ISO_is_saved```
 8. Enter exit to exit PowerShell.
 9. Enter the following command:
-<p><i>DISM /Online /Add-Capability /CapabilityName:Server.Appcompat~~~~0.0.1.0 /Source:drive_letter_of_mounted_ISO: /LimitAccess</i>
+```DISM /Online /Add-Capability /CapabilityName:Server.Appcompat~~~~0.0.1.0 /Source:drive_letter_of_mounted_ISO: /LimitAccess ```
 10. After the progress bar completes, restart the operating system at the prompt.
 
 To optionally install Internet Explorer 11
 1. Start PowerShell by entering powershell.exe at a command prompt.
 2. Mount the FoD ISO by using the following command:
-<p><i>Mount-DiskImage -ImagePath drive_letter:\folder_where_ISO_is_saved.</i>
+```Mount-DiskImage -ImagePath drive_letter:\folder_where_ISO_is_saved.```
 3. Enter exit to exit PowerShell.
 4. In a command window, change the default directory to drive letter of the mounted ISO. 
 5. Run the following command:
-<p><i>Dism /online /add-package:"Microsoft-Windows-InternetExplorer-Optional-Package~31bf3856ad364e35~amd64~~.cab"</i>
+```Dism /online /add-package:"Microsoft-Windows-InternetExplorer-Optional-Package~31bf3856ad364e35~amd64~~.cab"```
 6. Restart the computer.
 7. After logging in again, mount the FoD ISO again by repeating Step 1 through Step 3.
 8. In a command window, change the default directory to drive letter of the mounted ISO.
 9. Run the following command:
-<p><i>Dism /online /add-package:"Microsoft-Windows-InternetExplorer-Optional-Package~31bf3856ad364e35~amd64~en-US~.cab"</i>
+```Dism /online /add-package:"Microsoft-Windows-InternetExplorer-Optional-Package~31bf3856ad364e35~amd64~en-US~.cab"```
 This instance of running DISM specifies a different package than the previous instance in this procedure.
 
 ## Storage Spaces Direct
