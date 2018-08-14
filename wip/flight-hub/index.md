@@ -35,7 +35,8 @@ The items in <b>bold</b> typeface are the latest release for that version of the
 
 | Build | Fast | Slow | Server | IoT | ISO | SDK |
 |-------|------|------|--------|-----|-----|-----|
-|17735|[<b>8/10/2018</b>](https://blogs.windows.com/windowsexperience/2018/08/10/announcing-windows-10-insider-preview-build-17735/#kKwY027020kCW7QE.97)|
+|17738|[<b>8/14/2018</b>](https://blogs.windows.com/windowsexperience/2018/08/14/announcing-windows-10-insider-preview-build-17738/)
+|17735|[8/10/2018](https://blogs.windows.com/windowsexperience/2018/08/10/announcing-windows-10-insider-preview-build-17735/)|
 |17733 | [8/08/2018](https://blogs.windows.com/windowsexperience/2018/08/08/announcing-windows-10-insider-preview-build-17733/)
 |17730 | [8/03/2018](https://blogs.windows.com/windowsexperience/2018/08/03/announcing-windows-10-insider-preview-build-17730/)
 |17728| [7/31/2018](https://aka.ms/gul-dukat)
