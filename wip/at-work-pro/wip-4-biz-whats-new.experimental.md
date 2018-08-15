@@ -146,24 +146,28 @@ Credential Guard is a security service in Windows 10 built to protect Active Dir
 
 Credential Guard has always been an optional feature, but Windows 10-S turns this functionality on by default when the machine has been AAD joined. This provides an added level of security when connecting to domain resources not normally present on 10-S devices. Please note that Credential Guard is available only to S-Mode devices or Enterprise and Education Editions. 
 
-## Faster sign-in to a Windows 10 shared pc
-Do you have shared PCs deployed in your work place? Introducing “Fast Sign-in,” which enables users to sign in to a shared Windows 10 PC in a flash!
-![Web sign-in](images/fastsignin.png "web sign-in")
+### Windows 10 Pro S Mode requires a network connection (Build 17712)
 
-### To enable Fast Sign in,
+Starting with Windows 10 Pro S Mode build 17712, a network connection is now required to set up a new device. As a result, we removed the “skip for now” option in the network setup page in OOBE. 
+
+## Faster sign-in to a Windows 10 shared pc
+Do you have shared PCs deployed in your work place? Introducing “fast sign-in,” which enables users to sign in to a shared Windows 10 PC in a flash!
+![fast sign-in](images/fastsignin.png "fast sign-in")
+
+### To enable fast sign-in,
 1. Set up a shared or guest PC with Windows 10
 2. Set Policy/Authentication/EnableFastFirstSignIn to enable fast sign-in
 3. With the policy enabled, sign-in to a shared PC with your account and notice the difference!
 
 ## Web sign-in to Windows 10
-Until now, Windows logon only supported the use of identities federated to ADFS or other providers that support the WS-Fed protocol. We are introducing “Web Sign-in,” a new way of signing into your Windows PC. Web Sign-in enables Windows logon support for non-ADFS federated providers(e.g.SAML).
+Until now, Windows logon only supported the use of identities federated to ADFS or other providers that support the WS-Fed protocol. We are introducing “web sign-in,” a new way of signing into your Windows PC. Web Sign-in enables Windows logon support for non-ADFS federated providers (e.g.SAML).
 
 ![Web sign-in](images/websignin.png "web sign-in")
 
 ### To try out web sign-in:
-1. Azure AD Join your Windows 10 PC. (Web Sign-in is only supported on Azure AD Joined PCs).
-2. Set the Policy CSP/Authentication/EnableWebSignIn policy to enable Web Sign-in. 
-3. On the lock screen, select Web Sign-in under Sign-in options.
+1. Azure AD Join your Windows 10 PC. (Web sign-in is only supported on Azure AD Joined PCs).
+2. Set the Policy CSP/Authentication/EnableWebSignIn policy to enable web sign-in. 
+3. On the lock screen, select web sign-in under sign-in options.
 4. Click the “Sign in” button to continue.
 
 
