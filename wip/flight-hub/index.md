@@ -26,7 +26,7 @@ You can now get Skip Ahead builds of Windows 10 (19H1) if your device is in the 
 |18204| [7/25/2018*](https://aka.ms/for-kevin)||
 
 ## Upcoming feature update for Windows 10 (RS5)
-You can get builds of RS5 today if your device is in the Fast ring. RS5 Skip ahead is complete but you can see the builds that went out as Skip Ahead below, marked with an asterisk.  
+You can get builds of RS5 today if your device is in the Fast ring. RS5 Skip ahead is complete but you can see the builds that went out as Skip Ahead below, marked with an asterisk.     
 
 Builds of Windows Server 2019 are released to members of the Windows Insider Program for Server. 
 
