@@ -22,7 +22,8 @@ You can now get Skip Ahead builds of Windows 10 (19H1) if your device is in the 
 
 | Build | Fast | Slow | Server | IoT | ISO | SDK |
 |-------|------|------|--------|-----|-----|-----|
-|18214|[<b>8/10/2018*</b>](https://blogs.windows.com/windowsexperience/2018/08/10/announcing-windows-10-insider-preview-build-18214/#Cel6dixx4WLIoFVU.97)||||||
+|18219|[<b>8/16/2018*</b>](https://blogs.windows.com/windowsexperience/2018/08/16/announcing-windows-10-insider-preview-build-18219/)||||||
+|18214|[8/10/2018*](https://blogs.windows.com/windowsexperience/2018/08/10/announcing-windows-10-insider-preview-build-18214/)||||||
 |18204| [7/25/2018*](https://aka.ms/for-kevin)||
 
 ## Upcoming feature update for Windows 10 (RS5)
