@@ -37,13 +37,11 @@ You will notice new acrylic backgrounds in places on the system using these cont
 ![alt text](images/acrylic.png "acrylic settings")
 
 ## Bluetooth battery percentage in settings
-
 In the <b>Bluetooth & other devices</b> page in Settings, you can check the battery level of your Bluetooth devices for Bluetooth devices that support this feature, in which case the battery percentage will update whenever your PC and the device are connected.
 
 ![alt text](images/bluetoothbattery.png "bluetooth battery")
 
 ## New clipboard experience
-
 Copy/paste - it's something we all do, probably multiple times a day. But what do you do if you need to copy the same few things again and again? How do you copy content across your devices? Today we're addressing that and taking the clipboard to the next level. Press WIN+V and you'll be presented with our new clipboard experience.  
 
 ![alt text](images/clipboardhistory.png "clipboard history")
@@ -57,7 +55,6 @@ Our new settings page for enabling this experience is under <b>Settings > System
 <b>Note:</b> Roaming text on the clipboard is only supported for clipboard content less than 100kb. Currently, the clipboard history supports plain text, HTML and images less than 1MB. 
 
 ## Cortana Show Me voice queries
-
  You can now launch the Cortana Show Me app through voice queries. Simply say to Cortana, “Show me how to change my background,” and you’ll get help content, with a new “Let’s go” button below, which launches the guided help experience. 
 
  You can download [Cortana Show Me](https://www.microsoft.com/en-us/store/r/cortana-follow-me/9pl1gmkcxm8c) from the Microsoft Store.
@@ -100,7 +97,6 @@ Notepad can display line and column numbers when word-wrap is enabled, and we’
 ![word-wrap](images/linenumbers.png "word-wrap")
 
 ## Microsoft Edge improvements
-
 <b>New, clearer <b>Settings and more</b> (“…”) menu:</b> We’ve redesigned the <b>Settings and more</b> menu in Microsoft Edge so it’s easier to find the options you’re looking for. The menu options are now organized into groups, with icons for each entry, and keyboard shortcuts (where applicable). Click the “…” button in the top-right corner of Microsoft Edge to see what’s new.
 
 ![Edge menu options](images/SettingsandMore.png "Edge menu options")
@@ -118,7 +114,6 @@ Notepad can display line and column numbers when word-wrap is enabled, and we’
 <b>Retired XSS filter:</b> We are retiring the XSS filter in Microsoft Edge. Our customers remain protected thanks to modern standards like Content Security Policy, which provide more powerful, better performing, and secure mechanisms to protect against content injection attacks, with high compatibility across modern browsers.
 
 ### Microsoft Edge PDF reader improvements
-
 <b>Improved toolbar options:</b> The toolbar available on a PDF document opened in Microsoft Edge will now show text descriptions for the icons to make them easily understandable by users. New options like <b>Add notes</b> are now available in the toolbar so that these tools are handy when you need them.
 
 ![improved toolbar](images/PDFImprovedToolbar.png "improved toolbar")
@@ -130,13 +125,11 @@ Notepad can display line and column numbers when word-wrap is enabled, and we’
 <b>Rendering improvements:</b> We’ve included a bunch of rendering performance fixes so that you will see less white pages when you navigate through PDF files in Microsoft Edge.
 
 ### Per-site media autoplay controls
-
 You can now control autoplay permissions on a per-site basis under the <b>Website permission</b> section of the <b>Website Identification</b> pane – just click the information icon or lock icon on the left side of the address bar and click <b>manage permissions</b> to get started.
 
 ![autoplay permissions](images/autoplay.png "autoplay permissions")
 
 ### Lookup definitions for words in reading view, books, and PDFs
-
 We’ve added a new dictionary function, so you can look up definitions for key words when reading a page or document. Simply select a single word to see the definition appear above your selection.
 
 ![dictionary](images/dictionary.png "dictionary")
@@ -144,25 +137,23 @@ We’ve added a new dictionary function, so you can look up definitions for key 
 You can choose to have a word read aloud to you to hear the correct pronunciation or expand more details from the definition. You can toggle whether definitions appear and which types of content they work in under the <b>General</b> tab of the Microsoft Edge settings menu.
 
 ### WebDriver improvements
-It's easier than ever to automate testing in Microsoft Edge using WebDriver. First, we’ve made WebDriver a Windows Feature on Demand, so you no longer need to match the build/branch/flavor manually when installing WebDriver. When you take new Windows 10 updates, your WebDriver binary will be automatically updated to match.
+You can automate testing in Microsoft Edge using WebDriver. WebDriver is a Windows Feature on Demand, so you no longer need to match the build and branch manually when installing WebDriver. When you take new Windows 10 updates, your WebDriver binary will be automatically updated to match.
 
-To install WebDriver, just turn on Developer Mode in Windows 10 Settings, or install the standalone feature under the “optional features” Settings page.
+To install WebDriver, just turn on <b>Developer Mode</b> in Windows 10 Settings, or install the standalone feature on the <b> Manage optional features</b> Settings page.
 
-We’ve also updated WebDriver to match the latest [W3C Recommendation spec](https://www.w3.org/TR/webdriver/) with major new improvements. You can learn all about these changes on the [Microsoft Edge Dev Blog](https://www.w3.org/TR/webdriver/).
+We’ve also updated WebDriver to match the latest [W3C Recommendation spec](https://www.w3.org/TR/webdriver/) with major new improvements. You can learn all about these changes on the [Microsoft Edge dev blog](https://www.w3.org/TR/webdriver/).
 
-### Web Authentication preview
-Microsoft Edge now includes unprefixed support for the new Web Authentication API (a.k.a. WebAuthN). This evolves our previous support for the WebAuthN specification to enable the updated version of the API by default.
-
+### Web authentication preview
 Web Authentication provides an open, scalable, and interoperable solution to facilitate authentication, which replaces passwords with stronger hardware-bound credentials. The implementation in Microsoft Edge allows users to use Windows Hello (via PIN or biometrics) and external authenticators like FIDO2 Security Keys or FIDO U2F Security Keys, to securely authenticate to websites. 
  
 
-## External GPU Safe Removal Experience
-We added a safe removal experience for external GPUs connected via Thunderbolt 3. The safe remove experience allows you to know which applications are running on an external GPU so that you can safely remove to prevent data loss during detach.
+## External GPU safe removal experience
+We added a safe removal experience for external GPUs connected via Thunderbolt 3. The safe remove experience allows you to know which applications are running on an external GPU so that you can safely remove it and prevent data loss during detach.
 
-To safely remove an external graphics card, go to the “Safely Remove Hardware and Eject Media” icon and click to eject your GPU. If there are applications running on your external GPU, then a dialog will appear with the applications that are currently running. Close the applications to safely remove the device. If there are no applications currently running on your external graphics device then no dialog will appear and you can safely detach your external GPU.
+To safely remove an external graphics card, go to the <b>Safely Remove Hardware and Eject Media</b> icon and click to eject your GPU. If there are applications running on your external GPU, a dialog will appear with the applications that are currently running on the GPU. Close the applications to safely remove the device. If there are no applications currently running on your GPU then no dialog will appear and you can safely detach your GPU.
 
 ## Focus assist improvements when gaming 
-Now Focus assist will turn on automatically when you’re playing any full screen game. No more interruptions when you’re crushing it. This behavior should be turned on automatically, but you can always check by going to Settings > System > Focus assist and ensuring the “When I’m playing a game” automatic rule is enabled. For more information, see [Windows 10 Tip: How to enable Focus Assist in the Windows 10 April 2018 Update](https://blogs.windows.com/windowsexperience/2018/05/09/windows-10-tip-how-to-enable-focus-assist-in-the-windows-10-april-2018-update/).
+Now focus assist will turn on automatically when you’re playing any full screen game. No more interruptions when you’re crushing it. This behavior should be turned on automatically, but you can always check by going to <b>Settings > System > Focus assist</b> and ensuring the <b>When I’m playing a game</b> automatic rule is enabled. For more information, see [Windows 10 Tip: How to enable Focus Assist in the Windows 10 April 2018 Update](https://blogs.windows.com/windowsexperience/2018/05/09/windows-10-tip-how-to-enable-focus-assist-in-the-windows-10-april-2018-update/).
 
 ![alt text](images/speakers2.png "sound settings")
 
@@ -173,10 +164,12 @@ Now Focus assist will turn on automatically when you’re playing any full scree
 ![alt text](images/New-Game-bar.png "game bar")
 
 ## Game mode improvements
-New options are now available for Game Mode that are expected to improve the gaming experience on desktop PCs.  Gamers on PCs with many background processes may also see performance improvements when they toggle “Dedicate resources” in Game bar.
+New options are now available for Game Mode that are expected to improve the gaming experience on desktop PCs.  Gamers on PCs with many background processes may also see performance improvements when they toggle <b>Dedicate resources</b> in Game bar.
 
 ## High Efficiency Image File Format (HEIF)
-The <b>High Efficiency Image File Format (HEIF)</b> is supported in Windows 10 and the Photos app. [HEIF is an image container](https://en.wikipedia.org/wiki/High_Efficiency_Image_File_Format) that leverages modern codecs like HEVC to improve quality, compression, and capabilities compared to earlier formats like JPEG, GIF, and PNG. In addition to traditional single images, HEIF supports encoding image sequences, image collections, auxiliary images like alpha or depth maps, live images & video, audio, and HDR for greater contrast. We have heard your feedback that these features and the ability to share photos easily with other platforms is important to you. 
+The <b>High Efficiency Image File Format (HEIF)</b> is supported in Windows 10 and the Photos app. [HEIF is an image container](https://en.wikipedia.org/wiki/High_Efficiency_Image_File_Format) that leverages modern codecs like HEVC to improve quality, compression, and capabilities compared to earlier formats like JPEG, GIF, and PNG. In addition to traditional single images, HEIF supports encoding image sequences, image collections, auxiliary images like alpha or depth maps, live images & video, audio, and HDR for greater contrast. 
+
+HEIF files use the HEVC video codec to compress the image into approximately half the size of JPEG. If your Windows PC does not already have the HEVC video codec, it can be purchased from the Windows Store using [this link](https://aka.ms/HEVCcodec).
 
 In order to try this out, you need to join the Windows App Preview Program for the Photos app and make sure you are running the March release of the Photos app (Version 2018.18022.13740.0 or newer). This version of the [Photos](https://www.microsoft.com/store/productId/9WZDNCRFJBH4) app has been updated to support viewing the primary image inside a HEIF file and to guide the install of dependencies like the HEIF and HEVC media extensions from the Microsoft Store. Once installed, these media extensions enable HEIF viewing in Photos as well as thumbnails and metadata in File Explorer.
 
@@ -185,9 +178,7 @@ Additionally, any application that uses [WIC](https://msdn.microsoft.com/en-us/l
 [Click here](https://aka.ms/photosfb) to open Feedback Hub and send us feedback on the HEIF experience with the Photos app and Windows 10.
 
 You can now rotate HEIF-format images in File Explorer, and edit metadata, such as "Date taken". 
-The new functionality requires the latest version of the HEIF package. The latest version will be installed automatically be the Store. If automatic updates are disabled you can download the HEIF package manually using [this link](https://aka.ms/HEIFpackage). 
-
-HEIF files use the HEVC video codec to compress the image into approximately half the size of JPEG. If your Windows PC does not already have the HEVC video codec, it can be purchased from the Windows Store using [this link](https://aka.ms/HEVCcodec). 
+The new functionality requires the latest version of the HEIF package. The latest version will be installed automatically be the Microsoft Store. If automatic updates are disabled you can download the HEIF package manually using [this link](https://aka.ms/HEIFpackage). 
 
 To rotate a HEIF image file, simply right-click on it in File Explorer and select "Rotate right" or "Rotate left" from the menu. "Date taken" and other properties can be edited by clicking on "Properties" and selecting the "Details" tab.
 
@@ -196,11 +187,11 @@ To rotate a HEIF image file, simply right-click on it in File Explorer and selec
 ## Input 
 
 ### Emoji 11
-[Unicode 11 comes with 157 new emoji](http://blog.unicode.org/2018/06/announcing-unicode-standard-version-110.html) – as of today they’re now available for Insiders to try in the build. Including superheroes, redheads, a softball, a pirate flag and a llama all made the cut. You can access them using the Emoji Panel (WIN+.) or the touch keyboard.
+[Unicode 11 comes with 157 new emoji](http://blog.unicode.org/2018/06/announcing-unicode-standard-version-110.html) – as of today they’re now available for Insiders to try in the build. Including superheroes, redheads, a softball, a pirate flag, and a llama all made the cut. You can access them using the Emoji Panel (WIN+.) or the touch keyboard.
 
 ![new emojis](images/WindowsInsiderBlog_EmojiRS5.png "new emojis")
 
-When you get today’s build, you’ll also find that we’ve made tweaks to some of our existing emoji – here are some examples:
+We’ve also made tweaks to some of our existing emoji – here are some examples:
 
 ![emojis before after combo](images/emoji_beforeaftercombo.png "emojis before after combo")
 
@@ -219,17 +210,19 @@ Our ninja cats got a bit of love too – can you spot the difference?
 
 <b>Emoji search comes to more languages</b>: You can find an emoji by keyword in over 150 locales, including English (Great Britain), French (France), German (Germany), Spanish (Spain), and more. This will help you get the emoji you want easily and quickly. As a reminder, to bring up the Emoji Panel set focus to a text field and press WIN + (period) or WIN + (semicolon).
 
-## A Faster Safer Internet with HTTP/2 and CUBIC
-The Internet is part of our daily lives both at work and at home, in the enterprise and in the cloud.  We are committed to making your Internet experience faster and safer, and in this blog, we discuss how the features in Windows Server 2019 and Windows 10 brings those goals to reality.
-Windows 10 Microsoft Edge clients will take advantage of connection coalescing for HTTP/2 as supported in Windows Server 2019
-Improved security on Microsoft Edge browsers by guaranteeing HTTP/2 preferred cipher suites
-Improved performance on Windows 10 thanks to Cubic, the new default TCP congestion provider
-For a full writeup detailing this improvement, please see our announcement [A Faster, Safer Internet](https://blogs.technet.microsoft.com/networking/2018/08/01/faster-safer-internet/).
+## A faster safer internet with HTTP/2 and CUBIC
+The internet is part of our daily lives both at work and at home, in the enterprise and in the cloud. We are committed to making your internet experience faster and safer. For example:
 
-## Kernel Debugging Improvements 
-We are adding support for IPv6 to KDNET. To make room for the larger headers required for IPv6, we’re decreasing the payload size of packets. As a result, we’re declaring a new version of the protocol, so that host PCs running the latest version of the debugger can be used to debug target PCs that only support IPv4. An updated SDK and WDK will be released soon with this support. There is a version of WinDbg Preview available at [http://aka.ms/windbgpreview](http://aka.ms/windbgpreview) today. Follow the [Debugging Tools for Windows](http://aka.ms/windbgblog) blog for updates on KDNET IPv6 support and documentation in the future. 
+* Microsoft Edge clients will take advantage of connection coalescing for HTTP/2 as supported in Windows Server 2019
+* Improved security on Microsoft Edge browsers by guaranteeing HTTP/2 preferred cipher suites
+* Improved performance on Windows 10 thanks to Cubic, the new default TCP congestion provider.
 
-## Local Experience Packs
+For more information on how the features in Windows Server 2019 and Windows 10 brings those goals to reality, see our post [A Faster, Safer Internet](https://blogs.technet.microsoft.com/networking/2018/08/01/faster-safer-internet/).
+
+## Kernel debugging improvements 
+We are adding support for IPv6 to KDNET. To make room for the larger headers required for IPv6, we decreased the payload size of packets. As a result, we’re declaring a new version of the protocol, so that host PCs running the latest version of the debugger can be used to debug target PCs that only support IPv4. There is a version of WinDbg Preview available at [http://aka.ms/windbgpreview](http://aka.ms/windbgpreview). Follow the [Debugging Tools for Windows](http://aka.ms/windbgblog) blog for updates on KDNET IPv6 support and documentation. 
+
+## Local experience packs
 you can find your desired language (Local Experience Pack – or “Language Pack”) through the [Microsoft Store](https://go.microsoft.com/fwlink/?linkid=866287) and Region & Language section of the Settings app. The Settings app provides improved discoverability of features supported for each language.
 
 We have also started utilizing Artificial Intelligence (AI) and neural network-based Machine Learning (ML) for Windows localization. Having the Local Experience Packs in the Microsoft Store allows us to take advantage of ML improvements and user feedback via [Language Community App](https://www.microsoft.com/en-us/store/p/language-community/9nwx2n74m2x3?cid=UCID00008&rtc=1) to release better translations more frequently. This will consistently improve the experience of our international customers with Windows.
