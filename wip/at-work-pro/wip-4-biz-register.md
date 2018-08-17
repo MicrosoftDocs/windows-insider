@@ -2,7 +2,7 @@
 title: Register for the Windows 10 Insider Program for Business
 description: how to enroll and setup Windows Insider builds for enterprise client devices.
 services: WIP-at-work-pro
-author: dawn.wood
+author: dawnwood
 manager: elizapo
 ms.assetid: 
 ms.service: WIP-at-work-pro
