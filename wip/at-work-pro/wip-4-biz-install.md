@@ -34,6 +34,8 @@ Getting set up on a single device is easy.
 9. Once the download is complete, reboot your device again. 
 10. The Windows 10 Insider Preview build is on your device. 
 
+<b>NOTE:</b> If the user's device is not already Azure AD joined, the user needs to add an Azure AD or Microsoft account to the machine manually. Otherwise, Windows Insider Preview builds will not be installed.
+
 ## Install across multiple devices in a domain 
 Administrators can install and manage Insider Preview builds centrally across devices in their domain. To register a domain, you must be registered in the Windows Insider Program with your work account in Azure Active Directory and you have to be a Global Administrator role on that AAD domain. This feature is available on Windows 10 Version 1703 or later. 
 
