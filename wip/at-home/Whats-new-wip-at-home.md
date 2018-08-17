@@ -13,18 +13,18 @@ ms.author: dawn.wood
 ms.localizationpriority: medium
 ---
 
-#  What's new in the Windows 10 Insider Preview Builds (RS5)
+#  What's new in the Windows 10 Insider preview builds (RS5)
 The [Windows Insider Program](https://insider.windows.com/en-us/) lets you preview builds of the upcoming release of Windows 10. This topic lists all new Windows 10 features for you to try. Unlike the [Windows Insider Program Blog](https://blogs.windows.com/windowsexperience/tag/windows-insider-program), this topic is organized by feature instead of by the build number so that you can see all items about a specific feature listed together.
 
-## Acrylic Improvements
+## Acrylicic improvements
 
-### Acrylic in Task View 
-The entire task View background now has a soft blur effect.
+### Acrylic in task view 
+The entire task view background now has a soft blur effect.
 
 ![alt text](images/taskview-acrylic.png "acrylic task view")
 
 ### Acrylic comes to menus and more!
-Our Acrylic material is being used by default in light-dismiss XAML controls and on transient XAML surfaces like flyouts. The new Acrylic material is now applied to:
+Our acrylic material is being used by default in XAML controls and on transient XAML surfaces like flyouts. The new acrylic material is now applied to:
 * Context menus
 * Flyouts
 * Auto-suggest drop down list boxes
@@ -32,11 +32,11 @@ Our Acrylic material is being used by default in light-dismiss XAML controls and
 * date and time picker flyouts
 * media transport control flyouts and overflows
 
-You will notice new acrylic backgrounds in places on the system using these controls – for example when you right-click open apps in Task View. Apps using the SDK for Windows 10, 1809 or higher will see this change by default as well.
+You will notice new acrylic backgrounds in places on the system using these controls – for example when you right-click open apps in task view. Apps using the SDK for Windows 10, version 1809 or higher will see this change by default as well.
 
 ![alt text](images/acrylic.png "acrylic settings")
 
-## Bluetooth battery percentage in Settings
+## Bluetooth battery percentage in settings
 
 In the <b>Bluetooth & other devices</b> page in Settings, you can check the battery level of your Bluetooth devices for Bluetooth devices that support this feature, in which case the battery percentage will update whenever your PC and the device are connected.
 
@@ -44,17 +44,17 @@ In the <b>Bluetooth & other devices</b> page in Settings, you can check the batt
 
 ## New clipboard experience
 
-Copy paste - it's something we all do, probably multiple times a day. But what do you do if you need to copy the same few things again and again? How do you copy content across your devices? Today we're addressing that and taking the clipboard to the next level - simply press WIN+V and you'll be presented with our brand-new clipboard experience!  
+Copy/paste - it's something we all do, probably multiple times a day. But what do you do if you need to copy the same few things again and again? How do you copy content across your devices? Today we're addressing that and taking the clipboard to the next level. Press WIN+V and you'll be presented with our new clipboard experience.  
 
 ![alt text](images/clipboardhistory.png "clipboard history")
 
-Not only can you can paste from the clipboard history, but you can also pin the items you find yourself using all the time. This history is roamed using the same technology which powers Timeline and Sets, which means you can access your clipboard across any PC with this build of Windows or higher.  
+Not only can you can paste from the clipboard history, but you can also pin the items you find yourself using all the time. This history roams with you using the same technology which powers Timeline and Sets, which means you can access your clipboard across any PC.  
 
-Our new settings page for enabling this experience is under Settings > System > Clipboard - please try this out and share feedback! [This link](feedback-hub:///) will open the Feedback Hub to where you can tell us about your experience and what you'd like to see next. 
+Our new settings page for enabling this experience is under <b>Settings > System > Clipboard</b> - please try this out and share feedback! [This link](feedback-hub:///) will open the Feedback Hub to where you can tell us about your experience and what you'd like to see next. 
 
 ![alt text](images/clipboardsettings.png "clipboard settings")
 
-<b>Note:</b> Roamed text on the clipboard is only supported for clipboard content less than 100kb. Currently, the clipboard history supports plain text, HTML and images less than 1MB. 
+<b>Note:</b> Roaming text on the clipboard is only supported for clipboard content less than 100kb. Currently, the clipboard history supports plain text, HTML and images less than 1MB. 
 
 ## Cortana Show Me voice queries
 
@@ -78,71 +78,70 @@ Our new settings page for enabling this experience is under Settings > System > 
 * <b>Check your version of Windows</b> – Try, “How do I find my current version of Windows”
 
 ## Ease of access improvements
-<b>Make Text Bigger</b>: We’ve heard your feedback and are excited to announce that the ability to increase text size across the system is back and better than ever! When you go to Settings > Ease of Access > Display in today’s build, you’ll find a new setting called “Make everything bigger” – this slider will adjust text across the system, win32 apps, and UWP apps.
+<b>Make text bigger</b>: We’ve heard your feedback and are excited to announce that the ability to increase text size across the system is back and better than ever! When you go to <b>Settings > Ease of Access > Display</b> in today’s build, you’ll find a new setting called “Make everything bigger” – this slider will adjust text across the system, win32 apps, and UWP apps.
 
 ![alt text](images/bigger-text.png "bigger text")
 
-That means you can now make text bigger in Start menu, File Explorer, Settings, etc., without having to change the overall scaling of your system. 
+That means you can now make text bigger in Start, File Explorer, Settings, etc., without having to change the overall scaling of your system. 
 
 ### Wrap-around find and replace 
-We’ve made significant improvement to the find/replace experience in Notepad. We added the option to do wrap-around find/replace to the find dialog and Notepad will now remember previously entered values and the state of checkboxes and automatically populate them the next time you open the find dialog. Additionally, when you have text selected and open the find dialog we will automatically populate the search field with the selected text.
-WrapAround
+We’ve made significant improvement to the find/replace experience in Notepad. We added the option to do wrap-around find/replace to the find dialog. Notepad will remember previously entered values and the state of check boxes, and will automatically populate them the next time you open the find dialog. Additionally, when you have text selected and open the find dialog we will automatically populate the search field with the selected text.
 
 ![wrap around find and replace](images/notepad.png "wrap around find and replace")
 
 ### Text zooming
-We’ve added options to make it quick and easy to zoom text in Notepad. There is a new menu option under View > Zoom to change the zoom level and we display the current zoom level in the status bar. You can also use Ctrl + Plus, Ctrl + Minus and Ctrl + MouseWheel to zoom in and out and use Ctrl + 0 to restore the zoom level to the default.
+We’ve added options to make it quick and easy to zoom text in Notepad. There is a new menu option under <b>View > Zoom</b> to change the zoom level and we display the current zoom level in the status bar. You can also use Ctrl + Plus, Ctrl + Minus and Ctrl + MouseWheel to zoom in and out and use Ctrl + 0 to restore the zoom level to the default.
 
 ![text zooming](images/zooming2 .png "text zooming")
 
 ### Line numbers with word-wrap
-A long outstanding request has been to add the ability to display line and column numbers when word-wrap is enabled. This is now possible in Notepad and we’ve made the status bar visible by default. You can still turn the status bar off in the View menu.
+Notepad can display line and column numbers when word-wrap is enabled, and we’ve made the status bar visible by default. You can still turn the status bar off in the View menu.
 
 ![word-wrap](images/linenumbers.png "word-wrap")
 
-## Microsoft Edge Improvements
+## Microsoft Edge improvements
 
-<b>New, clearer “Settings and more” (“…”) menu:</b> We’ve redesigned the “Settings and more” menu in Microsoft Edge so it’s easier to find the options you’re looking for. The menu options are now organized into groups, with icons for each entry, and keyboard shortcuts (where applicable). Click the “…” button in the top-right corner of Microsoft Edge to see what’s new! 
+<b>New, clearer <b>Settings and more</b> (“…”) menu:</b> We’ve redesigned the <b>Settings and more</b> menu in Microsoft Edge so it’s easier to find the options you’re looking for. The menu options are now organized into groups, with icons for each entry, and keyboard shortcuts (where applicable). Click the “…” button in the top-right corner of Microsoft Edge to see what’s new.
 
 ![Edge menu options](images/SettingsandMore.png "Edge menu options")
 
-<b>See your top sites in the Jump List:</b> You can now see your top sites in the Jump List on the Windows taskbar or Start Menu. Just right-click the Microsoft Edge icon to see a list of your most visited sites and pin the ones that matter most to you. Right-click on any entry to remove it from the list. 
+<b>See your top sites in the jump list:</b> You can now see your top sites in the jump list on the Windows task bar or Start menu. Just right-click the Microsoft Edge icon to see a list of your most visited sites and pin the ones that matter most to you. Right-click on any entry to remove it from the list. 
 
 <b>Organize the tabs you’ve set aside:</b> It's easier to organize the groups of tabs you’ve set aside, so you can remember what’s in each group when come back to it later. Once you’ve set a group of tabs aside, choose the “Tabs you’ve set aside” icon (top left corner), and click on the label for any group to rename it.  
 
 ![tabs you've set aside](images/tabsaside.png "Tabs you've set aside")
 
-<b>Do more from the “Downloads” pane:</b> We’ve added options for “Show in folder” and “Copy link” to the right-click menu for downloads in the “Downloads” pane. 
+<b>Do more from the “Downloads” pane:</b> We’ve added options for <b>Show in folder</b> and <b>Copy link</b> to the right-click menu for downloads in the <b>Downloads</b> pane. 
 
 ![downloads pane](images/downloads.png "Downloads pane")
 
-<b>Retired XSS Filter:</b> We are retiring the XSS filter in Microsoft Edge. Our customers remain protected thanks to modern standards like Content Security Policy, which provide more powerful, performant, and secure mechanisms to protect against content injection attacks, with high compatibility across modern browsers.
+<b>Retired XSS filter:</b> We are retiring the XSS filter in Microsoft Edge. Our customers remain protected thanks to modern standards like Content Security Policy, which provide more powerful, better performing, and secure mechanisms to protect against content injection attacks, with high compatibility across modern browsers.
 
-### Microsoft Edge PDF Reader Improvements
+### Microsoft Edge PDF reader improvements
 
-<b>Improved toolbar options:</b> The toolbar available on a PDF document opened in Microsoft Edge will now show text descriptions for the icons to make them easily understandable. by the users. New options like “Add notes” are now available in the toolbar so that these tools are handy when you need them.
+<b>Improved toolbar options:</b> The toolbar available on a PDF document opened in Microsoft Edge will now show text descriptions for the icons to make them easily understandable by users. New options like <b>Add notes</b> are now available in the toolbar so that these tools are handy when you need them.
 
 ![improved toolbar](images/PDFImprovedToolbar.png "improved toolbar")
 
-<b>Pin/unpin PDF toolbar:</b> The toolbar can now be pinned at the top of the document, making all the PDF tools easily accessible if you need them. You can also unpin the toolbar for an immersive reading experience. If the toolbar is unpinned, it will hide itself – just hover over the top area to bring it back.
+<b>Pin/unpin PDF toolbar:</b> The PDF toolbar can now be pinned at the top of the document, making all the PDF tools easily accessible if you need them. You can also unpin the toolbar for an immersive reading experience. If the toolbar is unpinned, it will hide itself – just hover over the top area to bring it back.
 
 ![pin or unpin the toolbar](images/PDFPinButton.png "pin or unpin the toolbar")
 
-<b>Rendering improvements:</b> We’ve included a bunch of rendering performance fixes with this build. Now you will see less and less of the white pages when you navigate through PDF files in Microsoft Edge.
+<b>Rendering improvements:</b> We’ve included a bunch of rendering performance fixes so that you will see less white pages when you navigate through PDF files in Microsoft Edge.
 
 ### Per-site media autoplay controls
 
-You can now control autoplay permissions on a per-site basis under the “Website permission” section of the Website Identification pane – just click the information icon or lock icon on the left side of the address bar and click “manage permissions” to get started.
+You can now control autoplay permissions on a per-site basis under the <b>Website permission</b> section of the <b>Website Identification</b> pane – just click the information icon or lock icon on the left side of the address bar and click <b>manage permissions</b> to get started.
 
 ![autoplay permissions](images/autoplay.png "autoplay permissions")
 
-### Lookup definitions for words in Reading View, Books, and PDFs
+### Lookup definitions for words in reading view, books, and PDFs
 
 We’ve added a new dictionary function, so you can look up definitions for key words when reading a page or document. Simply select a single word to see the definition appear above your selection.
 
 ![dictionary](images/dictionary.png "dictionary")
 
-You can choose to have a word read aloud to you to hear the correct pronunciation or expand more details from the definition. You can toggle whether definitions appear and which types of content they work in under the “General” tab of the Microsoft Edge settings menu.
+You can choose to have a word read aloud to you to hear the correct pronunciation or expand more details from the definition. You can toggle whether definitions appear and which types of content they work in under the <b>General</b> tab of the Microsoft Edge settings menu.
 
 ### WebDriver improvements
 It's easier than ever to automate testing in Microsoft Edge using WebDriver. First, we’ve made WebDriver a Windows Feature on Demand, so you no longer need to match the build/branch/flavor manually when installing WebDriver. When you take new Windows 10 updates, your WebDriver binary will be automatically updated to match.
