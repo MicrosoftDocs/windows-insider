@@ -2,7 +2,7 @@
 title: Windows readiness levels and flight rings
 description: understand your choices for time and type of updates you want to receive
 services: WIP-at-work-pro
-author: dawn.wood
+author: dawnwood
 manager: elizapo
 ms.assetid: 
 ms.service: WIP-at-work-pro

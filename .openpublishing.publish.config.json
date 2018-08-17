@@ -28,6 +28,7 @@
   "skip_source_output_uploading": false,
   "need_preview_pull_request": true,
   "contribution_branch_mappings": {},
+  "resolve_user_profile_using_github": true,
   "dependent_repositories": [
     {
       "path_to_root": "_themes",
