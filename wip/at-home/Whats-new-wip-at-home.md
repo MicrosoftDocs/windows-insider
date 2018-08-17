@@ -223,25 +223,26 @@ For more information on how the features in Windows Server 2019 and Windows 10 b
 We are adding support for IPv6 to KDNET. To make room for the larger headers required for IPv6, we decreased the payload size of packets. As a result, we’re declaring a new version of the protocol, so that host PCs running the latest version of the debugger can be used to debug target PCs that only support IPv4. There is a version of WinDbg Preview available at [http://aka.ms/windbgpreview](http://aka.ms/windbgpreview). Follow the [Debugging Tools for Windows](http://aka.ms/windbgblog) blog for updates on KDNET IPv6 support and documentation. 
 
 ## Local experience packs
-you can find your desired language (Local Experience Pack – or “Language Pack”) through the [Microsoft Store](https://go.microsoft.com/fwlink/?linkid=866287) and Region & Language section of the Settings app. The Settings app provides improved discoverability of features supported for each language.
-
-We have also started utilizing Artificial Intelligence (AI) and neural network-based Machine Learning (ML) for Windows localization. Having the Local Experience Packs in the Microsoft Store allows us to take advantage of ML improvements and user feedback via [Language Community App](https://www.microsoft.com/en-us/store/p/language-community/9nwx2n74m2x3?cid=UCID00008&rtc=1) to release better translations more frequently. This will consistently improve the experience of our international customers with Windows.
-
-We have introduced a new Region page that allows overrides to default regional format settings such as Calendar, First day of the week, Dates, Times, and Currency. Please go to Settings App – Time & Language – Region and give it a try.
-
-![alt text](images/Region.png "Region page")
-
 Local Experience Packs are Microsoft Store apps that deliver Windows display language quality improvements. You can now access them easily via the Settings App. Please go to Settings App – Time & Language – Language. Once here click on <i>Add a Windows display language with Local Experience Packs</i> link to download a Local Experience Pack from the Microsoft Store and start enjoying Windows in your preferred language.
 
 ![alt text](images/Get-LXP-from-Store.png "local experience packs")
 
-## Narrator Improvements 
+The Settings app provides improved discoverability of features supported for each language.
+
+We have also started utilizing Artificial Intelligence (AI) and neural network-based Machine Learning (ML) for Windows localization. Having the Local Experience Packs in the Microsoft Store allows us to take advantage of ML improvements and user feedback via [Language Community App](https://www.microsoft.com/en-us/store/p/language-community/9nwx2n74m2x3?cid=UCID00008&rtc=1) to release better translations more frequently. This will consistently improve the experience of our international customers with Windows.
+
+We have introduced a new <b>Region</b> page that allows overrides to default regional format settings such as Calendar, First day of the week, Dates, Times, and Currency. 
+
+![alt text](images/Region.png "Region page")
+
+
+## Narrator improvements 
 
 * <b>Reliability:</b> We have made improvements in Narrator reliability.
-Scan Mode: Reading and navigating while in Scan Mode has been improved. Selecting text in Scan Mode has also been improved. Selecting forward in Edge has some known issues that we are actively investigating.
-* <b>QuickStart:</b> The link in settings to relaunch the QuickStart should now reliably be working and will launch from the very first Welcome page. The QuickStart should also more reliably take focus when Narrator is launched, which means Narrator should start reading it automatically.
-* <b>Providing Feedback:</b> The keystroke to provide feedback has changed. The new keystroke is Narrator + Alt + F. This will work both in the Standard and Legacy layouts.
-<i>Note: The Legacy layout also allows you to use Narrator + E to send us feedback.</i>
+* <b>Scan Mode:</b> Reading and navigating while in Scan Mode has been improved. Selecting text in Scan Mode has also been improved. 
+* <b>QuickStart:</b> The link in settings to relaunch the QuickStart is available from the first Welcome page. The QuickStart more reliably takes focus when Narrator is launched, which means Narrator starts reading automatically.
+* <b>Providing Feedback:</b> The keystroke to provide feedback has changed. The new keystroke is <b>Narrator + Alt + F</b>. This will work both in the standard and legacy layouts.
+<i>Note: The legacy layout also allows you to use <b>Narrator + E</b> to send us feedback.</i>
 * <b>Move Next, Move Previous, and Change View:</b> When changing Narrator’s view to either characters, words, lines or paragraphs the Read Current Item command will read the text of that specific view type more reliably.
 * <b>Keyboard command changes:</b> The keystroke to Move to beginning of text has changed to Narrator + B (was Narrator + Control + B), Move to end of text has changed to Narrator + E (was Narrator + Control + E).
 * <b>Braille:</b> Improved usage of Braille commanding when using the Narrator key from the braille display.
