@@ -2,7 +2,7 @@
 title: Install Windows 10 preview builds
 description: how to install Windows Insider builds for enterprise client devices
 services: WIP-at-work-pro
-author: dawn.wood
+author: dawnwood
 manager: elizapo
 ms.assetid: 
 ms.service: WIP-at-work-pro

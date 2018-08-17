@@ -2,7 +2,7 @@
 title: Share Feedback via the Feedback Hub
 description: how to provide feedback for Windows Insider builds for enterprise client devices.
 services: WIP-at-work-pro
-author: dawn.wood
+author: dawnwood
 manager: elizapo
 ms.assetid: 
 ms.service: WIP-at-work-pro

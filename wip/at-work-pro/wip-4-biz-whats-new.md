@@ -2,7 +2,7 @@
 title: What's new in the Windows Server 10 Insider Program for Business Preview Builds
 description: New features to use and test in the Windows 10 Insider Program for Business Preview Builds
 services: WIP-at-work-pro
-author: dawn.wood
+author: dawnwood
 manager: elizapo
 ms.service: WIP-at-work-pro
 ms.date: 08/03/2018
