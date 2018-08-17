@@ -2,7 +2,7 @@
 title: What's new in the Windows Server 10 Insider Program for Business Preview Builds
 description: New features to use and test in the Windows 10 Insider Program for Business Preview Builds
 services: WIP-at-work-pro
-author: dawn.wood
+author: dawnwood
 manager: elizapo
 ms.service: WIP-at-work-pro
 ms.date: 08/03/2018
@@ -47,21 +47,21 @@ When you configure Microsoft Edge kiosk mode in assigned access, you can set it 
 Learn more about [Microsoft Edge kiosk mode](https://docs.microsoft.com/en-us/microsoft-edge/deploy/microsoft-edge-kiosk-mode-deploy).
 
 ## Web sign-in to Windows 10 (Build 17713)
-Until now, Windows logon only supported the use of identities federated to ADFS or other providers that support the WS-Fed protocol. We are introducing “Web Sign-in,” a new way of signing into your Windows PC. Web Sign-in enables Windows logon support for non-ADFS federated providers(e.g.SAML).
+Until now, Windows logon only supported the use of identities federated to ADFS or other providers that support the WS-Fed protocol. We are introducing “web sign-in,” a new way of signing into your Windows PC. Web sign-in enables Windows logon support for non-ADFS federated providers (e.g.SAML).
 
-![Web sign-in](images/websignin.png "web sign-in")
+![web sign-in](images/websignin.png "web sign-in")
 
 ### To try out web sign-in:
-1. Azure AD Join your Windows 10 PC. (Web Sign-in is only supported on Azure AD Joined PCs).
-2. Set the Policy CSP/Authentication/EnableWebSignIn policy to enable Web Sign-in. 
-3. On the lock screen, select Web Sign-in under Sign-in options.
+1. Azure AD Join your Windows 10 PC. (Web sign-in is only supported on Azure AD Joined PCs).
+2. Set the Policy CSP/Authentication/EnableWebSignIn policy to enable web sign-in. 
+3. On the lock screen, select web sign-in under sign-in options.
 4. Click the “Sign in” button to continue.
 
 ## Faster sign-in to a Windows 10 shared pc (Build 17713)
-Do you have shared PCs deployed in your work place? Introducing “Fast Sign-in,” which enables users to sign in to a shared Windows 10 PC in a flash!
-![Web sign-in](images/fastsignin.png "web sign-in")
+Do you have shared PCs deployed in your work place? Introducing “fast sign-in,” which enables users to sign in to a shared Windows 10 PC in a flash!
+![fast sign-in](images/fastsignin.png "fast sign-in")
 
-### To enable Fast Sign in,
+### To enable fast sign-in,
 1. Set up a shared or guest PC with Windows 10
 2. Set Policy/Authentication/EnableFastFirstSignIn to enable fast sign-in
 3. With the policy enabled, sign-in to a shared PC with your account and notice the difference!
@@ -97,6 +97,9 @@ In this example, Windows uses facial recognition to authenticate the RDP session
 
 ![Microsoft Hyper-V Server 2016](images/hyper-v.png "Microsoft Hyper-V Server 2016")
 
+##Windows 10 Pro S Mode requires a network connection (Build 17712)
+
+Starting with Windows 10 Pro S Mode build 17712, a network connection is now required to set up a new device. As a result, we removed the “skip for now” option in the network setup page in OOBE. 
 
 ## Registry editor improvements (Build 17711)
 
@@ -123,23 +126,53 @@ We've added a new assessment for the Windows time service to the **Device perfor
 We’re continuing to work on how other security apps you’ve installed show up in the Windows Security app. There’s a new page called **Security providers** that you can find in the Settings section of the app. Click **Manage providers** to see a list of all the other security providers (including antivirus, firewall, and web protection) that are running on your device. Here you can easily open the providers’ apps, or get more information on how to resolve any issue that they have reported to you through the Windows Security app.
 
 This also means you’ll see more links to other security apps within the Windows Security app. For example, if you open the **Firewall & network protection** section, you’ll see the firewall apps that are running on your device under each firewall type (domain, private, and public networks).
-
-## Windows Security Improvements 
+ 
 The Windows Security Center (WSC) service now requires antivirus products to run as a protected process to register. Products that have not yet implemented this will not appear in the Windows Security UI, and Windows Defender Antivirus will remain enabled side-by-side with these products. 
 For testing purposes, you can disable this new behavior in Windows Insider builds by creating the following registry key and rebooting the device.  This key will be removed as we get closer to release. 
 
 <pre>HKLM\SOFTWARE\Microsoft\Security Center\Feature 
 DisableAvCheck (DWORD) = 1 </pre>
 
-
-## Windows Security Center gets a Fluent Design refresh
-We’ve heard your feedback and we’ve updated Windows Defender Security Center (WDSC) to include the Fluent Design elements you know and love. You’ll also notice we’ve adjusted the spacing and padding around the app and will now dynamically size the categories on the main page if more room is needed for extra info. Last but not least, we’ve also updated the title bar of the app so that it will now use your accent color if you’ve enabled that option in Color Settings – with Sets enabled, you will see this color in the WDSC tab.
-
-![alt text](images/defender.png "Windows Security Center")
-
-## Windows Defender Security Center is now called Windows Security. 
+## Windows Defender Security Center is now called Windows Security (Build 17661)
 
 You can still get to the app in all the usual ways – simply ask Cortana to open Windows Security or interact with the taskbar icon. Windows Security lets you manage all your security needs, including Windows Defender Antivirus and Windows Defender Firewall. 
 
-## Windows Defender Firewall now supports Windows Subsystem for Linux (WSL) processes 
+## Windows Security Center gets a Fluent Design refresh (Build 17650)
+We’ve heard your feedback and we’ve updated Windows Security Center (WSC) to include the Fluent Design elements you know and love. You’ll also notice we’ve adjusted the spacing and padding around the app and will now dynamically size the categories on the main page if more room is needed for extra info. Last but not least, we’ve also updated the title bar of the app so that it will now use your accent color if you’ve enabled that option in Color Settings – with Sets enabled, you will see this color in the WDSC tab.
+
+![alt text](images/defender.png "Windows Security Center")
+
+
+## Windows Defender Firewall now supports Windows Subsystem for Linux (WSL) processes (Build 17627)
 You can add specific rules for a WSL process in Windows Defender Firewall, just as you would for any Windows process. Also, Windows Defender Firewall now supports notifications for WSL processes. For example, when a Linux tool wants to allow access to a port from the outside (like SSH or a web server like nginx), the Windows Defender Firewall will prompt to allow access just like it would for a Windows process when the port starts accepting connections. This was first introduced in [Build 17627](https://docs.microsoft.com/en-us/windows/wsl/release-notes#build-17618-skip-ahead).
+
+## Windows Autopilot self-deploying mode (Build 17672)
+
+Windows AutoPilot has a self-deploying mode in RS5 that enables a zero touch device provisioning experience. Simply power on the device, plug it into the Ethernet, and the device is fully configured automatically by Windows Autopilot. 
+
+This self-deploying capability removes the current need to have an end user interact by pressing a “Next” button during the deployment processes. In addition, the activities opt-in page in OOBE has also been removed from all Insider Preview builds. 
+
+Utilize Windows Autopilots self-deploying mode to completely register the device to an AAD tenant, enroll in your organization’s MDM provider, ensure all policies, applications, etc. are correctly provisioned on the device with no user authentication or user interaction required, before the end user even logs in. 
+
+To learn more about the Autopilot Self-Deploying feature and see the step by step instructions to perform such a deployment, [click here](https://docs.microsoft.com/en-us/windows/deployment/windows-autopilot/self-deploying). 
+
+## Windows 10-S Credential Guard is supported by default on 10S devices that are AAD Joined
+
+Credential Guard is a security service in Windows 10 built to protect Active Directory domain (AD) credentials so that they can't be stolen or misused by malware on a users machine. It is designed to protect against well-known threats such as Pass-the-Hash and credential harvesting.
+
+Credential Guard has always been an optional feature, but Windows 10-S turns this functionality on by default when the machine has been AAD joined. This provides an added level of security when connecting to domain resources not normally present on 10-S devices. Please note that Credential Guard is available only to S-Mode devices or Enterprise and Education Editions. 
+
+## BitLocker silent enforcement on fixed drives
+Through an MDM policy, BitLocker can silently be enabled for standard AAD Joined users. In RS4 (Windows 10 build 1803) automatic BitLocker encryption was enabled for standard AADJ users, but this still required modern hardware that passed the Hardware Security Test Interface (HSTI). This new feature functionality enables BitLocker via policy even on devices that don’t pass the HSTI. 
+
+This is an update to the [BitLocker CSP](https://docs.microsoft.com/en-us/windows/client-management/mdm/bitlocker-csp), which was introduced in Windows 10 build 1703, and leveraged by Intune and others. 
+This feature will soon be enabled on Olympia Corp as an optional feature.
+
+##  Delivering BitLocker policy to AutoPilot devices during OOBE 
+
+As an IT admin you can choose which encryption algorithm to apply to a device on your automatic BitLocker encryption capable devices, rather than automatically having those devices encrypt themselves with the default algorithm. This new functionality allows the encryption algorithm, and other BitLocker policies that must be applied prior to encryption starting, to get delivered before automatic BitLocker encryption begins. 
+
+For example, as an IT admin for your organization you can choose the XTS-AES 256 encryption algorithm, and have it applied even for devices that would normally encrypt themselves automatically with the default XTS-AES 128 algorithm during OOBE.
+
+
+

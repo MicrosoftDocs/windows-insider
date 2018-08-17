@@ -2,7 +2,7 @@
 title: Install Windows 10 preview builds
 description: how to install Windows Insider builds for enterprise client devices
 services: WIP-at-work-pro
-author: dawn.wood
+author: dawnwood
 manager: elizapo
 ms.assetid: 
 ms.service: WIP-at-work-pro
@@ -40,6 +40,8 @@ Getting set up on a single device is easy.
 Administrators can install and manage Insider Preview builds centrally across devices in their domain. To register a domain, you must be registered in the Windows Insider Program with your work account in Azure Active Directory and you have to be a Global Administrator role on that AAD domain. This feature is available on Windows 10 Version 1703 or later. 
 
 For instructions, see [Manage Windows Insider Preview builds](wip-4-biz-manage-builds.md).
+
+<b>NOTE:</b> If the user's device is not already Azure AD joined, the user needs to add an Azure AD or Microsoft account to the machine manually. Otherwise, Windows Insider Preview builds will not be installed.
 
 ## Install on a virtual machine
 There isn't anything special you have to do to run Windows 10 Insider Preview builds on a virtual machine. Once you have a virtual machine set up, you install just as you would on an individual device. If you need help setting up a virtual machine, see [Introduction to Hyper-V on Windows 10](https://docs.microsoft.com/virtualization/hyper-v-on-windows/about/).

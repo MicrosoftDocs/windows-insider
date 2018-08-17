@@ -2,7 +2,7 @@
 title: What's new in the Windows 10 Insider Preview Builds (RS5)
 description: How to get setup and perform first tasks for Windows Insider Program for Server Preview Builds
 services: WIP-at-work
-author: dawn.wood
+author: dawnwood
 manager: elizapo
 ms.assetid: 
 ms.service: WIP-at-work
@@ -343,7 +343,9 @@ In addition to Windows line endings (CRLF), Notepad now supports Unix/Linux line
 
 ![alt text](images/notepad.png "notepad")
 
-For more details, check out [Introducing extended line endings support in Notepad](https://aka.ms/notepadeol). ## Dark theme comes to File Explorer (and more!) 
+For more details, check out [Introducing extended line endings support in Notepad](https://aka.ms/notepadeol). 
+
+## Dark theme comes to File Explorer (and more!) 
 
 As many of you know, we added dark theme support to Windows based on your feedback. This setting is available under Settings > Personalization > Colors, and if you switch it any apps and system UI that support it will follow suit. Since releasing this feature, our top feedback request from you has been to update File Explorer to support dark theme. Along the way, we also added dark theme support to the File Explorer context menu, as well as the Common File Dialog (aka the Open and Save dialogs). Thanks again for everyone’s feedback!
 
@@ -584,5 +586,11 @@ One of the things we’ve heard from you is that it’s hard to know when you’
 ## Your Phone app
 Android phone users, you can finally stop emailing yourself photos. Drag and drop that photo from your phone onto your PC. Copy, edit, or ink on that photo, right from your PC. With Your Phone app, live today for Windows Insiders, you get instant access to your Android’s most recent photos on your PC. Try it out by opening Your Phone app. You will receive an app from Microsoft which you must download to your mobile phone and follow the setup prompts. Build 17723+ is highly recommended for the best experience. Android 7.0+ are compatible with Your Phone app. For PCs tied to the China region, Your Phone app services will be enabled in the future.
 For iPhone users, Your Phone app helps you to link your phone to your PC. Surf the web on your phone, then send the webpage instantly to your computer to pick up where you left off to continue what you’re doing–read, watch, or browse with all the benefits of a bigger screen. With a linked phone, continuing on your PC is one share away.
+
+We’ve added a new entry point to Your Phone app. Notice a desktop pin? It’ll take you directly to Your Phone app – for quicker access to your phone’s content. Or go through the all apps list in Start Menu, or Windows key and search for Your Phone app. You pick how you get there, just get there. 
+
+
+Link your mobile phone to your PC through Your Phone app. Open Your Phone app and follow the setup flow. You will receive an app from Microsoft which you must download to your mobile phone and follow the setup prompts. Android 7.0 and above are compatible with Your Phone app. For PCs tied to the China region, Your Phone app services will be enabled in the future. 
+
 
 
