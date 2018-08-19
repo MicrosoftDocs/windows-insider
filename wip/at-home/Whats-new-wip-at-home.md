@@ -229,11 +229,11 @@ Local Experience Packs are Microsoft Store apps that deliver Windows display lan
 
 The Settings app provides improved discoverability of features supported for each language.
 
-We have also started utilizing Artificial Intelligence (AI) and neural network-based Machine Learning (ML) for Windows localization. Having the Local Experience Packs in the Microsoft Store allows us to take advantage of ML improvements and user feedback via [Language Community App](https://www.microsoft.com/en-us/store/p/language-community/9nwx2n74m2x3?cid=UCID00008&rtc=1) to release better translations more frequently. This will consistently improve the experience of our international customers with Windows.
+We have also started utilizing Artificial Intelligence (AI) and neural network-based Machine Learning (ML) for Windows localization. Having the Local Experience Packs in the Microsoft Store allows us to take advantage of ML improvements and user feedback via [Language Community App](https://www.microsoft.com/en-us/store/p/language-community) to release better translations more frequently. This will consistently improve the experience of our international customers with Windows.
 
 We have introduced a new <b>Region</b> page that allows overrides to default regional format settings such as Calendar, First day of the week, Dates, Times, and Currency. 
 
-![alt text](images/Region.png "Region page")
+![region page](images/Region.png "Region page")
 
 
 ## Narrator improvements 
@@ -243,11 +243,11 @@ We have introduced a new <b>Region</b> page that allows overrides to default reg
 * <b>QuickStart:</b> The link in settings to relaunch the QuickStart is available from the first Welcome page. The QuickStart more reliably takes focus when Narrator is launched, which means Narrator starts reading automatically.
 * <b>Providing Feedback:</b> The keystroke to provide feedback has changed. The new keystroke is <b>Narrator + Alt + F</b>. This will work both in the standard and legacy layouts.
 <i>Note: The legacy layout also allows you to use <b>Narrator + E</b> to send us feedback.</i>
-* <b>Move Next, Move Previous, and Change View:</b> When changing Narrator’s view to either characters, words, lines or paragraphs the Read Current Item command will read the text of that specific view type more reliably.
-* <b>Keyboard command changes:</b> The keystroke to Move to beginning of text has changed to Narrator + B (was Narrator + Control + B), Move to end of text has changed to Narrator + E (was Narrator + Control + E).
-* <b>Braille:</b> Improved usage of Braille commanding when using the Narrator key from the braille display.
-* <b>Narrator Standard Keyboard Layout</b>: Narrator now ships with a new keyboard layout that is designed to be more familiar to screen reader users. Please refer to the accompanying documentation for details on these changes (Intro to New Narrator Keyboard Layout doc).
-* <b>Selection commands in Narrator Scan Mode</b>: Narrator’s scan mode now supports selecting content in Microsoft Edge, Word, Outlook, Mail and most text surfaces. Standard shift- selection commands can be used as well as Control + A for the entire document. Caps + Shift + Down Arrow will speak the current selection. For a full list of selection commands, you can refer to Narrator’s Show Commands List by pressing Caps+F1. Once content is selected you can copy it to the clipboard by pressing Control + C. Formatting information will also be retained. 
+* <b>Move Next, Move Previous, and Change View:</b> When changing Narrator’s view to either characters, words, lines or paragraphs the <b>Read Current Item</b> command will read the text of that specific view type more reliably.
+* <b>Keyboard command changes:</b> The keystroke to move the caret to the beginning of text is now <b>Narrator + B</b> (formerly Narrator + Control + B), to move the caret to end of text is now <b>Narrator + E</b> (was Narrator + Control + E).
+* <b>Braille:</b> Improved use of Braille commands when using the Narrator key from the braille display.
+* <b>Narrator standard keyboard layout</b>: Narrator now ships with a new keyboard layout that is designed to be more familiar to screen reader users. 
+* <b>Selection commands in Narrator scan mode</b>: Narrator’s scan mode now supports selecting content in Microsoft Edge, Word, Outlook, Mail, and most text surfaces. Standard shift- selection commands can be used as well as Control + A for the entire document. Caps + Shift + Down Arrow will speak the current selection. For a full list of selection commands, you can refer to Narrator’s Show Commands List by pressing Caps+F1. Once content is selected you can copy it to the clipboard by pressing Control + C. Formatting information will also be retained. 
 * <b>Automatic Dialog Reading</b>: Narrator automatically reads the contents of a dialog box when brought to the foreground.  The experience is for Narrator to speak the title of the dialog, the focused element within the dialog and the static text, if any, at the top of the dialog. For example, if you try to close a document in Word with unsaved changes, Narrator will speak the title “Microsoft Word,” the focus “Save button” and the static text within the dialog.
 * <b>Narrator Find</b>: You now have the ability to search for text using Narrator’s new Find feature. If the text is found Narrator will move to the found item. Please refer to the accompanying keyboard layout documentation for command mapping.
 * <b>List of Objects</b>: Narrator can present a list of links, headings or landmarks present in the application or content. You are also able to filter the results by typing in the list or the text field of the window. Please refer to the accompanying keyboard layout documentation for command mapping.
