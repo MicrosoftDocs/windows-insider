@@ -231,44 +231,44 @@ The Settings app provides improved discoverability of features supported for eac
 
 We have also started utilizing Artificial Intelligence (AI) and neural network-based Machine Learning (ML) for Windows localization. Having the Local Experience Packs in the Microsoft Store allows us to take advantage of ML improvements and user feedback via [Language Community App](https://www.microsoft.com/en-us/store/p/language-community) to release better translations more frequently. This will consistently improve the experience of our international customers with Windows.
 
-We have introduced a new <b>Region</b> page that allows overrides to default regional format settings such as Calendar, First day of the week, Dates, Times, and Currency. 
+We have introduced a new __Region__ page that allows overrides to default regional format settings such as Calendar, First day of the week, Dates, Times, and Currency. 
 
 ![region page](images/Region.png "Region page")
 
 
 ## Narrator improvements 
 
-* <b>Reliability:</b> We have made improvements in Narrator reliability.
+* __Reliability:__ We have made improvements in Narrator reliability.
 * <b>Scan Mode:</b> Reading and navigating while in Scan Mode has been improved. Selecting text in Scan Mode has also been improved. 
 * <b>QuickStart:</b> The link in settings to relaunch the QuickStart is available from the first Welcome page. The QuickStart more reliably takes focus when Narrator is launched, which means Narrator starts reading automatically.
 * <b>Providing Feedback:</b> The keystroke to provide feedback has changed. The new keystroke is <b>Narrator + Alt + F</b>. This will work both in the standard and legacy layouts.
 <i>Note: The legacy layout also allows you to use <b>Narrator + E</b> to send us feedback.</i>
-* <b>Move Next, Move Previous, and Change View:</b> When changing Narrator’s view to either characters, words, lines or paragraphs the <b>Read Current Item</b> command will read the text of that specific view type more reliably.
+* <b>Move Next, Move Previous, and Change View:</b> When changing Narrator’s view to characters, words, lines, or paragraphs the __Read Current Item__ command will read the text of that specific view type more reliably.
 * <b>Keyboard command changes:</b> The keystroke to move the caret to the beginning of text is now <b>Narrator + B</b> (formerly Narrator + Control + B), to move the caret to end of text is now <b>Narrator + E</b> (was Narrator + Control + E).
 * <b>Braille:</b> Improved use of Braille commands when using the Narrator key from the braille display.
 * <b>Narrator standard keyboard layout</b>: Narrator now ships with a new keyboard layout that is designed to be more familiar to screen reader users. 
-* <b>Selection commands in Narrator scan mode</b>: Narrator’s scan mode now supports selecting content in Microsoft Edge, Word, Outlook, Mail, and most text surfaces. Standard shift- selection commands can be used as well as Control + A for the entire document. Caps + Shift + Down Arrow will speak the current selection. For a full list of selection commands, you can refer to Narrator’s Show Commands List by pressing Caps+F1. Once content is selected you can copy it to the clipboard by pressing Control + C. Formatting information will also be retained. 
-* <b>Automatic Dialog Reading</b>: Narrator automatically reads the contents of a dialog box when brought to the foreground.  The experience is for Narrator to speak the title of the dialog, the focused element within the dialog and the static text, if any, at the top of the dialog. For example, if you try to close a document in Word with unsaved changes, Narrator will speak the title “Microsoft Word,” the focus “Save button” and the static text within the dialog.
-* <b>Narrator Find</b>: You now have the ability to search for text using Narrator’s new Find feature. If the text is found Narrator will move to the found item. Please refer to the accompanying keyboard layout documentation for command mapping.
-* <b>List of Objects</b>: Narrator can present a list of links, headings or landmarks present in the application or content. You are also able to filter the results by typing in the list or the text field of the window. Please refer to the accompanying keyboard layout documentation for command mapping.
-* <b>Selection in Scan Mode</b>: Along with being able to select content in Narrator’s scan mode using Shift-selection commands, you can now also select a block of data by first moving to one end of the block and pressing F9, moving to the other end of the block and pressing F10. Once F10 is pressed the entire contents between the two points will be selected. 
-* <b>Stop on Controls in Scan Mode</b>: Scan mode is a feature of Narrator that lets you use just a few keys to move around your screen. Scan mode is already on by default in Edge and you can toggle it on and off by pressing Caps lock + Spacebar. While you’re in scan mode, you can press the Up and Down arrow keys to read different parts of the page. With this update, the press of a Down arrow in Scan Mode will stop on interactive elements, so that they are easier to use. An example of this new behavior is that if you are reading a paragraph with multiple links, Narrator will stop on these links when you press the Down arrow.
+* <b>Selection commands in Narrator scan mode</b>: Narrator’s scan mode now supports selecting content in Microsoft Edge, Word, Outlook, Mail, and most text surfaces. Standard shift- selection commands can be used as well as __Control + A__ for the entire document. __Caps + Shift + Down Arrow__ will speak the current selection. For a full list of selection commands, you can refer to Narrator’s __Show Commands List__ by pressing __Caps + F1__. Once content is selected you can copy it to the clipboard by pressing __Control + C__. Formatting information will also be retained. 
+* <b>Automatic Dialog Reading</b>: Narrator automatically reads the contents of a dialog box when brought to the foreground. Narrator speaks the title of the dialog, the focused element within the dialog and the static text at the top of the dialog. For example, if you try to close a document in Word with unsaved changes, Narrator will speak the title “Microsoft Word,” the focus “Save button” and the static text within the dialog.
+* <b>Narrator Find</b>: You now have the ability to search for text using Narrator’s new __Find__ feature. If the text is found Narrator will move to the found item. 
+* <b>List of Objects</b>: Narrator can present a list of links, headings or landmarks present in the application or content. You are also able to filter the results by typing in the list or the text field of the window. 
+* <b>Selection in Scan Mode</b>: Along with being able to select content in Narrator’s scan mode using Shift-selection commands, you can now also select a block of data by first moving to one end of the block and pressing __F9__, moving to the other end of the block and pressing __F10__. Once __F10__ is pressed the entire contents between the two points will be selected. 
+* <b>Stop on Controls in Scan Mode</b>: Scan mode is a Narrator feature that lets you use just a few keys to move around your screen. Scan mode is already on by default in Microsoft Edge and you can toggle it on and off by pressing __Caps lock + Spacebar__. While you’re in scan mode, you can press the Up and Down arrow keys to read different parts of the page. The press of a Down arrow in Scan Mode stops on interactive elements, so that they are easier to use. An example of this behavior is  reading a paragraph with multiple links. Narrator will stop on these links when you press the Down arrow.
 
 For more information about Narrator new keyboard layout and other known issues, refer to [Intro to New Narrator Keyboard Layout doc](http://aka.ms/RS5NarratorKeyboard).
 
-## Time Accuracy and Traceability improvements
+## Time accuracy and traceability improvements
 
-* <b>Leap Second Support:</b> Windows will now support these occasional 1-second adjustments in a traceable and UTC-compliant manner. What’s a leap second? As the earth’s rotation slows, [UTC](https://en.wikipedia.org/wiki/Coordinated_Universal_Time) (an atomic timescale) diverges from [mean solar time](https://en.wikipedia.org/wiki/Solar_time#Mean_solar_time) or astronomical time.  Once UTC has diverged by at most .9 seconds, a [Leap Second](https://en.wikipedia.org/wiki/Leap_second) is inserted to keep UTC in-sync with mean solar time.  Since the practice of inserting leap seconds began in 1972, a leap second has typically occurred every 18 months.
+* <b>Leap second support:</b> Windows will now support these occasional 1-second adjustments in a traceable and UTC-compliant manner. What’s a leap second? As the earth’s rotation slows, [UTC](https://en.wikipedia.org/wiki/Coordinated_Universal_Time) (an atomic timescale) diverges from [mean solar time](https://en.wikipedia.org/wiki/Solar_time#Mean_solar_time) or astronomical time.  Once UTC has diverged by at most .9 seconds, a [leap second](https://en.wikipedia.org/wiki/Leap_second) is inserted to keep UTC in-sync with mean solar time.  Since the practice of inserting leap seconds began in 1972, a leap second has typically occurred every 18 months.
 
-* <b>Precision Time Protocol:</b> For the highest accuracy environments, you can now improve your time accuracy by leveraging a new time protocol that delivers far more accurate time samples to the endpoint (Windows Server 2019 or Windows 10, host or virtual machine).
+* <b>Precision Time Protocol:</b> For the highest accuracy environments, you can improve your time accuracy by leveraging a new time protocol that delivers more accurate time samples to the endpoint (Windows Server 2019 or Windows 10, host or virtual machine).
 
 * <b>Software Timestamping:</b> You can now further improve your network time accuracy by eliminating the software delay introduced by the Windows networking stack.
 
-For a full write up with more details about these new improvements, please see our announcement [here](https://blogs.technet.microsoft.com/networking/2018/07/18/top10-ws2019-hatime/).
+For more details about these new improvements, please see our announcement [here](https://blogs.technet.microsoft.com/networking/2018/07/18/top10-ws2019-hatime/).
 
 ## Update experience
 
-Have you ever had to stop what you were doing, or wait for your computer to boot up because the device updated at the wrong time? We heard you, and to alleviate this pain, if you have an update pending we’ve updated our reboot logic to use a new system that is more adaptive and proactive. We trained a predictive model that can accurately predict when the right time to restart the device is. Meaning, that we will not only check if you are currently using your device before we restart, but we will also try to predict if you had just left the device to grab a cup of coffee and return shortly after.
+Have you ever had to stop what you were doing, or wait for your computer to boot up because the device updated at the wrong time? To alleviate this pain, if you have an update pending we’ve updated our reboot logic to use a new system that is more adaptive and proactive. We trained a predictive model that can accurately predict when the right time to restart the device is. We will not only check if you are using your device before we restart, we will also try to predict if you had just left the device to grab a cup of coffee.
 
 ### How accurate is this model?
 
