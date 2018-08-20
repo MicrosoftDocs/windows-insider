@@ -379,9 +379,9 @@ You no longer have to manually download RSAT every time you upgrade! Just go to 
 
 Now you can find past or future events by searching for the name, location, people included or words in the event body. Events that match your search will be clearly visible on your calendar, while those that don’t will be greyed-out so you can find what you need quickly.
 
-![alt text](images/calendarwithsearch.png "calendar with search")
+![calendar with search](images/calendarwithsearch.png "calendar with search")
 
-Search will work for Outlook, Hotmail, Live and Office 365 accounts. We do not yet support searching Exchange Server, Gmail, Yahoo or other IMAP calendars.
+Search will work for Outlook, Hotmail, Live and Office 365 accounts. 
 
 ### Search preview
 We have expanded previews to support apps, documents, and more. Search previews are here to help you: 
@@ -394,23 +394,23 @@ We made the search experience wider so you can access information and actions in
 
 ![notepad bing search](images/notepad-bing-search.png "notepad bing search")
 
-__Find software downloads faster in Search!__: Continuing our theme of improving the search preview experience, we’re rolling out an update to make it easier to find official download pages for Windows software you want to install. The team is continuing to develop this experience and more is coming. 
+__Find software downloads faster in Search!__: Continuing our theme of improving the search preview experience, we’re rolling out an update to make it easier to find official download pages for Windows software you want to install. 
 
 ![GitHub search example](images/search.png "GitHub search example")
 
 ## Sets
 Sets is designed to make sure that everything related to your task: relevant webpages, research documents, necessary files, and applications, is connected and available to you in one click. With Sets, first party experiences like Mail, Calendar, OneNote, MSN News, Windows, and Microsoft Edge become more integrated to create a seamless experience, so you can get back to what’s important and be productive, recapturing that moment, saving time – we believe that’s the true value of Sets. Here are some of the things you can do with sets.
 
-__Bring on the acrylic!__ We love Fluent Design as much as you do – Sets now have an acrylic title bar. We also adjusted the window border so that it’s now grey. 
+__Bring on the acrylic!__ We love fluent design as much as you do – Sets now have an acrylic title bar. We also adjusted the window border so that it’s now grey. 
 ![fluent design with sets](images/fluent.png "fluent design with sets")
 
-__Recent Microsoft Edge tabs now show in Alt + Tab__: Do you use Alt + Tab to quickly switch back and forth between apps? All of your recent Microsoft Edge tabs will now be included, not just the active one. Prefer it the old way? Use the “Pressing Alt + Tab shows the recently used…” setting in Multitasking Settings. 
+__Recent Microsoft Edge tabs now show in Alt + Tab__: Do you use Alt + Tab to switch back and forth between apps? All of your recent Microsoft Edge tabs will now be included, not just the active one. Prefer it the old way? Use the “Pressing Alt + Tab shows the recently used…” setting in Multitasking Settings. 
 
-__Should apps and websites open in a new window or a new tab? It’s up to you!__ The Sets section of Multitasking Settings now lets you set your windowing preference. If you choose “Window”, new windows won’t open into a new tab unless you explicitly click the + or drag with your mouse. Choosing “Tab” opens any new windows invoked from your running apps into tabs. As a reminder, if you would like to exclude any particular app from Sets, you can do this from this same settings page. 
+__Should apps and websites open in a new window or a new tab? It’s up to you!__ The __Sets__ section of __Multitasking Settings__ now lets you set your windowing preference. If you choose __Window__, new windows won’t open into a new tab unless you explicitly click the + or drag with your mouse. Choosing __Tab__ opens any new windows invoked from your running apps into tabs. As a reminder, if you would like to exclude any particular app from __Sets__, you can do this from this same settings page. 
 
 __Want to mute one of your web tabs? You can now do that!__ When a webpage in Sets starts playing audio, you’ll now see a volume icon on the tab. Simply click it and the audio will mute, just like in Microsoft Edge. 
 
-__Tabs restore with better performance__ – they’ll open in the background and use no resources until you go to the tab. This means you can restore a lot of tabs at once with no issues. 
+__Tabs restore with better performance__ They’ll open in the background and use no resources until you go to the tab. This means you can restore a lot of tabs at once with no issues. 
 
 We’ve also made other fixes, changes, and improvements to Sets, including: 
 * Task Manager is in the list of apps where Sets are not enabled. 
@@ -421,23 +421,19 @@ __Drag and drop app tabs within and between Sets windows is now supported__: It 
 
 <i>Note: If you open a Microsoft Edge tab outside of a Set, you can’t drag and drop it into a Sets window. Drag and drop for Microsoft Edge web tabs within Sets isn’t supported yet and you may experience a crash if this is attempted.</i>  
 
-__Tabs are now bubbled up in Alt + Tab__: Have Photos, Microsoft Edge, and OneNote tabbed together? You can now use Alt + Tab to switch between them. Prefer to only show the primary window in Alt + Tab? 
+__Tabs are now bubbled up in Alt + Tab__: Have Photos, Microsoft Edge, and OneNote tabbed together? You can now use Alt + Tab to switch between them.  
 
 <i>Note: If you have multiple Microsoft Edge windows in a Set, only the one most recently accessed will be visible in Alt + Tab.</i>
 
-__Support for desktop (Win32) apps__ Sets now supports File Explorer, Notepad, Command Prompt, and PowerShell. One of the top feature requests by Insiders has been tabs for File Explorer and with Sets you can get a tabbed File Explorer experience.
+__Support for desktop (Win32) apps__ Sets now supports File Explorer, Notepad, Command Prompt, and PowerShell. One of the top feature requests is tabs for File Explorer and with Sets you can get a tabbed File Explorer experience.
 
 __Launch apps from the new tab page__ by typing the app name into the search box.
 
 __UWP apps are launched in the same window__ replacing the new tab page.
 The tab UI in Sets now shows icons including website favicons and app icons.
-Resume your project with more control – When restoring your projects you’ll be prompted to restore related apps and webpages. In Timeline you’ll see when a project has multiple activities associated with it.
+Resume your project with more control – when restoring your projects you’ll be prompted to restore related apps and webpages. In Timeline you’ll see when a project has multiple activities associated with it.
 
-__Improved Settings for Sets__: We’ve updated the settings for Sets via __Settings > System > Multitasking__. To start with, Sets now has its own section on this page, and is searchable (try typing “Sets” or “tabs” and it will appear in the dropdown). We’ve also added a setting to control the Alt + Tab behavior mentioned above.
-
-![sets](images/Win10Sets.png "Sets")
-
-__File Explorer & Sets Improvements__: We’ve heard your feedback – you’d like it to be easier to get two File Explorer windows grouped together. We  added a new keyboard shortcut to open a new tab when a File Explorer window is in focus: Ctrl + T. Remember, you can use Ctrl + N to open a new window, and Ctrl + W to close the window/tab.
+__File Explorer & Sets Improvements__: We’ve heard your feedback – you’d like it to be easier to get two File Explorer windows grouped together. We added a new keyboard shortcut to open a new tab when a File Explorer window is in focus: Ctrl + T. Remember, you can use Ctrl + N to open a new window, and Ctrl + W to close the window/tab.
 
 __New UI for opening new tabs and windows__ in the File Menu.
 
@@ -455,7 +451,7 @@ __Improvements to previous tabs__: We’ve done a few things to improve the expe
 
 *__You can choose which previous tabs you want to restore__, in addition to being able to restore all tabs. 
 
-*__You can now restore previous tabs from any type of activity__ – in addition to restoring tabs when the primary window is a document.
+*__You can now restore previous tabs from any type of activity__, in addition to restoring tabs when the primary window is a document.
 
 ![previous tabs](images/previoustabs.png "previous tabs")
 
@@ -471,7 +467,7 @@ __Keyboard shortcuts__
 *__Ctrl + Win + N__ - open a new window.
 *__Ctrl + Win + W__– close current tab or window.
 
-We’ve heard your feedback and have been hard at work updating the new tab page to make it more obvious you can launch apps. When you click the plus button in a Sets window, you will now see apps included in your frequent destinations list. You’ll also find that we’ve integrated the all apps list into this page so you can browse your apps, rather than just using the search box – apps that support Sets will launch into a tab when clicked. If you have __News Feed__ selected, simply click the “Apps” link next to “News Feed” to switch to the all apps list.
+We’ve heard your feedback and have been hard at work updating the new tab page to make it more obvious you can launch apps. When you click the plus button in a Sets window, you will now see apps included in your frequent destinations list. You’ll also find that we’ve integrated the all apps list into this page so you can browse your apps, rather than just using the search box – apps that support Sets will launch into a tab when clicked. If you have __News Feed__ selected, simply click the __Apps__ link next to __News Feed__ to switch to the all apps list.
 
 ![apps in a sets window](images/ntpnew.png "apps in a sets window")
 
@@ -490,20 +486,20 @@ The new modern snipping experience is here to help you effortlessly capture and 
 
 Originally introduced as part of the Windows Ink Workspace, this comes with a variety of benefits, including that it can now be updated via the Microsoft Store, it will now show up in the list when you press Alt + tab, you can set the window size to be your preference if you like multitasking, and it even supports multiple windows (and tabs, thanks to Sets!). 
 
-### Easy snipping is only a single step away. 
+### Easy snipping is only a single step away
 
-One of the loudest things we heard is that you want to be able to quickly snip & share a screenshot, and we’re making it happen! WIN + Shift + S will now bring up a snipping toolbar – snip a rectangle, something a bit more freeform, or full screen and it will go straight to your clipboard. If that’s all you need, you can take it from there. Want more, though? Immediately after taking a snip you’ll now get a notification that will take you and your snip to the Screen Sketch app where you can annotate and share away!
+WIN + Shift + S will now bring up a snipping toolbar – snip a rectangle, something a bit more freeform, or full screen and it will go straight to your clipboard. Immediately after taking a snip you’ll now get a notification that will take you and your snip to the Screen Sketch app where you can annotate and share.
 
 ![screen sketch](images/screen-sketch2.png "screen sketch")
 
-But wait, there’s more! Is the WIN + Shift + S keyboard shortcut too long to remember? Guess what! We’ve added easy entry options for every input modality: 
-*__Just click the pen tail button__. If you have a pen, go into Pen & Windows Ink Settings – you’ll find Screen Snipping is now an option for single click. This will launch you directly into our snipping experience:
+Is the WIN + Shift + S keyboard shortcut too long to remember? Guess what! We’ve added easy entry options for every input modality: 
+*__Just click the pen tail button__. If you have a pen, go into __Pen & Windows Ink Settings__ – you’ll find Screen Snipping is now an option for single click. This will launch you directly into our snipping experience:
 
 ![pen settings](images/pensettingsinked.png "pen settings")
 
-*__Press Print Screen__. You heard it right, just one button! It’s not enabled by default – go to Keyboard Settings – you’ll see a new option that says “Use the Print Screen key to launch screen snipping”. Opening Settings and searching for “print screen” will take you to the right page.
+*__Press Print Screen__. You heard it right, just one button! It’s not enabled by default – go to Keyboard Settings – you’ll see a new option that says __Use the Print Screen key to launch screen snipping__. Opening Settings and searching for __print screen__ will take you to the right page.
 
-*__Press the quick action button in Action Center__. Called “Screen snip” – it should be there as soon as you upgrade, but if not you can always enable it via Notifications & Actions Settings.
+*__Press the quick action button in Action Center__. Called __Screen snip__ – it should be there as soon as you upgrade, but if not you can always enable it via Notifications & Actions Settings.
 
 ## Start tile folder naming 
 To create a tile folder in Start, just drag one tile on top of another for a second then release. Continue dropping as many tiles into the folder as you’d like. When you expand the folder, you’ll see a new option to name it. The name will be visible when the folder is medium, wide, or large-sized. 
@@ -521,7 +517,7 @@ __Storage Sense picks up a new skill__:  Starting with the [Creators Update](htt
 ![alt text](images/swift2.png "swiftkey")
 
 ## Task Manager memory reporting improvements
-In Windows 10, version 1809, the main memory column in Task Manager “Processes” tab does not include memory used by suspended UWP processes. This more accurately reflects the OS behavior in which the OS can reclaim memory used by suspended UWP processes if needed. This means that if you have several UWP processes suspended in the background, the OS can take back memory from these suspended UWP processes if needed and use it for something that requires more memory. New and old memory columns will be available in “Details” tab for you to do comparisons. 
+In Windows 10, version 1809, the main memory column in Task Manager __Processes__ tab does not include memory used by suspended UWP processes. This more accurately reflects the OS behavior in which the OS can reclaim memory used by suspended UWP processes if needed. This means that if you have several UWP processes suspended in the background, the OS can take back memory from these suspended UWP processes if needed and use it for something that requires more memory. New and old memory columns will be available in “Details” tab for you to do comparisons. 
 
 
 ## Windows app permissions 
@@ -539,33 +535,32 @@ The Windows Defender Application Guard (WDAG) team has introduced new improvemen
 
 __Performance improvements__: The teams at Microsoft are constantly working to improve performance for our users. WDAG is no different. In this feature update, you will notice an improvement in the launch time for WDAG. We have made the start process lighter and faster, which will provide our users with a better experience when accessing Microsoft Edge in WDAG.
 
-__Download files to the host__: One of the items our users voiced was an inability to “download files from within WDAG” to the host. This created an inconsistent experience for Edge overall as downloaded files were stuck inside the container. In this release, users can turn on a feature to download files from their WDAG browsing session onto the host file system. This feature is available in the Windows 10 Enterprise edition and is not turned on by default. Once the feature is enabled, users will be able to download files into a folder created in their Downloads folder and open all files on the host.
+__Download files to the host__: One of the items our users voiced was an inability to “download files from within WDAG” to the host. This created an inconsistent experience for Microsoft Edge overall as downloaded files were stuck inside the container. In this release, users can turn on a feature to download files from their WDAG browsing session onto the host file system. This feature is available in the Windows 10 Enterprise edition and is not turned on by default. Once the feature is enabled, users will be able to download files into a folder created in their Downloads folder and open all files on the host.
 
 <i>How to enable and configure the Download to host feature</i>:
 
 __Requirements:__
-* Latest Windows 10 Enterprise, version 1803 builds.
-* Windows Defender Application Guard feature is installed.
-* Network isolation policies are configured.
+* Latest Windows 10 Enterprise, version 1803 builds
+* Windows Defender Application Guard feature is installed
+* Network isolation policies are configured
 
 __Steps:__
-1. Navigate to Local Group Policy Editor > Administrative Templates > Windows Components > Windows Defender Application Guard.
+1. Navigate to __Local Group Policy Editor > Administrative Templates > Windows Components > Windows Defender Application Guard__.
 
-![alt text](images/wdag.png "App Guard")
+![wdag](images/wdag.png "WDAG")
 
-2. Select Allow files to download and save to the host operating system from Windows Defender Application Guard
-3. Select__Enabled__ and__Apply<b/>
+2. Select __Allow files to download and save to the host operating system from Windows Defender Application Guard__.
+3. Select __Enabled and Apply__
 
-![alt text](images/enablewdag.png "Enable App Guard")
+![enable wdag](images/enablewdag.png "Enable WDAG")
 
-4. After this policy is enabled, you can download files from your Windows Defender Edge session to your Downloads folder. The files from Application Guard will be saved in a folder called “Untrusted files” nested inside the Downloads folder. This folder is created automatically when you first download a file from Application Guard after enabling the policy.
+4. After this policy is enabled, you can download files from your Windows Defender Edge session to your Downloads folder. The files from WDAG will be saved in a folder called __Untrusted files__ nested inside the Downloads folder. This folder is created automatically when you first download a file from WDAGafter enabling the policy.
 
-![alt text](images/untrustedfiles.png "untrusted files")
+![untrusted files](images/untrustedfiles.png "untrusted files")
 
 Notes:
 * This feature is off by default.
 * Users will need to assess the files they downloaded and assume any risks of opening on the host.
-* We encourage you to try our download feature and assess our launch performance. Your feedback and suggestion are important to us as we continue to improve our products. You can click here to open Feedback Hub to give feedback on WDAG.
 * We’ve also made updates to Windows Defender System Guard. With Windows Defender System Guard, we are making a leap forward in platform security with memory integrity by default and bringing a born secure device promise to our user base. To learn more about these changes and talk with product team, see their post in the Windows Insider Technical Community.
 
 ## Wireless projection experience
@@ -577,13 +572,11 @@ One of the things we’ve heard from you is that it’s hard to know when you’
 ![alt text](images/beaming.png "wireless projection banner")
 
 ## Your Phone app
-Android phone users, you can finally stop emailing yourself photos. Drag and drop that photo from your phone onto your PC. Copy, edit, or ink on that photo, right from your PC. With Your Phone app, live today for Windows Insiders, you get instant access to your Android’s most recent photos on your PC. Try it out by opening Your Phone app. You will receive an app from Microsoft which you must download to your mobile phone and follow the setup prompts. Build 17723+ is highly recommended for the best experience. Android 7.0+ are compatible with Your Phone app. For PCs tied to the China region, Your Phone app services will be enabled in the future.
+Android phone users, you can finally stop emailing yourself photos. Drag and drop that photo from your phone onto your PC. Copy, edit, or ink on that photo, right from your PC. With __Your Phone__ app, you get instant access to your Android’s most recent photos on your PC. Try it out by opening __Your Phone__ app. You will receive an app from Microsoft which you must download to your mobile phone and follow the setup prompts. Windows 10 build 17723+ is highly recommended for the best experience. Android 7.0+ are compatible with __Your Phone__ app. For PCs in the China region, Your Phone app services will be enabled in the future.
 For iPhone users, Your Phone app helps you to link your phone to your PC. Surf the web on your phone, then send the webpage instantly to your computer to pick up where you left off to continue what you’re doing–read, watch, or browse with all the benefits of a bigger screen. With a linked phone, continuing on your PC is one share away.
 
 We’ve added a new entry point to Your Phone app. Notice a desktop pin? It’ll take you directly to Your Phone app – for quicker access to your phone’s content. Or go through the all apps list in Start Menu, or Windows key and search for Your Phone app. You pick how you get there, just get there. 
 
-
-Link your mobile phone to your PC through Your Phone app. Open Your Phone app and follow the setup flow. You will receive an app from Microsoft which you must download to your mobile phone and follow the setup prompts. Android 7.0 and above are compatible with Your Phone app. For PCs tied to the China region, Your Phone app services will be enabled in the future. 
 
 
 
