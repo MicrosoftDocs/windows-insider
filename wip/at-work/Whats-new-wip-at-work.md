@@ -20,6 +20,64 @@ The features listed below are available in preview builds of Windows Server 2019
 
 We also encourage you to visit the [Windows Server Insiders space](https://techcommunity.microsoft.com/t5/Windows-Server-Insiders/bd-p/WindowsServerInsiders) on the [Microsoft Tech Communities forum](https://techcommunity.microsoft.com/) to collaborate, share, and learn from experts.
 
+## Apps
+## Server Core App Compatibility Feature on Demand
+
+This section last updated 08/13/2018
+
+App Compatibility, a Feature on Demand (FoD), has been updated with additional features and two additional components: Event Viewer and File Explorer.
+This FoD significantly improves the app compatibility of Windows Server Core by including a set of binaries and packages from Windows Server with Desktop, without adding any of the Windows Server Desktop GUI or Windows 10 GUI experiences. The FoD package is available on a separate ISO and installs on Windows Server Core only.
+
+Important   Please try out this FoD, and verify that current applications and tools run on the preview release as expected. Also, try any server app (from Microsoft or not) that you want to use on Server Core but currently cannot use, and please let us know about any successes or failures.
+Operating system components that are available with this update:
+* Event Viewer (Eventvwr.msc)
+* Performance Monitor (PerfMon.exe)
+* Resource Monitor (Resmon.exe)
+* Device Manager (Devmgmt.msc)
+* Microsoft Management Console (mmc.exe)
+* File Explorer (Explorer.exe)
+* Windows PowerShell (Powershell_ISE.exe)
+* Failover Cluster Manager (CluAdmin.msc)
+
+These components come with support for SQL Server Management Studio (SSMS), version 16 and 17, which must be installed separately from SQL Server via command line.
+
+To install Failover Cluster Manager, launch PowerShell, and then enter the following command:
+<p><i>Install-WindowsFeature -Name Failover-Clustering -IncludeManagementTools</i>
+
+To run Failover Cluster Manager, enter <i>cluadmin</i> at a regular command prompt.
+
+
+The following installation procedure uses Deployment Image Servicing and Management (DISM.exe), a command-line tool. For more information about DISM commands, see [DISM Capabilities Package Servicing Command-Line Options](https://docs.microsoft.com/en-us/windows-hardware/manufacture/desktop/dism-capabilities-package-servicing-command-line-options).
+
+To install Server Core with FoD binaries
+1. Download the FoD ISO, and copy the ISO to a shared folder on your local network.
+2. Download the ISO of the matching preview release of Windows Server, and install the operating system. Do not choose Desktop Experience options; the FoD is for Server Core only.
+3. Sign in as administrator on the newly installed preview release of Server Core.
+4. Use net use, or some other method, to connect to the location of the FoD ISO.
+5. Copy the FoD ISO to a local folder of your choosing.
+6. Start PowerShell by entering powershell.exe at a command prompt.
+7. Mount the FoD ISO by using the following command:
+```Mount-DiskImage -ImagePath drive_letter:\folder_where_ISO_is_saved```
+8. Enter exit to exit PowerShell.
+9. Enter the following command:
+```DISM /Online /Add-Capability /CapabilityName:Server.Appcompat~~~~0.0.1.0 /Source:drive_letter_of_mounted_ISO: /LimitAccess ```
+10. After the progress bar completes, restart the operating system at the prompt.
+
+To optionally install Internet Explorer 11
+1. Start PowerShell by entering powershell.exe at a command prompt.
+2. Mount the FoD ISO by using the following command:
+```Mount-DiskImage -ImagePath drive_letter:\folder_where_ISO_is_saved.```
+3. Enter exit to exit PowerShell.
+4. In a command window, change the default directory to drive letter of the mounted ISO. 
+5. Run the following command:
+```Dism /online /add-package:"Microsoft-Windows-InternetExplorer-Optional-Package~31bf3856ad364e35~amd64~~.cab"```
+6. Restart the computer.
+7. After logging in again, mount the FoD ISO again by repeating Step 1 through Step 3.
+8. In a command window, change the default directory to drive letter of the mounted ISO.
+9. Run the following command:
+```Dism /online /add-package:"Microsoft-Windows-InternetExplorer-Optional-Package~31bf3856ad364e35~amd64~en-US~.cab"```
+This instance of running DISM specifies a different package than the previous instance in this procedure.
+
 ## Clusters
 
 ### Extending your Clusters with Cluster Sets
@@ -43,6 +101,7 @@ Moving a cluster from one domain to another has always been a daunting task beca
 Company A purchases Company B and must move all servers to Company A's domain 
 Main office builds a cluster and ships it to another location 
 We have added two new PowerShell commandlets to quickly take you from one domain to another without the need to destroy it.  For more information about this new capability, see [How to Switch a Failover Cluster to a New Domain](https://blogs.msdn.microsoft.com/clustering/2018/01/09/how-to-switch-a-failover-cluster-to-a-new-domain/) in Server & Management blogs. 
+
 ### Failover Cluster removing use of NTLM authentication
 
 Windows Server Failover Clusters no longer use NTLM authentication by exclusively using Kerberos and certificate based authentication.  There are no changes required by the user, or deployment tools,  to take advantage of this security enhancement.  It also allows failover clusters to be deployed in environments where NTLM has been disabled. 
@@ -53,19 +112,6 @@ We’ve improved the scalability and reliability of containers that use group ma
 
 ### New Container base image: Windows 
 We added a new base image to the Windows Server container collection. In addition to nanoserver and windowsservercore container images, the new windows image is now available. This image carries even more components than its nanoserver and servercore siblings, meaning it can support applications that have additional API dependencies. To learn more and get started, go to https://aka.ms/windowscontainer. 
-
-## In place upgrades
-
-In-place upgrade allows an administrator to upgrade an existing installation of Windows Server to a newer version, retaining settings and installed features. The LTSC versions and editions of Windows Server that are supported for in-place upgrade are shown in the following table.
-
-<br/>
-
-|CURRENTLY INSTALLED OPERATING SYSTEM |AVAILABLE UPGRADE VERSION & EDITION |
-|--- |--- |
-|Windows Server 2016 Standard |Windows Server 2019 Standard or Datacenter |
-|Windows Server 2016 Datacenter | Windows Server 2019 Datacenter|
-|Windows Server 2012 R2 Standard| Windows Server 2019 Standard or Datacenter|
-|Windows Server 2012 R2 Datacenter | Windows Server 2019 Datacenter|
 
 ## Microsoft Hyper-V 2019 Preview
 This is the first Insider Preview of Microsoft Hyper-V 2019. Microsoft Hyper-V Server is a stand-alone product that contains only the Windows hypervisor, a Windows Server driver model, and virtualization components. It provides a simple and reliable virtualization solution to help you improve your server utilization and reduce costs.
@@ -118,7 +164,7 @@ Try it out—[Configure Encryption for a Virtual
 Subnet](https://docs.microsoft.com/en-us/windows-server/networking/sdn/vnet-encryption/sdn-config-vnet-encryption)—and
 send us your feedback in the Feedback Hub.
 
-## Windows Defender Advanced Threat Protection
+### Windows Defender Advanced Threat Protection
 
 We provide deep platform sensors and response actions, providing visibility to memory and kernel level attacker activities and abilities to take actions on compromised machines in response to incidents such as remote collection of additional forensic data, remediating malicious files, terminating malicious processes etc. 
  
@@ -128,7 +174,7 @@ Otherwise, sign up for the Windows Defender ATP trial on [Windows
 Defender Advanced Threat
 Protection](https://www.microsoft.com/en-us/windowsforbusiness/windows-atp).
 
-## Windows Defender ATP Exploit Guard
+### Windows Defender ATP Exploit Guard
 
 Windows Defender ATP Exploit Guard is a new set of host-intrusion
 prevention capabilities. The four components of Windows Defender Exploit
@@ -214,7 +260,7 @@ Set-ProcessMitigation -PolicyFilePath ProcessMitigation.xml
 </pre>
 
 
-## Windows Defender Application Control
+### Windows Defender Application Control
 
 Windows Defender Application Control—also known as Code Integrity (CI) policy—was released in Windows Server 2016. Customer feedback has suggested that it is a great concept, but hard to deploy. To address this, we are building default CI policies, which will allow all Windows in-box files and Microsoft applications, such as SQL Server, and block known executables that can bypass CI.  
 
@@ -266,64 +312,6 @@ inside shielded virtual machines. Try it out—[Create a Linux shielded VM
 template
 disk](https://docs.microsoft.com/en-us/windows-server/virtualization/guarded-fabric-shielded-vm/guarded-fabric-create-a-linux-shielded-vm-template)—and
 send us your feedback in the Feedback Hub.
-
-
-## Server Core App Compatibility Feature on Demand
-
-Last updated 08/13/2018
-
-App Compatibility, a Feature on Demand (FoD), has been updated with additional features and two additional components: Event Viewer and File Explorer.
-This FoD significantly improves the app compatibility of Windows Server Core by including a set of binaries and packages from Windows Server with Desktop, without adding any of the Windows Server Desktop GUI or Windows 10 GUI experiences. The FoD package is available on a separate ISO and installs on Windows Server Core only.
-
-Important   Please try out this FoD, and verify that current applications and tools run on the preview release as expected. Also, try any server app (from Microsoft or not) that you want to use on Server Core but currently cannot use, and please let us know about any successes or failures.
-Operating system components that are available with this update:
-* Event Viewer (Eventvwr.msc)
-* Performance Monitor (PerfMon.exe)
-* Resource Monitor (Resmon.exe)
-* Device Manager (Devmgmt.msc)
-* Microsoft Management Console (mmc.exe)
-* File Explorer (Explorer.exe)
-* Windows PowerShell (Powershell_ISE.exe)
-* Failover Cluster Manager (CluAdmin.msc)
-
-These components come with support for SQL Server Management Studio (SSMS), version 16 and 17, which must be installed separately from SQL Server via command line.
-
-To install Failover Cluster Manager, launch PowerShell, and then enter the following command:
-<p><i>Install-WindowsFeature -Name Failover-Clustering -IncludeManagementTools</i>
-
-To run Failover Cluster Manager, enter <i>cluadmin</i> at a regular command prompt.
-
-
-The following installation procedure uses Deployment Image Servicing and Management (DISM.exe), a command-line tool. For more information about DISM commands, see [DISM Capabilities Package Servicing Command-Line Options](https://docs.microsoft.com/en-us/windows-hardware/manufacture/desktop/dism-capabilities-package-servicing-command-line-options).
-
-To install Server Core with FoD binaries
-1. Download the FoD ISO, and copy the ISO to a shared folder on your local network.
-2. Download the ISO of the matching preview release of Windows Server, and install the operating system. Do not choose Desktop Experience options; the FoD is for Server Core only.
-3. Sign in as administrator on the newly installed preview release of Server Core.
-4. Use net use, or some other method, to connect to the location of the FoD ISO.
-5. Copy the FoD ISO to a local folder of your choosing.
-6. Start PowerShell by entering powershell.exe at a command prompt.
-7. Mount the FoD ISO by using the following command:
-```Mount-DiskImage -ImagePath drive_letter:\folder_where_ISO_is_saved```
-8. Enter exit to exit PowerShell.
-9. Enter the following command:
-```DISM /Online /Add-Capability /CapabilityName:Server.Appcompat~~~~0.0.1.0 /Source:drive_letter_of_mounted_ISO: /LimitAccess ```
-10. After the progress bar completes, restart the operating system at the prompt.
-
-To optionally install Internet Explorer 11
-1. Start PowerShell by entering powershell.exe at a command prompt.
-2. Mount the FoD ISO by using the following command:
-```Mount-DiskImage -ImagePath drive_letter:\folder_where_ISO_is_saved.```
-3. Enter exit to exit PowerShell.
-4. In a command window, change the default directory to drive letter of the mounted ISO. 
-5. Run the following command:
-```Dism /online /add-package:"Microsoft-Windows-InternetExplorer-Optional-Package~31bf3856ad364e35~amd64~~.cab"```
-6. Restart the computer.
-7. After logging in again, mount the FoD ISO again by repeating Step 1 through Step 3.
-8. In a command window, change the default directory to drive letter of the mounted ISO.
-9. Run the following command:
-```Dism /online /add-package:"Microsoft-Windows-InternetExplorer-Optional-Package~31bf3856ad364e35~amd64~en-US~.cab"```
-This instance of running DISM specifies a different package than the previous instance in this procedure.
 
 
 ## Storage
