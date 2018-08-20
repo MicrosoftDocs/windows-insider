@@ -16,11 +16,11 @@ ms.localizationpriority: medium
 # Manage Windows Insider Preview builds
 If you are a IT Pro, you have the option to: enable, disable, defer, and pause the installation of preview builds through policies (starting with Windows 10, version 1709), and through MDM.If you have registered a domain and want to control how and when devices receive Windows Insider Preview builds, you have two choices. The first is to use group policy, the second is to use MDM. 
 
-In either case, you will be using the <b>Manage preview builds</b> and <b>Branch Readiness Level</b> settings. The <b>Manage preview builds</b> setting allows you to enable or disable installation of the preview builds. The <b>Branch Readiness Level</b> setting allows you to set which branch a device receives their updates from.
+In either case, you will be using the__Manage preview builds__ and__Branch Readiness Level__ settings. The__Manage preview builds__ setting allows you to enable or disable installation of the preview builds. The__Branch Readiness Level__ setting allows you to set which branch a device receives their updates from.
 
 ## Group policy
 To set group policy, use the 
-<b>Computer Configuration/Administrative Templates/Windows Components/Windows Update/Windows Update for Business/Manage preview builds</b> setting and the <b>Computer Configuration/Administrative Templates/Windows Components/Windows Update/ Windows Update for Business</b> setting. 
+__Computer Configuration/Administrative Templates/Windows Components/Windows Update/Windows Update for Business/Manage preview builds__ setting and the__Computer Configuration/Administrative Templates/Windows Components/Windows Update/ Windows Update for Business__ setting. 
 
 ## MDM
 To use MDM, use the [Update/ManagePreviewBuilds](https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-update#update-managepreviewbuilds) setting. To set the readiness level, use the [Update/BranchReadinessLevel](https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-update#update-branchreadinesslevel).
