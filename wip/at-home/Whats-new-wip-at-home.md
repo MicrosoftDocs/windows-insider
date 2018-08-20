@@ -57,7 +57,7 @@ Our new settings page for enabling this experience is under <b>Settings > System
 ## Cortana Show Me voice queries
  You can now launch the Cortana Show Me app through voice queries. Simply say to Cortana, “Show me how to change my background,” and you’ll get help content, with a new “Let’s go” button below, which launches the guided help experience. 
 
- You can download [Cortana Show Me](https://www.microsoft.com/en-us/store/r/cortana-follow-me/9pl1gmkcxm8c) from the Microsoft Store.
+ You can download [Cortana Show Me](https://www.microsoft.com/en-us/store/r/cortana-follow-me/) from the Microsoft Store.
 
  Here are some voice queries to try:
 
