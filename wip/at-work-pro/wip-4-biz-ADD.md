@@ -17,7 +17,7 @@ ms.localizationpriority: medium
 
 You can download Windows 10 Insider Preview builds using your corporate credentials in Azure Active Directory (AAD). By enrolling devices in AAD, you increase the visibility of feedback submitted by users in your organization – especially on features that support your specific business needs. 
 
-<b>Note</b>: The Windows Insider Program for Business only supports Azure Active Directory (and not Active Directory on premises) as a corporate authentication method.
+__Note__: The Windows Insider Program for Business only supports Azure Active Directory (and not Active Directory on premises) as a corporate authentication method.
 
 If your company is currently not using AAD – but has a paid subscription to Office 365, Microsoft Dynamics CRM Online, Enterprise Mobility Suite, or other Microsoft services – you have a free subscription to Microsoft Azure Active Directory. This subscription can be used to create users for enrollment in the Windows Insider Program for Business.
 
@@ -27,14 +27,14 @@ In order to get the most benefit out of the Windows Insider Program for Business
 
 Rather than have each user in your organization register for Windows 10 Insider Preview builds, you can now simply register your domain – and cover all users with just one registration.
 
-<b>Important</b> You need to be signed in as a Global Administrator of the Azure AD domain in order to be able to register the domain.
+__Important__ You need to be signed in as a Global Administrator of the Azure AD domain in order to be able to register the domain.
 
-1. On the [Windows Insider website](https://insider.windows.com/), go to <b>For Business</b> > <b>Getting Started</b> to [register your organizational Azure AD account](https://insider.windows.com/en-us/insidersigninaad/).
+1. On the [Windows Insider website](https://insider.windows.com/), go to__For Business__ >__Getting Started__ to [register your organizational Azure AD account](https://insider.windows.com/en-us/insidersigninaad/).
 2. [Register your domain](https://insider.windows.com/en-us/for-business-organization-admin/) and control settings centrally.
 
 ## Is your device connected to your company’s AAD subscription?
 
-Go to <b>Settings > Accounts > Access work or school</b>. If a corporate account is on Azure Active Directory and it is connected to the device, you will see the account listed as highlighted in the image below.
+Go to__Settings > Accounts > Access work or school__. If a corporate account is on Azure Active Directory and it is connected to the device, you will see the account listed as highlighted in the image below.
 
 ![ADD subscription](images/wip-4-biz-settings.png "ADD")
 
@@ -42,17 +42,17 @@ Go to <b>Settings > Accounts > Access work or school</b>. If a corporate account
 
 1. Make sure that you have administrator rights to the machine and that it has latest Windows updates.
 2. Navigate to the [Getting Started](https://insider.windows.com/en-us/getting-started/) page on [insider.windows.com](https://insider.windows.com/).
-3. Go to <b>Register your organization account</b> and follow the instructions.
-4. On your Windows 10 device, go to <b>Settings > Updates & Security > Windows Insider Program</b>. 
+3. Go to__Register your organization account__ and follow the instructions.
+4. On your Windows 10 device, go to__Settings > Updates & Security > Windows Insider Program__. 
 5. Enter the AAD account that you used to register and follow the on-screen directions. 
 
 ## Switch device enrollment from your Microsoft account to your AAD account
 
 1. Visit [insider.windows.com](http://insider.windows.com) to register your AAD account. If you are signed in with your Microsoft account, sign out, then sign back in with your corporate AAD account. 
-2. Click <b>Get started</b>, read and accept the privacy statement and program terms and click <b>Submit</b>. 
-3. On your Windows 10 PC, go to <b>Settings > Updates & Security > Windows Insider Program</b>. 
-4. Under <b>Windows Insider account</b>, click your Microsoft account, then <b>Change</b> to open a Sign In box. 
-5. Select your corporate account and click <b>Continue</b> to change your account. 
+2. Click__Get started__, read and accept the privacy statement and program terms and click__Submit__. 
+3. On your Windows 10 PC, go to__Settings > Updates & Security > Windows Insider Program__. 
+4. Under__Windows Insider account__, click your Microsoft account, then__Change__ to open a Sign In box. 
+5. Select your corporate account and click__Continue__ to change your account. 
 
 ![ADD change user](images/wip-4-biz-change-user.png "change user")
 
@@ -82,8 +82,8 @@ To do this through the classic Azure portal:
 
 ![AAD dashboard](images/wip-4-biz-classic-aad.png "AAD dashboard")
 
-3. Select the appropriate directory and go to the <b>Configure</b> tab.
-4. Under the <b>integrated applications</b> section, enable <b>Users may give applications permissions to access their data</b>.
+3. Select the appropriate directory and go to the__Configure__ tab.
+4. Under the__integrated applications__ section, enable__Users may give applications permissions to access their data__.
 
 ![enable applications](images/wip-4-biz-aad-classic-enable.png "enable applications")
 
@@ -105,7 +105,7 @@ To do this through the new Azure portal:
 ![enable users](images/wip-4-biz-aad-new-enable.png "enable users")
 
 ## Stop receiving updates
-You can “unlink” your account by going to <b>Settings > Updates & Security > Windows Insider Program</b>, select <b>Windows Insider Account</b> and click <b>Unlink</b>.
+You can “unlink” your account by going to__Settings > Updates & Security > Windows Insider Program__, select__Windows Insider Account__ and click__Unlink__.
 
 ## New to Azure Active Directory? 
 
