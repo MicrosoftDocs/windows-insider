@@ -22,7 +22,7 @@ You can now get Skip Ahead builds of Windows 10 (19H1) if your device is in the 
 
 | Build | Fast | Slow | Server | IoT | ISO | SDK |
 |-------|------|------|--------|-----|-----|-----|
-|18219|[<b>8/16/2018*</b>](https://blogs.windows.com/windowsexperience/2018/08/16/announcing-windows-10-insider-preview-build-18219/)||||||
+|18219|[__8/16/2018*__](https://blogs.windows.com/windowsexperience/2018/08/16/announcing-windows-10-insider-preview-build-18219/)||||||
 |18214|[8/10/2018*](https://blogs.windows.com/windowsexperience/2018/08/10/announcing-windows-10-insider-preview-build-18214/)||||||
 |18204| [7/25/2018*](https://aka.ms/for-kevin)||
 
@@ -31,15 +31,15 @@ You can get builds of RS5 today if your device is in the Fast ring. RS5 Skip ahe
 
 Builds of Windows Server 2019 are released to members of the Windows Insider Program for Server. 
 
-The items in <b>bold</b> typeface are the latest release for that version of the item. 
+The items in__bold__ typeface are the latest release for that version of the item. 
 
 
 | Build | Fast | Slow | Server | IoT | ISO | SDK |
 |-------|------|------|--------|-----|-----|-----|
-|17741|[<b>8/17/2018</b>](https://blogs.windows.com/windowsexperience/2018/08/17/build17741/)|||||
+|17741|[__8/17/2018__](https://blogs.windows.com/windowsexperience/2018/08/17/build17741/)|||||
 |17738|[8/14/2018](https://blogs.windows.com/windowsexperience/2018/08/14/announcing-windows-10-insider-preview-build-17738/)|||||
 |17735|[8/10/2018](https://blogs.windows.com/windowsexperience/2018/08/10/announcing-windows-10-insider-preview-build-17735/)|
-|17733 | [8/08/2018](https://blogs.windows.com/windowsexperience/2018/08/08/announcing-windows-10-insider-preview-build-17733/)||[<b>8/14/2018</b>](https://blogs.windows.com/windowsexperience/2018/08/14/announcing-windows-server-2019-insider-preview-build-17733/)|||[<b>8/14/2018</b>](https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewSDK)
+|17733 | [8/08/2018](https://blogs.windows.com/windowsexperience/2018/08/08/announcing-windows-10-insider-preview-build-17733/)||[__8/14/2018__](https://blogs.windows.com/windowsexperience/2018/08/14/announcing-windows-server-2019-insider-preview-build-17733/)|||[__8/14/2018__](https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewSDK)
 |17730 | [8/03/2018](https://blogs.windows.com/windowsexperience/2018/08/03/announcing-windows-10-insider-preview-build-17730/)
 |17728| [7/31/2018](https://aka.ms/gul-dukat)
 |17723|[7/25/2018](https://aka.ms/for-kevin)||[7/31/2018](https://blogs.windows.com/windowsexperience/2018/07/31/announcing-windows-server-2019-insider-preview-build-17723)|||[7/31/2018](https://blogs.windows.com/buildingapps/2018/07/31/windows-10-sdk-preview-build-17723-available-now/)
@@ -51,7 +51,7 @@ The items in <b>bold</b> typeface are the latest release for that version of the
 | 17686 | [6/06/2018](https://aka.ms/jumanji)|||||[6/12/2018](https://blogs.windows.com/buildingapps/2018/06/12/windows-10-sdk-preview-build-17686-available-now/)
 | 17682 | [5/31/2018](https://aka.ms/hulkbuster)|||||[6/05/2018](https://blogs.windows.com/buildingapps/2018/06/05/windows-10-sdk-preview-build-17682-available-now/)
 | 17677 | [5/24/2018](https://aka.ms/we-are-groot) | | [5/29/2018](https://aka.ms/wipserver17677)| | | [5/29/2018](https://blogs.windows.com/buildingapps/2018/05/29/windows-10-sdk-preview-build-17677-available-now/)
-| 17672 | [5/16/2018](https://blogs.windows.com/windowsexperience/2018/05/16/announcing-windows-10-insider-preview-build-17672/) | | |[<b>5/22/2018</b>](https://docs.microsoft.com/en-us/windows/iot-core/release-notes/insider/17662) | | [5/22/2018](https://blogs.windows.com/buildingapps/2018/05/22/windows-10-sdk-preview-build-17672-available-now/)
+| 17672 | [5/16/2018](https://blogs.windows.com/windowsexperience/2018/05/16/announcing-windows-10-insider-preview-build-17672/) | | |[__5/22/2018__](https://docs.microsoft.com/en-us/windows/iot-core/release-notes/insider/17662) | | [5/22/2018](https://blogs.windows.com/buildingapps/2018/05/22/windows-10-sdk-preview-build-17672-available-now/)
 | 17666 | [5/09/2018](https://blogs.windows.com/windowsexperience/2018/05/09/announcing-windows-10-insider-preview-build-17666/)| | [5/15/2018](https://blogs.windows.com/windowsexperience/2018/05/15/announcing-windows-server-2019-insider-preview-build-17666/) | | | [5/15/2018](https://blogs.windows.com/buildingapps/2018/05/15/windows-10-sdk-preview-build-17666-now-available/)
 | 17661 | [5/03/2018](https://blogs.windows.com/windowsexperience/2018/05/03/announcing-windows-10-insider-preview-build-17661/)| | | [5/07/2018](https://docs.microsoft.com/en-us/windows/iot-core/release-notes/insider/17661) | |[5/08/2018](https://blogs.windows.com/buildingapps/2018/05/08/windows-10-sdk-preview-build-17661-now-available/)
 | 17655 | [4/25/2018*](https://blogs.windows.com/windowsexperience/2018/04/25/announcing-windows-10-insider-preview-build-17655-for-skip-ahead/)
@@ -69,7 +69,7 @@ Window 10 version 1803 was released to the world on April 30, 2018. Windows Insi
 
 | Build | Fast | Slow | Server | IoT | ISO | SDK | 
 |-------|------|------|--------|-----|-----|-----|
-| 17134 | [4/16/2018](https://blogs.windows.com/windowsexperience/2018/04/16/announcing-windows-10-insider-preview-build-17134-for-fast/)| <b>4/20/2018</b> |
+| 17134 | [4/16/2018](https://blogs.windows.com/windowsexperience/2018/04/16/announcing-windows-10-insider-preview-build-17134-for-fast/)|__4/20/2018__ |
 | 17133 |[3/27/2018](https://blogs.windows.com/windowsexperience/2018/03/27/announcing-windows-10-insider-preview-build-17133-for-fast/) | 3/30/2018| |[3/28/2018](https://social.msdn.microsoft.com/Forums/en-US/4587bb75-0143-4bac-9af0-8fea437dbfba/new-flight-17133-released-for-insiders?forum=WindowsIoT) |
 | 17128 | [3/23/2018](https://blogs.windows.com/windowsexperience/2018/03/23/announcing-windows-10-insider-preview-build-17128-for-fast/)|
 | 17127| [3/20/2018](https://blogs.windows.com/windowsexperience/2018/03/20/announcing-windows-10-insider-preview-build-17127-for-fast/) |3/23/2018 | | | [3/27/2018](https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewadvanced) |
@@ -82,8 +82,8 @@ Window 10 version 1803 was released to the world on April 30, 2018. Windows Insi
 | 17107 | [2/23/2018](https://blogs.windows.com/windowsexperience/2018/02/23/announcing-windows-10-insider-preview-build-17107-fast-ring/) |
 | 17101 | [2/14/2018](https://blogs.windows.com/windowsexperience/2018/02/14/announcing-windows-10-insider-preview-build-17101-fast-build-17604-skip-ahead/) |
 | 17905 | | | | | |[2/13/2018](https://blogs.windows.com/buildingapps/2018/02/13/windows-10-sdk-preview-build-17095-now-available/) |
-| 17093 | [2/07/2018](https://blogs.windows.com/windowsexperience/2018/02/07/announcing-windows-10-insider-preview-build-17093-pc/) | |[<b>2/13/2018</b>](https://blogs.windows.com/windowsexperience/2018/02/13/announcing-windows-server-insider-preview-build-17093-project-honolulu-technical-preview-1802/) | 
-| 17083| [1/24/2018](https://blogs.windows.com/windowsexperience/2018/01/24/announcing-windows-10-insider-preview-build-17083-for-pc/) | | 1/31/2018| [2/02/2018](https://docs.microsoft.com/en-us/windows/iot-core/release-notes/insider/17083) | | [<b>1/31/2018</b>](https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewSDK)|
+| 17093 | [2/07/2018](https://blogs.windows.com/windowsexperience/2018/02/07/announcing-windows-10-insider-preview-build-17093-pc/) | |[__2/13/2018__](https://blogs.windows.com/windowsexperience/2018/02/13/announcing-windows-server-insider-preview-build-17093-project-honolulu-technical-preview-1802/) | 
+| 17083| [1/24/2018](https://blogs.windows.com/windowsexperience/2018/01/24/announcing-windows-10-insider-preview-build-17083-for-pc/) | | 1/31/2018| [2/02/2018](https://docs.microsoft.com/en-us/windows/iot-core/release-notes/insider/17083) | | [__1/31/2018__](https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewSDK)|
 | 17079 | | | [1/23/2018](https://blogs.windows.com/windowsexperience/2018/01/23/announcing-windows-server-insider-preview-build-17079/)|
 | 17074.1002 | [1/18/2018](https://blogs.windows.com/windowsexperience/2018/01/11/announcing-windows-10-insider-preview-build-17074-pc/#s32iZObXeU224sD5.97) | 1/19/2018 | 
 | 17074 | [1/11/2018](https://blogs.windows.com/windowsexperience/2018/01/11/announcing-windows-10-insider-preview-build-17074-pc/#s32iZObXeU224sD5.97) |
@@ -142,7 +142,7 @@ The [Windows 10 Creators Update](https://blogs.windows.com/windowsexperience/201
 | 17686 | [6/06/2018](https://aka.ms/jumanji)|||||[6/12/2018](https://blogs.windows.com/buildingapps/2018/06/12/windows-10-sdk-preview-build-17686-available-now/)
 | 17682 | [5/31/2018](https://aka.ms/hulkbuster)|||||[6/05/2018](https://blogs.windows.com/buildingapps/2018/06/05/windows-10-sdk-preview-build-17682-available-now/)
 | 17677 | [5/24/2018](https://aka.ms/we-are-groot) | | [5/29/2018](https://aka.ms/wipserver17677)| | | [5/29/2018](https://blogs.windows.com/buildingapps/2018/05/29/windows-10-sdk-preview-build-17677-available-now/)
-| 17672 | [5/16/2018](https://blogs.windows.com/windowsexperience/2018/05/16/announcing-windows-10-insider-preview-build-17672/) | | |[<b>5/22/2018</b>](https://docs.microsoft.com/en-us/windows/iot-core/release-notes/insider/17662) | | [5/22/2018](https://blogs.windows.com/buildingapps/2018/05/22/windows-10-sdk-preview-build-17672-available-now/)
+| 17672 | [5/16/2018](https://blogs.windows.com/windowsexperience/2018/05/16/announcing-windows-10-insider-preview-build-17672/) | | |[__5/22/2018__](https://docs.microsoft.com/en-us/windows/iot-core/release-notes/insider/17662) | | [5/22/2018](https://blogs.windows.com/buildingapps/2018/05/22/windows-10-sdk-preview-build-17672-available-now/)
 | 17666 | [5/09/2018](https://blogs.windows.com/windowsexperience/2018/05/09/announcing-windows-10-insider-preview-build-17666/)| | [5/15/2018](https://blogs.windows.com/windowsexperience/2018/05/15/announcing-windows-server-2019-insider-preview-build-17666/) | | | [5/15/2018](https://blogs.windows.com/buildingapps/2018/05/15/windows-10-sdk-preview-build-17666-now-available/)
 | 17661 | [5/03/2018](https://blogs.windows.com/windowsexperience/2018/05/03/announcing-windows-10-insider-preview-build-17661/)| | | [5/07/2018](https://docs.microsoft.com/en-us/windows/iot-core/release-notes/insider/17661) | |[5/08/2018](https://blogs.windows.com/buildingapps/2018/05/08/windows-10-sdk-preview-build-17661-now-available/)
 | 17655 | [4/25/2018*](https://blogs.windows.com/windowsexperience/2018/04/25/announcing-windows-10-insider-preview-build-17655-for-skip-ahead/)

@@ -27,7 +27,7 @@ You register with either your Microsoft account (MSA) or your Azure Active Direc
 > [Register on insider.windows.com site](https://insider.windows.com/en-us/register/). 
 
 ## Switch between accounts
-You can switch between your Microsoft Account (MSA) and your organizational account (AAD) by going to <b>Settings > Updates & Security > Windows Insider Program</b>. Under <b>Windows Insider account</b> select <b>Change</b>.
+You can switch between your Microsoft Account (MSA) and your organizational account (AAD) by going to__Settings > Updates & Security > Windows Insider Program__. Under__Windows Insider account__ select__Change__.
 
 ![alt text](images/waas-wipfb-change-user.png "switch between accounts")
 
