@@ -258,7 +258,7 @@ For more information about Narrator new keyboard layout and other known issues, 
 
 ## Time accuracy and traceability improvements
 
-*__Leap second support:__ Windows will now support these occasional 1-second adjustments in a traceable and UTC-compliant manner. What’s a leap second? As the earth’s rotation slows, [UTC](https://en.wikipedia.org/wiki/Coordinated_Universal_Time) (an atomic timescale) diverges from [mean solar time](https://en.wikipedia.org/wiki/Solar_time#Mean_solar_time) or astronomical time.  Once UTC has diverged by at most .9 seconds, a [leap second](https://en.wikipedia.org/wiki/Leap_second) is inserted to keep UTC in-sync with mean solar time.  Since the practice of inserting leap seconds began in 1972, a leap second has typically occurred every 18 months.
+*__Leap second support:__ Windows supports these occasional 1-second adjustments in a traceable and UTC-compliant manner. What’s a leap second? As the earth’s rotation slows, [UTC](https://en.wikipedia.org/wiki/Coordinated_Universal_Time) (an atomic timescale) diverges from [mean solar time](https://en.wikipedia.org/wiki/Solar_time#Mean_solar_time) or astronomical time.  Once UTC has diverged by at most .9 seconds, a [leap second](https://en.wikipedia.org/wiki/Leap_second) is inserted to keep UTC in-sync with mean solar time.  Since the practice of inserting leap seconds began in 1972, a leap second has typically occurred every 18 months.
 
 *__Precision Time Protocol:__ For the highest accuracy environments, you can improve your time accuracy by leveraging a new time protocol that delivers more accurate time samples to the endpoint (Windows Server 2019 or Windows 10, host or virtual machine).
 
@@ -294,29 +294,29 @@ How many times have you been immersed in a captivating virtual experience and…
 
 In the past you probably fumbled about or removed your headset, which can be clumsy if you have controllers in your hands.
 
-We added the ability to peer into your physical environment through Flashlight – without removing your headset! With the latest Windows Insider Program build, you can open a portal into your real world at any time via the Start menu, a button shortcut, or a voice command. This opens a low-latency pass-through camera feed connected to your controller. It’s comfortable, intuitive, and keeps you immersed.
+We added the ability to peer into your physical environment through Flashlight – without removing your headset! You can open a portal into your real world at any time via the Start menu, a button shortcut, or a voice command. This opens a low-latency pass-through camera feed connected to your controller. It’s comfortable, intuitive, and keeps you immersed.
 
 ![mixed reality flashlight](images/Flashlight_7-13.png "mixed reality flashlight")
 
 Flashlight finally allows you to mix your physical and virtual realities. 
 
-## Mobile Broadband (LTE) connectivity on Windows gets a makeover
+## Mobile broadband (LTE) connectivity on Windows gets a makeover
 
-Windows is transforming the networking stack after 20 years through the NetAdapter framework. This framework introduces a new, more reliable, network driver model that inherits the goodness of the Windows driver framework while bringing an accelerated data path. 
+Windows is transforming the networking stack after 20 years through the __NetAdapter__ framework. This framework introduces a new, more reliable, network driver model that inherits from the Windows driver framework while bringing an accelerated data path. 
 
-The Mobile Broadband USB NetAdapter driver, a new and improved USB class driver based on the NetAdapter framework, is the default driver in Windows 10 RS5. To try this out – install on a PC that relies on mobile broadband for cellular connectivity and setup cellular connectivity and turn off Wi-fi. 
+The mobile broadband USB net adapter driver, a new and improved USB class driver based on the __NetAdapter__ framework, is the default driver in Windows 10 version 1809.  
 
-If your PC supports Mobile Broadband, i.e., your PC relies on cellular network for connectivity, and you want to try it out? Here is what you need to do:
+If your PC supports mobile broadband, i.e., your PC relies on cellular network for connectivity, and you want to try it out, here is what you need to do:
 
 __Step 1__: Ensure your PC can support SIM cards and USB modems (either over the internal USB bus or using a USB dongle for cellular connectivity). 
 
-__Step 2__: Install this build (Build 17655 and higher) and setup cellular connectivity. 
+__Step 2__: Install Windows 10 RS5, build 17655 or higher) and setup cellular connectivity. 
 
 __Step 3__: Choose the Net Adapter based MBB USB class driver as default driver. 
 
-1. Navigate to Device Manager. (You can right-click on the Start button to get there.) 
-2. Go to Network Adapters -> Generic Mobile Broadband Adapter or xxxxx Mobile Broadband Adapter 
-3. Right click and choose update driver -> Browse my computer for driver software -> Click on Let me pick from a list of available drivers on my computer -> Choose Generic Mobile Broadband Cx Net Adapter -> Click Next. 
+1. Navigate to __Device Manager__. (You can right-click on the Start button to get there.) 
+2. Go to __Network Adapters -> Generic Mobile Broadband Adapter__ or __xxxxx Mobile Broadband Adapter__. 
+3. Right click and choose __update driver -> Browse my computer for driver software -> Click on Let me pick from a list of available drivers on my computer -> Choose Generic Mobile Broadband Cx Net Adapter__,then click __Next__. 
 4. Once installed reboot for the new driver to take effect. 
 5. Ensure the status of the connection remains “Connected”.
 
@@ -334,44 +334,44 @@ To report issues and give feedback, use Feedback Hub on your PC and set Category
 ### Extended line endings support for Notepad 
 In addition to Windows line endings (CRLF), Notepad now supports Unix/Linux line endings (LF) and Macintosh line endings (CR)! 
 
-![alt text](images/notepad.png "notepad")
+![notepad](images/notepad.png "notepad")
 
 For more details, check out [Introducing extended line endings support in Notepad](https://aka.ms/notepadeol). 
 
 ## Dark theme comes to File Explorer (and more!) 
 
-As many of you know, we added dark theme support to Windows based on your feedback. This setting is available under Settings > Personalization > Colors, and if you switch it any apps and system UI that support it will follow suit. Since releasing this feature, our top feedback request from you has been to update File Explorer to support dark theme. Along the way, we also added dark theme support to the File Explorer context menu, as well as the Common File Dialog (aka the Open and Save dialogs). Thanks again for everyone’s feedback!
+As many of you know, we added dark theme support to Windows based on your feedback. This setting is available under __Settings > Personalization > Colors__, and if you switch it any apps and system UI that support it will follow suit. Since releasing this feature, our top feedback request from you has been to update File Explorer to support dark theme. Along the way, we also added dark theme support to the File Explorer context menu, as well as the Common File Dialog (aka the Open and Save dialogs). Thanks again for everyone’s feedback!
 
 ## Microsoft Pinyin and Wubi IMEs
 
 *__We updated the Microsoft Pinyin IME__. We’ve been focusing on addressing your performance, reliability and compatibility feedback. You'll also notice a number of other improvements, including design improvements, a new logo for the Microsoft Pinyin IME, new IME toolbar, and dark theme support!
 
-    ![alt text](images/imeupdate.png "new look for imes")
+    ![new look for imes](images/imeupdate.png "new look for imes")
 
-*__We updated the context menu__. We’ve added a bunch of options to the IME mode indicator’s context menu in the taskbar, so you can quickly access the things you need.
+*__We updated the context menu__. We’ve added options to the IME mode indicator’s context menu in the taskbar, so you can quickly access the things you need.
 
-*__The IME now uses the same UX for Expressive Input as other languages__. You can bring it up by clicking the emoji button in the IME toolbar, or use the Emoji Panel hotkeys (WIN + period (.) or WIN + semicolon (;)). You can browse between Emoji, Kaomoji, and Symbol input when Chinese (Simplified) is the active locale.
+*__The IME now uses the same UX for expressive input as other languages__. You can bring it up by clicking the emoji button in the IME toolbar, or use the Emoji Panel hotkeys (WIN + period (.) or WIN + semicolon (;)). You can browse between Emoji, Kaomoji, and Symbol input when Chinese (Simplified) is the active locale.
 
 ![alt text](images/imeemoji.png "ime emojis")
 
 ## Post-upgrade setup
 You may see this window showing after you upgrade. Don’t worry – all your stuff is still there! We know some of you bought and setup your devices a long time ago – the features available in Windows have changed since then, so we’re giving you an opportunity to go through the setup questions you may have missed to ensure your device has the best setup possible. Click “Let’s Go” to go through those setup questions or click “Skip for now” if you want to go straight to your desktop. The conditions for showing this page are cloud programmable and may change over time.
 
-![alt text](images/SCOOBE-Intro.png "oobe")
+![oobe](images/SCOOBE-Intro.png "oobe")
 
 ## Privacy improvements
 We wanted to let you know that if access to the microphone has been disabled in your privacy settings, we’ll now pop a notification the first time an attempt to use the microphone is blocked so you can review the settings if desired.
 
-![alt text](images/micprivacy_toastonly.png "microphone disabled")
+![microphone disabled](images/micprivacy_toastonly.png "microphone disabled")
 
 ### Privacy settings layout in the set-up experience 
 
-__Changes to the set up experience for privacy settings__ This new design conveys focused information to help our customers make focused choices about their privacy and offers two new settings for Inking & Typing and Find my device.
+__Changes to the set up experience for privacy settings__ This new design conveys focused information to help our customers make focused choices about their privacy and offers two new settings for inking & typing, and find my device.
 
 ## RSAT is now available on demand!
-What does that mean? You no longer have to manually download RSAT every time you upgrade! Just go to “Manage optional features” in Settings (the fastest way there is to search for that) and click “Add a feature” – you’ll now see all of the RSAT components listed. Pick the ones you want, and the next time you upgrade Windows will automatically ensure all those components persist the upgrade (just like any of our other on-demand features, like speech resources or OpenSSH). Thanks to everyone who logged feedback asking for this! We’d love for you to try this out on today’s build and [let us know what you think](http://aka.ms/rsatfeedback).
+You no longer have to manually download RSAT every time you upgrade! Just go to “Manage optional features” in Settings (the fastest way there is to search for that) and click “Add a feature” – you’ll now see all of the RSAT components listed. Pick the ones you want, and the next time you upgrade Windows will automatically ensure all those components persist the upgrade (just like any of our other on-demand features, like speech resources or OpenSSH). 
 
-![alt text](images/rsat.png "RSAT")
+![RSAT](images/rsat.png "RSAT")
 
 ## Search improvements
 
