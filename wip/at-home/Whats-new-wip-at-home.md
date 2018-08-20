@@ -390,19 +390,19 @@ We have expanded previews to support apps, documents, and more. Search previews 
 * Disambiguate between files by seeing more info including file location, last modified, or author 
 * Access quick answers from the web like “are bananas good for you?” “height of mt everest”  
 
-We made the Search experience wider so you can access information and actions in the preview faster than ever. 
+We made the search experience wider so you can access information and actions in the preview faster than ever. 
 
-![alt text](images/notepad-bing-search.png "notepad bing search")
+![notepad bing search](images/notepad-bing-search.png "notepad bing search")
 
 __Find software downloads faster in Search!__: Continuing our theme of improving the search preview experience, we’re rolling out an update to make it easier to find official download pages for Windows software you want to install. The team is continuing to develop this experience and more is coming. 
 
-![alt text](images/search.png "GitHub search example")
+![GitHub search example](images/search.png "GitHub search example")
 
 ## Sets
 Sets is designed to make sure that everything related to your task: relevant webpages, research documents, necessary files, and applications, is connected and available to you in one click. With Sets, first party experiences like Mail, Calendar, OneNote, MSN News, Windows, and Microsoft Edge become more integrated to create a seamless experience, so you can get back to what’s important and be productive, recapturing that moment, saving time – we believe that’s the true value of Sets. Here are some of the things you can do with sets.
 
 __Bring on the acrylic!__ We love Fluent Design as much as you do – Sets now have an acrylic title bar. We also adjusted the window border so that it’s now grey. 
-![alt text](images/fluent.png "fluent design with sets")
+![fluent design with sets](images/fluent.png "fluent design with sets")
 
 __Recent Microsoft Edge tabs now show in Alt + Tab__: Do you use Alt + Tab to quickly switch back and forth between apps? All of your recent Microsoft Edge tabs will now be included, not just the active one. Prefer it the old way? Use the “Pressing Alt + Tab shows the recently used…” setting in Multitasking Settings. 
 
@@ -425,7 +425,7 @@ __Tabs are now bubbled up in Alt + Tab__: Have Photos, Microsoft Edge, and OneNo
 
 <i>Note: If you have multiple Microsoft Edge windows in a Set, only the one most recently accessed will be visible in Alt + Tab.</i>
 
-__Support for desktop (Win32) apps.__ Sets now supports File Explorer, Notepad, Command Prompt, and PowerShell. One of the top feature requests by Insiders has been tabs for File Explorer and with Sets you can get a tabbed File Explorer experience.
+__Support for desktop (Win32) apps__ Sets now supports File Explorer, Notepad, Command Prompt, and PowerShell. One of the top feature requests by Insiders has been tabs for File Explorer and with Sets you can get a tabbed File Explorer experience.
 
 __Launch apps from the new tab page__ by typing the app name into the search box.
 
@@ -433,35 +433,35 @@ __UWP apps are launched in the same window__ replacing the new tab page.
 The tab UI in Sets now shows icons including website favicons and app icons.
 Resume your project with more control – When restoring your projects you’ll be prompted to restore related apps and webpages. In Timeline you’ll see when a project has multiple activities associated with it.
 
-__Improved Settings for Sets__: We’ve updated the Settings for Sets via Settings > System > Multitasking. To start with, Sets now has its own section on this page, and is searchable (try typing “Sets” or “tabs” and it will appear in the dropdown). We’ve also added a setting to control the Alt + Tab behavior mentioned above.
+__Improved Settings for Sets__: We’ve updated the settings for Sets via __Settings > System > Multitasking__. To start with, Sets now has its own section on this page, and is searchable (try typing “Sets” or “tabs” and it will appear in the dropdown). We’ve also added a setting to control the Alt + Tab behavior mentioned above.
 
-![alt text](images/Win10Sets.png "Sets")
+![sets](images/Win10Sets.png "Sets")
 
 __File Explorer & Sets Improvements__: We’ve heard your feedback – you’d like it to be easier to get two File Explorer windows grouped together. We  added a new keyboard shortcut to open a new tab when a File Explorer window is in focus: Ctrl + T. Remember, you can use Ctrl + N to open a new window, and Ctrl + W to close the window/tab.
 
 __New UI for opening new tabs and windows__ in the File Menu.
 
-![alt text](images/tabsinfilewindow.png "tabs in file window")
+![tabs in file window](images/tabsinfilewindow.png "tabs in file window")
 
 __New UI__ for easily opening new tabs and windows in the File Menu.
 
-![alt text](images/tabsinfilewindow.png "tabs in file explorer")
+![tabs in file explorer](images/tabsinfilewindow.png "tabs in file explorer")
 
 __New context menu options for tabs in Sets__: If you right-click on a Sets tab, you’ll discover several options to leverage, including “close other tabs”, “move to new window”, and “close tabs to the right”.
 
-![alt text](images/newcontextmenu.png "new context menu")
+![new context menu](images/newcontextmenu.png "new context menu")
 
-__Improvements to Previous Tabs__: We’ve done a few things to improve the experience in this space, including:
+__Improvements to previous tabs__: We’ve done a few things to improve the experience in this space, including:
 
-*__You can choose which Previous Tabs you want to restore__, in addition to being able to restore all tabs. 
+*__You can choose which previous tabs you want to restore__, in addition to being able to restore all tabs. 
 
-*__You can now restore Previous Tabs from any type of activity__ – in addition to restoring tabs when the primary window is a document.
+*__You can now restore previous tabs from any type of activity__ – in addition to restoring tabs when the primary window is a document.
 
-![alt text](images/previoustabs.png "previous tabs")
+![previous tabs](images/previoustabs.png "previous tabs")
 
-* When you open a document that previously had tabs, a prompt will appear offering to restore those tabs, and the Previous Tabs button will be in the filled state. For things that aren’t documents, a prompt will not automatically appear, but you’ll know that there are tabs available to restore because the Previous Tabs button will be in the filled state.
+* When you open a document that previously had tabs, a prompt will appear offering to restore those tabs, and the previous tabs button will be in the filled state. For things that aren’t documents, a prompt will not automatically appear, but you’ll know that there are tabs available to restore because the previous tabs button will be in the filled state.
 
-* We added an animation to the experience when there are no Previous Tabs available to be restored.
+* We added an animation to the experience when there are no previous tabs available to be restored.
 
 __Keyboard shortcuts__
 
@@ -471,20 +471,20 @@ __Keyboard shortcuts__
 *__Ctrl + Win + N__ - open a new window.
 *__Ctrl + Win + W__– close current tab or window.
 
-We’ve heard your feedback and have been hard at work updating the new tab page to make it more obvious you can launch apps. When you click the plus button in a Sets window, you will now see apps included in your frequent destinations list. You’ll also find that we’ve integrated the all apps list into this page so you can browse your apps, rather than just using the search box – apps that support Sets will launch into a tab when clicked. If you have News Feed selected, simply click the “Apps” link next to “News Feed” to switch to the all apps list.
+We’ve heard your feedback and have been hard at work updating the new tab page to make it more obvious you can launch apps. When you click the plus button in a Sets window, you will now see apps included in your frequent destinations list. You’ll also find that we’ve integrated the all apps list into this page so you can browse your apps, rather than just using the search box – apps that support Sets will launch into a tab when clicked. If you have __News Feed__ selected, simply click the “Apps” link next to “News Feed” to switch to the all apps list.
 
-![alt text](images/ntpnew.png "apps in a sets window")
+![apps in a sets window](images/ntpnew.png "apps in a sets window")
 
 ## Settings
 
 We’ve heard your feedback that settings can be confusing sometimes, so we’re working with Bing to bubble up some of the most common questions we hear right into the Settings pages themselves. The FAQ’s are contextual in nature and aim to you to quickly get the answer you’re looking for to complete configuration tasks. It may even help you discover something you didn’t know was an option! Clicking on these questions will take you to Bing.com to display the answer.  
 
-![alt text](images/questions.png "settings faq")
+![settings faq](images/questions.png "settings faq")
 
 ## Snipping experience 
 The new modern snipping experience is here to help you effortlessly capture and annotate what you see on your screen. While working on this we’ve been carefully going over all your feedback about taking screenshots in Windows - you’ll find the flow and tools are optimized for sharing and make communicating visually with others quick and easy.
 
-![alt text](images/screen-sketch1.png "screen sketch")
+![screen sketch](images/screen-sketch1.png "screen sketch")
 
 ### Screen Sketch is now an app! 
 
@@ -494,12 +494,12 @@ Originally introduced as part of the Windows Ink Workspace, this comes with a va
 
 One of the loudest things we heard is that you want to be able to quickly snip & share a screenshot, and we’re making it happen! WIN + Shift + S will now bring up a snipping toolbar – snip a rectangle, something a bit more freeform, or full screen and it will go straight to your clipboard. If that’s all you need, you can take it from there. Want more, though? Immediately after taking a snip you’ll now get a notification that will take you and your snip to the Screen Sketch app where you can annotate and share away!
 
-![alt text](images/screen-sketch2.png "screen sketch")
+![screen sketch](images/screen-sketch2.png "screen sketch")
 
 But wait, there’s more! Is the WIN + Shift + S keyboard shortcut too long to remember? Guess what! We’ve added easy entry options for every input modality: 
 *__Just click the pen tail button__. If you have a pen, go into Pen & Windows Ink Settings – you’ll find Screen Snipping is now an option for single click. This will launch you directly into our snipping experience:
 
-![alt text](images/pensettingsinked.png "pen settings")
+![pen settings](images/pensettingsinked.png "pen settings")
 
 *__Press Print Screen__. You heard it right, just one button! It’s not enabled by default – go to Keyboard Settings – you’ll see a new option that says “Use the Print Screen key to launch screen snipping”. Opening Settings and searching for “print screen” will take you to the right page.
 
@@ -508,43 +508,43 @@ But wait, there’s more! Is the WIN + Shift + S keyboard shortcut too long to r
 ## Start tile folder naming 
 To create a tile folder in Start, just drag one tile on top of another for a second then release. Continue dropping as many tiles into the folder as you’d like. When you expand the folder, you’ll see a new option to name it. The name will be visible when the folder is medium, wide, or large-sized. 
 
-![alt text](images/namedfolder_optionalgif.png "folder naming in Start")
+![folder naming in Start](images/namedfolder_optionalgif.png "folder naming in Start")
 
 
-## Storage Improvements
-__Storage Sense picks up a new skill__:  Starting with the [Creators Update](https://blogs.windows.com/windowsexperience/2017/01/19/announcing-windows-10-insider-preview-build-15014-for-pc-and-mobile-hello-windows-insiders-today-we-are-excited-to-be-releasing-windows-10-insider-preview-build-15014-for-pc-and-mobile/) we embarked on a journey to help you automatically clean up storage when low on disk space. We expanded on that with the Fall Creators Update ([here](https://blogs.windows.com/windowsexperience/2017/05/17/announcing-windows-10-insider-preview-build-16199-pc-build-15215-mobile/) and [here](https://blogs.windows.com/windowsexperience/2017/06/21/announcing-windows-10-insider-preview-build-16226-pc/)), and today we’re taking the next step by adding the ability to automatically make any downloaded Files On-Demand online-only if you haven’t used them in a certain number of days. Head to Settings > System > Storage > Storage Sense to try out this new feature! We’d love to hear what you think.
+## Storage improvements
+__Storage Sense picks up a new skill__:  Starting with the [Creators Update](https://blogs.windows.com/windowsexperience/2017/01/19/announcing-windows-10-insider-preview-build-15014-for-pc-and-mobile-hello-windows-insiders-today-we-are-excited-to-be-releasing-windows-10-insider-preview-build-15014-for-pc-and-mobile/) we embarked on a journey to help you automatically clean up storage when low on disk space. We expanded on that with the Fall Creators Update ([here](https://blogs.windows.com/windowsexperience/2017/05/17/announcing-windows-10-insider-preview-build-16199-pc-build-15215-mobile/) and [here](https://blogs.windows.com/windowsexperience/2017/06/21/announcing-windows-10-insider-preview-build-16226-pc/)). We also added the ability to automatically make any downloaded Files On-Demand online-only if you haven’t used them in a certain number of days. Head to __Settings > System > Storage > Storage Sense__ to try out this new feature.
 
 
 ## SwiftKey intelligence comes to Windows
-[SwiftKey](https://www.microsoft.com/en-us/swiftkey) gives you more accurate auto-corrections and predictions by learning your writing style – including the words, phrases and emoji that matter to you. It’s available for Android and iOS, and starting with today’s build SwiftKey will now power the typing experience on Windows when using the touch keyboard to write in English (United States), English (United Kingdom), French (France), German (Germany), Italian (Italy), Spanish (Spain), Portuguese (Brazil), or Russian.
+[SwiftKey](https://www.microsoft.com/en-us/swiftkey) gives you more accurate auto-corrections and predictions by learning your writing style – including the words, phrases and emoji that matter to you. It’s available for Android and iOS, and SwiftKey powers the typing experience on Windows when using the touch keyboard to write in English (United States), English (United Kingdom), French (France), German (Germany), Italian (Italy), Spanish (Spain), Portuguese (Brazil), or Russian.
 
 ![alt text](images/swift2.png "swiftkey")
 
-## Task Manager Memory Reporting Improvements
-In Windows 10 code name RS5, the main memory column in Task Manager “Processes” tab do not include memory used by suspended UWP processes. This more accurately reflects the OS behavior in which the OS can reclaim memory used by suspended UWP processes if needed. This means that if you have several UWP processes suspended in the background, the OS can take back memory from these suspended UWP processes if needed and use it for something that requires more memory. New and old memory columns will be available in “Details” tab for you to do comparisons. 
+## Task Manager memory reporting improvements
+In Windows 10, version 1809, the main memory column in Task Manager “Processes” tab does not include memory used by suspended UWP processes. This more accurately reflects the OS behavior in which the OS can reclaim memory used by suspended UWP processes if needed. This means that if you have several UWP processes suspended in the background, the OS can take back memory from these suspended UWP processes if needed and use it for something that requires more memory. New and old memory columns will be available in “Details” tab for you to do comparisons. 
 
 
-## Windows App Permissions 
-You have more control so you can now decide which UWP apps can access your full file system. Particular UWP apps will be granted permission to have broad file system access. This capability will be granted on a per app basis by Microsoft. If a UWP app has the broad file system access restricted capability, you will receive a consent dialog prompting you to accept or deny the request. If at any time you change your mind about the decision, you can go to Settings > Privacy where you’ll find a new Settings page for File System Access. On this page, you can turn access on or off globally, and if it’s on you can also turn it on or off for each app that has requested the capability. UWPs with broad file system access will not appear in the Photos, Videos, or Documents privacy settings pages. If you grant broad file system access, this includes Photos, Videos and Documents.
+## Windows app permissions 
+You have more control so you can now decide which UWP apps can access your full file system. Particular UWP apps will be granted permission to have broad file system access. This capability will be granted on a per app basis by Microsoft. If a UWP app has the broad file system access restricted capability, you will receive a consent dialog prompting you to accept or deny the request. If at any time you change your mind about the decision, you can go to __Settings > Privacy__ where you’ll find a new Settings page for file system access. On this page, you can turn access on or off globally, and if it’s on you can also turn it on or off for each app that has requested the capability. UWPs with broad file system access will not appear in the Photos, Videos, or Documents privacy settings pages. If you grant broad file system access, this includes Photos, Videos and Documents.
 
 ## Windows Calculator 
 
-Windows Calculator has been updated (version 10.1803.711.0) to now correctly calculate square roots for perfect squares (integers that are squares of other integers). Because of the [arbitrary precision arithmetic library](https://blogs.msdn.microsoft.com/oldnewthing/20160628-00/?p=93765) used by the Calculator app, the square root calculation is an approximation calculated using the [Exponential Identity](https://en.wikipedia.org/wiki/Methods_of_computing_square_roots%23Exponential_identity) function.
+Windows Calculator now correctly calculates square roots for perfect squares (integers that are squares of other integers). Because of the [arbitrary precision arithmetic library](https://blogs.msdn.microsoft.com/oldnewthing/20160628-00/?p=93765) used by the Calculator app, the square root calculation is an approximation calculated using the [Exponential Identity](https://en.wikipedia.org/wiki/Methods_of_computing_square_roots%23Exponential_identity) function.
 Previously, when you would calculate the square root of 4, the result would be 1.99999999999999999989317180305609 which would be rounded to 2 when displayed, because we calculated enough digits to do the rounding correctly. However, as soon as you subtract 2, you would see the remaining digits.
 After this update, the square root calculation now recognizes perfect squares and correctly returns exactly 2 for the square root of 4.
 
-## Windows Defender Application Guard (WDAG) Improvements
+## Windows Defender Application Guard (WDAG) improvements
 
-The Windows Defender Application Guard (WDAG) Team has introduced new improvements for users to have a better experience with our upcoming release. We have combed through our user feedback and acted to ensure your needs are met. On top of significant performance improvements, we have added an ability to download documents highlighted below.
+The Windows Defender Application Guard (WDAG) team has introduced new improvements for users to have a better experience with our upcoming release. We have combed through our user feedback and acted to ensure your needs are met. On top of significant performance improvements, we have added an ability to download documents.
 
-__Performance improvements__: The teams at Microsoft are constantly working to improve performance for our users. Windows Defender Application Guard is no different. In this upcoming feature update, you will notice an improvement in the launch time for Application Guard. We have made the start process lighter and faster, which will provide our users with a better experience when accessing Microsoft Edge in Windows Defender Application Guard.
+__Performance improvements__: The teams at Microsoft are constantly working to improve performance for our users. WDAG is no different. In this feature update, you will notice an improvement in the launch time for WDAG. We have made the start process lighter and faster, which will provide our users with a better experience when accessing Microsoft Edge in WDAG.
 
-__Download files to the host__: One of the items our users voiced was an inability to “download files from within WDAG” to the host. This created an inconsistent experience for Edge overall as downloaded files were stuck inside the container. In this release, users can turn on a feature to download files from their WDAG browsing session onto the host file system. This feature is available in the Windows 10 Enterprise edition and must be turned on. Once the feature is enabled, users will be able to download files into a folder created in their Downloads folder and open all files on the host.
+__Download files to the host__: One of the items our users voiced was an inability to “download files from within WDAG” to the host. This created an inconsistent experience for Edge overall as downloaded files were stuck inside the container. In this release, users can turn on a feature to download files from their WDAG browsing session onto the host file system. This feature is available in the Windows 10 Enterprise edition and is not turned on by default. Once the feature is enabled, users will be able to download files into a folder created in their Downloads folder and open all files on the host.
 
 <i>How to enable and configure the Download to host feature</i>:
 
 __Requirements:__
-* Latest Windows 10 Enterprise RS4 Builds.
+* Latest Windows 10 Enterprise, version 1803 builds.
 * Windows Defender Application Guard feature is installed.
 * Network isolation policies are configured.
 
