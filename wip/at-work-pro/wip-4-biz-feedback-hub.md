@@ -15,7 +15,7 @@ ms.localizationpriority: medium
 
 # Share Feedback via the Feedback Hub
 
-Sharing your feedback is quick and easy. You can go directly to the [Feedback Hub](feedback-hub:///), then click the <b>Add Feedback</b> button. You can track your feedback, and your IT administrator can track feedback provided by all users in the organization through the Feedback Hub by filtering by <b>My Organization</b>. 
+Sharing your feedback is quick and easy. You can go directly to the [Feedback Hub](feedback-hub:///), then click the__Add Feedback__ button. You can track your feedback, and your IT administrator can track feedback provided by all users in the organization through the Feedback Hub by filtering by__My Organization__. 
 
 If you're signed in to the Feedback Hub App using your personal Microsoft Account (MSA), you can switch to your work account by clicking on your account, signing out, and signing back in.
 
@@ -25,18 +25,18 @@ Feedback Hub needs your consent to access your AAD account profile data (we read
 In an enterprise environment, AAD administrators have the ability to allow or block users from giving consent. If you cannot give consent, Feedback Hub is blocked, your admin (or you if you're the admin) can unblock it by using the following steps.
 
 1. Go to https://portal.azure.com/.
-2. Switch to the Azure Active Directory dashboard using the <b>Azure Active Directory</b> button. 
-3. Switch to the appropriate directory using the <b>Switch Directory</b> button.
-4. Under the <b>Manage</b> section, select User settings. 
-5. In the <b>Enterprise applications</b> section, enable <b>Users can allow apps to access their data</b>. ![allow data access](images/waas-wipfb-aad-newenable.png "allow data access")
+2. Switch to the Azure Active Directory dashboard using the__Azure Active Directory__ button. 
+3. Switch to the appropriate directory using the__Switch Directory__ button.
+4. Under the__Manage__ section, select User settings. 
+5. In the__Enterprise applications__ section, enable__Users can allow apps to access their data__. ![allow data access](images/waas-wipfb-aad-newenable.png "allow data access")
 
 ## Submit and track feedback on behalf of your organization
 You can track feedback submitted to the Feedback Hub by you and others in your organization (AAD account registration required). Here’s how:
 
 1. Register as a Windows Insider with your work account in Azure Active Directory.
 2. Sign into the Feedback Hub using this same work account. On the Welcome page of the Feedback Hub, click on the People icon, lower left and select or add your AAD work account. (If you have already registered using your Microsoft account, you’ll need to sign out first.)
-3. Go to <b>Feedback, All Feedback</b>.
-4. Under the <b>Filterx</b> drop-down, select <b>My Organization</b> to view feedback from Insiders in your organization. Note: Feedback filtered with this view will only show Feedback from users in your organization who sign into the Feedback Hub using their registered work account in Azure Active Directory. 
+3. Go to__Feedback, All Feedback__.
+4. Under the__Filterx__ drop-down, select__My Organization__ to view feedback from Insiders in your organization. Note: Feedback filtered with this view will only show Feedback from users in your organization who sign into the Feedback Hub using their registered work account in Azure Active Directory. 
 
 ![organizational feedback](images/WIP_feedback_WIP-B.png "organizational feedback")
 

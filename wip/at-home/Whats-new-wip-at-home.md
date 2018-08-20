@@ -8,7 +8,7 @@ ms.assetid:
 ms.service: WIP-at-work
 ms.tgt_pltfrm: na
 ms.devlang: na
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.author: dawn.wood
 ms.localizationpriority: medium
 ---
@@ -37,7 +37,7 @@ You will notice new acrylic backgrounds in places on the system using these cont
 ![alt text](images/acrylic.png "acrylic settings")
 
 ## Bluetooth battery percentage in settings
-In the <b>Bluetooth & other devices</b> page in Settings, you can check the battery level of your Bluetooth devices for Bluetooth devices that support this feature, in which case the battery percentage will update whenever your PC and the device are connected.
+In the__Bluetooth & other devices__ page in Settings, you can check the battery level of your Bluetooth devices for Bluetooth devices that support this feature, in which case the battery percentage will update whenever your PC and the device are connected.
 
 ![alt text](images/bluetoothbattery.png "bluetooth battery")
 
@@ -48,11 +48,11 @@ Copy/paste - it's something we all do, probably multiple times a day. But what d
 
 Not only can you can paste from the clipboard history, but you can also pin the items you find yourself using all the time. This history roams with you using the same technology which powers Timeline and Sets, which means you can access your clipboard across any PC.  
 
-Our new settings page for enabling this experience is under <b>Settings > System > Clipboard</b> - please try this out and share feedback! [This link](feedback-hub:///) will open the Feedback Hub to where you can tell us about your experience and what you'd like to see next. 
+Our new settings page for enabling this experience is under__Settings > System > Clipboard__ - please try this out and share feedback! [This link](feedback-hub:///) will open the Feedback Hub to where you can tell us about your experience and what you'd like to see next. 
 
 ![alt text](images/clipboardsettings.png "clipboard settings")
 
-<b>Note:</b> Roaming text on the clipboard is only supported for clipboard content less than 100kb. Currently, the clipboard history supports plain text, HTML and images less than 1MB. 
+__Note:__ Roaming text on the clipboard is only supported for clipboard content less than 100kb. Currently, the clipboard history supports plain text, HTML and images less than 1MB. 
 
 ## Cortana Show Me voice queries
  You can now launch the Cortana Show Me app through voice queries. Simply say to Cortana, “Show me how to change my background,” and you’ll get help content, with a new “Let’s go” button below, which launches the guided help experience. 
@@ -61,23 +61,23 @@ Our new settings page for enabling this experience is under <b>Settings > System
 
  Here are some voice queries to try:
 
-* <b>Update Windows</b>– Try, “Update my Windows device”
-* <b>Check if an app is installed</b> – Try, “How to see what apps are installed”
-* <b>Uninstall an app</b> – Try “How to uninstall apps”
-* <b>Change your desktop background</b>– Try, “Show me how to change my background”
-* <b>Use Airplane Mode</b> – Try, “How do I turn on airplane mode”
-* <b>Change your display brightness</b> – Try, “Show me how to change my screen brightness”
-* <b>Add nearby printers or scanners</b> – Try, “How to add a printer”
-* <b>Turn off Windows Defender Security Center</b> – Try, “Show me how to turn off Windows Defender Security Center”
-* <b>Change Wi-Fi settings</b> – Try, “Show me how to change Wi-Fi network”
-* <b>Change your power settings</b> – Try, “How to change when my computer goes to sleep”
-* <b>Discover Bluetooth devices</b> – Try, “Show me how to discover devices”
-* <b>Check your version of Windows</b> – Try, “How do I find my current version of Windows”
+*__Update Windows__– Try, “Update my Windows device”
+*__Check if an app is installed__ – Try, “How to see what apps are installed”
+*__Uninstall an app__ – Try “How to uninstall apps”
+*__Change your desktop background__– Try, “Show me how to change my background”
+*__Use Airplane Mode__ – Try, “How do I turn on airplane mode”
+*__Change your display brightness__ – Try, “Show me how to change my screen brightness”
+*__Add nearby printers or scanners__ – Try, “How to add a printer”
+*__Turn off Windows Defender Security Center__ – Try, “Show me how to turn off Windows Defender Security Center”
+*__Change Wi-Fi settings__ – Try, “Show me how to change Wi-Fi network”
+*__Change your power settings__ – Try, “How to change when my computer goes to sleep”
+*__Discover Bluetooth devices__ – Try, “Show me how to discover devices”
+*__Check your version of Windows__ – Try, “How do I find my current version of Windows”
 
 ## Ease of access improvements
-<b>Make text bigger</b>: We’ve heard your feedback and are excited to announce that the ability to increase text size across the system is back and better than ever! When you go to <b>Settings > Ease of Access > Display</b> in today’s build, you’ll find a new setting called “Make everything bigger” – this slider will adjust text across the system, win32 apps, and UWP apps.
+__Make text bigger__: We’ve heard your feedback and are excited to announce that the ability to increase text size across the system is back and better than ever! When you go to__Settings > Ease of Access > Display__ in today’s build, you’ll find a new setting called “Make everything bigger” – this slider will adjust text across the system, win32 apps, and UWP apps.
 
-![alt text](images/bigger-text.png "bigger text")
+![bigger text](images/bigger-text.png "bigger text")
 
 That means you can now make text bigger in Start, File Explorer, Settings, etc., without having to change the overall scaling of your system. 
 
@@ -87,7 +87,7 @@ We’ve made significant improvement to the find/replace experience in Notepad. 
 ![wrap around find and replace](images/notepad.png "wrap around find and replace")
 
 ### Text zooming
-We’ve added options to make it quick and easy to zoom text in Notepad. There is a new menu option under <b>View > Zoom</b> to change the zoom level and we display the current zoom level in the status bar. You can also use Ctrl + Plus, Ctrl + Minus and Ctrl + MouseWheel to zoom in and out and use Ctrl + 0 to restore the zoom level to the default.
+We’ve added options to make it quick and easy to zoom text in Notepad. There is a new menu option under__View > Zoom__ to change the zoom level and we display the current zoom level in the status bar. You can also use Ctrl + Plus, Ctrl + Minus and Ctrl + MouseWheel to zoom in and out and use Ctrl + 0 to restore the zoom level to the default.
 
 ![text zooming](images/zooming2 .png "text zooming")
 
@@ -97,35 +97,35 @@ Notepad can display line and column numbers when word-wrap is enabled, and we’
 ![word-wrap](images/linenumbers.png "word-wrap")
 
 ## Microsoft Edge improvements
-<b>New, clearer <b>Settings and more</b> (“…”) menu:</b> We’ve redesigned the <b>Settings and more</b> menu in Microsoft Edge so it’s easier to find the options you’re looking for. The menu options are now organized into groups, with icons for each entry, and keyboard shortcuts (where applicable). Click the “…” button in the top-right corner of Microsoft Edge to see what’s new.
+__New, clearer__Settings and more__ (“…”) menu:__ We’ve redesigned the__Settings and more__ menu in Microsoft Edge so it’s easier to find the options you’re looking for. The menu options are now organized into groups, with icons for each entry, and keyboard shortcuts (where applicable). Click the “…” button in the top-right corner of Microsoft Edge to see what’s new.
 
 ![Edge menu options](images/SettingsandMore.png "Edge menu options")
 
-<b>See your top sites in the jump list:</b> You can now see your top sites in the jump list on the Windows task bar or Start menu. Just right-click the Microsoft Edge icon to see a list of your most visited sites and pin the ones that matter most to you. Right-click on any entry to remove it from the list. 
+__See your top sites in the jump list:__ You can now see your top sites in the jump list on the Windows task bar or Start menu. Just right-click the Microsoft Edge icon to see a list of your most visited sites and pin the ones that matter most to you. Right-click on any entry to remove it from the list. 
 
-<b>Organize the tabs you’ve set aside:</b> It's easier to organize the groups of tabs you’ve set aside, so you can remember what’s in each group when come back to it later. Once you’ve set a group of tabs aside, choose the “Tabs you’ve set aside” icon (top left corner), and click on the label for any group to rename it.  
+__Organize the tabs you’ve set aside:__ It's easier to organize the groups of tabs you’ve set aside, so you can remember what’s in each group when come back to it later. Once you’ve set a group of tabs aside, choose the “Tabs you’ve set aside” icon (top left corner), and click on the label for any group to rename it.  
 
 ![tabs you've set aside](images/tabsaside.png "Tabs you've set aside")
 
-<b>Do more from the “Downloads” pane:</b> We’ve added options for <b>Show in folder</b> and <b>Copy link</b> to the right-click menu for downloads in the <b>Downloads</b> pane. 
+__Do more from the “Downloads” pane:__ We’ve added options for__Show in folder__ and__Copy link__ to the right-click menu for downloads in the__Downloads__ pane. 
 
 ![downloads pane](images/downloads.png "Downloads pane")
 
-<b>Retired XSS filter:</b> We are retiring the XSS filter in Microsoft Edge. Our customers remain protected thanks to modern standards like Content Security Policy, which provide more powerful, better performing, and secure mechanisms to protect against content injection attacks, with high compatibility across modern browsers.
+__Retired XSS filter:__ We are retiring the XSS filter in Microsoft Edge. Our customers remain protected thanks to modern standards like Content Security Policy, which provide more powerful, better performing, and secure mechanisms to protect against content injection attacks, with high compatibility across modern browsers.
 
 ### Microsoft Edge PDF reader improvements
-<b>Improved toolbar options:</b> The toolbar available on a PDF document opened in Microsoft Edge will now show text descriptions for the icons to make them easily understandable by users. New options like <b>Add notes</b> are now available in the toolbar so that these tools are handy when you need them.
+__Improved toolbar options:__ The toolbar available on a PDF document opened in Microsoft Edge will now show text descriptions for the icons to make them easily understandable by users. New options like__Add notes__ are now available in the toolbar so that these tools are handy when you need them.
 
 ![improved toolbar](images/PDFImprovedToolbar.png "improved toolbar")
 
-<b>Pin/unpin PDF toolbar:</b> The PDF toolbar can now be pinned at the top of the document, making all the PDF tools easily accessible if you need them. You can also unpin the toolbar for an immersive reading experience. If the toolbar is unpinned, it will hide itself – just hover over the top area to bring it back.
+__Pin/unpin PDF toolbar:__ The PDF toolbar can now be pinned at the top of the document, making all the PDF tools easily accessible if you need them. You can also unpin the toolbar for an immersive reading experience. If the toolbar is unpinned, it will hide itself – just hover over the top area to bring it back.
 
 ![pin or unpin the toolbar](images/PDFPinButton.png "pin or unpin the toolbar")
 
-<b>Rendering improvements:</b> We’ve included a bunch of rendering performance fixes so that you will see less white pages when you navigate through PDF files in Microsoft Edge.
+__Rendering improvements:__ We’ve included a bunch of rendering performance fixes so that you will see less white pages when you navigate through PDF files in Microsoft Edge.
 
 ### Per-site media autoplay controls
-You can now control autoplay permissions on a per-site basis under the <b>Website permission</b> section of the <b>Website Identification</b> pane – just click the information icon or lock icon on the left side of the address bar and click <b>manage permissions</b> to get started.
+You can now control autoplay permissions on a per-site basis under the__Website permission__ section of the__Website Identification__ pane – just click the information icon or lock icon on the left side of the address bar and click__manage permissions__ to get started.
 
 ![autoplay permissions](images/autoplay.png "autoplay permissions")
 
@@ -134,12 +134,12 @@ We’ve added a new dictionary function, so you can look up definitions for key 
 
 ![dictionary](images/dictionary.png "dictionary")
 
-You can choose to have a word read aloud to you to hear the correct pronunciation or expand more details from the definition. You can toggle whether definitions appear and which types of content they work in under the <b>General</b> tab of the Microsoft Edge settings menu.
+You can choose to have a word read aloud to you to hear the correct pronunciation or expand more details from the definition. You can toggle whether definitions appear and which types of content they work in under the__General__ tab of the Microsoft Edge settings menu.
 
 ### WebDriver improvements
 You can automate testing in Microsoft Edge using WebDriver. WebDriver is a Windows Feature on Demand, so you no longer need to match the build and branch manually when installing WebDriver. When you take new Windows 10 updates, your WebDriver binary will be automatically updated to match.
 
-To install WebDriver, just turn on <b>Developer Mode</b> in Windows 10 Settings, or install the standalone feature on the <b> Manage optional features</b> Settings page.
+To install WebDriver, just turn on__Developer Mode__ in Windows 10 Settings, or install the standalone feature on the__ Manage optional features__ Settings page.
 
 We’ve also updated WebDriver to match the latest [W3C Recommendation spec](https://www.w3.org/TR/webdriver/) with major new improvements. You can learn all about these changes on the [Microsoft Edge dev blog](https://www.w3.org/TR/webdriver/).
 
@@ -150,24 +150,24 @@ Web Authentication provides an open, scalable, and interoperable solution to fac
 ## External GPU safe removal experience
 We added a safe removal experience for external GPUs connected via Thunderbolt 3. The safe remove experience allows you to know which applications are running on an external GPU so that you can safely remove it and prevent data loss during detach.
 
-To safely remove an external graphics card, go to the <b>Safely Remove Hardware and Eject Media</b> icon and click to eject your GPU. If there are applications running on your external GPU, a dialog will appear with the applications that are currently running on the GPU. Close the applications to safely remove the device. If there are no applications currently running on your GPU then no dialog will appear and you can safely detach your GPU.
+To safely remove an external graphics card, go to the__Safely Remove Hardware and Eject Media__ icon and click to eject your GPU. If there are applications running on your external GPU, a dialog will appear with the applications that are currently running on the GPU. Close the applications to safely remove the device. If there are no applications currently running on your GPU then no dialog will appear and you can safely detach your GPU.
 
 ## Focus assist improvements when gaming 
-Now focus assist will turn on automatically when you’re playing any full screen game. No more interruptions when you’re crushing it. This behavior should be turned on automatically, but you can always check by going to <b>Settings > System > Focus assist</b> and ensuring the <b>When I’m playing a game</b> automatic rule is enabled. For more information, see [Windows 10 Tip: How to enable Focus Assist in the Windows 10 April 2018 Update](https://blogs.windows.com/windowsexperience/2018/05/09/windows-10-tip-how-to-enable-focus-assist-in-the-windows-10-april-2018-update/).
+Now focus assist will turn on automatically when you’re playing any full screen game. No more interruptions when you’re crushing it. This behavior should be turned on automatically, but you can always check by going to__Settings > System > Focus assist__ and ensuring the__When I’m playing a game__ automatic rule is enabled. For more information, see [Windows 10 Tip: How to enable Focus Assist in the Windows 10 April 2018 Update](https://blogs.windows.com/windowsexperience/2018/05/09/windows-10-tip-how-to-enable-focus-assist-in-the-windows-10-april-2018-update/).
 
 ![alt text](images/speakers2.png "sound settings")
 
 ## Game bar improvements
-* <b>Audio controls</b>: Change your default audio output device and mute or adjust the volume of games and apps running.
-* <b>Performance visualizations</b>: See your game’s framerate (FPS), CPU usage, GPU VRAM usage, and system RAM usage.
+*__Audio controls__: Change your default audio output device and mute or adjust the volume of games and apps running.
+*__Performance visualizations__: See your game’s framerate (FPS), CPU usage, GPU VRAM usage, and system RAM usage.
 
 ![alt text](images/New-Game-bar.png "game bar")
 
 ## Game mode improvements
-New options are now available for Game Mode that are expected to improve the gaming experience on desktop PCs.  Gamers on PCs with many background processes may also see performance improvements when they toggle <b>Dedicate resources</b> in Game bar.
+New options are now available for Game Mode that are expected to improve the gaming experience on desktop PCs.  Gamers on PCs with many background processes may also see performance improvements when they toggle__Dedicate resources__ in Game bar.
 
 ## High Efficiency Image File Format (HEIF)
-The <b>High Efficiency Image File Format (HEIF)</b> is supported in Windows 10 and the Photos app. [HEIF is an image container](https://en.wikipedia.org/wiki/High_Efficiency_Image_File_Format) that leverages modern codecs like HEVC to improve quality, compression, and capabilities compared to earlier formats like JPEG, GIF, and PNG. In addition to traditional single images, HEIF supports encoding image sequences, image collections, auxiliary images like alpha or depth maps, live images & video, audio, and HDR for greater contrast. 
+The__High Efficiency Image File Format (HEIF)__ is supported in Windows 10 and the Photos app. [HEIF is an image container](https://en.wikipedia.org/wiki/High_Efficiency_Image_File_Format) that leverages modern codecs like HEVC to improve quality, compression, and capabilities compared to earlier formats like JPEG, GIF, and PNG. In addition to traditional single images, HEIF supports encoding image sequences, image collections, auxiliary images like alpha or depth maps, live images & video, audio, and HDR for greater contrast. 
 
 HEIF files use the HEVC video codec to compress the image into approximately half the size of JPEG. If your Windows PC does not already have the HEVC video codec, it can be purchased from the Windows Store using [this link](https://aka.ms/HEVCcodec).
 
@@ -198,17 +198,17 @@ We’ve also made tweaks to some of our existing emoji – here are some example
 Our ninja cats got a bit of love too – can you spot the difference?
 ![ninja cat emojis](images/WindowsInsiderBlog_EmojiRS5_NinjaCats.png "ninja cat emojis")
 
-<b>Emoji design updates</b> based on your feedback and to improve consistency, we’ve made adjustments to the design of some of our emoji. Examples of updated emoji include:
+__Emoji design updates__ based on your feedback and to improve consistency, we’ve made adjustments to the design of some of our emoji. Examples of updated emoji include:
 
-<b>Before</b>
+__Before__
 
 ![emojis before](images/before_emoji.png "emojis before")
 
-<b>After</b>
+__After__
 
 ![emojis after](images/after_emoji.png "emojis after")
 
-<b>Emoji search comes to more languages</b>: You can find an emoji by keyword in over 150 locales, including English (Great Britain), French (France), German (Germany), Spanish (Spain), and more. This will help you get the emoji you want easily and quickly. As a reminder, to bring up the Emoji Panel set focus to a text field and press WIN + (period) or WIN + (semicolon).
+__Emoji search comes to more languages__: You can find an emoji by keyword in over 150 locales, including English (Great Britain), French (France), German (Germany), Spanish (Spain), and more. This will help you get the emoji you want easily and quickly. As a reminder, to bring up the Emoji Panel set focus to a text field and press WIN + (period) or WIN + (semicolon).
 
 ## A faster safer internet with HTTP/2 and CUBIC
 The internet is part of our daily lives both at work and at home, in the enterprise and in the cloud. We are committed to making your internet experience faster and safer. For example:
@@ -239,30 +239,30 @@ We have introduced a new __Region__ page that allows overrides to default region
 ## Narrator improvements 
 
 * __Reliability:__ We have made improvements in Narrator reliability.
-* <b>Scan Mode:</b> Reading and navigating while in Scan Mode has been improved. Selecting text in Scan Mode has also been improved. 
-* <b>QuickStart:</b> The link in settings to relaunch the QuickStart is available from the first Welcome page. The QuickStart more reliably takes focus when Narrator is launched, which means Narrator starts reading automatically.
-* <b>Providing Feedback:</b> The keystroke to provide feedback has changed. The new keystroke is <b>Narrator + Alt + F</b>. This will work both in the standard and legacy layouts.
-<i>Note: The legacy layout also allows you to use <b>Narrator + E</b> to send us feedback.</i>
-* <b>Move Next, Move Previous, and Change View:</b> When changing Narrator’s view to characters, words, lines, or paragraphs the __Read Current Item__ command will read the text of that specific view type more reliably.
-* <b>Keyboard command changes:</b> The keystroke to move the caret to the beginning of text is now <b>Narrator + B</b> (formerly Narrator + Control + B), to move the caret to end of text is now <b>Narrator + E</b> (was Narrator + Control + E).
-* <b>Braille:</b> Improved use of Braille commands when using the Narrator key from the braille display.
-* <b>Narrator standard keyboard layout</b>: Narrator now ships with a new keyboard layout that is designed to be more familiar to screen reader users. 
-* <b>Selection commands in Narrator scan mode</b>: Narrator’s scan mode now supports selecting content in Microsoft Edge, Word, Outlook, Mail, and most text surfaces. Standard shift- selection commands can be used as well as __Control + A__ for the entire document. __Caps + Shift + Down Arrow__ will speak the current selection. For a full list of selection commands, you can refer to Narrator’s __Show Commands List__ by pressing __Caps + F1__. Once content is selected you can copy it to the clipboard by pressing __Control + C__. Formatting information will also be retained. 
-* <b>Automatic Dialog Reading</b>: Narrator automatically reads the contents of a dialog box when brought to the foreground. Narrator speaks the title of the dialog, the focused element within the dialog and the static text at the top of the dialog. For example, if you try to close a document in Word with unsaved changes, Narrator will speak the title “Microsoft Word,” the focus “Save button” and the static text within the dialog.
-* <b>Narrator Find</b>: You now have the ability to search for text using Narrator’s new __Find__ feature. If the text is found Narrator will move to the found item. 
-* <b>List of Objects</b>: Narrator can present a list of links, headings or landmarks present in the application or content. You are also able to filter the results by typing in the list or the text field of the window. 
-* <b>Selection in Scan Mode</b>: Along with being able to select content in Narrator’s scan mode using Shift-selection commands, you can now also select a block of data by first moving to one end of the block and pressing __F9__, moving to the other end of the block and pressing __F10__. Once __F10__ is pressed the entire contents between the two points will be selected. 
-* <b>Stop on Controls in Scan Mode</b>: Scan mode is a Narrator feature that lets you use just a few keys to move around your screen. Scan mode is already on by default in Microsoft Edge and you can toggle it on and off by pressing __Caps lock + Spacebar__. While you’re in scan mode, you can press the Up and Down arrow keys to read different parts of the page. The press of a Down arrow in Scan Mode stops on interactive elements, so that they are easier to use. An example of this behavior is  reading a paragraph with multiple links. Narrator will stop on these links when you press the Down arrow.
+*__Scan Mode:__ Reading and navigating while in Scan Mode has been improved. Selecting text in Scan Mode has also been improved. 
+*__QuickStart:__ The link in settings to relaunch the QuickStart is available from the first Welcome page. The QuickStart more reliably takes focus when Narrator is launched, which means Narrator starts reading automatically.
+*__Providing Feedback:__ The keystroke to provide feedback has changed. The new keystroke is__Narrator + Alt + F__. This will work both in the standard and legacy layouts.
+<i>Note: The legacy layout also allows you to use__Narrator + E__ to send us feedback.</i>
+*__Move Next, Move Previous, and Change View:__ When changing Narrator’s view to characters, words, lines, or paragraphs the __Read Current Item__ command will read the text of that specific view type more reliably.
+*__Keyboard command changes:__ The keystroke to move the caret to the beginning of text is now__Narrator + B__ (formerly Narrator + Control + B), to move the caret to end of text is now__Narrator + E__ (was Narrator + Control + E).
+*__Braille:__ Improved use of Braille commands when using the Narrator key from the braille display.
+*__Narrator standard keyboard layout__: Narrator now ships with a new keyboard layout that is designed to be more familiar to screen reader users. 
+*__Selection commands in Narrator scan mode__: Narrator’s scan mode now supports selecting content in Microsoft Edge, Word, Outlook, Mail, and most text surfaces. Standard shift- selection commands can be used as well as __Control + A__ for the entire document. __Caps + Shift + Down Arrow__ will speak the current selection. For a full list of selection commands, you can refer to Narrator’s __Show Commands List__ by pressing __Caps + F1__. Once content is selected you can copy it to the clipboard by pressing __Control + C__. Formatting information will also be retained. 
+*__Automatic Dialog Reading__: Narrator automatically reads the contents of a dialog box when brought to the foreground. Narrator speaks the title of the dialog, the focused element within the dialog and the static text at the top of the dialog. For example, if you try to close a document in Word with unsaved changes, Narrator will speak the title “Microsoft Word,” the focus “Save button” and the static text within the dialog.
+*__Narrator Find__: You now have the ability to search for text using Narrator’s new __Find__ feature. If the text is found Narrator will move to the found item. 
+*__List of Objects__: Narrator can present a list of links, headings or landmarks present in the application or content. You are also able to filter the results by typing in the list or the text field of the window. 
+*__Selection in Scan Mode__: Along with being able to select content in Narrator’s scan mode using Shift-selection commands, you can now also select a block of data by first moving to one end of the block and pressing __F9__, moving to the other end of the block and pressing __F10__. Once __F10__ is pressed the entire contents between the two points will be selected. 
+*__Stop on Controls in Scan Mode__: Scan mode is a Narrator feature that lets you use just a few keys to move around your screen. Scan mode is already on by default in Microsoft Edge and you can toggle it on and off by pressing __Caps lock + Spacebar__. While you’re in scan mode, you can press the Up and Down arrow keys to read different parts of the page. The press of a Down arrow in Scan Mode stops on interactive elements, so that they are easier to use. An example of this behavior is  reading a paragraph with multiple links. Narrator will stop on these links when you press the Down arrow.
 
 For more information about Narrator new keyboard layout and other known issues, refer to [Intro to New Narrator Keyboard Layout doc](http://aka.ms/RS5NarratorKeyboard).
 
 ## Time accuracy and traceability improvements
 
-* <b>Leap second support:</b> Windows will now support these occasional 1-second adjustments in a traceable and UTC-compliant manner. What’s a leap second? As the earth’s rotation slows, [UTC](https://en.wikipedia.org/wiki/Coordinated_Universal_Time) (an atomic timescale) diverges from [mean solar time](https://en.wikipedia.org/wiki/Solar_time#Mean_solar_time) or astronomical time.  Once UTC has diverged by at most .9 seconds, a [leap second](https://en.wikipedia.org/wiki/Leap_second) is inserted to keep UTC in-sync with mean solar time.  Since the practice of inserting leap seconds began in 1972, a leap second has typically occurred every 18 months.
+*__Leap second support:__ Windows will now support these occasional 1-second adjustments in a traceable and UTC-compliant manner. What’s a leap second? As the earth’s rotation slows, [UTC](https://en.wikipedia.org/wiki/Coordinated_Universal_Time) (an atomic timescale) diverges from [mean solar time](https://en.wikipedia.org/wiki/Solar_time#Mean_solar_time) or astronomical time.  Once UTC has diverged by at most .9 seconds, a [leap second](https://en.wikipedia.org/wiki/Leap_second) is inserted to keep UTC in-sync with mean solar time.  Since the practice of inserting leap seconds began in 1972, a leap second has typically occurred every 18 months.
 
-* <b>Precision Time Protocol:</b> For the highest accuracy environments, you can improve your time accuracy by leveraging a new time protocol that delivers more accurate time samples to the endpoint (Windows Server 2019 or Windows 10, host or virtual machine).
+*__Precision Time Protocol:__ For the highest accuracy environments, you can improve your time accuracy by leveraging a new time protocol that delivers more accurate time samples to the endpoint (Windows Server 2019 or Windows 10, host or virtual machine).
 
-* <b>Software Timestamping:</b> You can now further improve your network time accuracy by eliminating the software delay introduced by the Windows networking stack.
+*__Software Timestamping:__ You can now further improve your network time accuracy by eliminating the software delay introduced by the Windows networking stack.
 
 For more details about these new improvements, please see our announcement [here](https://blogs.technet.microsoft.com/networking/2018/07/18/top10-ws2019-hatime/).
 
@@ -308,11 +308,11 @@ The Mobile Broadband USB NetAdapter driver, a new and improved USB class driver 
 
 If your PC supports Mobile Broadband, i.e., your PC relies on cellular network for connectivity, and you want to try it out? Here is what you need to do:
 
-<b>Step 1</b>: Ensure your PC can support SIM cards and USB modems (either over the internal USB bus or using a USB dongle for cellular connectivity). 
+__Step 1__: Ensure your PC can support SIM cards and USB modems (either over the internal USB bus or using a USB dongle for cellular connectivity). 
 
-<b>Step 2</b>: Install this build (Build 17655 and higher) and setup cellular connectivity. 
+__Step 2__: Install this build (Build 17655 and higher) and setup cellular connectivity. 
 
-<b>Step 3</b>: Choose the Net Adapter based MBB USB class driver as default driver. 
+__Step 3__: Choose the Net Adapter based MBB USB class driver as default driver. 
 
 1. Navigate to Device Manager. (You can right-click on the Start button to get there.) 
 2. Go to Network Adapters -> Generic Mobile Broadband Adapter or xxxxx Mobile Broadband Adapter 
@@ -324,9 +324,9 @@ If your PC supports Mobile Broadband, i.e., your PC relies on cellular network f
 ![net adapter steps](images/NetAdpaterSteps_Pic2.PNG "Net adapter steps")
 ![net adapter steps](images/NetAdapterSteps_Pic3.jpg "Net adapter steps")
 
-<b>Note</b>: Follow the instructions in Step 4 to revert to the default driver(xxxxx Mobile Broadband Adapter), in case of issues with Net Adapter driver(Generic Mobile Broadband Cx Net Adapter). 
+__Note__: Follow the instructions in Step 4 to revert to the default driver(xxxxx Mobile Broadband Adapter), in case of issues with Net Adapter driver(Generic Mobile Broadband Cx Net Adapter). 
 
-<b>Step 4</b>: For Internet access, try using cellular network primarily by turning off Wi-Fi 
+__Step 4__: For Internet access, try using cellular network primarily by turning off Wi-Fi 
 To report issues and give feedback, use Feedback Hub on your PC and set Category and subcategory as Network and Internet -> Connecting to a cellular network. Use [cxwmbclass] in the summary.
 
 ## Notepad improvements
@@ -344,13 +344,13 @@ As many of you know, we added dark theme support to Windows based on your feedba
 
 ## Microsoft Pinyin and Wubi IMEs
 
-* <b>We updated the Microsoft Pinyin IME</b>. We’ve been focusing on addressing your performance, reliability and compatibility feedback. You'll also notice a number of other improvements, including design improvements, a new logo for the Microsoft Pinyin IME, new IME toolbar, and dark theme support!
+*__We updated the Microsoft Pinyin IME__. We’ve been focusing on addressing your performance, reliability and compatibility feedback. You'll also notice a number of other improvements, including design improvements, a new logo for the Microsoft Pinyin IME, new IME toolbar, and dark theme support!
 
     ![alt text](images/imeupdate.png "new look for imes")
 
-* <b>We updated the context menu</b>. We’ve added a bunch of options to the IME mode indicator’s context menu in the taskbar, so you can quickly access the things you need.
+*__We updated the context menu__. We’ve added a bunch of options to the IME mode indicator’s context menu in the taskbar, so you can quickly access the things you need.
 
-* <b>The IME now uses the same UX for Expressive Input as other languages</b>. You can bring it up by clicking the emoji button in the IME toolbar, or use the Emoji Panel hotkeys (WIN + period (.) or WIN + semicolon (;)). You can browse between Emoji, Kaomoji, and Symbol input when Chinese (Simplified) is the active locale.
+*__The IME now uses the same UX for Expressive Input as other languages__. You can bring it up by clicking the emoji button in the IME toolbar, or use the Emoji Panel hotkeys (WIN + period (.) or WIN + semicolon (;)). You can browse between Emoji, Kaomoji, and Symbol input when Chinese (Simplified) is the active locale.
 
 ![alt text](images/imeemoji.png "ime emojis")
 
@@ -366,7 +366,7 @@ We wanted to let you know that if access to the microphone has been disabled in 
 
 ### Privacy settings layout in the set-up experience 
 
-<b>Changes to the set up experience for privacy settings</b> This new design conveys focused information to help our customers make focused choices about their privacy and offers two new settings for Inking & Typing and Find my device.
+__Changes to the set up experience for privacy settings__ This new design conveys focused information to help our customers make focused choices about their privacy and offers two new settings for Inking & Typing and Find my device.
 
 ## RSAT is now available on demand!
 What does that mean? You no longer have to manually download RSAT every time you upgrade! Just go to “Manage optional features” in Settings (the fastest way there is to search for that) and click “Add a feature” – you’ll now see all of the RSAT components listed. Pick the ones you want, and the next time you upgrade Windows will automatically ensure all those components persist the upgrade (just like any of our other on-demand features, like speech resources or OpenSSH). Thanks to everyone who logged feedback asking for this! We’d love for you to try this out on today’s build and [let us know what you think](http://aka.ms/rsatfeedback).
@@ -394,68 +394,68 @@ We made the Search experience wider so you can access information and actions in
 
 ![alt text](images/notepad-bing-search.png "notepad bing search")
 
-<b>Find software downloads faster in Search!</b>: Continuing our theme of improving the search preview experience, we’re rolling out an update to make it easier to find official download pages for Windows software you want to install. The team is continuing to develop this experience and more is coming. 
+__Find software downloads faster in Search!__: Continuing our theme of improving the search preview experience, we’re rolling out an update to make it easier to find official download pages for Windows software you want to install. The team is continuing to develop this experience and more is coming. 
 
 ![alt text](images/search.png "GitHub search example")
 
 ## Sets
 Sets is designed to make sure that everything related to your task: relevant webpages, research documents, necessary files, and applications, is connected and available to you in one click. With Sets, first party experiences like Mail, Calendar, OneNote, MSN News, Windows, and Microsoft Edge become more integrated to create a seamless experience, so you can get back to what’s important and be productive, recapturing that moment, saving time – we believe that’s the true value of Sets. Here are some of the things you can do with sets.
 
-<b>Bring on the acrylic!</b> We love Fluent Design as much as you do – Sets now have an acrylic title bar. We also adjusted the window border so that it’s now grey. 
+__Bring on the acrylic!__ We love Fluent Design as much as you do – Sets now have an acrylic title bar. We also adjusted the window border so that it’s now grey. 
 ![alt text](images/fluent.png "fluent design with sets")
 
-<b>Recent Microsoft Edge tabs now show in Alt + Tab</b>: Do you use Alt + Tab to quickly switch back and forth between apps? All of your recent Microsoft Edge tabs will now be included, not just the active one. Prefer it the old way? Use the “Pressing Alt + Tab shows the recently used…” setting in Multitasking Settings. 
+__Recent Microsoft Edge tabs now show in Alt + Tab__: Do you use Alt + Tab to quickly switch back and forth between apps? All of your recent Microsoft Edge tabs will now be included, not just the active one. Prefer it the old way? Use the “Pressing Alt + Tab shows the recently used…” setting in Multitasking Settings. 
 
-<b>Should apps and websites open in a new window or a new tab? It’s up to you!</b> The Sets section of Multitasking Settings now lets you set your windowing preference. If you choose “Window”, new windows won’t open into a new tab unless you explicitly click the + or drag with your mouse. Choosing “Tab” opens any new windows invoked from your running apps into tabs. As a reminder, if you would like to exclude any particular app from Sets, you can do this from this same settings page. 
+__Should apps and websites open in a new window or a new tab? It’s up to you!__ The Sets section of Multitasking Settings now lets you set your windowing preference. If you choose “Window”, new windows won’t open into a new tab unless you explicitly click the + or drag with your mouse. Choosing “Tab” opens any new windows invoked from your running apps into tabs. As a reminder, if you would like to exclude any particular app from Sets, you can do this from this same settings page. 
 
-<b>Want to mute one of your web tabs? You can now do that!</b> When a webpage in Sets starts playing audio, you’ll now see a volume icon on the tab. Simply click it and the audio will mute, just like in Microsoft Edge. 
+__Want to mute one of your web tabs? You can now do that!__ When a webpage in Sets starts playing audio, you’ll now see a volume icon on the tab. Simply click it and the audio will mute, just like in Microsoft Edge. 
 
-<b>Tabs restore with better performance</b> – they’ll open in the background and use no resources until you go to the tab. This means you can restore a lot of tabs at once with no issues. 
+__Tabs restore with better performance__ – they’ll open in the background and use no resources until you go to the tab. This means you can restore a lot of tabs at once with no issues. 
 
 We’ve also made other fixes, changes, and improvements to Sets, including: 
 * Task Manager is in the list of apps where Sets are not enabled. 
 * We fixed an issue where right clicking a tab in the Sets title bar didn’t bring up a context menu. 
 * We fixed an issue where if Microsoft Edge wasn’t already open, clicking the plus button in Sets would open all of your default websites along with the new tab page. 
 
-<b>Drag and drop app tabs within and between Sets windows is now supported</b>: It works just like it sounds! You can now drag an app tab around within the Set or combine tabbed app windows into Sets.  
+__Drag and drop app tabs within and between Sets windows is now supported__: It works just like it sounds! You can now drag an app tab around within the Set or combine tabbed app windows into Sets.  
 
 <i>Note: If you open a Microsoft Edge tab outside of a Set, you can’t drag and drop it into a Sets window. Drag and drop for Microsoft Edge web tabs within Sets isn’t supported yet and you may experience a crash if this is attempted.</i>  
 
-<b>Tabs are now bubbled up in Alt + Tab</b>: Have Photos, Microsoft Edge, and OneNote tabbed together? You can now use Alt + Tab to switch between them. Prefer to only show the primary window in Alt + Tab? 
+__Tabs are now bubbled up in Alt + Tab__: Have Photos, Microsoft Edge, and OneNote tabbed together? You can now use Alt + Tab to switch between them. Prefer to only show the primary window in Alt + Tab? 
 
 <i>Note: If you have multiple Microsoft Edge windows in a Set, only the one most recently accessed will be visible in Alt + Tab.</i>
 
-<b>Support for desktop (Win32) apps.</b> Sets now supports File Explorer, Notepad, Command Prompt, and PowerShell. One of the top feature requests by Insiders has been tabs for File Explorer and with Sets you can get a tabbed File Explorer experience.
+__Support for desktop (Win32) apps.__ Sets now supports File Explorer, Notepad, Command Prompt, and PowerShell. One of the top feature requests by Insiders has been tabs for File Explorer and with Sets you can get a tabbed File Explorer experience.
 
-<b>Launch apps from the new tab page</b> by typing the app name into the search box.
+__Launch apps from the new tab page__ by typing the app name into the search box.
 
-<b>UWP apps are launched in the same window</b> replacing the new tab page.
+__UWP apps are launched in the same window__ replacing the new tab page.
 The tab UI in Sets now shows icons including website favicons and app icons.
 Resume your project with more control – When restoring your projects you’ll be prompted to restore related apps and webpages. In Timeline you’ll see when a project has multiple activities associated with it.
 
-<b>Improved Settings for Sets</b>: We’ve updated the Settings for Sets via Settings > System > Multitasking. To start with, Sets now has its own section on this page, and is searchable (try typing “Sets” or “tabs” and it will appear in the dropdown). We’ve also added a setting to control the Alt + Tab behavior mentioned above.
+__Improved Settings for Sets__: We’ve updated the Settings for Sets via Settings > System > Multitasking. To start with, Sets now has its own section on this page, and is searchable (try typing “Sets” or “tabs” and it will appear in the dropdown). We’ve also added a setting to control the Alt + Tab behavior mentioned above.
 
 ![alt text](images/Win10Sets.png "Sets")
 
-<b>File Explorer & Sets Improvements</b>: We’ve heard your feedback – you’d like it to be easier to get two File Explorer windows grouped together. We  added a new keyboard shortcut to open a new tab when a File Explorer window is in focus: Ctrl + T. Remember, you can use Ctrl + N to open a new window, and Ctrl + W to close the window/tab.
+__File Explorer & Sets Improvements__: We’ve heard your feedback – you’d like it to be easier to get two File Explorer windows grouped together. We  added a new keyboard shortcut to open a new tab when a File Explorer window is in focus: Ctrl + T. Remember, you can use Ctrl + N to open a new window, and Ctrl + W to close the window/tab.
 
-<b>New UI for opening new tabs and windows</b> in the File Menu.
+__New UI for opening new tabs and windows__ in the File Menu.
 
 ![alt text](images/tabsinfilewindow.png "tabs in file window")
 
-<b>New UI</b> for easily opening new tabs and windows in the File Menu.
+__New UI__ for easily opening new tabs and windows in the File Menu.
 
 ![alt text](images/tabsinfilewindow.png "tabs in file explorer")
 
-<b>New context menu options for tabs in Sets</b>: If you right-click on a Sets tab, you’ll discover several options to leverage, including “close other tabs”, “move to new window”, and “close tabs to the right”.
+__New context menu options for tabs in Sets__: If you right-click on a Sets tab, you’ll discover several options to leverage, including “close other tabs”, “move to new window”, and “close tabs to the right”.
 
 ![alt text](images/newcontextmenu.png "new context menu")
 
-<b>Improvements to Previous Tabs</b>: We’ve done a few things to improve the experience in this space, including:
+__Improvements to Previous Tabs__: We’ve done a few things to improve the experience in this space, including:
 
-* <b>You can choose which Previous Tabs you want to restore</b>, in addition to being able to restore all tabs. 
+*__You can choose which Previous Tabs you want to restore__, in addition to being able to restore all tabs. 
 
-* <b>You can now restore Previous Tabs from any type of activity</b> – in addition to restoring tabs when the primary window is a document.
+*__You can now restore Previous Tabs from any type of activity__ – in addition to restoring tabs when the primary window is a document.
 
 ![alt text](images/previoustabs.png "previous tabs")
 
@@ -463,13 +463,13 @@ Resume your project with more control – When restoring your projects you’ll 
 
 * We added an animation to the experience when there are no Previous Tabs available to be restored.
 
-<b>Keyboard shortcuts</b>
+__Keyboard shortcuts__
 
-* <b>Ctrl + Win + Tab</b> – switch to next tab.
-* <b>Ctrl + Win + Shift + Tab</b> – switch to previous tab.
-* <b>Ctrl + Win + T </b>– open a new tab.
-* <b>Ctrl + Win + N </b> - open a new window.
-* <b>Ctrl + Win + W </b>– close current tab or window.
+*__Ctrl + Win + Tab__ – switch to next tab.
+*__Ctrl + Win + Shift + Tab__ – switch to previous tab.
+*__Ctrl + Win + T__– open a new tab.
+*__Ctrl + Win + N__ - open a new window.
+*__Ctrl + Win + W__– close current tab or window.
 
 We’ve heard your feedback and have been hard at work updating the new tab page to make it more obvious you can launch apps. When you click the plus button in a Sets window, you will now see apps included in your frequent destinations list. You’ll also find that we’ve integrated the all apps list into this page so you can browse your apps, rather than just using the search box – apps that support Sets will launch into a tab when clicked. If you have News Feed selected, simply click the “Apps” link next to “News Feed” to switch to the all apps list.
 
@@ -497,13 +497,13 @@ One of the loudest things we heard is that you want to be able to quickly snip &
 ![alt text](images/screen-sketch2.png "screen sketch")
 
 But wait, there’s more! Is the WIN + Shift + S keyboard shortcut too long to remember? Guess what! We’ve added easy entry options for every input modality: 
-* <b>Just click the pen tail button</b>. If you have a pen, go into Pen & Windows Ink Settings – you’ll find Screen Snipping is now an option for single click. This will launch you directly into our snipping experience:
+*__Just click the pen tail button__. If you have a pen, go into Pen & Windows Ink Settings – you’ll find Screen Snipping is now an option for single click. This will launch you directly into our snipping experience:
 
 ![alt text](images/pensettingsinked.png "pen settings")
 
-* <b>Press Print Screen</b>. You heard it right, just one button! It’s not enabled by default – go to Keyboard Settings – you’ll see a new option that says “Use the Print Screen key to launch screen snipping”. Opening Settings and searching for “print screen” will take you to the right page.
+*__Press Print Screen__. You heard it right, just one button! It’s not enabled by default – go to Keyboard Settings – you’ll see a new option that says “Use the Print Screen key to launch screen snipping”. Opening Settings and searching for “print screen” will take you to the right page.
 
-* <b>Press the quick action button in Action Center</b>. Called “Screen snip” – it should be there as soon as you upgrade, but if not you can always enable it via Notifications & Actions Settings.
+*__Press the quick action button in Action Center__. Called “Screen snip” – it should be there as soon as you upgrade, but if not you can always enable it via Notifications & Actions Settings.
 
 ## Start tile folder naming 
 To create a tile folder in Start, just drag one tile on top of another for a second then release. Continue dropping as many tiles into the folder as you’d like. When you expand the folder, you’ll see a new option to name it. The name will be visible when the folder is medium, wide, or large-sized. 
@@ -512,7 +512,7 @@ To create a tile folder in Start, just drag one tile on top of another for a sec
 
 
 ## Storage Improvements
-<b>Storage Sense picks up a new skill</b>:  Starting with the [Creators Update](https://blogs.windows.com/windowsexperience/2017/01/19/announcing-windows-10-insider-preview-build-15014-for-pc-and-mobile-hello-windows-insiders-today-we-are-excited-to-be-releasing-windows-10-insider-preview-build-15014-for-pc-and-mobile/) we embarked on a journey to help you automatically clean up storage when low on disk space. We expanded on that with the Fall Creators Update ([here](https://blogs.windows.com/windowsexperience/2017/05/17/announcing-windows-10-insider-preview-build-16199-pc-build-15215-mobile/) and [here](https://blogs.windows.com/windowsexperience/2017/06/21/announcing-windows-10-insider-preview-build-16226-pc/)), and today we’re taking the next step by adding the ability to automatically make any downloaded Files On-Demand online-only if you haven’t used them in a certain number of days. Head to Settings > System > Storage > Storage Sense to try out this new feature! We’d love to hear what you think.
+__Storage Sense picks up a new skill__:  Starting with the [Creators Update](https://blogs.windows.com/windowsexperience/2017/01/19/announcing-windows-10-insider-preview-build-15014-for-pc-and-mobile-hello-windows-insiders-today-we-are-excited-to-be-releasing-windows-10-insider-preview-build-15014-for-pc-and-mobile/) we embarked on a journey to help you automatically clean up storage when low on disk space. We expanded on that with the Fall Creators Update ([here](https://blogs.windows.com/windowsexperience/2017/05/17/announcing-windows-10-insider-preview-build-16199-pc-build-15215-mobile/) and [here](https://blogs.windows.com/windowsexperience/2017/06/21/announcing-windows-10-insider-preview-build-16226-pc/)), and today we’re taking the next step by adding the ability to automatically make any downloaded Files On-Demand online-only if you haven’t used them in a certain number of days. Head to Settings > System > Storage > Storage Sense to try out this new feature! We’d love to hear what you think.
 
 
 ## SwiftKey intelligence comes to Windows
@@ -537,24 +537,24 @@ After this update, the square root calculation now recognizes perfect squares an
 
 The Windows Defender Application Guard (WDAG) Team has introduced new improvements for users to have a better experience with our upcoming release. We have combed through our user feedback and acted to ensure your needs are met. On top of significant performance improvements, we have added an ability to download documents highlighted below.
 
-<b>Performance improvements</b>: The teams at Microsoft are constantly working to improve performance for our users. Windows Defender Application Guard is no different. In this upcoming feature update, you will notice an improvement in the launch time for Application Guard. We have made the start process lighter and faster, which will provide our users with a better experience when accessing Microsoft Edge in Windows Defender Application Guard.
+__Performance improvements__: The teams at Microsoft are constantly working to improve performance for our users. Windows Defender Application Guard is no different. In this upcoming feature update, you will notice an improvement in the launch time for Application Guard. We have made the start process lighter and faster, which will provide our users with a better experience when accessing Microsoft Edge in Windows Defender Application Guard.
 
-<b>Download files to the host</b>: One of the items our users voiced was an inability to “download files from within WDAG” to the host. This created an inconsistent experience for Edge overall as downloaded files were stuck inside the container. In this release, users can turn on a feature to download files from their WDAG browsing session onto the host file system. This feature is available in the Windows 10 Enterprise edition and must be turned on. Once the feature is enabled, users will be able to download files into a folder created in their Downloads folder and open all files on the host.
+__Download files to the host__: One of the items our users voiced was an inability to “download files from within WDAG” to the host. This created an inconsistent experience for Edge overall as downloaded files were stuck inside the container. In this release, users can turn on a feature to download files from their WDAG browsing session onto the host file system. This feature is available in the Windows 10 Enterprise edition and must be turned on. Once the feature is enabled, users will be able to download files into a folder created in their Downloads folder and open all files on the host.
 
 <i>How to enable and configure the Download to host feature</i>:
 
-<b>Requirements:</b>
+__Requirements:__
 * Latest Windows 10 Enterprise RS4 Builds.
 * Windows Defender Application Guard feature is installed.
 * Network isolation policies are configured.
 
-<b>Steps:</b>
+__Steps:__
 1. Navigate to Local Group Policy Editor > Administrative Templates > Windows Components > Windows Defender Application Guard.
 
 ![alt text](images/wdag.png "App Guard")
 
 2. Select Allow files to download and save to the host operating system from Windows Defender Application Guard
-3. Select <b>Enabled</b> and <b>Apply<b/>
+3. Select__Enabled__ and__Apply<b/>
 
 ![alt text](images/enablewdag.png "Enable App Guard")
 

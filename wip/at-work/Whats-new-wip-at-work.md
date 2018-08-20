@@ -233,7 +233,7 @@ SMS is under active development, and you will see many changes and improvements 
 For more information on deploying and using the Storage Migration Service, please visit [https://aka.ms/stormigser](https://aka.ms/stormigser)
 
 ## Storage Replica
-<b>Storage Replica (SR)</b> was first released as a technology for Windows Server 2016 Datacenter Edition. SR enables synchronous and asynchronous block replication of volumes between servers or clusters for disaster recovery. SR also enables you to create stretch failover clusters that span two sites, with all nodes staying in sync. 
+__Storage Replica (SR)__ was first released as a technology for Windows Server 2016 Datacenter Edition. SR enables synchronous and asynchronous block replication of volumes between servers or clusters for disaster recovery. SR also enables you to create stretch failover clusters that span two sites, with all nodes staying in sync. 
 Beginning with Windows Server 2019, responding to customer requests, we've added the following improvement to SR: 
  
 Storage Replica Standard. SR is available on Windows Server 2019 Standard Edition, not just on Datacenter Edition. When installed on servers running Standard Edition, SR has the following limitations: 
