@@ -113,12 +113,7 @@ We’ve improved the scalability and reliability of containers that use group ma
 ### New Container base image: Windows 
 We added a new base image to the Windows Server container collection. In addition to nanoserver and windowsservercore container images, the new windows image is now available. This image carries even more components than its nanoserver and servercore siblings, meaning it can support applications that have additional API dependencies. To learn more and get started, go to https://aka.ms/windowscontainer. 
 
-## Microsoft Hyper-V 2019 Preview
-This is the first Insider Preview of Microsoft Hyper-V 2019. Microsoft Hyper-V Server is a stand-alone product that contains only the Windows hypervisor, a Windows Server driver model, and virtualization components. It provides a simple and reliable virtualization solution to help you improve your server utilization and reduce costs.
-
-The Windows hypervisor technology in Microsoft Hyper-V Server is the same as what's in the Hyper-V role on Windows Server. So, much of the content available for the Hyper-V role on Windows Server 2016 also applies to Microsoft Hyper-V Server.
-
-## Deploying Kubernetes on Windows Server
+### Deploying Kubernetes on Windows Server
 
 Kubernetes is a popular orchestration tool for <i>containers</i> (see [What are Containers](https://docs.microsoft.com/en-us/virtualization/windowscontainers/about/#what-are-containers)) that makes deployment and management intuitive, scalable, and effective. This includes built-in features such as:
 
@@ -137,6 +132,10 @@ With Windows Server 2019, we bring a latency optimized, network congestion contr
 
 For a full write up detailing this improvement, please see our announcement [LEDBAT – Latency Optimized Background Transport](https://blogs.technet.microsoft.com/networking/2018/07/25/ledbat/)
 
+## Microsoft Hyper-V 2019 Preview
+This is the first Insider Preview of Microsoft Hyper-V 2019. Microsoft Hyper-V Server is a stand-alone product that contains only the Windows hypervisor, a Windows Server driver model, and virtualization components. It provides a simple and reliable virtualization solution to help you improve your server utilization and reduce costs.
+
+The Windows hypervisor technology in Microsoft Hyper-V Server is the same as what's in the Hyper-V role on Windows Server. So, much of the content available for the Hyper-V role on Windows Server 2016 also applies to Microsoft Hyper-V Server.
 
 ## Remote Desktop Session Host (RDSH)
 
