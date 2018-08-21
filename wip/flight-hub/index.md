@@ -36,10 +36,11 @@ The items in__bold__ typeface are the latest release for that version of the ite
 
 | Build | Fast | Slow | Server | IoT | ISO | SDK |
 |-------|------|------|--------|-----|-----|-----|
-|17741|[__8/17/2018__](https://blogs.windows.com/windowsexperience/2018/08/17/build17741/)|||||
-|17738|[8/14/2018](https://blogs.windows.com/windowsexperience/2018/08/14/announcing-windows-10-insider-preview-build-17738/)|||||
+|17744|[__08/21/2018__](https://blogs.windows.com/windowsexperience/2018/08/21/announcing-windows-10-insider-preview-build-17744/)
+|17741|[8/17/2018](https://blogs.windows.com/windowsexperience/2018/08/17/build17741/)|||||
+|17738|[8/14/2018](https://blogs.windows.com/windowsexperience/2018/08/14/announcing-windows-10-insider-preview-build-17738/)||[__08/21/2018__](https://blogs.windows.com/windowsexperience/2018/08/21/announcing-windows-server-2019-insider-preview-build-17738/)|||[__08/21/2018__](https://blogs.windows.com/buildingapps/2018/08/21/windows-10-sdk-preview-build-17738-available-now/)
 |17735|[8/10/2018](https://blogs.windows.com/windowsexperience/2018/08/10/announcing-windows-10-insider-preview-build-17735/)|
-|17733 | [8/08/2018](https://blogs.windows.com/windowsexperience/2018/08/08/announcing-windows-10-insider-preview-build-17733/)||[__8/14/2018__](https://blogs.windows.com/windowsexperience/2018/08/14/announcing-windows-server-2019-insider-preview-build-17733/)|||[__8/14/2018__](https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewSDK)
+|17733 | [8/08/2018](https://blogs.windows.com/windowsexperience/2018/08/08/announcing-windows-10-insider-preview-build-17733/)||[8/14/2018](https://blogs.windows.com/windowsexperience/2018/08/14/announcing-windows-server-2019-insider-preview-build-17733/)|||[8/14/2018](https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewSDK)
 |17730 | [8/03/2018](https://blogs.windows.com/windowsexperience/2018/08/03/announcing-windows-10-insider-preview-build-17730/)
 |17728| [7/31/2018](https://aka.ms/gul-dukat)
 |17723|[7/25/2018](https://aka.ms/for-kevin)||[7/31/2018](https://blogs.windows.com/windowsexperience/2018/07/31/announcing-windows-server-2019-insider-preview-build-17723)|||[7/31/2018](https://blogs.windows.com/buildingapps/2018/07/31/windows-10-sdk-preview-build-17723-available-now/)
