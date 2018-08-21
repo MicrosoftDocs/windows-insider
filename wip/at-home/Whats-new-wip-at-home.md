@@ -8,7 +8,7 @@ ms.assetid:
 ms.service: WIP-at-work
 ms.tgt_pltfrm: na
 ms.devlang: na
-ms.date: 08/20/2018
+ms.date: 08/21/2018
 ms.author: dawn.wood
 ms.localizationpriority: medium
 ---
@@ -37,7 +37,7 @@ You will notice new acrylic backgrounds in places on the system using these cont
 ![alt text](images/acrylic.png "acrylic settings")
 
 ## Bluetooth battery percentage in settings
-In the__Bluetooth & other devices__ page in Settings, you can check the battery level of your Bluetooth devices for Bluetooth devices that support this feature, in which case the battery percentage will update whenever your PC and the device are connected.
+In the __Bluetooth & other devices__ page in Settings, you can check the battery level of your Bluetooth devices for Bluetooth devices that support this feature, in which case the battery percentage will update whenever your PC and the device are connected.
 
 ![alt text](images/bluetoothbattery.png "bluetooth battery")
 
@@ -48,7 +48,7 @@ Copy/paste - it's something we all do, probably multiple times a day. But what d
 
 Not only can you can paste from the clipboard history, but you can also pin the items you find yourself using all the time. This history roams with you using the same technology which powers Timeline and Sets, which means you can access your clipboard across any PC.  
 
-Our new settings page for enabling this experience is under__Settings > System > Clipboard__ - please try this out and share feedback! [This link](feedback-hub:///) will open the Feedback Hub to where you can tell us about your experience and what you'd like to see next. 
+Our new settings page for enabling this experience is under __Settings > System > Clipboard__ - please try this out and share feedback! [This link](feedback-hub:///) will open the Feedback Hub to where you can tell us about your experience and what you'd like to see next. 
 
 ![alt text](images/clipboardsettings.png "clipboard settings")
 
@@ -75,7 +75,7 @@ __Note:__ Roaming text on the clipboard is only supported for clipboard content 
 *__Check your version of Windows__ – Try, “How do I find my current version of Windows”
 
 ## Ease of access improvements
-__Make text bigger__: We’ve heard your feedback and are excited to announce that the ability to increase text size across the system is back and better than ever! When you go to__Settings > Ease of Access > Display__ in today’s build, you’ll find a new setting called “Make everything bigger” – this slider will adjust text across the system, win32 apps, and UWP apps.
+__Make text bigger__: We’ve heard your feedback and are excited to announce that the ability to increase text size across the system is back and better than ever! When you go to __Settings > Ease of Access > Display__ in today’s build, you’ll find a new setting called “Make everything bigger” – this slider will adjust text across the system, win32 apps, and UWP apps.
 
 ![bigger text](images/bigger-text.png "bigger text")
 
@@ -87,7 +87,7 @@ We’ve made significant improvement to the find/replace experience in Notepad. 
 ![wrap around find and replace](images/notepad.png "wrap around find and replace")
 
 ### Text zooming
-We’ve added options to make it quick and easy to zoom text in Notepad. There is a new menu option under__View > Zoom__ to change the zoom level and we display the current zoom level in the status bar. You can also use Ctrl + Plus, Ctrl + Minus and Ctrl + MouseWheel to zoom in and out and use Ctrl + 0 to restore the zoom level to the default.
+We’ve added options to make it quick and easy to zoom text in Notepad. There is a new menu option under __View > Zoom__ to change the zoom level and we display the current zoom level in the status bar. You can also use Ctrl + Plus, Ctrl + Minus and Ctrl + MouseWheel to zoom in and out and use Ctrl + 0 to restore the zoom level to the default.
 
 ![text zooming](images/zooming2 .png "text zooming")
 
@@ -97,7 +97,7 @@ Notepad can display line and column numbers when word-wrap is enabled, and we’
 ![word-wrap](images/linenumbers.png "word-wrap")
 
 ## Microsoft Edge improvements
-__New, clearer__Settings and more__ (“…”) menu:__ We’ve redesigned the__Settings and more__ menu in Microsoft Edge so it’s easier to find the options you’re looking for. The menu options are now organized into groups, with icons for each entry, and keyboard shortcuts (where applicable). Click the “…” button in the top-right corner of Microsoft Edge to see what’s new.
+__New, clearer Settings and more (“…”) menu:__ We’ve redesigned the __Settings and more__ menu in Microsoft Edge so it’s easier to find the options you’re looking for. The menu options are now organized into groups, with icons for each entry, and keyboard shortcuts (where applicable). Click the “…” button in the top-right corner of Microsoft Edge to see what’s new.
 
 ![Edge menu options](images/SettingsandMore.png "Edge menu options")
 
@@ -107,14 +107,14 @@ __Organize the tabs you’ve set aside:__ It's easier to organize the groups of 
 
 ![tabs you've set aside](images/tabsaside.png "Tabs you've set aside")
 
-__Do more from the “Downloads” pane:__ We’ve added options for__Show in folder__ and__Copy link__ to the right-click menu for downloads in the__Downloads__ pane. 
+__Do more from the “Downloads” pane:__ We’ve added options for __Show in folder__ and __Copy link__ to the right-click menu for downloads in the __Downloads__ pane. 
 
 ![downloads pane](images/downloads.png "Downloads pane")
 
 __Retired XSS filter:__ We are retiring the XSS filter in Microsoft Edge. Our customers remain protected thanks to modern standards like Content Security Policy, which provide more powerful, better performing, and secure mechanisms to protect against content injection attacks, with high compatibility across modern browsers.
 
 ### Microsoft Edge PDF reader improvements
-__Improved toolbar options:__ The toolbar available on a PDF document opened in Microsoft Edge will now show text descriptions for the icons to make them easily understandable by users. New options like__Add notes__ are now available in the toolbar so that these tools are handy when you need them.
+__Improved toolbar options:__ The toolbar available on a PDF document opened in Microsoft Edge will now show text descriptions for the icons to make them easily understandable by users. New options like __Add notes__ are now available in the toolbar so that these tools are handy when you need them.
 
 ![improved toolbar](images/PDFImprovedToolbar.png "improved toolbar")
 
@@ -125,7 +125,7 @@ __Pin/unpin PDF toolbar:__ The PDF toolbar can now be pinned at the top of the d
 __Rendering improvements:__ We’ve included a bunch of rendering performance fixes so that you will see less white pages when you navigate through PDF files in Microsoft Edge.
 
 ### Per-site media autoplay controls
-You can now control autoplay permissions on a per-site basis under the__Website permission__ section of the__Website Identification__ pane – just click the information icon or lock icon on the left side of the address bar and click__manage permissions__ to get started.
+You can now control autoplay permissions on a per-site basis under the __Website permission__ section of the __Website Identification__ pane – just click the information icon or lock icon on the left side of the address bar and click __manage permissions__ to get started.
 
 ![autoplay permissions](images/autoplay.png "autoplay permissions")
 
@@ -150,10 +150,10 @@ Web Authentication provides an open, scalable, and interoperable solution to fac
 ## External GPU safe removal experience
 We added a safe removal experience for external GPUs connected via Thunderbolt 3. The safe remove experience allows you to know which applications are running on an external GPU so that you can safely remove it and prevent data loss during detach.
 
-To safely remove an external graphics card, go to the__Safely Remove Hardware and Eject Media__ icon and click to eject your GPU. If there are applications running on your external GPU, a dialog will appear with the applications that are currently running on the GPU. Close the applications to safely remove the device. If there are no applications currently running on your GPU then no dialog will appear and you can safely detach your GPU.
+To safely remove an external graphics card, go to the __Safely Remove Hardware and Eject Media__ icon and click to eject your GPU. If there are applications running on your external GPU, a dialog will appear with the applications that are currently running on the GPU. Close the applications to safely remove the device. If there are no applications currently running on your GPU then no dialog will appear and you can safely detach your GPU.
 
 ## Focus assist improvements when gaming 
-Now focus assist will turn on automatically when you’re playing any full screen game. No more interruptions when you’re crushing it. This behavior should be turned on automatically, but you can always check by going to__Settings > System > Focus assist__ and ensuring the__When I’m playing a game__ automatic rule is enabled. For more information, see [Windows 10 Tip: How to enable Focus Assist in the Windows 10 April 2018 Update](https://blogs.windows.com/windowsexperience/2018/05/09/windows-10-tip-how-to-enable-focus-assist-in-the-windows-10-april-2018-update/).
+Now focus assist will turn on automatically when you’re playing any full screen game. No more interruptions when you’re crushing it. This behavior should be turned on automatically, but you can always check by going to __Settings > System > Focus assist__ and ensuring the __When I’m playing a game__ automatic rule is enabled. For more information, see [Windows 10 Tip: How to enable Focus Assist in the Windows 10 April 2018 Update](https://blogs.windows.com/windowsexperience/2018/05/09/windows-10-tip-how-to-enable-focus-assist-in-the-windows-10-april-2018-update/).
 
 ![alt text](images/speakers2.png "sound settings")
 
@@ -164,10 +164,10 @@ Now focus assist will turn on automatically when you’re playing any full scree
 ![alt text](images/New-Game-bar.png "game bar")
 
 ## Game mode improvements
-New options are now available for Game Mode that are expected to improve the gaming experience on desktop PCs.  Gamers on PCs with many background processes may also see performance improvements when they toggle__Dedicate resources__ in Game bar.
+New options are now available for Game Mode that are expected to improve the gaming experience on desktop PCs.  Gamers on PCs with many background processes may also see performance improvements when they toggle __Dedicate resources__ in Game bar.
 
 ## High Efficiency Image File Format (HEIF)
-The__High Efficiency Image File Format (HEIF)__ is supported in Windows 10 and the Photos app. [HEIF is an image container](https://en.wikipedia.org/wiki/High_Efficiency_Image_File_Format) that leverages modern codecs like HEVC to improve quality, compression, and capabilities compared to earlier formats like JPEG, GIF, and PNG. In addition to traditional single images, HEIF supports encoding image sequences, image collections, auxiliary images like alpha or depth maps, live images & video, audio, and HDR for greater contrast. 
+The __High Efficiency Image File Format (HEIF)__ is supported in Windows 10 and the Photos app. [HEIF is an image container](https://en.wikipedia.org/wiki/High_Efficiency_Image_File_Format) that leverages modern codecs like HEVC to improve quality, compression, and capabilities compared to earlier formats like JPEG, GIF, and PNG. In addition to traditional single images, HEIF supports encoding image sequences, image collections, auxiliary images like alpha or depth maps, live images & video, audio, and HDR for greater contrast. 
 
 HEIF files use the HEVC video codec to compress the image into approximately half the size of JPEG. If your Windows PC does not already have the HEVC video codec, it can be purchased from the Windows Store using [this link](https://aka.ms/HEVCcodec).
 
@@ -241,10 +241,10 @@ We have introduced a new __Region__ page that allows overrides to default region
 * __Reliability:__ We have made improvements in Narrator reliability.
 *__Scan Mode:__ Reading and navigating while in Scan Mode has been improved. Selecting text in Scan Mode has also been improved. 
 *__QuickStart:__ The link in settings to relaunch the QuickStart is available from the first Welcome page. The QuickStart more reliably takes focus when Narrator is launched, which means Narrator starts reading automatically.
-*__Providing Feedback:__ The keystroke to provide feedback has changed. The new keystroke is__Narrator + Alt + F__. This will work both in the standard and legacy layouts.
-<i>Note: The legacy layout also allows you to use__Narrator + E__ to send us feedback.</i>
+*__Providing Feedback:__ The keystroke to provide feedback has changed. The new keystroke is __Narrator + Alt + F__. This will work both in the standard and legacy layouts.
+<i>Note: The legacy layout also allows you to use __Narrator + E__ to send us feedback.</i>
 *__Move Next, Move Previous, and Change View:__ When changing Narrator’s view to characters, words, lines, or paragraphs the __Read Current Item__ command will read the text of that specific view type more reliably.
-*__Keyboard command changes:__ The keystroke to move the caret to the beginning of text is now__Narrator + B__ (formerly Narrator + Control + B), to move the caret to end of text is now__Narrator + E__ (was Narrator + Control + E).
+*__Keyboard command changes:__ The keystroke to move the caret to the beginning of text is now __Narrator + B__ (formerly Narrator + Control + B), to move the caret to end of text is now __Narrator + E__ (was Narrator + Control + E).
 *__Braille:__ Improved use of Braille commands when using the Narrator key from the braille display.
 *__Narrator standard keyboard layout__: Narrator now ships with a new keyboard layout that is designed to be more familiar to screen reader users. 
 *__Selection commands in Narrator scan mode__: Narrator’s scan mode now supports selecting content in Microsoft Edge, Word, Outlook, Mail, and most text surfaces. Standard shift- selection commands can be used as well as __Control + A__ for the entire document. __Caps + Shift + Down Arrow__ will speak the current selection. For a full list of selection commands, you can refer to Narrator’s __Show Commands List__ by pressing __Caps + F1__. Once content is selected you can copy it to the clipboard by pressing __Control + C__. Formatting information will also be retained. 
@@ -550,7 +550,7 @@ __Steps:__
 ![wdag](images/wdag.png "WDAG")
 
 2. Select __Allow files to download and save to the host operating system from Windows Defender Application Guard__.
-3. Select __Enabled and Apply__
+3. Select __Enabled and Apply__.
 
 ![enable wdag](images/enablewdag.png "Enable WDAG")
 
