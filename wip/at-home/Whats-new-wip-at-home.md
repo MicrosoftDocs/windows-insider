@@ -134,12 +134,12 @@ We’ve added a new dictionary function, so you can look up definitions for key 
 
 ![dictionary](images/dictionary.png "dictionary")
 
-You can choose to have a word read aloud to you to hear the correct pronunciation or expand more details from the definition. You can toggle whether definitions appear and which types of content they work in under the__General__ tab of the Microsoft Edge settings menu.
+You can choose to have a word read aloud to you to hear the correct pronunciation or expand more details from the definition. You can toggle whether definitions appear and which types of content they work in under the __General__ tab of the Microsoft Edge settings menu.
 
 ### WebDriver improvements
 You can automate testing in Microsoft Edge using WebDriver. WebDriver is a Windows Feature on Demand, so you no longer need to match the build and branch manually when installing WebDriver. When you take new Windows 10 updates, your WebDriver binary will be automatically updated to match.
 
-To install WebDriver, just turn on__Developer Mode__ in Windows 10 Settings, or install the standalone feature on the__ Manage optional features__ Settings page.
+To install WebDriver, just turn on __Developer Mode__ in Windows 10 Settings, or install the standalone feature on the __Manage optional features__ Settings page.
 
 We’ve also updated WebDriver to match the latest [W3C Recommendation spec](https://www.w3.org/TR/webdriver/) with major new improvements. You can learn all about these changes on the [Microsoft Edge dev blog](https://www.w3.org/TR/webdriver/).
 

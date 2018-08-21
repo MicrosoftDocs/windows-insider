@@ -29,12 +29,12 @@ Rather than have each user in your organization register for Windows 10 Insider 
 
 __Important__ You need to be signed in as a Global Administrator of the Azure AD domain in order to be able to register the domain.
 
-1. On the [Windows Insider website](https://insider.windows.com/), go to__For Business__ >__Getting Started__ to [register your organizational Azure AD account](https://insider.windows.com/en-us/insidersigninaad/).
+1. On the [Windows Insider website](https://insider.windows.com/), go to __For Business > Getting Started__ to [register your organizational Azure AD account](https://insider.windows.com/en-us/insidersigninaad/).
 2. [Register your domain](https://insider.windows.com/en-us/for-business-organization-admin/) and control settings centrally.
 
 ## Is your device connected to your company’s AAD subscription?
 
-Go to__Settings > Accounts > Access work or school__. If a corporate account is on Azure Active Directory and it is connected to the device, you will see the account listed as highlighted in the image below.
+Go to __Settings > Accounts > Access work or school__. If a corporate account is on Azure Active Directory and it is connected to the device, you will see the account listed as highlighted in the image below.
 
 ![ADD subscription](images/wip-4-biz-settings.png "ADD")
 
@@ -42,17 +42,17 @@ Go to__Settings > Accounts > Access work or school__. If a corporate account is 
 
 1. Make sure that you have administrator rights to the machine and that it has latest Windows updates.
 2. Navigate to the [Getting Started](https://insider.windows.com/en-us/getting-started/) page on [insider.windows.com](https://insider.windows.com/).
-3. Go to__Register your organization account__ and follow the instructions.
-4. On your Windows 10 device, go to__Settings > Updates & Security > Windows Insider Program__. 
+3. Go to __Register your organization account__ and follow the instructions.
+4. On your Windows 10 device, go to __Settings > Updates & Security > Windows Insider Program__. 
 5. Enter the AAD account that you used to register and follow the on-screen directions. 
 
 ## Switch device enrollment from your Microsoft account to your AAD account
 
 1. Visit [insider.windows.com](http://insider.windows.com) to register your AAD account. If you are signed in with your Microsoft account, sign out, then sign back in with your corporate AAD account. 
-2. Click__Get started__, read and accept the privacy statement and program terms and click__Submit__. 
-3. On your Windows 10 PC, go to__Settings > Updates & Security > Windows Insider Program__. 
-4. Under__Windows Insider account__, click your Microsoft account, then__Change__ to open a Sign In box. 
-5. Select your corporate account and click__Continue__ to change your account. 
+2. Click __Get started__, read and accept the privacy statement and program terms and click __Submit__. 
+3. On your Windows 10 PC, go to __Settings > Updates & Security > Windows Insider Program__. 
+4. Under __Windows Insider account__, click your Microsoft account, then __Change__ to open a Sign In box. 
+5. Select your corporate account and click __Continue__ to change your account. 
 
 ![ADD change user](images/wip-4-biz-change-user.png "change user")
 
@@ -82,8 +82,8 @@ To do this through the classic Azure portal:
 
 ![AAD dashboard](images/wip-4-biz-classic-aad.png "AAD dashboard")
 
-3. Select the appropriate directory and go to the__Configure__ tab.
-4. Under the__integrated applications__ section, enable__Users may give applications permissions to access their data__.
+3. Select the appropriate directory and go to the __Configure__ tab.
+4. Under the __integrated applications__ section, enable __Users may give applications permissions to access their data__.
 
 ![enable applications](images/wip-4-biz-aad-classic-enable.png "enable applications")
 
@@ -105,7 +105,7 @@ To do this through the new Azure portal:
 ![enable users](images/wip-4-biz-aad-new-enable.png "enable users")
 
 ## Stop receiving updates
-You can “unlink” your account by going to__Settings > Updates & Security > Windows Insider Program__, select__Windows Insider Account__ and click__Unlink__.
+You can “unlink” your account by going to __Settings > Updates & Security > Windows Insider Program__, select __Windows Insider Account__ and click__Unlink__.
 
 ## New to Azure Active Directory? 
 
