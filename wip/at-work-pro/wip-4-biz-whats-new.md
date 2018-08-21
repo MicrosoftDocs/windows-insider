@@ -24,16 +24,16 @@ Please go to Settings, search for assigned access, and open the “Set up a kios
 We are very excited to announce that Microsoft Edge now works with assigned access which allows IT administrators to create a tailored browsing experience designed for kiosk devices. Microsoft Edge kiosk mode supports the following four types.
 
 For Microsoft Edge kiosk mode running in single-app assigned access the two kiosk types are:
-1.__Digital / Interactive signage__ that displays a specific website full-screen InPrivate.
-2.__Public browsing__ supports multi-tab browsing and runs InPrivate with minimal features available. Users cannot minimize, close, or open a new Microsoft Edge windows or customize it using Microsoft Edge Settings. Users can clear browsing data, downloads and restart Microsoft Edge by clicking “End session.” Administrators can configure Microsoft Edge to restart after a period of inactivity.
+1. __Digital / Interactive signage__ that displays a specific website full-screen InPrivate.
+2. __Public browsing__ supports multi-tab browsing and runs InPrivate with minimal features available. Users cannot minimize, close, or open a new Microsoft Edge windows or customize it using Microsoft Edge Settings. Users can clear browsing data, downloads and restart Microsoft Edge by clicking “End session.” Administrators can configure Microsoft Edge to restart after a period of inactivity.
 
 ![single app assigned access](images/SingleApp_contosoHotel_inFrame@2x.png "single app assigned access")
 
 For Microsoft Edge kiosk mode running in multi-app assigned access the two kiosk types are (<i>Note the following Microsoft Edge kiosk mode types cannot be setup using the new simplified assigned access configuration page in Windows 10 Settings</i>):
 
-3.__Public browsing__ supports multi-tab browsing and runs InPrivate mode with minimal features available. In this configuration, Microsoft Edge can be one of many apps available. Users can close and open multiple InPrivate windows.
+3. __Public browsing__ supports multi-tab browsing and runs InPrivate mode with minimal features available. In this configuration, Microsoft Edge can be one of many apps available. Users can close and open multiple InPrivate windows.
 ![multi-app assigned access](images/Multi-app_kiosk_inFrame@2x.png "multi-app assigned access")
-4.__Normal mode__ runs a full version of Microsoft Edge, although some features may not work depending on what apps are configured in assigned access. For example, if the Microsoft Store is not set up, users cannot get books.
+4. __Normal mode__ runs a full version of Microsoft Edge, although some features may not work depending on what apps are configured in assigned access. For example, if the Microsoft Store is not set up, users cannot get books.
 ![normal mode](images/Normal_inFrame.png "normal mode")
 
 
@@ -87,9 +87,9 @@ We’re happy to share that with this build of Windows 10, Azure Active Director
 
 ![Enter your credentials](images/RDPwBioTime.png "Windows Hello")
 
-To get started, bring up Remote Desktop Connection (mstsc.exe), type the name of the computer to which you want to connect and tap or click__Connect__.
+To get started, bring up Remote Desktop Connection (mstsc.exe), type the name of the computer to which you want to connect and tap or click __Connect__.
 
-Because you signed using Windows Hello for Business, Windows remembers how you signed in and automatically selects Windows Hello for Business to authenticate you to your RDP session but, you can click__More choices__ to choose alternate credentials.
+Because you signed using Windows Hello for Business, Windows remembers how you signed in and automatically selects Windows Hello for Business to authenticate you to your RDP session but, you can click __More choices__ to choose alternate credentials.
 
 ![Enter your credentials](images/RDPwBio2.png "Windows Hello personal")
 

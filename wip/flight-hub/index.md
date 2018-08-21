@@ -31,7 +31,7 @@ You can get builds of RS5 today if your device is in the Fast ring. RS5 Skip ahe
 
 Builds of Windows Server 2019 are released to members of the Windows Insider Program for Server. 
 
-The items in__bold__ typeface are the latest release for that version of the item. 
+The items in __bold__ typeface are the latest release for that version of the item. 
 
 
 | Build | Fast | Slow | Server | IoT | ISO | SDK |
