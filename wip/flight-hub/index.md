@@ -31,14 +31,14 @@ You can get builds of RS5 today if your device is in the Fast ring. RS5 Skip ahe
 
 Builds of Windows Server 2019 are released to members of the Windows Insider Program for Server. 
 
-The items in __bold__ typeface are the latest release for that version of the item. 
+The items with the taco icon (![latest release](images/taco.png "latest release")) are the latest releases for the individual versions of the item. 
 
 
 | Build | Fast | Slow | Server | IoT | ISO | SDK |
 |-------|------|------|--------|-----|-----|-----|
-|17744|[__08/21/2018__](https://blogs.windows.com/windowsexperience/2018/08/21/announcing-windows-10-insider-preview-build-17744/)
+|17744|![latest release](images/taco.png "latest release")[08/21/2018](https://blogs.windows.com/windowsexperience/2018/08/21/announcing-windows-10-insider-preview-build-17744/)
 |17741|[8/17/2018](https://blogs.windows.com/windowsexperience/2018/08/17/build17741/)|||||
-|17738|[8/14/2018](https://blogs.windows.com/windowsexperience/2018/08/14/announcing-windows-10-insider-preview-build-17738/)|[__08/23/2018__](https://blogs.windows.com/windowsexperience/2018/08/14/announcing-windows-10-insider-preview-build-17738/)|[__08/21/2018__](https://blogs.windows.com/windowsexperience/2018/08/21/announcing-windows-server-2019-insider-preview-build-17738/)|||[__08/21/2018__](https://blogs.windows.com/buildingapps/2018/08/21/windows-10-sdk-preview-build-17738-available-now/)
+|17738|[8/14/2018](https://blogs.windows.com/windowsexperience/2018/08/14/announcing-windows-10-insider-preview-build-17738/)|![latest release](images/taco.png "latest release")[08/23/2018](https://blogs.windows.com/windowsexperience/2018/08/14/announcing-windows-10-insider-preview-build-17738/)|![latest release](images/taco.png "latest release")[08/21/2018](https://blogs.windows.com/windowsexperience/2018/08/21/announcing-windows-server-2019-insider-preview-build-17738/)|||![latest release](images/taco.png "latest release")[08/21/2018](https://blogs.windows.com/buildingapps/2018/08/21/windows-10-sdk-preview-build-17738-available-now/)
 |17735|[8/10/2018](https://blogs.windows.com/windowsexperience/2018/08/10/announcing-windows-10-insider-preview-build-17735/)|
 |17733 | [8/08/2018](https://blogs.windows.com/windowsexperience/2018/08/08/announcing-windows-10-insider-preview-build-17733/)||[8/14/2018](https://blogs.windows.com/windowsexperience/2018/08/14/announcing-windows-server-2019-insider-preview-build-17733/)|||[8/14/2018](https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewSDK)
 |17730 | [8/03/2018](https://blogs.windows.com/windowsexperience/2018/08/03/announcing-windows-10-insider-preview-build-17730/)
