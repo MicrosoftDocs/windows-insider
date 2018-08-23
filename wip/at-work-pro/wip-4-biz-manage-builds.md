@@ -28,32 +28,32 @@ Note:
 * In order to get the most benefit out of the Windows Insider Program for Business, organizations should not use a test tenant of AAD. There will be no modifications to the Azure AD tenant to support the Windows Insider Program as it will only be used as an authentication method.
 
 ## Create and manage policies 
-Installation of Insider Preview builds can managed across multiple devices on an organizational domain using Group Policies or MDM Polices in Intune or another MDM product. 
+Installation of Insider Preview builds can be managed across multiple devices on an organizational Azure AD domain using Group Policies or MDM Polices in Intune or another MDM product. 
 __NOTE:__
-All devices must either be joined to the same Azure AD domain that was registered into the Windows Insider Program. 
+Devices on Azure AD must also be joined to the same Azure AD domain that was registered into the Windows Insider Program. For guidance, see [Integrate your on-premises directories with Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect). 
 
-### Set using Group policy
+### Set using Group Policy
 Use Group Policy Management Console in Windows Server 2012 R2 or later to set the following policies on domain-joined devices: 
 __NOTE:__ Group Policies cannot currently be set using Windows Server Update Services or System Center Configuration Manager. 
 
-1. Set Allow Telemetry. To enable installation of Insider Preview builds on a device, telemetry must be set to 2 or higher. 
+__Allow Telemetry__. To enable installation of Insider Preview builds on a device, telemetry must be set to 2 or higher. 
 Group Policy: __Computer Configuration/Administrative Templates/Windows Components/Windows UpdateData Collection and Preview builds/Allow Telemetry__
-MDM: Update/AllowTelemetry
 
-2.	Enable Manage preview builds. This setting enables or prevents installation of Insider Preview builds on a device. You can also decide to stop preview builds once the release is public. 
+__Manage preview builds__. This setting enables or prevents installation of Insider Preview builds on a device. You can also decide to stop preview builds once the release is public. 
 Group Policy: __Computer Configuration/Administrative Templates/Windows Components/Windows Update/Windows Update for Business/Select when Preview Builds and Feature Updates are received.__
-MDM: Update/ManagePreviewBuilds
 
-3.	Enable Branch Readiness Level. This setting allows enables distribution of Insider Preview builds on a PC. It also lets you to choose between preview flight rings, and defer or pause the delivery of updates. 
+__Branch Readiness Level__. This setting allows enables distribution of Insider Preview builds on a PC. It also lets you to choose between preview flight rings, and defer or pause the delivery of updates. 
 Group Policy: __Computer Configuration/Administrative Templates/Windows Components/Windows Update/Windows Update for Business?Select when Preview Builds and Feature Updates are received__
-MDM: Update/BranchReadinessLevel
 
+### Set using MDM policies (non-Intune)
+To set the policies above using non-Microsoft MDM service providers, using the CSP settings below. For guidance on configuring CSPs, see [CSPs in MDM](https://docs.microsoft.com/en-us/windows/configuration/provisioning-packages/how-it-pros-can-use-configuration-service-providers#csps-in-mdm). 
 
+[System/AllowTelemetry](https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-system#system-allowtelemetry)
 
+[Update/ManagePreviewBuilds](https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-update#update-managepreviewbuilds) setting. 
 
+[Update/BranchReadinessLevel](https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-update#update-branchreadinesslevel).
 
-To set group policy, use the 
-__Computer Configuration/Administrative Templates/Windows Components/Windows Update/Windows Update for Business/Manage preview builds__ setting and the __Computer Configuration/Administrative Templates/Windows Components/Windows Update/ Windows Update for Business__ setting. 
 
 ### Set using MDM polices with Intune 
 1.	Log into the Intune management portal and go to __Software Update>Windows 10 Update Rings__. Click “+” to create an Update Ring policy.
@@ -63,13 +63,6 @@ __Computer Configuration/Administrative Templates/Windows Components/Windows Upd
 5.	Go to __Assignments__ to assign policy to users and devices. Note: you can create groups with one or more users or devices in Intune under __Groups__. 
 
 ![ADD subscription](images/wip-4-biz-settings.png "ADD")
-
-### Set using MDM policies (non-Intune)
-To set policies using third-party MDM products, using the following settings: 
-
-[Update/ManagePreviewBuilds](https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-update#update-managepreviewbuilds) setting. 
-
-[Update/BranchReadinessLevel](https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-update#update-branchreadinesslevel).
 
 > [!NOTE]
 > The signed-in user needs to be a Global Administrator of the Azure Active Directory (AAD) domain in order to be able to register the domain. Currently, the Windows Insider Program for Business supports AAD--but not on-premises Active Directory--as a corporate authentication method. 
