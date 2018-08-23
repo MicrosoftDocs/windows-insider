@@ -20,8 +20,7 @@ The features listed below are available in preview builds of Windows Server 2019
 
 We also encourage you to visit the [Windows Server Insiders space](https://techcommunity.microsoft.com/t5/Windows-Server-Insiders/bd-p/WindowsServerInsiders) on the [Microsoft Tech Communities forum](https://techcommunity.microsoft.com/) to collaborate, share, and learn from experts.
 
-## Apps
-## Server Core App Compatibility Feature on Demand
+## App Compatibility Feature on Demand (FoD) for Server Core
 
 This section last updated 08/13/2018
 
@@ -107,8 +106,12 @@ We have added two new PowerShell commandlets to quickly take you from one domain
 Windows Server Failover Clusters no longer use NTLM authentication by exclusively using Kerberos and certificate based authentication.  There are no changes required by the user, or deployment tools,  to take advantage of this security enhancement.  It also allows failover clusters to be deployed in environments where NTLM has been disabled. 
 
 ## Containers
+
 ### Group Managed Service Accounts 
 We’ve improved the scalability and reliability of containers that use group managed service accounts (gMSA) to access network resources. You should see fewer authentication errors when using a single gMSA with multiple container instances. Additionally, you no longer need to set the container's host name to be the same as the gMSA. We also fixed a bug that prevented you from using gMSAs with Hyper-V isolated containers.  
+
+### Host Device Access for Containers
+You can assign simple buses to process-isolated Windows Server containers. Applications running in containers that need to talk over SPI, I2C, GPIO, and UART/COM will now be able to do so. To learn more, and to see how to leverage the feature, see [Bringing Device Support to Windows Server Containers](https://blogs.technet.microsoft.com/virtualization/2018/08/13/bringing-device-support-to-windows-server-containers/) in the [Virtualization Blog](https://blogs.technet.microsoft.com/virtualization/).
 
 ### New Container base image: Windows 
 We added a new base image to the Windows Server container collection. In addition to nanoserver and windowsservercore container images, the new windows image is now available. This image carries even more components than its nanoserver and servercore siblings, meaning it can support applications that have additional API dependencies. To learn more and get started, go to https://aka.ms/windowscontainer. 
@@ -140,6 +143,12 @@ The Windows hypervisor technology in Microsoft Hyper-V Server is the same as wha
 ## Remote Desktop Session Host (RDSH)
 
 RD Session Host is a Remote Desktop Services role service that enables users to share Windows-based programs or the full Windows desktop. Users can connect to an RD Session Host server to run programs, save files, and use network resources on that server. Because of a bug, the RDSH role was missing in previous releases of Windows Server 2019 – this build fixes that. 
+
+## SDN High Performance Gateways
+
+Organizations today deploy their applications across multiple clouds including on-premises private clouds, service provider clouds, and public clouds such as Azure. In such scenarios, enabling secure, high-performance connectivity across workloads in different clouds is essential. Windows Server 2019 brings huge SDN gateway performance improvements for these hybrid connectivity scenarios, with network throughput multiplying by up to 6x.
+
+For more details about these improvements, please see our blog entry: [Top 10 Networking Features in Windows Server 2019: #6 High Performance SDN Gateways](https://blogs.technet.microsoft.com/networking/2018/08/15/high-performance-gateways/).
 
 ## Security
 ### Encrypted network in SDN
