@@ -36,16 +36,12 @@ __NOTE:__
 * If you are not receiving the latest Insider Preview build, check these [troubleshooting tips](https://docs.microsoft.com/en-us/windows-insider/at-work-pro/wip-4-biz-troubleshooting). 
 
 ## Install across multiple devices 
-Administrators can install and manage Insider Preview builds centrally across devices in their organizational domain using Group Policies or MDM Policies. This option requires an Azure AD domain which must be registered in the Windows Insider Program.
-
-For instructions, see [Manage Windows Insider Preview builds](wip-4-biz-manage-builds.md).
-
+Administrators can install and manage Insider Preview builds centrally across devices in their organizational domain using Group Policies or MDM Policies. This option requires an Azure AD domain which must be registered in the Windows Insider Program. For instructions, see [Manage Windows Insider Preview builds](wip-4-biz-manage-builds.md).
 
 ## Install on a virtual machine
 You can run Insider Preview builds as a virtual machine in Hyper-V. This option enables you to run Insider Preview builds without changing the Windows 10 production build already running on a PC.
 * For guidance on setting up virtual machines on your PC see: [Introduction to Hyper-V on Windows 10](https://docs.microsoft.com/virtualization/hyper-v-on-windows/about/).
 * To download the latest Insider Preview build to run on your virtual machine see: [Windows Insider Preview downloads](https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewadvanced).
-
 
 ## Supported languages
 Windows 10 Insider Preview is available in the following SKU languages:
