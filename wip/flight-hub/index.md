@@ -20,9 +20,12 @@ Welcome to Flight Hub! Use this dashboard to quickly identify the latest Windows
 ## Next feature update for Windows 10 (19H1)
 You can now get Skip Ahead builds of Windows 10 (19H1) if your device is in the Skip ahead ring, denoted in the table below with asterisk.
 
+The items with the taco icon (![latest release](images/taco.png "latest release")) are the latest releases for the individual versions of the item. 
+
+
 | Build | Fast | Slow | Server | IoT | ISO | SDK |
 |-------|------|------|--------|-----|-----|-----|
-|18219|[__8/16/2018*__](https://blogs.windows.com/windowsexperience/2018/08/16/announcing-windows-10-insider-preview-build-18219/)||||||
+|18219|![latest release](images/taco.png "latest release")[8/16/2018*](https://blogs.windows.com/windowsexperience/2018/08/16/announcing-windows-10-insider-preview-build-18219/)||||||
 |18214|[8/10/2018*](https://blogs.windows.com/windowsexperience/2018/08/10/announcing-windows-10-insider-preview-build-18214/)||||||
 |18204| [7/25/2018*](https://aka.ms/for-kevin)||
 
@@ -30,8 +33,6 @@ You can now get Skip Ahead builds of Windows 10 (19H1) if your device is in the 
 You can get builds of RS5 today if your device is in the Fast ring. RS5 Skip ahead is complete but you can see the builds that went out as Skip Ahead below, marked with an asterisk.     
 
 Builds of Windows Server 2019 are released to members of the Windows Insider Program for Server. 
-
-The items with the taco icon (![latest release](images/taco.png "latest release")) are the latest releases for the individual versions of the item. 
 
 
 | Build | Fast | Slow | Server | IoT | ISO | SDK |
