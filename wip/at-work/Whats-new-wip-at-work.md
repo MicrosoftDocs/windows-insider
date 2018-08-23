@@ -106,6 +106,7 @@ We have added two new PowerShell commandlets to quickly take you from one domain
 Windows Server Failover Clusters no longer use NTLM authentication by exclusively using Kerberos and certificate based authentication.  There are no changes required by the user, or deployment tools,  to take advantage of this security enhancement.  It also allows failover clusters to be deployed in environments where NTLM has been disabled. 
 
 ## Containers
+
 ### Group Managed Service Accounts 
 We’ve improved the scalability and reliability of containers that use group managed service accounts (gMSA) to access network resources. You should see fewer authentication errors when using a single gMSA with multiple container instances. Additionally, you no longer need to set the container's host name to be the same as the gMSA. We also fixed a bug that prevented you from using gMSAs with Hyper-V isolated containers.  
 
