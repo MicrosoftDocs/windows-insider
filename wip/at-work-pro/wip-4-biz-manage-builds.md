@@ -24,14 +24,18 @@ By registering your organizational domain with the Windows Insider Program, you 
 
 __NOTE:__ 
 Note: 
-* The Windows Insider Program for Business only supports Azure Active Directory (and not Active Directory on premises) as a corporate authentication method.
+* The Windows Insider Program only supports Azure Active Directory (and not Active Directory on premises) as a corporate authentication method.
 * In order to get the most benefit out of the Windows Insider Program for Business, organizations should not use a test tenant of AAD. There will be no modifications to the Azure AD tenant to support the Windows Insider Program as it will only be used as an authentication method.
 
 ## Create and manage policies 
 Installation of Insider Preview builds can managed across multiple devices on an organizational domain using Group Policies or MDM Polices in Intune or another MDM product. 
+__NOTE:__
+All devices must either be joined to the same Azure AD domain that was registered into the Windows Insider Program. 
 
 ### Set using Group policy
-Group Policies can be set on devices using the Group Policy Management Console without having to 
+Use Group Policy Management Console in Windows Server 2012 R2 or later to set the following policies on domain-joined devices: 
+__NOTE:__ Group Policies cannot currently be set using Windows Server Update Services or System Center Configuration Manager. 
+
 1. Set Allow Telemetry. To enable installation of Insider Preview builds on a device, telemetry must be set to 2 or higher. 
 Group Policy: __Computer Configuration/Administrative Templates/Windows Components/Windows UpdateData Collection and Preview builds/Allow Telemetry__
 MDM: Update/AllowTelemetry
