@@ -60,9 +60,9 @@ Azure Active Directory and Active Directory users using Windows Hello for Busine
 
 ![Enter your credentials](images/RDPwBioTime.png "Windows Hello")
 
-To get started, bring up Remote Desktop Connection (mstsc.exe), type the name of the computer to which you want to connect and tap or click__Connect__.
+To get started, bring up Remote Desktop Connection (mstsc.exe), type the name of the computer to which you want to connect and tap or click __Connect__.
 
-Because you signed using Windows Hello for Business, Windows remembers how you signed in and automatically selects Windows Hello for Business to authenticate you to your RDP session but, you can click__More choices__ to choose alternate credentials.
+Because you signed using Windows Hello for Business, Windows remembers how you signed in and automatically selects Windows Hello for Business to authenticate you to your RDP session but, you can click __More choices__ to choose alternate credentials.
 
 ![Enter your credentials](images/RDPwBio2.png "Windows Hello personal")
 
@@ -93,7 +93,7 @@ This also means you’ll see more links to other security apps within the Window
 <pre>HKLM\SOFTWARE\Microsoft\Security Center\Feature 
 DisableAvCheck (DWORD) = 1 </pre>
 
-### Bitlocker
+### BitLocker
 
 #### Silent enforcement on fixed drives
 Through an MDM policy, BitLocker can silently be enabled for standard AAD Joined users. In RS4 (Windows 10 build 1803) automatic BitLocker encryption was enabled for standard AADJ users, but this still required modern hardware that passed the Hardware Security Test Interface (HSTI). This new feature functionality enables BitLocker via policy even on devices that don’t pass the HSTI. 
@@ -108,7 +108,7 @@ As an IT admin you can choose which encryption algorithm to apply to a device on
 For example, as an IT admin for your organization you can choose the XTS-AES 256 encryption algorithm, and have it applied even for devices that would normally encrypt themselves automatically with the default XTS-AES 128 algorithm during OOBE.
 
 ### Windows Defender Application Guard Improvements
-Windows Defender Application Guard introduced a new user interface inside Windows Security in this release. Standalone users can now install and configure their Windows Defender Application Guard settings in Windows Security without needing to change Registry key settings. 
+Windows Defender Application Guard(WDAG) introduced a new user interface inside Windows Security in this release. Standalone users can now install and configure their Windows Defender Application Guard settings in Windows Security without needing to change Registry key settings. 
 
 Additionally, users who are managed by enterprise policies will be able to check their settings to see what their administrators have configured for their machines to better understand the behavior of Windows Defender Application Guard. This new UI aims to improve the overall experience for users to manage and check their Windows Defender Application Guard settings. As long as devices meet the minimum requirements, these settings will appear in Windows Security.For detailed information, click [here](https://techcommunity.microsoft.com/t5/Windows-Insider-Program/test/m-p/214102#M1709).
 
