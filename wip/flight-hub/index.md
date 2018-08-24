@@ -37,7 +37,8 @@ Builds of Windows Server 2019 are released to members of the Windows Insider Pro
 
 | Build | Fast | Slow | Server | IoT | ISO | SDK |
 |-------|------|------|--------|-----|-----|-----|
-|17744|[__08/21/2018__](https://blogs.windows.com/windowsexperience/2018/08/21/announcing-windows-10-insider-preview-build-17744/)
+|17746|[__8/24/2018__](https://blogs.windows.com/windowsexperience/2018/08/24/announcing-windows-10-insider-preview-build-17746/)
+|17744|[8/21/2018](https://blogs.windows.com/windowsexperience/2018/08/21/announcing-windows-10-insider-preview-build-17744/)
 |17741|[8/17/2018](https://blogs.windows.com/windowsexperience/2018/08/17/build17741/)|||||
 |17738|[8/14/2018](https://blogs.windows.com/windowsexperience/2018/08/14/announcing-windows-10-insider-preview-build-17738/)|[__08/23/2018__](https://blogs.windows.com/windowsexperience/2018/08/14/announcing-windows-10-insider-preview-build-17738/)|[__08/21/2018__](https://blogs.windows.com/windowsexperience/2018/08/21/announcing-windows-server-2019-insider-preview-build-17738/)|||[__08/21/2018__](https://blogs.windows.com/buildingapps/2018/08/21/windows-10-sdk-preview-build-17738-available-now/)
 |17735|[8/10/2018](https://blogs.windows.com/windowsexperience/2018/08/10/announcing-windows-10-insider-preview-build-17735/)|
