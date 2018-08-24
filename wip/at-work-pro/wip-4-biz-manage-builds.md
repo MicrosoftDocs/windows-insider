@@ -30,7 +30,7 @@ __NOTE:__
 ## Join devices to Azure Active Directory
 In order to receive Insider Preview builds through Windows Update, devices must be joined to the same Azure AD domain that was registered with the Windows Insider Program. 
 To join a device to your organization's Azure Active Directory see [Join your work device to your organization's network](https://docs.microsoft.com/en-us/azure/active-directory/user-help/user-help-join-device-on-network)
-To join devices on a local Active Directory with your Azure Active Directory, see [Configure hybrid Azure Active Directory joined devices manually](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect). 
+
 
 ## Create and manage policies 
 Installation of Insider Preview builds can be managed using Windows Update for Business settings. These settings can be configured using Group Policy or MDM Policies. 
