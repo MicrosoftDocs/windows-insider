@@ -13,7 +13,7 @@ ms.author: dawn.wood
 ms.localizationpriority: medium
 ---
 
-# Manage Windows 10 Insider Preview Builds
+# Install Windows 10 Insider Preview Builds on multiple devices
 Administrators can manage installation of Insider Preview builds across multiple devices in their organization using the following steps: 
 
 ## Register your domain 
@@ -23,33 +23,49 @@ Organizations have the option of registering their Azure Active Directory domain
 > [Register your domain](https://insider.windows.com/en-us/for-business-organization-admin/)
 
 __NOTE:__ 
-* The Windows Insider Program only supports domains in Azure Active Directory (and not Active Directory on premises) as a corporate authentication method.
+* The Windows Insider Program only supports registration of domains in Azure Active Directory (and not Active Directory on premises) as a corporate authentication method.
 * Once a domain is registered, administrators do not have to register each device or user with the Windows Insider Program in order to apply Insider Preview installation polices. 
 * To get the most benefit out of the Windows Insider Program for Business, organizations should not use a test tenant of AAD. There will be no modifications to the Azure AD tenant to support the Windows Insider Program as it will only be used as an authentication method.
 
 ## Join devices to Azure Active Directory
-In order to receive Insider Preview builds through Windows Update, devices must be joined to the same Azure AD domain that was registered with the Windows Insider Program. 
-To join a device to your organization's Azure Active Directory see [Join your work device to your organization's network](https://docs.microsoft.com/en-us/azure/active-directory/user-help/user-help-join-device-on-network)
+In order to receive Insider Preview builds through Windows Update, devices must be joined to the same Azure AD domain that was registered with the Windows Insider Program. For devices on a local Azure Directory not already joined to Azure AD, follow these steps: 
+### To Join invidual devices to Azure AD
+1. Open Settings, and then select Accounts.
+2. Select Access work or school, and then select Connect.
+3. On the Set up a work or school account screen, select Join this device to Azure Active Directory.
+4. On the Let's get you signed in screen, type your Azure AD email address (for example, alain@contoso.com), and then select Next.
+5. On the Enter password screen, type your password, and then select Sign in.
+6. On the Make sure this is your organization screen, review the information to make sure it's right, and then select Join.
+ 
+See also [Join your work device to your organization's network].(https://docs.microsoft.com/en-us/azure/active-directory/user-help/user-help-join-device-on-network)
 
+### To Join multiple devices 
+To join multiple devices on Azure Active to your Azure AD domain, it is recommended that you join directories using AD Connect. For more details, see: [Integrate your on-premises directories with Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect)
 
 ## Create and manage policies 
-Installation of Insider Preview builds can be managed using Windows Update for Business settings. These settings can be configured using Group Policy or MDM Policies. 
-
-__NOTE:__
-* In order to receive Insider Preview builds through Windows Update, devices must be joined to the same Azure AD domain that was registered with the Windows Insider Program. 
+Installation of Insider Preview builds can be managed using Windows Update for Business which can be configured using Group Policy or MDM Policies. 
 
 ### Set using Group Policy
-Use the [Group Policy Management Console](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753298)(GPMC) in Windows Server 2012 R2 or later to set the following policies on domain-joined devices: 
+Use the [Group Policy Management Console](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753298)(GPMC) in Windows Server 2012 R2 or later to set the following policies on domain-joined devices. 
 __NOTE:__ Group Policies for Insider Preview builds can only be set using GPMC and cannot currently be set using Windows Server Update Services (WSUS) or System Center Configuration Manager.
 
 __Allow Telemetry__. To enable installation of Insider Preview builds on a device, telemetry must be set to level 2 (enhanced) or higher. 
-Group Policy: __Computer Configuration/Administrative Templates/Windows Components/Windows UpdateData Collection and Preview builds/Allow Telemetry__
+1. In GPMC, go to: __Computer Configuration/Administrative Templates/Windows Components/Windows UpdateData Collection and Preview builds/Allow Telemetry__
+2. Click Enable. 
+3. In the drop-down box, select "2-Enhanced" or "3-Full"". 
 
-__Manage preview builds__. This setting enables or prevents installation of Insider Preview builds on a device. You can also decide to stop preview builds once the release is public. 
-Group Policy: __Computer Configuration/Administrative Templates/Windows Components/Windows Update/Windows Update for Business/Select when Preview Builds and Feature Updates are received.__
+__Manage preview builds__. This Windows Update for Business setting enables or prevents installation of Insider Preview builds on a device. You can also decide to stop Insider Preview builds once the Windows release is public. 
+1. In GPMC, go to: __Computer Configuration/Administrative Templates/Windows Components/Windows Update/Windows Update for Business/Select when Preview Builds and Feature Updates are received.__
+2. Click Enable.   
+3. For "Set the behaviour for receiving preview builds, select "Enable preview builds".  
 
-__Branch Readiness Level__. This setting allows enables distribution of Insider Preview builds on a PC. It also lets you to choose between preview flight rings, and defer or pause the delivery of updates. 
-Group Policy: __Computer Configuration/Administrative Templates/Windows Components/Windows Update/Windows Update for Business/Select when Preview Builds and Feature Updates are received__
+__Branch Readiness Level__. This Windows Update for Business allows enables distribution of Insider Preview builds on a PC. It also lets you to choose between preview flight rings, and defer or pause the delivery of updates. 
+1. In GPMC, go to: __Computer Configuration/Administrative Templates/Windows Components/Windows Update/Windows Update for Business/Select when Preview Builds and Feature Updates are received__
+2. Click Enable 
+3. For "Select the Windows readiness level for the updates you want to receive", select your desired Ring. 
+4. For "After a Preview Build or Feature Update is released, defer receiving it for this many days", enter a number up to 365. 
+5. For "Pause Preview Builds or Feature Updates starting" enter date. 
+
 
 ### Set using MDM policies 
 To set the policies above using non-Microsoft MDM service providers, using the CSP settings below. For guidance on configuring CSPs, see [CSPs in MDM](https://docs.microsoft.com/en-us/windows/configuration/provisioning-packages/how-it-pros-can-use-configuration-service-providers#csps-in-mdm). 
@@ -63,7 +79,7 @@ To set the policies above using non-Microsoft MDM service providers, using the C
 
 ### Set using MDM polices with Intune 
 1.	Log into the Intune management portal and go to __Software Update>Windows 10 Update Rings__. Click “+” to create an Update Ring policy.
-2.	Under __Servicing Channel__, select Fast or Slow to assign Insider Preview builds from an Insider Preview Ring. See [Windows readiness levels and flight rings](wip-4-biz-flight-levels-and-rings.md) for more information about each choice. 
+2.	Under __Servicing Channel__, select "Fast" or "Slow" to assign Insider Preview builds from an Insider Preview Ring. See [Windows readiness levels and flight rings](wip-4-biz-flight-levels-and-rings.md) for more information about each choice. 
 3.	Adjust __Feature update deferral period__ if you want to defer deployment of Insider Preview builds for a certain number of days after release. 
 4.	Click __OK__ and __Create__ to set policy.
 5.	Go to __Assignments__ to assign policy to users and devices. Note: you can create groups with one or more users or devices in Intune under __Groups__. 
@@ -72,5 +88,5 @@ To set the policies above using non-Microsoft MDM service providers, using the C
 
 * [Register for the Windows Insider Program for Business](wip-4-biz-register.md)
 * [Share Feedback via the Feedback Hub](wip-4-biz-feedback-hub.md)
-* [Deploy updates using Windows Update for Business](https://docs.microsoft.com/en-us/windows/deployment/update/waas-manage-updates-wufb)) 
+* [Deploy updates using Windows Update for Business](https://docs.microsoft.com/en-us/windows/deployment/update/waas-manage-updates-wufb) 
 * [Manage software updates in Intune](https://docs.microsoft.com/en-us/intune/windows-update-for-business-configure)
