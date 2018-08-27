@@ -141,19 +141,4 @@ The [Windows 10 Creators Update](https://blogs.windows.com/windowsexperience/201
 | Build | Fast | Slow | Release Preview |
 |-------|------|------|-----------------|
 | 15063 | [3/20/2017](https://blogs.windows.com/windowsexperience/2017/03/20/announcing-windows-10-insider-preview-build-15063-pc-mobile/) | 3/23/2017 | 3/30/2017 |
-| 17692 | [6/14/2018](https://aka.ms/e3-was-fun)|7/02/2018|[6/19/2018](https://aka.ms/wipserver17692)|||[6/19/2018](https://blogs.windows.com/buildingapps/2018/06/19/windows-10-sdk-preview-build-17692-available-now/)
-| 17686 | [6/06/2018](https://aka.ms/jumanji)|||||[6/12/2018](https://blogs.windows.com/buildingapps/2018/06/12/windows-10-sdk-preview-build-17686-available-now/)
-| 17682 | [5/31/2018](https://aka.ms/hulkbuster)|||||[6/05/2018](https://blogs.windows.com/buildingapps/2018/06/05/windows-10-sdk-preview-build-17682-available-now/)
-| 17677 | [5/24/2018](https://aka.ms/we-are-groot) | | [5/29/2018](https://aka.ms/wipserver17677)| | | [5/29/2018](https://blogs.windows.com/buildingapps/2018/05/29/windows-10-sdk-preview-build-17677-available-now/)
-| 17672 | [5/16/2018](https://blogs.windows.com/windowsexperience/2018/05/16/announcing-windows-10-insider-preview-build-17672/) | | |[__5/22/2018__](https://docs.microsoft.com/en-us/windows/iot-core/release-notes/insider/17662) | | [5/22/2018](https://blogs.windows.com/buildingapps/2018/05/22/windows-10-sdk-preview-build-17672-available-now/)
-| 17666 | [5/09/2018](https://blogs.windows.com/windowsexperience/2018/05/09/announcing-windows-10-insider-preview-build-17666/)| | [5/15/2018](https://blogs.windows.com/windowsexperience/2018/05/15/announcing-windows-server-2019-insider-preview-build-17666/) | | | [5/15/2018](https://blogs.windows.com/buildingapps/2018/05/15/windows-10-sdk-preview-build-17666-now-available/)
-| 17661 | [5/03/2018](https://blogs.windows.com/windowsexperience/2018/05/03/announcing-windows-10-insider-preview-build-17661/)| | | [5/07/2018](https://docs.microsoft.com/en-us/windows/iot-core/release-notes/insider/17661) | |[5/08/2018](https://blogs.windows.com/buildingapps/2018/05/08/windows-10-sdk-preview-build-17661-now-available/)
-| 17655 | [4/25/2018*](https://blogs.windows.com/windowsexperience/2018/04/25/announcing-windows-10-insider-preview-build-17655-for-skip-ahead/)
-| 17650 | [4/20/2018*](https://blogs.windows.com/windowsexperience/2018/04/19/announcing-windows-10-insider-preview-build-17650-for-skip-ahead/) | 
-| 17643 | [4/12/2018*](https://blogs.windows.com/windowsexperience/2018/04/12/announcing-windows-10-insider-preview-build-17643-for-skip-ahead/)
-| 17639| [4/04/2018*](https://blogs.windows.com/windowsexperience/2018/04/04/announcing-windows-10-insider-preview-build-17639-for-skip-ahead/)
-| 17634| [3/29/2018*](https://blogs.windows.com/windowsexperience/2018/03/29/announcing-windows-10-insider-preview-build-17634-for-skip-ahead/) |
-| 17627 | [3/21/2018*](https://blogs.windows.com/windowsexperience/2018/03/21/announcing-windows-10-insider-preview-build-17627-for-skip-ahead/) | 
-| 17623 | [3/16/2018*](https://blogs.windows.com/windowsexperience/2018/03/16/announcing-windows-10-insider-preview-build-17623-for-skip-ahead/) | | [3/20/2018](https://blogs.windows.com/windowsexperience/2018/03/20/announcing-windows-server-vnext-ltsc-build-17623/) | 
-| 17618 | [3/07/2018*](https://blogs.windows.com/windowsexperience/2018/03/07/announcing-windows-10-insider-preview-build-17618-skip-ahead/) | 
-| 17604 | [2/14/2018*](https://blogs.windows.com/windowsexperience/2018/02/14/announcing-windows-10-insider-preview-build-17101-fast-build-17604-skip-ahead/) | 
+
