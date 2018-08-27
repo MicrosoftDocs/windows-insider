@@ -29,7 +29,7 @@ __NOTE:__
 
 ## Join devices to Azure Active Directory
 In order to receive Insider Preview builds through Windows Update, devices must be joined to the same Azure AD domain that was registered with the Windows Insider Program. For devices on a local Azure Directory not already joined to Azure AD, follow these steps: 
-### To Join invidual devices to Azure AD
+### To join individual devices 
 1. Open Settings, and then select Accounts.
 2. Select Access work or school, and then select Connect.
 3. On the Set up a work or school account screen, select Join this device to Azure Active Directory.
@@ -39,7 +39,7 @@ In order to receive Insider Preview builds through Windows Update, devices must 
  
 See also [Join your work device to your organization's network].(https://docs.microsoft.com/en-us/azure/active-directory/user-help/user-help-join-device-on-network)
 
-### To Join multiple devices 
+### To join multiple devices 
 To join multiple devices on Azure Active to your Azure AD domain, it is recommended that you join directories using AD Connect. For more details, see: [Integrate your on-premises directories with Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect)
 
 ## Create and manage policies 
