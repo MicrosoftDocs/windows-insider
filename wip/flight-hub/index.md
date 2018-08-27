@@ -113,7 +113,7 @@ Window 10 version 1803 was released to the world on April 30, 2018. Windows Insi
 |-------|------|------|-----------------|
 | 16299.15 | [10/2/2017](https://blogs.windows.com/windowsexperience/2017/09/26/announcing-windows-10-insider-preview-build-16299-pc/) | 10/4/2017 | 10/10/2017 |
 | 16299.1 | [9/26/2017](https://blogs.windows.com/windowsexperience/2017/09/26/announcing-windows-10-insider-preview-build-16299-pc/) | 9/28/2017 |
-| 16296 | [9/2/2017]() | 9/28/2017 |
+| 16296 | [9/22/2017](https://blogs.windows.com/windowsexperience/2017/09/22/announcing-windows-10-insider-preview-build-16296-pc/) | 9/28/2017 |
 | 16294 | [9/20/2017](https://blogs.windows.com/windowsexperience/2017/09/20/announcing-windows-10-insider-preview-build-16294-pc/) | |
 | 16291 | [9/19/2017](https://blogs.windows.com/windowsexperience/2017/09/19/announcing-windows-10-insider-preview-build-16291-pc/) | 9/22/2017 |
 | 16288 | [9/12/2017](https://blogs.windows.com/windowsexperience/2017/09/12/announcing-windows-10-insider-preview-build-16288-pc-build-15250-mobile/) | 9/15/2017 |
