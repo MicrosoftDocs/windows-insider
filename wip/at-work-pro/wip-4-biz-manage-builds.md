@@ -83,7 +83,7 @@ You can use the Intune management console to manage Windows 10 update rings, inc
 4.	Click __OK__ and __Create__ to set policy.
 5.	Go to __Assignments__ to assign policy to users and devices. Note: you can create groups with one or more users or devices in Intune under __Groups__. 
 
-![ADD subscription](images/wip-4-biz_intune.png "ADD")
+![ADD subscription](images/wip-4-biz_manage_intune.png "ADD")
 
 * [Register for the Windows Insider Program for Business](wip-4-biz-register.md)
 * [Share Feedback via the Feedback Hub](wip-4-biz-feedback-hub.md)
