@@ -22,59 +22,68 @@ We also encourage you to visit the [Windows Server Insiders space](https://techc
 
 ## App Compatibility Feature on Demand (FoD) for Server Core
 
-This section last updated 08/13/2018
+This section last updated 08/27/2018
 
-App Compatibility, a Feature on Demand (FoD), has been updated with additional features and two additional components: Event Viewer and File Explorer.
+App Compatibility, App Compatibility, a Feature on Demand (FoD), has been updated with support for adding Internet Explorer 11, and this FoD is a requirement for adding Internet Explorer 11.
+
 This FoD significantly improves the app compatibility of Windows Server Core by including a set of binaries and packages from Windows Server with Desktop, without adding any of the Windows Server Desktop GUI or Windows 10 GUI experiences. The FoD package is available on a separate ISO and installs on Windows Server Core only.
 
-Important   Please try out this FoD, and verify that current applications and tools run on the preview release as expected. Also, try any server app (from Microsoft or not) that you want to use on Server Core but currently cannot use, and please let us know about any successes or failures.
+__Important__  Please try out this FoD, and verify that current applications and tools run on the preview release as expected. Also, try any server app (from Microsoft or not) that you want to use on Server Core but currently cannot use, and please let us know about any successes or failures.
+
 Operating system components that are available with this update:
+
 * Event Viewer (Eventvwr.msc)
 * Performance Monitor (PerfMon.exe)
 * Resource Monitor (Resmon.exe)
 * Device Manager (Devmgmt.msc)
 * Microsoft Management Console (mmc.exe)
 * File Explorer (Explorer.exe)
-* Windows PowerShell (Powershell_ISE.exe)
+* Windows PowerShell ISE (Powershell_ISE.exe)
 * Failover Cluster Manager (CluAdmin.msc)
+* Internet Explorer (IExplore.exe), an optional component
 
-These components come with support for SQL Server Management Studio (SSMS), version 16 and 17, which must be installed separately from SQL Server via command line.
+These components come with support for [SQL Server Management Studio (SSMS)](https://docs.microsoft.com/en-us/sql/ssms/sql-server-management-studio-ssms?view=sql-server-2017), version 16 and 17, which must be installed separately from SQL Server via command line.
 
 To install Failover Cluster Manager, launch PowerShell, and then enter the following command:
-<p><i>Install-WindowsFeature -Name Failover-Clustering -IncludeManagementTools</i>
+```Install-WindowsFeature -Name Failover-Clustering -IncludeManagementTools
 
-To run Failover Cluster Manager, enter <i>cluadmin</i> at a regular command prompt.
+To run Failover Cluster Manager, enter __cluadmin__ at a regular command prompt.
 
 
 The following installation procedure uses Deployment Image Servicing and Management (DISM.exe), a command-line tool. For more information about DISM commands, see [DISM Capabilities Package Servicing Command-Line Options](https://docs.microsoft.com/en-us/windows-hardware/manufacture/desktop/dism-capabilities-package-servicing-command-line-options).
 
+__Note:__ These instructions correct previously published versions.
+
 To install Server Core with FoD binaries
+
 1. Download the FoD ISO, and copy the ISO to a shared folder on your local network.
 2. Download the ISO of the matching preview release of Windows Server, and install the operating system. Do not choose Desktop Experience options; the FoD is for Server Core only.
 3. Sign in as administrator on the newly installed preview release of Server Core.
-4. Use net use, or some other method, to connect to the location of the FoD ISO.
+4. Use __net use__, or some other method, to connect to the location of the FoD ISO.
 5. Copy the FoD ISO to a local folder of your choosing.
-6. Start PowerShell by entering powershell.exe at a command prompt.
+6. Start PowerShell by entering __powershell.exe__ at a command prompt.
 7. Mount the FoD ISO by using the following command:
 ```Mount-DiskImage -ImagePath drive_letter:\folder_where_ISO_is_saved```
-8. Enter exit to exit PowerShell.
+8. Enter __exit__ to exit PowerShell.
 9. Enter the following command:
 ```DISM /Online /Add-Capability /CapabilityName:Server.Appcompat~~~~0.0.1.0 /Source:drive_letter_of_mounted_ISO: /LimitAccess ```
 10. After the progress bar completes, restart the operating system at the prompt.
 
+__Note__ This FoD is required for installation of Internet Explorer 11, but installing Internet Explorer 11 is optional
+
 To optionally install Internet Explorer 11
-1. Start PowerShell by entering powershell.exe at a command prompt.
+1. Start PowerShell by entering __powershell.exe__ at a command prompt.
 2. Mount the FoD ISO by using the following command:
 ```Mount-DiskImage -ImagePath drive_letter:\folder_where_ISO_is_saved.```
-3. Enter exit to exit PowerShell.
+3. Enter __exit__ to exit PowerShell.
 4. In a command window, change the default directory to drive letter of the mounted ISO. 
 5. Run the following command:
-```Dism /online /add-package:"Microsoft-Windows-InternetExplorer-Optional-Package~31bf3856ad364e35~amd64~~.cab"```
+```DISM /online /add-package:"Microsoft-Windows-InternetExplorer-OptionalPackage~31bf3856ad364e35~amd64~~.cab"```
 6. Restart the computer.
 7. After logging in again, mount the FoD ISO again by repeating Step 1 through Step 3.
 8. In a command window, change the default directory to drive letter of the mounted ISO.
 9. Run the following command:
-```Dism /online /add-package:"Microsoft-Windows-InternetExplorer-Optional-Package~31bf3856ad364e35~amd64~en-US~.cab"```
+```Dism /online /add-package:"DISM /online /add-package:"Microsoft-Windows-InternetExplorer-OptionalPackage~31bf3856ad364e35~amd64~en-US~.cab"```
 This instance of running DISM specifies a different package than the previous instance in this procedure.
 
 ## Clusters
