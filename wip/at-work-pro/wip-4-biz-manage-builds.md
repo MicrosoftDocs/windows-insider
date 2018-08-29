@@ -67,7 +67,7 @@ __Branch Readiness Level__. This Windows Update for Business allows enables dist
 5. For "Pause Preview Builds or Feature Updates starting" enter date. 
 
 ### Set using MDM policies 
-To set Allow Telemetry and Windows Insider for Business policies above using non-Microsoft MDM service providers, using the CSP settings below. For guidance on configuring CSPs, see [CSPs in MDM](https://docs.microsoft.com/en-us/windows/configuration/provisioning-packages/how-it-pros-can-use-configuration-service-providers#csps-in-mdm). 
+To set Allow Telemetry and Windows Insider for Business policies above using Intune or non-Microsoft MDM service providers, using the CSP settings below. For guidance on configuring CSPs, see [CSPs in MDM](https://docs.microsoft.com/en-us/windows/configuration/provisioning-packages/how-it-pros-can-use-configuration-service-providers#csps-in-mdm). 
 
 [System/AllowTelemetry](https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-system#system-allowtelemetry)
 
@@ -76,14 +76,14 @@ To set Allow Telemetry and Windows Insider for Business policies above using non
 [Update/BranchReadinessLevel](https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-update#update-branchreadinesslevel)
 
 ### Set using MDM polices with Intune 
-You can use the Intune management console to manage Windows 10 update rings, including Insider Preview build releases. 
+n addtion to the CSPs above, can use the Intune management console to manage Windows 10 update rings, including Insider Preview build releases. 
 1.	Log into the Intune management portal and go to __Software Update>Windows 10 Update Rings__. Click “+” to create an Update Ring policy.
 2.	Under __Servicing Channel__, select "Fast" or "Slow" to assign Insider Preview builds from an Insider Preview Ring. See [Windows readiness levels and flight rings](wip-4-biz-flight-levels-and-rings.md) for more information about each choice. 
 3.	Adjust __Feature update deferral period__ if you want to defer deployment of Insider Preview builds for a certain number of days after release. 
 4.	Click __OK__ and __Create__ to set policy.
 5.	Go to __Assignments__ to assign policy to users and devices. Note: you can create groups with one or more users or devices in Intune under __Groups__. 
 
-![ADD subscription](images/wip-4-biz_manage_intune.png "ADD")
+![Intune Update Ring](images/wip-4-biz_manage_intune.png "ADD")
 
 * [Register for the Windows Insider Program for Business](wip-4-biz-register.md)
 * [Share Feedback via the Feedback Hub](wip-4-biz-feedback-hub.md)
