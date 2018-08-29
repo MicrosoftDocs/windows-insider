@@ -15,11 +15,12 @@ ms.author: dawn.wood
 ms.localizationpriority: medium
 ---
 # Windows Insider Program for Business docs
-If you are an IT Pro, incorporating the Windows Insider Program for Business into your deployment plans enables you to prepare your organization for the next update of Windows 10, to deploy new services and tools more quickly, to help secure your applications, and to increase productivity and confidence in the stability of your environment. Specifically, feature flighting (see [Windows readiness levels and flight rings](wip-4-biz-flight-levels-and-rings.md)) allows participants in the Windows Insider Program to deploy pre-production code, to test devices, and to gain early visibility into the next version of Windows.  
 
-If you are a enterprise user, you can also join the Windows Insider for Business program. In some scenarios, you work with your IT Pro to create a domain registration that you can participate in. Either way, you are able to install new builds and provide feedback on them after you register. 
-
-If you are interested in flighting For Windows Server 2019, we also have the Windows Server Insider Program, which you can read about in the [Windows Insider Program for Server docs](https://docs.microsoft.com/en-us/windows-insider/at-work/).
+The Windows Insider Program provides additional benefits to business users. 
+* __Explore new Windows features for business.__ Preview the next Windows security, management and productivity features. Install and manage Insider Preview builds on single or across multiple PCs. 
+* __Accelerate your Windows deployment.__ Use Windows 10 Insider Preview Builds to validate your apps and infrastructure ahead of the next public Windows release. See [How to use Insider Preview builds to validate applications and infrastructure](https://insider.windows.com/en-us/for-business-getting-started/#explore). 
+* __Improve Windows for your business.__ Submit feedback on behalf of your organization to help shape Windows for your specific business needs. You can also track feedback submitted by other users in your organization. 
+* __Get Windows Server Insider Preview.__ Along with Windows, you can download the latest Windows Server preview and Remote Server Administration tools. See [Windows Insider Program for Server docs](https://docs.microsoft.com/en-us/windows-insider/at-work/).
 
 <ul class="cardsF panelContent">
     <li>

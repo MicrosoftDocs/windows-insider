@@ -66,7 +66,7 @@ To install Server Core with FoD binaries
 ```Mount-DiskImage -ImagePath drive_letter:\folder_where_ISO_is_saved```
 8. Enter __exit__ to exit PowerShell.
 9. Enter the following command:
-```DISM /Online /Add-Capability /CapabilityName:Server.Appcompat~~~~0.0.1.0 /Source:drive_letter_of_mounted_ISO: /LimitAccess ```
+```DISM /Online /Add-Capability /CapabilityName:ServerCore.Appcompatibility~~~~0.0.1.0 /Source:drive_letter_of_mounted_ISO: /LimitAccess ```
 10. After the progress bar completes, restart the operating system at the prompt.
 
 __Note__ This FoD is required for installation of Internet Explorer 11, but installing Internet Explorer 11 is optional
