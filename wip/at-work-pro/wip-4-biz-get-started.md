@@ -31,7 +31,7 @@ You can get started with two easy steps: register and then install a build.
                     </div>
                     <div class="cardText">
                         <h2>Register</h2>
-                <p>The first step is to register your device or domain. Start here.</p>
+                <p>The first step is to register as a Windows Insider. Start here.</p>
                     </div>
                 </div>
             </div>
@@ -50,7 +50,7 @@ You can get started with two easy steps: register and then install a build.
                     </div>
                     <div class="cardText">
                         <h2>Install</h2>
-                <p>The second step is to install a Windows Insider Preview build. Click here to learn how.</p>
+                <p>The second step is to install a Windows 10 Insider Preview Build. You can install on indivdual or mulitple devices. Click here to learn how.</p>
                     </div>
                 </div>
             </div>
