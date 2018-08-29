@@ -298,7 +298,7 @@ SDN enables the Hyper-V host to generate firewall logs that are consistent in fo
 SDN includes the ability to use IPv6 for virtual network address spaces, virtual IPs and for logical networks.  All of the security features of SDN now work with IPv6 addresses and subnets, including Access Control Lists and User Defined Routing.
 
 ### Virtual Network Peering
-The primary security boundary for SDN is the isolation that’s provided by the virtual network itself, but sometimes it becomes necessary to breach this boundary so that two virtual networks are able to communicate with each other. You still want these two individual bounders to securely communicate, and that's where Virtual Network Peering comes in.
+The primary security boundary for SDN is the isolation that’s provided by the virtual network itself, but sometimes it becomes necessary to breach this boundary so that two virtual networks are able to communicate with each other. You still want these two individual boundaries to securely communicate, and that's where Virtual Network Peering comes in.
 
 For more details about these improvements, please see our blog entry:
 [Top 10 Networking Features in Windows Server 2019: #4 Security with SDN](https://blogs.technet.microsoft.com/networking/2018/08/29/sdnsecurity/)
