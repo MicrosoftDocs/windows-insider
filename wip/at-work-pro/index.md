@@ -18,7 +18,7 @@ ms.localizationpriority: medium
 
 The Windows Insider Program provides addtional benefits to business users. 
 * __Explore new Windows features for business.__ Preview the next Windows security, management and productivity features. Install and manage Insider Preview builds on single or across multiple PCs. 
-* __Accelerate your Windows deployment.__ Use Windows 10 Insider Preview Builds to validate your apps and infrastructure ahead of the next public Windows release. 
+* __Accelerate your Windows deployment.__ Use Windows 10 Insider Preview Builds to validate your apps and infrastructure ahead of the next public Windows release. See [How to use Insider Preview builds to validate applications and infrastructure](https://insider.windows.com/en-us/for-business-getting-started/#explore). 
 * __Improve Windows for your business.__ Submit feedback on behalf of your organization to help shape Windows for your specific business needs. You can also track feedback submitted by other users in your organization. 
 * __Get Windows Server Insider Preview.__ Along with Windows, you can download the latest Windows Server preview and Remote Server Administration tools. See [Windows Insider Program for Server docs](https://docs.microsoft.com/en-us/windows-insider/at-work/).
 
