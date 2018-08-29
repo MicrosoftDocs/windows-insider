@@ -155,6 +155,8 @@ RD Session Host is a Remote Desktop Services role service that enables users to 
 
 
 ## Security
+
+## Windows Server 2019 Software Defined Network (SDN) 
 In this modern era of cloud computing, more and more customers are looking to move their workloads to public, private or hybrid clouds. Security is one of their main inhibitors in moving to cloud. How secure are their workloads in the cloud? Is their data safe from theft and tampering? Windows Server 2019 Software Defined Network (SDN) delivers new security features to increase customer confidence whether running workloads on-premises or as a service provider in the cloud.
  
 For more details about these improvements, please see our blog entry:
