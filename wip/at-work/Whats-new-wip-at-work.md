@@ -267,11 +267,9 @@ C:\\Windows\\System32\\CodeIntegrity\\SiPolicy.p7b
 
 Reboot the server to allow code integrity service to load the policy.
 
-## Windows Server 2019 Software Defined Network (SDN) 
+## Windows Server 2019 Software Defined Networking (SDN) 
 In this modern era of cloud computing, more and more customers are looking to move their workloads to public, private or hybrid clouds. Security is one of their main inhibitors in moving to cloud. How secure are their workloads in the cloud? Is their data safe from theft and tampering? Windows Server 2019 Software Defined Network (SDN) delivers new security features to increase customer confidence whether running workloads on-premises or as a service provider in the cloud.
  
-For more details about these improvements, please see our blog entry:
-[Top 10 Networking Features in Windows Server 2019: #4 Security with SDN](https://blogs.technet.microsoft.com/networking/2018/08/29/sdnsecurity/)
 
 ### Encrypted network in SDN
 
@@ -301,6 +299,10 @@ SDN includes the ability to use IPv6 for virtual network address spaces, virtual
 
 ### Virtual Network Peering
 The primary security boundary for SDN is the isolation that’s provided by the virtual network itself, but sometimes it becomes necessary to breach this boundary so that two virtual networks are able to communicate with each other. You still want these two individual bounders to securely communicate, and that's where Virtual Network Peering comes in.
+
+For more details about these improvements, please see our blog entry:
+[Top 10 Networking Features in Windows Server 2019: #4 Security with SDN](https://blogs.technet.microsoft.com/networking/2018/08/29/sdnsecurity/)
+
 
 ## Shielded virtual machines – Offline mode, VMConnect and Linux support
 
