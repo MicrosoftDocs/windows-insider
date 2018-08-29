@@ -155,23 +155,18 @@ RD Session Host is a Remote Desktop Services role service that enables users to 
 
 
 ## Security
+In this modern era of cloud computing, more and more customers are looking to move their workloads to public, private or hybrid clouds. Security is one of their main inhibitors in moving to cloud. How secure are their workloads in the cloud? Is their data safe from theft and tampering? Windows Server 2019 Software Defined Network (SDN) delivers new security features to increase customer confidence whether running workloads on-premises or as a service provider in the cloud.
+ 
+For more details about these improvements, please see our blog entry:
+[Top 10 Networking Features in Windows Server 2019: #4 Security with SDN](https://blogs.technet.microsoft.com/networking/2018/08/29/sdnsecurity/)
+
 ### Encrypted network in SDN
 
-Network traffic going out from a VM host can be snooped on and/or
-manipulated by anyone with access to the physical fabric. While shielded
-VMs protect VM data from theft and manipulation, similar protection is
-required for network traffic to and from a VM. While the tenant can
-setup protection such as IPSEC, this is difficult due to configuration
+Network traffic going out from a VM host can be snooped on and/or manipulated by anyone with access to the physical fabric. While shielded VMs protect VM data from theft and manipulation, similar protection is required for network traffic to and from a VM. While the tenant can setup protection such as IPSEC, this is difficult due to configuration
 complexity and heterogeneous environments.
 
-Encrypted Networks is a feature which provides simple to configure
-DTLS-based encryption using the Network Controller to manage the
-end-to-end encryption and protect data as it travels through the wires
-and network devices between the hosts It is configured by the
-Administrator on a per-subnet basis.  This enables the VM to VM traffic
-within the VM subnet to be automatically encrypted as it leaves the host
-and prevents snooping and manipulation of traffic on the wire. This is
-done without requiring any configuration changes in the VMs themselves.
+Encrypted Networks is a feature which provides simple to configure DTLS-based encryption using the Network Controller to manage the end-to-end encryption and protect data as it travels through the wires
+and network devices between the hosts. It is configured by the Administrator on a per-subnet basis.  This enables the VM to VM traffic within the VM subnet to be automatically encrypted as it leaves the host and prevents snooping and manipulation of traffic on the wire. This is done without requiring any configuration changes in the VMs themselves.
 Try it out—[Configure Encryption for a Virtual
 Subnet](https://docs.microsoft.com/en-us/windows-server/networking/sdn/vnet-encryption/sdn-config-vnet-encryption)—and
 send us your feedback in the Feedback Hub.
@@ -181,6 +176,18 @@ send us your feedback in the Feedback Hub.
 Organizations today deploy their applications across multiple clouds including on-premises private clouds, service provider clouds, and public clouds such as Azure. In such scenarios, enabling secure, high-performance connectivity across workloads in different clouds is essential. Windows Server 2019 brings huge SDN gateway performance improvements for these hybrid connectivity scenarios, with network throughput multiplying by up to 6x.
 
 For more details about these improvements, please see our blog entry: [Top 10 Networking Features in Windows Server 2019: #6 High Performance SDN Gateways](https://blogs.technet.microsoft.com/networking/2018/08/15/high-performance-gateways/).
+
+### SDN Fabric Access Control Lists (ACLs)
+We provide the ability to lock down the security of your virtual networks by automatically applying ACLs to to the fabric.
+
+### Firewall Logging
+SDN enables the Hyper-V host to generate firewall logs that are consistent in format with Azure Network Watcher.
+
+### IPv6 support 
+SDN includes the ability to use IPv6 for virtual network address spaces, virtual IPs and for logical networks.  All of the security features of SDN now work with IPv6 addresses and subnets, including Access Control Lists and User Defined Routing.
+
+### Virtual Network Peering
+The primary security boundary for SDN is the isolation that’s provided by the virtual network itself, but sometimes it becomes necessary to breach this boundary so that two virtual networks are able to communicate with each other. You still want these two individual bounders to securely communicate, and that's where Virtual Network Peering comes in.
 
 ### Windows Defender Advanced Threat Protection
 
