@@ -154,8 +154,6 @@ The Windows hypervisor technology in Microsoft Hyper-V Server is the same as wha
 RD Session Host is a Remote Desktop Services role service that enables users to share Windows-based programs or the full Windows desktop. Users can connect to an RD Session Host server to run programs, save files, and use network resources on that server. Because of a bug, the RDSH role was missing in previous releases of Windows Server 2019 – this build fixes that. 
 
 
-## Security
-
 ## Windows Server 2019 Software Defined Network (SDN) 
 In this modern era of cloud computing, more and more customers are looking to move their workloads to public, private or hybrid clouds. Security is one of their main inhibitors in moving to cloud. How secure are their workloads in the cloud? Is their data safe from theft and tampering? Windows Server 2019 Software Defined Network (SDN) delivers new security features to increase customer confidence whether running workloads on-premises or as a service provider in the cloud.
  
@@ -191,7 +189,7 @@ SDN includes the ability to use IPv6 for virtual network address spaces, virtual
 ### Virtual Network Peering
 The primary security boundary for SDN is the isolation that’s provided by the virtual network itself, but sometimes it becomes necessary to breach this boundary so that two virtual networks are able to communicate with each other. You still want these two individual bounders to securely communicate, and that's where Virtual Network Peering comes in.
 
-### Windows Defender Advanced Threat Protection
+## Windows Defender Advanced Threat Protection
 
 We provide deep platform sensors and response actions, providing visibility to memory and kernel level attacker activities and abilities to take actions on compromised machines in response to incidents such as remote collection of additional forensic data, remediating malicious files, terminating malicious processes etc. 
  
@@ -201,7 +199,7 @@ Otherwise, sign up for the Windows Defender ATP trial on [Windows
 Defender Advanced Threat
 Protection](https://www.microsoft.com/en-us/windowsforbusiness/windows-atp).
 
-### Windows Defender ATP Exploit Guard
+## Windows Defender ATP Exploit Guard
 
 Windows Defender ATP Exploit Guard is a new set of host-intrusion
 prevention capabilities. The four components of Windows Defender Exploit
@@ -287,7 +285,7 @@ Set-ProcessMitigation -PolicyFilePath ProcessMitigation.xml
 </pre>
 
 
-### Windows Defender Application Control
+## Windows Defender Application Control
 
 Windows Defender Application Control—also known as Code Integrity (CI) policy—was released in Windows Server 2016. Customer feedback has suggested that it is a great concept, but hard to deploy. To address this, we are building default CI policies, which will allow all Windows in-box files and Microsoft applications, such as SQL Server, and block known executables that can bypass CI.  
 
