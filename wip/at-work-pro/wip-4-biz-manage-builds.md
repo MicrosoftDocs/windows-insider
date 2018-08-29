@@ -29,6 +29,7 @@ __NOTE:__
 
 ## Join devices to Azure Active Directory
 In order to receive Insider Preview builds through Windows Update, devices must be joined to the same Azure AD domain that was registered with the Windows Insider Program. For devices on a local Azure Directory not already joined to Azure AD, follow these steps: 
+
 ### To join individual devices 
 1. Open __Settings__, and then select __Accounts__.
 2. Select __Access work or school__, and then select __Connect__.
@@ -47,7 +48,7 @@ You can use Group Policy or MDM solutions such as Intune to configure the Window
 
 ### Set using Group Policy
 Use the [Group Policy Management Console](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753298)(GPMC) in Windows Server 2012 R2 or later to set the following policies on domain-joined devices. 
-__NOTE:__ Group Policies for Insider Preview builds can only be set using GPMC and cannot currently be set using Windows Server Update Services (WSUS) or System Center Configuration Manager.
+__NOTE:__ Group Policies for Insider Preview builds can only be set using GPMC and cannot currently be set using Windows Server Update Services (WSUS) or System Center Configuration Manager. To confirm that a device is connected to Windows Update services and not WSUS, in Registry Eitor go to: __HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate__.  
 
 __Allow Telemetry__. To enable installation of Insider Preview builds on a device, telemetry must be set to level 2 (enhanced) or higher. 
 1. In GPMC, go to: __Computer Configuration/Administrative Templates/Windows Components/Windows UpdateData Collection and Preview builds/Allow Telemetry__
@@ -76,7 +77,7 @@ To set Allow Telemetry and Windows Insider for Business policies above using Int
 [Update/BranchReadinessLevel](https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-update#update-branchreadinesslevel)
 
 ### Set using MDM polices with Intune 
-n addtion to the CSPs above, can use the Intune management console to manage Windows 10 update rings, including Insider Preview build releases. 
+In addition to the CSPs above, Insider Preview builds can be managed in Intune using Windows 10 update rings. 
 1.	Log into the Intune management portal and go to __Software Update>Windows 10 Update Rings__. Click “+” to create an Update Ring policy.
 2.	Under __Servicing Channel__, select "Fast" or "Slow" to assign Insider Preview builds from an Insider Preview Ring. See [Windows readiness levels and flight rings](wip-4-biz-flight-levels-and-rings.md) for more information about each choice. 
 3.	Adjust __Feature update deferral period__ if you want to defer deployment of Insider Preview builds for a certain number of days after release. 
