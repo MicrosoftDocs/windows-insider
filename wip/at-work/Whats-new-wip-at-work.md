@@ -153,11 +153,6 @@ The Windows hypervisor technology in Microsoft Hyper-V Server is the same as wha
 
 RD Session Host is a Remote Desktop Services role service that enables users to share Windows-based programs or the full Windows desktop. Users can connect to an RD Session Host server to run programs, save files, and use network resources on that server. Because of a bug, the RDSH role was missing in previous releases of Windows Server 2019 – this build fixes that. 
 
-## SDN High Performance Gateways
-
-Organizations today deploy their applications across multiple clouds including on-premises private clouds, service provider clouds, and public clouds such as Azure. In such scenarios, enabling secure, high-performance connectivity across workloads in different clouds is essential. Windows Server 2019 brings huge SDN gateway performance improvements for these hybrid connectivity scenarios, with network throughput multiplying by up to 6x.
-
-For more details about these improvements, please see our blog entry: [Top 10 Networking Features in Windows Server 2019: #6 High Performance SDN Gateways](https://blogs.technet.microsoft.com/networking/2018/08/15/high-performance-gateways/).
 
 ## Security
 ### Encrypted network in SDN
@@ -180,6 +175,12 @@ done without requiring any configuration changes in the VMs themselves.
 Try it out—[Configure Encryption for a Virtual
 Subnet](https://docs.microsoft.com/en-us/windows-server/networking/sdn/vnet-encryption/sdn-config-vnet-encryption)—and
 send us your feedback in the Feedback Hub.
+
+### SDN High Performance Gateways
+
+Organizations today deploy their applications across multiple clouds including on-premises private clouds, service provider clouds, and public clouds such as Azure. In such scenarios, enabling secure, high-performance connectivity across workloads in different clouds is essential. Windows Server 2019 brings huge SDN gateway performance improvements for these hybrid connectivity scenarios, with network throughput multiplying by up to 6x.
+
+For more details about these improvements, please see our blog entry: [Top 10 Networking Features in Windows Server 2019: #6 High Performance SDN Gateways](https://blogs.technet.microsoft.com/networking/2018/08/15/high-performance-gateways/).
 
 ### Windows Defender Advanced Threat Protection
 
