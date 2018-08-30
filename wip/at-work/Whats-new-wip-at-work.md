@@ -377,7 +377,7 @@ answer these questions. There's nothing to install, configure, or
 start—it's built-in and always-on. Learn more at
 <https://aka.ms/clusterperformancehistory>.
 
-![alt text](images/Hyper-Converged-in-Honolulu.png "New charts in Project Honolulu, powered by built-in cluster
+![Project Honolulu](images/Hyper-Converged-in-Honolulu.png "New charts in Project Honolulu, powered by built-in cluster
 performance history.")
 
 ### Storage Migration Service
@@ -392,7 +392,7 @@ Windows Server 2019 introduces the Storage Migration Service (SMS), a new role i
 
 SMS provides orchestrated workflow with a Honolulu-based graphical management system, allowing scalable migrations of many servers simultaneously to new targets running on premises or in Azure.
 
-![alt text](images/scalable-migrations.png "Scalable migrations")
+![Scalable migrations](images/scalable-migrations.png "Scalable migrations")
 
 SMS handles common problems and subtleties of a migration, including in-use files, share settings, security settings, network addresses and names, local security principals, encrypted data, and more. All of this is available from an intuitive graphical interface, which is backed by robust PowerShell automation.
 
@@ -418,7 +418,7 @@ System Insights is a new feature available in Windows Server 2019 that brings lo
 
 Because each of these capabilities runs locally, all your data is collected, persisted, and analyzed directly on your Windows Server instance, allowing you to use predictive analytics capabilities without any cloud connectivity. In Windows Server 2019, System Insights introduces a set of capabilities focused on capacity forecasting, predicting future usage for compute, networking, and storage.
 
-![alt text](images/system-insights.png "System Insights")
+![System insights](images/system-insights.png "System Insights")
 
 You can manage System Insights through an intuitive Windows Admin Center extension or directly through PowerShell, and System Insights allows you to manage each capability individually. This includes configuring custom schedules to run each capability and adding remediation scripts to automatically address any issue detected by a capability.
 
@@ -428,7 +428,12 @@ Any new capability can integrate with and extend the existing System Insights in
 * New capabilities can specify any performance counter or ETW event, which will be collected, persisted locally, and returned to the capability for analysis when the capability is invoked.
 * New capabilities can leverage the existing Windows Admin Center and PowerShell management planes. Not only will new capabilities be discoverable in System Insights, they also benefit from custom schedules and remediation actions.
 
+In previous releases, System Insights forecasted future usage for both local volumes and local storage consumption. After listening to the feedback from our cluster customers, we've added new functionality in this release, which allows you to optionally enable forecasting on clustered volumes and clustered storage. 
+
+You can enable this functionality through Windows Admin Center or PowerShell. To learn how, please see our [blog post](). 
+
 For more information about System Insights, please visit [aka.ms/SystemInsights](https://aka.ms/SystemInsights).
+
 
 ## Windows Admin Center Preview 1806
 For full details, see the [Windows Admin Center Preview 1806 Announcement](https://aka.ms/WACPreview1806-InsiderBlog).

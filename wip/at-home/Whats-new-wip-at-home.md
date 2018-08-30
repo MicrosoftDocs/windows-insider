@@ -21,7 +21,7 @@ The [Windows Insider Program](https://insider.windows.com/en-us/) lets you previ
 ### Acrylic in task view 
 The entire task view background now has a soft blur effect.
 
-![alt text](images/taskview-acrylic.png "acrylic task view")
+![acrylic task view](images/taskview-acrylic.png "acrylic task view")
 
 ### Acrylic comes to menus and more!
 Our acrylic material is being used by default in XAML controls and on transient XAML surfaces like flyouts. The new acrylic material is now applied to:
@@ -34,23 +34,23 @@ Our acrylic material is being used by default in XAML controls and on transient 
 
 You will notice new acrylic backgrounds in places on the system using these controls – for example when you right-click open apps in task view. Apps using the SDK for Windows 10, version 1809 or higher will see this change by default as well.
 
-![alt text](images/acrylic.png "acrylic settings")
+![acrylic settings](images/acrylic.png "acrylic settings")
 
 ## Bluetooth battery percentage in settings
 In the __Bluetooth & other devices__ page in Settings, you can check the battery level of your Bluetooth devices for Bluetooth devices that support this feature, in which case the battery percentage will update whenever your PC and the device are connected.
 
-![alt text](images/bluetoothbattery.png "bluetooth battery")
+![bluetooth battery](images/bluetoothbattery.png "bluetooth battery")
 
 ## New clipboard experience
 Copy/paste - it's something we all do, probably multiple times a day. But what do you do if you need to copy the same few things again and again? How do you copy content across your devices? Today we're addressing that and taking the clipboard to the next level. Press WIN+V and you'll be presented with our new clipboard experience.  
 
-![alt text](images/clipboardhistory.png "clipboard history")
+![clipboard history](images/clipboardhistory.png "clipboard history")
 
 Not only can you can paste from the clipboard history, but you can also pin the items you find yourself using all the time. This history roams with you using the same technology which powers Timeline and Sets, which means you can access your clipboard across any PC.  
 
 Our new settings page for enabling this experience is under __Settings > System > Clipboard__ - please try this out and share feedback! [This link](feedback-hub:///) will open the Feedback Hub to where you can tell us about your experience and what you'd like to see next. 
 
-![alt text](images/clipboardsettings.png "clipboard settings")
+![clipboard settings](images/clipboardsettings.png "clipboard settings")
 
 __Note:__ Roaming text on the clipboard is only supported for clipboard content less than 100kb. Currently, the clipboard history supports plain text, HTML and images less than 1MB. 
 
@@ -155,13 +155,13 @@ To safely remove an external graphics card, go to the __Safely Remove Hardware a
 ## Focus assist improvements when gaming 
 Now focus assist will turn on automatically when you’re playing any full screen game. No more interruptions when you’re crushing it. This behavior should be turned on automatically, but you can always check by going to __Settings > System > Focus assist__ and ensuring the __When I’m playing a game__ automatic rule is enabled. For more information, see [Windows 10 Tip: How to enable Focus Assist in the Windows 10 April 2018 Update](https://blogs.windows.com/windowsexperience/2018/05/09/windows-10-tip-how-to-enable-focus-assist-in-the-windows-10-april-2018-update/).
 
-![alt text](images/speakers2.png "sound settings")
+![sound settings](images/speakers2.png "sound settings")
 
 ## Game bar improvements
 *__Audio controls__: Change your default audio output device and mute or adjust the volume of games and apps running.
 *__Performance visualizations__: See your game’s framerate (FPS), CPU usage, GPU VRAM usage, and system RAM usage.
 
-![alt text](images/New-Game-bar.png "game bar")
+![game bar](images/New-Game-bar.png "game bar")
 
 ## Game mode improvements
 New options are now available for Game Mode that are expected to improve the gaming experience on desktop PCs.  Gamers on PCs with many background processes may also see performance improvements when they toggle __Dedicate resources__ in Game bar.
@@ -182,7 +182,7 @@ The new functionality requires the latest version of the HEIF package. The lates
 
 To rotate a HEIF image file, simply right-click on it in File Explorer and select "Rotate right" or "Rotate left" from the menu. "Date taken" and other properties can be edited by clicking on "Properties" and selecting the "Details" tab.
 
-![alt text](images/heic2.png "HEIF in file explorer")
+![HEIF in file explorer](images/heic2.png "HEIF in file explorer")
 
 ## Input 
 
@@ -225,7 +225,7 @@ We are adding support for IPv6 to KDNET. To make room for the larger headers req
 ## Local experience packs
 Local Experience Packs are Microsoft Store apps that deliver Windows display language quality improvements. You can now access them easily via the Settings App. Please go to Settings App – Time & Language – Language. Once here click on <i>Add a Windows display language with Local Experience Packs</i> link to download a Local Experience Pack from the Microsoft Store and start enjoying Windows in your preferred language.
 
-![alt text](images/Get-LXP-from-Store.png "local experience packs")
+![local experience packs](images/Get-LXP-from-Store.png "local experience packs")
 
 The Settings app provides improved discoverability of features supported for each language.
 
@@ -352,7 +352,7 @@ As many of you know, we added dark theme support to Windows based on your feedba
 
 *__The IME now uses the same UX for expressive input as other languages__. You can bring it up by clicking the emoji button in the IME toolbar, or use the Emoji Panel hotkeys (WIN + period (.) or WIN + semicolon (;)). You can browse between Emoji, Kaomoji, and Symbol input when Chinese (Simplified) is the active locale.
 
-![alt text](images/imeemoji.png "ime emojis")
+![ime emojis](images/imeemoji.png "ime emojis")
 
 ## Post-upgrade setup
 You may see this window showing after you upgrade. Don’t worry – all your stuff is still there! We know some of you bought and setup your devices a long time ago – the features available in Windows have changed since then, so we’re giving you an opportunity to go through the setup questions you may have missed to ensure your device has the best setup possible. Click “Let’s Go” to go through those setup questions or click “Skip for now” if you want to go straight to your desktop. The conditions for showing this page are cloud programmable and may change over time.
@@ -514,7 +514,7 @@ __Storage Sense picks up a new skill__:  Starting with the [Creators Update](htt
 ## SwiftKey intelligence comes to Windows
 [SwiftKey](https://www.microsoft.com/en-us/swiftkey) gives you more accurate auto-corrections and predictions by learning your writing style – including the words, phrases and emoji that matter to you. It’s available for Android and iOS, and SwiftKey powers the typing experience on Windows when using the touch keyboard to write in English (United States), English (United Kingdom), French (France), German (Germany), Italian (Italy), Spanish (Spain), Portuguese (Brazil), or Russian.
 
-![alt text](images/swift2.png "swiftkey")
+![SwiftKey](images/swift2.png "SwiftKey")
 
 ## Task Manager memory reporting improvements
 In Windows 10, version 1809, the main memory column in Task Manager __Processes__ tab does not include memory used by suspended UWP processes. This more accurately reflects the OS behavior in which the OS can reclaim memory used by suspended UWP processes if needed. This means that if you have several UWP processes suspended in the background, the OS can take back memory from these suspended UWP processes if needed and use it for something that requires more memory. New and old memory columns will be available in “Details” tab for you to do comparisons. 
@@ -569,7 +569,7 @@ One of the things we’ve heard from you is that it’s hard to know when you’
 * Video mode increases the screen to screen latency to ensure the video on the big screen plays back smoothly and without glitching.
 * Productivity modes strikes a good balance between game mode and video mode where the screen to screen latency is responsive enough that typing feels natural, while ensuring videos don’t glitch too often.
 
-![alt text](images/beaming.png "wireless projection banner")
+![wireless projection banner](images/beaming.png "wireless projection banner")
 
 ## Your Phone app
 Android phone users, you can finally stop emailing yourself photos. Drag and drop that photo from your phone onto your PC. Copy, edit, or ink on that photo, right from your PC. With __Your Phone__ app, you get instant access to your Android’s most recent photos on your PC. Try it out by opening __Your Phone__ app. You will receive an app from Microsoft which you must download to your mobile phone and follow the setup prompts. Windows 10 build 17723+ is highly recommended for the best experience. Android 7.0+ are compatible with __Your Phone__ app. For PCs in the China region, Your Phone app services will be enabled in the future.
