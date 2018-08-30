@@ -289,7 +289,7 @@ Organizations today deploy their applications across multiple clouds including o
 For more details about these improvements, please see our blog entry: [Top 10 Networking Features in Windows Server 2019: #6 High Performance SDN Gateways](https://blogs.technet.microsoft.com/networking/2018/08/15/high-performance-gateways/).
 
 ### SDN Fabric Access Control Lists (ACLs)
-We provide the ability to lock down the security of your virtual networks by automatically applying ACLs to to the fabric.
+We provide the ability to lock down the security of your virtual networks by automatically applying ACLs to the fabric.
 
 ### Firewall Logging
 SDN enables the Hyper-V host to generate firewall logs that are consistent in format with Azure Network Watcher.
