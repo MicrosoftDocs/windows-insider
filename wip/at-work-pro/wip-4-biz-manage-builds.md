@@ -47,7 +47,7 @@ To join multiple devices on Azure Active Directory to your Azure AD domain, it i
 You can use Group Policy or MDM solutions such as Intune to configure the Windows Update for Business settings that control how and when Windows 10 Insider Preview Builds are installed on devices. 
 
 ### Set using Group Policy
-Use the [Group Policy Management Console](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753298)(GPMC) in Windows Server 2012 R2 or later to set the following policies on domain-joined devices. 
+Use the [Group Policy Management Console](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753298) (GPMC) in Windows Server 2012 R2 or later to set the following policies on domain-joined devices. 
 >__NOTE:__ Group Policies for Insider Preview builds can only be set using GPMC and cannot currently be set using Windows Server Update Services (WSUS) or System Center Configuration Manager. To confirm that a device is connected to Windows Update and not WSUS, in Registry Editor go to: __HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate__.  
 
 __Allow Telemetry__. To enable installation of Insider Preview builds on a device, telemetry must be set to level 2 (enhanced) or higher. 
@@ -89,11 +89,11 @@ In addition to the CSPs above, Insider Preview builds can be managed in Intune u
 ## Confirm policies and updates 
 
 To confirm that your Windows Insider for Business policies have been set correctly, go to the Registry Editor on the device and check the following: __HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\WindowsSelfHost\Applicability__where: 
-EnablePreviewBuilds = 2
-IsConfigSettingsFlightEnabled = 1
-Ring = WIS (Slow) or WIF (Fast) 
+> EnablePreviewBuilds = 2
+> IsConfigSettingsFlightEnabled = 1
+> Ring = WIS (Slow) or WIF (Fast) 
 
-![WUFB in REGISTRY](images/wip-4-biz-registry2.png "ADD")
+![WUFB in REGISTRY](images/wip-4-biz-registry.png "ADD")
 
 If you receive an error message on the Microsoft Windows Update Web site or from the Automatic Updates service, you can use the information that is included in the Windowsupdate.log log file to troubleshoot the issue. To get log, use the following Powershell cmdlet: __Get-WindowsUpdateLog__. See [How to read the Windows Update log file](https://support.microsoft.com/en-us/help/902093/how-to-read-the-windowsupdate-log-file). 
 
