@@ -86,7 +86,19 @@ In addition to the CSPs above, Insider Preview builds can be managed in Intune u
 
 ![Intune Update Ring](images/wip-4-biz_manage_intune.png "ADD")
 
->__NOTE:__ To confirm the your Windows Insider for Business policies have been set correctly, go to the Registry Editor on the device and check the following: __HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\WindowsSelfHost\Applicability__. 
+## Confirm policies and updates 
+
+To confirm that your Windows Insider for Business policies have been set correctly, go to the Registry Editor on the device and check the following: __HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\WindowsSelfHost\Applicability__where: 
+EnablePreviewBuilds = 2
+IsConfigSettingsFlightEnabled = 1
+Ring = WIS (Slow) or WIF (Fast) 
+
+![WUFB in REGISTRY](images/wip-4-biz-registry2.png "ADD")
+
+If you receive an error message on the Microsoft Windows Update Web site or from the Automatic Updates service, you can use the information that is included in the Windowsupdate.log log file to troubleshoot the issue. To get log, use the following Powershell cmdlet: __Get-WindowsUpdateLog__. See [How to read the Windows Update log file](https://support.microsoft.com/en-us/help/902093/how-to-read-the-windowsupdate-log-file). 
+
+
+See [Get-WindowsUpdateLog](https://docs.microsoft.com/en-us/powershell/module/windowsupdate/get-windowsupdatelog?view=win10-ps)
 
 * [Register for the Windows Insider Program for Business](wip-4-biz-register.md)
 * [Share Feedback via the Feedback Hub](wip-4-biz-feedback-hub.md)
