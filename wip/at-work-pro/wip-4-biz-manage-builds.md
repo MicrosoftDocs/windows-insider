@@ -13,7 +13,7 @@ ms.author: dawn.wood
 ms.localizationpriority: medium
 ---
 
-# Install Windows 10 Insider Preview Builds on multiple devices
+# Manage Windows 10 Insider Preview Builds 
 Administrators can manage installation of Insider Preview builds across multiple devices in their organization using the following steps: 
 
 ## Register your domain 
@@ -85,6 +85,8 @@ In addition to the CSPs above, Insider Preview builds can be managed in Intune u
 5.	Go to __Assignments__ to assign policy to users and devices. Note: you can create groups with one or more users or devices in Intune under __Groups__. 
 
 ![Intune Update Ring](images/wip-4-biz_manage_intune.png "ADD")
+
+>__NOTE:__ To confirm the your Windows Insider for Business policies have been set correctly, go to the Registry Editor on the device and check the following: __HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\WindowsSelfHost\Applicability__. 
 
 * [Register for the Windows Insider Program for Business](wip-4-biz-register.md)
 * [Share Feedback via the Feedback Hub](wip-4-biz-feedback-hub.md)
