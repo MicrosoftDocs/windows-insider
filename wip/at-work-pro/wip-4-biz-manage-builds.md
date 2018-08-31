@@ -13,12 +13,11 @@ ms.author: dawn.wood
 ms.localizationpriority: medium
 ---
 
-# Manage installation of Windows 10 Insider Preview Builds 
+# Manage Windows 10 Insider Preview Builds 
 Administrators can manage installation of Insider Preview builds across multiple devices in their organization using the following steps: 
 
 ## Register your domain 
-Once you have registered your organizational domain with the Windows Insider Program, all devices connected to that domain can receive Insider Preview builds once Windows Insider for Business policies have been applied. 
-__NOTE:__ To register a domain, you must be registered in the Windows Insider Program as an individual user with your work account in Azure AD (See [Register](wip-4-biz-register.md)) and you must be assigned a Global Administrator role on that Azure AD domain. Also requires Windows 10 Version 1703 or later on the machine used for registration. 
+Organizations have the option of registering their Azure Active Directory domain in the Windows Insider Program. To register a domain, you must be registered in the Windows Insider Program with your work account in Azure AD (See [Register](wip-4-biz-register.md)) and you must be assigned a Global Administrator role on that Azure AD domain. Also requires Windows 10 Version 1703 or later on the machine used for registration. 
 
 > [!div class="nextstepaction"]
 > [Register your domain](https://insider.windows.com/en-us/for-business-organization-admin/)
@@ -49,6 +48,7 @@ You can use Group Policy or MDM solutions such as Intune to configure the Window
 
 ### Set using Group Policy
 Use the [Group Policy Management Console](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753298)(GPMC) in Windows Server 2012 R2 or later to set the following policies on domain-joined devices. 
+>__NOTE:__ Group Policies for Insider Preview builds can only be set using GPMC and cannot currently be set using Windows Server Update Services (WSUS) or System Center Configuration Manager. To confirm that a device is connected to Windows Update and not WSUS, in Registry Editor go to: __HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate__.  
 
 __Allow Telemetry__. To enable installation of Insider Preview builds on a device, telemetry must be set to level 2 (enhanced) or higher. 
 1. In GPMC, go to: __Computer Configuration/Administrative Templates/Windows Components/Windows UpdateData Collection and Preview builds/Allow Telemetry__
@@ -65,9 +65,7 @@ __Branch Readiness Level__. This Windows Update for Business allows enables dist
 2. Click Enable 
 3. For "Select the Windows readiness level for the updates you want to receive", select your desired Ring. 
 4. For "After a Preview Build or Feature Update is released, defer receiving it for this many days", enter a number up to 365. 
-5. For "Pause Preview Builds or Feature Updates starting" enter date.
-
->__NOTE:__ Group Policies for Insider Preview builds can only be set using GPMC and cannot currently be set using Windows Server Update Services (WSUS) or System Center Configuration Manager. To confirm that a device is connected to Windows Update and not WSUS, in Registry Editor go to: __HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate__.  
+5. For "Pause Preview Builds or Feature Updates starting" enter date. 
 
 ### Set using MDM policies 
 To set Allow Telemetry and Windows Insider for Business policies above using Intune or non-Microsoft MDM service providers, using the CSP settings below. For guidance on configuring CSPs, see [CSPs in MDM](https://docs.microsoft.com/en-us/windows/configuration/provisioning-packages/how-it-pros-can-use-configuration-service-providers#csps-in-mdm). 
@@ -87,6 +85,8 @@ In addition to the CSPs above, Insider Preview builds can be managed in Intune u
 5.	Go to __Assignments__ to assign policy to users and devices. Note: you can create groups with one or more users or devices in Intune under __Groups__. 
 
 ![Intune Update Ring](images/wip-4-biz_manage_intune.png "ADD")
+
+>__NOTE:__ To confirm the your Windows Insider for Business policies have been set correctly, go to the Registry Editor on the device and check the following: __HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\WindowsSelfHost\Applicability__. 
 
 * [Register for the Windows Insider Program for Business](wip-4-biz-register.md)
 * [Share Feedback via the Feedback Hub](wip-4-biz-feedback-hub.md)

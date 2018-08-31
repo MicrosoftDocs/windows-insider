@@ -31,12 +31,12 @@ You can install Insider Preview builds on individual devices, manage installatio
 9. Once the download is complete, reboot your device again to complete installation. 
 
 __NOTE:__ 
-* Once you have installed an Insider Preview build, the version number will appear in a watermark on the lower right- hand corner of your desktop. You can also type the "winver" command in your Search bar. 
+* Once you have installed an Insider Preview build, the version number will appear in the watermark on the lower righthand corner of your desktop. You can also confirm the Insider Preview build version installed by going to __About your PC__ and scrolling to "Windows Specifications". 
 * To confirm that you have the latest Insider Preview build version, check our [Flight Hub](https://docs.microsoft.com/en-us/windows-insider/flight-hub/).  
 * If you are not receiving the latest Insider Preview build, check these [troubleshooting tips](https://docs.microsoft.com/en-us/windows-insider/at-work-pro/wip-4-biz-troubleshooting). 
 
 ## Install across multiple devices 
-As an alternative to registering individual devices into the Windows Insider Program, administrators can install and manage Insider Preview builds centrally across multiple devices in their organizational domain using Group Policies or MDM Policies. For instructions, see [Manage Windows Insider Preview builds](wip-4-biz-manage-builds.md).
+Administrators can install and manage Insider Preview builds centrally across multiple devices in their organizational domain using Group Policies or MDM Policies. This option requires an Azure AD domain which must be registered in the Windows Insider Program. For instructions, see [Manage Windows Insider Preview builds](wip-4-biz-manage-builds.md).
 
 ## Install on a virtual machine
 You can run Insider Preview builds as a virtual machine in Hyper-V. This option enables you to run Insider Preview builds without changing the Windows 10 production build already running on a PC.
