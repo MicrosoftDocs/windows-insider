@@ -162,7 +162,7 @@ Credential Guard is a security service in Windows 10 built to protect Active Dir
 
 Credential Guard has always been an optional feature, but Windows 10-S turns this functionality on by default when the machine has been AAD joined. This provides an added level of security when connecting to domain resources not normally present on 10-S devices. Please note that Credential Guard is available only to S-Mode devices or Enterprise and Education Editions. 
 
-To evaluate: Credential Guard on S-Mode is pre-configured and enabled for both S-Mode and Enterprise Edition in the [Olympia - Windows Insider for Business Lab](https://olympia.windows.com/). To configure manually in your own lab environment: 
+To evaluate: Credential Guard is preconfigured and enabled for both S-Mode and Enterprise Edition in the [Windows Insider Lab for Enterprise](https://olympia.windows.com/). To configure manually in your own lab environment: 
 
 1.	Set up Intune and enroll a device. [Request an Intune trial](http://www.microsoft.com/en-us/cloud-platform/enterprise-mobility-security-trial). 
 2.	Navigate to the [Azure portal](https://portal.azure.com) and sign in with an Intune admin account.
@@ -184,7 +184,7 @@ As an IT admin you can choose which encryption algorithm to apply to a device on
 
 For example, as an IT admin for your organization you can choose the XTS-AES 256 encryption algorithm, and have it applied even for devices that would normally encrypt themselves automatically with the default XTS-AES 128 algorithm during OOBE.
 
-To evaluate: This feature is pre-configured in the [Olympia - Windows Insider for Business Lab](https://olympia.windows.com/). Connect a client device to Olympia Corp and follow the AutoPilot quest for the steps needed to automatically deploy a device with Bitlocker policy. 
+To evaluate: This feature is preconfigured in the [Windows Insider Lab for Enterprise](https://olympia.windows.com/). For the steps needed to automatically deploy a device with Bitlocker policy, connect a client device to Olympia Corp and follow the AutoPilot quest. 
 
 
 
