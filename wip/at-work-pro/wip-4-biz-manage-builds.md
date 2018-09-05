@@ -28,7 +28,7 @@ __NOTE:__
 * To get the most benefit out of the Windows Insider Program for Business, organizations should not use a test tenant of Azure AD. There will be no modifications to the Azure AD tenant to support the Windows Insider Program as it will only be used as an authentication method.
 
 ## Join devices to Azure Active Directory
-In order to receive Insider Preview builds through Windows Update, devices must be joined to the same Azure AD domain that was registered with the Windows Insider Program. For devices on a local Azure Directory not already joined to Azure AD, follow these steps: 
+In order to receive Insider Preview builds through Windows Update, devices must be joined to the same Azure AD domain that was registered with the Windows Insider Program. For devices on a local Active Directory not already joined to Azure AD, follow these steps: 
 
 ### To join individual devices 
 1. Open __Settings__, and then select __Accounts__.
@@ -56,7 +56,7 @@ __Allow Telemetry__ sets the level of diagnostic data that can be sent to Micros
 
 __Manage preview builds__ enables or prevents installation of Insider Preview builds on a device. You can also decide to stop Insider Preview builds once the Windows release is public. 
 * In GPMC, go to: __Computer Configuration/Administrative Templates/Windows Components/Windows Update/Windows Update for Business/Select when Preview Builds and Feature Updates are received__ and click __Enabled__.  
-* For "Set the behaviour for receiving preview builds, select "Enable preview builds", "Disable preview builds once next release is public" or "Disable preview builds". 
+* For "Set the behavior for receiving preview builds, select "Enable preview builds" and set your Branch Readiness Level per below. You can also select "Disable preview builds once next release is public" or "Disable preview builds". 
 
 __Branch Readiness Level__ enables selection of flight rings and option to defer or pause the delivery of updates. 
 In GPMC, go to: __Computer Configuration/Administrative Templates/Windows Components/Windows Update/Windows Update for Business/Select when Preview Builds and Feature Updates are received__ and click __Enabled__. 
@@ -73,7 +73,7 @@ To set Allow Telemetry and Windows Insider for Business policies above using Int
 
 [Update/BranchReadinessLevel](https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-update#update-branchreadinesslevel)
 
-### Set using MDM polices with Intune 
+### Set using MDM polices using Update Rings in Intune
 In addition to the CSPs above, Insider Preview builds can be managed in Intune using Windows 10 Update Rings. 
 1.	Log into the Intune management portal and go to __Software Update>Windows 10 Update Rings__. Click “+” to create an Update Ring policy.
 2.	Under __Servicing Channel__, select "Fast" or "Slow" to assign Insider Preview builds from an Insider Preview Ring. See [Windows readiness levels and flight rings](wip-4-biz-flight-levels-and-rings.md) for more information about each choice. 
@@ -85,9 +85,8 @@ In addition to the CSPs above, Insider Preview builds can be managed in Intune u
 
 ## Confirm policies 
 
-To confirm that a Windows Insider for Business policy has been set correctly, go to __Settings>Windows Insider for Business__ and click on "View configured update policies". You can also check the following key in the Registry Editor: __HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\WindowsUpdate__
+To confirm that a Windows Insider for Business policy has been set correctly on a device, go to __Settings>Update & Security>Windows Update__ and click on "View configured update policies". You can also check the following key in the Registry Editor on the device: __HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\windows\WindowsUpdate__
 * BranchReadinessLevel = 2 (Fast), 4 (Slow) or 8 (Release Preview) 
-* DeferFeatureUpdates = 1
 * ManagePreviewBuilds = 1
 
 ![Windows Update for Business values in Registry Editor](images/wip-4-biz-reg-xs.png "ADD")
@@ -95,8 +94,6 @@ To confirm that a Windows Insider for Business policy has been set correctly, go
 __NOTE:__
 * Once a policy has been set, the device must be restarted for the policy to be activated. 
 * If a device is not receiving Insider Preview builds, see [Troubleshooting](wip-4-biz-troubleshooting.md). 
-
-See [Get-WindowsUpdateLog](https://docs.microsoft.com/en-us/powershell/module/windowsupdate/get-windowsupdatelog?view=win10-ps)
 
 * [Register for the Windows Insider Program for Business](wip-4-biz-register.md)
 * [Share Feedback via the Feedback Hub](wip-4-biz-feedback-hub.md)
