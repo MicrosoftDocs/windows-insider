@@ -29,7 +29,7 @@ The items with in __bold__ are the latest releases for the individual versions o
 |18214|[8/10/2018*](https://blogs.windows.com/windowsexperience/2018/08/10/announcing-windows-10-insider-preview-build-18214/)||||||
 |18204| [7/25/2018*](https://aka.ms/for-kevin)||
 
-## Upcoming feature update for Windows 10 (RS5)
+## Windows 10 October 2018 Update (RS5)
 You can get builds of RS5 today if your device is in the Fast ring. RS5 Skip ahead is complete but you can see the builds that went out as Skip Ahead below, marked with an asterisk.     
 
 Builds of Windows Server 2019 are released to members of the Windows Insider Program for Server. 
@@ -37,10 +37,13 @@ Builds of Windows Server 2019 are released to members of the Windows Insider Pro
 
 | Build | Fast | Slow | Server | IoT | ISO | SDK |
 |-------|------|------|--------|-----|-----|-----|
-|17746|[__8/24/2018__](https://blogs.windows.com/windowsexperience/2018/08/24/announcing-windows-10-insider-preview-build-17746/)
-|17744|[8/21/2018](https://blogs.windows.com/windowsexperience/2018/08/21/announcing-windows-10-insider-preview-build-17744/)|[__8/30/2018__](https://blogs.windows.com/windowsexperience/2018/08/21/announcing-windows-10-insider-preview-build-17744/)|[__8/28/2018__](https://blogs.windows.com/windowsexperience/2018/08/28/announcing-windows-server-2019-insider-preview-build-17744/)|||[__8/28/2018__](https://blogs.windows.com/buildingapps/2018/08/28/windows-10-sdk-preview-build-17744-available-now/)|
+|17754|[__9/5/2018__](https://blogs.windows.com/windowsexperience/2018/09/05/announcing-windows-10-insider-preview-build-17754/)
+|17751|[8/31/2018](https://blogs.windows.com/windowsexperience/2018/08/31/announcing-windows-10-insider-preview-build-17751/)
+|17749||||||[__9/4/2018__](https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewSDK)
+|17746|[8/24/2018](https://blogs.windows.com/windowsexperience/2018/08/24/announcing-windows-10-insider-preview-build-17746/)
+|17744|[8/21/2018](https://blogs.windows.com/windowsexperience/2018/08/21/announcing-windows-10-insider-preview-build-17744/)|[__8/30/2018__](https://blogs.windows.com/windowsexperience/2018/08/21/announcing-windows-10-insider-preview-build-17744/)|[__8/28/2018__](https://blogs.windows.com/windowsexperience/2018/08/28/announcing-windows-server-2019-insider-preview-build-17744/)||[__9/4/2018__](https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewadvanced)|[8/28/2018](https://blogs.windows.com/buildingapps/2018/08/28/windows-10-sdk-preview-build-17744-available-now/)|
 |17741|[8/17/2018](https://blogs.windows.com/windowsexperience/2018/08/17/build17741/)|||||
-|17738|[8/14/2018](https://blogs.windows.com/windowsexperience/2018/08/14/announcing-windows-10-insider-preview-build-17738/)|[8/23/2018](https://blogs.windows.com/windowsexperience/2018/08/14/announcing-windows-10-insider-preview-build-17738/)|[8/21/2018](https://blogs.windows.com/windowsexperience/2018/08/21/announcing-windows-server-2019-insider-preview-build-17738/)||[__8/28/2018__](https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewadvanced)|[8/21/2018](https://blogs.windows.com/buildingapps/2018/08/21/windows-10-sdk-preview-build-17738-available-now/)
+|17738|[8/14/2018](https://blogs.windows.com/windowsexperience/2018/08/14/announcing-windows-10-insider-preview-build-17738/)|[8/23/2018](https://blogs.windows.com/windowsexperience/2018/08/14/announcing-windows-10-insider-preview-build-17738/)|[8/21/2018](https://blogs.windows.com/windowsexperience/2018/08/21/announcing-windows-server-2019-insider-preview-build-17738/)||[8/28/2018](https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewadvanced)|[8/21/2018](https://blogs.windows.com/buildingapps/2018/08/21/windows-10-sdk-preview-build-17738-available-now/)
 |17735|[8/10/2018](https://blogs.windows.com/windowsexperience/2018/08/10/announcing-windows-10-insider-preview-build-17735/)|
 |17733 | [8/08/2018](https://blogs.windows.com/windowsexperience/2018/08/08/announcing-windows-10-insider-preview-build-17733/)||[8/14/2018](https://blogs.windows.com/windowsexperience/2018/08/14/announcing-windows-server-2019-insider-preview-build-17733/)|||[8/14/2018](https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewSDK)
 |17730 | [8/03/2018](https://blogs.windows.com/windowsexperience/2018/08/03/announcing-windows-10-insider-preview-build-17730/)
