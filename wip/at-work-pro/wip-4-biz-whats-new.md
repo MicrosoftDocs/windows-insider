@@ -162,6 +162,16 @@ Credential Guard is a security service in Windows 10 built to protect Active Dir
 
 Credential Guard has always been an optional feature, but Windows 10-S turns this functionality on by default when the machine has been AAD joined. This provides an added level of security when connecting to domain resources not normally present on 10-S devices. Please note that Credential Guard is available only to S-Mode devices or Enterprise and Education Editions. 
 
+To evaluate: Credential Guard on S-Mode is pre-configured and enabled for both S-Mode and Enterprise Edition in the [Olympia - Windows Insider for Business Lab](https://olympia.windows.com/). To configure manually in your own lab environment: 
+
+1.	Set up Intune and enroll a device. [Request an Intune trial](http://www.microsoft.com/en-us/cloud-platform/enterprise-mobility-security-trial). 
+2.	Navigate to the [Azure portal](https://portal.azure.com) and sign in with an Intune admin account.
+3.	On the left navigation bar, click __All services__ and search for Intune. 
+4.	In Intune, click on __Device configuration>Profiles__ and click __+ Create profile__.
+6.	Under "Platform", select __Windows 10 and later__. 
+7.  Under "Profile Type", select __Endpoint Protection__. 
+7.	In Settings, click __Windows Defender Credential Guard__ and select __Enable with UEFI Lock__.
+
 ## BitLocker silent enforcement on fixed drives
 Through an MDM policy, BitLocker can silently be enabled for standard AAD Joined users. In RS4 (Windows 10 build 1803) automatic BitLocker encryption was enabled for standard AADJ users, but this still required modern hardware that passed the Hardware Security Test Interface (HSTI). This new feature functionality enables BitLocker via policy even on devices that don’t pass the HSTI. 
 
@@ -173,6 +183,8 @@ This feature will soon be enabled on Olympia Corp as an optional feature.
 As an IT admin you can choose which encryption algorithm to apply to a device on your automatic BitLocker encryption capable devices, rather than automatically having those devices encrypt themselves with the default algorithm. This new functionality allows the encryption algorithm, and other BitLocker policies that must be applied prior to encryption starting, to get delivered before automatic BitLocker encryption begins. 
 
 For example, as an IT admin for your organization you can choose the XTS-AES 256 encryption algorithm, and have it applied even for devices that would normally encrypt themselves automatically with the default XTS-AES 128 algorithm during OOBE.
+
+To evaluate: This feature is pre-configured in the [Olympia - Windows Insider for Business Lab](https://olympia.windows.com/). Connect a client device to Olympia Corp and follow the AutoPilot quest for the steps needed to automatically deploy a device with Bitlocker policy. 
 
 
 
