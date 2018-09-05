@@ -164,11 +164,11 @@ Credential Guard has always been an optional feature, but Windows 10-S turns thi
 
 To evaluate: Credential Guard on S-Mode is pre-configured and enabled for both S-Mode and Enterprise Edition in the [Olympia - Windows Insider for Business Lab](https://olympia.windows.com/). To configure manually in your own lab environment: 
 
-1.	Set up Intune and add a device to your Intune instance. [Request an Intune trial](http://www.microsoft.com/en-us/cloud-platform/enterprise-mobility-security-trial). 
+1.	Set up Intune and enroll a device. [Request an Intune trial](http://www.microsoft.com/en-us/cloud-platform/enterprise-mobility-security-trial). 
 2.	Navigate to the [Azure portal](https://portal.azure.com) and sign in with an Intune admin account.
 3.	On the left navigation bar, click __All services__ and search for Intune. 
 4.	In Intune, click on __Device configuration>Profiles__ and click __+ Create profile__.
-6.	Under "Platform", select __Windows 10 and later__ 
+6.	Under "Platform", select __Windows 10 and later__. 
 7.  Under "Profile Type", select __Endpoint Protection__. 
 7.	In Settings, click __Windows Defender Credential Guard__ and select __Enable with UEFI Lock__.
 
@@ -184,7 +184,7 @@ As an IT admin you can choose which encryption algorithm to apply to a device on
 
 For example, as an IT admin for your organization you can choose the XTS-AES 256 encryption algorithm, and have it applied even for devices that would normally encrypt themselves automatically with the default XTS-AES 128 algorithm during OOBE.
 
-To evaluate: This feature is preconfigured in the [Olympia - Windows Insider for Business Lab](https://olympia.windows.com/). Connect a client device to Olympia Corp and follow the AutoPilot quest for the steps needed to automatically deploy a device with Bitlocker policy. 
+To evaluate: This feature is pre-configured in the [Olympia - Windows Insider for Business Lab](https://olympia.windows.com/). Connect a client device to Olympia Corp and follow the AutoPilot quest for the steps needed to automatically deploy a device with Bitlocker policy. 
 
 
 
