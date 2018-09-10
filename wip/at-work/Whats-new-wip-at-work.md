@@ -24,7 +24,7 @@ We also encourage you to visit the [Windows Server Insiders space](https://techc
 
 This section last updated 08/27/2018
 
-App Compatibility, App Compatibility, a Feature on Demand (FoD), has been updated with support for adding Internet Explorer 11, and this FoD is a requirement for adding Internet Explorer 11.
+App Compatibility, a Feature on Demand (FoD), has been updated with support for adding Internet Explorer 11. This FoD is a requirement for adding Internet Explorer 11.
 
 This FoD significantly improves the app compatibility of Windows Server Core by including a set of binaries and packages from Windows Server with Desktop, without adding any of the Windows Server Desktop GUI or Windows 10 GUI experiences. The FoD package is available on a separate ISO and installs on Windows Server Core only.
 
