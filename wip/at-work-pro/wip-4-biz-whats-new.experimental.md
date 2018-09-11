@@ -140,11 +140,21 @@ You can add specific rules for a WSL process in Windows Defender Firewall, just 
 ### Microsoft Edge Group Policies
 The Microsoft Edge team introduced new Group Policies and MDM settings for IT administrators to manage Microsoft Edge. The new policies include enabling/disabling full-screen mode, printing, favorites bar, and saving history; prevent certificate error overrides; configuring the Home button and startup options; setting the New Tab page and Home button URL and managing extensions. Learn more about the [new Microsoft Edge policies](https://aka.ms/new-microsoft-edge-group-policies).
 
-### Windows 10-S Credential Guard is supported by default on 10S devices that are AAD Joined
+## Windows 10-S Credential Guard is supported by default on 10S devices that are AAD Joined
 
 Credential Guard is a security service in Windows 10 built to protect Active Directory domain (AD) credentials so that they can't be stolen or misused by malware on a users machine. It is designed to protect against well-known threats such as Pass-the-Hash and credential harvesting.
 
 Credential Guard has always been an optional feature, but Windows 10-S turns this functionality on by default when the machine has been AAD joined. This provides an added level of security when connecting to domain resources not normally present on 10-S devices. Please note that Credential Guard is available only to S-Mode devices or Enterprise and Education Editions. 
+
+To evaluate: Credential Guard is preconfigured and enabled for both S-Mode and Enterprise Edition in the [Windows Insider Lab for Enterprise](https://olympia.windows.com/). To configure manually in your own lab environment: 
+
+1.	Set up Intune and enroll a device. [Request an Intune trial](http://www.microsoft.com/en-us/cloud-platform/enterprise-mobility-security-trial). 
+2.	Navigate to the [Azure portal](https://portal.azure.com) and sign in with an Intune admin account.
+3.	On the left navigation bar, click __All services__ and search for Intune. 
+4.	In Intune, click on __Device configuration>Profiles__ and click __+ Create profile__.
+6.	Under "Platform", select __Windows 10 and later__. 
+7.  Under "Profile Type", select __Endpoint Protection__. 
+7.	In Settings, click __Windows Defender Credential Guard__ and select __Enable with UEFI Lock__.
 
 ### Windows 10 Pro S Mode requires a network connection (Build 17712)
 
