@@ -171,14 +171,19 @@ Per-site media autoplay controls: You can now control autoplay permissions on a 
 
 ![Edge design improvements](images/edge-design.png "Edge design improvements")
 
-**Redesigned “…” menu and Settings:** We’ve heard your feedback that the Microsoft Edge settings were getting a little complex for a single page. In this release, we’re overhauling the Microsoft Edge settings to make it easier to navigate, put commonly-used actions front and center, and allow more customization than ever.
-
-![Edge menu options](images/SettingsandMore.png "Edge menu options")
-
 **Customize toolbar items for Microsoft Edge:** When you click “…” in the Microsoft Edge toolbar, you’ll find a refined menu that puts common commands like **New tab** and **New window** front and center. We’ve also added the much-requested ability to customize which icons appear in the Microsoft Edge toolbar – you can remove them all for a tidier look or add as many as you like to bring your favorite functionality to your fingertips!
 Last (but not least), this release breaks **Settings** out into subpages by category, with better-organized options and less clutter on each page. The new **Settings** experience is designed to match the experience in the Microsoft Edge hub, for a quicker and more familiar experience.
 
 ![Edge custom toolbar](images/edge-custom-toolbar.png "Edge custom toolbar")
+
+
+**Redesigned “…” menu and Settings:** We’ve heard your feedback that the Microsoft Edge settings were getting a little complex for a single page. In this release, we’re overhauling the Microsoft Edge settings to make it easier to navigate, put commonly-used actions front and center, and allow more customization than ever.
+
+![Edge menu options](images/SettingsandMore.png "Edge menu options")
+
+**New consent box for saving Autofill data:** Microsoft Edge seeks your permission each time to save your passwords and card details for Autofill purposes. We have come up with improved design and string changes to the consent notification pop-up to improve discoverability and provide clarity on the value of saving this information. The changes include introducing password and payment icons, improved messaging, and highlighting of options. One interesting update would be the cool micro-animations for the new password and payment icons.
+
+![Edge autofill consent](images/edge-autofill-consent.png "Edge autofill consent")
 
 __See your top sites in the jump list:__ You can now see your top sites in the jump list on the Windows task bar or Start menu. Just right-click the Microsoft Edge icon to see a list of your most visited sites and pin the ones that matter most to you. Right-click on any entry to remove it from the list. 
 
@@ -193,6 +198,11 @@ __Do more from the “Downloads” pane:__ We’ve added options for __Show in f
 __Retired XSS filter:__ We are retiring the XSS filter in Microsoft Edge. Our customers remain protected thanks to modern standards like Content Security Policy, which provide more powerful, better performing, and secure mechanisms to protect against content injection attacks, with high compatibility across modern browsers.
 
 ### Microsoft Edge PDF reader improvements
+
+**New PDF icon:** Windows 10 now has a new icon for PDFs in File Explorer when Microsoft Edge is your default PDF handler.
+
+![new pdf icon](images/new-pdf-icon.png "new pdf icon")
+
 __Improved toolbar options:__ The toolbar available on a PDF document opened in Microsoft Edge will now show text descriptions for the icons to make them easily understandable by users. New options like __Add notes__ are now available in the toolbar so that these tools are handy when you need them.
 
 ![improved toolbar](images/PDFImprovedToolbar.png "improved toolbar")
@@ -203,12 +213,13 @@ __Pin/unpin PDF toolbar:__ The PDF toolbar can now be pinned at the top of the d
 
 __Rendering improvements:__ We’ve included a bunch of rendering performance fixes so that you will see less white pages when you navigate through PDF files in Microsoft Edge.
 
-### Lookup definitions for words in reading view, books, and PDFs
-We’ve added a new dictionary function, so you can look up definitions for key words when reading a page or document. Simply select a single word to see the definition appear above your selection.
+**Lookup definitions for words in reading view, books, and PDFs:** We’ve added a new dictionary function, so you can look up definitions for key words when reading a page or document. Simply select a single word to see the definition appear above your selection.
 
 ![dictionary](images/dictionary.png "dictionary")
 
 You can choose to have a word read aloud to you to hear the correct pronunciation or expand more details from the definition. You can toggle whether definitions appear and which types of content they work in under the __General__ tab of the Microsoft Edge settings menu.
+
+**Learning tools get richer:** Under learning tools available on Reading View, you can now see additional themes. These let you choose the theme color which is best for your eyes.
 
 ### WebDriver improvements
 You can automate testing in Microsoft Edge using WebDriver. WebDriver is a Windows Feature on Demand, so you no longer need to match the build and branch manually when installing WebDriver. When you take new Windows 10 updates, your WebDriver binary will be automatically updated to match.
