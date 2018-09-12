@@ -103,6 +103,112 @@ Other Improvements:
 •	When saving a file in Notepad, the line and column number no longer reset to 1.
 •	Notepad now correctly displays lines that don’t fit entirely on the screen.
 
+## Wireless projection experience
+
+One of the things we’ve heard from you is that it’s hard to know when you’re wirelessly projecting and how to disconnect if your session especially if started from file explorer or from an app. In today’s build, just like remote desktop you’ll see a control banner at the top of your screen when you’re in a session. The banner keeps you informed of the state of your connection, allows you to quick disconnect or reconnect to the same sink and allows you to tune the connection based on what you are doing. This tuning is done via the settings gear, which optimizes the screen to screen latency based on one of the three scenarios:
+* Game mode minimizes the screen to screen latency to make gaming over a wireless connection possible.
+* Video mode increases the screen to screen latency to ensure the video on the big screen plays back smoothly and without glitching.
+* Productivity modes strikes a good balance between game mode and video mode where the screen to screen latency is responsive enough that typing feels natural, while ensuring videos don’t glitch too often.
+
+![wireless projection banner](images/beaming.png "wireless projection banner")
+
+## SwiftKey intelligence comes to Windows
+[SwiftKey](https://www.microsoft.com/en-us/swiftkey) gives you more accurate auto-corrections and predictions by learning your writing style – including the words, phrases and emoji that matter to you. It’s available for Android and iOS, and SwiftKey powers the typing experience on Windows when using the touch keyboard to write in English (United States), English (United Kingdom), French (France), German (Germany), Italian (Italy), Spanish (Spain), Portuguese (Brazil), or Russian.
+
+![Swiftkey](images/swift2.png "Swiftkey")
+
+Windows now shows you insights about how its AI has been helping you type with efficiency. If you use the software keyboard on Windows, there are many features built into the typing experience that leverage AI and ML to help you be more efficient. Some examples include autocorrecting your spelling mistakes, prediction of the next word you would type, word suggestions as you start typing so you don’t have to type the full word and the number of words you’ve typed by swiping over the letters on the software keyboard (yes, you can do that, try it out if you have not yet).
+Windows now shows you stats about each of these features. Go to Settings > Devices > Typing and click on “View typing insights” link to see them.
+![typing insights](images/typing-insights.png "typing insights")
+
+### Emoji 11
+[Unicode 11 comes with 157 new emoji](http://blog.unicode.org/2018/06/announcing-unicode-standard-version-110.html). Including superheroes, redheads, a softball, a pirate flag, and a llama all made the cut. You can access them using the Emoji Panel (WIN+.) or the touch keyboard.
+
+![new emojis](images/WindowsInsiderBlog_EmojiRS5.png "new emojis")
+
+We’ve also made tweaks to some of our existing emoji – here are some examples:
+
+![emojis before after combo](images/emoji_beforeaftercombo.png "emojis before after combo")
+
+Our ninja cats got a bit of love too – can you spot the difference?
+![ninja cat emojis](images/WindowsInsiderBlog_EmojiRS5_NinjaCats.png "ninja cat emojis")
+
+__Emoji design updates__ based on your feedback and to improve consistency, we’ve made adjustments to the design of some of our emoji. Examples of updated emoji include:
+
+__Before__
+
+![emojis before](images/before_emoji.png "emojis before")
+
+__After__
+
+![emojis after](images/after_emoji.png "emojis after")
+
+__Emoji search comes to more languages__: You can find an emoji by keyword in over 190 locales, including English (Great Britain), French (France), German (Germany), Spanish (Spain), and more. This will help you get the emoji you want easily and quickly. As a reminder, to bring up the Emoji Panel set focus to a text field and press WIN + (period) or WIN + (semicolon).
+
+## Post-upgrade setup
+You may see this window showing after you upgrade. Don’t worry – all your stuff is still there! We know some of you bought and setup your devices a long time ago – the features available in Windows have changed since then, so we’re giving you an opportunity to go through the setup questions you may have missed to ensure your device has the best setup possible. Click “Let’s Go” to go through those setup questions or click “Skip for now” if you want to go straight to your desktop. 
+
+![oobe](images/SCOOBE-Intro.png "oobe")
+
+## Microsoft Edge improvements
+
+**Control whether media can play automatically** 
+We added a new setting in Microsoft Edge to allow you to control whether sites can autoplay media. You can find this setting under “Advanced Settings” > “Media autoplay,” with options to customize the behavior according to your preferences:
+
+![Edge autoplay](images/edge-autoplay.png "Edge autoplay")
+
+* **Allow** is the default and will continue to play videos when a tab is first viewed in the foreground, at the site’s discretion.
+* **Limit** restricts autoplay to work only when videos are muted, so you‘re never surprised by a sound. Once you click anywhere on the page, autoplay is re-enabled, and will continue to be allowed within that domain in that tab.
+* **Block** will prevent autoplay on all sites until you interact with the media content. Note that this may break some sites due to the strict enforcement – you may need to click multiple times for some video or audio to play correctly. Some sites may not work at all – in those cases, you can enable or block autoplay on a case-by-case bases from the website permissions pane (click the icon next to the address in the Address Bar).
+
+__New, clearer Settings and more (“…”) menu:__ We’ve redesigned the __Settings and more__ menu in Microsoft Edge so it’s easier to find the options you’re looking for. The menu options are now organized into groups, with icons for each entry, and keyboard shortcuts (where applicable). Click the “…” button in the top-right corner of Microsoft Edge to see what’s new.
+
+![Edge menu options](images/SettingsandMore.png "Edge menu options")
+
+__See your top sites in the jump list:__ You can now see your top sites in the jump list on the Windows task bar or Start menu. Just right-click the Microsoft Edge icon to see a list of your most visited sites and pin the ones that matter most to you. Right-click on any entry to remove it from the list. 
+
+__Organize the tabs you’ve set aside:__ It's easier to organize the groups of tabs you’ve set aside, so you can remember what’s in each group when come back to it later. Once you’ve set a group of tabs aside, choose the “Tabs you’ve set aside” icon (top left corner), and click on the label for any group to rename it.  
+
+![tabs you've set aside](images/tabsaside.png "Tabs you've set aside")
+
+__Do more from the “Downloads” pane:__ We’ve added options for __Show in folder__ and __Copy link__ to the right-click menu for downloads in the __Downloads__ pane. 
+
+![downloads pane](images/downloads.png "Downloads pane")
+
+__Retired XSS filter:__ We are retiring the XSS filter in Microsoft Edge. Our customers remain protected thanks to modern standards like Content Security Policy, which provide more powerful, better performing, and secure mechanisms to protect against content injection attacks, with high compatibility across modern browsers.
+
+### Microsoft Edge PDF reader improvements
+__Improved toolbar options:__ The toolbar available on a PDF document opened in Microsoft Edge will now show text descriptions for the icons to make them easily understandable by users. New options like __Add notes__ are now available in the toolbar so that these tools are handy when you need them.
+
+![improved toolbar](images/PDFImprovedToolbar.png "improved toolbar")
+
+__Pin/unpin PDF toolbar:__ The PDF toolbar can now be pinned at the top of the document, making all the PDF tools easily accessible if you need them. You can also unpin the toolbar for an immersive reading experience. If the toolbar is unpinned, it will hide itself – just hover over the top area to bring it back.
+
+![pin or unpin the toolbar](images/PDFPinButton.png "pin or unpin the toolbar")
+
+__Rendering improvements:__ We’ve included a bunch of rendering performance fixes so that you will see less white pages when you navigate through PDF files in Microsoft Edge.
+
+### Per-site media autoplay controls
+You can now control autoplay permissions on a per-site basis under the __Website permission__ section of the __Website Identification__ pane – just click the information icon or lock icon on the left side of the address bar and click __manage permissions__ to get started.
+
+![autoplay permissions](images/autoplay.png "autoplay permissions")
+
+### Lookup definitions for words in reading view, books, and PDFs
+We’ve added a new dictionary function, so you can look up definitions for key words when reading a page or document. Simply select a single word to see the definition appear above your selection.
+
+![dictionary](images/dictionary.png "dictionary")
+
+You can choose to have a word read aloud to you to hear the correct pronunciation or expand more details from the definition. You can toggle whether definitions appear and which types of content they work in under the __General__ tab of the Microsoft Edge settings menu.
+
+### WebDriver improvements
+You can automate testing in Microsoft Edge using WebDriver. WebDriver is a Windows Feature on Demand, so you no longer need to match the build and branch manually when installing WebDriver. When you take new Windows 10 updates, your WebDriver binary will be automatically updated to match.
+
+To install WebDriver, just turn on __Developer Mode__ in Windows 10 Settings, or install the standalone feature on the __Manage optional features__ Settings page.
+
+We’ve also updated WebDriver to match the latest [W3C Recommendation spec](https://www.w3.org/TR/webdriver/) with major new improvements. You can learn all about these changes on the [Microsoft Edge dev blog](https://www.w3.org/TR/webdriver/).
+
+### Web authentication preview
+Web Authentication provides an open, scalable, and interoperable solution to facilitate authentication, which replaces passwords with stronger hardware-bound credentials. The implementation in Microsoft Edge allows users to use Windows Hello (via PIN or biometrics) and external authenticators like FIDO2 Security Keys or FIDO U2F Security Keys, to securely authenticate to websites.
 
 ## Acrylicic improvements
 
@@ -156,57 +262,6 @@ __Make text bigger__: We’ve heard your feedback and are excited to announce th
 
 That means you can now make text bigger in Start, File Explorer, Settings, etc., without having to change the overall scaling of your system. 
 
-## Microsoft Edge improvements
-__New, clearer Settings and more (“…”) menu:__ We’ve redesigned the __Settings and more__ menu in Microsoft Edge so it’s easier to find the options you’re looking for. The menu options are now organized into groups, with icons for each entry, and keyboard shortcuts (where applicable). Click the “…” button in the top-right corner of Microsoft Edge to see what’s new.
-
-![Edge menu options](images/SettingsandMore.png "Edge menu options")
-
-__See your top sites in the jump list:__ You can now see your top sites in the jump list on the Windows task bar or Start menu. Just right-click the Microsoft Edge icon to see a list of your most visited sites and pin the ones that matter most to you. Right-click on any entry to remove it from the list. 
-
-__Organize the tabs you’ve set aside:__ It's easier to organize the groups of tabs you’ve set aside, so you can remember what’s in each group when come back to it later. Once you’ve set a group of tabs aside, choose the “Tabs you’ve set aside” icon (top left corner), and click on the label for any group to rename it.  
-
-![tabs you've set aside](images/tabsaside.png "Tabs you've set aside")
-
-__Do more from the “Downloads” pane:__ We’ve added options for __Show in folder__ and __Copy link__ to the right-click menu for downloads in the __Downloads__ pane. 
-
-![downloads pane](images/downloads.png "Downloads pane")
-
-__Retired XSS filter:__ We are retiring the XSS filter in Microsoft Edge. Our customers remain protected thanks to modern standards like Content Security Policy, which provide more powerful, better performing, and secure mechanisms to protect against content injection attacks, with high compatibility across modern browsers.
-
-### Microsoft Edge PDF reader improvements
-__Improved toolbar options:__ The toolbar available on a PDF document opened in Microsoft Edge will now show text descriptions for the icons to make them easily understandable by users. New options like __Add notes__ are now available in the toolbar so that these tools are handy when you need them.
-
-![improved toolbar](images/PDFImprovedToolbar.png "improved toolbar")
-
-__Pin/unpin PDF toolbar:__ The PDF toolbar can now be pinned at the top of the document, making all the PDF tools easily accessible if you need them. You can also unpin the toolbar for an immersive reading experience. If the toolbar is unpinned, it will hide itself – just hover over the top area to bring it back.
-
-![pin or unpin the toolbar](images/PDFPinButton.png "pin or unpin the toolbar")
-
-__Rendering improvements:__ We’ve included a bunch of rendering performance fixes so that you will see less white pages when you navigate through PDF files in Microsoft Edge.
-
-### Per-site media autoplay controls
-You can now control autoplay permissions on a per-site basis under the __Website permission__ section of the __Website Identification__ pane – just click the information icon or lock icon on the left side of the address bar and click __manage permissions__ to get started.
-
-![autoplay permissions](images/autoplay.png "autoplay permissions")
-
-### Lookup definitions for words in reading view, books, and PDFs
-We’ve added a new dictionary function, so you can look up definitions for key words when reading a page or document. Simply select a single word to see the definition appear above your selection.
-
-![dictionary](images/dictionary.png "dictionary")
-
-You can choose to have a word read aloud to you to hear the correct pronunciation or expand more details from the definition. You can toggle whether definitions appear and which types of content they work in under the __General__ tab of the Microsoft Edge settings menu.
-
-### WebDriver improvements
-You can automate testing in Microsoft Edge using WebDriver. WebDriver is a Windows Feature on Demand, so you no longer need to match the build and branch manually when installing WebDriver. When you take new Windows 10 updates, your WebDriver binary will be automatically updated to match.
-
-To install WebDriver, just turn on __Developer Mode__ in Windows 10 Settings, or install the standalone feature on the __Manage optional features__ Settings page.
-
-We’ve also updated WebDriver to match the latest [W3C Recommendation spec](https://www.w3.org/TR/webdriver/) with major new improvements. You can learn all about these changes on the [Microsoft Edge dev blog](https://www.w3.org/TR/webdriver/).
-
-### Web authentication preview
-Web Authentication provides an open, scalable, and interoperable solution to facilitate authentication, which replaces passwords with stronger hardware-bound credentials. The implementation in Microsoft Edge allows users to use Windows Hello (via PIN or biometrics) and external authenticators like FIDO2 Security Keys or FIDO U2F Security Keys, to securely authenticate to websites. 
- 
-
 ## External GPU safe removal experience
 We added a safe removal experience for external GPUs connected via Thunderbolt 3. The safe remove experience allows you to know which applications are running on an external GPU so that you can safely remove it and prevent data loss during detach.
 
@@ -243,32 +298,6 @@ The new functionality requires the latest version of the HEIF package. The lates
 To rotate a HEIF image file, simply right-click on it in File Explorer and select "Rotate right" or "Rotate left" from the menu. "Date taken" and other properties can be edited by clicking on "Properties" and selecting the "Details" tab.
 
 ![HEIF in file explorer](images/heic2.png "HEIF in file explorer")
-
-## Input 
-
-### Emoji 11
-[Unicode 11 comes with 157 new emoji](http://blog.unicode.org/2018/06/announcing-unicode-standard-version-110.html) – as of today they’re now available for Insiders to try in the build. Including superheroes, redheads, a softball, a pirate flag, and a llama all made the cut. You can access them using the Emoji Panel (WIN+.) or the touch keyboard.
-
-![new emojis](images/WindowsInsiderBlog_EmojiRS5.png "new emojis")
-
-We’ve also made tweaks to some of our existing emoji – here are some examples:
-
-![emojis before after combo](images/emoji_beforeaftercombo.png "emojis before after combo")
-
-Our ninja cats got a bit of love too – can you spot the difference?
-![ninja cat emojis](images/WindowsInsiderBlog_EmojiRS5_NinjaCats.png "ninja cat emojis")
-
-__Emoji design updates__ based on your feedback and to improve consistency, we’ve made adjustments to the design of some of our emoji. Examples of updated emoji include:
-
-__Before__
-
-![emojis before](images/before_emoji.png "emojis before")
-
-__After__
-
-![emojis after](images/after_emoji.png "emojis after")
-
-__Emoji search comes to more languages__: You can find an emoji by keyword in over 150 locales, including English (Great Britain), French (France), German (Germany), Spanish (Spain), and more. This will help you get the emoji you want easily and quickly. As a reminder, to bring up the Emoji Panel set focus to a text field and press WIN + (period) or WIN + (semicolon).
 
 ## A faster safer internet with HTTP/2 and CUBIC
 The internet is part of our daily lives both at work and at home, in the enterprise and in the cloud. We are committed to making your internet experience faster and safer. For example:
@@ -387,16 +416,7 @@ __Step 3__: Choose the Net Adapter based MBB USB class driver as default driver.
 __Note__: Follow the instructions in Step 4 to revert to the default driver(xxxxx Mobile Broadband Adapter), in case of issues with Net Adapter driver(Generic Mobile Broadband Cx Net Adapter). 
 
 __Step 4__: For Internet access, try using cellular network primarily by turning off Wi-Fi 
-To report issues and give feedback, use Feedback Hub on your PC and set Category and subcategory as Network and Internet -> Connecting to a cellular network. Use [cxwmbclass] in the summary.
-
-## Notepad improvements
-
-### Extended line endings support for Notepad 
-In addition to Windows line endings (CRLF), Notepad now supports Unix/Linux line endings (LF) and Macintosh line endings (CR)! 
-
-![notepad](images/notepad.png "notepad")
-
-For more details, check out [Introducing extended line endings support in Notepad](https://aka.ms/notepadeol). 
+To report issues and give feedback, use Feedback Hub on your PC and set Category and subcategory as Network and Internet -> Connecting to a cellular network. Use [cxwmbclass] in the summary. 
 
 ## Microsoft Pinyin and Wubi IMEs
 
@@ -410,10 +430,6 @@ For more details, check out [Introducing extended line endings support in Notepa
 
 ![ime emojis](images/imeemoji.png "ime emojis")
 
-## Post-upgrade setup
-You may see this window showing after you upgrade. Don’t worry – all your stuff is still there! We know some of you bought and setup your devices a long time ago – the features available in Windows have changed since then, so we’re giving you an opportunity to go through the setup questions you may have missed to ensure your device has the best setup possible. Click “Let’s Go” to go through those setup questions or click “Skip for now” if you want to go straight to your desktop. The conditions for showing this page are cloud programmable and may change over time.
-
-![oobe](images/SCOOBE-Intro.png "oobe")
 
 ## Privacy improvements
 We wanted to let you know that if access to the microphone has been disabled in your privacy settings, we’ll now pop a notification the first time an attempt to use the microphone is blocked so you can review the settings if desired.
@@ -543,11 +559,6 @@ To create a tile folder in Start, just drag one tile on top of another for a sec
 __Storage Sense picks up a new skill__:  Starting with the [Creators Update](https://blogs.windows.com/windowsexperience/2017/01/19/announcing-windows-10-insider-preview-build-15014-for-pc-and-mobile-hello-windows-insiders-today-we-are-excited-to-be-releasing-windows-10-insider-preview-build-15014-for-pc-and-mobile/) we embarked on a journey to help you automatically clean up storage when low on disk space. We expanded on that with the Fall Creators Update ([here](https://blogs.windows.com/windowsexperience/2017/05/17/announcing-windows-10-insider-preview-build-16199-pc-build-15215-mobile/) and [here](https://blogs.windows.com/windowsexperience/2017/06/21/announcing-windows-10-insider-preview-build-16226-pc/)). We also added the ability to automatically make any downloaded Files On-Demand online-only if you haven’t used them in a certain number of days. Head to __Settings > System > Storage > Storage Sense__ to try out this new feature.
 
 
-## SwiftKey intelligence comes to Windows
-[SwiftKey](https://www.microsoft.com/en-us/swiftkey) gives you more accurate auto-corrections and predictions by learning your writing style – including the words, phrases and emoji that matter to you. It’s available for Android and iOS, and SwiftKey powers the typing experience on Windows when using the touch keyboard to write in English (United States), English (United Kingdom), French (France), German (Germany), Italian (Italy), Spanish (Spain), Portuguese (Brazil), or Russian.
-
-![SwiftKey](images/swift2.png "SwiftKey")
-
 ## Task Manager memory reporting improvements
 In Windows 10, version 1809, the main memory column in Task Manager __Processes__ tab does not include memory used by suspended UWP processes. This more accurately reflects the OS behavior in which the OS can reclaim memory used by suspended UWP processes if needed. This means that if you have several UWP processes suspended in the background, the OS can take back memory from these suspended UWP processes if needed and use it for something that requires more memory. New and old memory columns will be available in “Details” tab for you to do comparisons. 
 
@@ -595,13 +606,6 @@ Notes:
 * Users will need to assess the files they downloaded and assume any risks of opening on the host.
 * We’ve also made updates to Windows Defender System Guard. With Windows Defender System Guard, we are making a leap forward in platform security with memory integrity by default and bringing a born secure device promise to our user base. To learn more about these changes and talk with product team, see their post in the Windows Insider Technical Community.
 
-## Wireless projection experience
-One of the things we’ve heard from you is that it’s hard to know when you’re wirelessly projecting and how to disconnect if your session especially if started from file explorer or from an app. In today’s build, just like remote desktop you’ll see a control banner at the top of your screen when you’re in a session. The banner keeps you informed of the state of your connection, allows you to quick disconnect or reconnect to the same sink and allows you to tune the connection based on what you are doing. This tuning is done via the settings gear, which optimizes the screen to screen latency based on one of the three scenarios:
-* Game mode minimizes the screen to screen latency to make gaming over a wireless connection possible.
-* Video mode increases the screen to screen latency to ensure the video on the big screen plays back smoothly and without glitching.
-* Productivity modes strikes a good balance between game mode and video mode where the screen to screen latency is responsive enough that typing feels natural, while ensuring videos don’t glitch too often.
-
-![wireless projection banner](images/beaming.png "wireless projection banner")
 
 
  
