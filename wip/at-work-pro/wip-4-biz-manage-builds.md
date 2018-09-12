@@ -86,7 +86,7 @@ In addition to the CSPs above, Insider Preview builds can be managed in Intune u
 ## Confirm and track installations  
 
 ### Confirm policy 
-To confirm that your Group Policy or MDM policies have been set correctly, go to __Settings>Update & Security>Windows Update__ on the device and click on "View configured update policies". You can also check the following key in the Registry Editor on the device: __HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\windows\WindowsUpdate__. A device set to receive an Insider Preview would would show the following values: 
+To confirm that your Group Policy or MDM policies have been set correctly, go to __Settings>Update & Security>Windows Update__ on the device and click on "View configured update policies". You can also check the following key in the Registry Editor on the device: __HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\windows\WindowsUpdate__. A device set to receive an Insider Preview build would show the following values: 
 * BranchReadinessLevel = 2 (Fast), 4 (Slow) or 8 (Release Preview) 
 * ManagePreviewBuilds = 1
 
