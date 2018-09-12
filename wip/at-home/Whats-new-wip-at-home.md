@@ -286,6 +286,74 @@ We made the Search experience wider so you can access information and actions in
 
 ![calendar with search](images/search-2.png "wider search experience")
 
+### Find software downloads faster in Search
+Continuing our theme of improving the search preview experience, we’re rolling out an update to make it easier to find official download pages for Windows software you want to install. The team is continuing to develop this experience and more is coming. 
+
+![calendar with search](images/search-downloads.png "wider search experience")
+
+
+## Windows mixed reality improvements
+
+* You can stream audio to both the headset and the PC speakers simultaneously. To try it out make sure that you can hear sound from your normal PC speakers when not running the Mixed Reality Portal (MRP) and from the headset’s audio jack or built-in headphones when mixed reality is running. Then close all apps, including MRP, and go to Settings > Mixed reality > Audio and speech to turn on “When Mixed Reality Portal is running, mirror headset audio to desktop.” You should now hear audio from both the headset and PC speakers when running mixed reality.
+* Windows no longer requires a physical monitor to be connected while running Mixed Reality in cases such as backpack PCs. Setting up WMR for the first time in Mixed Reality Portal and unlocking the PC on the sign in screen still, require a monitor to be connected initially. However, you can configure auto login to prevent needing to sign in for subsequent usage here. Using Windows Mixed Reality while standing requires setting up a room boundary.
+* Apps running in Windows Mixed Reality can now make use of the Camera Capture UI API to capture images of the mixed reality world using the system capture experience. Try running Mail in the Cliff House and inserting an image from your camera in a new message to share an image of the scenic view.
+* We’ve also made some adjustments to the mixed reality video capture experience in this build to make it easier to stop videos from the Start menu.
+
+### Windows mixed reality flashlight
+
+How many times have you been immersed in a captivating virtual experience and…
+* Wanted to take a quick peek at someone nearby?
+* Wanted to reach for a drink, your phone or a keyboard?
+* Needed to find a surface to set down your controllers?
+
+In the past you probably fumbled about or removed your headset, which can be clumsy if you have controllers in your hands.
+
+We added the ability to peer into your physical environment through Flashlight – without removing your headset! You can open a portal into your real world at any time via the Start menu, a button shortcut, or a voice command. This opens a low-latency pass-through camera feed connected to your controller. It’s comfortable, intuitive, and keeps you immersed.
+
+![mixed reality flashlight](images/Flashlight_7-13.png "mixed reality flashlight")
+
+Flashlight finally allows you to mix your physical and virtual realities.
+
+### Introducing Quick Actions 
+
+While using an Immersive Application, Quick Actions allow users to easily Go Home, view the time, or launch Mixed Reality Capture tools (Photo, Video, and more). To launch Immersive Application Quick Actions, simply press the Windows key or use the Bloom gesture.
+
+### Stream audio to both the headset and the PC speakers simultaneously
+
+To try it out make sure that you can hear sound from your normal PC speakers when not running the Mixed Reality Portal (MRP) and from the headset’s audio jack or built-in headphones when mixed reality is running. Then close all apps, including MRP, and go to Settings > Mixed reality > Audio and speech to turn on “When Mixed Reality Portal is running, mirror headset audio to desktop.” You should now hear audio from both the headset and PC speakers when running mixed reality.
+You may also notice some new error codes in Mixed Reality Portal to be more specific to certain failures. The Mixed Reality Portal app will also begin updating through the Store as we make infrastructure changes over the next several releases to support faster updates of mixed reality.
+
+### Other notable improvements for Windows Mixed Reality users
+
+* This build no longer requires a physical monitor to be connected while running Mixed Reality in cases such as backpack PCs. Setting up WMR for the first time in Mixed Reality Portal and unlocking the PC on the sign in screen still, require a monitor to be connected initially. However, you can configure auto login to prevent needing to sign in for subsequent usage here. Using Windows Mixed Reality while standing requires setting up a room boundary.
+* Apps running in Windows Mixed Reality can now make use of the Camera Capture UI API to capture images of the mixed reality world using the system capture experience. Try running Mail in the Cliff House and inserting an image from your camera in a new message to share an image of the scenic view.
+* We’ve also made some adjustments to the mixed reality video capture experience in this build to make it easier to stop videos from the Start menu.
+
+## PC Gaming Improvements
+
+
+### Game bar improvements
+*__Audio controls__: Change your default audio output device and mute or adjust the volume of games and apps running.
+*__Performance visualizations__: See your game’s framerate (FPS), CPU usage, GPU VRAM usage, and system RAM usage.
+
+![game bar](images/New-Game-bar.png "game bar")
+
+### Game mode improvements
+New options are now available for Game Mode that are expected to improve the gaming experience on desktop PCs.  Gamers on PCs with many background processes may also see performance improvements when they toggle __Dedicate resources__ in Game bar.
+
+## Web Sign-in to Windows 10
+Until now, Windows logon only supported the use of identities federated to ADFS or other providers that support the WS-Fed protocol. We are introducing “Web Sign-in,” a new way of signing into your Windows PC. Web Sign-in enables Windows logon support for  non-ADFS federated providers (e.g. SAML).
+
+![web sign-in](images/WebSignIn.png "web sign-in")
+
+**To try out Web Sign-in:**
+1.	Azure AD Join your Windows 10 PC. (Note: Web Sign-in is only supported on Azure AD Joined PCs).
+
+![web sign-in](images/WebSignIn-2.png "web sign-in")
+
+2. Set the following policy to enable Web Sign-in (Policy CSP/Authentication/EnableWebSignIn)
+3. On the lock screen, select Web Sign-in under Sign-in options.
+4. Click on the **Sign in** button to continue.
 
 
 ## Acrylic improvements
@@ -349,15 +417,6 @@ To safely remove an external graphics card, go to the __Safely Remove Hardware a
 Now focus assist will turn on automatically when you’re playing any full screen game. No more interruptions when you’re crushing it. This behavior should be turned on automatically, but you can always check by going to __Settings > System > Focus assist__ and ensuring the __When I’m playing a game__ automatic rule is enabled. For more information, see [Windows 10 Tip: How to enable Focus Assist in the Windows 10 April 2018 Update](https://blogs.windows.com/windowsexperience/2018/05/09/windows-10-tip-how-to-enable-focus-assist-in-the-windows-10-april-2018-update/).
 
 ![sound settings](images/speakers2.png "sound settings")
-
-## Game bar improvements
-*__Audio controls__: Change your default audio output device and mute or adjust the volume of games and apps running.
-*__Performance visualizations__: See your game’s framerate (FPS), CPU usage, GPU VRAM usage, and system RAM usage.
-
-![game bar](images/New-Game-bar.png "game bar")
-
-## Game mode improvements
-New options are now available for Game Mode that are expected to improve the gaming experience on desktop PCs.  Gamers on PCs with many background processes may also see performance improvements when they toggle __Dedicate resources__ in Game bar.
 
 ## High Efficiency Image File Format (HEIF)
 The __High Efficiency Image File Format (HEIF)__ is supported in Windows 10 and the Photos app. [HEIF is an image container](https://en.wikipedia.org/wiki/High_Efficiency_Image_File_Format) that leverages modern codecs like HEVC to improve quality, compression, and capabilities compared to earlier formats like JPEG, GIF, and PNG. In addition to traditional single images, HEIF supports encoding image sequences, image collections, auxiliary images like alpha or depth maps, live images & video, audio, and HDR for greater contrast. 
@@ -445,27 +504,6 @@ We’ve been using this model on internal devices, and we’ve seen promising re
 
 If you find your device restarting at the wrong time, please file a bug in the [feedback hub](https://aka.ms/updatefeedback) with the details on your experience. (i.e. I went to grab a cup of coffee for 5 minutes and it updated!). We would love to hear your stories and take it into account when training our update model.
 
-## Windows mixed reality improvements
-
-* You can stream audio to both the headset and the PC speakers simultaneously. To try it out make sure that you can hear sound from your normal PC speakers when not running the Mixed Reality Portal (MRP) and from the headset’s audio jack or built-in headphones when mixed reality is running. Then close all apps, including MRP, and go to Settings > Mixed reality > Audio and speech to turn on “When Mixed Reality Portal is running, mirror headset audio to desktop.” You should now hear audio from both the headset and PC speakers when running mixed reality.
-* Windows no longer requires a physical monitor to be connected while running Mixed Reality in cases such as backpack PCs. Setting up WMR for the first time in Mixed Reality Portal and unlocking the PC on the sign in screen still, require a monitor to be connected initially. However, you can configure auto login to prevent needing to sign in for subsequent usage here. Using Windows Mixed Reality while standing requires setting up a room boundary.
-* Apps running in Windows Mixed Reality can now make use of the Camera Capture UI API to capture images of the mixed reality world using the system capture experience. Try running Mail in the Cliff House and inserting an image from your camera in a new message to share an image of the scenic view.
-* We’ve also made some adjustments to the mixed reality video capture experience in this build to make it easier to stop videos from the Start menu.
-
-## Windows mixed reality flashlight
-
-How many times have you been immersed in a captivating virtual experience and…
-* Wanted to take a quick peek at someone nearby?
-* Wanted to reach for a drink, your phone or a keyboard?
-* Needed to find a surface to set down your controllers?
-
-In the past you probably fumbled about or removed your headset, which can be clumsy if you have controllers in your hands.
-
-We added the ability to peer into your physical environment through Flashlight – without removing your headset! You can open a portal into your real world at any time via the Start menu, a button shortcut, or a voice command. This opens a low-latency pass-through camera feed connected to your controller. It’s comfortable, intuitive, and keeps you immersed.
-
-![mixed reality flashlight](images/Flashlight_7-13.png "mixed reality flashlight")
-
-Flashlight finally allows you to mix your physical and virtual realities. 
 
 ## Mobile broadband (LTE) connectivity on Windows gets a makeover
 
