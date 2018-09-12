@@ -195,8 +195,6 @@ __Do more from the “Downloads” pane:__ We’ve added options for __Show in f
 
 ![downloads pane](images/downloads.png "Downloads pane")
 
-__Retired XSS filter:__ We are retiring the XSS filter in Microsoft Edge. Our customers remain protected thanks to modern standards like Content Security Policy, which provide more powerful, better performing, and secure mechanisms to protect against content injection attacks, with high compatibility across modern browsers.
-
 ### Microsoft Edge PDF reader improvements
 
 **New PDF icon:** Windows 10 now has a new icon for PDFs in File Explorer when Microsoft Edge is your default PDF handler.
@@ -221,17 +219,76 @@ You can choose to have a word read aloud to you to hear the correct pronunciatio
 
 **Learning tools get richer:** Under learning tools available on Reading View, you can now see additional themes. These let you choose the theme color which is best for your eyes.
 
-### WebDriver improvements
-You can automate testing in Microsoft Edge using WebDriver. WebDriver is a Windows Feature on Demand, so you no longer need to match the build and branch manually when installing WebDriver. When you take new Windows 10 updates, your WebDriver binary will be automatically updated to match.
+![edge themes](images/edge-themes.png "edge themes")
+
+Along with highlighting Parts of speech you can now also change the color in which the part of speech should be highlighted as well as turn on an indicator right over it. Making it much easier to identify the part of speech.
+
+**Line focus:** Helps improve focus while reading an article by highlighting sets of one, three, or five lines.
+
+![edge line focus](images/edge-line-focus.png "edge line focus")
+
+### Microsoft Edge Platform Improvements 
+
+**Microsoft WebDriver is now a Feature on Demand:** We’ve made Microsoft WebDriver a Feature on Demand (FoD) to make it easier to get the right version for your device. You can install WebDriver by turning on Developer Mode, or by going to Settings > Apps > Apps & features > Manage optional features and installing it standalone.
+
+This should address one of the biggest pain points we see from customers around binary mismatches, as FoD’s match the build/branch/flavor automatically. This also means that the standalone download will no longer be made available for insiders or future stable versions of Windows, as installation is now built into Windows.
+
+Microsoft WebDriver now gets installed to C:\Windows\System32\ and will automatically be on the PATH for the machine once installed. We are now shipping 64-bit Microsoft WebDriver to x64 machines. Note, there is a known issue for x64 machines building in Visual Studio with Selenium, where by default Visual Studio builds 32bit and will only check the C:\Windows\SysWOW64\ folder for PATH variables. To work around this issue, target and build 64bit from Visual Studio. In a future build, we plan to publish both 32bit and 64bit binaries in our FoD for 64bit machines, which should address this issue.
 
 To install WebDriver, just turn on __Developer Mode__ in Windows 10 Settings, or install the standalone feature on the __Manage optional features__ Settings page.
 
 We’ve also updated WebDriver to match the latest [W3C Recommendation spec](https://www.w3.org/TR/webdriver/) with major new improvements. You can learn all about these changes on the [Microsoft Edge dev blog](https://www.w3.org/TR/webdriver/).
 
-### Web authentication preview
-Web Authentication provides an open, scalable, and interoperable solution to facilitate authentication, which replaces passwords with stronger hardware-bound credentials. The implementation in Microsoft Edge allows users to use Windows Hello (via PIN or biometrics) and external authenticators like FIDO2 Security Keys or FIDO U2F Security Keys, to securely authenticate to websites.
+**Web Authentication preview:** Microsoft Edge now includes unprefixed support for the new Web Authentication API (a.k.a. [WebAuthN](https://www.w3.org/TR/webauthn/)). This evolves our previous support for the WebAuthN specification to enable the updated version of the API by default.
+Web Authentication provides an open, scalable, and interoperable solution to facilitate authentication, which replaces passwords with stronger hardware-bound credentials. The implementation in Microsoft Edge allows users to use [Windows Hello](https://www.microsoft.com/en-us/windows/windows-hello) (via PIN or biometrics) and [external authenticators](https://fidoalliance.org/fido2/) like FIDO2 Security Keys or FIDO U2F Security Keys, to securely authenticate to websites. 
 
-## Acrylicic improvements
+**New Microsoft Edge Group Policies:** The Microsoft Edge team introduced new Group Policies and MDM settings for IT administrators to manage Microsoft Edge. The new policies include enabling/disabling full-screen mode, printing, favorites bar, and saving history; prevent certificate error overrides; configuring the Home button and startup options; setting the New Tab page and Home button URL and managing extensions. Learn more about the new Microsoft Edge policies.
+
+__Retired XSS filter:__ We are retiring the XSS filter in Microsoft Edge. Our customers remain protected thanks to modern standards like Content Security Policy, which provide more powerful, better performing, and secure mechanisms to protect against content injection attacks, with high compatibility across modern browsers.
+
+## Remote Desktop with Biometrics
+In RS5, Azure Active Directory and Active Directory users using Windows Hello for Business can use biometrics to authenticate to a remote desktop session!
+
+![Remote Desktop with Biometrics](images/remote-desktop-hello.png "Remote Desktop with Biometrics")
+
+To get started, bring up Remote Desktop Connection (mstsc.exe), type the name of the computer to which you want to connect and click **Connect**. Because you signed using Windows Hello for Business, Windows remembers how you signed in and automatically selects Windows Hello for Business to authenticate you to your RDP session but, you can click More choices to choose alternate credentials.
+
+![Remote Desktop with Biometrics](images/remote-desktop-hello-2.png "Remote Desktop with Biometrics")
+
+In this example, Windows uses facial recognition to authenticate the RDP session to the Windows Server 2016 Hyper-V server. You can continue to use Windows Hello for Business in the remote session, but you must use your PIN.
+
+![Remote Desktop with Biometrics](images/remote-desktop-hello-3.png "Remote Desktop with Biometrics")
+
+
+## Start tile folder naming 
+To create a tile folder in Start, just drag one tile on top of another for a second then release. Continue dropping as many tiles into the folder as you’d like. When you expand the folder, you’ll see a new option to name it. The name will be visible when the folder is medium, wide, or large-sized. 
+
+![folder naming in Start](images/namedfolder_optionalgif.png "folder naming in Start")
+
+## Cortana and search improvements
+
+### Search in Calendar
+
+Now you can find past or future events by searching for the name, location, people included or words in the event body. Events that match your search will be clearly visible on your calendar, while those that don’t will be greyed-out so you can find what you need quickly.
+
+![calendar with search](images/calendarwithsearch.png "calendar with search")
+
+Search will work for Outlook, Hotmail, Live and Office 365 accounts. 
+
+### Search preview
+We have expanded previews to support apps, documents, and more. Search previews are here to help you: 
+* Get back to what you were doing, such as a recent Word doc or Remote Desktop session 
+* Jump-start your task, be it a new Outlook meeting, a quick comment in OneNote, or changing a setting 
+* Disambiguate between files by seeing more info including file location, last modified, or author 
+* Access quick answers from the web like “are bananas good for you?” “height of mt everest”  
+
+We made the Search experience wider so you can access information and actions in the preview faster than ever. The preview will be updated and improved over time, as we develop and add more features. 
+
+![calendar with search](images/search-2.png "wider search experience")
+
+
+
+## Acrylic improvements
 
 ### Acrylic in task view 
 The entire task view background now has a soft blur effect.
@@ -466,22 +523,6 @@ You no longer have to manually download RSAT every time you upgrade! Just go to 
 
 ![RSAT](images/rsat.png "RSAT")
 
-## Search improvements
-
-### Search in Calendar
-
-Now you can find past or future events by searching for the name, location, people included or words in the event body. Events that match your search will be clearly visible on your calendar, while those that don’t will be greyed-out so you can find what you need quickly.
-
-![calendar with search](images/calendarwithsearch.png "calendar with search")
-
-Search will work for Outlook, Hotmail, Live and Office 365 accounts. 
-
-### Search preview
-We have expanded previews to support apps, documents, and more. Search previews are here to help you: 
-* Get back to what you were doing, such as a recent Word doc or Remote Desktop session 
-* Jump-start your task, be it a new Outlook meeting, a quick comment in OneNote, or changing a setting 
-* Disambiguate between files by seeing more info including file location, last modified, or author 
-* Access quick answers from the web like “are bananas good for you?” “height of mt everest”  
 
 We made the search experience wider so you can access information and actions in the preview faster than ever. 
 
@@ -569,11 +610,6 @@ We’ve heard your feedback and have been hard at work updating the new tab page
 We’ve heard your feedback that settings can be confusing sometimes, so we’re working with Bing to bubble up some of the most common questions we hear right into the Settings pages themselves. The FAQ’s are contextual in nature and aim to you to quickly get the answer you’re looking for to complete configuration tasks. It may even help you discover something you didn’t know was an option! Clicking on these questions will take you to Bing.com to display the answer.  
 
 ![settings faq](images/questions.png "settings faq")
-
-## Start tile folder naming 
-To create a tile folder in Start, just drag one tile on top of another for a second then release. Continue dropping as many tiles into the folder as you’d like. When you expand the folder, you’ll see a new option to name it. The name will be visible when the folder is medium, wide, or large-sized. 
-
-![folder naming in Start](images/namedfolder_optionalgif.png "folder naming in Start")
 
 
 ## Storage improvements
