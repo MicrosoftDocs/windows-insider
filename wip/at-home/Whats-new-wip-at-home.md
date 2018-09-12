@@ -1,20 +1,108 @@
 ---
 title: What's new in the Windows 10 Insider Preview Builds (RS5)
 description: How to get setup and perform first tasks for Windows Insider Program for Server Preview Builds
-services: WIP-at-work
+services: WIP-at-home
 author: dawnwood
 manager: elizapo
 ms.assetid: 
 ms.service: WIP-at-work
 ms.tgt_pltfrm: na
 ms.devlang: na
-ms.date: 08/21/2018
+ms.date: 09/28/2018
 ms.author: dawn.wood
 ms.localizationpriority: medium
 ---
 
 #  What's new in the Windows 10 Insider preview builds (RS5)
 The [Windows Insider Program](https://insider.windows.com/en-us/) lets you preview builds of the upcoming release of Windows 10. This topic lists all new Windows 10 features for you to try. Unlike the [Windows Insider Program Blog](https://blogs.windows.com/windowsexperience/tag/windows-insider-program), this topic is organized by feature instead of by the build number so that you can see all items about a specific feature listed together.
+
+
+## Your Phone app
+Android phone users, you can finally stop emailing yourself photos. Drag and drop that photo from your phone onto your PC. Copy, edit, or ink on the photo, right from your PC. With Your Phone app you get instant access to your Android’s most recent photos on your PC. Try it out by opening **Your Phone** app. You will receive an app from Microsoft that you download to your mobile phone. Android 7.0+ devices are compatible with the **Your Phone** app. For PCs tied to the China region, Your Phone app services will be enabled in the future.
+
+
+For iPhone users, **Your Phone** app helps you to link your phone to your PC. Surf the web on your phone, then send the webpage instantly to your computer to continue what you’re doing–read, watch, or browse with all the benefits of a bigger screen. With a linked phone, continuing on your PC is one share away.
+Notice a desktop pin? It’ll take you directly to the **Your Phone** app – for quicker access to your phone’s content. You can also go through the all apps list in Start Menu, or use the Windows key and search for the **Your Phone** app. 
+
+## Snipping experience (Snip & Sketch)
+
+The new modern snipping experience is here to help you effortlessly capture and annotate what you see on your screen. While working on this we’ve been carefully going over all your feedback about taking screenshots in Windows - you’ll find the flow and tools are optimized for sharing and make communicating visually with others quick and easy.
+
+![screen sketch](images/screen-sketch1.png "screen sketch")
+
+### Snip & Sketch (previously known as Screen Sketch) is now an app! 
+
+Originally introduced as part of the Windows Ink Workspace, Snip & Sketch comes with a variety of benefits, including:
+1. It can be updated via the Microsoft Store
+2. It can be found in the app list when you press Alt + tab
+3. You can set the window size to your preference
+4. It supports multiple windows (and tabs, thanks to Sets!)
+
+### Easy snipping is only a single step away
+
+WIN + Shift + S will now bring up a snipping toolbar – snip a rectangle, something a bit more freeform, or full screen and it will go straight to your clipboard. Immediately after taking a snip you’ll also get a notification that will take you and your snip to the Snip & Sketch app where you can annotate and share away!
+
+![screen sketch](images/screen-sketch2.png "screen sketch")
+
+Is the WIN + Shift + S keyboard shortcut too long to remember? Guess what! We’ve added easy entry options for every input modality: 
+*__Just click the pen tail button__. If you have a pen, go into __Pen & Windows Ink Settings__ – you’ll find screen snipping is now an option for single click. This will launch you directly into our snipping experience:
+
+![pen settings](images/pensettingsinked.png "pen settings")
+
+*__Press Print Screen__. You heard it right, just one button! It’s not enabled by default – go to Keyboard Settings – you’ll see a new option that says __Use the Print Screen key to launch screen snipping__. Opening Settings and searching for __print screen__ will take you to the right page.
+
+*__Press the quick action button in Action Center__. Called __Screen snip__ – it should be there as soon as you upgrade, but if not you can always enable it via Notifications & Actions Settings.
+
+## Say hello to your new clipboard experience! (Cloud Clipboard)
+Copy/paste - it's something we all do, probably multiple times a day. But what do you do if you need to copy the same few things again and again? How do you copy content across your devices? Today we're addressing that and taking the clipboard to the next level. Press WIN+V and you'll be presented with our new clipboard experience.  
+
+![clipboard history](images/clipboardhistory.png "clipboard history")
+
+Not only can you can paste from the clipboard history, but you can also pin the items you find yourself using all the time. This history roams with you using the same technology which powers Timeline and Sets, which means you can access your clipboard across any PC.  
+
+Our new settings page for enabling this experience is under __Settings > System > Clipboard__. 
+
+![clipboard settings](images/clipboardsettings.png "clipboard settings")
+
+__Note:__ Roaming text on the clipboard is only supported for clipboard content less than 100kb. Currently, the clipboard history supports plain text, HTML and images less than 1MB. 
+
+## Dark theme comes to File Explorer (and more!) 
+
+As many of you know, we added dark theme support to Windows based on your feedback. This setting is available under __Settings > Personalization > Colors__, and if you switch it any apps and system UI that support it will follow suit. Since releasing this feature, our top feedback request from you has been to update File Explorer to support dark theme. Along the way, we also added dark theme support to the File Explorer context menu, as well as the Common File Dialog (aka the Open and Save dialogs). Thanks again for everyone’s feedback!
+
+![dark mode](images/dark-mode.png "dark mode")
+
+## Notepad Improvements
+
+Introducing extended line endings support for Notepad: we’re excited to let you know that in addition to Windows line endings (CRLF), Notepad now supports Unix/Linux line endings (LF) and Macintosh line endings (CR)!
+
+### Wrap-around find and replace 
+We’ve made significant improvement to the find/replace experience in Notepad. We added the option to do wrap-around find/replace to the find dialog. Notepad will remember previously entered values and the state of check boxes, and will automatically populate them the next time you open the find dialog. Additionally, when you have text selected and open the find dialog we will automatically populate the search field with the selected text.
+
+![wrap around find and replace](images/notepad.png "wrap around find and replace")
+
+### Text zooming
+We’ve added options to make it quick and easy to zoom text in Notepad. There is a new menu option under __View > Zoom__ to change the zoom level and we display the current zoom level in the status bar. You can also use Ctrl + Plus, Ctrl + Minus and Ctrl + MouseWheel to zoom in and out and use Ctrl + 0 to restore the zoom level to the default.
+
+![text zooming](images/zooming2 .png "text zooming")
+
+### Line numbers with word-wrap
+Notepad can display line and column numbers when word-wrap is enabled, and we’ve made the status bar visible by default. You can still turn the status bar off in the View menu.
+
+![word-wrap](images/linenumbers.png "word-wrap")
+
+### Notepad Search with Bing
+To use simply highlight any words or phrase in Notepad and you can search Bing using the following methods:
+•	Select text and choose “Search with Bing” via the right-click (context) menu.
+•	Edit menu ->”Search with Bing…”
+•	CTRL + B.
+Other Improvements: 
+•	We’ve improved the performance when opening large files in Notepad.
+•	Notepad now supports Ctrl + Backspace to delete the previous word.
+•	Arrow keys now correctly unselect text first and then move the cursor.
+•	When saving a file in Notepad, the line and column number no longer reset to 1.
+•	Notepad now correctly displays lines that don’t fit entirely on the screen.
+
 
 ## Acrylicic improvements
 
@@ -40,19 +128,6 @@ You will notice new acrylic backgrounds in places on the system using these cont
 In the __Bluetooth & other devices__ page in Settings, you can check the battery level of your Bluetooth devices for Bluetooth devices that support this feature, in which case the battery percentage will update whenever your PC and the device are connected.
 
 ![bluetooth battery](images/bluetoothbattery.png "bluetooth battery")
-
-## New clipboard experience
-Copy/paste - it's something we all do, probably multiple times a day. But what do you do if you need to copy the same few things again and again? How do you copy content across your devices? Today we're addressing that and taking the clipboard to the next level. Press WIN+V and you'll be presented with our new clipboard experience.  
-
-![clipboard history](images/clipboardhistory.png "clipboard history")
-
-Not only can you can paste from the clipboard history, but you can also pin the items you find yourself using all the time. This history roams with you using the same technology which powers Timeline and Sets, which means you can access your clipboard across any PC.  
-
-Our new settings page for enabling this experience is under __Settings > System > Clipboard__ - please try this out and share feedback! [This link](feedback-hub:///) will open the Feedback Hub to where you can tell us about your experience and what you'd like to see next. 
-
-![clipboard settings](images/clipboardsettings.png "clipboard settings")
-
-__Note:__ Roaming text on the clipboard is only supported for clipboard content less than 100kb. Currently, the clipboard history supports plain text, HTML and images less than 1MB. 
 
 ## Cortana Show Me voice queries
  You can now launch the Cortana Show Me app through voice queries. Simply say to Cortana, “Show me how to change my background,” and you’ll get help content, with a new “Let’s go” button below, which launches the guided help experience. 
@@ -80,21 +155,6 @@ __Make text bigger__: We’ve heard your feedback and are excited to announce th
 ![bigger text](images/bigger-text.png "bigger text")
 
 That means you can now make text bigger in Start, File Explorer, Settings, etc., without having to change the overall scaling of your system. 
-
-### Wrap-around find and replace 
-We’ve made significant improvement to the find/replace experience in Notepad. We added the option to do wrap-around find/replace to the find dialog. Notepad will remember previously entered values and the state of check boxes, and will automatically populate them the next time you open the find dialog. Additionally, when you have text selected and open the find dialog we will automatically populate the search field with the selected text.
-
-![wrap around find and replace](images/notepad.png "wrap around find and replace")
-
-### Text zooming
-We’ve added options to make it quick and easy to zoom text in Notepad. There is a new menu option under __View > Zoom__ to change the zoom level and we display the current zoom level in the status bar. You can also use Ctrl + Plus, Ctrl + Minus and Ctrl + MouseWheel to zoom in and out and use Ctrl + 0 to restore the zoom level to the default.
-
-![text zooming](images/zooming2 .png "text zooming")
-
-### Line numbers with word-wrap
-Notepad can display line and column numbers when word-wrap is enabled, and we’ve made the status bar visible by default. You can still turn the status bar off in the View menu.
-
-![word-wrap](images/linenumbers.png "word-wrap")
 
 ## Microsoft Edge improvements
 __New, clearer Settings and more (“…”) menu:__ We’ve redesigned the __Settings and more__ menu in Microsoft Edge so it’s easier to find the options you’re looking for. The menu options are now organized into groups, with icons for each entry, and keyboard shortcuts (where applicable). Click the “…” button in the top-right corner of Microsoft Edge to see what’s new.
@@ -338,10 +398,6 @@ In addition to Windows line endings (CRLF), Notepad now supports Unix/Linux line
 
 For more details, check out [Introducing extended line endings support in Notepad](https://aka.ms/notepadeol). 
 
-## Dark theme comes to File Explorer (and more!) 
-
-As many of you know, we added dark theme support to Windows based on your feedback. This setting is available under __Settings > Personalization > Colors__, and if you switch it any apps and system UI that support it will follow suit. Since releasing this feature, our top feedback request from you has been to update File Explorer to support dark theme. Along the way, we also added dark theme support to the File Explorer context menu, as well as the Common File Dialog (aka the Open and Save dialogs). Thanks again for everyone’s feedback!
-
 ## Microsoft Pinyin and Wubi IMEs
 
 *__We updated the Microsoft Pinyin IME__. We’ve been focusing on addressing your performance, reliability and compatibility feedback. You'll also notice a number of other improvements, including design improvements, a new logo for the Microsoft Pinyin IME, new IME toolbar, and dark theme support!
@@ -477,30 +533,6 @@ We’ve heard your feedback that settings can be confusing sometimes, so we’re
 
 ![settings faq](images/questions.png "settings faq")
 
-## Snipping experience 
-The new modern snipping experience is here to help you effortlessly capture and annotate what you see on your screen. While working on this we’ve been carefully going over all your feedback about taking screenshots in Windows - you’ll find the flow and tools are optimized for sharing and make communicating visually with others quick and easy.
-
-![screen sketch](images/screen-sketch1.png "screen sketch")
-
-### Screen Sketch is now an app! 
-
-Originally introduced as part of the Windows Ink Workspace, this comes with a variety of benefits, including that it can now be updated via the Microsoft Store, it will now show up in the list when you press Alt + tab, you can set the window size to be your preference if you like multitasking, and it even supports multiple windows (and tabs, thanks to Sets!). 
-
-### Easy snipping is only a single step away
-
-WIN + Shift + S will now bring up a snipping toolbar – snip a rectangle, something a bit more freeform, or full screen and it will go straight to your clipboard. Immediately after taking a snip you’ll now get a notification that will take you and your snip to the Screen Sketch app where you can annotate and share.
-
-![screen sketch](images/screen-sketch2.png "screen sketch")
-
-Is the WIN + Shift + S keyboard shortcut too long to remember? Guess what! We’ve added easy entry options for every input modality: 
-*__Just click the pen tail button__. If you have a pen, go into __Pen & Windows Ink Settings__ – you’ll find Screen Snipping is now an option for single click. This will launch you directly into our snipping experience:
-
-![pen settings](images/pensettingsinked.png "pen settings")
-
-*__Press Print Screen__. You heard it right, just one button! It’s not enabled by default – go to Keyboard Settings – you’ll see a new option that says __Use the Print Screen key to launch screen snipping__. Opening Settings and searching for __print screen__ will take you to the right page.
-
-*__Press the quick action button in Action Center__. Called __Screen snip__ – it should be there as soon as you upgrade, but if not you can always enable it via Notifications & Actions Settings.
-
 ## Start tile folder naming 
 To create a tile folder in Start, just drag one tile on top of another for a second then release. Continue dropping as many tiles into the folder as you’d like. When you expand the folder, you’ll see a new option to name it. The name will be visible when the folder is medium, wide, or large-sized. 
 
@@ -571,11 +603,8 @@ One of the things we’ve heard from you is that it’s hard to know when you’
 
 ![wireless projection banner](images/beaming.png "wireless projection banner")
 
-## Your Phone app
-Android phone users, you can finally stop emailing yourself photos. Drag and drop that photo from your phone onto your PC. Copy, edit, or ink on that photo, right from your PC. With __Your Phone__ app, you get instant access to your Android’s most recent photos on your PC. Try it out by opening __Your Phone__ app. You will receive an app from Microsoft which you must download to your mobile phone and follow the setup prompts. Windows 10 build 17723+ is highly recommended for the best experience. Android 7.0+ are compatible with __Your Phone__ app. For PCs in the China region, Your Phone app services will be enabled in the future.
-For iPhone users, Your Phone app helps you to link your phone to your PC. Surf the web on your phone, then send the webpage instantly to your computer to pick up where you left off to continue what you’re doing–read, watch, or browse with all the benefits of a bigger screen. With a linked phone, continuing on your PC is one share away.
 
-We’ve added a new entry point to Your Phone app. Notice a desktop pin? It’ll take you directly to Your Phone app – for quicker access to your phone’s content. Or go through the all apps list in Start Menu, or Windows key and search for Your Phone app. You pick how you get there, just get there. 
+ 
 
 
 
