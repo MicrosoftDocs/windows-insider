@@ -152,8 +152,7 @@ You may see this window showing after you upgrade. Don’t worry – all your st
 
 ## Microsoft Edge improvements
 
-**Control whether media can play automatically** 
-We added a new setting in Microsoft Edge to allow you to control whether sites can autoplay media. You can find this setting under “Advanced Settings” > “Media autoplay,” with options to customize the behavior according to your preferences:
+**Control whether media can play automatically** : We added a new setting in Microsoft Edge to allow you to control whether sites can autoplay media. You can find this setting under “Advanced Settings” > “Media autoplay,” with options to customize the behavior according to your preferences:
 
 ![Edge autoplay](images/edge-autoplay.png "Edge autoplay")
 
@@ -161,9 +160,25 @@ We added a new setting in Microsoft Edge to allow you to control whether sites c
 * **Limit** restricts autoplay to work only when videos are muted, so you‘re never surprised by a sound. Once you click anywhere on the page, autoplay is re-enabled, and will continue to be allowed within that domain in that tab.
 * **Block** will prevent autoplay on all sites until you interact with the media content. Note that this may break some sites due to the strict enforcement – you may need to click multiple times for some video or audio to play correctly. Some sites may not work at all – in those cases, you can enable or block autoplay on a case-by-case bases from the website permissions pane (click the icon next to the address in the Address Bar).
 
-__New, clearer Settings and more (“…”) menu:__ We’ve redesigned the __Settings and more__ menu in Microsoft Edge so it’s easier to find the options you’re looking for. The menu options are now organized into groups, with icons for each entry, and keyboard shortcuts (where applicable). Click the “…” button in the top-right corner of Microsoft Edge to see what’s new.
+If you encounter sites that do not work as expected in the “Limit” or “Block” settings, please file feedback in the Feedback Hub app and let us know which site you were using, so we can work with developers and continue to refine the feature.
+Per-site media autoplay controls: You can now control autoplay permissions on a per-site basis under the “Website permission” section of the Website Identification pane – just click the information icon or lock icon on the left side of the address bar and click “manage permissions” to get started.
+
+**Per-site media autoplay controls:** You can now control autoplay permissions on a per-site basis under the **Website permission** section of the **Website Identification** pane – just click the information icon or lock icon on the left side of the address bar and click **manage permissions** to get started.
+
+![Edge autoplay](images/autoplay.png "Edge autoplay")
+
+**New design improvements:** As we continue to evolve how Microsoft Edge leverages the Fluent Design System for a more natural and usable experience, you may notice some subtle tweaks to the look of the tab bar in Microsoft Edge. In this build, we’re adding a new depth effect to the tab bar to help emphasize the active tab.
+
+![Edge design improvements](images/edge-design.png "Edge design improvements")
+
+**Redesigned “…” menu and Settings:** We’ve heard your feedback that the Microsoft Edge settings were getting a little complex for a single page. In this release, we’re overhauling the Microsoft Edge settings to make it easier to navigate, put commonly-used actions front and center, and allow more customization than ever.
 
 ![Edge menu options](images/SettingsandMore.png "Edge menu options")
+
+**Customize toolbar items for Microsoft Edge:** When you click “…” in the Microsoft Edge toolbar, you’ll find a refined menu that puts common commands like **New tab** and **New window** front and center. We’ve also added the much-requested ability to customize which icons appear in the Microsoft Edge toolbar – you can remove them all for a tidier look or add as many as you like to bring your favorite functionality to your fingertips!
+Last (but not least), this release breaks **Settings** out into subpages by category, with better-organized options and less clutter on each page. The new **Settings** experience is designed to match the experience in the Microsoft Edge hub, for a quicker and more familiar experience.
+
+![Edge custom toolbar](images/edge-custom-toolbar.png "Edge custom toolbar")
 
 __See your top sites in the jump list:__ You can now see your top sites in the jump list on the Windows task bar or Start menu. Just right-click the Microsoft Edge icon to see a list of your most visited sites and pin the ones that matter most to you. Right-click on any entry to remove it from the list. 
 
@@ -187,11 +202,6 @@ __Pin/unpin PDF toolbar:__ The PDF toolbar can now be pinned at the top of the d
 ![pin or unpin the toolbar](images/PDFPinButton.png "pin or unpin the toolbar")
 
 __Rendering improvements:__ We’ve included a bunch of rendering performance fixes so that you will see less white pages when you navigate through PDF files in Microsoft Edge.
-
-### Per-site media autoplay controls
-You can now control autoplay permissions on a per-site basis under the __Website permission__ section of the __Website Identification__ pane – just click the information icon or lock icon on the left side of the address bar and click __manage permissions__ to get started.
-
-![autoplay permissions](images/autoplay.png "autoplay permissions")
 
 ### Lookup definitions for words in reading view, books, and PDFs
 We’ve added a new dictionary function, so you can look up definitions for key words when reading a page or document. Simply select a single word to see the definition appear above your selection.
