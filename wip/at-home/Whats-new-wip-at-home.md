@@ -82,16 +82,19 @@ We’ve made significant improvement to the find/replace experience in Notepad. 
 ![wrap around find and replace](images/notepad.png "wrap around find and replace")
 
 ### Text zooming
+
 We’ve added options to make it quick and easy to zoom text in Notepad. There is a new menu option under __View > Zoom__ to change the zoom level and we display the current zoom level in the status bar. You can also use Ctrl + Plus, Ctrl + Minus and Ctrl + MouseWheel to zoom in and out and use Ctrl + 0 to restore the zoom level to the default.
 
 ![text zooming](images/zooming2 .png "text zooming")
 
 ### Line numbers with word-wrap
+
 Notepad can display line and column numbers when word-wrap is enabled, and we’ve made the status bar visible by default. You can still turn the status bar off in the View menu.
 
 ![word-wrap](images/linenumbers.png "word-wrap")
 
 ### Notepad Search with Bing
+
 To use simply highlight any words or phrase in Notepad and you can search Bing using the following methods:
 •	Select text and choose “Search with Bing” via the right-click (context) menu.
 •	Edit menu ->”Search with Bing…”
@@ -113,6 +116,7 @@ One of the things we’ve heard from you is that it’s hard to know when you’
 ![wireless projection banner](images/beaming.png "wireless projection banner")
 
 ## SwiftKey intelligence comes to Windows
+
 [SwiftKey](https://www.microsoft.com/en-us/swiftkey) gives you more accurate auto-corrections and predictions by learning your writing style – including the words, phrases and emoji that matter to you. It’s available for Android and iOS, and SwiftKey powers the typing experience on Windows when using the touch keyboard to write in English (United States), English (United Kingdom), French (France), German (Germany), Italian (Italy), Spanish (Spain), Portuguese (Brazil), or Russian.
 
 ![Swiftkey](images/swift2.png "Swiftkey")
@@ -122,6 +126,7 @@ Windows now shows you stats about each of these features. Go to Settings > Devic
 ![typing insights](images/typing-insights.png "typing insights")
 
 ### Emoji 11
+
 [Unicode 11 comes with 157 new emoji](http://blog.unicode.org/2018/06/announcing-unicode-standard-version-110.html). Including superheroes, redheads, a softball, a pirate flag, and a llama all made the cut. You can access them using the Emoji Panel (WIN+.) or the touch keyboard.
 
 ![new emojis](images/WindowsInsiderBlog_EmojiRS5.png "new emojis")
@@ -479,8 +484,6 @@ A new Windows HD Color page is now available under Display Settings! Windows HD 
 
 ![hd color settings](images/hd-color-settings.png "hd color settings")
 
-
-
 ### External GPU safe removal experience
 We added a safe removal experience for external GPUs connected via Thunderbolt 3. The safe remove experience allows you to know which applications are running on an external GPU so that you can safely remove it and prevent data loss during detach.
 
@@ -551,17 +554,15 @@ We have introduced a new __Region__ page that allows overrides to default region
 
 ![region page](images/Region.png "Region page")
 
-
-### Storage improvements
-
-__Storage Sense picks up a new skill__:  Starting with the [Creators Update](https://blogs.windows.com/windowsexperience/2017/01/19/announcing-windows-10-insider-preview-build-15014-for-pc-and-mobile-hello-windows-insiders-today-we-are-excited-to-be-releasing-windows-10-insider-preview-build-15014-for-pc-and-mobile/) we embarked on a journey to help you automatically clean up storage when low on disk space. We expanded on that with the Fall Creators Update ([here](https://blogs.windows.com/windowsexperience/2017/05/17/announcing-windows-10-insider-preview-build-16199-pc-build-15215-mobile/) and [here](https://blogs.windows.com/windowsexperience/2017/06/21/announcing-windows-10-insider-preview-build-16226-pc/)). We also added the ability to automatically make any downloaded Files On-Demand online-only if you haven’t used them in a certain number of days. Head to __Settings > System > Storage > Storage Sense__ to try out this new feature.
+### Storage Sense picks up a new skill
+Starting with the [Creators Update](https://blogs.windows.com/windowsexperience/2017/01/19/announcing-windows-10-insider-preview-build-15014-for-pc-and-mobile-hello-windows-insiders-today-we-are-excited-to-be-releasing-windows-10-insider-preview-build-15014-for-pc-and-mobile/) we embarked on a journey to help you automatically clean up storage when low on disk space. We expanded on that with the Fall Creators Update ([here](https://blogs.windows.com/windowsexperience/2017/05/17/announcing-windows-10-insider-preview-build-16199-pc-build-15215-mobile/) and [here](https://blogs.windows.com/windowsexperience/2017/06/21/announcing-windows-10-insider-preview-build-16226-pc/)). We also added the ability to automatically make any downloaded Files On-Demand online-only if you haven’t used them in a certain number of days. Head to __Settings > System > Storage > Storage Sense__ to try out this new feature.
 
 ### Have a question about Settings?
 We’ve heard your feedback that settings can be confusing sometimes, so we’re working with Bing to bubble up some of the most common questions we hear right into the Settings pages themselves. The FAQ’s are contextual in nature and aim to you to quickly get the answer you’re looking for to complete configuration tasks. It may even help you discover something you didn’t know was an option! Clicking on these questions will take you to Bing.com to display the answer.
 
 ![settings](images/settings.png "Settings")
 
-### Ease of access improvements
+### Ease of access (accessibility) improvements
 __Make text bigger__: We’ve heard your feedback and are excited to announce that the ability to increase text size across the system is back and better than ever! When you go to __Settings > Ease of Access > Display__ in today’s build, you’ll find a new setting called “Make everything bigger” – this slider will adjust text across the system, win32 apps, and UWP apps.
 
 ![bigger text](images/bigger-text.png "bigger text")
@@ -577,9 +578,26 @@ That means you can now make text bigger in Start, File Explorer, Settings, etc.,
 
 ## Narrator improvements 
 
+**Selection commands in Narrator Scan Mode:** Narrator’s scan mode now supports selecting content in Microsoft Edge, Word, Outlook, Mail and most text surfaces. Standard shift- selection commands can be used as well as Control + A for the entire document. Caps + Shift + Down Arrow will speak the current selection. For a full list of selection commands, you can refer to Narrator’s Show Commands List by pressing Caps+F1. Once content is selected you can copy it to the clipboard by pressing Control + C. Formatting information will also be retained.
+There is a known issue in Edge where selecting forward will get stuck. This issue is being worked on. Selection in general is a work in progress. We would love to hear your feedback as you try out these improvements. [This link](http://aka.ms/narratorfb) will take you to the Narrator section of the Feedback Hub, or you can press Caps + E while Narrator is running.
+
+**Narrator Standard Keyboard Layout:** Narrator now ships with a new keyboard layout that is designed to be more familiar to screen reader users. Refer to [Intro to New Narrator Keyboard Layout] for details on these changes.
+
+__Automatic Dialog Reading__: Narrator automatically reads the contents of a dialog box when brought to the foreground. Narrator speaks the title of the dialog, the focused element within the dialog and the static text at the top of the dialog. For example, if you try to close a document in Word with unsaved changes, Narrator will speak the title “Microsoft Word,” the focus “Save button” and the static text within the dialog.
+
+__Narrator Find__: You now have the ability to search for text using Narrator’s new __Find__ feature. If the text is found Narrator will move to the found item. 
+
+__List of Objects__: Narrator can present a list of links, headings or landmarks present in the application or content. You are also able to filter the results by typing in the list or the text field of the window. 
+
+__Selection in Scan Mode__: Along with being able to select content in Narrator’s scan mode using Shift-selection commands, you can now also select a block of data by first moving to one end of the block and pressing __F9__, moving to the other end of the block and pressing __F10__. Once __F10__ is pressed the entire contents between the two points will be selected. 
+
+__Stop on Controls in Scan Mode__: Scan mode is a Narrator feature that lets you use just a few keys to move around your screen. Scan mode is already on by default in Microsoft Edge and you can toggle it on and off by pressing __Caps lock + Spacebar__. While you’re in scan mode, you can press the Up and Down arrow keys to read different parts of the page. The press of a Down arrow in Scan Mode stops on interactive elements, so that they are easier to use. An example of this behavior is  reading a paragraph with multiple links. Narrator will stop on these links when you press the Down arrow.
+
+__QuickStart:__ The link in settings to relaunch the QuickStart is available from the first Welcome page. The QuickStart more reliably takes focus when Narrator is launched, which means Narrator starts reading automatically.
+
 * __Reliability:__ We have made improvements in Narrator reliability.
 *__Scan Mode:__ Reading and navigating while in Scan Mode has been improved. Selecting text in Scan Mode has also been improved. 
-*__QuickStart:__ The link in settings to relaunch the QuickStart is available from the first Welcome page. The QuickStart more reliably takes focus when Narrator is launched, which means Narrator starts reading automatically.
+
 *__Providing Feedback:__ The keystroke to provide feedback has changed. The new keystroke is __Narrator + Alt + F__. This will work both in the standard and legacy layouts.
 <i>Note: The legacy layout also allows you to use __Narrator + E__ to send us feedback.</i>
 *__Move Next, Move Previous, and Change View:__ When changing Narrator’s view to characters, words, lines, or paragraphs the __Read Current Item__ command will read the text of that specific view type more reliably.
@@ -587,11 +605,8 @@ That means you can now make text bigger in Start, File Explorer, Settings, etc.,
 *__Braille:__ Improved use of Braille commands when using the Narrator key from the braille display.
 *__Narrator standard keyboard layout__: Narrator now ships with a new keyboard layout that is designed to be more familiar to screen reader users. 
 *__Selection commands in Narrator scan mode__: Narrator’s scan mode now supports selecting content in Microsoft Edge, Word, Outlook, Mail, and most text surfaces. Standard shift- selection commands can be used as well as __Control + A__ for the entire document. __Caps + Shift + Down Arrow__ will speak the current selection. For a full list of selection commands, you can refer to Narrator’s __Show Commands List__ by pressing __Caps + F1__. Once content is selected you can copy it to the clipboard by pressing __Control + C__. Formatting information will also be retained. 
-*__Automatic Dialog Reading__: Narrator automatically reads the contents of a dialog box when brought to the foreground. Narrator speaks the title of the dialog, the focused element within the dialog and the static text at the top of the dialog. For example, if you try to close a document in Word with unsaved changes, Narrator will speak the title “Microsoft Word,” the focus “Save button” and the static text within the dialog.
-*__Narrator Find__: You now have the ability to search for text using Narrator’s new __Find__ feature. If the text is found Narrator will move to the found item. 
-*__List of Objects__: Narrator can present a list of links, headings or landmarks present in the application or content. You are also able to filter the results by typing in the list or the text field of the window. 
-*__Selection in Scan Mode__: Along with being able to select content in Narrator’s scan mode using Shift-selection commands, you can now also select a block of data by first moving to one end of the block and pressing __F9__, moving to the other end of the block and pressing __F10__. Once __F10__ is pressed the entire contents between the two points will be selected. 
-*__Stop on Controls in Scan Mode__: Scan mode is a Narrator feature that lets you use just a few keys to move around your screen. Scan mode is already on by default in Microsoft Edge and you can toggle it on and off by pressing __Caps lock + Spacebar__. While you’re in scan mode, you can press the Up and Down arrow keys to read different parts of the page. The press of a Down arrow in Scan Mode stops on interactive elements, so that they are easier to use. An example of this behavior is  reading a paragraph with multiple links. Narrator will stop on these links when you press the Down arrow.
+
+
 
 For more information about Narrator new keyboard layout and other known issues, refer to [Intro to New Narrator Keyboard Layout doc](http://aka.ms/RS5NarratorKeyboard).
 
