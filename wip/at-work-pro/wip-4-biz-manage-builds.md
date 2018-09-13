@@ -51,15 +51,15 @@ You can use Group Policy or MDM solutions such as Intune to configure the Window
 Use the Group Policy Management Console (GPMC) to manage the following Windows Update for Business settings on domain-joined devices. See [walkthrough guidance](https://docs.microsoft.com/en-us/windows/deployment/update/waas-wufb-group-policy). 
 
 __Allow Telemetry__ sets the level of diagnostic data that can be sent to Microsoft. To enable installation of Insider Preview builds on a device, telemetry must be set to level 2 (enhanced) or higher. 
-* In the GPMC, go to: __Computer Configuration/Administrative Templates/Windows Components/Windows Update/Data Collection and Preview builds/Allow Telemetry__ and click __Enabled__.
+* Go to: __Computer Configuration/Administrative Templates/Windows Components/Windows Update/Data Collection and Preview builds/Allow Telemetry__ and click __Enabled__.
 * In the drop-down box, select "2-Enhanced" or "3-Full". 
 
 __Manage preview builds__ enables or prevents installation of Insider Preview builds on a device. You can also decide to stop Insider Preview builds once the Windows release is public. 
-* In GPMC, go to: __Computer Configuration/Administrative Templates/Windows Components/Windows Update/Windows Update for Business/Select when Preview Builds and Feature Updates are received__ and click __Enabled__.  
-* For "Set the behavior for receiving preview builds, select "Enable preview builds" and set your Branch Readiness Level per below. You can also select "Disable preview builds once next release is public" or "Disable preview builds". 
+* Go to: __Computer Configuration/Administrative Templates/Windows Components/Windows Update/Windows Update for Business/Select when Preview Builds and Feature Updates are received__ and click __Enabled__.  
+* For "Set the behavior for receiving preview builds, select "Enable preview builds". You can also select "Disable preview builds once next release is public" or "Disable preview builds". 
 
 __Branch Readiness Level__ enables selection of flight rings and option to defer or pause the delivery of updates. 
-In GPMC, go to: __Computer Configuration/Administrative Templates/Windows Components/Windows Update/Windows Update for Business/Select when Preview Builds and Feature Updates are received__ and click __Enabled__. 
+* Go to: __Computer Configuration/Administrative Templates/Windows Components/Windows Update/Windows Update for Business/Select when Preview Builds and Feature Updates are received__ and click __Enabled__. 
 * For "Select the Windows readiness level for the updates you want to receive", select your desired Ring. For more information, see [Windows readiness levels and flight rings](wip-4-biz-flight-levels-and-rings.md). 
 * For "After a Preview Build or Feature Update is released, defer receiving it for this many days", enter a number up to 14 days. 
 * For "Pause Preview Builds or Feature Updates starting" enter date. The pause will remain in effect for 35 days from the start date provided. 
@@ -73,13 +73,17 @@ To set Allow Telemetry and Windows Insider for Business policies above using Int
 
 [Update/BranchReadinessLevel](https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-update#update-branchreadinesslevel)
 
-### Set using using Windows 10 Update Ring policies in Intune
-In addition to the CSPs above, Insider Preview builds can be managed in Intune using Windows 10 Update Rings. 
-1.	Log into the Intune management portal and go to __Software Update>Windows 10 Update Rings__. Click “+” to create an Update Ring policy.
-2.	Under __Servicing Channel__, select "Fast" or "Slow" to assign Insider Preview builds from an Insider Preview Ring. See [Windows readiness levels and flight rings](wip-4-biz-flight-levels-and-rings.md) for more information about each choice. 
-3.	Adjust __Feature update deferral period__ if you want to defer deployment of Insider Preview builds for a certain number of days after release. 
-4.	Click __OK__ and __Create__ to set policy.
-5.	Go to __Assignments__ to assign the policy to users and devices. Note: you can create groups with one or more users or devices in Intune under __Groups__. 
+### Set using using Intune 
+1. Log into Azure portal, select Intune under Resources and navigate to __Device configuration > Profiles > Create profile__.
+2. From the __Profile type__ drop-down list, choose __Device restrictions__.
+3. In __Settings__ select __Reporting and Telemetry__ and set __Share usage data__ to "Enhanced" or "Full". (To enable installation of Insider Preview builds on a device, telemetry must be set to enhanced or higher.) 
+4. Go to __Software Update>Windows 10 Update Rings__. Click “+” to create an Update Ring policy.
+5. Under __Servicing Channel__, select "Fast" or "Slow" to assign Insider Preview builds from an Insider Preview Ring. See [Windows readiness levels and flight rings](wip-4-biz-flight-levels-and-rings.md) for more information about each choice. 
+6. Adjust __Feature update deferral period__ if you want to defer deployment of Insider Preview builds for a certain number of days after release. 
+7. Click __OK__ and __Create__ to set policy.
+8. Go to __Assignments__ to assign the policy to users and devices. Note: you can create groups with one or more users or devices in Intune under __Groups__. 
+
+See also 
 
 ![Intune Update Ring](images/wip-4-biz_manage_intune.png "ADD")
 
