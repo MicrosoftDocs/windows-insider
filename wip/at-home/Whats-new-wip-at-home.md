@@ -474,6 +474,93 @@ We’d love feedback as we work to refine this feature for the next Windows rele
 
 Note: In order for this feature to work, your device must have a light sensor.
 
+### Display Settings Improvements
+A new Windows HD Color page is now available under Display Settings! Windows HD Color-capable devices can show high dynamic range (HDR) content, including photos, videos, games, and apps.  This depends on your display and your PC. The “Windows HD Color Settings” page linked in Display Settings now reports your system’s HD Color capabilities and allows HD Color features to be configured on capable systems. The HD Color settings page is your one-stop shop to understand and configure your device’s settings – if you have an HDR-capable display connected to a recent PC, please give it a try and send us feedback!
+
+![hd color settings](images/hd-color-settings.png "hd color settings")
+
+
+
+### External GPU safe removal experience
+We added a safe removal experience for external GPUs connected via Thunderbolt 3. The safe remove experience allows you to know which applications are running on an external GPU so that you can safely remove it and prevent data loss during detach.
+
+To safely remove an external graphics card, go to the __Safely Remove Hardware and Eject Media__ icon and click to eject your GPU. If there are applications running on your external GPU, a dialog will appear with the applications that are currently running on the GPU. Close the applications to safely remove the device. If there are no applications currently running on your GPU then no dialog will appear and you can safely detach your GPU.
+
+### Bluetooth battery percentage in settings
+In the __Bluetooth & other devices__ page in Settings, you can check the battery level of your Bluetooth devices for Bluetooth devices that support this feature, in which case the battery percentage will update whenever your PC and the device are connected.
+
+![bluetooth battery](images/bluetoothbattery.png "bluetooth battery")
+
+### Roaming Usage (Data Sense) 
+
+Does your device have a SIM? We’ve updated Data Usage Settings to let you know how much data you are using while roaming! The roaming usage info will appear once you start using roaming data. As a reminder, if you’d like to enable or disable roaming altogether, you can find the option under **Cellular Settings**.
+
+![data sense](images/data-sense.png "data sense")
+
+### Mobile broadband (LTE) connectivity on Windows gets a makeover
+
+Windows is transforming the networking stack after 20 years through the __NetAdapter__ framework. This framework introduces a new, more reliable, network driver model that inherits from the Windows driver framework while bringing an accelerated data path. 
+
+The mobile broadband USB net adapter driver, a new and improved USB class driver based on the __NetAdapter__ framework, is the default driver in Windows 10 version 1809.  
+
+If your PC supports mobile broadband, i.e., your PC relies on cellular network for connectivity, and you want to try it out, here is what you need to do:
+
+__Step 1__: Ensure your PC can support SIM cards and USB modems (either over the internal USB bus or using a USB dongle for cellular connectivity). 
+
+__Step 2__: Install Windows 10 RS5, build 17655 or higher) and setup cellular connectivity. 
+
+__Step 3__: Choose the Net Adapter based MBB USB class driver as default driver. 
+
+1. Navigate to __Device Manager__. (You can right-click on the Start button to get there.) 
+2. Go to __Network Adapters -> Generic Mobile Broadband Adapter__ or __xxxxx Mobile Broadband Adapter__. 
+3. Right click and choose __update driver -> Browse my computer for driver software -> Click on Let me pick from a list of available drivers on my computer -> Choose Generic Mobile Broadband Cx Net Adapter__,then click __Next__. 
+4. Once installed reboot for the new driver to take effect. 
+5. Ensure the status of the connection remains “Connected”.
+
+![net adapter steps](images/NetAdapterSteps_Pic1.png "Net adapter steps")
+![net adapter steps](images/NetAdpaterSteps_Pic2.PNG "Net adapter steps")
+![net adapter steps](images/NetAdapterSteps_Pic3.jpg "Net adapter steps")
+
+__Note__: Follow the instructions in Step 4 to revert to the default driver(xxxxx Mobile Broadband Adapter), in case of issues with Net Adapter driver(Generic Mobile Broadband Cx Net Adapter). 
+
+__Step 4__: For Internet access, try using cellular network primarily by turning off Wi-Fi 
+To report issues and give feedback, use Feedback Hub on your PC and set Category and subcategory as Network and Internet -> Connecting to a cellular network. Use [cxwmbclass] in the summary. 
+
+### Continuing our Sound Settings migration
+
+Consolidating our settings experiences is an ongoing priority for us. We started our work moving **Sound settings** to Settings with the Windows 10 April 2018 Update, and we’re happy to announce the next piece of that with this release. Device properties has now been integrated into Settings – just click on the links in **Sound Settings** and you’ll find a new page where you can name your device and select your preferred spatial audio format.
+
+![sound settings](images/sound-settings.png "sound settings")
+
+### Improved local experience
+
+We have introduced a new Region page that allows overrides to default regional format settings such as Calendar, First day of the week, Dates, Times, and Currency. Please go to Settings App – Time & Language – Region and give it a try.
+
+![local experience](images/local-exp.png "local experience")
+
+
+Local Experience Packs are Microsoft Store apps that deliver Windows display language quality improvements. You can now access them easily via the Settings App. Please go to Settings App – Time & Language – Language. Once here click on <i>Add a Windows display language with Local Experience Packs</i> link to download a Local Experience Pack from the Microsoft Store and start enjoying Windows in your preferred language.
+
+![local experience packs](images/Get-LXP-from-Store.png "local experience packs")
+
+The Settings app provides improved discoverability of features supported for each language.
+
+We have also started utilizing Artificial Intelligence (AI) and neural network-based Machine Learning (ML) for Windows localization. Having the Local Experience Packs in the Microsoft Store allows us to take advantage of ML improvements and user feedback via [Language Community App](https://www.microsoft.com/en-us/store/p/language-community) to release better translations more frequently. This will consistently improve the experience of our international customers with Windows.
+
+We have introduced a new __Region__ page that allows overrides to default regional format settings such as Calendar, First day of the week, Dates, Times, and Currency. 
+
+![region page](images/Region.png "Region page")
+
+
+### Storage improvements
+
+__Storage Sense picks up a new skill__:  Starting with the [Creators Update](https://blogs.windows.com/windowsexperience/2017/01/19/announcing-windows-10-insider-preview-build-15014-for-pc-and-mobile-hello-windows-insiders-today-we-are-excited-to-be-releasing-windows-10-insider-preview-build-15014-for-pc-and-mobile/) we embarked on a journey to help you automatically clean up storage when low on disk space. We expanded on that with the Fall Creators Update ([here](https://blogs.windows.com/windowsexperience/2017/05/17/announcing-windows-10-insider-preview-build-16199-pc-build-15215-mobile/) and [here](https://blogs.windows.com/windowsexperience/2017/06/21/announcing-windows-10-insider-preview-build-16226-pc/)). We also added the ability to automatically make any downloaded Files On-Demand online-only if you haven’t used them in a certain number of days. Head to __Settings > System > Storage > Storage Sense__ to try out this new feature.
+
+### Have a question about Settings?
+We’ve heard your feedback that settings can be confusing sometimes, so we’re working with Bing to bubble up some of the most common questions we hear right into the Settings pages themselves. The FAQ’s are contextual in nature and aim to you to quickly get the answer you’re looking for to complete configuration tasks. It may even help you discover something you didn’t know was an option! Clicking on these questions will take you to Bing.com to display the answer.
+
+![settings](images/settings.png "Settings")
+
 
 ## Acrylic improvements
 
@@ -495,10 +582,7 @@ You will notice new acrylic backgrounds in places on the system using these cont
 
 ![acrylic settings](images/acrylic.png "acrylic settings")
 
-## Bluetooth battery percentage in settings
-In the __Bluetooth & other devices__ page in Settings, you can check the battery level of your Bluetooth devices for Bluetooth devices that support this feature, in which case the battery percentage will update whenever your PC and the device are connected.
 
-![bluetooth battery](images/bluetoothbattery.png "bluetooth battery")
 
 ## Cortana Show Me voice queries
  You can now launch the Cortana Show Me app through voice queries. Simply say to Cortana, “Show me how to change my background,” and you’ll get help content, with a new “Let’s go” button below, which launches the guided help experience. 
@@ -526,11 +610,6 @@ __Make text bigger__: We’ve heard your feedback and are excited to announce th
 ![bigger text](images/bigger-text.png "bigger text")
 
 That means you can now make text bigger in Start, File Explorer, Settings, etc., without having to change the overall scaling of your system. 
-
-## External GPU safe removal experience
-We added a safe removal experience for external GPUs connected via Thunderbolt 3. The safe remove experience allows you to know which applications are running on an external GPU so that you can safely remove it and prevent data loss during detach.
-
-To safely remove an external graphics card, go to the __Safely Remove Hardware and Eject Media__ icon and click to eject your GPU. If there are applications running on your external GPU, a dialog will appear with the applications that are currently running on the GPU. Close the applications to safely remove the device. If there are no applications currently running on your GPU then no dialog will appear and you can safely detach your GPU.
 
 ## Focus assist improvements when gaming 
 Now focus assist will turn on automatically when you’re playing any full screen game. No more interruptions when you’re crushing it. This behavior should be turned on automatically, but you can always check by going to __Settings > System > Focus assist__ and ensuring the __When I’m playing a game__ automatic rule is enabled. For more information, see [Windows 10 Tip: How to enable Focus Assist in the Windows 10 April 2018 Update](https://blogs.windows.com/windowsexperience/2018/05/09/windows-10-tip-how-to-enable-focus-assist-in-the-windows-10-april-2018-update/).
@@ -566,20 +645,6 @@ For more information on how the features in Windows Server 2019 and Windows 10 b
 
 ## Kernel debugging improvements 
 We are adding support for IPv6 to KDNET. To make room for the larger headers required for IPv6, we decreased the payload size of packets. As a result, we’re declaring a new version of the protocol, so that host PCs running the latest version of the debugger can be used to debug target PCs that only support IPv4. There is a version of WinDbg Preview available at [http://aka.ms/windbgpreview](http://aka.ms/windbgpreview). Follow the [Debugging Tools for Windows](http://aka.ms/windbgblog) blog for updates on KDNET IPv6 support and documentation. 
-
-## Local experience packs
-Local Experience Packs are Microsoft Store apps that deliver Windows display language quality improvements. You can now access them easily via the Settings App. Please go to Settings App – Time & Language – Language. Once here click on <i>Add a Windows display language with Local Experience Packs</i> link to download a Local Experience Pack from the Microsoft Store and start enjoying Windows in your preferred language.
-
-![local experience packs](images/Get-LXP-from-Store.png "local experience packs")
-
-The Settings app provides improved discoverability of features supported for each language.
-
-We have also started utilizing Artificial Intelligence (AI) and neural network-based Machine Learning (ML) for Windows localization. Having the Local Experience Packs in the Microsoft Store allows us to take advantage of ML improvements and user feedback via [Language Community App](https://www.microsoft.com/en-us/store/p/language-community) to release better translations more frequently. This will consistently improve the experience of our international customers with Windows.
-
-We have introduced a new __Region__ page that allows overrides to default regional format settings such as Calendar, First day of the week, Dates, Times, and Currency. 
-
-![region page](images/Region.png "Region page")
-
 
 ## Narrator improvements 
 
@@ -623,35 +688,6 @@ We’ve been using this model on internal devices, and we’ve seen promising re
 
 If you find your device restarting at the wrong time, please file a bug in the [feedback hub](https://aka.ms/updatefeedback) with the details on your experience. (i.e. I went to grab a cup of coffee for 5 minutes and it updated!). We would love to hear your stories and take it into account when training our update model.
 
-
-## Mobile broadband (LTE) connectivity on Windows gets a makeover
-
-Windows is transforming the networking stack after 20 years through the __NetAdapter__ framework. This framework introduces a new, more reliable, network driver model that inherits from the Windows driver framework while bringing an accelerated data path. 
-
-The mobile broadband USB net adapter driver, a new and improved USB class driver based on the __NetAdapter__ framework, is the default driver in Windows 10 version 1809.  
-
-If your PC supports mobile broadband, i.e., your PC relies on cellular network for connectivity, and you want to try it out, here is what you need to do:
-
-__Step 1__: Ensure your PC can support SIM cards and USB modems (either over the internal USB bus or using a USB dongle for cellular connectivity). 
-
-__Step 2__: Install Windows 10 RS5, build 17655 or higher) and setup cellular connectivity. 
-
-__Step 3__: Choose the Net Adapter based MBB USB class driver as default driver. 
-
-1. Navigate to __Device Manager__. (You can right-click on the Start button to get there.) 
-2. Go to __Network Adapters -> Generic Mobile Broadband Adapter__ or __xxxxx Mobile Broadband Adapter__. 
-3. Right click and choose __update driver -> Browse my computer for driver software -> Click on Let me pick from a list of available drivers on my computer -> Choose Generic Mobile Broadband Cx Net Adapter__,then click __Next__. 
-4. Once installed reboot for the new driver to take effect. 
-5. Ensure the status of the connection remains “Connected”.
-
-![net adapter steps](images/NetAdapterSteps_Pic1.png "Net adapter steps")
-![net adapter steps](images/NetAdpaterSteps_Pic2.PNG "Net adapter steps")
-![net adapter steps](images/NetAdapterSteps_Pic3.jpg "Net adapter steps")
-
-__Note__: Follow the instructions in Step 4 to revert to the default driver(xxxxx Mobile Broadband Adapter), in case of issues with Net Adapter driver(Generic Mobile Broadband Cx Net Adapter). 
-
-__Step 4__: For Internet access, try using cellular network primarily by turning off Wi-Fi 
-To report issues and give feedback, use Feedback Hub on your PC and set Category and subcategory as Network and Internet -> Connecting to a cellular network. Use [cxwmbclass] in the summary. 
 
 ## Microsoft Pinyin and Wubi IMEs
 
@@ -769,8 +805,6 @@ We’ve heard your feedback that settings can be confusing sometimes, so we’re
 ![settings faq](images/questions.png "settings faq")
 
 
-## Storage improvements
-__Storage Sense picks up a new skill__:  Starting with the [Creators Update](https://blogs.windows.com/windowsexperience/2017/01/19/announcing-windows-10-insider-preview-build-15014-for-pc-and-mobile-hello-windows-insiders-today-we-are-excited-to-be-releasing-windows-10-insider-preview-build-15014-for-pc-and-mobile/) we embarked on a journey to help you automatically clean up storage when low on disk space. We expanded on that with the Fall Creators Update ([here](https://blogs.windows.com/windowsexperience/2017/05/17/announcing-windows-10-insider-preview-build-16199-pc-build-15215-mobile/) and [here](https://blogs.windows.com/windowsexperience/2017/06/21/announcing-windows-10-insider-preview-build-16226-pc/)). We also added the ability to automatically make any downloaded Files On-Demand online-only if you haven’t used them in a certain number of days. Head to __Settings > System > Storage > Storage Sense__ to try out this new feature.
 
 
 ## Task Manager memory reporting improvements
