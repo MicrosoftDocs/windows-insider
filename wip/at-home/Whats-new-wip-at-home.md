@@ -406,7 +406,7 @@ We’re continuing to work on how other security apps you’ve installed show up
 You can still get to the app in all the usual ways – simply ask Cortana to open Windows Security or interact with the taskbar icon. Windows Security lets you manage all your security needs, including Windows Defender Antivirus and Windows Defender Firewall.
 We’re also bringing some changes to how we present threats and actions that need your attention, and we’re continuing to refine that over the coming months.
 
-###Windows Security Center gets a Fluent Design refresh
+### Windows Security Center gets a Fluent Design refresh
 
 We’ve heard your feedback and when you install this build you’ll find we’ve updated Windows Security Center to include the Fluent Design elements you know and love. You’ll also notice we’ve adjusted the spacing and padding around the app and will now dynamically size the categories on the main page if more room is needed for extra info. Last but not least, we’ve also updated the title bar of the app so that it will now use your accent color if you’ve enabled that option in Color Settings – with Sets enabled, you will see this color in the WDSC tab.
 
@@ -426,19 +426,20 @@ Additionally, users who are managed by enterprise policies will be able to check
 
 For more information, read [this](https://techcommunity.microsoft.com/t5/Windows-Insider-Program/Windows-Defender-Application-Guard-inside-Windows-Security-App/m-p/214102#M1709) post.
 
-To check this out, go to Windows Security and select App & browser control.
+To check this out:
+1. Go to **Windows Security** and select **App & browser** control.
 
 ![app browser control](images/app-browser-control.png "app browser control")
 
-Select Install Windows Defender Application Guard under Isolated browsing, install and restart the device (only for standalone users).
+2. Select **Install Windows Defender Application Guard** under **Isolated browsing**, install and restart the device (only for standalone users).
 
 ![isolated browsing](images/isolated-browsing.png "isolated browsing")
 
-Select **Change Application Guard settings**.
+3. Select **Change Application Guard settings**.
 
 ![Change Application Guard settings](images/change-app-guard.png "Change Application Guard settings")
 
-Configure or check Application Guard Settings.
+4. Configure or check **Application Guard Settings**.
 
 ![Check Application Guard settings](images/check-app-guard.png "Check Application Guard settings")
 
@@ -581,32 +582,17 @@ That means you can now make text bigger in Start, File Explorer, Settings, etc.,
 **Selection commands in Narrator Scan Mode:** Narrator’s scan mode now supports selecting content in Microsoft Edge, Word, Outlook, Mail and most text surfaces. Standard shift- selection commands can be used as well as Control + A for the entire document. Caps + Shift + Down Arrow will speak the current selection. For a full list of selection commands, you can refer to Narrator’s Show Commands List by pressing Caps+F1. Once content is selected you can copy it to the clipboard by pressing Control + C. Formatting information will also be retained.
 There is a known issue in Edge where selecting forward will get stuck. This issue is being worked on. Selection in general is a work in progress. We would love to hear your feedback as you try out these improvements. [This link](http://aka.ms/narratorfb) will take you to the Narrator section of the Feedback Hub, or you can press Caps + E while Narrator is running.
 
-**Narrator Standard Keyboard Layout:** Narrator now ships with a new keyboard layout that is designed to be more familiar to screen reader users. Refer to [Intro to New Narrator Keyboard Layout] for details on these changes.
+**Narrator Standard Keyboard Layout:** Narrator now ships with a new keyboard layout that is designed to be more familiar to screen reader users. Refer to [Intro to New Narrator Keyboard Layout](https://1drv.ms/w/s!AlrFAMvVwfUGiCdUCRhentDh3pvo) for details on these changes.
 
 __Automatic Dialog Reading__: Narrator automatically reads the contents of a dialog box when brought to the foreground. Narrator speaks the title of the dialog, the focused element within the dialog and the static text at the top of the dialog. For example, if you try to close a document in Word with unsaved changes, Narrator will speak the title “Microsoft Word,” the focus “Save button” and the static text within the dialog.
 
-__Narrator Find__: You now have the ability to search for text using Narrator’s new __Find__ feature. If the text is found Narrator will move to the found item. 
+__Narrator Find__: You can search for text using Narrator’s new __Find__ feature. If the text is found Narrator will move to the found item. 
 
-__List of Objects__: Narrator can present a list of links, headings or landmarks present in the application or content. You are also able to filter the results by typing in the list or the text field of the window. 
+__List of Objects__: Narrator can present a list of links, headings or landmarks present in the application or content. You can also filter the results by typing in the list or the text field of the window. 
 
 __Selection in Scan Mode__: Along with being able to select content in Narrator’s scan mode using Shift-selection commands, you can now also select a block of data by first moving to one end of the block and pressing __F9__, moving to the other end of the block and pressing __F10__. Once __F10__ is pressed the entire contents between the two points will be selected. 
 
 __Stop on Controls in Scan Mode__: Scan mode is a Narrator feature that lets you use just a few keys to move around your screen. Scan mode is already on by default in Microsoft Edge and you can toggle it on and off by pressing __Caps lock + Spacebar__. While you’re in scan mode, you can press the Up and Down arrow keys to read different parts of the page. The press of a Down arrow in Scan Mode stops on interactive elements, so that they are easier to use. An example of this behavior is  reading a paragraph with multiple links. Narrator will stop on these links when you press the Down arrow.
-
-__QuickStart:__ The link in settings to relaunch the QuickStart is available from the first Welcome page. The QuickStart more reliably takes focus when Narrator is launched, which means Narrator starts reading automatically.
-
-* __Reliability:__ We have made improvements in Narrator reliability.
-*__Scan Mode:__ Reading and navigating while in Scan Mode has been improved. Selecting text in Scan Mode has also been improved. 
-
-*__Providing Feedback:__ The keystroke to provide feedback has changed. The new keystroke is __Narrator + Alt + F__. This will work both in the standard and legacy layouts.
-<i>Note: The legacy layout also allows you to use __Narrator + E__ to send us feedback.</i>
-*__Move Next, Move Previous, and Change View:__ When changing Narrator’s view to characters, words, lines, or paragraphs the __Read Current Item__ command will read the text of that specific view type more reliably.
-*__Keyboard command changes:__ The keystroke to move the caret to the beginning of text is now __Narrator + B__ (formerly Narrator + Control + B), to move the caret to end of text is now __Narrator + E__ (was Narrator + Control + E).
-*__Braille:__ Improved use of Braille commands when using the Narrator key from the braille display.
-*__Narrator standard keyboard layout__: Narrator now ships with a new keyboard layout that is designed to be more familiar to screen reader users. 
-*__Selection commands in Narrator scan mode__: Narrator’s scan mode now supports selecting content in Microsoft Edge, Word, Outlook, Mail, and most text surfaces. Standard shift- selection commands can be used as well as __Control + A__ for the entire document. __Caps + Shift + Down Arrow__ will speak the current selection. For a full list of selection commands, you can refer to Narrator’s __Show Commands List__ by pressing __Caps + F1__. Once content is selected you can copy it to the clipboard by pressing __Control + C__. Formatting information will also be retained. 
-
-
 
 For more information about Narrator new keyboard layout and other known issues, refer to [Intro to New Narrator Keyboard Layout doc](http://aka.ms/RS5NarratorKeyboard).
 
@@ -614,9 +600,82 @@ For more information about Narrator new keyboard layout and other known issues, 
 
 ![Narrator](images/narrator.png "Narrator")
 
-When the Narrator Quickstart launches, Scan Mode may not reliably be on by default. We recommend going through the Quickstart with Scan Mode on. To verify that Scan Mode is on, press Caps Lock + Space.
-Narrator Keyboard improvements: We have added the scan mode secondary action command and Spell current selection command. Please refer to [Intro to New Narrator Keyboard Layout](https://onedrive.live.com/view.aspx?resid=6F5C1D5CB00C55A!1063&ithint=file%2cdocx&app=Word&wdLOR=t0135B10B-EA5A-4DD9-84F8-3C3FE8C6B0B9&authkey=!AFQJGF6e0OHem-g) for more information.
+When the Narrator Quickstart launches, Scan Mode may not reliably be on by default. We recommend going through the Quickstart with Scan Mode on. To verify that Scan Mode is on, press **Caps Lock + Space**.
+Narrator Keyboard improvements: We have added the scan mode secondary action command and Spell current selection command.
 
+## Microsoft Input Method Editor (IME) Improvements
+(Note: Use the Microsoft Input Method Editor (IME) to type in East Asian languages you’ve installed on your PC. Press and hold (or right-click) the input method indicator to switch input modes, then open the IME pad or open more IME settings. For some languages, you'll have more options such as the dictionary tool for Japanese.)
+
+
+**Taking the Microsoft Pinyin and Wubi IMEs to the next level:** Do you write in Chinese (Simplified)? We’re updating the Microsoft Pinyin IME! We’ve been focusing on addressing your performance, reliability and compatibility feedback. You’ll also notice a number of other improvements, including:
+
+*__We updated the Microsoft Pinyin IME__. We’ve been focusing on addressing your performance, reliability and compatibility feedback. You'll also notice a number of other improvements, including design improvements, a new logo for the Microsoft Pinyin IME, new IME toolbar, and dark theme support!
+
+![new look for imes](images/imeupdate.png "new look for imes")
+
+*__We updated the context menu__. We’ve added options to the IME mode indicator’s context menu in the taskbar, so you can quickly access the things you need.
+
+![IME context menu](images/ime-context-menu.png "IME context menu")
+
+*__The IME now uses the same UX for expressive input as other languages__. You can bring it up by clicking the emoji button in the IME toolbar, or use the Emoji Panel hotkeys (WIN + period (.) or WIN + semicolon (;)). You can browse between Emoji, Kaomoji, and Symbol input when Chinese (Simplified) is the active locale.
+
+![ime emojis](images/imeemoji.png "ime emojis")
+
+
+## A faster safer internet with HTTP/2 and CUBIC
+The internet is part of our daily lives both at work and at home, in the enterprise and in the cloud. We are committed to making your internet experience faster and safer. For example:
+
+* Microsoft Edge clients will take advantage of connection coalescing for HTTP/2 as supported in Windows Server 2019
+* Improved security on Microsoft Edge browsers by guaranteeing HTTP/2 preferred cipher suites
+* Improved performance on Windows 10 thanks to Cubic, the new default TCP congestion provider.
+
+For a full writeup detailing this improvement, please see our announcement  [A Faster, Safer Internet](https://blogs.technet.microsoft.com/networking/2018/08/01/faster-safer-internet/).
+
+## Time accuracy and traceability improvements
+
+*__Leap second support:__ Windows supports these occasional 1-second adjustments in a traceable and UTC-compliant manner. What’s a leap second? As the earth’s rotation slows, [UTC](https://en.wikipedia.org/wiki/Coordinated_Universal_Time) (an atomic timescale) diverges from [mean solar time](https://en.wikipedia.org/wiki/Solar_time#Mean_solar_time) or astronomical time.  Once UTC has diverged by at most .9 seconds, a [leap second](https://en.wikipedia.org/wiki/Leap_second) is inserted to keep UTC in-sync with mean solar time.  Since the practice of inserting leap seconds began in 1972, a leap second has typically occurred every 18 months.
+
+*__Precision Time Protocol:__ For the highest accuracy environments, you can improve your time accuracy by leveraging a new time protocol that delivers more accurate time samples to the endpoint (Windows Server 2019 or Windows 10, host or virtual machine).
+
+*__Software Timestamping:__ You can now further improve your network time accuracy by eliminating the software delay introduced by the Windows networking stack.
+
+For more details about these new improvements, please see our announcement [here](https://blogs.technet.microsoft.com/networking/2018/07/18/top10-ws2019-hatime/).
+
+## Kernel debugging improvements 
+We are adding support for IPv6 to KDNET. To make room for the larger headers required for IPv6, we decreased the payload size of packets. As a result, we’re declaring a new version of the protocol, so that host PCs running the latest version of the debugger can be used to debug target PCs that only support IPv4. There is a version of WinDbg Preview available at [http://aka.ms/windbgpreview](http://aka.ms/windbgpreview). Follow the [Debugging Tools for Windows](http://aka.ms/windbgblog) blog for updates on KDNET IPv6 support and documentation. 
+
+## Task Manager Improvements
+
+**Task Manager Memory Reporting Improvements:** We are making a small change in how memory used by suspended UWP apps/processes appears in Task Manager. Going forward, the main memory column in Task Manager “Processes” tab will not include memory used by suspended UWP processes. This is to more accurately reflect the OS behavior in which the OS can reclaim memory used by suspended UWP processes if needed. This means that if you have several UWP processes suspended in the background, the OS can take back memory from these suspended UWP processes if needed and use it for something that requires more memory. New and old memory columns will be available in “Details” tab for you to do comparisons if you want.
+New Power Usage Columns: Task Manager now includes 2 new columns in the “Processes” tab to show energy impact of the running process on their system. This should help our customers to understand which apps/services are using the maximum power vs. the least power-hungry apps. The metric takes CPU, GPU & Disk into evaluation when calculating power usage.
+* Power usage: This column will provide an instantaneous view of apps/services using power.
+* Power usage trend: This column provides a power usage trend over 2 mins for each running apps/services. This column will be blank when you start an app but will populate based on the power usage every 2 mins.
+
+![task manager](images/task-manager.png "task manager")
+
+## Registry Editor Improvements
+Have you ever been typing into the regedit address bar, and the next part of the path is just on the tip of your tongue, but you can’t remember? Starting with today’s build, you’ll now see a dropdown as you type to help complete the next part of the path! Oh, and you can also press Ctrl + Backspace to delete the last “word”, which makes backing up work that much faster (Ctrl + Delete will delete the next word).
+
+![registry editor](images/reg-editor.png "registry editor")
+
+## Privacy Improvements
+
+### New Diagnostic Data Viewer features to improve your Privacy Experience 
+
+At Microsoft, we understand that your data is your data. That’s why we are committed to providing full transparency on what diagnostic data Windows collects, when it is collected, and how you can control what you share. We care about your privacy and helping you build trust and confidence in our products.
+
+We first introduced the **Windows Diagnostic Data Viewer** on Data Privacy Day in 2018. The Windows Diagnostic Data Viewer helps you understand exactly what diagnostic data is received from your Windows device. Available to anyone through the Microsoft Store, the tool provides you full transparency when it comes to diagnostic data.
+
+Through the viewer, you can see the different categories of diagnostic data which includes:
+* Device Connectivity and Configuration such as device properties, preferences, settings, and network information
+* Product and Service Performance such as device health, performance and reliability, and device file queries (this is not meant to capture user patterns or habits)
+* Browsing History such as frequently visited sites
+* Product and Service Usage data like applications and services used
+* Software Setup and Inventory such as installed apps and device update information.
+
+Each of these categories are important so that we can diagnose performance issues and ensure your device is secure. The viewer provides you full insights into exactly what we collect so that you are aware of what’s happening on your device. Through this tool, you can do things like search by keyword, filter data by category, export the data to a separate file, and provide feedback about the tool or a specific data point.
+
+![diagnostic data](images/diagnostic-data.png "diagnostic data")
 
 ## Acrylic improvements
 
@@ -684,30 +743,6 @@ To rotate a HEIF image file, simply right-click on it in File Explorer and selec
 
 ![HEIF in file explorer](images/heic2.png "HEIF in file explorer")
 
-## A faster safer internet with HTTP/2 and CUBIC
-The internet is part of our daily lives both at work and at home, in the enterprise and in the cloud. We are committed to making your internet experience faster and safer. For example:
-
-* Microsoft Edge clients will take advantage of connection coalescing for HTTP/2 as supported in Windows Server 2019
-* Improved security on Microsoft Edge browsers by guaranteeing HTTP/2 preferred cipher suites
-* Improved performance on Windows 10 thanks to Cubic, the new default TCP congestion provider.
-
-For more information on how the features in Windows Server 2019 and Windows 10 brings those goals to reality, see our post [A Faster, Safer Internet](https://blogs.technet.microsoft.com/networking/2018/08/01/faster-safer-internet/).
-
-## Kernel debugging improvements 
-We are adding support for IPv6 to KDNET. To make room for the larger headers required for IPv6, we decreased the payload size of packets. As a result, we’re declaring a new version of the protocol, so that host PCs running the latest version of the debugger can be used to debug target PCs that only support IPv4. There is a version of WinDbg Preview available at [http://aka.ms/windbgpreview](http://aka.ms/windbgpreview). Follow the [Debugging Tools for Windows](http://aka.ms/windbgblog) blog for updates on KDNET IPv6 support and documentation. 
-
-
-
-## Time accuracy and traceability improvements
-
-*__Leap second support:__ Windows supports these occasional 1-second adjustments in a traceable and UTC-compliant manner. What’s a leap second? As the earth’s rotation slows, [UTC](https://en.wikipedia.org/wiki/Coordinated_Universal_Time) (an atomic timescale) diverges from [mean solar time](https://en.wikipedia.org/wiki/Solar_time#Mean_solar_time) or astronomical time.  Once UTC has diverged by at most .9 seconds, a [leap second](https://en.wikipedia.org/wiki/Leap_second) is inserted to keep UTC in-sync with mean solar time.  Since the practice of inserting leap seconds began in 1972, a leap second has typically occurred every 18 months.
-
-*__Precision Time Protocol:__ For the highest accuracy environments, you can improve your time accuracy by leveraging a new time protocol that delivers more accurate time samples to the endpoint (Windows Server 2019 or Windows 10, host or virtual machine).
-
-*__Software Timestamping:__ You can now further improve your network time accuracy by eliminating the software delay introduced by the Windows networking stack.
-
-For more details about these new improvements, please see our announcement [here](https://blogs.technet.microsoft.com/networking/2018/07/18/top10-ws2019-hatime/).
-
 ## Update experience
 
 Have you ever had to stop what you were doing, or wait for your computer to boot up because the device updated at the wrong time? To alleviate this pain, if you have an update pending we’ve updated our reboot logic to use a new system that is more adaptive and proactive. We trained a predictive model that can accurately predict when the right time to restart the device is. We will not only check if you are using your device before we restart, we will also try to predict if you had just left the device to grab a cup of coffee.
@@ -719,19 +754,6 @@ We’ve been using this model on internal devices, and we’ve seen promising re
 ### How do you give us feedback?
 
 If you find your device restarting at the wrong time, please file a bug in the [feedback hub](https://aka.ms/updatefeedback) with the details on your experience. (i.e. I went to grab a cup of coffee for 5 minutes and it updated!). We would love to hear your stories and take it into account when training our update model.
-
-
-## Microsoft Pinyin and Wubi IMEs
-
-*__We updated the Microsoft Pinyin IME__. We’ve been focusing on addressing your performance, reliability and compatibility feedback. You'll also notice a number of other improvements, including design improvements, a new logo for the Microsoft Pinyin IME, new IME toolbar, and dark theme support!
-
-    ![new look for imes](images/imeupdate.png "new look for imes")
-
-*__We updated the context menu__. We’ve added options to the IME mode indicator’s context menu in the taskbar, so you can quickly access the things you need.
-
-*__The IME now uses the same UX for expressive input as other languages__. You can bring it up by clicking the emoji button in the IME toolbar, or use the Emoji Panel hotkeys (WIN + period (.) or WIN + semicolon (;)). You can browse between Emoji, Kaomoji, and Symbol input when Chinese (Simplified) is the active locale.
-
-![ime emojis](images/imeemoji.png "ime emojis")
 
 
 ## Privacy improvements
