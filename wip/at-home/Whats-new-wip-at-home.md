@@ -705,64 +705,50 @@ Often font files come within a compressed folder (that is, a .zip file). The “
 
 ![per user fonts](images/install-font-2.png "per user fonts")
 
-## Acrylic improvements
+## Windows Container Improvements
+**New Windows Image:** We’re adding a new base image to the Windows Server container collection. In addition to nanoserver and windowsservercore container images, the new windows image is now available. This image carries even more components than its nanoserver and servercore siblings, meaning it can support applications that have additional API dependencies. Go to https://aka.ms/windowscontainer to learn more and get started.
+![Windows container](images/windows-container.png "Windows container")
 
-### Acrylic in task view 
-The entire task view background now has a soft blur effect.
+**Group managed service account reliability:** We’ve improved the scalability and reliability of containers that use group managed service accounts (gMSA) to access network resources. You should see fewer authentication errors when using a single gMSA with multiple container instances. Additionally, you no longer need to set the container hostname to be the same as the gMSA. We also fixed a bug that prevented you from using gMSAs with Hyper-V isolated containers.
 
-![acrylic task view](images/taskview-acrylic.png "acrylic task view")
+## For Developers
+**Contextual Commanding Improvements to Text Controls:** Our inbox text controls are now taking advantage of the new CommandBarFlyout control. This allows a number of exciting improvements including:
+* The ability to quickly cut, copy, and paste in textboxes with touch
+* New icons for common actions
+* The ability to bold, italicize, etc. in our rich text surfaces
+* New animations, acrylic treatment, and depth support
 
-### Acrylic comes to menus and more!
-Our acrylic material is being used by default in XAML controls and on transient XAML surfaces like flyouts. The new acrylic material is now applied to:
-* Context menus
-* Flyouts
-* Auto-suggest drop down list boxes
-* combo box drop down list boxes
-* date and time picker flyouts
-* media transport control flyouts and overflows
+![text controls](images/for-devs.png "text controls")
 
-You will notice new acrylic backgrounds in places on the system using these controls – for example when you right-click open apps in task view. Apps using the SDK for Windows 10, version 1809 or higher will see this change by default as well.
+## Notable App Updates
+### Skype for Windows 10 gets a big update! 
+This new [Skype for Windows 10 update](https://aka.ms/skypeinsider_windows10) brings all the latest and greatest Skype capabilities to Windows 10 users.
 
-![acrylic settings](images/acrylic.png "acrylic settings")
+Here’s a sample of what’s new:
+* **Best in class calling experience**- We’ve added several new calling features to make Skype’s calling experience even better than before.
+* **Flexible group call canvas** – Customize your group call experience and decide who appears in the main call canvas.  Simply drag and drop people between the call canvas and the overflow ribbon to select who you want to focus on.
+* **Take snapshots** – Use snapshots to capture images of important moments within a call.  Snapshots makes sure you never forget important memories like your grandkid’s funny antics or crucial information like the content that’s been screenshared during a meeting.
+* **Easily start screensharing** – We’ve made sharing your screen during calls even easier.  Look for the ability to share your screen with the top level call controls.
+* **New layout** – Based on your feedback, we’ve made your contacts easier to access and view
+* **Customizable themes** – Choose a color and theme for your Skype client through your application settings.
+* And much more – Improvements to our media gallery, notifications panel, @mentions experience and more!
 
+In addition to all the latest enhancements, with this update you can expect more frequent improvements to your Skype for Windows 10 experiences going forward via updates from the Microsoft Store. 
 
+## Windows Calculator 
 
-## Cortana Show Me voice queries
- You can now launch the Cortana Show Me app through voice queries. Simply say to Cortana, “Show me how to change my background,” and you’ll get help content, with a new “Let’s go” button below, which launches the guided help experience. 
+Windows Calculator now correctly calculates square roots for perfect squares (integers that are squares of other integers). Because of the [arbitrary precision arithmetic library](https://blogs.msdn.microsoft.com/oldnewthing/20160628-00/?p=93765) used by the Calculator app, the square root calculation is an approximation calculated using the [Exponential Identity](https://en.wikipedia.org/wiki/Methods_of_computing_square_roots%23Exponential_identity) function.
 
- You can download [Cortana Show Me](https://www.microsoft.com/en-us/store/r/cortana-follow-me/) from the Microsoft Store.
+Previously, when you would calculate the square root of 4, the result would be 1.99999999999999999989317180305609 which would be rounded to 2 when displayed, because we calculated enough digits to do the rounding correctly. However, as soon as you subtract 2, you would see the remaining digits.
 
- Here are some voice queries to try:
-
-*__Update Windows__– Try, “Update my Windows device”
-*__Check if an app is installed__ – Try, “How to see what apps are installed”
-*__Uninstall an app__ – Try “How to uninstall apps”
-*__Change your desktop background__– Try, “Show me how to change my background”
-*__Use Airplane Mode__ – Try, “How do I turn on airplane mode”
-*__Change your display brightness__ – Try, “Show me how to change my screen brightness”
-*__Add nearby printers or scanners__ – Try, “How to add a printer”
-*__Turn off Windows Defender Security Center__ – Try, “Show me how to turn off Windows Defender Security Center”
-*__Change Wi-Fi settings__ – Try, “Show me how to change Wi-Fi network”
-*__Change your power settings__ – Try, “How to change when my computer goes to sleep”
-*__Discover Bluetooth devices__ – Try, “Show me how to discover devices”
-*__Check your version of Windows__ – Try, “How do I find my current version of Windows”
-
-
-## Focus assist improvements when gaming 
-Now focus assist will turn on automatically when you’re playing any full screen game. No more interruptions when you’re crushing it. This behavior should be turned on automatically, but you can always check by going to __Settings > System > Focus assist__ and ensuring the __When I’m playing a game__ automatic rule is enabled. For more information, see [Windows 10 Tip: How to enable Focus Assist in the Windows 10 April 2018 Update](https://blogs.windows.com/windowsexperience/2018/05/09/windows-10-tip-how-to-enable-focus-assist-in-the-windows-10-april-2018-update/).
-
-![sound settings](images/speakers2.png "sound settings")
+After this update, the square root calculation now recognizes perfect squares and correctly returns exactly 2 for the square root of 4.
 
 ## High Efficiency Image File Format (HEIF)
-The __High Efficiency Image File Format (HEIF)__ is supported in Windows 10 and the Photos app. [HEIF is an image container](https://en.wikipedia.org/wiki/High_Efficiency_Image_File_Format) that leverages modern codecs like HEVC to improve quality, compression, and capabilities compared to earlier formats like JPEG, GIF, and PNG. In addition to traditional single images, HEIF supports encoding image sequences, image collections, auxiliary images like alpha or depth maps, live images & video, audio, and HDR for greater contrast. 
+We are happy to announce that you can now rotate HEIF-format images in File Explorer, and edit metadata, such as “Date taken”.
+
+The new functionality requires the latest version of the HEIF package. The latest version will be installed automatically be the Store. If automatic updates are disabled you can download the HEIF package manually [here](https://aka.ms/HEIFpackage).
 
 HEIF files use the HEVC video codec to compress the image into approximately half the size of JPEG. If your Windows PC does not already have the HEVC video codec, it can be purchased from the Windows Store using [this link](https://aka.ms/HEVCcodec).
-
-In order to try this out, you need to join the Windows App Preview Program for the Photos app and make sure you are running the March release of the Photos app (Version 2018.18022.13740.0 or newer). This version of the [Photos](https://www.microsoft.com/store/productId/9WZDNCRFJBH4) app has been updated to support viewing the primary image inside a HEIF file and to guide the install of dependencies like the HEIF and HEVC media extensions from the Microsoft Store. Once installed, these media extensions enable HEIF viewing in Photos as well as thumbnails and metadata in File Explorer.
-
-Additionally, any application that uses [WIC](https://msdn.microsoft.com/en-us/library/windows/desktop/ee719654(v=vs.85).aspx), [WinRT Imaging APIs](https://docs.microsoft.com/en-us/uwp/api/windows.graphics.imaging), or the [XAML Image control](https://docs.microsoft.com/en-us/uwp/api/windows.ui.xaml.controls.image) can now add similar support for viewing single HEIF images.
-
-[Click here](https://aka.ms/photosfb) to open Feedback Hub and send us feedback on the HEIF experience with the Photos app and Windows 10.
 
 You can now rotate HEIF-format images in File Explorer, and edit metadata, such as "Date taken". 
 The new functionality requires the latest version of the HEIF package. The latest version will be installed automatically be the Microsoft Store. If automatic updates are disabled you can download the HEIF package manually using [this link](https://aka.ms/HEIFpackage). 
@@ -771,170 +757,12 @@ To rotate a HEIF image file, simply right-click on it in File Explorer and selec
 
 ![HEIF in file explorer](images/heic2.png "HEIF in file explorer")
 
-## Update experience
+### Microsoft Font Maker app
+With the **Microsoft Font Maker** app you can use your pen to create a custom font based on the nuances of your own handwriting – currently available via the [Microsoft Store](https://www.microsoft.com/store/productId/9N9209F8S3VC) and we’d love to hear your feedback! Install the fonts you create to add a personal touch to everything you do!
 
-Have you ever had to stop what you were doing, or wait for your computer to boot up because the device updated at the wrong time? To alleviate this pain, if you have an update pending we’ve updated our reboot logic to use a new system that is more adaptive and proactive. We trained a predictive model that can accurately predict when the right time to restart the device is. We will not only check if you are using your device before we restart, we will also try to predict if you had just left the device to grab a cup of coffee.
+![font maker](images/font-maker.png "font-maker")
 
-### How accurate is this model?
 
-We’ve been using this model on internal devices, and we’ve seen promising results upon rollout.  Due to the nature of its architecture, we’re able to update the model with minimal turnaround time based on our insights from its performance. It’s all thanks to our cloud infrastructure.
-
-### How do you give us feedback?
-
-If you find your device restarting at the wrong time, please file a bug in the [feedback hub](https://aka.ms/updatefeedback) with the details on your experience. (i.e. I went to grab a cup of coffee for 5 minutes and it updated!). We would love to hear your stories and take it into account when training our update model.
-
-
-## Privacy improvements
-We wanted to let you know that if access to the microphone has been disabled in your privacy settings, we’ll now pop a notification the first time an attempt to use the microphone is blocked so you can review the settings if desired.
-
-![microphone disabled](images/micprivacy_toastonly.png "microphone disabled")
-
-### Privacy settings layout in the set-up experience 
-
-__Changes to the set up experience for privacy settings__ This new design conveys focused information to help our customers make focused choices about their privacy and offers two new settings for inking & typing, and find my device.
-
-## RSAT is now available on demand!
-You no longer have to manually download RSAT every time you upgrade! Just go to “Manage optional features” in Settings (the fastest way there is to search for that) and click “Add a feature” – you’ll now see all of the RSAT components listed. Pick the ones you want, and the next time you upgrade Windows will automatically ensure all those components persist the upgrade (just like any of our other on-demand features, like speech resources or OpenSSH). 
-
-![RSAT](images/rsat.png "RSAT")
-
-
-We made the search experience wider so you can access information and actions in the preview faster than ever. 
-
-![notepad bing search](images/notepad-bing-search.png "notepad bing search")
-
-__Find software downloads faster in Search!__: Continuing our theme of improving the search preview experience, we’re rolling out an update to make it easier to find official download pages for Windows software you want to install. 
-
-![GitHub search example](images/search.png "GitHub search example")
-
-## Sets
-Sets is designed to make sure that everything related to your task: relevant webpages, research documents, necessary files, and applications, is connected and available to you in one click. With Sets, first party experiences like Mail, Calendar, OneNote, MSN News, Windows, and Microsoft Edge become more integrated to create a seamless experience, so you can get back to what’s important and be productive, recapturing that moment, saving time – we believe that’s the true value of Sets. Here are some of the things you can do with sets.
-
-__Bring on the acrylic!__ We love fluent design as much as you do – Sets now have an acrylic title bar. We also adjusted the window border so that it’s now grey. 
-![fluent design with sets](images/fluent.png "fluent design with sets")
-
-__Recent Microsoft Edge tabs now show in Alt + Tab__: Do you use Alt + Tab to switch back and forth between apps? All of your recent Microsoft Edge tabs will now be included, not just the active one. Prefer it the old way? Use the “Pressing Alt + Tab shows the recently used…” setting in Multitasking Settings. 
-
-__Should apps and websites open in a new window or a new tab? It’s up to you!__ The __Sets__ section of __Multitasking Settings__ now lets you set your windowing preference. If you choose __Window__, new windows won’t open into a new tab unless you explicitly click the + or drag with your mouse. Choosing __Tab__ opens any new windows invoked from your running apps into tabs. As a reminder, if you would like to exclude any particular app from __Sets__, you can do this from this same settings page. 
-
-__Want to mute one of your web tabs? You can now do that!__ When a webpage in Sets starts playing audio, you’ll now see a volume icon on the tab. Simply click it and the audio will mute, just like in Microsoft Edge. 
-
-__Tabs restore with better performance__ They’ll open in the background and use no resources until you go to the tab. This means you can restore a lot of tabs at once with no issues. 
-
-We’ve also made other fixes, changes, and improvements to Sets, including: 
-* Task Manager is in the list of apps where Sets are not enabled. 
-* We fixed an issue where right clicking a tab in the Sets title bar didn’t bring up a context menu. 
-* We fixed an issue where if Microsoft Edge wasn’t already open, clicking the plus button in Sets would open all of your default websites along with the new tab page. 
-
-__Drag and drop app tabs within and between Sets windows is now supported__: It works just like it sounds! You can now drag an app tab around within the Set or combine tabbed app windows into Sets.  
-
-<i>Note: If you open a Microsoft Edge tab outside of a Set, you can’t drag and drop it into a Sets window. Drag and drop for Microsoft Edge web tabs within Sets isn’t supported yet and you may experience a crash if this is attempted.</i>  
-
-__Tabs are now bubbled up in Alt + Tab__: Have Photos, Microsoft Edge, and OneNote tabbed together? You can now use Alt + Tab to switch between them.  
-
-<i>Note: If you have multiple Microsoft Edge windows in a Set, only the one most recently accessed will be visible in Alt + Tab.</i>
-
-__Support for desktop (Win32) apps__ Sets now supports File Explorer, Notepad, Command Prompt, and PowerShell. One of the top feature requests is tabs for File Explorer and with Sets you can get a tabbed File Explorer experience.
-
-__Launch apps from the new tab page__ by typing the app name into the search box.
-
-__UWP apps are launched in the same window__ replacing the new tab page.
-The tab UI in Sets now shows icons including website favicons and app icons.
-Resume your project with more control – when restoring your projects you’ll be prompted to restore related apps and webpages. In Timeline you’ll see when a project has multiple activities associated with it.
-
-__File Explorer & Sets Improvements__: We’ve heard your feedback – you’d like it to be easier to get two File Explorer windows grouped together. We added a new keyboard shortcut to open a new tab when a File Explorer window is in focus: Ctrl + T. Remember, you can use Ctrl + N to open a new window, and Ctrl + W to close the window/tab.
-
-__New UI for opening new tabs and windows__ in the File Menu.
-
-![tabs in file window](images/tabsinfilewindow.png "tabs in file window")
-
-__New UI__ for easily opening new tabs and windows in the File Menu.
-
-![tabs in file explorer](images/tabsinfilewindow.png "tabs in file explorer")
-
-__New context menu options for tabs in Sets__: If you right-click on a Sets tab, you’ll discover several options to leverage, including “close other tabs”, “move to new window”, and “close tabs to the right”.
-
-![new context menu](images/newcontextmenu.png "new context menu")
-
-__Improvements to previous tabs__: We’ve done a few things to improve the experience in this space, including:
-
-*__You can choose which previous tabs you want to restore__, in addition to being able to restore all tabs. 
-
-*__You can now restore previous tabs from any type of activity__, in addition to restoring tabs when the primary window is a document.
-
-![previous tabs](images/previoustabs.png "previous tabs")
-
-* When you open a document that previously had tabs, a prompt will appear offering to restore those tabs, and the previous tabs button will be in the filled state. For things that aren’t documents, a prompt will not automatically appear, but you’ll know that there are tabs available to restore because the previous tabs button will be in the filled state.
-
-* We added an animation to the experience when there are no previous tabs available to be restored.
-
-__Keyboard shortcuts__
-
-*__Ctrl + Win + Tab__ – switch to next tab.
-*__Ctrl + Win + Shift + Tab__ – switch to previous tab.
-*__Ctrl + Win + T__– open a new tab.
-*__Ctrl + Win + N__ - open a new window.
-*__Ctrl + Win + W__– close current tab or window.
-
-We’ve heard your feedback and have been hard at work updating the new tab page to make it more obvious you can launch apps. When you click the plus button in a Sets window, you will now see apps included in your frequent destinations list. You’ll also find that we’ve integrated the all apps list into this page so you can browse your apps, rather than just using the search box – apps that support Sets will launch into a tab when clicked. If you have __News Feed__ selected, simply click the __Apps__ link next to __News Feed__ to switch to the all apps list.
-
-![apps in a sets window](images/ntpnew.png "apps in a sets window")
-
-## Settings
-
-We’ve heard your feedback that settings can be confusing sometimes, so we’re working with Bing to bubble up some of the most common questions we hear right into the Settings pages themselves. The FAQ’s are contextual in nature and aim to you to quickly get the answer you’re looking for to complete configuration tasks. It may even help you discover something you didn’t know was an option! Clicking on these questions will take you to Bing.com to display the answer.  
-
-![settings faq](images/questions.png "settings faq")
-
-
-
-
-## Task Manager memory reporting improvements
-In Windows 10, version 1809, the main memory column in Task Manager __Processes__ tab does not include memory used by suspended UWP processes. This more accurately reflects the OS behavior in which the OS can reclaim memory used by suspended UWP processes if needed. This means that if you have several UWP processes suspended in the background, the OS can take back memory from these suspended UWP processes if needed and use it for something that requires more memory. New and old memory columns will be available in “Details” tab for you to do comparisons. 
-
-
-## Windows app permissions 
-You have more control so you can now decide which UWP apps can access your full file system. Particular UWP apps will be granted permission to have broad file system access. This capability will be granted on a per app basis by Microsoft. If a UWP app has the broad file system access restricted capability, you will receive a consent dialog prompting you to accept or deny the request. If at any time you change your mind about the decision, you can go to __Settings > Privacy__ where you’ll find a new Settings page for file system access. On this page, you can turn access on or off globally, and if it’s on you can also turn it on or off for each app that has requested the capability. UWPs with broad file system access will not appear in the Photos, Videos, or Documents privacy settings pages. If you grant broad file system access, this includes Photos, Videos and Documents.
-
-## Windows Calculator 
-
-Windows Calculator now correctly calculates square roots for perfect squares (integers that are squares of other integers). Because of the [arbitrary precision arithmetic library](https://blogs.msdn.microsoft.com/oldnewthing/20160628-00/?p=93765) used by the Calculator app, the square root calculation is an approximation calculated using the [Exponential Identity](https://en.wikipedia.org/wiki/Methods_of_computing_square_roots%23Exponential_identity) function.
-Previously, when you would calculate the square root of 4, the result would be 1.99999999999999999989317180305609 which would be rounded to 2 when displayed, because we calculated enough digits to do the rounding correctly. However, as soon as you subtract 2, you would see the remaining digits.
-After this update, the square root calculation now recognizes perfect squares and correctly returns exactly 2 for the square root of 4.
-
-## Windows Defender Application Guard (WDAG) improvements
-
-The Windows Defender Application Guard (WDAG) team has introduced new improvements for users to have a better experience with our upcoming release. We have combed through our user feedback and acted to ensure your needs are met. On top of significant performance improvements, we have added an ability to download documents.
-
-__Performance improvements__: The teams at Microsoft are constantly working to improve performance for our users. WDAG is no different. In this feature update, you will notice an improvement in the launch time for WDAG. We have made the start process lighter and faster, which will provide our users with a better experience when accessing Microsoft Edge in WDAG.
-
-__Download files to the host__: One of the items our users voiced was an inability to “download files from within WDAG” to the host. This created an inconsistent experience for Microsoft Edge overall as downloaded files were stuck inside the container. In this release, users can turn on a feature to download files from their WDAG browsing session onto the host file system. This feature is available in the Windows 10 Enterprise edition and is not turned on by default. Once the feature is enabled, users will be able to download files into a folder created in their Downloads folder and open all files on the host.
-
-<i>How to enable and configure the Download to host feature</i>:
-
-__Requirements:__
-* Latest Windows 10 Enterprise, version 1803 builds
-* Windows Defender Application Guard feature is installed
-* Network isolation policies are configured
-
-__Steps:__
-1. Navigate to __Local Group Policy Editor > Administrative Templates > Windows Components > Windows Defender Application Guard__.
-
-![wdag](images/wdag.png "WDAG")
-
-2. Select __Allow files to download and save to the host operating system from Windows Defender Application Guard__.
-3. Select __Enabled and Apply__.
-
-![enable wdag](images/enablewdag.png "Enable WDAG")
-
-4. After this policy is enabled, you can download files from your Windows Defender Edge session to your Downloads folder. The files from WDAG will be saved in a folder called __Untrusted files__ nested inside the Downloads folder. This folder is created automatically when you first download a file from WDAGafter enabling the policy.
-
-![untrusted files](images/untrustedfiles.png "untrusted files")
-
-Notes:
-* This feature is off by default.
-* Users will need to assess the files they downloaded and assume any risks of opening on the host.
-* We’ve also made updates to Windows Defender System Guard. With Windows Defender System Guard, we are making a leap forward in platform security with memory integrity by default and bringing a born secure device promise to our user base. To learn more about these changes and talk with product team, see their post in the Windows Insider Technical Community.
 
 
 
