@@ -677,6 +677,34 @@ Each of these categories are important so that we can diagnose performance issue
 
 ![diagnostic data](images/diagnostic-data.png "diagnostic data")
 
+**New to the Diagnostic Data Viewer:** We are excited to say that users can now directly view Problem Reports that have or will be sent to Microsoft. Problem Reports help us identify crashes and other disruptions on your device so that we can improve your Windows experience. On the **Diagnostic Data Viewer**, users can view specific details about each report collected such as when it was sent and what application or component caused the report to be created.
+
+![diagnostic data viewer](images/diagnostic-data-2.png "diagnostic data viewer")
+
+Along with the ability to see Problem Reports, the Diagnostic Data Viewer comes with new changes to the UI as well. For example, the filter feature to view data points by category is now directly to the right of the search bar, and the export data feature now exists at the top right of the tool.
+
+### Microphone access
+If access to the microphone has been disabled in your privacy settings, we’ll now pop a notification the first time an attempt to use the microphone is blocked so you can review the settings if desired.
+
+![microphone privacy toast](images/micprivacy_toastonly.png "microphone privacy toast")
+
+## Font installation for non-admin users
+
+Have you ever wanted to use your own fonts from your account on a shared school or work PC, but couldn’t because you didn’t have the administrator privileges required to install the fonts? Well, we’ve heard your frustration about this and have made some changes.
+
+In the past, fonts in Windows have always been installed for all users. Because that is a system-wide change, it always required admin privilege. The need for an admin was reflected in the user interface. For example, if you browse in File Explorer to a folder containing a font file and right-clicked on the file to bring up the context menu, then the “Install” option would appear with the security badge, which means that it requires an admin.
+
+If you tried to install a font but didn’t have admin privileges, then you would be presented with a User Account Control dialog, so that an admin could approve the change. If you’re a non-admin user and often need to install (or uninstall) fonts, then that could be a big hassle.
+
+In the Windows 10 1803 feature update, we introduced fonts in the Microsoft Store. To enable that capability, we needed to make changes deep in Windows to allow a font to be installed for a specific user rather than system-wide. That’s why no admin action is needed when fonts acquired in the Store are installed.
+Now we’ve extended this further to include font files that you obtain from other sources and want to install. Now when you right-click on a font file in **File Explorer**, you’ll see two options. **Install for all users** provides the past, system-wide install capability and requires an admin. But now there is another option: **Install** allows any user, including non-admin users, to install a font for their own use.
+
+![per user fonts](images/install-font.png "per user fonts")
+
+Often font files come within a compressed folder (that is, a .zip file). The “Install” context-menu option isn’t available in File Explorer when you view the contents of a compressed folder, but you can double-click the font file within the compressed folder to open it in the font previewer, and that provides an “Install” button. In the past, the button in the font previewer had the security badge, and it would do a system-wide install, requiring an admin. Now the security badge is gone, and the “Install” button in the font previewer performs a single-user font install, which can be done by non-admins.
+
+![per user fonts](images/install-font-2.png "per user fonts")
+
 ## Acrylic improvements
 
 ### Acrylic in task view 
