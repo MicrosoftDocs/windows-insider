@@ -331,7 +331,6 @@ You may also notice some new error codes in Mixed Reality Portal to be more spec
 
 ## PC Gaming Improvements
 
-
 ### Game bar improvements
 *__Audio controls__: Change your default audio output device and mute or adjust the volume of games and apps running.
 *__Performance visualizations__: See your game’s framerate (FPS), CPU usage, GPU VRAM usage, and system RAM usage.
@@ -375,6 +374,26 @@ You can even edit what you’ve written with simple, intuitive gestures.
 In places where embedded handwriting doesn’t support your language or isn’t supported by the app (e.g. legacy Win32 applications), you can still invoke the floating handwriting panel.
 
 ## Windows Security Improvements
+
+### General Windows Security Improvements 
+We’ve continued to work on the **Current threats** area on the **Virus & threat protection** section, which now displays all threats that need action. You can quickly act on threats straight from this screen.
+
+![Windows Security](images/security-improvements.png "Windows Security")
+
+You can enable a new protection setting, **Block suspicious behaviors**, which brings our Windows Defender Exploit Guard attack surface reduction technology to all users. To enable this setting, go to the **Virus & threat protection** section and click **Manage settings**, as shown in the following screenshot:
+
+![Block suspicious behaviors](images/block-suspicious.png "Block suspicious behaviors")
+
+With Controlled folder access you can help prevent ransomware and other destructive malware from changing your personal files. In some cases, apps that you normally use might be blocked from making changes to common folders like Documents and Pictures. We’ve made it easier for you to add apps that were recently blocked so you can keep using your device without turning off the feature altogether.
+
+When an app is blocked, it will appear in a recently blocked apps list, which you can get to by opening the **Virus & threat protection** section, clicking **Manage settings** under the **Ransomware** protection heading. You can then allow apps through Controlled folder access. After the prompt, click the plus button and choose Recently blocked apps. Select any of the apps to add them to the allowed list. You can also browse for an app from this page as well.
+
+![controlled folder access](images/controlled-folder-access.png "controlled folder access")
+
+In the **Device performance & health** section, we added a new assessment for the Windows time service. If we detect that your device’s time is not properly synced with our time servers and the time-syncing service is disabled, we’ll provide the option for you to turn it back on.
+
+We’re continuing to work on how other security apps you’ve installed show up in the Windows Security app. There’s a new page called **Security providers** that you can find in the **Settings** section of the app. Click **Manage providers** to see a list of all the other security providers (including antivirus, firewall, and web protection) that are running on your device. Here you can easily open the providers’ apps, or get more information on how to resolve any issue that they have reported to you through the Windows Security app.
+
 
 ## Acrylic improvements
 
