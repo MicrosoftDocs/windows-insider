@@ -355,6 +355,26 @@ Until now, Windows logon only supported the use of identities federated to ADFS 
 3. On the lock screen, select Web Sign-in under Sign-in options.
 4. Click on the **Sign in** button to continue.
 
+## Faster sign-in to a Windows 10 shared PC
+Do you have shared PCs deployed in your work place? Do you wish that signing in to a PC with your account was faster? Starting with this build, we are introducing “Fast Sign-in,” which enables users to sign in to a shared Windows 10 PC in a flash!
+
+![fast sign-in](images/FastSignIn.png "fast sign-in")
+
+**To enable Fast Sign in:**
+1.	Set up a shared or guest PC with Windows 10
+2.	Set the following policy to enable Fast Sign in (Policy CSP/Authentication/EnableFastFirstSignIn)
+3.	With the policy enabled, sign-in to a shared PC with your account and notice the difference!
+
+## Inking Updates
+
+We introduced the embedded handwriting panel with the April 2018 Update, and after taking some time to refine the experience based on your feedback, in RS5 the embedded handwriting will now be the default experience for text entry with a pen in modern applications. Just tap a text area, like a search box, and it will expand to give you a comfortable area in which to write.
+
+![inking](images/inking.png "inking")
+
+You can even edit what you’ve written with simple, intuitive gestures.
+In places where embedded handwriting doesn’t support your language or isn’t supported by the app (e.g. legacy Win32 applications), you can still invoke the floating handwriting panel.
+
+## Windows Security Improvements
 
 ## Acrylic improvements
 
