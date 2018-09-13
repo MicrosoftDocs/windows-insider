@@ -25,7 +25,8 @@ The items with in __bold__ are the latest releases for the individual versions o
 
 | Build | Fast | Slow | Server | IoT | ISO | SDK |
 |-------|------|------|--------|-----|-----|-----|
-|18234|[__9/6/2018__*](https://blogs.windows.com/windowsexperience/2018/09/06/announcing-windows-10-insider-preview-build-18234/)||||||
+|18237|[__9/12/2018*__](https://blogs.windows.com/windowsexperience/2018/09/12/announcing-windows-10-insider-preview-build-18237/)
+|18234|[9/6/2018*](https://blogs.windows.com/windowsexperience/2018/09/06/announcing-windows-10-insider-preview-build-18234/)||||||
 |18219|[8/16/2018*](https://blogs.windows.com/windowsexperience/2018/08/16/announcing-windows-10-insider-preview-build-18219/)||||||
 |18214|[8/10/2018*](https://blogs.windows.com/windowsexperience/2018/08/10/announcing-windows-10-insider-preview-build-18214/)||||||
 |18204| [7/25/2018*](https://aka.ms/for-kevin)||
