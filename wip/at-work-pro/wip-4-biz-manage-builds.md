@@ -74,16 +74,15 @@ To set Allow Telemetry and Windows Insider for Business policies above using Int
 [Update/BranchReadinessLevel](https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-update#update-branchreadinesslevel)
 
 ### Set using using Intune 
-1. Log into Azure portal, select Intune under Resources and navigate to __Device configuration > Profiles > Create profile__.
-2. From the __Profile type__ drop-down list, choose __Device restrictions__.
-3. In __Settings__ select __Reporting and Telemetry__ and set __Share usage data__ to "Enhanced" or "Full". (To enable installation of Insider Preview builds on a device, telemetry must be set to enhanced or higher.) 
-4. Go to __Software Update>Windows 10 Update Rings__. Click “+” to create an Update Ring policy.
-5. Under __Servicing Channel__, select "Fast" or "Slow" to assign Insider Preview builds from an Insider Preview Ring. See [Windows readiness levels and flight rings](wip-4-biz-flight-levels-and-rings.md) for more information about each choice. 
-6. Adjust __Feature update deferral period__ if you want to defer deployment of Insider Preview builds for a certain number of days after release. 
-7. Click __OK__ and __Create__ to set policy.
-8. Go to __Assignments__ to assign the policy to users and devices. Note: you can create groups with one or more users or devices in Intune under __Groups__. 
-
-See also 
+1. Log into the [Azure portal](https://portal.azure.com) and select __Intune__ under __Resources__.
+2. Navigate to __Device configuration > Profiles > Create profile__.
+3. From the __Profile type__ drop-down list, choose __Device restrictions__.
+4. In __Settings__ select __Reporting and Telemetry__ and set __Share usage data__ to "Enhanced" or "Full". (To enable installation of Insider Preview builds on a device, telemetry must be set to enhanced or higher.) 
+5. Go to __Software Update>Windows 10 Update Rings__. Click “+” to create an Update Ring policy.
+6. Under __Servicing Channel__, select "Fast" or "Slow" to assign Insider Preview builds from an Insider Preview Ring. See [Windows readiness levels and flight rings](wip-4-biz-flight-levels-and-rings.md) for more information about each choice. 
+7. Adjust __Feature update deferral period__ if you want to defer deployment of Insider Preview builds for a certain number of days after release. 
+8. Click __OK__ and __Create__ to set policy.
+9. Go to __Assignments__ to assign the policy to users and devices. Note: you can create groups with one or more users or devices in Intune under __Groups__. 
 
 ![Intune Update Ring](images/wip-4-biz_manage_intune.png "ADD")
 
