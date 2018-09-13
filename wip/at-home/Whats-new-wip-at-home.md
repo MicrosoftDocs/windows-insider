@@ -422,8 +422,57 @@ Additionally, users who are managed by enterprise policies will be able to check
 For more information, read [this](https://techcommunity.microsoft.com/t5/Windows-Insider-Program/Windows-Defender-Application-Guard-inside-Windows-Security-App/m-p/214102#M1709) post.
 
 To check this out, go to Windows Security and select App & browser control.
+
 ![app browser control](images/app-browser-control.png "app browser control")
 
+Select Install Windows Defender Application Guard under Isolated browsing, install and restart the device (only for standalone users).
+
+![isolated browsing](images/isolated-browsing.png "isolated browsing")
+
+Select **Change Application Guard settings**.
+
+![Change Application Guard settings](images/change-app-guard.png "Change Application Guard settings")
+
+Configure or check Application Guard Settings.
+
+![Check Application Guard settings](images/check-app-guard.png "Check Application Guard settings")
+
+## Settings Improvements
+
+### Improved Kiosk Setup Experience
+
+We have introduced a simplified assigned access configuration page in Settings that allows device administrators to easily set up their PC as a kiosk or digital sign. This new page provides a wizard experience that walks you through the kiosk setup flow including creating a kiosk account that will automatically sign in on device start.
+
+Please go to Settings, search for assigned access, and open the “Set up a kiosk” page to give it a try. 
+
+![kiosk](images/kiosk.png "kiosk")
+
+For Microsoft Edge kiosk mode running in single-app assigned access the two kiosk types are:
+1.	Digital / Interactive signage that displays a specific website full-screen InPrivate mode.
+2.	Public browsing supports multi-tab browsing and runs InPrivate mode with minimal features available. Users cannot minimize, close, or open a new Microsoft Edge windows or customize it using Microsoft Edge Settings. Users can clear browsing data, clear downloads, and restart Microsoft Edge by clicking **End session.** Administrators can configure Microsoft Edge to restart after a period of inactivity.
+
+![kiosk](images/kiosk-2.png "kiosk")
+
+For Microsoft Edge kiosk mode running in multi-app assigned access the two kiosk types are (Note the following Microsoft Edge kiosk mode types cannot be setup using the new simplified assigned access configuration page in Windows 10 Settings):
+3.	Public browsing supports multi-tab browsing and runs InPrivate mode with minimal features available. In this configuration, Microsoft Edge can be one of many apps available. Users can close and open multiple InPrivate windows.
+
+![kiosk](images/kiosk-3.png "kiosk")
+
+4.	Normal mode runs a full version of Microsoft Edge, although some features may not work depending on what apps are configured in assigned access. For example, if the Microsoft Store is not set up, users cannot get books.
+
+![kiosk](images/kiosk-4.png "kiosk")
+
+Learn how to setup Microsoft Edge kiosk mode in the [Microsoft Edge kiosk mode deployment guide](https://docs.microsoft.com/en-us/microsoft-edge/deploy/microsoft-edge-kiosk-mode-deploy).
+
+### See Your Videos Better Outside
+
+There’s a new viewing mode for you to try out, designed to improve the visibility of your video when you are in a very bright environment. This feature uses the light sensor on your device to detect your ambient light, and automatically adjusts your video accordingly. To turn it on, navigate to **Settings > Apps > Video playback**, and turn on **Adjust video based on lighting**.
+
+![video playback](images/video-playback.png "video playback")
+
+We’d love feedback as we work to refine this feature for the next Windows release! Please use the Feedback Hub and file feedback under Category: “Devices and Drivers”, Subcategory: “Video Playback”. Click **Recreate my problem** and start the capture of the video playback you would like to give feedback on!
+
+Note: In order for this feature to work, your device must have a light sensor.
 
 
 ## Acrylic improvements
