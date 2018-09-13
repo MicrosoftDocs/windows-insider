@@ -33,7 +33,9 @@ If you do not have an Azure AD work account, you can use the same personal accou
 > [!div class="nextstepaction"]
 > [Register on insider.windows.com site](https://insider.windows.com/en-us/register/). 
 
-__NOTE:__ You can switch between your Microsoft Account (MSA) and your Azure AD work account by going to __Settings > Updates & Security > Windows Insider Program__. Under __Windows Insider account__ select __Change__.
+__NOTE:__ 
+* The account that you use to register for the Windows Insider Program does not have to be the same as the account that you used to authenciate with Windows on your device. 
+* You can switch the account that you used to register for the Windows Insider Program by going to __Settings > Updates & Security > Windows Insider Program__. Under __Windows Insider account__ select __Change__.
 
 ## Next up
 > [!div class="nextstepaction"]
