@@ -284,7 +284,7 @@ We have expanded previews to support apps, documents, and more. Search previews 
 
 We made the Search experience wider so you can access information and actions in the preview faster than ever. The preview will be updated and improved over time, as we develop and add more features. 
 
-![calendar with search](images/search-2.png "wider search experience")
+![calendar with search](images/search-2.jpg "wider search experience")
 
 ### Find software downloads faster in Search
 Continuing our theme of improving the search preview experience, we’re rolling out an update to make it easier to find official download pages for Windows software you want to install. The team is continuing to develop this experience and more is coming. 
@@ -495,7 +495,7 @@ In the __Bluetooth & other devices__ page in Settings, you can check the battery
 
 Does your device have a SIM? We’ve updated Data Usage Settings to let you know how much data you are using while roaming! The roaming usage info will appear once you start using roaming data. As a reminder, if you’d like to enable or disable roaming altogether, you can find the option under **Cellular Settings**.
 
-![data sense](images/data-sense.png "data sense")
+![data sense](images/data-usage.png "data sense")
 
 ### Mobile broadband (LTE) connectivity on Windows gets a makeover
 
