@@ -561,6 +561,47 @@ We’ve heard your feedback that settings can be confusing sometimes, so we’re
 
 ![settings](images/settings.png "Settings")
 
+### Ease of access improvements
+__Make text bigger__: We’ve heard your feedback and are excited to announce that the ability to increase text size across the system is back and better than ever! When you go to __Settings > Ease of Access > Display__ in today’s build, you’ll find a new setting called “Make everything bigger” – this slider will adjust text across the system, win32 apps, and UWP apps.
+
+![bigger text](images/bigger-text.png "bigger text")
+
+That means you can now make text bigger in Start, File Explorer, Settings, etc., without having to change the overall scaling of your system. 
+
+### Magnifier Improvements
+**Choose where to keep the mouse cursor:** We’ve heard your feedback asking us for a way to keep your mouse centered on the screen in Full-Screen mode, and with this release, we’re making it happen! This new option under **Settings > Ease of Access > Magnifier > Keep your mouse…” > centered on the screen** enables easier tracking and use of the mouse, especially helpful at higher magnification levels.
+
+![magnifier](images/magnifier.png "magnifier")
+
+**More options for increments:** You’ve also been asking for even more control of your zoom level increments, so we’ve taken a moment to add two new increments to the list: 5% and 10%.
+
+## Narrator improvements 
+
+* __Reliability:__ We have made improvements in Narrator reliability.
+*__Scan Mode:__ Reading and navigating while in Scan Mode has been improved. Selecting text in Scan Mode has also been improved. 
+*__QuickStart:__ The link in settings to relaunch the QuickStart is available from the first Welcome page. The QuickStart more reliably takes focus when Narrator is launched, which means Narrator starts reading automatically.
+*__Providing Feedback:__ The keystroke to provide feedback has changed. The new keystroke is __Narrator + Alt + F__. This will work both in the standard and legacy layouts.
+<i>Note: The legacy layout also allows you to use __Narrator + E__ to send us feedback.</i>
+*__Move Next, Move Previous, and Change View:__ When changing Narrator’s view to characters, words, lines, or paragraphs the __Read Current Item__ command will read the text of that specific view type more reliably.
+*__Keyboard command changes:__ The keystroke to move the caret to the beginning of text is now __Narrator + B__ (formerly Narrator + Control + B), to move the caret to end of text is now __Narrator + E__ (was Narrator + Control + E).
+*__Braille:__ Improved use of Braille commands when using the Narrator key from the braille display.
+*__Narrator standard keyboard layout__: Narrator now ships with a new keyboard layout that is designed to be more familiar to screen reader users. 
+*__Selection commands in Narrator scan mode__: Narrator’s scan mode now supports selecting content in Microsoft Edge, Word, Outlook, Mail, and most text surfaces. Standard shift- selection commands can be used as well as __Control + A__ for the entire document. __Caps + Shift + Down Arrow__ will speak the current selection. For a full list of selection commands, you can refer to Narrator’s __Show Commands List__ by pressing __Caps + F1__. Once content is selected you can copy it to the clipboard by pressing __Control + C__. Formatting information will also be retained. 
+*__Automatic Dialog Reading__: Narrator automatically reads the contents of a dialog box when brought to the foreground. Narrator speaks the title of the dialog, the focused element within the dialog and the static text at the top of the dialog. For example, if you try to close a document in Word with unsaved changes, Narrator will speak the title “Microsoft Word,” the focus “Save button” and the static text within the dialog.
+*__Narrator Find__: You now have the ability to search for text using Narrator’s new __Find__ feature. If the text is found Narrator will move to the found item. 
+*__List of Objects__: Narrator can present a list of links, headings or landmarks present in the application or content. You are also able to filter the results by typing in the list or the text field of the window. 
+*__Selection in Scan Mode__: Along with being able to select content in Narrator’s scan mode using Shift-selection commands, you can now also select a block of data by first moving to one end of the block and pressing __F9__, moving to the other end of the block and pressing __F10__. Once __F10__ is pressed the entire contents between the two points will be selected. 
+*__Stop on Controls in Scan Mode__: Scan mode is a Narrator feature that lets you use just a few keys to move around your screen. Scan mode is already on by default in Microsoft Edge and you can toggle it on and off by pressing __Caps lock + Spacebar__. While you’re in scan mode, you can press the Up and Down arrow keys to read different parts of the page. The press of a Down arrow in Scan Mode stops on interactive elements, so that they are easier to use. An example of this behavior is  reading a paragraph with multiple links. Narrator will stop on these links when you press the Down arrow.
+
+For more information about Narrator new keyboard layout and other known issues, refer to [Intro to New Narrator Keyboard Layout doc](http://aka.ms/RS5NarratorKeyboard).
+
+**Narrator Quickstart:** When Narrator launches, a new Quickstart tutorial experience will be available. The Narrator Quickstart will help you get up and running quickly with Narrator. It teaches the basics of using Narrator, such as learning the keys on your keyboard, navigation, the most used commands etc. At the end of the Quickstart there is a link to the User Guide where you can continue learning about Narrator.
+
+![Narrator](images/narrator.png "Narrator")
+
+When the Narrator Quickstart launches, Scan Mode may not reliably be on by default. We recommend going through the Quickstart with Scan Mode on. To verify that Scan Mode is on, press Caps Lock + Space.
+Narrator Keyboard improvements: We have added the scan mode secondary action command and Spell current selection command. Please refer to [Intro to New Narrator Keyboard Layout](https://onedrive.live.com/view.aspx?resid=6F5C1D5CB00C55A!1063&ithint=file%2cdocx&app=Word&wdLOR=t0135B10B-EA5A-4DD9-84F8-3C3FE8C6B0B9&authkey=!AFQJGF6e0OHem-g) for more information.
+
 
 ## Acrylic improvements
 
@@ -604,12 +645,6 @@ You will notice new acrylic backgrounds in places on the system using these cont
 *__Discover Bluetooth devices__ – Try, “Show me how to discover devices”
 *__Check your version of Windows__ – Try, “How do I find my current version of Windows”
 
-## Ease of access improvements
-__Make text bigger__: We’ve heard your feedback and are excited to announce that the ability to increase text size across the system is back and better than ever! When you go to __Settings > Ease of Access > Display__ in today’s build, you’ll find a new setting called “Make everything bigger” – this slider will adjust text across the system, win32 apps, and UWP apps.
-
-![bigger text](images/bigger-text.png "bigger text")
-
-That means you can now make text bigger in Start, File Explorer, Settings, etc., without having to change the overall scaling of your system. 
 
 ## Focus assist improvements when gaming 
 Now focus assist will turn on automatically when you’re playing any full screen game. No more interruptions when you’re crushing it. This behavior should be turned on automatically, but you can always check by going to __Settings > System > Focus assist__ and ensuring the __When I’m playing a game__ automatic rule is enabled. For more information, see [Windows 10 Tip: How to enable Focus Assist in the Windows 10 April 2018 Update](https://blogs.windows.com/windowsexperience/2018/05/09/windows-10-tip-how-to-enable-focus-assist-in-the-windows-10-april-2018-update/).
@@ -646,25 +681,7 @@ For more information on how the features in Windows Server 2019 and Windows 10 b
 ## Kernel debugging improvements 
 We are adding support for IPv6 to KDNET. To make room for the larger headers required for IPv6, we decreased the payload size of packets. As a result, we’re declaring a new version of the protocol, so that host PCs running the latest version of the debugger can be used to debug target PCs that only support IPv4. There is a version of WinDbg Preview available at [http://aka.ms/windbgpreview](http://aka.ms/windbgpreview). Follow the [Debugging Tools for Windows](http://aka.ms/windbgblog) blog for updates on KDNET IPv6 support and documentation. 
 
-## Narrator improvements 
 
-* __Reliability:__ We have made improvements in Narrator reliability.
-*__Scan Mode:__ Reading and navigating while in Scan Mode has been improved. Selecting text in Scan Mode has also been improved. 
-*__QuickStart:__ The link in settings to relaunch the QuickStart is available from the first Welcome page. The QuickStart more reliably takes focus when Narrator is launched, which means Narrator starts reading automatically.
-*__Providing Feedback:__ The keystroke to provide feedback has changed. The new keystroke is __Narrator + Alt + F__. This will work both in the standard and legacy layouts.
-<i>Note: The legacy layout also allows you to use __Narrator + E__ to send us feedback.</i>
-*__Move Next, Move Previous, and Change View:__ When changing Narrator’s view to characters, words, lines, or paragraphs the __Read Current Item__ command will read the text of that specific view type more reliably.
-*__Keyboard command changes:__ The keystroke to move the caret to the beginning of text is now __Narrator + B__ (formerly Narrator + Control + B), to move the caret to end of text is now __Narrator + E__ (was Narrator + Control + E).
-*__Braille:__ Improved use of Braille commands when using the Narrator key from the braille display.
-*__Narrator standard keyboard layout__: Narrator now ships with a new keyboard layout that is designed to be more familiar to screen reader users. 
-*__Selection commands in Narrator scan mode__: Narrator’s scan mode now supports selecting content in Microsoft Edge, Word, Outlook, Mail, and most text surfaces. Standard shift- selection commands can be used as well as __Control + A__ for the entire document. __Caps + Shift + Down Arrow__ will speak the current selection. For a full list of selection commands, you can refer to Narrator’s __Show Commands List__ by pressing __Caps + F1__. Once content is selected you can copy it to the clipboard by pressing __Control + C__. Formatting information will also be retained. 
-*__Automatic Dialog Reading__: Narrator automatically reads the contents of a dialog box when brought to the foreground. Narrator speaks the title of the dialog, the focused element within the dialog and the static text at the top of the dialog. For example, if you try to close a document in Word with unsaved changes, Narrator will speak the title “Microsoft Word,” the focus “Save button” and the static text within the dialog.
-*__Narrator Find__: You now have the ability to search for text using Narrator’s new __Find__ feature. If the text is found Narrator will move to the found item. 
-*__List of Objects__: Narrator can present a list of links, headings or landmarks present in the application or content. You are also able to filter the results by typing in the list or the text field of the window. 
-*__Selection in Scan Mode__: Along with being able to select content in Narrator’s scan mode using Shift-selection commands, you can now also select a block of data by first moving to one end of the block and pressing __F9__, moving to the other end of the block and pressing __F10__. Once __F10__ is pressed the entire contents between the two points will be selected. 
-*__Stop on Controls in Scan Mode__: Scan mode is a Narrator feature that lets you use just a few keys to move around your screen. Scan mode is already on by default in Microsoft Edge and you can toggle it on and off by pressing __Caps lock + Spacebar__. While you’re in scan mode, you can press the Up and Down arrow keys to read different parts of the page. The press of a Down arrow in Scan Mode stops on interactive elements, so that they are easier to use. An example of this behavior is  reading a paragraph with multiple links. Narrator will stop on these links when you press the Down arrow.
-
-For more information about Narrator new keyboard layout and other known issues, refer to [Intro to New Narrator Keyboard Layout doc](http://aka.ms/RS5NarratorKeyboard).
 
 ## Time accuracy and traceability improvements
 
