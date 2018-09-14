@@ -101,25 +101,32 @@ To use simply highlight any words or phrase in Notepad and you can search Bing u
 * Edit menu ->**Search with Bing…**
 * **CTRL + B**.
 
+We made the search experience broader so you can access information and actions faster than ever. 
+
+![notepad bing search](images/notepad-bing-search.png "notepad bing search")
+
+__Find software downloads faster in Search!__: Continuing our theme of improving the search preview experience, we’re rolling out an update to make it easier to find official download pages for Windows software you want to install. 
+
+![GitHub search example](images/search.png "GitHub search example")
+
 Other Improvements: 
-* We improved the performance when opening large files in Notepad.
-* Notepad now supports**Ctrl + Backspace** to delete the previous word.
-* Arrow keys now correctly unselect text first and then move the cursor.
-* When saving a file in Notepad, the line and column number no longer reset to 1.
-* Notepad now correctly displays lines that don’t fit entirely on the screen.
+* Notepad now supports**Ctrl + Backspace** to delete the previous word
+* Arrow keys now unselect text first, and then move the cursor
+* When saving a file, the line and column number no longer reset to 1
+* Notepad now correctly displays lines that don’t fit entirely on the screen
 
 ## Wireless projection experience
 
-One of the things we’ve heard from you is that it’s hard to know when you’re wirelessly projecting and how to disconnect if your session especially if started from file explorer or from an app. In Windows 10, version 1809, you’ll see a control banner at the top of your screen when you’re in a session (just like you see when using remote desktop). The banner keeps you informed of the state of your connection, allows you to quickly disconnect or reconnect to the same sink, and allows you to tune the connection based on what you are doing. This tuning is done via **Settings**, which optimizes the screen to screen latency based on one of the three scenarios:
-* Game mode minimizes the screen to screen latency to make gaming over a wireless connection possible.
-* Video mode increases the screen to screen latency to ensure the video on the big screen plays back smoothly and without glitching.
-* Productivity modes strikes a good balance between game mode and video mode where the screen to screen latency is responsive enough that typing feels natural, while ensuring videos don’t glitch too often.
+One of the things we’ve heard from you is that it’s hard to know when you’re wirelessly projecting and how to disconnect your session when started from file explorer or from an app. In Windows 10, version 1809, you’ll see a control banner at the top of your screen when you’re in a session (just like you see when using remote desktop). The banner keeps you informed of the state of your connection, allows you to quickly disconnect or reconnect to the same sink, and allows you to tune the connection based on what you are doing. This tuning is done via **Settings**, which optimizes the screen to screen latency based on one of the three scenarios:
+* Game mode minimizes the screen to screen latency to make gaming over a wireless connection possible
+* Video mode increases the screen to screen latency to ensure the video on the big screen plays back smoothly
+* Productivity modes strikes a good balance between game mode and video mode; the screen to screen latency is responsive enough that typing feels natural, while ensuring videos don’t glitch too often
 
 ![wireless projection banner](images/beaming.png "wireless projection banner")
 
 ## SwiftKey intelligence comes to Windows
 
-[SwiftKey](https://www.microsoft.com/en-us/swiftkey) gives you more accurate auto-corrections and predictions by learning your writing style – including the words, phrases and emoji that matter to you. It’s available for Android and iOS, and SwiftKey powers the typing experience on Windows when using the touch keyboard to write in English (United States), English (United Kingdom), French (France), German (Germany), Italian (Italy), Spanish (Spain), Portuguese (Brazil), or Russian.
+[SwiftKey](https://www.microsoft.com/en-us/swiftkey) gives you more accurate auto-corrections and predictions by learning your writing style – including the words, phrases, and emoji that matter to you. It’s available for Android and iOS, and SwiftKey powers the typing experience on Windows when using the touch keyboard to write in English (United States), English (United Kingdom), French (France), German (Germany), Italian (Italy), Spanish (Spain), Portuguese (Brazil), or Russian.
 
 ![Swiftkey](images/swift2.png "Swiftkey")
 
@@ -796,11 +803,11 @@ You will notice new acrylic backgrounds in places on the system using these cont
 
 ## Update experience
 
-Have you ever had to stop what you were doing, or wait for your computer to boot up because the device updated at the wrong time? To alleviate this pain, if you have an update pending we’ve updated our reboot logic to use a new system that is more adaptive and proactive. We trained a predictive model that can accurately predict when the right time to restart the device is. We will not only check if you are using your device before we restart, we will also try to predict if you had just left the device to grab a cup of coffee.
+Have you ever had to stop what you were doing, or wait for your computer to boot up because the device updated at the wrong time? To alleviate this pain, we’ve updated our reboot logic to use a new system that is more adaptive and proactive. We trained a predictive model that can accurately predict the best time to restart a device. We check to see if you are using your device before we restart and we also try to predict if you just left the device to grab a cup of coffee.
 
 ### How accurate is this model?
 
-We’ve been using this model on internal devices, and we’ve seen promising results upon rollout.  Due to the nature of its architecture, we’re able to update the model with minimal turnaround time based on our insights from its performance. It’s all thanks to our cloud infrastructure.
+We use this model on internal devices, and we see promising results upon rollout.  Due to the nature of its architecture, we’re able to update the model based on our insights from its performance. It’s all thanks to our cloud infrastructure.
 
 ### How do you give us feedback?
 
@@ -808,7 +815,7 @@ If you find your device restarting at the wrong time, please file a bug in the [
 
 
 ## Privacy improvements
-We wanted to let you know that if access to the microphone has been disabled in your privacy settings, we’ll now pop a notification the first time an attempt to use the microphone is blocked so you can review the settings if desired.
+We wanted to let you know that if access to the microphone has been disabled in your privacy settings, we’ll now pop a notification the first time an attempt to use the microphone is blocked, so that you can review the settings.
 
 ![microphone disabled](images/micprivacy_toastonly.png "microphone disabled")
 
@@ -817,17 +824,9 @@ We wanted to let you know that if access to the microphone has been disabled in 
 __Changes to the set up experience for privacy settings__ This new design conveys focused information to help our customers make focused choices about their privacy and offers two new settings for inking & typing, and find my device.
 
 ## RSAT is now available on demand!
-You no longer have to manually download RSAT every time you upgrade! Just go to “Manage optional features” in Settings (the fastest way there is to search for that) and click “Add a feature” – you’ll now see all of the RSAT components listed. Pick the ones you want, and the next time you upgrade Windows will automatically ensure all those components persist the upgrade (just like any of our other on-demand features, like speech resources or OpenSSH). 
+You no longer have to manually download RSAT every time you upgrade! Just go to **Manage optional features** in Settings and click **Add a feature**. You’ll now see all of the RSAT components listed. Pick the ones you want, and the next time you upgrade Windows will automatically ensure that those components remain after the upgrade, just like any of our other on-demand features, like speech resources or OpenSSH. 
 
 ![RSAT](images/rsat.png "RSAT")
-
-We made the search experience wider so you can access information and actions in the preview faster than ever. 
-
-![notepad bing search](images/notepad-bing-search.png "notepad bing search")
-
-__Find software downloads faster in Search!__: Continuing our theme of improving the search preview experience, we’re rolling out an update to make it easier to find official download pages for Windows software you want to install. 
-
-![GitHub search example](images/search.png "GitHub search example")
 
 ## Windows Container Improvements
 **New Windows Image:** We’re adding a new base image to the Windows Server container collection. In addition to nanoserver and windowsservercore container images, the new windows image is now available. This image carries even more components than its nanoserver and servercore siblings, meaning it can support applications that have additional API dependencies. Go to https://aka.ms/windowscontainer to learn more and get started.
