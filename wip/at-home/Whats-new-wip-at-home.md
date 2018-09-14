@@ -125,12 +125,12 @@ One of the things we’ve heard from you is that it’s hard to know when you’
 
 Windows shows you insights about how artificial intelligence (AI) helps you type with efficiency. If you use the software keyboard on Windows, there are many features built into the typing experience that leverage AI and machine learning(ML) to help you be more efficient. Some examples include autocorrecting your spelling mistakes, predicting next word you would type, suggesting a word as you start typing so you don’t have to type the full word, and displaying the number of words you typed when you swipe over the letters on the software keyboard.
 
-Windows now shows you stats about each of these features. Go to **Settings > Devices > Typing** and click on **View typing insights** link to see them.
+Windows now shows you stats about each of these features. Go to **Settings > Devices > Typing** and click on **View typing insights** to see them.
 ![typing insights](images/typing-insights.png "typing insights")
 
 ### Emoji 11
 
-[Unicode 11 comes with 157 new emoji](http://blog.unicode.org/2018/06/announcing-unicode-standard-version-110.html). Including superheroes, redheads, a softball, a pirate flag, and a llama all made the cut. You can access them using the Emoji Panel (WIN+.) or the touch keyboard.
+[Unicode 11 comes with 157 new emoji](http://blog.unicode.org/2018/06/announcing-unicode-standard-version-110.html). Superheroes, redheads, a softball, a pirate flag, and a llama all made the cut. You can access them using the Emoji Panel **WIN +.** or via the touch keyboard.
 
 ![new emojis](images/WindowsInsiderBlog_EmojiRS5.png "new emojis")
 
@@ -169,7 +169,7 @@ You may see this window showing after you upgrade. Don’t worry – all your st
 * **Limit** restricts autoplay to work only when videos are muted, so you‘re never surprised by a sound. Once you click anywhere on the page, autoplay is re-enabled, and will continue to be allowed within that domain in that tab.
 * **Block** will prevent autoplay on all sites until you interact with the media content. Note that this may break some sites due to the strict enforcement – you may need to click multiple times for some video or audio to play correctly. Some sites may not work at all – in those cases, you can enable or block autoplay on a case-by-case bases from the website permissions pane (click the icon next to the address in the Address Bar).
 
-If you encounter sites that do not work as expected in the “Limit” or “Block” settings, please file feedback in the Feedback Hub app and let us know which site you were using, so we can work with developers and continue to refine the feature.
+If you encounter sites that do not work as expected in the **Limit** or “Block” settings, please file feedback in the Feedback Hub app and let us know which site you were using, so we can work with developers and continue to refine the feature.
 Per-site media autoplay controls: You can now control autoplay permissions on a per-site basis under the “Website permission” section of the Website Identification pane – just click the information icon or lock icon on the left side of the address bar and click “manage permissions” to get started.
 
 **Per-site media autoplay controls:** You can now control autoplay permissions on a per-site basis under the **Website permission** section of the **Website Identification** pane – just click the information icon or lock icon on the left side of the address bar and click **manage permissions** to get started.
@@ -180,7 +180,7 @@ Per-site media autoplay controls: You can now control autoplay permissions on a 
 
 ![Edge design improvements](images/edge-design.png "Edge design improvements")
 
-**Customize toolbar items for Microsoft Edge:** When you click “…” in the Microsoft Edge toolbar, you’ll find a refined menu that puts common commands like **New tab** and **New window** front and center. We’ve also added the much-requested ability to customize which icons appear in the Microsoft Edge toolbar – you can remove them all for a tidier look or add as many as you like to bring your favorite functionality to your fingertips!
+**Customize toolbar items for Microsoft Edge:** When you click **…** in the Microsoft Edge toolbar, you’ll find a refined menu that puts common commands like **New tab** and **New window** front and center. We’ve also added the much-requested ability to customize which icons appear in the Microsoft Edge toolbar – you can remove them all for a tidier look or add as many as you like to bring your favorite functionality to your fingertips!
 Last (but not least), this release breaks **Settings** out into subpages by category, with better-organized options and less clutter on each page. The new **Settings** experience is designed to match the experience in the Microsoft Edge hub, for a quicker and more familiar experience.
 
 ![Edge custom toolbar](images/edge-custom-toolbar.png "Edge custom toolbar")
@@ -828,80 +828,6 @@ We made the search experience wider so you can access information and actions in
 __Find software downloads faster in Search!__: Continuing our theme of improving the search preview experience, we’re rolling out an update to make it easier to find official download pages for Windows software you want to install. 
 
 ![GitHub search example](images/search.png "GitHub search example")
-
-## Sets
-Sets is designed to make sure that everything related to your task: relevant webpages, research documents, necessary files, and applications, is connected and available to you in one click. With Sets, first party experiences like Mail, Calendar, OneNote, MSN News, Windows, and Microsoft Edge become more integrated to create a seamless experience, so you can get back to what’s important and be productive, recapturing that moment, saving time – we believe that’s the true value of Sets. Here are some of the things you can do with sets.
-
-__Bring on the acrylic!__ We love fluent design as much as you do – Sets now have an acrylic title bar. We also adjusted the window border so that it’s now grey. 
-![fluent design with sets](images/fluent.png "fluent design with sets")
-
-__Recent Microsoft Edge tabs now show in Alt + Tab__: Do you use Alt + Tab to switch back and forth between apps? All of your recent Microsoft Edge tabs will now be included, not just the active one. Prefer it the old way? Use the “Pressing Alt + Tab shows the recently used…” setting in Multitasking Settings. 
-
-__Should apps and websites open in a new window or a new tab? It’s up to you!__ The __Sets__ section of __Multitasking Settings__ now lets you set your windowing preference. If you choose __Window__, new windows won’t open into a new tab unless you explicitly click the + or drag with your mouse. Choosing __Tab__ opens any new windows invoked from your running apps into tabs. As a reminder, if you would like to exclude any particular app from __Sets__, you can do this from this same settings page. 
-
-__Want to mute one of your web tabs? You can now do that!__ When a webpage in Sets starts playing audio, you’ll now see a volume icon on the tab. Simply click it and the audio will mute, just like in Microsoft Edge. 
-
-__Tabs restore with better performance__ They’ll open in the background and use no resources until you go to the tab. This means you can restore a lot of tabs at once with no issues. 
-
-We’ve also made other fixes, changes, and improvements to Sets, including: 
-* Task Manager is in the list of apps where Sets are not enabled. 
-* We fixed an issue where right clicking a tab in the Sets title bar didn’t bring up a context menu. 
-* We fixed an issue where if Microsoft Edge wasn’t already open, clicking the plus button in Sets would open all of your default websites along with the new tab page. 
-
-__Drag and drop app tabs within and between Sets windows is now supported__: It works just like it sounds! You can now drag an app tab around within the Set or combine tabbed app windows into Sets.  
-
-<i>Note: If you open a Microsoft Edge tab outside of a Set, you can’t drag and drop it into a Sets window. Drag and drop for Microsoft Edge web tabs within Sets isn’t supported yet and you may experience a crash if this is attempted.</i>  
-
-__Tabs are now bubbled up in Alt + Tab__: Have Photos, Microsoft Edge, and OneNote tabbed together? You can now use Alt + Tab to switch between them.  
-
-<i>Note: If you have multiple Microsoft Edge windows in a Set, only the one most recently accessed will be visible in Alt + Tab.</i>
-
-__Support for desktop (Win32) apps__ Sets now supports File Explorer, Notepad, Command Prompt, and PowerShell. One of the top feature requests is tabs for File Explorer and with Sets you can get a tabbed File Explorer experience.
-
-__Launch apps from the new tab page__ by typing the app name into the search box.
-
-__UWP apps are launched in the same window__ replacing the new tab page.
-The tab UI in Sets now shows icons including website favicons and app icons.
-Resume your project with more control – when restoring your projects you’ll be prompted to restore related apps and webpages. In Timeline you’ll see when a project has multiple activities associated with it.
-
-__File Explorer & Sets Improvements__: We’ve heard your feedback – you’d like it to be easier to get two File Explorer windows grouped together. We added a new keyboard shortcut to open a new tab when a File Explorer window is in focus: Ctrl + T. Remember, you can use Ctrl + N to open a new window, and Ctrl + W to close the window/tab.
-
-__New UI for opening new tabs and windows__ in the File Menu.
-
-![tabs in file window](images/tabsinfilewindow.png "tabs in file window")
-
-__New UI__ for easily opening new tabs and windows in the File Menu.
-
-![tabs in file explorer](images/tabsinfilewindow.png "tabs in file explorer")
-
-__New context menu options for tabs in Sets__: If you right-click on a Sets tab, you’ll discover several options to leverage, including “close other tabs”, “move to new window”, and “close tabs to the right”.
-
-![new context menu](images/newcontextmenu.png "new context menu")
-
-__Improvements to previous tabs__: We’ve done a few things to improve the experience in this space, including:
-
-*__You can choose which previous tabs you want to restore__, in addition to being able to restore all tabs. 
-
-*__You can now restore previous tabs from any type of activity__, in addition to restoring tabs when the primary window is a document.
-
-![previous tabs](images/previoustabs.png "previous tabs")
-
-* When you open a document that previously had tabs, a prompt will appear offering to restore those tabs, and the previous tabs button will be in the filled state. For things that aren’t documents, a prompt will not automatically appear, but you’ll know that there are tabs available to restore because the previous tabs button will be in the filled state.
-
-* We added an animation to the experience when there are no previous tabs available to be restored.
-
-__Keyboard shortcuts__
-
-*__Ctrl + Win + Tab__ – switch to next tab.
-*__Ctrl + Win + Shift + Tab__ – switch to previous tab.
-*__Ctrl + Win + T__– open a new tab.
-*__Ctrl + Win + N__ - open a new window.
-*__Ctrl + Win + W__– close current tab or window.
-
-We’ve heard your feedback and have been hard at work updating the new tab page to make it more obvious you can launch apps. When you click the plus button in a Sets window, you will now see apps included in your frequent destinations list. You’ll also find that we’ve integrated the all apps list into this page so you can browse your apps, rather than just using the search box – apps that support Sets will launch into a tab when clicked. If you have __News Feed__ selected, simply click the __Apps__ link next to __News Feed__ to switch to the all apps list.
-
-![apps in a sets window](images/ntpnew.png "apps in a sets window")
-
 
 ## Windows Container Improvements
 **New Windows Image:** We’re adding a new base image to the Windows Server container collection. In addition to nanoserver and windowsservercore container images, the new windows image is now available. This image carries even more components than its nanoserver and servercore siblings, meaning it can support applications that have additional API dependencies. Go to https://aka.ms/windowscontainer to learn more and get started.
