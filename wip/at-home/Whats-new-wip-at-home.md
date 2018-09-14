@@ -735,7 +735,7 @@ Here’s a sample of what’s new:
 
 In addition to all the latest enhancements, with this update you can expect more frequent improvements to your Skype for Windows 10 experiences going forward via updates from the Microsoft Store. 
 
-## Windows Calculator 
+### Windows Calculator 
 
 Windows Calculator now correctly calculates square roots for perfect squares (integers that are squares of other integers). Because of the [arbitrary precision arithmetic library](https://blogs.msdn.microsoft.com/oldnewthing/20160628-00/?p=93765) used by the Calculator app, the square root calculation is an approximation calculated using the [Exponential Identity](https://en.wikipedia.org/wiki/Methods_of_computing_square_roots%23Exponential_identity) function.
 
