@@ -162,13 +162,13 @@ __Emoji search comes to more languages__: You can find an emoji by keyword in ov
 
 ## Post-upgrade setup
 
-You may see this window showing after you upgrade. Don’t worry – all your stuff is still there! We know some of you bought and setup your devices a long time ago – the features available in Windows have changed since then, so we’re giving you an opportunity to go through the setup questions you may have missed to ensure your device has the best setup possible. Click **Let’s Go** to go through those setup questions or click **Skip for now** if you want to go straight to your desktop. 
+You may see this window showing after you upgrade. Don’t worry – all your stuff is still there! We know some of you bought and setup your devices a long time ago. The features available in Windows have changed since then, so we’re giving you an opportunity to go through the setup questions you may have missed to ensure your device has the best configuration for you. Click **Let’s Go** to go through those setup questions or click **Skip for now** if you want to go straight to your desktop. 
 
 ![oobe](images/SCOOBE-Intro.png "oobe")
 
 ## Microsoft Edge improvements
 
-**Control whether media can play automatically** : We added a new setting in Microsoft Edge to allow you to control whether sites can autoplay media. You can find this setting under “Advanced Settings” > “Media autoplay,” with options to customize the behavior according to your preferences:
+**Control whether media can play automatically** : We added a new setting in Microsoft Edge to allow you to control whether sites can autoplay media. You can find this setting under **Advanced Settings > Media autoplay**, with options to customize the behavior according to your preferences:
 
 ![Edge autoplay](images/edge-autoplay.png "Edge autoplay")
 
