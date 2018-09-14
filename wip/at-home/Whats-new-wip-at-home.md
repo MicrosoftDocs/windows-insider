@@ -17,9 +17,10 @@ ms.localizationpriority: medium
 The [Windows Insider Program](https://insider.windows.com/en-us/) lets you preview builds of the upcoming release of Windows 10. This topic lists new Windows 10 features for you to try. 
 
 ## Your Phone app
-Android phone users, you can finally stop emailing yourself photos. Drag and drop that photo from your phone onto your PC. Copy, edit, or ink on the photo, right from your PC. With Your Phone app you get instant access to your Android’s most recent photos on your PC. Try it out by opening **Your Phone** app. You will receive an app from Microsoft that you download to your mobile phone. Android 7.0+ devices are compatible with the **Your Phone** app. For PCs tied to the China region, Your Phone app services will be enabled in the future.
+Android phone users, you can finally stop emailing yourself photos. With Your Phone app you get instant access to your Android’s most recent photos on your PC. Drag and drop a photo from your phone onto your PC, then you can copy, edit, or ink on the photo.  Try it out by opening the **Your Phone** app. You will receive an app from Microsoft that you download to your mobile phone. Android 7.0+ devices are compatible with the **Your Phone** app. For PCs tied to the China region, **Your Phone** app services will be enabled in the future.
 
-For iPhone users, **Your Phone** app helps you to link your phone to your PC. Surf the web on your phone, then send the webpage instantly to your computer to continue what you’re doing–read, watch, or browse with all the benefits of a bigger screen. With a linked phone, continuing on your PC is one share away.
+For iPhone users, **Your Phone** app also helps you to link your phone to your PC. Surf the web on your phone, then send the webpage instantly to your computer to continue what you’re doing–read, watch, or browse with all the benefits of a bigger screen. With a linked phone, continuing on your PC is one share away.
+
 Notice a desktop pin? It’ll take you directly to the **Your Phone** app – for quicker access to your phone’s content. You can also go through the all apps list in Start Menu, or use the Windows key and search for the **Your Phone** app. 
 
 ## Snipping experience (Snip & Sketch)
@@ -30,7 +31,7 @@ The new modern snipping experience is here to help you effortlessly capture and 
 
 ### Snip & Sketch (previously known as Screen Sketch) is now an app! 
 
-Originally introduced as part of the Windows Ink Workspace, Snip & Sketch comes with a variety of benefits, including:
+Originally introduced as part of the Windows Ink Workspace, **Snip & Sketch** comes with a variety of benefits, including:
 1. It can be updated via the Microsoft Store
 2. It can be found in the app list when you press Alt + tab
 3. You can set the window size to your preference
@@ -38,11 +39,11 @@ Originally introduced as part of the Windows Ink Workspace, Snip & Sketch comes 
 
 ### Easy snipping is only a single step away
 
-WIN + Shift + S will now bring up a snipping toolbar – snip a rectangle, something a bit more freeform, or full screen and it will go straight to your clipboard. Immediately after taking a snip you’ll also get a notification that will take you and your snip to the Snip & Sketch app where you can annotate and share away!
+**WIN + Shift + S** will bring up a snipping toolbar – snip a rectangle, something a bit more freeform, or full screen and it will go straight to your clipboard. Immediately after taking a snip you’ll also get a notification that will take you and your snip to the Snip & Sketch app where you can annotate and share away!
 
 ![screen sketch](images/screen-sketch2.png "screen sketch")
 
-Is the WIN + Shift + S keyboard shortcut too long to remember? Guess what! We’ve added easy entry options for every input modality: 
+Is the **WIN + Shift + S** keyboard shortcut too long to remember? Guess what! We’ve added easy entry options for every input modality: 
 *__Just click the pen tail button__. If you have a pen, go into __Pen & Windows Ink Settings__ – you’ll find screen snipping is now an option for single click. This will launch you directly into our snipping experience:
 
 ![pen settings](images/pensettingsinked.png "pen settings")
@@ -53,7 +54,7 @@ Is the WIN + Shift + S keyboard shortcut too long to remember? Guess what! We’
 
 ## Say hello to your new clipboard experience! (Cloud Clipboard)
 
-Copy/paste - it's something we all do, probably multiple times a day. But what do you do if you need to copy the same few things again and again? How do you copy content across your devices? Today we're addressing that and taking the clipboard to the next level. Press WIN+V and you'll be presented with our new clipboard experience.  
+Copy/paste is something we all do, probably multiple times a day. But what do you do if you need to copy the same few things again and again? How do you copy content across your devices? In Windows 10, version 1809 we're addressing that and taking the clipboard to the next level. Press **WIN + V** and you'll be presented with our new clipboard experience.  
 
 ![clipboard history](images/clipboardhistory.png "clipboard history")
 
