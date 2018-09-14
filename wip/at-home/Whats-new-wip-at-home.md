@@ -78,38 +78,39 @@ Introducing extended line endings support for Notepad: we’re excited to let yo
 
 ### Wrap-around find and replace 
 
-We’ve made significant improvement to the find/replace experience in Notepad. We added the option to do wrap-around find/replace to the find dialog. Notepad will remember previously entered values and the state of check boxes, and will automatically populate them the next time you open the find dialog. Additionally, when you have text selected and open the find dialog we will automatically populate the search field with the selected text.
+We’ve made significant improvement to the find and replace experience in Notepad. We added the option to do wrap-around find and replace to the find dialog. Notepad will remember previously entered values and the state of check boxes, and will automatically populate them the next time you open the find dialog. Additionally, when you have text selected and open the find dialog we will automatically populate the search field with the selected text.
 
 ![wrap around find and replace](images/notepad.png "wrap around find and replace")
 
 ### Text zooming
 
-We’ve added options to make it quick and easy to zoom text in Notepad. There is a new menu option under __View > Zoom__ to change the zoom level and we display the current zoom level in the status bar. You can also use Ctrl + Plus, Ctrl + Minus and Ctrl + MouseWheel to zoom in and out and use Ctrl + 0 to restore the zoom level to the default.
+We’ve added options to make it quick and easy to zoom text in Notepad. There is a new menu option under __View > Zoom__ to change the zoom level and we display the current zoom level in the status bar. You can also use **Ctrl + Plus**, **Ctrl + Minus** and **Ctrl + MouseWheel** to zoom in and out and use **Ctrl + 0** to restore the zoom level to the default.
 
 ![text zooming](images/zooming2 .png "text zooming")
 
 ### Line numbers with word-wrap
 
-Notepad can display line and column numbers when word-wrap is enabled, and we’ve made the status bar visible by default. You can still turn the status bar off in the View menu.
+Notepad can display line and column numbers when word-wrap is enabled, and we’ve made the status bar visible by default. You can still turn the status bar off in the **View** menu.
 
 ![word-wrap](images/linenumbers.png "word-wrap")
 
 ### Notepad Search with Bing
 
 To use simply highlight any words or phrase in Notepad and you can search Bing using the following methods:
-•	Select text and choose “Search with Bing” via the right-click (context) menu.
-•	Edit menu ->”Search with Bing…”
-•	CTRL + B.
+* Select text and choose **Search with Bing** via the right-click (context) menu.
+* Edit menu ->**Search with Bing…**
+* **CTRL + B**.
+
 Other Improvements: 
-•	We’ve improved the performance when opening large files in Notepad.
-•	Notepad now supports Ctrl + Backspace to delete the previous word.
-•	Arrow keys now correctly unselect text first and then move the cursor.
-•	When saving a file in Notepad, the line and column number no longer reset to 1.
-•	Notepad now correctly displays lines that don’t fit entirely on the screen.
+* We improved the performance when opening large files in Notepad.
+* Notepad now supports**Ctrl + Backspace** to delete the previous word.
+* Arrow keys now correctly unselect text first and then move the cursor.
+* When saving a file in Notepad, the line and column number no longer reset to 1.
+* Notepad now correctly displays lines that don’t fit entirely on the screen.
 
 ## Wireless projection experience
 
-One of the things we’ve heard from you is that it’s hard to know when you’re wirelessly projecting and how to disconnect if your session especially if started from file explorer or from an app. In today’s build, just like remote desktop you’ll see a control banner at the top of your screen when you’re in a session. The banner keeps you informed of the state of your connection, allows you to quick disconnect or reconnect to the same sink and allows you to tune the connection based on what you are doing. This tuning is done via the settings gear, which optimizes the screen to screen latency based on one of the three scenarios:
+One of the things we’ve heard from you is that it’s hard to know when you’re wirelessly projecting and how to disconnect if your session especially if started from file explorer or from an app. In Windows 10, version 1809, you’ll see a control banner at the top of your screen when you’re in a session (just like you see when using remote desktop). The banner keeps you informed of the state of your connection, allows you to quickly disconnect or reconnect to the same sink, and allows you to tune the connection based on what you are doing. This tuning is done via **Settings**, which optimizes the screen to screen latency based on one of the three scenarios:
 * Game mode minimizes the screen to screen latency to make gaming over a wireless connection possible.
 * Video mode increases the screen to screen latency to ensure the video on the big screen plays back smoothly and without glitching.
 * Productivity modes strikes a good balance between game mode and video mode where the screen to screen latency is responsive enough that typing feels natural, while ensuring videos don’t glitch too often.
@@ -122,8 +123,9 @@ One of the things we’ve heard from you is that it’s hard to know when you’
 
 ![Swiftkey](images/swift2.png "Swiftkey")
 
-Windows now shows you insights about how its AI has been helping you type with efficiency. If you use the software keyboard on Windows, there are many features built into the typing experience that leverage AI and ML to help you be more efficient. Some examples include autocorrecting your spelling mistakes, prediction of the next word you would type, word suggestions as you start typing so you don’t have to type the full word and the number of words you’ve typed by swiping over the letters on the software keyboard (yes, you can do that, try it out if you have not yet).
-Windows now shows you stats about each of these features. Go to Settings > Devices > Typing and click on “View typing insights” link to see them.
+Windows shows you insights about how artificial intelligence (AI) helps you type with efficiency. If you use the software keyboard on Windows, there are many features built into the typing experience that leverage AI and machine learning(ML) to help you be more efficient. Some examples include autocorrecting your spelling mistakes, predicting next word you would type, suggesting a word as you start typing so you don’t have to type the full word, and displaying the number of words you typed when you swipe over the letters on the software keyboard.
+
+Windows now shows you stats about each of these features. Go to **Settings > Devices > Typing** and click on **View typing insights** link to see them.
 ![typing insights](images/typing-insights.png "typing insights")
 
 ### Emoji 11
