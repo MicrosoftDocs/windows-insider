@@ -14,12 +14,10 @@ ms.localizationpriority: medium
 ---
 
 #  What's new in the Windows 10 Insider preview builds (RS5)
-The [Windows Insider Program](https://insider.windows.com/en-us/) lets you preview builds of the upcoming release of Windows 10. This topic lists all new Windows 10 features for you to try. Unlike the [Windows Insider Program Blog](https://blogs.windows.com/windowsexperience/tag/windows-insider-program), this topic is organized by feature instead of by the build number so that you can see all items about a specific feature listed together.
-
+The [Windows Insider Program](https://insider.windows.com/en-us/) lets you preview builds of the upcoming release of Windows 10. This topic lists new Windows 10 features for you to try. 
 
 ## Your Phone app
 Android phone users, you can finally stop emailing yourself photos. Drag and drop that photo from your phone onto your PC. Copy, edit, or ink on the photo, right from your PC. With Your Phone app you get instant access to your Android’s most recent photos on your PC. Try it out by opening **Your Phone** app. You will receive an app from Microsoft that you download to your mobile phone. Android 7.0+ devices are compatible with the **Your Phone** app. For PCs tied to the China region, Your Phone app services will be enabled in the future.
-
 
 For iPhone users, **Your Phone** app helps you to link your phone to your PC. Surf the web on your phone, then send the webpage instantly to your computer to continue what you’re doing–read, watch, or browse with all the benefits of a bigger screen. With a linked phone, continuing on your PC is one share away.
 Notice a desktop pin? It’ll take you directly to the **Your Phone** app – for quicker access to your phone’s content. You can also go through the all apps list in Start Menu, or use the Windows key and search for the **Your Phone** app. 
@@ -54,6 +52,7 @@ Is the WIN + Shift + S keyboard shortcut too long to remember? Guess what! We’
 *__Press the quick action button in Action Center__. Called __Screen snip__ – it should be there as soon as you upgrade, but if not you can always enable it via Notifications & Actions Settings.
 
 ## Say hello to your new clipboard experience! (Cloud Clipboard)
+
 Copy/paste - it's something we all do, probably multiple times a day. But what do you do if you need to copy the same few things again and again? How do you copy content across your devices? Today we're addressing that and taking the clipboard to the next level. Press WIN+V and you'll be presented with our new clipboard experience.  
 
 ![clipboard history](images/clipboardhistory.png "clipboard history")
@@ -77,6 +76,7 @@ As many of you know, we added dark theme support to Windows based on your feedba
 Introducing extended line endings support for Notepad: we’re excited to let you know that in addition to Windows line endings (CRLF), Notepad now supports Unix/Linux line endings (LF) and Macintosh line endings (CR)!
 
 ### Wrap-around find and replace 
+
 We’ve made significant improvement to the find/replace experience in Notepad. We added the option to do wrap-around find/replace to the find dialog. Notepad will remember previously entered values and the state of check boxes, and will automatically populate them the next time you open the find dialog. Additionally, when you have text selected and open the find dialog we will automatically populate the search field with the selected text.
 
 ![wrap around find and replace](images/notepad.png "wrap around find and replace")
@@ -151,7 +151,8 @@ __After__
 __Emoji search comes to more languages__: You can find an emoji by keyword in over 190 locales, including English (Great Britain), French (France), German (Germany), Spanish (Spain), and more. This will help you get the emoji you want easily and quickly. As a reminder, to bring up the Emoji Panel set focus to a text field and press WIN + (period) or WIN + (semicolon).
 
 ## Post-upgrade setup
-You may see this window showing after you upgrade. Don’t worry – all your stuff is still there! We know some of you bought and setup your devices a long time ago – the features available in Windows have changed since then, so we’re giving you an opportunity to go through the setup questions you may have missed to ensure your device has the best setup possible. Click “Let’s Go” to go through those setup questions or click “Skip for now” if you want to go straight to your desktop. 
+
+You may see this window showing after you upgrade. Don’t worry – all your stuff is still there! We know some of you bought and setup your devices a long time ago – the features available in Windows have changed since then, so we’re giving you an opportunity to go through the setup questions you may have missed to ensure your device has the best setup possible. Click **Let’s Go** to go through those setup questions or click **Skip for now** if you want to go straight to your desktop. 
 
 ![oobe](images/SCOOBE-Intro.png "oobe")
 
@@ -180,7 +181,6 @@ Per-site media autoplay controls: You can now control autoplay permissions on a 
 Last (but not least), this release breaks **Settings** out into subpages by category, with better-organized options and less clutter on each page. The new **Settings** experience is designed to match the experience in the Microsoft Edge hub, for a quicker and more familiar experience.
 
 ![Edge custom toolbar](images/edge-custom-toolbar.png "Edge custom toolbar")
-
 
 **Redesigned “…” menu and Settings:** We’ve heard your feedback that the Microsoft Edge settings were getting a little complex for a single page. In this release, we’re overhauling the Microsoft Edge settings to make it easier to navigate, put commonly-used actions front and center, and allow more customization than ever.
 
@@ -252,7 +252,8 @@ Web Authentication provides an open, scalable, and interoperable solution to fac
 __Retired XSS filter:__ We are retiring the XSS filter in Microsoft Edge. Our customers remain protected thanks to modern standards like Content Security Policy, which provide more powerful, better performing, and secure mechanisms to protect against content injection attacks, with high compatibility across modern browsers.
 
 ## Remote Desktop with Biometrics
-In RS5, Azure Active Directory and Active Directory users using Windows Hello for Business can use biometrics to authenticate to a remote desktop session!
+
+In Windows 10, version 1809, Azure Active Directory and Active Directory users using Windows Hello for Business can use biometrics to authenticate to a remote desktop session!
 
 ![Remote Desktop with Biometrics](images/remote-desktop-hello.png "Remote Desktop with Biometrics")
 
@@ -266,11 +267,32 @@ In this example, Windows uses facial recognition to authenticate the RDP session
 
 
 ## Start tile folder naming 
+
 To create a tile folder in Start, just drag one tile on top of another for a second then release. Continue dropping as many tiles into the folder as you’d like. When you expand the folder, you’ll see a new option to name it. The name will be visible when the folder is medium, wide, or large-sized. 
 
 ![folder naming in Start](images/namedfolder_optionalgif.png "folder naming in Start")
 
 ## Cortana and search improvements
+
+### Cortana Show Me voice queries
+You can now launch the Cortana Show Me app through voice queries. Simply say to Cortana, “Show me how to change my background,” and you’ll get help content, with a new “Let’s go” button below, which launches the guided help experience. 
+
+You can download [Cortana Show Me](https://www.microsoft.com/en-us/store/r/cortana-follow-me/) from the Microsoft Store.
+
+Here are some voice queries to try:
+
+*__Update Windows__– Try, “Update my Windows device”
+*__Check if an app is installed__ – Try, “How to see what apps are installed”
+*__Uninstall an app__ – Try “How to uninstall apps”
+*__Change your desktop background__– Try, “Show me how to change my background”
+*__Use Airplane Mode__ – Try, “How do I turn on airplane mode”
+*__Change your display brightness__ – Try, “Show me how to change my screen brightness”
+*__Add nearby printers or scanners__ – Try, “How to add a printer”
+*__Turn off Windows Defender Security Center__ – Try, “Show me how to turn off Windows Defender Security Center”
+*__Change Wi-Fi settings__ – Try, “Show me how to change Wi-Fi network”
+*__Change your power settings__ – Try, “How to change when my computer goes to sleep”
+*__Discover Bluetooth devices__ – Try, “Show me how to discover devices”
+*__Check your version of Windows__ – Try, “How do I find my current version of Windows”
 
 ### Search in Calendar
 
@@ -295,7 +317,6 @@ We made the Search experience wider so you can access information and actions in
 Continuing our theme of improving the search preview experience, we’re rolling out an update to make it easier to find official download pages for Windows software you want to install. The team is continuing to develop this experience and more is coming. 
 
 ![calendar with search](images/search-downloads.png "wider search experience")
-
 
 ## Windows mixed reality improvements
 
@@ -406,6 +427,16 @@ We’re continuing to work on how other security apps you’ve installed show up
 
 ![security providers](images/security-providers.png "security providers")
 
+### A faster safer internet with HTTP/2 and CUBIC
+
+The internet is part of our daily lives both at work and at home, in the enterprise and in the cloud. We are committed to making your internet experience faster and safer. For example:
+
+* Microsoft Edge clients will take advantage of connection coalescing for HTTP/2 as supported in Windows Server 2019
+* Improved security on Microsoft Edge browsers by guaranteeing HTTP/2 preferred cipher suites
+* Improved performance on Windows 10 thanks to Cubic, the new default TCP congestion provider.
+
+For more information, see [A Faster, Safer Internet](https://blogs.technet.microsoft.com/networking/2018/08/01/faster-safer-internet/).
+
 ### Windows Defender Security Center is now called Windows Security 
 
 You can still get to the app in all the usual ways – simply ask Cortana to open Windows Security or interact with the taskbar icon. Windows Security lets you manage all your security needs, including Windows Defender Antivirus and Windows Defender Firewall.
@@ -455,7 +486,7 @@ __Download files to the host__: One of the items our users voiced was an inabili
 <i>How to enable and configure the Download to host feature</i>:
 
 __Requirements:__
-* Latest Windows 10 Enterprise, version 1803 builds
+* Windows 10 Enterprise, version 1809
 * Windows Defender Application Guard feature is installed
 * Network isolation policies are configured
 
@@ -606,7 +637,8 @@ We’ve heard your feedback that settings can be confusing sometimes, so we’re
 
 ![settings](images/settings.png "Settings")
 
-### Ease of access (accessibility) improvements
+## Ease of access (accessibility) improvements
+
 __Make text bigger__: We’ve heard your feedback and are excited to announce that the ability to increase text size across the system is back and better than ever! When you go to __Settings > Ease of Access > Display__ in today’s build, you’ll find a new setting called “Make everything bigger” – this slider will adjust text across the system, win32 apps, and UWP apps.
 
 ![bigger text](images/bigger-text.png "bigger text")
@@ -620,7 +652,7 @@ That means you can now make text bigger in Start, File Explorer, Settings, etc.,
 
 **More options for increments:** You’ve also been asking for even more control of your zoom level increments, so we’ve taken a moment to add two new increments to the list: 5% and 10%.
 
-## Narrator improvements 
+### Narrator improvements 
 
 **Selection commands in Narrator Scan Mode:** Narrator’s scan mode now supports selecting content in Microsoft Edge, Word, Outlook, Mail and most text surfaces. Standard shift- selection commands can be used as well as Control + A for the entire document. Caps + Shift + Down Arrow will speak the current selection. For a full list of selection commands, you can refer to Narrator’s Show Commands List by pressing Caps+F1. Once content is selected you can copy it to the clipboard by pressing Control + C. Formatting information will also be retained.
 There is a known issue in Edge where selecting forward will get stuck. This issue is being worked on. Selection in general is a work in progress. We would love to hear your feedback as you try out these improvements. [This link](http://aka.ms/narratorfb) will take you to the Narrator section of the Feedback Hub, or you can press Caps + E while Narrator is running.
@@ -647,8 +679,8 @@ When the Narrator Quickstart launches, Scan Mode may not reliably be on by defau
 Narrator Keyboard improvements: We have added the scan mode secondary action command and Spell current selection command.
 
 ## Microsoft Input Method Editor (IME) Improvements
-(Note: Use the Microsoft Input Method Editor (IME) to type in East Asian languages you’ve installed on your PC. Press and hold (or right-click) the input method indicator to switch input modes, then open the IME pad or open more IME settings. For some languages, you'll have more options such as the dictionary tool for Japanese.)
 
+(Note: Use the Microsoft Input Method Editor (IME) to type in East Asian languages you’ve installed on your PC. Press and hold (or right-click) the input method indicator to switch input modes, then open the IME pad or open more IME settings. For some languages, you'll have more options such as the dictionary tool for Japanese.)
 
 **Taking the Microsoft Pinyin and Wubi IMEs to the next level:** Do you write in Chinese (Simplified)? We’re updating the Microsoft Pinyin IME! We’ve been focusing on addressing your performance, reliability and compatibility feedback. You’ll also notice a number of other improvements, including:
 
@@ -664,15 +696,6 @@ Narrator Keyboard improvements: We have added the scan mode secondary action com
 
 ![ime emojis](images/imeemoji.png "ime emojis")
 
-
-## A faster safer internet with HTTP/2 and CUBIC
-The internet is part of our daily lives both at work and at home, in the enterprise and in the cloud. We are committed to making your internet experience faster and safer. For example:
-
-* Microsoft Edge clients will take advantage of connection coalescing for HTTP/2 as supported in Windows Server 2019
-* Improved security on Microsoft Edge browsers by guaranteeing HTTP/2 preferred cipher suites
-* Improved performance on Windows 10 thanks to Cubic, the new default TCP congestion provider.
-
-For a full writeup detailing this improvement, please see our announcement  [A Faster, Safer Internet](https://blogs.technet.microsoft.com/networking/2018/08/01/faster-safer-internet/).
 
 ## Time accuracy and traceability improvements
 
@@ -767,26 +790,6 @@ Our acrylic material is being used by default in XAML controls and on transient 
 You will notice new acrylic backgrounds in places on the system using these controls – for example when you right-click open apps in task view. Apps using the SDK for Windows 10, version 1809 or higher will see this change by default as well.
 
 ![acrylic settings](images/acrylic.png "acrylic settings")
-
-## Cortana Show Me voice queries
-You can now launch the Cortana Show Me app through voice queries. Simply say to Cortana, “Show me how to change my background,” and you’ll get help content, with a new “Let’s go” button below, which launches the guided help experience. 
-
-You can download [Cortana Show Me](https://www.microsoft.com/en-us/store/r/cortana-follow-me/) from the Microsoft Store.
-
-Here are some voice queries to try:
-
-*__Update Windows__– Try, “Update my Windows device”
-*__Check if an app is installed__ – Try, “How to see what apps are installed”
-*__Uninstall an app__ – Try “How to uninstall apps”
-*__Change your desktop background__– Try, “Show me how to change my background”
-*__Use Airplane Mode__ – Try, “How do I turn on airplane mode”
-*__Change your display brightness__ – Try, “Show me how to change my screen brightness”
-*__Add nearby printers or scanners__ – Try, “How to add a printer”
-*__Turn off Windows Defender Security Center__ – Try, “Show me how to turn off Windows Defender Security Center”
-*__Change Wi-Fi settings__ – Try, “Show me how to change Wi-Fi network”
-*__Change your power settings__ – Try, “How to change when my computer goes to sleep”
-*__Discover Bluetooth devices__ – Try, “Show me how to discover devices”
-*__Check your version of Windows__ – Try, “How do I find my current version of Windows”
 
 ## Update experience
 
