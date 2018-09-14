@@ -345,6 +345,11 @@ You may also notice some new error codes in Mixed Reality Portal to be more spec
 ### Game mode improvements
 New options are now available for Game Mode that are expected to improve the gaming experience on desktop PCs.  Gamers on PCs with many background processes may also see performance improvements when they toggle __Dedicate resources__ in Game bar.
 
+### Focus assist improvements when gaming 
+Now focus assist will turn on automatically when you’re playing any full screen game. No more interruptions when you’re crushing it. This behavior should be turned on automatically, but you can always check by going to __Settings > System > Focus assist__ and ensuring the __When I’m playing a game__ automatic rule is enabled. For more information, see [Windows 10 Tip: How to enable Focus Assist in the Windows 10 April 2018 Update](https://blogs.windows.com/windowsexperience/2018/05/09/windows-10-tip-how-to-enable-focus-assist-in-the-windows-10-april-2018-update/).
+
+![sound settings](images/speakers2.png "sound settings")
+
 ## Web Sign-in to Windows 10
 Until now, Windows logon only supported the use of identities federated to ADFS or other providers that support the WS-Fed protocol. We are introducing “Web Sign-in,” a new way of signing into your Windows PC. Web Sign-in enables Windows logon support for  non-ADFS federated providers (e.g. SAML).
 
@@ -443,7 +448,42 @@ To check this out:
 
 ![Check Application Guard settings](images/check-app-guard.png "Check Application Guard settings")
 
+__Performance improvements__: The teams at Microsoft are constantly working to improve performance for our users. WDAG is no different. In this feature update, you will notice an improvement in the launch time for WDAG. We have made the start process lighter and faster, which will provide our users with a better experience when accessing Microsoft Edge in WDAG.
+
+__Download files to the host__: One of the items our users voiced was an inability to download files from WDAG to the host. This created an inconsistent experience for Microsoft Edge overall as downloaded files were stuck inside the container. In this release, users can turn on a feature to download files from their WDAG browsing session onto the host file system. This feature is available in the Windows 10 Enterprise edition and is not turned on by default. Once the feature is enabled, users will be able to download files into a folder created in their Downloads folder and open all files on the host.
+
+<i>How to enable and configure the Download to host feature</i>:
+
+__Requirements:__
+* Latest Windows 10 Enterprise, version 1803 builds
+* Windows Defender Application Guard feature is installed
+* Network isolation policies are configured
+
+__Steps:__
+1. Navigate to __Local Group Policy Editor > Administrative Templates > Windows Components > Windows Defender Application Guard__.
+
+![wdag](images/wdag.png "WDAG")
+
+2. Select __Allow files to download and save to the host operating system from Windows Defender Application Guard__.
+3. Select __Enabled and Apply__.
+
+![enable wdag](images/enablewdag.png "Enable WDAG")
+
+4. After this policy is enabled, you can download files from your Windows Defender Edge session to your Downloads folder. The files from WDAG will be saved in a folder called __Untrusted files__ nested inside the Downloads folder. This folder is created automatically when you first download a file from WDAGafter enabling the policy.
+
+![untrusted files](images/untrustedfiles.png "untrusted files")
+
+Notes:
+* This feature is off by default.
+* Users will need to assess the files they downloaded and assume any risks of opening on the host.
+* We’ve also made updates to Windows Defender System Guard. With Windows Defender System Guard, we are making a leap forward in platform security with memory integrity by default and bringing a born secure device promise to our user base. To learn more about these changes and talk with product team, see their post in the Windows Insider Technical Community.
+
+
 ## Settings Improvements
+
+We’ve heard your feedback that settings can be confusing sometimes, so we’re working with Bing to bubble up some of the most common questions we hear right into the Settings pages themselves. The FAQ’s are contextual in nature and aim to you to quickly get the answer you’re looking for to complete configuration tasks. It may even help you discover something you didn’t know was an option! Clicking on these questions will take you to Bing.com to display the answer.  
+
+![settings faq](images/questions.png "settings faq")
 
 ### Improved Kiosk Setup Experience
 
@@ -557,6 +597,9 @@ We have introduced a new __Region__ page that allows overrides to default region
 
 ### Storage Sense picks up a new skill
 Starting with the [Creators Update](https://blogs.windows.com/windowsexperience/2017/01/19/announcing-windows-10-insider-preview-build-15014-for-pc-and-mobile-hello-windows-insiders-today-we-are-excited-to-be-releasing-windows-10-insider-preview-build-15014-for-pc-and-mobile/) we embarked on a journey to help you automatically clean up storage when low on disk space. We expanded on that with the Fall Creators Update ([here](https://blogs.windows.com/windowsexperience/2017/05/17/announcing-windows-10-insider-preview-build-16199-pc-build-15215-mobile/) and [here](https://blogs.windows.com/windowsexperience/2017/06/21/announcing-windows-10-insider-preview-build-16226-pc/)). We also added the ability to automatically make any downloaded Files On-Demand online-only if you haven’t used them in a certain number of days. Head to __Settings > System > Storage > Storage Sense__ to try out this new feature.
+
+### Windows app permissions 
+You have more control so you can now decide which UWP apps can access your full file system. Particular UWP apps will be granted permission to have broad file system access. This capability will be granted on a per app basis by Microsoft. If a UWP app has the broad file system access restricted capability, you will receive a consent dialog prompting you to accept or deny the request. If at any time you change your mind about the decision, you can go to __Settings > Privacy__ where you’ll find a new Settings page for file system access. On this page, you can turn access on or off globally, and if it’s on you can also turn it on or off for each app that has requested the capability. UWPs with broad file system access will not appear in the Photos, Videos, or Documents privacy settings pages. If you grant broad file system access, this includes Photos, Videos and Documents.
 
 ### Have a question about Settings?
 We’ve heard your feedback that settings can be confusing sometimes, so we’re working with Bing to bubble up some of the most common questions we hear right into the Settings pages themselves. The FAQ’s are contextual in nature and aim to you to quickly get the answer you’re looking for to complete configuration tasks. It may even help you discover something you didn’t know was an option! Clicking on these questions will take you to Bing.com to display the answer.
@@ -704,6 +747,155 @@ Now we’ve extended this further to include font files that you obtain from oth
 Often font files come within a compressed folder (that is, a .zip file). The “Install” context-menu option isn’t available in File Explorer when you view the contents of a compressed folder, but you can double-click the font file within the compressed folder to open it in the font previewer, and that provides an “Install” button. In the past, the button in the font previewer had the security badge, and it would do a system-wide install, requiring an admin. Now the security badge is gone, and the “Install” button in the font previewer performs a single-user font install, which can be done by non-admins.
 
 ![per user fonts](images/install-font-2.png "per user fonts")
+
+## Acrylic improvements
+
+### Acrylic in task view 
+The entire task view background now has a soft blur effect.
+
+![acrylic task view](images/taskview-acrylic.png "acrylic task view")
+
+### Acrylic comes to menus and more!
+Our acrylic material is being used by default in XAML controls and on transient XAML surfaces like flyouts. The new acrylic material is now applied to:
+* Context menus
+* Flyouts
+* Auto-suggest drop down list boxes
+* combo box drop down list boxes
+* date and time picker flyouts
+* media transport control flyouts and overflows
+
+You will notice new acrylic backgrounds in places on the system using these controls – for example when you right-click open apps in task view. Apps using the SDK for Windows 10, version 1809 or higher will see this change by default as well.
+
+![acrylic settings](images/acrylic.png "acrylic settings")
+
+## Cortana Show Me voice queries
+You can now launch the Cortana Show Me app through voice queries. Simply say to Cortana, “Show me how to change my background,” and you’ll get help content, with a new “Let’s go” button below, which launches the guided help experience. 
+
+You can download [Cortana Show Me](https://www.microsoft.com/en-us/store/r/cortana-follow-me/) from the Microsoft Store.
+
+Here are some voice queries to try:
+
+*__Update Windows__– Try, “Update my Windows device”
+*__Check if an app is installed__ – Try, “How to see what apps are installed”
+*__Uninstall an app__ – Try “How to uninstall apps”
+*__Change your desktop background__– Try, “Show me how to change my background”
+*__Use Airplane Mode__ – Try, “How do I turn on airplane mode”
+*__Change your display brightness__ – Try, “Show me how to change my screen brightness”
+*__Add nearby printers or scanners__ – Try, “How to add a printer”
+*__Turn off Windows Defender Security Center__ – Try, “Show me how to turn off Windows Defender Security Center”
+*__Change Wi-Fi settings__ – Try, “Show me how to change Wi-Fi network”
+*__Change your power settings__ – Try, “How to change when my computer goes to sleep”
+*__Discover Bluetooth devices__ – Try, “Show me how to discover devices”
+*__Check your version of Windows__ – Try, “How do I find my current version of Windows”
+
+## Update experience
+
+Have you ever had to stop what you were doing, or wait for your computer to boot up because the device updated at the wrong time? To alleviate this pain, if you have an update pending we’ve updated our reboot logic to use a new system that is more adaptive and proactive. We trained a predictive model that can accurately predict when the right time to restart the device is. We will not only check if you are using your device before we restart, we will also try to predict if you had just left the device to grab a cup of coffee.
+
+### How accurate is this model?
+
+We’ve been using this model on internal devices, and we’ve seen promising results upon rollout.  Due to the nature of its architecture, we’re able to update the model with minimal turnaround time based on our insights from its performance. It’s all thanks to our cloud infrastructure.
+
+### How do you give us feedback?
+
+If you find your device restarting at the wrong time, please file a bug in the [feedback hub](https://aka.ms/updatefeedback) with the details on your experience. (i.e. I went to grab a cup of coffee for 5 minutes and it updated!). We would love to hear your stories and take it into account when training our update model.
+
+
+## Privacy improvements
+We wanted to let you know that if access to the microphone has been disabled in your privacy settings, we’ll now pop a notification the first time an attempt to use the microphone is blocked so you can review the settings if desired.
+
+![microphone disabled](images/micprivacy_toastonly.png "microphone disabled")
+
+### Privacy settings layout in the set-up experience 
+
+__Changes to the set up experience for privacy settings__ This new design conveys focused information to help our customers make focused choices about their privacy and offers two new settings for inking & typing, and find my device.
+
+## RSAT is now available on demand!
+You no longer have to manually download RSAT every time you upgrade! Just go to “Manage optional features” in Settings (the fastest way there is to search for that) and click “Add a feature” – you’ll now see all of the RSAT components listed. Pick the ones you want, and the next time you upgrade Windows will automatically ensure all those components persist the upgrade (just like any of our other on-demand features, like speech resources or OpenSSH). 
+
+![RSAT](images/rsat.png "RSAT")
+
+We made the search experience wider so you can access information and actions in the preview faster than ever. 
+
+![notepad bing search](images/notepad-bing-search.png "notepad bing search")
+
+__Find software downloads faster in Search!__: Continuing our theme of improving the search preview experience, we’re rolling out an update to make it easier to find official download pages for Windows software you want to install. 
+
+![GitHub search example](images/search.png "GitHub search example")
+
+## Sets
+Sets is designed to make sure that everything related to your task: relevant webpages, research documents, necessary files, and applications, is connected and available to you in one click. With Sets, first party experiences like Mail, Calendar, OneNote, MSN News, Windows, and Microsoft Edge become more integrated to create a seamless experience, so you can get back to what’s important and be productive, recapturing that moment, saving time – we believe that’s the true value of Sets. Here are some of the things you can do with sets.
+
+__Bring on the acrylic!__ We love fluent design as much as you do – Sets now have an acrylic title bar. We also adjusted the window border so that it’s now grey. 
+![fluent design with sets](images/fluent.png "fluent design with sets")
+
+__Recent Microsoft Edge tabs now show in Alt + Tab__: Do you use Alt + Tab to switch back and forth between apps? All of your recent Microsoft Edge tabs will now be included, not just the active one. Prefer it the old way? Use the “Pressing Alt + Tab shows the recently used…” setting in Multitasking Settings. 
+
+__Should apps and websites open in a new window or a new tab? It’s up to you!__ The __Sets__ section of __Multitasking Settings__ now lets you set your windowing preference. If you choose __Window__, new windows won’t open into a new tab unless you explicitly click the + or drag with your mouse. Choosing __Tab__ opens any new windows invoked from your running apps into tabs. As a reminder, if you would like to exclude any particular app from __Sets__, you can do this from this same settings page. 
+
+__Want to mute one of your web tabs? You can now do that!__ When a webpage in Sets starts playing audio, you’ll now see a volume icon on the tab. Simply click it and the audio will mute, just like in Microsoft Edge. 
+
+__Tabs restore with better performance__ They’ll open in the background and use no resources until you go to the tab. This means you can restore a lot of tabs at once with no issues. 
+
+We’ve also made other fixes, changes, and improvements to Sets, including: 
+* Task Manager is in the list of apps where Sets are not enabled. 
+* We fixed an issue where right clicking a tab in the Sets title bar didn’t bring up a context menu. 
+* We fixed an issue where if Microsoft Edge wasn’t already open, clicking the plus button in Sets would open all of your default websites along with the new tab page. 
+
+__Drag and drop app tabs within and between Sets windows is now supported__: It works just like it sounds! You can now drag an app tab around within the Set or combine tabbed app windows into Sets.  
+
+<i>Note: If you open a Microsoft Edge tab outside of a Set, you can’t drag and drop it into a Sets window. Drag and drop for Microsoft Edge web tabs within Sets isn’t supported yet and you may experience a crash if this is attempted.</i>  
+
+__Tabs are now bubbled up in Alt + Tab__: Have Photos, Microsoft Edge, and OneNote tabbed together? You can now use Alt + Tab to switch between them.  
+
+<i>Note: If you have multiple Microsoft Edge windows in a Set, only the one most recently accessed will be visible in Alt + Tab.</i>
+
+__Support for desktop (Win32) apps__ Sets now supports File Explorer, Notepad, Command Prompt, and PowerShell. One of the top feature requests is tabs for File Explorer and with Sets you can get a tabbed File Explorer experience.
+
+__Launch apps from the new tab page__ by typing the app name into the search box.
+
+__UWP apps are launched in the same window__ replacing the new tab page.
+The tab UI in Sets now shows icons including website favicons and app icons.
+Resume your project with more control – when restoring your projects you’ll be prompted to restore related apps and webpages. In Timeline you’ll see when a project has multiple activities associated with it.
+
+__File Explorer & Sets Improvements__: We’ve heard your feedback – you’d like it to be easier to get two File Explorer windows grouped together. We added a new keyboard shortcut to open a new tab when a File Explorer window is in focus: Ctrl + T. Remember, you can use Ctrl + N to open a new window, and Ctrl + W to close the window/tab.
+
+__New UI for opening new tabs and windows__ in the File Menu.
+
+![tabs in file window](images/tabsinfilewindow.png "tabs in file window")
+
+__New UI__ for easily opening new tabs and windows in the File Menu.
+
+![tabs in file explorer](images/tabsinfilewindow.png "tabs in file explorer")
+
+__New context menu options for tabs in Sets__: If you right-click on a Sets tab, you’ll discover several options to leverage, including “close other tabs”, “move to new window”, and “close tabs to the right”.
+
+![new context menu](images/newcontextmenu.png "new context menu")
+
+__Improvements to previous tabs__: We’ve done a few things to improve the experience in this space, including:
+
+*__You can choose which previous tabs you want to restore__, in addition to being able to restore all tabs. 
+
+*__You can now restore previous tabs from any type of activity__, in addition to restoring tabs when the primary window is a document.
+
+![previous tabs](images/previoustabs.png "previous tabs")
+
+* When you open a document that previously had tabs, a prompt will appear offering to restore those tabs, and the previous tabs button will be in the filled state. For things that aren’t documents, a prompt will not automatically appear, but you’ll know that there are tabs available to restore because the previous tabs button will be in the filled state.
+
+* We added an animation to the experience when there are no previous tabs available to be restored.
+
+__Keyboard shortcuts__
+
+*__Ctrl + Win + Tab__ – switch to next tab.
+*__Ctrl + Win + Shift + Tab__ – switch to previous tab.
+*__Ctrl + Win + T__– open a new tab.
+*__Ctrl + Win + N__ - open a new window.
+*__Ctrl + Win + W__– close current tab or window.
+
+We’ve heard your feedback and have been hard at work updating the new tab page to make it more obvious you can launch apps. When you click the plus button in a Sets window, you will now see apps included in your frequent destinations list. You’ll also find that we’ve integrated the all apps list into this page so you can browse your apps, rather than just using the search box – apps that support Sets will launch into a tab when clicked. If you have __News Feed__ selected, simply click the __Apps__ link next to __News Feed__ to switch to the all apps list.
+
+![apps in a sets window](images/ntpnew.png "apps in a sets window")
+
 
 ## Windows Container Improvements
 **New Windows Image:** We’re adding a new base image to the Windows Server container collection. In addition to nanoserver and windowsservercore container images, the new windows image is now available. This image carries even more components than its nanoserver and servercore siblings, meaning it can support applications that have additional API dependencies. Go to https://aka.ms/windowscontainer to learn more and get started.
