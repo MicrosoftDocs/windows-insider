@@ -21,6 +21,8 @@ Android phone users, you can finally stop emailing yourself photos. With Your Ph
 
 For iPhone users, **Your Phone** app also helps you to link your phone to your PC. Surf the web on your phone, then send the webpage instantly to your computer to continue what you’re doing–read, watch, or browse with all the benefits of a bigger screen. With a linked phone, continuing on your PC is one share away.
 
+![your phone](images/your-phone.png "your phone")
+
 Notice a desktop pin? It’ll take you directly to the **Your Phone** app – for quicker access to your phone’s content. You can also go through the all apps list in Start Menu, or use the Windows key and search for the **Your Phone** app. 
 
 ## Snipping experience (Snip & Sketch)
