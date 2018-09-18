@@ -41,8 +41,8 @@ Builds of Windows Server 2019 are released to members of the Windows Insider Pro
 |-------|------|------|--------|-----|-----|-----|
 |17763|[__9/18/2018__](https://blogs.windows.com/windowsexperience/2018/09/18/announcing-windows-10-insider-preview-build-17763/)
 |17760|[9/14/2018](https://blogs.windows.com/windowsexperience/2018/09/11/announcing-windows-10-insider-preview-build-17758/)
-|17758|[9/11/2018](https://blogs.windows.com/windowsexperience/2018/09/11/announcing-windows-10-insider-preview-build-17758/)|[__9/14/2018__](https://blogs.windows.com/windowsexperience/2018/09/11/announcing-windows-10-insider-preview-build-17758/#YqvMxV0HqRaS5KcE.97)|||[__9/18/2018__](https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewadvanced)|
-|17754|[9/5/2018](https://blogs.windows.com/windowsexperience/2018/09/05/announcing-windows-10-insider-preview-build-17754/)|||||[__9/11/2018__](https://blogs.windows.com/buildingapps/2018/09/11/windows-10-sdk-preview-build-17754-available-now/)
+|17758|[9/11/2018](https://blogs.windows.com/windowsexperience/2018/09/11/announcing-windows-10-insider-preview-build-17758/)|[__9/14/2018__](https://blogs.windows.com/windowsexperience/2018/09/11/announcing-windows-10-insider-preview-build-17758/#YqvMxV0HqRaS5KcE.97)|||[__9/18/2018__](https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewadvanced)|[__9/18/2018__](https://blogs.windows.com/buildingapps/2018/09/18/windows-10-sdk-preview-build-17758-available-now/)
+|17754|[9/5/2018](https://blogs.windows.com/windowsexperience/2018/09/05/announcing-windows-10-insider-preview-build-17754/)|||||[9/11/2018](https://blogs.windows.com/buildingapps/2018/09/11/windows-10-sdk-preview-build-17754-available-now/)
 |17751|[8/31/2018](https://blogs.windows.com/windowsexperience/2018/08/31/announcing-windows-10-insider-preview-build-17751/)
 |17749||||||[9/4/2018](https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewSDK)
 |17746|[8/24/2018](https://blogs.windows.com/windowsexperience/2018/08/24/announcing-windows-10-insider-preview-build-17746/)
