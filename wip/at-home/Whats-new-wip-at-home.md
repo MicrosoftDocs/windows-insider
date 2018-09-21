@@ -61,18 +61,18 @@ __Note:__ Roaming text on the clipboard is only supported for clipboard content 
 
  Here are some voice queries to try:
 
-*__Update Windows__– Try, “Update my Windows device”
-*__Check if an app is installed__ – Try, “How to see what apps are installed”
-*__Uninstall an app__ – Try “How to uninstall apps”
-*__Change your desktop background__– Try, “Show me how to change my background”
-*__Use Airplane Mode__ – Try, “How do I turn on airplane mode”
-*__Change your display brightness__ – Try, “Show me how to change my screen brightness”
-*__Add nearby printers or scanners__ – Try, “How to add a printer”
-*__Turn off Windows Defender Security Center__ – Try, “Show me how to turn off Windows Defender Security Center”
-*__Change Wi-Fi settings__ – Try, “Show me how to change Wi-Fi network”
-*__Change your power settings__ – Try, “How to change when my computer goes to sleep”
-*__Discover Bluetooth devices__ – Try, “Show me how to discover devices”
-*__Check your version of Windows__ – Try, “How do I find my current version of Windows”
+* __Update Windows__– Try, “Update my Windows device”
+* __Check if an app is installed__ – Try, “How to see what apps are installed”
+* __Uninstall an app__ – Try “How to uninstall apps”
+* __Change your desktop background__– Try, “Show me how to change my background”
+* __Use Airplane Mode__ – Try, “How do I turn on airplane mode”
+* __Change your display brightness__ – Try, “Show me how to change my screen brightness”
+* __Add nearby printers or scanners__ – Try, “How to add a printer”
+* __Turn off Windows Defender Security Center__ – Try, “Show me how to turn off Windows Defender Security Center”
+* __Change Wi-Fi settings__ – Try, “Show me how to change Wi-Fi network”
+* __Change your power settings__ – Try, “How to change when my computer goes to sleep”
+* __Discover Bluetooth devices__ – Try, “Show me how to discover devices”
+* __Check your version of Windows__ – Try, “How do I find my current version of Windows”
 
 ## Ease of access improvements
 __Make text bigger__: We’ve heard your feedback and are excited to announce that the ability to increase text size across the system is back and better than ever! When you go to __Settings > Ease of Access > Display__ in today’s build, you’ll find a new setting called “Make everything bigger” – this slider will adjust text across the system, win32 apps, and UWP apps.
@@ -158,8 +158,8 @@ Now focus assist will turn on automatically when you’re playing any full scree
 ![sound settings](images/speakers2.png "sound settings")
 
 ## Game bar improvements
-*__Audio controls__: Change your default audio output device and mute or adjust the volume of games and apps running.
-*__Performance visualizations__: See your game’s framerate (FPS), CPU usage, GPU VRAM usage, and system RAM usage.
+* __Audio controls__: Change your default audio output device and mute or adjust the volume of games and apps running.
+* __Performance visualizations__: See your game’s framerate (FPS), CPU usage, GPU VRAM usage, and system RAM usage.
 
 ![game bar](images/New-Game-bar.png "game bar")
 
@@ -239,30 +239,30 @@ We have introduced a new __Region__ page that allows overrides to default region
 ## Narrator improvements 
 
 * __Reliability:__ We have made improvements in Narrator reliability.
-*__Scan Mode:__ Reading and navigating while in Scan Mode has been improved. Selecting text in Scan Mode has also been improved. 
-*__QuickStart:__ The link in settings to relaunch the QuickStart is available from the first Welcome page. The QuickStart more reliably takes focus when Narrator is launched, which means Narrator starts reading automatically.
-*__Providing Feedback:__ The keystroke to provide feedback has changed. The new keystroke is __Narrator + Alt + F__. This will work both in the standard and legacy layouts.
+* __Scan Mode:__ Reading and navigating while in Scan Mode has been improved. Selecting text in Scan Mode has also been improved. 
+* __QuickStart:__ The link in settings to relaunch the QuickStart is available from the first Welcome page. The QuickStart more reliably takes focus when Narrator is launched, which means Narrator starts reading automatically.
+* __Providing Feedback:__ The keystroke to provide feedback has changed. The new keystroke is __Narrator + Alt + F__. This will work both in the standard and legacy layouts.
 <i>Note: The legacy layout also allows you to use __Narrator + E__ to send us feedback.</i>
-*__Move Next, Move Previous, and Change View:__ When changing Narrator’s view to characters, words, lines, or paragraphs the __Read Current Item__ command will read the text of that specific view type more reliably.
-*__Keyboard command changes:__ The keystroke to move the caret to the beginning of text is now __Narrator + B__ (formerly Narrator + Control + B), to move the caret to end of text is now __Narrator + E__ (was Narrator + Control + E).
-*__Braille:__ Improved use of Braille commands when using the Narrator key from the braille display.
-*__Narrator standard keyboard layout__: Narrator now ships with a new keyboard layout that is designed to be more familiar to screen reader users. 
-*__Selection commands in Narrator scan mode__: Narrator’s scan mode now supports selecting content in Microsoft Edge, Word, Outlook, Mail, and most text surfaces. Standard shift- selection commands can be used as well as __Control + A__ for the entire document. __Caps + Shift + Down Arrow__ will speak the current selection. For a full list of selection commands, you can refer to Narrator’s __Show Commands List__ by pressing __Caps + F1__. Once content is selected you can copy it to the clipboard by pressing __Control + C__. Formatting information will also be retained. 
-*__Automatic Dialog Reading__: Narrator automatically reads the contents of a dialog box when brought to the foreground. Narrator speaks the title of the dialog, the focused element within the dialog and the static text at the top of the dialog. For example, if you try to close a document in Word with unsaved changes, Narrator will speak the title “Microsoft Word,” the focus “Save button” and the static text within the dialog.
-*__Narrator Find__: You now have the ability to search for text using Narrator’s new __Find__ feature. If the text is found Narrator will move to the found item. 
-*__List of Objects__: Narrator can present a list of links, headings or landmarks present in the application or content. You are also able to filter the results by typing in the list or the text field of the window. 
-*__Selection in Scan Mode__: Along with being able to select content in Narrator’s scan mode using Shift-selection commands, you can now also select a block of data by first moving to one end of the block and pressing __F9__, moving to the other end of the block and pressing __F10__. Once __F10__ is pressed the entire contents between the two points will be selected. 
-*__Stop on Controls in Scan Mode__: Scan mode is a Narrator feature that lets you use just a few keys to move around your screen. Scan mode is already on by default in Microsoft Edge and you can toggle it on and off by pressing __Caps lock + Spacebar__. While you’re in scan mode, you can press the Up and Down arrow keys to read different parts of the page. The press of a Down arrow in Scan Mode stops on interactive elements, so that they are easier to use. An example of this behavior is  reading a paragraph with multiple links. Narrator will stop on these links when you press the Down arrow.
+* __Move Next, Move Previous, and Change View:__ When changing Narrator’s view to characters, words, lines, or paragraphs the __Read Current Item__ command will read the text of that specific view type more reliably.
+* __Keyboard command changes:__ The keystroke to move the caret to the beginning of text is now __Narrator + B__ (formerly Narrator + Control + B), to move the caret to end of text is now __Narrator + E__ (was Narrator + Control + E).
+* __Braille:__ Improved use of Braille commands when using the Narrator key from the braille display.
+* __Narrator standard keyboard layout__: Narrator now ships with a new keyboard layout that is designed to be more familiar to screen reader users. 
+* __Selection commands in Narrator scan mode__: Narrator’s scan mode now supports selecting content in Microsoft Edge, Word, Outlook, Mail, and most text surfaces. Standard shift- selection commands can be used as well as __Control + A__ for the entire document. __Caps + Shift + Down Arrow__ will speak the current selection. For a full list of selection commands, you can refer to Narrator’s __Show Commands List__ by pressing __Caps + F1__. Once content is selected you can copy it to the clipboard by pressing __Control + C__. Formatting information will also be retained. 
+* __Automatic Dialog Reading__: Narrator automatically reads the contents of a dialog box when brought to the foreground. Narrator speaks the title of the dialog, the focused element within the dialog and the static text at the top of the dialog. For example, if you try to close a document in Word with unsaved changes, Narrator will speak the title “Microsoft Word,” the focus “Save button” and the static text within the dialog.
+* __Narrator Find__: You now have the ability to search for text using Narrator’s new __Find__ feature. If the text is found Narrator will move to the found item. 
+* __List of Objects__: Narrator can present a list of links, headings or landmarks present in the application or content. You are also able to filter the results by typing in the list or the text field of the window. 
+* __Selection in Scan Mode__: Along with being able to select content in Narrator’s scan mode using Shift-selection commands, you can now also select a block of data by first moving to one end of the block and pressing __F9__, moving to the other end of the block and pressing __F10__. Once __F10__ is pressed the entire contents between the two points will be selected. 
+* __Stop on Controls in Scan Mode__: Scan mode is a Narrator feature that lets you use just a few keys to move around your screen. Scan mode is already on by default in Microsoft Edge and you can toggle it on and off by pressing __Caps lock + Spacebar__. While you’re in scan mode, you can press the Up and Down arrow keys to read different parts of the page. The press of a Down arrow in Scan Mode stops on interactive elements, so that they are easier to use. An example of this behavior is  reading a paragraph with multiple links. Narrator will stop on these links when you press the Down arrow.
 
 For more information about Narrator new keyboard layout and other known issues, refer to [Intro to New Narrator Keyboard Layout doc](http://aka.ms/RS5NarratorKeyboard).
 
 ## Time accuracy and traceability improvements
 
-*__Leap second support:__ Windows supports these occasional 1-second adjustments in a traceable and UTC-compliant manner. What’s a leap second? As the earth’s rotation slows, [UTC](https://en.wikipedia.org/wiki/Coordinated_Universal_Time) (an atomic timescale) diverges from [mean solar time](https://en.wikipedia.org/wiki/Solar_time#Mean_solar_time) or astronomical time.  Once UTC has diverged by at most .9 seconds, a [leap second](https://en.wikipedia.org/wiki/Leap_second) is inserted to keep UTC in-sync with mean solar time.  Since the practice of inserting leap seconds began in 1972, a leap second has typically occurred every 18 months.
+* __Leap second support:__ Windows supports these occasional 1-second adjustments in a traceable and UTC-compliant manner. What’s a leap second? As the earth’s rotation slows, [UTC](https://en.wikipedia.org/wiki/Coordinated_Universal_Time) (an atomic timescale) diverges from [mean solar time](https://en.wikipedia.org/wiki/Solar_time#Mean_solar_time) or astronomical time.  Once UTC has diverged by at most .9 seconds, a [leap second](https://en.wikipedia.org/wiki/Leap_second) is inserted to keep UTC in-sync with mean solar time.  Since the practice of inserting leap seconds began in 1972, a leap second has typically occurred every 18 months.
 
-*__Precision Time Protocol:__ For the highest accuracy environments, you can improve your time accuracy by leveraging a new time protocol that delivers more accurate time samples to the endpoint (Windows Server 2019 or Windows 10, host or virtual machine).
+* __Precision Time Protocol:__ For the highest accuracy environments, you can improve your time accuracy by leveraging a new time protocol that delivers more accurate time samples to the endpoint (Windows Server 2019 or Windows 10, host or virtual machine).
 
-*__Software Timestamping:__ You can now further improve your network time accuracy by eliminating the software delay introduced by the Windows networking stack.
+* __Software Timestamping:__ You can now further improve your network time accuracy by eliminating the software delay introduced by the Windows networking stack.
 
 For more details about these new improvements, please see our announcement [here](https://blogs.technet.microsoft.com/networking/2018/07/18/top10-ws2019-hatime/).
 
@@ -344,13 +344,13 @@ As many of you know, we added dark theme support to Windows based on your feedba
 
 ## Microsoft Pinyin and Wubi IMEs
 
-*__We updated the Microsoft Pinyin IME__. We’ve been focusing on addressing your performance, reliability and compatibility feedback. You'll also notice a number of other improvements, including design improvements, a new logo for the Microsoft Pinyin IME, new IME toolbar, and dark theme support!
+* __We updated the Microsoft Pinyin IME__. We’ve been focusing on addressing your performance, reliability and compatibility feedback. You'll also notice a number of other improvements, including design improvements, a new logo for the Microsoft Pinyin IME, new IME toolbar, and dark theme support!
 
     ![new look for imes](images/imeupdate.png "new look for imes")
 
-*__We updated the context menu__. We’ve added options to the IME mode indicator’s context menu in the taskbar, so you can quickly access the things you need.
+* __We updated the context menu__. We’ve added options to the IME mode indicator’s context menu in the taskbar, so you can quickly access the things you need.
 
-*__The IME now uses the same UX for expressive input as other languages__. You can bring it up by clicking the emoji button in the IME toolbar, or use the Emoji Panel hotkeys (WIN + period (.) or WIN + semicolon (;)). You can browse between Emoji, Kaomoji, and Symbol input when Chinese (Simplified) is the active locale.
+* __The IME now uses the same UX for expressive input as other languages__. You can bring it up by clicking the emoji button in the IME toolbar, or use the Emoji Panel hotkeys (WIN + period (.) or WIN + semicolon (;)). You can browse between Emoji, Kaomoji, and Symbol input when Chinese (Simplified) is the active locale.
 
 ![ime emojis](images/imeemoji.png "ime emojis")
 
@@ -449,9 +449,9 @@ __New context menu options for tabs in Sets__: If you right-click on a Sets tab,
 
 __Improvements to previous tabs__: We’ve done a few things to improve the experience in this space, including:
 
-*__You can choose which previous tabs you want to restore__, in addition to being able to restore all tabs. 
+* __You can choose which previous tabs you want to restore__, in addition to being able to restore all tabs. 
 
-*__You can now restore previous tabs from any type of activity__, in addition to restoring tabs when the primary window is a document.
+* __You can now restore previous tabs from any type of activity__, in addition to restoring tabs when the primary window is a document.
 
 ![previous tabs](images/previoustabs.png "previous tabs")
 
@@ -461,11 +461,11 @@ __Improvements to previous tabs__: We’ve done a few things to improve the expe
 
 __Keyboard shortcuts__
 
-*__Ctrl + Win + Tab__ – switch to next tab.
-*__Ctrl + Win + Shift + Tab__ – switch to previous tab.
-*__Ctrl + Win + T__– open a new tab.
-*__Ctrl + Win + N__ - open a new window.
-*__Ctrl + Win + W__– close current tab or window.
+* __Ctrl + Win + Tab__ – switch to next tab.
+* __Ctrl + Win + Shift + Tab__ – switch to previous tab.
+* __Ctrl + Win + T__– open a new tab.
+* __Ctrl + Win + N__ - open a new window.
+* __Ctrl + Win + W__– close current tab or window.
 
 We’ve heard your feedback and have been hard at work updating the new tab page to make it more obvious you can launch apps. When you click the plus button in a Sets window, you will now see apps included in your frequent destinations list. You’ll also find that we’ve integrated the all apps list into this page so you can browse your apps, rather than just using the search box – apps that support Sets will launch into a tab when clicked. If you have __News Feed__ selected, simply click the __Apps__ link next to __News Feed__ to switch to the all apps list.
 
@@ -493,13 +493,13 @@ WIN + Shift + S will now bring up a snipping toolbar – snip a rectangle, somet
 ![screen sketch](images/screen-sketch2.png "screen sketch")
 
 Is the WIN + Shift + S keyboard shortcut too long to remember? Guess what! We’ve added easy entry options for every input modality: 
-*__Just click the pen tail button__. If you have a pen, go into __Pen & Windows Ink Settings__ – you’ll find Screen Snipping is now an option for single click. This will launch you directly into our snipping experience:
+* __Just click the pen tail button__. If you have a pen, go into __Pen & Windows Ink Settings__ – you’ll find Screen Snipping is now an option for single click. This will launch you directly into our snipping experience:
 
 ![pen settings](images/pensettingsinked.png "pen settings")
 
-*__Press Print Screen__. You heard it right, just one button! It’s not enabled by default – go to Keyboard Settings – you’ll see a new option that says __Use the Print Screen key to launch screen snipping__. Opening Settings and searching for __print screen__ will take you to the right page.
+* __Press Print Screen__. You heard it right, just one button! It’s not enabled by default – go to Keyboard Settings – you’ll see a new option that says __Use the Print Screen key to launch screen snipping__. Opening Settings and searching for __print screen__ will take you to the right page.
 
-*__Press the quick action button in Action Center__. Called __Screen snip__ – it should be there as soon as you upgrade, but if not you can always enable it via Notifications & Actions Settings.
+* __Press the quick action button in Action Center__. Called __Screen snip__ – it should be there as soon as you upgrade, but if not you can always enable it via Notifications & Actions Settings.
 
 ## Start tile folder naming 
 To create a tile folder in Start, just drag one tile on top of another for a second then release. Continue dropping as many tiles into the folder as you’d like. When you expand the folder, you’ll see a new option to name it. The name will be visible when the folder is medium, wide, or large-sized. 
@@ -576,7 +576,3 @@ Android phone users, you can finally stop emailing yourself photos. Drag and dro
 For iPhone users, Your Phone app helps you to link your phone to your PC. Surf the web on your phone, then send the webpage instantly to your computer to pick up where you left off to continue what you’re doing–read, watch, or browse with all the benefits of a bigger screen. With a linked phone, continuing on your PC is one share away.
 
 We’ve added a new entry point to Your Phone app. Notice a desktop pin? It’ll take you directly to Your Phone app – for quicker access to your phone’s content. Or go through the all apps list in Start Menu, or Windows key and search for Your Phone app. You pick how you get there, just get there. 
-
-
-
-
