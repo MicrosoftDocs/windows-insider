@@ -45,9 +45,10 @@ To join multiple devices on your local Active Directory to your Azure AD domain,
 
 ## Create and manage policies 
 You can use Group Policy or MDM solutions such as Intune to configure the Windows Update for Business settings that control how and when Windows 10 Insider Preview Builds are installed on devices.  
+
 __NOTE:__ 
-To enable installation of Insider Preview builds on a device, telemetry must be set to level 2 (enhanced) or higher. Telemetry is set to level 3 (full) by default. 
-Insider Preview builds cannot currently be managed using Windows Server Update Services (WSUS). To confirm that a device is connected to Windows Update and not WSUS, in Registry Editor, go to: __HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate__.  
+* To enable installation of Insider Preview builds, telemetry on a device must be set to level 2 (enhanced) or higher. By default, Windows 10 devices are set to level 3 (full). See [Manage your diagnostic data settings](https://docs.microsoft.com/en-us/windows/privacy/configure-windows-diagnostic-data-in-your-organization).
+* Insider Preview builds cannot currently be managed using Windows Server Update Services (WSUS). To disable the Windows Update Agent so a device doesn't scan against WSUS, see [Identify clients that use WUfB](https://docs.microsoft.com/en-us/sccm/sum/deploy-use/integrate-windows-update-for-business-windows-10#to-identify-clients-that-use-wufb).
 
 ### Set using Group Policy
 Use the Group Policy Management Console (GPMC) to manage the following Windows Update for Business settings on domain-joined devices. See [walkthrough guidance](https://docs.microsoft.com/en-us/windows/deployment/update/waas-wufb-group-policy). 
@@ -62,11 +63,8 @@ __Branch Readiness Level__ enables selection of flight rings and option to defer
 * For "After a Preview Build or Feature Update is released, defer receiving it for this many days", enter a number up to 14 days. 
 * For "Pause Preview Builds or Feature Updates starting" enter date. The pause will remain in effect for 35 days from the start date provided. 
 
-Note: To enable installation of Insider Preview builds, the diagnostic level on the device must be set to Level 2 (Enhanced) or higher. (Windows 10 Diagnostic and Usage Data is set to Full by default.) See [Configure the operating system diagnostic data level](https://docs.microsoft.com/en-us/windows/privacy/configure-windows-diagnostic-data-in-your-organization#configure-the-operating-system-diagnostic-data-level). 
-
-
-### Set using System Center Confguration Manager 
-Beginning in Configuration Manager version 1802, you can set deferral policies for Windows 10 Insider Preview Builds. For more information, see [Integration with Windows Update for Business in Windows 10](https://docs.microsoft.com/en-us/sccm/sum/deploy-use/integrate-windows-update-for-business-windows-10).
+### Set using System Center Configuration Manager 
+Beginning in Configuration Manager version 1802, you can set deferral policies for Windows 10 Insider Preview Builds. 
 1. In the System Center Configuration Manager console, go to __Software Library > Windows 10 Servicing > Windows Update for Business Policies__. 
 2.	On the Home tab, in the Create group, select __Create Windows Update for Business Policy__ to open the Create Windows Update for Business Policy Wizard.
 3.	On the General page, provide a name and description for the policy.
@@ -74,16 +72,9 @@ Beginning in Configuration Manager version 1802, you can set deferral policies f
 5.	Complete the wizard to create the new deferral policy. 
 6.	To deploy your Windows Update for Business deferral policy, on the Home tab, click __Deploy Windows Update for Business Policy__ and assign the collection to which you want to deploy the policy. 
 
-__NOTE:_Devices assigned to a Windows Update for Business policy will require Configuration Manager client software installed. See [How to deploy clients to Windows computers in Configuration Manager](https://docs.microsoft.com/en-us/sccm/core/clients/deploy/deploy-clients-to-windows-computers#BKMK_Manual). 
+For more information, see [Configure Windows Update for Business deferral policies](https://docs.microsoft.com/en-us/sccm/sum/deploy-use/integrate-windows-update-for-business-windows-10).
 
-### Set using MDM policies 
-To set Windows Update for Business policies for Insider Preview builds using Intune or non-Microsoft MDM service providers, using the CSP settings below. For guidance on configuring CSPs, see [CSPs in MDM](https://docs.microsoft.com/en-us/windows/configuration/provisioning-packages/how-it-pros-can-use-configuration-service-providers#csps-in-mdm). 
-
-[Update/ManagePreviewBuilds](https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-update#update-managepreviewbuilds) 
-
-[Update/BranchReadinessLevel](https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-update#update-branchreadinesslevel)
-
-### Set using using Intune 
+### Set using using Microsoft Intune 
 1. Log into the [Azure portal](https://portal.azure.com) and select __Intune__ under __Resources__.
 2. Navigate to __Device configuration > Profiles > Create profile__.
 3. From the __Profile type__ drop-down list, choose __Device restrictions__.
@@ -94,7 +85,14 @@ To set Windows Update for Business policies for Insider Preview builds using Int
 8. Click __OK__ and __Create__ to set policy.
 9. Go to __Assignments__ to assign the policy to users and devices. Note: you can create groups with one or more users or devices in Intune under __Groups__. 
 
-![Intune Update Ring](images/wip-4-biz_manage_intune.png "ADD")
+![Intune Update Ring](images/wip-4-biz-intune-ring.png "ADD")
+
+### Set using other MDM service providers 
+To set Windows Update for Business policies for Insider Preview builds using non-Microsoft MDM service providers, using the CSP settings below. For guidance on configuring CSPs, see [CSPs in MDM](https://docs.microsoft.com/en-us/windows/configuration/provisioning-packages/how-it-pros-can-use-configuration-service-providers#csps-in-mdm). 
+
+[Update/ManagePreviewBuilds](https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-update#update-managepreviewbuilds) 
+
+[Update/BranchReadinessLevel](https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-update#update-branchreadinesslevel)
 
 ## Confirm and track installations  
 
