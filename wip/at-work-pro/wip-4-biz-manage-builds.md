@@ -85,7 +85,7 @@ For more information, see [Configure Windows Update for Business deferral polici
 8. Click __OK__ and __Create__ to set policy.
 9. Go to __Assignments__ to assign the policy to users and devices. Note: you can create groups with one or more users or devices in Intune under __Groups__. 
 
-![Intune Update Ring](images/wip-4-biz-intune-ring.png "ADD")
+![Intune Update Ring](images/wip-4-biz-intune-ring-policy.png "ADD")
 
 ### Set using other MDM service providers 
 To set Windows Update for Business policies for Insider Preview builds using non-Microsoft MDM service providers, using the CSP settings below. For guidance on configuring CSPs, see [CSPs in MDM](https://docs.microsoft.com/en-us/windows/configuration/provisioning-packages/how-it-pros-can-use-configuration-service-providers#csps-in-mdm). 
