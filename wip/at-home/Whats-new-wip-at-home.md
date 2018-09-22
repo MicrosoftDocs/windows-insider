@@ -16,7 +16,7 @@ ms.localizationpriority: medium
 #  What's new in the Windows 10 Insider preview builds (RS5)
 The [Windows Insider Program](https://insider.windows.com/en-us/) lets you preview builds of the upcoming release of Windows 10. This topic lists all new Windows 10 features for you to try. Unlike the [Windows Insider Program Blog](https://blogs.windows.com/windowsexperience/tag/windows-insider-program), this topic is organized by feature instead of by the build number so that you can see all items about a specific feature listed together.
 
-## Acrylicic improvements
+## Acrylic improvements
 
 ### Acrylic in task view 
 The entire task view background now has a soft blur effect.
