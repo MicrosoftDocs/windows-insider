@@ -240,12 +240,12 @@ We have introduced a new __Region__ page that allows overrides to default region
 
 *  __Reliability:__ We have made improvements in Narrator reliability.
 * __Scan Mode:__ Reading and navigating while in Scan Mode has been improved. Selecting text in Scan Mode has also been improved. 
-*__QuickStart:__ The link in settings to relaunch the QuickStart is available from the first Welcome page. The QuickStart more r eliably takes focus when Narrator is launched, which means Narrator starts reading automatically.
+* __QuickStart:__ The link in settings to relaunch the QuickStart is available from the first Welcome page. The QuickStart more r eliably takes focus when Narrator is launched, which means Narrator starts reading automatically.
 * __Providing Feedback:__ The keystroke to provide feedback has changed. The new keystroke is __Narrator + Alt + F__. This will work both in the standard and legacy layouts.
 <i>Note: The legacy layout also allows you to use __Narrator + E__ to send us feedback.</i>
 * __Move Next, Move Previous, and Change View:__ When changing Narrator’s view to characters, words, lines, or paragraphs the __Read Current Item__ command will read the text of that specific view type more reliably.
 * __Keyboard command changes:__ The keystroke to move the caret to the beginning of text is now __Narrator + B__ (formerly Narrator + Control + B), to move the caret to end of text is now __Narrator + E__ (was Narrator + Control + E).
-* __ Braille:__ Improved use of Braille commands when using the Narrator key from the braille display.
+* __Braille:__ Improved use of Braille commands when using the Narrator key from the braille display.
 * __Narrator standard keyboard layout__: Narrator now ships with a new keyboard layout that is designed to be more familiar to screen reader users. 
 * __Selection commands in Narrator scan mode__: Narrator’s scan mode now supports selecting content in Microsoft Edge, Word, Outlook, Mail, and most text surfaces. Standard shift- selection commands can be used as well as __Control + A__ for the entire document. __Caps + Shift + Down Arrow__ will speak the current selection. For a full list of selection commands, you can refer to Narrator’s __Show Commands List__ by pressing __Caps + F1__. Once content is selected you can copy it to the clipboard by pressing __Control + C__. Formatting information will also be retained. 
 * __Automatic Dialog Reading__: Narrator automatically reads the contents of a dialog box when brought to the foreground. Narrator speaks the title of the dialog, the focused element within the dialog and the static text at the top of the dialog. For example, if you try to close a document in Word with unsaved changes, Narrator will speak the title “Microsoft Word,” the focus “Save button” and the static text within the dialog.
