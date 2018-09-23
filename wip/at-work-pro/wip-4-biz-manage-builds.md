@@ -100,7 +100,7 @@ __NOTE:__
 ![Windows Update for Business values in Registry Editor](images/wip-4-biz-reg-xs.png "ADD")
 
 ### Track devices 
-You can use Device Health in Windows Analytics to monitor the monitor devices running Insider Preview builds. This can be useful for identifying device, device driver and application issues. See [Using Device Health to monitor Insider Preview builds](https://insider.windows.com/en-us/for-business-device-health/). 
+You can use Device Health in Windows Analytics to monitor the monitor devices running Insider Preview builds. This can be useful for identifying device, device driver and application issues. See [Using Device Health to monitor Insider Preview builds](https://insider.windows.com/en-us/for-business-device-health/).  
 
 ## Related Topics
 * [Deploy updates using Windows Update for Business](https://docs.microsoft.com/en-us/windows/deployment/update/waas-manage-updates-wufb) 
