@@ -78,10 +78,7 @@ __Note:__ Roaming text on the clipboard is only supported for clipboard content 
 **Make text bigger**: We’ve heard your feedback and are excited to announce that the ability to increase text size across the system is back and better than ever! When you go to **Settings > Ease of Access > Display**, you’ll find a new setting called “Make text bigger” – this slider will adjust text across the system, win32 apps, and UWP apps.
 That means you can now make text bigger in Start, File Explorer, Settings, etc., without having to change the overall scaling of your system.
 
-
 ![Make text bigger option in the Ease of Access Display settings](images/bigger-text.png "Make text bigger option in the Ease of Access Display settings")
-
-That means you can now make text bigger in Start, File Explorer, Settings, etc., without having to change the overall scaling of your system. 
 
 **Choose where to keep the mouse cursor**: We’ve heard your feedback asking us for a way to keep your mouse centered on the screen in Full-Screen mode, in RS5 we’re making it happen! This new option under Settings > Ease of Access > Magnifier > “Keep the mouse cursor” > “centered on the screen” enables easier tracking and use of the mouse, especially helpful at higher magnification levels.
 
