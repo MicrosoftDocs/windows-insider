@@ -51,36 +51,29 @@ __NOTE:__
 * Insider Preview builds cannot currently be managed using Windows Server Update Services (WSUS). To disable the Windows Update Agent so a device doesn't scan against WSUS, see [Identify clients that use WUfB](https://docs.microsoft.com/en-us/sccm/sum/deploy-use/integrate-windows-update-for-business-windows-10#to-identify-clients-that-use-wufb).
 
 ### Set using Group Policy
-Use the Group Policy Management Console (GPMC) to manage the following Windows Update for Business settings on domain-joined devices. See [walkthrough guidance](https://docs.microsoft.com/en-us/windows/deployment/update/waas-wufb-group-policy). 
+1. In the Group Policy Management Console (GPMC), go to __Computer Configuration/Administrative Templates/Windows Components/Windows Update/Windows Update for Business__ 
+2. Open __Manage preview builds__ to enable installation of Insider Preview builds on a device. This setting can also be used to prevent installation on a device and stop Insider Preview build updates once the release is public.  
+3. Open __Select when Preview Builds and Feature Updates are received__ and select the Ring from which you want devices to receive Insider Preview builds (Fast, Slow, Release Preview). This setting can also be used to defer installation for a set number of days after release or pause installation of Insider Preview builds.  
 
-__Manage preview builds__ enables or prevents installation of Insider Preview builds on a device. You can also decide to stop Insider Preview builds once the Windows release is public. 
-* Group Policy: __Computer Configuration/Administrative Templates/Windows Components/Windows Update/Windows Update for Business/Select when Preview Builds and Feature Updates are received__ and click __Enabled__.  
-* For "Set the behavior for receiving preview builds, select "Enable preview builds". You can also select "Disable preview builds once next release is public" or "Disable preview builds". 
-
-__Branch Readiness Level__ enables selection of flight rings and option to defer or pause the delivery of updates. 
-* Group Policy: __Computer Configuration/Administrative Templates/Windows Components/Windows Update/Windows Update for Business/Select when Preview Builds and Feature Updates are received__ and click __Enabled__. 
-* For "Select the Windows readiness level for the updates you want to receive", select your desired Ring. For more information, see [Windows readiness levels and flight rings](wip-4-biz-flight-levels-and-rings.md). 
-* For "After a Preview Build or Feature Update is released, defer receiving it for this many days", enter a number up to 14 days. 
-* For "Pause Preview Builds or Feature Updates starting" enter date. The pause will remain in effect for 35 days from the start date provided. 
+For more information see: 
+* [Use Group Policy to configure Windows Update for Business](https://docs.microsoft.com/en-us/windows/deployment/update/waas-wufb-group-policy)
+* [Windows readiness levels and flight rings](wip-4-biz-flight-levels-and-rings.md). 
 
 ### Set using System Center Configuration Manager 
 Beginning in Configuration Manager version 1802, you can set deferral policies for Windows 10 Insider Preview Builds. 
-1. In the System Center Configuration Manager console, go to __Software Library > Windows 10 Servicing > Windows Update for Business Policies__. 
+1. In the Configuration Manager console, go to __Software Library > Windows 10 Servicing > Windows Update for Business Policies__. 
 2.	On the Home tab, in the Create group, select __Create Windows Update for Business Policy__ to open the Create Windows Update for Business Policy Wizard.
 3.	On the General page, provide a name and description for the policy.
-4.	On the Deferral Policies page, go to __Defer Feature Updates>Branch readiness level__, select the ring from which you want devices to receive Insider Preview builds (Windows Insider build-Fast, Windows Insider build-Slow, Windows Insider build-Release Preview). You can also defer or pause Insider Preview builds using the __Deferral period__ and __Pause Feature updates__ settings  
+4.	On the Deferral Policies page, go to __Defer Feature Updates>Branch readiness level__, select the ring from which you want devices to receive Insider Preview builds. You can also defer or pause Insider Preview builds using the __Deferral period__ and __Pause Feature updates__ settings. 
 5.	Complete the wizard to create the new deferral policy. 
-6.	To deploy your Windows Update for Business deferral policy, on the Home tab, click __Deploy Windows Update for Business Policy__ and assign the collection to which you want to deploy the policy. 
+6.	To deploy your Windows Update for Business deferral policy, on the Home tab, click __Deploy Windows Update for Business Policy__ and assign the policy to a collection of devices or users. 
 
 For more information, see [Configure Windows Update for Business deferral policies](https://docs.microsoft.com/en-us/sccm/sum/deploy-use/integrate-windows-update-for-business-windows-10).
 
 ### Set using Microsoft Intune 
 1. Log into the [Azure portal](https://portal.azure.com) and select __Intune__ under __Resources__.
-2. Navigate to __Device configuration > Profiles > Create profile__.
-3. From the __Profile type__ drop-down list, choose __Device restrictions__.
-4. In __Settings__ select __Reporting and Telemetry__ and set __Share usage data__ to "Enhanced" or "Full". (To enable installation of Insider Preview builds on a device, telemetry must be set to enhanced or higher.) 
-5. Go to __Software Update>Windows 10 Update Rings__. Click “+” to create an Update Ring policy.
-6. Under __Servicing Channel__, select "Fast" or "Slow" to assign Insider Preview builds from an Insider Preview Ring. 
+2. Navigate to __Software Updates>Windows 10 Update Rings__. Click “+” to create an Update Ring policy.
+6. Under __Servicing Channel__, select the Ring from which you want devices to receive Insider Preview builds. 
 7. Adjust __Feature update deferral period__ if you want to defer deployment of Insider Preview builds for a certain number of days after release. 
 8. Click __OK__ and __Create__ to set policy.
 9. Go to __Assignments__ to assign the policy to users and devices. Note: you can create groups with one or more users or devices in Intune under __Groups__. 
