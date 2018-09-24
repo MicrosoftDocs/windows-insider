@@ -46,7 +46,7 @@ Copy/paste - it's something we all do, probably multiple times a day. But what d
 
 ![clipboard history](images/clipboardhistory.png "clipboard history")
 
-Not only can you can paste from the clipboard history, but you can also pin the items you find yourself using all the time. This history roams with you using the same technology which powers Timeline and Sets, which means you can access your clipboard across any PC.  
+Not only can you can paste from the clipboard history, but you can also pin the items you find yourself using all the time. This history roams with you using the same technology that powers Timeline, which means you can access your clipboard across any PC.  
 
 Our new settings page for enabling this experience is under __Settings > System > Clipboard__ - please try this out and share feedback! [This link](feedback-hub:///) will open the Feedback Hub to where you can tell us about your experience and what you'd like to see next. 
 
@@ -411,7 +411,7 @@ The new modern snipping experience is here to help you effortlessly capture and 
 
 ### Screen Sketch is now an app! 
 
-Originally introduced as part of the Windows Ink Workspace, this comes with a variety of benefits, including that it can now be updated via the Microsoft Store, it will now show up in the list when you press Alt + tab, you can set the window size to be your preference if you like multitasking, and it even supports multiple windows (and tabs, thanks to Sets!). 
+Originally introduced as part of the Windows Ink Workspace, this comes with a variety of benefits, including that it can now be updated via the Microsoft Store, it will now show up in the list when you press Alt + tab, you can set the window size to be your preference if you like multitasking, and it even supports multiple windows. 
 
 ### Easy snipping is only a single step away
 
