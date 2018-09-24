@@ -75,7 +75,9 @@ __Note:__ Roaming text on the clipboard is only supported for clipboard content 
 *__Check your version of Windows__ – Try, “How do I find my current version of Windows”
 
 ## Ease of access improvements
-__Make text bigger__: We’ve heard your feedback and are excited to announce that the ability to increase text size across the system is back and better than ever! When you go to __Settings > Ease of Access > Display__ in today’s build, you’ll find a new setting called “Make everything bigger” – this slider will adjust text across the system, win32 apps, and UWP apps.
+**Make text bigger**: We’ve heard your feedback and are excited to announce that the ability to increase text size across the system is back and better than ever! When you go to **Settings > Ease of Access > Display**, you’ll find a new setting called “Make text bigger” – this slider will adjust text across the system, win32 apps, and UWP apps.
+That means you can now make text bigger in Start, File Explorer, Settings, etc., without having to change the overall scaling of your system
+
 
 ![bigger text](images/bigger-text.png "bigger text")
 
