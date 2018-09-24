@@ -76,12 +76,14 @@ __Note:__ Roaming text on the clipboard is only supported for clipboard content 
 
 ## Ease of access improvements
 **Make text bigger**: We’ve heard your feedback and are excited to announce that the ability to increase text size across the system is back and better than ever! When you go to **Settings > Ease of Access > Display**, you’ll find a new setting called “Make text bigger” – this slider will adjust text across the system, win32 apps, and UWP apps.
-That means you can now make text bigger in Start, File Explorer, Settings, etc., without having to change the overall scaling of your system
+That means you can now make text bigger in Start, File Explorer, Settings, etc., without having to change the overall scaling of your system.
 
 
-![bigger text](images/bigger-text.png "bigger text")
+![Make text bigger option in the Ease of Access Display settings](images/bigger-text.png "Make text bigger option in the Ease of Access Display settings")
 
 That means you can now make text bigger in Start, File Explorer, Settings, etc., without having to change the overall scaling of your system. 
+
+**Choose where to keep the mouse cursor**: We’ve heard your feedback asking us for a way to keep your mouse centered on the screen in Full-Screen mode, in RS5 we’re making it happen! This new option under Settings > Ease of Access > Magnifier > “Keep the mouse cursor” > “centered on the screen” enables easier tracking and use of the mouse, especially helpful at higher magnification levels.
 
 ### Wrap-around find and replace 
 We’ve made significant improvement to the find/replace experience in Notepad. We added the option to do wrap-around find/replace to the find dialog. Notepad will remember previously entered values and the state of check boxes, and will automatically populate them the next time you open the find dialog. Additionally, when you have text selected and open the find dialog we will automatically populate the search field with the selected text.
@@ -245,7 +247,7 @@ We have introduced a new __Region__ page that allows overrides to default region
 * **Scan Mode**: Reading and navigating while in Scan Mode has been improved. Selecting text in Scan Mode has also been improved. 
 * **Stop on Controls in Scan Mode**: Scan mode is a Narrator feature that lets you use just a few keys to move around your screen. Scan mode is already on by default in Microsoft Edge and you can toggle it on and off by pressing **Caps lock + Spacebar**. While you’re in scan mode, you can press the Up and Down arrow keys to read different parts of the page. The press of a Down arrow in Scan Mode stops on interactive elements, so that they are easier to use. An example of this behavior is reading a paragraph with multiple links. Narrator will stop on these links when you press the Down arrow.
 * **Selection commands in scan mode**: Narrator’s scan mode now supports selecting content in Microsoft Edge, Word, Outlook, Mail, and most text surfaces. Standard shift- selection commands can be used as well as **Control + A** for the entire document. **Caps + Shift + Down Arrow** will speak the current selection. For a full list of selection commands, you can refer to Narrator’s **Show Commands List** by pressing **Caps + F1**. Once content is selected you can copy it to the clipboard by pressing Control + C. Formatting information will also be retained. Along with being able to select content in Narrator’s scan mode using Shift-selection commands, you can now also select a block of data by first moving to one end of the block and pressing F9, moving to the other end of the block and pressing F10. Once F10 is pressed the entire contents between the two points will be selected. 
-* **QuickStart**: The link in settings to relaunch the QuickStart is available from the first Welcome page. The QuickStart more reliably takes focus when Narrator is launched, which means Narrator starts reading automatically. 
+* **Narrator QuickStart**: When Narrator launches, a new Quickstart tutorial experience will be available. The Narrator Quickstart will help you get up and running quickly with Narrator. It teaches the basics of using Narrator, such as learning the keys on your keyboard, navigation, the most used commands etc. At the end of the Quickstart there is a link to the User Guide where you can continue learning about Narrator.
 * **Braille**: Improved use of Braille commands when using the Narrator key from the braille display. 
 * **Automatic Dialog Reading**: Narrator automatically reads the contents of a dialog box when brought to the foreground. Narrator speaks the title of the dialog, the focused element within the dialog and the static text at the top of the dialog. For example, if you try to close a document in Word with unsaved changes, Narrator will speak the title “Microsoft Word,” the focus “Save button” and the static text within the dialog. 
 * **Narrator Find**: You now have the ability to search for text using Narrator’s new Find feature. If the text is found Narrator will move to the found item. 
@@ -255,7 +257,7 @@ We have introduced a new __Region__ page that allows overrides to default region
 * **Providing Feedback**: The keystroke to provide feedback has changed. The new keystroke is **Narrator + Alt + F**. This will work both in the standard and legacy layouts. Note: The legacy layout also allows you to use **Narrator + E** to send us feedback. 
 
 
-For more information about Narrator new keyboard layout and other known issues, refer to the new [Narrator Keyboard Layout doc](http://aka.ms/RS5NarratorKeyboard).
+For more information about Narrator new keyboard layout and other improvements, refer to the new [Narrator Keyboard Layout doc](http://aka.ms/RS5NarratorKeyboard).
 
 ## Time accuracy and traceability improvements
 
