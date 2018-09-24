@@ -80,7 +80,7 @@ That means you can now make text bigger in Start, File Explorer, Settings, etc.,
 
 ![Make text bigger option in the Ease of Access Display settings](images/bigger-text.png "Make text bigger option in the Ease of Access Display settings")
 
-**Choose where to keep the Magnifier mouse cursor**: We’ve heard your feedback asking us for a way to keep your mouse centered on the screen in Full-Screen mode, in Windows 10, version 1809 we’re making it happen! This new option under Settings > Ease of Access > Magnifier > “Keep the mouse cursor” > “Centered on the screen” enables easier tracking and use of the mouse, especially helpful at higher magnification levels.
+**Choose where to keep the Magnifier mouse cursor**: We’ve heard your feedback asking us for a way to keep your mouse centered on the screen in Full-Screen mode, in the Windows 10 October 2018 Update we’re making it happen! This new option under Settings > Ease of Access > Magnifier > “Keep the mouse cursor” > “Centered on the screen” enables easier tracking and use of the mouse, especially helpful at higher magnification levels.
 
 ![Magnifier settings, Keep the mouse cursor, centered on the screen option](images/CenterOnTheScreen.png "Magnifier settings, Keep the mouse cursor, centered on the screen option")
 
