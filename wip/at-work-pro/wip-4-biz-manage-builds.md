@@ -58,7 +58,7 @@ __NOTE:__
 For more information, see: 
 * [Use Group Policy to configure Windows Update for Business](https://docs.microsoft.com/en-us/windows/deployment/update/waas-wufb-group-policy)
 
-![Intune Update Ring](images/wip-4-biz-gpo.png "ADD")
+![Intune Update Ring](images/wip-4-biz-gpo4.png "ADD")
 
 ### Set using System Center Configuration Manager 
 Beginning with Configuration Manager version 1802, you can set deferral policies for Windows 10 Insider Preview Builds. 
@@ -70,6 +70,8 @@ Beginning with Configuration Manager version 1802, you can set deferral policies
 6.	To deploy your Windows Update for Business deferral policy, on the Home tab, click __Deploy Windows Update for Business Policy__ and assign the policy to a collection of devices or users. 
 
 For more information, see [Configure Windows Update for Business deferral policies](https://docs.microsoft.com/en-us/sccm/sum/deploy-use/integrate-windows-update-for-business-windows-10#configure-windows-update-for-business-deferral-policies).
+
+![Intune Update Ring](images/sccm2.png "ADD")
 
 ### Set using Microsoft Intune 
 1. Log into the [Azure portal](https://portal.azure.com) and select __Intune__ under __Resources__.
