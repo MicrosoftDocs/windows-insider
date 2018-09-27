@@ -16,7 +16,7 @@ ms.localizationpriority: medium
 #  What's new in the Windows 10 Insider preview builds (RS5)
 The [Windows Insider Program](https://insider.windows.com/en-us/) lets you preview builds of the upcoming release of Windows 10. This topic lists all new Windows 10 features for you to try. Unlike the [Windows Insider Program Blog](https://blogs.windows.com/windowsexperience/tag/windows-insider-program), this topic is organized by feature instead of by the build number so that you can see all items about a specific feature listed together.
 
-## Acrylicic improvements
+## Acrylic improvements
 
 ### Acrylic in task view 
 The entire task view background now has a soft blur effect.
@@ -46,7 +46,7 @@ Copy/paste - it's something we all do, probably multiple times a day. But what d
 
 ![clipboard history](images/clipboardhistory.png "clipboard history")
 
-Not only can you can paste from the clipboard history, but you can also pin the items you find yourself using all the time. This history roams with you using the same technology which powers Timeline and Sets, which means you can access your clipboard across any PC.  
+Not only can you can paste from the clipboard history, but you can also pin the items you find yourself using all the time. This history roams with you using the same technology that powers Timeline, which means you can access your clipboard across any PC.  
 
 Our new settings page for enabling this experience is under __Settings > System > Clipboard__ - please try this out and share feedback! [This link](feedback-hub:///) will open the Feedback Hub to where you can tell us about your experience and what you'd like to see next. 
 
@@ -75,11 +75,15 @@ __Note:__ Roaming text on the clipboard is only supported for clipboard content 
 *__Check your version of Windows__ – Try, “How do I find my current version of Windows”
 
 ## Ease of access improvements
-__Make text bigger__: We’ve heard your feedback and are excited to announce that the ability to increase text size across the system is back and better than ever! When you go to __Settings > Ease of Access > Display__ in today’s build, you’ll find a new setting called “Make everything bigger” – this slider will adjust text across the system, win32 apps, and UWP apps.
+**Make text bigger**: We’ve heard your feedback and are excited to announce that the ability to increase text size across the system is back and better than ever! When you go to **Settings > Ease of Access > Display**, you’ll find a new setting called “Make text bigger” – this slider will adjust text across the system, win32 apps, and UWP apps.
+That means you can now make text bigger in Start, File Explorer, Settings, etc., without having to change the overall scaling of your system.
 
-![bigger text](images/bigger-text.png "bigger text")
+![Make text bigger option in the Ease of Access Display settings](images/bigger-text.png "Make text bigger option in the Ease of Access Display settings")
 
-That means you can now make text bigger in Start, File Explorer, Settings, etc., without having to change the overall scaling of your system. 
+**Choose where to keep the Magnifier mouse cursor**: We’ve heard your feedback asking us for a way to keep your mouse centered on the screen in Full-Screen mode, in the Windows 10 October 2018 Update we’re making it happen! This new option under Settings > Ease of Access > Magnifier > “Keep the mouse cursor” > “Centered on the screen” enables easier tracking and use of the mouse, especially helpful at higher magnification levels.
+
+![Magnifier settings, Keep the mouse cursor, centered on the screen option](images/CenterOnTheScreen.png "Magnifier settings, Keep the mouse cursor, centered on the screen option")
+
 
 ### Wrap-around find and replace 
 We’ve made significant improvement to the find/replace experience in Notepad. We added the option to do wrap-around find/replace to the find dialog. Notepad will remember previously entered values and the state of check boxes, and will automatically populate them the next time you open the find dialog. Additionally, when you have text selected and open the find dialog we will automatically populate the search field with the selected text.
@@ -238,23 +242,22 @@ We have introduced a new __Region__ page that allows overrides to default region
 
 ## Narrator improvements 
 
-* __Reliability:__ We have made improvements in Narrator reliability.
-*__Scan Mode:__ Reading and navigating while in Scan Mode has been improved. Selecting text in Scan Mode has also been improved. 
-*__QuickStart:__ The link in settings to relaunch the QuickStart is available from the first Welcome page. The QuickStart more reliably takes focus when Narrator is launched, which means Narrator starts reading automatically.
-*__Providing Feedback:__ The keystroke to provide feedback has changed. The new keystroke is __Narrator + Alt + F__. This will work both in the standard and legacy layouts.
-<i>Note: The legacy layout also allows you to use __Narrator + E__ to send us feedback.</i>
-*__Move Next, Move Previous, and Change View:__ When changing Narrator’s view to characters, words, lines, or paragraphs the __Read Current Item__ command will read the text of that specific view type more reliably.
-*__Keyboard command changes:__ The keystroke to move the caret to the beginning of text is now __Narrator + B__ (formerly Narrator + Control + B), to move the caret to end of text is now __Narrator + E__ (was Narrator + Control + E).
-*__Braille:__ Improved use of Braille commands when using the Narrator key from the braille display.
-*__Narrator standard keyboard layout__: Narrator now ships with a new keyboard layout that is designed to be more familiar to screen reader users. 
-*__Selection commands in Narrator scan mode__: Narrator’s scan mode now supports selecting content in Microsoft Edge, Word, Outlook, Mail, and most text surfaces. Standard shift- selection commands can be used as well as __Control + A__ for the entire document. __Caps + Shift + Down Arrow__ will speak the current selection. For a full list of selection commands, you can refer to Narrator’s __Show Commands List__ by pressing __Caps + F1__. Once content is selected you can copy it to the clipboard by pressing __Control + C__. Formatting information will also be retained. 
-*__Automatic Dialog Reading__: Narrator automatically reads the contents of a dialog box when brought to the foreground. Narrator speaks the title of the dialog, the focused element within the dialog and the static text at the top of the dialog. For example, if you try to close a document in Word with unsaved changes, Narrator will speak the title “Microsoft Word,” the focus “Save button” and the static text within the dialog.
-*__Narrator Find__: You now have the ability to search for text using Narrator’s new __Find__ feature. If the text is found Narrator will move to the found item. 
-*__List of Objects__: Narrator can present a list of links, headings or landmarks present in the application or content. You are also able to filter the results by typing in the list or the text field of the window. 
-*__Selection in Scan Mode__: Along with being able to select content in Narrator’s scan mode using Shift-selection commands, you can now also select a block of data by first moving to one end of the block and pressing __F9__, moving to the other end of the block and pressing __F10__. Once __F10__ is pressed the entire contents between the two points will be selected. 
-*__Stop on Controls in Scan Mode__: Scan mode is a Narrator feature that lets you use just a few keys to move around your screen. Scan mode is already on by default in Microsoft Edge and you can toggle it on and off by pressing __Caps lock + Spacebar__. While you’re in scan mode, you can press the Up and Down arrow keys to read different parts of the page. The press of a Down arrow in Scan Mode stops on interactive elements, so that they are easier to use. An example of this behavior is  reading a paragraph with multiple links. Narrator will stop on these links when you press the Down arrow.
+* **Reliability**: We have made improvements in Narrator reliability. 
+* **Narrator standard keyboard layout**: Narrator now ships with a new keyboard layout that is designed to be more familiar to screen reader users.
+* **Scan Mode**: Reading and navigating while in Scan Mode has been improved. Selecting text in Scan Mode has also been improved. 
+* **Stop on Controls in Scan Mode**: Scan mode is a Narrator feature that lets you use just a few keys to move around your screen. Scan mode is already on by default in Microsoft Edge and you can toggle it on and off by pressing **Caps lock + Spacebar**. While you’re in scan mode, you can press the Up and Down arrow keys to read different parts of the page. The press of a Down arrow in Scan Mode stops on interactive elements, so that they are easier to use. An example of this behavior is reading a paragraph with multiple links. Narrator will stop on these links when you press the Down arrow.
+* **Selection commands in scan mode**: Narrator’s scan mode now supports selecting content in Microsoft Edge, Word, Outlook, Mail, and most text surfaces. Standard shift- selection commands can be used as well as **Control + A** for the entire document. **Caps + Shift + Down Arrow** will speak the current selection. For a full list of selection commands, you can refer to Narrator’s **Show Commands List** by pressing **Caps + F1**. Once content is selected you can copy it to the clipboard by pressing Control + C. Formatting information will also be retained. Along with being able to select content in Narrator’s scan mode using Shift-selection commands, you can now also select a block of data by first moving to one end of the block and pressing F9, moving to the other end of the block and pressing F10. Once F10 is pressed the entire contents between the two points will be selected. 
+* **Narrator QuickStart**: When Narrator launches, a new QuickStart tutorial experience will be available. The Narrator QuickStart will help you get up and running quickly with Narrator. It teaches the basics of using Narrator, such as learning the keys on your keyboard, navigation, the most used commands etc. At the end of the QuickStart there is a link to the User Guide where you can continue learning about Narrator.
+* **Braille**: Improved use of Braille commands when using the Narrator key from the braille display. 
+* **Automatic Dialog Reading**: Narrator automatically reads the contents of a dialog box when brought to the foreground. Narrator speaks the title of the dialog, the focused element within the dialog and the static text at the top of the dialog. For example, if you try to close a document in Word with unsaved changes, Narrator will speak the title “Microsoft Word,” the focus “Save button” and the static text within the dialog. 
+* **Narrator Find**: You now have the ability to search for text using Narrator’s new Find feature. If the text is found Narrator will move to the found item. 
+* **List of Objects**: Narrator can present a list of links, headings or landmarks present in the application or content. You are also able to filter the results by typing in the list or the text field of the window. 
+* **Keyboard command changes**: The keystroke to move the caret to the beginning of text is now **Narrator + B** (formerly Narrator + Control + B), to move the caret to end of text is now **Narrator + E** (was Narrator + Control + E). 
+* **Move Next, Move Previous, and Change View**: When changing Narrator’s view to characters, words, lines, or paragraphs the **Read Current Item** command will read the text of that specific view type more reliably. 
+* **Providing Feedback**: The keystroke to provide feedback has changed. The new keystroke is **Narrator + Alt + F**. This will work both in the standard and legacy layouts. Note: The legacy layout also allows you to use **Narrator + E** to send us feedback. 
 
-For more information about Narrator new keyboard layout and other known issues, refer to [Intro to New Narrator Keyboard Layout doc](http://aka.ms/RS5NarratorKeyboard).
+
+For more information about Narrator new keyboard layout and other improvements, refer to the new [Narrator Keyboard Layout doc](http://aka.ms/RS5NarratorKeyboard).
 
 ## Time accuracy and traceability improvements
 
@@ -398,79 +401,6 @@ __Find software downloads faster in Search!__: Continuing our theme of improving
 
 ![GitHub search example](images/search.png "GitHub search example")
 
-## Sets
-Sets is designed to make sure that everything related to your task: relevant webpages, research documents, necessary files, and applications, is connected and available to you in one click. With Sets, first party experiences like Mail, Calendar, OneNote, MSN News, Windows, and Microsoft Edge become more integrated to create a seamless experience, so you can get back to what’s important and be productive, recapturing that moment, saving time – we believe that’s the true value of Sets. Here are some of the things you can do with sets.
-
-__Bring on the acrylic!__ We love fluent design as much as you do – Sets now have an acrylic title bar. We also adjusted the window border so that it’s now grey. 
-![fluent design with sets](images/fluent.png "fluent design with sets")
-
-__Recent Microsoft Edge tabs now show in Alt + Tab__: Do you use Alt + Tab to switch back and forth between apps? All of your recent Microsoft Edge tabs will now be included, not just the active one. Prefer it the old way? Use the “Pressing Alt + Tab shows the recently used…” setting in Multitasking Settings. 
-
-__Should apps and websites open in a new window or a new tab? It’s up to you!__ The __Sets__ section of __Multitasking Settings__ now lets you set your windowing preference. If you choose __Window__, new windows won’t open into a new tab unless you explicitly click the + or drag with your mouse. Choosing __Tab__ opens any new windows invoked from your running apps into tabs. As a reminder, if you would like to exclude any particular app from __Sets__, you can do this from this same settings page. 
-
-__Want to mute one of your web tabs? You can now do that!__ When a webpage in Sets starts playing audio, you’ll now see a volume icon on the tab. Simply click it and the audio will mute, just like in Microsoft Edge. 
-
-__Tabs restore with better performance__ They’ll open in the background and use no resources until you go to the tab. This means you can restore a lot of tabs at once with no issues. 
-
-We’ve also made other fixes, changes, and improvements to Sets, including: 
-* Task Manager is in the list of apps where Sets are not enabled. 
-* We fixed an issue where right clicking a tab in the Sets title bar didn’t bring up a context menu. 
-* We fixed an issue where if Microsoft Edge wasn’t already open, clicking the plus button in Sets would open all of your default websites along with the new tab page. 
-
-__Drag and drop app tabs within and between Sets windows is now supported__: It works just like it sounds! You can now drag an app tab around within the Set or combine tabbed app windows into Sets.  
-
-<i>Note: If you open a Microsoft Edge tab outside of a Set, you can’t drag and drop it into a Sets window. Drag and drop for Microsoft Edge web tabs within Sets isn’t supported yet and you may experience a crash if this is attempted.</i>  
-
-__Tabs are now bubbled up in Alt + Tab__: Have Photos, Microsoft Edge, and OneNote tabbed together? You can now use Alt + Tab to switch between them.  
-
-<i>Note: If you have multiple Microsoft Edge windows in a Set, only the one most recently accessed will be visible in Alt + Tab.</i>
-
-__Support for desktop (Win32) apps__ Sets now supports File Explorer, Notepad, Command Prompt, and PowerShell. One of the top feature requests is tabs for File Explorer and with Sets you can get a tabbed File Explorer experience.
-
-__Launch apps from the new tab page__ by typing the app name into the search box.
-
-__UWP apps are launched in the same window__ replacing the new tab page.
-The tab UI in Sets now shows icons including website favicons and app icons.
-Resume your project with more control – when restoring your projects you’ll be prompted to restore related apps and webpages. In Timeline you’ll see when a project has multiple activities associated with it.
-
-__File Explorer & Sets Improvements__: We’ve heard your feedback – you’d like it to be easier to get two File Explorer windows grouped together. We added a new keyboard shortcut to open a new tab when a File Explorer window is in focus: Ctrl + T. Remember, you can use Ctrl + N to open a new window, and Ctrl + W to close the window/tab.
-
-__New UI for opening new tabs and windows__ in the File Menu.
-
-![tabs in file window](images/tabsinfilewindow.png "tabs in file window")
-
-__New UI__ for easily opening new tabs and windows in the File Menu.
-
-![tabs in file explorer](images/tabsinfilewindow.png "tabs in file explorer")
-
-__New context menu options for tabs in Sets__: If you right-click on a Sets tab, you’ll discover several options to leverage, including “close other tabs”, “move to new window”, and “close tabs to the right”.
-
-![new context menu](images/newcontextmenu.png "new context menu")
-
-__Improvements to previous tabs__: We’ve done a few things to improve the experience in this space, including:
-
-*__You can choose which previous tabs you want to restore__, in addition to being able to restore all tabs. 
-
-*__You can now restore previous tabs from any type of activity__, in addition to restoring tabs when the primary window is a document.
-
-![previous tabs](images/previoustabs.png "previous tabs")
-
-* When you open a document that previously had tabs, a prompt will appear offering to restore those tabs, and the previous tabs button will be in the filled state. For things that aren’t documents, a prompt will not automatically appear, but you’ll know that there are tabs available to restore because the previous tabs button will be in the filled state.
-
-* We added an animation to the experience when there are no previous tabs available to be restored.
-
-__Keyboard shortcuts__
-
-*__Ctrl + Win + Tab__ – switch to next tab.
-*__Ctrl + Win + Shift + Tab__ – switch to previous tab.
-*__Ctrl + Win + T__– open a new tab.
-*__Ctrl + Win + N__ - open a new window.
-*__Ctrl + Win + W__– close current tab or window.
-
-We’ve heard your feedback and have been hard at work updating the new tab page to make it more obvious you can launch apps. When you click the plus button in a Sets window, you will now see apps included in your frequent destinations list. You’ll also find that we’ve integrated the all apps list into this page so you can browse your apps, rather than just using the search box – apps that support Sets will launch into a tab when clicked. If you have __News Feed__ selected, simply click the __Apps__ link next to __News Feed__ to switch to the all apps list.
-
-![apps in a sets window](images/ntpnew.png "apps in a sets window")
-
 ## Settings
 
 We’ve heard your feedback that settings can be confusing sometimes, so we’re working with Bing to bubble up some of the most common questions we hear right into the Settings pages themselves. The FAQ’s are contextual in nature and aim to you to quickly get the answer you’re looking for to complete configuration tasks. It may even help you discover something you didn’t know was an option! Clicking on these questions will take you to Bing.com to display the answer.  
@@ -484,7 +414,7 @@ The new modern snipping experience is here to help you effortlessly capture and 
 
 ### Screen Sketch is now an app! 
 
-Originally introduced as part of the Windows Ink Workspace, this comes with a variety of benefits, including that it can now be updated via the Microsoft Store, it will now show up in the list when you press Alt + tab, you can set the window size to be your preference if you like multitasking, and it even supports multiple windows (and tabs, thanks to Sets!). 
+Originally introduced as part of the Windows Ink Workspace, this comes with a variety of benefits, including that it can now be updated via the Microsoft Store, it will now show up in the list when you press Alt + tab, you can set the window size to be your preference if you like multitasking, and it even supports multiple windows. 
 
 ### Easy snipping is only a single step away
 
