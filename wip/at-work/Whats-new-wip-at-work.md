@@ -8,7 +8,7 @@ ms.assetid:
 ms.service: WIP-at-work
 ms.tgt_pltfrm: na
 ms.devlang: na
-ms.date: 08/20/2018
+ms.date: 09/28/2018
 ms.author: dawn.wood
 ms.localizationpriority: medium
 ---
@@ -22,7 +22,7 @@ We also encourage you to visit the [Windows Server Insiders space](https://techc
 
 ## App Compatibility Feature on Demand (FoD) for Server Core
 
-This section last updated 08/27/2018
+This section last updated 09/28/2018
 
 App Compatibility, a Feature on Demand (FoD), has been updated with support for adding Internet Explorer 11. This FoD is a requirement for adding Internet Explorer 11.
 
@@ -57,34 +57,29 @@ __Note:__ These instructions correct previously published versions.
 To install Server Core with FoD binaries
 
 1. Download the FoD ISO, and copy the ISO to a shared folder on your local network.
-2. Download the ISO of the matching preview release of Windows Server, and install the operating system. Do not choose Desktop Experience options; the FoD is for Server Core only.
-3. Sign in as administrator on the newly installed preview release of Server Core.
-4. Use __net use__, or some other method, to connect to the location of the FoD ISO.
-5. Copy the FoD ISO to a local folder of your choosing.
-6. Start PowerShell by entering __powershell.exe__ at a command prompt.
-7. Mount the FoD ISO by using the following command:
+2. Sign in as Administrator on the Server Core computer that is connected to your local network and that you want to add the FOD to.
+3. Use __net use__, or some other method, to connect to the location of the FoD ISO.
+4. Copy the FoD ISO to a local folder of your choosing.
+5. Start PowerShell by entering __powershell.exe__ at a command prompt.
+6. Mount the FoD ISO by using the following command:
 ```Mount-DiskImage -ImagePath drive_letter:\folder_where_ISO_is_saved```
-8. Enter __exit__ to exit PowerShell.
-9. Enter the following command:
-```DISM /Online /Add-Capability /CapabilityName:ServerCore.Appcompatibility~~~~0.0.1.0 /Source:drive_letter_of_mounted_ISO: /LimitAccess ```
-10. After the progress bar completes, restart the operating system at the prompt.
+7. Enter __exit__ to exit PowerShell.
+8. Enter the following command:
+```DISM /Online /Add-Capability/CapabilityName:ServerCore.Appcompatibility~~~~0.0.1.0 /Source:drive_letter_of_mounted_ISO: /LimitAccess```
+9. After the progress bar completes, restart the operating system at the prompt.
 
 __Note__ This FoD is required for installation of Internet Explorer 11, but installing Internet Explorer 11 is optional
 
 To optionally install Internet Explorer 11
-1. Start PowerShell by entering __powershell.exe__ at a command prompt.
-2. Mount the FoD ISO by using the following command:
-```Mount-DiskImage -ImagePath drive_letter:\folder_where_ISO_is_saved.```
-3. Enter __exit__ to exit PowerShell.
-4. In a command window, change the default directory to drive letter of the mounted ISO. 
-5. Run the following command:
-```DISM /online /add-package:"Microsoft-Windows-InternetExplorer-Optional-Package~31bf3856ad364e35~amd64~~.cab"```
-6. Restart the computer.
-7. After logging in again, mount the FoD ISO again by repeating Step 1 through Step 3.
-8. In a command window, change the default directory to drive letter of the mounted ISO.
-9. Run the following command:
-```Dism /online /add-package:"Microsoft-Windows-InternetExplorer-Optional-Package~31bf3856ad364e35~amd64~en-US~.cab"```
-This instance of running DISM specifies a different package than the previous instance in this procedure.
+1. Sign in as Administrator on the Server Core computer that has the App Compatibility FOD already added and the Server FOD optional package ISO copied locally.
+2. Start PowerShell by entering powershell.exe at a command prompt.
+3. Mount the FoD ISO by using the following command:
+```Mount-DiskImage -ImagePath drive_letter:\folder_where_ISO_is_saved```
+4. Enter __exit__ to exit PowerShell.
+5. In a command window, change the default directory to drive letter of the mounted ISO. 
+6. Run the following command:
+```Dism /online /add-package:"Microsoft-Windows-InternetExplorer-Optional-Package~31bf3856ad364e35~amd64~~.cab"```
+7. Restart the computer.
 
 ## Clusters
 
