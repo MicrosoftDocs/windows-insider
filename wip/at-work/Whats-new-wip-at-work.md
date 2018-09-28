@@ -78,12 +78,12 @@ To optionally install Internet Explorer 11
 3. Enter __exit__ to exit PowerShell.
 4. In a command window, change the default directory to drive letter of the mounted ISO. 
 5. Run the following command:
-```DISM /online /add-package:"Microsoft-Windows-InternetExplorer-OptionalPackage~31bf3856ad364e35~amd64~~.cab"```
+```DISM /online /add-package:"Microsoft-Windows-InternetExplorer-Optional-Package~31bf3856ad364e35~amd64~~.cab"```
 6. Restart the computer.
 7. After logging in again, mount the FoD ISO again by repeating Step 1 through Step 3.
 8. In a command window, change the default directory to drive letter of the mounted ISO.
 9. Run the following command:
-```Dism /online /add-package:"DISM /online /add-package:"Microsoft-Windows-InternetExplorer-OptionalPackage~31bf3856ad364e35~amd64~en-US~.cab"```
+```Dism /online /add-package:"Microsoft-Windows-InternetExplorer-Optional-Package~31bf3856ad364e35~amd64~en-US~.cab"```
 This instance of running DISM specifies a different package than the previous instance in this procedure.
 
 ## Clusters
