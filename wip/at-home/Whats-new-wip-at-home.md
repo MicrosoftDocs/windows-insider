@@ -52,7 +52,7 @@ Our new settings page for enabling this experience is under __Settings > System 
 
 ![clipboard settings](images/clipboardsettings.png "clipboard settings")
 
-__Note:__ Roaming text on the clipboard is only supported for clipboard content less than 100kb. Currently, the clipboard history supports plain text, HTML and images less than 1MB. 
+__Note:__ Roaming text on the clipboard is only supported for clipboard content less than 100kb. Currently, the clipboard history supports plain text, HTML and images less than 4MB. 
 
 ## Cortana Show Me voice queries
  You can now launch the Cortana Show Me app through voice queries. Simply say to Cortana, “Show me how to change my background,” and you’ll get help content, with a new “Let’s go” button below, which launches the guided help experience. 
