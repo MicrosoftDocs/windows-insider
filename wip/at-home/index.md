@@ -2,7 +2,7 @@
 title: Windows Insider Program docs
 description: Windows Insider Program helps you install and use the latest builds. If you are an administrator, see Windows Insider Program for Server. 
 services: WIP-at-home
-author: dawn.wood
+author: dawnwood
 manager: elizapo
 layout: LandingPage
 ms.assetid: 
@@ -12,6 +12,7 @@ ms.devlang: na
 ms.topic: landing-page
 ms.date: 04/10/2018
 ms.author: dawn.wood
+ms.localizationpriority: medium
 ---
 # Windows Insider Program docs
 

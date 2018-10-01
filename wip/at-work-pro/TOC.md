@@ -6,6 +6,6 @@
 #### [Install Windows Insider Program for Business preview builds](wip-4-biz-install.md)
 ### [Manage Windows Insider Program for Business Preview builds](wip-4-biz-manage-builds.md)
 ### [Share Feedback Via the Feedback Hub](wip-4-biz-feedback-hub.md)
-## [Windows readiness levels and flight rings](wip-4-biz-flight-levels-and-rings.md)
-## [Windows Insider Program troubleshooting](wip-4-biz-troubleshooting.md)
+### [Windows readiness levels and flight rings](wip-4-biz-flight-levels-and-rings.md)
+### [Windows Insider Program troubleshooting](wip-4-biz-troubleshooting.md)
 
