@@ -16,26 +16,6 @@ ms.localizationpriority: medium
 #  What's new in the Windows 10 Insider preview builds (RS5)
 The [Windows Insider Program](https://insider.windows.com/en-us/) lets you preview builds of the upcoming release of Windows 10. This topic lists all new Windows 10 features for you to try. Unlike the [Windows Insider Program Blog](https://blogs.windows.com/windowsexperience/tag/windows-insider-program), this topic is organized by feature instead of by the build number so that you can see all items about a specific feature listed together.
 
-## Acrylic improvements
-
-### Acrylic in task view 
-The entire task view background now has a soft blur effect.
-
-![acrylic task view](images/taskview-acrylic.png "acrylic task view")
-
-### Acrylic comes to menus and more!
-Our acrylic material is being used by default in XAML controls and on transient XAML surfaces like flyouts. The new acrylic material is now applied to:
-* Context menus
-* Flyouts
-* Auto-suggest drop down list boxes
-* combo box drop down list boxes
-* date and time picker flyouts
-* media transport control flyouts and overflows
-
-You will notice new acrylic backgrounds in places on the system using these controls – for example when you right-click open apps in task view. Apps using the SDK for Windows 10, version 1809 or higher will see this change by default as well.
-
-![acrylic settings](images/acrylic.png "acrylic settings")
-
 ## Bluetooth battery percentage in settings
 In the __Bluetooth & other devices__ page in Settings, you can check the battery level of your Bluetooth devices for Bluetooth devices that support this feature, in which case the battery percentage will update whenever your PC and the device are connected.
 
@@ -61,18 +41,18 @@ __Note:__ Roaming text on the clipboard is only supported for clipboard content 
 
  Here are some voice queries to try:
 
-*__Update Windows__– Try, “Update my Windows device”
-*__Check if an app is installed__ – Try, “How to see what apps are installed”
-*__Uninstall an app__ – Try “How to uninstall apps”
-*__Change your desktop background__– Try, “Show me how to change my background”
-*__Use Airplane Mode__ – Try, “How do I turn on airplane mode”
-*__Change your display brightness__ – Try, “Show me how to change my screen brightness”
-*__Add nearby printers or scanners__ – Try, “How to add a printer”
-*__Turn off Windows Defender Security Center__ – Try, “Show me how to turn off Windows Defender Security Center”
-*__Change Wi-Fi settings__ – Try, “Show me how to change Wi-Fi network”
-*__Change your power settings__ – Try, “How to change when my computer goes to sleep”
-*__Discover Bluetooth devices__ – Try, “Show me how to discover devices”
-*__Check your version of Windows__ – Try, “How do I find my current version of Windows”
+* __Update Windows__– Try, “Update my Windows device”
+* __Check if an app is installed__ – Try, “How to see what apps are installed”
+* __Uninstall an app__ – Try “How to uninstall apps”
+* __Change your desktop background__– Try, “Show me how to change my background”
+* __Use Airplane Mode__ – Try, “How do I turn on airplane mode”
+* __Change your display brightness__ – Try, “Show me how to change my screen brightness”
+* __Add nearby printers or scanners__ – Try, “How to add a printer”
+* __Turn off Windows Defender Security Center__ – Try, “Show me how to turn off Windows Defender Security Center”
+* __Change Wi-Fi settings__ – Try, “Show me how to change Wi-Fi network”
+* __Change your power settings__ – Try, “How to change when my computer goes to sleep”
+* __Discover Bluetooth devices__ – Try, “Show me how to discover devices”
+* __Check your version of Windows__ – Try, “How do I find my current version of Windows”
 
 ## Ease of access improvements
 **Make text bigger**: We’ve heard your feedback and are excited to announce that the ability to increase text size across the system is back and better than ever! When you go to **Settings > Ease of Access > Display**, you’ll find a new setting called “Make text bigger” – this slider will adjust text across the system, win32 apps, and UWP apps.
@@ -162,8 +142,7 @@ Now focus assist will turn on automatically when you’re playing any full scree
 ![sound settings](images/speakers2.png "sound settings")
 
 ## Game bar improvements
-*__Audio controls__: Change your default audio output device and mute or adjust the volume of games and apps running.
-*__Performance visualizations__: See your game’s framerate (FPS), CPU usage, GPU VRAM usage, and system RAM usage.
+__Audio controls__: Change your default audio output device and mute or adjust the volume of games and apps running.
 
 ![game bar](images/New-Game-bar.png "game bar")
 
@@ -261,11 +240,11 @@ For more information about Narrator new keyboard layout and other improvements, 
 
 ## Time accuracy and traceability improvements
 
-*__Leap second support:__ Windows supports these occasional 1-second adjustments in a traceable and UTC-compliant manner. What’s a leap second? As the earth’s rotation slows, [UTC](https://en.wikipedia.org/wiki/Coordinated_Universal_Time) (an atomic timescale) diverges from [mean solar time](https://en.wikipedia.org/wiki/Solar_time#Mean_solar_time) or astronomical time.  Once UTC has diverged by at most .9 seconds, a [leap second](https://en.wikipedia.org/wiki/Leap_second) is inserted to keep UTC in-sync with mean solar time.  Since the practice of inserting leap seconds began in 1972, a leap second has typically occurred every 18 months.
+__Leap second support:__ Windows supports these occasional 1-second adjustments in a traceable and UTC-compliant manner. What’s a leap second? As the earth’s rotation slows, [UTC](https://en.wikipedia.org/wiki/Coordinated_Universal_Time) (an atomic timescale) diverges from [mean solar time](https://en.wikipedia.org/wiki/Solar_time#Mean_solar_time) or astronomical time.  Once UTC has diverged by at most .9 seconds, a [leap second](https://en.wikipedia.org/wiki/Leap_second) is inserted to keep UTC in-sync with mean solar time.  Since the practice of inserting leap seconds began in 1972, a leap second has typically occurred every 18 months.
 
-*__Precision Time Protocol:__ For the highest accuracy environments, you can improve your time accuracy by leveraging a new time protocol that delivers more accurate time samples to the endpoint (Windows Server 2019 or Windows 10, host or virtual machine).
+__Precision Time Protocol:__ For the highest accuracy environments, you can improve your time accuracy by leveraging a new time protocol that delivers more accurate time samples to the endpoint (Windows Server 2019 or Windows 10, host or virtual machine).
 
-*__Software Timestamping:__ You can now further improve your network time accuracy by eliminating the software delay introduced by the Windows networking stack.
+__Software Timestamping:__ You can now further improve your network time accuracy by eliminating the software delay introduced by the Windows networking stack.
 
 For more details about these new improvements, please see our announcement [here](https://blogs.technet.microsoft.com/networking/2018/07/18/top10-ws2019-hatime/).
 
@@ -347,13 +326,13 @@ As many of you know, we added dark theme support to Windows based on your feedba
 
 ## Microsoft Pinyin and Wubi IMEs
 
-*__We updated the Microsoft Pinyin IME__. We’ve been focusing on addressing your performance, reliability and compatibility feedback. You'll also notice a number of other improvements, including design improvements, a new logo for the Microsoft Pinyin IME, new IME toolbar, and dark theme support!
+__We updated the Microsoft Pinyin IME__. We’ve been focusing on addressing your performance, reliability and compatibility feedback. You'll also notice a number of other improvements, including design improvements, a new logo for the Microsoft Pinyin IME, new IME toolbar, and dark theme support!
 
     ![new look for imes](images/imeupdate.png "new look for imes")
 
-*__We updated the context menu__. We’ve added options to the IME mode indicator’s context menu in the taskbar, so you can quickly access the things you need.
+__We updated the context menu__. We’ve added options to the IME mode indicator’s context menu in the taskbar, so you can quickly access the things you need.
 
-*__The IME now uses the same UX for expressive input as other languages__. You can bring it up by clicking the emoji button in the IME toolbar, or use the Emoji Panel hotkeys (WIN + period (.) or WIN + semicolon (;)). You can browse between Emoji, Kaomoji, and Symbol input when Chinese (Simplified) is the active locale.
+__The IME now uses the same UX for expressive input as other languages__. You can bring it up by clicking the emoji button in the IME toolbar, or use the Emoji Panel hotkeys (WIN + period (.) or WIN + semicolon (;)). You can browse between Emoji, Kaomoji, and Symbol input when Chinese (Simplified) is the active locale.
 
 ![ime emojis](images/imeemoji.png "ime emojis")
 
@@ -410,9 +389,9 @@ We’ve heard your feedback that settings can be confusing sometimes, so we’re
 ## Snipping experience 
 The new modern snipping experience is here to help you effortlessly capture and annotate what you see on your screen. While working on this we’ve been carefully going over all your feedback about taking screenshots in Windows - you’ll find the flow and tools are optimized for sharing and make communicating visually with others quick and easy.
 
-![screen sketch](images/screen-sketch1.png "screen sketch")
+![screen sketch](images/screen-sketch1.png "Snip & Sketch")
 
-### Screen Sketch is now an app! 
+### Snip & Sketch is now an app! 
 
 Originally introduced as part of the Windows Ink Workspace, this comes with a variety of benefits, including that it can now be updated via the Microsoft Store, it will now show up in the list when you press Alt + tab, you can set the window size to be your preference if you like multitasking, and it even supports multiple windows. 
 
@@ -420,16 +399,16 @@ Originally introduced as part of the Windows Ink Workspace, this comes with a va
 
 WIN + Shift + S will now bring up a snipping toolbar – snip a rectangle, something a bit more freeform, or full screen and it will go straight to your clipboard. Immediately after taking a snip you’ll now get a notification that will take you and your snip to the Screen Sketch app where you can annotate and share.
 
-![screen sketch](images/screen-sketch2.png "screen sketch")
+![screen sketch](images/screen-sketch2.png "Snip & Sketch")
 
 Is the WIN + Shift + S keyboard shortcut too long to remember? Guess what! We’ve added easy entry options for every input modality: 
-*__Just click the pen tail button__. If you have a pen, go into __Pen & Windows Ink Settings__ – you’ll find Screen Snipping is now an option for single click. This will launch you directly into our snipping experience:
+__Just click the pen tail button__. If you have a pen, go into __Pen & Windows Ink Settings__ – you’ll find Screen Snipping is now an option for single click. This will launch you directly into our snipping experience:
 
 ![pen settings](images/pensettingsinked.png "pen settings")
 
-*__Press Print Screen__. You heard it right, just one button! It’s not enabled by default – go to Keyboard Settings – you’ll see a new option that says __Use the Print Screen key to launch screen snipping__. Opening Settings and searching for __print screen__ will take you to the right page.
+__Press Print Screen__. You heard it right, just one button! It’s not enabled by default – go to Keyboard Settings – you’ll see a new option that says __Use the Print Screen key to launch screen snipping__. Opening Settings and searching for __print screen__ will take you to the right page.
 
-*__Press the quick action button in Action Center__. Called __Screen snip__ – it should be there as soon as you upgrade, but if not you can always enable it via Notifications & Actions Settings.
+__Press the quick action button in Action Center__. Called __Screen snip__ – it should be there as soon as you upgrade, but if not you can always enable it via Notifications & Actions Settings.
 
 ## Start tile folder naming 
 To create a tile folder in Start, just drag one tile on top of another for a second then release. Continue dropping as many tiles into the folder as you’d like. When you expand the folder, you’ll see a new option to name it. The name will be visible when the folder is medium, wide, or large-sized. 
