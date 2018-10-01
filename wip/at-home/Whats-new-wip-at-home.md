@@ -129,7 +129,7 @@ We’ve also updated WebDriver to match the latest [W3C Recommendation spec](htt
 
 ### Web authentication preview
 Web Authentication provides an open, scalable, and interoperable solution to facilitate authentication, which replaces passwords with stronger hardware-bound credentials. The implementation in Microsoft Edge allows users to use Windows Hello (via PIN or biometrics) and external authenticators like FIDO2 Security Keys or FIDO U2F Security Keys, to securely authenticate to websites. 
- 
+
 
 ## External GPU safe removal experience
 We added a safe removal experience for external GPUs connected via Thunderbolt 3. The safe remove experience allows you to know which applications are running on an external GPU so that you can safely remove it and prevent data loss during detach.
@@ -138,8 +138,6 @@ To safely remove an external graphics card, go to the __Safely Remove Hardware a
 
 ## Focus assist improvements when gaming 
 Now focus assist will turn on automatically when you’re playing any full screen game. No more interruptions when you’re crushing it. This behavior should be turned on automatically, but you can always check by going to __Settings > System > Focus assist__ and ensuring the __When I’m playing a game__ automatic rule is enabled. For more information, see [Windows 10 Tip: How to enable Focus Assist in the Windows 10 April 2018 Update](https://blogs.windows.com/windowsexperience/2018/05/09/windows-10-tip-how-to-enable-focus-assist-in-the-windows-10-april-2018-update/).
-
-![sound settings](images/speakers2.png "sound settings")
 
 ## Game bar improvements
 __Audio controls__: Change your default audio output device and mute or adjust the volume of games and apps running.
@@ -323,6 +321,8 @@ For more details, check out [Introducing extended line endings support in Notepa
 ## Dark theme comes to File Explorer (and more!) 
 
 As many of you know, we added dark theme support to Windows based on your feedback. This setting is available under __Settings > Personalization > Colors__, and if you switch it any apps and system UI that support it will follow suit. Since releasing this feature, our top feedback request from you has been to update File Explorer to support dark theme. Along the way, we also added dark theme support to the File Explorer context menu, as well as the Common File Dialog (aka the Open and Save dialogs). Thanks again for everyone’s feedback!
+
+![Dark File Explorer](images/FileExplorerDarkTheme.png "Dark File Explorer")
 
 ## Microsoft Pinyin and Wubi IMEs
 
