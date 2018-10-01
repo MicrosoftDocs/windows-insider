@@ -55,12 +55,12 @@ __Note:__ Roaming text on the clipboard is only supported for clipboard content 
 * __Check your version of Windows__ – Try, “How do I find my current version of Windows”
 
 ## Ease of access improvements
-**Make text bigger**: We’ve heard your feedback and are excited to announce that the ability to increase text size across the system is back and better than ever! When you go to **Settings > Ease of Access > Display**, you’ll find a new setting called “Make text bigger” – this slider will adjust text across the system, win32 apps, and UWP apps.
+__Make text bigger__: We’ve heard your feedback and are excited to announce that the ability to increase text size across the system is back and better than ever! When you go to __Settings > Ease of Access > Display__, you’ll find a new setting called “Make text bigger” – this slider will adjust text across the system, win32 apps, and UWP apps.
 That means you can now make text bigger in Start, File Explorer, Settings, etc., without having to change the overall scaling of your system.
 
 ![Make text bigger option in the Ease of Access Display settings](images/bigger-text.png "Make text bigger option in the Ease of Access Display settings")
 
-**Choose where to keep the Magnifier mouse cursor**: We’ve heard your feedback asking us for a way to keep your mouse centered on the screen in Full-Screen mode, in the Windows 10 October 2018 Update we’re making it happen! This new option under Settings > Ease of Access > Magnifier > “Keep the mouse cursor” > “Centered on the screen” enables easier tracking and use of the mouse, especially helpful at higher magnification levels.
+__Choose where to keep the Magnifier mouse cursor__: We’ve heard your feedback asking us for a way to keep your mouse centered on the screen in Full-Screen mode, in the Windows 10 October 2018 Update we’re making it happen! This new option under Settings > Ease of Access > Magnifier > “Keep the mouse cursor” > “Centered on the screen” enables easier tracking and use of the mouse, especially helpful at higher magnification levels.
 
 ![Magnifier settings, Keep the mouse cursor, centered on the screen option](images/CenterOnTheScreen.png "Magnifier settings, Keep the mouse cursor, centered on the screen option")
 
@@ -206,7 +206,7 @@ For more information on how the features in Windows Server 2019 and Windows 10 b
 We are adding support for IPv6 to KDNET. To make room for the larger headers required for IPv6, we decreased the payload size of packets. As a result, we’re declaring a new version of the protocol, so that host PCs running the latest version of the debugger can be used to debug target PCs that only support IPv4. There is a version of WinDbg Preview available at [http://aka.ms/windbgpreview](http://aka.ms/windbgpreview). Follow the [Debugging Tools for Windows](http://aka.ms/windbgblog) blog for updates on KDNET IPv6 support and documentation. 
 
 ## Local experience packs
-Local Experience Packs are Microsoft Store apps that deliver Windows display language quality improvements. You can now access them easily via the Settings App. Please go to Settings App – Time & Language – Language. Once here click on <i>Add a Windows display language with Local Experience Packs</i> link to download a Local Experience Pack from the Microsoft Store and start enjoying Windows in your preferred language.
+Local Experience Packs are Microsoft Store apps that deliver Windows display language quality improvements. You can now access them easily via the Settings App. Please go to Settings App – Time & Language – Language. Once here click on _Add a Windows display language with Local Experience Packs_ link to download a Local Experience Pack from the Microsoft Store and start enjoying Windows in your preferred language.
 
 ![local experience packs](images/Get-LXP-from-Store.png "local experience packs")
 
@@ -221,19 +221,19 @@ We have introduced a new __Region__ page that allows overrides to default region
 
 ## Narrator improvements 
 
-* **Reliability**: We have made improvements in Narrator reliability. 
-* **Narrator standard keyboard layout**: Narrator now ships with a new keyboard layout that is designed to be more familiar to screen reader users.
-* **Scan Mode**: Reading and navigating while in Scan Mode has been improved. Selecting text in Scan Mode has also been improved. 
-* **Stop on Controls in Scan Mode**: Scan mode is a Narrator feature that lets you use just a few keys to move around your screen. Scan mode is already on by default in Microsoft Edge and you can toggle it on and off by pressing **Caps lock + Spacebar**. While you’re in scan mode, you can press the Up and Down arrow keys to read different parts of the page. The press of a Down arrow in Scan Mode stops on interactive elements, so that they are easier to use. An example of this behavior is reading a paragraph with multiple links. Narrator will stop on these links when you press the Down arrow.
-* **Selection commands in scan mode**: Narrator’s scan mode now supports selecting content in Microsoft Edge, Word, Outlook, Mail, and most text surfaces. Standard shift- selection commands can be used as well as **Control + A** for the entire document. **Caps + Shift + Down Arrow** will speak the current selection. For a full list of selection commands, you can refer to Narrator’s **Show Commands List** by pressing **Caps + F1**. Once content is selected you can copy it to the clipboard by pressing Control + C. Formatting information will also be retained. Along with being able to select content in Narrator’s scan mode using Shift-selection commands, you can now also select a block of data by first moving to one end of the block and pressing F9, moving to the other end of the block and pressing F10. Once F10 is pressed the entire contents between the two points will be selected. 
-* **Narrator QuickStart**: When Narrator launches, a new QuickStart tutorial experience will be available. The Narrator QuickStart will help you get up and running quickly with Narrator. It teaches the basics of using Narrator, such as learning the keys on your keyboard, navigation, the most used commands etc. At the end of the QuickStart there is a link to the User Guide where you can continue learning about Narrator.
-* **Braille**: Improved use of Braille commands when using the Narrator key from the braille display. 
-* **Automatic Dialog Reading**: Narrator automatically reads the contents of a dialog box when brought to the foreground. Narrator speaks the title of the dialog, the focused element within the dialog and the static text at the top of the dialog. For example, if you try to close a document in Word with unsaved changes, Narrator will speak the title “Microsoft Word,” the focus “Save button” and the static text within the dialog. 
-* **Narrator Find**: You now have the ability to search for text using Narrator’s new Find feature. If the text is found Narrator will move to the found item. 
-* **List of Objects**: Narrator can present a list of links, headings or landmarks present in the application or content. You are also able to filter the results by typing in the list or the text field of the window. 
-* **Keyboard command changes**: The keystroke to move the caret to the beginning of text is now **Narrator + B** (formerly Narrator + Control + B), to move the caret to end of text is now **Narrator + E** (was Narrator + Control + E). 
-* **Move Next, Move Previous, and Change View**: When changing Narrator’s view to characters, words, lines, or paragraphs the **Read Current Item** command will read the text of that specific view type more reliably. 
-* **Providing Feedback**: The keystroke to provide feedback has changed. The new keystroke is **Narrator + Alt + F**. This will work both in the standard and legacy layouts. Note: The legacy layout also allows you to use **Narrator + E** to send us feedback. 
+* __Reliability__: We have made improvements in Narrator reliability. 
+* __Narrator standard keyboard layout__: Narrator now ships with a new keyboard layout that is designed to be more familiar to screen reader users.
+* __Scan Mode__: Reading and navigating while in Scan Mode has been improved. Selecting text in Scan Mode has also been improved. 
+* __Stop on Controls in Scan Mode__: Scan mode is a Narrator feature that lets you use just a few keys to move around your screen. Scan mode is already on by default in Microsoft Edge and you can toggle it on and off by pressing __Caps lock + Spacebar__. While you’re in scan mode, you can press the Up and Down arrow keys to read different parts of the page. The press of a Down arrow in Scan Mode stops on interactive elements, so that they are easier to use. An example of this behavior is reading a paragraph with multiple links. Narrator will stop on these links when you press the Down arrow.
+* __Selection commands in scan mode__: Narrator’s scan mode now supports selecting content in Microsoft Edge, Word, Outlook, Mail, and most text surfaces. Standard shift- selection commands can be used as well as __Control + A__ for the entire document. __Caps + Shift + Down Arrow__ will speak the current selection. For a full list of selection commands, you can refer to Narrator’s __Show Commands List__ by pressing __Caps + F1__. Once content is selected you can copy it to the clipboard by pressing Control + C. Formatting information will also be retained. Along with being able to select content in Narrator’s scan mode using Shift-selection commands, you can now also select a block of data by first moving to one end of the block and pressing F9, moving to the other end of the block and pressing F10. Once F10 is pressed the entire contents between the two points will be selected. 
+* __Narrator QuickStart__: When Narrator launches, a new QuickStart tutorial experience will be available. The Narrator QuickStart will help you get up and running quickly with Narrator. It teaches the basics of using Narrator, such as learning the keys on your keyboard, navigation, the most used commands etc. At the end of the QuickStart there is a link to the User Guide where you can continue learning about Narrator.
+* __Braille__: Improved use of Braille commands when using the Narrator key from the braille display. 
+* __Automatic Dialog Reading__: Narrator automatically reads the contents of a dialog box when brought to the foreground. Narrator speaks the title of the dialog, the focused element within the dialog and the static text at the top of the dialog. For example, if you try to close a document in Word with unsaved changes, Narrator will speak the title “Microsoft Word,” the focus “Save button” and the static text within the dialog. 
+* __Narrator Find__: You now have the ability to search for text using Narrator’s new Find feature. If the text is found Narrator will move to the found item. 
+* __List of Objects__: Narrator can present a list of links, headings or landmarks present in the application or content. You are also able to filter the results by typing in the list or the text field of the window. 
+* __Keyboard command changes__: The keystroke to move the caret to the beginning of text is now __Narrator + B__ (formerly Narrator + Control + B), to move the caret to end of text is now __Narrator + E__ (was Narrator + Control + E). 
+* __Move Next, Move Previous, and Change View__: When changing Narrator’s view to characters, words, lines, or paragraphs the __Read Current Item__ command will read the text of that specific view type more reliably. 
+* __Providing Feedback__: The keystroke to provide feedback has changed. The new keystroke is __Narrator + Alt + F__. This will work both in the standard and legacy layouts. Note: The legacy layout also allows you to use __Narrator + E__ to send us feedback. 
 
 
 For more information about Narrator new keyboard layout and other improvements, refer to the new [Narrator Keyboard Layout doc](http://aka.ms/RS5NarratorKeyboard).
@@ -446,7 +446,7 @@ __Performance improvements__: The teams at Microsoft are constantly working to i
 
 __Download files to the host__: One of the items our users voiced was an inability to “download files from within WDAG” to the host. This created an inconsistent experience for Microsoft Edge overall as downloaded files were stuck inside the container. In this release, users can turn on a feature to download files from their WDAG browsing session onto the host file system. This feature is available in the Windows 10 Enterprise edition and is not turned on by default. Once the feature is enabled, users will be able to download files into a folder created in their Downloads folder and open all files on the host.
 
-<i>How to enable and configure the Download to host feature</i>:
+_How to enable and configure the Download to host feature_:
 
 __Requirements:__
 * Latest Windows 10 Enterprise, version 1803 builds
