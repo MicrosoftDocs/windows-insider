@@ -16,26 +16,6 @@ ms.localizationpriority: medium
 #  What's new in the Windows 10 Insider preview builds (RS5)
 The [Windows Insider Program](https://insider.windows.com/en-us/) lets you preview builds of the upcoming release of Windows 10. This topic lists all new Windows 10 features for you to try. Unlike the [Windows Insider Program Blog](https://blogs.windows.com/windowsexperience/tag/windows-insider-program), this topic is organized by feature instead of by the build number so that you can see all items about a specific feature listed together.
 
-## Acrylic improvements
-
-### Acrylic in task view 
-The entire task view background now has a soft blur effect.
-
-![acrylic task view](images/taskview-acrylic.png "acrylic task view")
-
-### Acrylic comes to menus and more!
-Our acrylic material is being used by default in XAML controls and on transient XAML surfaces like flyouts. The new acrylic material is now applied to:
-* Context menus
-* Flyouts
-* Auto-suggest drop down list boxes
-* combo box drop down list boxes
-* date and time picker flyouts
-* media transport control flyouts and overflows
-
-You will notice new acrylic backgrounds in places on the system using these controls – for example when you right-click open apps in task view. Apps using the SDK for Windows 10, version 1809 or higher will see this change by default as well.
-
-![acrylic settings](images/acrylic.png "acrylic settings")
-
 ## Bluetooth battery percentage in settings
 In the __Bluetooth & other devices__ page in Settings, you can check the battery level of your Bluetooth devices for Bluetooth devices that support this feature, in which case the battery percentage will update whenever your PC and the device are connected.
 
@@ -61,26 +41,26 @@ __Note:__ Roaming text on the clipboard is only supported for clipboard content 
 
  Here are some voice queries to try:
 
-*__Update Windows__– Try, “Update my Windows device”
-*__Check if an app is installed__ – Try, “How to see what apps are installed”
-*__Uninstall an app__ – Try “How to uninstall apps”
-*__Change your desktop background__– Try, “Show me how to change my background”
-*__Use Airplane Mode__ – Try, “How do I turn on airplane mode”
-*__Change your display brightness__ – Try, “Show me how to change my screen brightness”
-*__Add nearby printers or scanners__ – Try, “How to add a printer”
-*__Turn off Windows Defender Security Center__ – Try, “Show me how to turn off Windows Defender Security Center”
-*__Change Wi-Fi settings__ – Try, “Show me how to change Wi-Fi network”
-*__Change your power settings__ – Try, “How to change when my computer goes to sleep”
-*__Discover Bluetooth devices__ – Try, “Show me how to discover devices”
-*__Check your version of Windows__ – Try, “How do I find my current version of Windows”
+* __Update Windows__– Try, “Update my Windows device”
+* __Check if an app is installed__ – Try, “How to see what apps are installed”
+* __Uninstall an app__ – Try “How to uninstall apps”
+* __Change your desktop background__– Try, “Show me how to change my background”
+* __Use Airplane Mode__ – Try, “How do I turn on airplane mode”
+* __Change your display brightness__ – Try, “Show me how to change my screen brightness”
+* __Add nearby printers or scanners__ – Try, “How to add a printer”
+* __Turn off Windows Defender Security Center__ – Try, “Show me how to turn off Windows Defender Security Center”
+* __Change Wi-Fi settings__ – Try, “Show me how to change Wi-Fi network”
+* __Change your power settings__ – Try, “How to change when my computer goes to sleep”
+* __Discover Bluetooth devices__ – Try, “Show me how to discover devices”
+* __Check your version of Windows__ – Try, “How do I find my current version of Windows”
 
 ## Ease of access improvements
-**Make text bigger**: We’ve heard your feedback and are excited to announce that the ability to increase text size across the system is back and better than ever! When you go to **Settings > Ease of Access > Display**, you’ll find a new setting called “Make text bigger” – this slider will adjust text across the system, win32 apps, and UWP apps.
+__Make text bigger__: We’ve heard your feedback and are excited to announce that the ability to increase text size across the system is back and better than ever! When you go to __Settings > Ease of Access > Display__, you’ll find a new setting called “Make text bigger” – this slider will adjust text across the system, win32 apps, and UWP apps.
 That means you can now make text bigger in Start, File Explorer, Settings, etc., without having to change the overall scaling of your system.
 
 ![Make text bigger option in the Ease of Access Display settings](images/bigger-text.png "Make text bigger option in the Ease of Access Display settings")
 
-**Choose where to keep the Magnifier mouse cursor**: We’ve heard your feedback asking us for a way to keep your mouse centered on the screen in Full-Screen mode, in the Windows 10 October 2018 Update we’re making it happen! This new option under Settings > Ease of Access > Magnifier > “Keep the mouse cursor” > “Centered on the screen” enables easier tracking and use of the mouse, especially helpful at higher magnification levels.
+__Choose where to keep the Magnifier mouse cursor__: We’ve heard your feedback asking us for a way to keep your mouse centered on the screen in Full-Screen mode, in the Windows 10 October 2018 Update we’re making it happen! This new option under Settings > Ease of Access > Magnifier > “Keep the mouse cursor” > “Centered on the screen” enables easier tracking and use of the mouse, especially helpful at higher magnification levels.
 
 ![Magnifier settings, Keep the mouse cursor, centered on the screen option](images/CenterOnTheScreen.png "Magnifier settings, Keep the mouse cursor, centered on the screen option")
 
@@ -149,7 +129,7 @@ We’ve also updated WebDriver to match the latest [W3C Recommendation spec](htt
 
 ### Web authentication preview
 Web Authentication provides an open, scalable, and interoperable solution to facilitate authentication, which replaces passwords with stronger hardware-bound credentials. The implementation in Microsoft Edge allows users to use Windows Hello (via PIN or biometrics) and external authenticators like FIDO2 Security Keys or FIDO U2F Security Keys, to securely authenticate to websites. 
- 
+
 
 ## External GPU safe removal experience
 We added a safe removal experience for external GPUs connected via Thunderbolt 3. The safe remove experience allows you to know which applications are running on an external GPU so that you can safely remove it and prevent data loss during detach.
@@ -159,11 +139,8 @@ To safely remove an external graphics card, go to the __Safely Remove Hardware a
 ## Focus assist improvements when gaming 
 Now focus assist will turn on automatically when you’re playing any full screen game. No more interruptions when you’re crushing it. This behavior should be turned on automatically, but you can always check by going to __Settings > System > Focus assist__ and ensuring the __When I’m playing a game__ automatic rule is enabled. For more information, see [Windows 10 Tip: How to enable Focus Assist in the Windows 10 April 2018 Update](https://blogs.windows.com/windowsexperience/2018/05/09/windows-10-tip-how-to-enable-focus-assist-in-the-windows-10-april-2018-update/).
 
-![sound settings](images/speakers2.png "sound settings")
-
 ## Game bar improvements
-*__Audio controls__: Change your default audio output device and mute or adjust the volume of games and apps running.
-*__Performance visualizations__: See your game’s framerate (FPS), CPU usage, GPU VRAM usage, and system RAM usage.
+__Audio controls__: Change your default audio output device and mute or adjust the volume of games and apps running.
 
 ![game bar](images/New-Game-bar.png "game bar")
 
@@ -227,7 +204,7 @@ For more information on how the features in Windows Server 2019 and Windows 10 b
 We are adding support for IPv6 to KDNET. To make room for the larger headers required for IPv6, we decreased the payload size of packets. As a result, we’re declaring a new version of the protocol, so that host PCs running the latest version of the debugger can be used to debug target PCs that only support IPv4. There is a version of WinDbg Preview available at [http://aka.ms/windbgpreview](http://aka.ms/windbgpreview). Follow the [Debugging Tools for Windows](http://aka.ms/windbgblog) blog for updates on KDNET IPv6 support and documentation. 
 
 ## Local experience packs
-Local Experience Packs are Microsoft Store apps that deliver Windows display language quality improvements. You can now access them easily via the Settings App. Please go to Settings App – Time & Language – Language. Once here click on <i>Add a Windows display language with Local Experience Packs</i> link to download a Local Experience Pack from the Microsoft Store and start enjoying Windows in your preferred language.
+Local Experience Packs are Microsoft Store apps that deliver Windows display language quality improvements. You can now access them easily via the Settings App. Please go to Settings App – Time & Language – Language. Once here click on _Add a Windows display language with Local Experience Packs_ link to download a Local Experience Pack from the Microsoft Store and start enjoying Windows in your preferred language.
 
 ![local experience packs](images/Get-LXP-from-Store.png "local experience packs")
 
@@ -242,30 +219,30 @@ We have introduced a new __Region__ page that allows overrides to default region
 
 ## Narrator improvements 
 
-* **Reliability**: We have made improvements in Narrator reliability. 
-* **Narrator standard keyboard layout**: Narrator now ships with a new keyboard layout that is designed to be more familiar to screen reader users.
-* **Scan Mode**: Reading and navigating while in Scan Mode has been improved. Selecting text in Scan Mode has also been improved. 
-* **Stop on Controls in Scan Mode**: Scan mode is a Narrator feature that lets you use just a few keys to move around your screen. Scan mode is already on by default in Microsoft Edge and you can toggle it on and off by pressing **Caps lock + Spacebar**. While you’re in scan mode, you can press the Up and Down arrow keys to read different parts of the page. The press of a Down arrow in Scan Mode stops on interactive elements, so that they are easier to use. An example of this behavior is reading a paragraph with multiple links. Narrator will stop on these links when you press the Down arrow.
-* **Selection commands in scan mode**: Narrator’s scan mode now supports selecting content in Microsoft Edge, Word, Outlook, Mail, and most text surfaces. Standard shift- selection commands can be used as well as **Control + A** for the entire document. **Caps + Shift + Down Arrow** will speak the current selection. For a full list of selection commands, you can refer to Narrator’s **Show Commands List** by pressing **Caps + F1**. Once content is selected you can copy it to the clipboard by pressing Control + C. Formatting information will also be retained. Along with being able to select content in Narrator’s scan mode using Shift-selection commands, you can now also select a block of data by first moving to one end of the block and pressing F9, moving to the other end of the block and pressing F10. Once F10 is pressed the entire contents between the two points will be selected. 
-* **Narrator QuickStart**: When Narrator launches, a new QuickStart tutorial experience will be available. The Narrator QuickStart will help you get up and running quickly with Narrator. It teaches the basics of using Narrator, such as learning the keys on your keyboard, navigation, the most used commands etc. At the end of the QuickStart there is a link to the User Guide where you can continue learning about Narrator.
-* **Braille**: Improved use of Braille commands when using the Narrator key from the braille display. 
-* **Automatic Dialog Reading**: Narrator automatically reads the contents of a dialog box when brought to the foreground. Narrator speaks the title of the dialog, the focused element within the dialog and the static text at the top of the dialog. For example, if you try to close a document in Word with unsaved changes, Narrator will speak the title “Microsoft Word,” the focus “Save button” and the static text within the dialog. 
-* **Narrator Find**: You now have the ability to search for text using Narrator’s new Find feature. If the text is found Narrator will move to the found item. 
-* **List of Objects**: Narrator can present a list of links, headings or landmarks present in the application or content. You are also able to filter the results by typing in the list or the text field of the window. 
-* **Keyboard command changes**: The keystroke to move the caret to the beginning of text is now **Narrator + B** (formerly Narrator + Control + B), to move the caret to end of text is now **Narrator + E** (was Narrator + Control + E). 
-* **Move Next, Move Previous, and Change View**: When changing Narrator’s view to characters, words, lines, or paragraphs the **Read Current Item** command will read the text of that specific view type more reliably. 
-* **Providing Feedback**: The keystroke to provide feedback has changed. The new keystroke is **Narrator + Alt + F**. This will work both in the standard and legacy layouts. Note: The legacy layout also allows you to use **Narrator + E** to send us feedback. 
+* __Reliability__: We have made improvements in Narrator reliability. 
+* __Narrator standard keyboard layout__: Narrator now ships with a new keyboard layout that is designed to be more familiar to screen reader users.
+* __Scan Mode__: Reading and navigating while in Scan Mode has been improved. Selecting text in Scan Mode has also been improved. 
+* __Stop on Controls in Scan Mode__: Scan mode is a Narrator feature that lets you use just a few keys to move around your screen. Scan mode is already on by default in Microsoft Edge and you can toggle it on and off by pressing __Caps lock + Spacebar__. While you’re in scan mode, you can press the Up and Down arrow keys to read different parts of the page. The press of a Down arrow in Scan Mode stops on interactive elements, so that they are easier to use. An example of this behavior is reading a paragraph with multiple links. Narrator will stop on these links when you press the Down arrow.
+* __Selection commands in scan mode__: Narrator’s scan mode now supports selecting content in Microsoft Edge, Word, Outlook, Mail, and most text surfaces. Standard shift- selection commands can be used as well as __Control + A__ for the entire document. __Caps + Shift + Down Arrow__ will speak the current selection. For a full list of selection commands, you can refer to Narrator’s __Show Commands List__ by pressing __Caps + F1__. Once content is selected you can copy it to the clipboard by pressing Control + C. Formatting information will also be retained. Along with being able to select content in Narrator’s scan mode using Shift-selection commands, you can now also select a block of data by first moving to one end of the block and pressing F9, moving to the other end of the block and pressing F10. Once F10 is pressed the entire contents between the two points will be selected. 
+* __Narrator QuickStart__: When Narrator launches, a new QuickStart tutorial experience will be available. The Narrator QuickStart will help you get up and running quickly with Narrator. It teaches the basics of using Narrator, such as learning the keys on your keyboard, navigation, the most used commands etc. At the end of the QuickStart there is a link to the User Guide where you can continue learning about Narrator.
+* __Braille__: Improved use of Braille commands when using the Narrator key from the braille display. 
+* __Automatic Dialog Reading__: Narrator automatically reads the contents of a dialog box when brought to the foreground. Narrator speaks the title of the dialog, the focused element within the dialog and the static text at the top of the dialog. For example, if you try to close a document in Word with unsaved changes, Narrator will speak the title “Microsoft Word,” the focus “Save button” and the static text within the dialog. 
+* __Narrator Find__: You now have the ability to search for text using Narrator’s new Find feature. If the text is found Narrator will move to the found item. 
+* __List of Objects__: Narrator can present a list of links, headings or landmarks present in the application or content. You are also able to filter the results by typing in the list or the text field of the window. 
+* __Keyboard command changes__: The keystroke to move the caret to the beginning of text is now __Narrator + B__ (formerly Narrator + Control + B), to move the caret to end of text is now __Narrator + E__ (was Narrator + Control + E). 
+* __Move Next, Move Previous, and Change View__: When changing Narrator’s view to characters, words, lines, or paragraphs the __Read Current Item__ command will read the text of that specific view type more reliably. 
+* __Providing Feedback__: The keystroke to provide feedback has changed. The new keystroke is __Narrator + Alt + F__. This will work both in the standard and legacy layouts. Note: The legacy layout also allows you to use __Narrator + E__ to send us feedback. 
 
 
 For more information about Narrator new keyboard layout and other improvements, refer to the new [Narrator Keyboard Layout doc](http://aka.ms/RS5NarratorKeyboard).
 
 ## Time accuracy and traceability improvements
 
-*__Leap second support:__ Windows supports these occasional 1-second adjustments in a traceable and UTC-compliant manner. What’s a leap second? As the earth’s rotation slows, [UTC](https://en.wikipedia.org/wiki/Coordinated_Universal_Time) (an atomic timescale) diverges from [mean solar time](https://en.wikipedia.org/wiki/Solar_time#Mean_solar_time) or astronomical time.  Once UTC has diverged by at most .9 seconds, a [leap second](https://en.wikipedia.org/wiki/Leap_second) is inserted to keep UTC in-sync with mean solar time.  Since the practice of inserting leap seconds began in 1972, a leap second has typically occurred every 18 months.
+__Leap second support:__ Windows supports these occasional 1-second adjustments in a traceable and UTC-compliant manner. What’s a leap second? As the earth’s rotation slows, [UTC](https://en.wikipedia.org/wiki/Coordinated_Universal_Time) (an atomic timescale) diverges from [mean solar time](https://en.wikipedia.org/wiki/Solar_time#Mean_solar_time) or astronomical time.  Once UTC has diverged by at most .9 seconds, a [leap second](https://en.wikipedia.org/wiki/Leap_second) is inserted to keep UTC in-sync with mean solar time.  Since the practice of inserting leap seconds began in 1972, a leap second has typically occurred every 18 months.
 
-*__Precision Time Protocol:__ For the highest accuracy environments, you can improve your time accuracy by leveraging a new time protocol that delivers more accurate time samples to the endpoint (Windows Server 2019 or Windows 10, host or virtual machine).
+__Precision Time Protocol:__ For the highest accuracy environments, you can improve your time accuracy by leveraging a new time protocol that delivers more accurate time samples to the endpoint (Windows Server 2019 or Windows 10, host or virtual machine).
 
-*__Software Timestamping:__ You can now further improve your network time accuracy by eliminating the software delay introduced by the Windows networking stack.
+__Software Timestamping:__ You can now further improve your network time accuracy by eliminating the software delay introduced by the Windows networking stack.
 
 For more details about these new improvements, please see our announcement [here](https://blogs.technet.microsoft.com/networking/2018/07/18/top10-ws2019-hatime/).
 
@@ -345,15 +322,17 @@ For more details, check out [Introducing extended line endings support in Notepa
 
 As many of you know, we added dark theme support to Windows based on your feedback. This setting is available under __Settings > Personalization > Colors__, and if you switch it any apps and system UI that support it will follow suit. Since releasing this feature, our top feedback request from you has been to update File Explorer to support dark theme. Along the way, we also added dark theme support to the File Explorer context menu, as well as the Common File Dialog (aka the Open and Save dialogs). Thanks again for everyone’s feedback!
 
+![Dark File Explorer](images/FileExplorerDarkTheme.png "Dark File Explorer")
+
 ## Microsoft Pinyin and Wubi IMEs
 
-*__We updated the Microsoft Pinyin IME__. We’ve been focusing on addressing your performance, reliability and compatibility feedback. You'll also notice a number of other improvements, including design improvements, a new logo for the Microsoft Pinyin IME, new IME toolbar, and dark theme support!
+__We updated the Microsoft Pinyin IME__. We’ve been focusing on addressing your performance, reliability and compatibility feedback. You'll also notice a number of other improvements, including design improvements, a new logo for the Microsoft Pinyin IME, new IME toolbar, and dark theme support!
 
     ![new look for imes](images/imeupdate.png "new look for imes")
 
-*__We updated the context menu__. We’ve added options to the IME mode indicator’s context menu in the taskbar, so you can quickly access the things you need.
+__We updated the context menu__. We’ve added options to the IME mode indicator’s context menu in the taskbar, so you can quickly access the things you need.
 
-*__The IME now uses the same UX for expressive input as other languages__. You can bring it up by clicking the emoji button in the IME toolbar, or use the Emoji Panel hotkeys (WIN + period (.) or WIN + semicolon (;)). You can browse between Emoji, Kaomoji, and Symbol input when Chinese (Simplified) is the active locale.
+__The IME now uses the same UX for expressive input as other languages__. You can bring it up by clicking the emoji button in the IME toolbar, or use the Emoji Panel hotkeys (WIN + period (.) or WIN + semicolon (;)). You can browse between Emoji, Kaomoji, and Symbol input when Chinese (Simplified) is the active locale.
 
 ![ime emojis](images/imeemoji.png "ime emojis")
 
@@ -410,9 +389,9 @@ We’ve heard your feedback that settings can be confusing sometimes, so we’re
 ## Snipping experience 
 The new modern snipping experience is here to help you effortlessly capture and annotate what you see on your screen. While working on this we’ve been carefully going over all your feedback about taking screenshots in Windows - you’ll find the flow and tools are optimized for sharing and make communicating visually with others quick and easy.
 
-![screen sketch](images/screen-sketch1.png "screen sketch")
+![screen sketch](images/screen-sketch1.png "Snip & Sketch")
 
-### Screen Sketch is now an app! 
+### Snip & Sketch is now an app! 
 
 Originally introduced as part of the Windows Ink Workspace, this comes with a variety of benefits, including that it can now be updated via the Microsoft Store, it will now show up in the list when you press Alt + tab, you can set the window size to be your preference if you like multitasking, and it even supports multiple windows. 
 
@@ -420,16 +399,16 @@ Originally introduced as part of the Windows Ink Workspace, this comes with a va
 
 WIN + Shift + S will now bring up a snipping toolbar – snip a rectangle, something a bit more freeform, or full screen and it will go straight to your clipboard. Immediately after taking a snip you’ll now get a notification that will take you and your snip to the Screen Sketch app where you can annotate and share.
 
-![screen sketch](images/screen-sketch2.png "screen sketch")
+![screen sketch](images/screen-sketch2.png "Snip & Sketch")
 
 Is the WIN + Shift + S keyboard shortcut too long to remember? Guess what! We’ve added easy entry options for every input modality: 
-*__Just click the pen tail button__. If you have a pen, go into __Pen & Windows Ink Settings__ – you’ll find Screen Snipping is now an option for single click. This will launch you directly into our snipping experience:
+__Just click the pen tail button__. If you have a pen, go into __Pen & Windows Ink Settings__ – you’ll find Screen Snipping is now an option for single click. This will launch you directly into our snipping experience:
 
 ![pen settings](images/pensettingsinked.png "pen settings")
 
-*__Press Print Screen__. You heard it right, just one button! It’s not enabled by default – go to Keyboard Settings – you’ll see a new option that says __Use the Print Screen key to launch screen snipping__. Opening Settings and searching for __print screen__ will take you to the right page.
+__Press Print Screen__. You heard it right, just one button! It’s not enabled by default – go to Keyboard Settings – you’ll see a new option that says __Use the Print Screen key to launch screen snipping__. Opening Settings and searching for __print screen__ will take you to the right page.
 
-*__Press the quick action button in Action Center__. Called __Screen snip__ – it should be there as soon as you upgrade, but if not you can always enable it via Notifications & Actions Settings.
+__Press the quick action button in Action Center__. Called __Screen snip__ – it should be there as soon as you upgrade, but if not you can always enable it via Notifications & Actions Settings.
 
 ## Start tile folder naming 
 To create a tile folder in Start, just drag one tile on top of another for a second then release. Continue dropping as many tiles into the folder as you’d like. When you expand the folder, you’ll see a new option to name it. The name will be visible when the folder is medium, wide, or large-sized. 
@@ -467,7 +446,7 @@ __Performance improvements__: The teams at Microsoft are constantly working to i
 
 __Download files to the host__: One of the items our users voiced was an inability to “download files from within WDAG” to the host. This created an inconsistent experience for Microsoft Edge overall as downloaded files were stuck inside the container. In this release, users can turn on a feature to download files from their WDAG browsing session onto the host file system. This feature is available in the Windows 10 Enterprise edition and is not turned on by default. Once the feature is enabled, users will be able to download files into a folder created in their Downloads folder and open all files on the host.
 
-<i>How to enable and configure the Download to host feature</i>:
+_How to enable and configure the Download to host feature_:
 
 __Requirements:__
 * Latest Windows 10 Enterprise, version 1803 builds
