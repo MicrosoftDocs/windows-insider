@@ -73,7 +73,7 @@ We’ve made significant improvement to the find/replace experience in Notepad. 
 ### Text zooming
 We’ve added options to make it quick and easy to zoom text in Notepad. There is a new menu option under __View > Zoom__ to change the zoom level and we display the current zoom level in the status bar. You can also use Ctrl + Plus, Ctrl + Minus and Ctrl + MouseWheel to zoom in and out and use Ctrl + 0 to restore the zoom level to the default.
 
-![text zooming](images/zooming2 .png "text zooming")
+![text zooming](images/zooming2.png "text zooming")
 
 ### Line numbers with word-wrap
 Notepad can display line and column numbers when word-wrap is enabled, and we’ve made the status bar visible by default. You can still turn the status bar off in the View menu.
@@ -328,7 +328,7 @@ As many of you know, we added dark theme support to Windows based on your feedba
 
 __We updated the Microsoft Pinyin IME__. We’ve been focusing on addressing your performance, reliability and compatibility feedback. You'll also notice a number of other improvements, including design improvements, a new logo for the Microsoft Pinyin IME, new IME toolbar, and dark theme support!
 
-    ![new look for imes](images/imeupdate.png "new look for imes")
+![new look for imes](images/imeupdate.png "new look for imes")
 
 __We updated the context menu__. We’ve added options to the IME mode indicator’s context menu in the taskbar, so you can quickly access the things you need.
 
