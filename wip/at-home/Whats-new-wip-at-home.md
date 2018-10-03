@@ -8,7 +8,7 @@ ms.assetid:
 ms.service: WIP-at-work
 ms.tgt_pltfrm: na
 ms.devlang: na
-ms.date: 09/28/2018
+ms.date: 10/03/2018
 ms.author: dawn.wood
 ms.localizationpriority: medium
 ---
@@ -46,13 +46,13 @@ Originally introduced as part of the Windows Ink Workspace, **Snip & Sketch** co
 ![screen sketch](images/screen-sketch2.png "screen sketch")
 
 Is the **WIN + Shift + S** keyboard shortcut too long to remember? Guess what! We’ve added easy entry options for every input modality: 
-*__Just click the pen tail button__. If you have a pen, go into __Pen & Windows Ink Settings__ – you’ll find screen snipping is now an option for single click. This will launch you directly into our snipping experience:
+* __Just click the pen tail button__. If you have a pen, go into __Pen & Windows Ink Settings__ – you’ll find screen snipping is now an option for single click. This will launch you directly into our snipping experience:
 
 ![pen settings](images/pensettingsinked.png "pen settings")
 
-*__Press Print Screen__. You heard it right, just one button! It’s not enabled by default – go to Keyboard Settings – you’ll see a new option that says __Use the Print Screen key to launch screen snipping__. Opening Settings and searching for __print screen__ will take you to the right page.
-
-*__Press the quick action button in Action Center__. Called __Screen snip__ – it should be there as soon as you upgrade, but if not you can always enable it via Notifications & Actions Settings.
+* __Press Print Screen__. You heard it right, just one button! It’s not enabled by default – go to Keyboard Settings – you’ll see a new option that says __Use the Print Screen key to launch screen snipping__. Opening Settings and searching for __print screen__ will take you to the right page.
+ 
+* __Press the quick action button in Action Center__. Called __Screen snip__ – it should be there as soon as you upgrade, but if not you can always enable it via Notifications & Actions Settings.
 
 ## Say hello to your new clipboard experience! (Cloud Clipboard)
 
@@ -293,18 +293,18 @@ You can download [Cortana Show Me](https://www.microsoft.com/en-us/store/r/corta
 
 Here are some voice queries to try:
 
-*__Update Windows__– Try, “Update my Windows device”
-*__Check if an app is installed__ – Try, “How to see what apps are installed”
-*__Uninstall an app__ – Try “How to uninstall apps”
-*__Change your desktop background__– Try, “Show me how to change my background”
-*__Use Airplane Mode__ – Try, “How do I turn on airplane mode”
-*__Change your display brightness__ – Try, “Show me how to change my screen brightness”
-*__Add nearby printers or scanners__ – Try, “How to add a printer”
-*__Turn off Windows Defender Security Center__ – Try, “Show me how to turn off Windows Defender Security Center”
-*__Change Wi-Fi settings__ – Try, “Show me how to change Wi-Fi network”
-*__Change your power settings__ – Try, “How to change when my computer goes to sleep”
-*__Discover Bluetooth devices__ – Try, “Show me how to discover devices”
-*__Check your version of Windows__ – Try, “How do I find my current version of Windows”
+* __Update Windows__– Try, “Update my Windows device”
+* __Check if an app is installed__ – Try, “How to see what apps are installed”
+* __Uninstall an app__ – Try “How to uninstall apps”
+* __Change your desktop background__– Try, “Show me how to change my background”
+* __Use Airplane Mode__ – Try, “How do I turn on airplane mode”
+* __Change your display brightness__ – Try, “Show me how to change my screen brightness”
+* __Add nearby printers or scanners__ – Try, “How to add a printer”
+* __Turn off Windows Defender Security Center__ – Try, “Show me how to turn off Windows Defender Security Center”
+* __Change Wi-Fi settings__ – Try, “Show me how to change Wi-Fi network”
+* __Change your power settings__ – Try, “How to change when my computer goes to sleep”
+* __Discover Bluetooth devices__ – Try, “Show me how to discover devices”
+* __Check your version of Windows__ – Try, “How do I find my current version of Windows”
 
 ### Search in Calendar
 
@@ -649,46 +649,44 @@ We’ve heard your feedback that settings can be confusing sometimes, so we’re
 
 ![settings](images/settings.png "Settings")
 
-## Ease of access (accessibility) improvements
+## Ease of access improvements
+**Make text bigger**: We’ve heard your feedback and are excited to announce that the ability to increase text size across the system is back and better than ever! When you go to **Settings > Ease of Access > Display**, you’ll find a new setting called “Make text bigger” – this slider will adjust text across the system, win32 apps, and UWP apps.
+That means you can now make text bigger in Start, File Explorer, Settings, etc., without having to change the overall scaling of your system.
 
-__Make text bigger__: We’ve heard your feedback and are excited to announce that the ability to increase text size across the system is back and better than ever! When you go to __Settings > Ease of Access > Display__ in today’s build, you’ll find a new setting called “Make everything bigger” – this slider will adjust text across the system, win32 apps, and UWP apps.
+![Make text bigger option in the Ease of Access Display settings](images/bigger-text.png "Make text bigger option in the Ease of Access Display settings")
 
-![bigger text](images/bigger-text.png "bigger text")
+**Choose where to keep the Magnifier mouse cursor**: We’ve heard your feedback asking us for a way to keep your mouse centered on the screen in Full-Screen mode, in the Windows 10 October 2018 Update we’re making it happen! This new option under Settings > Ease of Access > Magnifier > “Keep the mouse cursor” > “Centered on the screen” enables easier tracking and use of the mouse, especially helpful at higher magnification levels.
 
-That means you can now make text bigger in Start, File Explorer, Settings, etc., without having to change the overall scaling of your system. 
+![Magnifier settings, Keep the mouse cursor, centered on the screen option](images/CenterOnTheScreen.png "Magnifier settings, Keep the mouse cursor, centered on the screen option")
 
-### Magnifier Improvements
-**Choose where to keep the mouse cursor:** We’ve heard your feedback asking us for a way to keep your mouse centered on the screen in Full-Screen mode, and with this release, we’re making it happen! This new option under **Settings > Ease of Access > Magnifier > Keep your mouse…” > centered on the screen** enables easier tracking and use of the mouse, especially helpful at higher magnification levels.
+## Narrator improvements 
 
-![magnifier](images/magnifier.png "magnifier")
+* **Reliability**: We have made improvements in Narrator reliability. 
+* **Narrator standard keyboard layout**: Narrator now ships with a new keyboard layout that is designed to be more familiar to screen reader users.
+* **Scan Mode**: Reading and navigating while in Scan Mode has been improved. Selecting text in Scan Mode has also been improved. 
+* **Stop on Controls in Scan Mode**: Scan mode is a Narrator feature that lets you use just a few keys to move around your screen. Scan mode is already on by default in Microsoft Edge and you can toggle it on and off by pressing **Caps lock + Spacebar**. While you’re in scan mode, you can press the Up and Down arrow keys to read different parts of the page. The press of a Down arrow in Scan Mode stops on interactive elements, so that they are easier to use. An example of this behavior is reading a paragraph with multiple links. Narrator will stop on these links when you press the Down arrow.
+* **Selection commands in scan mode**: Narrator’s scan mode now supports selecting content in Microsoft Edge, Word, Outlook, Mail, and most text surfaces. Standard shift- selection commands can be used as well as **Control + A** for the entire document. **Caps + Shift + Down Arrow** will speak the current selection. For a full list of selection commands, you can refer to Narrator’s **Show Commands List** by pressing **Caps + F1**. Once content is selected you can copy it to the clipboard by pressing Control + C. Formatting information will also be retained. Along with being able to select content in Narrator’s scan mode using Shift-selection commands, you can now also select a block of data by first moving to one end of the block and pressing F9, moving to the other end of the block and pressing F10. Once F10 is pressed the entire contents between the two points will be selected. 
+* **Narrator QuickStart**: When Narrator launches, a new QuickStart tutorial experience will be available. The Narrator QuickStart will help you get up and running quickly with Narrator. It teaches the basics of using Narrator, such as learning the keys on your keyboard, navigation, the most used commands etc. At the end of the QuickStart there is a link to the User Guide where you can continue learning about Narrator.
+* **Braille**: Improved use of Braille commands when using the Narrator key from the braille display. 
+* **Automatic Dialog Reading**: Narrator automatically reads the contents of a dialog box when brought to the foreground. Narrator speaks the title of the dialog, the focused element within the dialog and the static text at the top of the dialog. For example, if you try to close a document in Word with unsaved changes, Narrator will speak the title “Microsoft Word,” the focus “Save button” and the static text within the dialog. 
+* **Narrator Find**: You now have the ability to search for text using Narrator’s new Find feature. If the text is found Narrator will move to the found item. 
+* **List of Objects**: Narrator can present a list of links, headings or landmarks present in the application or content. You are also able to filter the results by typing in the list or the text field of the window. 
+* **Keyboard command changes**: The keystroke to move the caret to the beginning of text is now **Narrator + B** (formerly Narrator + Control + B), to move the caret to end of text is now **Narrator + E** (was Narrator + Control + E). 
+* **Move Next, Move Previous, and Change View**: When changing Narrator’s view to characters, words, lines, or paragraphs the **Read Current Item** command will read the text of that specific view type more reliably. 
+* **Providing Feedback**: The keystroke to provide feedback has changed. The new keystroke is **Narrator + Alt + F**. This will work both in the standard and legacy layouts. Note: The legacy layout also allows you to use **Narrator + E** to send us feedback. 
 
-**More options for increments:** You’ve also been asking for even more control of your zoom level increments, so we’ve taken a moment to add two new increments to the list: 5% and 10%.
 
-### Narrator improvements 
+For more information about Narrator new keyboard layout and other improvements, refer to the new [Narrator Keyboard Layout doc](http://aka.ms/RS5NarratorKeyboard).
 
-**Selection commands in Narrator Scan Mode:** Narrator’s scan mode now supports selecting content in Microsoft Edge, Word, Outlook, Mail and most text surfaces. Standard shift- selection commands can be used as well as Control + A for the entire document. Caps + Shift + Down Arrow will speak the current selection. For a full list of selection commands, you can refer to Narrator’s Show Commands List by pressing Caps+F1. Once content is selected you can copy it to the clipboard by pressing Control + C. Formatting information will also be retained.
-There is a known issue in Edge where selecting forward will get stuck. This issue is being worked on. Selection in general is a work in progress. We would love to hear your feedback as you try out these improvements. [This link](http://aka.ms/narratorfb) will take you to the Narrator section of the Feedback Hub, or you can press Caps + E while Narrator is running.
+## Time accuracy and traceability improvements
 
-**Narrator Standard Keyboard Layout:** Narrator now ships with a new keyboard layout that is designed to be more familiar to screen reader users. Refer to [Intro to New Narrator Keyboard Layout](https://1drv.ms/w/s!AlrFAMvVwfUGiCdUCRhentDh3pvo) for details on these changes.
+* __Leap second support:__ Windows supports these occasional 1-second adjustments in a traceable and UTC-compliant manner. What’s a leap second? As the earth’s rotation slows, [UTC](https://en.wikipedia.org/wiki/Coordinated_Universal_Time) (an atomic timescale) diverges from [mean solar time](https://en.wikipedia.org/wiki/Solar_time#Mean_solar_time) or astronomical time.  Once UTC has diverged by at most .9 seconds, a [leap second](https://en.wikipedia.org/wiki/Leap_second) is inserted to keep UTC in-sync with mean solar time.  Since the practice of inserting leap seconds began in 1972, a leap second has typically occurred every 18 months.
 
-__Automatic Dialog Reading__: Narrator automatically reads the contents of a dialog box when brought to the foreground. Narrator speaks the title of the dialog, the focused element within the dialog and the static text at the top of the dialog. For example, if you try to close a document in Word with unsaved changes, Narrator will speak the title “Microsoft Word,” the focus “Save button” and the static text within the dialog.
+* __Precision Time Protocol:__ For the highest accuracy environments, you can improve your time accuracy by leveraging a new time protocol that delivers more accurate time samples to the endpoint (Windows Server 2019 or Windows 10, host or virtual machine).
 
-__Narrator Find__: You can search for text using Narrator’s new __Find__ feature. If the text is found Narrator will move to the found item. 
+* __Software Timestamping:__ You can now further improve your network time accuracy by eliminating the software delay introduced by the Windows networking stack.
 
-__List of Objects__: Narrator can present a list of links, headings or landmarks present in the application or content. You can also filter the results by typing in the list or the text field of the window. 
-
-__Selection in Scan Mode__: Along with being able to select content in Narrator’s scan mode using Shift-selection commands, you can now also select a block of data by first moving to one end of the block and pressing __F9__, moving to the other end of the block and pressing __F10__. Once __F10__ is pressed the entire contents between the two points will be selected. 
-
-__Stop on Controls in Scan Mode__: Scan mode is a Narrator feature that lets you use just a few keys to move around your screen. Scan mode is already on by default in Microsoft Edge and you can toggle it on and off by pressing __Caps lock + Spacebar__. While you’re in scan mode, you can press the Up and Down arrow keys to read different parts of the page. The press of a Down arrow in Scan Mode stops on interactive elements, so that they are easier to use. An example of this behavior is  reading a paragraph with multiple links. Narrator will stop on these links when you press the Down arrow.
-
-For more information about Narrator new keyboard layout and other known issues, refer to [Intro to New Narrator Keyboard Layout doc](http://aka.ms/RS5NarratorKeyboard).
-
-**Narrator Quickstart:** When Narrator launches, a new Quickstart tutorial experience will be available. The Narrator Quickstart will help you get up and running quickly with Narrator. It teaches the basics of using Narrator, such as learning the keys on your keyboard, navigation, the most used commands etc. At the end of the Quickstart there is a link to the User Guide where you can continue learning about Narrator.
-
-![Narrator](images/narrator.png "Narrator")
-
-When the Narrator Quickstart launches, Scan Mode may not reliably be on by default. We recommend going through the Quickstart with Scan Mode on. To verify that Scan Mode is on, press **Caps Lock + Space**.
-Narrator Keyboard improvements: We have added the scan mode secondary action command and Spell current selection command.
+For more details about these new improvements, please see our announcement [here](https://blogs.technet.microsoft.com/networking/2018/07/18/top10-ws2019-hatime/).
 
 ## Microsoft Input Method Editor (IME) Improvements
 
@@ -783,25 +781,6 @@ Often font files come within a compressed folder (that is, a .zip file). The “
 
 ![per user fonts](images/install-font-2.png "per user fonts")
 
-## Acrylic improvements
-
-### Acrylic in task view 
-The entire task view background now has a soft blur effect.
-
-![acrylic task view](images/taskview-acrylic.png "acrylic task view")
-
-### Acrylic comes to menus and more!
-Our acrylic material is being used by default in XAML controls and on transient XAML surfaces like flyouts. The new acrylic material is now applied to:
-* Context menus
-* Flyouts
-* Auto-suggest drop down list boxes
-* combo box drop down list boxes
-* date and time picker flyouts
-* media transport control flyouts and overflows
-
-You will notice new acrylic backgrounds in places on the system using these controls – for example when you right-click open apps in task view. Apps using the SDK for Windows 10, version 1809 or higher will see this change by default as well.
-
-![acrylic settings](images/acrylic.png "acrylic settings")
 
 ## Update experience
 
