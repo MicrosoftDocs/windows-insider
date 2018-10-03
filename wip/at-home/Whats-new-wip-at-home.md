@@ -60,7 +60,7 @@ Copy/paste is something we all do, probably multiple times a day. But what do yo
 
 ![clipboard history](images/clipboardhistory.png "clipboard history")
 
-Not only can you can paste from the clipboard history, but you can also pin the items you find yourself using all the time. This history roams with you using the same technology which powers Timeline and Sets, which means you can access your clipboard across any PC.  
+Not only can you can paste from the clipboard history, but you can also pin the items you find yourself using all the time. This history roams with you using the same technology that powers Timelines, which means you can access your clipboard across any PC.  
 
 Our new settings page for enabling this experience is under __Settings > System > Clipboard__. 
 
