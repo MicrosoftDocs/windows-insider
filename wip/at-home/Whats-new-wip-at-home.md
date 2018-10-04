@@ -369,7 +369,7 @@ You may also notice some new error codes in Mixed Reality Portal to be more spec
 ## PC Gaming Improvements
 
 ### Game bar improvements
-*__Audio controls__: Change your default audio output device and mute or adjust the volume of games and apps running.
+__Audio controls__: Change your default audio output device and mute or adjust the volume of games and apps running.
 
 ![game bar](images/New-Game-bar.png "game bar")
 
