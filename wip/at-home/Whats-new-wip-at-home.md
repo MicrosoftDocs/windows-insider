@@ -25,6 +25,8 @@ For iPhone users, **Your Phone** app also helps you to link your phone to your P
 
 Notice a desktop pin? It’ll take you directly to the **Your Phone** app – for quicker access to your phone’s content. You can also go through the all apps list in Start Menu, or use the Windows key and search for the **Your Phone** app. 
 
+For more information about **Your Phone**, see [Your Phone app help](https://support.microsoft.com/en-us/help/4459358/windows-10-your-phone-app-help).
+
 ## Snipping experience (Snip & Sketch)
 
 The new modern snipping experience is here to help you effortlessly capture and annotate what you see on your screen. While working on this we’ve been carefully going over all your feedback about taking screenshots in Windows - you’ll find the flow and tools are optimized for sharing and make communicating visually with others quick and easy.
