@@ -17,7 +17,7 @@ ms.localizationpriority: medium
 The [Windows Insider Program](https://insider.windows.com/en-us/) lets you preview builds of the upcoming release of Windows 10. This topic lists new Windows 10 features for you to try. 
 
 ## Your Phone app
-Android phone users, you can finally stop emailing yourself photos. With Your Phone app you get instant access to your Android’s most recent photos on your PC. Drag and drop a photo from your phone onto your PC, then you can copy, edit, or ink on the photo.  Try it out by typing **Your Phone** in the Start menu. The **Your phone" app will load and you will receive a request from Microsoft to download the companion app to your mobile phone. Android 7.0+ devices are compatible with the **Your Phone** app. For PCs tied to the China region, **Your Phone** app services will be enabled in the future.
+Android phone users, you can finally stop emailing yourself photos. With Your Phone app you get instant access to your Android’s most recent photos on your PC. Drag and drop a photo from your phone onto your PC, then you can copy, edit, or ink on the photo.  Try it out by typing **Your Phone** in the Start menu. The **Your phone** app will load and you will receive a request from Microsoft to download the companion app to your mobile phone. Android 7.0+ devices are compatible with the **Your Phone** app. For PCs tied to the China region, **Your Phone** app services will be enabled in the future.
 
 For iPhone users, **Your Phone** app also helps you to link your phone to your PC. Surf the web on your phone, then send the webpage instantly to your computer to continue what you’re doing–read, watch, or browse with all the benefits of a bigger screen. With a linked phone, continuing on your PC is one share away.
 
@@ -37,7 +37,7 @@ Originally introduced as part of the Windows Ink Workspace, **Snip & Sketch** co
 1. It can be updated via the Microsoft Store
 2. It can be found in the app list when you press Alt + tab
 3. You can set the window size to your preference
-4. It supports multiple windows (and tabs, thanks to Sets!)
+4. It supports multiple windows
 
 ### Easy snipping is only a single step away
 
@@ -66,7 +66,7 @@ Our new settings page for enabling this experience is under __Settings > System 
 
 ![clipboard settings](images/clipboardsettings.png "clipboard settings")
 
-__Note:__ Roaming text on the clipboard is only supported for clipboard content less than 100kb. Currently, the clipboard history supports plain text, HTML and images less than 1MB. 
+__Note:__ Roaming text on the clipboard is supported for text-only content less than 100kb. Currently, the clipboard history supports plain text, HTML and images less than 4MB. 
 
 ## Dark theme comes to File Explorer (and more!) 
 
@@ -76,6 +76,7 @@ As many of you know, we added dark theme support to Windows based on your feedba
 
 ## Notepad Improvements
 
+### Extended line endings support
 Introducing extended line endings support for Notepad: we’re excited to let you know that in addition to Windows line endings (CRLF), Notepad now supports Unix/Linux line endings (LF) and Macintosh line endings (CR)!
 
 ### Wrap-around find and replace 
@@ -96,7 +97,7 @@ Notepad can display line and column numbers when word-wrap is enabled, and we’
 
 ![word-wrap](images/linenumbers.png "word-wrap")
 
-### Notepad Search with Bing
+### Search with Bing
 
 To use simply highlight any words or phrase in Notepad and you can search Bing using the following methods:
 * Select text and choose **Search with Bing** via the right-click (context) menu.
@@ -107,16 +108,6 @@ We made the search experience broader so you can access information and actions 
 
 ![notepad bing search](images/notepad-bing-search.png "notepad bing search")
 
-__Find software downloads faster in Search!__: Continuing our theme of improving the search preview experience, we’re rolling out an update to make it easier to find official download pages for Windows software you want to install. 
-
-![GitHub search example](images/search.png "GitHub search example")
-
-Other Improvements: 
-* Notepad now supports**Ctrl + Backspace** to delete the previous word
-* Arrow keys now unselect text first, and then move the cursor
-* When saving a file, the line and column number no longer reset to 1
-* Notepad now correctly displays lines that don’t fit entirely on the screen
-
 ## Wireless projection experience
 
 One of the things we’ve heard from you is that it’s hard to know when you’re wirelessly projecting and how to disconnect your session when started from file explorer or from an app. In Windows 10, version 1809, you’ll see a control banner at the top of your screen when you’re in a session (just like you see when using remote desktop). The banner keeps you informed of the state of your connection, allows you to quickly disconnect or reconnect to the same sink, and allows you to tune the connection based on what you are doing. This tuning is done via **Settings**, which optimizes the screen to screen latency based on one of the three scenarios:
@@ -126,9 +117,9 @@ One of the things we’ve heard from you is that it’s hard to know when you’
 
 ![wireless projection banner](images/beaming.png "wireless projection banner")
 
-## SwiftKey intelligence comes to Windows
+## SwiftKey intelligence
 
-[SwiftKey](https://www.microsoft.com/en-us/swiftkey) gives you more accurate auto-corrections and predictions by learning your writing style – including the words, phrases, and emoji that matter to you. It’s available for Android and iOS, and SwiftKey powers the typing experience on Windows when using the touch keyboard to write in English (United States), English (United Kingdom), French (France), German (Germany), Italian (Italy), Spanish (Spain), Portuguese (Brazil), or Russian.
+[SwiftKey](https://www.microsoft.com/en-us/swiftkey) gives you more accurate auto-corrections and predictions by learning your writing style – including the words, phrases, and emoji that matter to you. It’s available for Android and iOS, and SwiftKey powers the typing experience on Windows when using the touch keyboard to write in English (United States), English (United Kingdom), French (France), German (Germany), Italian (Italy), Spanish (Spain), Portuguese (Brazil), or Russian. This is an existing feature that we've improved for Windows 10, version 1809.
 
 ![Swiftkey](images/swift2.png "Swiftkey")
 
@@ -139,7 +130,7 @@ Windows now shows you stats about each of these features. Go to **Settings > Dev
 
 ### Emoji 11
 
-[Unicode 11 comes with 157 new emoji](http://blog.unicode.org/2018/06/announcing-unicode-standard-version-110.html). Superheroes, redheads, a softball, a pirate flag, and a llama all made the cut. You can access them using the Emoji Panel **WIN +.** or via the touch keyboard.
+[Unicode 11 comes with 157 new emoji](http://blog.unicode.org/2018/06/announcing-unicode-standard-version-110.html). Superheroes, redheads, a softball, a pirate flag, and a llama all made the cut. You can access them using the Emoji Panel **WIN + (Period)** or via the touch keyboard.
 
 ![new emojis](images/WindowsInsiderBlog_EmojiRS5.png "new emojis")
 
@@ -150,16 +141,6 @@ We’ve also made tweaks to some of our existing emoji – here are some example
 Our ninja cats got a bit of love too – can you spot the difference?
 ![ninja cat emojis](images/WindowsInsiderBlog_EmojiRS5_NinjaCats.png "ninja cat emojis")
 
-__Emoji design updates__ based on your feedback and to improve consistency, we’ve made adjustments to the design of some of our emoji. Examples of updated emoji include:
-
-__Before__
-
-![emojis before](images/before_emoji.png "emojis before")
-
-__After__
-
-![emojis after](images/after_emoji.png "emojis after")
-
 __Emoji search comes to more languages__: You can find an emoji by keyword in over 190 locales, including English (Great Britain), French (France), German (Germany), Spanish (Spain), and more. This will help you get the emoji you want easily and quickly. As a reminder, to bring up the Emoji Panel set focus to a text field and press WIN + (period) or WIN + (semicolon).
 
 ## Post-upgrade setup
@@ -169,6 +150,15 @@ You may see this window showing after you upgrade. Don’t worry – all your st
 ![oobe](images/SCOOBE-Intro.png "oobe")
 
 ## Microsoft Edge improvements
+
+
+* **A faster safer internet with HTTP/2 and CUBIC**: The internet is part of our daily lives both at work and at home, in the enterprise and in the cloud. We are committed to making your internet experience faster and safer. For example:
+
+* Microsoft Edge clients will take advantage of connection coalescing for HTTP/2 as supported in Windows Server 2019
+* Improved security on Microsoft Edge browsers by guaranteeing HTTP/2 preferred cipher suites
+* Improved performance on Windows 10 thanks to Cubic, the new default TCP congestion provider.
+
+For more information, see [A Faster, Safer Internet](https://blogs.technet.microsoft.com/networking/2018/08/01/faster-safer-internet/).
 
 **Control whether media can play automatically** : We added a new setting in Microsoft Edge to allow you to control whether sites can autoplay media. You can find this setting under **Advanced Settings > Media autoplay**, with options to customize the behavior according to your preferences:
 
@@ -189,7 +179,7 @@ Per-site media autoplay controls: You can now control autoplay permissions on a 
 
 ![Edge design improvements](images/edge-design.png "Edge design improvements")
 
-**Customize toolbar items for Microsoft Edge:** When you click **…** in the Microsoft Edge toolbar, you’ll find a refined menu that puts common commands like **New tab** and **New window** front and center. We’ve also added the much-requested ability to customize which icons appear in the Microsoft Edge toolbar – you can remove them all for a tidier look or add as many as you like to bring your favorite functionality to your fingertips!
+**Customize toolbar items for Microsoft Edge:** When you click **…** in the Microsoft Edge toolbar, you’ll find a refined menu that puts common commands like **New window** front and center. We’ve also added the much-requested ability to customize which icons appear in the Microsoft Edge toolbar – you can remove them all for a tidier look or add as many as you like to bring your favorite functionality to your fingertips!
 Last (but not least), this release breaks **Settings** out into subpages by category, with better-organized options and less clutter on each page. The new **Settings** experience is designed to match the experience in the Microsoft Edge hub, for a quicker and more familiar experience.
 
 ![Edge custom toolbar](images/edge-custom-toolbar.png "Edge custom toolbar")
@@ -203,10 +193,6 @@ Last (but not least), this release breaks **Settings** out into subpages by cate
 ![Edge autofill consent](images/edge-autofill-consent.png "Edge autofill consent")
 
 __See your top sites in the jump list:__ You can now see your top sites in the jump list on the Windows task bar or Start menu. Just right-click the Microsoft Edge icon to see a list of your most visited sites and pin the ones that matter most to you. Right-click on any entry to remove it from the list. 
-
-__Organize the tabs you’ve set aside:__ It's easier to organize the groups of tabs you’ve set aside, so you can remember what’s in each group when come back to it later. Once you’ve set a group of tabs aside, choose the “Tabs you’ve set aside” icon (top left corner), and click on the label for any group to rename it.  
-
-![tabs you've set aside](images/tabsaside.png "Tabs you've set aside")
 
 __Do more from the “Downloads” pane:__ We’ve added options for __Show in folder__ and __Copy link__ to the right-click menu for downloads in the __Downloads__ pane. 
 
@@ -277,6 +263,29 @@ In this example, Windows uses facial recognition to authenticate the RDP session
 
 ![Remote Desktop with Biometrics](images/remote-desktop-hello-3.png "Remote Desktop with Biometrics")
 
+## Web Sign-in to Windows 10
+Until now, Windows logon only supported the use of identities federated to ADFS or other providers that support the WS-Fed protocol. We are introducing “Web Sign-in,” a new way of signing into your Windows PC. Web Sign-in enables Windows logon support for  non-ADFS federated providers (e.g. SAML).
+
+![web sign-in](images/WebSignIn.png "web sign-in")
+
+**To try out Web Sign-in:**
+1.	Azure AD Join your Windows 10 PC. (Note: Web Sign-in is only supported on Azure AD Joined PCs).
+
+![web sign-in](images/WebSignIn-2.png "web sign-in")
+
+2. Set the following policy to enable Web Sign-in (Policy CSP/Authentication/EnableWebSignIn)
+3. On the lock screen, select Web Sign-in under Sign-in options.
+4. Click on the **Sign in** button to continue.
+
+## Faster sign-in to a Windows 10 shared PC
+Do you have shared PCs deployed in your work place? Do you wish that signing in to a PC with your account was faster? Starting with this build, we are introducing “Fast Sign-in,” which enables users to sign in to a shared Windows 10 PC in a flash!
+
+![fast sign-in](images/FastSignIn.png "fast sign-in")
+
+**To enable Fast Sign in:**
+1.	Set up a shared or guest PC with Windows 10
+2.	Set the following policy to enable Fast Sign in (Policy CSP/Authentication/EnableFastFirstSignIn)
+3.	With the policy enabled, sign-in to a shared PC with your account and notice the difference!
 
 ## Start tile folder naming 
 
@@ -284,27 +293,7 @@ To create a tile folder in Start, just drag one tile on top of another for a sec
 
 ![folder naming in Start](images/namedfolder_optionalgif.png "folder naming in Start")
 
-## Cortana and search improvements
-
-### Cortana Show Me voice queries
-You can now launch the Cortana Show Me app through voice queries. Simply say to Cortana, “Show me how to change my background,” and you’ll get help content, with a new “Let’s go” button below, which launches the guided help experience. 
-
-You can download [Cortana Show Me](https://www.microsoft.com/en-us/store/r/cortana-follow-me/) from the Microsoft Store.
-
-Here are some voice queries to try:
-
-* __Update Windows__– Try, “Update my Windows device”
-* __Check if an app is installed__ – Try, “How to see what apps are installed”
-* __Uninstall an app__ – Try “How to uninstall apps”
-* __Change your desktop background__– Try, “Show me how to change my background”
-* __Use Airplane Mode__ – Try, “How do I turn on airplane mode”
-* __Change your display brightness__ – Try, “Show me how to change my screen brightness”
-* __Add nearby printers or scanners__ – Try, “How to add a printer”
-* __Turn off Windows Defender Security Center__ – Try, “Show me how to turn off Windows Defender Security Center”
-* __Change Wi-Fi settings__ – Try, “Show me how to change Wi-Fi network”
-* __Change your power settings__ – Try, “How to change when my computer goes to sleep”
-* __Discover Bluetooth devices__ – Try, “Show me how to discover devices”
-* __Check your version of Windows__ – Try, “How do I find my current version of Windows”
+## Search improvements
 
 ### Search in Calendar
 
@@ -326,9 +315,17 @@ We made the Search experience wider so you can access information and actions in
 ![calendar with search](images/search-2.jpg "wider search experience")
 
 ### Find software downloads faster in Search
-Continuing our theme of improving the search preview experience, we’re rolling out an update to make it easier to find official download pages for Windows software you want to install. The team is continuing to develop this experience and more is coming. 
+Continuing our theme of improving the search preview experience, we’re rolling out an update to make it easier to find official download pages for Windows software you want to install. 
 
-![calendar with search](images/search-downloads.png "wider search experience")
+![GitHub search example](images/search.png "GitHub search example")
+
+**Note**: search is currently limited to English locales
+
+Other Improvements: 
+* Notepad now supports**Ctrl + Backspace** to delete the previous word
+* Arrow keys now unselect text first, and then move the cursor
+* When saving a file, the line and column number no longer reset to 1
+* Notepad now correctly displays lines that don’t fit entirely on the screen
 
 ## Windows mixed reality improvements
 
@@ -371,7 +368,6 @@ You may also notice some new error codes in Mixed Reality Portal to be more spec
 
 ### Game bar improvements
 *__Audio controls__: Change your default audio output device and mute or adjust the volume of games and apps running.
-*__Performance visualizations__: See your game’s framerate (FPS), CPU usage, GPU VRAM usage, and system RAM usage.
 
 ![game bar](images/New-Game-bar.png "game bar")
 
@@ -380,32 +376,6 @@ New options are now available for Game Mode that are expected to improve the gam
 
 ### Focus assist improvements when gaming 
 Now focus assist will turn on automatically when you’re playing any full screen game. No more interruptions when you’re crushing it. This behavior should be turned on automatically, but you can always check by going to __Settings > System > Focus assist__ and ensuring the __When I’m playing a game__ automatic rule is enabled. For more information, see [Windows 10 Tip: How to enable Focus Assist in the Windows 10 April 2018 Update](https://blogs.windows.com/windowsexperience/2018/05/09/windows-10-tip-how-to-enable-focus-assist-in-the-windows-10-april-2018-update/).
-
-![sound settings](images/speakers2.png "sound settings")
-
-## Web Sign-in to Windows 10
-Until now, Windows logon only supported the use of identities federated to ADFS or other providers that support the WS-Fed protocol. We are introducing “Web Sign-in,” a new way of signing into your Windows PC. Web Sign-in enables Windows logon support for  non-ADFS federated providers (e.g. SAML).
-
-![web sign-in](images/WebSignIn.png "web sign-in")
-
-**To try out Web Sign-in:**
-1.	Azure AD Join your Windows 10 PC. (Note: Web Sign-in is only supported on Azure AD Joined PCs).
-
-![web sign-in](images/WebSignIn-2.png "web sign-in")
-
-2. Set the following policy to enable Web Sign-in (Policy CSP/Authentication/EnableWebSignIn)
-3. On the lock screen, select Web Sign-in under Sign-in options.
-4. Click on the **Sign in** button to continue.
-
-## Faster sign-in to a Windows 10 shared PC
-Do you have shared PCs deployed in your work place? Do you wish that signing in to a PC with your account was faster? Starting with this build, we are introducing “Fast Sign-in,” which enables users to sign in to a shared Windows 10 PC in a flash!
-
-![fast sign-in](images/FastSignIn.png "fast sign-in")
-
-**To enable Fast Sign in:**
-1.	Set up a shared or guest PC with Windows 10
-2.	Set the following policy to enable Fast Sign in (Policy CSP/Authentication/EnableFastFirstSignIn)
-3.	With the policy enabled, sign-in to a shared PC with your account and notice the difference!
 
 ## Inking Updates
 
@@ -418,37 +388,6 @@ In places where embedded handwriting doesn’t support your language or isn’t 
 
 ## Windows Security Improvements
 
-### General Windows Security Improvements 
-We’ve continued to work on the **Current threats** area on the **Virus & threat protection** section, which now displays all threats that need action. You can quickly act on threats straight from this screen.
-
-![Windows Security](images/security-improvements.png "Windows Security")
-
-You can enable a new protection setting, **Block suspicious behaviors**, which brings our Windows Defender Exploit Guard attack surface reduction technology to all users. To enable this setting, go to the **Virus & threat protection** section and click **Manage settings**, as shown in the following screenshot:
-
-![Block suspicious behaviors](images/block-suspicious.png "Block suspicious behaviors")
-
-With Controlled folder access you can help prevent ransomware and other destructive malware from changing your personal files. In some cases, apps that you normally use might be blocked from making changes to common folders like Documents and Pictures. We’ve made it easier for you to add apps that were recently blocked so you can keep using your device without turning off the feature altogether.
-
-When an app is blocked, it will appear in a recently blocked apps list, which you can get to by opening the **Virus & threat protection** section, clicking **Manage settings** under the **Ransomware** protection heading. You can then allow apps through Controlled folder access. After the prompt, click the plus button and choose Recently blocked apps. Select any of the apps to add them to the allowed list. You can also browse for an app from this page as well.
-
-![controlled folder access](images/controlled-folder-access.png "controlled folder access")
-
-In the **Device performance & health** section, we added a new assessment for the Windows time service. If we detect that your device’s time is not properly synced with our time servers and the time-syncing service is disabled, we’ll provide the option for you to turn it back on.
-
-We’re continuing to work on how other security apps you’ve installed show up in the Windows Security app. There’s a new page called **Security providers** that you can find in the **Settings** section of the app. Click **Manage providers** to see a list of all the other security providers (including antivirus, firewall, and web protection) that are running on your device. Here you can easily open the providers’ apps, or get more information on how to resolve any issue that they have reported to you through the Windows Security app.
-
-![security providers](images/security-providers.png "security providers")
-
-### A faster safer internet with HTTP/2 and CUBIC
-
-The internet is part of our daily lives both at work and at home, in the enterprise and in the cloud. We are committed to making your internet experience faster and safer. For example:
-
-* Microsoft Edge clients will take advantage of connection coalescing for HTTP/2 as supported in Windows Server 2019
-* Improved security on Microsoft Edge browsers by guaranteeing HTTP/2 preferred cipher suites
-* Improved performance on Windows 10 thanks to Cubic, the new default TCP congestion provider.
-
-For more information, see [A Faster, Safer Internet](https://blogs.technet.microsoft.com/networking/2018/08/01/faster-safer-internet/).
-
 ### Windows Defender Security Center is now called Windows Security 
 
 You can still get to the app in all the usual ways – simply ask Cortana to open Windows Security or interact with the taskbar icon. Windows Security lets you manage all your security needs, including Windows Defender Antivirus and Windows Defender Firewall.
@@ -456,12 +395,12 @@ We’re also bringing some changes to how we present threats and actions that ne
 
 ### Windows Security Center gets a Fluent Design refresh
 
-We’ve heard your feedback and when you install this build you’ll find we’ve updated Windows Security Center to include the Fluent Design elements you know and love. You’ll also notice we’ve adjusted the spacing and padding around the app and will now dynamically size the categories on the main page if more room is needed for extra info. Last but not least, we’ve also updated the title bar of the app so that it will now use your accent color if you’ve enabled that option in Color Settings – with Sets enabled, you will see this color in the WDSC tab.
+We’ve heard your feedback and when you install this build you’ll find we’ve updated Windows Security Center to include the Fluent Design elements you know and love. You’ll also notice we’ve adjusted the spacing and padding around the app and will now dynamically size the categories on the main page if more room is needed for extra info. Last but not least, we’ve also updated the title bar of the app so that it will now use your accent color if you’ve enabled that option in Color Settings.
 
 ![wdsc](images/wdsc.png "wdsc")
 
 ### Windows Defender Firewall now supports Windows Subsystem for Linux (WSL) processes 
-You can add specific rules for a WSL process in Windows Defender Firewall, just as you would for any Windows process. Also, Windows Defender Firewall now supports notifications for WSL processes. For example, when a Linux tool wants to allow access to a port from the outside (like SSH or a web server like nginx), the Windows Defender Firewall will prompt to allow access just like it would for a Windows process when the port starts accepting connections. This was first introduced in [Build 17627](https://docs.microsoft.com/en-us/windows/wsl/release-notes#build-17618-skip-ahead).
+You can add specific rules for a WSL process in Windows Defender Firewall, just as you would for any Windows process. Also, Windows Defender Firewall now supports notifications for WSL processes. For example, when a Linux tool wants to allow access to a port from the outside (like SSH or a web server like nginx), the Windows Defender Firewall will prompt to allow access just like it would for a Windows process when the port starts accepting connections. 
 
 ### Antivirus products required to run as a protected process
 The Windows Security Center (WSC) service now requires antivirus products to run as a protected process to register. Products that have not yet implemented this will not appear in the Windows Security UI, and Windows Defender Antivirus will remain enabled side-by-side with these products.
@@ -521,12 +460,34 @@ Notes:
 * Users will need to assess the files they downloaded and assume any risks of opening on the host.
 * We’ve also made updates to Windows Defender System Guard. With Windows Defender System Guard, we are making a leap forward in platform security with memory integrity by default and bringing a born secure device promise to our user base. To learn more about these changes and talk with product team, see their post in the Windows Insider Technical Community.
 
+### General Windows Security Improvements 
+We’ve continued to work on the **Current threats** area on the **Virus & threat protection** section, which now displays all threats that need action. You can quickly act on threats straight from this screen.
+
+![Windows Security](images/security-improvements.png "Windows Security")
+
+You can enable a new protection setting, **Block suspicious behaviors**, which brings our Windows Defender Exploit Guard attack surface reduction technology to all users. To enable this setting, go to the **Virus & threat protection** section and click **Manage settings**, as shown in the following screenshot:
+
+![Block suspicious behaviors](images/block-suspicious.png "Block suspicious behaviors")
+
+With Controlled folder access you can help prevent ransomware and other destructive malware from changing your personal files. In some cases, apps that you normally use might be blocked from making changes to common folders like Documents and Pictures. We’ve made it easier for you to add apps that were recently blocked so you can keep using your device without turning off the feature altogether.
+
+When an app is blocked, it will appear in a recently blocked apps list, which you can get to by opening the **Virus & threat protection** section, clicking **Manage settings** under the **Ransomware** protection heading. You can then allow apps through Controlled folder access. After the prompt, click the plus button and choose Recently blocked apps. Select any of the apps to add them to the allowed list. You can also browse for an app from this page as well.
+
+![controlled folder access](images/controlled-folder-access.png "controlled folder access")
+
+In the **Device performance & health** section, we added a new assessment for the Windows time service. If we detect that your device’s time is not properly synced with our time servers and the time-syncing service is disabled, we’ll provide the option for you to turn it back on.
+
+We’re continuing to work on how other security apps you’ve installed show up in the Windows Security app. There’s a new page called **Security providers** that you can find in the **Settings** section of the app. Click **Manage providers** to see a list of all the other security providers (including antivirus, firewall, and web protection) that are running on your device. Here you can easily open the providers’ apps, or get more information on how to resolve any issue that they have reported to you through the Windows Security app.
+
+![security providers](images/security-providers.png "security providers")
 
 ## Settings Improvements
 
 We’ve heard your feedback that settings can be confusing sometimes, so we’re working with Bing to bubble up some of the most common questions we hear right into the Settings pages themselves. The FAQ’s are contextual in nature and aim to you to quickly get the answer you’re looking for to complete configuration tasks. It may even help you discover something you didn’t know was an option! Clicking on these questions will take you to Bing.com to display the answer.  
 
 ![settings faq](images/questions.png "settings faq")
+
+**Note**: The faqs are currently available in English locales only.
 
 ### Improved Kiosk Setup Experience
 
@@ -543,6 +504,7 @@ For Microsoft Edge kiosk mode running in single-app assigned access the two kios
 ![kiosk](images/kiosk-2.png "kiosk")
 
 For Microsoft Edge kiosk mode running in multi-app assigned access the two kiosk types are (Note the following Microsoft Edge kiosk mode types cannot be setup using the new simplified assigned access configuration page in Windows 10 Settings):
+
 3.	Public browsing supports multi-tab browsing and runs InPrivate mode with minimal features available. In this configuration, Microsoft Edge can be one of many apps available. Users can close and open multiple InPrivate windows.
 
 ![kiosk](images/kiosk-3.png "kiosk")
