@@ -27,35 +27,6 @@ Notice a desktop pin? It’ll take you directly to the **Your Phone** app – fo
 
 For more information about **Your Phone**, see [Your Phone app help](https://support.microsoft.com/en-us/help/4459358/windows-10-your-phone-app-help).
 
-## Snipping experience (Snip & Sketch)
-
-The new modern snipping experience is here to help you effortlessly capture and annotate what you see on your screen. While working on this we’ve been carefully going over all your feedback about taking screenshots in Windows - you’ll find the flow and tools are optimized for sharing and make communicating visually with others quick and easy.
-
-![screen sketch](images/screen-sketch1.png "screen sketch")
-
-### Snip & Sketch (previously known as Screen Sketch) is now an app! 
-
-Originally introduced as part of the Windows Ink Workspace, **Snip & Sketch** comes with a variety of benefits, including:
-1. It can be updated via the Microsoft Store
-2. It can be found in the app list when you press Alt + tab
-3. You can set the window size to your preference
-4. It supports multiple windows
-
-### Easy snipping is only a single step away
-
-**WIN + Shift + S** will bring up a snipping toolbar – snip a rectangle, something a bit more freeform, or full screen and it will go straight to your clipboard. Immediately after taking a snip you’ll also get a notification that will take you and your snip to the Snip & Sketch app where you can annotate and share away!
-
-![screen sketch](images/screen-sketch2.png "screen sketch")
-
-Is the **WIN + Shift + S** keyboard shortcut too long to remember? Guess what! We’ve added easy entry options for every input modality: 
-* __Just click the pen tail button__. If you have a pen, go into __Pen & Windows Ink Settings__ – you’ll find screen snipping is now an option for single click. This will launch you directly into our snipping experience:
-
-![pen settings](images/pensettingsinked.png "pen settings")
-
-* __Press Print Screen__. You heard it right, just one button! It’s not enabled by default – go to Keyboard Settings – you’ll see a new option that says __Use the Print Screen key to launch screen snipping__. Opening Settings and searching for __print screen__ will take you to the right page.
- 
-* __Press the quick action button in Action Center__. Called __Screen snip__ – it should be there as soon as you upgrade, but if not you can always enable it via Notifications & Actions Settings.
-
 ## Say hello to your new clipboard experience! (Cloud Clipboard)
 
 Copy/paste is something we all do, probably multiple times a day. But what do you do if you need to copy the same few things again and again? How do you copy content across your devices? In Windows 10, version 1809 we're addressing that and taking the clipboard to the next level. Press **WIN + V** and you'll be presented with our new clipboard experience.  
@@ -70,45 +41,26 @@ Our new settings page for enabling this experience is under __Settings > System 
 
 __Note:__ Roaming text on the clipboard is supported for text-only content less than 100kb. Currently, the clipboard history supports plain text, HTML and images less than 4MB. 
 
+## File Explorer Improvements
 ## Dark theme comes to File Explorer (and more!) 
 
 As many of you know, we added dark theme support to Windows based on your feedback. This setting is available under __Settings > Personalization > Colors__, and if you switch it any apps and system UI that support it will follow suit. Since releasing this feature, our top feedback request from you has been to update File Explorer to support dark theme. Along the way, we also added dark theme support to the File Explorer context menu, as well as the Common File Dialog (aka the Open and Save dialogs). Thanks again for everyone’s feedback!
 
 ![dark theme](images/dark-theme.png "dark theme")
 
-## Notepad Improvements
+### High Efficiency Image File Format (HEIF)
+We are happy to announce that you can now rotate HEIF-format images in File Explorer, and edit metadata, such as “Date taken”.
 
-### Extended line endings support
-Introducing extended line endings support for Notepad: we’re excited to let you know that in addition to Windows line endings (CRLF), Notepad now supports Unix/Linux line endings (LF) and Macintosh line endings (CR)!
+The new functionality requires the latest version of the HEIF package. The latest version will be installed automatically be the Store. If automatic updates are disabled you can download the HEIF package manually [here](https://aka.ms/HEIFpackage).
 
-### Wrap-around find and replace 
+HEIF files use the HEVC video codec to compress the image into approximately half the size of JPEG. If your Windows PC does not already have the HEVC video codec, it can be purchased from the Windows Store using [this link](https://aka.ms/HEVCcodec).
 
-We’ve made significant improvement to the find and replace experience in Notepad. We added the option to do wrap-around find and replace to the find dialog. Notepad will remember previously entered values and the state of check boxes, and will automatically populate them the next time you open the find dialog. Additionally, when you have text selected and open the find dialog we will automatically populate the search field with the selected text.
+You can now rotate HEIF-format images in File Explorer, and edit metadata, such as "Date taken". 
+The new functionality requires the latest version of the HEIF package. The latest version will be installed automatically be the Microsoft Store. If automatic updates are disabled you can download the HEIF package manually using [this link](https://aka.ms/HEIFpackage). 
 
-![wrap around find and replace](images/notepad.png "wrap around find and replace")
+To rotate a HEIF image file, simply right-click on it in File Explorer and select "Rotate right" or "Rotate left" from the menu. "Date taken" and other properties can be edited by clicking on "Properties" and selecting the "Details" tab.
 
-### Text zooming
-
-We’ve added options to make it quick and easy to zoom text in Notepad. There is a new menu option under __View > Zoom__ to change the zoom level and we display the current zoom level in the status bar. You can also use **Ctrl + Plus**, **Ctrl + Minus** and **Ctrl + MouseWheel** to zoom in and out and use **Ctrl + 0** to restore the zoom level to the default.
-
-![text zooming](images/zooming2.png "text zooming")
-
-### Line numbers with word-wrap
-
-Notepad can display line and column numbers when word-wrap is enabled, and we’ve made the status bar visible by default. You can still turn the status bar off in the **View** menu.
-
-![word-wrap](images/linenumbers.png "word-wrap")
-
-### Search with Bing
-
-To use simply highlight any words or phrase in Notepad and you can search Bing using the following methods:
-* Select text and choose **Search with Bing** via the right-click (context) menu.
-* Edit menu ->**Search with Bing…**
-* **CTRL + B**.
-
-We made the search experience broader so you can access information and actions faster than ever. 
-
-![notepad bing search](images/notepad-bing-search.png "notepad bing search")
+![HEIF in file explorer](images/heic2.png "HEIF in file explorer")
 
 ## Wireless projection experience
 
@@ -125,23 +77,26 @@ One of the things we’ve heard from you is that it’s hard to know when you’
 
 ![Swiftkey](images/swift2.png "Swiftkey")
 
+## Typing Insights
+
 Windows shows you insights about how artificial intelligence (AI) helps you type with efficiency. If you use the software keyboard on Windows, there are many features built into the typing experience that leverage AI and machine learning(ML) to help you be more efficient. Some examples include autocorrecting your spelling mistakes, predicting next word you would type, suggesting a word as you start typing so you don’t have to type the full word, and displaying the number of words you typed when you swipe over the letters on the software keyboard.
 
 Windows now shows you stats about each of these features. Go to **Settings > Devices > Typing** and click on **View typing insights** to see them.
+<br/>
 ![typing insights](images/typing-insights.png "typing insights")
 
 ### Emoji 11
 
 [Unicode 11 comes with 157 new emoji](http://blog.unicode.org/2018/06/announcing-unicode-standard-version-110.html). Superheroes, redheads, a softball, a pirate flag, and a llama all made the cut. You can access them using the Emoji Panel **WIN + (Period)** or via the touch keyboard.
 
-![new emojis](images/WindowsInsiderBlog_EmojiRS5.png "new emojis")
+![new emojis](images/EmojiRS5.png "new emojis")
 
 We’ve also made tweaks to some of our existing emoji – here are some examples:
 
 ![emojis before after combo](images/emoji_beforeaftercombo.png "emojis before after combo")
 
 Our ninja cats got a bit of love too – can you spot the difference?
-![ninja cat emojis](images/WindowsInsiderBlog_EmojiRS5_NinjaCats.png "ninja cat emojis")
+![ninja cat emojis](images/EmojiRS5_NinjaCats.png "ninja cat emojis")
 
 __Emoji search comes to more languages__: You can find an emoji by keyword in over 190 locales, including English (Great Britain), French (France), German (Germany), Spanish (Spain), and more. This will help you get the emoji you want easily and quickly. As a reminder, to bring up the Emoji Panel set focus to a text field and press WIN + (period) or WIN + (semicolon).
 
@@ -659,11 +614,11 @@ For more details about these new improvements, please see our announcement [here
 
 **Taking the Microsoft Pinyin and Wubi IMEs to the next level:** Do you write in Chinese (Simplified)? We’re updating the Microsoft Pinyin IME! We’ve been focusing on addressing your performance, reliability and compatibility feedback. You’ll also notice a number of other improvements, including:
 
-__We updated the Microsoft Pinyin IME__. We’ve been focusing on addressing your performance, reliability and compatibility feedback. You'll also notice a number of other improvements, including design improvements, a new logo for the Microsoft Pinyin IME, new IME toolbar, and dark theme support!
+*__We updated the Microsoft Pinyin IME__. We’ve been focusing on addressing your performance, reliability and compatibility feedback. You'll also notice a number of other improvements, including design improvements, a new logo for the Microsoft Pinyin IME, new IME toolbar, and dark theme support!
 
 ![new look for imes](images/imeupdate.png "new look for imes")
 
-__We updated the context menu__. We’ve added options to the IME mode indicator’s context menu in the taskbar, so you can quickly access the things you need.
+*__We updated the context menu__. We’ve added options to the IME mode indicator’s context menu in the taskbar, so you can quickly access the things you need.
 
 ![IME context menu](images/ime-context-menu.png "IME context menu")
 
@@ -684,20 +639,6 @@ For more details about these new improvements, please see our announcement [here
 
 ## Kernel debugging improvements 
 We are adding support for IPv6 to KDNET. To make room for the larger headers required for IPv6, we decreased the payload size of packets. As a result, we’re declaring a new version of the protocol, so that host PCs running the latest version of the debugger can be used to debug target PCs that only support IPv4. There is a version of WinDbg Preview available at [http://aka.ms/windbgpreview](http://aka.ms/windbgpreview). Follow the [Debugging Tools for Windows](http://aka.ms/windbgblog) blog for updates on KDNET IPv6 support and documentation. 
-
-## Task Manager Improvements
-
-**Task Manager Memory Reporting Improvements:** We are making a small change in how memory used by suspended UWP apps/processes appears in Task Manager. Going forward, the main memory column in Task Manager “Processes” tab will not include memory used by suspended UWP processes. This is to more accurately reflect the OS behavior in which the OS can reclaim memory used by suspended UWP processes if needed. This means that if you have several UWP processes suspended in the background, the OS can take back memory from these suspended UWP processes if needed and use it for something that requires more memory. New and old memory columns will be available in “Details” tab for you to do comparisons if you want.
-New Power Usage Columns: Task Manager now includes 2 new columns in the “Processes” tab to show energy impact of the running process on their system. This should help our customers to understand which apps/services are using the maximum power vs. the least power-hungry apps. The metric takes CPU, GPU & Disk into evaluation when calculating power usage.
-* Power usage: This column will provide an instantaneous view of apps/services using power.
-* Power usage trend: This column provides a power usage trend over 2 mins for each running apps/services. This column will be blank when you start an app but will populate based on the power usage every 2 mins.
-
-![task manager](images/task-manager.png "task manager")
-
-## Registry Editor Improvements
-Have you ever been typing into the regedit address bar, and the next part of the path is just on the tip of your tongue, but you can’t remember? Starting with today’s build, you’ll now see a dropdown as you type to help complete the next part of the path! Oh, and you can also press Ctrl + Backspace to delete the last “word”, which makes backing up work that much faster (Ctrl + Delete will delete the next word).
-
-![registry editor](images/reg-editor.png "registry editor")
 
 ## Privacy Improvements
 
@@ -729,6 +670,10 @@ If access to the microphone has been disabled in your privacy settings, we’ll 
 
 ![microphone privacy toast](images/micprivacy_toastonly.png "microphone privacy toast")
 
+### Privacy settings layout in the set-up experience 
+
+__Changes to the set up experience for privacy settings__ This new design conveys focused information to help our customers make focused choices about their privacy and offers two new settings for inking & typing, and find my device.
+
 ## Font installation for non-admin users
 
 Have you ever wanted to use your own fonts from your account on a shared school or work PC, but couldn’t because you didn’t have the administrator privileges required to install the fonts? Well, we’ve heard your frustration about this and have made some changes.
@@ -759,16 +704,6 @@ We use this model on internal devices, and we see promising results upon rollout
 
 If you find your device restarting at the wrong time, please file a bug in the [feedback hub](https://aka.ms/updatefeedback) with the details on your experience. (i.e. I went to grab a cup of coffee for 5 minutes and it updated!). We would love to hear your stories and take it into account when training our update model.
 
-
-## Privacy improvements
-We wanted to let you know that if access to the microphone has been disabled in your privacy settings, we’ll now pop a notification the first time an attempt to use the microphone is blocked, so that you can review the settings.
-
-![microphone disabled](images/micprivacy_toastonly.png "microphone disabled")
-
-### Privacy settings layout in the set-up experience 
-
-__Changes to the set up experience for privacy settings__ This new design conveys focused information to help our customers make focused choices about their privacy and offers two new settings for inking & typing, and find my device.
-
 ## RSAT is now available on demand!
 You no longer have to manually download RSAT every time you upgrade! Just go to **Manage optional features** in Settings and click **Add a feature**. You’ll now see all of the RSAT components listed. Pick the ones you want, and the next time you upgrade Windows will automatically ensure that those components remain after the upgrade, just like any of our other on-demand features, like speech resources or OpenSSH. 
 
@@ -790,8 +725,57 @@ You no longer have to manually download RSAT every time you upgrade! Just go to 
 ![text controls](images/for-devs.png "text controls")
 
 ## Notable App Updates
-### Skype for Windows 10 gets a big update! 
-This new [Skype for Windows 10 update](https://aka.ms/skypeinsider_windows10) brings all the latest and greatest Skype capabilities to Windows 10 users.
+
+### Snip & Sketch
+
+The new snipping experience is here to help you capture and annotate what you see on your screen. 
+
+![screen sketch](images/screen-sketch1.png "screen sketch")
+
+Originally introduced as part of the Windows Ink Workspace, the **Snip & Sketch** app comes with a variety of benefits, including:
+1. It can be updated via the Microsoft Store
+2. It can be found in the app list when you press Alt + tab
+3. You can set the window size to your preference
+4. It supports multiple windows
+
+**WIN + Shift + S** will bring up a snipping toolbar – snip a rectangle, something a bit more freeform, or full screen and it will go straight to your clipboard. Immediately after taking a snip you’ll also get a notification that will take you and your snip to the Snip & Sketch app where you can annotate and share away!
+
+![screen sketch](images/screen-sketch2.png "screen sketch")
+
+We also added additional entry options for different input modalities: 
+* __Just click the pen tail button__. If you have a pen, go into __Pen & Windows Ink Settings__ – you’ll find screen snipping is now an option for single click. This will launch you directly into our snipping experience:
+
+![pen settings](images/pensettingsinked.png "pen settings")
+
+* __Press Print Screen__. You’ll see a new option that says __Use the Print Screen key to launch screen snipping__. Opening Settings and searching for __print screen__ will take you to the right page.
+ 
+* __Press the quick action button in Action Center__. Called __Screen snip__ – it should be there as soon as you upgrade, but if not you can always enable it via Notifications & Actions Settings.
+
+### Notepad Improvements
+
+**Extended line endings support**: In addition to Windows line endings (CRLF), Notepad now supports Unix/Linux line endings (LF) and Macintosh line endings (CR).
+
+**Wrap-around find and replace**: We added the option to do wrap-around find and replace to the find dialog. Notepad will remember previously entered values and the state of check boxes, and will automatically populate them the next time you open the find dialog. Additionally, when you have text selected and open the find dialog we will automatically populate the search field with the selected text.
+
+![wrap around find and replace](images/notepad.png "wrap around find and replace")
+
+**Text zooming**: We added a new menu option under __View > Zoom__ to change the zoom level, and we display the current zoom level in the status bar. You can also use **Ctrl + Plus**, **Ctrl + Minus** and **Ctrl + MouseWheel** to zoom in and out and use **Ctrl + 0** to restore the zoom level to the default.
+
+![text zooming](images/zooming2 .png "text zooming")
+
+**Line numbers with word-wrap**: Notepad can display line and column numbers when word-wrap is enabled, and we’ve made the status bar visible by default. You can still turn the status bar off in the **View** menu.
+
+![word-wrap](images/linenumbers.png "word-wrap")
+
+**Search with Bing**:To use, highlight a word or phrase in Notepad and you can search Bing using the following methods:
+* Select text and choose **Search with Bing** via the right-click (context) menu.
+* Edit menu ->**Search with Bing…**
+* **CTRL + B**. 
+
+![notepad bing search](images/notepad-bing-search.png "notepad bing search")
+
+### Skype for Windows 10 Improvements
+This new [Skype for Windows 10 update](https://aka.ms/skypeinsider_windows10) brings all of the latest Skype capabilities to Windows 10 users.
 
 Here’s a sample of what’s new:
 * **Best in class calling experience**- We’ve added several new calling features to make Skype’s calling experience even better than before.
@@ -812,24 +796,24 @@ Previously, when you would calculate the square root of 4, the result would be 1
 
 After this update, the square root calculation now recognizes perfect squares and correctly returns exactly 2 for the square root of 4.
 
-## High Efficiency Image File Format (HEIF)
-We are happy to announce that you can now rotate HEIF-format images in File Explorer, and edit metadata, such as “Date taken”.
-
-The new functionality requires the latest version of the HEIF package. The latest version will be installed automatically be the Store. If automatic updates are disabled you can download the HEIF package manually [here](https://aka.ms/HEIFpackage).
-
-HEIF files use the HEVC video codec to compress the image into approximately half the size of JPEG. If your Windows PC does not already have the HEVC video codec, it can be purchased from the Windows Store using [this link](https://aka.ms/HEVCcodec).
-
-You can now rotate HEIF-format images in File Explorer, and edit metadata, such as "Date taken". 
-The new functionality requires the latest version of the HEIF package. The latest version will be installed automatically be the Microsoft Store. If automatic updates are disabled you can download the HEIF package manually using [this link](https://aka.ms/HEIFpackage). 
-
-To rotate a HEIF image file, simply right-click on it in File Explorer and select "Rotate right" or "Rotate left" from the menu. "Date taken" and other properties can be edited by clicking on "Properties" and selecting the "Details" tab.
-
-![HEIF in file explorer](images/heic2.png "HEIF in file explorer")
-
 ### Microsoft Font Maker app
 With the **Microsoft Font Maker** app you can use your pen to create a custom font based on the nuances of your own handwriting – currently available via the [Microsoft Store](https://www.microsoft.com/store/productId/9N9209F8S3VC) and we’d love to hear your feedback! Install the fonts you create to add a personal touch to everything you do!
 
 ![font maker](images/font-maker.png "font-maker")
+
+### Task Manager Improvements
+
+**Task Manager Memory Reporting Improvements:** We are making a small change in how memory used by suspended UWP apps/processes appears in Task Manager. Going forward, the main memory column in Task Manager “Processes” tab will not include memory used by suspended UWP processes. This is to more accurately reflect the OS behavior in which the OS can reclaim memory used by suspended UWP processes if needed. This means that if you have several UWP processes suspended in the background, the OS can take back memory from these suspended UWP processes if needed and use it for something that requires more memory. New and old memory columns will be available in “Details” tab for you to do comparisons if you want.
+New Power Usage Columns: Task Manager now includes 2 new columns in the “Processes” tab to show energy impact of the running process on their system. This should help our customers to understand which apps/services are using the maximum power vs. the least power-hungry apps. The metric takes CPU, GPU & Disk into evaluation when calculating power usage.
+* Power usage: This column will provide an instantaneous view of apps/services using power.
+* Power usage trend: This column provides a power usage trend over 2 mins for each running apps/services. This column will be blank when you start an app but will populate based on the power usage every 2 mins.
+
+![task manager](images/task-manager.png "task manager")
+
+### Registry Editor Improvements
+Have you ever been typing into the regedit address bar, and the next part of the path is just on the tip of your tongue, but you can’t remember? Starting with today’s build, you’ll now see a dropdown as you type to help complete the next part of the path! Oh, and you can also press Ctrl + Backspace to delete the last “word”, which makes backing up work that much faster (Ctrl + Delete will delete the next word).
+
+![registry editor](images/reg-editor.png "registry editor")
 
 
 
