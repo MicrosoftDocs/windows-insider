@@ -158,7 +158,7 @@ To evaluate: Credential Guard is preconfigured and enabled for both S-Mode and E
 
 ### Windows 10 Pro S Mode requires a network connection (Build 17712)
 
-Starting with Windows 10 Pro S Mode build 17712, a network connection is now required to set up a new device. As a result, we removed the “skip for now” option in the network setup page in OOBE. 
+Starting with Windows 10 Pro S Mode build 17712, a network connection is required to set up a new device. As a result, we removed the “skip for now” option in the network setup page in OOBE. 
 
 ## Faster sign-in to a Windows 10 shared pc
 Do you have shared PCs deployed in your work place? Introducing “fast sign-in,” which enables users to sign in to a shared Windows 10 PC in a flash!
