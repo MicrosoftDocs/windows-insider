@@ -100,6 +100,10 @@ Our ninja cats got a bit of love too – can you spot the difference?
 
 __Emoji search comes to more languages__: You can find an emoji by keyword in over 190 locales, including English (Great Britain), French (France), German (Germany), Spanish (Spain), and more. This will help you get the emoji you want easily and quickly. As a reminder, to bring up the Emoji Panel set focus to a text field and press WIN + (period) or WIN + (semicolon).
 
+*__The IME now uses the same UX for expressive input as other languages__. You can bring it up by clicking the emoji button in the IME toolbar, or use the Emoji Panel hotkeys (WIN + period (.) or WIN + semicolon (;)). You can browse between Emoji, Kaomoji, and Symbol input when Chinese (Simplified) is the active locale.
+
+![ime emojis](images/imeemoji.png "ime emojis")
+
 ## Post-upgrade setup
 
 You may see this window showing after you upgrade. Don’t worry – all your stuff is still there! We know some of you bought and setup your devices a long time ago. The features available in Windows have changed since then, so we’re giving you an opportunity to go through the setup questions you may have missed to ensure your device has the best configuration for you. Click **Let’s Go** to go through those setup questions or click **Skip for now** if you want to go straight to your desktop. 
@@ -578,7 +582,6 @@ That means you can now make text bigger in Start, File Explorer, Settings, etc.,
 We’ve heard your feedback asking us for a way to keep your mouse centered on the screen in Full-Screen mode, in the Windows 10 October 2018 Update we’re making it happen! This new option under **Settings > Ease of Access > Magnifier > Keep the mouse cursor > Centered on the screen** enables easier tracking and use of the mouse, especially helpful at higher magnification levels.  In addition, you now have more control over zoom level increments with the addition of 5% and 10% under the Change zoom level setting.
 
 ![Magnifier settings, Keep the mouse cursor, centered on the screen option](images/CenterOnTheScreen.png "Magnifier settings, Keep the mouse cursor, centered on the screen option")
-
 ## Narrator improvements 
 
 * **Reliability**: We have made improvements in Narrator reliability. 
@@ -608,23 +611,8 @@ For more information about Narrator new keyboard layout and other improvements, 
 
 For more details about these new improvements, please see our announcement [here](https://blogs.technet.microsoft.com/networking/2018/07/18/top10-ws2019-hatime/).
 
-## Microsoft Input Method Editor (IME) Improvements
 
-(Note: Use the Microsoft Input Method Editor (IME) to type in East Asian languages you’ve installed on your PC. Press and hold (or right-click) the input method indicator to switch input modes, then open the IME pad or open more IME settings. For some languages, you'll have more options such as the dictionary tool for Japanese.)
 
-**Taking the Microsoft Pinyin and Wubi IMEs to the next level:** Do you write in Chinese (Simplified)? We’re updating the Microsoft Pinyin IME! We’ve been focusing on addressing your performance, reliability and compatibility feedback. You’ll also notice a number of other improvements, including:
-
-*__We updated the Microsoft Pinyin IME__. We’ve been focusing on addressing your performance, reliability and compatibility feedback. You'll also notice a number of other improvements, including design improvements, a new logo for the Microsoft Pinyin IME, new IME toolbar, and dark theme support!
-
-![new look for imes](images/imeupdate.png "new look for imes")
-
-*__We updated the context menu__. We’ve added options to the IME mode indicator’s context menu in the taskbar, so you can quickly access the things you need.
-
-![IME context menu](images/ime-context-menu.png "IME context menu")
-
-*__The IME now uses the same UX for expressive input as other languages__. You can bring it up by clicking the emoji button in the IME toolbar, or use the Emoji Panel hotkeys (WIN + period (.) or WIN + semicolon (;)). You can browse between Emoji, Kaomoji, and Symbol input when Chinese (Simplified) is the active locale.
-
-![ime emojis](images/imeemoji.png "ime emojis")
 
 
 ## Time accuracy and traceability improvements
