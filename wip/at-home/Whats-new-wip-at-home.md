@@ -125,9 +125,12 @@ One of the things we’ve heard from you is that it’s hard to know when you’
 
 ![Swiftkey](images/swift2.png "Swiftkey")
 
+## Typing Insights
+
 Windows shows you insights about how artificial intelligence (AI) helps you type with efficiency. If you use the software keyboard on Windows, there are many features built into the typing experience that leverage AI and machine learning(ML) to help you be more efficient. Some examples include autocorrecting your spelling mistakes, predicting next word you would type, suggesting a word as you start typing so you don’t have to type the full word, and displaying the number of words you typed when you swipe over the letters on the software keyboard.
 
 Windows now shows you stats about each of these features. Go to **Settings > Devices > Typing** and click on **View typing insights** to see them.
+<br/>
 ![typing insights](images/typing-insights.png "typing insights")
 
 ### Emoji 11
