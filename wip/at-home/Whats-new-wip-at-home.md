@@ -317,7 +317,7 @@ We have expanded previews to support apps, documents, and more. Search previews 
 
 We made the Search experience wider so you can access information and actions in the preview faster than ever. The preview will be updated and improved over time, as we develop and add more features. 
 
-![calendar with search](images/search-2.jpg "wider search experience")
+![calendar with search](images/search-2.png "wider search experience")
 
 ### Find software downloads faster in Search
 Continuing our theme of improving the search preview experience, we’re rolling out an update to make it easier to find official download pages for Windows software you want to install. 
