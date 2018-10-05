@@ -160,11 +160,7 @@ To learn more about the Autopilot Self-Deploying feature and see the step by ste
 
 Windows Defender Credential Guard is a security service in Windows 10 built to protect Active Directory domain (AD) credentials so that they can't be stolen or misused by malware on a users machine. It is designed to protect against well-known threats such as Pass-the-Hash and credential harvesting.
 
-<<<<<<< HEAD
 Windows Defender Credential Guard has always been an optional feature, but Windows 10-S turns this functionality on by default when the machine has been AAD joined. This provides an added level of security when connecting to domain resources not normally present on 10-S devices. Please note that Windows Defender Credential Guard is available only to S-Mode devices or Enterprise and Education Editions. 
-=======
-Windows Defender Credential Guard has always been an optional feature, but Windows 10-S turns this functionality on by default when the machine has been AAD joined. This provides an added level of security when connecting to domain resources not normally present on 10-S devices. Please note that Credential Guard is available only to S-Mode devices or Enterprise and Education Editions. 
->>>>>>> e3c373f2e71fb492f4094c7ae44177e572872558
 
 To evaluate: Windows Defender Credential Guard is preconfigured and enabled for both S-Mode and Enterprise Edition in the [Windows Insider Lab for Enterprise](https://olympia.windows.com/). To configure manually in your own lab environment: 
 
