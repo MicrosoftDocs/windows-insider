@@ -137,14 +137,14 @@ Windows now shows you stats about each of these features. Go to **Settings > Dev
 
 [Unicode 11 comes with 157 new emoji](http://blog.unicode.org/2018/06/announcing-unicode-standard-version-110.html). Superheroes, redheads, a softball, a pirate flag, and a llama all made the cut. You can access them using the Emoji Panel **WIN + (Period)** or via the touch keyboard.
 
-![new emojis](images/WindowsInsiderBlog_EmojiRS5.png "new emojis")
+![new emojis](images/EmojiRS5.png "new emojis")
 
 We’ve also made tweaks to some of our existing emoji – here are some examples:
 
 ![emojis before after combo](images/emoji_beforeaftercombo.png "emojis before after combo")
 
 Our ninja cats got a bit of love too – can you spot the difference?
-![ninja cat emojis](images/WindowsInsiderBlog_EmojiRS5_NinjaCats.png "ninja cat emojis")
+![ninja cat emojis](images/EmojiRS5_NinjaCats.png "ninja cat emojis")
 
 __Emoji search comes to more languages__: You can find an emoji by keyword in over 190 locales, including English (Great Britain), French (France), German (Germany), Spanish (Spain), and more. This will help you get the emoji you want easily and quickly. As a reminder, to bring up the Emoji Panel set focus to a text field and press WIN + (period) or WIN + (semicolon).
 
