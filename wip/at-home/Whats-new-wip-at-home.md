@@ -27,7 +27,7 @@ Notice a desktop pin? It’ll take you directly to the **Your Phone** app – fo
 
 For more information about **Your Phone**, see [Your Phone app help](https://support.microsoft.com/en-us/help/4459358/windows-10-your-phone-app-help).
 
-## Say hello to your new clipboard experience! (Cloud Clipboard)
+##Cloud Clipboard
 
 Copy/paste is something we all do, probably multiple times a day. But what do you do if you need to copy the same few things again and again? How do you copy content across your devices? In Windows 10, version 1809 we're addressing that and taking the clipboard to the next level. Press **WIN + V** and you'll be presented with our new clipboard experience.  
 
@@ -42,7 +42,7 @@ Our new settings page for enabling this experience is under __Settings > System 
 __Note:__ Roaming text on the clipboard is supported for text-only content less than 100kb. Currently, the clipboard history supports plain text, HTML and images less than 4MB. 
 
 ## File Explorer Improvements
-## Dark theme comes to File Explorer (and more!) 
+## Dark theme in File Explore 
 
 As many of you know, we added dark theme support to Windows based on your feedback. This setting is available under __Settings > Personalization > Colors__, and if you switch it any apps and system UI that support it will follow suit. Since releasing this feature, our top feedback request from you has been to update File Explorer to support dark theme. Along the way, we also added dark theme support to the File Explorer context menu, as well as the Common File Dialog (aka the Open and Save dialogs). Thanks again for everyone’s feedback!
 
@@ -85,7 +85,7 @@ Windows now shows you stats about each of these features. Go to **Settings > Dev
 <br/>
 ![typing insights](images/typing-insights.png "typing insights")
 
-### Emoji 11
+## Emoji 11
 
 [Unicode 11 comes with 157 new emoji](http://blog.unicode.org/2018/06/announcing-unicode-standard-version-110.html). Superheroes, redheads, a softball, a pirate flag, and a llama all made the cut. You can access them using the Emoji Panel **WIN + (Period)** or via the touch keyboard.
 
@@ -100,6 +100,12 @@ Our ninja cats got a bit of love too – can you spot the difference?
 
 __Emoji search comes to more languages__: You can find an emoji by keyword in over 190 locales, including English (Great Britain), French (France), German (Germany), Spanish (Spain), and more. This will help you get the emoji you want easily and quickly. As a reminder, to bring up the Emoji Panel set focus to a text field and press WIN + (period) or WIN + (semicolon).
 
+*__The IME now uses the same UX for expressive input as other languages__. You can bring it up by clicking the emoji button in the IME toolbar, or use the Emoji Panel hotkeys (WIN + period (.) or WIN + semicolon (;)). You can browse between Emoji, Kaomoji, and Symbol input when Chinese (Simplified) is the active locale.
+
+![ime emojis](images/imeemoji.png "ime emojis")
+
+**Note**: Use the Microsoft Input Method Editor (IME) to type in East Asian languages you’ve installed on your PC. Press and hold (or right-click) the input method indicator to switch input modes, then open the IME pad or open more IME settings.
+
 ## Post-upgrade setup
 
 You may see this window showing after you upgrade. Don’t worry – all your stuff is still there! We know some of you bought and setup your devices a long time ago. The features available in Windows have changed since then, so we’re giving you an opportunity to go through the setup questions you may have missed to ensure your device has the best configuration for you. Click **Let’s Go** to go through those setup questions or click **Skip for now** if you want to go straight to your desktop. 
@@ -107,7 +113,6 @@ You may see this window showing after you upgrade. Don’t worry – all your st
 ![oobe](images/SCOOBE-Intro.png "oobe")
 
 ## Microsoft Edge improvements
-
 
 * **A faster safer internet with HTTP/2 and CUBIC**: The internet is part of our daily lives both at work and at home, in the enterprise and in the cloud. We are committed to making your internet experience faster and safer. For example:
 
@@ -186,6 +191,32 @@ Along with highlighting Parts of speech you can now also change the color in whi
 **Line focus:** Helps improve focus while reading an article by highlighting sets of one, three, or five lines.
 
 ![edge line focus](images/edge-line-focus.png "edge line focus")
+
+### Improved Kiosk Setup Experience
+
+We have introduced a simplified assigned access configuration page in Settings that allows device administrators to easily set up their PC as a kiosk or digital sign. This new page provides a wizard experience that walks you through the kiosk setup flow including creating a kiosk account that will automatically sign in on device start.
+
+Please go to Settings, search for assigned access, and open the “Set up a kiosk” page to give it a try. 
+
+![kiosk](images/kiosk.png "kiosk")
+
+For Microsoft Edge kiosk mode running in single-app assigned access the two kiosk types are:
+1.	Digital / Interactive signage that displays a specific website full-screen InPrivate mode.
+2.	Public browsing supports multi-tab browsing and runs InPrivate mode with minimal features available. Users cannot minimize, close, or open a new Microsoft Edge windows or customize it using Microsoft Edge Settings. Users can clear browsing data, clear downloads, and restart Microsoft Edge by clicking **End session.** Administrators can configure Microsoft Edge to restart after a period of inactivity.
+
+![kiosk](images/kiosk-2.png "kiosk")
+
+For Microsoft Edge kiosk mode running in multi-app assigned access the two kiosk types are (Note the following Microsoft Edge kiosk mode types cannot be setup using the new simplified assigned access configuration page in Windows 10 Settings):
+
+3.	Public browsing supports multi-tab browsing and runs InPrivate mode with minimal features available. In this configuration, Microsoft Edge can be one of many apps available. Users can close and open multiple InPrivate windows.
+
+![kiosk](images/kiosk-3.png "kiosk")
+
+4.	Normal mode runs a full version of Microsoft Edge, although some features may not work depending on what apps are configured in assigned access. For example, if the Microsoft Store is not set up, users cannot get books.
+
+![kiosk](images/kiosk-4.png "kiosk")
+
+Learn how to setup Microsoft Edge kiosk mode in the [Microsoft Edge kiosk mode deployment guide](https://docs.microsoft.com/en-us/microsoft-edge/deploy/microsoft-edge-kiosk-mode-deploy).
 
 ### Microsoft Edge Platform Improvements 
 
@@ -446,31 +477,28 @@ We’ve heard your feedback that settings can be confusing sometimes, so we’re
 
 **Note**: The faqs are currently available in English locales only.
 
-### Improved Kiosk Setup Experience
+### Font installation for non-admin users
 
-We have introduced a simplified assigned access configuration page in Settings that allows device administrators to easily set up their PC as a kiosk or digital sign. This new page provides a wizard experience that walks you through the kiosk setup flow including creating a kiosk account that will automatically sign in on device start.
+Have you ever wanted to use your own fonts from your account on a shared school or work PC, but couldn’t because you didn’t have the administrator privileges required to install the fonts? Well, we’ve heard your frustration about this and have made some changes.
 
-Please go to Settings, search for assigned access, and open the “Set up a kiosk” page to give it a try. 
+In the past, fonts in Windows have always been installed for all users. Because that is a system-wide change, it always required admin privilege. The need for an admin was reflected in the user interface. For example, if you browse in File Explorer to a folder containing a font file and right-clicked on the file to bring up the context menu, then the “Install” option would appear with the security badge, which means that it requires an admin.
 
-![kiosk](images/kiosk.png "kiosk")
+If you tried to install a font but didn’t have admin privileges, then you would be presented with a User Account Control dialog, so that an admin could approve the change. If you’re a non-admin user and often need to install (or uninstall) fonts, then that could be a big hassle.
 
-For Microsoft Edge kiosk mode running in single-app assigned access the two kiosk types are:
-1.	Digital / Interactive signage that displays a specific website full-screen InPrivate mode.
-2.	Public browsing supports multi-tab browsing and runs InPrivate mode with minimal features available. Users cannot minimize, close, or open a new Microsoft Edge windows or customize it using Microsoft Edge Settings. Users can clear browsing data, clear downloads, and restart Microsoft Edge by clicking **End session.** Administrators can configure Microsoft Edge to restart after a period of inactivity.
+In the Windows 10 1803 feature update, we introduced fonts in the Microsoft Store. To enable that capability, we needed to make changes deep in Windows to allow a font to be installed for a specific user rather than system-wide. That’s why no admin action is needed when fonts acquired in the Store are installed.
+Now we’ve extended this further to include font files that you obtain from other sources and want to install. Now when you right-click on a font file in **File Explorer**, you’ll see two options. **Install for all users** provides the past, system-wide install capability and requires an admin. But now there is another option: **Install** allows any user, including non-admin users, to install a font for their own use.
 
-![kiosk](images/kiosk-2.png "kiosk")
+![per user fonts](images/install-font.png "per user fonts")
 
-For Microsoft Edge kiosk mode running in multi-app assigned access the two kiosk types are (Note the following Microsoft Edge kiosk mode types cannot be setup using the new simplified assigned access configuration page in Windows 10 Settings):
+Often font files come within a compressed folder (that is, a .zip file). The “Install” context-menu option isn’t available in File Explorer when you view the contents of a compressed folder, but you can double-click the font file within the compressed folder to open it in the font previewer, and that provides an “Install” button. In the past, the button in the font previewer had the security badge, and it would do a system-wide install, requiring an admin. Now the security badge is gone, and the “Install” button in the font previewer performs a single-user font install, which can be done by non-admins.
 
-3.	Public browsing supports multi-tab browsing and runs InPrivate mode with minimal features available. In this configuration, Microsoft Edge can be one of many apps available. Users can close and open multiple InPrivate windows.
+![per user fonts](images/install-font-2.png "per user fonts")
 
-![kiosk](images/kiosk-3.png "kiosk")
 
-4.	Normal mode runs a full version of Microsoft Edge, although some features may not work depending on what apps are configured in assigned access. For example, if the Microsoft Store is not set up, users cannot get books.
+### RSAT is now available on demand!
+You no longer have to manually download RSAT every time you upgrade! Just go to **Manage optional features** in Settings and click **Add a feature**. You’ll now see all of the RSAT components listed. Pick the ones you want, and the next time you upgrade Windows will automatically ensure that those components remain after the upgrade, just like any of our other on-demand features, like speech resources or OpenSSH. 
 
-![kiosk](images/kiosk-4.png "kiosk")
-
-Learn how to setup Microsoft Edge kiosk mode in the [Microsoft Edge kiosk mode deployment guide](https://docs.microsoft.com/en-us/microsoft-edge/deploy/microsoft-edge-kiosk-mode-deploy).
+![RSAT](images/rsat.png "RSAT")
 
 ### See Your Videos Better Outside
 
@@ -608,25 +636,6 @@ For more information about Narrator new keyboard layout and other improvements, 
 
 For more details about these new improvements, please see our announcement [here](https://blogs.technet.microsoft.com/networking/2018/07/18/top10-ws2019-hatime/).
 
-## Microsoft Input Method Editor (IME) Improvements
-
-(Note: Use the Microsoft Input Method Editor (IME) to type in East Asian languages you’ve installed on your PC. Press and hold (or right-click) the input method indicator to switch input modes, then open the IME pad or open more IME settings. For some languages, you'll have more options such as the dictionary tool for Japanese.)
-
-**Taking the Microsoft Pinyin and Wubi IMEs to the next level:** Do you write in Chinese (Simplified)? We’re updating the Microsoft Pinyin IME! We’ve been focusing on addressing your performance, reliability and compatibility feedback. You’ll also notice a number of other improvements, including:
-
-*__We updated the Microsoft Pinyin IME__. We’ve been focusing on addressing your performance, reliability and compatibility feedback. You'll also notice a number of other improvements, including design improvements, a new logo for the Microsoft Pinyin IME, new IME toolbar, and dark theme support!
-
-![new look for imes](images/imeupdate.png "new look for imes")
-
-*__We updated the context menu__. We’ve added options to the IME mode indicator’s context menu in the taskbar, so you can quickly access the things you need.
-
-![IME context menu](images/ime-context-menu.png "IME context menu")
-
-*__The IME now uses the same UX for expressive input as other languages__. You can bring it up by clicking the emoji button in the IME toolbar, or use the Emoji Panel hotkeys (WIN + period (.) or WIN + semicolon (;)). You can browse between Emoji, Kaomoji, and Symbol input when Chinese (Simplified) is the active locale.
-
-![ime emojis](images/imeemoji.png "ime emojis")
-
-
 ## Time accuracy and traceability improvements
 
 *__Leap second support:__ Windows supports these occasional 1-second adjustments in a traceable and UTC-compliant manner. What’s a leap second? As the earth’s rotation slows, [UTC](https://en.wikipedia.org/wiki/Coordinated_Universal_Time) (an atomic timescale) diverges from [mean solar time](https://en.wikipedia.org/wiki/Solar_time#Mean_solar_time) or astronomical time.  Once UTC has diverged by at most .9 seconds, a [leap second](https://en.wikipedia.org/wiki/Leap_second) is inserted to keep UTC in-sync with mean solar time.  Since the practice of inserting leap seconds began in 1972, a leap second has typically occurred every 18 months.
@@ -674,24 +683,6 @@ If access to the microphone has been disabled in your privacy settings, we’ll 
 
 __Changes to the set up experience for privacy settings__ This new design conveys focused information to help our customers make focused choices about their privacy and offers two new settings for inking & typing, and find my device.
 
-## Font installation for non-admin users
-
-Have you ever wanted to use your own fonts from your account on a shared school or work PC, but couldn’t because you didn’t have the administrator privileges required to install the fonts? Well, we’ve heard your frustration about this and have made some changes.
-
-In the past, fonts in Windows have always been installed for all users. Because that is a system-wide change, it always required admin privilege. The need for an admin was reflected in the user interface. For example, if you browse in File Explorer to a folder containing a font file and right-clicked on the file to bring up the context menu, then the “Install” option would appear with the security badge, which means that it requires an admin.
-
-If you tried to install a font but didn’t have admin privileges, then you would be presented with a User Account Control dialog, so that an admin could approve the change. If you’re a non-admin user and often need to install (or uninstall) fonts, then that could be a big hassle.
-
-In the Windows 10 1803 feature update, we introduced fonts in the Microsoft Store. To enable that capability, we needed to make changes deep in Windows to allow a font to be installed for a specific user rather than system-wide. That’s why no admin action is needed when fonts acquired in the Store are installed.
-Now we’ve extended this further to include font files that you obtain from other sources and want to install. Now when you right-click on a font file in **File Explorer**, you’ll see two options. **Install for all users** provides the past, system-wide install capability and requires an admin. But now there is another option: **Install** allows any user, including non-admin users, to install a font for their own use.
-
-![per user fonts](images/install-font.png "per user fonts")
-
-Often font files come within a compressed folder (that is, a .zip file). The “Install” context-menu option isn’t available in File Explorer when you view the contents of a compressed folder, but you can double-click the font file within the compressed folder to open it in the font previewer, and that provides an “Install” button. In the past, the button in the font previewer had the security badge, and it would do a system-wide install, requiring an admin. Now the security badge is gone, and the “Install” button in the font previewer performs a single-user font install, which can be done by non-admins.
-
-![per user fonts](images/install-font-2.png "per user fonts")
-
-
 ## Update experience
 
 Have you ever had to stop what you were doing, or wait for your computer to boot up because the device updated at the wrong time? To alleviate this pain, we’ve updated our reboot logic to use a new system that is more adaptive and proactive. We trained a predictive model that can accurately predict the best time to restart a device. We check to see if you are using your device before we restart and we also try to predict if you just left the device to grab a cup of coffee.
@@ -704,11 +695,6 @@ We use this model on internal devices, and we see promising results upon rollout
 
 If you find your device restarting at the wrong time, please file a bug in the [feedback hub](https://aka.ms/updatefeedback) with the details on your experience. (i.e. I went to grab a cup of coffee for 5 minutes and it updated!). We would love to hear your stories and take it into account when training our update model.
 
-## RSAT is now available on demand!
-You no longer have to manually download RSAT every time you upgrade! Just go to **Manage optional features** in Settings and click **Add a feature**. You’ll now see all of the RSAT components listed. Pick the ones you want, and the next time you upgrade Windows will automatically ensure that those components remain after the upgrade, just like any of our other on-demand features, like speech resources or OpenSSH. 
-
-![RSAT](images/rsat.png "RSAT")
-
 ## Windows Container Improvements
 **New Windows Image:** We’re adding a new base image to the Windows Server container collection. In addition to nanoserver and windowsservercore container images, the new windows image is now available. This image carries even more components than its nanoserver and servercore siblings, meaning it can support applications that have additional API dependencies. Go to https://aka.ms/windowscontainer to learn more and get started.
 ![Windows container](images/windows-container.png "Windows container")
@@ -716,13 +702,7 @@ You no longer have to manually download RSAT every time you upgrade! Just go to 
 **Group managed service account reliability:** We’ve improved the scalability and reliability of containers that use group managed service accounts (gMSA) to access network resources. You should see fewer authentication errors when using a single gMSA with multiple container instances. Additionally, you no longer need to set the container hostname to be the same as the gMSA. We also fixed a bug that prevented you from using gMSAs with Hyper-V isolated containers.
 
 ## For Developers
-**Contextual Commanding Improvements to Text Controls:** Our inbox text controls are now taking advantage of the new CommandBarFlyout control. This allows a number of exciting improvements including:
-* The ability to quickly cut, copy, and paste in textboxes with touch
-* New icons for common actions
-* The ability to bold, italicize, etc. in our rich text surfaces
-* New animations, acrylic treatment, and depth support
-
-![text controls](images/for-devs.png "text controls")
+We have too many new features to list here. Go [here](https://docs.microsoft.com/en-us/windows/uwp/whats-new/windows-10-build-17763) to read all about it.
 
 ## Notable App Updates
 
