@@ -702,13 +702,7 @@ If you find your device restarting at the wrong time, please file a bug in the [
 **Group managed service account reliability:** We’ve improved the scalability and reliability of containers that use group managed service accounts (gMSA) to access network resources. You should see fewer authentication errors when using a single gMSA with multiple container instances. Additionally, you no longer need to set the container hostname to be the same as the gMSA. We also fixed a bug that prevented you from using gMSAs with Hyper-V isolated containers.
 
 ## For Developers
-**Contextual Commanding Improvements to Text Controls:** Our inbox text controls are now taking advantage of the new CommandBarFlyout control. This allows a number of exciting improvements including:
-* The ability to quickly cut, copy, and paste in textboxes with touch
-* New icons for common actions
-* The ability to bold, italicize, etc. in our rich text surfaces
-* New animations, acrylic treatment, and depth support
-
-![text controls](images/for-devs.png "text controls")
+We have too many new features to list here. Go [here](https://docs.microsoft.com/en-us/windows/uwp/whats-new/windows-10-build-17763) to read all about it.
 
 ## Notable App Updates
 
