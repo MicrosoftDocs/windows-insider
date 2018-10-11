@@ -18,9 +18,9 @@ ms.localizationpriority: medium
 Welcome to Flight Hub! Use this dashboard to quickly identify the latest Windows Insider Preview releases for PC, Server, IoT. You can also look up the status of the SDK and ISO images. 
 
 ## Next feature update for Windows 10 (19H1)
-You can get builds of RS5 today if your device is in the Fast ring. RS5 Skip ahead is complete but you can see the builds that went out as Skip Ahead below, marked with an asterisk.
+You can get builds of 19H1 today if your device is in the Fast ring. 
 
-The items with in __bold__ are the latest releases for the individual versions of the item. 
+The items with in **bold** are the latest releases for the individual versions of the item. 
 
 
 | Build | Fast | Slow | Server | IoT | ISO | SDK |
