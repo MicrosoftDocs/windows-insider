@@ -359,9 +359,6 @@ __Audio controls__: Change your default audio output device and mute or adjust t
 
 ![game bar](images/New-Game-bar.png "game bar")
 
-### Game mode improvements
-New options are now available for Game Mode that are expected to improve the gaming experience on desktop PCs.  Gamers on PCs with many background processes may also see performance improvements when they toggle __Dedicate resources__ in Game bar.
-
 ### Focus assist improvements when gaming 
 Now focus assist will turn on automatically when you’re playing any full screen game. No more interruptions when you’re crushing it. This behavior should be turned on automatically, but you can always check by going to __Settings > System > Focus assist__ and ensuring the __When I’m playing a game__ automatic rule is enabled. For more information, see [Windows 10 Tip: How to enable Focus Assist in the Windows 10 April 2018 Update](https://blogs.windows.com/windowsexperience/2018/05/09/windows-10-tip-how-to-enable-focus-assist-in-the-windows-10-april-2018-update/).
 
