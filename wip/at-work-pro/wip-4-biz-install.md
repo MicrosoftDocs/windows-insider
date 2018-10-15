@@ -2,7 +2,7 @@
 title: Install Windows 10 preview builds
 description: how to install Windows Insider builds for enterprise client devices
 services: WIP-at-work-pro
-author: dawn.wood
+author: dawnwood
 manager: elizapo
 ms.assetid: 
 ms.service: WIP-at-work-pro
@@ -10,39 +10,49 @@ ms.tgt_pltfrm: na
 ms.devlang: na
 ms.date: 06/28/2018
 ms.author: dawn.wood
+ms.localizationpriority: medium
 ---
 
+# Install Windows 10 Insider Preview Builds
+You can install Insider Preview builds on individual devices, manage installation across multiple devices in an organization, or install on a virtual machine. 
 
+NOTE: A device must be running a licensed version of Windows 10 to update to an Insider Preview build. 
 
-# Install Windows Insider for Business Preview builds
-The Windows Insider for Business allows you to install preview enterprise client editions of the next version of Windows. You can install Windows 10 Insider Preview builds on individual devices, manage installation across multiple devices in an organization, or install on a virtual machine. 
-
-## Install on an individual device
-Getting set up on a single device is easy. 
-1. Open Windows Insider Program settings. You can find the settings by going to <b>Start > Settings > Update & security > Windows Insider Program</b>. To see this setting, you must have administrator rights to your device.
-2. Click <b>Get started</b> and follow the prompts to link your Microsoft or work account that you used to register as a Windows Insider. 
+## Install on an individual device 
+1. Register as a Windows Insider if you haven't done so already. See [Register](wip-4-biz-register.md). 
+2. Open Windows Insider Program settings. You can find the settings by going to __Start > Settings > Update & security > Windows Insider Program__. To see this setting, you must have administrator rights to your device.
+3. Click __Get started__ and follow the prompts to link your Microsoft or work account that you used to register as a Windows Insider. 
 
 ![alt text](images/wip4biz_prompts.png "Get started button for installing WIP builds")
 
-3. Sign-in using the account you used to register for the Windows Insider Program <b>Next</b>.
-4. Under “What kind of content that you would like to receive”, select <b>active development of Windows</b> to receive Windows 10 Insider Preview builds and click <b>Confirm</b>. Select “Fixes, apps and drivers” if you want to install builds from the Release Preview Ring. 
-5. Under “What pace do you want to receive preview builds” select <b>Fast</b> if you would like to receive the latest Insider Preview builds. Note that this ring may contain bugs and other issues. If you prefer to wait for a more stable build, select <b>Slow</b> . Click <b>Confirm</b>. See [Windows readiness levels and flight rings](wip-4-biz-flight-levels-and-rings.md) for more information about each choice. 
-6. Review the privacy statement and click <b>Continue</b>
-7. Reboot the device. 
-8. Go to <b>Start > Settings > Update & Security > Windows Update</b>, and click Check for updates to download the latest Insider Preview build based on the criteria you selected.
-9. Once the download is complete, reboot your device again. 
-10. The Windows 10 Insider Preview build is on your device. 
+4. Sign-in using the account you used to register for the Windows Insider Program.  
+5. Under “What kind of content that you would like to receive”, select __active development of Windows__ to receive Insider Preview builds and click __Confirm__. Select “Fixes, apps and drivers” if you want to install builds from the Release Preview Ring. 
+6. Under “What pace do you want to receive preview builds” select __Fast__ if you would like to receive the latest Insider Preview builds. If you prefer to wait for a more stable build, select __Slow__. Click __Confirm__. See [Windows readiness levels and flight rings](wip-4-biz-flight-levels-and-rings.md) for more information about each Ring. 
+7. Review the privacy statement and click __Continue__.
+8. Reboot the device. 
+9. To immediately download the latest Insider Preview build based on the criteria you selected, go to __Start > Settings > Update & Security > Windows Update__, and click __Check for updates__ 
+10. Once the download is complete, reboot your device again to complete installation. 
 
-## Install across multiple devices in a domain 
-Administrators can install and manage Insider Preview builds centrally across devices in their domain. To register a domain, you must be registered in the Windows Insider Program with your work account in Azure Active Directory and you have to be a Global Administrator role on that AAD domain. This feature is available on Windows 10 Version 1703 or later. 
+__NOTE:__* If you are not receiving the latest Insider Preview build, check these [troubleshooting tips](https://docs.microsoft.com/en-us/windows-insider/at-work-pro/wip-4-biz-troubleshooting). 
 
-For instructions, see [Manage Windows Insider Preview builds](wip-4-biz-manage-builds.md).
+## Install across multiple devices 
+Administrators can install and manage Insider Preview builds centrally across multiple devices in their organizational domain using Group Policies or MDM Policies. This option requires an Azure AD domain which must be registered in the Windows Insider Program. For instructions, see [Manage Windows Insider Preview builds](wip-4-biz-manage-builds.md).
 
 ## Install on a virtual machine
-There isn't anything special you have to do to run Windows 10 Insider Preview builds on a virtual machine. Once you have a virtual machine set up, you install just as you would on an individual device. If you need help setting up a virtual machine, see [Introduction to Hyper-V on Windows 10](https://docs.microsoft.com/virtualization/hyper-v-on-windows/about/).
+You can run Insider Preview builds as a virtual machine in Hyper-V. This option enables you to run Insider Preview builds without changing the Windows 10 production build already running on a PC.
+* For guidance on setting up virtual machines on your PC see: [Introduction to Hyper-V on Windows 10](https://docs.microsoft.com/virtualization/hyper-v-on-windows/about/).
+* To download the latest Insider Preview build ISO file to run on your virtual machine see: [Windows Insider Preview downloads](https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewadvanced).
+
+## Once you have completed installation
+These tips will help you and your organization get the most out of Insider Preview builds and the Windows Insider Program for Business. 
+* __Check to ensure you have the latest build version.__ Once you have installed an Insider Preview build, the version number will appear in a watermark on the lower right corner of your desktop. You can also confirm the Insider Preview build version installed by going to Settings>About your PC and scrolling to "Windows Specifications". To confirm that you have the latest Insider Preview build version, check our [Flight Hub](https://docs.microsoft.com/en-us/windows-insider/flight-hub/).  
+* __Follow our Windows Insider Program blog.__ As soon as an Insider Preview build is released, we publish a blog with details on feature highlights and fixes. [See the latest blog](https://blogs.windows.com/windowsexperience/tag/windows-insider-program/#ft9PuorWX0ODx38J.97)
+* __Provide us with feedback.__ To help us shape Windows to address your organization's specific needs, submit feedback on Insider Preview builds directly to the Feedback Hub in Windows. [Check guidance for submitting effective feedback](wip-4-biz-feedback-hub.md). 
+* __Use Insider Preview builds to accelerate your next Windows deployment.__ Validating your apps and infrastructure on Insider Preview builds can play an important role in your Windows 10 deployment strategy. You can also use Windows Anlytics to monitor device health and issues. See [Validation guidance](https://insider.windows.com/en-us/for-business-getting-started/#validate). 
+* __Join our community__. Join our [Windows Insider Tech Community](https://techcommunity.microsoft.com/t5/Windows-Insider-Program/bd-p/WindowsInsiderProgram) to share and learn from other IT experts.
 
 ## Supported languages
-Windows 10 Insider Preview is available in the following SKU languages:
+Windows 10 Insider Preview Builds are available in the following SKU languages:
 Arabic (Saudi Arabia), Bulgarian (Bulgaria), Chinese (Simplified, China), Chinese (Traditional, Taiwan), Croatian (Croatia), Czech (Czech Republic), Danish (Denmark), Dutch (Netherlands), English (United Kingdom), English (United States), Estonian (Estonia), Finnish (Finland), French (Canada), French (France), German (Germany), Greek (Greece), Hebrew (Israel), Hungarian (Hungary), Italian (Italy), Japanese (Japan), Korean (Korea), Latvian (Latvia), Lithuanian (Lithuania), Norwegian, Bokmål (Norway), Polish (Poland), Portuguese (Brazil), Portuguese (Portugal), Romanian (Romania), Russian (Russia), Serbian (Latin, Serbia), Slovak (Slovakia), Slovenian (Slovenia), Spanish (Mexico), Spanish (Spain, International Sort), Swedish (Sweden), Thai (Thailand), Turkish (Turkey), Ukrainian (Ukraine).
 
 Windows 10 Insider Preview is available in the following Language Interface Packs (LIP) languages:

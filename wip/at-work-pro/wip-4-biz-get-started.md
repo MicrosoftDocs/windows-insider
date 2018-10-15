@@ -2,7 +2,7 @@
 title: Windows Insider Program for Business getting started
 description: WIP for Business helps you deploy the Windows Insider Program in your enterprise. These topics will help you get started
 services: WIP-at-work
-author: dawn.wood
+author: dawnwood
 manager: elizapo
 layout: LandingPage
 ms.assetid: 
@@ -12,6 +12,7 @@ ms.devlang: na
 ms.topic: landing-page
 ms.date: 06/28/2018
 ms.author: dawn.wood
+ms.localizationpriority: medium
 ---
 
 # Windows Insider Program for Business getting started
@@ -30,7 +31,7 @@ You can get started with two easy steps: register and then install a build.
                     </div>
                     <div class="cardText">
                         <h2>Register</h2>
-                <p>The first step is to register your device or domain. Start here.</p>
+                <p>The first step is to register as a Windows Insider. Start here.</p>
                     </div>
                 </div>
             </div>
@@ -49,7 +50,7 @@ You can get started with two easy steps: register and then install a build.
                     </div>
                     <div class="cardText">
                         <h2>Install</h2>
-                <p>The second step is to install a Windows Insider Preview build. Click here to learn how.</p>
+                <p>The second step is to install a Windows 10 Insider Preview Build. You can install on individual or multiple devices. Click here to learn how.</p>
                     </div>
                 </div>
             </div>

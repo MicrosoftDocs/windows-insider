@@ -2,7 +2,7 @@
 title: Windows Insider Program for Business docs
 description: WIP for Business helps you deploy the Windows Insider Program in your enterprise. The docs cover the new enterprise features we'd like you to test and describes how to do the most common tasks. If you are an administrator or a user in a business environment, you're in the right place. 
 services: WIP-at-work
-author: dawn.wood
+author: dawnwood
 manager: elizapo
 layout: LandingPage
 ms.assetid: 
@@ -12,13 +12,15 @@ ms.devlang: na
 ms.topic: landing-page
 ms.date: 06/28/2018
 ms.author: dawn.wood
+ms.localizationpriority: medium
 ---
 # Windows Insider Program for Business docs
-If you are an IT Pro, incorporating the Windows Insider Program for Business into your deployment plans enables you to prepare your organization for the next update of Windows 10, to deploy new services and tools more quickly, to help secure your applications, and to increase productivity and confidence in the stability of your environment. Specifically, feature flighting (see [Windows readiness levels and flight rings](wip-4-biz-flight-levels-and-rings.md)) allows participants in the Windows Insider Program to deploy pre-production code, to test devices, and to gain early visibility into the next version of Windows. 
 
-If you are a enterprise user, you can also join the Windows Insider for Business program. In some scenarios, you work with your IT Pro to create a domain registration that you can participate in. Either way, you are able to install new builds and provide feedback on them after you register. 
-
-If you are interested in flighting For Windows Server 2019, we also have the Windows Server Insider Program, which you can read about in the [Windows Insider Program for Server docs](https://docs.microsoft.com/en-us/windows-insider/at-work/).
+The Windows Insider Program provides additional benefits to business users. 
+* __Explore new Windows features for business.__ Preview the next Windows security, management and productivity features. Install and manage Insider Preview builds on single or across multiple PCs. 
+* __Accelerate your Windows deployment.__ Use Windows 10 Insider Preview Builds to validate your apps and infrastructure ahead of the next public Windows release. See [How to use Insider Preview builds to validate applications and infrastructure](https://insider.windows.com/en-us/for-business-getting-started/#explore). 
+* __Improve Windows for your business.__ Submit feedback on behalf of your organization to help shape Windows for your specific business needs. You can also track feedback submitted by other users in your organization. 
+* __Get Windows Server Insider Preview.__ Along with Windows, you can download the latest Windows Server preview and Remote Server Administration tools. See [Windows Insider Program for Server docs](https://docs.microsoft.com/en-us/windows-insider/at-work/).
 
 <ul class="cardsF panelContent">
     <li>
@@ -65,7 +67,7 @@ If you are interested in flighting For Windows Server 2019, we also have the Win
 
 <ul class="cardsF panelContent cols cols2">
     <li>
-        <a href="https://support.microsoft.com/help/4021566/windows-10-send-feedback-to-microsoft-with-feedback-hub-app">
+        <a href="https://docs.microsoft.com/en-us/windows-insider/at-work-pro/wip-4-biz-feedback-hub">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">

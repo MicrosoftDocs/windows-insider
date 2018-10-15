@@ -7,12 +7,13 @@ ms.date: 04-17-2018
 ms.topic: hub-page
 title: Windows Insider Program docs
 description: The Windows Insider Program lets you get preview builds of Windows 10 and Windows Server 2019, and provide feedback directly to Microsoft.
+ms.localizationpriority: medium
 ---
 
 <div id="main" class="v2">
 <div class="container">
     <h1>Windows Insider Program documentation</h1>
-    <p>The <a href="https://insider.windows.com/"><b>Windows Insider Program</b></a> lets you get preview builds of Windows 10 and Windows Server 2019, so that you can try out new features and  provide feedback directly to Microsoft.</p>
+    <p>The <a href="https://insider.windows.com/" <b>Windows Insider Program </b></a> lets you get preview builds of Windows 10 and Windows Server 2019, so that you can try out new features and  provide feedback directly to Microsoft.</p>
     <p> </p>
     <ul class="pivots">
         <li>

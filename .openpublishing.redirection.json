@@ -1,0 +1,9 @@
+{
+    "redirections": [
+    {
+    "source_path": "windows-insider/at-work-pro/wip-4-biz-aad.md",
+    "redirect_url": "https://docs.microsoft.com/en-us/windows-insider/at-work-pro/wip-4-biz-register",
+    "redirect_document_id": true
+    }
+    ]
+    }
