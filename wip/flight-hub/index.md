@@ -18,9 +18,9 @@ ms.localizationpriority: medium
 Welcome to Flight Hub! Use this dashboard to quickly identify the latest Windows Insider Preview releases for PC, Server, IoT. You can also look up the status of the SDK and ISO images. 
 
 ## Next feature update for Windows 10 (19H1)
-You can get builds of RS5 today if your device is in the Fast ring. RS5 Skip ahead is complete but you can see the builds that went out as Skip Ahead below, marked with an asterisk.
+You can get builds of 19H1 today if your device is in the Fast ring. 
 
-The items with in __bold__ are the latest releases for the individual versions of the item. 
+The items with in **bold** are the latest releases for the individual versions of the item. 
 
 
 | Build | Fast | Slow | Server | IoT | ISO | SDK |
@@ -42,9 +42,9 @@ Builds of Windows Server 2019 are released to members of the Windows Insider Pro
 
 | Build | Fast | Slow | Server | IoT | ISO | SDK |
 |-------|------|------|--------|-----|-----|-----|
-|17763|[__9/18/2018__](https://blogs.windows.com/windowsexperience/2018/09/18/announcing-windows-10-insider-preview-build-17763/)|[__9/20/2018__](https://blogs.windows.com/windowsexperience/2018/09/18/announcing-windows-10-insider-preview-build-17763/)||[__9/21/2018__](https://social.msdn.microsoft.com/Forums/en-US/cfb8cb1c-cecc-4116-aed1-c7a002464dcf/new-flight-17763-released-for-insiders?forum=WindowsIoT)||[__9/25/2018__](https://blogs.windows.com/buildingapps/2018/09/25/windows-10-sdk-preview-build-17763-available-now/)
-|17760|[9/14/2018](https://blogs.windows.com/windowsexperience/2018/09/11/announcing-windows-10-insider-preview-build-17758/)
-|17758|[9/11/2018](https://blogs.windows.com/windowsexperience/2018/09/11/announcing-windows-10-insider-preview-build-17758/)|[9/14/2018](https://blogs.windows.com/windowsexperience/2018/09/11/announcing-windows-10-insider-preview-build-17758/#YqvMxV0HqRaS5KcE.97)|||[__9/18/2018__](https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewadvanced)|[__9/18/2018__](https://blogs.windows.com/buildingapps/2018/09/18/windows-10-sdk-preview-build-17758-available-now/)
+|17763|[__9/18/2018__](https://blogs.windows.com/windowsexperience/2018/09/18/announcing-windows-10-insider-preview-build-17763/)|[__9/20/2018__](https://blogs.windows.com/windowsexperience/2018/09/18/announcing-windows-10-insider-preview-build-17763/)||||[__9/25/2018__](https://blogs.windows.com/buildingapps/2018/09/25/windows-10-sdk-preview-build-17763-available-now/)
+|17760|[9/14/2018](https://blogs.windows.com/windowsexperience/2018/09/14/announcing-windows-10-insider-preview-build-17760/)
+|17758|[9/11/2018](https://blogs.windows.com/windowsexperience/2018/09/11/announcing-windows-10-insider-preview-build-17758/)|[9/14/2018](https://blogs.windows.com/windowsexperience/2018/09/11/announcing-windows-10-insider-preview-build-17758/#YqvMxV0HqRaS5KcE.97)|||[__9/18/2018__](https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewadvanced)|[9/18/2018](https://blogs.windows.com/buildingapps/2018/09/18/windows-10-sdk-preview-build-17758-available-now/)
 |17754|[9/5/2018](https://blogs.windows.com/windowsexperience/2018/09/05/announcing-windows-10-insider-preview-build-17754/)|||||[9/11/2018](https://blogs.windows.com/buildingapps/2018/09/11/windows-10-sdk-preview-build-17754-available-now/)
 |17751|[8/31/2018](https://blogs.windows.com/windowsexperience/2018/08/31/announcing-windows-10-insider-preview-build-17751/)
 |17749||||||[9/4/2018](https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewSDK)

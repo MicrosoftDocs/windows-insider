@@ -48,6 +48,7 @@ You can use Group Policy, System Center Configuration Manager or MDM solutions s
 
 __NOTE:__ 
 * To enable installation of Insider Preview builds, telemetry on a device must be set to level 2 (enhanced) or higher. By default, Windows 10 devices are set to level 3 (full). See [Manage your diagnostic data settings](https://docs.microsoft.com/en-us/windows/privacy/configure-windows-diagnostic-data-in-your-organization).
+* Windows Update for Business policies used to install Insider Preview Builds that are created with one management tool cannot be changed using another. For example, a policy set using Group Policy can only be changed on a client device using Group Policy and cannot be changed using SCCM or Intune.  
 * Insider Preview builds cannot currently be installed or managed using Windows Server Update Services (WSUS). For devices managed by WSUS, you will need to disable the Windows Update Agent so a device doesn't scan against WSUS. See [Identify clients that use WUfB](https://docs.microsoft.com/en-us/sccm/sum/deploy-use/integrate-windows-update-for-business-windows-10#to-identify-clients-that-use-wufb).
 
 ### Set using Group Policy

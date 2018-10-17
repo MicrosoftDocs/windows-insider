@@ -16,7 +16,7 @@ ms.localizationpriority: medium
 # Windows readiness levels and flight rings
 Flight rings are used to evaluate the quality of our software as it is released to progressively larger audiences. We will flight a Feature Update, application, etc. to the Fast ring if it passes all required automated testing in the lab. The flight will continue to be evaluated against a set of criteria to ensure it is ready before progressing to the next ring, the Slow ring. Windows readiness levels are related to flight rings; they're how you tell Microsoft what ring you want to be in. For instance, you can set your Windows readiness level to Fast, which puts you in the Fast ring. Here's an example of what you will see when you enroll in the Fast ring.
 
-Microsoft recommends that all organizations have at least a few devices enrolled in the Windows Insider Program, to include the Windows Insider Program in their deployment plans, and to provide feedback on any issues they encounter to Microsoft via the [Windows Insider Feedback Hub](wip-4-biz-feedback-hub.md). 
+Microsoft recommends that all organizations have at least 1% of their devices enrolled in the Windows Insider Program, to include the Windows Insider Program in their deployment plans, and to provide feedback on any issues they encounter to Microsoft via the [Windows Insider Feedback Hub](wip-4-biz-feedback-hub.md). 
 The Windows Insider Program doesn't replace Semi-Annual Channel deployments in an organization. Rather, it provides IT Pros, enterprise users, and other interested parties with pre-release builds of Windows 10.
 
 ## Fast flight ring
