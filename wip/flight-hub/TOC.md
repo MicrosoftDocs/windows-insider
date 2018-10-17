@@ -6,14 +6,11 @@
 ### [Get started with the Windows Insider Program for Business](https://docs.microsoft.com/en-us/windows-insider/at-work-pro/wip-4-biz-get-started)
 ### [What's new for Windows Insider Program for Business Preview Builds](https://docs.microsoft.com/en-us/windows-insider/at-work-pro/wip-4-biz-whats-new)
 #### [Register with the Windows 10 Insider Program for Business](https://docs.microsoft.com/en-us/windows-insider/at-work-pro/wip-4-biz-register)
-#https://docs.microsoft.com/en-us/windows-insider/at-work-pro/wip-4-biz-install
-### [Manage Windows Insider Program for Business Preview builds](https://docs.microsoft.com/en-us/windows-insider/at-work-pro/wip-4-biz-manage-builds)
+#### [Install Windows Insider Program for Business Preview builds](https://docs.microsoft.com/en-us/windows-insider/at-work-pro/wip-4-biz-install)
+#### [Manage Windows Insider Program for Business Preview builds](https://docs.microsoft.com/en-us/windows-insider/at-work-pro/wip-4-biz-manage-builds)
 ### [Share Feedback Via the Feedback Hub](https://docs.microsoft.com/en-us/windows-insider/at-work-pro/wip-4-biz-feedback-hub)
 ### [Windows readiness levels and flight rings](https://docs.microsoft.com/en-us/windows-insider/at-work-pro/wip-4-biz-flight-levels-and-rings)
 ### [Windows Insider Program troubleshooting](https://docs.microsoft.com/en-us/windows-insider/at-work-pro/wip-4-biz-troubleshooting)
 ## [Windows Insider Program for Server](https://docs.microsoft.com/en-us/windows-insider/at-work/)
 ### [What's new for Windows Server 2019 Insider Preview Builds](https://docs.microsoft.com/en-us/windows-insider/at-work/whats-new-wip-at-work)
 ## [Flight Hub](https://docs.microsoft.com/en-us/windows-insider/flight-hub/)
-
-
-
