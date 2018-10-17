@@ -25,7 +25,8 @@ The items with in **bold** are the latest releases for the individual versions o
 
 | Build | Fast | Slow | Server | IoT | ISO | SDK |
 |-------|------|------|--------|-----|-----|-----|
-|18252|[**10/3/2018**](https://blogs.windows.com/windowsexperience/2018/10/03/announcing-windows-10-insider-preview-build-18252/)
+|18262|[**10/17/2018**](https://blogs.windows.com/windowsexperience/2018/10/17/announcing-windows-10-insider-preview-build-18262/)
+|18252|[10/3/2018](https://blogs.windows.com/windowsexperience/2018/10/03/announcing-windows-10-insider-preview-build-18252/)
 |18247|[9/27/2018*](https://blogs.windows.com/windowsexperience/2018/09/26/announcing-windows-10-insider-preview-build-18247/)
 |18242|[9/18/2018*](https://blogs.windows.com/windowsexperience/2018/09/18/announcing-windows-10-insider-preview-build-18242/)
 |18237|[9/12/2018*](https://blogs.windows.com/windowsexperience/2018/09/12/announcing-windows-10-insider-preview-build-18237/)
