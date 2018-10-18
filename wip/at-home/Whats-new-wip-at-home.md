@@ -27,7 +27,7 @@ Notice a desktop pin? It’ll take you directly to the **Your Phone** app – fo
 
 For more information about **Your Phone**, see [Your Phone app help](https://support.microsoft.com/en-us/help/4459358/windows-10-your-phone-app-help).
 
-##Cloud Clipboard
+## Cloud Clipboard
 
 Copy/paste is something we all do, probably multiple times a day. But what do you do if you need to copy the same few things again and again? How do you copy content across your devices? In Windows 10, version 1809 we're addressing that and taking the clipboard to the next level. Press **WIN + V** and you'll be presented with our new clipboard experience.  
 
@@ -42,7 +42,7 @@ Our new settings page for enabling this experience is under __Settings > System 
 __Note:__ Roaming text on the clipboard is supported for text-only content less than 100kb. Currently, the clipboard history supports plain text, HTML and images less than 4MB. 
 
 ## File Explorer Improvements
-## Dark theme in File Explore 
+## Dark theme in File Explorer
 
 As many of you know, we added dark theme support to Windows based on your feedback. This setting is available under __Settings > Personalization > Colors__, and if you switch it any apps and system UI that support it will follow suit. Since releasing this feature, our top feedback request from you has been to update File Explorer to support dark theme. Along the way, we also added dark theme support to the File Explorer context menu, as well as the Common File Dialog (aka the Open and Save dialogs). Thanks again for everyone’s feedback!
 
@@ -60,7 +60,7 @@ The new functionality requires the latest version of the HEIF package. The lates
 
 To rotate a HEIF image file, simply right-click on it in File Explorer and select "Rotate right" or "Rotate left" from the menu. "Date taken" and other properties can be edited by clicking on "Properties" and selecting the "Details" tab.
 
-![HEIF in file explorer](images/heic2.png "HEIF in file explorer")
+![HEIF in file explorer](images/heic2.jpg "HEIF in file explorer")
 
 ## Wireless projection experience
 
@@ -75,7 +75,7 @@ One of the things we’ve heard from you is that it’s hard to know when you’
 
 [SwiftKey](https://www.microsoft.com/en-us/swiftkey) gives you more accurate auto-corrections and predictions by learning your writing style – including the words, phrases, and emoji that matter to you. It’s available for Android and iOS, and SwiftKey powers the typing experience on Windows when using the touch keyboard to write in English (United States), English (United Kingdom), French (France), German (Germany), Italian (Italy), Spanish (Spain), Portuguese (Brazil), or Russian. This is an existing feature that we've improved for Windows 10, version 1809.
 
-![Swiftkey](images/swift2.png "Swiftkey")
+![Swiftkey](images/swift2.jpg "Swiftkey")
 
 ## Typing Insights
 
@@ -139,7 +139,7 @@ Per-site media autoplay controls: You can now control autoplay permissions on a 
 
 **New design improvements:** As we continue to evolve how Microsoft Edge leverages the Fluent Design System for a more natural and usable experience, you may notice some subtle tweaks to the look of the tab bar in Microsoft Edge. In this build, we’re adding a new depth effect to the tab bar to help emphasize the active tab.
 
-![Edge design improvements](images/edge-design.png "Edge design improvements")
+![Edge design improvements](images/edge-design.jpg "Edge design improvements")
 
 **Customize toolbar items for Microsoft Edge:** When you click **…** in the Microsoft Edge toolbar, you’ll find a refined menu that puts common commands like **New window** front and center. We’ve also added the much-requested ability to customize which icons appear in the Microsoft Edge toolbar – you can remove them all for a tidier look or add as many as you like to bring your favorite functionality to your fingertips!
 Last (but not least), this release breaks **Settings** out into subpages by category, with better-organized options and less clutter on each page. The new **Settings** experience is designed to match the experience in the Microsoft Edge hub, for a quicker and more familiar experience.
@@ -178,19 +178,19 @@ __Rendering improvements:__ We’ve included a bunch of rendering performance fi
 
 **Lookup definitions for words in reading view, books, and PDFs:** We’ve added a new dictionary function, so you can look up definitions for key words when reading a page or document. Simply select a single word to see the definition appear above your selection.
 
-![dictionary](images/dictionary.png "dictionary")
+![dictionary](images/dictionary.jpg "dictionary")
 
 You can choose to have a word read aloud to you to hear the correct pronunciation or expand more details from the definition. You can toggle whether definitions appear and which types of content they work in under the __General__ tab of the Microsoft Edge settings menu.
 
 **Learning tools get richer:** Under learning tools available on Reading View, you can now see additional themes. These let you choose the theme color which is best for your eyes.
 
-![edge themes](images/edge-themes.png "edge themes")
+![edge themes](images/edge-themes.jpg "edge themes")
 
 Along with highlighting Parts of speech you can now also change the color in which the part of speech should be highlighted as well as turn on an indicator right over it. Making it much easier to identify the part of speech.
 
 **Line focus:** Helps improve focus while reading an article by highlighting sets of one, three, or five lines.
 
-![edge line focus](images/edge-line-focus.png "edge line focus")
+![edge line focus](images/edge-line-focus.jpg "edge line focus")
 
 ### Improved Kiosk Setup Experience
 
@@ -572,7 +572,7 @@ We have introduced a new Region page that allows overrides to default regional f
 
 Local Experience Packs are Microsoft Store apps that deliver Windows display language quality improvements. You can now access them easily via the Settings App. Please go to Settings App – Time & Language – Language. Once here click on <i>Add a Windows display language with Local Experience Packs</i> link to download a Local Experience Pack from the Microsoft Store and start enjoying Windows in your preferred language.
 
-![local experience packs](images/Get-LXP-from-Store.png "local experience packs")
+![local experience packs](images/Get-LXP-from-Store.jpg "local experience packs")
 
 The Settings app provides improved discoverability of features supported for each language.
 
