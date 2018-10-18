@@ -1,5 +1,5 @@
 # [Windows Insider Program](https://docs.microsoft.com/en-us/windows-insider/)
-## [Windows Insider Program](https://docs.microsoft.com/en-us/windows-insider/at-home/)
+## [Windows Insider Program](index.md)
 ### [Get Started](https://insider.windows.com/en-us/getting-started)
 ### [What's new for Windows Insider Preview Builds](https://docs.microsoft.com/en-us/windows-insider/at-home/whats-new-wip-at-home)
 ## [Windows Insider Program for Business](https://docs.microsoft.com/en-us/windows-insider/at-work-pro/)
