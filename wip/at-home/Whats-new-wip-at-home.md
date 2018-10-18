@@ -60,6 +60,18 @@ You can now use the **Settings** app to configure advanced Ethernet IP settings.
 ## New icon for disconnected Internet (Build 18252)
 First seen on Always Connected PCs, we brought the disconnected internet icon to all devices running Windows 10. This single icon appears when there is no internet connection detected, and replaces the individual disconnected icons for Cellular, Wi-Fi, and Ethernet. This new icon should help you quickly identify network problems so that you can take action to resolve them.
 
-![Showing the new icon for disconnected internet](images/enhanced-ethernet-settings.png "Showing the new icon for disconnected internet")
+![Showing the new icon for disconnected internet](images/disconnected-internet-icon.png "Showing the new icon for disconnected internet")
 
+## Ebrima font addition with ADLaM support (Build 18252)
+You can now read your ADLaM documents and webpages with the Windows Ebrima font!
 
+ADLaMis a writing system for Pular/Fulfulde, the language of the Fulani people, predominantly residing in west Africa. In the early 1990s, two young teenager brothers, Abdoulaye and Ibrahima Barry, created this writing system. Their work became “Bindi Pulaar” and eventually “ADLaM,” ADLaM is enabling literacy and growing in use for commerce, education, and publishing across western Africa. It was added to Unicode in Unicode 9.0.
+
+The Ebrima font also supports other African writings systems N’ko, Tifinagh, Vai and Osmanya – here’s a sample of what the font looks like:
+
+![Showing sample of the Ebrima font](images/ebrima-font.png "Showing sample of the Ebrima font")
+
+## Bringing acrylic to the Windows sign-in screen (Build 18237)
+The Windows sign-in screen now supports [acrylic](https://docs.microsoft.com/en-us/windows/uwp/design/style/acrylic), a type of brush from the [Fluent Design System](https://docs.microsoft.com/en-us/windows/uwp/design/fluent-design-system/index), to the sign-in screen background.  The translucent texture of this transient surface helps you focus on the sign-in task by moving the actionable controls up in the visual hierarchy while maintaining their accessibility.
+
+![Showing acrylic in Windows sign-in screen](images/acrylic-sign-in.png "Showing sample of the Ebrima font")
