@@ -42,7 +42,7 @@ Our new settings page for enabling this experience is under __Settings > System 
 __Note:__ Roaming text on the clipboard is supported for text-only content less than 100kb. Currently, the clipboard history supports plain text, HTML and images less than 4MB. 
 
 ## File Explorer Improvements
-## Dark theme in File Explore 
+## Dark theme in File Explorer
 
 As many of you know, we added dark theme support to Windows based on your feedback. This setting is available under __Settings > Personalization > Colors__, and if you switch it any apps and system UI that support it will follow suit. Since releasing this feature, our top feedback request from you has been to update File Explorer to support dark theme. Along the way, we also added dark theme support to the File Explorer context menu, as well as the Common File Dialog (aka the Open and Save dialogs). Thanks again for everyone’s feedback!
 
@@ -60,7 +60,7 @@ The new functionality requires the latest version of the HEIF package. The lates
 
 To rotate a HEIF image file, simply right-click on it in File Explorer and select "Rotate right" or "Rotate left" from the menu. "Date taken" and other properties can be edited by clicking on "Properties" and selecting the "Details" tab.
 
-![HEIF in file explorer](images/heic2.png "HEIF in file explorer")
+![HEIF in file explorer](images/heic2.jpg "HEIF in file explorer")
 
 ## Wireless projection experience
 
@@ -75,7 +75,7 @@ One of the things we’ve heard from you is that it’s hard to know when you’
 
 [SwiftKey](https://www.microsoft.com/en-us/swiftkey) gives you more accurate auto-corrections and predictions by learning your writing style – including the words, phrases, and emoji that matter to you. It’s available for Android and iOS, and SwiftKey powers the typing experience on Windows when using the touch keyboard to write in English (United States), English (United Kingdom), French (France), German (Germany), Italian (Italy), Spanish (Spain), Portuguese (Brazil), or Russian. This is an existing feature that we've improved for Windows 10, version 1809.
 
-![Swiftkey](images/swift2.png "Swiftkey")
+![Swiftkey](images/swift2.jpg "Swiftkey")
 
 ## Typing Insights
 
@@ -124,7 +124,7 @@ For more information, see [A Faster, Safer Internet](https://blogs.technet.micro
 
 **Control whether media can play automatically** : We added a new setting in Microsoft Edge to allow you to control whether sites can autoplay media. You can find this setting under **Advanced Settings > Media autoplay**, with options to customize the behavior according to your preferences:
 
-![Edge autoplay](images/edge-autoplay.png "Edge autoplay")
+![Edge autoplay](images/edge-autoplay.jpg "Edge autoplay")
 
 * **Allow** is the default and will continue to play videos when a tab is first viewed in the foreground, at the site’s discretion.
 * **Limit** restricts autoplay to work only when videos are muted, so you‘re never surprised by a sound. Once you click anywhere on the page, autoplay is re-enabled, and will continue to be allowed within that domain in that tab.
