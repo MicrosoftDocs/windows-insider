@@ -184,13 +184,13 @@ You can choose to have a word read aloud to you to hear the correct pronunciatio
 
 **Learning tools get richer:** Under learning tools available on Reading View, you can now see additional themes. These let you choose the theme color which is best for your eyes.
 
-![edge themes](images/edge-themes.png "edge themes")
+![edge themes](images/edge-themes.jpg "edge themes")
 
 Along with highlighting Parts of speech you can now also change the color in which the part of speech should be highlighted as well as turn on an indicator right over it. Making it much easier to identify the part of speech.
 
 **Line focus:** Helps improve focus while reading an article by highlighting sets of one, three, or five lines.
 
-![edge line focus](images/edge-line-focus.png "edge line focus")
+![edge line focus](images/edge-line-focus.jpg "edge line focus")
 
 ### Improved Kiosk Setup Experience
 
@@ -572,7 +572,7 @@ We have introduced a new Region page that allows overrides to default regional f
 
 Local Experience Packs are Microsoft Store apps that deliver Windows display language quality improvements. You can now access them easily via the Settings App. Please go to Settings App – Time & Language – Language. Once here click on <i>Add a Windows display language with Local Experience Packs</i> link to download a Local Experience Pack from the Microsoft Store and start enjoying Windows in your preferred language.
 
-![local experience packs](images/Get-LXP-from-Store.png "local experience packs")
+![local experience packs](images/Get-LXP-from-Store.jpg "local experience packs")
 
 The Settings app provides improved discoverability of features supported for each language.
 
