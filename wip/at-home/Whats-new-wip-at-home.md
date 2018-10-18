@@ -124,7 +124,7 @@ For more information, see [A Faster, Safer Internet](https://blogs.technet.micro
 
 **Control whether media can play automatically** : We added a new setting in Microsoft Edge to allow you to control whether sites can autoplay media. You can find this setting under **Advanced Settings > Media autoplay**, with options to customize the behavior according to your preferences:
 
-![Edge autoplay](images/edge-autoplay.jpg "Edge autoplay")
+![Edge autoplay](images/edge-autoplay.png "Edge autoplay")
 
 * **Allow** is the default and will continue to play videos when a tab is first viewed in the foreground, at the site’s discretion.
 * **Limit** restricts autoplay to work only when videos are muted, so you‘re never surprised by a sound. Once you click anywhere on the page, autoplay is re-enabled, and will continue to be allowed within that domain in that tab.
