@@ -38,8 +38,12 @@ You can also now [text from your PC](https://blogs.windows.com/windowsexperience
 
 ## Your Phone companion app 
 **9/12/2018**<br/>
-Microsoft Apps on Android is now called **Your Phone companion** app
-**Your Phone** app on your PC now links you to **Your Phone companion** app on your Android phone.  If you’ve previously installed Microsoft Apps on your Android phone, when the app auto-updates, you’ll see a fresh set of screens that maintain the mobile app’s visual connection to **Your Phone** app on PC. Tap or click on **Top Microsoft Apps** to get 20 quick recommendations. Or click on the left menu button, and browse through mobile apps from Microsoft, organized by app categories.
+Microsoft Apps on Android is now called **Your Phone companion** app.
+
+
+**Your Phone** app on your PC now links you to **Your Phone companion** app on your Android phone.  If you’ve previously installed Microsoft Apps on your Android phone, when the app auto-updates, you’ll see a fresh set of screens that maintain the mobile app’s visual connection to **Your Phone** app on PC. 
+
+Tap or click on **Top Microsoft Apps** to get 20 quick recommendations. Or click on the left menu button, and browse through mobile apps from Microsoft, organized by app categories.
 
 ![your phone companion app](images/your-phone-companion-app.png "your phone companion app")
 
