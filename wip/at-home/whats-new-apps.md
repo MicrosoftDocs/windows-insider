@@ -50,7 +50,7 @@ Tap or click on **Top Microsoft Apps** to get 20 quick recommendations. Or click
 
 ## Snip & Sketch 
 **9/6/2018**<br/>
-We flighted version 10.1807.2286.0 of **Snip & Sketch** (née Screen Sketch), which included the highly requested delay snip feature. There was a bug in Build 18219 blocking the New button from working, so please try it out today once you upgrade! 
+We flighted version 10.1807.2286.0 of **Snip & Sketch** (née Screen Sketch), which included the highly requested delay snip feature. There was a bug in Build 18219 blocking the New button from working, so please try it out once you upgrade! 
 
 Just click the chevron next to the New button in the app and you’ll now find options to **Snip now**, **Snip in 3 seconds**, and **Snip in 10 seconds**. If you have the app open or pinned to your taskbar, you can also just right click the icon in the taskbar to get these options, since we’ve added them to the jump list – let us know what you’d like to see next!
 
