@@ -3,7 +3,7 @@
 ## [Windows Insider Program](https://docs.microsoft.com/en-us/windows-insider/at-home/)
 ### [Get Started](https://insider.windows.com/en-us/getting-started)
 ### [What's new for Windows Insider Preview Builds](https://docs.microsoft.com/en-us/windows-insider/at-home/whats-new-wip-at-home)
-## [Windows Insider Program for Business](index.md)
+## [Windows Insider Program for Business](https://docs.microsoft.com/en-us/windows-insider/at-work-pro/)
 ### [Get started with the Windows Insider Program for Business](https://docs.microsoft.com/en-us/windows-insider/at-work-pro/wip-4-biz-get-started)
 ### [What's new for Windows Insider Program for Business Preview Builds](https://docs.microsoft.com/en-us/windows-insider/at-work-pro/wip-4-biz-whats-new)
 #### [Register with the Windows 10 Insider Program for Business](https://docs.microsoft.com/en-us/windows-insider/at-work-pro/wip-4-biz-register)
