@@ -54,3 +54,4 @@ Sticky Notes 3.0 brings the following amazing new features and capabilities:
     * High Contrast.
 Let us know what you think of **Sticky Notes** by sending us feedback via **Feedback Hub** and choosing **Apps > Sticky Notes** under **Category**.
 
+Read all about the awesomeness in Sticky Notes 3.0 in [this article on our Insider website](https://insider.windows.com/en-us/articles/sticky-notes-3-0-now-available-to-insiders-who-opted-into-skip-ahead/). 
