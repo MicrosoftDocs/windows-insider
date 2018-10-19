@@ -1,7 +1,8 @@
 # [Windows Insider Program](https://docs.microsoft.com/en-us/windows-insider/)
 ## [Windows Insider Program](index.md)
 ### [Get Started](https://insider.windows.com/en-us/getting-started)
-### [What's new for Windows Insider Preview Builds](https://docs.microsoft.com/en-us/windows-insider/at-home/whats-new-wip-at-home)
+### [What's new for Windows Insider Preview Builds](Whats-new-wip-at-home.md)
+### [What was new for Windows 10, version 1809](Whats-new-wip-at-home-1809.md)
 ## [Windows Insider Program for Business](https://docs.microsoft.com/en-us/windows-insider/at-work-pro/)
 ### [Get started with the Windows Insider Program for Business](https://docs.microsoft.com/en-us/windows-insider/at-work-pro/wip-4-biz-get-started)
 ### [What's new for Windows Insider Program for Business Preview Builds](https://docs.microsoft.com/en-us/windows-insider/at-work-pro/wip-4-biz-whats-new)
@@ -14,3 +15,4 @@
 ## [Windows Insider Program for Server](https://docs.microsoft.com/en-us/windows-insider/at-work/)
 ### [What's new for Windows Server 2019 Insider Preview Builds](https://docs.microsoft.com/en-us/windows-insider/at-work/whats-new-wip-at-work)
 ## [Flight Hub](https://docs.microsoft.com/en-us/windows-insider/flight-hub/)
+
