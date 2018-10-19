@@ -7,7 +7,7 @@ manager: eliotgra
 ms.service: WIP-at-home
 ms.tgt_pltfrm: na
 ms.devlang: na
-ms.date: 10/08/2018
+ms.date: 10/19/2018
 ms.author: dawn.wood
 ms.localizationpriority: medium
 ---
