@@ -25,9 +25,9 @@ You will find information on the latest major app updates for Windows 10 release
 We are still fine tuning the app, so if you are looking for support, check out workarounds in the [FAQ](https://support.microsoft.com/en-us/help/4459358/windows-10-your-phone-app-help).
 
 
-For iPhone users, Your Phone app helps you to link your phone to your PC. Surf the web on your phone, then send the webpage instantly to your computer to pick up where you left off to continue what you’re doing–read, watch, or browse with all the benefits of a bigger screen. With a linked phone, continuing on your PC is one share away.
+For iPhone users, **Your Phone** app helps you to link your phone to your PC. Surf the web on your phone, then send the webpage instantly to your computer to pick up where you left off to continue what you’re doing–read, watch, or browse with all the benefits of a bigger screen. With a linked phone, continuing on your PC is one share away.
 
-Your Phone app gives you instant access to your most recent photos and texts from your Android phone. [Snap a pic](https://aka.ms/gul-dukat) on your Android, see it on your PC. It’s just easier. Text your friends, group message, and type with a keyboard. Your Phone app allows you to view, send, and receive the SMS from your Android, on your computer.
+**Your Phone** app gives you instant access to your most recent photos and texts from your Android phone. [Snap a pic](https://aka.ms/gul-dukat) on your Android, see it on your PC. It’s just easier. Text your friends, group message, and type with a keyboard. Your Phone app allows you to view, send, and receive the SMS from your Android, on your computer.
 
 ![your phone app](images/your-phone-companion-app-2.png "your phone app")
 
