@@ -39,7 +39,7 @@ Try it out and let [@VishnuNath](https://twitter.com/VishnuNath) know what you t
 Your Phone app is also live for Insiders who are in Skip Ahead running 19H1 builds. You must link your Android phone to your computer through Your Phone app. You will receive an app from Microsoft, which you must download to your mobile phone and follow the setup prompts. Android 7.0+ are compatible with Your Phone app. For PCs tied to the China region, Your Phone app services will be enabled in the future.
 For iPhone users, Your Phone app helps you to link your phone to your PC. Surf the web on your phone, then send the webpage instantly to your computer to pick up where you left off to continue what you’re doing–read, watch, or browse with all the benefits of a bigger screen. With a linked phone, continuing on your PC is one share away.
 
-## Sticky Notes
+## Sticky Notes 8/28/2018 
 Sticky Notes 3.0 brings the following amazing new features and capabilities:
 * Sync (& backup) your notes across your Windows devices.
 * If you have a lot of notes, your desktop can get a bit crowded! We are introducing a new home for all your notes. You can choose which notes to stick to your desktop or tuck them away and find them again easily with search.
@@ -55,6 +55,13 @@ Sticky Notes 3.0 brings the following amazing new features and capabilities:
 Let us know what you think of **Sticky Notes** by sending us feedback via **Feedback Hub** and choosing **Apps > Sticky Notes** under **Category**.
 
 Read all about the awesomeness in Sticky Notes 3.0 in [this article on our Insider website](https://insider.windows.com/en-us/articles/sticky-notes-3-0-now-available-to-insiders-who-opted-into-skip-ahead/). 
+
+## Snip & Sketch
+We flighted version 10.1807.2286.0 of Snip & Sketch (née Screen Sketch) to Skip Ahead, which included the highly requested delay snip feature. There was a bug in Build 18219 blocking the New button from working, so please try it out today once you upgrade! 
+
+Just click the chevron next to the New button in the app and you’ll now find options to “Snip now”, “Snip in 3 seconds”, and “Snip in 10 seconds”. If you have the app open or pinned to your taskbar, you can also just right click the icon in the taskbar to get these options, since we’ve added them to the jump list – let us know what you’d like to see next!
+
+![snip & sketch](images/snip-n-sketch.png "snip & sketch")
 
 ## Microsoft To-Do
 We’ve added support for handwritten input to allow you to capture your tasks seamlessly in Microsoft To-Do (Version 1.39.1808.31001 and higher).
