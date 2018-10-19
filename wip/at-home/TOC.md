@@ -15,6 +15,6 @@
 ### [Windows Insider Program troubleshooting](https://docs.microsoft.com/en-us/windows-insider/at-work-pro/wip-4-biz-troubleshooting)
 ## [Windows Insider Program for Server](https://docs.microsoft.com/en-us/windows-insider/at-work/)
 ### [What's new for Windows Server 2019 Insider Preview Builds](https://docs.microsoft.com/en-us/windows-insider/at-work/whats-new-wip-at-work)
-## [Windows app updates](https://docs.microsoft.com/en-us/windows-insider/at-home/whats-new-apps)
+## [Windows app updates](whats-new-apps.md)
 
 
