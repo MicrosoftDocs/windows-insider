@@ -55,3 +55,10 @@ Sticky Notes 3.0 brings the following amazing new features and capabilities:
 Let us know what you think of **Sticky Notes** by sending us feedback via **Feedback Hub** and choosing **Apps > Sticky Notes** under **Category**.
 
 Read all about the awesomeness in Sticky Notes 3.0 in [this article on our Insider website](https://insider.windows.com/en-us/articles/sticky-notes-3-0-now-available-to-insiders-who-opted-into-skip-ahead/). 
+
+## Microsoft To-Do
+We’ve added support for handwritten input to allow you to capture your tasks seamlessly in Microsoft To-Do (Version 1.39.1808.31001 and higher).
+Please try it out and let us know what you think by tweeting at [@MicrosoftToDo](https://twitter.com/MicrosoftToDo) on Twitter! With Ink you now can:
+1. Capture your tasks naturally by writing directly on the list’s surface.
+2. Complete your tasks by striking through them.
+3. Use check-marks within the circle to the left of a task to complete it.
