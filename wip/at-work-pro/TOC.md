@@ -4,7 +4,7 @@
 ### [Get Started](https://insider.windows.com/en-us/getting-started)
 ### [What's new for Windows Insider Preview Builds](https://docs.microsoft.com/en-us/windows-insider/at-home/whats-new-wip-at-home)
 ### [What was new for Windows 10, version 1809](https://docs.microsoft.com/en-us/windows-insider/at-home/whats-new-wip-at-home-1809)
-### [Windows app updates](whats-new-apps.md)
+### [Windows app updates](https://docs.microsoft.com/en-us/windows-insider/at-home/whats-new-apps)
 ## [Windows Insider Program for Business](index.md)
 ### [Get started with the Windows Insider Program for Business](https://docs.microsoft.com/en-us/windows-insider/at-work-pro/wip-4-biz-get-started)
 #### [Register with the Windows 10 Insider Program for Business](https://docs.microsoft.com/en-us/windows-insider/at-work-pro/wip-4-biz-register)
