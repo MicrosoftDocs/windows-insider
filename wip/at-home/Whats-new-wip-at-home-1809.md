@@ -4,7 +4,6 @@ description: New Windows features for Windows Insider Program Preview Builds
 services: WIP-at-home
 author: dawnwood
 manager: eliotgra
-ms.assetid: 
 ms.service: WIP-at-home
 ms.tgt_pltfrm: na
 ms.devlang: na
