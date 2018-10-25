@@ -33,7 +33,7 @@ __Note:__ The Feedback Hub needs a user's consent to access their Azure AD accou
 4. To track feedback submitted to the Feedback Hub by other users in your organization, go to __Feedback>All Feedback__. Under the __Filter__ drop-down, select __My Organization__. 
 __NOTE:__ You must sign in with your registered Azure AD account to track feedback from users in your organization. Feedback filtered with this view will only show feedback from users in your organization who sign into the Feedback Hub using their registered work account in Azure AD. 
 
-![organizational feedback](images/wip-4-biz-feedback.png "organizational feedback"). 
+![organizational feedback](images/wip-4-server-feedback.png "organizational feedback"). 
 
 ## Related topics
 [Send feedback to Microsoft with the Feedback Hub app](https://support.microsoft.com/en-us/help/4021566/windows-10-send-feedback-to-microsoft-with-feedback-hub-app)
