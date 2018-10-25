@@ -18,7 +18,7 @@ Sharing your feedback is quick and easy. You can go directly to the [Feedback Hu
 
 Use your registered Windows Insider device and use the [Feedback Hub](feedback-hub:///) application. In the app, choose the __Windows Server__ category and then the appropriate subcategory for your feedback. In the title of the Feedback, please indicate the <b>build number</b> you are providing feedback on in this format: 
 
-     [Server <b>#####</b>] Title of my feedback
+     [Server #####] Title of my feedback
 
 
 ## Submit feedback on behalf of your organization
