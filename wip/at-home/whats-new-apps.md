@@ -17,9 +17,9 @@ You will find information on the latest major app updates for Windows 10 release
 
 **Note**: *Not all app updates will be listed here. Only app updates that include major changes e.g. new features, etc. will be noted here.*
 
-## Text from your PC – stay connected with Your Phone app 
+## Your Phone app 
 **9/17/2018**<br/>
-**Text from your PC – stay connected with Your Phone app**: **Your Phone** app is live for Insiders. You must link your Android phone to your computer through **Your Phone** app. You will receive an app from Microsoft, which you must download to your mobile phone and follow the setup prompts. Android 7.0+ devices are compatible with **Your Phone** app. For PCs tied to the China region, **Your Phone** app services will be enabled in the future.
+**Text from your PC – stay connected with Your Phone app**: Your Phone app is live for Insiders. You must link your Android phone to your computer through **Your Phone** app. You will receive an app from Microsoft, which you must download to your mobile phone and follow the setup prompts. Android 7.0+ devices are compatible with **Your Phone** app. For PCs tied to the China region, **Your Phone** app services will be enabled in the future.
 
 
 We are still fine tuning the app, so if you are looking for support, check out workarounds in the [FAQ](https://support.microsoft.com/en-us/help/4459358/windows-10-your-phone-app-help).
