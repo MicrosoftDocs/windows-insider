@@ -17,9 +17,9 @@ You will find information on the latest major app updates for Windows 10 release
 
 **Note**: *Not all app updates will be listed here. Only app updates that include major changes e.g. new features, etc. will be noted here.*
 
-## Text from your PC – stay connected with Your Phone app 
+## Your Phone app 
 **9/17/2018**<br/>
-**Your Phone** app is live for Insiders. You must link your Android phone to your computer through **Your Phone** app. You will receive an app from Microsoft, which you must download to your mobile phone and follow the setup prompts. Android 7.0+ devices are compatible with **Your Phone** app. For PCs tied to the China region, **Your Phone** app services will be enabled in the future.
+**Text from your PC – stay connected with Your Phone app**: Your Phone app is live for Insiders. You must link your Android phone to your computer through **Your Phone** app. You will receive an app from Microsoft, which you must download to your mobile phone and follow the setup prompts. Android 7.0+ devices are compatible with **Your Phone** app. For PCs tied to the China region, **Your Phone** app services will be enabled in the future.
 
 
 We are still fine tuning the app, so if you are looking for support, check out workarounds in the [FAQ](https://support.microsoft.com/en-us/help/4459358/windows-10-your-phone-app-help).
@@ -65,6 +65,12 @@ Please try it out and let us know what you think by tweeting at [@MicrosoftToDo]
 3. Use check-marks within the circle to the left of a task to complete it.
 
 ## Sticky Notes 
+**10/24/2018**
+Sticky Notes 3.1 (Skip Ahead only) brings the following: 
+* We tested the waters with Charcoal Note and you all seemed keen to go even darker. Introducing full-on Dark Mode!
+* Sync is even faster now, including to your phone via iOS and Android OneNote, rolling out now!
+
+
 **8/28/2018**<br/>
 Sticky Notes 3.0 brings the following amazing new features and capabilities:
 * Sync (& backup) your notes across your Windows devices.
