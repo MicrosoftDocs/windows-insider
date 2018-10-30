@@ -20,7 +20,7 @@ The [Windows Insider Program](https://insider.windows.com/en-us/) lets you previ
 
 Here’s a short gif of what it looks like (using the touch keyboard so you can see what we’re typing):
 
-![Vietnamese keyboard](images/vietnamese-touch-keyboard.gif "Vietnamese keyboard support")
+![Vietnamese keyboard](images/vietnamese-touch-keyboard.png "Vietnamese keyboard support")
 
 If your native language is Vietnamese or you have some knowledge of the Vietnamese language, please try them out with hardware keyboard or touch keyboard and let us know how it feels.  Here are the steps to get started:
 
