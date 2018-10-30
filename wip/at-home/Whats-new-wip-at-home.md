@@ -18,7 +18,7 @@ The [Windows Insider Program](https://insider.windows.com/en-us/) lets you previ
 ## Input Improvements (Build 18267)
 **Vietnamese Telex and Number key-based keyboards are now available on your PC**: Do you write Vietnamese? We want you to have the best possible typing experience, so we’re happy to announce that with this build you can now use Vietnamese [Telex](https://en.wikipedia.org/wiki/Telex_(input_method)) and Number-key based (VNI) keyboards for typing Vietnamese! Bringing these keyboard options to PC has been one of the top feature requests in the input space, so we’re looking forward to you trying it out!
 
-Here’s a short gif of what it looks like (using the touch keyboard so you can see what we’re typing):
+Here’s a short animation of what it looks like (using the touch keyboard so you can see what we’re typing):
 
 ![Vietnamese keyboard](images/vietnamese-touch-keyboard.png "Vietnamese keyboard support")
 
