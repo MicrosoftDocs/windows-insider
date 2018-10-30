@@ -24,15 +24,15 @@ Here’s a short animation of what it looks like (using the touch keyboard so yo
 
 If your native language is Vietnamese or you have some knowledge of the Vietnamese language, please try them out with hardware keyboard or touch keyboard and let us know how it feels.  Here are the steps to get started:
 
-1. Select Start > Settings > Time & Language > Language from the navigation menu.
-2. Select the + icon labeled [Add a preferred language] (or skip to step 4 if Vietnamese was already added)
-3. Type “Vietnamese” in the search box and select Vietnamese. Click Next button and install Vietnamese on your device, which will return you to Language page.
-4. Click Vietnamese, and then click Option button. Which will navigate you to Language options: Vietnamese.
-5. Select the + icon labeled [Add a keyboard] (or skip to step 7 if your target keyboard was already added)
+1. Select **Start > Settings > Time & Language > Language** from the navigation menu.
+2. Select the **+** icon labeled [Add a preferred language] (or skip to step 4 if Vietnamese was already added).
+3. Type *Vietnamese* in the search box and select **Vietnamese**. Click the **Next** button and install Vietnamese on your device, which will return you to **Language** page.
+4. Click **Vietnamese**, and then click the **Option button**, that will allow you to navigate to **Language options: Vietnamese**.
+5. Select the **+** icon labeled [Add a keyboard] (or skip to step 7 if your target keyboard was already added).
 6. Enable the Vietnamese Telex keyboard or Vietnamese Number key-based keyboard (whichever you prefer).
 7. Click the input indicator button on the taskbar (or press Windows key + Space) and select Vietnamese Telex or Number-key based keyboard. Input anything via your hardware keyboard or touch keyboard.
 
-More symbols are now available on the touch keyboard: Now you can easily access more symbols and special characters directly from touch keyboard. After changing to the number & symbols view (&123) on the touch keyboard, just tap the new ‘Ω ‘ key and you’ll now see a number of tabs with lists of symbols.
+**More symbols are now available on the touch keyboard**: Now you can easily access more symbols and special characters directly from touch keyboard. After changing to the number & symbols view (&123) on the touch keyboard, just tap the new ‘Ω ‘ key and you’ll now see a number of tabs with lists of symbols.
 
 ![more touch keyboard symbols](images/touch-keyboard.png "more touch keyboard symbols")
 
