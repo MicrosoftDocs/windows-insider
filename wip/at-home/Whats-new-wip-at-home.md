@@ -15,6 +15,40 @@ ms.localizationpriority: medium
 # What's new in the Windows 10 Insider preview builds (19H1)
 The [Windows Insider Program](https://insider.windows.com/en-us/) lets you preview builds of the upcoming release of Windows 10. This topic lists all new Windows 10 features for you to try. 
 
+## Input Improvements (Build 18267)
+**Vietnamese Telex and Number key-based keyboards are now available on your PC**: Do you write Vietnamese? We want you to have the best possible typing experience, so we’re happy to announce that with this build you can now use Vietnamese [Telex](https://en.wikipedia.org/wiki/Telex_(input_method)) and Number-key based (VNI) keyboards for typing Vietnamese! Bringing these keyboard options to PC has been one of the top feature requests in the input space, so we’re looking forward to you trying it out!
+
+Here’s a short animation of what it looks like (using the touch keyboard so you can see what we’re typing):
+
+![Vietnamese keyboard](images/vietnamese-touch-keyboard.png "Vietnamese keyboard support")
+
+If your native language is Vietnamese or you have some knowledge of the Vietnamese language, please try them out with hardware keyboard or touch keyboard and let us know how it feels.  Here are the steps to get started:
+
+1. Select **Start > Settings > Time & Language > Language** from the navigation menu.
+2. Select the **+** icon labeled [Add a preferred language] (or skip to step 4 if Vietnamese was already added).
+3. Type *Vietnamese* in the search box and select **Vietnamese**. Click the **Next** button and install Vietnamese on your device, which will return you to **Language** page.
+4. Click **Vietnamese**, and then click the **Option button**, that will allow you to navigate to **Language options: Vietnamese**.
+5. Select the **+** icon labeled [Add a keyboard] (or skip to step 7 if your target keyboard was already added).
+6. Enable the Vietnamese Telex keyboard or Vietnamese Number key-based keyboard (whichever you prefer).
+7. Click the input indicator button on the taskbar (or press Windows key + Space) and select Vietnamese Telex or Number-key based keyboard. Input anything via your hardware keyboard or touch keyboard.
+
+**More symbols are now available on the touch keyboard**: Now you can easily access more symbols and special characters directly from touch keyboard. After changing to the number & symbols view (&123) on the touch keyboard, just tap the new ‘Ω ‘ key and you’ll now see a number of tabs with lists of symbols.
+
+![more touch keyboard symbols](images/touch-keyboard.png "more touch keyboard symbols")
+
+
+## Accessibility Improvements (Build 18267)
+* **Narrator works better with Chrome now!** Using up and down arrows in scan mode, navigating with tab key, continuous reading commands, and navigating by headings and links have initial support for Chrome, with more functionality coming in future flights.
+* **Narrator Braille**: BRLTTY version 5.6 is now provided which adds USB support for Inceptor and Orbit 20 displays. In addition, the BrailleNote Touch is recognized when using USB. Baum displays can now use B9 and B10 interchangeably. Liblouis binaries and tables have been updated to version 3.7.0.
+* **UI Automation framework IAccessible2 Support**: The UI Automation framework now supports translating IAccessible2 information from Chrome, which supports IAccessible2 rather than UI Automation. This enables UI Automation clients to receive the IAccessible2 information through the UI Automation client interfaces.
+
+## Enhanced Mode for Search Indexer (Build 18267)
+To improve our search indexing, we created a new feature that enables Windows to search all your folders and drives, instead of limiting search to your documents, pictures, videos, and desktop by default. To turn it on, search for *Windows search settings*, and in the Searching Windows settings, under “Find My Files”, select **Enhanced** to begin the one-time indexing process. It will take about 15 minutes for search to begin returning these additional files in results. If you have lots of files, it may take longer. Make sure you plug in before you start, indexing is a resource-intensive activity.
+
+When the indexing is complete, you’ll be able to find all your files almost instantly when you use Windows Search. To exclude a folder from search, add it to the Excluded Folders list. Thanks for your feedback about search and the indexer. These improvements were made because of your input. Keep the feedback coming!
+
+![search indexer](images/search-index.png "search indexer")
+
 ## DPI Awareness in Task Manager (Build 18262)
 We added a new optional column to the **Details** tab of **Task Manager** so you can look at DPI awareness per process as in the following example:
 
