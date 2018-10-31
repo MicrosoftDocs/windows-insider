@@ -2,8 +2,8 @@
 title: Windows Insider Program for Business docs
 description: WIP for Business helps you deploy the Windows Insider Program in your enterprise. The docs cover the new enterprise features we'd like you to test and describes how to do the most common tasks. If you are an administrator or a user in a business environment, you're in the right place. 
 services: WIP-at-work
-author: dawnwood
-manager: elizapo
+author: dougkim
+manager: dougkim
 layout: LandingPage
 ms.assetid: 
 ms.service: WIP-at-work
@@ -11,7 +11,7 @@ ms.tgt_pltfrm: na
 ms.devlang: na
 ms.topic: landing-page
 ms.date: 06/28/2018
-ms.author: dawn.wood
+ms.author: dougkim
 ms.localizationpriority: medium
 ---
 # Windows Insider Program for Business docs

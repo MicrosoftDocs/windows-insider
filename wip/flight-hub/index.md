@@ -2,14 +2,14 @@
 title: Flight Hub
 description: Flight schedules and status for Windows Insider Program
 services: WIP
-author: dawnwood
-manager: elizapo
+author: dougkim
+manager: dougkim
 ms.assetid: 
 ms.service: WIP
 ms.tgt_pltfrm: na
 ms.devlang: na
 ms.date: 08/10/2018
-ms.author: dawn.wood
+ms.author: dougkim
 ms.localizationpriority: medium
 ---
 
