@@ -2,14 +2,14 @@
 title: Manage Windows Insider Preview builds
 description: how to use management solutions to install and monitor builds in your organization
 services: WIP-at-work-pro
-author: dawnwood
-manager: elizapo
+author: dougkim
+manager: dougkim
 ms.assetid: 
 ms.service: WIP-at-work-pro
 ms.tgt_pltfrm: na
 ms.devlang: na
 ms.date: 06/28/2018
-ms.author: dawn.wood
+ms.author: dougkim
 ms.localizationpriority: medium
 ---
 
