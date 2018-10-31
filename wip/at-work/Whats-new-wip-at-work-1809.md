@@ -2,14 +2,14 @@
 title: What's new in the Windows Server 2019 Insider Preview Builds
 description: New features to use and test in the Windows Insider Program for Server 2019 Preview Builds
 services: WIP-at-work
-author: dawnwood
-manager: eliotgra
+author: dougkim
+manager: dougkim
 ms.assetid: 
 ms.service: WIP-at-work
 ms.tgt_pltfrm: na
 ms.devlang: na
 ms.date: 10/31/2018
-ms.author: dawn.wood
+ms.author: dougkim
 ms.localizationpriority: medium
 ---
 
