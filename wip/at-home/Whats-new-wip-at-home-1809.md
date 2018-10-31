@@ -2,13 +2,13 @@
 title: What's new in the Windows 10 Insider Preview Builds (RS5)
 description: New Windows features for Windows Insider Program Preview Builds
 services: WIP-at-home
-author: dougkim
+author: lizap
 manager: dougkim
 ms.service: WIP-at-home
 ms.tgt_pltfrm: na
 ms.devlang: na
 ms.date: 10/08/2018
-ms.author: dougkim
+ms.author: elizapo
 ms.localizationpriority: medium
 ---
 
@@ -26,7 +26,7 @@ Notice a desktop pin? It’ll take you directly to the **Your Phone** app – fo
 
 For more information about **Your Phone**, see [Your Phone app help](https://support.microsoft.com/en-us/help/4459358/windows-10-your-phone-app-help).
 
-##Cloud Clipboard
+## Cloud Clipboard
 
 Copy/paste is something we all do, probably multiple times a day. But what do you do if you need to copy the same few things again and again? How do you copy content across your devices? In Windows 10, version 1809 we're addressing that and taking the clipboard to the next level. Press **WIN + V** and you'll be presented with our new clipboard experience.  
 
