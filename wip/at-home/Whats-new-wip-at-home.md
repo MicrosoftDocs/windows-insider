@@ -2,13 +2,13 @@
 title: What's new in the Windows 10 Insider Preview Builds (19H1)
 description: New Windows features for Windows Insider Program Preview Builds
 services: WIP-at-home
-author: dougkim
+author: lizap
 manager: dougkim
 ms.service: WIP-at-home
 ms.tgt_pltfrm: na
 ms.devlang: na
 ms.date: 10/19/2018
-ms.author: dougkim
+ms.author: elizapo
 ms.localizationpriority: medium
 ---
 

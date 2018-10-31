@@ -2,11 +2,11 @@
 title: What's new in the Windows Server Insider Preview Builds
 description: New features to use and test in the Windows Insider Program for Server 2019 Preview Builds
 services: WIP-at-work
-author: dougkim
+author: lizap
 manager: dougkim
 ms.service: WIP-at-work
 ms.date: 10/31/2018
-ms.author: dougkim
+ms.author: elizapo
 ms.localizationpriority: medium
 ---
 
