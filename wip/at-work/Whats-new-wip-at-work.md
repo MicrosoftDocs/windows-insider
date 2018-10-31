@@ -17,3 +17,5 @@ The features listed below are available in preview builds of Windows Server via 
 
 We also encourage you to visit the [Windows Server Insiders space](https://techcommunity.microsoft.com/t5/Windows-Server-Insiders/bd-p/WindowsServerInsiders) on the [Microsoft Tech Communities forum](https://techcommunity.microsoft.com/) to collaborate, share, and learn from experts.
 
+## There are currently no new features for the vNext Preview
+
