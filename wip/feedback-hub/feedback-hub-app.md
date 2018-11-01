@@ -1,6 +1,6 @@
 ---
-title: Flight Hub
-description: Flight schedules and status for Windows Insider Program
+title: Feedback Hub
+description: How to leave feedback 
 services: WIP
 author: rayd250592
 manager: dougkim
