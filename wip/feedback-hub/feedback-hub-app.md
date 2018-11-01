@@ -1,3 +1,16 @@
+---
+title: Feedback Hub
+description: How to leave feedback 
+services: WIP
+author: rayd250592
+manager: dougkim
+ms.service: WIP
+ms.tgt_pltfrm: na
+ms.devlang: na
+ms.date: 08/10/2018
+ms.author: elizapo
+ms.localizationpriority: medium
+---
 #  Send feedback to Microsoft with the Feedback Hub App
 The Feedback Hub app lets you tell Microsoft about any problems you run in to while using Windows 10 and send suggestions to help us improve your Windows experience.
 
