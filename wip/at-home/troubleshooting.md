@@ -1,54 +1,52 @@
 ---
-title: Getting started with Windows 10 Insider Preview Builds
-description: How to install Insider Preview builds 
+title: Troubleshooting 
+description: Troubleshooting tips 
 services: WIP-at-home
 manager: eliotgra
 ms.service: WIP-at-home
 ms.tgt_pltfrm: na
 ms.devlang: na
-ms.date: 10/24/2018
-ms.author: v-olinmit
+ms.date: 11/1/2018
+ms.author: v-colinmit
+author: cdmm12
 ms.localizationpriority: medium
 ---
 
-# Getting started with Windows 10 Insider Preview Builds 
+# Troubleshooting tips 
 
-To install Windows 10 Insider Preview Build on an individual PC, follow the steps below. 
-__NOTE:__Organizations have the option to install and manage Insider Preview builds centrally across multiple PCs. See [Manage Windows Insider Preview builds](wip-4-biz-manage-builds.md).  
+## Not receiving updates
+While participating in the Windows Insider Program, you may find that your PC is not updating to the latest update as expected. This is rare, however, there are a few key items to review should you end up in this state.
 
-## Complete prerequisites
-1.	[Register as a Windows Insider](https://insider.windows.com/en-us/getting-started/#register) if you haven't already. Note: You can also register with your work account to get additional benefits of the [Windows Insider Program for Business](https://insider.windows.com/en-us/for-business/).
-2.	Install Windows 10 on your PC. To install Windows 10 Insider Preview, you’ll need to be running a licensed version of Windows 10 on your PC. If your PC is currently running Windows 7/8/8.1, you can [install Windows 10 here](https://www.microsoft.com/en-us/windows/get-windows-10?step=Win10Question1). If you are having problems installing Windows 10, you can  [download Windows 10 Insider Preview ISO](https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewadvanced).
-3.	Check that Windows 10 Insider Preview supports your desired language on your PC. See __Supported Languages__ below.
+__Perform a manual check for updates:__ Open Settings, open Update & Security and review available updates or select Check for Updates. If you have set Active Hours, ensure your device is left turned on and signed in during the off-hours so the install process can complete.
 
-__NOTE:__ After you have installed an Insider Preview build, you will receive recent new builds automatically through Windows Update. For more information, see [Update Windows 10](https://support.microsoft.com/en-gb/help/4027667/windows-10-update).
+__Is your copy of Windows activated?__ Open Settings, select Update & Security and select Activation. View the data as displayed.
 
-## Manage Windows Insider Program settings 
-1.	Open [Windows Insider Program Settings](ms-settings:windowsinsider) __(_Start > Settings > Update & Security > Windows Insider Program__. To see this setting, you need to have administrator rights to your PC.
-2.	Click __Get started__.
-3.	Under “Pick an account to get started” click “+” to link your Microsoft or work account that you used to register for the Windows Insider Program. Click __Continue__.
-4.	Under “What kind of content that you would like to receive”, select __active development of Windows__ to receive Insider Preview builds and click __Confirm__. (Select “Fixes, apps and drivers” only if you want to install builds from the Release Preview Ring.)  
-5.	Under “What pace do you want to receive preview builds” select __Fast__ if you would like to receive the latest Insider Preview builds. If you prefer to wait for a more stable build, select __Slow__. Click __Confirm__. For more information, see Definition of Rings.
-6.	Review the privacy statement and program terms and click __Confirm__.
-7.	Click "Restart Now" or "Restart Later" to activate Windows Insider Program settings. 
+__Is the MSA or AAD connected to your PC registered for receiving builds?__ [Click here to sign in with your MSA or AAD](https://insider.windows.com/en-us/insidersigninboth/). You will land on the page “Welcome back!” if your MSA or AAD is registered with the Windows Insider Program.
 
-## Complete and confirm installation
-1.	Once your PC restarts, go to [Windows Update](ms-settings:windowsupdate) (__Start > Settings > Update & Security > Windows Update__) and click __Check for updates__ to download the latest Insider Preview build based on the criteria you selected in the steps above.
-2.	Once the download is complete, click on one of three restart options: Click "Pick a time", "Remind me later" or "Restart now" to complete installation.
-3.	To confirm installation of the latest Insider Preview build, type __Winver__ in the Windows search bar and run the command to get the build number of the Windows version currently running on your PC. Compare this against the latest build available as listed in [Flight Hub](https://docs.microsoft.com/en-us/windows-insider/flight-hub/). 
+__Have you selected a ring?__ Open Settings, select Update & Security, select Windows Insider Program, and view the Choose your Insider level drop-down.
 
-NOte: Once you have installed an Insider Preview build, please provide feedback on the build using the Feedback Hub. This can help us fix any issues you many encounter and is also an effective way to send suggestions for new features and improvements to our engineering teams. For more information see: [Send feedback to Microsoft with the Feedback Hub app](https://support.microsoft.com/en-us/help/4021566/windows-10-send-feedback-to-microsoft-with-feedback-hub-app). 
+__Have you recently done a roll-back?__ Check your Windows Insider Preview settings, including ring-selection, Microsoft Account, and branch-selection.
 
-## Supported languages
-Windows 10 Insider Preview Builds are available in the following SKU languages:
-Arabic (Saudi Arabia), Bulgarian (Bulgaria), Chinese (Simplified, China), Chinese (Traditional, Taiwan), Croatian (Croatia), Czech (Czech Republic), Danish (Denmark), Dutch (Netherlands), English (United Kingdom), English (United States), Estonian (Estonia), Finnish (Finland), French (Canada), French (France), German (Germany), Greek (Greece), Hebrew (Israel), Hungarian (Hungary), Italian (Italy), Japanese (Japan), Korean (Korea), Latvian (Latvia), Lithuanian (Lithuania), Norwegian, Bokmål (Norway), Polish (Poland), Portuguese (Brazil), Portuguese (Portugal), Romanian (Romania), Russian (Russia), Serbian (Latin, Serbia), Slovak (Slovakia), Slovenian (Slovenia), Spanish (Mexico), Spanish (Spain, International Sort), Swedish (Sweden), Thai (Thailand), Turkish (Turkey), Ukrainian (Ukraine).
+__Did you do a clean install?__ After a clean-install and initial setup of a Microsoft Account, even one that has been used previously for receiving Insider builds, the appropriate targeting needs to take place for your PC. This background process is known as Compatibility Checker and will run during idle time on your PC.  This may take up to 24 hours.  Please leave your PC turned on to ensure this occurs in timely manner.
 
-Windows 10 Insider Preview is available in the following Language Interface Packs (LIP) languages:
-Afrikaans (South Africa), Albanian (Albania), Amharic, Armenian, Assamese, Azerbaijani (Latin, Azerbaijan), Bangla (Bangladesh), Bangla (India), Basque, Belarusian (Belarus), Bosnian (Latin), Catalan (Catalan), Cherokee (Cherokee), Dari, Filipino (Philippines), Galician (Galician), Georgian, Gujarati, Hindi (India), Icelandic, Indonesian (Indonesia), Irish, Kannada, Kazakh (Kazakhstan), Khmer (Cambodia), KiSwahili, Konkani, Kyrgyz, Lao (Laos), Luxembourgish, Macedonian (Former Yugoslav Republic of Macedonia), Malay (Malaysia), Malayalam, Maltese, Maori, Marathi, Mongolian (Cyrillic), Nepali, Norwegian (Nynorsk), Odia, Persian, Punjabi, Quechua, Scottish Gaelic, Serbian (Cyrillic, Bosnia and Herzegovina), Serbian (Cyrillic, Serbia), Sindhi (Arabic), Sinhala, Tamil (India), Tatar, Telugu, Turkmen, Urdu, Uyghur, Uzbek (Latin, Uzbekistan), Valencian, Vietnamese, Welsh.
+__Are there any known issues for your current build?__ There may be an issue with a build that could lead to issues with updates being received.  Please check the most recent [Windows Insider Blog post](https://blogs.windows.com/blog/tag/windows-insider-program/) or reach out to us [@WindowsInsider](http://twitter.com/windowsinsider/).
 
-LIP languages can be installed as a language pack over [supported base languages](https://support.microsoft.com/en-us/help/14236/language-packs).
+## Recovering a PC
+If you are in a situation where you are unable to use your PC as expected, we want you to know how to recover your PC to a good state.
 
-## Related topics
+### Assess the impact
+* What is the impact of the issue? Single app?  Minor functionality? 
+* Can you continue using your device or is key functionality not working
+* Are you able to work around the issue? Would an alternate app suffice? 
+* Is a newer build available that may have a fix for any known bugs being faced?
 
-* [Register for the Windows Insider Program for Business](wip-4-biz-register.md)
-* [How to provide constructive feedback](https://insider.windows.com/en-us/how-to-feedback/)
+### Troubleshoot & Discover
+__Troubleshoot the issue.__ There may be a workaround available. Reach out to us via the [Windows Insider Forums](https://answers.microsoft.com/en-us/insider/forum/insider_wintp-insiderplat_pc?sort=lastreplydate&dir=desc&tab=threads&status=all&mod=&modAge=&advFil=&postedAfter=&postedBefore=&threadType=all&tm=1475533679179) or [@WindowsInsider](http://twitter.com/windowsinsider) on Twitter. If important functionality is unusable, you may want to reinstall your current OS version. Prior to doing any reinstall or rollback, ensure you have backed up important files.  While it is rare to lose data during this process, it is best to back up key data.
+
+__OS Reinstall__ You will have several options to choose from, including an operating system-only reinstall or a clean wipe of your device: Go to Settings > Update & Security > Recovery and click Get Started under Reset this PC. Follow the on-screen directions to refresh or clean install the OS.
+
+__Roll-back to Prior Build.__ If your PC was working as expected on the prior build and you’d like to roll back without losing any data, you may try this option: Go to Settings > Update & Security > Recovery, and select Get Started under Go Back to an Earlier Build.
+Note: After installing an update to your PC, you will have seven (7) days to roll back if necessary.  If required afterward, you will need to take a future update or you may clean install an older build via bootable media.
+
+__Clean Install Insider Build via Bootable Media.__ One of the questions that comes up from time to time is how to create a bootable USB with a Windows Installation (from an ISO file).  Having this can be helpful in various scenarios, from recovering a machine from a bad build, to bypassing various types of bugs, or even joining a new PC into the Windows Insider program.
+Should you want (or need) to create a bootable USB drive from a Windows Insider ISO file, please see [these directions](https://answers.microsoft.com/en-us/insider/forum/insider_wintp-insider_install-insiderplat_pc/creating-a-bootable-usb-for-windows-insider-isos/9ebe3cbc-3c8b-4052-9484-0b7cc9b63bec?tm=1519414191218).
