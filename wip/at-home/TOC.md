@@ -2,7 +2,9 @@
 ## [Flight Hub](https://docs.microsoft.com/en-us/windows-insider/flight-hub/)
 ## [Windows Insider Program](index.md)
 ### [Get Started](https://insider.windows.com/en-us/getting-started)
-### [What's new for Windows Insider Preview Builds](Whats-new-wip-at-home.md)
+### [Working with rings](rings.md)
+### [Troubleshooting tips](troubleshooting.md)
+### [What's new for Windows 10 Insider Preview Builds](Whats-new-wip-at-home.md)
 ### [What was new for Windows 10, version 1809](Whats-new-wip-at-home-1809.md)
 ### [Windows app updates](whats-new-apps.md)
 ## [Windows Insider Program for Business](https://docs.microsoft.com/en-us/windows-insider/at-work-pro/)
@@ -18,6 +20,3 @@
 ### [What's new in the Windows Server Semi-Annual Channel vNext Preview](https://docs.microsoft.com/en-us/windows-insider/at-work/whats-new-wip-at-work)
 ### [What was new in the Windows Server Insider preview builds (RS5)](https://docs.microsoft.com/en-us/windows-insider/at-work/whats-new-wip-at-work-1809.md)
 ### [Share Feedback on Windows Server via Feedback Hub](https://docs.microsoft.com/en-us/windows-insider/at-work/wip-4-server-feedback-hub.md)
-
-
-

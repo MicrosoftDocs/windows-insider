@@ -56,7 +56,9 @@ __NOTE:__
 2. Open __Manage preview builds__ to enable installation of Insider Preview builds on a device. This setting can also be used to prevent installation on a device and stop Insider Preview build updates once the release is public.  
 3. Open __Select when Preview Builds and Feature Updates are received__ and select the Ring from which you want devices to receive Insider Preview builds (Fast, Slow, Release Preview). See [Windows readiness levels and flight rings](wip-4-biz-flight-levels-and-rings.md). This setting can also be used to defer installation for a set number of days after release or pause installation of Insider Preview builds.  
 
-See also [Use Group Policy to configure Windows Update for Business](https://docs.microsoft.com/en-us/windows/deployment/update/waas-wufb-group-policy). 
+See also 
+[Use Group Policy to configure Windows Update for Business](https://docs.microsoft.com/en-us/windows/deployment/update/waas-wufb-group-policy)
+[VIDEO: Installing and managing Preview Builds using Group Policy](https://www.youtube.com/watch?v=x1Lmv8Rl_rk)
 
 ![Intune Update Ring](images/wip-4-biz-gpo.png "ADD")
 
@@ -69,7 +71,9 @@ Beginning with Configuration Manager version 1802, you can set deferral policies
 5.	Complete the wizard to create the new deferral policy. 
 6.	To deploy your Windows Update for Business deferral policy, on the Home tab, click __Deploy Windows Update for Business Policy__ and assign the policy to a collection of devices or users. 
 
-See also [Configure Windows Update for Business deferral policies](https://docs.microsoft.com/en-us/sccm/sum/deploy-use/integrate-windows-update-for-business-windows-10#configure-windows-update-for-business-deferral-policies).
+See also: 
+[Configure Windows Update for Business deferral policies](https://docs.microsoft.com/en-us/sccm/sum/deploy-use/integrate-windows-update-for-business-windows-10#configure-windows-update-for-business-deferral-policies)
+[VIDEO: Installing and managing Preview Builds using SCCM](https://www.youtube.com/watch?v=t4IJ0DvvtQs)
 
 ![Intune Update Ring](images/wip-4-biz-sccm.png "ADD")
 
@@ -81,7 +85,10 @@ See also [Configure Windows Update for Business deferral policies](https://docs.
 8. Click __OK__ and __Create__ to set policy.
 9. Go to __Assignments__ to assign the policy to users and devices. Note: you can create groups with one or more users or devices in Intune under __Groups__. 
 
-See also [Manage software updates in Intune](https://docs.microsoft.com/en-us/intune/windows-update-for-business-configure). 
+See also:
+[Manage software updates in Intune](https://docs.microsoft.com/en-us/intune/windows-update-for-business-configure)
+[VIDEO: Installing and managing Preview Builds using Intune](https://www.youtube.com/watch?v=ka1lZghlhPM) 
+
 
 ![Intune Update Ring](images/wip-4-biz-intune2.png "ADD")
 
