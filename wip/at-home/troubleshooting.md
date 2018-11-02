@@ -14,8 +14,12 @@ ms.localizationpriority: medium
 
 # Troubleshooting tips 
 
+## Not able to install Windows 10 Insider Preview Builds 
+* To install Windows 10 Insider Preview Builds, you need to be running a licensed version of Windows 10 on your PC. If your PC is currently running Windows 7/8/8.1, you can install Windows 10 [here](https://www.microsoft.com/en-us/windows/get-windows-10?step=Win10Question1). If you are having problems installing Windows 10, you can download a [Windows 10 Insider Preview ISO](https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewadvanced). To check what version of Windows your device is using, go to __Start__, type __winver__, click __winver - run command__.
+* Windows must be activated in order to participate in the Windows Insider Program. Check for Windows activation in __Settings > Update & Security > Activation__.
+
 ## Not receiving updates
-While participating in the Windows Insider Program, you may find that your PC is not updating to the latest update as expected. This is rare, however, there are a few key items to review should you end up in this state.
+After registering in the Windows Insider Program, you may find that your PC is not updating to the latest Insider Preview build as expected. This is rare, however, there are a few key items to review should you end up in this state.
 
 __Perform a manual check for updates:__ Open Settings, open Update & Security and review available updates or select Check for Updates. If you have set Active Hours, ensure your device is left turned on and signed in during the off-hours so the install process can complete.
 
