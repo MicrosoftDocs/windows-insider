@@ -2,8 +2,8 @@
 title: Windows Insider Program for Business getting started
 description: WIP for Business helps you deploy the Windows Insider Program in your enterprise. These topics will help you get started
 services: WIP-at-work
-author: dawnwood
-manager: elizapo
+author: lizap
+manager: dougkim
 layout: LandingPage
 ms.assetid: 
 ms.service: WIP-at-work
@@ -11,7 +11,7 @@ ms.tgt_pltfrm: na
 ms.devlang: na
 ms.topic: landing-page
 ms.date: 06/28/2018
-ms.author: dawn.wood
+ms.author: elizapo
 ms.localizationpriority: medium
 ---
 

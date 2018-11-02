@@ -2,14 +2,14 @@
 title: Windows Insider Program troubleshooting
 description: how to fix common problems and uninstall or unregister from the Windows Insider Program
 services: WIP-at-work-pro
-author: dawnwood
-manager: elizapo
+author: lizap
+manager: dougkim
 ms.assetid: 
 ms.service: WIP-at-work-pro
 ms.tgt_pltfrm: na
 ms.devlang: na
 ms.date: 06/28/2018
-ms.author: dawn.wood
+ms.author: elizapo
 ms.localizationpriority: medium
 ---
 

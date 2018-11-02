@@ -2,8 +2,8 @@
 title: Windows Insider Program for Server docs
 description: WIP for Business helps you deploy the Windows Insider Program in your enterprise. The docs cover the new enterprise features we'd like you to test and describes how to do the most common tasks. If you are an administrator, you're in the right place. If you are interested in the Windows Insider Program for your personal computer, see Windows Insider Program docs.
 services: WIP-at-work
-author: dawnwood
-manager: elizapo
+author: lizap
+manager: dougkim
 layout: LandingPage
 ms.assetid: 
 ms.service: WIP-at-work
@@ -11,7 +11,7 @@ ms.tgt_pltfrm: na
 ms.devlang: na
 ms.topic: landing-page
 ms.date: 04/10/2018
-ms.author: dawn.wood
+ms.author: elizapo
 ms.localizationpriority: medium
 ---
 # Windows Insider Program for Server docs
@@ -63,7 +63,7 @@ Windows Insider Program for Server allows you deploy the Windows Server 2019 Ins
 
 <ul class="cardsF panelContent cols cols2">
     <li>
-        <a href="https://support.microsoft.com/help/4021566/windows-10-send-feedback-to-microsoft-with-feedback-hub-app">
+        <a href="https://docs.microsoft.com/en-us/windows-insider/at-work/wip-4-server-feedback-hub">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
