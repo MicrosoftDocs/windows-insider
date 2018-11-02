@@ -21,26 +21,22 @@ ms.localizationpriority: medium
 ## Not receiving updates
 After registering in the Windows Insider Program, you may find that your PC is not updating to the latest Insider Preview build as expected. This is rare, however, there are a few key items to review should you end up in this state.
 
-__Perform a manual check for updates:__ Open Settings, open Update & Security and review available updates or select Check for Updates. If you have set Active Hours, ensure your device is left turned on and signed in during the off-hours so the install process can complete.
+__Perform a manual check for updates:__ Open Settings > Update & Security and review available updates or select Check for Updates. If you have set Active Hours, ensure your device is left turned on and signed in during the off-hours so the install process can complete.
 
-__Is your copy of Windows activated?__ Open Settings, select Update & Security and select Activation. View the data as displayed.
+__Is the MSA or Azure AD account connected to your PC registered for receiving builds?__ [Click here to sign in with your MSA or Azure AD account](https://insider.windows.com/en-us/insidersigninboth/). You will land on the page “Welcome back!” if your MSA or Azure AD account is registered with the Windows Insider Program.
 
-__Is the MSA or AAD connected to your PC registered for receiving builds?__ [Click here to sign in with your MSA or AAD](https://insider.windows.com/en-us/insidersigninboth/). You will land on the page “Welcome back!” if your MSA or AAD is registered with the Windows Insider Program.
-
-__Have you selected a ring?__ Open Settings, select Update & Security, select Windows Insider Program, and view the Choose your Insider level drop-down.
+__Have you selected a ring?__ Open Settings >Update & Security > Windows Insider Program and view the drop-down under "What pace do you want to get new builds?"
 
 __Have you recently done a roll-back?__ Check your Windows Insider Preview settings, including ring-selection, Microsoft Account, and branch-selection.
 
-__Did you do a clean install?__ After a clean-install and initial setup of a Microsoft Account, even one that has been used previously for receiving Insider builds, the appropriate targeting needs to take place for your PC. This background process is known as Compatibility Checker and will run during idle time on your PC.  This may take up to 24 hours.  Please leave your PC turned on to ensure this occurs in timely manner.
-
-__Are there any known issues for your current build?__ There may be an issue with a build that could lead to issues with updates being received.  Please check the most recent [Windows Insider Blog post](https://blogs.windows.com/blog/tag/windows-insider-program/) or reach out to us [@WindowsInsider](http://twitter.com/windowsinsider/).
+__Are there any known issues for your current build?__ There may be an issue with an Insider Preview build that could lead to issues with updates being received.  Please check the most recent [Windows Insider Blog post](https://blogs.windows.com/blog/tag/windows-insider-program/) or reach out to us [@WindowsInsider](http://twitter.com/windowsinsider/).
 
 ## Recovering a PC
-If you are in a situation where you are unable to use your PC as expected, we want you to know how to recover your PC to a good state.
+If you are in a situation where you are unable to use your PC as expected, follow these steps to recover your PC to a good state.
 
 ### Assess the impact
 * What is the impact of the issue? Single app?  Minor functionality? 
-* Can you continue using your device or is key functionality not working
+* Can you continue using your device or is key functionality not working? 
 * Are you able to work around the issue? Would an alternate app suffice? 
 * Is a newer build available that may have a fix for any known bugs being faced?
 
@@ -49,8 +45,6 @@ __Troubleshoot the issue.__ There may be a workaround available. Reach out to us
 
 __OS Reinstall__ You will have several options to choose from, including an operating system-only reinstall or a clean wipe of your device: Go to Settings > Update & Security > Recovery and click Get Started under Reset this PC. Follow the on-screen directions to refresh or clean install the OS.
 
-__Roll-back to Prior Build.__ If your PC was working as expected on the prior build and you’d like to roll back without losing any data, you may try this option: Go to Settings > Update & Security > Recovery, and select Get Started under Go Back to an Earlier Build.
-Note: After installing an update to your PC, you will have seven (7) days to roll back if necessary.  If required afterward, you will need to take a future update or you may clean install an older build via bootable media.
+__Roll-back to Prior Build.__ If your PC was working as expected on the prior build and you’d like to roll back without losing any data, you may try this option: Go to Settings > Update & Security > Recovery, and select Get Started under Go Back to an Earlier Build. Note: After installing an update to your PC, you will have seven (7) days to roll back if necessary.  If required afterward, you will need to take a future update or you may clean install an older build via bootable media.
 
-__Clean Install Insider Build via Bootable Media.__ One of the questions that comes up from time to time is how to create a bootable USB with a Windows Installation (from an ISO file).  Having this can be helpful in various scenarios, from recovering a machine from a bad build, to bypassing various types of bugs, or even joining a new PC into the Windows Insider program.
-Should you want (or need) to create a bootable USB drive from a Windows Insider ISO file, please see [these directions](https://answers.microsoft.com/en-us/insider/forum/insider_wintp-insider_install-insiderplat_pc/creating-a-bootable-usb-for-windows-insider-isos/9ebe3cbc-3c8b-4052-9484-0b7cc9b63bec?tm=1519414191218).
+__Clean Install Insider Build via Bootable Media.__ Creating a bootable USB with a Windows Installation (from an ISO file) can be helpful in various scenarios, from recovering a machine from a bad build, to bypassing various types of bugs, or even joining a new PC into the Windows Insider program. Should you want (or need) to create a bootable USB drive from a Windows Insider ISO file, please see [these directions](https://answers.microsoft.com/en-us/insider/forum/insider_wintp-insider_install-insiderplat_pc/creating-a-bootable-usb-for-windows-insider-isos/9ebe3cbc-3c8b-4052-9484-0b7cc9b63bec?tm=1519414191218).
