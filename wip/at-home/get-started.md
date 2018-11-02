@@ -14,7 +14,7 @@ ms.localizationpriority: medium
 
 # Get started with Windows 10 Insider Preview Builds 
 
-To install Windows 10 Insider Preview Build on an individual PC, follow the steps below. **NOTE:** Organizations have the option to install and manage Insider Preview builds centrally across multiple PCs. See [Manage Windows Insider Preview builds](wip-4-biz-manage-builds.md).  
+To install Windows 10 Insider Preview Build on an individual PC, follow the steps below. NOTE: Organizations have the option to install and manage Insider Preview builds centrally across multiple PCs. See [Manage Windows Insider Preview builds](../at-work-pro/wip-4-biz-manage-builds.md).  
 
 ## Check prerequisites
 1.	[Register as a Windows Insider](https://insider.windows.com/en-us/getting-started/#register) if you haven't already. Note: You can also register with your work account to get additional benefits of the [Windows Insider Program for Business](https://insider.windows.com/en-us/for-business/).
@@ -50,6 +50,5 @@ LIP languages can be installed as a language pack over [supported base languages
 
 ## Related topics
 
-* [Register for the Windows Insider Program for Business](wip-4-biz-register.md)
 * [How to provide constructive feedback](https://insider.windows.com/en-us/how-to-feedback/)
 * [VIDEO: Getting started and preview builds](https://www.youtube.com/watch?v=hS986rkTH8k)
