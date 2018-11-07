@@ -25,18 +25,18 @@ The items with in **bold** are the latest releases for the individual versions o
 
 | Build | Fast | Slow | Server | IoT | ISO | SDK |
 |-------|------|------|--------|-----|-----|-----|
-|18277|[**11/7/2018**](https://blogs.windows.com/windowsexperience/2018/11/07/announcing-windows-10-insider-preview-build-18277/)||||||
-|18272|[10/31/2018](https://blogs.windows.com/windowsexperience/2018/10/31/announcing-windows-10-insider-preview-build-18272/)||||||
-|18267|[10/24/2018](https://blogs.windows.com/windowsexperience/2018/10/24/announcing-windows-10-insider-preview-build-18267/)||||||
-|18262|[10/17/2018](https://blogs.windows.com/windowsexperience/2018/10/17/announcing-windows-10-insider-preview-build-18262/)||||||
-|18252|[10/3/2018](https://blogs.windows.com/windowsexperience/2018/10/03/announcing-windows-10-insider-preview-build-18252/)||||||
-|18247|[9/26/2018*](https://blogs.windows.com/windowsexperience/2018/09/26/announcing-windows-10-insider-preview-build-18247/)||||||
-|18242|[9/18/2018*](https://blogs.windows.com/windowsexperience/2018/09/18/announcing-windows-10-insider-preview-build-18242/)||||||
-|18237|[9/12/2018*](https://blogs.windows.com/windowsexperience/2018/09/12/announcing-windows-10-insider-preview-build-18237/)||||||
-|18234|[9/6/2018*](https://blogs.windows.com/windowsexperience/2018/09/06/announcing-windows-10-insider-preview-build-18234/)||||||
+|18277|[**11/7/2018**](https://aka.ms/happy-diwali)||||||
+|18272|[10/31/2018](https://aka.ms/spooooky)||||||
+|18267|[10/24/2018](https://aka.ms/gormagander)||||||
+|18262|[10/17/2018](https://aka.ms/the-grid)||||||
+|18252|[10/3/2018](https://aka.ms/the-merging)||||||
+|18247|[9/26/2018*](https://aka.ms/wip18247)||||||
+|18242|[9/18/2018*](https://aka.ms/short-circuit2)||||||
+|18237|[9/12/2018*](https://aka.ms/the-saint)||||||
+|18234|[9/6/2018*](https://aka.ms/iron-fist)||||||
 |18219|[8/16/2018*](https://blogs.windows.com/windowsexperience/2018/08/16/announcing-windows-10-insider-preview-build-18219/)||||||
-|18214|[8/10/2018*](https://blogs.windows.com/windowsexperience/2018/08/10/announcing-windows-10-insider-preview-build-18214/)||||||
-|18204|[7/25/2018*](https://blogs.windows.com/windowsexperience/2018/07/25/announcing-windows-10-insider-preview-build-17723-and-build-18204/)||||||
+|18214|[8/10/2018*](https://aka.ms/rom)||||||
+|18204|[7/25/2018*](https://aka.ms/for-kevin)||||||
 
 ## Windows 10 October 2018 Update (RS5)
 You can get builds of RS5 today if your device is in the Fast ring. RS5 Skip ahead is complete but you can see the builds that went out as Skip Ahead below, marked with an asterisk.     
