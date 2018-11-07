@@ -26,7 +26,7 @@ The items with in **bold** are the latest releases for the individual versions o
 | Build | Fast | Slow | Server | IoT | ISO | SDK |
 |-------|------|------|--------|-----|-----|-----|
 |18277|[**11/7/2018**](https://aka.ms/happy-diwali)||||||
-|18272|[10/31/2018](https://aka.ms/spooooky)||||||
+|18272|[10/31/2018](https://aka.ms/spooooky)||||[**10/31/2018**](https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewadvanced)|[**11/6/2018**](https://blogs.windows.com/buildingapps/2018/11/06/windows-10-sdk-preview-build-18272-available-now)|
 |18267|[10/24/2018](https://aka.ms/gormagander)||||||
 |18262|[10/17/2018](https://aka.ms/the-grid)||||||
 |18252|[10/3/2018](https://aka.ms/the-merging)||||||
