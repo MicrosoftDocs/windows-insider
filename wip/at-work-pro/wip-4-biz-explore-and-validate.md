@@ -22,7 +22,7 @@ Windows 10 Insider Preview Builds enable organizations to explore new features a
 
 As part of [Windows as a service](https://docs.microsoft.com/en-us/windows/deployment/update/waas-overview), Insider Preview builds are typically released six months prior to each Semi-Annual Channel update across different release cadences or "rings”. 
 
-Insider Preview builds in the Fast Ring are released first and contain the very latest features, making them ideal for feature exploration. Insider Preview builds in the Slow Ring are released later and are more stable than Fast Ring releases, making them better suited for validation purposes. For more information on rings, see [working with rings](~/at-home-/rings.md). 
+Insider Preview builds in the Fast Ring are released first and contain the very latest features, making them ideal for feature exploration. Insider Preview builds in the Slow Ring are released later and are more stable than Fast Ring releases, making them better suited for validation purposes. 
 
 To support your broader Windows deployment, Microsoft recommends that all organizations have up to 1% of PCs enrolled in the Windows Insider Program. The guidance below provide suggestions for effective use of Insider Preview builds. 
 
