@@ -27,13 +27,11 @@ NOTE: A device must be running a licensed version of Windows 10 to update to an 
 
 4. Sign-in using the account you used to register for the Windows Insider Program.  
 5. Under “What kind of content that you would like to receive”, select __active development of Windows__ to receive Insider Preview builds and click __Confirm__. Select “Fixes, apps and drivers” if you want to install builds from the Release Preview Ring. 
-6. Under “What pace do you want to receive preview builds” select __Fast__ if you would like to receive the latest Insider Preview builds. If you prefer to wait for a more stable build, select __Slow__. Click __Confirm__. See [Windows readiness levels and flight rings](wip-4-biz-flight-levels-and-rings.md) for more information about each Ring. 
+6. Under “What pace do you want to receive preview builds” select __Fast__ if you would like to receive the latest Insider Preview builds. If you prefer to wait for a more stable build, select __Slow__. Click __Confirm__. 
 7. Review the privacy statement and click __Continue__.
 8. Reboot the device. 
 9. To immediately download the latest Insider Preview build based on the criteria you selected, go to __Start > Settings > Update & Security > Windows Update__, and click __Check for updates__ 
 10. Once the download is complete, reboot your device again to complete installation. 
-
-__NOTE:__* If you are not receiving the latest Insider Preview build, check these [troubleshooting tips](https://docs.microsoft.com/en-us/windows-insider/at-work-pro/wip-4-biz-troubleshooting). 
 
 ## Install across multiple devices 
 Administrators can install and manage Insider Preview builds centrally across multiple devices in their organizational domain using Group Policies or MDM Policies. This option requires an Azure AD domain which must be registered in the Windows Insider Program. For instructions, see [Manage Windows Insider Preview builds](wip-4-biz-manage-builds.md).
