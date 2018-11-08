@@ -7,13 +7,71 @@ manager: dougkim
 ms.service: WIP-at-home
 ms.tgt_pltfrm: na
 ms.devlang: na
-ms.date: 11/06/2018
+ms.date: 11/08/2018
 ms.author: elizapo
 ms.localizationpriority: medium
 ---
 
 # What's new in the Windows 10 Insider preview builds (19H1)
 The [Windows Insider Program](https://insider.windows.com/en-us/) lets you preview builds of the upcoming release of Windows 10. This topic lists all new Windows 10 features for you to try. 
+
+
+## Evolving Focus assist (Build 18277)
+[Starting with the Windows 10 April 2018 Update](https://blogs.windows.com/windowsexperience/2018/05/09/windows-10-tip-how-to-enable-focus-assist-in-the-windows-10-april-2018-update/), we embarked on a journey to help reduce the number of distractions you encounter when you’re trying to get in the zone. With today’s build, we’re taking this to the next level: We’ve added a new focus assist option so that when you’re doing *anything* full screen we can automatically turn on focus assist.
+
+![Focus assist updates](images/18277-image1.png "A screenshot of the Focus assist updates")
+
+Watching a movie? Poring over some excel tables? Studying? Focus assist is here for you, and will keep your notifications quiet until you exit full screen mode.
+
+Like our other focus assist settings, this can be found under Settings > System > Focus Assist. Make sure you take a moment to customize your priority list to ensure any notifications you want to break through the rule will appear! If you’d like to turn off the warning notification that’s shown in Action Center after entering focus assist, you can do so by clicking the rule in Focus Assist Settings which prompted the notification.
+
+## Improving your Action Center experience (Build 18277)
+One of the top requests we’ve heard from you is that you’d prefer the brightness Quick action to be a slider instead of a button, and with today’s build we’re making it happen!
+
+![Action Center](images/18277-image2.png "Action Center slider")
+
+But wait, there’s more!
+
+You can now easily customize your Quick actions right from the Action Center itself, rather than having to go into Settings. That means not only can you re-arrange in the moment, but you can also add any Quick action you need on the fly, without needing for it to always take up space.
+
+![Custom Quick actions](images/18277-image3.gif "Screenshot that shows the updated Settings panel")
+
+We’d love for you to try it out and share feedback!
+
+## Preparing for Emoji 12 (Build 18277) 
+With today’s build, Insiders will get a first look at the emoji we’ve designed so far in preparation for the Emoji 12 release! These emoji are available for use via the emoji panel (WIN + .) and the touch keyboard.
+
+![Emoji 12](images/18277-image4.png "Shows the new emojis")
+
+>[!NOTE] 
+>The complete list of emoji for the Emoji 12 release is [still in beta](http://blog.unicode.org/2018/10/draft-candidates-for-emoji-120-beta.html), so Insiders may notice a few changes over the coming flights as the emoji are finalized. We have a bit more work to do, including adding search keywords for the new emoji, and adding a few emoji that aren’t finished yet.
+
+## High DPI improvements (Build 18277)
+As many of you know, we’ve been working [over the past few years](https://blogs.windows.com/buildingapps/2016/10/24/high-dpi-scaling-improvements-for-desktop-applications-and-mixed-mode-dpi-scaling-in-the-windows-10-anniversary-update/#BhoQFcZJ0KWWFqub.97) to improve the High DPI story for Win32 (desktop) apps on Windows. As part of this, some of you may recall getting a toast about fixing your apps that led you to this setting we added with [Build 17063](https://blogs.windows.com/windowsexperience/2017/12/19/announcing-windows-10-insider-preview-build-17063-pc/#ffbtP8jT9IuKq8sp.97):
+
+![Scaling settings](images/18277-image5.png)
+
+In 19H1, we’re enabling this setting by default, to help automatically address some of your scaling feedback, and reduce the number of times you see that “Fix blurry apps” notification.
+We’d love your feedback! Notice that some of your apps seem blurry after docking/undocking, or other mixed DPI scenarios? You can let us know by reporting it at [https://aka.ms/scalingfeedback](https://aka.ms/scalingfeedback)!
+
+If you’re interested to learn whether or not an app is DPI aware you can find out using [this feature](https://blogs.windows.com/windowsexperience/2018/10/17/announcing-windows-10-insider-preview-build-18262/) we rolled out to Task Manager a few flights ago.
+
+## Refreshing the Japanese IME (Build 18277)
+We’ve already made [a few](https://blogs.windows.com/windowsexperience/2018/10/24/announcing-windows-10-insider-preview-build-18267/#3joUFcLxg0ozUFbp.97) [announcements](https://blogs.windows.com/windowsexperience/2018/10/31/announcing-windows-10-insider-preview-build-18272/#FZRyBpZfJrussGPF.97) about how we plan to improve your typing experiences in Windows with this release, and we’re excited to add one more to the list today! To provide increased security and reliability, we’re updating the Japanese IME by redesigning how it works with applications. Not only that, but we’ve updated the IME candidate window interface to be cleaner and more polished:
+
+![Japanese IME](images/18277-image7.png "Shows the Japanese IME")
+
+You’ll notice that each text prediction candidate now has an index so you can quickly select it, just like the conversion candidates! We’re looking forward to you trying it out, and that’s not all! As part of this work, all of your familiar Japanese IME settings have now been fully integrated into Settings. If you’d like to check them out, fastest way there is to right-click the IME mode indicator in the taskbar and select Settings, although you can also get there from the Language Settings page.
+
+![Language settings page](images/18277-image8.png "Shows the updated Language settings page")
+
+Some Insiders have had this change for [a few flights now](https://blogs.windows.com/windowsexperience/2018/09/18/announcing-windows-10-insider-preview-build-18242), so we wanted to take a moment to say thank you for all of your great feedback so far! Please don’t hesitate to [continue sharing thoughts with us](https://aka.ms/inputfeedback) about typing in Windows – our ears are open and we’d love to hear from you.
+
+
+## Help us shape the future of Cortana + Amazon Alexa (Build 18277)
+Recently, we announced an exciting preview in the US that allows you to call up Cortana on Amazon Alexa Echo devices – and Alexa on your Windows 10 PC. You can, for example, enlist Cortana through an Amazon Alexa Echo device to tell you your next meeting or have Alexa order groceries through your Windows 10 PC. Now, we’d like to take the experience even further with the help of Windows Insiders like you. Just start by completing this [short survey](http://aka.ms/CortanaAlexasurvey).
+
+If you haven’t already tried it out, simply click the microphone icon in Windows Search on your Windows 10 PC and say ‘’Hey Cortana, open Alexa’. Or, on your Amazon Echo device, say “Alexa, open Cortana” on Echo devices. (Then let us know what you think in the Feedback Hub.) For more, see our [AI blog](https://blogs.microsoft.com/ai/alexa-cortana-public-preview/.
 
 ## Sign-in options redesigned for Windows Hello (Build 18272)
 

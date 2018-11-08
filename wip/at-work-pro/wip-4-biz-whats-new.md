@@ -5,12 +5,19 @@ services: WIP-at-work-pro
 author: lizap
 manager: dougkim
 ms.service: WIP-at-work-pro
-ms.date: 08/03/2018
+ms.date: 11/08/2018
 ms.author: elizapo
 ms.localizationpriority: medium
 ---
 
 # What’s New in Windows 10 Insider Program for Business Preview Builds 
+
+## Windows Security gets an additional Windows Defender Application Guard setting (Build 18277)
+
+Insiders will notice that Isolated browsing has an additional toggle that lets users manage access to their camera and microphone while browsing using Application Guard for Microsoft Edge. If this is managed by enterprise admins, users can check how this setting is configured. For this to be turned on in Application Guard for Microsoft Edge, the camera and microphone setting must already be turned on for the device in **Settings > Privacy > Microphone & Settings > Privacy > Camera**.
+
+![Application Guard settings](images/18277-image6.png "Shows the setting screen for Application Guard")
+
 ## Improved Kiosk Setup Experience (Build 17723)
 
 We have introduced a simplified assigned access configuration page in Settings that allows device administrators to easily set up their PC as a kiosk or digital sign. This new page provides a wizard experience that walks you through the kiosk setup flow including creating a kiosk account that will automatically sign in on device start.
