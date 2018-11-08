@@ -10,7 +10,7 @@ ms.author: elizapo
 ms.localizationpriority: medium
 ---
 
-# What’s New in Windows 10 Insider Program for Business Preview Builds 
+# What’s new for business in Windows 10 Insider Preview Builds 
 ## Improved Kiosk Setup Experience (Build 17723)
 
 We have introduced a simplified assigned access configuration page in Settings that allows device administrators to easily set up their PC as a kiosk or digital sign. This new page provides a wizard experience that walks you through the kiosk setup flow including creating a kiosk account that will automatically sign in on device start.
