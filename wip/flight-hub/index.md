@@ -83,7 +83,7 @@ Builds of Windows Server 2019 are released to members of the Windows Insider Pro
 | 17604 | [2/14/2018*](https://blogs.windows.com/windowsexperience/2018/02/14/announcing-windows-10-insider-preview-build-17101-fast-build-17604-skip-ahead/) | 
 
 ## Windows 10 April 2018 Update (RS4)
-Window 10 version 1803 was released to the world on April 30, 2018. Windows Insiders helped test 46 builds.  
+Windows 10 version 1803 was released to the world on April 30, 2018. Windows Insiders helped test 46 builds.  
 
 | Build | Fast | Slow | Server | IoT | ISO | SDK | 
 |-------|------|------|--------|-----|-----|-----|
