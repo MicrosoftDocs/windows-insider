@@ -33,7 +33,7 @@ To support your broader Windows deployment, Microsoft recommends that all organi
 |__Overview__|Insider Preview builds in the Fast Ring are released approximately weekly and provide the earliest access to new preview features in Windows.
 |__Users__|Because Fast Ring builds often contain bugs and other issues, we recommend limiting feature exploration in your organization to IT administrators and developers running Insider Preview builds on secondary machines. 
 |__Activity__| Try new features based on updates described in the [Windows Insider blog](https://blogs.windows.com/windowsexperience/tag/windows-insider-program/#lEQBUmP3m2mOaGau.97).<br/> Provide feedback in the Feedback Hub app. This helps us to make adjustments and enhancements to features as quickly as possible.
-|__Monitoring__| Encourage users to sign into the Feedback Hub using their Azure AD work accounts. This enables you to track feedback submitted by users within your organization. (Note: This tracking is only visible to Microsoft and registered Insiders within your organization’s domain.) See [Learn how to provide effective feedback in the Feedback Hub](wip-4-biz-feedback-hub.md).
+|__Monitoring__| Encourage users to sign into the Feedback Hub using their Azure AD work accounts. This enables you to track feedback submitted by users within your organization. (Note: This tracking is only visible to Microsoft and registered Insiders within your organization’s domain.) See [Submit and track feedbacki using the Feedback Hub](wip-4-biz-feedback.md).
 
 ### Validate applications and infrastructure in the Slow Ring
 Early validation of application and infrastucture compatiblity with Windows using Insider Preview builds in the Slow Ring has several benefits:

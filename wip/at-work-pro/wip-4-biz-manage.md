@@ -116,6 +116,6 @@ You can use Device Health in Windows Analytics to monitor devices running Inside
 ## Related Topics
 * [Deploy updates using Windows Update for Business](https://docs.microsoft.com/en-us/windows/deployment/update/waas-manage-updates-wufb) 
 * [Register for the Windows Insider Program for Business](wip-4-biz-register.md)
-* [Share Feedback via the Feedback Hub](wip-4-biz-feedback-hub.md)
+* [Submit and track feedback using the Feedback Hub](wip-4-biz-feedback.md)
 
 

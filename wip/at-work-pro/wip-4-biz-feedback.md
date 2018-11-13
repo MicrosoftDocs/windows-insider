@@ -13,7 +13,7 @@ ms.author: elizapo
 ms.localizationpriority: medium
 ---
 
-# Share and track feedback using the Feedback Hub
+# Submit and track feedback using the Feedback Hub
 
 Once users in your organization have installed an Insider Preview build, they can provide feedback to Microsoft on the build using the Feedback Hub application in Windows. This feedback can help us fix issues your users may encounter and is also an effective way to send suggestions to our engineering teams for new features and improvements. For more information see: [Send feedback to Microsoft with the Feedback Hub app](https://support.microsoft.com/en-us/help/4021566/windows-10-send-feedback-to-microsoft-with-feedback-hub-app).
 

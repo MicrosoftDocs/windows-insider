@@ -45,7 +45,7 @@ You can run Insider Preview builds as a virtual machine in Hyper-V. This option 
 These tips will help you and your organization get the most out of Insider Preview builds and the Windows Insider Program for Business. 
 * __Check to ensure you have the latest build version.__ Once you have installed an Insider Preview build, the version number will appear in a watermark on the lower right corner of your desktop. You can also confirm the Insider Preview build version installed by going to Settings>About your PC and scrolling to "Windows Specifications". To confirm that you have the latest Insider Preview build version, check our [Flight Hub](https://docs.microsoft.com/en-us/windows-insider/flight-hub/).  
 * __Follow our Windows Insider Program blog.__ As soon as an Insider Preview build is released, we publish a blog with details on feature highlights and fixes. [See the latest blog](https://blogs.windows.com/windowsexperience/tag/windows-insider-program/#ft9PuorWX0ODx38J.97)
-* __Provide us with feedback.__ To help us shape Windows to address your organization's specific needs, submit feedback on Insider Preview builds directly to the Feedback Hub in Windows. [Check guidance for submitting effective feedback](wip-4-biz-feedback-hub.md). 
+* __Provide us with feedback.__ To help us shape Windows to address your organization's specific needs, submit feedback on Insider Preview builds directly to the Feedback Hub in Windows. See [Submit and track feedback uisng the Feedback Hub](wip-4-biz-feedback.md). 
 * __Use Insider Preview builds to accelerate your next Windows deployment.__ Validating your apps and infrastructure on Insider Preview builds can play an important role in your Windows 10 deployment strategy. See [Working with Windows 10 Insider Preview Builds](wip-4-biz-explore-and-validate.md). You can also use Windows Anlytics to monitor device health and issues. See [Using Device Health to monitor Insider Preview builds](https://insider.windows.com/en-us/for-business-device-health/). 
 * __Join our community__. Join our [Windows Insider Tech Community](https://techcommunity.microsoft.com/t5/Windows-Insider-Program/bd-p/WindowsInsiderProgram) to share and learn from other IT experts.
 
@@ -61,4 +61,4 @@ LIP languages can be installed as a language pack over [supported base languages
 ## Related topics
 
 * [Register for the Windows Insider Program for Business](wip-4-biz-register.md)
-* [Share Feedback via the Feedback Hub](wip-4-biz-feedback-hub.md)
+* [Submit and track feedback using the Feedback Hub](wip-4-biz-feedback.md)
