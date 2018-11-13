@@ -16,7 +16,7 @@ ms.localizationpriority: medium
 ---
 
 # Windows Insider Program for Business getting started
-You can get started with two easy steps: register and then install a build. 
+You can get started with two easy steps: 
 
 <ul class="cardsF panelContent">
     <li>
