@@ -10,7 +10,7 @@ ms.author: elizapo
 ms.localizationpriority: medium
 ---
 
-# What’s New in Windows 10 Insider Program for Business Preview Builds 
+# What’s new for business in Windows 10 Insider Preview Builds 
 
 ## Windows Security gets an additional Windows Defender Application Guard setting (Build 18277)
 
