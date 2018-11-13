@@ -12,7 +12,7 @@ author: cdmm12
 ms.localizationpriority: medium
 ---
 
-# Get started with Windows 10 Insider Preview Builds 
+# Getting started with Windows 10 Insider Preview Builds 
 
 To install Windows 10 Insider Preview Build on an individual PC, follow the steps below. NOTE: Organizations have the option to install and manage Insider Preview builds centrally across multiple PCs. See [Manage Windows Insider Preview builds](../at-work-pro/wip-4-biz-manage-builds.md).  
 
@@ -37,7 +37,9 @@ __NOTE:__ After you have installed an Insider Preview build, you will receive ne
 2.	Once the download is complete, click on one of three restart options. Click "Pick a time", "Remind me later" or "Restart now" to complete installation.
 3.	To confirm installation of the latest Insider Preview build, type __Winver__ in the Windows search bar and run the command to get the build number of the Windows version currently running on your PC. Compare this against the latest build available as listed in [Flight Hub](https://docs.microsoft.com/en-us/windows-insider/flight-hub/). 
 
-NOte: Once you have installed an Insider Preview build, you can provide feedback on the build using the Feedback Hub. This can help us fix any issues you many encounter and is also an effective way to send suggestions to our engineering teams for new features and improvements. For more information see: [Send feedback to Microsoft with the Feedback Hub app](https://support.microsoft.com/en-us/help/4021566/windows-10-send-feedback-to-microsoft-with-feedback-hub-app). 
+NOTE:
+* Once you have installed an Insider Preview build, you can provide feedback on the build using the Feedback Hub. This can help us fix any issues you many encounter and is also an effective way to send suggestions to our engineering teams for new features and improvements. For more information see: [Send feedback to Microsoft with the Feedback Hub app](https://support.microsoft.com/en-us/help/4021566/windows-10-send-feedback-to-microsoft-with-feedback-hub-app). 
+* If you are unable to install an Insider Preview build or encounter related issus, see [Troubleshooting](troubleshooting.md)
 
 ## Supported languages
 Windows 10 Insider Preview Builds are available in the following SKU languages:
