@@ -12,9 +12,9 @@ author: cdmm12
 ms.localizationpriority: medium
 ---
 
-# Troubleshooting tips 
+# Troubleshooting 
 
-Thius section provides tips to address issues that you many encounter when running Windows 10 Insider Preview Builds. 
+This section provides tips to address issues that you many encounter when running Windows 10 Insider Preview Builds. 
 
 NOTE: In many cases, issues may be isolated to your specific Insider Preview build. Please check the most recent [Windows Insider Blog post](https://blogs.windows.com/blog/tag/windows-insider-program/). You may also find a workaround available on [Windows Insider Forums](https://answers.microsoft.com/en-us/insider/forum/insider_wintp-insiderplat_pc?sort=lastreplydate&dir=desc&tab=threads&status=all&mod=&modAge=&advFil=&postedAfter=&postedBefore=&threadType=all&tm=1475533679179)/. 
 
