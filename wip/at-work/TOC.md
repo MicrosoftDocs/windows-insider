@@ -2,7 +2,7 @@
 ## [Flight Hub](https://docs.microsoft.com/en-us/windows-insider/flight-hub/)
 ## [Windows Insider Program](https://docs.microsoft.com/en-us/windows-insider/at-home/index)
 ### [Getting started](https://docs.microsoft.com/en-us/windows-insider/at-home/get-started)
-### [Working with rings](https://docs.microsoft.com/en-us/windows-insider/at-home/rings)
+### [Working with rings](rings.md)
 ### [Troubleshooting](https://docs.microsoft.com/en-us/windows-insider/at-home/troubleshooting)
 ### [What's new for Windows 10 Insider Preview Builds](https://docs.microsoft.com/en-us/windows-insider/at-home/what's-new-at-home)
 ### [What was new for Windows 10, version 1809](https://docs.microsoft.com/en-us/windows-insider/at-home/what's-new-at-home-1809)
