@@ -24,8 +24,8 @@ To install Windows 10 Insider Preview Build on an individual PC, follow the step
 
 NOTE: After you have installed an Insider Preview build, you will receive new builds automatically through Windows Update if you've turned on automatic updates in [Windows Update settings](ms-settings:windowsupdate). For more information, see [Update Windows 10](https://support.microsoft.com/en-gb/help/4027667/windows-10-update).
 
-## Manage Windows Insider Program settings 
-The following steps apply to PCs running Windows 10, Version 1809. Steps will vary for earlier versions of Windows. To see these settings, you must have administrator rights to the machine. 
+## Configure Windows Insider Program settings 
+The following steps apply to PCs running Windows 10, Version 1809. Steps will vary slightly for earlier versions of Windows. To see these settings, you must have administrator rights to the machine. 
 1.	Open [Windows Insider Program Settings](ms-settings:windowsinsider) __(Start > Settings > Update & Security > Windows Insider Program)__. 
 2.	Click __Get started__.
 3.	Under “Pick an account to get started” click “+” to link your Microsoft or work account that you used to register for the Windows Insider Program. Click __Continue__ or, if you have not already registered for the Windows Insider Program, click __Register__. 
@@ -39,12 +39,12 @@ The following steps apply to PCs running Windows 10, Version 1809. Steps will va
 2.	Once the download is complete, click on one of three restart options. Click "Pick a time", "Remind me later" or "Restart now" to complete installation.
 3.	To confirm installation of the latest Insider Preview build, type __Winver__ in the Windows search bar and run the command to get the build number of the Windows version currently running on your PC. Compare this against the latest build available as listed in [Flight Hub](https://docs.microsoft.com/en-us/windows-insider/flight-hub/). 
 
-NOTE: If you are unable to install an Insider Preview build or encounter other technical related issues, see [Troubleshooting](troubleshooting.md). 
+NOTE: 
+Your devices will be automatically updated the latest Insider Preview builds using Windows Update. See [Windows Update guidance](https://support.microsoft.com/en-us/help/4027667/windows-10-update). 
+If you are unable to install an Insider Preview build or encounter other technical related issues, see [Troubleshooting](troubleshooting.md). 
 
 ## Provide feedback
-Once you have installed an Insider Preview build, you can provide feedback on the build using the Feedback Hub application in Windows. This can help us fix any issues you may encounter and is also an effective way to send suggestions to our engineering teams for new features and improvements. For more information see: [Send feedback to Microsoft with the Feedback Hub app](https://support.microsoft.com/en-us/help/4021566/windows-10-send-feedback-to-microsoft-with-feedback-hub-app). 
-
-
+Once you have installed an Insider Preview build, you can provide feedback on the build using the [Feedback Hub](insiderhub://home/) in Windows. This can help us fix any issues you may encounter and is also an effective way to send suggestions to our engineering teams for new features and improvements. For more information see: [Send feedback to Microsoft with the Feedback Hub app](https://support.microsoft.com/en-us/help/4021566/windows-10-send-feedback-to-microsoft-with-feedback-hub-app). 
 
 ## Supported languages
 Windows 10 Insider Preview Builds are available in the following SKU languages:
@@ -57,5 +57,5 @@ LIP languages can be installed as a language pack over [supported base languages
 
 ## Related topics
 
+* [VIDEO: Getting started with Insider Preview builds](https://www.youtube.com/watch?v=hS986rkTH8k)
 * [How to provide constructive feedback](https://insider.windows.com/en-us/how-to-feedback/)
-* [VIDEO: Getting started and preview builds](https://www.youtube.com/watch?v=hS986rkTH8k)
