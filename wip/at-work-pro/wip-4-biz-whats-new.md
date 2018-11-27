@@ -10,7 +10,7 @@ ms.author: elizapo
 ms.localizationpriority: medium
 ---
 
-# What’s New in Windows 10 Insider Program for Business Preview Builds 
+# What’s new for business in Windows 10 Insider Preview Builds 
 
 ## Windows Security gets an additional Windows Defender Application Guard setting (Build 18277)
 
@@ -22,7 +22,7 @@ Insiders will notice that Isolated browsing has an additional toggle that lets u
 
 We have introduced a simplified assigned access configuration page in Settings that allows device administrators to easily set up their PC as a kiosk or digital sign. This new page provides a wizard experience that walks you through the kiosk setup flow including creating a kiosk account that will automatically sign in on device start.
 
-Please go to Settings, search for assigned access, and open the “Set up a kiosk” page to give it a try. We would love to hear your feedback! Let us know via the [Feedback Hub](wip-4-biz-feedback-hub.md).   
+Please go to Settings, search for assigned access, and open the “Set up a kiosk” page to give it a try. We would love to hear your feedback! Let us know via the [Feedback Hub](insiderhub://home/).   
 
 ![set up a kiosk](images/kiosk-mode.png "set up a kiosk")
 

@@ -17,7 +17,7 @@ ms.localizationpriority: medium
 Administrators can manage installation of Windows 10 Insider Preview Builds across multiple devices in their organization using the following steps: 
 
 ## Register your domain 
-To authenticate multiple devices for Insider Preview builds, register your organization's Azure Active Directory domain with the Windows Insider Program. To register a domain, you must be registered in the Windows Insider Program with your work account in Azure AD (See [Register](wip-4-biz-register.md)) and you must be assigned a Global Administrator role on that Azure AD domain. Also requires Windows 10 Version 1703 or later on the machine used for registration. 
+To authenticate multiple devices for Insider Preview builds, register your organization's Azure Active Directory domain with the Windows Insider Program. To register a domain, you must be registered in the Windows Insider Program with your work account in Azure AD (see [Register](wip-4-biz-register.md)) and you must also be assigned a Global Administrator role on that Azure AD domain. Also requires Windows 10 Version 1703 or later on the machine used for registration. 
 
 > [!div class="nextstepaction"]
 > [Register your domain](https://insider.windows.com/en-us/for-business-organization-admin/)
@@ -116,6 +116,6 @@ You can use Device Health in Windows Analytics to monitor devices running Inside
 ## Related Topics
 * [Deploy updates using Windows Update for Business](https://docs.microsoft.com/en-us/windows/deployment/update/waas-manage-updates-wufb) 
 * [Register for the Windows Insider Program for Business](wip-4-biz-register.md)
-* [Share Feedback via the Feedback Hub](wip-4-biz-feedback-hub.md)
+* [Submit and track feedback using the Feedback Hub](wip-4-biz-feedback.md)
 
 
