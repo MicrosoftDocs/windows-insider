@@ -7,7 +7,7 @@ manager: dougkim
 ms.service: WIP-at-home
 ms.tgt_pltfrm: na
 ms.devlang: na
-ms.date: 10/19/2018
+ms.date: 11/07/2018
 ms.author: elizapo
 ms.localizationpriority: medium
 ---
@@ -17,10 +17,74 @@ You will find information on the latest major app updates for Windows 10 release
 
 **Note**: *Not all app updates will be listed here. Only app updates that include major changes e.g. new features, etc. will be noted here.*
 
+## Snip & Sketch 
+
+**10/31/2018** (Version 10.1809.2964.0)<br/>
+
+This update brings several improvements, including:
+- **Adding some emphasis.** Planning to paste your screenshot somewhere? Does that place have the same color background as the background of your screenshot? When you update to the latest app version you’ll find a new option to add a border to your screenshots – giving them that little bit extra needed to stand out.
+- **Printing!** Sometimes you want to keep a physical copy of your screenshots – we hear you that it took too many steps before, and have added a button in the toolbar so you can print directly from the app. (You can also print to PDF!)  
+   ![Printing](images/18272-app1.jpg "The Print option in Snip & Sketch")
+
+- **Refining our save options:**
+   - If you have unsaved changes and go to close a window or open a file that will now pop a confirmation.
+   - The default proposed file name will now include a timestamp.
+   - Saving now also supports .jpg and .gif file types.
+   - New settings page! We’re replacing the old **About** flyout with a full settings page where you’ll find the aforementioned option to add a border, an option for updates made to your snip to copy automatically to your clipboard, and more.
+   ![New Settings page](images/18272-app2.png "The Settings page in Snip & Sketch")
+
+
+**9/6/2018**<br/>
+We flighted version 10.1807.2286.0 of **Snip & Sketch** (née Screen Sketch), which included the highly requested delay snip feature. There was a bug in Build 18219 blocking the New button from working, so please try it out once you upgrade! 
+
+Just click the chevron next to the New button in the app and you’ll now find options to **Snip now**, **Snip in 3 seconds**, and **Snip in 10 seconds**. If you have the app open or pinned to your taskbar, you can also just right click the icon in the taskbar to get these options, since we’ve added them to the jump list – let us know what you’d like to see next!
+
+![snip & sketch](images/snip-n-sketch.png "snip & sketch")
+
+## Sticky Notes 
+
+**10/31/2018 - Version 3.1.32**<br/>
+Thank you for sharing your feedback on 3.0 release with us. We think you are going to love this update!
+
+![Sticky Notes](images/18272-apps3.png "Updated view in Sticky Notes")
+
+- We tested the waters with the Charcoal Note and you all seemed keen to go even darker! Introducing full-on Dark Mode support in Sticky Notes. We support Windows Dark Mode as well as the ability to set your color mode in Sticky Notes to suit your mood independent of your system settings.
+- Everyone seemed excited about Sticky Notes syncing, so we spent some time making it even faster! Check it out and let us know how it feels.
+
+Please give it a shot and let us know on Feedback Hub your thoughts on the new update.
+
+![Sticky Notes](images/18272-apps5.jpg "Sticky Notes with $MSFT drawn on it")
+
+Want to get to your notes from anywhere? How about on the web at [http://www.onenote.com/stickynotes](http://www.onenote.com/stickynotes)? It will be rolling out worldwide soon – take a look and let us know what you think.
+
+**10/24/2018**<br>
+Sticky Notes 3.1 (Skip Ahead only) brings the following: 
+* We tested the waters with Charcoal Note and you all seemed keen to go even darker. Introducing full-on Dark Mode!
+* Sync is even faster now, including to your phone via iOS and Android OneNote, rolling out now!
+
+
+**8/28/2018**<br/>
+Sticky Notes 3.0 brings the following amazing new features and capabilities:
+* Sync (& backup) your notes across your Windows devices.
+* If you have a lot of notes, your desktop can get a bit crowded! We are introducing a new home for all your notes. You can choose which notes to stick to your desktop or tuck them away and find them again easily with search.
+* We channeled our dark energy into a dark themed note: Charcoal Note.
+* Crossing tasks off feel better than deleting them! Now you can style your note with the new formatting bar.
+* You may notice that Sticky Notes is performing a lot faster – that is completely on purpose.
+* We’ve applied so much polish that the app is starting to look like a shiny pony!
+* Drastic improvements on being more inclusive: 
+    * Using assistive technologies and Narrator.
+    * Keyboard navigation.
+    * Using mouse, touch, and pen.
+    * High Contrast.
+
+
+Let us know what you think of **Sticky Notes** by sending us feedback via **Feedback Hub** and choosing **Apps > Sticky Notes** under **Category**.
+
+Read all about the awesomeness in Sticky Notes 3.0 in [this article on our Insider website](https://insider.windows.com/en-us/articles/sticky-notes-3-0-now-available-to-insiders-who-opted-into-skip-ahead/). 
+
 ## Your Phone app 
 **9/17/2018**<br/>
 **Text from your PC – stay connected with Your Phone app**: Your Phone app is live for Insiders. You must link your Android phone to your computer through **Your Phone** app. You will receive an app from Microsoft, which you must download to your mobile phone and follow the setup prompts. Android 7.0+ devices are compatible with **Your Phone** app. For PCs tied to the China region, **Your Phone** app services will be enabled in the future.
-
 
 We are still fine tuning the app, so if you are looking for support, check out workarounds in the [FAQ](https://support.microsoft.com/en-us/help/4459358/windows-10-your-phone-app-help).
 
@@ -48,13 +112,6 @@ Tap or click on **Top Microsoft Apps** to get 20 quick recommendations. Or click
 ![your phone companion app](images/your-phone-companion-app.png "your phone companion app")
 
 
-## Snip & Sketch 
-**9/6/2018**<br/>
-We flighted version 10.1807.2286.0 of **Snip & Sketch** (née Screen Sketch), which included the highly requested delay snip feature. There was a bug in Build 18219 blocking the New button from working, so please try it out once you upgrade! 
-
-Just click the chevron next to the New button in the app and you’ll now find options to **Snip now**, **Snip in 3 seconds**, and **Snip in 10 seconds**. If you have the app open or pinned to your taskbar, you can also just right click the icon in the taskbar to get these options, since we’ve added them to the jump list – let us know what you’d like to see next!
-
-![snip & sketch](images/snip-n-sketch.png "snip & sketch")
 
 ## Microsoft To-Do 
 **9/6/2018**<br/>
@@ -64,30 +121,5 @@ Please try it out and let us know what you think by tweeting at [@MicrosoftToDo]
 2. Complete your tasks by striking through them.
 3. Use check-marks within the circle to the left of a task to complete it.
 
-## Sticky Notes 
-**10/24/2018**
-Sticky Notes 3.1 (Skip Ahead only) brings the following: 
-* We tested the waters with Charcoal Note and you all seemed keen to go even darker. Introducing full-on Dark Mode!
-* Sync is even faster now, including to your phone via iOS and Android OneNote, rolling out now!
-
-
-**8/28/2018**<br/>
-Sticky Notes 3.0 brings the following amazing new features and capabilities:
-* Sync (& backup) your notes across your Windows devices.
-* If you have a lot of notes, your desktop can get a bit crowded! We are introducing a new home for all your notes. You can choose which notes to stick to your desktop or tuck them away and find them again easily with search.
-* We channeled our dark energy into a dark themed note: Charcoal Note.
-* Crossing tasks off feel better than deleting them! Now you can style your note with the new formatting bar.
-* You may notice that Sticky Notes is performing a lot faster – that is completely on purpose.
-* We’ve applied so much polish that the app is starting to look like a shiny pony!
-* Drastic improvements on being more inclusive: 
-    * Using assistive technologies and Narrator.
-    * Keyboard navigation.
-    * Using mouse, touch, and pen.
-    * High Contrast.
-
-
-Let us know what you think of **Sticky Notes** by sending us feedback via **Feedback Hub** and choosing **Apps > Sticky Notes** under **Category**.
-
-Read all about the awesomeness in Sticky Notes 3.0 in [this article on our Insider website](https://insider.windows.com/en-us/articles/sticky-notes-3-0-now-available-to-insiders-who-opted-into-skip-ahead/). 
 
 

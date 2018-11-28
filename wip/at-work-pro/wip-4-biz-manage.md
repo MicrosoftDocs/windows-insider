@@ -17,7 +17,7 @@ ms.localizationpriority: medium
 Administrators can manage installation of Windows 10 Insider Preview Builds across multiple devices in their organization using the following steps: 
 
 ## Register your domain 
-To authenticate multiple devices for Insider Preview builds, register your organization's Azure Active Directory domain with the Windows Insider Program. To register a domain, you must be registered in the Windows Insider Program with your work account in Azure AD (See [Register](wip-4-biz-register.md)) and you must be assigned a Global Administrator role on that Azure AD domain. Also requires Windows 10 Version 1703 or later on the machine used for registration. 
+To authenticate multiple devices for Insider Preview builds, register your organization's Azure Active Directory domain with the Windows Insider Program. To register a domain, you must be registered in the Windows Insider Program with your work account in Azure AD (see [Register](wip-4-biz-register.md)) and you must also be assigned a Global Administrator role on that Azure AD domain. Also requires Windows 10 Version 1703 or later on the machine used for registration. 
 
 > [!div class="nextstepaction"]
 > [Register your domain](https://insider.windows.com/en-us/for-business-organization-admin/)
@@ -54,7 +54,7 @@ __NOTE:__
 ### Set using Group Policy
 1. In the Group Policy Management Console (GPMC), go to __Computer Configuration/Administrative Templates/Windows Components/Windows Update/Windows Update for Business__ 
 2. Open __Manage preview builds__ to enable installation of Insider Preview builds on a device. This setting can also be used to prevent installation on a device and stop Insider Preview build updates once the release is public.  
-3. Open __Select when Preview Builds and Feature Updates are received__ and select the Ring from which you want devices to receive Insider Preview builds (Fast, Slow, Release Preview). See [Windows readiness levels and flight rings](wip-4-biz-flight-levels-and-rings.md). This setting can also be used to defer installation for a set number of days after release or pause installation of Insider Preview builds.  
+3. Open __Select when Preview Builds and Feature Updates are received__ and select the Ring from which you want devices to receive Insider Preview builds (Fast, Slow, Release Preview). This setting can also be used to defer installation for a set number of days after release or pause installation of Insider Preview builds.  
 
 See also 
 [Use Group Policy to configure Windows Update for Business](https://docs.microsoft.com/en-us/windows/deployment/update/waas-wufb-group-policy)
@@ -108,16 +108,14 @@ To confirm that your Windows Update for Business policies have been set correctl
 
 ![Windows Update for Business values in Registry Editor](images/wip-4-biz-reg-xs.png "ADD")
 
-__NOTE:__
-* Once a policy has been set, the device must be restarted for the policy to be activated. 
-* If a device is not receiving Insider Preview builds, see [Troubleshooting](wip-4-biz-troubleshooting.md). 
+NOTE: Once a policy has been set, the device must be restarted for the policy to be activated. 
 
 ### Track devices 
 You can use Device Health in Windows Analytics to monitor devices running Insider Preview builds. This can be useful for identifying device, device driver and application issues. See [Using Device Health to monitor Insider Preview builds](https://insider.windows.com/en-us/for-business-device-health/). 
 
 ## Related Topics
 * [Deploy updates using Windows Update for Business](https://docs.microsoft.com/en-us/windows/deployment/update/waas-manage-updates-wufb) 
-* [How to use Insider Preview Builds to validate Applications and Infrastructure](https://insider.windows.com/en-us/for-business-getting-started/#validate)
 * [Register for the Windows Insider Program for Business](wip-4-biz-register.md)
-* [Share Feedback via the Feedback Hub](wip-4-biz-feedback-hub.md)
+* [Submit and track feedback using the Feedback Hub](wip-4-biz-feedback.md)
+
 
