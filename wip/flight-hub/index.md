@@ -25,10 +25,10 @@ The items with in **bold** are the latest releases for the individual versions o
 
 | Build | Fast | Slow | Server | IoT | ISO | SDK |
 |-------|------|------|--------|-----|-----|-----|
-|18290|[**11/28/2018**](https://blogs.windows.com/windowsexperience/2018/11/28/announcing-windows-10-insider-preview-build-18290/)|||||||
-|18282|[11/14/2018](https://blogs.windows.com/windowsexperience/2018/11/14/announcing-windows-10-insider-preview-build-18282/)|||||||[**11/20/2018**](https://blogs.windows.com/buildingapps/2018/11/20/windows-10-sdk-preview-build-18282-available-now/)
+|18290|[**11/28/2018**](https://blogs.windows.com/windowsexperience/2018/11/28/announcing-windows-10-insider-preview-build-18290/)||||||
+|18282|[11/14/2018](https://blogs.windows.com/windowsexperience/2018/11/14/announcing-windows-10-insider-preview-build-18282/)|||||[**11/20/2018**](https://blogs.windows.com/buildingapps/2018/11/20/windows-10-sdk-preview-build-18282-available-now/)
 |18277|[11/7/2018](https://blogs.windows.com/windowsexperience/2018/11/07/announcing-windows-10-insider-preview-build-18277/)|||||||
-|18272|[10/31/2018](https://blogs.windows.com/windowsexperience/2018/10/31/announcing-windows-10-insider-preview-build-18272/)||||||[11/6/2018](https://blogs.windows.com/buildingapps/2018/11/06/windows-10-sdk-preview-build-18272-available-now/)
+|18272|[10/31/2018](https://blogs.windows.com/windowsexperience/2018/10/31/announcing-windows-10-insider-preview-build-18272/)|||||[11/6/2018](https://blogs.windows.com/buildingapps/2018/11/06/windows-10-sdk-preview-build-18272-available-now/)
 |18267|[10/24/2018](https://blogs.windows.com/windowsexperience/2018/10/24/announcing-windows-10-insider-preview-build-18267/)
 |18262|[10/17/2018](https://blogs.windows.com/windowsexperience/2018/10/17/announcing-windows-10-insider-preview-build-18262/)
 |18252|[10/3/2018](https://blogs.windows.com/windowsexperience/2018/10/03/announcing-windows-10-insider-preview-build-18252/)
