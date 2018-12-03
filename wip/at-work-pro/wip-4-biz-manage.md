@@ -56,8 +56,8 @@ __NOTE:__
 2. Open __Manage preview builds__ to enable installation of Insider Preview builds on a device. This setting can also be used to prevent installation on a device and stop Insider Preview build updates once the release is public.  
 3. Open __Select when Preview Builds and Feature Updates are received__ and select the Ring from which you want devices to receive Insider Preview builds (Fast, Slow, Release Preview). This setting can also be used to defer installation for a set number of days after release or pause installation of Insider Preview builds.  
 
-See also 
-[Use Group Policy to configure Windows Update for Business](https://docs.microsoft.com/en-us/windows/deployment/update/waas-wufb-group-policy)
+See also: </br>
+[Use Group Policy to configure Windows Update for Business](https://docs.microsoft.com/en-us/windows/deployment/update/waas-wufb-group-policy) </br>
 [VIDEO: Installing and managing Preview Builds using Group Policy](https://www.youtube.com/watch?v=x1Lmv8Rl_rk)
 
 ![Intune Update Ring](images/wip-4-biz-gpo.png "ADD")

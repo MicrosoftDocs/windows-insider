@@ -21,9 +21,9 @@ Users can sign into the Feedback Hub using either their Microsoft account or Azu
 
 ## Submit feedback on behalf of your organization
 1. Register as a Windows Insider with your work account in Azure Active Directory.
-2. Sign into the Feedback Hub using this same work account. On the Welcome page of the Feedback Hub, click on the People icon, lower left and select or add your AAD work account. If you're signed in to the Feedback Hub App using your personal Microsoft Account (MSA), you can switch to your work account by clicking on your account, signing out and signing back in.
+2. Sign into the [Feedback Hub](insiderhub://home/) using this same work account. On the Welcome page of the Feedback Hub, click on the People icon, lower left and select or add your AAD work account. If you're signed in to the Feedback Hub App using your personal Microsoft Account (MSA), you can switch to your work account by clicking on your account, signing out and signing back in.
 
-__Note:__ The Feedback Hub needs a user's consent to access their Azure AD account profile data (we read name, organizational tenant ID, and user ID). When users sign in for the first time with their Azure AD account, they will see a pop-up asking for permission. If a user cannot give consent in the pop-up, access to the Feedback Hub may be blocked. Administrators can unblock in the [Azure portal](https://portal.azure.com/). Go to __Enterprise applications__ section and enable __Users can allow apps to access their data__. 
+NOTE: The Feedback Hub needs a user's consent to access their Azure AD account profile data (we read name, organizational tenant ID, and user ID). When users sign in for the first time with their Azure AD account, they will see a pop-up asking for permission. If a user cannot give consent in the pop-up, access to the Feedback Hub may be blocked. Administrators can unblock in the [Azure portal](https://portal.azure.com/). Go to __Enterprise applications__ section and enable __Users can allow apps to access their data__. 
 
 3. To submit feedback, go to the Feedback Hub and click on the __Feedback tab__ in the upper-left corner off the screen. For more information, see: [How to provide effective feedback](https://insider.windows.com/en-us/how-to-feedback/).  
 
