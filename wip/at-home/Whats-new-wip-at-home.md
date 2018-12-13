@@ -7,13 +7,115 @@ manager: dougkim
 ms.service: WIP-at-home
 ms.tgt_pltfrm: na
 ms.devlang: na
-ms.date: 11/30/2018
+ms.date: 12/12/2018
 ms.author: elizapo
 ms.localizationpriority: medium
 ---
 
 # What's new in the Windows 10 Insider preview builds (19H1)
 The [Windows Insider Program](https://insider.windows.com/en-us/) lets you preview builds of the upcoming release of Windows 10. This topic lists all new Windows 10 features for you to try. 
+
+
+## Consolidating your sign-in options (Build 18298)
+With [Build 18272](#sign-in-options-redesigned-for-windows-hello-build-18272), we set out to simplify sign-in settings, to increase visual clarity, and improve ease of use. Our goal is to give you a one-stop shop for all your sign-in settings, and today we’re adding one more to the list: You can now set up a security key straight from Settings.
+
+![Set up a security key from Settings](images/18298-1.png "Set up a security key from Settings")
+
+## File Explorer improvements (Build 18298)
+**Updated File Explorer icon**: We’re updating the File Explorer icon, so it looks better with the new light theme. Thanks everyone who shared feedback about this! Here’s what it looks like now:
+
+![Before and after folder improvements](images/18298-2.png "Before and after folder improvements")
+
+**Updating the default downloads folder sorting**: More often than not, when you download a file, you don’t change the name before downloading it. Because of that, the names aren’t always very memorable (cake_134_small_red.jpg anyone?). This makes sorting by name less optimal since it’s hard to find the file you’re looking for, so we’re updating the default sorting to show the most recently downloaded file at the top of the list instead.
+
+>[!NOTE]
+>If you’ve already altered the current sorting from the default in any way, we will not change it – this is only for people who haven’t changed it. If at any point you want to switch sortings, you can do so from the View tab in File Explorer. Some Insiders have had this change for a little bit now, and based on positive feedback we’re now rolling it out to 100% of Fast.
+
+## Start menu improvements (Bu8ild 18298)
+**Quick unpin for groups and folders**: Sometimes you just wanna quickly start fresh – over the last few weeks we’ve been rolling out the ability to unpin groups and folders in Start via a new context menu entry. As of today, that option is now available to all Insiders in the Fast ring! Thanks, as always, to everyone who’s shared their feedback so far!
+
+![Quick unpin for Start menu](images/18298-3.png "Quick unpin for Start menu")
+
+## Touch keyboard improvements (Build 18298)
+We’ve heard your feedback, and with today’s build we’re rolling out some updates to the touch keyboard to improve your experience:
+
+- Type faster with more accuracy: When you’re typing quickly, sometimes your fingers miss the actual key you’re trying to hit by a small margin. This is totally normal, but can impact the text prediction accuracy (if you ending up pressing a different letter than expected). To address this, as you type, under the covers we will now dynamically adjust the hit target of each key, based on prediction of what letter most likely will be typed next. The keys will look no different to the eye, but here’s an example of the what’s going on underneath if you’re curious:
+   ![Dynamic hit targets for keyboards](images/18298-4.png "Dynamic hit targets for keyboards")
+- We’re making some improvements to reduce the number of times in tablet mode where the touch keyboard ends up occluding the text field when docked.
+
+If you’re a touch keyboard user, we’d love it if you spent some time typing on today’s build, and [let us know](http://aka.ms/tkbfeedback) how it feels for you now.
+
+## Console updates (Build 18298)
+
+![Updates to the console window](images/18298-5.png "Updates to the console window")
+
+As of Windows 10 build 18298, when you open the properties page of any Console window, you'll notice an additional "Terminal" tab containing several new settings for some experimental features we’re working on for future OS releases. [Read the Console team’s detailed blog post for more details.](https://blogs.msdn.microsoft.com/commandline/2018/12/10/new-experimental-console-features/)
+
+## Notepad updates (Build 18298)
+**UTF-8 encoding**: We’ve made significant improvements to the way Notepad handles encoding. Starting with this build, we are adding the option to save files in UTF-8 without a Byte Order Mark and making this the default for new files. UTF-8 without a Byte Order Mark is backwards-compatible with ASCII and will provide better interoperability with the web, where UTF-8 has become the default encoding. Additionally, we added a column to the status bar that displays the encoding of the document.
+
+**Modified indicator**: Notepad will now show an asterisk (*) in the title bar before the title of a document to indicate that a document has unsaved changes.
+
+![Notepad with the asterisk*](images/18298-6.png "Notepad with the asterisk*")
+
+**Send Feedback**: You can now send feedback directly from Notepad! Click Help > Send Feedback to open the Feedback Hub with [the Notepad category selected](https://blogs.windows.com/windowsexperience/2018/12/10/announcing-windows-10-insider-preview-build-18298/aka.ms/notepadfeedback) and get your feedback directly to the product team.
+
+![Send feedback from the Help menu](images/18298-7.png "Send feedback from the Help menu")
+
+**Other improvements include:**
+
+- We’ve added support for some additional shortcuts: 
+   - Ctrl+Shift+N will open a new Notepad window.
+   - Ctrl+Shift+S will open the Save as… dialog.
+   - Ctrl+W will close the current Notepad window.
+- Notepad can now open and save files with a path that is longer than 260 characters, also known as MAX_PATH.
+- We’ve fixed a bug where Notepad would count lines incorrectly for documents with very long lines.
+- We’ve fixed a bug where, when you select a placeholder file from OneDrive in the File Open dialog, we would download the file to determine its encoding.
+- We’ve fixed a recent regression where Notepad would no longer create a new file when launched with a file path that didn’t exist.
+
+## Narrator improvements (Build 18298)
+- **Introducing Narrator Home**: Every time you turn on Narrator, you’ll be taken to Narrator Home, which gives you one place where you can access everything you need for Narrator—whether you want to change your settings or learn Narrator basics with QuickStart.
+- In settings, you can remove Narrator Home from the **Alt + Tab** list, and instead minimize it to the system tray. You can access your settings through Narrator Home or by pressing **Windows logo key + Ctrl + N**.
+   ![Shows Narrator Home page](images/18298-8.png "Shows Narrator Home page")
+
+- **Verbosity improvements**: In settings, there are five new verbosity levels that control the amount of information you hear about text, controls, and other document attributes. Press **Narrator + V** to cycle through verbosity levels.
+When you don’t want to hear advanced information, you can turn off “Hear advanced information about controls when navigating.” You can also get the tooltip of the focused item by pressing **Narrator + 0**.
+
+- **Read URLs with a new command**: Narrator will tell you when you’ve navigated to links, but it doesn’t read the entire URL aloud by default. If you want to hear the entire URL, press **Narrator + 0**. 
+
+   >[!NOTE] 
+   > If the Narrator setting for “Hear advanced detail, like help text, on buttons and other controls” is checked, you will continue to hear URLs read out automatically.
+- **Easier table-reading**: In Edge, Narrator no longer announces “non-selected” when you navigate between cells in a table if the aria-selected property hasn’t been set. Narrator also won’t announce when you exit and re-enter a table when you’re reading a single table continuously. Narrator will also not announce parent table information when you navigate to a nested table.
+
+   In Excel, Narrator now prioritizes reading the data in a column header before announcing whether a filter is on. Narrator also now correctly reads out column headers in a grid formatted as a table when you use the “Read current column header” command.
+
+- **Updated capitalization reading**: Capitalization reading is now available in all reading modes. You can turn it on and off quickly by pressing **Narrator key + 4** when you need extra detail while reading or writing. You can also press **Windows logo key + Ctrl + N** to access your settings, then choose Increase pitch or **Say cap** under **Change how capitalized text is read**. 
+
+   If you choose Increase pitch, Narrator will accentuate capitalized, mixed-case, and upper-case words with increasing levels of voice pitch. If you choose **Say cap**, Narrator will say “cap” to identify capitalized words, “mix cap” for mixed-case words, and “all cap” for uppercase words.
+- **Stay focused when you’re reading content**: It’s now easier to stay focused when you’re reading content on the web: Reading and navigation commands stay within webpage content areas when you’re using most web browsers, like Microsoft Edge. This also works when you’re reading email in Outlook or the Mail app. You can still move out of content areas using **Tab** or shortcut keys.
+- **Move your cursor as Narrator reads**: When you’re reading text, your cursor doesn’t move from where you placed it. Now, you can choose to have it follow the Narrator cursor by checking the box next to the setting **Move my cursor as Narrator reads text**.
+- **More consistent reading experience**: You can now use Narrator text-reading commands (previous/next for character, word, line, sentence, paragraph, or page) to read a full window from top to bottom. Views options are consistent whether or not you’re reading text. For example, you can use views to search for a link anywhere within an active window. You’ll also notice a smoother reading experience, with more natural-sounding pauses and phrasing.
+- **Hear when you’re pressing certain keys**: Narrator settings offers new groups of keyboard keys you can choose to have spoken when pressed. You can independently select **Hear letters, numbers, and punctuation as you type, Hear function keys as you type, Hear arrow, Tab, and other navigation keys as you type, Hear when toggle keys like Caps lock and Num lock are turned on or off**, and **Hear Shift, Alt, and other modifier keys as you type**.
+- **Combo edit support**: Narrator now recognizes combo edit controls and will speak them as "combo edit" instead of just "edit."
+- **Narrator stays on while you reset your PIN or password or password**: If you forget your PIN or password for your Microsoft account, Narrator will stay on the whole time while you reset it.
+
+## Ease of Access improvements (Build 18298)
+
+**Bigger and brighter cursors**: We’ve introduced new cursor sizes and colors to make Windows easier to see.   Go to Ease of Access Settings (**Windows + U**), under the **Vision** category, select **Cursor & pointer** to see the list of options. We are still working on a couple issues where some cursor sizes may not work correctly on DPI’s larger than 100%.
+
+![Shows bigger cursors and pointers](images/18298-9.png "Shows bigger cursors and pointers")
+
+## Updating the Windows 10 Setup experience (Build 18298)
+We’re making some adjustments to the design of Windows 10 Setup! This is the experience you see when running setup.exe from an ISO – it will look like this now:
+
+![New Windows setup screen](images/18298-10.png "New Windows setup screen")
+
+>[!NOTE]
+>Windows 10 Setup for this build will not include the Microsoft logo, [Support](https://go.microsoft.com/fwlink/?LinkId=530045) link, or [Legal](https://go.microsoft.com/fwlink/?LinkId=530046) link in the bottom left hand corner of Windows Setup. The Retail release will include these and the links are included here for reference.
+
+## Windows Update notifications (Build 18298)
+
+Starting with 19H1, when your device has an update requiring a reboot (including new builds we release), you will see the Power button in the Start menu with orange indicator alerting you to restart your device.
 
 ## A touch of Fluent for menus in Start (Build 18290)
 
