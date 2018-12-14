@@ -12,12 +12,27 @@ ms.author: elizapo
 ms.localizationpriority: medium
 ---
 
-# Windows app updates
+# Windows app updates 
 You will find information on the latest major app updates for Windows 10 released to Windows Insiders here. Currently, app updates are sorted by date in which announcements of the app updates are made. In the future, we will be planning to include more details such as version numbers of the apps. 
 
 **Note**: *Not all app updates will be listed here. Only app updates that include major changes e.g. new features, etc. will be noted here.*
 
+## Feedback Hub
+
+**11/14/2018** (Version 1811)<br/>
+
+This update includes:
+- We’ve updated the navigation pane to now use the common control – that means when switching between sections you’ll now see that nice little transition animation!
+- We’ve made some improvements to how the UI flows between different window sizes.
+- Screenshots and Steps capture images can be now be easily reviewed in the app.
+- When creating a new feedback item, that feedback is auto-saved as a draft.  If the app closes unexpectedly in the middle of writing feedback, when you re-open the Feedback Hub you’ll now get notified of the existing draft so you can easily resume.
+- You can now check for app updates from the settings page in the Feedback Hub. We’ll also automatically check for app updates on app launch, and you’ll get a notification letting you know one is available.
+
 ## Snip & Sketch 
+
+**11/14/2018** (Version 10.1811.3371.0)<br/>
+
+This update brings bringing window snip to your modern snipping experience. Start your snip via your preferred entry point (WIN + Shift + S, Print Screen (if you’ve enabled it), directly from within Snip & Sketch, etc.), and select the window snip option at the top, and snip away! That selection will be remembered the next time you start a snip. 
 
 **10/31/2018** (Version 10.1809.2964.0)<br/>
 
