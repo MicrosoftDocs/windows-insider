@@ -17,14 +17,42 @@ You will find information on the latest major app updates for Windows 10 release
 
 **Note**: *Not all app updates will be listed here. Only app updates that include major changes e.g. new features, etc. will be noted here.*
 
+## Game Bar 
+
+**12/10/2018** 
+
+Check out the new Gallery experience in Game bar! Without ever leaving your game, you can now view screenshots and videos taken through Game bar and even share your favorite screenshots directly to Twitter. 
+
+![Gallery](images/game_bar.png "gallery experience in game bar")
+
+
+## Feedback Hub 
+
+**12/10/2018** (Version 1811)<br/>
+
+This update includes:
+- We’ve updated the navigation pane to now use the common control – that means when switching between sections you’ll now see that nice little transition animation!
+- We’ve made some improvements to how the UI flows between different window sizes.
+- Screenshots and Steps capture images can be now be easily reviewed in the app.
+- When creating a new feedback item, that feedback is auto-saved as a draft.  If the app closes unexpectedly in the middle of writing feedback, when you re-open the Feedback Hub you’ll now get notified of the existing draft so you can easily resume.
+- You can now check for app updates from the settings page in the Feedback Hub. We’ll also automatically check for app updates on app launch, and you’ll get a notification letting you know one is available.
+
+
 ## Snip & Sketch 
+
+**12/10/2018** (Version 10.1811.3371.0 )<br/>
+
+Bringing window snip to your modern snipping experience. Start your snip via your preferred entry point (WIN + Shift + S, Print Screen (if you’ve enabled it), directly from within Snip & Sketch, etc.), and select the window snip option at the top, and snip away! That selection will be remembered the next time you start a snip.
+
+![Windows Snip](images/snip_window.png "windows snip")
+
 
 **10/31/2018** (Version 10.1809.2964.0)<br/>
 
 This update brings several improvements, including:
 - **Adding some emphasis.** Planning to paste your screenshot somewhere? Does that place have the same color background as the background of your screenshot? When you update to the latest app version you’ll find a new option to add a border to your screenshots – giving them that little bit extra needed to stand out.
 - **Printing!** Sometimes you want to keep a physical copy of your screenshots – we hear you that it took too many steps before, and have added a button in the toolbar so you can print directly from the app. (You can also print to PDF!)  
-   ![Printing](images/18272-app1.jpg "The Print option in Snip & Sketch")
+![Printing](images/18272-app1.jpg "The Print option in Snip & Sketch")
 
 - **Refining our save options:**
    - If you have unsaved changes and go to close a window or open a file that will now pop a confirmation.
