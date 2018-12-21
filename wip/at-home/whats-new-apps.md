@@ -42,7 +42,7 @@ This update includes:
 
 **12/10/2018** (Version 10.1811.3371.0 )<br/>
 
-Bringing window snip to your modern snipping experience. Start your snip via your preferred entry point (WIN + Shift + S, Print Screen (if you’ve enabled it), directly from within Snip & Sketch, etc.), and select the window snip option at the top, and snip away! That selection will be remembered the next time you start a snip.
+Bring window snip to your modern snipping experience. Start your snip via your preferred entry point (WIN + Shift + S, Print Screen (if you’ve enabled it), directly from within Snip & Sketch, etc.), and select the window snip option at the top, and snip away! That selection will be remembered the next time you start a snip.
 
 ![Windows Snip](images/snip_window.png "windows snip")
 
