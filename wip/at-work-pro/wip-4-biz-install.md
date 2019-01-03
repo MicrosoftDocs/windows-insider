@@ -14,7 +14,7 @@ ms.localizationpriority: medium
 ---
 
 # Install Windows 10 Insider Preview Builds
-You can install Insider Preview builds on individual devices, manage installation across multiple devices in an organization, or install on a virtual machine. 
+You can install Insider Preview builds on individual devices, manage installation across multiple devices, or install on a virtual machine. 
 
 NOTE: A device must be running a licensed version of Windows 10 to update to an Insider Preview build. 
 
@@ -37,7 +37,7 @@ NOTE: A device must be running a licensed version of Windows 10 to update to an 
 Administrators can install and manage Insider Preview builds centrally across multiple devices in their organizational domain using Group Policies or MDM Policies. This option requires an Azure AD domain which must be registered in the Windows Insider Program. For instructions, see [Manage Windows Insider Preview builds](wip-4-biz-manage.md).
 
 ## Install on a virtual machine
-You can run Insider Preview builds as a virtual machine in Hyper-V. This option enables you to run Insider Preview builds without changing the Windows 10 production build already running on a PC.
+You can run Insider Preview builds as a virtual machine on a PC in Hyper-V. This option enables you to run Insider Preview builds without changing the Windows 10 production build already running on a PC.
 * For guidance on setting up virtual machines on your PC see: [Introduction to Hyper-V on Windows 10](https://docs.microsoft.com/virtualization/hyper-v-on-windows/about/).
 * To download the latest Insider Preview build ISO file to run on your virtual machine see: [Windows Insider Preview downloads](https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewadvanced).
 
