@@ -15,6 +15,168 @@ ms.localizationpriority: medium
 # What's new in the Windows 10 Insider preview builds (19H1)
 The [Windows Insider Program](https://insider.windows.com/en-us/) lets you preview builds of the upcoming release of Windows 10. This topic lists all new Windows 10 features for you to try. 
 
+## A simplified Start layout (Build 18305)
+Based on your feedback, we’re introducing a simplified default Start layout for new devices, new user accounts, and clean installs. The new layout has been simplified into a sleek one column design with reduced top-level tiles. For the IT admins out there, don’t worry, commercial and education customers will also see a simplified layout tailored to these scenarios.
+
+Coupled with earlier changes providing the ability to [uninstall additional inbox apps](https://blogs.windows.com/windowsexperience/2018/10/17/announcing-windows-10-insider-preview-build-18262/#LeXKDBThmFW8iQbK.97), and a new way to [easily unpin a folder or group of tiles](https://blogs.windows.com/windowsexperience/2018/10/31/announcing-windows-10-insider-preview-build-18272/#q6fgjW1JapokMzJW.97), the simplified Start layout is part of an ongoing effort designed to enhance your Start experience in the upcoming release of Windows.
+
+Note: When you update to this build, your Start layout won’t automatically change to the new layout because we want everything to be exactly as you left it before you did the update.
+
+![A simplified Start layout](images/18305-1.png "A simplified Start layout")
+
+## Introducing Windows Sandbox! (Build 18305)
+
+Windows Sandbox is a new lightweight desktop environment tailored for safely running applications in isolation.
+How many times have you downloaded an executable file, but were afraid to run it? Have you ever been in a situation which required a clean installation of Windows, but didn’t want to set up a virtual machine?
+
+At Microsoft, we regularly encounter these situations, so we developed Windows Sandbox: an isolated desktop environment where you can run untrusted software without the fear of lasting impact to your device. Any software installed in Windows Sandbox stays only in the sandbox and cannot affect your host. Once Windows Sandbox is closed, all the software with all of its files and state are permanently deleted.
+
+Windows Sandbox has the following properties:
+
+* __Part of Windows__ – everything required for this feature ships with Windows 10 Pro and Enterprise. No need to download a VHD! 
+* __Pristine__ – every time Windows Sandbox runs, it’s as clean as a brand-new installation of Windows. 
+* __Disposable__ – nothing persists on the device; everything is discarded after you close the application. 
+* __Secure__ – uses hardware-based virtualization for kernel isolation, which relies on the Microsoft Hypervisor to run a separate kernel which isolates Windows Sandbox from the host.
+* __Efficient__ – uses integrated kernel scheduler, smart memory management, and virtual GPU.
+
+To install Windows Sandbox, go to __Settings > Apps > Apps & Features > Programs and Features > Turn Windows Features on or off__, and then select __Enable Windows Sandbox__.
+To start Windows Sandbox, open the __Start__ menu, enter Windows Sandbox and then select it.
+
+Windows Sandbox respects the host diagnostic data settings. All other privacy settings are set to their default values.
+For more information, please visit [Windows Sandbox](https://techcommunity.microsoft.com/t5/Windows-Kernel-Internals/Windows-Sandbox/ba-p/301849) at Windows Kernel Internals.
+
+We are excited to learn how you use Windows Sandbox! As we continue to add new functionality, your feedback is crucial in shaping the direction of this feature, so share your thoughts with us at [Feedback Hub](https://aka.ms/windowssandbox-fb).
+
+![Windows Sandboxing](images/18305-2.png "Windows Sandboxing")
+
+## Windows Security app improvements (Build 18305)
+
+__New Protection History experience:__ We have had great feedback on our history experience from users, and we’ve listened!  Based on the suggestions and feedback we’ve received, the Protection history experience in Windows Security has been completely revamped. The new Protection History experience still shows you detections by Windows Defender Antivirus, but it’s now updated to also give more detailed and easier to understand information about threats and available actions. We have also added Controlled folder access blocks to history, along with any blocks which are made through organizational configuration of Attack Surface Reduction Rules. If you use the Windows Defender Offline scanning tool, any detections it makes will now also show in your history.  Additionally, you will see any pending recommendations (red or yellow states from throughout the app) in the history list. We hope you like the changes we’ve made!
+
+![New Protection History](images/18305-2.png "New Protection History experience")
+
+__Introducing Tamper Protection!__ Tamper Protection is a new setting from Windows Defender Antivirus, available in the Windows Security app, which when on, provides additional protections against changes to key security features, including limiting changes which are not made directly through the Windows Security app. You can find this setting under Windows Security > Virus & Threat Protection > Virus & Threat Protection Settings.
+
+![Tamper Protection](images/18305-4.png "Tamper Protection")
+
+## Symbols and Kaomoji are now just a hotkey away! (Build 18305)
+Ever tried to type an em dash, and couldn’t remember the Alt key code? Wanted to post “flipping the table” in social media, but couldn’t remember the sequence of characters? When you press WIN+(period) or WIN+(semicolon), in addition to emoji the picker that appears will now include symbols and kaomoji too!
+
+You may ask, [what is kaomoji](https://en.wikipedia.org/wiki/Emoticon#Japanese_style_kaomoji)? Translated literally from Japanese, it means “face characters” – basically, it’s a way to create faces using only text. You may already use them, for example the one mentioned above [is relatively popular](https://knowyourmeme.com/memes/flipping-tables-%E2%95%AF%E2%96%A1%E2%95%AF%EF%B8%B5-%E2%94%BB%E2%94%81%E2%94%BB): (╯°□°)╯︵ ┻━┻
+
+Diving more into the symbols side, you’ll find we’ve included sections for punctuation, currency, geometric, math, Latin, and language symbols. As you pick your most commonly used symbols, the most recently used tab will populate with them, so it will be even easier to select them next time.
+Currently only the emoji section supports type to search.
+
+This experience, originally introduced for Chinese (Simplified) during RS5 development, started rolling out to Insiders across all languages with [Build 18252](https://blogs.windows.com/windowsexperience/2018/10/03/announcing-windows-10-insider-preview-build-18252/) – as of today’s it’s now available to all Insiders in Fast! We’d love for you to try it out and share feedback. Tried it out already? With this build, we’ve updated the available kaomoji a bit based on your feedback, including adding ¯\_(ツ)_/¯ and ᓚᘏᗢ.
+
+![Symbols and Kaomoji](images/18305-5.png "Symbols and Kaomoji are now just a hotkey away!")
+
+## Clipboard history gets a new look (Build 18305)
+
+Have you already tried using clipboard history? If enabled, it allows you to save multiple clipboard items to use later. Introduced during [RS5 development](https://blogs.windows.com/windowsexperience/2018/05/09/announcing-windows-10-insider-preview-build-17666/#QTs2bQCzsFd2D0d1.97), we’ve been getting great feedback from everyone on this experience, and one of the things we heard most is that the UI wasn’t compact enough – a large space was used for each entry even if it was just a small text fragment. We originally opted to show bigger entries so there was space to show an image preview nicely, but when we looked at our data, we found 90% of items in the clipboard history were text. Based on that and your feedback, we now optimizing the design for text snippets – shrinking the height of each entry and thus giving you access to more entries without needing to scroll the view. Hope you like the change we made! Copy some text and press __Windows logo key + V__ to check out the updated design.
+
+![Symbols and Kaomoji](images/18305-6.png "Symbols and Kaomoji are now just a hotkey away!")
+
+## Signing in to Windows with password-less Microsoft accounts (Build 18305) 
+
+We’re pushing forward on eliminating passwords and keeping your accounts safe with another cool feature. Today, we’re announcing support for setting up and signing in to Windows with a phone number account, without having to create, or deal with the hassle of a password!  If you have a Microsoft account with your phone number, you can use an SMS code to sign in, and set up your account on Windows 10. Once you’ve setup your account, you can use Windows Hello Face, Fingerprint, or a PIN (depending on your device capabilities) to sign in to Windows 10. No password needed anywhere!
+
+![Passwordless Microsoft accounts](images/18305-7.png "Signing in to Windows with password-less Microsoft accounts")
+
+__Creating a password-less phone number account:__ If you don’t already have a password-less phone number account, you can create one in a mobile app like Word to try it out. Simply go to Word and sign up with your phone number by entering your phone number under “Sign in or sign up for free”.
+
+__Add your password-less phone number account to Windows:__ Now that you’ve created a password-less phone number account, you can use it to sign in to Windows with the following steps:
+1. Add your account to Windows from Settings > Accounts > Family & other Users > “Add someone else to this PC”.
+2. Lock your device and select your phone number account from the Windows sign-in screen.
+3. Since your account doesn’t have a password, select ‘Sign in options’, click the alternative ‘PIN’ tile, and click ‘Sign in’.
+4. Go through web sign in and Windows Hello set up (this is what you’ll use to sign in to your account on subsequent sign ins)
+5. You can now enjoy the benefits of signing in to Windows with your password-less phone number account.
+
+Note: This experience is currently only available for Insiders on Home edition. We’ll let you know when it expands to more editions
+
+## Streamlined Windows Hello PIN reset experience (Build 18305)
+
+We know remembering a PIN can be tricky, so we wanted to provide our Microsoft account users with a revamped Windows Hello PIN reset experience with the same look and feel as signing in on the web. Check it out in today’s build by clicking the ‘I forgot my PIN’ link when signing in to Windows with a PIN.
+
+Note: This experience is currently only available for Insiders on Home edition. We’ll let you know when it expands to more editions.
+
+![Windows Hello PIN reset](images/18305-7.png "Streamlined Windows Hello PIN reset experience")
+
+## Keep your device running smoothly with recommended troubleshooting (Build 18305)
+
+Microsoft can automatically fix certain critical problems on your Windows device to keep it running smoothly. For example, we may automatically restore default settings for critical services, adjust feature settings to match your hardware configuration, or make other specific changes required for Windows to operate normally. Critical troubleshooting happens automatically and can’t be turned off.
+
+We’ll also recommend troubleshooting for other problems that aren’t critical to normal Windows operation but might be impacting your experience. For example, we may recommend turning off a setting that sometimes causes an app or feature to crash unexpectedly until an update is available. We’ll let you know when we can help, and you can choose to run the troubleshooter or ignore it. You can also change how recommended troubleshooting is run on your device by opening __Start > Settings > Privacy > Diagnostics & Feedback__.
+
+You may have noticed that this feature has been [visible for a while](https://blogs.windows.com/windowsexperience/2018/10/17/announcing-windows-10-insider-preview-build-18262/#55235pw4SoBiWckd.97), but now it is fully functional. You may see recommended troubleshooting from us while we test the feature. These tests, marked as “sample recommended troubleshooter”, are safe to run and will not make any changes to your device. The tests help to ensure that the feature is working as designed and give you an opportunity to give feedback, so we can help keep your device working at its best. You will see this notification when there is a recommended troubleshooter available for your device:
+
+![Windows Hello PIN reset](images/18305-8.png "Streamlined Windows Hello PIN reset experience")
+
+After clicking the notification, you’ll see this screen, where you can choose whether or not to run the recommended troubleshooter.
+
+![Windows Hello PIN reset-2](images/18305-9.png "choose whether or not to run the recommended troubleshooter")
+
+## Set a default Task Manager tab (Build 18305)
+
+Do you have a preferred tab in Task Manager – one that you always immediately switch to? We’re happy to share you can now choose your own default tab! When you launch Task Manager, it will now to jump directly to your preferred tab.
+You can set your preferred tab via __Options > Set default tab__.
+
+![default Task Manager tab](images/18305-10.png "Set a default Task Manager tab")
+
+## Updated Settings Homepage (Build 18305)
+
+In this build, we’re introducing a new way to help users finish their Windows setup and quickly access some of the most frequently used settings. Inspired by the Microsoft account homepage, the Settings home page now has a header at the top allowing you to take quick action for things like signing in and managing your Microsoft account, making the Windows and Microsoft experience better. It also gives you an easy to glance at system status, such as when updates are available. Some of you may have already seen this in previous builds, but don’t worry if not, we’re continuing to roll this out slowly and you will see it in an upcoming build.
+
+![Windows Hello PIN reset-2](images/18305-11.png "choose whether or not to run the recommended troubleshooter")
+
+
+## Friendly Dates in File Explorer (Build 18305)
+
+With [Build 18272](https://blogs.windows.com/windowsexperience/2018/11/07/announcing-windows-10-insider-preview-build-18277/), we mentioned some Insiders may notice a few small changes to File Explorer. We promised details, and sharing the updated default [downloads folder sorting](https://blogs.windows.com/windowsexperience/2018/12/10/announcing-windows-10-insider-preview-build-18298/) was the first part of that. The second part of it is this: we’re trying out a new default date format in File Explorer! Called friendly dates, you can see an example of how it looks in the image below.
+Why make the change? The new format simplifies the date modified column, and provides consistency with other views that you see throughout the OS, apps, and on the web.
+We appreciate everyone who’s taken the time to share their feedback so far. Based on your comments, in Build 18305, we’re making it a bit easier to turn off if it’s not your thing – you no longer have to dig through settings, you can now just right-click on the date modified column and toggle friendly dates on and off from there.
+Friendly dates isn’t yet available for everyone, so don’t worry if you don’t see it just yet – we’ll let you know when it’s live for all.
+
+![Friendly Dates in File Explorer](images/18305-12.png "Friendly Dates in File Explorer")
+
+## Shadows are back! (Build 18305)
+
+As some keen-eyed Insiders have noticed, we recently started re-rolling out the shadows work we originally introduced with [Build 17711](https://blogs.windows.com/windowsexperience/2018/07/06/announcing-windows-10-insider-preview-build-17711/). Shadows are part of our long-term vision of the [evolution of Fluent Design](https://developer.microsoft.com/en-us/events/build/content/fluent-design-system-evolution?playlist=41f18bdd-6d5a-44b9-8586-0fa36ed91c45), and we’re excited to bring them back to you today after addressing some of the feedback you shared with us following the initial rollout.
+
+![Shadows are back!](images/18305-13.png "Shadows introduced in build 17711 are back!")
+
+## Re-releasing the new Japanese IME (Build 18305)
+
+Thank you for your valuable feedback on our [new Japanese IME](https://blogs.windows.com/windowsexperience/2018/11/07/announcing-windows-10-insider-preview-build-18277/). A few weeks ago, we took the IME offline in order to address some of the feedback shared with us, and we’re now ready to start rolling out the IME again to Insiders. The latest version of the IME has enhanced key customization options and improved candidate window reliability (fixing an issue where it wouldn’t show), and we’re looking forward to you trying it out. Because we want to ensure the best possible typing experience, this will be a staggered rollout – some Insiders will get it today, and we will carefully review both metrics and your comments before pushing the IME out to everyone. Looking forward to you trying it out and sharing feedback!
+
+Note: We are aware of compatibility issues with some game applications and the team is working on them – we’ll let you know when this has been addressed.
+
+![Japanese IME](images/18305-14.png "Re-releasing the new Japanese IME")
+
+## Introducing the Office app for Windows 10 (Build 18305)
+
+This month, Windows Insiders get their first look at the new Office app, a simple experience designed to help users get the most out of Office and get back into their work quickly. This app is based on the redesigned [Office.com](https://office.com/) experience, which has had great user feedback and has changed how many of our web users engage with Office on a daily basis.
+
+The app is a great starting point for Office that helps you easily find all your files in one place or easily access any Office solution available to you. It knows to connect you to the Office rich clients if they are installed on your computer or it will send you to the web version of Office if they’re not. IT will also appreciate the ability to customize the app by integrating other line of business applications that use Azure Active Directory into the experience and apply corporate branding to the app.
+
+Please see the [Microsoft 365 Blog post](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.microsoft.com%2Fen-us%2Fmicrosoft-365%2Fblog%2F2018%2F12%2F19%2Fintroducing-the-office-app-for-windows-10%2F&data=02%7C01%7Cwdoll%40microsoft.com%7C2756d006866e46081e4808d66510813f%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636807518894476742&sdata=KFMvdWe34hQwH0mkTQ4ybUzPXgxlNurT%2FIZFbPyE9QY%3D&reserved=0) for more information on the Office app. Start using the app to get the most out of Office, and please let us know what you think via the feedback link under “Settings.”
+
+Note: You may notice the [new Office icons](https://medium.com/microsoft-design/redesigning-the-office-app-icons-to-embrace-a-new-world-of-work-91d72608ee8f) in the screenshot above! They aren’t live for Insiders yet, but we wanted you to get a taste of what it will look like once they are.
+
+![Office app for Windows 10](images/18305-15.png "Introducing the Office app for Windows 10")
+
+## Get more done with Cortana and Microsoft To-Do (Build 18305)
+
+Want just one to-do list that works twice as hard for you? Save time and stay organized – Cortana helps by adding your reminders and tasks to your lists in Microsoft To-Do with this feature preview, so you can stay on top of what matters most. Use your voice, your PC, your phone – your choice.
+Streamline your tasks – your lists and reminders from across Microsoft To-Do, Cortana, and tasks in Outlook can now become one, centrally located in your Microsoft To-Do app. Use Microsoft To-Do anywhere: on your Android or iPhone, with Cortana, or on your Windows 10 PC. You can also access it from the web. It’s automatically synced so you never miss a beat. When you ask Cortana to add milk to your grocery list, it’ll show up on one of your Microsoft To-Do lists.
+
+![Cortana and Microsoft To-Do](images/18305-16.png "Get more done with Cortana and Microsoft To-Do")
+
+Or, ask Cortana to remind you to call a friend and see the reminder appear in your Microsoft To-Do planned list.
+
+![Cortana and Microsoft To-Do-2](images/18305-17.png "see the reminder appear in your Microsoft To-Do planned list")
+
+With this integration, we are furthering efforts to seamlessly sync your to-do lists across Microsoft To-Do, Cortana, and your tasks in Outlook. To start syncing, your Windows 10 PC must be running Build 18267+ and tied to either the Australia, India, US, or UK region. [Learn more about the Microsoft To-Do and Cortana integration](https://techcommunity.microsoft.com/t5/Microsoft-To-Do-Blog/What-s-new-for-Microsoft-To-Do-in-October-2018/ba-p/279462). To share feedback, [join the cohort](https://insider.windows.com/en-us/signup/cortana-cohort/?utm_source=email&utm_medium=email&utm_campaign=CortanaWithMSToDo&utm_content=WIP_Header_Body_CortanaCohortSignUp) or use the Windows Feedback Hub. 
 
 ## Consolidating your sign-in options (Build 18298)
 With [Build 18272](#sign-in-options-redesigned-for-windows-hello-build-18272), we set out to simplify sign-in settings, to increase visual clarity, and improve ease of use. Our goal is to give you a one-stop shop for all your sign-in settings, and today we’re adding one more to the list: You can now set up a security key straight from Settings.
