@@ -15,6 +15,47 @@ ms.localizationpriority: medium
 # What's new in the Windows 10 Insider preview builds (19H1)
 The [Windows Insider Program](https://insider.windows.com/en-us/) lets you preview builds of the upcoming release of Windows 10. This topic lists all new Windows 10 features for you to try. 
 
+## Streamlined Windows Hello PIN reset experience (Build 18309)
+We know remembering a PIN can be tricky, so we wanted to provide our Microsoft account users with a revamped Windows Hello PIN reset experience with the same look and feel as signing in on the web. Check it out in today’s build by clicking the ‘I forgot my PIN’ link when signing in to Windows with a PIN.
+
+Based on your feedback, we’re introducing a simplified default Start layout for new devices, new user accounts, and clean installs. The new layout has been simplified into a sleek one column design with reduced top-level tiles. For the IT admins out there, don’t worry, commercial and education customers will also see a simplified layout tailored to these scenarios.
+
+Insiders can try it out on all Windows 10 editions.
+
+![Windows Hello PIN reset](images/18309-18.gif "Streamlined Windows Hello PIN reset experience")
+
+## Signing in to Windows with password-less Microsoft accounts on all Windows 10 editions (Build 18309) 
+We’re pushing forward on eliminating passwords and keeping your accounts safe with another cool feature. With Build 18305, we announced support for setting up and signing in to Windows 10 with a phone number account, without having to create, or deal with the hassle of a password for Insiders using the Windows 10 Home edition. Today, that support is extending to all Windows 10 editions!
+If you have a Microsoft account with your phone number, you can use an SMS code to sign in, and set up your account on Windows 10. Once you’ve setup your account, you can use Windows Hello Face, Fingerprint, or a PIN (depending on your device capabilities) to sign in to Windows 10. No password needed anywhere!
+
+![Passwordless Microsoft accounts](images/18305-7.gif "Signing in to Windows with password-less Microsoft accounts")
+
+### Creating a password-less phone number account
+If you don’t already have a password-less phone number account, you can create one in a mobile app like Word on your iOS or Android device to try it out. Simply go to Word and sign up with your phone number by entering your phone number under “Sign in or sign up for free”.
+### Add your password-less phone number account to Windows 
+Now that you’ve created a password-less phone number account, you can use it to sign in to Windows with the following steps:
+1. Add your account to Windows from Settings > Accounts > Family & other Users > “Add someone else to this PC”.
+2. Lock your device and select your phone number account from the Windows sign-in screen.
+3. Since your account doesn’t have a password, select ‘Sign in options’, click the alternative ‘PIN’ tile, and click ‘Sign in’.
+4. Go through web sign in and Windows Hello set up (this is what you’ll use to sign in to your account on subsequent sign ins). 
+
+You can now enjoy the benefits of signing in to Windows with your password-less phone number account.
+
+## Narrator Improvements (Build 18309)
+__Add more voices:__ Users can download additional voices in other languages without having to download language packs.  To do that, go to Narrator Settings and select the “Add more voices” link.
+
+__Narrator Home navigation:__ The main actions on Narrator Home, such as QuickStart and Settings, are now buttons and not Listview items. You are now able to tab between all of them.
+__Read Current character phonetics:__ Added Narrator + 5 twice Narrator command to render current character phonetics.
+
+__Other improvements:__ 
+- Improved reading of controls while navigating and editing
+- Improved table reading in PowerPoint
+- Improved reading and navigating experiences with Chrome and Narrator
+- Improved interacting with Chrome menu’s with Narrator
+
+## Ease of Access Improvements (Build 18309)
+Cursor and Pointers: Building on our mouse work announced with 18298, we’ve added 11 additional mouse pointer sizes in the Cursor and Pointers settings.  There are now 15 sizes.
+
 ## A simplified Start layout (Build 18305)
 Based on your feedback, we’re introducing a simplified default Start layout for new devices, new user accounts, and clean installs. The new layout has been simplified into a sleek one column design with reduced top-level tiles. For the IT admins out there, don’t worry, commercial and education customers will also see a simplified layout tailored to these scenarios.
 
@@ -53,13 +94,14 @@ We are excited to learn how you use Windows Sandbox! As we continue to add new f
 
 __New Protection History experience:__ We have had great feedback on our history experience from users, and we’ve listened!  Based on the suggestions and feedback we’ve received, the Protection history experience in Windows Security has been completely revamped. The new Protection History experience still shows you detections by Windows Defender Antivirus, but it’s now updated to also give more detailed and easier to understand information about threats and available actions. We have also added Controlled folder access blocks to history, along with any blocks which are made through organizational configuration of Attack Surface Reduction Rules. If you use the Windows Defender Offline scanning tool, any detections it makes will now also show in your history.  Additionally, you will see any pending recommendations (red or yellow states from throughout the app) in the history list. We hope you like the changes we’ve made!
 
-![New Protection History](images/18305-2.png "New Protection History experience")
+![New Protection History](images/18305-18.png "New Protection History experience")
 
 __Introducing Tamper Protection!__ Tamper Protection is a new setting from Windows Defender Antivirus, available in the Windows Security app, which when on, provides additional protections against changes to key security features, including limiting changes which are not made directly through the Windows Security app. You can find this setting under Windows Security > Virus & Threat Protection > Virus & Threat Protection Settings.
 
 ![Tamper Protection](images/18305-4.png "Tamper Protection")
 
 ## Symbols and Kaomoji are now just a hotkey away! (Build 18305)
+
 Ever tried to type an em dash, and couldn’t remember the Alt key code? Wanted to post “flipping the table” in social media, but couldn’t remember the sequence of characters? When you press WIN+(period) or WIN+(semicolon), in addition to emoji the picker that appears will now include symbols and kaomoji too!
 
 You may ask, [what is kaomoji](https://en.wikipedia.org/wiki/Emoticon#Japanese_style_kaomoji)? Translated literally from Japanese, it means “face characters” – basically, it’s a way to create faces using only text. You may already use them, for example the one mentioned above [is relatively popular](https://knowyourmeme.com/memes/flipping-tables-%E2%95%AF%E2%96%A1%E2%95%AF%EF%B8%B5-%E2%94%BB%E2%94%81%E2%94%BB): (╯°□°)╯︵ ┻━┻
@@ -76,31 +118,6 @@ This experience, originally introduced for Chinese (Simplified) during RS5 devel
 Have you already tried using clipboard history? If enabled, it allows you to save multiple clipboard items to use later. Introduced during [RS5 development](https://blogs.windows.com/windowsexperience/2018/05/09/announcing-windows-10-insider-preview-build-17666/#QTs2bQCzsFd2D0d1.97), we’ve been getting great feedback from everyone on this experience, and one of the things we heard most is that the UI wasn’t compact enough – a large space was used for each entry even if it was just a small text fragment. We originally opted to show bigger entries so there was space to show an image preview nicely, but when we looked at our data, we found 90% of items in the clipboard history were text. Based on that and your feedback, we now optimizing the design for text snippets – shrinking the height of each entry and thus giving you access to more entries without needing to scroll the view. Hope you like the change we made! Copy some text and press __Windows logo key + V__ to check out the updated design.
 
 ![Symbols and Kaomoji](images/18305-6.png "Symbols and Kaomoji are now just a hotkey away!")
-
-## Signing in to Windows with password-less Microsoft accounts (Build 18305) 
-
-We’re pushing forward on eliminating passwords and keeping your accounts safe with another cool feature. Today, we’re announcing support for setting up and signing in to Windows with a phone number account, without having to create, or deal with the hassle of a password!  If you have a Microsoft account with your phone number, you can use an SMS code to sign in, and set up your account on Windows 10. Once you’ve setup your account, you can use Windows Hello Face, Fingerprint, or a PIN (depending on your device capabilities) to sign in to Windows 10. No password needed anywhere!
-
-![Passwordless Microsoft accounts](images/18305-7.png "Signing in to Windows with password-less Microsoft accounts")
-
-__Creating a password-less phone number account:__ If you don’t already have a password-less phone number account, you can create one in a mobile app like Word to try it out. Simply go to Word and sign up with your phone number by entering your phone number under “Sign in or sign up for free”.
-
-__Add your password-less phone number account to Windows:__ Now that you’ve created a password-less phone number account, you can use it to sign in to Windows with the following steps:
-1. Add your account to Windows from Settings > Accounts > Family & other Users > “Add someone else to this PC”.
-2. Lock your device and select your phone number account from the Windows sign-in screen.
-3. Since your account doesn’t have a password, select ‘Sign in options’, click the alternative ‘PIN’ tile, and click ‘Sign in’.
-4. Go through web sign in and Windows Hello set up (this is what you’ll use to sign in to your account on subsequent sign ins)
-5. You can now enjoy the benefits of signing in to Windows with your password-less phone number account.
-
-Note: This experience is currently only available for Insiders on Home edition. We’ll let you know when it expands to more editions
-
-## Streamlined Windows Hello PIN reset experience (Build 18305)
-
-We know remembering a PIN can be tricky, so we wanted to provide our Microsoft account users with a revamped Windows Hello PIN reset experience with the same look and feel as signing in on the web. Check it out in today’s build by clicking the ‘I forgot my PIN’ link when signing in to Windows with a PIN.
-
-Note: This experience is currently only available for Insiders on Home edition. We’ll let you know when it expands to more editions.
-
-![Windows Hello PIN reset](images/18305-7.png "Streamlined Windows Hello PIN reset experience")
 
 ## Keep your device running smoothly with recommended troubleshooting (Build 18305)
 

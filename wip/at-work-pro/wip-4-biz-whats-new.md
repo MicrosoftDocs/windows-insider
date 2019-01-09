@@ -10,7 +10,83 @@ ms.author: elizapo
 ms.localizationpriority: medium
 ---
 
-# What’s new for business in Windows 10 Insider Preview Builds 
+# What’s new for business in Windows 10 Insider Preview Builds
+
+## Streamlined Windows Hello PIN reset experience (Build 18309) 
+We know remembering a PIN can be tricky, so we wanted to provide our Microsoft account users with a revamped Windows Hello PIN reset experience with the same look and feel as signing in on the web. Check it out in today’s build by clicking the ‘I forgot my PIN’ link when signing in to Windows with a PIN.
+
+Based on your feedback, we’re introducing a simplified default Start layout for new devices, new user accounts, and clean installs. The new layout has been simplified into a sleek one column design with reduced top-level tiles. For the IT admins out there, don’t worry, commercial and education customers will also see a simplified layout tailored to these scenarios.
+
+Insiders can try it out on all Windows 10 editions.
+
+![Windows Sandboxing](images/18309-1b.gif "Windows Sandboxing")
+
+
+
+## Introducing Windows Sandbox! (Build 18305)
+
+Windows Sandbox is a new lightweight desktop environment tailored for safely running applications in isolation.
+How many times have you downloaded an executable file, but were afraid to run it? Have you ever been in a situation which required a clean installation of Windows, but didn’t want to set up a virtual machine?
+
+At Microsoft, we regularly encounter these situations, so we developed Windows Sandbox: an isolated desktop environment where you can run untrusted software without the fear of lasting impact to your device. Any software installed in Windows Sandbox stays only in the sandbox and cannot affect your host. Once Windows Sandbox is closed, all the software with all of its files and state are permanently deleted.
+
+Windows Sandbox has the following properties:
+
+* __Part of Windows__ – everything required for this feature ships with Windows 10 Pro and Enterprise. No need to download a VHD! 
+* __Pristine__ – every time Windows Sandbox runs, it’s as clean as a brand-new installation of Windows. 
+* __Disposable__ – nothing persists on the device; everything is discarded after you close the application. 
+* __Secure__ – uses hardware-based virtualization for kernel isolation, which relies on the Microsoft Hypervisor to run a separate kernel which isolates Windows Sandbox from the host.
+* __Efficient__ – uses integrated kernel scheduler, smart memory management, and virtual GPU.
+
+To install Windows Sandbox, go to __Settings > Apps > Apps & Features > Programs and Features > Turn Windows Features on or off__, and then select __Enable Windows Sandbox__.
+To start Windows Sandbox, open the __Start__ menu, enter Windows Sandbox and then select it.
+
+Windows Sandbox respects the host diagnostic data settings. All other privacy settings are set to their default values.
+For more information, please visit [Windows Sandbox](https://techcommunity.microsoft.com/t5/Windows-Kernel-Internals/Windows-Sandbox/ba-p/301849) at Windows Kernel Internals.
+
+We are excited to learn how you use Windows Sandbox! As we continue to add new functionality, your feedback is crucial in shaping the direction of this feature, so share your thoughts with us at [Feedback Hub](https://aka.ms/windowssandbox-fb).
+
+![Windows Sandboxing](images/18305-1b.png "Windows Sandboxing")
+
+__Known issues__
+* When Windows Sandbox is first installed and on every servicing event a setup process will run and trigger significant CPU and disk activity for a minute or so.
+* Opening the Start menu in Windows Sandbox takes some time and some Start Menu apps will not run.
+* The time zone is not synchronized between Windows Sandbox and the host.
+* Windows Sandbox does not support installers which require reboot.
+* The Microsoft Store is not supported in Windows Sandbox.
+* Windows Sandbox does not support high dpi displays very well.
+* Windows Sandbox does not fully support multi-monitor configurations.
+
+## Windows Security app improvements (Build 18305)
+
+__New Protection History experience:__ We have had great feedback on our history experience from users, and we’ve listened!  Based on the suggestions and feedback we’ve received, the Protection history experience in Windows Security has been completely revamped. The new Protection History experience still shows you detections by Windows Defender Antivirus, but it’s now updated to also give more detailed and easier to understand information about threats and available actions. We have also added Controlled folder access blocks to history, along with any blocks which are made through organizational configuration of Attack Surface Reduction Rules. If you use the Windows Defender Offline scanning tool, any detections it makes will now also show in your history.  Additionally, you will see any pending recommendations (red or yellow states from throughout the app) in the history list. We hope you like the changes we’ve made!
+
+![New Protection History](images/18305-2b.png "New Protection History experience")
+
+__Introducing Tamper Protection!__ Tamper Protection is a new setting from Windows Defender Antivirus, available in the Windows Security app, which when on, provides additional protections against changes to key security features, including limiting changes which are not made directly through the Windows Security app. You can find this setting under Windows Security > Virus & Threat Protection > Virus & Threat Protection Settings.
+
+![Tamper Protection](images/18305-4.png "Tamper Protection")
+
+## Automatic Restart and Sign On (ARSO) for Enterprises (Build 18305)
+Are you tired of seeing these flashing screens after every update? 
+
+![ARSO1](images/18305-3b2.png "Automatic Restart and Sign On (ARSO) for Enterprises")
+![ARSO2](images/18305-3b.png "Automatic Restart and Sign On (ARSO) for Enterprises2")
+
+ARSO is a feature that automatically signs-in a user after an update to finish setting up and then locks the PC. This feature is part of our Seamless Update Story for Windows, and its goal is to reduce customer pain points around updates, including things such as post logon set up time and not being able to pick up where you left off.
+This feature will be enabled on Cloud Domain Joined devices that meet certain security requirements:
+* BitLocker is enabled and is not suspended during the upgrade
+* TPM 2.0
+* SecureBoot
+
+To check if your device will get ARSO go to Settings > Accounts > Sign-in options > Privacy:
+
+![ARSO2](images/18305-4b.png "Automatic Restart and Sign On (ARSO) for Enterprises2")
+
+If the toggle is switched “On” and is not grayed out, then the device meets the security requirements for ARSO, and is enabled by default.
+If the toggle is grayed out and Enabled, this means that your IT Admin has explicitly enabled ARSO for you, irrespective of your device’s security requirements.
+If the toggle is grayed out and disabled, this means that you do not meet the minimum security requirements for Enterprise ARSO, or your IT Admin has explicitly disabled ARSO for you, irrespective of your device’s security requirements.
+
 
 ## Windows Security gets an additional Windows Defender Application Guard setting (Build 18277)
 
