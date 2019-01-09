@@ -8,7 +8,6 @@ ms.assetid:
 ms.service: WIP
 ms.tgt_pltfrm: na
 ms.devlang: na
-ms.date: 12/12/2018
 ms.author: elizapo
 ms.localizationpriority: medium
 ---

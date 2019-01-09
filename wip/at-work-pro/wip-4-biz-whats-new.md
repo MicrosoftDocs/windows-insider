@@ -5,7 +5,6 @@ services: WIP-at-work-pro
 author: lizap
 manager: dougkim
 ms.service: WIP-at-work-pro
-ms.date: 11/08/2018
 ms.author: elizapo
 ms.localizationpriority: medium
 ---
