@@ -11,12 +11,25 @@ ms.localizationpriority: medium
 
 # What’s new for business in Windows 10 Insider Preview Builds
 
+## Reserving disk space to keep Windows 10 up to date (Build 18312) 
+In 19H1, we’re making a few changes to how Windows 10 manages disk space. Through reserved storage, some disk space will be set aside to be used by updates, apps, temporary files, and system caches. Our goal is to improve the day-to-day function of your PC by ensuring critical OS functions always have access to disk space. With reserved storage, updates, apps, temporary files, and caches are less likely to take away from valuable free space and should continue to operate as expected. Reserved storage will be introduced automatically on PCs that come with 19H1 pre-installed or on PCs where 19H1 was clean installed. For Windows Insiders who want to try this feature out right now – just run through this quest. After completing the quest, reserved storage will kick off with the next flight. (If you do the quest before installing Build 18312 – reserved storage should kick off for this flight.) For more details on reserved storage coming in 19H1, [read this blog post here](https://blogs.technet.microsoft.com/filecab/2019/01/07/windows-10-and-reserved-storage/).
+
+## FLS Slot Limit Increase (Build 18312) 
+As PCs get more powerful, musicians have created increasingly complex projects with more tracks, more instruments, and deeper effects chains. As a result, some of those musicians were running up against a FLS (Fiber Local Storage) slot allocation ceiling that prevented them from loading into their DAWs (Digital Audio Workstations) as many unique plugins as they’d like. This build greatly raises that per-process FLS slot allocation ceiling, allowing loading potentially thousands of unique plugins. Beyond musicians, this change will positively impact any application that dynamically loads hundreds or thousands of unique DLLs that have statically-linked Visual C++ runtimes, or otherwise allocate FLS slots.
+
+## Reset this PC UI Improvements (Build 18312) 
+We added new UI for Reset this PC as part of Settings > Update & Security > Recovery. The new UI provides a more consistent experience across devices with different configurations and requires fewer clicks to complete.
+
+![Reset this PC UI](images/18312-1.gif "Reset this PC UI Improvements")
+
+## Windows Subsystem for Linux Command Line Tool Improvements (Build 18312) 
+We added new command line options to the WSL command line tool (wsl.exe) for easier WSL management and added functionality based on your feedback. Below is a summary of changes. You can read about more details in our release notes and on our command line blog.
+Consolidated command line options – The wsl command line tool now includes options to manage your WSL distros that are included in the wslconfig command line tool. We intend to only update the wsl tool with the latest management options moving forward.
+Import a distro for easy sideloading including to non-system drives – Use the “–import” option to imports a tar file as a new distribution. You can specify the distribution registry to the location of your choice including non-system drives.
+Export your WSL distribution for simpler environment management – Use the “—export” option to export a distribution to a tar file. Your distro will export to your default downloads location.
+
 ## Streamlined Windows Hello PIN reset experience (Build 18309) 
-We know remembering a PIN can be tricky, so we wanted to provide our Microsoft account users with a revamped Windows Hello PIN reset experience with the same look and feel as signing in on the web. Check it out in today’s build by clicking the ‘I forgot my PIN’ link when signing in to Windows with a PIN.
-
-Based on your feedback, we’re introducing a simplified default Start layout for new devices, new user accounts, and clean installs. The new layout has been simplified into a sleek one column design with reduced top-level tiles. For the IT admins out there, don’t worry, commercial and education customers will also see a simplified layout tailored to these scenarios.
-
-Insiders can try it out on all Windows 10 editions.
+We know remembering a PIN can be tricky, so we wanted to provide our Microsoft account users with a revamped Windows Hello PIN reset experience with the same look and feel as signing in on the web. Check it out in today’s build by clicking the ‘I forgot my PIN’ link when signing in to Windows with a PIN. Insiders can try it out on all Windows 10 editions.
 
 ![Windows Sandboxing](images/18309-1b.gif "Windows Sandboxing")
 
