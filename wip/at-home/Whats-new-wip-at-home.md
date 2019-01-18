@@ -106,21 +106,13 @@ We are excited to learn how you use Windows Sandbox! As we continue to add new f
 
 __New Protection History experience:__ We have had great feedback on our history experience from users, and we’ve listened!  Based on the suggestions and feedback we’ve received, the Protection history experience in Windows Security has been completely revamped. The new Protection History experience still shows you detections by Windows Defender Antivirus, but it’s now updated to also give more detailed and easier to understand information about threats and available actions. We have also added Controlled folder access blocks to history, along with any blocks which are made through organizational configuration of Attack Surface Reduction Rules. If you use the Windows Defender Offline scanning tool, any detections it makes will now also show in your history.  Additionally, you will see any pending recommendations (red or yellow states from throughout the app) in the history list. We hope you like the changes we’ve made!
 
-<<<<<<< HEAD
-![New Protection History](images/18305-2.png "New Protection History experience")
-=======
 ![New Protection History](images/18305-18.png "New Protection History experience")
->>>>>>> 58e0a8bbdcf24851a9710c85d66513599ff5a2e3
 
 __Introducing Tamper Protection!__ Tamper Protection is a new setting from Windows Defender Antivirus, available in the Windows Security app, which when on, provides additional protections against changes to key security features, including limiting changes which are not made directly through the Windows Security app. You can find this setting under Windows Security > Virus & Threat Protection > Virus & Threat Protection Settings.
 
 ![Tamper Protection](images/18305-4.png "Tamper Protection")
 
 ## Symbols and Kaomoji are now just a hotkey away! (Build 18305)
-<<<<<<< HEAD
-=======
-
->>>>>>> 58e0a8bbdcf24851a9710c85d66513599ff5a2e3
 Ever tried to type an em dash, and couldn’t remember the Alt key code? Wanted to post “flipping the table” in social media, but couldn’t remember the sequence of characters? When you press WIN+(period) or WIN+(semicolon), in addition to emoji the picker that appears will now include symbols and kaomoji too!
 
 You may ask, [what is kaomoji](https://en.wikipedia.org/wiki/Emoticon#Japanese_style_kaomoji)? Translated literally from Japanese, it means “face characters” – basically, it’s a way to create faces using only text. You may already use them, for example the one mentioned above [is relatively popular](https://knowyourmeme.com/memes/flipping-tables-%E2%95%AF%E2%96%A1%E2%95%AF%EF%B8%B5-%E2%94%BB%E2%94%81%E2%94%BB): (╯°□°)╯︵ ┻━┻
@@ -138,7 +130,6 @@ Have you already tried using clipboard history? If enabled, it allows you to sav
 
 ![Symbols and Kaomoji](images/18305-6.png "Symbols and Kaomoji are now just a hotkey away!")
 
-<<<<<<< HEAD
 ## Signing in to Windows with password-less Microsoft accounts (Build 18305) 
 
 We’re pushing forward on eliminating passwords and keeping your accounts safe with another cool feature. Today, we’re announcing support for setting up and signing in to Windows with a phone number account, without having to create, or deal with the hassle of a password!  If you have a Microsoft account with your phone number, you can use an SMS code to sign in, and set up your account on Windows 10. Once you’ve setup your account, you can use Windows Hello Face, Fingerprint, or a PIN (depending on your device capabilities) to sign in to Windows 10. No password needed anywhere!
@@ -164,8 +155,6 @@ Note: This experience is currently only available for Insiders on Home edition. 
 
 ![Windows Hello PIN reset](images/18305-7.png "Streamlined Windows Hello PIN reset experience")
 
-=======
->>>>>>> 58e0a8bbdcf24851a9710c85d66513599ff5a2e3
 ## Keep your device running smoothly with recommended troubleshooting (Build 18305)
 
 Microsoft can automatically fix certain critical problems on your Windows device to keep it running smoothly. For example, we may automatically restore default settings for critical services, adjust feature settings to match your hardware configuration, or make other specific changes required for Windows to operate normally. Critical troubleshooting happens automatically and can’t be turned off.
