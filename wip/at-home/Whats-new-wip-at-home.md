@@ -14,6 +14,28 @@ ms.localizationpriority: medium
 # What's new in the Windows 10 Insider preview builds (19H1)
 The [Windows Insider Program](https://insider.windows.com/en-us/) lets you preview builds of the upcoming release of Windows 10. This topic lists all new Windows 10 features for you to try. 
 
+## Separating Search and Cortana (Build 18317)
+Going forward, we’ll be decoupling Search and Cortana in the taskbar. This will enable each experience to innovate independently to best serve their target audiences and use cases. Some Insiders have had this update for a few weeks now, and we appreciate all the feedback we’ve received about it so far! For those new to this update, when it rolls out to you, you’ll find clicking the search box in the taskbar now launches our experience focused on giving you the best in house search experience and clicking the Cortana icon will launch you straight into our voice-first digital assistant experience.
+
+![Separating Search and Cortana](images/18317-1.png "Separating Search and Cortana")
+
+Other available Search and Cortana settings have also now been split between the two, along with the familiar group policies. This change is one of several we’ve made throughout this release to improve your experience in this space, including updating the search landing page design, enhancing your search results, and integrating Microsoft To-Do with Cortana. If you have any further feedback, please don’t hesitate to share it with us here.
+
+Note: Cortana is currently only available in supported markets.
+
+## The next step in improving Start reliability (Build 18317)
+As some of you may already know, up until now Start in Windows 10 has been hosted by something called ShellExperienceHost.exe. In order to provide you the best possible Start experience, we’re separating it into its own process, called StartMenuExperienceHost.exe. This has a number of benefits, including simplifying debugging and insulating Start from potential issues impacting other surfaces. This has been running as an experiment for a few weeks now and we’ve seen measurable improvements in the reliability amongst those that have the change, so we’re rolling it out to everyone. We’re also making a change so that Start no longer suspends, which improves launch time.
+
+## A Better Font management experience in Settings (Build 18317)
+Insiders today can now drag and drop font files from File Explorer into the modern Settings > Fonts page to install them. After installation, click on the font in the Font page, to view the different font faces associated with the font and all the details of the font. You can also uninstall the font from this font details page. Drag and drop font installation by default is installed as a per-user font which does not require elevation, hence it will not be available for other users. To install the font for all users in the device, use the “Install for all Users” option by right clicking the font on file explorer.
+
+![Font Management](images/18317-2.gif "A Better Font management experience in Settings")
+
+## A simpler Windows Insider Program Settings page (Build 18317)
+We are introducing a simplified Windows Insider Program Settings page via Settings > Update & Security > Windows Insider Program with Build 18317. The goal is to make the end-to-end experience of signing up for the Windows Insider Program and setting up your PC to take new builds much easier by simplifying the experience and removing some of the clutter. You’ll find that all the same functionality is still there. Under “Pick your Insider settings” is where you can change your Insider ring on your PC.
+
+![Windows Insider Program Settings](images/18317-3.jpg "A simpler Windows Insider Program Settings page")
+
 ## Reserving disk space to keep Windows 10 up to date (Build 18312) 
 In 19H1, we’re making a few changes to how Windows 10 manages disk space. Through reserved storage, some disk space will be set aside to be used by updates, apps, temporary files, and system caches. Our goal is to improve the day-to-day function of your PC by ensuring critical OS functions always have access to disk space. With reserved storage, updates, apps, temporary files, and caches are less likely to take away from valuable free space and should continue to operate as expected. Reserved storage will be introduced automatically on PCs that come with 19H1 pre-installed or on PCs where 19H1 was clean installed. For Windows Insiders who want to try this feature out right now – just run through this quest. After completing the quest, reserved storage will kick off with the next flight. (If you do the quest before installing Build 18312 – reserved storage should kick off for this flight.) For more details on reserved storage coming in 19H1, [read this blog post here](https://blogs.technet.microsoft.com/filecab/2019/01/07/windows-10-and-reserved-storage/).
 
