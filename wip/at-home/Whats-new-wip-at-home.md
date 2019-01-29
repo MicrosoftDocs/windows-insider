@@ -14,6 +14,32 @@ ms.localizationpriority: medium
 # What's new in the Windows 10 Insider preview builds (19H1)
 The [Windows Insider Program](https://insider.windows.com/en-us/) lets you preview builds of the upcoming release of Windows 10. This topic lists all new Windows 10 features for you to try. 
 
+## Improved RAW image format support (Build 18323)
+Do you like taking pictures in Raw image formats and wish that the Raw files from your camera were natively supported by Windows? Good news! Targeting 19H1, we’ve been working hard to release a new store-delivered Raw codec package that dramatically improves native raw file format support in Windows.
+
+![RAW image format](images/18323-1.jpg "Improved RAW image formats")
+
+By downloading the new Raw Image Extension (Beta) package from the store, you can now view image thumbnails, previews, and camera metadata of previously unsupported raw files right in File Explorer. You can also view your raw images – at full resolution – in apps such as Photos or any other Windows app that uses Windows Imaging Component framework to decode raw images.
+### How to test
+Please note – to install the package, 19H1 Build 18323 or later is required. Open the following link in Edge to install the current beta package: https://www.microsoft.com/store/apps/9NCTDW2W1BH8. We have also created a 19H1 Bug Bash quest for directions. If you are running Build 18323 or later, click on this link to open the quest in Feedback Hub.
+### Known issues
+* Exposing camera properties stored as EXIF/XMP metadata is not currently working for some raw image formats.
+* File Explorer hangs when the view state is changed to “Details Pane” and a raw file that activates the new raw codec package is selected.
+* Opening some raw images in Photos app using the new store-delivered raw codec pack gets stuck at low resolution thumbnail image.
+### How to provide feedback
+We would love to get your feedback. Please send your feedback through __Feedback Hub__ under the “Devices and Drivers > Video Playback” category.
+
+## Improving Light Theme (Build 18323)
+We introduced the new Light Theme in Windows 10 with Build 18282 and today’s build has some improvements to Light Theme worth taking note of based on your feedback:
+* We fixed an issue where the text in the battery flyout might become unreadable in light theme due to it being white.
+* We fixed an issue where the scrollbar in the network flyout wasn’t visible in light theme.
+* We fixed an issue where the autoplay icon in the systray wasn’t visible in light theme.
+* We fixed an issue where impacting the network and volume icons in the notification area where after switching to light theme they wouldn’t update from white to black until explorer restarted.
+* We fixed a similar issue where not all supported app icons in the taskbar would switch colors on the taskbar when switching between light and dark theme (particularly on the secondary monitor).
+* We’ve made some adjustments to address issues where when using light theme white icons in notifications weren’t readable.
+* We’re updating the Settings icon to now be dark grey in the taskbar when light theme is enabled rather than black.
+
+
 ## Separating Search and Cortana (Build 18317)
 Going forward, we’ll be decoupling Search and Cortana in the taskbar. This will enable each experience to innovate independently to best serve their target audiences and use cases. Some Insiders have had this update for a few weeks now, and we appreciate all the feedback we’ve received about it so far! For those new to this update, when it rolls out to you, you’ll find clicking the search box in the taskbar now launches our experience focused on giving you the best in house search experience and clicking the Cortana icon will launch you straight into our voice-first digital assistant experience.
 
@@ -93,7 +119,7 @@ Cursor and Pointers: Building on our mouse work announced with 18298, we’ve ad
 ## A simplified Start layout (Build 18305)
 Based on your feedback, we’re introducing a simplified default Start layout for new devices, new user accounts, and clean installs. The new layout has been simplified into a sleek one column design with reduced top-level tiles. For the IT admins out there, don’t worry, commercial and education customers will also see a simplified layout tailored to these scenarios.
 
-Coupled with earlier changes providing the ability to [uninstall additional inbox apps](https://blogs.windows.com/windowsexperience/2018/10/17/announcing-windows-10-insider-preview-build-18262/#LeXKDBThmFW8iQbK.97), and a new way to [easily unpin a folder or group of tiles](https://blogs.windows.com/windowsexperience/2018/10/31/announcing-windows-10-insider-preview-build-18272/#q6fgjW1JapokMzJW.97), the simplified Start layout is part of an ongoing effort designed to enhance your Start experience in the upcoming release of Windows.
+Coupled with earlier changes providing the ability to [uninstall additional inbox apps](https://docs.microsoft.com/en-us/windows-insider/at-home/whats-new-wip-at-home#uninstall-additional-inbox-apps-build-18262), and a new way to [easily unpin a folder or group of tiles](https://blogs.windows.com/windowsexperience/2018/10/31/announcing-windows-10-insider-preview-build-18272/#q6fgjW1JapokMzJW.97), the simplified Start layout is part of an ongoing effort designed to enhance your Start experience in the upcoming release of Windows.
 
 Note: When you update to this build, your Start layout won’t automatically change to the new layout because we want everything to be exactly as you left it before you did the update.
 
@@ -580,6 +606,9 @@ Here are the steps to get started:
 It will work even if you have character echo option ("Hear characters as you type") disabled, and it will work in edit fields as well as password field. By default, Narrator will always alert you regardless of presses of the Shift key as you type alphabetic characters. But you can choose to only be alerted when you press the Shift key together with an alphabetic character, or you can disable the feature altogether.
 
 In this initial release, the sound effect you hear will sound like the standard Narrator error sound effect which we are working on improving. We look forward to your feedback on this new feature!
+
+## An easier way to unpin folders and tiles (Build 18272)
+We’re rolling out a feature where if you right click on a group name or tile folder in Start, you will now have an option to unpin it. Currently 50% of Insiders will have this option.
 
 ## Input Improvements (Build 18267)
 **Vietnamese Telex and Number key-based keyboards are now available on your PC**: Do you write Vietnamese? We want you to have the best possible typing experience, so we're happy to announce that with this build you can now use Vietnamese [Telex](https://en.wikipedia.org/wiki/Telex_(input_method)) and Number-key based (VNI) keyboards for typing Vietnamese! Bringing these keyboard options to PC has been one of the top feature requests in the input space, so we're looking forward to you trying it out!
