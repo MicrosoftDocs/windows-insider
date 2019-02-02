@@ -14,10 +14,42 @@ ms.localizationpriority: medium
 # What's new in the Windows 10 Insider preview builds (19H1)
 The [Windows Insider Program](https://insider.windows.com/en-us/) lets you preview builds of the upcoming release of Windows 10. This topic lists all new Windows 10 features for you to try. 
 
+## Introducing Top apps in Search (Build 18329)
+Get quick access to the apps that you use the most, just open Search Home and you’ll see them under Top apps—no typing required! One more way Search helps you find the things you need. This change is rolling out server-side, so you may see it outside the bounds of this flight. Stay tuned for more improvements.
+
+![Search](images/18329-1.png "Introducing Top apps in Search ")
+
+##Run Desktop (Win32) apps in Windows Mixed Reality (Build 18329)
+In this update, we added the ability to launch Desktop (Win32) applications (such as Spotify, Paint.NET, and Visual Studio Code) in Windows Mixed Reality, just like how you launch Store apps. Please keep in mind this is feature is still in development and we are actively working on addressing bugs. You may find ways to “break” the feature, and when you do, please file a feedback via Feedback Hub! To use this feature, bring up Pins Panel, then go to all apps, where you will find a folder named “Classic Apps (Beta)”. In this folder, you will be able to select and launch any Desktop (Win32) applications.
+
+![Desktop (Win32) apps](images/18329-2.png "Run Desktop (Win32) apps in Windows Mixed Reality")
+
+## ADLaM and Osage keyboard support (Build 18329)
+Building on the font support we announced recently, today we’re introducing keyboard support for ADLaM and Osage. ADLaM script is used to write Pular/Fulfulde, the language of the Fulani people of West Africa. Osage script is used to write the Osage language spoken by the Osage Nation in Oklahoma.
+Here is an example what you’d see on the touch keyboard when using ADLaM:
+
+![ADLam](images/18329-3.png "ADLaM and Osage keyboard support")
+
+To try this out yourself, just go to Language Settings, click Add a preferred language, and search for ADLaM or Osage:
+
+![RAW image format](images/18329-4.png "Improved RAW image formats")
+
+## Mail & Calendar version 16.0.11231.20082 (Build 18329)
+Currently rolling out to Insiders in Fast, this app update brings:
+__Dark mode now extended to Mail and Calendar items:__ Building on our previous release of Dark mode in Mail and Calendar, we have extended our dark UI to more parts of our app. With this update, Dark mode now works when composing a new message, updating a calendar item or reading your email. This helps provide a calmer reading experience for people that work in a low light environment or just prefer screens that are less bright, and helps to reduce eye strain.
+To turn on Dark mode, go to settings, select “Personalization”, and choose “Dark mode”. For those who already have Dark mode enabled, you will see it expand to cover your email reading and compose experiences after receiving the update.
+If you prefer to view a particular email in light mode, look for the sunshine icon in the command bar to “turn on the lights” and view the email with a white background. This can help if a particular email is not formatted well for Dark mode.
+
+![Dark mode](images/18329-4.png "Dark mode now extended to Mail and Calendar items")
+
+__Default Font:__ We are introducing a top customer requested feature: Default font. Now you can customize how new messages will look. If you create a new mail or reply to an existing mail, the text you type will be in the font face, size, color and emphasis you have selected.  To change your default font, go into settings and select “Default font”. Default font applies per-account and does not roam to other devices.
+
+![Dark mode](images/18329-6.png "Dark mode now extended to Mail and Calendar items")
+
 ## Improved RAW image format support (Build 18323)
 Do you like taking pictures in Raw image formats and wish that the Raw files from your camera were natively supported by Windows? Good news! Targeting 19H1, we’ve been working hard to release a new store-delivered Raw codec package that dramatically improves native raw file format support in Windows.
 
-![RAW image format](images/18323-1.jpg "Improved RAW image formats")
+![RAW image format](images/18323-1.png "Improved RAW image formats")
 
 By downloading the new Raw Image Extension (Beta) package from the store, you can now view image thumbnails, previews, and camera metadata of previously unsupported raw files right in File Explorer. You can also view your raw images – at full resolution – in apps such as Photos or any other Windows app that uses Windows Imaging Component framework to decode raw images.
 ### How to test
@@ -43,7 +75,7 @@ We introduced the new Light Theme in Windows 10 with Build 18282 and today’s b
 ## Separating Search and Cortana (Build 18317)
 Going forward, we’ll be decoupling Search and Cortana in the taskbar. This will enable each experience to innovate independently to best serve their target audiences and use cases. Some Insiders have had this update for a few weeks now, and we appreciate all the feedback we’ve received about it so far! For those new to this update, when it rolls out to you, you’ll find clicking the search box in the taskbar now launches our experience focused on giving you the best in house search experience and clicking the Cortana icon will launch you straight into our voice-first digital assistant experience.
 
-![Separating Search and Cortana](images/18317-1.png "Separating Search and Cortana")
+![Separating Search and Cortana](images/18317-1b.png "Separating Search and Cortana")
 
 Other available Search and Cortana settings have also now been split between the two, along with the familiar group policies. This change is one of several we’ve made throughout this release to improve your experience in this space, including updating the search landing page design, enhancing your search results, and integrating Microsoft To-Do with Cortana. If you have any further feedback, please don’t hesitate to share it with us here.
 
