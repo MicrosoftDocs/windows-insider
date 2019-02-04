@@ -15,7 +15,7 @@ ms.localizationpriority: medium
 The [Windows Insider Program](https://insider.windows.com/en-us/) lets you preview builds of the upcoming release of Windows 10. This topic lists all new Windows 10 features for you to try. 
 
 ## Introducing Top apps in Search (Build 18329)
-Get quick access to the apps that you use the most, just open Search Home and you’ll see them under Top apps—no typing required! One more way Search helps you find the things you need. This change is rolling out server-side, so you may see it outside the bounds of this flight. Stay tuned for more improvements.
+Get quick access to the apps that you use the most, just open Search Home and you’ll see them under Top apps—no typing required! One more way Search helps you find the things you need. This change is rolling out server-side, so you may see it outside of the bounds of this flight. Stay tuned for more improvements.
 
 ![Search](images/18329-1.png "Introducing Top apps in Search ")
 
