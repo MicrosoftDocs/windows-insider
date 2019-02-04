@@ -19,13 +19,13 @@ Get quick access to the apps that you use the most, just open Search Home and yo
 
 ![Search](images/18329-1.png "Introducing Top apps in Search ")
 
-##Run Desktop (Win32) apps in Windows Mixed Reality (Build 18329)
-In this update, we added the ability to launch Desktop (Win32) applications (such as Spotify, Paint.NET, and Visual Studio Code) in Windows Mixed Reality, just like how you launch Store apps. Please keep in mind this is feature is still in development and we are actively working on addressing bugs. You may find ways to “break” the feature, and when you do, please file a feedback via Feedback Hub! To use this feature, bring up Pins Panel, then go to all apps, where you will find a folder named “Classic Apps (Beta)”. In this folder, you will be able to select and launch any Desktop (Win32) applications.
+## Run Desktop (Win32) apps in Windows Mixed Reality (Build 18329)
+In this update, we have added the ability to launch Desktop (Win32) applications (such as Spotify, Paint.NET, and Visual Studio Code) in Windows Mixed Reality, just like how you launch Store apps. Please keep in mind this is feature is still in development and we are actively working on addressing bugs. You may find ways to “break” the feature, and when you do, please file a feedback via Feedback Hub! To use this feature, bring up Pins Panel, then go to all apps, where you will find a folder named “Classic Apps (Beta)”. In this folder, you will be able to select and launch any Desktop (Win32) applications.
 
 ![Desktop (Win32) apps](images/18329-2.png "Run Desktop (Win32) apps in Windows Mixed Reality")
 
 ## ADLaM and Osage keyboard support (Build 18329)
-Building on the font support we announced recently, today we’re introducing keyboard support for ADLaM and Osage. ADLaM script is used to write Pular/Fulfulde, the language of the Fulani people of West Africa. Osage script is used to write the Osage language spoken by the Osage Nation in Oklahoma.
+Building on the [font support we announced recently](https://docs.microsoft.com/en-us/windows-insider/at-home/whats-new-wip-at-home#ebrima-font-addition-with-adlam-support-build-18252), today we’re introducing keyboard support for ADLaM and Osage. ADLaM script is used to write Pular/Fulfulde, the language of the Fulani people of West Africa. Osage script is used to write the Osage language spoken by the Osage Nation in Oklahoma.
 Here is an example what you’d see on the touch keyboard when using ADLaM:
 
 ![ADLam](images/18329-3.png "ADLaM and Osage keyboard support")
@@ -36,24 +36,25 @@ To try this out yourself, just go to Language Settings, click Add a preferred la
 
 ## Mail & Calendar version 16.0.11231.20082 (Build 18329)
 Currently rolling out to Insiders in Fast, this app update brings:
+
 __Dark mode now extended to Mail and Calendar items:__ Building on our previous release of Dark mode in Mail and Calendar, we have extended our dark UI to more parts of our app. With this update, Dark mode now works when composing a new message, updating a calendar item or reading your email. This helps provide a calmer reading experience for people that work in a low light environment or just prefer screens that are less bright, and helps to reduce eye strain.
 To turn on Dark mode, go to settings, select “Personalization”, and choose “Dark mode”. For those who already have Dark mode enabled, you will see it expand to cover your email reading and compose experiences after receiving the update.
 If you prefer to view a particular email in light mode, look for the sunshine icon in the command bar to “turn on the lights” and view the email with a white background. This can help if a particular email is not formatted well for Dark mode.
 
 ![Dark mode](images/18329-4.png "Dark mode now extended to Mail and Calendar items")
 
-__Default Font:__ We are introducing a top customer requested feature: Default font. Now you can customize how new messages will look. If you create a new mail or reply to an existing mail, the text you type will be in the font face, size, color and emphasis you have selected.  To change your default font, go into settings and select “Default font”. Default font applies per-account and does not roam to other devices.
+__Default Font:__ We are introducing a top customer requested feature: Default font. Now you can customize how new messages will look. If you create a new mail or reply to an existing mail, the text you type will be in the font face, size, color and emphasis you have selected.  To change your default font, go into settings and select “Default font”. Default font applies per-account and does not roam to other devices. These updates are the latest in a [series of updates](https://support.office.com/en-us/article/what-s-new-in-mail-and-calendar-for-windows-10-9822b33c-b9ad-48bc-ac53-c1b6136e405b?ui=en-US&rs=en-US&ad=US) we’ve made based on your feedback, and we’re looking forward to hearing what you’d like to see improved next!
 
 ![Dark mode](images/18329-6.png "Dark mode now extended to Mail and Calendar items")
 
 ## Improved RAW image format support (Build 18323)
 Do you like taking pictures in Raw image formats and wish that the Raw files from your camera were natively supported by Windows? Good news! Targeting 19H1, we’ve been working hard to release a new store-delivered Raw codec package that dramatically improves native raw file format support in Windows.
 
-![RAW image format](images/18323-1.png "Improved RAW image formats")
+![RAW image format](images/18323-1.jpg "Improved RAW image formats")
 
 By downloading the new Raw Image Extension (Beta) package from the store, you can now view image thumbnails, previews, and camera metadata of previously unsupported raw files right in File Explorer. You can also view your raw images – at full resolution – in apps such as Photos or any other Windows app that uses Windows Imaging Component framework to decode raw images.
 ### How to test
-Please note – to install the package, 19H1 Build 18323 or later is required. Open the following link in Edge to install the current beta package: https://www.microsoft.com/store/apps/9NCTDW2W1BH8. We have also created a 19H1 Bug Bash quest for directions. If you are running Build 18323 or later, click on this link to open the quest in Feedback Hub.
+Please note – to install the package, 19H1 Build 18323 or later is required. Open the following link in Edge to install the current beta package: https://www.microsoft.com/store/apps/9NCTDW2W1BH8. We have also created a 19H1 Bug Bash quest for directions. If you are running Build 18323 or later, click on [this link to open the quest in Feedback Hub](https://insider.windows.com/en-us/ih/?contentid=7953680d-b82c-40c4-80af-7e405375d5d8&contenttype=quest&utm_source=product-placement&utm_medium=feedback-hub&utm_campaign=feedback-hub-redirect).
 ### Known issues
 * Exposing camera properties stored as EXIF/XMP metadata is not currently working for some raw image formats.
 * File Explorer hangs when the view state is changed to “Details Pane” and a raw file that activates the new raw codec package is selected.
@@ -61,8 +62,8 @@ Please note – to install the package, 19H1 Build 18323 or later is required. O
 ### How to provide feedback
 We would love to get your feedback. Please send your feedback through __Feedback Hub__ under the “Devices and Drivers > Video Playback” category.
 
-## Improving Light Theme (Build 18323)
-We introduced the new Light Theme in Windows 10 with Build 18282 and today’s build has some improvements to Light Theme worth taking note of based on your feedback:
+## Improving light theme (Build 18323)
+We introduced the new light theme in Windows 10 with [Build 18282](https://docs.microsoft.com/en-us/windows-insider/at-home/whats-new-wip-at-home#windows-light-theme-build-18282) and today’s build has some improvements to Light Theme worth taking note of based on your feedback:
 * We fixed an issue where the text in the battery flyout might become unreadable in light theme due to it being white.
 * We fixed an issue where the scrollbar in the network flyout wasn’t visible in light theme.
 * We fixed an issue where the autoplay icon in the systray wasn’t visible in light theme.
@@ -77,7 +78,7 @@ Going forward, we’ll be decoupling Search and Cortana in the taskbar. This wil
 
 ![Separating Search and Cortana](images/18317-1b.png "Separating Search and Cortana")
 
-Other available Search and Cortana settings have also now been split between the two, along with the familiar group policies. This change is one of several we’ve made throughout this release to improve your experience in this space, including updating the search landing page design, enhancing your search results, and integrating Microsoft To-Do with Cortana. If you have any further feedback, please don’t hesitate to share it with us here.
+Other available Search and Cortana settings have also now been split between the two, along with the familiar group policies. This change is one of several we’ve made throughout this release to improve your experience in this space, including [updating the search landing page design](https://docs.microsoft.com/en-us/windows-insider/at-home/whats-new-wip-at-home#improving-your-search-and-cortana-experiences-build-18290), [enhancing your search results](https://docs.microsoft.com/en-us/windows-insider/at-home/whats-new-wip-at-home#enhanced-mode-for-search-indexer-build-18267), and [integrating Microsoft To-Do with Cortana](https://docs.microsoft.com/en-us/windows-insider/at-home/whats-new-wip-at-home#get-more-done-with-cortana-and-microsoft-to-do-build-18305). If you have any further feedback, please don’t hesitate to share it with us here.
 
 Note: Cortana is currently only available in supported markets.
 
@@ -95,7 +96,7 @@ We are introducing a simplified Windows Insider Program Settings page via Settin
 ![Windows Insider Program Settings](images/18317-3.jpg "A simpler Windows Insider Program Settings page")
 
 ## Reserving disk space to keep Windows 10 up to date (Build 18312) 
-In 19H1, we’re making a few changes to how Windows 10 manages disk space. Through reserved storage, some disk space will be set aside to be used by updates, apps, temporary files, and system caches. Our goal is to improve the day-to-day function of your PC by ensuring critical OS functions always have access to disk space. With reserved storage, updates, apps, temporary files, and caches are less likely to take away from valuable free space and should continue to operate as expected. Reserved storage will be introduced automatically on PCs that come with 19H1 pre-installed or on PCs where 19H1 was clean installed. For Windows Insiders who want to try this feature out right now – just run through this quest. After completing the quest, reserved storage will kick off with the next flight. (If you do the quest before installing Build 18312 – reserved storage should kick off for this flight.) For more details on reserved storage coming in 19H1, [read this blog post here](https://blogs.technet.microsoft.com/filecab/2019/01/07/windows-10-and-reserved-storage/).
+In 19H1, we’re making a few changes to how Windows 10 manages disk space. Through reserved storage, some disk space will be set aside to be used by updates, apps, temporary files, and system caches. Our goal is to improve the day-to-day function of your PC by ensuring critical OS functions always have access to disk space. With reserved storage, updates, apps, temporary files, and caches are less likely to take away from valuable free space and should continue to operate as expected. Reserved storage will be introduced automatically on PCs that come with 19H1 pre-installed or on PCs where 19H1 was clean installed. For Windows Insiders who want to try this feature out right now – just [run through this quest](https://insider.windows.com/en-us/ih/?contentid=2762bf7a-bef0-4835-8e4c-04ae8e3ed299&contenttype=quest&utm_source=product-placement&utm_medium=feedback-hub&utm_campaign=feedback-hub-redirect). After completing the quest, reserved storage will kick off with the next flight. (If you do the quest before installing Build 18312 – reserved storage should kick off for this flight.) For more details on reserved storage coming in 19H1, [read this blog post here](https://blogs.technet.microsoft.com/filecab/2019/01/07/windows-10-and-reserved-storage/).
 
 ## FLS Slot Limit Increase (Build 18312) 
 As PCs get more powerful, musicians have created increasingly complex projects with more tracks, more instruments, and deeper effects chains. As a result, some of those musicians were running up against a FLS (Fiber Local Storage) slot allocation ceiling that prevented them from loading into their DAWs (Digital Audio Workstations) as many unique plugins as they’d like. This build greatly raises that per-process FLS slot allocation ceiling, allowing loading potentially thousands of unique plugins. Beyond musicians, this change will positively impact any application that dynamically loads hundreds or thousands of unique DLLs that have statically-linked Visual C++ runtimes, or otherwise allocate FLS slots.
@@ -146,7 +147,7 @@ __Other improvements:__
 - Improved interacting with Chrome menu’s with Narrator
 
 ## Ease of Access Improvements (Build 18309)
-Cursor and Pointers: Building on our mouse work announced with 18298, we’ve added 11 additional mouse pointer sizes in the Cursor and Pointers settings.  There are now 15 sizes.
+__Cursor and Pointers:__ Building on our mouse work announced with 18298, we’ve added 11 additional mouse pointer sizes in the Cursor and Pointers settings.  There are now 15 sizes.
 
 ## A simplified Start layout (Build 18305)
 Based on your feedback, we’re introducing a simplified default Start layout for new devices, new user accounts, and clean installs. The new layout has been simplified into a sleek one column design with reduced top-level tiles. For the IT admins out there, don’t worry, commercial and education customers will also see a simplified layout tailored to these scenarios.
@@ -201,6 +202,9 @@ Diving more into the symbols side, you’ll find we’ve included sections for p
 Currently only the emoji section supports type to search.
 
 This experience, originally introduced for Chinese (Simplified) during RS5 development, started rolling out to Insiders across all languages with [Build 18252](https://blogs.windows.com/windowsexperience/2018/10/03/announcing-windows-10-insider-preview-build-18252/) – as of today’s it’s now available to all Insiders in Fast! We’d love for you to try it out and share feedback. Tried it out already? With this build, we’ve updated the available kaomoji a bit based on your feedback, including adding ¯\_(ツ)_/¯ and ᓚᘏᗢ.
+
+Currently only the emoji section supports type to search.
+
 
 ![Symbols and Kaomoji](images/18305-5.png "Symbols and Kaomoji are now just a hotkey away!")
 
