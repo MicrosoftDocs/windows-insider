@@ -30,7 +30,22 @@ We know remembering a PIN can be tricky, so we wanted to provide our Microsoft a
 
 ![Windows Sandboxing](images/18309-1b.gif "Windows Sandboxing")
 
+## Signing in to Windows with password-less Microsoft accounts (Build 18309) 
+We’re pushing forward on eliminating passwords and keeping your accounts safe with another cool feature. With Build 18305, we announced support for setting up and signing in to Windows 10 with a phone number account, without having to create, or deal with the hassle of a password for Insiders using the Windows 10 Home edition. Today, that support is extending to all Windows 10 editions!
+If you have a Microsoft account with your phone number, you can use an SMS code to sign in, and set up your account on Windows 10. Once you’ve setup your account, you can use Windows Hello Face, Fingerprint, or a PIN (depending on your device capabilities) to sign in to Windows 10. No password needed anywhere!
 
+![Passwordless Microsoft accounts](images/18309-3.png "Signing in to Windows with password-less Microsoft accounts")
+
+### Creating a password-less phone number account
+If you don’t already have a password-less phone number account, you can create one in a mobile app like Word on your iOS or Android device to try it out. Simply go to Word and sign up with your phone number by entering your phone number under “Sign in or sign up for free”.
+### Add your password-less phone number account to Windows 
+Now that you’ve created a password-less phone number account, you can use it to sign in to Windows with the following steps:
+1. Add your account to Windows from Settings > Accounts > Family & other Users > “Add someone else to this PC”.
+2. Lock your device and select your phone number account from the Windows sign-in screen.
+3. Since your account doesn’t have a password, select ‘Sign in options’, click the alternative ‘PIN’ tile, and click ‘Sign in’.
+4. Go through web sign in and Windows Hello set up (this is what you’ll use to sign in to your account on subsequent sign ins). 
+
+You can now enjoy the benefits of signing in to Windows with your password-less phone number account.
 
 ## Introducing Windows Sandbox! (Build 18305)
 

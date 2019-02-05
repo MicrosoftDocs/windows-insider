@@ -15,7 +15,7 @@ ms.localizationpriority: medium
 The [Windows Insider Program](https://insider.windows.com/en-us/) lets you preview builds of the upcoming release of Windows 10. This topic lists all new Windows 10 features for you to try. 
 
 ## Introducing Top apps in Search (Build 18329)
-Get quick access to the apps that you use the most, just open Search Home and you’ll see them under Top apps—no typing required! One more way Search helps you find the things you need. This change is rolling out server-side, so you may see it outside the bounds of this flight. Stay tuned for more improvements.
+Get quick access to the apps that you use the most, just open Search Home and you’ll see them under Top apps—no typing required! One more way Search helps you find the things you need. This change is rolling out server-side, so you may see it outside of the bounds of this flight. Stay tuned for more improvements.
 
 ![Search](images/18329-1.png "Introducing Top apps in Search ")
 
@@ -121,7 +121,7 @@ We know remembering a PIN can be tricky, so we wanted to provide our Microsoft a
 We’re pushing forward on eliminating passwords and keeping your accounts safe with another cool feature. With Build 18305, we announced support for setting up and signing in to Windows 10 with a phone number account, without having to create, or deal with the hassle of a password for Insiders using the Windows 10 Home edition. Today, that support is extending to all Windows 10 editions!
 If you have a Microsoft account with your phone number, you can use an SMS code to sign in, and set up your account on Windows 10. Once you’ve setup your account, you can use Windows Hello Face, Fingerprint, or a PIN (depending on your device capabilities) to sign in to Windows 10. No password needed anywhere!
 
-![Passwordless Microsoft accounts](images/18305-7.gif "Signing in to Windows with password-less Microsoft accounts")
+![Passwordless Microsoft accounts](images/18305-7.png "Signing in to Windows with password-less Microsoft accounts")
 
 ### Creating a password-less phone number account
 If you don’t already have a password-less phone number account, you can create one in a mobile app like Word on your iOS or Android device to try it out. Simply go to Word and sign up with your phone number by entering your phone number under “Sign in or sign up for free”.
@@ -216,20 +216,8 @@ Have you already tried using clipboard history? If enabled, it allows you to sav
 
 ## Signing in to Windows with password-less Microsoft accounts (Build 18305) 
 
-We’re pushing forward on eliminating passwords and keeping your accounts safe with another cool feature. Today, we’re announcing support for setting up and signing in to Windows with a phone number account, without having to create, or deal with the hassle of a password!  If you have a Microsoft account with your phone number, you can use an SMS code to sign in, and set up your account on Windows 10. Once you’ve setup your account, you can use Windows Hello Face, Fingerprint, or a PIN (depending on your device capabilities) to sign in to Windows 10. No password needed anywhere!
-
-![Passwordless Microsoft accounts](images/18305-7.png "Signing in to Windows with password-less Microsoft accounts")
-
-__Creating a password-less phone number account:__ If you don’t already have a password-less phone number account, you can create one in a mobile app like Word to try it out. Simply go to Word and sign up with your phone number by entering your phone number under “Sign in or sign up for free”.
-
-__Add your password-less phone number account to Windows:__ Now that you’ve created a password-less phone number account, you can use it to sign in to Windows with the following steps:
-1. Add your account to Windows from Settings > Accounts > Family & other Users > “Add someone else to this PC”.
-2. Lock your device and select your phone number account from the Windows sign-in screen.
-3. Since your account doesn’t have a password, select ‘Sign in options’, click the alternative ‘PIN’ tile, and click ‘Sign in’.
-4. Go through web sign in and Windows Hello set up (this is what you’ll use to sign in to your account on subsequent sign ins)
-5. You can now enjoy the benefits of signing in to Windows with your password-less phone number account.
-
-Note: This experience is currently only available for Insiders on Home edition. We’ll let you know when it expands to more editions
+We’re pushing forward on eliminating passwords and keeping your accounts safe with another cool feature. Today, we’re announcing support for setting up and signing in to Windows with a phone number account, without having to create, or deal with the hassle of a password! If you have a Microsoft account with your phone number, you can use an SMS code to sign in, and set up your account on Windows 10. Once you’ve setup your account, you can use Windows Hello Face, Fingerprint, or a PIN (depending on your device capabilities) to sign in to Windows 10. No password needed anywhere! 
+Note: This experience was originally available for Insiders on Home Edition and is now available in [Build 18309 on all Windows editions](https://docs.microsoft.com/en-us/windows-insider/at-home/whats-new-wip-at-home#signing-in-to-windows-with-password-less-microsoft-accounts-build-18309). 
 
 ## Streamlined Windows Hello PIN reset experience (Build 18305)
 
