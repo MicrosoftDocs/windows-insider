@@ -15,7 +15,11 @@ ms.localizationpriority: medium
 The [Windows Insider Program](https://insider.windows.com/en-us/) lets you preview builds of the upcoming release of Windows 10. This topic lists all new Windows 10 features for you to try. 
 
 ## Introducing Top apps in Search (Build 18329)
+<<<<<<< HEAD
+Get quick access to the apps that you use the most, just open Search Home and you’ll see them under Top apps—no typing required! One more way Search helps you find the things you need. This change is rolling out server-side, so you may see it outside of the bounds of this flight. This change is also one of several we’ve made throughout this release to improve your experience in this space, including [updating the search landing page design](https://docs.microsoft.com/en-us/windows-insider/at-home/whats-new-wip-at-home#improving-your-search-and-cortana-experiences-build-18290), [enhancing your search results](https://docs.microsoft.com/en-us/windows-insider/at-home/whats-new-wip-at-home#enhanced-mode-for-search-indexer-build-18267), and [integrating Microsoft To-Do with Cortana](https://docs.microsoft.com/en-us/windows-insider/at-home/whats-new-wip-at-home#get-more-done-with-cortana-and-microsoft-to-do-build-18305). Stay tuned for more improvements.
+=======
 Get quick access to the apps that you use the most, just open Search Home and you’ll see them under Top apps—no typing required! One more way Search helps you find the things you need. This change is rolling out server-side, so you may see it outside of the bounds of this flight. Stay tuned for more improvements.
+>>>>>>> 3b946d451c11d4ba0c3c67a6ad78f6e2c5e5ece4
 
 ![Search](images/18329-1.png "Introducing Top apps in Search ")
 
@@ -78,7 +82,7 @@ Going forward, we’ll be decoupling Search and Cortana in the taskbar. This wil
 
 ![Separating Search and Cortana](images/18317-1b.png "Separating Search and Cortana")
 
-Other available Search and Cortana settings have also now been split between the two, along with the familiar group policies. This change is one of several we’ve made throughout this release to improve your experience in this space, including [updating the search landing page design](https://docs.microsoft.com/en-us/windows-insider/at-home/whats-new-wip-at-home#improving-your-search-and-cortana-experiences-build-18290), [enhancing your search results](https://docs.microsoft.com/en-us/windows-insider/at-home/whats-new-wip-at-home#enhanced-mode-for-search-indexer-build-18267), and [integrating Microsoft To-Do with Cortana](https://docs.microsoft.com/en-us/windows-insider/at-home/whats-new-wip-at-home#get-more-done-with-cortana-and-microsoft-to-do-build-18305). If you have any further feedback, please don’t hesitate to share it with us here.
+Other available Search and Cortana settings have also now been split between the two, along with the familiar group policies. If you have any feedback, please don’t hesitate to share it with us here.
 
 Note: Cortana is currently only available in supported markets.
 
@@ -225,7 +229,7 @@ We know remembering a PIN can be tricky, so we wanted to provide our Microsoft a
 
 Note: This experience is currently only available for Insiders on Home edition. We’ll let you know when it expands to more editions.
 
-![Windows Hello PIN reset](images/18305-7.png "Streamlined Windows Hello PIN reset experience")
+![Windows Hello PIN reset](images/18305-7.gif "Streamlined Windows Hello PIN reset experience")
 
 ## Keep your device running smoothly with recommended troubleshooting (Build 18305)
 
