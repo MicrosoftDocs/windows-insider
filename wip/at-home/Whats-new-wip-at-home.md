@@ -14,6 +14,25 @@ ms.localizationpriority: medium
 # What's new in the Windows 10 Insider preview builds (19H1)
 The [Windows Insider Program](https://insider.windows.com/en-us/) lets you preview builds of the upcoming release of Windows 10. This topic lists all new Windows 10 features for you to try. 
 
+## Help gaming on Windows and play State of Decay! (Build 18334)
+
+We’re excited to bring technology tailor-made for gaming to Windows. Help us validate these systems work as expected, and play State of Decay for free (limited time only!). Just tell us about any problems you encounter with installing and launching the game.
+
+Note: we only have a small number of available slots currently, so don’t wait too long to sign up. But if you don’t get in this time, don’t worry, we’ll be expanding over the next few weeks so you’ll have more chances. Thanks for making Windows gaming better!
+
+### Instructions:
+1. If you have an Xbox Live Gamertag, go to step 2 below. If you don’t have a Gamertag, use your Microsoft Account (MSA) to log into https://account.xbox.com and create an Xbox account. Once completed, you will see your Gamertag in the top right of the page.
+2. Install the [Xbox Insider Hub app](https://www.microsoft.com/en-us/p/xbox-insider-hub/9nblggh68vsk) on the PC you’ll be flighting on (link opens in Store app).
+3. Sign in to the Xbox Insider Hub with your Gamertag.
+3. Select __Insider Content__ in the upper left.
+4. Select __State of Decay__.
+5. Click __Join__.
+6. If not redirected, click the Show in store button to launch the Store app.
+7. Install the State of Decay test game to your machine from the Store app
+8. Launch State of Decay and try it out! NOTE: State of Decay is rated M for Mature. 
+
+As part of the game launch, you’ll be prompted to install DirectX. This is for testing purposes, so go ahead and do the install, and the game will launch afterwards. If you find any issues with the install, or if the game fails to launch, please file a Feedback Hub bug under the Microsoft Store category (pick Download or Install depending on your issue), and include WindowsGamingFeedback in the title.
+
 ## Introducing Top apps in Search (Build 18329)
 
 Get quick access to the apps that you use the most, just open Search Home and you’ll see them under Top apps—no typing required! One more way Search helps you find the things you need. This change is rolling out server-side, so you may see it outside of the bounds of this flight. This change is also one of several we’ve made throughout this release to improve your experience in this space, including [updating the search landing page design](#improving-your-search-and-cortana-experiences-build-18290), [enhancing your search results](#enhanced-mode-for-search-indexer-build-18267), and [integrating Microsoft To-Do with Cortana](#get-more-done-with-cortana-and-microsoft-to-do-build-18305). Stay tuned for more improvements.
@@ -42,7 +61,7 @@ __Dark mode now extended to Mail and Calendar items:__ Building on our previous 
 To turn on Dark mode, go to settings, select “Personalization”, and choose “Dark mode”. For those who already have Dark mode enabled, you will see it expand to cover your email reading and compose experiences after receiving the update.
 If you prefer to view a particular email in light mode, look for the sunshine icon in the command bar to “turn on the lights” and view the email with a white background. This can help if a particular email is not formatted well for Dark mode.
 
-![Dark mode](images/18329-4.png "Dark mode now extended to Mail and Calendar items")
+![Dark mode](images/18329-5.png "Dark mode now extended to Mail and Calendar items")
 
 __Default Font:__ We are introducing a top customer requested feature: Default font. Now you can customize how new messages will look. If you create a new mail or reply to an existing mail, the text you type will be in the font face, size, color and emphasis you have selected.  To change your default font, go into settings and select “Default font”. Default font applies per-account and does not roam to other devices. These updates are the latest in a [series of updates](https://support.office.com/en-us/article/what-s-new-in-mail-and-calendar-for-windows-10-9822b33c-b9ad-48bc-ac53-c1b6136e405b?ui=en-US&rs=en-US&ad=US) we’ve made based on your feedback, and we’re looking forward to hearing what you’d like to see improved next!
 
@@ -63,8 +82,8 @@ Please note – to install the package, 19H1 Build 18323 or later is required. O
 ### How to provide feedback
 We would love to get your feedback. Please send your feedback through __Feedback Hub__ under the “Devices and Drivers > Video Playback” category.
 
-## Improving light theme (Build 18323)
-We introduced the new light theme in Windows 10 with [Build 18282](https://docs.microsoft.com/en-us/windows-insider/at-home/whats-new-wip-at-home#windows-light-theme-build-18282) and today’s build has some improvements to Light Theme worth taking note of based on your feedback:
+## Improving Windows light theme (Build 18323)
+We introduced the new light theme in Windows 10 with [Build 18282](https://docs.microsoft.com/en-us/windows-insider/at-home/whats-new-wip-at-home#windows-light-theme-build-18282) and today’s build has some improvements to light theme worth taking note of based on your feedback:
 * We fixed an issue where the text in the battery flyout might become unreadable in light theme due to it being white.
 * We fixed an issue where the scrollbar in the network flyout wasn’t visible in light theme.
 * We fixed an issue where the autoplay icon in the systray wasn’t visible in light theme.
