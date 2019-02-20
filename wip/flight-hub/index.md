@@ -15,11 +15,31 @@ ms.localizationpriority: medium
 
 Welcome to Flight Hub! Use this dashboard to quickly identify the latest Windows Insider Preview releases for PC, Server, IoT. You can also look up the status of the SDK and ISO images.
 
+## Skip Ahead for Windows 10 (20H1)
+
+You can get builds of 20H1 today if you've opted in to **Skip Ahead**.
+
+The items in **bold** are the latest releases for the individual versions of the item. 
+
+| Build | Fast | Slow | Server | IoT | ISO | SDK |
+|-------|------|------|--------|-----|-----|-----|
+|18836*|[**2/14/2019**](https://blogs.windows.com/windowsexperience/2019/02/14/announcing-windows-10-insider-preview-build-18836/#uTrXpJD1cfT1y6vy.97)||||||
+
+>[!NOTE] 
+> "*" denotes a Skip Ahead flight.
+
+## Next feature update for Windows 10 (19H2)
+
+[Coming soon!](https://blogs.windows.com/windowsexperience/2019/02/14/announcing-windows-10-insider-preview-build-18836/#uTrXpJD1cfT1y6vy.97)
+
 ## Next feature update for Windows 10 (19H1)
 
 You can get builds of 19H1 today if your device is in the Fast ring.
 
 The items in **bold** are the latest releases for the individual versions of the item. 
+
+>[!NOTE] 
+> "*" denotes a Skip Ahead flight.
 
 | Build | Fast | Slow | Server | IoT | ISO | SDK |
 |-------|------|------|--------|-----|-----|-----|
