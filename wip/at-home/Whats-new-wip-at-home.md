@@ -43,7 +43,6 @@ Note: we only have a small number of available slots currently, so don’t wait 
 As part of the game launch, you’ll be prompted to install DirectX. This is for testing purposes, so go ahead and do the install, and the game will launch afterwards. If you find any issues with the install, or if the game fails to launch, please file a Feedback Hub bug under the Microsoft Store category (pick Download or Install depending on your issue), and include WindowsGamingFeedback in the title.
 
 ## Introducing Top apps in Search (Build 18329)
-
 Get quick access to the apps that you use the most, just open Search Home and you’ll see them under Top apps—no typing required! One more way Search helps you find the things you need. This change is rolling out server-side, so you may see it outside of the bounds of this flight. This change is also one of several we’ve made throughout this release to improve your experience in this space, including [updating the search landing page design](#improving-your-search-and-cortana-experiences-build-18290), [enhancing your search results](#enhanced-mode-for-search-indexer-build-18267), and [integrating Microsoft To-Do with Cortana](#get-more-done-with-cortana-and-microsoft-to-do-build-18305). Stay tuned for more improvements.
 
 ![Search](images/18329-1.png "Introducing Top apps in Search ")
