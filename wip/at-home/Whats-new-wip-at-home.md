@@ -14,6 +14,15 @@ ms.localizationpriority: medium
 # What's new in the Windows 10 Insider preview builds (19H1)
 The [Windows Insider Program](https://insider.windows.com/en-us/) lets you preview builds of the upcoming release of Windows 10. This topic lists all new Windows 10 features for you to try. 
 
+## Improving Gaming on Windows 10 (Build 18342)
+Thanks to everyone who signed up to try out our new Windows gaming technology in Build 18334. With this new build, we have some fixes that we can’t wait to have folks try out: the game now runs correctly with parental controls enabled, and the install process is more stable (including a fix for the game being stuck in “Pending” instead of downloading).
+
+## Linux Files inside of File Explorer (Build 18342)
+We added the ability for users to access Linux files in a WSL distro from Windows. These files can be accessed through the command line, and also Windows apps, like File Explorer, VSCode, etc. can interact with these files. Access your files by navigating to \\wsl$\<distro_name>, or see a list of running distributions by navigating to \\wsl$. [Learn more about accessing Linux files inside File Explorer](https://blogs.msdn.microsoft.com/commandline/2019/02/15/whats-new-for-wsl-in-windows-10-version-1903/). 
+
+## New Chrome Extension for Timeline (Build 18342) 
+We’re pleased to announce an extension that collects activities from your Google Chrome browser and adds them to your Timeline in Windows. You can download the new Web Activity extension now from the [Chrome Web Store](https://chrome.google.com/webstore/detail/web-activities/eiipeonhflhoiacfbniealbdjoeoglid).  Just sign-in to the extension on your Chrome browser with your Microsoft account, visit a site in Chrome, then watch it appear on Timeline – and pick up where you left off. Your Chrome activities will also sync with Timeline on Android devices using the [Microsoft Launcher app](https://www.microsoft.com/en-us/launcher).
+
 ## Help gaming on Windows and play State of Decay! (Build 18334)
 
 We’re excited to bring technology tailor-made for gaming to Windows. Help us validate these systems work as expected, and play State of Decay for free (limited time only!). Just tell us about any problems you encounter with installing and launching the game.
