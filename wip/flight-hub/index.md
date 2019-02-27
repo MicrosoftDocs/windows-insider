@@ -46,7 +46,7 @@ The items in **bold** are the latest releases for the individual versions of the
 |-------|------|------|--------|-----|-----|-----|
 |18346|[**2/26/2019**](https://blogs.windows.com/windowsexperience/2019/02/26/announcing-windows-10-insider-preview-build-18346/#MpuxrCZG0kEJ0fDF.97)||||||
 |18343|[2/22/2019](https://blogs.windows.com/windowsexperience/2019/02/22/announcing-windows-10-insider-preview-build-18343/#lEgK8M4cpzhlJWOm.97)||||||
-|18342|[2/20/2019](https://blogs.windows.com/windowsexperience/2019/02/20/announcing-windows-10-insider-preview-build-18342/#F6rZrxoZlogbviep.97)||||||
+|18342|[2/20/2019](https://blogs.windows.com/windowsexperience/2019/02/20/announcing-windows-10-insider-preview-build-18342/#F6rZrxoZlogbviep.97)|[**2/27/2019**](https://blogs.windows.com/windowsexperience/2019/02/20/announcing-windows-10-insider-preview-build-18342/#QVsLWMErZWruszwd.97)|||||
 |18334|[2/8/2019](https://blogs.windows.com/windowsexperience/2019/02/08/announcing-windows-10-insider-preview-build-18334/#c0UIC5IDJvcGRl4t.97)||[**2/12/2019**](https://blogs.windows.com/windowsexperience/2019/02/12/announcing-windows-server-vnext-insider-preview-build-18334/#s0JwHFYEqFhVjZkQ.97)|||[**2/12/2019**](https://blogs.windows.com/buildingapps/2019/02/12/windows-10-sdk-preview-build-18334-available-now/#8uyMMpDvXKgz3TSy.97)|
 |18329|[2/01/2019](https://blogs.windows.com/windowsexperience/2019/02/01/announcing-windows-10-insider-preview-build-18329/)|||||
 |18327||||||[2/05/2019](https://blogs.windows.com/buildingapps/2019/02/05/windows-10-sdk-preview-build-18327-available-now/)|
