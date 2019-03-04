@@ -20,6 +20,7 @@ Thanks to everyone who signed up to try out our new Windows gaming technology in
 ## Linux Files inside of File Explorer (Build 18342)
 We added the ability for users to access Linux files in a WSL distro from Windows. These files can be accessed through the command line, and also Windows apps, like File Explorer, VSCode, etc. can interact with these files. Access your files by navigating to \\wsl$\<distro_name>, or see a list of running distributions by navigating to \\wsl$. [Learn more about accessing Linux files inside File Explorer](https://blogs.msdn.microsoft.com/commandline/2019/02/15/whats-new-for-wsl-in-windows-10-version-1903/). 
 
+<<<<<<< HEAD
 ## Help gaming on Windows and play State of Decay! (Build 18334)
 
 We’re excited to bring technology tailor-made for gaming to Windows. Help us validate these systems work as expected, and play State of Decay for free (limited time only!). Just tell us about any problems you encounter with installing and launching the game.
@@ -37,6 +38,15 @@ We’re pleased to announce an extension that collects activities from your Goog
 
 We’re excited to bring technology tailor-made for gaming to Windows. Help us validate these systems work as expected, and play State of Decay for free (limited time only!). Just tell us about any problems you encounter with installing and launching the game.
 
+=======
+## New Chrome Extension for Timeline (Build 18342) 
+We’re pleased to announce an extension that collects activities from your Google Chrome browser and adds them to your Timeline in Windows. You can download the new Web Activity extension now from the [Chrome Web Store](https://chrome.google.com/webstore/detail/web-activities/eiipeonhflhoiacfbniealbdjoeoglid).  Just sign-in to the extension on your Chrome browser with your Microsoft account, visit a site in Chrome, then watch it appear on Timeline – and pick up where you left off. Your Chrome activities will also sync with Timeline on Android devices using the [Microsoft Launcher app](https://www.microsoft.com/en-us/launcher).
+
+## Help gaming on Windows and play State of Decay! (Build 18334)
+
+We’re excited to bring technology tailor-made for gaming to Windows. Help us validate these systems work as expected, and play State of Decay for free (limited time only!). Just tell us about any problems you encounter with installing and launching the game.
+
+>>>>>>> 5099764b76344bb2810aab9cf0b279584f49ce94
 Note: we only have a small number of available slots currently, so don’t wait too long to sign up. But if you don’t get in this time, don’t worry, we’ll be expanding over the next few weeks so you’ll have more chances. Thanks for making Windows gaming better!
 
 ### Instructions:
