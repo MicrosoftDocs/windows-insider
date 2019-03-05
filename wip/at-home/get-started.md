@@ -1,15 +1,15 @@
 ---
 title: Getting started with Windows 10 Insider Preview Builds
 description: How to install Insider Preview builds 
-services: WIP-at-home
 manager: eliotgra
-ms.service: WIP-at-home
 ms.tgt_pltfrm: na
 ms.devlang: na
 ms.date: 10/24/2018
 ms.author: v-colinmit
 author: cdmm12
 ms.localizationpriority: medium
+ms.topic: article
+ms.prod: w10
 ---
 
 # Getting started with Windows 10 Insider Preview Builds 
