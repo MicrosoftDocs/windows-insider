@@ -1,16 +1,15 @@
 ---
 title: Share and track feedback 
 description: how to share and track feedback using the Feedback Hub 
-services: WIP-at-work-pro
 author: lizap
 manager: dougkim
-ms.assetid: 
-ms.service: WIP-at-work-pro
 ms.tgt_pltfrm: na
 ms.devlang: na
 ms.date: 08/20/2018
 ms.author: elizapo
 ms.localizationpriority: medium
+ms.topic: article
+ms.prod: w10
 ---
 
 # Submit and track feedback using the Feedback Hub
