@@ -15,7 +15,7 @@ ms.prod: w10
 The [Windows Insider Program](https://insider.windows.com/en-us/) lets you preview builds of the upcoming release of Windows 10. This topic lists all new Windows 10 features for you to try. 
 
 ## Emoji 12.0 Update (Build 18348)
-With [Build 18277](https://blogs.windows.com/windowsexperience/2018/11/07/announcing-windows-10-insider-preview-build-18277/), Insiders got their first look at the Emoji 12.0 emoji. In early February, the set of emoji to be included with Emoji 12.0 was finalized by Unicode, and with today’s build when you press WIN+(period) or WIN+(semicolon), all of these emoji now have keywords hooked up to make them easy to search for. Try it once you install the build! Keywords include otter, sloth, waffle, ballet shoes, and more.
+With [Build 18277](https://blogs.windows.com/windowsexperience/2018/11/07/announcing-windows-10-insider-preview-build-18277/), Insiders got their first look at the Emoji 12.0 emoji. In early February, the set of emoji to be included with Emoji 12.0 was finalized by Unicode, and with today’s build, when you press WIN+(period) or WIN+(semicolon), all of these emoji now have keywords hooked up to make them easy to search for. Try it once you install the build! Keywords include otter, sloth, waffle, ballet shoes, and more.
 
 ![Emoji 12](images/18348-1.png "Seach Emoji 12 by keyword")
 
@@ -26,18 +26,23 @@ If you haven’t tried it already, be sure to also check out our new Kaomoji and
 ## Improving Gaming on Windows 10 (Build 18342)
 Thanks to everyone who signed up to try out our new Windows gaming technology in Build 18334. With this new build, we have some fixes that we can’t wait to have folks try out: the game now runs correctly with parental controls enabled, and the install process is more stable (including a fix for the game being stuck in “Pending” instead of downloading).
 
+* If you have already tried State of Decay and everything worked: we’d appreciate you uninstalling State of Decay and then trying the install again, to make sure everything still works.
+* If you have already tried State of Decay and something didn’t work: please try again and see if your issue has been addressed. If not, it would help us a lot if you let us know using the Feedback Hub in Windows (instructions here in this post). Even if you already sent feedback on the issue before, it’s very helpful to know that it’s still happening on a new version of Windows.
+* If you were not able to get a slot for State of Decay: we’ve opened up more slots now, so just go to the Xbox Insider hub and click Insider content to join. NOTE: we’re still limiting availability as we roll out, so we recommend joining right away. If you miss out this time, don’t worry, we’ll be adding more again soon!
+* If you are trying State of Decay for the first time: just do the following: 
+1. Install the [Xbox Insider Hub app](https://www.microsoft.com/en-us/p/xbox-insider-hub/9nblggh68vsk) on the PC you’ll be flighting on (link opens in Store app).
+2. Sign in to the Xbox Insider Hub with your Gamertag. If you don’t have a Gamertag, see [instructions](https://blogs.windows.com/windowsexperience/2019/02/08/announcing-windows-10-insider-preview-build-18334/#wiEwkHc4ZzC1JE8s.97).
+3. Select Insider Content in the upper left.
+4. Scroll to the bottom and select the Windows Gaming program (in the System section).
+5. Join the program.
+6. Follow the instructions from [Build 18334](https://docs.microsoft.com/en-us/windows-insider/at-home/whats-new-wip-at-home#help-gaming-on-windows-and-play-state-of-decay-build-18334-1), skipping any steps you’ve already completed above.
+
+If you see any problems downloading or installing the game, or if important functionality like game saving isn’t working, please be sure to use the Feedback Hub to tell us. And thank you again for helping us find any issues!
+
 ## Linux Files inside of File Explorer (Build 18342)
 We added the ability for users to access Linux files in a WSL distro from Windows. These files can be accessed through the command line, and also Windows apps, like File Explorer, VSCode, etc. can interact with these files. Access your files by navigating to \\wsl$\<distro_name>, or see a list of running distributions by navigating to \\wsl$. [Learn more about accessing Linux files inside File Explorer](https://blogs.msdn.microsoft.com/commandline/2019/02/15/whats-new-for-wsl-in-windows-10-version-1903/). 
 
-## Help gaming on Windows and play State of Decay! (Build 18334)
-
-We’re excited to bring technology tailor-made for gaming to Windows. Help us validate these systems work as expected, and play State of Decay for free (limited time only!). Just tell us about any problems you encounter with installing and launching the game.
-
-## Improving Gaming on Windows 10 (Build 18342)
-Thanks to everyone who signed up to try out our new Windows gaming technology in Build 18334. With this new build, we have some fixes that we can’t wait to have folks try out: the game now runs correctly with parental controls enabled, and the install process is more stable (including a fix for the game being stuck in “Pending” instead of downloading).
-
-## Linux Files inside of File Explorer (Build 18342)
-We added the ability for users to access Linux files in a WSL distro from Windows. These files can be accessed through the command line, and also Windows apps, like File Explorer, VSCode, etc. can interact with these files. Access your files by navigating to \\wsl$\<distro_name>, or see a list of running distributions by navigating to \\wsl$. [Learn more about accessing Linux files inside File Explorer](https://blogs.msdn.microsoft.com/commandline/2019/02/15/whats-new-for-wsl-in-windows-10-version-1903/). 
+![Linux Files](images/18342-1.png "Linux Files inside of File Explorer")
 
 ## New Chrome Extension for Timeline (Build 18342) 
 We’re pleased to announce an extension that collects activities from your Google Chrome browser and adds them to your Timeline in Windows. You can download the new Web Activity extension now from the [Chrome Web Store](https://chrome.google.com/webstore/detail/web-activities/eiipeonhflhoiacfbniealbdjoeoglid).  Just sign-in to the extension on your Chrome browser with your Microsoft account, visit a site in Chrome, then watch it appear on Timeline – and pick up where you left off. Your Chrome activities will also sync with Timeline on Android devices using the [Microsoft Launcher app](https://www.microsoft.com/en-us/launcher).
@@ -652,9 +657,7 @@ Using a physical keyboard? Hardware keyboard text suggestions are also supported
 
 **Indic Phonetic keyboards now available for PC:** Do you write in an Indic language? We've heard your feedback, and in addition to the Indic Traditional INSCRIPT keyboards already available, with today's build we're adding Indic Phonetic keyboards for Hindi, Bangla, Tamil, Marathi, Punjabi, Gujarati, Odia, Telugu, Kannada and Malayalam!
 
-How does a phonetic keyboard work? Basically it's a convenient way of typing that leverages the English QWERTY keyboard – as you type, we use transliteration to suggest possible Indic text candidates. For example, if you typed "namaste" using the Hindi Phonetic keyboard we would suggest नमस्ते, as you can see in the below gif:
-
-![image3](images/18272-image3.gif)
+How does a phonetic keyboard work? Basically it's a convenient way of typing that leverages the English QWERTY keyboard – as you type, we use transliteration to suggest possible Indic text candidates. 
 
 If your native language is one of the above languages or you have some knowledge of Indic languages, please try this out with either the hardware or touch keyboard and let us know how it feels.
 
