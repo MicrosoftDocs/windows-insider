@@ -1,15 +1,15 @@
 ---
 title: Working with rings
 description: definition of Insider rings 
-services: WIP-at-home
 manager: eliotgra
-ms.service: WIP-at-home
 ms.tgt_pltfrm: na
 ms.devlang: na
 ms.date: 1011/2/2018
 ms.author: v-colinmit
 author: cdmm12
 ms.localizationpriority: medium
+ms.topic: article
+ms.prod: w10
 ---
 
 # Working with rings

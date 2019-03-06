@@ -1,15 +1,15 @@
 ---
 title: Working with Preview builds 
 description: Using Preview builds to explore and validate Windows
-services: WIP-at-work-pro
 manager: eliotgra
-ms.service: WIP-at-home
 ms.tgt_pltfrm: na
 ms.devlang: na
 ms.date: 11/6/2018
 ms.author: v-colinmit
 author: cdmm12
 ms.localizationpriority: medium
+ms.topic: article
+ms.prod: w10
 ---
 
 # Working with Windows 10 Insider Preview Builds 

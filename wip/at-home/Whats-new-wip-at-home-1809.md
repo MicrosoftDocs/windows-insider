@@ -1,15 +1,15 @@
 ---
 title: What's new in the Windows 10 Insider Preview Builds (RS5)
 description: New Windows features for Windows Insider Program Preview Builds
-services: WIP-at-home
 author: lizap
 manager: dougkim
-ms.service: WIP-at-home
 ms.tgt_pltfrm: na
 ms.devlang: na
 ms.date: 10/08/2018
 ms.author: elizapo
 ms.localizationpriority: medium
+ms.topic: article
+ms.prod: w10
 ---
 
 #  What's new in the Windows 10 Insider preview builds (RS5)
