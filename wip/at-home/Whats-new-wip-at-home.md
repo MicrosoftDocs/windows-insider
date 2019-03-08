@@ -372,7 +372,7 @@ With [Build 18272](#sign-in-options-redesigned-for-windows-hello-build-18272), w
 >[!NOTE]
 >If you’ve already altered the current sorting from the default in any way, we will not change it – this is only for people who haven’t changed it. If at any point you want to switch sortings, you can do so from the View tab in File Explorer. Some Insiders have had this change for a little bit now, and based on positive feedback we’re now rolling it out to 100% of Fast.
 
-## Start menu improvements (Bu8ild 18298)
+## Start menu improvements (Build 18298)
 **Quick unpin for groups and folders**: Sometimes you just wanna quickly start fresh – over the last few weeks we’ve been rolling out the ability to unpin groups and folders in Start via a new context menu entry. As of today, that option is now available to all Insiders in the Fast ring! Thanks, as always, to everyone who’s shared their feedback so far!
 
 ![Quick unpin for Start menu](images/18298-3.png "Quick unpin for Start menu")
