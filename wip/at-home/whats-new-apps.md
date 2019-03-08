@@ -17,6 +17,14 @@ You will find information on the latest major app updates for Windows 10 release
 
 **Note**: *Not all app updates will be listed here. Only app updates that include major changes e.g. new features, etc. will be noted here.*
 
+## Game Bar Updates 
+
+**12/10/2018** 
+
+Check out the new Gallery experience in Game bar! Without ever leaving your game, you can now view screenshots and videos taken through Game bar and even share your favorite screenshots directly to Twitter.
+
+![game bar](images/snip-n-sketch.png "game bar update")
+
 ## Feedback Hub
 
 **11/14/2018** (Version 1811)<br/>
