@@ -37,7 +37,6 @@ This update includes:
 - When creating a new feedback item, that feedback is auto-saved as a draft.  If the app closes unexpectedly in the middle of writing feedback, when you re-open the Feedback Hub you’ll now get notified of the existing draft so you can easily resume.
 - You can now check for app updates from the settings page in the Feedback Hub. We’ll also automatically check for app updates on app launch, and you’ll get a notification letting you know one is available.
 
-<<<<<<< HEAD
 
 ## Snip & Sketch 
 
@@ -47,13 +46,6 @@ Bring window snip to your modern snipping experience. Start your snip via your p
 
 ![Windows Snip](images/snip_window.png "windows snip")
 
-=======
-## Snip & Sketch 
-
-**11/14/2018** (Version 10.1811.3371.0)<br/>
-
-This update brings bringing window snip to your modern snipping experience. Start your snip via your preferred entry point (WIN + Shift + S, Print Screen (if you’ve enabled it), directly from within Snip & Sketch, etc.), and select the window snip option at the top, and snip away! That selection will be remembered the next time you start a snip. 
->>>>>>> 9f7821a29e86a6f498f03e7abd91e46e2278361c
 
 **10/31/2018** (Version 10.1809.2964.0)<br/>
 
