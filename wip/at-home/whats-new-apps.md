@@ -12,7 +12,7 @@ ms.topic: article
 ms.prod: w10
 ---
 
-# Windows app updates
+# Windows app updates 
 You will find information on the latest major app updates for Windows 10 released to Windows Insiders here. Currently, app updates are sorted by date in which announcements of the app updates are made. In the future, we will be planning to include more details such as version numbers of the apps. 
 
 **Note**: *Not all app updates will be listed here. Only app updates that include major changes e.g. new features, etc. will be noted here.*
