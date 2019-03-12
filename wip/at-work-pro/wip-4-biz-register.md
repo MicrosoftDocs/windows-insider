@@ -18,7 +18,7 @@ The first step to participating in the Windows Insider Program for Business and 
 * Go to [Windows Insider Program website](https://insider.windows.com/en-us/register/), OR 
 * Go to [Settings> Update & Security> Windows Insider Program](ms-settings:windowsinsider) and click "Get Started". 
 
-You can register with either yoru work account in Azure Active Directory or your Microsoft account. 
+You can register with either your work account in Azure Active Directory or your Microsoft account. 
 
 __Register using your work account (recommended).__ Registering with your work account in Azure Active Directory (Azure AD) provides valuable business benefits: 
 * __Tag feedback__. Submitting feedback to us via the Feedback Hub using your Azure AD account helps us identify issues and suggestions from your specific organization.  
