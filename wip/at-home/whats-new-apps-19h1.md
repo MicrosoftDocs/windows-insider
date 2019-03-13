@@ -17,9 +17,31 @@ You will find information on the latest major app updates for Windows 10 release
 
 **Note**: *Not all app updates will be listed here. Only app updates that include major changes e.g. new features, etc. will be noted here.*
 
+## Your Phone 
+
+**3/12/2019 - Version 1.0.20701.0**
+ 
+We are excited to provide an early preview into the newest feature for the Your Phone app – phone screen. You can now mirror your Android phone’s screen directly on your PC without having to dig for your phone.
+
+![Your Phone](images/18335-1.png "phone screen")
+
+The new phone screen feature gives you easy access to your phone apps on your PC. Whether scheduling a ride to the airport or checking your social updates, do it with ease from the comfort of your PC without having to take your phone out of your bag or go back and forth between devices. Go ahead, give your thumbs a break, and get things done faster with your keyboard and mouse.
+
+![Your Phone](images/18335-2.png "phone screen2")
+
+This feature will gradually roll out to Insiders on 19H1 builds. It may take a few days for this feature to show up inside the Your Phone app (version 1.0.20701.0 and above).
+You can use the Your Phone app on any Windows 10 PC running Windows builds 1803 (RS4) or newer and any Android phone running Android version 7.0 or newer. But the new phone screen feature is initially only compatible with a limited set of devices. Surface Go will be the first device in the Surface lineup to preview this feature. We will continue to expand the list of devices over time for both the PC and phone.
+We look forward to your feedback as we continue to test, learn, and improve the overall experience.
+
+**Phone screen requirements:**
+* Select Android phones* running Android 7.0 or greater (*Samsung Galaxy S8/S8+/S9/S9+).
+* Windows 10 PC with a Bluetooth radio that supports low energy peripheral role. [How to check if your PC supports this](https://go.microsoft.com/fwlink/?linkid=2066643).
+* Latest 19H1 preview build (18335+ recommended).
+* Android phone must be on, within Bluetooth range of the PC, and connected to the same network as the PC.
+
 ## Snip & Sketch 
 
-**3/6/2019** - **Version 10.1901.10521.0**
+**3/6/2019 - Version 10.1901.10521.0**
 
 We’re in the process of rolling out out a new app update to Skip Ahead. It includes a number of fixes based on your feedback, among which are:
 * We fixed an issue that could result in snips being a bit blurry after saving or copying to clipboard.
@@ -33,14 +55,14 @@ We’re in the process of rolling out out a new app update to Skip Ahead. It inc
 
 The rollout of this app is not tied to the upgrade, so you may see it outside the bounds of this flight.
 
-**12/10/2018** - **Version 10.1811.3371.0**
+**12/10/2018 - Version 10.1811.3371.0**
 
 Bring window snip to your modern snipping experience. Start your snip via your preferred entry point (WIN + Shift + S, Print Screen (if you’ve enabled it), directly from within Snip & Sketch, etc.), and select the window snip option at the top, and snip away! That selection will be remembered the next time you start a snip.
 
 ![Windows Snip](images/snip_window.png "windows snip")
 
 
-**10/31/2018** - **Version 10.1809.2964.0**
+**10/31/2018 - Version 10.1809.2964.0**
 
 This update brings several improvements, including:
 - **Adding some emphasis.** Planning to paste your screenshot somewhere? Does that place have the same color background as the background of your screenshot? When you update to the latest app version you’ll find a new option to add a border to your screenshots – giving them that little bit extra needed to stand out.
@@ -55,13 +77,29 @@ This update brings several improvements, including:
    ![New Settings page](images/18272-app2.png "The Settings page in Snip & Sketch")
 
 
-**9/6/2018** - **Version 10.1807.2286.0**
+**9/6/2018 - Version 10.1807.2286.0**
 
 We flighted version 10.1807.2286.0 of **Snip & Sketch** (née Screen Sketch), which included the highly requested delay snip feature. There was a bug in Build 18219 blocking the New button from working, so please try it out once you upgrade! 
 
 Just click the chevron next to the New button in the app and you’ll now find options to **Snip now**, **Snip in 3 seconds**, and **Snip in 10 seconds**. If you have the app open or pinned to your taskbar, you can also just right click the icon in the taskbar to get these options, since we’ve added them to the jump list – let us know what you’d like to see next!
 
 ![snip & sketch](images/snip-n-sketch.png "snip & sketch")
+
+## Mail & Calendar 
+
+**2/1/2019 - Version 16.0.11231.20082**
+
+Currently rolling out to Insiders in Fast, this app update brings:
+
+__Dark mode now extended to Mail and Calendar items:__ Building on our previous release of Dark mode in Mail and Calendar, we have extended our dark UI to more parts of our app. With this update, Dark mode now works when composing a new message, updating a calendar item or reading your email. This helps provide a calmer reading experience for people that work in a low light environment or just prefer screens that are less bright, and helps to reduce eye strain.
+To turn on Dark mode, go to settings, select “Personalization”, and choose “Dark mode”. For those who already have Dark mode enabled, you will see it expand to cover your email reading and compose experiences after receiving the update.
+If you prefer to view a particular email in light mode, look for the sunshine icon in the command bar to “turn on the lights” and view the email with a white background. This can help if a particular email is not formatted well for Dark mode.
+
+![Dark mode](images/18329-5.jpg "Dark mode now extended to Mail and Calendar items")
+
+__Default Font:__ We are introducing a top customer requested feature: Default font. Now you can customize how new messages will look. If you create a new mail or reply to an existing mail, the text you type will be in the font face, size, color and emphasis you have selected.  To change your default font, go into settings and select “Default font”. Default font applies per-account and does not roam to other devices. These updates are the latest in a [series of updates](https://support.office.com/en-us/article/what-s-new-in-mail-and-calendar-for-windows-10-9822b33c-b9ad-48bc-ac53-c1b6136e405b?ui=en-US&rs=en-US&ad=US) we’ve made based on your feedback, and we’re looking forward to hearing what you’d like to see improved next!
+
+![Dark mode](images/18329-6.png "Dark mode now extended to Mail and Calendar items")
 
 # Microsoft To-Do 
 
@@ -94,7 +132,7 @@ Please try it out and let us know what you think by tweeting at [@MicrosoftToDo]
 
 ## Feedback Hub 
 
-**12/10/2018** -**Version 1811**
+**12/10/2018 - Version 1811**
 
 This update includes:
 - We’ve updated the navigation pane to now use the common control – that means when switching between sections you’ll now see that nice little transition animation!
@@ -134,7 +172,7 @@ This version brings the following:
 * Sync is even faster now, including to your phone via iOS and Android OneNote, rolling out now!
 
 
-**8/28/2018** - **Sticky Notes 3.0**
+**8/28/2018 - Sticky Notes 3.0**
 Sticky Notes 3.0 brings the following amazing new features and capabilities:
 * Sync (& backup) your notes across your Windows devices.
 * If you have a lot of notes, your desktop can get a bit crowded! We are introducing a new home for all your notes. You can choose which notes to stick to your desktop or tuck them away and find them again easily with search.
