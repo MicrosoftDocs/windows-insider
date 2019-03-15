@@ -88,19 +88,6 @@ To try this out yourself, just go to Language Settings, click Add a preferred la
 
 ![RAW image format](images/18329-4.png "Improved RAW image formats")
 
-## Mail & Calendar version 16.0.11231.20082 (Build 18329)
-Currently rolling out to Insiders in Fast, this app update brings:
-
-__Dark mode now extended to Mail and Calendar items:__ Building on our previous release of Dark mode in Mail and Calendar, we have extended our dark UI to more parts of our app. With this update, Dark mode now works when composing a new message, updating a calendar item or reading your email. This helps provide a calmer reading experience for people that work in a low light environment or just prefer screens that are less bright, and helps to reduce eye strain.
-To turn on Dark mode, go to settings, select “Personalization”, and choose “Dark mode”. For those who already have Dark mode enabled, you will see it expand to cover your email reading and compose experiences after receiving the update.
-If you prefer to view a particular email in light mode, look for the sunshine icon in the command bar to “turn on the lights” and view the email with a white background. This can help if a particular email is not formatted well for Dark mode.
-
-![Dark mode](images/18329-5.jpg "Dark mode now extended to Mail and Calendar items")
-
-__Default Font:__ We are introducing a top customer requested feature: Default font. Now you can customize how new messages will look. If you create a new mail or reply to an existing mail, the text you type will be in the font face, size, color and emphasis you have selected.  To change your default font, go into settings and select “Default font”. Default font applies per-account and does not roam to other devices. These updates are the latest in a [series of updates](https://support.office.com/en-us/article/what-s-new-in-mail-and-calendar-for-windows-10-9822b33c-b9ad-48bc-ac53-c1b6136e405b?ui=en-US&rs=en-US&ad=US) we’ve made based on your feedback, and we’re looking forward to hearing what you’d like to see improved next!
-
-![Dark mode](images/18329-6.png "Dark mode now extended to Mail and Calendar items")
-
 ## Improved RAW image format support (Build 18323)
 Do you like taking pictures in Raw image formats and wish that the Raw files from your camera were natively supported by Windows? Good news! Targeting 19H1, we’ve been working hard to release a new store-delivered Raw codec package that dramatically improves native raw file format support in Windows.
 
@@ -748,6 +735,10 @@ In the Windows 10 October 2018 Update and prior, only the following inbox apps c
 * Skype
 * Tips
 * Weather
+
+## Troubleshooting improvements (Build 18262)
+Don’t feel like troubleshooting? We’ve got you covered. In previous releases, if you noticed your PC was having a problem, you would have to find the right troubleshooter and then manually walk through all the different steps to resolve it. We hear your feedback that the time that takes to do can be frustrating – why not just automatically fix issues that you know how to fix and can detect? We agree! If an issue occurs we want to get you back up and running as quickly as possible, so with Build 18262 you’ll find a new recommended troubleshooting setting under Settings > Update & Security > Troubleshoot in Build 18262. This feature uses diagnostic data you send to deliver a tailored set of fixes matching problems we detect on your device and will automatically apply them to your PC.
+We’re still hard at work on this feature so it’s greyed out right now in Settings, but stay tuned for updates in future builds!
 
 ## Narrator Improvements (18262)
 **Narrator Read by Sentence**: You can now read next, current and previous sentences in Narrator. Read by sentence is available with the keyboard and with touch. Move by sentence doesn't yet work for Braille. 
