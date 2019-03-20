@@ -11,6 +11,49 @@ ms.prod: w10
 
 # What’s new for business in Windows 10 Insider Preview Builds
 
+## Windows Defender Application Guard as browser extensions in Google Chrome and Mozilla Firefox
+To extend our container technology to other browsers and provide customers with a comprehensive solution to isolate potential browser-based attacks, we have designed and developed Windows Defender Application Guard extensions for Google Chrome and Mozilla Firefox.
+
+![Application Guard extension](images/18358-1.png "download page")
+ 
+__How it works__
+
+The extensions for Google Chrome and Mozilla Firefox automatically redirect untrusted navigations to Windows Defender Application Guard for Microsoft Edge. The extension relies on a native application that we’ve built to support the communication between the browser and the device’s [Application Guard settings](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-guard/configure-wd-app-guard).
+
+When users navigate to a site, the extension checks the URL against a list of trusted sites defined by enterprise administrators. If the site is determined to be untrusted, the user is redirected to an isolated Microsoft Edge session. In the isolated Microsoft Edge session, the user can freely navigate to any site that has not been explicitly defined as trusted by their organization without any risk to the rest of system. With our upcoming dynamic switching capability, if the user tries to go to a trusted site while in an isolated Microsoft Edge session, the user is taken back to the default browser.
+
+To configure the Application Guard extension under managed mode, enterprise administrators can follow these recommended steps:
+1. Ensure devices meet requirements.
+2. Turn on Windows Defender Application Guard.
+3. Define the network isolation settings to ensure a set of trusted sites is in place.
+4. Install the new Windows Defender Application Guard companion application from the Microsoft Store.
+5. Install the extension for Google Chrome or Mozilla Firefox browsers provided by Microsoft.
+6. Restart the devices.
+
+__Intuitive user experience__
+
+We designed the user interface to be transparent to users about Windows Defender Application Guard being installed on their devices and what it does. We want to ensure that users are fully aware that their untrusted navigations will be isolated and why.
+1. When users initially open Google Chrome or Mozilla Firefox after the extension is deployed and configured properly, they will see a Windows Defender Application Guard landing page.
+
+![Application Guard extension](images/18358-2.png "welcome page")
+
+2. If there are any problems with the configuration, users will get instructions for resolving any configuration errors.
+
+![Application Guard extension](images/18358-3.png "resolving configuration errors page")
+
+3. Users can initiate an Application Guard session without entering a URL or clicking on a link by clicking the extension icon on the menu bar of the browser.
+
+![Application Guard extension](images/18358-4.png "diagnostic information")
+
+__Where to get it__
+
+The Windows Defender Application Guard extension for Google Chrome and Mozilla Firefox is rolling out to Windows Insiders today and will be generally available very soon. This is available for users on Win 10 Enterprise and Pro SKUs on 1803 or later.
+* [Get the Google Chrome extension](https://chrome.google.com/webstore/detail/application-guard-extensi/mfjnknhkkiafjajicegabkbimfhplplj)
+* [Get the Mozilla Firefox extension](https://wdage.azurewebsites.net/)
+* [Get the Microsoft Store companion app](http://ms-windows-store/pdp/?productid=9N8GNLC8Z9C8)
+
+Submit feedback here. Contact our team if you have any questions.
+
 ## Reserving disk space to keep Windows 10 up to date (Build 18312) 
 In 19H1, we’re making a few changes to how Windows 10 manages disk space. Through reserved storage, some disk space will be set aside to be used by updates, apps, temporary files, and system caches. Our goal is to improve the day-to-day function of your PC by ensuring critical OS functions always have access to disk space. With reserved storage, updates, apps, temporary files, and caches are less likely to take away from valuable free space and should continue to operate as expected. Reserved storage will be introduced automatically on PCs that come with 19H1 pre-installed or on PCs where 19H1 was clean installed. For Windows Insiders who want to try this feature out right now – just run through this quest. After completing the quest, reserved storage will kick off with the next flight. (If you do the quest before installing Build 18312 – reserved storage should kick off for this flight.) For more details on reserved storage coming in 19H1, [read this blog post here](https://blogs.technet.microsoft.com/filecab/2019/01/07/windows-10-and-reserved-storage/).
 
