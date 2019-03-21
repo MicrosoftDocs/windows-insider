@@ -83,9 +83,7 @@ The items in **bold** are the latest releases for the individual versions of the
 
 ## Windows 10 October 2018 Update (RS5)
 
-You can get builds of RS5 today if your device is in the Fast ring. RS5 Skip ahead is complete but you can see the builds that went out as Skip Ahead below, marked with an asterisk.
-
-Builds of Windows Server 2019 are released to members of the Windows Insider Program for Server.
+Windows 10, version 1809, and Windows Server 2019 were released to the world on November 13, 2018. 
 
 | Build | Fast | Slow | Server | IoT | ISO | SDK |
 |-------|------|------|--------|-----|-----|-----|
