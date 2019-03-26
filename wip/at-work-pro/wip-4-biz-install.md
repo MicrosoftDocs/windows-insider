@@ -14,12 +14,15 @@ ms.prod: w10
 
 # Install Windows 10 Insider Preview Builds
 You can install Insider Preview builds on individual devices, manage installation across multiple devices, or install on a virtual machine. 
-
 NOTE: A device must be running a licensed version of Windows 10 to update to an Insider Preview build. 
+
 
 ## Install on an individual device 
 1. Register as a Windows Insider if you haven't done so already. See [Register](wip-4-biz-register.md). 
 2. Open Windows Insider Program settings. You can find the settings by going to __Start > Settings > Update & security > Windows Insider Program__. To see this setting, you must have administrator rights to your device.
+
+NOTE: To enable installation of Insider Preview builds, Diagnostic Data settings on a device must be set to Enhanced or Full. (By default, Windows 10 devices are set to Full.) To check and change settings, go to [Settings>Privacy>Diagnostics & feedback](ms-settings:privacy-feedback). 
+
 3. Click __Get started__ and follow the prompts to link your Microsoft or work account that you used to register as a Windows Insider. 
 
 ![alt text](images/wip4biz_prompts.png "Get started button for installing WIP builds")
