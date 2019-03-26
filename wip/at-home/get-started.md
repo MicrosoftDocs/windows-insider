@@ -14,7 +14,7 @@ ms.prod: w10
 
 # Getting started with Windows 10 Insider Preview Builds 
 
-To install Windows 10 Insider Preview Build on an individual PC, follow the steps below. NOTE: Organizations have the option to install and manage Insider Preview builds centrally across multiple PCs. See [Manage Windows 10 Insider Preview builds](https://docs.microsoft.com/en-us/windows-insider/at-work-pro/wip-4-biz-manage-builds).  
+To install Windows 10 Insider Preview Build on an individual PC, follow the steps below. NOTE: Organizations have the option to install and manage Insider Preview builds centrally across multiple PCs. See [Manage Windows 10 Insider Preview builds](https://docs.microsoft.com/en-us/windows-insider/at-work-pro/wip-4-biz-manage).  
 
 ## Check prerequisites
 1. __Register as a Windows Insider__. You can register on the [Windows Insider Program website](https://insider.windows.com/en-us/register/), or in Windows Insider settings on your PC (see __Manage Windows Insider Program settings__ below). To register, use your Microsoft account or an Azure Active Directory work account. For the benefits of using a work account, see [Register for the Windows Insider Program for Business](https://docs.microsoft.com/en-us/windows-insider/at-work-pro/register). 
