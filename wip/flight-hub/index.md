@@ -48,13 +48,20 @@ The items in **bold** are the latest releases for the individual versions of the
 
 | Build | Fast | Slow | Server | IoT | ISO | SDK |
 |-------|------|------|--------|-----|-----|-----|
+<<<<<<< HEAD
 |18362|[**3/20/2019**](https://blogs.windows.com/windowsexperience/2019/03/20/announcing-windows-10-insider-preview-build-18362/#S4BDVdDW41P89KLc.97)||||||
 18361|[3/19/2019](https://blogs.windows.com/windowsexperience/2019/03/19/announcing-windows-10-insider-preview-build-18361/#mHcv6FGsAlkBB8Wl.97)
 |18358|[3/15/2019](https://blogs.windows.com/windowsexperience/2019/03/15/announcing-windows-10-insider-preview-build-18358/#Whpph8JpuKtARpqh.97)|||||||
 |18356.16||[**3/19/2019**](https://blogs.windows.com/windowsexperience/2019/03/12/announcing-windows-10-insider-preview-build-18356/#Uw3ZD0O3tfFASLot.97)|||||||
 |18356|[3/12/2019](https://blogs.windows.com/windowsexperience/2019/03/12/announcing-windows-10-insider-preview-build-18356/)|[3/15/2019](https://blogs.windows.com/windowsexperience/2019/03/12/announcing-windows-10-insider-preview-build-18356/#FKmBvdXcsmossrLi.97)|[**3/19/2019**](https://blogs.windows.com/windowsexperience/2019/03/19/announcing-windows-server-vnext-insider-preview-build-18356-1/#T3Kox5CBxRPasO1l.97)|||||
+=======
+|18362|[**3/20/2019**](https://blogs.windows.com/windowsexperience/2019/03/20/announcing-windows-10-insider-preview-build-18362/#S4BDVdDW41P89KLc.97)|[**3/22/2019**](https://blogs.windows.com/windowsexperience/2019/03/20/announcing-windows-10-insider-preview-build-18362/#RqJ3JCru6cS4yOVL.97)|||||
+|18361|[3/19/2019](https://blogs.windows.com/windowsexperience/2019/03/19/announcing-windows-10-insider-preview-build-18361/#mHcv6FGsAlkBB8Wl.97)
+|18358|[3/15/2019](https://blogs.windows.com/windowsexperience/2019/03/15/announcing-windows-10-insider-preview-build-18358/#Whpph8JpuKtARpqh.97)|||||||
+|18356|[3/12/2019](https://blogs.windows.com/windowsexperience/2019/03/12/announcing-windows-10-insider-preview-build-18356/)|[3/19/2019](https://blogs.windows.com/windowsexperience/2019/03/12/announcing-windows-10-insider-preview-build-18356/#Uw3ZD0O3tfFASLot.97)|[**3/19/2019**](https://blogs.windows.com/windowsexperience/2019/03/19/announcing-windows-server-vnext-insider-preview-build-18356-1/#T3Kox5CBxRPasO1l.97)|||[**3/20/2019**](https://blogs.windows.com/buildingapps/2019/03/20/windows-10-sdk-preview-build-18356-available-now/#7oLpwFPOlPPVQgxb.97)|
+>>>>>>> 57f2f1b8bbf1d2eb774d26f15d828ace21fa2d52
 |18353|[3/08/2019](https://blogs.windows.com/windowsexperience/2019/03/08/announcing-windows-10-insider-preview-build-18353/#ZYgjoJtQFsmD1GL8.97)||||||
-|18351|[3/05/2019](https://blogs.windows.com/windowsexperience/2019/03/05/announcing-windows-10-insider-preview-build-18351/#MmTTp1bOBP2dYAkL.97)|[3/11/2019](https://blogs.windows.com/windowsexperience/2019/03/05/announcing-windows-10-insider-preview-build-18351/#C0qlSMlU9kYfzpck.97)||||[**3/12/2019**](https://blogs.windows.com/buildingapps/2019/03/12/windows-10-sdk-preview-build-18351-available-now/)|
+|18351|[3/05/2019](https://blogs.windows.com/windowsexperience/2019/03/05/announcing-windows-10-insider-preview-build-18351/#MmTTp1bOBP2dYAkL.97)|[3/11/2019](https://blogs.windows.com/windowsexperience/2019/03/05/announcing-windows-10-insider-preview-build-18351/#C0qlSMlU9kYfzpck.97)||||[3/12/2019](https://blogs.windows.com/buildingapps/2019/03/12/windows-10-sdk-preview-build-18351-available-now/)|
 |18346|[2/26/2019](https://blogs.windows.com/windowsexperience/2019/02/26/announcing-windows-10-insider-preview-build-18346/#MpuxrCZG0kEJ0fDF.97)||[3/05/2019](https://blogs.windows.com/windowsexperience/2019/03/05/announcing-windows-server-vnext-insider-preview-build-18346/#Z8ZkSTYQYCLYYEKW.97)|||[3/06/2019](https://blogs.windows.com/buildingapps/2019/03/06/windows-10-sdk-preview-build-18346-available-now/)|
 |18343|[2/22/2019](https://blogs.windows.com/windowsexperience/2019/02/22/announcing-windows-10-insider-preview-build-18343/#lEgK8M4cpzhlJWOm.97)||||[**3/12/2019**](https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewadvanced)||
 |18342|[2/20/2019](https://blogs.windows.com/windowsexperience/2019/02/20/announcing-windows-10-insider-preview-build-18342/#F6rZrxoZlogbviep.97)|[2/27/2019](https://blogs.windows.com/windowsexperience/2019/02/20/announcing-windows-10-insider-preview-build-18342/#QVsLWMErZWruszwd.97)|||||
@@ -84,9 +91,7 @@ The items in **bold** are the latest releases for the individual versions of the
 
 ## Windows 10 October 2018 Update (RS5)
 
-You can get builds of RS5 today if your device is in the Fast ring. RS5 Skip ahead is complete but you can see the builds that went out as Skip Ahead below, marked with an asterisk.
-
-Builds of Windows Server 2019 are released to members of the Windows Insider Program for Server.
+Windows 10, version 1809, and Windows Server 2019 were released to the world on November 13, 2018. 
 
 | Build | Fast | Slow | Server | IoT | ISO | SDK |
 |-------|------|------|--------|-----|-----|-----|
@@ -127,7 +132,7 @@ Builds of Windows Server 2019 are released to members of the Windows Insider Pro
 | 17604 | [2/14/2018*](https://blogs.windows.com/windowsexperience/2018/02/14/announcing-windows-10-insider-preview-build-17101-fast-build-17604-skip-ahead/) |
 
 ## Windows 10 April 2018 Update (RS4)
-Windows 10 version 1803 was released to the world on April 30, 2018. Windows Insiders helped test 46 builds.  
+[Windows 10 version 1803](https://blogs.windows.com/windowsexperience/2018/04/30/whats-new-in-the-windows-10-april-2018-update) was released to the world on April 30, 2018. Windows Insiders helped test 46 builds.  
 
 | Build | Fast | Slow | Server | IoT | ISO | SDK |
 |-------|------|------|--------|-----|-----|-----|
