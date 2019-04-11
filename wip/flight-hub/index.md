@@ -15,15 +15,16 @@ ms.prod: w10
 
 Welcome to Flight Hub! Use this dashboard to quickly identify the latest Windows Insider Preview releases for PC, Server, IoT. You can also look up the status of the SDK and ISO images.
 
-## Skip Ahead for Windows 10 (20H1)
+## Skip Ahead and Fast builds for Windows 10 (20H1)
 
-You can get builds of 20H1 today if you've opted in to **Skip Ahead**.
+You can get builds of 20H1 today if you've opted in to **Fast builds**.
 
 The items in **bold** are the latest releases for the individual versions of the item. 
 
 | Build | Fast | Slow | Server | IoT | ISO | SDK |
 |-------|------|------|--------|-----|-----|-----|
-|18865*|[**3/27/2019**](https://blogs.windows.com/windowsexperience/2019/03/27/announcing-windows-10-insider-preview-build-18865/#ZF0T5LhE0MwjYrzl.97)||||||
+|18875|[**4/10/2019**](https://blogs.windows.com/windowsexperience/2019/04/10/announcing-windows-10-insider-preview-build-18875/#urRQqJMPrtfb7Ayb.97)||||||
+|18865*|[3/27/2019](https://blogs.windows.com/windowsexperience/2019/03/27/announcing-windows-10-insider-preview-build-18865/#ZF0T5LhE0MwjYrzl.97)||||||
 |18860*|[3/20/2019](https://blogs.windows.com/windowsexperience/2019/03/20/announcing-windows-10-insider-preview-build-18860/#Od4bL4pQLHX2vF2q.97)||||||
 |18855*|[3/13/2019](https://blogs.windows.com/windowsexperience/2019/03/13/announcing-windows-10-insider-preview-build-18855/#mFYIvpxUKdSZ0TXd.97)||||||
 |18850*|[3/06/2019](https://blogs.windows.com/windowsexperience/2019/03/06/announcing-windows-10-insider-preview-build-18850/#pGuAWEtusq2D6vXj.97)|||||||
