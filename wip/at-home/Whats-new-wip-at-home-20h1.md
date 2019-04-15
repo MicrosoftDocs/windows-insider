@@ -28,6 +28,13 @@ Afrikaans (South Africa),  Albanian (Albania),  Arabic (Saudi Arabia),  Armenian
 
 What does this mean for you? Basically, we’re updating the underlying language model when typing in each of these languages, to improve the accuracy of the autocorrections, shapewriting, and predictions. You’d notice this when using the touch keyboard, or the hardware keyboard text predictions (if enabled). If you use these languages above to type, help us make your typing experience even better by sharing feedback! ([being as specific as possible](https://insider.windows.com/en-us/how-to-feedback/), if you can). We’ll be posting a Quest about this improvement in the Feedback Hub soon.
 
+## Improved Windows Sandbox accessibiity (Build 18855)
+We have made several updates to improve Windows Sandbox accessibility scenarios. This includes: 
+* Microphone support
+* Added functionality to configure the audio input device via the Windows Sandbox config file
+* A Shift + Alt + PrintScreen key sequence in Windows Sandbox which activates the ease of access dialog for enabling high contrast mode.
+* A ctrl + alt + break key sequence in Windows Sandbox which allows entering/exiting fullscreen mode
+
 ## Snip & Sketch version 10.1901.10521.0 (Build 18850)
 As some of you may have already noticed, we’re in the process of rollout out a new app update to Skip Ahead. It includes a number of fixes based on your feedback, among which are:
 * We fixed an issue that could result in snips being a bit blurry after saving or copying to clipboard.
@@ -40,3 +47,6 @@ As some of you may have already noticed, we’re in the process of rollout out a
 * We fixed an issue where the default save file location was documents rather than pictures. In fixing this we also fixed an issue where when saving the save dialog wouldn’t remember where you last saved a snip.
 
 The rollout of this app is not tied to the upgrade, so you may see it outside the bounds of this flight.
+
+## Windows Sandbox configuration file support (Build 18841)
+Windows Sandbox now supports configuration files! These files allow users to configure some aspects of the sandbox, such as vGPU, networking and shared folders. [Check out the blog post explaining this new feature](https://aka.ms/WindowsSandbox_ConfigFile).

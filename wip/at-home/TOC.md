@@ -4,6 +4,7 @@
 ### [Getting started](get-started.md)
 ### [Working with rings](rings.md)
 ### [Troubleshooting](troubleshooting.md)
+### [What's new for Windows 10 Insider Preview Builds (20H1)](https://docs.microsoft.com/windows-insider/at-home/Whats-new-wip-at-home-20h1)
 ### [What's new for Windows 10 Insider Preview Builds (19H1)](Whats-new-wip-at-home-19h1.md)
 ### [What was new for Windows 10, version 1809](Whats-new-wip-at-home-1809.md)
 ### [What's new in Windows apps (19H1)](whats-new-apps-19h1.md)
