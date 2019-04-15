@@ -28,7 +28,7 @@ Afrikaans (South Africa),  Albanian (Albania),  Arabic (Saudi Arabia),  Armenian
 
 What does this mean for you? Basically, we’re updating the underlying language model when typing in each of these languages, to improve the accuracy of the autocorrections, shapewriting, and predictions. You’d notice this when using the touch keyboard, or the hardware keyboard text predictions (if enabled). If you use these languages above to type, help us make your typing experience even better by sharing feedback! ([being as specific as possible](https://insider.windows.com/en-us/how-to-feedback/), if you can). We’ll be posting a Quest about this improvement in the Feedback Hub soon.
 
-## Improved Windows Sandbox accessibiity (Build 18855)
+## Improved Windows Sandbox accessibility (Build 18855)
 We have made several updates to improve Windows Sandbox accessibility scenarios. This includes: 
 * Microphone support
 * Added functionality to configure the audio input device via the Windows Sandbox config file
