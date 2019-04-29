@@ -14,13 +14,13 @@ ms.prod: w10
 
 # Getting started with Windows 10 Insider Preview Builds 
 
-To install Windows 10 Insider Preview Build on an individual PC, follow the steps below. NOTE: Organizations have the option to install and manage Insider Preview builds centrally across multiple PCs. See [Manage Windows 10 Insider Preview builds](https://docs.microsoft.com/en-us/windows-insider/at-work-pro/wip-4-biz-manage).  
+To install a Windows 10 Insider Preview Build on an individual PC, follow the steps below. 
 
-## Check prerequisites
-1. __Register as a Windows Insider__. You can register on the [Windows Insider Program website](https://insider.windows.com/en-us/register/), or in Windows Insider settings on your PC (see __Configure Windows Insider Program settings__ below)(https://docs.microsoft.com/en-us/windows-insider/at-home/get-started#configure-windows-insider-program-settings). To register, use your Microsoft account or an Azure Active Directory work account. For the benefits of using a work account, see [Register for the Windows Insider Program for Business](https://docs.microsoft.com/en-us/windows-insider/at-work-pro/register). 
-
+## Prerequisites
+1. __Register as a Windows Insider__. You can register on the [Windows Insider Program website](https://insider.windows.com/en-us/register/), or in Windows Insider settings on your PC. To register, use your Microsoft account or an Azure Active Directory work account. For the benefits of using a work account, see [Register for the Windows Insider Program for Business](https://docs.microsoft.com/en-us/windows-insider/at-work-pro/register). 
 2. __Install Windows 10 on your PC__. To install Windows 10 Insider Preview, you’ll need to be running a licensed version of Windows 10 on your PC. If your PC is currently running Windows 7/8/8.1, you can [install Windows 10 here](https://www.microsoft.com/en-us/windows/get-windows-10?step=Win10Question1). If you are having problems installing Windows 10, you can  [download Windows 10 Insider Preview ISO](https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewadvanced).
-3.	__Check language support.__ Confirm that Windows 10 Insider Preview Builds support your desired language on your PC. See __Supported Languages__ below.
+3. __Check diagnostic settings.__ Diagnostic data settings must be set to Enhanced or Full to receive Insider Preview builds. To check and change settings, go to __Settings>Privacy>Diagnostics & feedback__. For more information see [Diagnostics, feedback and privacy in Windows 10](https://support.microsoft.com/en-us/help/4468236/diagnostics-feedback-and-privacy-in-windows-10-microsoft-privacy). 
+4. __Check language support.__ Confirm that Windows 10 Insider Preview Builds support your desired language on your PC. See __Supported Languages__ below.
 
 NOTE: After you have installed an Insider Preview build, you will receive new builds automatically through Windows Update if you've turned on automatic updates in [Windows Update settings](ms-settings:windowsupdate). For more information, see [Update Windows 10](https://support.microsoft.com/en-gb/help/4027667/windows-10-update).
 
@@ -29,7 +29,7 @@ The following steps apply to PCs running Windows 10, Version 1809. Steps will va
 1.	Open [Windows Insider Program Settings](ms-settings:windowsinsider) __(Start > Settings > Update & Security > Windows Insider Program)__. 
 2.	Click __Get started__.
 3.	Under “Pick an account to get started” click “+” to link your Microsoft or work account that you used to register for the Windows Insider Program. Click __Continue__ or, if you have not already registered for the Windows Insider Program, click __Register__. 
-4.	Under “What kind of content that you would like to receive”, select __Active development of Windows__ to receive Insider Preview builds and click __Confirm__. (Select “Fixes, apps and drivers” only if you want to install builds from the Release Preview Ring.)  
+4.	Under “What kind of content that you would like to receive”, select __Active development of Windows__ to receive Insider Preview builds and click __Confirm__. (Select “Just fixes, apps and drivers” only if you want to install builds from the [Release Preview Ring](https://docs.microsoft.com/en-us/windows-insider/at-home/rings#release-preview-ring). Select "Skip ahead to the next Windows release" if you want to install build from the next release cycle. Note: Enrollment in Skip Ahead is offered for a limited time. If the Skip Ahead option is not available, your selection will default to Insider Preview builds in the currently avaiable Fast ring.)  
 5.	Under “What pace do you want to receive preview builds” select __Fast__ if you would like to receive the latest Insider Preview builds. If you prefer to wait for a more stable build, select __Slow__. Click __Confirm__. For more information, see [Working with Rings](rings.md).
 6.	Review the privacy statement and program terms and click __Confirm__.
 7.	Click "Restart Now" or "Restart Later" to activate Windows Insider Program settings. 
