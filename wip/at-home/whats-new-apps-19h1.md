@@ -18,9 +18,41 @@ You will find information on the latest major app updates for Windows 10 release
 **Note**: *Not all app updates will be listed here. Only app updates that include major changes e.g. new features, etc. will be noted here.*
 
 ## Your Phone 
+These updates are currently available using PCs running Windows 10 Insider Preview Builds (19H1). For more information on setting up and running the app, see [Your Phone app help](https://support.microsoft.com/en-us/help/4459358/windows-10-your-phone-app-help).
+
+__**4/26/2019__
+
+__Phone screen now supports additional Android devices__
+
+As promised, we have expanded [phone screen support](http://aka.ms/wip18356) to additional phone models – __OnePlus 6, OnePlus 6T, Samsung Galaxy S10e, S10, S10+, Note 8, Note 9__. Try out phone screen and send us your feedback. We will continue to expand the list of supported devices over time.
+
+__Never miss your Android phone’s notifications__ 
+
+Today, we are excited to provide a preview into the newest feature for the Your Phone app – __Notifications__.
+Stop reaching for your phone to check your notifications. Boost your focus and productivity by seeing your phone’s notifications on your PC. You are in control and manage which apps you want to receive notifications from. Dismiss a notification on one device and it goes away on the other.
+
+![Your Phone](images/18885-apps-1.png "phone screen")
+ 
+With this preview, you can:
+* See incoming phone notifications in real-time
+* View all of your phone notifications in one place
+* Customize which notifications you want to receive
+* Clear notifications individually or all at once
+
+This feature will gradually roll out to Insiders on 19H1 builds. It may take a few days for this feature to show up inside the Your Phone app.
+You can use the Your Phone app on any Windows 10 PC running Windows builds 1803 (RS4) or newer and most Android phones running Android version 7.0 or newer.
+
+We look forward to your feedback as we continue to test, learn, and improve the overall experience.
+
+__Notifications Requirements__ 
+* Android devices version 7.0 and greater with at least 1GB of RAM.
+* Windows 10 PC running Windows builds 1803 (RS4) or newer.
+* Not supported on devices that have Notification Access disabled by work or other policy.
 
 **3/12/2019 - Version 1.0.20701.0**
  
+__Take your phone’s screen to the big screen__  
+
 We are excited to provide an early preview into the newest feature for the Your Phone app – phone screen. You can now mirror your Android phone’s screen directly on your PC without having to dig for your phone.
 
 ![Your Phone](images/18335-1.png "phone screen")
@@ -57,7 +89,7 @@ The rollout of this app is not tied to the upgrade, so you may see it outside th
 
 **12/10/2018 - Version 10.1811.3371.0**
 
-Bring window snip to your modern snipping experience. Start your snip via your preferred entry point (WIN + Shift + S, Print Screen (if you’ve enabled it), directly from within Snip & Sketch, etc.), and select the window snip option at the top, and snip away! That selection will be remembered the next time you start a snip.
+__Bring window snip to your modern snipping experience.__ Start your snip via your preferred entry point (WIN + Shift + S, Print Screen (if you’ve enabled it), directly from within Snip & Sketch, etc.), and select the window snip option at the top, and snip away! That selection will be remembered the next time you start a snip.
 
 ![Windows Snip](images/snip_window.png "windows snip")
 
