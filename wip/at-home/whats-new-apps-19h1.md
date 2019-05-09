@@ -22,10 +22,6 @@ These updates are currently available using PCs running Windows 10 Insider Previ
 
 __**4/26/2019__
 
-__Phone screen now supports additional Android devices__
-
-As promised, we have expanded [phone screen support](http://aka.ms/wip18356) to additional phone models – __OnePlus 6, OnePlus 6T, Samsung Galaxy S10e, S10, S10+, Note 8, Note 9__. Try out phone screen and send us your feedback. We will continue to expand the list of supported devices over time.
-
 __Never miss your Android phone’s notifications__ 
 
 Today, we are excited to provide a preview into the newest feature for the Your Phone app – __Notifications__.
@@ -40,14 +36,16 @@ With this preview, you can:
 * Clear notifications individually or all at once
 
 This feature will gradually roll out to Insiders on 19H1 builds. It may take a few days for this feature to show up inside the Your Phone app.
-You can use the Your Phone app on any Windows 10 PC running Windows builds 1803 (RS4) or newer and most Android phones running Android version 7.0 or newer.
 
 We look forward to your feedback as we continue to test, learn, and improve the overall experience.
 
 __Notifications Requirements__ 
 * Android devices version 7.0 and greater with at least 1GB of RAM.
-* Windows 10 PC running Windows builds 1803 (RS4) or newer.
 * Not supported on devices that have Notification Access disabled by work or other policy.
+
+__Phone screen now supports additional Android devices__
+
+As promised, we have expanded [phone screen support](http://aka.ms/wip18356) to additional phone models – __OnePlus 6, OnePlus 6T, Samsung Galaxy S10e, S10, S10+, Note 8, Note 9__. Try out phone screen and send us your feedback. We will continue to expand the list of supported devices over time.
 
 **3/12/2019 - Version 1.0.20701.0**
  
