@@ -43,7 +43,7 @@ The items in **bold** are the latest releases for the individual versions of the
 
 [Coming soon!](https://blogs.windows.com/windowsexperience/2019/02/14/announcing-windows-10-insider-preview-build-18836/#uTrXpJD1cfT1y6vy.97)
 
-## Next feature update for Windows 10 (19H1)
+## Windows 10 May 2019 Update (19H1)
 
 You can get builds of 19H1 today if your device is in the Slow ring.
 
