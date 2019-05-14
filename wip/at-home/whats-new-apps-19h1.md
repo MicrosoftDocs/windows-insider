@@ -18,13 +18,13 @@ You will find information on the latest major app updates for Windows 10 release
 **Note**: *Not all app updates will be listed here. Only app updates that include major changes e.g. new features, etc. will be noted here.*
 
 ## Your Phone 
-These updates are currently available using PCs running Windows 10 Insider Preview Builds (19H1). For more information on setting up and running the app, see [Your Phone app help](https://support.microsoft.com/en-us/help/4459358/windows-10-your-phone-app-help).
+These updates are currently available using PCs running Windows 10 Insider Preview Builds (19H1). 
 
-__**4/26/2019__
+__4/26/2019__
 
-__Never miss your Android phone’s notifications__ 
+### Never miss your Android phone’s notifications
 
-Today, we are excited to provide a preview into the newest feature for the Your Phone app – __Notifications__.
+We are excited to provide a preview into the newest feature for the Your Phone app – __Notifications__.
 Stop reaching for your phone to check your notifications. Boost your focus and productivity by seeing your phone’s notifications on your PC. You are in control and manage which apps you want to receive notifications from. Dismiss a notification on one device and it goes away on the other.
 
 ![Your Phone](images/18885-apps-1.png "phone screen")
@@ -39,17 +39,29 @@ This feature will gradually roll out to Insiders on 19H1 builds. It may take a f
 
 We look forward to your feedback as we continue to test, learn, and improve the overall experience.
 
-__Notifications Requirements__ 
-* Android devices version 7.0 and greater with at least 1GB of RAM.
-* Not supported on devices that have Notification Access disabled by work or other policy.
+__Notifications requirements__ 
+* PC: The Notifications feature will gradually roll out to the Your Phone app running on Windows 10 Insider Preview Builds for 19H1 (versions 18204+). Not yet supported on version 18836+ (20H1) builds. 
+* Phone: The Notification feature is supported on Android devices version 7.0 and greater with at least 1GB of RAM. Not supported on devices that have Notification Access disabled by work or other policy.
 
-__Phone screen now supports additional Android devices__
+__How set up Your Phone and Notifications__ 
+1.	In the Your Phone app on your PC (Start>Your Phone), sign in to your Microsoft account. 
+2.	Enter your mobile phone number so we can send you a link to install the Your Phone Companion app for Android on your phone. 
+3.	When you receive the text message from Microsoft, tap the link to install the companion app on your phone.
+4.	Open the companion app on your phone and follow the setup instructions.
+5.	If you're prompted to sign in to the companion app, be sure to use the same Microsoft account that you're using on your PC. 
+6.	Accept the notifications on your phone that requests access to your photos and other related permissions.
+
+After you’ve completed the setup process on your Android phone and PC, you’ll be able to use the Your Phone app on your PC to see notifications and photos from your phone and send text messages from your PC. 
+
+For more information on setting up other Your Phone app features, see [Your Phone app help](https://support.microsoft.com/en-us/help/4459358/windows-10-your-phone-app-help).
+
+### Phone screen now supports additional Android devices
 
 As promised, we have expanded [phone screen support](http://aka.ms/wip18356) to additional phone models – __OnePlus 6, OnePlus 6T, Samsung Galaxy S10e, S10, S10+, Note 8, Note 9__. Try out phone screen and send us your feedback. We will continue to expand the list of supported devices over time.
 
-**3/12/2019 - Version 1.0.20701.0**
+__3/12/2019 - Version 1.0.20701.0__
  
-__Take your phone’s screen to the big screen__  
+### Take your phone’s screen to the big screen  
 
 We are excited to provide an early preview into the newest feature for the Your Phone app – phone screen. You can now mirror your Android phone’s screen directly on your PC without having to dig for your phone.
 
@@ -61,9 +73,10 @@ The new phone screen feature gives you easy access to your phone apps on your PC
 
 This feature will gradually roll out to Insiders on 19H1 builds. It may take a few days for this feature to show up inside the Your Phone app (version 1.0.20701.0 and above).
 You can use the Your Phone app on any Windows 10 PC running Windows builds 1803 (RS4) or newer and any Android phone running Android version 7.0 or newer. But the new phone screen feature is initially only compatible with a limited set of devices. Surface Go will be the first device in the Surface lineup to preview this feature. We will continue to expand the list of devices over time for both the PC and phone.
+
 We look forward to your feedback as we continue to test, learn, and improve the overall experience.
 
-**Phone screen requirements:**
+__Phone screen requirements:__
 * Select Android phones* running Android 7.0 or greater (*Samsung Galaxy S8/S8+/S9/S9+).
 * Windows 10 PC with a Bluetooth radio that supports low energy peripheral role. [How to check if your PC supports this](https://go.microsoft.com/fwlink/?linkid=2066643).
 * Latest 19H1 preview build (18342+ recommended).
@@ -71,7 +84,7 @@ We look forward to your feedback as we continue to test, learn, and improve the 
 
 ## Snip & Sketch 
 
-**3/6/2019 - Version 10.1901.10521.0**
+__3/6/2019 - Version 10.1901.10521.0__
 
 We’re in the process of rolling out out a new app update to Skip Ahead. It includes a number of fixes based on your feedback, among which are:
 * We fixed an issue that could result in snips being a bit blurry after saving or copying to clipboard.
@@ -85,14 +98,15 @@ We’re in the process of rolling out out a new app update to Skip Ahead. It inc
 
 The rollout of this app is not tied to the upgrade, so you may see it outside the bounds of this flight.
 
-**12/10/2018 - Version 10.1811.3371.0**
+__12/10/2018 - Version 10.1811.3371.0__
 
-__Bring window snip to your modern snipping experience.__ Start your snip via your preferred entry point (WIN + Shift + S, Print Screen (if you’ve enabled it), directly from within Snip & Sketch, etc.), and select the window snip option at the top, and snip away! That selection will be remembered the next time you start a snip.
+### Bring window snip to your modern snipping experience.
+ Start your snip via your preferred entry point (WIN + Shift + S, Print Screen (if you’ve enabled it), directly from within Snip & Sketch, etc.), and select the window snip option at the top, and snip away! That selection will be remembered the next time you start a snip.
 
 ![Windows Snip](images/snip_window.png "windows snip")
 
 
-**10/31/2018 - Version 10.1809.2964.0**
+__10/31/2018 - Version 10.1809.2964.0__
 
 This update brings several improvements, including:
 - **Adding some emphasis.** Planning to paste your screenshot somewhere? Does that place have the same color background as the background of your screenshot? When you update to the latest app version you’ll find a new option to add a border to your screenshots – giving them that little bit extra needed to stand out.
@@ -107,8 +121,9 @@ This update brings several improvements, including:
    ![New Settings page](images/18272-app2.png "The Settings page in Snip & Sketch")
 
 
-**9/6/2018 - Version 10.1807.2286.0**
+__9/6/2018 - Version 10.1807.2286.0__
 
+### Delay Snip 
 We flighted version 10.1807.2286.0 of **Snip & Sketch** (née Screen Sketch), which included the highly requested delay snip feature. There was a bug in Build 18219 blocking the New button from working, so please try it out once you upgrade! 
 
 Just click the chevron next to the New button in the app and you’ll now find options to **Snip now**, **Snip in 3 seconds**, and **Snip in 10 seconds**. If you have the app open or pinned to your taskbar, you can also just right click the icon in the taskbar to get these options, since we’ve added them to the jump list – let us know what you’d like to see next!
@@ -117,25 +132,29 @@ Just click the chevron next to the New button in the app and you’ll now find o
 
 ## Mail & Calendar 
 
-**2/1/2019 - Version 16.0.11231.20082**
+__2/1/2019 - Version 16.0.11231.20082__
 
 Currently rolling out to Insiders in Fast, this app update brings:
 
-__Dark mode now extended to Mail and Calendar items:__ Building on our previous release of Dark mode in Mail and Calendar, we have extended our dark UI to more parts of our app. With this update, Dark mode now works when composing a new message, updating a calendar item or reading your email. This helps provide a calmer reading experience for people that work in a low light environment or just prefer screens that are less bright, and helps to reduce eye strain.
+### Dark mode now extended to Mail and Calendar items
+Building on our previous release of Dark mode in Mail and Calendar, we have extended our dark UI to more parts of our app. With this update, Dark mode now works when composing a new message, updating a calendar item or reading your email. This helps provide a calmer reading experience for people that work in a low light environment or just prefer screens that are less bright, and helps to reduce eye strain.
+
 To turn on Dark mode, go to settings, select “Personalization”, and choose “Dark mode”. For those who already have Dark mode enabled, you will see it expand to cover your email reading and compose experiences after receiving the update.
+
 If you prefer to view a particular email in light mode, look for the sunshine icon in the command bar to “turn on the lights” and view the email with a white background. This can help if a particular email is not formatted well for Dark mode.
 
 ![Dark mode](images/18329-5.jpg "Dark mode now extended to Mail and Calendar items")
 
-__Default Font:__ We are introducing a top customer requested feature: Default font. Now you can customize how new messages will look. If you create a new mail or reply to an existing mail, the text you type will be in the font face, size, color and emphasis you have selected.  To change your default font, go into settings and select “Default font”. Default font applies per-account and does not roam to other devices. These updates are the latest in a [series of updates](https://support.office.com/en-us/article/what-s-new-in-mail-and-calendar-for-windows-10-9822b33c-b9ad-48bc-ac53-c1b6136e405b?ui=en-US&rs=en-US&ad=US) we’ve made based on your feedback, and we’re looking forward to hearing what you’d like to see improved next!
+###Default Font
+We are introducing a top customer requested feature: Default font. Now you can customize how new messages will look. If you create a new mail or reply to an existing mail, the text you type will be in the font face, size, color and emphasis you have selected.  To change your default font, go into settings and select “Default font”. Default font applies per-account and does not roam to other devices. These updates are the latest in a [series of updates](https://support.office.com/en-us/article/what-s-new-in-mail-and-calendar-for-windows-10-9822b33c-b9ad-48bc-ac53-c1b6136e405b?ui=en-US&rs=en-US&ad=US) we’ve made based on your feedback, and we’re looking forward to hearing what you’d like to see improved next!
 
 ![Dark mode](images/18329-6.png "Dark mode now extended to Mail and Calendar items")
 
 # Microsoft To-Do 
 
-**12/18/2018** 
+__12/18/2018__ 
 
-**Get more done with Cortana and Microsoft To-Do**
+### Get more done with Cortana and Microsoft To-Do
 
 Want just one to-do list that works twice as hard for you? Save time and stay organized – Cortana helps by adding your reminders and tasks to your lists in [Microsoft To-Do](https://aka.ms/getMicrosoftToDo) with this feature preview, so you can stay on top of what matters most. Use your voice, your PC, your phone – your choice.
 
@@ -152,8 +171,9 @@ With this integration, we are furthering efforts to seamlessly sync your to-do l
 
 To start syncing, your Windows 10 PC must be running Build 18267+ and tied to either the Australia, India, US, or UK region. [Learn more about the Microsoft To-Do and Cortana integration](https://insider.windows.com/en-us/articles/microsoft-to-do-and-cortana-integration/). To share feedback, join the cohort or use the Windows Feedback Hub. use the Windows Feedback Hub.
 
-**9/6/2018 - Version 1.39.1808.31001**
+__9/6/2018 - Version 1.39.1808.31001__
 
+### Handwriting support 
 We added support for handwritten input to allow you to capture your tasks seamlessly in Microsoft To-Do (Version 1.39.1808.31001 and higher).
 Please try it out and let us know what you think by tweeting at [@MicrosoftToDo](https://twitter.com/MicrosoftToDo) on Twitter. With Ink you now can:
 1. Capture your tasks naturally by writing directly on the list’s surface.
@@ -162,7 +182,7 @@ Please try it out and let us know what you think by tweeting at [@MicrosoftToDo]
 
 ## Feedback Hub 
 
-**12/10/2018 - Version 1811**
+__12/10/2018 - Version 1811__
 
 This update includes:
 - We’ve updated the navigation pane to now use the common control – that means when switching between sections you’ll now see that nice little transition animation!
@@ -173,15 +193,17 @@ This update includes:
 
 ## Game Bar 
 
-**12/10/2018** 
+__12/10/2018__ 
 
-Check out the new Gallery experience in Game bar! Without ever leaving your game, you can now view screenshots and videos taken through Game bar and even share your favorite screenshots directly to Twitter. 
+### Check out the new Gallery experience in Game bar! 
+Without ever leaving your game, you can now view screenshots and videos taken through Game bar and even share your favorite screenshots directly to Twitter. 
 
 ![Gallery](images/game_bar.png "gallery experience in game bar")
 
 ## Sticky Notes 
 
-**10/31/2018 - Version 3.1.32**<br/>
+__10/31/2018 - Version 3.1.32__
+
 Thank you for sharing your feedback on 3.0 release with us. We think you are going to love this update!
 
 ![Sticky Notes](images/18272-apps3.png "Updated view in Sticky Notes")
@@ -195,14 +217,15 @@ Please give it a shot and let us know on Feedback Hub your thoughts on the new u
 
 Want to get to your notes from anywhere? How about on the web at [http://www.onenote.com/stickynotes](http://www.onenote.com/stickynotes)? It will be rolling out worldwide soon – take a look and let us know what you think.
 
-**10/24/2018**- **Sticky Notes 3.1** (Skip Ahead only) 
+__10/24/2018**- **Sticky Notes 3.1__ (Skip Ahead only) 
 
 This version brings the following: 
 * We tested the waters with Charcoal Note and you all seemed keen to go even darker. Introducing full-on Dark Mode!
 * Sync is even faster now, including to your phone via iOS and Android OneNote, rolling out now!
 
 
-**8/28/2018 - Sticky Notes 3.0**
+__8/28/2018 - Sticky Notes 3.0__
+
 Sticky Notes 3.0 brings the following amazing new features and capabilities:
 * Sync (& backup) your notes across your Windows devices.
 * If you have a lot of notes, your desktop can get a bit crowded! We are introducing a new home for all your notes. You can choose which notes to stick to your desktop or tuck them away and find them again easily with search.
