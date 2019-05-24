@@ -291,7 +291,7 @@ You can set your preferred tab via __Options > Set default tab__.
 
 ## Updated Settings Homepage (Build 18305)
 
-At this time the updated design is only available for Home and non-domain-joined Pro edition PCs. It’s currently in the process of rolling out to those editions – we will update this message once it’s live for everyone.
+At this time the updated design is only available for Home and non-domain-joined Windows 10 Pro edition PCs. It’s currently in the process of rolling out to those editions – we will update this message once it’s live for everyone.
 
 ![Windows Hello PIN reset-2](images/18305-11.png "choose whether or not to run the recommended troubleshooter")
 
