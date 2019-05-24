@@ -308,7 +308,7 @@ As some keen-eyed Insiders have noticed, we recently started re-rolling out the 
 
 ## Re-releasing the new Japanese IME (Build 18305)
 
-Thank you everyone who provided feedback about the new Japanese IME. We’ve decided to take some time to continue refining this experience, so that it ships with the highest possible quality, so it will not be included with 19H1, but has been reactivated for Insiders to explore in the 20H1 [builds.](https://blogs.windows.com/windowsexperience/2019/04/10/announcing-windows-10-insider-preview-build-18875/#obUbgTUfBRd4IjxX.97)
+Thank you everyone who provided feedback about the new Japanese IME. We’ve decided to take some time to continue refining this experience, so that it ships with the highest possible quality. It will not be included with 19H1, but has been reactivated for Windows Insiders to explore in the 20H1 [builds.](https://blogs.windows.com/windowsexperience/2019/04/10/announcing-windows-10-insider-preview-build-18875/#obUbgTUfBRd4IjxX.97)
 
 ## Introducing the Office app for Windows 10 (Build 18305)
 
