@@ -86,7 +86,7 @@ __Phone screen requirements:__
 
 __3/6/2019 - Version 10.1901.10521.0__
 
-We’re in the process of rolling out out a new app update to Skip Ahead. It includes a number of fixes based on your feedback, among which are:
+We’re in the process of rolling out a new app update to Snip & Sketch. It includes a number of fixes based on your feedback, among which are:
 * We fixed an issue that could result in snips being a bit blurry after saving or copying to clipboard.
 * We fixed an issue where copying to clipboard would fail if you switched out of the app while the copy operation was in progress.
 * We fixed an issue where the suggested file name was unexpectedly a GUID for snips opened from Win + Shift + S toast.
