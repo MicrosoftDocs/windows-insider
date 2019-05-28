@@ -19,7 +19,7 @@ NOTE: A device must be running a licensed version of Windows 10 to update to an 
 
 ## Install on an individual device 
 1. Register as a Windows Insider if you haven't done so already. See [Register](wip-4-biz-register.md). 
-2. On the device, Diagnostic Data settings must be set to Enhanced or Full to receive Insider Preview builds. To check and change settings, go to [Settings>Privacy>Diagnostics & feedback](ms-settings:privacy-feedback). You can also [use the Registry Editor to manually set the diagnostic data level](https://docs.microsoft.com/en-us/windows/privacy/configure-windows-diagnostic-data-in-your-organization#use-registry-editor-to-set-the-diagnostic-data-level). 
+2. On the device, Diagnostic Data settings must be set to [Enhanced](https://docs.microsoft.com/en-us/windows/privacy/enhanced-diagnostic-data-windows-analytics-events-and-fields) or [Full](https://docs.microsoft.com/en-us/windows/privacy/windows-diagnostic-data) to receive Insider Preview builds. To check and change settings, go to [Settings>Privacy>Diagnostics & feedback](ms-settings:privacy-feedback). You can also [use the Registry Editor to manually set the diagnostic data level](https://docs.microsoft.com/en-us/windows/privacy/configure-windows-diagnostic-data-in-your-organization#use-registry-editor-to-set-the-diagnostic-data-level). 
 3. Open Windows Insider Program settings. You can find the settings by going to __Start > Settings > Update & security > Windows Insider Program__. To see this setting, you must have administrator rights to your device.
 4. Click __Get started__ and follow the prompts to link your Microsoft or work account that you used to register as a Windows Insider. 
 
