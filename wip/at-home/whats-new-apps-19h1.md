@@ -13,12 +13,78 @@ ms.prod: w10
 ---
 
 # Windows app updates 
-You will find information on the latest major app updates for Windows 10 released to Windows Insiders here. Currently, app updates are sorted by date in which announcements of the app updates are made. In the future, we will be planning to include more details such as version numbers of the apps. 
+You will find information on the latest major app updates for Windows 10 released to Windows Insiders here. Currently, app updates are sorted by date in which announcements of the app updates are made. 
 
-**Note**: *Not all app updates will be listed here. Only app updates that include major changes e.g. new features, etc. will be noted here.*
+_Note:_ Not all app updates will be listed here. Only app updates that include major changes e.g. new features, etc. will be noted here.
 
 ## Your Phone 
 These updates are currently available using PCs running Windows 10 Insider Preview Builds (19H1). 
+
+__5/29/2019__
+
+These features will gradually roll out to Insiders on 19H1 builds or newer, so it may take a few days to see them on your PC.
+We’d love to hear your feedback, so let us know what you think by reporting issues under Your Phone > Settings > Send feedback.
+
+## Your Phone app – Introducing even more new features (build 18908)
+We’re bringing multiple new features to the Your Phone app in this build. Try them out and let us know what you think.
+
+### Phone screen – Accessibility features, keyboard language and layout, new phone models
+We’re pleased to preview two new accessibility features – screen reading and focus tracking – as well as the ability to easily switch your Android phone’s keyboard language or layout while in phone screen.
+
+__Screen reading.__
+For users of TalkBack, you can now enable the Your Phone Companion accessibility service, found under your Android phone’s accessibility settings, for smoother cross-device reading. Once both TalkBack and the Your Phone Companion accessibility services are turned on, Narrator will play from your PC, describing what you select and activate on your phone screen as you interact using your PC’s keyboard or mouse.
+
+![Your Phone](images/18908-1.png "your phone companion - accessibility service")
+
+__Focus tracking.__
+You will now be able to interact with your Android phone’s apps at your preferred magnification while in phone screen. Focus tracking will seamlessly follow your keyboard focus and mouse pointer input.
+To enable the focus tracking accessibility feature, you must first turn on the Your Phone Companion accessibility service and TalkBack on your Android phone. Once these services are enabled, you can turn on Magnifier on your PC using the shortcut: Windows Key and the Plus sign (+) or open the app from your Windows menu.
+
+![Your Phone](images/18908-2.png "focus tracking")
+
+__Keyboard language and layout.__ You will notice a new icon on your phone screen toolbar. Selecting this icon will take you to the phone settings page, where you can change your keyboard language or layout. This setting is specific to physical keyboards, so it only applies when you’re typing into your phone from your PC and will not change your phone’s language or keyboard configuration. If you type in different languages or like to switch your keyboard layout, give it a try.
+
+![Your Phone](images/18908-3.png "phone settings icon for keyboard")
+
+__Phone screen now supports additional Samsung phone models.__
+The supported phone model list keeps expanding, we have now enabled support for the Samsung Galaxy A8 and Galaxy A8+. We will continue to expand the list of devices over time.
+
+__Phone screen requirements__
+
+* Certain Android phones running Android 7.0 or greater: Samsung Galaxy S10e, S10, S10+, S9, S9+, S8, S8+; Samsung Galaxy Note 9, Note 8; Samsung Galaxy A8, A8+; OnePlus 6, 6T
+* Windows 10 PC with Bluetooth radio that supports low-energy peripheral role
+* Minimum Build 18338 and above
+* Android phone must be on, within Bluetooth range of the PC, and connected to the same network as the PC
+
+### New messaging features
+
+__Send and receive MMS messages.__ You can now send and receive images and GIFs, including Giphy, right from the Your Phone app.
+
+__Unread message indicator (badge).__ 
+* Nav pane – A visual indicator on the Messages node, indicating you have unread messages
+* PC Taskbar – A visual indicator on the Your Phone app icon on your PC taskbar, indicating you have unread messages
+* Unread conversations – Visual indicator within threads that have unread messages
+
+__Contact images.__ Your Phone app will now sync contact thumbnails for all your contacts that contain profile images, so you can easily identify who you’re messaging with.
+
+__In-line reply.__ You can quickly reply to text messages from toast notifications without having to open the Your Phone app.
+
+__Emoji picker.__ Smileys, people, food, and more. You can easily add emojis to your text messages right from within the app.
+
+![Your Phone](images/18908-4.png "messaging features")
+
+### Your Phone can now sync over mobile data
+
+This much-requested feature is now available. You can sync your photos, messages, and notifications over mobile data without having to connect your Android phone to the Wi-Fi network.
+Enable “Sync over mobile data” under the Your Phone Companion app settings
+When enabled, you should see the ‘Connected to your PC’ toast on your phone. 
+
+![Your Phone](images/18908-5.jpg "sync over mobile data")
+
+### Colorful new icons
+We’re also introducing a new look for both Your Phone and Your Phone Companion, to make them truly feel like part of the Windows family. The Your Phone Companion icon has started to hit phones already, and the Your Phone icon will arrive on Windows PCs in the coming days.
+
+![Your Phone](images/18908-6.png "new icons")
 
 __4/26/2019__
 
