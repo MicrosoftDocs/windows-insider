@@ -25,7 +25,7 @@ __5/29/2019__
 These features will gradually roll out to Insiders on 19H1 builds or newer, so it may take a few days to see them on your PC.
 We’d love to hear your feedback, so let us know what you think by reporting issues under Your Phone > Settings > Send feedback.
 
-## Your Phone app – Introducing even more new features (build 18908)
+## Your Phone app – Introducing even more new features 
 We’re bringing multiple new features to the Your Phone app in this build. Try them out and let us know what you think.
 
 ### Phone screen – Accessibility features, keyboard language and layout, new phone models
