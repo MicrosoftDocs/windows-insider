@@ -291,19 +291,14 @@ You can set your preferred tab via __Options > Set default tab__.
 
 ## Updated Settings Homepage (Build 18305)
 
-In this build, we’re introducing a new way to help users finish their Windows setup and quickly access some of the most frequently used settings. Inspired by the Microsoft account homepage, the Settings home page now has a header at the top allowing you to take quick action for things like signing in and managing your Microsoft account, making the Windows and Microsoft experience better. It also gives you an easy to glance at system status, such as when updates are available. Some of you may have already seen this in previous builds, but don’t worry if not, we’re continuing to roll this out slowly and you will see it in an upcoming build.
+At this time the updated design is only available for Home and non-domain-joined Windows 10 Pro edition PCs. It’s currently in the process of rolling out to those editions – we will update this message once it’s live for everyone.
 
 ![Windows Hello PIN reset-2](images/18305-11.png "choose whether or not to run the recommended troubleshooter")
 
 
 ## Friendly Dates in File Explorer (Build 18305)
 
-With [Build 18272](https://blogs.windows.com/windowsexperience/2018/11/07/announcing-windows-10-insider-preview-build-18277/), we mentioned some Insiders may notice a few small changes to File Explorer. We promised details, and sharing the updated default [downloads folder sorting](https://blogs.windows.com/windowsexperience/2018/12/10/announcing-windows-10-insider-preview-build-18298/) was the first part of that. The second part of it is this: we’re trying out a new default date format in File Explorer! Called friendly dates, you can see an example of how it looks in the image below.
-Why make the change? The new format simplifies the date modified column, and provides consistency with other views that you see throughout the OS, apps, and on the web.
-We appreciate everyone who’s taken the time to share their feedback so far. Based on your comments, in Build 18305, we’re making it a bit easier to turn off if it’s not your thing – you no longer have to dig through settings, you can now just right-click on the date modified column and toggle friendly dates on and off from there.
-Friendly dates isn’t yet available for everyone, so don’t worry if you don’t see it just yet – we’ll let you know when it’s live for all.
-
-![Friendly Dates in File Explorer](images/18305-12.png "Friendly Dates in File Explorer")
+Thank you for all of the feedback you provided on Friendly Dates in File Explorer. At this time, we’ve decided not to roll out [Friendly Dates](https://blogs.windows.com/windowsexperience/2018/12/19/announcing-windows-10-insider-preview-build-18305/#xPPTWdO73EwgkGtZ.97) to users as part of the 19H1 release.
 
 ## Shadows are back! (Build 18305)
 
@@ -313,11 +308,7 @@ As some keen-eyed Insiders have noticed, we recently started re-rolling out the 
 
 ## Re-releasing the new Japanese IME (Build 18305)
 
-Thank you for your valuable feedback on our [new Japanese IME](https://blogs.windows.com/windowsexperience/2018/11/07/announcing-windows-10-insider-preview-build-18277/). A few weeks ago, we took the IME offline in order to address some of the feedback shared with us, and we’re now ready to start rolling out the IME again to Insiders. The latest version of the IME has enhanced key customization options and improved candidate window reliability (fixing an issue where it wouldn’t show), and we’re looking forward to you trying it out. Because we want to ensure the best possible typing experience, this will be a staggered rollout – some Insiders will get it today, and we will carefully review both metrics and your comments before pushing the IME out to everyone. Looking forward to you trying it out and sharing feedback!
-
-Note: We are aware of compatibility issues with some game applications and the team is working on them – we’ll let you know when this has been addressed.
-
-![Japanese IME](images/18305-14.png "Re-releasing the new Japanese IME")
+Thank you everyone who provided feedback about the new Japanese IME. We’ve decided to take some time to continue refining this experience, so that it ships with the highest possible quality. It will not be included with 19H1, but has been reactivated for Windows Insiders to explore in the 20H1 [builds.](https://blogs.windows.com/windowsexperience/2019/04/10/announcing-windows-10-insider-preview-build-18875/#obUbgTUfBRd4IjxX.97)
 
 ## Introducing the Office app for Windows 10 (Build 18305)
 
@@ -325,7 +316,7 @@ This month, Windows Insiders get their first look at the new Office app, a simpl
 
 The app is a great starting point for Office that helps you easily find all your files in one place or easily access any Office solution available to you. It knows to connect you to the Office rich clients if they are installed on your computer or it will send you to the web version of Office if they’re not. IT will also appreciate the ability to customize the app by integrating other line of business applications that use Azure Active Directory into the experience and apply corporate branding to the app.
 
-Please see the [Microsoft 365 Blog post](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.microsoft.com%2Fen-us%2Fmicrosoft-365%2Fblog%2F2018%2F12%2F19%2Fintroducing-the-office-app-for-windows-10%2F&data=02%7C01%7Cwdoll%40microsoft.com%7C2756d006866e46081e4808d66510813f%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636807518894476742&sdata=KFMvdWe34hQwH0mkTQ4ybUzPXgxlNurT%2FIZFbPyE9QY%3D&reserved=0) for more information on the Office app. Start using the app to get the most out of Office, and please let us know what you think via the feedback link under “Settings.”
+Please see the [Microsoft 365 Blog post](https://www.microsoft.com/en-us/microsoft-365/blog/2018/12/19/introducing-the-office-app-for-windows-10/) for more information on the Office app. Start using the app to get the most out of Office, and please let us know what you think via the feedback link under “Settings.”
 
 Note: You may notice the [new Office icons](https://medium.com/microsoft-design/redesigning-the-office-app-icons-to-embrace-a-new-world-of-work-91d72608ee8f) in the screenshot above! They aren’t live for Insiders yet, but we wanted you to get a taste of what it will look like once they are.
 
