@@ -136,6 +136,10 @@ We are introducing a simplified Windows Insider Program Settings page via Settin
 
 ![Windows Insider Program Settings](images/18317-3.jpg "A simpler Windows Insider Program Settings page")
 
+## OS Variable Refresh Rate (Build 18312)
+With Windows Version 1903, we have added a new toggle in Graphics Settings for variable refresh rate. Variable refresh rate (VRR) is similar to NVIDIA’s G-SYNC and VESA DisplayPort Adaptive-Sync. For more details, read the blog post [here](https://devblogs.microsoft.com/directx/os-variable-refresh-rate/)
+![OS Variable Refresh Rate](Graphic settings.jpg "Graphic Settings")
+
 ## Reserving disk space to keep Windows 10 up to date (Build 18312) 
 In 19H1, we’re making a few changes to how Windows 10 manages disk space. Through reserved storage, some disk space will be set aside to be used by updates, apps, temporary files, and system caches. Our goal is to improve the day-to-day function of your PC by ensuring critical OS functions always have access to disk space. With reserved storage, updates, apps, temporary files, and caches are less likely to take away from valuable free space and should continue to operate as expected. Reserved storage will be introduced automatically on PCs that come with 19H1 pre-installed or on PCs where 19H1 was clean installed. For Windows Insiders who want to try this feature out right now – just [run through this quest](https://insider.windows.com/en-us/ih/?contentid=2762bf7a-bef0-4835-8e4c-04ae8e3ed299&contenttype=quest&utm_source=product-placement&utm_medium=feedback-hub&utm_campaign=feedback-hub-redirect). After completing the quest, reserved storage will kick off with the next flight. (If you do the quest before installing Build 18312 – reserved storage should kick off for this flight.) For more details on reserved storage coming in 19H1, [read this blog post here](https://blogs.technet.microsoft.com/filecab/2019/01/07/windows-10-and-reserved-storage/).
 
