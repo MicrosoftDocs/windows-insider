@@ -22,8 +22,6 @@ To install a Windows 10 Insider Preview Build on an individual PC, follow the st
 3. __Check diagnostic settings.__ Diagnostic data settings must be set to Enhanced or Full to receive Insider Preview builds. To check and change settings, go to __Settings>Privacy>Diagnostics & feedback__. For more information see [Diagnostics, feedback and privacy in Windows 10](https://support.microsoft.com/en-us/help/4468236/diagnostics-feedback-and-privacy-in-windows-10-microsoft-privacy). 
 4. __Check language support.__ Confirm that Windows 10 Insider Preview Builds support your desired language on your PC. See __Supported Languages__ below.
 
-NOTE: After you have installed an Insider Preview build, you will receive new builds automatically through Windows Update if you've turned on automatic updates in [Windows Update settings](ms-settings:windowsupdate). For more information, see [Update Windows 10](https://support.microsoft.com/en-gb/help/4027667/windows-10-update).
-
 ## Configure Windows Insider Program settings 
 The following steps apply to PCs running Windows 10, Version 1809. Steps will vary slightly for earlier versions of Windows. To see these settings, you must have administrator rights to the machine. 
 1.	Open [Windows Insider Program Settings](ms-settings:windowsinsider) __(Start > Settings > Update & Security > Windows Insider Program)__. 
@@ -44,7 +42,9 @@ Your devices will be automatically updated the latest Insider Preview builds usi
 If you are unable to install an Insider Preview build or encounter other technical related issues, see [Troubleshooting](troubleshooting.md). 
 
 ## Provide feedback
-Once you have installed an Insider Preview build, you can provide feedback on the build using the [Feedback Hub](insiderhub://home/) in Windows. This can help us fix any issues you may encounter and is also an effective way to send suggestions to our engineering teams for new features and improvements. For more information see: [Send feedback to Microsoft with the Feedback Hub app](https://support.microsoft.com/en-us/help/4021566/windows-10-send-feedback-to-microsoft-with-feedback-hub-app). 
+Once you have installed an Insider Preview build, you can provide feedback on the build using the [Feedback Hub](insiderhub://home/) in Windows. This can help us fix any issues you may encounter and is also an effective way to send suggestions to our engineering teams for new features and improvements. For more information see: 
+* [Send feedback to Microsoft with the Feedback Hub app](https://support.microsoft.com/en-us/help/4021566/windows-10-send-feedback-to-microsoft-with-feedback-hub-app)
+* [How to provide constructive feedback](https://insider.windows.com/en-us/how-to-feedback/) 
 
 ## Supported languages
 Windows 10 Insider Preview Builds are available in the following SKU languages:
@@ -55,7 +55,6 @@ Afrikaans (South Africa), Albanian (Albania), Amharic, Armenian, Assamese, Azerb
 
 LIP languages can be installed as a language pack over [supported base languages](https://support.microsoft.com/en-us/help/14236/language-packs).
 
-## Related topics
 
-* [VIDEO: Getting started with Insider Preview builds](https://www.youtube.com/watch?v=hS986rkTH8k)
-* [How to provide constructive feedback](https://insider.windows.com/en-us/how-to-feedback/)
+
+
