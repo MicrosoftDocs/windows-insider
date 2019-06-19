@@ -16,11 +16,11 @@ ms.prod: w10
 # Windows Insider Program for Business docs
 
 The Windows Insider Program for Business provides additional benefits to business users and organizations: 
-* __Explore new Windows features for business.__ Get updates on new Windows features for security, management and productivity. See [What's new for business in Windows 10 Insider Preview Builds](https://docs.microsoft.com/en-us/windows-insider/at-work-pro/wip-4-biz-whats-new). 
-* __Manage Insider Preview builds across your organization.__ Use Group Policy, Intune or SCCM to install and manage Windows 10 Insider Preview builds across multiple PCs. See [Manage Windows 10 Insider Preview Builds](https://docs.microsoft.com/en-us/windows-insider/at-work-pro/wip-4-biz-manage). 
-* __Accelerate your Windows deployment.__ Use Windows 10 Insider Preview Builds to validate your apps and infrastructure ahead of the next public Windows release. See [Working with Windows 10 Insider Preview Builds](https://docs.microsoft.com/en-us/windows-insider/at-work-pro/wip-4-biz-explore-and-validate). 
-* __Submit feedback to help shape Windows for your business.__ Use the Feedback Hub to submit issues and feature suggestions on behalf of your organization. You can also track feedback submitted by other users in your organization. See [Submit and track feedback](https://docs.microsoft.com/en-us/windows-insider/at-work-pro/wip-4-biz-feedback). 
-* __Get Windows Server Insider Preview.__ Along with Windows 10 Insider Preview Builds, you can download the latest Windows Server preview and Remote Server Administration tools. See [Windows Insider Program for Server docs](https://docs.microsoft.com/en-us/windows-insider/at-work/).
+* __Explore new Windows features for business.__ Get updates on new Windows features for security, management and productivity. See [What's new for business in Windows 10 Insider Preview Builds](https://docs.microsoft.com/windows-insider/at-work-pro/wip-4-biz-whats-new). 
+* __Manage Insider Preview builds across your organization.__ Use Group Policy, Intune or SCCM to install and manage Windows 10 Insider Preview builds across multiple PCs. See [Manage Windows 10 Insider Preview Builds](https://docs.microsoft.com/windows-insider/at-work-pro/wip-4-biz-manage). 
+* __Accelerate your Windows deployment.__ Use Windows 10 Insider Preview Builds to validate your apps and infrastructure ahead of the next public Windows release. See [Working with Windows 10 Insider Preview Builds](https://docs.microsoft.com/windows-insider/at-work-pro/wip-4-biz-explore-and-validate). 
+* __Submit feedback to help shape Windows for your business.__ Use the Feedback Hub to submit issues and feature suggestions on behalf of your organization. You can also track feedback submitted by other users in your organization. See [Submit and track feedback](https://docs.microsoft.com/windows-insider/at-work-pro/wip-4-biz-feedback). 
+* __Get Windows Server Insider Preview.__ Along with Windows 10 Insider Preview Builds, you can download the latest Windows Server preview and Remote Server Administration tools. See [Windows Insider Program for Server docs](https://docs.microsoft.com/windows-insider/at-work/).
 
 <ul class="cardsF panelContent">
     <li>
@@ -67,7 +67,7 @@ The Windows Insider Program for Business provides additional benefits to busines
 
 <ul class="cardsF panelContent cols cols2">
     <li>
-        <a href="https://docs.microsoft.com/en-us/windows-insider/at-work-pro/wip-4-biz-feedback-hub">
+        <a href="https://docs.microsoft.com/windows-insider/at-work-pro/wip-4-biz-feedback-hub">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
