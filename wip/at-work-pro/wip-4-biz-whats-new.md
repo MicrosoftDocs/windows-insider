@@ -18,7 +18,7 @@ To extend our container technology to other browsers and provide customers with 
  
 __How it works__
 
-The extensions for Google Chrome and Mozilla Firefox automatically redirect untrusted navigations to Windows Defender Application Guard for Microsoft Edge. The extension relies on a native application that we’ve built to support the communication between the browser and the device’s [Application Guard settings](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-guard/configure-wd-app-guard).
+The extensions for Google Chrome and Mozilla Firefox automatically redirect untrusted navigations to Windows Defender Application Guard for Microsoft Edge. The extension relies on a native application that we’ve built to support the communication between the browser and the device’s [Application Guard settings](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-guard/configure-wd-app-guard).
 
 When users navigate to a site, the extension checks the URL against a list of trusted sites defined by enterprise administrators. If the site is determined to be untrusted, the user is redirected to an isolated Microsoft Edge session. In the isolated Microsoft Edge session, the user can freely navigate to any site that has not been explicitly defined as trusted by their organization without any risk to the rest of system. With our upcoming dynamic switching capability, if the user tries to go to a trusted site while in an isolated Microsoft Edge session, the user is taken back to the default browser.
 
@@ -63,7 +63,7 @@ We added new UI for Reset this PC as part of Settings > Update & Security > Reco
 ![Reset this PC UI](images/18312-1.gif "Reset this PC UI Improvements")
 
 ## Windows Subsystem for Linux Command Line Tool Improvements (Build 18312) 
-We added new command line options to the WSL command line tool (wsl.exe) for easier WSL management and added functionality based on your feedback. Below is a summary of changes. You can read about more details in [our release notes](https://docs.microsoft.com/en-us/windows/wsl/release-notes) and on our [command line blog](https://blogs.msdn.microsoft.com/commandline/).
+We added new command line options to the WSL command line tool (wsl.exe) for easier WSL management and added functionality based on your feedback. Below is a summary of changes. You can read about more details in [our release notes](https://docs.microsoft.com/windows/wsl/release-notes) and on our [command line blog](https://blogs.msdn.microsoft.com/commandline/).
 * Consolidated command line options – The wsl command line tool now includes options to manage your WSL distros that are included in the wslconfig command line tool. We intend to only update the wsl tool with the latest management options moving forward.
 * Import a distro for easy sideloading including to non-system drives – Use the “–import” option to imports a tar file as a new distribution. You can specify the distribution registry to the location of your choice including non-system drives.
 * Export your WSL distribution for simpler environment management – Use the “—export” option to export a distribution to a tar file. Your distro will export to your default downloads location.
@@ -192,7 +192,7 @@ The Microsoft Edge team introduced new Group Policies and MDM settings for IT ad
 
 Microsoft Edge kiosk mode works with assigned access to let IT administrators create a tailored browsing experience designed for kiosk devices. 
 When you configure Microsoft Edge kiosk mode in assigned access, you can set it up to show only a single URL in full-screen, in the case of digital/interactive signage on a single-app kiosk device. You can restrict Microsoft Edge for public browsing (on a single and multi-app kiosk device) which runs a multi-tab version of InPrivate with limited functionality. Also, you can configure a multi-app kiosk device to run a full or normal version of Microsoft Edge. 
-Learn more about [Microsoft Edge kiosk mode](https://docs.microsoft.com/en-us/microsoft-edge/deploy/microsoft-edge-kiosk-mode-deploy).
+Learn more about [Microsoft Edge kiosk mode](https://docs.microsoft.com/microsoft-edge/deploy/microsoft-edge-kiosk-mode-deploy).
 
 ## Web sign-in to Windows 10 (Build 17713)
 Until now, Windows logon only supported the use of identities federated to ADFS or other providers that support the WS-Fed protocol. We are introducing “web sign-in,” a new way of signing into your Windows PC. Web sign-in enables Windows logon support for non-ADFS federated providers (e.g.SAML).
@@ -292,7 +292,7 @@ We’ve heard your feedback and we’ve updated Windows Security Center (WSC) to
 
 
 ## Windows Defender Firewall now supports Windows Subsystem for Linux (WSL) processes (Build 17627)
-You can add specific rules for a WSL process in Windows Defender Firewall, just as you would for any Windows process. Also, Windows Defender Firewall now supports notifications for WSL processes. For example, when a Linux tool wants to allow access to a port from the outside (like SSH or a web server like nginx), the Windows Defender Firewall will prompt to allow access just like it would for a Windows process when the port starts accepting connections. This was first introduced in [Build 17627](https://docs.microsoft.com/en-us/windows/wsl/release-notes#build-17618-skip-ahead).
+You can add specific rules for a WSL process in Windows Defender Firewall, just as you would for any Windows process. Also, Windows Defender Firewall now supports notifications for WSL processes. For example, when a Linux tool wants to allow access to a port from the outside (like SSH or a web server like nginx), the Windows Defender Firewall will prompt to allow access just like it would for a Windows process when the port starts accepting connections. This was first introduced in [Build 17627](https://docs.microsoft.com/windows/wsl/release-notes#build-17618-skip-ahead).
 
 ## Windows Autopilot self-deploying mode (Build 17672)
 
@@ -302,7 +302,7 @@ This self-deploying capability removes the current need to have an end user inte
 
 Utilize Windows Autopilots self-deploying mode to completely register the device to an AAD tenant, enroll in your organization’s MDM provider, ensure all policies, applications, etc. are correctly provisioned on the device with no user authentication or user interaction required, before the end user even logs in. 
 
-To learn more about the Autopilot Self-Deploying feature and see the step by step instructions to perform such a deployment, [click here](https://docs.microsoft.com/en-us/windows/deployment/windows-autopilot/self-deploying). 
+To learn more about the Autopilot Self-Deploying feature and see the step by step instructions to perform such a deployment, [click here](https://docs.microsoft.com/windows/deployment/windows-autopilot/self-deploying). 
 
 ## Windows Defender Credential Guard is supported by default on 10S devices that are AAD Joined
 
@@ -324,7 +324,7 @@ To evaluate: Windows Defender Credential Guard is preconfigured and enabled for 
 
 Through an MDM policy, BitLocker can silently be enabled for standard AAD Joined users. In RS4 (Windows 10 build 1803) automatic BitLocker encryption was enabled for standard AADJ users, but this still required modern hardware that passed the Hardware Security Test Interface (HSTI). This new feature functionality enables BitLocker via policy even on devices that don’t pass the HSTI. 
 
-This is an update to the [BitLocker CSP](https://docs.microsoft.com/en-us/windows/client-management/mdm/bitlocker-csp), which was introduced in Windows 10 build 1703, and leveraged by Intune and others. 
+This is an update to the [BitLocker CSP](https://docs.microsoft.com/windows/client-management/mdm/bitlocker-csp), which was introduced in Windows 10 build 1703, and leveraged by Intune and others. 
 This feature will soon be enabled on Olympia Corp as an optional feature.
 
 ##  Delivering BitLocker policy to AutoPilot devices during OOBE 
