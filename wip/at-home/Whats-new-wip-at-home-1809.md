@@ -215,7 +215,7 @@ For Microsoft Edge kiosk mode running in multi-app assigned access the two kiosk
 
 ![kiosk](images/kiosk-4.png "kiosk")
 
-Learn how to setup Microsoft Edge kiosk mode in the [Microsoft Edge kiosk mode deployment guide](https://docs.microsoft.com/en-us/microsoft-edge/deploy/microsoft-edge-kiosk-mode-deploy).
+Learn how to setup Microsoft Edge kiosk mode in the [Microsoft Edge kiosk mode deployment guide](https://docs.microsoft.com/microsoft-edge/deploy/microsoft-edge-kiosk-mode-deploy).
 
 ### Microsoft Edge Platform Improvements 
 
@@ -701,7 +701,7 @@ If you find your device restarting at the wrong time, please file a bug in the [
 **Group managed service account reliability:** We’ve improved the scalability and reliability of containers that use group managed service accounts (gMSA) to access network resources. You should see fewer authentication errors when using a single gMSA with multiple container instances. Additionally, you no longer need to set the container hostname to be the same as the gMSA. We also fixed a bug that prevented you from using gMSAs with Hyper-V isolated containers.
 
 ## For Developers
-We have too many new features to list here. Go [here](https://docs.microsoft.com/en-us/windows/uwp/whats-new/windows-10-build-17763) to read all about it.
+We have too many new features to list here. Go [here](https://docs.microsoft.com/windows/uwp/whats-new/windows-10-build-17763) to read all about it.
 
 ## Notable App Updates
 
