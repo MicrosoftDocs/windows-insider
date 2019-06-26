@@ -123,7 +123,7 @@ For more information on setting up other Your Phone app features, see [Your Phon
 
 ### Phone screen now supports additional Android devices
 
-As promised, we have expanded [phone screen support](http://aka.ms/wip18356) to additional phone models – __OnePlus 6, OnePlus 6T, Samsung Galaxy S10e, S10, S10+, Note 8, Note 9__. Try out phone screen and send us your feedback. We will continue to expand the list of supported devices over time.
+As promised, we have expanded [phone screen support](https://aka.ms/wip18356) to additional phone models – __OnePlus 6, OnePlus 6T, Samsung Galaxy S10e, S10, S10+, Note 8, Note 9__. Try out phone screen and send us your feedback. We will continue to expand the list of supported devices over time.
 
 __3/12/2019 - Version 1.0.20701.0__
  
@@ -211,12 +211,12 @@ If you prefer to view a particular email in light mode, look for the sunshine ic
 
 ![Dark mode](images/18329-5.jpg "Dark mode now extended to Mail and Calendar items")
 
-###Default Font
+### Default Font
 We are introducing a top customer requested feature: Default font. Now you can customize how new messages will look. If you create a new mail or reply to an existing mail, the text you type will be in the font face, size, color and emphasis you have selected.  To change your default font, go into settings and select “Default font”. Default font applies per-account and does not roam to other devices. These updates are the latest in a [series of updates](https://support.office.com/en-us/article/what-s-new-in-mail-and-calendar-for-windows-10-9822b33c-b9ad-48bc-ac53-c1b6136e405b?ui=en-US&rs=en-US&ad=US) we’ve made based on your feedback, and we’re looking forward to hearing what you’d like to see improved next!
 
 ![Dark mode](images/18329-6.png "Dark mode now extended to Mail and Calendar items")
 
-# Microsoft To-Do 
+## Microsoft To-Do 
 
 __12/18/2018__ 
 
@@ -281,7 +281,7 @@ Please give it a shot and let us know on Feedback Hub your thoughts on the new u
 
 ![Sticky Notes](images/18272-apps5.jpg "Sticky Notes with $MSFT drawn on it")
 
-Want to get to your notes from anywhere? How about on the web at [http://www.onenote.com/stickynotes](http://www.onenote.com/stickynotes)? It will be rolling out worldwide soon – take a look and let us know what you think.
+Want to get to your notes from anywhere? How about on the web at <https://www.onenote.com/stickynotes>? It will be rolling out worldwide soon – take a look and let us know what you think.
 
 __10/24/2018**- **Sticky Notes 3.1__ (Skip Ahead only) 
 
@@ -307,9 +307,4 @@ Sticky Notes 3.0 brings the following amazing new features and capabilities:
 
 Let us know what you think of **Sticky Notes** by sending us feedback via **Feedback Hub** and choosing **Apps > Sticky Notes** under **Category**.
 
-Read all about the awesomeness in Sticky Notes 3.0 in [this article on our Insider website](https://insider.windows.com/en-us/articles/sticky-notes-3-0-now-available-to-insiders-who-opted-into-skip-ahead/). 
-
-
-#
-
-
+Read all about the awesomeness in Sticky Notes 3.0 in [this article on our Insider website](https://insider.windows.com/en-us/articles/sticky-notes-3-0-now-available-to-insiders-who-opted-into-skip-ahead/).

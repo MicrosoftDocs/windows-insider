@@ -10,7 +10,6 @@ ms.date: 08/10/2018
 ms.author: elizapo
 ms.localizationpriority: medium
 ms.topic: article
-ms.prod: w10
 ---
 #  Send feedback to Microsoft with the Feedback Hub App
 The Feedback Hub app lets you tell Microsoft about any problems you run in to while using Windows 10 and send suggestions to help us improve your Windows experience.
@@ -44,7 +43,7 @@ Here’s what you’ll find on the Home page:
 
 If you need to report a problem that requires a more immediate or direct response, use the Get Help app or go to support.microsoft.com.
 
-# Find existing feedback to upvote
+## Find existing feedback to upvote
 
 1. Select the Start  button, and then open Feedback Hub .
 2. In the search box at the top of the home page, type your problem or suggestion and then select the search  icon at the far right of the search box.
