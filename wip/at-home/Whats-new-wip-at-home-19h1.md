@@ -1,5 +1,5 @@
 ---
-title: What's new in the Windows 10 Insider Preview Builds (19H1)
+title: What's new in the Windows 10 Insider Preview Builds 1903
 description: New Windows features for Windows Insider Program Preview Builds
 author: lizap
 manager: dougkim
@@ -28,7 +28,7 @@ With [Build 18277](https://blogs.windows.com/windowsexperience/2018/11/07/announ
 3. Select Insider Content in the upper left.
 4. Scroll to the bottom and select the Windows Gaming program (in the System section).
 5. Join the program.
-6. Follow the instructions from [Build 18334](https://docs.microsoft.com/en-us/windows-insider/at-home/whats-new-wip-at-home#help-gaming-on-windows-and-play-state-of-decay-build-18334-1), skipping any steps you’ve already completed above.
+6. Follow the instructions from [Build 18334](https://docs.microsoft.com/windows-insider/at-home/whats-new-wip-at-home#help-gaming-on-windows-and-play-state-of-decay-build-18334-1), skipping any steps you’ve already completed above.
 
 If you see any problems downloading or installing the game, or if important functionality like game saving isn’t working, please be sure to use the Feedback Hub to tell us. And thank you again for helping us find any issues!
 
@@ -66,8 +66,9 @@ In this update, we have added the ability to launch Desktop (Win32) applications
 
 ![Desktop (Win32) apps](images/18329-2.png "Run Desktop (Win32) apps in Windows Mixed Reality")
 
-## ADLaM and Osage keyboard support
-Building on the [font support we announced recently](https://docs.microsoft.com/en-us/windows-insider/at-home/whats-new-wip-at-home#ebrima-font-addition-with-adlam-support-build-18252), today we’re introducing keyboard support for ADLaM and Osage. ADLaM script is used to write Pular/Fulfulde, the language of the Fulani people of West Africa. Osage script is used to write the Osage language spoken by the Osage Nation in Oklahoma.
+## ADLaM and Osage keyboard support (Build 18329)
+Building on the [font support we announced recently](https://docs.microsoft.com/windows-insider/at-home/whats-new-wip-at-home#ebrima-font-addition-with-adlam-support-build-18252), today we’re introducing keyboard support for ADLaM and Osage. ADLaM script is used to write Pular/Fulfulde, the language of the Fulani people of West Africa. Osage script is used to write the Osage language spoken by the Osage Nation in Oklahoma.
+
 Here is an example what you’d see on the touch keyboard when using ADLaM:
 
 ![ADLam](images/18329-3.png "ADLaM and Osage keyboard support")
@@ -91,8 +92,9 @@ Please note – to install the package, 19H1 Build 18323 or later is required. O
 ### How to provide feedback
 We would love to get your feedback. Please send your feedback through __Feedback Hub__ under the “Devices and Drivers > Video Playback” category.
 
-## Improving Windows light theme
-We introduced the new light theme in Windows 10 with [Build 18282](https://docs.microsoft.com/en-us/windows-insider/at-home/whats-new-wip-at-home#windows-light-theme-build-18282) and today’s build has some improvements to light theme worth taking note of based on your feedback:
+## Improving Windows light theme (Build 18323)
+We introduced the new light theme in Windows 10 with [Build 18282](https://docs.microsoft.com/windows-insider/at-home/whats-new-wip-at-home#windows-light-theme-build-18282) and today’s build has some improvements to light theme worth taking note of based on your feedback:
+
 * We fixed an issue where the text in the battery flyout might become unreadable in light theme due to it being white.
 * We fixed an issue where the scrollbar in the network flyout wasn’t visible in light theme.
 * We fixed an issue where the autoplay icon in the systray wasn’t visible in light theme.
@@ -125,6 +127,11 @@ We are introducing a simplified Windows Insider Program Settings page via Settin
 ![Windows Insider Program Settings](images/18317-3.jpg "A simpler Windows Insider Program Settings page")
 
 ## Reserving disk space to keep Windows 10 up to date
+
+## OS Variable Refresh Rate (Build 18312)
+With Windows Version 1903, we have added a new toggle in Graphics Settings for variable refresh rate. Variable refresh rate (VRR) is similar to NVIDIA’s G-SYNC and VESA DisplayPort Adaptive-Sync. For more details, read the blog post [here](https://devblogs.microsoft.com/directx/os-variable-refresh-rate/)
+![OS Variable Refresh Rate](Graphic settings.jpg "Graphic Settings")
+
 In 19H1, we’re making a few changes to how Windows 10 manages disk space. Through reserved storage, some disk space will be set aside to be used by updates, apps, temporary files, and system caches. Our goal is to improve the day-to-day function of your PC by ensuring critical OS functions always have access to disk space. With reserved storage, updates, apps, temporary files, and caches are less likely to take away from valuable free space and should continue to operate as expected. Reserved storage will be introduced automatically on PCs that come with 19H1 pre-installed or on PCs where 19H1 was clean installed. For Windows Insiders who want to try this feature out right now – just [run through this quest](https://insider.windows.com/en-us/ih/?contentid=2762bf7a-bef0-4835-8e4c-04ae8e3ed299&contenttype=quest&utm_source=product-placement&utm_medium=feedback-hub&utm_campaign=feedback-hub-redirect). After completing the quest, reserved storage will kick off with the next flight. (If you do the quest before installing Build 18312 – reserved storage should kick off for this flight.) For more details on reserved storage coming in 19H1, [read this blog post here](https://blogs.technet.microsoft.com/filecab/2019/01/07/windows-10-and-reserved-storage/).
 
 ## FLS Slot Limit Increase
@@ -135,8 +142,9 @@ We added new UI for Reset this PC as part of Settings > Update & Security > Reco
 
 ![Reset this PC UI](images/18312-1b.gif "Reset this PC UI Improvements")
 
-## Windows Subsystem for Linux Command Line Tool Improvements 
-We added new command line options to the WSL command line tool (wsl.exe) for easier WSL management and added functionality based on your feedback. Below is a summary of changes. You can read about more details in [our release notes](https://docs.microsoft.com/en-us/windows/wsl/release-notes) and on our [command line blog](https://blogs.msdn.microsoft.com/commandline/).
+## Windows Subsystem for Linux Command Line Tool Improvements (Build 18312) 
+We added new command line options to the WSL command line tool (wsl.exe) for easier WSL management and added functionality based on your feedback. Below is a summary of changes. You can read about more details in [our release notes](https://docs.microsoft.com/windows/wsl/release-notes) and on our [command line blog](https://blogs.msdn.microsoft.com/commandline/).
+
 * Consolidated command line options – The wsl command line tool now includes options to manage your WSL distros that are included in the wslconfig command line tool. We intend to only update the wsl tool with the latest management options moving forward.
 * Import a distro for easy sideloading including to non-system drives – Use the “–import” option to imports a tar file as a new distribution. You can specify the distribution registry to the location of your choice including non-system drives.
 * Export your WSL distribution for simpler environment management – Use the “—export” option to export a distribution to a tar file. Your distro will export to your default downloads location.
@@ -181,7 +189,7 @@ __Cursor and Pointers:__ Building on our mouse work announced with 18298, we’v
 ## A simplified Start layout
 Based on your feedback, we’re introducing a simplified default Start layout for new devices, new user accounts, and clean installs. The new layout has been simplified into a sleek one column design with reduced top-level tiles. For the IT admins out there, don’t worry, commercial and education customers will also see a simplified layout tailored to these scenarios.
 
-Coupled with earlier changes providing the ability to [uninstall additional inbox apps](https://docs.microsoft.com/en-us/windows-insider/at-home/whats-new-wip-at-home#uninstall-additional-inbox-apps-build-18262), and a new way to [easily unpin a folder or group of tiles](https://blogs.windows.com/windowsexperience/2018/10/31/announcing-windows-10-insider-preview-build-18272/#q6fgjW1JapokMzJW.97), the simplified Start layout is part of an ongoing effort designed to enhance your Start experience in the upcoming release of Windows.
+Coupled with earlier changes providing the ability to [uninstall additional inbox apps](https://docs.microsoft.com/windows-insider/at-home/whats-new-wip-at-home#uninstall-additional-inbox-apps-build-18262), and a new way to [easily unpin a folder or group of tiles](https://blogs.windows.com/windowsexperience/2018/10/31/announcing-windows-10-insider-preview-build-18272/#q6fgjW1JapokMzJW.97), the simplified Start layout is part of an ongoing effort designed to enhance your Start experience in the upcoming release of Windows.
 
 Note: When you update to this build, your Start layout won’t automatically change to the new layout because we want everything to be exactly as you left it before you did the update.
 
@@ -246,7 +254,7 @@ Have you already tried using clipboard history? If enabled, it allows you to sav
 ## Signing in to Windows with password-less Microsoft accounts 
 
 We’re pushing forward on eliminating passwords and keeping your accounts safe with another cool feature. Today, we’re announcing support for setting up and signing in to Windows with a phone number account, without having to create, or deal with the hassle of a password! If you have a Microsoft account with your phone number, you can use an SMS code to sign in, and set up your account on Windows 10. Once you’ve setup your account, you can use Windows Hello Face, Fingerprint, or a PIN (depending on your device capabilities) to sign in to Windows 10. No password needed anywhere! 
-Note: This experience was originally available for Insiders on Home Edition and is now available in [Build 18309 on all Windows editions](https://docs.microsoft.com/en-us/windows-insider/at-home/whats-new-wip-at-home#signing-in-to-windows-with-password-less-microsoft-accounts-build-18309). 
+Note: This experience was originally available for Insiders on Home Edition and is now available in [Build 18309 on all Windows editions](https://docs.microsoft.com/windows-insider/at-home/whats-new-wip-at-home#signing-in-to-windows-with-password-less-microsoft-accounts-build-18309). 
 
 ## Streamlined Windows Hello PIN reset experience
 
@@ -684,7 +692,7 @@ We added a new optional column to the **Details** tab of **Task Manager** so you
 
 ![Showing the DPI Awareness category in Task Manager, with examples of Per-Monitor and System ](images/dpi-aware-task-manager.png "Showing the DPI Awareness category in Task Manager, with examples of Per-Monitor and System ")
 
-To show the column, right-click on any of the column headers in the **Details** tab, click **Select Columns**, then add **DPI Awareness** to the list. To learn more about DPI Awareness, see [High DPI Desktop Application Development on Windows](https://docs.microsoft.com/en-us/windows/desktop/hidpi/high-dpi-desktop-application-development-on-windows).
+To show the column, right-click on any of the column headers in the **Details** tab, click **Select Columns**, then add **DPI Awareness** to the list. To learn more about DPI Awareness, see [High DPI Desktop Application Development on Windows](https://docs.microsoft.com/windows/desktop/hidpi/high-dpi-desktop-application-development-on-windows).
 
 ## Uninstall additional inbox apps
 In 19H1, we are adding the ability to uninstall the following (preinstalled) Windows 10 inbox apps via the context menu on the **Start** menu **All Apps** list:
@@ -738,7 +746,8 @@ The Ebrima font also supports other African writings systems N'ko, Tifinagh, Vai
 
 ![Showing sample of the Ebrima font](images/ebrima-font.png "Showing sample of the Ebrima font")
 
-## Bringing acrylic to the Windows sign-in screen
-The Windows sign-in screen now supports [acrylic](https://docs.microsoft.com/en-us/windows/uwp/design/style/acrylic), a type of brush from the [Fluent Design System](https://docs.microsoft.com/en-us/windows/uwp/design/fluent-design-system/index), to the sign-in screen background.  The translucent texture of this transient surface helps you focus on the sign-in task by moving the actionable controls up in the visual hierarchy while maintaining their accessibility.
+
+## Bringing acrylic to the Windows sign-in screen (Build 18237)
+The Windows sign-in screen now supports [acrylic](https://docs.microsoft.com/windows/uwp/design/style/acrylic), a type of brush from the [Fluent Design System](https://docs.microsoft.com/windows/uwp/design/fluent-design-system/index), to the sign-in screen background.  The translucent texture of this transient surface helps you focus on the sign-in task by moving the actionable controls up in the visual hierarchy while maintaining their accessibility.
 
 ![Showing acrylic in Windows sign-in screen](images/acrylic-sign-in.png "Showing sample of the Ebrima font")

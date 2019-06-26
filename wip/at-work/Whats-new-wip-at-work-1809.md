@@ -43,7 +43,7 @@ Operating system components that are available with this update:
 * Failover Cluster Manager (CluAdmin.msc)
 * Internet Explorer (IExplore.exe), an optional component
 
-These components come with support for [SQL Server Management Studio (SSMS)](https://docs.microsoft.com/en-us/sql/ssms/sql-server-management-studio-ssms?view=sql-server-2017), version 16 and 17, which must be installed separately from SQL Server via command line.
+These components come with support for [SQL Server Management Studio (SSMS)](https://docs.microsoft.com/sql/ssms/sql-server-management-studio-ssms?view=sql-server-2017), version 16 and 17, which must be installed separately from SQL Server via command line.
 
 To install Failover Cluster Manager, launch PowerShell, and then enter the following command:
 ```Install-WindowsFeature -Name Failover-Clustering -IncludeManagementTools ```
@@ -51,7 +51,7 @@ To install Failover Cluster Manager, launch PowerShell, and then enter the follo
 To run Failover Cluster Manager, enter __cluadmin__ at a regular command prompt.
 
 
-The following installation procedure uses Deployment Image Servicing and Management (DISM.exe), a command-line tool. For more information about DISM commands, see [DISM Capabilities Package Servicing Command-Line Options](https://docs.microsoft.com/en-us/windows-hardware/manufacture/desktop/dism-capabilities-package-servicing-command-line-options).
+The following installation procedure uses Deployment Image Servicing and Management (DISM.exe), a command-line tool. For more information about DISM commands, see [DISM Capabilities Package Servicing Command-Line Options](https://docs.microsoft.com/windows-hardware/manufacture/desktop/dism-capabilities-package-servicing-command-line-options).
 
 __Note:__ These instructions correct previously published versions.
 
@@ -123,14 +123,14 @@ We added a new base image to the Windows Server container collection. In additio
 
 ### Deploying Kubernetes on Windows Server
 
-Kubernetes is a popular orchestration tool for <i>containers</i> (see [What are Containers](https://docs.microsoft.com/en-us/virtualization/windowscontainers/about/#what-are-containers)) that makes deployment and management intuitive, scalable, and effective. This includes built-in features such as:
+Kubernetes is a popular orchestration tool for <i>containers</i> (see [What are Containers](https://docs.microsoft.com/virtualization/windowscontainers/about/#what-are-containers)) that makes deployment and management intuitive, scalable, and effective. This includes built-in features such as:
 
 * Scheduling: Given a container image and a resource request, find a suitable machine on which to run the container.
 * Health monitoring: Watch for container failures and automatically reschedule them.
 * Networking: Provide a network for coordinating containers to communicate across machines.
 * Service Discovery: Enable containers to locate each other automatically even as they switch hosts or change IP addresses.
 * Scaling: Add or remove container instances to match demand, either manually or automatically.
-And much more! For guidance that walks you through how to install Kubernetes onto your on-premise Windows datacenter, please see [How To Guide: Kubernetes for Windows Flannel (Host-Gateway)](https://1drv.ms/w/s!AgH65RVQdrbiglNr7P7P4VrO8Rxr). For more information about container orchestrators in general, see [Container orchestrators](https://docs.microsoft.com/en-us/virtualization/windowscontainers/about/#container-orchestrators) on docs.microsoft.com.
+And much more! For guidance that walks you through how to install Kubernetes onto your on-premise Windows datacenter, please see [How To Guide: Kubernetes for Windows Flannel (Host-Gateway)](https://1drv.ms/w/s!AgH65RVQdrbiglNr7P7P4VrO8Rxr). For more information about container orchestrators in general, see [Container orchestrators](https://docs.microsoft.com/virtualization/windowscontainers/about/#container-orchestrators) on docs.microsoft.com.
 
 ## Congestion Control with LEDBAT
 
@@ -170,7 +170,7 @@ attack vectors and block behaviors commonly used in malware attacks,
 while enabling enterprises to balance their security risk and
 productivity requirements.
 
-- <a href="https://docs.microsoft.com/en-us/windows/threat-protection/windows-defender-exploit-guard/attack-surface-reduction-exploit-guard?ocid=cx-blog-mmpc">Attack Surface Reduction
+- <a href="https://docs.microsoft.com/windows/threat-protection/windows-defender-exploit-guard/attack-surface-reduction-exploit-guard?ocid=cx-blog-mmpc">Attack Surface Reduction
     (ASR)</a>:
     A set of controls that enterprises can enable to prevent malware
     from getting on the machine by blocking suspicious malicious files
@@ -178,7 +178,7 @@ productivity requirements.
     behavior, and email-based threats.
 
 -   [**Network
-    protection**](https://docs.microsoft.com/en-us/windows/threat-protection/windows-defender-exploit-guard/network-protection-exploit-guard?ocid=cx-blog-mmpc):
+    protection**](https://docs.microsoft.com/windows/threat-protection/windows-defender-exploit-guard/network-protection-exploit-guard?ocid=cx-blog-mmpc):
     Protects the endpoint against web-based threats by blocking any
     outbound process on the device to untrusted hosts/IP addresses
     through Windows Defender SmartScreen.
@@ -189,7 +189,7 @@ productivity requirements.
     processes from accessing your protected folders.
 
 -   [**Exploit
-    protection**](https://docs.microsoft.com/en-us/windows/threat-protection/windows-defender-exploit-guard/exploit-protection-exploit-guard?ocid=cx-blog-mmpc):
+    protection**](https://docs.microsoft.com/windows/threat-protection/windows-defender-exploit-guard/exploit-protection-exploit-guard?ocid=cx-blog-mmpc):
     A set of mitigations for vulnerability exploits (replacing EMET)
     that can be easily configured to protect your system and
     applications.
@@ -257,7 +257,7 @@ complexity and heterogeneous environments.
 Encrypted Networks is a feature which provides simple to configure DTLS-based encryption using the Network Controller to manage the end-to-end encryption and protect data as it travels through the wires
 and network devices between the hosts. It is configured by the Administrator on a per-subnet basis.  This enables the VM to VM traffic within the VM subnet to be automatically encrypted as it leaves the host and prevents snooping and manipulation of traffic on the wire. This is done without requiring any configuration changes in the VMs themselves.
 Try it out—[Configure Encryption for a Virtual
-Subnet](https://docs.microsoft.com/en-us/windows-server/networking/sdn/vnet-encryption/sdn-config-vnet-encryption)—and
+Subnet](https://docs.microsoft.com/windows-server/networking/sdn/vnet-encryption/sdn-config-vnet-encryption)—and
 send us your feedback in the Feedback Hub.
 
 ### SDN High Performance Gateways
@@ -285,7 +285,7 @@ For more details about these improvements, please see our blog entry:
 ## Shielded virtual machines – Offline mode, VMConnect and Linux support
 
 You can now run [shielded virtual
-machines](https://docs.microsoft.com/en-us/windows-server/virtualization/guarded-fabric-shielded-vm/guarded-fabric-and-shielded-vms)
+machines](https://docs.microsoft.com/windows-server/virtualization/guarded-fabric-shielded-vm/guarded-fabric-and-shielded-vms)
 on machines with intermittent connectivity to the Host Guardian Service
 by leveraging the new fallback HGS and offline mode features. Fallback
 HGS allows you to configure a second set of URLs for Hyper-V to try if
@@ -294,7 +294,7 @@ branch-office scenario, see [Improved branch office support for shielded
 VMs in Windows Server, version
 1709](https://blogs.technet.microsoft.com/datacentersecurity/2017/11/15/improved-branch-office-support-for-shielded-vms-in-windows-server-version-1709/)
 on our blog. [Offline
-mode](https://docs.microsoft.com/en-us/windows-server/virtualization/guarded-fabric-shielded-vm/guarded-fabric-manage-branch-office#offline-mode)
+mode](https://docs.microsoft.com/windows-server/virtualization/guarded-fabric-shielded-vm/guarded-fabric-manage-branch-office#offline-mode)
 allows you to continue to start up your shielded VMs, even if HGS can't
 be reached, as long as the VM has started successfully once, and the
 host's security configuration has not changed. (To enable offline mode,
@@ -313,7 +313,7 @@ For customers who run mixed-OS environments, we now support running
 Ubuntu, Red Hat Enterprise Linux, and SUSE Linux Enterprise Server
 inside shielded virtual machines. Try it out—[Create a Linux shielded VM
 template
-disk](https://docs.microsoft.com/en-us/windows-server/virtualization/guarded-fabric-shielded-vm/guarded-fabric-create-a-linux-shielded-vm-template)—and
+disk](https://docs.microsoft.com/windows-server/virtualization/guarded-fabric-shielded-vm/guarded-fabric-create-a-linux-shielded-vm-template)—and
 send us your feedback in the Feedback Hub.
 
 
@@ -323,7 +323,7 @@ Storage Spaces Direct uses industry-standard servers with local-attached drives 
 
 ### Delimit volume allocation with Storage Spaces Direct
 
-New cmdlets simplify the management of volumes with delimited allocation. Use Get-StorageScaleUnit to see fault domains; follow associations to/from Get-VirtualDisk to see the current allocation; and set or modify allocation by using friendly names for fault domains. For more details, see the links under "Insider Preview content" on [aka.ms/StorageSpacesDirect](https://docs.microsoft.com/en-us/windows-server/storage/storage-spaces/storage-spaces-direct-overview).
+New cmdlets simplify the management of volumes with delimited allocation. Use Get-StorageScaleUnit to see fault domains; follow associations to/from Get-VirtualDisk to see the current allocation; and set or modify allocation by using friendly names for fault domains. For more details, see the links under "Insider Preview content" on [aka.ms/StorageSpacesDirect](https://docs.microsoft.com/windows-server/storage/storage-spaces/storage-spaces-direct-overview).
 
 ### Performance history for Storage Spaces Direct
 
@@ -333,7 +333,7 @@ New cmdlets simplify the management of volumes with delimited allocation. Use Ge
 
 * New series records how much Storage Spaces Direct data needs to repair/resync per server. 
 
-* The Get-ClusterPerformanceHistory cmdlet is more scripting-friendly. It’s now convenient to pipe performance history into utility cmdlets like Sort-Object, Where-Object, and Measure-Object so you can quickly find the average or peak value, filter values, plot trend lines, run outlier detection, and more. You can see examples with these cmdlets in the topics linked under "Insider Preview content" on [aka.ms/StorageSpacesDirect](https://docs.microsoft.com/en-us/windows-server/storage/storage-spaces/storage-spaces-direct-overview.
+* The Get-ClusterPerformanceHistory cmdlet is more scripting-friendly. It’s now convenient to pipe performance history into utility cmdlets like Sort-Object, Where-Object, and Measure-Object so you can quickly find the average or peak value, filter values, plot trend lines, run outlier detection, and more. You can see examples with these cmdlets in the topics linked under "Insider Preview content" on [aka.ms/StorageSpacesDirect](https://docs.microsoft.com/windows-server/storage/storage-spaces/storage-spaces-direct-overview.
 
 * Performance history for the Storage Spaces Direct cache for reads (% hit rate) and writes (% full), as well as the CSV in-memory read cache (% hit rate), is now available. These new series are available per-server and in aggregate.
 
@@ -349,7 +349,7 @@ IOPS – is that my new record?* Previously, you'd need external tooling
 to answer these questions. No more!
 
 * Beautiful new charts in [Project
-Honolulu](https://docs.microsoft.com/en-us/windows-server/manage/honolulu/honolulu-manage-hci)
+Honolulu](https://docs.microsoft.com/windows-server/manage/honolulu/honolulu-manage-hci)
 (and new PowerShell cmdlets, for those so inclined) empower you to
 answer these questions. There's nothing to install, configure, or
 start—it's built-in and always-on. Learn more at
