@@ -358,7 +358,7 @@ We’ve heard your feedback, and with today’s build we’re rolling out some u
    ![Dynamic hit targets for keyboards](images/18298-4.png "Dynamic hit targets for keyboards")
 - We’re making some improvements to reduce the number of times in tablet mode where the touch keyboard ends up occluding the text field when docked.
 
-If you’re a touch keyboard user, we’d love it if you spent some time typing on today’s build, and [let us know](http://aka.ms/tkbfeedback) how it feels for you now.
+If you’re a touch keyboard user, we’d love it if you spent some time typing on today’s build, and [let us know](https://aka.ms/tkbfeedback) how it feels for you now.
 
 ## Console updates
 
@@ -498,7 +498,7 @@ Start your snip via your preferred entry point (WIN + Shift + S, Print Screen (i
 
 Currently the window snipping experience is available for 50% of Insiders, as we want to ensure a smooth rollout – we'll let you know once it's live for 100%.
 
-What's next? [Let us know](http://aka.ms/snippingfeedback) what you'd like to see!
+What's next? [Let us know](https://aka.ms/snippingfeedback) what you'd like to see!
 
 >[!NOTE]
 >This app update is now starting to roll out to people on Windows 10 version 1809! Please note that the borders feature is currently only supported on 19H1 builds, and like window snipping is currently only available for 50% of Insiders.
@@ -616,7 +616,7 @@ Ultimately, we want to help you make the right decision for your situation. By c
 - German (Switzerland) – de-CH
 - Spanish (United States) – es-US
 
-If you're a touch keyboard user that writes in any of these languages, please try out the text predictions and shapewriting in this build and [let us know](http://aka.ms/inputfeedback) how it feels for you. If you'd like to compare how the keyboard feels with and without this change, check the options for supported languages under **Settings > Devices > Typing > Suggestions and Autocorrections**.
+If you're a touch keyboard user that writes in any of these languages, please try out the text predictions and shapewriting in this build and [let us know](https://aka.ms/inputfeedback) how it feels for you. If you'd like to compare how the keyboard feels with and without this change, check the options for supported languages under **Settings > Devices > Typing > Suggestions and Autocorrections**.
 
 Using a physical keyboard? Hardware keyboard text suggestions are also supported with the above languages now. Text suggestions for the hardware keyboard is a learning tool we originally introduced in [RS4](https://blogs.windows.com/windowsexperience/2017/11/08/announcing-windows-10-insider-preview-build-17035-pc/), and expanded language support for [with RS5](https://blogs.windows.com/windowsexperience/2018/10/03/windows-10-accessibility-in-the-october-2018-update/). If you'd like to try it out in one of the supported languages, you can do so by enabling the **Show text suggestions as I type** feature under **Settings > Devices > Typing**.
 
