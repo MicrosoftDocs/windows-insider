@@ -623,7 +623,7 @@ We’ve heard your feedback asking us for a way to keep your mouse centered on t
 * **Providing Feedback**: The keystroke to provide feedback has changed. The new keystroke is **Narrator + Alt + F**. This will work both in the standard and legacy layouts. Note: The legacy layout also allows you to use **Narrator + E** to send us feedback. 
 
 
-For more information about Narrator new keyboard layout and other improvements, refer to the new [Narrator Keyboard Layout doc](http://aka.ms/RS5NarratorKeyboard).
+For more information about Narrator new keyboard layout and other improvements, refer to the new [Narrator Keyboard Layout doc](https://aka.ms/RS5NarratorKeyboard).
 
 ## Time accuracy and traceability improvements
 
@@ -646,7 +646,7 @@ For more details about these new improvements, please see our announcement [here
 For more details about these new improvements, please see our announcement [here](https://blogs.technet.microsoft.com/networking/2018/07/18/top10-ws2019-hatime/).
 
 ## Kernel debugging improvements 
-We are adding support for IPv6 to KDNET. To make room for the larger headers required for IPv6, we decreased the payload size of packets. As a result, we’re declaring a new version of the protocol, so that host PCs running the latest version of the debugger can be used to debug target PCs that only support IPv4. There is a version of WinDbg Preview available at [http://aka.ms/windbgpreview](http://aka.ms/windbgpreview). Follow the [Debugging Tools for Windows](http://aka.ms/windbgblog) blog for updates on KDNET IPv6 support and documentation. 
+We are adding support for IPv6 to KDNET. To make room for the larger headers required for IPv6, we decreased the payload size of packets. As a result, we’re declaring a new version of the protocol, so that host PCs running the latest version of the debugger can be used to debug target PCs that only support IPv4. There is a version of WinDbg Preview available at [http://aka.ms/windbgpreview](https://aka.ms/windbgpreview). Follow the [Debugging Tools for Windows](https://aka.ms/windbgblog) blog for updates on KDNET IPv6 support and documentation. 
 
 ## Privacy Improvements
 

@@ -389,7 +389,7 @@ Storage Replica Standard. SR is available on Windows Server 2019 Standard Editio
 *  Volumes can have a size of up to 2 TB instead of an unlimited size. 
  
 We will continue to listen to your feedback and evaluate these settings through our telemetry during Insider previews of Windows Server 2019. These limitations may change several times during the preview phase and at RTM. 
-For more information about Storage Replica, visit [http://aka.ms/StorageReplica](http://aka.ms/StorageReplica).  
+For more information about Storage Replica, visit <https://aka.ms/StorageReplica>.  
 
 ## System Insights
 System Insights is a new feature available in Windows Server 2019 that brings local predictive analytics capabilities natively to Windows Server. These predictive capabilities—each backed by a machine-learning model—locally analyze Windows Server system data, such as performance counters and events, providing insight into the functioning of your deployments and helping you reduce the operational expenses associated with monitoring your Windows Server instances.
@@ -408,7 +408,7 @@ Any new capability can integrate with and extend the existing System Insights in
 
 In previous releases, System Insights forecasted future usage for both local volumes and local storage consumption. After listening to the feedback from our cluster customers, we've added new functionality in this release, which allows you to optionally enable forecasting on clustered volumes and clustered storage. 
 
-You can enable this functionality through Windows Admin Center or PowerShell. To learn how, please see our [blog post](). 
+You can enable this functionality through Windows Admin Center or PowerShell. To learn how, please see our [blog post](https://cloudblogs.microsoft.com/windowsserver/2018/06/19/introducing-windows-server-system-insights/). 
 
 For more information about System Insights, please visit [aka.ms/SystemInsights](https://aka.ms/SystemInsights).
 
