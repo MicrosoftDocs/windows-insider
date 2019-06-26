@@ -12,25 +12,18 @@ ms.prod: w10
 ---
 
 # What's new for Windows 10 Insider Preview Builds 1903
-The [Windows Insider Program](https://insider.windows.com/en-us/) lets you preview builds of the upcoming release of Windows 10. This topic lists all new Windows 10 features for you to try. 
+The [Windows Insider Program](https://insider.windows.com/) lets you preview builds of the upcoming release of Windows 10. This topic lists all of the updates that were part of the 19H1 development now known as "version 1903."
 
-## Emoji 12.0 Update (Build 18348)
+## Emoji 12.0 Update
 With [Build 18277](https://blogs.windows.com/windowsexperience/2018/11/07/announcing-windows-10-insider-preview-build-18277/), Insiders got their first look at the Emoji 12.0 emoji. In early February, the set of emoji to be included with Emoji 12.0 was finalized by Unicode, and with today’s build, when you press WIN+(period) or WIN+(semicolon), all of these emoji now have keywords hooked up to make them easy to search for. Try it once you install the build! Keywords include otter, sloth, waffle, ballet shoes, and more.
 
 ![Emoji 12](images/18348-1.png "Seach Emoji 12 by keyword")
-
-If you haven’t tried it already, be sure to also check out our new Kaomoji and Symbols section in the picker. 
-
-![Emoji 12](images/18348-2.png "Kaomoji and Symbols section")
-
-## Improving Gaming on Windows 10 (Build 18342)
-Thanks to everyone who signed up to try out our new Windows gaming technology in Build 18334. With this new build, we have some fixes that we can’t wait to have folks try out: the game now runs correctly with parental controls enabled, and the install process is more stable (including a fix for the game being stuck in “Pending” instead of downloading).
 
 * If you have already tried State of Decay and everything worked: we’d appreciate you uninstalling State of Decay and then trying the install again, to make sure everything still works.
 * If you have already tried State of Decay and something didn’t work: please try again and see if your issue has been addressed. If not, it would help us a lot if you let us know using the Feedback Hub in Windows (instructions here in this post). Even if you already sent feedback on the issue before, it’s very helpful to know that it’s still happening on a new version of Windows.
 * If you were not able to get a slot for State of Decay: we’ve opened up more slots now, so just go to the Xbox Insider hub and click Insider content to join. NOTE: we’re still limiting availability as we roll out, so we recommend joining right away. If you miss out this time, don’t worry, we’ll be adding more again soon!
 * If you are trying State of Decay for the first time: just do the following: 
-1. Install the [Xbox Insider Hub app](https://www.microsoft.com/en-us/p/xbox-insider-hub/9nblggh68vsk) on the PC you’ll be flighting on (link opens in Store app).
+1. Install the [Xbox Insider Hub app](https://www.microsoft.com/p/xbox-insider-hub/9nblggh68vsk) on the PC you’ll be flighting on (link opens in Store app).
 2. Sign in to the Xbox Insider Hub with your Gamertag. If you don’t have a Gamertag, see [instructions](https://blogs.windows.com/windowsexperience/2019/02/08/announcing-windows-10-insider-preview-build-18334/#wiEwkHc4ZzC1JE8s.97).
 3. Select Insider Content in the upper left.
 4. Scroll to the bottom and select the Windows Gaming program (in the System section).
@@ -39,25 +32,20 @@ Thanks to everyone who signed up to try out our new Windows gaming technology in
 
 If you see any problems downloading or installing the game, or if important functionality like game saving isn’t working, please be sure to use the Feedback Hub to tell us. And thank you again for helping us find any issues!
 
-## Linux Files inside of File Explorer (Build 18342)
+## Linux Files inside of File Explorer
 We added the ability for users to access Linux files in a WSL distro from Windows. These files can be accessed through the command line, and also Windows apps, like File Explorer, VSCode, etc. can interact with these files. Access your files by navigating to \\wsl$\<distro_name>, or see a list of running distributions by navigating to \\wsl$. [Learn more about accessing Linux files inside File Explorer](https://blogs.msdn.microsoft.com/commandline/2019/02/15/whats-new-for-wsl-in-windows-10-version-1903/). 
 
 ![Linux Files](images/18342-1.png "Linux Files inside of File Explorer")
 
-## New Chrome Extension for Timeline (Build 18342) 
-We’re pleased to announce an extension that collects activities from your Google Chrome browser and adds them to your Timeline in Windows. You can download the new Web Activity extension now from the [Chrome Web Store](https://chrome.google.com/webstore/detail/web-activities/eiipeonhflhoiacfbniealbdjoeoglid).  Just sign-in to the extension on your Chrome browser with your Microsoft account, visit a site in Chrome, then watch it appear on Timeline – and pick up where you left off. Your Chrome activities will also sync with Timeline on Android devices using the [Microsoft Launcher app](https://www.microsoft.com/en-us/launcher).
+## New Chrome Extension for Timeline
+We’re pleased to announce an extension that collects activities from your Google Chrome browser and adds them to your Timeline in Windows. You can download the new Web Activity extension now from the [Chrome Web Store](https://chrome.google.com/webstore/detail/web-activities/eiipeonhflhoiacfbniealbdjoeoglid).  Just sign-in to the extension on your Chrome browser with your Microsoft account, visit a site in Chrome, then watch it appear on Timeline – and pick up where you left off. Your Chrome activities will also sync with Timeline on Android devices using the [Microsoft Launcher app](https://www.microsoft.com/launcher).
 
-## Launch an app or script in Windows Sandbox. (Build 18342) 
+## Launch an app or script in Windows Sandbox.
 Windows Sandbox now supports configuration files. These files allow users to configure some aspects of the sandbox, such as vGPU, networking and shared folders. You can [read about all the details here in this blog post](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Ftechcommunity.microsoft.com%2Ft5%2FWindows-Kernel-Internals%2FWindows-Sandbox-Config-Files%2Fba-p%2F354902&data=02%7C01%7Cbleblanc%40microsoft.com%7Cb2e55c7d892a4a58594808d6983c666a%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636863782511478239&sdata=WciYenawmqRigyPeD7Yrcajite6wXK9%2FQekAzF4HIQk%3D&reserved=0)!
-
-## Help gaming on Windows and play State of Decay! (Build 18334)
-We’re excited to bring technology tailor-made for gaming to Windows. Help us validate these systems work as expected, and play State of Decay for free (limited time only!). Just tell us about any problems you encounter with installing and launching the game.
-
-Note: we only have a small number of available slots currently, so don’t wait too long to sign up. But if you don’t get in this time, don’t worry, we’ll be expanding over the next few weeks so you’ll have more chances. Thanks for making Windows gaming better!
 
 ### Instructions:
 1. If you have an Xbox Live Gamertag, go to step 2 below. If you don’t have a Gamertag, use your Microsoft Account (MSA) to log into https://account.xbox.com and create an Xbox account. Once completed, you will see your Gamertag in the top right of the page.
-2. Install the [Xbox Insider Hub app](https://www.microsoft.com/en-us/p/xbox-insider-hub/9nblggh68vsk) on the PC you’ll be flighting on (link opens in Store app).
+2. Install the [Xbox Insider Hub app](https://www.microsoft.com/p/xbox-insider-hub/9nblggh68vsk) on the PC you’ll be flighting on (link opens in Store app).
 3. Sign in to the Xbox Insider Hub with your Gamertag.
 3. Select __Insider Content__ in the upper left.
 4. Select __State of Decay__.
@@ -68,18 +56,19 @@ Note: we only have a small number of available slots currently, so don’t wait 
 
 As part of the game launch, you’ll be prompted to install DirectX. This is for testing purposes, so go ahead and do the install, and the game will launch afterwards. If you find any issues with the install, or if the game fails to launch, please file a Feedback Hub bug under the Microsoft Store category (pick Download or Install depending on your issue), and include WindowsGamingFeedback in the title.
 
-## Introducing Top apps in Search (Build 18329)
+## Introducing Top apps in Search
 Get quick access to the apps that you use the most, just open Search Home and you’ll see them under Top apps—no typing required! One more way Search helps you find the things you need. This change is rolling out server-side, so you may see it outside of the bounds of this flight. This change is also one of several we’ve made throughout this release to improve your experience in this space, including [updating the search landing page design](#improving-your-search-and-cortana-experiences-build-18290), [enhancing your search results](#enhanced-mode-for-search-indexer-build-18267), and [integrating Microsoft To-Do with Cortana](#get-more-done-with-cortana-and-microsoft-to-do-build-18305). Stay tuned for more improvements.
 
 ![Search](images/18329-1.png "Introducing Top apps in Search ")
 
-## Run Desktop (Win32) apps in Windows Mixed Reality (Build 18329)
+## Run Desktop (Win32) apps in Windows Mixed Reality
 In this update, we have added the ability to launch Desktop (Win32) applications (such as Spotify, Paint.NET, and Visual Studio Code) in Windows Mixed Reality, just like how you launch Store apps. Please keep in mind this is feature is still in development and we are actively working on addressing bugs. You may find ways to “break” the feature, and when you do, please file a feedback via Feedback Hub! To use this feature, bring up Pins Panel, then go to all apps, where you will find a folder named “Classic Apps (Beta)”. In this folder, you will be able to select and launch any Desktop (Win32) applications.
 
 ![Desktop (Win32) apps](images/18329-2.png "Run Desktop (Win32) apps in Windows Mixed Reality")
 
 ## ADLaM and Osage keyboard support (Build 18329)
 Building on the [font support we announced recently](https://docs.microsoft.com/windows-insider/at-home/whats-new-wip-at-home#ebrima-font-addition-with-adlam-support-build-18252), today we’re introducing keyboard support for ADLaM and Osage. ADLaM script is used to write Pular/Fulfulde, the language of the Fulani people of West Africa. Osage script is used to write the Osage language spoken by the Osage Nation in Oklahoma.
+
 Here is an example what you’d see on the touch keyboard when using ADLaM:
 
 ![ADLam](images/18329-3.png "ADLaM and Osage keyboard support")
@@ -88,14 +77,14 @@ To try this out yourself, just go to Language Settings, click Add a preferred la
 
 ![RAW image format](images/18329-4.png "Improved RAW image formats")
 
-## Improved RAW image format support (Build 18323)
+## Improved RAW image format support
 Do you like taking pictures in Raw image formats and wish that the Raw files from your camera were natively supported by Windows? Good news! Targeting 19H1, we’ve been working hard to release a new store-delivered Raw codec package that dramatically improves native raw file format support in Windows.
 
 ![RAW image format](images/18323-1.jpg "Improved RAW image formats")
 
 By downloading the new Raw Image Extension (Beta) package from the store, you can now view image thumbnails, previews, and camera metadata of previously unsupported raw files right in File Explorer. You can also view your raw images – at full resolution – in apps such as Photos or any other Windows app that uses Windows Imaging Component framework to decode raw images.
 ### How to test
-Please note – to install the package, 19H1 Build 18323 or later is required. Open the following link in Edge to install the current beta package: https://www.microsoft.com/store/apps/9NCTDW2W1BH8. We have also created a 19H1 Bug Bash quest for directions. If you are running Build 18323 or later, click on [this link to open the quest in Feedback Hub](https://insider.windows.com/en-us/ih/?contentid=7953680d-b82c-40c4-80af-7e405375d5d8&contenttype=quest&utm_source=product-placement&utm_medium=feedback-hub&utm_campaign=feedback-hub-redirect).
+Please note – to install the package, 19H1 Build 18323 or later is required. Open the following link in Edge to install the current beta package: https://www.microsoft.com/store/apps/9NCTDW2W1BH8. We have also created a 19H1 Bug Bash quest for directions. If you are running Build 18323 or later, click on [this link to open the quest in Feedback Hub](https://insider.windows.com/ih/?contentid=7953680d-b82c-40c4-80af-7e405375d5d8&contenttype=quest&utm_source=product-placement&utm_medium=feedback-hub&utm_campaign=feedback-hub-redirect).
 ### Known issues
 * Exposing camera properties stored as EXIF/XMP metadata is not currently working for some raw image formats.
 * File Explorer hangs when the view state is changed to “Details Pane” and a raw file that activates the new raw codec package is selected.
@@ -105,6 +94,7 @@ We would love to get your feedback. Please send your feedback through __Feedback
 
 ## Improving Windows light theme (Build 18323)
 We introduced the new light theme in Windows 10 with [Build 18282](https://docs.microsoft.com/windows-insider/at-home/whats-new-wip-at-home#windows-light-theme-build-18282) and today’s build has some improvements to light theme worth taking note of based on your feedback:
+
 * We fixed an issue where the text in the battery flyout might become unreadable in light theme due to it being white.
 * We fixed an issue where the scrollbar in the network flyout wasn’t visible in light theme.
 * We fixed an issue where the autoplay icon in the systray wasn’t visible in light theme.
@@ -114,7 +104,7 @@ We introduced the new light theme in Windows 10 with [Build 18282](https://docs.
 * We’re updating the Settings icon to now be dark grey in the taskbar when light theme is enabled rather than black.
 
 
-## Separating Search and Cortana (Build 18317)
+## Separating Search and Cortana
 Going forward, we’ll be decoupling Search and Cortana in the taskbar. This will enable each experience to innovate independently to best serve their target audiences and use cases. Some Insiders have had this update for a few weeks now, and we appreciate all the feedback we’ve received about it so far! For those new to this update, when it rolls out to you, you’ll find clicking the search box in the taskbar now launches our experience focused on giving you the best in house search experience and clicking the Cortana icon will launch you straight into our voice-first digital assistant experience.
 
 ![Separating Search and Cortana](images/18317-1b.png "Separating Search and Cortana")
@@ -123,46 +113,48 @@ Other available Search and Cortana settings have also now been split between the
 
 Note: Cortana is currently only available in supported markets.
 
-## The next step in improving Start reliability (Build 18317)
+## The next step in improving Start reliability
 As some of you may already know, up until now Start in Windows 10 has been hosted by something called ShellExperienceHost.exe. In order to provide you the best possible Start experience, we’re separating it into its own process, called StartMenuExperienceHost.exe. This has a number of benefits, including simplifying debugging and insulating Start from potential issues impacting other surfaces. This has been running as an experiment for a few weeks now and we’ve seen measurable improvements in the reliability amongst those that have the change, so we’re rolling it out to everyone. We’re also making a change so that Start no longer suspends, which improves launch time.
 
-## A Better Font management experience in Settings (Build 18317)
+## A Better Font management experience in Settings
 Insiders today can now drag and drop font files from File Explorer into the modern Settings > Fonts page to install them. After installation, click on the font in the Font page, to view the different font faces associated with the font and all the details of the font. You can also uninstall the font from this font details page. Drag and drop font installation by default is installed as a per-user font which does not require elevation, hence it will not be available for other users. To install the font for all users in the device, use the “Install for all Users” option by right clicking the font on file explorer.
 
 ![Font Management](images/18317-2.gif "A Better Font management experience in Settings")
 
-## A simpler Windows Insider Program Settings page (Build 18317)
+## A simpler Windows Insider Program Settings page
 We are introducing a simplified Windows Insider Program Settings page via Settings > Update & Security > Windows Insider Program with Build 18317. The goal is to make the end-to-end experience of signing up for the Windows Insider Program and setting up your PC to take new builds much easier by simplifying the experience and removing some of the clutter. You’ll find that all the same functionality is still there. Under “Pick your Insider settings” is where you can change your Insider ring on your PC.
 
 ![Windows Insider Program Settings](images/18317-3.jpg "A simpler Windows Insider Program Settings page")
+
+## Reserving disk space to keep Windows 10 up to date
 
 ## OS Variable Refresh Rate (Build 18312)
 With Windows Version 1903, we have added a new toggle in Graphics Settings for variable refresh rate. Variable refresh rate (VRR) is similar to NVIDIA’s G-SYNC and VESA DisplayPort Adaptive-Sync. For more details, read the blog post [here](https://devblogs.microsoft.com/directx/os-variable-refresh-rate/)
 ![OS Variable Refresh Rate](Graphic settings.jpg "Graphic Settings")
 
-## Reserving disk space to keep Windows 10 up to date (Build 18312) 
-In 19H1, we’re making a few changes to how Windows 10 manages disk space. Through reserved storage, some disk space will be set aside to be used by updates, apps, temporary files, and system caches. Our goal is to improve the day-to-day function of your PC by ensuring critical OS functions always have access to disk space. With reserved storage, updates, apps, temporary files, and caches are less likely to take away from valuable free space and should continue to operate as expected. Reserved storage will be introduced automatically on PCs that come with 19H1 pre-installed or on PCs where 19H1 was clean installed. For Windows Insiders who want to try this feature out right now – just [run through this quest](https://insider.windows.com/en-us/ih/?contentid=2762bf7a-bef0-4835-8e4c-04ae8e3ed299&contenttype=quest&utm_source=product-placement&utm_medium=feedback-hub&utm_campaign=feedback-hub-redirect). After completing the quest, reserved storage will kick off with the next flight. (If you do the quest before installing Build 18312 – reserved storage should kick off for this flight.) For more details on reserved storage coming in 19H1, [read this blog post here](https://blogs.technet.microsoft.com/filecab/2019/01/07/windows-10-and-reserved-storage/).
+In 19H1, we’re making a few changes to how Windows 10 manages disk space. Through reserved storage, some disk space will be set aside to be used by updates, apps, temporary files, and system caches. Our goal is to improve the day-to-day function of your PC by ensuring critical OS functions always have access to disk space. With reserved storage, updates, apps, temporary files, and caches are less likely to take away from valuable free space and should continue to operate as expected. Reserved storage will be introduced automatically on PCs that come with 19H1 pre-installed or on PCs where 19H1 was clean installed. For Windows Insiders who want to try this feature out right now – just [run through this quest](https://insider.windows.com/ih/?contentid=2762bf7a-bef0-4835-8e4c-04ae8e3ed299&contenttype=quest&utm_source=product-placement&utm_medium=feedback-hub&utm_campaign=feedback-hub-redirect). After completing the quest, reserved storage will kick off with the next flight. (If you do the quest before installing Build 18312 – reserved storage should kick off for this flight.) For more details on reserved storage coming in 19H1, [read this blog post here](https://blogs.technet.microsoft.com/filecab/2019/01/07/windows-10-and-reserved-storage/).
 
-## FLS Slot Limit Increase (Build 18312) 
+## FLS Slot Limit Increase
 As PCs get more powerful, musicians have created increasingly complex projects with more tracks, more instruments, and deeper effects chains. As a result, some of those musicians were running up against a FLS (Fiber Local Storage) slot allocation ceiling that prevented them from loading into their DAWs (Digital Audio Workstations) as many unique plugins as they’d like. This build greatly raises that per-process FLS slot allocation ceiling, allowing loading potentially thousands of unique plugins. Beyond musicians, this change will positively impact any application that dynamically loads hundreds or thousands of unique DLLs that have statically-linked Visual C++ runtimes, or otherwise allocate FLS slots.
 
-## Reset this PC UI Improvements (Build 18312) 
+## Reset this PC UI Improvements
 We added new UI for Reset this PC as part of Settings > Update & Security > Recovery. The new UI provides a more consistent experience across devices with different configurations and requires fewer clicks to complete.
 
 ![Reset this PC UI](images/18312-1b.gif "Reset this PC UI Improvements")
 
 ## Windows Subsystem for Linux Command Line Tool Improvements (Build 18312) 
 We added new command line options to the WSL command line tool (wsl.exe) for easier WSL management and added functionality based on your feedback. Below is a summary of changes. You can read about more details in [our release notes](https://docs.microsoft.com/windows/wsl/release-notes) and on our [command line blog](https://blogs.msdn.microsoft.com/commandline/).
+
 * Consolidated command line options – The wsl command line tool now includes options to manage your WSL distros that are included in the wslconfig command line tool. We intend to only update the wsl tool with the latest management options moving forward.
 * Import a distro for easy sideloading including to non-system drives – Use the “–import” option to imports a tar file as a new distribution. You can specify the distribution registry to the location of your choice including non-system drives.
 * Export your WSL distribution for simpler environment management – Use the “—export” option to export a distribution to a tar file. Your distro will export to your default downloads location.
 
-## Streamlined Windows Hello PIN reset experience (Build 18309)
+## Streamlined Windows Hello PIN reset experience
 We know remembering a PIN can be tricky, so we wanted to provide our Microsoft account users with a revamped Windows Hello PIN reset experience with the same look and feel as signing in on the web. Check it out in today’s build by clicking the ‘I forgot my PIN’ link when signing in to Windows with a PIN. Insiders can try it out on all Windows 10 editions.
 
 ![Windows Hello PIN reset](images/18309-18.gif "Streamlined Windows Hello PIN reset experience")
 
-## Signing in to Windows with password-less Microsoft accounts (Build 18309) 
+## Signing in to Windows with password-less Microsoft accounts
 We’re pushing forward on eliminating passwords and keeping your accounts safe with another cool feature. With Build 18305, we announced support for setting up and signing in to Windows 10 with a phone number account, without having to create, or deal with the hassle of a password for Insiders using the Windows 10 Home edition. Today, that support is extending to all Windows 10 editions!
 If you have a Microsoft account with your phone number, you can use an SMS code to sign in, and set up your account on Windows 10. Once you’ve setup your account, you can use Windows Hello Face, Fingerprint, or a PIN (depending on your device capabilities) to sign in to Windows 10. No password needed anywhere!
 
@@ -179,7 +171,7 @@ Now that you’ve created a password-less phone number account, you can use it t
 
 You can now enjoy the benefits of signing in to Windows with your password-less phone number account.
 
-## Narrator Improvements (Build 18309)
+## Narrator Improvements
 __Add more voices:__ Users can download additional voices in other languages without having to download language packs.  To do that, go to Narrator Settings and select the “Add more voices” link.
 
 __Narrator Home navigation:__ The main actions on Narrator Home, such as QuickStart and Settings, are now buttons and not Listview items. You are now able to tab between all of them.
@@ -191,10 +183,10 @@ __Other improvements:__
 - Improved reading and navigating experiences with Chrome and Narrator
 - Improved interacting with Chrome menu’s with Narrator
 
-## Ease of Access Improvements (Build 18309)
+## Ease of Access Improvements
 __Cursor and Pointers:__ Building on our mouse work announced with 18298, we’ve added 11 additional mouse pointer sizes in the Cursor and Pointers settings.  There are now 15 sizes.
 
-## A simplified Start layout (Build 18305)
+## A simplified Start layout
 Based on your feedback, we’re introducing a simplified default Start layout for new devices, new user accounts, and clean installs. The new layout has been simplified into a sleek one column design with reduced top-level tiles. For the IT admins out there, don’t worry, commercial and education customers will also see a simplified layout tailored to these scenarios.
 
 Coupled with earlier changes providing the ability to [uninstall additional inbox apps](https://docs.microsoft.com/windows-insider/at-home/whats-new-wip-at-home#uninstall-additional-inbox-apps-build-18262), and a new way to [easily unpin a folder or group of tiles](https://blogs.windows.com/windowsexperience/2018/10/31/announcing-windows-10-insider-preview-build-18272/#q6fgjW1JapokMzJW.97), the simplified Start layout is part of an ongoing effort designed to enhance your Start experience in the upcoming release of Windows.
@@ -203,7 +195,7 @@ Note: When you update to this build, your Start layout won’t automatically cha
 
 ![A simplified Start layout](images/18305-1.png "A simplified Start layout")
 
-## Introducing Windows Sandbox! (Build 18305)
+## Introducing Windows Sandbox!
 
 Windows Sandbox is a new lightweight desktop environment tailored for safely running applications in isolation.
 How many times have you downloaded an executable file, but were afraid to run it? Have you ever been in a situation which required a clean installation of Windows, but didn’t want to set up a virtual machine?
@@ -228,7 +220,7 @@ We are excited to learn how you use Windows Sandbox! As we continue to add new f
 
 ![Windows Sandboxing](images/18305-2.png "Windows Sandboxing")
 
-## Windows Security app improvements (Build 18305)
+## Windows Security app improvements
 
 __New Protection History experience:__ We have had great feedback on our history experience from users, and we’ve listened!  Based on the suggestions and feedback we’ve received, the Protection history experience in Windows Security has been completely revamped. The new Protection History experience still shows you detections by Windows Defender Antivirus, but it’s now updated to also give more detailed and easier to understand information about threats and available actions. We have also added Controlled folder access blocks to history, along with any blocks which are made through organizational configuration of Attack Surface Reduction Rules. If you use the Windows Defender Offline scanning tool, any detections it makes will now also show in your history.  Additionally, you will see any pending recommendations (red or yellow states from throughout the app) in the history list. We hope you like the changes we’ve made!
 
@@ -238,7 +230,7 @@ __Introducing Tamper Protection!__ Tamper Protection is a new setting from Windo
 
 ![Tamper Protection](images/18305-4.png "Tamper Protection")
 
-## Symbols and Kaomoji are now just a hotkey away! (Build 18305)
+## Symbols and Kaomoji are now just a hotkey away!
 Ever tried to type an em dash, and couldn’t remember the Alt key code? Wanted to post “flipping the table” in social media, but couldn’t remember the sequence of characters? When you press WIN+(period) or WIN+(semicolon), in addition to emoji the picker that appears will now include symbols and kaomoji too!
 
 You may ask, [what is kaomoji](https://en.wikipedia.org/wiki/Emoticon#Japanese_style_kaomoji)? Translated literally from Japanese, it means “face characters” – basically, it’s a way to create faces using only text. You may already use them, for example the one mentioned above [is relatively popular](https://knowyourmeme.com/memes/flipping-tables-%E2%95%AF%E2%96%A1%E2%95%AF%EF%B8%B5-%E2%94%BB%E2%94%81%E2%94%BB): (╯°□°)╯︵ ┻━┻
@@ -253,18 +245,18 @@ Currently only the emoji section supports type to search.
 
 ![Symbols and Kaomoji](images/18305-5.png "Symbols and Kaomoji are now just a hotkey away!")
 
-## Clipboard history gets a new look (Build 18305)
+## Clipboard history gets a new look
 
 Have you already tried using clipboard history? If enabled, it allows you to save multiple clipboard items to use later. Introduced during [RS5 development](https://blogs.windows.com/windowsexperience/2018/05/09/announcing-windows-10-insider-preview-build-17666/#QTs2bQCzsFd2D0d1.97), we’ve been getting great feedback from everyone on this experience, and one of the things we heard most is that the UI wasn’t compact enough – a large space was used for each entry even if it was just a small text fragment. We originally opted to show bigger entries so there was space to show an image preview nicely, but when we looked at our data, we found 90% of items in the clipboard history were text. Based on that and your feedback, we now optimizing the design for text snippets – shrinking the height of each entry and thus giving you access to more entries without needing to scroll the view. Hope you like the change we made! Copy some text and press __Windows logo key + V__ to check out the updated design.
 
 ![Symbols and Kaomoji](images/18305-6.png "Symbols and Kaomoji are now just a hotkey away!")
 
-## Signing in to Windows with password-less Microsoft accounts (Build 18305) 
+## Signing in to Windows with password-less Microsoft accounts 
 
 We’re pushing forward on eliminating passwords and keeping your accounts safe with another cool feature. Today, we’re announcing support for setting up and signing in to Windows with a phone number account, without having to create, or deal with the hassle of a password! If you have a Microsoft account with your phone number, you can use an SMS code to sign in, and set up your account on Windows 10. Once you’ve setup your account, you can use Windows Hello Face, Fingerprint, or a PIN (depending on your device capabilities) to sign in to Windows 10. No password needed anywhere! 
 Note: This experience was originally available for Insiders on Home Edition and is now available in [Build 18309 on all Windows editions](https://docs.microsoft.com/windows-insider/at-home/whats-new-wip-at-home#signing-in-to-windows-with-password-less-microsoft-accounts-build-18309). 
 
-## Streamlined Windows Hello PIN reset experience (Build 18305)
+## Streamlined Windows Hello PIN reset experience
 
 We know remembering a PIN can be tricky, so we wanted to provide our Microsoft account users with a revamped Windows Hello PIN reset experience with the same look and feel as signing in on the web. Check it out in today’s build by clicking the ‘I forgot my PIN’ link when signing in to Windows with a PIN.
 
@@ -272,7 +264,7 @@ Note: This experience is currently only available for Insiders on Home edition. 
 
 ![Windows Hello PIN reset](images/18305-7.gif "Streamlined Windows Hello PIN reset experience")
 
-## Keep your device running smoothly with recommended troubleshooting (Build 18305)
+## Keep your device running smoothly with recommended troubleshooting
 
 Microsoft can automatically fix certain critical problems on your Windows device to keep it running smoothly. For example, we may automatically restore default settings for critical services, adjust feature settings to match your hardware configuration, or make other specific changes required for Windows to operate normally. Critical troubleshooting happens automatically and can’t be turned off.
 
@@ -286,47 +278,47 @@ After clicking the notification, you’ll see this screen, where you can choose 
 
 ![Windows Hello PIN reset-2](images/18305-9.png "choose whether or not to run the recommended troubleshooter")
 
-## Set a default Task Manager tab (Build 18305)
+## Set a default Task Manager tab
 
 Do you have a preferred tab in Task Manager – one that you always immediately switch to? We’re happy to share you can now choose your own default tab! When you launch Task Manager, it will now to jump directly to your preferred tab.
 You can set your preferred tab via __Options > Set default tab__.
 
 ![default Task Manager tab](images/18305-10.png "Set a default Task Manager tab")
 
-## Updated Settings Homepage (Build 18305)
+## Updated Settings Homepage
 
 At this time the updated design is only available for Home and non-domain-joined Windows 10 Pro edition PCs. It’s currently in the process of rolling out to those editions – we will update this message once it’s live for everyone.
 
 ![Windows Hello PIN reset-2](images/18305-11.png "choose whether or not to run the recommended troubleshooter")
 
 
-## Friendly Dates in File Explorer (Build 18305)
+## Friendly Dates in File Explorer
 
 Thank you for all of the feedback you provided on Friendly Dates in File Explorer. At this time, we’ve decided not to roll out [Friendly Dates](https://blogs.windows.com/windowsexperience/2018/12/19/announcing-windows-10-insider-preview-build-18305/#xPPTWdO73EwgkGtZ.97) to users as part of the 19H1 release.
 
-## Shadows are back! (Build 18305)
+## Shadows are back!
 
-As some keen-eyed Insiders have noticed, we recently started re-rolling out the shadows work we originally introduced with [Build 17711](https://blogs.windows.com/windowsexperience/2018/07/06/announcing-windows-10-insider-preview-build-17711/). Shadows are part of our long-term vision of the [evolution of Fluent Design](https://developer.microsoft.com/en-us/events/build/content/fluent-design-system-evolution?playlist=41f18bdd-6d5a-44b9-8586-0fa36ed91c45), and we’re excited to bring them back to you today after addressing some of the feedback you shared with us following the initial rollout.
+As some keen-eyed Insiders have noticed, we recently started re-rolling out the shadows work we originally introduced with [Build 17711](https://blogs.windows.com/windowsexperience/2018/07/06/announcing-windows-10-insider-preview-build-17711/). Shadows are part of our long-term vision of the [evolution of Fluent Design](https://developer.microsoft.com/events/build/content/fluent-design-system-evolution?playlist=41f18bdd-6d5a-44b9-8586-0fa36ed91c45), and we’re excited to bring them back to you today after addressing some of the feedback you shared with us following the initial rollout.
 
 ![Shadows are back!](images/18305-13.png "Shadows introduced in build 17711 are back!")
 
-## Re-releasing the new Japanese IME (Build 18305)
+## Re-releasing the new Japanese IME
 
 Thank you everyone who provided feedback about the new Japanese IME. We’ve decided to take some time to continue refining this experience, so that it ships with the highest possible quality. It will not be included with 19H1, but has been reactivated for Windows Insiders to explore in the 20H1 [builds.](https://blogs.windows.com/windowsexperience/2019/04/10/announcing-windows-10-insider-preview-build-18875/#obUbgTUfBRd4IjxX.97)
 
-## Introducing the Office app for Windows 10 (Build 18305)
+## Introducing the Office app for Windows 10
 
 This month, Windows Insiders get their first look at the new Office app, a simple experience designed to help users get the most out of Office and get back into their work quickly. This app is based on the redesigned [Office.com](https://office.com/) experience, which has had great user feedback and has changed how many of our web users engage with Office on a daily basis.
 
 The app is a great starting point for Office that helps you easily find all your files in one place or easily access any Office solution available to you. It knows to connect you to the Office rich clients if they are installed on your computer or it will send you to the web version of Office if they’re not. IT will also appreciate the ability to customize the app by integrating other line of business applications that use Azure Active Directory into the experience and apply corporate branding to the app.
 
-Please see the [Microsoft 365 Blog post](https://www.microsoft.com/en-us/microsoft-365/blog/2018/12/19/introducing-the-office-app-for-windows-10/) for more information on the Office app. Start using the app to get the most out of Office, and please let us know what you think via the feedback link under “Settings.”
+Please see the [Microsoft 365 Blog post](https://www.microsoft.com/microsoft-365/blog/2018/12/19/introducing-the-office-app-for-windows-10/) for more information on the Office app. Start using the app to get the most out of Office, and please let us know what you think via the feedback link under “Settings.”
 
 Note: You may notice the [new Office icons](https://medium.com/microsoft-design/redesigning-the-office-app-icons-to-embrace-a-new-world-of-work-91d72608ee8f) in the screenshot above! They aren’t live for Insiders yet, but we wanted you to get a taste of what it will look like once they are.
 
 ![Office app for Windows 10](images/18305-15.png "Introducing the Office app for Windows 10")
 
-## Get more done with Cortana and Microsoft To-Do (Build 18305)
+## Get more done with Cortana and Microsoft To-Do
 
 Want just one to-do list that works twice as hard for you? Save time and stay organized – Cortana helps by adding your reminders and tasks to your lists in Microsoft To-Do with this feature preview, so you can stay on top of what matters most. Use your voice, your PC, your phone – your choice.
 Streamline your tasks – your lists and reminders from across Microsoft To-Do, Cortana, and tasks in Outlook can now become one, centrally located in your Microsoft To-Do app. Use Microsoft To-Do anywhere: on your Android or iPhone, with Cortana, or on your Windows 10 PC. You can also access it from the web. It’s automatically synced so you never miss a beat. When you ask Cortana to add milk to your grocery list, it’ll show up on one of your Microsoft To-Do lists.
@@ -337,14 +329,14 @@ Or, ask Cortana to remind you to call a friend and see the reminder appear in yo
 
 ![Cortana and Microsoft To-Do-2](images/18305-17.png "see the reminder appear in your Microsoft To-Do planned list")
 
-With this integration, we are furthering efforts to seamlessly sync your to-do lists across Microsoft To-Do, Cortana, and your tasks in Outlook. To start syncing, your Windows 10 PC must be running Build 18267+ and tied to either the Australia, India, US, or UK region. [Learn more about the Microsoft To-Do and Cortana integration](https://techcommunity.microsoft.com/t5/Microsoft-To-Do-Blog/What-s-new-for-Microsoft-To-Do-in-October-2018/ba-p/279462). To share feedback, [join the cohort](https://insider.windows.com/en-us/signup/cortana-cohort/?utm_source=email&utm_medium=email&utm_campaign=CortanaWithMSToDo&utm_content=WIP_Header_Body_CortanaCohortSignUp) or use the Windows Feedback Hub. 
+With this integration, we are furthering efforts to seamlessly sync your to-do lists across Microsoft To-Do, Cortana, and your tasks in Outlook. To start syncing, your Windows 10 PC must be running Build 18267+ and tied to either the Australia, India, US, or UK region. [Learn more about the Microsoft To-Do and Cortana integration](https://techcommunity.microsoft.com/t5/Microsoft-To-Do-Blog/What-s-new-for-Microsoft-To-Do-in-October-2018/ba-p/279462). To share feedback, [join the cohort](https://insider.windows.com/signup/cortana-cohort/?utm_source=email&utm_medium=email&utm_campaign=CortanaWithMSToDo&utm_content=WIP_Header_Body_CortanaCohortSignUp) or use the Windows Feedback Hub. 
 
 ## Consolidating your sign-in options (Build 18298)
 With [Build 18272](#sign-in-options-redesigned-for-windows-hello-build-18272), we set out to simplify sign-in settings, to increase visual clarity, and improve ease of use. Our goal is to give you a one-stop shop for all your sign-in settings, and today we’re adding one more to the list: You can now set up a security key straight from Settings.
 
 ![Set up a security key from Settings](images/18298-1.png "Set up a security key from Settings")
 
-## File Explorer improvements (Build 18298)
+## File Explorer improvements
 **Updated File Explorer icon**: We’re updating the File Explorer icon, so it looks better with the new light theme. Thanks everyone who shared feedback about this! Here’s what it looks like now:
 
 ![Before and after folder improvements](images/18298-2.png "Before and after folder improvements")
@@ -354,12 +346,12 @@ With [Build 18272](#sign-in-options-redesigned-for-windows-hello-build-18272), w
 >[!NOTE]
 >If you’ve already altered the current sorting from the default in any way, we will not change it – this is only for people who haven’t changed it. If at any point you want to switch sortings, you can do so from the View tab in File Explorer. Some Insiders have had this change for a little bit now, and based on positive feedback we’re now rolling it out to 100% of Fast.
 
-## Start menu improvements (Build 18298)
+## Start menu improvements
 **Quick unpin for groups and folders**: Sometimes you just wanna quickly start fresh – over the last few weeks we’ve been rolling out the ability to unpin groups and folders in Start via a new context menu entry. As of today, that option is now available to all Insiders in the Fast ring! Thanks, as always, to everyone who’s shared their feedback so far!
 
 ![Quick unpin for Start menu](images/18298-3.png "Quick unpin for Start menu")
 
-## Touch keyboard improvements (Build 18298)
+## Touch keyboard improvements
 We’ve heard your feedback, and with today’s build we’re rolling out some updates to the touch keyboard to improve your experience:
 
 - Type faster with more accuracy: When you’re typing quickly, sometimes your fingers miss the actual key you’re trying to hit by a small margin. This is totally normal, but can impact the text prediction accuracy (if you ending up pressing a different letter than expected). To address this, as you type, under the covers we will now dynamically adjust the hit target of each key, based on prediction of what letter most likely will be typed next. The keys will look no different to the eye, but here’s an example of the what’s going on underneath if you’re curious:
@@ -368,13 +360,13 @@ We’ve heard your feedback, and with today’s build we’re rolling out some u
 
 If you’re a touch keyboard user, we’d love it if you spent some time typing on today’s build, and [let us know](http://aka.ms/tkbfeedback) how it feels for you now.
 
-## Console updates (Build 18298)
+## Console updates
 
 ![Updates to the console window](images/18298-5.png "Updates to the console window")
 
 As of Windows 10 build 18298, when you open the properties page of any Console window, you'll notice an additional "Terminal" tab containing several new settings for some experimental features we’re working on for future OS releases. [Read the Console team’s detailed blog post for more details.](https://blogs.msdn.microsoft.com/commandline/2018/12/10/new-experimental-console-features/)
 
-## Notepad updates (Build 18298)
+## Notepad updates
 **UTF-8 encoding**: We’ve made significant improvements to the way Notepad handles encoding. Starting with this build, we are adding the option to save files in UTF-8 without a Byte Order Mark and making this the default for new files. UTF-8 without a Byte Order Mark is backwards-compatible with ASCII and will provide better interoperability with the web, where UTF-8 has become the default encoding. Additionally, we added a column to the status bar that displays the encoding of the document.
 
 **Modified indicator**: Notepad will now show an asterisk (*) in the title bar before the title of a document to indicate that a document has unsaved changes.
@@ -396,7 +388,7 @@ As of Windows 10 build 18298, when you open the properties page of any Console w
 - We’ve fixed a bug where, when you select a placeholder file from OneDrive in the File Open dialog, we would download the file to determine its encoding.
 - We’ve fixed a recent regression where Notepad would no longer create a new file when launched with a file path that didn’t exist.
 
-## Narrator improvements (Build 18298)
+## Narrator improvements
 - **Introducing Narrator Home**: Every time you turn on Narrator, you’ll be taken to Narrator Home, which gives you one place where you can access everything you need for Narrator—whether you want to change your settings or learn Narrator basics with QuickStart.
 - In settings, you can remove Narrator Home from the **Alt + Tab** list, and instead minimize it to the system tray. You can access your settings through Narrator Home or by pressing **Windows logo key + Ctrl + N**.
    ![Shows Narrator Home page](images/18298-8.png "Shows Narrator Home page")
@@ -422,13 +414,13 @@ When you don’t want to hear advanced information, you can turn off “Hear adv
 - **Combo edit support**: Narrator now recognizes combo edit controls and will speak them as "combo edit" instead of just "edit."
 - **Narrator stays on while you reset your PIN or password or password**: If you forget your PIN or password for your Microsoft account, Narrator will stay on the whole time while you reset it.
 
-## Ease of Access improvements (Build 18298)
+## Ease of Access improvements
 
 **Bigger and brighter cursors**: We’ve introduced new cursor sizes and colors to make Windows easier to see.   Go to Ease of Access Settings (**Windows + U**), under the **Vision** category, select **Cursor & pointer** to see the list of options. We are still working on a couple issues where some cursor sizes may not work correctly on DPI’s larger than 100%.
 
 ![Shows bigger cursors and pointers](images/18298-9.png "Shows bigger cursors and pointers")
 
-## Updating the Windows 10 Setup experience (Build 18298)
+## Updating the Windows 10 Setup experience
 We’re making some adjustments to the design of Windows 10 Setup! This is the experience you see when running setup.exe from an ISO – it will look like this now:
 
 ![New Windows setup screen](images/18298-10.png "New Windows setup screen")
@@ -436,11 +428,13 @@ We’re making some adjustments to the design of Windows 10 Setup! This is the e
 >[!NOTE]
 >Windows 10 Setup for this build will not include the Microsoft logo, [Support](https://go.microsoft.com/fwlink/?LinkId=530045) link, or [Legal](https://go.microsoft.com/fwlink/?LinkId=530046) link in the bottom left hand corner of Windows Setup. The Retail release will include these and the links are included here for reference.
 
-## Windows Update notifications (Build 18298)
+## Windows Update notifications
 
 Starting with 19H1, when your device has an update requiring a reboot (including new builds we release), you will see the Power button in the Start menu with orange indicator alerting you to restart your device.
 
-## A touch of Fluent for menus in Start (Build 18290)
+![Image 18298](images/IBI_Start2_image-3.png)
+
+## A touch of Fluent for menus in Start
 
 Following up on our jump list improvements with [Build 18282](https://blogs.windows.com/windowsexperience/2018/11/14/announcing-windows-10-insider-preview-build-18282/), when you update to today's build you'll notice we've polished up the power and user menus in Start as well – including adding icons for easier identification.
 
@@ -448,7 +442,7 @@ Following up on our jump list improvements with [Build 18282](https://blogs.wind
 
 This will also be visible in the power menu on the sign in screen.
 
-## Sync your clock (Build 18290)
+## Sync your clock
 
 In response to your feedback, we're adding an option in Date & Time Settings to manually synchronize your clock with the time server. This will help in scenarios where you think the clock might be out of sync, or if the time service has been disabled. We'll also show the last time that time was successfully synced, and the address of your current time server.
 
@@ -457,7 +451,7 @@ In response to your feedback, we're adding an option in Date & Time Settings to 
 >[!NOTE]
 >This feature is currently only supported for non-domain joined PCs, although in today's build it will be visible on all devices.
 
-## See which app is using your microphone (Build 18290)
+## See which app is using your microphone
 
 In [Build 18252](https://blogs.windows.com/windowsexperience/2018/10/03/announcing-windows-10-insider-preview-build-18252/) we introduced a new mic icon that would appear in the notification area letting you know when an app was accessing your microphone. Today we're updating it so if you hover over the icon, it will now show you which app. Double-clicking the icon will open Microphone Privacy Settings.
 
@@ -465,15 +459,15 @@ In [Build 18252](https://blogs.windows.com/windowsexperience/2018/10/03/announci
 
 If multiple apps are using your microphone, then it will just list how many are actively using your microphone. We still have a bit more to do, stay tuned!
 
-## Improving your Search and Cortana experiences (Build 18290)
+## Improving your Search and Cortana experiences
 
 We're exploring some options for improving these experiences in Windows. When you start a search now, you'll notice we've updated the landing page – giving recent activities a bit more room to breathe, adding light theme support, a touch of acrylic and including all the search filter options as pivots from the get go. We'd love to hear your feedback – you can report issues and suggestions to us here. You may notice some other changes as we continue flighting, we'll have more details to share later.
 
-## Windows Update notifications (Build 18290)
+## Windows Update notifications
 
 Starting with 19H1, when your device has an update requiring reboot (including new builds we release) you will see Windows Update icon with orange indicator in the notification area (system tray) alerting you to restart your device.
 
-## Windows light theme (Build 18282)
+## Windows light theme
 
 ![Image 1](images/18282-image1.png)
 
@@ -510,7 +504,7 @@ What's next? [Let us know](http://aka.ms/snippingfeedback) what you'd like to se
 >This app update is now starting to roll out to people on Windows 10 version 1809! Please note that the borders feature is currently only supported on 19H1 builds, and like window snipping is currently only available for 50% of Insiders.
 
 
-## Improving your modern printing experience (Build 18282)
+## Improving your modern printing experience
 You'll notice a few differences once you update to build 18282:
 
 - First and foremost, the modern print dialog now supports light theme!
@@ -521,7 +515,7 @@ If you have any further feedback in the printing space, please don't hesitate to
 
 ![image 4](images/18282-image4.png)
 
-## Updating Windows Update (Build 18282)
+## Updating Windows Update
 Based on customer feedback, we're introducing two important new features to provide more control over updates:
 
 **Pause Updates:** We're making the Pause Updates feature easier to find by surfacing the existing option directly on the **Settings > Update and Security > Windows Update** page. Just like before, when Pause is enabled, some updates, like Windows Defender definition updates, will continue to be installed. In addition, Pause can be enabled for either a pre-defined number of days or until the specific day (day selector is available on Advanced options page).
@@ -532,12 +526,12 @@ Based on customer feedback, we're introducing two important new features to prov
 
 ![Image 6](images/18282-image6.jpg)
 
-## Display brightness changes when going to battery power (Build 18282)
+## Display brightness changes when going to battery power
 We've heard your feedback about a specific case where a display can become brighter when transitioning from a battery charger to battery power. For 19H1, we're modifying the display brightness behavior so that this can no longer happen. If a person adjusts their display brightness, that brightness will now be remembered as their preferred brightness whether they are on battery or connected to a charger. This new behavior results in a more consistent and battery friendly experience. This does not affect battery saver mode settings; if a person has opted into lowering the screen brightness in battery saver mode, their display will still dim when the battery is below the threshold selected.
 
 Please use Feedback Hub to tell us what you think! You can file the feedback under the category “Device and Drivers” and subcategory “Display and Graphics”.
 
-## Narrator Improvements (Build 18282)
+## Narrator Improvements
 
 **Narrator Verbosity improvements:** We are improving the amount of information you hear while interacting in Windows and you will see these changes filter in throughout future builds. In the current release we have a new Narrator Setting entitled “Hear advanced information about controls when navigating”. When this feature is off you will not hear the advanced information previously spoken on controls. In addition, Tooltips will not be read by default. Use the Narrator Advanced Information command (Narrator + 0) to read a tooltip on a given item. In addition, you will notice that some control information will now begin to speak in a more consistent manner. Checkboxes and radio buttons will be the first controls with this new behavior.
 
@@ -553,7 +547,7 @@ If you need to hear phonetics for a string of characters in a sustained fashion,
 
 If you prefer the original character phonetic reading behavior, a setting has been added for you to toggle on the automatic reading of phonetics.
 
-## Evolving Focus assist (Build 18277)
+## Evolving Focus assist
 [Starting with the Windows 10 April 2018 Update](https://blogs.windows.com/windowsexperience/2018/05/09/windows-10-tip-how-to-enable-focus-assist-in-the-windows-10-april-2018-update/), we embarked on a journey to help reduce the number of distractions you encounter when you're trying to get in the zone. With today's build, we're taking this to the next level: We've added a new focus assist option so that when you're doing *anything* full screen we can automatically turn on focus assist.
 
 ![Focus assist updates](images/18277-image1.png "A screenshot of the Focus assist updates")
@@ -562,7 +556,7 @@ Watching a movie? Poring over some excel tables? Studying? Focus assist is here 
 
 Like our other focus assist settings, this can be found under Settings > System > Focus Assist. Make sure you take a moment to customize your priority list to ensure any notifications you want to break through the rule will appear! If you'd like to turn off the warning notification that's shown in Action Center after entering focus assist, you can do so by clicking the rule in Focus Assist Settings which prompted the notification.
 
-## Improving your Action Center experience (Build 18277)
+## Improving your Action Center experience
 One of the top requests we've heard from you is that you'd prefer the brightness Quick action to be a slider instead of a button, and with today's build we're making it happen!
 
 ![Action Center](images/18277-image2.png "Action Center slider")
@@ -575,15 +569,12 @@ You can now easily customize your Quick actions right from the Action Center its
 
 We'd love for you to try it out and share feedback!
 
-## Preparing for Emoji 12 (Build 18277) 
+## Preparing for Emoji 12
 With today's build, Insiders will get a first look at the emoji we've designed so far in preparation for the Emoji 12 release! These emoji are available for use via the emoji panel (WIN + .) and the touch keyboard.
 
 ![Emoji 12](images/18277-image4.png "Shows the new emojis")
 
->[!NOTE] 
->The complete list of emoji for the Emoji 12 release is [still in beta](http://blog.unicode.org/2018/10/draft-candidates-for-emoji-120-beta.html), so Insiders may notice a few changes over the coming flights as the emoji are finalized. We have a bit more work to do, including adding search keywords for the new emoji, and adding a few emoji that aren't finished yet.
-
-## High DPI improvements (Build 18277)
+## High DPI improvements
 As many of you know, we've been working [over the past few years](https://blogs.windows.com/buildingapps/2016/10/24/high-dpi-scaling-improvements-for-desktop-applications-and-mixed-mode-dpi-scaling-in-the-windows-10-anniversary-update/#BhoQFcZJ0KWWFqub.97) to improve the High DPI story for Win32 (desktop) apps on Windows. As part of this, some of you may recall getting a toast about fixing your apps that led you to this setting we added with [Build 17063](https://blogs.windows.com/windowsexperience/2017/12/19/announcing-windows-10-insider-preview-build-17063-pc/#ffbtP8jT9IuKq8sp.97):
 
 ![Scaling settings](images/18277-image5.png)
@@ -593,7 +584,7 @@ We'd love your feedback! Notice that some of your apps seem blurry after docking
 
 If you're interested to learn whether or not an app is DPI aware you can find out using [this feature](https://blogs.windows.com/windowsexperience/2018/10/17/announcing-windows-10-insider-preview-build-18262/) we rolled out to Task Manager a few flights ago.
 
-## Refreshing the Japanese IME (Build 18277)
+## Refreshing the Japanese IME
 We've already made [a few](https://blogs.windows.com/windowsexperience/2018/10/24/announcing-windows-10-insider-preview-build-18267/#3joUFcLxg0ozUFbp.97) [announcements](https://blogs.windows.com/windowsexperience/2018/10/31/announcing-windows-10-insider-preview-build-18272/#FZRyBpZfJrussGPF.97) about how we plan to improve your typing experiences in Windows with this release, and we're excited to add one more to the list today! To provide increased security and reliability, we're updating the Japanese IME by redesigning how it works with applications. Not only that, but we've updated the IME candidate window interface to be cleaner and more polished:
 
 ![Japanese IME](images/18277-image7.png "Shows the Japanese IME")
@@ -604,13 +595,7 @@ You'll notice that each text prediction candidate now has an index so you can qu
 
 Some Insiders have had this change for [a few flights now](https://blogs.windows.com/windowsexperience/2018/09/18/announcing-windows-10-insider-preview-build-18242), so we wanted to take a moment to say thank you for all of your great feedback so far! Please don't hesitate to [continue sharing thoughts with us](https://aka.ms/inputfeedback) about typing in Windows – our ears are open and we'd love to hear from you.
 
-
-## Help us shape the future of Cortana + Amazon Alexa (Build 18277)
-Recently, we announced an exciting preview in the US that allows you to call up Cortana on Amazon Alexa Echo devices – and Alexa on your Windows 10 PC. You can, for example, enlist Cortana through an Amazon Alexa Echo device to tell you your next meeting or have Alexa order groceries through your Windows 10 PC. Now, we'd like to take the experience even further with the help of Windows Insiders like you. Just start by completing this [short survey](http://aka.ms/CortanaAlexasurvey).
-
-If you haven't already tried it out, simply click the microphone icon in Windows Search on your Windows 10 PC and say ‘'Hey Cortana, open Alexa'. Or, on your Amazon Echo device, say “Alexa, open Cortana” on Echo devices. (Then let us know what you think in the Feedback Hub.) For more, see our [AI blog](https://blogs.microsoft.com/ai/alexa-cortana-public-preview/.
-
-## Sign-in options redesigned for Windows Hello (Build 18272)
+## Sign-in options redesigned for Windows Hello
 
 Security shouldn't be intimidating, and we aspire to help you eliminate passwords. That's why we want to make sure you can easily set up your first line of defense securing your device with Windows Hello. Your feedback that the previous design was cluttered, and confusing is what drove us to simplify the Sign-in options Settings. We believe this update will help you choose the safest and fastest sign-in option for your needs, whether that's using a PIN or a biometric factor like fingerprint or facial recognition.
 
@@ -618,7 +603,7 @@ Ultimately, we want to help you make the right decision for your situation. By c
 
 ![Redesigned sign-in options](images/18272-image1.png)
 
-## Input improvements (Build 18272)
+## Input improvements
 
 **Expanding SwiftKey's typing intelligence to more languages:** In RS5 we started working on bringing [SwiftKey's AI technology to Windows](https://blogs.windows.com/windowsexperience/2018/06/14/announcing-windows-10-insider-preview-build-17692/#KqkzsMxQJAWrMbJC.97), and we're excited to announce that we're expanding support to the following languages:
 
@@ -657,7 +642,7 @@ Here are the steps to get started:
    >[!NOTE]
    >You need to [download the dictionaries](https://docs.microsoft.com/windows-hardware/manufacture/desktop/features-on-demand-v2--capabilities) used for the Indic Phonetic keyboards. Right after adding the keyboard, please connect to Internet – you may need to wait a bit for the dictionary download to finish.
 
-## Accessibility improvements (Build 18272) 
+## Accessibility improvements 
 
 **Narrator Caps Lock ON alert while typing:** Narrator will now alert you when you are accidentally typing with Caps Lock turned on. The setting is on by default. To adjust this setting, visit Narrator Settings (Ctrl + Win + N), then navigate to the “Change how much content you hear” heading and review the combo box for “Change when you receive Caps Lock warnings while typing”.
 
@@ -665,10 +650,10 @@ It will work even if you have character echo option ("Hear characters as you typ
 
 In this initial release, the sound effect you hear will sound like the standard Narrator error sound effect which we are working on improving. We look forward to your feedback on this new feature!
 
-## An easier way to unpin folders and tiles (Build 18272)
+## An easier way to unpin folders and tiles
 We’re rolling out a feature where if you right click on a group name or tile folder in Start, you will now have an option to unpin it. Currently 50% of Insiders will have this option.
 
-## Input Improvements (Build 18267)
+## Input Improvements
 **Vietnamese Telex and Number key-based keyboards are now available on your PC**: Do you write Vietnamese? We want you to have the best possible typing experience, so we're happy to announce that with this build you can now use Vietnamese [Telex](https://en.wikipedia.org/wiki/Telex_(input_method)) and Number-key based (VNI) keyboards for typing Vietnamese! Bringing these keyboard options to PC has been one of the top feature requests in the input space, so we're looking forward to you trying it out!
 
 Here's a short animation of what it looks like (using the touch keyboard so you can see what we're typing):
@@ -690,26 +675,26 @@ If your native language is Vietnamese or you have some knowledge of the Vietname
 ![more touch keyboard symbols](images/touch-keyboard.png "more touch keyboard symbols")
 
 
-## Accessibility Improvements (Build 18267)
+## Accessibility Improvements
 * **Narrator works better with Chrome now!** Using up and down arrows in scan mode, navigating with tab key, continuous reading commands, and navigating by headings and links have initial support for Chrome, with more functionality coming in future flights.
 * **Narrator Braille**: BRLTTY version 5.6 is now provided which adds USB support for Inceptor and Orbit 20 displays. In addition, the BrailleNote Touch is recognized when using USB. Baum displays can now use B9 and B10 interchangeably. Liblouis binaries and tables have been updated to version 3.7.0.
 * **UI Automation framework IAccessible2 Support**: The UI Automation framework now supports translating IAccessible2 information from Chrome, which supports IAccessible2 rather than UI Automation. This enables UI Automation clients to receive the IAccessible2 information through the UI Automation client interfaces.
 
-## Enhanced Mode for Search Indexer (Build 18267)
+## Enhanced Mode for Search Indexer
 To improve our search indexing, we created a new feature that enables Windows to search all your folders and drives, instead of limiting search to your documents, pictures, videos, and desktop by default. To turn it on, search for *Windows search settings*, and in the Searching Windows settings, under “Find My Files”, select **Enhanced** to begin the one-time indexing process. It will take about 15 minutes for search to begin returning these additional files in results. If you have lots of files, it may take longer. Make sure you plug in before you start, indexing is a resource-intensive activity.
 
 When the indexing is complete, you'll be able to find all your files almost instantly when you use Windows Search. To exclude a folder from search, add it to the Excluded Folders list. Thanks for your feedback about search and the indexer. These improvements were made because of your input. Keep the feedback coming!
 
 ![search indexer](images/search-index.png "search indexer")
 
-## DPI Awareness in Task Manager (Build 18262)
+## DPI Awareness in Task Manager
 We added a new optional column to the **Details** tab of **Task Manager** so you can look at DPI awareness per process as in the following example:
 
 ![Showing the DPI Awareness category in Task Manager, with examples of Per-Monitor and System ](images/dpi-aware-task-manager.png "Showing the DPI Awareness category in Task Manager, with examples of Per-Monitor and System ")
 
 To show the column, right-click on any of the column headers in the **Details** tab, click **Select Columns**, then add **DPI Awareness** to the list. To learn more about DPI Awareness, see [High DPI Desktop Application Development on Windows](https://docs.microsoft.com/windows/desktop/hidpi/high-dpi-desktop-application-development-on-windows).
 
-## Uninstall additional inbox apps (Build 18262)
+## Uninstall additional inbox apps
 In 19H1, we are adding the ability to uninstall the following (preinstalled) Windows 10 inbox apps via the context menu on the **Start** menu **All Apps** list:
 * 3D Viewer (previously called Mixed Reality Viewer)
 * Calculator
@@ -731,28 +716,28 @@ In the Windows 10 October 2018 Update and prior, only the following inbox apps c
 * Tips
 * Weather
 
-## Troubleshooting improvements (Build 18262)
+## Troubleshooting improvements
 Don’t feel like troubleshooting? We’ve got you covered. In previous releases, if you noticed your PC was having a problem, you would have to find the right troubleshooter and then manually walk through all the different steps to resolve it. We hear your feedback that the time that takes to do can be frustrating – why not just automatically fix issues that you know how to fix and can detect? We agree! If an issue occurs we want to get you back up and running as quickly as possible, so with Build 18262 you’ll find a new recommended troubleshooting setting under Settings > Update & Security > Troubleshoot in Build 18262. This feature uses diagnostic data you send to deliver a tailored set of fixes matching problems we detect on your device and will automatically apply them to your PC.
 We’re still hard at work on this feature so it’s greyed out right now in Settings, but stay tuned for updates in future builds!
 
-## Narrator Improvements (18262)
+## Narrator Improvements
 **Narrator Read by Sentence**: You can now read next, current and previous sentences in Narrator. Read by sentence is available with the keyboard and with touch. Move by sentence doesn't yet work for Braille. 
 * Caps + Ctrl + Period (.) to Read next sentence
 * Caps + Ctrl + Comma (,) to Read current sentence
 * Caps + Ctrl + M to Read previous sentence 
 Sentence is now a new Narrator view and can be reached via Caps + Page Up or Caps + Page Down and then you can navigate with Caps + Left arrow for move by previous sentence and Caps + Right arrow for move by next sentence. 
 
-## Enhanced settings for Ethernet (Build 18252)
+## Enhanced settings for Ethernet
 You can now use the **Settings** app to configure advanced Ethernet IP settings. We have added support for configuring a static IP address as well as setting a preferred DNS server. These settings were previously accessed within **Control Panel**, but you will now find them on the connection properties page under **IP settings**.
 
 ![Showing the enhanced ethernet settings](images/enhanced-ethernet-settings.png "Showing the enhanced ethernet settings")
 
-## New icon for disconnected Internet (Build 18252)
+## New icon for disconnected Internet
 First seen on Always Connected PCs, we brought the disconnected internet icon to all devices running Windows 10. This single icon appears when there is no internet connection detected, and replaces the individual disconnected icons for Cellular, Wi-Fi, and Ethernet. This new icon should help you quickly identify network problems so that you can take action to resolve them.
 
 ![Showing the new icon for disconnected internet](images/disconnected-internet-icon.png "Showing the new icon for disconnected internet")
 
-## Ebrima font addition with ADLaM support (Build 18252)
+## Ebrima font addition with ADLaM support
 You can now read your ADLaM documents and webpages with the Windows Ebrima font!
 
 ADLaMis a writing system for Pular/Fulfulde, the language of the Fulani people, predominantly residing in west Africa. In the early 1990s, two young teenager brothers, Abdoulaye and Ibrahima Barry, created this writing system. Their work became “Bindi Pulaar” and eventually “ADLaM,” ADLaM is enabling literacy and growing in use for commerce, education, and publishing across western Africa. It was added to Unicode in Unicode 9.0.
@@ -760,6 +745,7 @@ ADLaMis a writing system for Pular/Fulfulde, the language of the Fulani people, 
 The Ebrima font also supports other African writings systems N'ko, Tifinagh, Vai and Osmanya – here's a sample of what the font looks like:
 
 ![Showing sample of the Ebrima font](images/ebrima-font.png "Showing sample of the Ebrima font")
+
 
 ## Bringing acrylic to the Windows sign-in screen (Build 18237)
 The Windows sign-in screen now supports [acrylic](https://docs.microsoft.com/windows/uwp/design/style/acrylic), a type of brush from the [Fluent Design System](https://docs.microsoft.com/windows/uwp/design/fluent-design-system/index), to the sign-in screen background.  The translucent texture of this transient surface helps you focus on the sign-in task by moving the actionable controls up in the visual hierarchy while maintaining their accessibility.
