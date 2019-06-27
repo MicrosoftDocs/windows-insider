@@ -57,7 +57,7 @@ Windows Sandbox now supports configuration files. These files allow users to con
 As part of the game launch, you’ll be prompted to install DirectX. This is for testing purposes, so go ahead and do the install, and the game will launch afterwards. If you find any issues with the install, or if the game fails to launch, please file a Feedback Hub bug under the Microsoft Store category (pick Download or Install depending on your issue), and include WindowsGamingFeedback in the title.
 
 ## Introducing Top apps in Search
-Get quick access to the apps that you use the most, just open Search Home and you’ll see them under Top apps—no typing required! One more way Search helps you find the things you need. This change is rolling out server-side, so you may see it outside of the bounds of this flight. This change is also one of several we’ve made throughout this release to improve your experience in this space, including [updating the search landing page design](#improving-your-search-and-cortana-experiences-build-18290), [enhancing your search results](#enhanced-mode-for-search-indexer-build-18267), and [integrating Microsoft To-Do with Cortana](#get-more-done-with-cortana-and-microsoft-to-do-build-18305). Stay tuned for more improvements.
+Get quick access to the apps that you use the most, just open Search Home and you’ll see them under Top apps—no typing required! One more way Search helps you find the things you need. This change is rolling out server-side, so you may see it outside of the bounds of this flight. This change is also one of several we’ve made throughout this release to improve your experience in this space, including [updating the search landing page design](#improving-your-search-and-cortana-experiences), [enhancing your search results](#enhanced-mode-for-search-indexer), and [integrating Microsoft To-Do with Cortana](#get-more-done-with-cortana-and-microsoft-to-do). Stay tuned for more improvements.
 
 ![Search](images/18329-1.png "Introducing Top apps in Search ")
 
@@ -332,7 +332,7 @@ Or, ask Cortana to remind you to call a friend and see the reminder appear in yo
 With this integration, we are furthering efforts to seamlessly sync your to-do lists across Microsoft To-Do, Cortana, and your tasks in Outlook. To start syncing, your Windows 10 PC must be running Build 18267+ and tied to either the Australia, India, US, or UK region. [Learn more about the Microsoft To-Do and Cortana integration](https://techcommunity.microsoft.com/t5/Microsoft-To-Do-Blog/What-s-new-for-Microsoft-To-Do-in-October-2018/ba-p/279462). To share feedback, [join the cohort](https://insider.windows.com/signup/cortana-cohort/?utm_source=email&utm_medium=email&utm_campaign=CortanaWithMSToDo&utm_content=WIP_Header_Body_CortanaCohortSignUp) or use the Windows Feedback Hub. 
 
 ## Consolidating your sign-in options (Build 18298)
-With [Build 18272](#sign-in-options-redesigned-for-windows-hello-build-18272), we set out to simplify sign-in settings, to increase visual clarity, and improve ease of use. Our goal is to give you a one-stop shop for all your sign-in settings, and today we’re adding one more to the list: You can now set up a security key straight from Settings.
+With [Build 18272](#sign-in-options-redesigned-for-windows-hello), we set out to simplify sign-in settings, to increase visual clarity, and improve ease of use. Our goal is to give you a one-stop shop for all your sign-in settings, and today we’re adding one more to the list: You can now set up a security key straight from Settings.
 
 ![Set up a security key from Settings](images/18298-1.png "Set up a security key from Settings")
 
@@ -431,8 +431,6 @@ We’re making some adjustments to the design of Windows 10 Setup! This is the e
 ## Windows Update notifications
 
 Starting with 19H1, when your device has an update requiring a reboot (including new builds we release), you will see the Power button in the Start menu with orange indicator alerting you to restart your device.
-
-![Image 18298](images/IBI_Start2_image-3.png)
 
 ## A touch of Fluent for menus in Start
 
