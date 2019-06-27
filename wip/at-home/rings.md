@@ -18,7 +18,7 @@ ms.prod: w10
 Windows 10 Insider Preview Builds are released in “rings". Each ring is defined by a different release frequency and level of stability. Rings are used to evaluate the quality of our software as they are released to progressively larger audiences. If the build passes automated testing in the lab, we will flight (i.e. release a build) to the next ring. 
 
 
-![Ring Theory](images/rings4.png "Windows Insider Preview Rings")
+![Ring Theory](images/Rings4.png "Windows Insider Preview Rings")
 
 ## Fast Ring
 The benefit of being in the Fast Ring is that you will be among the first to use and provide feedback on new and improved features. Devices in the Fast Ring are typically updated on a weekly basis with a new Insider Preview build through [Windows Update](https://docs.microsoft.com/windows/deployment/update/windows-update-overview). Be prepared for issues that might block key activities or might require workarounds. Because we are also validating a build on a smaller set of devices before releasing, there is a chance that some features might fail in some device configurations. If significantly blocked, report the issue to us in the [Feedback Hub](feedback-hub:///) app or the [Windows Insider forums](https://social.technet.microsoft.com/Forums/en-US/home?forum=WindowsInsiderPreview) and be ready to reinstall Windows using the Media Creation Tool. 
