@@ -4,7 +4,7 @@ description: definition of Insider rings
 manager: eliotgra
 ms.tgt_pltfrm: na
 ms.devlang: na
-ms.date: 10/2/2018
+ms.date: 11/02/2018
 ms.author: v-colinmit
 author: cdmm12
 ms.localizationpriority: medium
