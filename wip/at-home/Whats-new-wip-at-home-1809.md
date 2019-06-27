@@ -646,7 +646,7 @@ For more details about these new improvements, please see our announcement [here
 For more details about these new improvements, please see our announcement [here](https://blogs.technet.microsoft.com/networking/2018/07/18/top10-ws2019-hatime/).
 
 ## Kernel debugging improvements 
-We are adding support for IPv6 to KDNET. To make room for the larger headers required for IPv6, we decreased the payload size of packets. As a result, we’re declaring a new version of the protocol, so that host PCs running the latest version of the debugger can be used to debug target PCs that only support IPv4. There is a version of WinDbg Preview available at [http://aka.ms/windbgpreview](https://aka.ms/windbgpreview). Follow the [Debugging Tools for Windows](https://aka.ms/windbgblog) blog for updates on KDNET IPv6 support and documentation. 
+We are adding support for IPv6 to KDNET. To make room for the larger headers required for IPv6, we decreased the payload size of packets. As a result, we’re declaring a new version of the protocol, so that host PCs running the latest version of the debugger can be used to debug target PCs that only support IPv4. There is a version of WinDbg Preview available at [https://aka.ms/windbgpreview](https://aka.ms/windbgpreview). Follow the [Debugging Tools for Windows](https://aka.ms/windbgblog) blog for updates on KDNET IPv6 support and documentation. 
 
 ## Privacy Improvements
 

@@ -4,7 +4,7 @@ description: Using Preview builds to explore and validate Windows
 manager: eliotgra
 ms.tgt_pltfrm: na
 ms.devlang: na
-ms.date: 11/6/2018
+ms.date: 11/06/2018
 ms.author: v-colinmit
 author: cdmm12
 ms.localizationpriority: medium
