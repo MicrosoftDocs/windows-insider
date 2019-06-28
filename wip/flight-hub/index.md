@@ -203,4 +203,4 @@ The [Windows 10 Creators Update](https://blogs.windows.com/windowsexperience/201
 
 | Build | Fast | Slow | Release Preview |
 |-------|------|------|-----------------|
-| 15063 | [3/20/2017](https://blogs.windows.com/windowsexperience/2017/03/20/announcing-windows-10-insider-preview-build-15063-pc-mobile/) | 3/23/2017 | 3/30/2017 |
+|15063|[3/20/2017](https://blogs.windows.com/windowsexperience/2017/03/20/announcing-windows-10-insider-preview-build-15063-pc-mobile/)|[3/23/2017](https://blogs.windows.com/windowsexperience/2017/03/20/announcing-windows-10-insider-preview-build-15063-pc-mobile/)|[3/30/2017](https://blogs.windows.com/windowsexperience/2017/03/20/announcing-windows-10-insider-preview-build-15063-pc-mobile/)|
