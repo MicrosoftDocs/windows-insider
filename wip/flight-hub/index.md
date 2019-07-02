@@ -169,7 +169,7 @@ Windows 10, version 1809, and Windows Server 2019 were released to the world on 
 
 ## Windows 10 Fall Creators Update (RS3)
 
-[The Windows 10 Fall Creators Update](https://blogs.windows.com/windowsexperience/2017/10/17/windows-10-fall-creators-update-and-mixed-reality-headsets-available-today-announcing-surface-book-2/) was released to the world on October 17th, 2017. Windows Insiders helped test 24 builds.
+The [Windows 10 Fall Creators Update](https://blogs.windows.com/windowsexperience/2017/10/17/windows-10-fall-creators-update-and-mixed-reality-headsets-available-today-announcing-surface-book-2/) was released to the world on October 17th, 2017. Windows Insiders helped test 24 builds.
 
 | Build | Fast | Slow | Release Preview |
 |-------|------|------|-----------------|
