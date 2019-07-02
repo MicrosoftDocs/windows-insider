@@ -42,6 +42,10 @@ The items in **bold** are the latest releases for the individual versions of the
 
 ## Next feature update for Windows 10 (19H2)
 
+You can get builds of 19H2 today if you've opted in to the **Slow** ring.
+
+The items in **bold** are the latest releases for the individual versions of the item.
+
 | Build | Fast | Slow | Server | IoT | ISO | SDK |
 |-------|------|------|--------|-----|-----|-----|
 |18362.10000||[**7/01/2019**](https://blogs.windows.com/windowsexperience/2019/07/01/announcing-windows-10-insider-preview-build-18362-10000-19h2/)|||||
