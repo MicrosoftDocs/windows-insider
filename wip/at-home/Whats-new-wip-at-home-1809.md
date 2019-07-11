@@ -736,11 +736,11 @@ We also added additional entry options for different input modalities:
 
 **Wrap-around find and replace**: We added the option to do wrap-around find and replace to the find dialog. Notepad will remember previously entered values and the state of check boxes, and will automatically populate them the next time you open the find dialog. Additionally, when you have text selected and open the find dialog we will automatically populate the search field with the selected text.
 
-![wrap around find and replace](images/notepad.png "wrap around find and replace")
+![wrap around find and replace](images/WrapAround.PNG "wrap around find and replace")
 
 **Text zooming**: We added a new menu option under __View > Zoom__ to change the zoom level, and we display the current zoom level in the status bar. You can also use **Ctrl + Plus**, **Ctrl + Minus** and **Ctrl + MouseWheel** to zoom in and out and use **Ctrl + 0** to restore the zoom level to the default.
 
-![text zooming](images/zooming2 .png "text zooming")
+![text zooming](images/zooming2.gif "text zooming")
 
 **Line numbers with word-wrap**: Notepad can display line and column numbers when word-wrap is enabled, and we’ve made the status bar visible by default. You can still turn the status bar off in the **View** menu.
 
