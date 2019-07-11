@@ -23,7 +23,8 @@ The items in **bold** are the latest releases for the individual versions of the
 
 | Build | Fast | Slow | Server | IoT | ISO | SDK |
 |-------|------|------|--------|-----|-----|-----|
-|18898|[**5/15/2019**](https://blogs.windows.com/windowsexperience/2019/05/15/announcing-windows-10-insider-preview-build-18898/#xvPsJ2ZkhgjAUXqW.97)||||||
+|18936|[**7/10/2019**](https://blogs.windows.com/windowsexperience/2019/07/10/announcing-windows-10-insider-preview-build-18936/#Q86HvPQkAp38XXDB.97)||||||
+|18898|[5/15/2019](https://blogs.windows.com/windowsexperience/2019/05/15/announcing-windows-10-insider-preview-build-18898/#xvPsJ2ZkhgjAUXqW.97)||||||
 |18895|[5/10/2019](https://blogs.windows.com/windowsexperience/2019/05/10/announcing-windows-10-insider-preview-build-18895/#Bp2Sl3z6UyTLJpuK.97)||||||
 |18894|[5/08/2019](https://blogs.windows.com/windowsexperience/2019/05/08/announcing-windows-10-insider-preview-build-18894/#h0HVgMsGgvjGPg2A.97)|||||[**5/14/2019**](https://blogs.windows.com/buildingapps/2019/05/14/windows-10-sdk-preview-build-18894-available-now/)|
 |18890|[5/01/2019](https://blogs.windows.com/windowsexperience/2019/05/01/announcing-windows-10-insider-preview-build-18890/#ySSQukgWEOMTK9di.97)||||||
