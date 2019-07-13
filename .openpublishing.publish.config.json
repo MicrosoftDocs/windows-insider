@@ -1,34 +1,26 @@
 {
-  "build_entry_point": "op",
   "docsets_to_publish": [
     {
-      "docset_name": "wip",
+      "docset_name": "windows-insider",
       "build_source_folder": "wip",
-      "build_output_subfolder": "wip",
+      "build_output_subfolder": "windows-insider",
       "locale": "en-us",
       "monikers": [],
       "moniker_ranges": [],
       "open_to_public_contributors": true,
       "type_mapping": {
-        "Conceptual": "Content",
-        "ManagedReference": "Content",
-        "RestApi": "Content"
+        "Conceptual": "Content"
       },
       "build_entry_point": "docs",
       "template_folder": "_themes"
     }
   ],
-  "notification_subscribers": [
-    "dawnwood@microsoft.com"
-  ],
+  "notification_subscribers": [],
   "sync_notification_subscribers": [],
   "branches_to_filter": [],
-  "git_repository_url_open_to_public_contributors": "https://github.com/MicrosoftDocs/windows-insider",
-  "git_repository_branch_open_to_public_contributors": "master",
   "skip_source_output_uploading": false,
   "need_preview_pull_request": true,
   "contribution_branch_mappings": {},
-  "resolve_user_profile_using_github": true,
   "dependent_repositories": [
     {
       "path_to_root": "_themes",
@@ -47,15 +39,11 @@
     "live": [
       "Publish",
       "Pdf"
-    ],
-    "master": [
-      "Publish",
-      "Pdf"
     ]
   },
   "need_generate_pdf_url_template": true,
   "targets": {
-    "Pdf": {
+    "pdf": {
       "template_folder": "_themes.pdf"
     }
   }
