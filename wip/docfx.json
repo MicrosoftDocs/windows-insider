@@ -40,7 +40,14 @@
       "breadcrumb_path": "/windows-insider/breadcrumb/toc.json",
       "extendBreadcrumb": true,
       "titleSuffix": "Windows Insider Program",
-      "feedback_system": "None"
+      "feedback_system": "None",
+      "_op_documentIdPathDepotMapping": {
+		     "./": {
+			     "depot_name": "MSDN.wip",
+			     "folder_relative_path_in_docset": "./"
+		     }
+	    }
+		},
     },
     "fileMetadata": {},
     "template": [],
