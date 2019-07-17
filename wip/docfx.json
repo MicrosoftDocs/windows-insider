@@ -42,12 +42,11 @@
       "titleSuffix": "Windows Insider Program",
       "feedback_system": "None",
       "_op_documentIdPathDepotMapping": {
-		     "./": {
-			     "depot_name": "MSDN.wip",
-			     "folder_relative_path_in_docset": "./"
-		     }
-	    }
-		},
+	 "./": {
+           "depot_name": "MSDN.wip",
+           "folder_relative_path_in_docset": "./"
+	 }
+      }
     },
     "fileMetadata": {},
     "template": [],
