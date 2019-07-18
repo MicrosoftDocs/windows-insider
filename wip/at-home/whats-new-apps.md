@@ -20,10 +20,37 @@ _Note:_ Not all app updates will be listed here. Only app updates that include m
 ## Your Phone 
 These updates are currently available using PCs running Windows 10 Insider Preview Builds (19H1). 
 
-__5/29/2019__
+__7/10/2019__
+## Phone screen now available on more Surface devices
+As promised, we’re excited to expand the availability of the phone screen feature to more PCs. With the latest driver update in the Windows insider rings (Marvell 15.68.17013.110), the following Surface devices will preview the phone screen feature – Surface Laptop, Surface Laptop 2, Surface Pro 4, Surface Pro 5, Surface Pro 6, Surface Book, and Surface Book 2. If you have one of these devices, give it a try and let us know what you think!
 
-These features will gradually roll out to Insiders on 19H1 builds or newer, so it may take a few days to see them on your PC.
-We’d love to hear your feedback, so let us know what you think by reporting issues under Your Phone > Settings > Send feedback.
+__7/3/2019__
+Hello Windows Insiders. Today, we’re bringing additional new features to the Phone screen, which includes the ability to one touch tap and integration with Notifications. Try out these preview features and give us your feedback.
+
+### Enabling touch functionality
+You will now be able to interact with your phone screen using one-touch tap and long press. This handy feature will allow you to conveniently open apps, select items, click on links, and more, directly on your touch-enabled PC.
+
+### Notifications integration with Phone screen
+We’re pleased to launch Notifications integration with Phone screen for Insiders with the May 2019 update or newer. If Phone screen is set up, your notifications will open in Phone screen allowing you to interact with your keyboard and mouse. If Phone screen is not supported or set up, clicking on notifications will take you to your notifications feed instead.
+Note that your text message notifications (SMS, MMS) will continue to be available within the messaging node.
+
+![Your Phone](images/18932-1.png "Notifications integration with Phone screen")
+![Your Phone](images/18932-2.png "Notifications integration with Phone screen 2")
+ 
+### Your Phone Notifications available to all users
+Thank you to everyone who gave us feedback over the last few weeks to help us improve the Notifications feature in the Your Phone app. We’re happy to announce that this feature is now gradually rolling out to all Windows 10 users with the April 2018 update and newer. It may take a few days to show up within Your Phone app, so keep a look out!
+
+### Phone screen requirements
+* Select Android phones running Android 7.0 or greater 
+* Samsung Galaxy S10e, S10, S10+, S9, S9+, S8, S8+
+* Samsung Galaxy A8, A8+
+* Samsung Galaxy Note 9, Note 8
+* OnePlus 6, 6T
+* Windows 10 PCs with Bluetooth radio that support low-energy peripheral role
+* Minimum Windows Insiders Build 18338 and above
+* Android phone must be on, within Bluetooth range of the PC and connected to the same network as the PC
+
+__5/29/2019__
 
 ## Your Phone app – Introducing even more new features 
 We’re bringing multiple new features to the Your Phone app in this build. Try them out and let us know what you think.

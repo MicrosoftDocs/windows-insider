@@ -52,7 +52,12 @@ For details regarding the 19H2 feature update for Windows 10, see this [blog pos
 
 | Build | Slow | 
 |-------|------|
-|18362.10000|[**7/1/2019**](https://blogs.windows.com/windowsexperience/2019/07/01/announcing-windows-10-insider-preview-build-18362-10000-19h2/#KQ0Bs3IOxupv4cJu.97)|
+|18362.10006*|[**7/17/2019**](https://blogs.windows.com/windowsexperience/2019/07/15/announcing-windows-10-insider-preview-build-18362-10005-19h2/#lPWlUoqlUbDUCrUL.97)|
+|18362.10005|[7/15/2019](https://blogs.windows.com/windowsexperience/2019/07/15/announcing-windows-10-insider-preview-build-18362-10005-19h2/#lPWlUoqlUbDUCrUL.97)|
+|18362.10000|[7/1/2019](https://blogs.windows.com/windowsexperience/2019/07/01/announcing-windows-10-insider-preview-build-18362-10000-19h2/#KQ0Bs3IOxupv4cJu.97)|
+
+>[!NOTE] 
+> "*" denotes that the update went out to only a subset of Windows Insiders in the Slow ring which means not everyone in the Slow ring will see the update.
 
 ## Windows 10 May 2019 Update (19H1)
 
