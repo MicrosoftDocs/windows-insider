@@ -48,7 +48,8 @@ The items in **bold** are the latest releases for the individual versions of the
 
 | Build | Slow |
 |-------|------|
-|18362.10005|[**7/15/2019**](https://blogs.windows.com/windowsexperience/2019/07/15/announcing-windows-10-insider-preview-build-18362-10005-19h2/)|
+|18362.10006|[**7/17/2019**](https://blogs.windows.com/windowsexperience/2019/07/15/announcing-windows-10-insider-preview-build-18362-10005-19h2/)|
+|18362.10005|[7/15/2019](https://blogs.windows.com/windowsexperience/2019/07/15/announcing-windows-10-insider-preview-build-18362-10005-19h2/)|
 |18362.10000|[7/01/2019](https://blogs.windows.com/windowsexperience/2019/07/01/announcing-windows-10-insider-preview-build-18362-10000-19h2/)|
 
 ## Windows 10 May 2019 Update (19H1)
