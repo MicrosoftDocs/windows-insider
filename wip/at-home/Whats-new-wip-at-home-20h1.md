@@ -14,6 +14,20 @@ ms.prod: w10
 # What's new for Windows 10 Insider Preview Builds (20H1)
 The [Windows Insider Program](https://insider.windows.com/en-us/) lets you preview builds of the upcoming 20H1 release of Windows 10. This topic lists all new Windows 10 features for you to try. 
 
+## Updating the Korean IME
+Earlier in this development cycle, we released [updated versions of both the Chinese and Japanese IMEs](https://blogs.windows.com/windowsexperience/2019/04/10/announcing-windows-10-insider-preview-build-18875/#shlPX8HU74Tl0frv.97). As part of our ongoing efforts to modernize and improve your typing experience in Windows, today we’re rolling out an updated version of the Korean IME to all Insiders in the Fast ring. This update is going out with the goal of making the IME more secure, reliable, and more beautiful to look at.
+
+For those who’re familiar with typing in Korean, the changes will be most noticeable if you write in Hanja; we have a new candidate selection window that uses modern controls and clearer typography:
+
+![Korean IME](images/18941-1.png "Updating the Korean IME")
+
+We have also improved the algorithm used for text prediction when writing Korean using the touch keyboard. Text suggestions should now be more accurate and relevant to what you are writing.
+With this change, we have a couple of known issues we’re working on addressing:
+* Typing very fast in Notepad can cause the IME to stop working. If you experience this, restarting Notepad should resolve it.
+* Pressing hotkeys, such as CTRL + A, in while in the middle of writing a Hangul letter has inconsistent behavior across apps.
+
+We started rolling this change out to a small portion of Insiders a few days ago, and appreciate the feedback shared so far! Your feedback helps make Windows is better for everyone, so please don’t hesitate to [continue sharing your thoughts and experiences](https://aka.ms/inputfeedback).
+
 ## Quick Event Create from the Taskbar (Build 18936)
 Do you ever open the clock and calendar flyout to help organize your thoughts while making plans? We’ve been working on making it easier to create new events and reminders, and are happy to announce that as of today, all Insiders in the Fast ring should see this when you click on the date in the taskbar:
 ![Taskbar](images/18936-1.png "Quick Event Create from the Taskbar")'
