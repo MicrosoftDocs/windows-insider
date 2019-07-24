@@ -117,7 +117,8 @@ We’ve optimized the information you hear with Narrator when navigating a table
 WSL 2 is a new version of the architecture that powers the Windows Subsystem for Linux to run ELF64 Linux binaries on Windows. This new architecture, which uses a real Linux kernel, changes how these Linux binaries interact with Windows and your computer’s hardware, but still provides the same user experience as in WSL 1 (the current widely available version). WSL 2 delivers a much faster file system performance and full system call compatibility, which lets you run more applications like Docker!
 [Read more about the release of WSL 2](https://devblogs.microsoft.com/commandline/wsl-2-is-now-available-in-windows-insiders/).
 
-![Windows Subsystem for Linux 2](images/18917-2.gif "WSL 2 delivers a much faster file system performance and full system call compatibility")'
+![Windows Subsystem for Linux 2](images/18917-2-1.gif "WSL 2 delivers a much faster file system performance and full system call compatibility")
+
 
 ## Windows Ink Workspace Updates (Build 18917)
 As we mentioned last week, you may notice that Windows Ink Workspace has changed on your PC. That’s because we’re updating the Windows Ink Workspace experience and starting to roll it out to some Insiders.
