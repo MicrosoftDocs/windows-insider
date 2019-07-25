@@ -16,7 +16,7 @@ The [Windows Insider Program](https://insider.windows.com/) lets you preview bui
 
 ## Notable New Features
 
-### Windows Sandbox!
+### Windows Sandbox
 
 Windows Sandbox is a new lightweight desktop environment tailored for safely running applications in isolation.
 How many times have you downloaded an executable file, but were afraid to run it? Have you ever been in a situation which required a clean installation of Windows, but didn’t want to set up a virtual machine?
@@ -169,7 +169,7 @@ In [Build 18252](https://blogs.windows.com/windowsexperience/2018/10/03/announci
 
 If multiple apps are using your microphone, then it will just list how many are actively using your microphone. We still have a bit more to do, stay tuned!
 
-### Shadows are back!
+### Shadows are back
 
 As some keen-eyed Insiders have noticed, we recently started re-rolling out the shadows work we originally introduced with [Build 17711](https://blogs.windows.com/windowsexperience/2018/07/06/announcing-windows-10-insider-preview-build-17711/). Shadows are part of our long-term vision of the [evolution of Fluent Design](https://developer.microsoft.com/events/build/content/fluent-design-system-evolution?playlist=41f18bdd-6d5a-44b9-8586-0fa36ed91c45), and we’re excited to bring them back to you today after addressing some of the feedback you shared with us following the initial rollout.
 
@@ -221,7 +221,7 @@ Note: You may notice the [new Office icons](https://medium.com/microsoft-design/
 ![Office app for Windows 10](images/18305-15.png "Introducing the Office app for Windows 10")
 
 
-### New Chrome Extension for Timeline
+### New Chrome extension for Timeline
 We’re pleased to announce an extension that collects activities from your Google Chrome browser and adds them to your Timeline in Windows. You can download the new Web Activity extension now from the [Chrome Web Store](https://chrome.google.com/webstore/detail/web-activities/eiipeonhflhoiacfbniealbdjoeoglid).  Just sign-in to the extension on your Chrome browser with your Microsoft account, visit a site in Chrome, then watch it appear on Timeline – and pick up where you left off. Your Chrome activities will also sync with Timeline on Android devices using the [Microsoft Launcher app](https://www.microsoft.com/launcher).
 
 
@@ -243,7 +243,7 @@ More often than not, when you download a file, you don’t change the name befor
 >[!NOTE]
 >If you’ve already altered the current sorting from the default in any way, we will not change it – this is only for people who haven’t changed it. If at any point you want to switch sortings, you can do so from the View tab in File Explorer. Some Insiders have had this change for a little bit now, and based on positive feedback we’re now rolling it out to 100% of Fast.
 
-### Friendly Dates in File Explorer
+### Friendly dates in File Explorer
 
 Thank you for all of the feedback you provided on Friendly Dates in File Explorer. At this time, we’ve decided not to roll out [Friendly Dates](https://blogs.windows.com/windowsexperience/2018/12/19/announcing-windows-10-insider-preview-build-18305/#xPPTWdO73EwgkGtZ.97) to users as part of the 19H1 release.
 
@@ -333,7 +333,6 @@ You can now send feedback directly from Notepad! Click Help > Send Feedback to o
 ![Send feedback from the Help menu](images/18298-7.png "Send feedback from the Help menu")
 
 ### Other Notepad Improvements Include
-
 - We’ve added support for some additional shortcuts: 
    - Ctrl+Shift+N will open a new Notepad window.
    - Ctrl+Shift+S will open the Save as… dialog.
@@ -344,7 +343,7 @@ You can now send feedback directly from Notepad! Click Help > Send Feedback to o
 - We’ve fixed a recent regression where Notepad would no longer create a new file when launched with a file path that didn’t exist.
 ## General Settings Improvements
 
-### Updated Settings Homepage
+### Updated settings homepage
 
 At this time the updated design is only available for Home and non-domain-joined Windows 10 Pro edition PCs. It’s currently in the process of rolling out to those editions – we will update this message once it’s live for everyone.
 
@@ -356,16 +355,16 @@ We are introducing a simplified Windows Insider Program Settings page via Settin
 ![Windows Insider Program Settings](images/18317-3.jpg "A simpler Windows Insider Program Settings page")
 
 
-### Drag & Drop installation in Settings
+### Drag & Drop installation in settings
 Insiders today can now drag and drop font files from File Explorer into the modern Settings > Fonts page to install them. After installation, click on the font in the Font page, to view the different font faces associated with the font and all the details of the font. You can also uninstall the font from this font details page. Drag and drop font installation by default is installed as a per-user font which does not require elevation, hence it will not be available for other users. To install the font for all users in the device, use the “Install for all Users” option by right clicking the font on file explorer.
 
 ![Font Management](images/18317-2.gif "A Better Font management experience in Settings")
 
-### Improved Storage Settings page
+### Improved Storage settings page
 You can now get a quick and dynamic storage breakdown of your system! Navigate to the Storage page (Open Start and search “Storage settings”) to see an actionable list of how your storage is used. Click on the different categories to take action and free up some space.
 
 
-### Sync your clock
+### Sync your Clock
 
 In response to your feedback, we're adding an option in Date & Time Settings to manually synchronize your clock with the time server. This will help in scenarios where you think the clock might be out of sync, or if the time service has been disabled. We'll also show the last time that time was successfully synced, and the address of your current time server.
 
@@ -431,7 +430,7 @@ Introducing Narrator Home: Every time you turn on Narrator, you’ll be taken to
 
    ![Shows Narrator Home page](images/18298-8.png "Shows Narrator Home page")
 
-####Narrator works better with Chrome now
+### #Narrator works better with Chrome now
 Using up and down arrows in scan mode, navigating with tab key, continuous reading commands, and navigating by headings and links have initial support for Chrome, with more functionality coming in future flights.
 ### Narrator Braille
 BRLTTY version 5.6 is now provided which adds USB support for Inceptor and Orbit 20 displays. In addition, the BrailleNote Touch is recognized when using USB. Baum displays can now use B9 and B10 interchangeably. Liblouis binaries and tables have been updated to version 3.7.0.
@@ -459,12 +458,18 @@ Narrator Home navigation: The main actions on Narrator Home, such as QuickStart 
 Added Narrator + 5 twice Narrator command to render current character phonetics.
 #### Narrator Verbosity Improvements
 We are improving the amount of information you hear while interacting in Windows and you will see these changes filter in throughout future builds. In the current release we have a new Narrator Setting entitled “Hear advanced information about controls when navigating”. When this feature is off you will not hear the advanced information previously spoken on controls. In addition, Tooltips will not be read by default. Use the Narrator Advanced Information command (Narrator + 0) to read a tooltip on a given item. In addition, you will notice that some control information will now begin to speak in a more consistent manner. Checkboxes and radio buttons will be the first controls with this new behavior.
+
 More consistent reading experience: Narrator text reading commands (previous/next for character/word/line/sentence/paragraph/page) can now be used to scan a full window from top to bottom. It is no longer possible to get the “not on explorable text” error and only when you reach the boundary of the window will you receive “no next/previous text.” Also, the views options are now consistent whether you are within text content or not. For example, you can now use the views option to search for a link anywhere within the active window.
 Read by Sentence Braille support: The new read by sentence commands are now available via a braille display by pressing dots 2-3-4 or 2-3-4-7 in command input mode. Note, we are still working on fixing a couple issues.
+
 Narrator character phonetic reading optimization: In a previous release, Narrator received support for reading characters phonetically. That is, reading out “a Alfa, b Bravo, c Charlie” while navigating “abc” by character.
+
 Since then, we have received feedback that you didn’t want to hear the phonetic information announced automatically. Instead, this should be an on-demand feature, to be called upon only when you needed it. In this release, we will no longer announce the phonetic information automatically. As you navigate by characters, this information will be omitted. If you need the phonetic information to disambiguate characters, you can issue a command to hear the phonetics. Use the keyboard command of Narrator key + Comma twice quickly. If, for example, you are using the Standard Keyboard layout with the default Narrator key setting of “Caps Lock or Insert”, you would issue the command of Caps Lock + Comma (or Insert + Comma), where the Comma key is pressed twice quickly while depressing the Caps Lock (or Insert) key.
+
 If you need to hear phonetics for a string of characters in a sustained fashion, the phonetics can be read out continuously as you move forward or backward through a range of characters with the Read Next Character command (Narrator key + Period) or Read Previous Character command (Narrator key + M). However, in this mode, you will only hear the phonetics announced and not the characters themselves (e.g., “Alfa Bravo Charlie”). To stop hearing the phonetics, press any other command (e.g., Left arrow, Right Arrow, Tab, etc.) or re-issue the Read Current Character command (Narrator key + Comma). Subsequent reading of next and previous characters via Narrator key + Period or Narrator key + M will return to reading just the characters, without phonetic information.
+
 If you prefer the original character phonetic reading behavior, a setting has been added for you to toggle on the automatic reading of phonetics.
+
 #### Narrator Read by Sentence
 You can now read next, current and previous sentences in Narrator. Read by sentence is available with the keyboard and with touch. Move by sentence doesn’t yet work for Braille.
 ##### Caps + Ctrl + Period (.) to Read next sentence
