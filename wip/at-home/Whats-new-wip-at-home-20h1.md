@@ -14,6 +14,64 @@ ms.prod: w10
 # What's new for Windows 10 Insider Preview Builds (20H1)
 The [Windows Insider Program](https://insider.windows.com/en-us/) lets you preview builds of the upcoming 20H1 release of Windows 10. This topic lists all new Windows 10 features for you to try. 
 
+## Introducing a new Cortana experience for Windows 10 (Build 18945)
+We are beginning to roll out a new Cortana experience for Windows 10 as a Beta to Windows Insiders in the U.S. This new experience features a brand-new chat-based UI that gives you the ability to type or speak natural language queries.
+
+![Cortana](images/18945-1.png "Introducing a new Cortana experience for Windows 10 ")
+
+It supports most of the Cortana features people enjoy using on Windows, such as Bing answers, Assistant conversations, opening apps, managing lists, and setting reminders, alarms, and timers. And we’ve added some new features we think people will enjoy:
+
+* Cortana now supports both light and dark themes in Windows.
+* We have created a new, less intrusive screen for “Hey Cortana” queries so you can stay in the flow while you work.
+* We have updated Cortana with new speech and language models, and significantly improved performance – making it faster and more reliable than ever before.
+
+Not all the features from the previous Cortana experience are available just yet. As a Beta, we plan to add more features over time with updates to Cortana from the Microsoft Store.
+
+To get started, choose the Cortana icon on the taskbar next to the search box. You can also leverage the speed and convenience of voice with improved speech recognition by simply saying “Hey Cortana”*. You may need to sign-in with your account to get started.
+
+__Note:__ This requires enabling this functionality in Settings > Voice activation privacy settings  – Talk to Cortana. 
+
+If you’re an Insider in the U.S. and are not seeing the new experience, please be patient as we’re slowing rolling it out. Additional markets and languages will become available at a later date. You must be signed in to use Cortana. Historically, there were quite a few skills that could be used unauthenticated (Bing answers, open apps, Assistant conversations) but this is no longer the case. Only limited skills are currently supported in the new experience. Don’t worry we’ll be bringing back many skills over the coming months.
+
+## Windows Subsystem for Linux (WSL) Improvements (Build 18945) 
+### Added connecting via localhost to WSL 2 Linux apps from Windows and global WSL configuration options
+
+You’ll now be able to connect to your WSL 2 Linux networking applications using localhost. For example, the image below shows starting a NodeJS server in a WSL 2 distro, and then connecting to it in the Edge Browser with localhost.
+
+![WSL 2](images/18945-2.png "Added connecting via localhost to WSL 2 Linux apps from Windows and global WSL configuration options")
+
+Additionally, we’ve added global configuration options for WSL. These are options that will apply to each of your WSL distros. This also allows you to specify options that relate to the WSL 2 virtual machine (VM), as all your WSL 2 distros run inside of the same VM. The most exciting option that you’ll get access to in this build is being able to specify a custom Linux kernel!
+For the full details on what’s new in this release, check out [What’s new for WSL in Insiders Preview Build 18945](http://devblogs.microsoft.com/commandline/whats-new-for-wsl-in-insiders-preview-build-18945) on the Windows command line blog.
+
+## Accessibility Improvements (Build 18945)
+
+### Narrator now provides a more efficient reading experience when reading messages in Outlook or Windows Mail
+
+When the message is opened, Scan Mode will turn on automatically. This allows the user to use their arrow keys to read the message in addition to all other Scan Mode hotkeys to jump through the text of the message.
+
+Email messages like newsletters and marketing content are often formatted using tables to visually represent the look of the message. For a screen reader user, this information is not needed while reading the message. Narrator now recognizes some of these situations and will remove the information about the table to allow you to quickly move through the text contained in the message. This lets you to be much more efficient while reading these types of email messages.
+#### Known issues
+* The cursor may not move to the location last read as Narrator auto-reads when an Outlook message is opened while in Scan Mode.
+* Narrator will start reading when replying to a message. Press the control key and move to the top of the message to write your reply.
+
+### Narrator’s Outlook folder reading has been enhanced for an optimal triaging experience
+As you read through your emails in Outlook, such as the inbox, Narrator now reads the information more efficiently. Each line item now starts with the status of the email, such as unread, forwarded, etc., followed by the other columns, such as from, subject, etc. Column headers will be silenced and columns with no data or that have the default (expected value) will be silenced, such as normal importance or unflagged, etc. While in Outlook, headers can be turned back on by pressing Narrator + H which will toggle their reading on and off.
+
+### Text cursor indicator
+Have you ever had an issue finding the text cursor in the middle of a large amount of text, during a presentation, or on the screen in an educational setting? The new Text cursor indicator will help you see and find the text cursor wherever you are at any time! Select from a range of sizes for the text cursor indicator and make it a color easy for you to see. Or, personalize the color of your text cursor indicator to your personal preference. In the Ease of Access settings, open the new Text cursor page, turn on the text cursor indicator, and never lose track of your text cursor ever again!
+
+![Accessibility](images/18945-3.png "Text cursor indicator")
+
+#### Known issues 
+* Text cursor indicator color and size might not persist when you sign in. To work around that, simply turn off and turn on the “Use text cursor indicator” setting again.
+* Occasionally, you might see that the text cursor indicator stay on the screen or reappear after the app has been closed or the page contents have scrolled away.
+
+## Updated File Explorer search rolling out to all Insiders
+Over the next few days, [the new File Explorer search experience](https://blogs.windows.com/windowsexperience/2019/05/08/announcing-windows-10-insider-preview-build-18894/#QfdoEyQ3TQXvJVoD.97) will be rolling out to all Insiders in the Fast ring! Thanks everyone who’s shared feedback so far and helped us to improve the experience. Please don’t hesitate to share any other comments – you can file feedback for this area under Files, Folders, and Storage > File Explorer in the Feedback Hub.
+
+![File Exploer](images/18945-4.png "pdated File Explorer search rolling out to all Insiders")
+
+
 ## Updating the Korean IME
 Earlier in this development cycle, we released [updated versions of both the Chinese and Japanese IMEs](https://blogs.windows.com/windowsexperience/2019/04/10/announcing-windows-10-insider-preview-build-18875/#shlPX8HU74Tl0frv.97). As part of our ongoing efforts to modernize and improve your typing experience in Windows, today we’re rolling out an updated version of the Korean IME to all Insiders in the Fast ring. This update is going out with the goal of making the IME more secure, reliable, and more beautiful to look at.
 
