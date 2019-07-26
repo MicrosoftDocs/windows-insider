@@ -15,91 +15,8 @@ ms.prod: w10
 The [Windows Insider Program](https://insider.windows.com/) lets you preview builds of the upcoming release of Windows 10. This topic lists all of the updates that were part of the 19H1 development now known as "version 1903."
 
 ## Notable New Features
-### Improving Windows light theme (Build 18323)
-We introduced the new light theme in Windows 10 with [Build 18282](https://docs.microsoft.com/windows-insider/at-home/whats-new-wip-at-home#windows-light-theme-build-18282) and today’s build has some improvements to light theme worth taking note of based on your feedback:
 
-* We fixed an issue where the text in the battery flyout might become unreadable in light theme due to it being white.
-* We fixed an issue where the scrollbar in the network flyout wasn’t visible in light theme.
-* We fixed an issue where the autoplay icon in the systray wasn’t visible in light theme.
-* We fixed an issue where impacting the network and volume icons in the notification area where after switching to light theme they wouldn’t update from white to black until explorer restarted.
-* We fixed a similar issue where not all supported app icons in the taskbar would switch colors on the taskbar when switching between light and dark theme (particularly on the secondary monitor).
-* We’ve made some adjustments to address issues where when using light theme white icons in notifications weren’t readable.
-* We’re updating the Settings icon to now be dark grey in the taskbar when light theme is enabled rather than black.
-
-
-![Image 1](images/18282-image1.png)
-
-Ever since we introduced the ability to choose between light and dark in Windows 10, we've heard feedback asking for a truer separation between the two options. When you select **Light** under **Settings > Personalization > Colors**, the expectation is that the system color would be lighter too. And it didn't do that before – the taskbar and many other things stayed dark. Now, if you choose Light under **Settings > Personalization > Colors**, *all* system UI will now be light. This includes the taskbar, Start menu, Action Center, touch keyboard, and more.
-
-When you update to this build, your system color won't automatically change to the new light system color. This is because we want everything to be exactly as you left it before you did the update. We're leaving the choice up to you! If you had light mode selected prior to the update, this is what Color Settings will look like after updating:
-
-![Image 2](images/18282-image2.png)
-
-To try the full light experience, just select **Light** in the **Choose your color** dropdown.
-
-**As part of this work we're also adding a new default wallpaper!** Showcased above, you can use it on your PC today by going to **Settings > Personalization > Themes** and selecting **Windows Light**. This will also change your PC to be light themed.
-
-We look forward to [hearing your feedback](https://aka.ms/themingfeedback) on the new light system color experience. However, please note that we're still working on "lightening up" different pieces of the OS and refining the experience. For example, the OneDrive icon in the notification area (system tray) is white, making it hard to see when you are using the light system color. Expect us to refine this experience.
-
-## Bringing window snip to your modern snipping experience
-
-When we [started this journey](https://blogs.windows.com/windowsexperience/2018/05/03/announcing-windows-10-insider-preview-build-17661/), we asked for your feedback and two requests shone above the rest:
-
-- Add a delay snip option
-- Add window snip mode
-
-Delay snip was the first on our list, and we added it with [app version 10.1807](https://blogs.windows.com/windowsexperience/2018/09/06/announcing-windows-10-insider-preview-build-18234/#F4J20LU38c8B3Prp.97). We then addressed a few more of your requests with app version 10.1809*, and today are really excited to announce that window snip is on its way to Insiders too!
-
-![image 3](images/18282-image3.png)
-
-Start your snip via your preferred entry point (WIN + Shift + S, Print Screen (if you've enabled it), directly from within Snip & Sketch, etc.), and select the window snip option at the top, and snip away! That selection will be remembered the next time you start a snip.
-
-Currently the window snipping experience is available for 50% of Insiders, as we want to ensure a smooth rollout – we'll let you know once it's live for 100%.
-
-What's next? [Let us know](https://aka.ms/snippingfeedback) what you'd like to see!
-
->[!NOTE]
->This app update is now starting to roll out to people on Windows 10 version 1809! Please note that the borders feature is currently only supported on 19H1 builds, and like window snipping is currently only available for 50% of Insiders.
-
-## Clipboard history gets a new look
-
-Have you already tried using clipboard history? If enabled, it allows you to save multiple clipboard items to use later. Introduced during [RS5 development](https://blogs.windows.com/windowsexperience/2018/05/09/announcing-windows-10-insider-preview-build-17666/#QTs2bQCzsFd2D0d1.97), we’ve been getting great feedback from everyone on this experience, and one of the things we heard most is that the UI wasn’t compact enough – a large space was used for each entry even if it was just a small text fragment. We originally opted to show bigger entries so there was space to show an image preview nicely, but when we looked at our data, we found 90% of items in the clipboard history were text. Based on that and your feedback, we now optimizing the design for text snippets – shrinking the height of each entry and thus giving you access to more entries without needing to scroll the view. Hope you like the change we made! Copy some text and press __Windows logo key + V__ to check out the updated design.
-
-![Symbols and Kaomoji](images/18305-6.png "Symbols and Kaomoji are now just a hotkey away!")
-
-## Emoji 12.0 Update
-With [Build 18277](https://blogs.windows.com/windowsexperience/2018/11/07/announcing-windows-10-insider-preview-build-18277/), Insiders got their first look at the Emoji 12.0 emoji. In early February, the set of emoji to be included with Emoji 12.0 was finalized by Unicode, and with today’s build, when you press WIN+(period) or WIN+(semicolon), all of these emoji now have keywords hooked up to make them easy to search for. Try it once you install the build! Keywords include otter, sloth, waffle, ballet shoes, and more.
-
-![Emoji 12](images/18348-1.png "Seach Emoji 12 by keyword")
-
-* If you have already tried State of Decay and everything worked: we’d appreciate you uninstalling State of Decay and then trying the install again, to make sure everything still works.
-* If you have already tried State of Decay and something didn’t work: please try again and see if your issue has been addressed. If not, it would help us a lot if you let us know using the Feedback Hub in Windows (instructions here in this post). Even if you already sent feedback on the issue before, it’s very helpful to know that it’s still happening on a new version of Windows.
-* If you were not able to get a slot for State of Decay: we’ve opened up more slots now, so just go to the Xbox Insider hub and click Insider content to join. NOTE: we’re still limiting availability as we roll out, so we recommend joining right away. If you miss out this time, don’t worry, we’ll be adding more again soon!
-* If you are trying State of Decay for the first time: just do the following: 
-1. Install the [Xbox Insider Hub app](https://www.microsoft.com/p/xbox-insider-hub/9nblggh68vsk) on the PC you’ll be flighting on (link opens in Store app).
-2. Sign in to the Xbox Insider Hub with your Gamertag. If you don’t have a Gamertag, see [instructions](https://blogs.windows.com/windowsexperience/2019/02/08/announcing-windows-10-insider-preview-build-18334/#wiEwkHc4ZzC1JE8s.97).
-3. Select Insider Content in the upper left.
-4. Scroll to the bottom and select the Windows Gaming program (in the System section).
-5. Join the program.
-6. Follow the instructions from [Build 18334](https://docs.microsoft.com/windows-insider/at-home/whats-new-wip-at-home#help-gaming-on-windows-and-play-state-of-decay-build-18334-1), skipping any steps you’ve already completed above.
-
-If you see any problems downloading or installing the game, or if important functionality like game saving isn’t working, please be sure to use the Feedback Hub to tell us. And thank you again for helping us find any issues!
-
-## Start, Taskbar, Action Center & Apps
-
-### Introducing the Office app for Windows 10
-
-This month, Windows Insiders get their first look at the new Office app, a simple experience designed to help users get the most out of Office and get back into their work quickly. This app is based on the redesigned [Office.com](https://office.com/) experience, which has had great user feedback and has changed how many of our web users engage with Office on a daily basis.
-
-The app is a great starting point for Office that helps you easily find all your files in one place or easily access any Office solution available to you. It knows to connect you to the Office rich clients if they are installed on your computer or it will send you to the web version of Office if they’re not. IT will also appreciate the ability to customize the app by integrating other line of business applications that use Azure Active Directory into the experience and apply corporate branding to the app.
-
-Please see the [Microsoft 365 Blog post](https://www.microsoft.com/microsoft-365/blog/2018/12/19/introducing-the-office-app-for-windows-10/) for more information on the Office app. Start using the app to get the most out of Office, and please let us know what you think via the feedback link under “Settings.”
-
-Note: You may notice the [new Office icons](https://medium.com/microsoft-design/redesigning-the-office-app-icons-to-embrace-a-new-world-of-work-91d72608ee8f) in the screenshot above! They aren’t live for Insiders yet, but we wanted you to get a taste of what it will look like once they are.
-
-![Office app for Windows 10](images/18305-15.png "Introducing the Office app for Windows 10")
-
-### Introducing Windows Sandbox!
+### Windows Sandbox
 
 Windows Sandbox is a new lightweight desktop environment tailored for safely running applications in isolation.
 How many times have you downloaded an executable file, but were afraid to run it? Have you ever been in a situation which required a clean installation of Windows, but didn’t want to set up a virtual machine?
@@ -123,9 +40,80 @@ For more information, please visit [Windows Sandbox](https://techcommunity.micro
 We are excited to learn how you use Windows Sandbox! As we continue to add new functionality, your feedback is crucial in shaping the direction of this feature, so share your thoughts with us at [Feedback Hub](https://aka.ms/windowssandbox-fb).
 
 ![Windows Sandboxing](images/18305-2.png "Windows Sandboxing")
+### Windows light theme
+We introduced the new light theme in Windows 10 with [Build 18282](https://docs.microsoft.com/windows-insider/at-home/whats-new-wip-at-home#windows-light-theme-build-18282) and today’s build has some improvements to light theme worth taking note of based on your feedback:
 
-### New Chrome Extension for Timeline
-We’re pleased to announce an extension that collects activities from your Google Chrome browser and adds them to your Timeline in Windows. You can download the new Web Activity extension now from the [Chrome Web Store](https://chrome.google.com/webstore/detail/web-activities/eiipeonhflhoiacfbniealbdjoeoglid).  Just sign-in to the extension on your Chrome browser with your Microsoft account, visit a site in Chrome, then watch it appear on Timeline – and pick up where you left off. Your Chrome activities will also sync with Timeline on Android devices using the [Microsoft Launcher app](https://www.microsoft.com/launcher).
+* We fixed an issue where the text in the battery flyout might become unreadable in light theme due to it being white.
+* We fixed an issue where the scrollbar in the network flyout wasn’t visible in light theme.
+* We fixed an issue where the autoplay icon in the systray wasn’t visible in light theme.
+* We fixed an issue where impacting the network and volume icons in the notification area where after switching to light theme they wouldn’t update from white to black until explorer restarted.
+* We fixed a similar issue where not all supported app icons in the taskbar would switch colors on the taskbar when switching between light and dark theme (particularly on the secondary monitor).
+* We’ve made some adjustments to address issues where when using light theme white icons in notifications weren’t readable.
+* We’re updating the Settings icon to now be dark grey in the taskbar when light theme is enabled rather than black.
+
+
+![Image 1](images/18282-image1.png "Windows light theme")
+
+Ever since we introduced the ability to choose between light and dark in Windows 10, we've heard feedback asking for a truer separation between the two options. When you select **Light** under **Settings > Personalization > Colors**, the expectation is that the system color would be lighter too. And it didn't do that before – the taskbar and many other things stayed dark. Now, if you choose Light under **Settings > Personalization > Colors**, *all* system UI will now be light. This includes the taskbar, Start menu, Action Center, touch keyboard, and more.
+
+When you update to this build, your system color won't automatically change to the new light system color. This is because we want everything to be exactly as you left it before you did the update. We're leaving the choice up to you! If you had light mode selected prior to the update, this is what Color Settings will look like after updating:
+
+![Image 2](images/18282-image2.png "color settings")
+
+To try the full light experience, just select **Light** in the **Choose your color** dropdown.
+
+**As part of this work we're also adding a new default wallpaper!** Showcased above, you can use it on your PC today by going to **Settings > Personalization > Themes** and selecting **Windows Light**. This will also change your PC to be light themed.
+
+We look forward to [hearing your feedback](https://aka.ms/themingfeedback) on the new light system color experience. However, please note that we're still working on "lightening up" different pieces of the OS and refining the experience. For example, the OneDrive icon in the notification area (system tray) is white, making it hard to see when you are using the light system color. Expect us to refine this experience.
+
+### Windows Snip
+
+When we [started this journey](https://blogs.windows.com/windowsexperience/2018/05/03/announcing-windows-10-insider-preview-build-17661/), we asked for your feedback and two requests shone above the rest:
+
+- Add a delay snip option
+- Add window snip mode
+
+Delay snip was the first on our list, and we added it with [app version 10.1807](https://blogs.windows.com/windowsexperience/2018/09/06/announcing-windows-10-insider-preview-build-18234/#F4J20LU38c8B3Prp.97). We then addressed a few more of your requests with app version 10.1809*, and today are really excited to announce that window snip is on its way to Insiders too!
+
+![image 3](images/18282-image3.png "windows snip")
+
+Start your snip via your preferred entry point (WIN + Shift + S, Print Screen (if you've enabled it), directly from within Snip & Sketch, etc.), and select the window snip option at the top, and snip away! That selection will be remembered the next time you start a snip.
+
+Currently the window snipping experience is available for 50% of Insiders, as we want to ensure a smooth rollout – we'll let you know once it's live for 100%.
+
+What's next? [Let us know](https://aka.ms/snippingfeedback) what you'd like to see!
+
+>[!NOTE]
+>This app update is now starting to roll out to people on Windows 10 version 1809! Please note that the borders feature is currently only supported on 19H1 builds, and like window snipping is currently only available for 50% of Insiders.
+
+### Clipboard history redesign
+
+Have you already tried using clipboard history? If enabled, it allows you to save multiple clipboard items to use later. Introduced during [RS5 development](https://blogs.windows.com/windowsexperience/2018/05/09/announcing-windows-10-insider-preview-build-17666/#QTs2bQCzsFd2D0d1.97), we’ve been getting great feedback from everyone on this experience, and one of the things we heard most is that the UI wasn’t compact enough – a large space was used for each entry even if it was just a small text fragment. We originally opted to show bigger entries so there was space to show an image preview nicely, but when we looked at our data, we found 90% of items in the clipboard history were text. Based on that and your feedback, we now optimizing the design for text snippets – shrinking the height of each entry and thus giving you access to more entries without needing to scroll the view. Hope you like the change we made! Copy some text and press __Windows logo key + V__ to check out the updated design.
+
+![image4](images/18305-6.png "clipboard history redesign")
+
+### Easy Symbols and Kaomoji Access
+Ever tried to type an em dash, and couldn’t remember the Alt key code? Wanted to post “flipping the table” in social media, but couldn’t remember the sequence of characters? When you press WIN+(period) or WIN+(semicolon), in addition to emoji the picker that appears will now include symbols and kaomoji too!
+
+You may ask, [what is kaomoji](https://en.wikipedia.org/wiki/Emoticon#Japanese_style_kaomoji)? Translated literally from Japanese, it means “face characters” – basically, it’s a way to create faces using only text. You may already use them, for example the one mentioned above [is relatively popular](https://knowyourmeme.com/memes/flipping-tables-%E2%95%AF%E2%96%A1%E2%95%AF%EF%B8%B5-%E2%94%BB%E2%94%81%E2%94%BB): (╯°□°)╯︵ ┻━┻
+
+Diving more into the symbols side, you’ll find we’ve included sections for punctuation, currency, geometric, math, Latin, and language symbols. As you pick your most commonly used symbols, the most recently used tab will populate with them, so it will be even easier to select them next time.
+Currently only the emoji section supports type to search.
+
+This experience, originally introduced for Chinese (Simplified) during RS5 development, started rolling out to Insiders across all languages with [Build 18252](https://blogs.windows.com/windowsexperience/2018/10/03/announcing-windows-10-insider-preview-build-18252/) – as of today’s it’s now available to all Insiders in Fast! We’d love for you to try it out and share feedback. Tried it out already? With this build, we’ve updated the available kaomoji a bit based on your feedback, including adding ¯\_(ツ)_/¯ and ᓚᘏᗢ.
+
+Currently only the emoji section supports type to search.
+
+![Symbols and Kaomoji](images/18305-5.png "Symbols and Kaomoji are now just a hotkey away!")
+
+### Emoji 12.0 Update
+With [Build 18277](https://blogs.windows.com/windowsexperience/2018/11/07/announcing-windows-10-insider-preview-build-18277/), Insiders got their first look at the Emoji 12.0 emoji. In early February, the set of emoji to be included with Emoji 12.0 was finalized by Unicode, and with today’s build, when you press WIN+(period) or WIN+(semicolon), all of these emoji now have keywords hooked up to make them easy to search for. Try it once you install the build! Keywords include otter, sloth, waffle, ballet shoes, and more.
+
+![Emoji 12](images/18277-image4.png "easy symbols and kaomji")
+
+![Emoji 12](images/18348-1.png "emoji 12.0 Update")
+
+## Start, Taskbar, Action Center & Other Desktop Improvements
 
 ### A simplified Start layout
 Based on your feedback, we’re introducing a simplified default Start layout for new devices, new user accounts, and clean installs. The new layout has been simplified into a sleek one column design with reduced top-level tiles. For the IT admins out there, don’t worry, commercial and education customers will also see a simplified layout tailored to these scenarios.
@@ -139,13 +127,8 @@ Note: When you update to this build, your Start layout won’t automatically cha
 ### The next step in improving Start reliability
 As some of you may already know, up until now Start in Windows 10 has been hosted by something called ShellExperienceHost.exe. In order to provide you the best possible Start experience, we’re separating it into its own process, called StartMenuExperienceHost.exe. This has a number of benefits, including simplifying debugging and insulating Start from potential issues impacting other surfaces. This has been running as an experiment for a few weeks now and we’ve seen measurable improvements in the reliability amongst those that have the change, so we’re rolling it out to everyone. We’re also making a change so that Start no longer suspends, which improves launch time.
 
-![Windows Insider Program Settings](images/18317-3.jpg "A simpler Windows Insider Program Settings page")
-
-### An easier way to unpin folders and tiles
-We’re rolling out a feature where if you right click on a group name or tile folder in Start, you will now have an option to unpin it. Currently 50% of Insiders will have this option.
-
-### Start menu improvements
-**Quick unpin for groups and folders**: Sometimes you just wanna quickly start fresh – over the last few weeks we’ve been rolling out the ability to unpin groups and folders in Start via a new context menu entry. As of today, that option is now available to all Insiders in the Fast ring! Thanks, as always, to everyone who’s shared their feedback so far!
+### Quick unpin for groups and folders on Start
+Sometimes you just wanna quickly start fresh – over the last few weeks we’ve been rolling out the ability to unpin groups and folders in Start via a new context menu entry. As of today, that option is now available to all Insiders in the Fast ring! Thanks, as always, to everyone who’s shared their feedback so far!
 
 ![Quick unpin for Start menu](images/18298-3.png "Quick unpin for Start menu")
 
@@ -153,14 +136,19 @@ We’re rolling out a feature where if you right click on a group name or tile f
 
 Following up on our jump list improvements with [Build 18282](https://blogs.windows.com/windowsexperience/2018/11/14/announcing-windows-10-insider-preview-build-18282/), when you update to today's build you'll notice we've polished up the power and user menus in Start as well – including adding icons for easier identification.
 
-### Evolving Focus assist
-[Starting with the Windows 10 April 2018 Update](https://blogs.windows.com/windowsexperience/2018/05/09/windows-10-tip-how-to-enable-focus-assist-in-the-windows-10-april-2018-update/), we embarked on a journey to help reduce the number of distractions you encounter when you're trying to get in the zone. With today's build, we're taking this to the next level: We've added a new focus assist option so that when you're doing *anything* full screen we can automatically turn on focus assist.
-
-![Image 1](images/18290-image1.png)
+![Image 1](images/18290-image1.png "fluent for menus in start")
 
 This will also be visible in the power menu on the sign in screen.
 
-### Improving your Action Center experience
+### Evolving Focus assist
+[Starting with the Windows 10 April 2018 Update](https://blogs.windows.com/windowsexperience/2018/05/09/windows-10-tip-how-to-enable-focus-assist-in-the-windows-10-april-2018-update/), we embarked on a journey to help reduce the number of distractions you encounter when you're trying to get in the zone. With today's build, we're taking this to the next level: We've added a new focus assist option so that when you're doing *anything* full screen we can automatically turn on focus assist.
+ ![Focus assist updates](images/18277-image1.png "A screenshot of the Focus assist updates")
+
+Watching a movie? Poring over some excel tables? Studying? Focus assist is here for you, and will keep your notifications quiet until you exit full screen mode.
+
+Like our other focus assist settings, this can be found under Settings > System > Focus Assist. Make sure you take a moment to customize your priority list to ensure any notifications you want to break through the rule will appear! If you'd like to turn off the warning notification that's shown in Action Center after entering focus assist, you can do so by clicking the rule in Focus Assist Settings which prompted the notification.
+
+### Action Center Improvements
 One of the top requests we've heard from you is that you'd prefer the brightness Quick action to be a slider instead of a button, and with today's build we're making it happen!
 
 ![Action Center](images/18277-image2.png "Action Center slider")
@@ -181,7 +169,7 @@ In [Build 18252](https://blogs.windows.com/windowsexperience/2018/10/03/announci
 
 If multiple apps are using your microphone, then it will just list how many are actively using your microphone. We still have a bit more to do, stay tuned!
 
-### Shadows are back!
+### Shadows are back
 
 As some keen-eyed Insiders have noticed, we recently started re-rolling out the shadows work we originally introduced with [Build 17711](https://blogs.windows.com/windowsexperience/2018/07/06/announcing-windows-10-insider-preview-build-17711/). Shadows are part of our long-term vision of the [evolution of Fluent Design](https://developer.microsoft.com/events/build/content/fluent-design-system-evolution?playlist=41f18bdd-6d5a-44b9-8586-0fa36ed91c45), and we’re excited to bring them back to you today after addressing some of the feedback you shared with us following the initial rollout.
 
@@ -209,15 +197,7 @@ In the Windows 10 October 2018 Update and prior, only the following inbox apps c
 * Tips
 * Weather
 
-### DPI Awareness in Task Manager
-We added a new optional column to the **Details** tab of **Task Manager** so you can look at DPI awareness per process as in the following example:
-
-![Showing the DPI Awareness category in Task Manager, with examples of Per-Monitor and System ](images/dpi-aware-task-manager.png "Showing the DPI Awareness category in Task Manager, with examples of Per-Monitor and System ")
-
-To show the column, right-click on any of the column headers in the **Details** tab, click **Select Columns**, then add **DPI Awareness** to the list. To learn more about DPI Awareness, see [High DPI Desktop Application Development on Windows](https://docs.microsoft.com/windows/desktop/hidpi/high-dpi-desktop-application-development-on-windows).
-
-
-### Improving your modern printing experience
+### Modern Printing Improvements
 You'll notice a few differences once you update to build 18282:
 
 - First and foremost, the modern print dialog now supports light theme!
@@ -227,6 +207,29 @@ You'll notice a few differences once you update to build 18282:
 If you have any further feedback in the printing space, please don't hesitate to tell us! You can log feedback for this in the Feedback Hub under **Devices and Drivers > Print**.
 
 ![image 4](images/18282-image4.png)
+
+### Introducing the Office app for Windows 10
+
+This month, Windows Insiders get their first look at the new Office app, a simple experience designed to help users get the most out of Office and get back into their work quickly. This app is based on the redesigned [Office.com](https://office.com/) experience, which has had great user feedback and has changed how many of our web users engage with Office on a daily basis.
+
+The app is a great starting point for Office that helps you easily find all your files in one place or easily access any Office solution available to you. It knows to connect you to the Office rich clients if they are installed on your computer or it will send you to the web version of Office if they’re not. IT will also appreciate the ability to customize the app by integrating other line of business applications that use Azure Active Directory into the experience and apply corporate branding to the app.
+
+Please see the [Microsoft 365 Blog post](https://www.microsoft.com/microsoft-365/blog/2018/12/19/introducing-the-office-app-for-windows-10/) for more information on the Office app. Start using the app to get the most out of Office, and please let us know what you think via the feedback link under “Settings.”
+
+Note: You may notice the [new Office icons](https://medium.com/microsoft-design/redesigning-the-office-app-icons-to-embrace-a-new-world-of-work-91d72608ee8f) in the screenshot above! They aren’t live for Insiders yet, but we wanted you to get a taste of what it will look like once they are.
+
+![Office app for Windows 10](images/18305-15.png "Introducing the Office app for Windows 10")
+
+
+### New Chrome extension for Timeline
+We’re pleased to announce an extension that collects activities from your Google Chrome browser and adds them to your Timeline in Windows. You can download the new Web Activity extension now from the [Chrome Web Store](https://chrome.google.com/webstore/detail/web-activities/eiipeonhflhoiacfbniealbdjoeoglid).  Just sign-in to the extension on your Chrome browser with your Microsoft account, visit a site in Chrome, then watch it appear on Timeline – and pick up where you left off. Your Chrome activities will also sync with Timeline on Android devices using the [Microsoft Launcher app](https://www.microsoft.com/launcher).
+
+
+### An easier way to unpin folders and tiles
+We’re rolling out a feature where if you right click on a group name or tile folder in Start, you will now have an option to unpin it. Currently 50% of Insiders will have this option.
+
+
+This will also be visible in the power menu on the sign in screen.
 
 ## File Explorer Improvements
 
@@ -240,7 +243,7 @@ More often than not, when you download a file, you don’t change the name befor
 >[!NOTE]
 >If you’ve already altered the current sorting from the default in any way, we will not change it – this is only for people who haven’t changed it. If at any point you want to switch sortings, you can do so from the View tab in File Explorer. Some Insiders have had this change for a little bit now, and based on positive feedback we’re now rolling it out to 100% of Fast.
 
-### Friendly Dates in File Explorer
+### Friendly dates in File Explorer
 
 Thank you for all of the feedback you provided on Friendly Dates in File Explorer. At this time, we’ve decided not to roll out [Friendly Dates](https://blogs.windows.com/windowsexperience/2018/12/19/announcing-windows-10-insider-preview-build-18305/#xPPTWdO73EwgkGtZ.97) to users as part of the 19H1 release.
 
@@ -251,7 +254,10 @@ Do you like taking pictures in Raw image formats and wish that the Raw files fro
 
 By downloading the new Raw Image Extension (Beta) package from the store, you can now view image thumbnails, previews, and camera metadata of previously unsupported raw files right in File Explorer. You can also view your raw images – at full resolution – in apps such as Photos or any other Windows app that uses Windows Imaging Component framework to decode raw images.
 
-## Accessibility Updates
+## Windows Search & Cortana Improvements
+
+### Search Improvements
+We're exploring some options for improving these experiences in Windows. When you start a search now, you'll notice we've updated the landing page – giving recent activities a bit more room to breathe, adding light theme support, a touch of acrylic and including all the search filter options as pivots from the get go. We'd love to hear your feedback – you can report issues and suggestions to us here. You may notice some other changes as we continue flighting, we'll have more details to share later.
 
 ### Get more done with Cortana and Microsoft To-Do
 
@@ -264,138 +270,9 @@ Or, ask Cortana to remind you to call a friend and see the reminder appear in yo
 
 ![Cortana and Microsoft To-Do-2](images/18305-17.png "see the reminder appear in your Microsoft To-Do planned list")
 
-With this integration, we are furthering efforts to seamlessly sync your to-do lists across Microsoft To-Do, Cortana, and your tasks in Outlook. To start syncing, your Windows 10 PC must be running Build 18267+ and tied to either the Australia, India, US, or UK region. [Learn more about the Microsoft To-Do and Cortana integration](https://techcommunity.microsoft.com/t5/Microsoft-To-Do-Blog/What-s-new-for-Microsoft-To-Do-in-October-2018/ba-p/279462). To share feedback, [join the cohort](https://insider.windows.com/signup/cortana-cohort/?utm_source=email&utm_medium=email&utm_campaign=CortanaWithMSToDo&utm_content=WIP_Header_Body_CortanaCohortSignUp) or use the Windows Feedback Hub. 
+With this integration, we are furthering efforts to seamlessly sync your to-do lists across Microsoft To-Do, Cortana, and your tasks in Outlook. To start syncing, your Windows 10 PC must be running Build 18267+ and tied to either the Australia, India, US, or UK region. [Learn more about the Microsoft To-Do and Cortana integration](https://techcommunity.microsoft.com/t5/Microsoft-To-Do-Blog/What-s-new-for-Microsoft-To-Do-in-October-2018/ba-p/279462). To share feedback, [join the cohort](https://insider.windows.com/signup/cortana-cohort/?utm_source=email&utm_medium=email&utm_campaign=CortanaWithMSToDo&utm_content=WIP_Header_Body_CortanaCohortSignUp) or use the Windows Feedback Hub.
 
-### Ease of Access improvements
-
-### Accessibility Improvements across other apps
-* **Narrator works better with Chrome now!** Using up and down arrows in scan mode, navigating with tab key, continuous reading commands, and navigating by headings and links have initial support for Chrome, with more functionality coming in future flights.
-* **Narrator Braille**: BRLTTY version 5.6 is now provided which adds USB support for Inceptor and Orbit 20 displays. In addition, the BrailleNote Touch is recognized when using USB. Baum displays can now use B9 and B10 interchangeably. Liblouis binaries and tables have been updated to version 3.7.0.
-* **UI Automation framework IAccessible2 Support**: The UI Automation framework now supports translating IAccessible2 information from Chrome, which supports IAccessible2 rather than UI Automation. This enables UI Automation clients to receive the IAccessible2 information through the UI Automation client interfaces.
-
-
-**Bigger and brighter cursors**: We’ve introduced new cursor sizes and colors to make Windows easier to see.   Go to Ease of Access Settings (**Windows + U**), under the **Vision** category, select **Cursor & pointer** to see the list of options. We are still working on a couple issues where some cursor sizes may not work correctly on DPI’s larger than 100%.
-
-![Shows bigger cursors and pointers](images/18298-9.png "Shows bigger cursors and pointers")
-
-### Improving your Search and Cortana experiences
-
-We're exploring some options for improving these experiences in Windows. When you start a search now, you'll notice we've updated the landing page – giving recent activities a bit more room to breathe, adding light theme support, a touch of acrylic and including all the search filter options as pivots from the get go. We'd love to hear your feedback – you can report issues and suggestions to us here. You may notice some other changes as we continue flighting, we'll have more details to share later.
-
-### Narrator Improvements
-
-**Narrator Verbosity improvements:** We are improving the amount of information you hear while interacting in Windows and you will see these changes filter in throughout future builds. In the current release we have a new Narrator Setting entitled “Hear advanced information about controls when navigating”. When this feature is off you will not hear the advanced information previously spoken on controls. In addition, Tooltips will not be read by default. Use the Narrator Advanced Information command (Narrator + 0) to read a tooltip on a given item. In addition, you will notice that some control information will now begin to speak in a more consistent manner. Checkboxes and radio buttons will be the first controls with this new behavior.
-
-**More consistent reading experience:** Narrator text reading commands (previous/next for character/word/line/sentence/paragraph/page) can now be used to scan a full window from top to bottom. It is no longer possible to get the “not on explorable text” error and only when you reach the boundary of the window will you receive “no next/previous text.” Also, the views options are now consistent whether you are within text content or not. For example, you can now use the views option to search for a link anywhere within the active window.
-
-**Read by Sentence Braille support:** The new read by sentence commands are now available via a braille display by pressing dots 2-3-4 or 2-3-4-7 in command input mode. Note, we are still working on fixing a couple issues.
-
-**Narrator character phonetic reading optimization:** In a previous release, Narrator received support for reading characters phonetically. That is, reading out "a Alfa, b Bravo, c Charlie" while navigating "abc" by character.
-
-Since then, we have received feedback that you didn't want to hear the phonetic information announced automatically. Instead, this should be an on-demand feature, to be called upon only when you needed it. In this release, we will no longer announce the phonetic information automatically. As you navigate by characters, this information will be omitted. If you need the phonetic information to disambiguate characters, you can issue a command to hear the phonetics. Use the keyboard command of **Narrator key + Comma twice quickly**. If, for example, you are using the Standard Keyboard layout with the default Narrator key setting of “Caps Lock or Insert”, you would issue the command of Caps Lock + Comma (or Insert + Comma), where the Comma key is pressed twice quickly while depressing the Caps Lock (or Insert) key.
-
-If you need to hear phonetics for a string of characters in a sustained fashion, the phonetics can be read out continuously as you move forward or backward through a range of characters with the Read Next Character command (Narrator key + Period) or Read Previous Character command (Narrator key + M). However, in this mode, you will only hear the phonetics announced and not the characters themselves (e.g., “Alfa Bravo Charlie”). To stop hearing the phonetics, press any other command (e.g., Left arrow, Right Arrow, Tab, etc.) or re-issue the Read Current Character command (Narrator key + Comma). Subsequent reading of next and previous characters via Narrator key + Period or Narrator key + M will return to reading just the characters, without phonetic information.
-
-If you prefer the original character phonetic reading behavior, a setting has been added for you to toggle on the automatic reading of phonetics.
-
-
-![Focus assist updates](images/18277-image1.png "A screenshot of the Focus assist updates")
-
-Watching a movie? Poring over some excel tables? Studying? Focus assist is here for you, and will keep your notifications quiet until you exit full screen mode.
-
-Like our other focus assist settings, this can be found under Settings > System > Focus Assist. Make sure you take a moment to customize your priority list to ensure any notifications you want to break through the rule will appear! If you'd like to turn off the warning notification that's shown in Action Center after entering focus assist, you can do so by clicking the rule in Focus Assist Settings which prompted the notification.
-
-**Narrator Caps Lock ON alert while typing:** Narrator will now alert you when you are accidentally typing with Caps Lock turned on. The setting is on by default. To adjust this setting, visit Narrator Settings (Ctrl + Win + N), then navigate to the “Change how much content you hear” heading and review the combo box for “Change when you receive Caps Lock warnings while typing”.
-
-It will work even if you have character echo option ("Hear characters as you type") disabled, and it will work in edit fields as well as password field. By default, Narrator will always alert you regardless of presses of the Shift key as you type alphabetic characters. But you can choose to only be alerted when you press the Shift key together with an alphabetic character, or you can disable the feature altogether.
-
-In this initial release, the sound effect you hear will sound like the standard Narrator error sound effect which we are working on improving. We look forward to your feedback on this new feature!
-
-
-**Narrator Read by Sentence**: You can now read next, current and previous sentences in Narrator. Read by sentence is available with the keyboard and with touch. Move by sentence doesn't yet work for Braille. 
-* Caps + Ctrl + Period (.) to Read next sentence
-* Caps + Ctrl + Comma (,) to Read current sentence
-* Caps + Ctrl + M to Read previous sentence 
-Sentence is now a new Narrator view and can be reached via Caps + Page Up or Caps + Page Down and then you can navigate with Caps + Left arrow for move by previous sentence and Caps + Right arrow for move by next sentence.
-
-
-### Introducing Narrator Home
-Every time you turn on Narrator, you’ll be taken to Narrator Home, which gives you one place where you can access everything you need for Narrator—whether you want to change your settings or learn Narrator basics with QuickStart.
-- In settings, you can remove Narrator Home from the **Alt + Tab** list, and instead minimize it to the system tray. You can access your settings through Narrator Home or by pressing **Windows logo key + Ctrl + N**.
-   ![Shows Narrator Home page](images/18298-8.png "Shows Narrator Home page")
-
-### Verbosity improvements
-In settings, there are five new verbosity levels that control the amount of information you hear about text, controls, and other document attributes. Press **Narrator + V** to cycle through verbosity levels.
-When you don’t want to hear advanced information, you can turn off “Hear advanced information about controls when navigating.” You can also get the tooltip of the focused item by pressing **Narrator + 0**.
-
-### Read URLs with a new command
-Narrator will tell you when you’ve navigated to links, but it doesn’t read the entire URL aloud by default. If you want to hear the entire URL, press **Narrator + 0**. 
-
-   >[!NOTE] 
-   > If the Narrator setting for “Hear advanced detail, like help text, on buttons and other controls” is checked, you will continue to hear URLs read out automatically.
-- **Easier table-reading**: In Edge, Narrator no longer announces “non-selected” when you navigate between cells in a table if the aria-selected property hasn’t been set. Narrator also won’t announce when you exit and re-enter a table when you’re reading a single table continuously. Narrator will also not announce parent table information when you navigate to a nested table.
-
-   In Excel, Narrator now prioritizes reading the data in a column header before announcing whether a filter is on. Narrator also now correctly reads out column headers in a grid formatted as a table when you use the “Read current column header” command.
-
-- **Updated capitalization reading**: Capitalization reading is now available in all reading modes. You can turn it on and off quickly by pressing **Narrator key + 4** when you need extra detail while reading or writing. You can also press **Windows logo key + Ctrl + N** to access your settings, then choose Increase pitch or **Say cap** under **Change how capitalized text is read**. 
-
-   If you choose Increase pitch, Narrator will accentuate capitalized, mixed-case, and upper-case words with increasing levels of voice pitch. If you choose **Say cap**, Narrator will say “cap” to identify capitalized words, “mix cap” for mixed-case words, and “all cap” for uppercase words.
-- **Stay focused when you’re reading content**: It’s now easier to stay focused when you’re reading content on the web: Reading and navigation commands stay within webpage content areas when you’re using most web browsers, like Microsoft Edge. This also works when you’re reading email in Outlook or the Mail app. You can still move out of content areas using **Tab** or shortcut keys.
-- **Move your cursor as Narrator reads**: When you’re reading text, your cursor doesn’t move from where you placed it. Now, you can choose to have it follow the Narrator cursor by checking the box next to the setting **Move my cursor as Narrator reads text**.
-- **More consistent reading experience**: You can now use Narrator text-reading commands (previous/next for character, word, line, sentence, paragraph, or page) to read a full window from top to bottom. Views options are consistent whether or not you’re reading text. For example, you can use views to search for a link anywhere within an active window. You’ll also notice a smoother reading experience, with more natural-sounding pauses and phrasing.
-- **Hear when you’re pressing certain keys**: Narrator settings offers new groups of keyboard keys you can choose to have spoken when pressed. You can independently select **Hear letters, numbers, and punctuation as you type, Hear function keys as you type, Hear arrow, Tab, and other navigation keys as you type, Hear when toggle keys like Caps lock and Num lock are turned on or off**, and **Hear Shift, Alt, and other modifier keys as you type**.
-- **Combo edit support**: Narrator now recognizes combo edit controls and will speak them as "combo edit" instead of just "edit."
-- **Narrator stays on while you reset your PIN or password or password**: If you forget your PIN or password for your Microsoft account, Narrator will stay on the whole time while you reset it.
-
-### Ease of Access Improvements
-__Cursor and Pointers:__ Building on our mouse work announced with 18298, we’ve added 11 additional mouse pointer sizes in the Cursor and Pointers settings.  There are now 15 sizes.
-
-## Windows Search & Cortana Improvements
-
-### Separating Search and Cortana
-Going forward, we’ll be decoupling Search and Cortana in the taskbar. This will enable each experience to innovate independently to best serve their target audiences and use cases. Some Insiders have had this update for a few weeks now, and we appreciate all the feedback we’ve received about it so far! For those new to this update, when it rolls out to you, you’ll find clicking the search box in the taskbar now launches our experience focused on giving you the best in house search experience and clicking the Cortana icon will launch you straight into our voice-first digital assistant experience.
-
-![Separating Search and Cortana](images/18317-1b.png "Separating Search and Cortana")
-
-Other available Search and Cortana settings have also now been split between the two, along with the familiar group policies. If you have any feedback, please don’t hesitate to share it with us here.
-
-Note: Cortana is currently only available in supported markets.
-
-### Introducing Top apps in Search
-Get quick access to the apps that you use the most, just open Search Home and you’ll see them under Top apps—no typing required! One more way Search helps you find the things you need. This change is rolling out server-side, so you may see it outside of the bounds of this flight. This change is also one of several we’ve made throughout this release to improve your experience in this space, including [updating the search landing page design](#improving-your-search-and-cortana-experiences), [enhancing your search results](#enhanced-mode-for-search-indexer), and [integrating Microsoft To-Do with Cortana](#get-more-done-with-cortana-and-microsoft-to-do). Stay tuned for more improvements.
-
-![Search](images/18329-1.png "Introducing Top apps in Search ")
-
-### Enhanced Mode for Search Indexer
-To improve our search indexing, we created a new feature that enables Windows to search all your folders and drives, instead of limiting search to your documents, pictures, videos, and desktop by default. To turn it on, search for *Windows search settings*, and in the Searching Windows settings, under “Find My Files”, select **Enhanced** to begin the one-time indexing process. It will take about 15 minutes for search to begin returning these additional files in results. If you have lots of files, it may take longer. Make sure you plug in before you start, indexing is a resource-intensive activity.
-
-When the indexing is complete, you'll be able to find all your files almost instantly when you use Windows Search. To exclude a folder from search, add it to the Excluded Folders list. Thanks for your feedback about search and the indexer. These improvements were made because of your input. Keep the feedback coming!
-
-![search indexer](images/search-index.png "search indexer")
-
-## Windows Hello and PC Sign-In Improvements
-
-### Signing in to Windows with password-less Microsoft accounts
-We’re pushing forward on eliminating passwords and keeping your accounts safe with another cool feature. With Build 18305, we announced support for setting up and signing in to Windows 10 with a phone number account, without having to create, or deal with the hassle of a password for Insiders using the Windows 10 Home edition. Today, that support is extending to all Windows 10 editions!
-If you have a Microsoft account with your phone number, you can use an SMS code to sign in, and set up your account on Windows 10. Once you’ve setup your account, you can use Windows Hello Face, Fingerprint, or a PIN (depending on your device capabilities) to sign in to Windows 10. No password needed anywhere!
-
-![Passwordless Microsoft accounts](images/18305-7.png "Signing in to Windows with password-less Microsoft accounts")
-
-#### Creating a password-less phone number account
-If you don’t already have a password-less phone number account, you can create one in a mobile app like Word on your iOS or Android device to try it out. Simply go to Word and sign up with your phone number by entering your phone number under “Sign in or sign up for free”.
-#### Add your password-less phone number account to Windows 
-Now that you’ve created a password-less phone number account, you can use it to sign in to Windows with the following steps:
-1. Add your account to Windows from Settings > Accounts > Family & other Users > “Add someone else to this PC”.
-2. Lock your device and select your phone number account from the Windows sign-in screen.
-3. Since your account doesn’t have a password, select ‘Sign in options’, click the alternative ‘PIN’ tile, and click ‘Sign in’.
-4. Go through web sign in and Windows Hello set up (this is what you’ll use to sign in to your account on subsequent sign ins). 
-
-You can now enjoy the benefits of signing in to Windows with your password-less phone number account.
-
-### Signing in to Windows with password-less Microsoft accounts 
-
-We’re pushing forward on eliminating passwords and keeping your accounts safe with another cool feature. Today, we’re announcing support for setting up and signing in to Windows with a phone number account, without having to create, or deal with the hassle of a password! If you have a Microsoft account with your phone number, you can use an SMS code to sign in, and set up your account on Windows 10. Once you’ve setup your account, you can use Windows Hello Face, Fingerprint, or a PIN (depending on your device capabilities) to sign in to Windows 10. No password needed anywhere! 
-Note: This experience was originally available for Insiders on Home Edition and is now available in [Build 18309 on all Windows editions](https://docs.microsoft.com/windows-insider/at-home/whats-new-wip-at-home#signing-in-to-windows-with-password-less-microsoft-accounts-build-18309).
+## Windows Hello and PC Sign-in Improvements
 
 ### Bringing acrylic to the Windows sign-in screen
 The Windows sign-in screen now supports [acrylic](https://docs.microsoft.com/windows/uwp/design/style/acrylic), a type of brush from the [Fluent Design System](https://docs.microsoft.com/windows/uwp/design/fluent-design-system/index), to the sign-in screen background.  The translucent texture of this transient surface helps you focus on the sign-in task by moving the actionable controls up in the visual hierarchy while maintaining their accessibility.
@@ -410,10 +287,16 @@ Ultimately, we want to help you make the right decision for your situation. By c
 
 ![Redesigned sign-in options](images/18272-image1.png)
 
-### Consolidating your sign-in options (Build 18298)
-With [Build 18272](#sign-in-options-redesigned-for-windows-hello), we set out to simplify sign-in settings, to increase visual clarity, and improve ease of use. Our goal is to give you a one-stop shop for all your sign-in settings, and today we’re adding one more to the list: You can now set up a security key straight from Settings.
+### Set up a security key from sign-in settings
+In 19H1, ](#sign-in-options-redesigned-for-windows-hello), we set out to simplify sign-in settings, to increase visual clarity, and improve ease of use. Our goal is to give you a one-stop shop for all your sign-in settings, and today we’re adding one more to the list: You can now set up a security key straight from Settings.
 
 ![Set up a security key from Settings](images/18298-1.png "Set up a security key from Settings")
+
+### Signing in to Windows with password-less Microsoft accounts
+We’re pushing forward on eliminating passwords and keeping your accounts safe with another cool feature. With Build 18305, we announced support for setting up and signing in to Windows 10 with a phone number account, without having to create, or deal with the hassle of a password for Insiders using the Windows 10 Home edition. Today, that support is extending to all Windows 10 editions!
+If you have a Microsoft account with your phone number, you can use an SMS code to sign in, and set up your account on Windows 10. Once you’ve setup your account, you can use Windows Hello Face, Fingerprint, or a PIN (depending on your device capabilities) to sign in to Windows 10. No password needed anywhere!
+
+![Passwordless Microsoft accounts](images/18305-7.png "Signing in to Windows with password-less Microsoft accounts")
 
 ### Streamlined Windows Hello PIN reset experience
 We know remembering a PIN can be tricky, so we wanted to provide our Microsoft account users with a revamped Windows Hello PIN reset experience with the same look and feel as signing in on the web. Check it out in today’s build by clicking the ‘I forgot my PIN’ link when signing in to Windows with a PIN. Insiders can try it out on all Windows 10 editions.
@@ -422,56 +305,34 @@ We know remembering a PIN can be tricky, so we wanted to provide our Microsoft a
 
 ## Windows Security Improvements
 
-### Streamlined Windows Hello PIN reset experience
+### New Protection History experience
 
-We know remembering a PIN can be tricky, so we wanted to provide our Microsoft account users with a revamped Windows Hello PIN reset experience with the same look and feel as signing in on the web. Check it out in today’s build by clicking the ‘I forgot my PIN’ link when signing in to Windows with a PIN.
-
-Note: This experience is currently only available for Insiders on Home edition. We’ll let you know when it expands to more editions.
-
-![Windows Hello PIN reset](images/18305-7.gif "Streamlined Windows Hello PIN reset experience")
-
-### Windows Security App improvements
-
-__New Protection History experience:__ We have had great feedback on our history experience from users, and we’ve listened!  Based on the suggestions and feedback we’ve received, the Protection history experience in Windows Security has been completely revamped. The new Protection History experience still shows you detections by Windows Defender Antivirus, but it’s now updated to also give more detailed and easier to understand information about threats and available actions. We have also added Controlled folder access blocks to history, along with any blocks which are made through organizational configuration of Attack Surface Reduction Rules. If you use the Windows Defender Offline scanning tool, any detections it makes will now also show in your history.  Additionally, you will see any pending recommendations (red or yellow states from throughout the app) in the history list. We hope you like the changes we’ve made!
+We have had great feedback on our history experience from users, and we’ve listened!  Based on the suggestions and feedback we’ve received, the Protection history experience in Windows Security has been completely revamped. The new Protection History experience still shows you detections by Windows Defender Antivirus, but it’s now updated to also give more detailed and easier to understand information about threats and available actions. We have also added Controlled folder access blocks to history, along with any blocks which are made through organizational configuration of Attack Surface Reduction Rules. If you use the Windows Defender Offline scanning tool, any detections it makes will now also show in your history.  Additionally, you will see any pending recommendations (red or yellow states from throughout the app) in the history list. We hope you like the changes we’ve made!
 
 ![New Protection History](images/18305-18.png "New Protection History experience")
 
-__Introducing Tamper Protection!__ Tamper Protection is a new setting from Windows Defender Antivirus, available in the Windows Security app, which when on, provides additional protections against changes to key security features, including limiting changes which are not made directly through the Windows Security app. You can find this setting under Windows Security > Virus & Threat Protection > Virus & Threat Protection Settings.
+### Introducing Tamper Protection
+
+Tamper Protection is a new setting from Windows Defender Antivirus, available in the Windows Security app, which when on, provides additional protections against changes to key security features, including limiting changes which are not made directly through the Windows Security app. You can find this setting under Windows Security > Virus & Threat Protection > Virus & Threat Protection Settings.
 
 ![Tamper Protection](images/18305-4.png "Tamper Protection")
 
-### Launch an app or script in Windows Sandbox.
-Windows Sandbox now supports configuration files. These files allow users to configure some aspects of the sandbox, such as vGPU, networking and shared folders. You can [read about all the details here in this blog post](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Ftechcommunity.microsoft.com%2Ft5%2FWindows-Kernel-Internals%2FWindows-Sandbox-Config-Files%2Fba-p%2F354902&data=02%7C01%7Cbleblanc%40microsoft.com%7Cb2e55c7d892a4a58594808d6983c666a%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636863782511478239&sdata=WciYenawmqRigyPeD7Yrcajite6wXK9%2FQekAzF4HIQk%3D&reserved=0)!
-
-#### Instructions:
-1. If you have an Xbox Live Gamertag, go to step 2 below. If you don’t have a Gamertag, use your Microsoft Account (MSA) to log into https://account.xbox.com and create an Xbox account. Once completed, you will see your Gamertag in the top right of the page.
-2. Install the [Xbox Insider Hub app](https://www.microsoft.com/p/xbox-insider-hub/9nblggh68vsk) on the PC you’ll be flighting on (link opens in Store app).
-3. Sign in to the Xbox Insider Hub with your Gamertag.
-3. Select __Insider Content__ in the upper left.
-4. Select __State of Decay__.
-5. Click __Join__.
-6. If not redirected, click the Show in store button to launch the Store app.
-7. Install the State of Decay test game to your machine from the Store app
-8. Launch State of Decay and try it out! NOTE: State of Decay is rated M for Mature. 
-
-As part of the game launch, you’ll be prompted to install DirectX. This is for testing purposes, so go ahead and do the install, and the game will launch afterwards. If you find any issues with the install, or if the game fails to launch, please file a Feedback Hub bug under the Microsoft Store category (pick Download or Install depending on your issue), and include WindowsGamingFeedback in the title.
-
 ## Notepad Updates
 
-### Encoding
+### UTF-8 encoding 
+We’ve made significant improvements to the way Notepad handles encoding. Starting with this build, we are adding the option to save files in UTF-8 without a Byte Order Mark and making this the default for new files. UTF-8 without a Byte Order Mark is backwards-compatible with ASCII and will provide better interoperability with the web, where UTF-8 has become the default encoding. Additionally, we added a column to the status bar that displays the encoding of the document.
 
-**UTF-8 encoding**: We’ve made significant improvements to the way Notepad handles encoding. Starting with this build, we are adding the option to save files in UTF-8 without a Byte Order Mark and making this the default for new files. UTF-8 without a Byte Order Mark is backwards-compatible with ASCII and will provide better interoperability with the web, where UTF-8 has become the default encoding. Additionally, we added a column to the status bar that displays the encoding of the document.
-
-**Modified indicator**: Notepad will now show an asterisk (*) in the title bar before the title of a document to indicate that a document has unsaved changes.
+### Modified indicator
+Notepad will now show an asterisk (*) in the title bar before the title of a document to indicate that a document has unsaved changes.
 
 ![Notepad with the asterisk*](images/18298-6.png "Notepad with the asterisk*")
 
-**Send Feedback**: You can now send feedback directly from Notepad! Click Help > Send Feedback to open the Feedback Hub with [the Notepad category selected](https://blogs.windows.com/windowsexperience/2018/12/10/announcing-windows-10-insider-preview-build-18298/aka.ms/notepadfeedback) and get your feedback directly to the product team.
+### Send Feedback**
+You can now send feedback directly from Notepad! Click Help > Send Feedback to open the Feedback Hub with [the Notepad category selected](https://blogs.windows.com/windowsexperience/2018/12/10/announcing-windows-10-insider-preview-build-18298/aka.ms/notepadfeedback) and get your feedback directly to the product team.
 
 ![Send feedback from the Help menu](images/18298-7.png "Send feedback from the Help menu")
 
-**Other improvements include:**
-
+### Other Notepad Improvements Include
 - We’ve added support for some additional shortcuts: 
    - Ctrl+Shift+N will open a new Notepad window.
    - Ctrl+Shift+S will open the Save as… dialog.
@@ -480,11 +341,9 @@ As part of the game launch, you’ll be prompted to install DirectX. This is for
 - We’ve fixed a bug where Notepad would count lines incorrectly for documents with very long lines.
 - We’ve fixed a bug where, when you select a placeholder file from OneDrive in the File Open dialog, we would download the file to determine its encoding.
 - We’ve fixed a recent regression where Notepad would no longer create a new file when launched with a file path that didn’t exist.
-
-
 ## General Settings Improvements
 
-### Updated Settings Homepage
+### Updated settings homepage
 
 At this time the updated design is only available for Home and non-domain-joined Windows 10 Pro edition PCs. It’s currently in the process of rolling out to those editions – we will update this message once it’s live for everyone.
 
@@ -493,12 +352,19 @@ At this time the updated design is only available for Home and non-domain-joined
 ### A simpler Windows Insider Program Settings page
 We are introducing a simplified Windows Insider Program Settings page via Settings > Update & Security > Windows Insider Program with Build 18317. The goal is to make the end-to-end experience of signing up for the Windows Insider Program and setting up your PC to take new builds much easier by simplifying the experience and removing some of the clutter. You’ll find that all the same functionality is still there. Under “Pick your Insider settings” is where you can change your Insider ring on your PC.
 
-### A Better Font management experience in Settings
+![Windows Insider Program Settings](images/18317-3.jpg "A simpler Windows Insider Program Settings page")
+
+
+### Drag & Drop installation in settings
 Insiders today can now drag and drop font files from File Explorer into the modern Settings > Fonts page to install them. After installation, click on the font in the Font page, to view the different font faces associated with the font and all the details of the font. You can also uninstall the font from this font details page. Drag and drop font installation by default is installed as a per-user font which does not require elevation, hence it will not be available for other users. To install the font for all users in the device, use the “Install for all Users” option by right clicking the font on file explorer.
 
 ![Font Management](images/18317-2.gif "A Better Font management experience in Settings")
 
-### Sync your clock
+### Improved Storage settings page
+You can now get a quick and dynamic storage breakdown of your system! Navigate to the Storage page (Open Start and search “Storage settings”) to see an actionable list of how your storage is used. Click on the different categories to take action and free up some space.
+
+
+### Sync your Clock
 
 In response to your feedback, we're adding an option in Date & Time Settings to manually synchronize your clock with the time server. This will help in scenarios where you think the clock might be out of sync, or if the time service has been disabled. We'll also show the last time that time was successfully synced, and the address of your current time server.
 
@@ -551,19 +417,99 @@ You can set your preferred tab via __Options > Set default tab__.
 
 ![default Task Manager tab](images/18305-10.png "Set a default Task Manager tab")
 
+### DPI Awareness in Task Manager
+We added a new optional column to the **Details** tab of **Task Manager** so you can look at DPI awareness per process as in the following example:
+
+![Showing the DPI Awareness category in Task Manager, with examples of Per-Monitor and System ](images/dpi-aware-task-manager.png "Showing the DPI Awareness category in Task Manager, with examples of Per-Monitor and System ")
+
+To show the column, right-click on any of the column headers in the **Details** tab, click **Select Columns**, then add **DPI Awareness** to the list. To learn more about DPI Awareness, see [High DPI Desktop Application Development on Windows](https://docs.microsoft.com/windows/desktop/hidpi/high-dpi-desktop-application-development-on-windows).
+
 ## Accessibility Improvements
-
 ### Narrator Improvements
-__Add more voices:__ Users can download additional voices in other languages without having to download language packs.  To do that, go to Narrator Settings and select the “Add more voices” link.
+Introducing Narrator Home: Every time you turn on Narrator, you’ll be taken to Narrator Home, which gives you one place where you can access everything you need for Narrator—whether you want to change your settings or learn Narrator basics with QuickStart. In settings, you can remove Narrator Home from the Alt + Tab list, and instead minimize it to the system tray. You can access your settings through Narrator Home or by pressing Windows logo key + Ctrl + N.
 
-__Narrator Home navigation:__ The main actions on Narrator Home, such as QuickStart and Settings, are now buttons and not Listview items. You are now able to tab between all of them.
-__Read Current character phonetics:__ Added Narrator + 5 twice Narrator command to render current character phonetics.
+   ![Shows Narrator Home page](images/18298-8.png "Shows Narrator Home page")
 
-__Other improvements:__ 
-- Improved reading of controls while navigating and editing
-- Improved table reading in PowerPoint
-- Improved reading and navigating experiences with Chrome and Narrator
-- Improved interacting with Chrome menu’s with Narrator
+### #Narrator works better with Chrome now
+Using up and down arrows in scan mode, navigating with tab key, continuous reading commands, and navigating by headings and links have initial support for Chrome, with more functionality coming in future flights.
+### Narrator Braille
+BRLTTY version 5.6 is now provided which adds USB support for Inceptor and Orbit 20 displays. In addition, the BrailleNote Touch is recognized when using USB. Baum displays can now use B9 and B10 interchangeably. Liblouis binaries and tables have been updated to version 3.7.0.
+#### Verbosity improvements
+ In settings, there are five new verbosity levels that control the amount of information you hear about text, controls, and other document attributes. Press Narrator + V to cycle through verbosity levels. When you don’t want to hear advanced information, you can turn off “Hear advanced information about controls when navigating.” You can also get the tooltip of the focused item by pressing Narrator + 0.
+#### Read URLs with a new command
+Narrator will tell you when you’ve navigated to links, but it doesn’t read the entire URL aloud by default. If you want to hear the entire URL, press Narrator + 0. Note: If the Narrator setting for “Hear advanced detail, like help text, on buttons and other controls” is checked, you will continue to hear URLs read out automatically.
+#### Easier table-reading
+In Edge, Narrator no longer announces “non-selected” when you navigate between cells in a table if the aria-selected property hasn’t been set. Narrator also won’t announce when you exit and re-enter a table when you’re reading a single table continuously. Narrator will also not announce parent table information when you navigate to a nested table. In Excel, Narrator now prioritizes reading the data in a column header before announcing whether a filter is on. Narrator also now correctly reads out column headers in a grid formatted as a table when you use the “Read current column header” command.
+#### Updated capitalization reading
+Capitalization reading is now available in all reading modes. You can turn it on and off quickly by pressing Narrator key + 4 when you need extra detail while reading or writing. You can also press Windows logo key + Ctrl + N to access your settings, then choose Increase pitch or Say cap under Change how capitalized text is read. If you choose Increase pitch, Narrator will accentuate capitalized, mixed-case, and upper-case words with increasing levels of voice pitch. If you choose Say cap, Narrator will say “cap” to identify capitalized words, “mix cap” for mixed-case words, and “all cap” for uppercase words.
+Stay focused when you’re reading content: It’s now easier to stay focused when you’re reading content on the web: Reading and navigation commands stay within webpage content areas when you’re using most web browsers, like Microsoft Edge. This also works when you’re reading email in Outlook or the Mail app. You can still move out of content areas using Tab or shortcut keys.
+Move your cursor as Narrator reads: When you’re reading text, your cursor doesn’t move from where you placed it. Now, you can choose to have it follow the Narrator cursor by checking the box next to the setting Move my cursor as Narrator reads text.
+#### More consistent reading experience
+You can now use Narrator text-reading commands (previous/next for character, word, line, sentence, paragraph, or page) to read a full window from top to bottom. Views options are consistent whether or not you’re reading text. For example, you can use views to search for a link anywhere within an active window. You’ll also notice a smoother reading experience, with more natural-sounding pauses and phrasing.
+#### Hear when you’re pressing certain keys
+Narrator settings offers new groups of keyboard keys you can choose to have spoken when pressed. You can independently select Hear letters, numbers, and punctuation as you type, Hear function keys as you type, Hear arrow, Tab, and other navigation keys as you type, Hear when toggle keys like Caps lock and Num lock are turned on or off, and Hear Shift, Alt, and other modifier keys as you type.
+#### Combo edit support
+Narrator now recognizes combo edit controls and will speak them as “combo edit” instead of just “edit.”
+#### Narrator stays on while you reset your PIN or password or password
+If you forget your PIN or password for your Microsoft account, Narrator will stay on the whole time while you reset it.
+Add more voices: Users can download additional voices in other languages without having to download language packs.  To do that, go to Narrator Settings and select the “Add more voices” link.
+Narrator Home navigation: The main actions on Narrator Home, such as QuickStart and Settings, are now buttons and not Listview items. You are now able to tab between all of them.
+#### Read Current character phonetics
+Added Narrator + 5 twice Narrator command to render current character phonetics.
+#### Narrator Verbosity Improvements
+We are improving the amount of information you hear while interacting in Windows and you will see these changes filter in throughout future builds. In the current release we have a new Narrator Setting entitled “Hear advanced information about controls when navigating”. When this feature is off you will not hear the advanced information previously spoken on controls. In addition, Tooltips will not be read by default. Use the Narrator Advanced Information command (Narrator + 0) to read a tooltip on a given item. In addition, you will notice that some control information will now begin to speak in a more consistent manner. Checkboxes and radio buttons will be the first controls with this new behavior.
+
+More consistent reading experience: Narrator text reading commands (previous/next for character/word/line/sentence/paragraph/page) can now be used to scan a full window from top to bottom. It is no longer possible to get the “not on explorable text” error and only when you reach the boundary of the window will you receive “no next/previous text.” Also, the views options are now consistent whether you are within text content or not. For example, you can now use the views option to search for a link anywhere within the active window.
+Read by Sentence Braille support: The new read by sentence commands are now available via a braille display by pressing dots 2-3-4 or 2-3-4-7 in command input mode. Note, we are still working on fixing a couple issues.
+
+Narrator character phonetic reading optimization: In a previous release, Narrator received support for reading characters phonetically. That is, reading out “a Alfa, b Bravo, c Charlie” while navigating “abc” by character.
+
+Since then, we have received feedback that you didn’t want to hear the phonetic information announced automatically. Instead, this should be an on-demand feature, to be called upon only when you needed it. In this release, we will no longer announce the phonetic information automatically. As you navigate by characters, this information will be omitted. If you need the phonetic information to disambiguate characters, you can issue a command to hear the phonetics. Use the keyboard command of Narrator key + Comma twice quickly. If, for example, you are using the Standard Keyboard layout with the default Narrator key setting of “Caps Lock or Insert”, you would issue the command of Caps Lock + Comma (or Insert + Comma), where the Comma key is pressed twice quickly while depressing the Caps Lock (or Insert) key.
+
+If you need to hear phonetics for a string of characters in a sustained fashion, the phonetics can be read out continuously as you move forward or backward through a range of characters with the Read Next Character command (Narrator key + Period) or Read Previous Character command (Narrator key + M). However, in this mode, you will only hear the phonetics announced and not the characters themselves (e.g., “Alfa Bravo Charlie”). To stop hearing the phonetics, press any other command (e.g., Left arrow, Right Arrow, Tab, etc.) or re-issue the Read Current Character command (Narrator key + Comma). Subsequent reading of next and previous characters via Narrator key + Period or Narrator key + M will return to reading just the characters, without phonetic information.
+
+If you prefer the original character phonetic reading behavior, a setting has been added for you to toggle on the automatic reading of phonetics.
+
+#### Narrator Read by Sentence
+You can now read next, current and previous sentences in Narrator. Read by sentence is available with the keyboard and with touch. Move by sentence doesn’t yet work for Braille.
+##### Caps + Ctrl + Period (.) to Read next sentence
+##### Caps + Ctrl + Comma (,) to Read current sentence
+##### Caps + Ctrl + M to Read previous sentence
+Sentence is now a new Narrator view and can be reached via Caps + Page Up or Caps + Page Down and then you can navigate with Caps + Left arrow for move by previous sentence and Caps + Right arrow for move by next sentence.
+#### Narrator Caps Lock ON alert while typing
+Narrator will now alert you when you are accidentally typing with Caps Lock turned on. The setting is on by default. To adjust this setting, visit Narrator Settings (Ctrl + Win + N), then navigate to the “Change how much content you hear” heading and review the combo box for “Change when you receive Caps Lock warnings while typing”.
+It will work even if you have character echo option (“Hear characters as you type”) disabled, and it will work in edit fields as well as password field. By default, Narrator will always alert you regardless of presses of the Shift key as you type alphabetic characters. But you can choose to only be alerted when you press the Shift key together with an alphabetic character, or you can disable the feature altogether.
+In this initial release, the sound effect you hear will sound like the standard Narrator error sound effect which we are working on improving. 
+#### Reliability
+We have made improvements in Narrator reliability.
+#### Scan Mode
+Reading and navigating while in Scan Mode has been improved. Selecting text in Scan Mode has also been improved. Selecting forward in Edge has some known issues that we are actively investigating.
+#### QuickStart
+The link in settings to relaunch the QuickStart should now reliably be working and will launch from the very first Welcome page. The QuickStart should also more reliably take focus when Narrator is launched, which means Narrator should start reading it automatically.
+#### Providing Feedback
+The keystroke to provide feedback has changed. The new keystroke is Narrator + Alt + F. This will work both in the Standard and Legacy layouts.
+Note: The Legacy layout also allows you to use Narrator + E to send us feedback.
+#### Move Next, Move Previous, and Change View
+When changing Narrator’s view to either characters, words, lines or paragraphs the Read Current Item command will read the text of that specific view type more reliably.
+#### Keyboard command changes
+The keystroke to Move to beginning of text has changed to Narrator + B (was Narrator + Control + B), Move to end of text has changed to Narrator + E (was Narrator + Control + E).
+#### Braille
+Improved usage of Braille commanding when using the Narrator key from the braille display.
+####Other improvements
+##### Improved reading of controls while navigating and editing
+##### Improved table reading in PowerPoint
+##### Improved reading and navigating experiences with Chrome and Narrator
+##### Improved interacting with Chrome menu’s with Narrator
+
+### Cursor & Pointers
+Bigger and brighter cursors. We’ve introduced new cursor sizes and colors to make Windows easier to see.   Go to Ease of Access Settings (**Windows + U**), under the **Vision** category, select **Cursor & pointer** to see the list of options. We are still working on a couple issues where some cursor sizes may not work correctly on DPI’s larger than 100%.
+
+![Shows bigger cursors and pointers](images/18298-9.png "Shows bigger cursors and pointers")
+
+### UI Automation framework IAccessible2 Support
+
+The UI Automation framework now supports translating IAccessible2 information from Chrome, which supports IAccessible2 rather than UI Automation. This enables UI Automation clients to receive the IAccessible2 information through the UI Automation client interfaces.
+
 ## Windows Substem for Linux Improvements
 
 ### Linux Files inside of File Explorer
@@ -578,11 +524,13 @@ We added new command line options to the WSL command line tool (wsl.exe) for eas
 * Import a distro for easy sideloading including to non-system drives – Use the “–import” option to imports a tar file as a new distribution. You can specify the distribution registry to the location of your choice including non-system drives.
 * Export your WSL distribution for simpler environment management – Use the “—export” option to export a distribution to a tar file. Your distro will export to your default downloads location.
 
+![Updates to the console window](images/18298-5.png "Updates to the console window")
+
 ## Language and Input Improvements
 
 ### Expanding SwiftKey's Typing intelligence to More Languages
 
-**Expanding SwiftKey's typing intelligence to more languages:** In RS5 we started working on bringing [SwiftKey's AI technology to Windows](https://blogs.windows.com/windowsexperience/2018/06/14/announcing-windows-10-insider-preview-build-17692/#KqkzsMxQJAWrMbJC.97), and we're excited to announce that we're expanding support to the following languages:
+In RS5 we started working on bringing [SwiftKey's AI technology to Windows](https://blogs.windows.com/windowsexperience/2018/06/14/announcing-windows-10-insider-preview-build-17692/#KqkzsMxQJAWrMbJC.97), and we're excited to announce that we're expanding support to the following languages:
 
 - English (Canada) – en-CA
 - English (India) – en-IN
@@ -597,9 +545,20 @@ If you're a touch keyboard user that writes in any of these languages, please tr
 
 Using a physical keyboard? Hardware keyboard text suggestions are also supported with the above languages now. Text suggestions for the hardware keyboard is a learning tool we originally introduced in [RS4](https://blogs.windows.com/windowsexperience/2017/11/08/announcing-windows-10-insider-preview-build-17035-pc/), and expanded language support for [with RS5](https://blogs.windows.com/windowsexperience/2018/10/03/windows-10-accessibility-in-the-october-2018-update/). If you'd like to try it out in one of the supported languages, you can do so by enabling the **Show text suggestions as I type** feature under **Settings > Devices > Typing**.
 
+### Touch keyboard improvements
+We’ve heard your feedback, and with today’s build we’re rolling out some updates to the touch keyboard to improve your experience:
+
+- Type faster with more accuracy: When you’re typing quickly, sometimes your fingers miss the actual key you’re trying to hit by a small margin. This is totally normal, but can impact the text prediction accuracy (if you ending up pressing a different letter than expected). To address this, as you type, under the covers we will now dynamically adjust the hit target of each key, based on prediction of what letter most likely will be typed next. The keys will look no different to the eye, but here’s an example of the what’s going on underneath if you’re curious:
+   ![Dynamic hit targets for keyboards](images/18298-4.png "Dynamic hit targets for keyboards")
+- We’re making some improvements to reduce the number of times in tablet mode where the touch keyboard ends up occluding the text field when docked.
+
+If you’re a touch keyboard user, we’d love it if you spent some time typing on today’s build, and [let us know](https://aka.ms/tkbfeedback) how it feels for you now.
+
 ![Text suggestions](images/18272-image2.gif)
 
-**Indic Phonetic keyboards now available for PC:** Do you write in an Indic language? We've heard your feedback, and in addition to the Indic Traditional INSCRIPT keyboards already available, with today's build we're adding Indic Phonetic keyboards for Hindi, Bangla, Tamil, Marathi, Punjabi, Gujarati, Odia, Telugu, Kannada and Malayalam!
+### Indic Phonetic keyboards now available for PC
+
+Do you write in an Indic language? We've heard your feedback, and in addition to the Indic Traditional INSCRIPT keyboards already available, with today's build we're adding Indic Phonetic keyboards for Hindi, Bangla, Tamil, Marathi, Punjabi, Gujarati, Odia, Telugu, Kannada and Malayalam!
 
 How does a phonetic keyboard work? Basically it's a convenient way of typing that leverages the English QWERTY keyboard – as you type, we use transliteration to suggest possible Indic text candidates. 
 
@@ -618,16 +577,9 @@ Here are the steps to get started:
 7. Click input indicator on the taskbar (or press the Windows key + Space) and select the Indic Phonetic keyboard. Time to type something!
    >[!NOTE]
    >You need to [download the dictionaries](https://docs.microsoft.com/windows-hardware/manufacture/desktop/features-on-demand-v2--capabilities) used for the Indic Phonetic keyboards. Right after adding the keyboard, please connect to Internet – you may need to wait a bit for the dictionary download to finish.
-### Touch keyboard improvements
-We’ve heard your feedback, and with today’s build we’re rolling out some updates to the touch keyboard to improve your experience:
 
-- Type faster with more accuracy: When you’re typing quickly, sometimes your fingers miss the actual key you’re trying to hit by a small margin. This is totally normal, but can impact the text prediction accuracy (if you ending up pressing a different letter than expected). To address this, as you type, under the covers we will now dynamically adjust the hit target of each key, based on prediction of what letter most likely will be typed next. The keys will look no different to the eye, but here’s an example of the what’s going on underneath if you’re curious:
-   ![Dynamic hit targets for keyboards](images/18298-4.png "Dynamic hit targets for keyboards")
-- We’re making some improvements to reduce the number of times in tablet mode where the touch keyboard ends up occluding the text field when docked.
 
-If you’re a touch keyboard user, we’d love it if you spent some time typing on today’s build, and [let us know](https://aka.ms/tkbfeedback) how it feels for you now.
-
-### Re-releasing the new Japanese IME
+### The new Japanese IME
 
 Thank you everyone who provided feedback about the new Japanese IME. We’ve decided to take some time to continue refining this experience, so that it ships with the highest possible quality. It will not be included with 19H1, but has been reactivated for Windows Insiders to explore in the 20H1 [builds.](https://blogs.windows.com/windowsexperience/2019/04/10/announcing-windows-10-insider-preview-build-18875/#obUbgTUfBRd4IjxX.97)
 
@@ -651,24 +603,7 @@ To try this out yourself, just go to Language Settings, click Add a preferred la
 
 ![RAW image format](images/18329-4.png "Improved RAW image formats")
 
-### Symbols and Kaomoji are now just a hotkey away!
-Ever tried to type an em dash, and couldn’t remember the Alt key code? Wanted to post “flipping the table” in social media, but couldn’t remember the sequence of characters? When you press WIN+(period) or WIN+(semicolon), in addition to emoji the picker that appears will now include symbols and kaomoji too!
 
-You may ask, [what is kaomoji](https://en.wikipedia.org/wiki/Emoticon#Japanese_style_kaomoji)? Translated literally from Japanese, it means “face characters” – basically, it’s a way to create faces using only text. You may already use them, for example the one mentioned above [is relatively popular](https://knowyourmeme.com/memes/flipping-tables-%E2%95%AF%E2%96%A1%E2%95%AF%EF%B8%B5-%E2%94%BB%E2%94%81%E2%94%BB): (╯°□°)╯︵ ┻━┻
-
-Diving more into the symbols side, you’ll find we’ve included sections for punctuation, currency, geometric, math, Latin, and language symbols. As you pick your most commonly used symbols, the most recently used tab will populate with them, so it will be even easier to select them next time.
-Currently only the emoji section supports type to search.
-
-This experience, originally introduced for Chinese (Simplified) during RS5 development, started rolling out to Insiders across all languages with [Build 18252](https://blogs.windows.com/windowsexperience/2018/10/03/announcing-windows-10-insider-preview-build-18252/) – as of today’s it’s now available to all Insiders in Fast! We’d love for you to try it out and share feedback. Tried it out already? With this build, we’ve updated the available kaomoji a bit based on your feedback, including adding ¯\_(ツ)_/¯ and ᓚᘏᗢ.
-
-Currently only the emoji section supports type to search.
-
-![Symbols and Kaomoji](images/18305-5.png "Symbols and Kaomoji are now just a hotkey away!")
-
-
-With today's build, Insiders will get a first look at the emoji we've designed so far in preparation for the Emoji 12 release! These emoji are available for use via the emoji panel (WIN + .) and the touch keyboard.
-
-![Emoji 12](images/18277-image4.png "Shows the new emojis")
 
 ### Vietnamese Telex and Number key-based keyboards are now available on your PC
 Do you write Vietnamese? We want you to have the best possible typing experience, so we're happy to announce that with this build you can now use Vietnamese [Telex](https://en.wikipedia.org/wiki/Telex_(input_method)) and Number-key based (VNI) keyboards for typing Vietnamese! Bringing these keyboard options to PC has been one of the top feature requests in the input space, so we're looking forward to you trying it out!
@@ -725,6 +660,7 @@ We would love to get your feedback. Please send your feedback through __Feedback
 ### OS Variable Refresh Rate
 With Windows Version 1903, we have added a new toggle in Graphics Settings for variable refresh rate. Variable refresh rate (VRR) is similar to NVIDIA’s G-SYNC and VESA DisplayPort Adaptive-Sync. For more details, read the blog post [here](https://devblogs.microsoft.com/directx/os-variable-refresh-rate/)
 
+### Reserving disk space to keep Windows 10 up to date
 In 19H1, we’re making a few changes to how Windows 10 manages disk space. Through reserved storage, some disk space will be set aside to be used by updates, apps, temporary files, and system caches. Our goal is to improve the day-to-day function of your PC by ensuring critical OS functions always have access to disk space. With reserved storage, updates, apps, temporary files, and caches are less likely to take away from valuable free space and should continue to operate as expected. Reserved storage will be introduced automatically on PCs that come with 19H1 pre-installed or on PCs where 19H1 was clean installed. For Windows Insiders who want to try this feature out right now – just [run through this quest](https://insider.windows.com/ih/?contentid=2762bf7a-bef0-4835-8e4c-04ae8e3ed299&contenttype=quest&utm_source=product-placement&utm_medium=feedback-hub&utm_campaign=feedback-hub-redirect). After completing the quest, reserved storage will kick off with the next flight. (If you do the quest before installing Build 18312 – reserved storage should kick off for this flight.) For more details on reserved storage coming in 19H1, [read this blog post here](https://blogs.technet.microsoft.com/filecab/2019/01/07/windows-10-and-reserved-storage/).
 
 ### Windows Update notifications
@@ -753,15 +689,7 @@ We’re making some adjustments to the design of Windows 10 Setup! This is the e
 >[!NOTE]
 >Windows 10 Setup for this build will not include the Microsoft logo, [Support](https://go.microsoft.com/fwlink/?LinkId=530045) link, or [Legal](https://go.microsoft.com/fwlink/?LinkId=530046) link in the bottom left hand corner of Windows Setup. The Retail release will include these and the links are included here for reference.
  
-## Console Updates
-
-### Terminal tab
-
-![Updates to the console window](images/18298-5.png "Updates to the console window")
-
-As of Windows 10 build 18298, when you open the properties page of any Console window, you'll notice an additional "Terminal" tab containing several new settings for some experimental features we’re working on for future OS releases. [Read the Console team’s detailed blog post for more details.](https://blogs.msdn.microsoft.com/commandline/2018/12/10/new-experimental-console-features/)
-
-## Troubleshooting improvements
+### Troubleshooting improvements
 Don’t feel like troubleshooting? We’ve got you covered. In previous releases, if you noticed your PC was having a problem, you would have to find the right troubleshooter and then manually walk through all the different steps to resolve it. We hear your feedback that the time that takes to do can be frustrating – why not just automatically fix issues that you know how to fix and can detect? We agree! If an issue occurs we want to get you back up and running as quickly as possible, so with Build 18262 you’ll find a new recommended troubleshooting setting under Settings > Update & Security > Troubleshoot in Build 18262. This feature uses diagnostic data you send to deliver a tailored set of fixes matching problems we detect on your device and will automatically apply them to your PC.
 We’re still hard at work on this feature so it’s greyed out right now in Settings, but stay tuned for updates in future builds!
 
