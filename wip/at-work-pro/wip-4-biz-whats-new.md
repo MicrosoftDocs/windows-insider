@@ -312,7 +312,7 @@ Windows Defender Credential Guard has always been an optional feature, but Windo
 
 To evaluate: Windows Defender Credential Guard is preconfigured and enabled for both S-Mode and Enterprise Edition in the [Windows Insider Lab for Enterprise](https://olympia.windows.com/). To configure manually in your own lab environment: 
 
-1.	Set up Intune and enroll a device. [Request an Intune trial](http://www.microsoft.com/en-us/cloud-platform/enterprise-mobility-security-trial). 
+1.	Set up Intune and enroll a device. [Request an Intune trial](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility-security-trial). 
 2.	Navigate to the [Azure portal](https://portal.azure.com) and sign in with an Intune admin account.
 3.	On the left navigation bar, click __All services__ and search for Intune. 
 4.	In Intune, click on __Device configuration>Profiles__ and click __+ Create profile__.

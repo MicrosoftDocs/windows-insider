@@ -11,6 +11,7 @@
           "**/includes/**",
           "_themes/**",
           "_themes.pdf/**",
+          "**/docfx.json",
           "README.md",
           "LICENSE",
           "LICENSE-CODE",
@@ -22,14 +23,14 @@
       {
         "files": [
           "**/*.png",
-          "**/*.jpg",
-          "**/*.gif"
+          "**/*.jpg"
         ],
         "exclude": [
           "**/obj/**",
           "**/includes/**",
           "_themes/**",
-          "_themes.pdf/**"
+          "_themes.pdf/**",
+          "**/docfx.json"
         ]
       }
     ],
@@ -38,18 +39,18 @@
     "globalMetadata": {
       "breadcrumb_path": "/windows-insider/breadcrumb/toc.json",
       "extendBreadcrumb": true,
-      "feedback_system": "GitHub",
-      "feedback_github_repo": "MicrosoftDocs/windows-insider",
-      "feedback_product_url": "https://support.microsoft.com/en-us/help/4021566/windows-10-send-feedback-to-microsoft-with-feedback-hub-app"  
+      "titleSuffix": "Windows Insider Program",
+      "feedback_system": "None",
+      "_op_documentIdPathDepotMapping": {
+	 "./": {
+           "depot_name": "MSDN.wip",
+           "folder_relative_path_in_docset": "./"
+	 }
+      }
     },
     "fileMetadata": {},
     "template": [],
-    "dest": "wip",
+    "dest": "windows-insider",
     "markdownEngineName": "markdig"
-  },
-    "globalMetadata": {
-      "feedback_system": "GitHub",
-      "feedback_github_repo": "MicrosoftDocs/windows-insider",
-      "feedback_product_url": "https://support.microsoft.com/en-us/help/4021566/windows-10-send-feedback-to-microsoft-with-feedback-hub-app"     
-    }
+  }
 }

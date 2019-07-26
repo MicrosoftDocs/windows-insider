@@ -15,7 +15,7 @@ ms.prod: w10
 
 Welcome to Flight Hub! Use this dashboard to quickly identify the latest Windows Insider Preview releases for PC, Server, IoT. You can also look up the status of the SDK and ISO images.
 
-## Skip Ahead and Fast builds for Windows 10 (20H1)
+## Current Fast ring builds of Windows 10 (20H1)
 
 You can get builds of 20H1 today if you've opted in to **Fast builds**.
 
@@ -23,9 +23,15 @@ The items in **bold** are the latest releases for the individual versions of the
 
 | Build | Fast | Slow | Server | IoT | ISO | SDK |
 |-------|------|------|--------|-----|-----|-----|
-|18898|[**5/15/2019**](https://blogs.windows.com/windowsexperience/2019/05/15/announcing-windows-10-insider-preview-build-18898/#xvPsJ2ZkhgjAUXqW.97)||||||
+|18936|[**7/10/2019**](https://blogs.windows.com/windowsexperience/2019/07/10/announcing-windows-10-insider-preview-build-18936/#xOTpdwyjIUeGvlDK.97)||||||
+|18932|[7/3/2019](https://blogs.windows.com/windowsexperience/2019/07/03/announcing-windows-10-insider-preview-build-18932/#sUiWQPvrozsGJic1.97)||[**7/9/2019**](https://blogs.windows.com/windowsexperience/2019/07/09/announcing-windows-server-vnext-preview-build-18932/#DCLEVeqRhjO6zt4y.97)||[**7/9/2019**](https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewadvanced)||
+|18922|[6/19/2019](https://blogs.windows.com/windowsexperience/2019/06/19/announcing-windows-10-insider-preview-build-18922/#10cEFDsT6sfvrWxB.97)|||||[**6/25/2019**](https://blogs.windows.com/windowsdeveloper/2019/06/25/windows-10-sdk-preview-build-18922-available-now/#eoRmKh1p3rbbzWxU.97)|
+|18917|[6/12/2019](https://blogs.windows.com/windowsexperience/2019/06/12/announcing-windows-10-insider-preview-build-18917/#PBr663oII3EUQIbs.97)||[6/18/2019](https://blogs.windows.com/windowsexperience/2019/06/18/announcing-windows-server-vnext-preview-build-18917/#tyx8k4Df5qcXrR2H.97)|||[6/19/2019](https://blogs.windows.com/buildingapps/2019/06/18/windows-10-sdk-preview-build-18917-available-now/#fjfrOP7EMM0uopmg.97)|
+|18912|[6/5/2019](https://blogs.windows.com/windowsexperience/2019/06/05/announcing-windows-10-insider-preview-build-18912/#0gP9MhjvK4H4pDmV.97)||||6/11/2019|[6/12/2019](https://blogs.windows.com/buildingapps/2019/06/12/windows-10-sdk-preview-build-18912-available-now/#ajeSVKgySF074qlD.97)|
+|18908|[5/29/2019](https://blogs.windows.com/windowsexperience/2019/05/29/announcing-windows-10-insider-preview-build-18908/#wLhkJEJogirFpiWD.97)|||||[6/4/2019](https://blogs.windows.com/buildingapps/2019/06/04/windows-10-sdk-preview-build-18908-available-now/#JMGhJlytQzsYi1uV.97)|
+|18898|[5/15/2019](https://blogs.windows.com/windowsexperience/2019/05/15/announcing-windows-10-insider-preview-build-18898/#AFRsWFqeWjUIH3Sx.97)|||||[5/24/2019](https://blogs.windows.com/buildingapps/2019/05/24/windows-10-sdk-preview-build-18898-available-now/#K3BR81PS2HRZ7e1U.97)|
 |18895|[5/10/2019](https://blogs.windows.com/windowsexperience/2019/05/10/announcing-windows-10-insider-preview-build-18895/#Bp2Sl3z6UyTLJpuK.97)||||||
-|18894|[5/08/2019](https://blogs.windows.com/windowsexperience/2019/05/08/announcing-windows-10-insider-preview-build-18894/#h0HVgMsGgvjGPg2A.97)|||||[**5/14/2019**](https://blogs.windows.com/buildingapps/2019/05/14/windows-10-sdk-preview-build-18894-available-now/)|
+|18894|[5/08/2019](https://blogs.windows.com/windowsexperience/2019/05/08/announcing-windows-10-insider-preview-build-18894/#h0HVgMsGgvjGPg2A.97)|||||[5/14/2019](https://blogs.windows.com/buildingapps/2019/05/14/windows-10-sdk-preview-build-18894-available-now/)|
 |18890|[5/01/2019](https://blogs.windows.com/windowsexperience/2019/05/01/announcing-windows-10-insider-preview-build-18890/#ySSQukgWEOMTK9di.97)||||||
 |18885|[4/26/2019](https://blogs.windows.com/windowsexperience/2019/04/26/announcing-windows-10-insider-preview-build-18885/#OLMv93qV5DLDAWO4.97)||||||
 |18875|[4/10/2019](https://blogs.windows.com/windowsexperience/2019/04/10/announcing-windows-10-insider-preview-build-18875/#urRQqJMPrtfb7Ayb.97)||||||
@@ -42,7 +48,16 @@ The items in **bold** are the latest releases for the individual versions of the
 
 ## Next feature update for Windows 10 (19H2)
 
-[Coming soon!](https://blogs.windows.com/windowsexperience/2019/02/14/announcing-windows-10-insider-preview-build-18836/#uTrXpJD1cfT1y6vy.97)
+For details regarding the 19H2 feature update for Windows 10, see this [blog post](https://blogs.windows.com/windowsexperience/2019/07/01/evolving-windows-10-servicing-and-quality-the-next-steps/#IX1elYqpB4qhmMMg.97).
+
+| Build | Slow | 
+|-------|------|
+|18362.10006*|[**7/17/2019**](https://blogs.windows.com/windowsexperience/2019/07/15/announcing-windows-10-insider-preview-build-18362-10005-19h2/#lPWlUoqlUbDUCrUL.97)|
+|18362.10005|[7/15/2019](https://blogs.windows.com/windowsexperience/2019/07/15/announcing-windows-10-insider-preview-build-18362-10005-19h2/#lPWlUoqlUbDUCrUL.97)|
+|18362.10000|[7/1/2019](https://blogs.windows.com/windowsexperience/2019/07/01/announcing-windows-10-insider-preview-build-18362-10000-19h2/#KQ0Bs3IOxupv4cJu.97)|
+
+>[!NOTE] 
+> "*" denotes that the update went out to only a subset of Windows Insiders in the Slow ring which means not everyone in the Slow ring will see the update.
 
 ## Windows 10 May 2019 Update (19H1)
 

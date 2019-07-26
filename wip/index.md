@@ -3,9 +3,9 @@ layout: HubPage
 hide_bc: true
 author: lizap
 ms.author: apexprodleads
-ms.date: 04-17-2018
+ms.date: 04/17/2018
 ms.topic: hub-page
-title: Windows Insider Program docs
+title: Windows Insider Program
 description: The Windows Insider Program lets you get preview builds of Windows 10 and Windows Server 2019, and provide feedback directly to Microsoft.
 ms.localizationpriority: medium
 ---

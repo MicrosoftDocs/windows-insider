@@ -4,7 +4,7 @@ description: Troubleshooting tips
 manager: eliotgra
 ms.tgt_pltfrm: na
 ms.devlang: na
-ms.date: 11/1/2018
+ms.date: 11/01/2018
 ms.author: v-colinmit
 author: cdmm12
 ms.localizationpriority: medium
