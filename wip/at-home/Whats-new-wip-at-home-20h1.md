@@ -14,6 +14,78 @@ ms.prod: w10
 # What's new for Windows 10 Insider Preview Builds (20H1)
 The [Windows Insider Program](https://insider.windows.com/en-us/) lets you preview builds of the upcoming 20H1 release of Windows 10. This topic lists all new Windows 10 features for you to try. 
 
+## Introducing a new Cortana experience for Windows 10 (Build 18945)
+We are beginning to roll out a new Cortana experience for Windows 10 as a Beta to Windows Insiders in the U.S. This new experience features a brand-new chat-based UI that gives you the ability to type or speak natural language queries.
+
+![Cortana](images/18945-1.png "Introducing a new Cortana experience for Windows 10 ")
+
+It supports most of the Cortana features people enjoy using on Windows, such as Bing answers, Assistant conversations, opening apps, managing lists, and setting reminders, alarms, and timers. And we’ve added some new features we think people will enjoy:
+
+* Cortana now supports both light and dark themes in Windows.
+* We have created a new, less intrusive screen for “Hey Cortana” queries so you can stay in the flow while you work.
+* We have updated Cortana with new speech and language models, and significantly improved performance – making it faster and more reliable than ever before.
+
+Not all the features from the previous Cortana experience are available just yet. As a Beta, we plan to add more features over time with updates to Cortana from the Microsoft Store.
+
+To get started, choose the Cortana icon on the taskbar next to the search box. You can also leverage the speed and convenience of voice with improved speech recognition by simply saying “Hey Cortana”*. You may need to sign-in with your account to get started.
+
+__Note:__ This requires enabling this functionality in Settings > Voice activation privacy settings  – Talk to Cortana. 
+
+If you’re an Insider in the U.S. and are not seeing the new experience, please be patient as we’re slowing rolling it out. Additional markets and languages will become available at a later date. You must be signed in to use Cortana. Historically, there were quite a few skills that could be used unauthenticated (Bing answers, open apps, Assistant conversations) but this is no longer the case. Only limited skills are currently supported in the new experience. Don’t worry we’ll be bringing back many skills over the coming months.
+
+## Windows Subsystem for Linux (WSL) Improvements (Build 18945) 
+### Added connecting via localhost to WSL 2 Linux apps from Windows and global WSL configuration options
+
+You’ll now be able to connect to your WSL 2 Linux networking applications using localhost. For example, the image below shows starting a NodeJS server in a WSL 2 distro, and then connecting to it in the Edge Browser with localhost.
+
+![WSL 2](images/18945-2.png "Added connecting via localhost to WSL 2 Linux apps from Windows and global WSL configuration options")
+
+Additionally, we’ve added global configuration options for WSL. These are options that will apply to each of your WSL distros. This also allows you to specify options that relate to the WSL 2 virtual machine (VM), as all your WSL 2 distros run inside of the same VM. The most exciting option that you’ll get access to in this build is being able to specify a custom Linux kernel!
+For the full details on what’s new in this release, check out [What’s new for WSL in Insiders Preview Build 18945](http://devblogs.microsoft.com/commandline/whats-new-for-wsl-in-insiders-preview-build-18945) on the Windows command line blog.
+
+## Accessibility Improvements (Build 18945)
+
+### Narrator now provides a more efficient reading experience when reading messages in Outlook or Windows Mail
+
+When the message is opened, Scan Mode will turn on automatically. This allows the user to use their arrow keys to read the message in addition to all other Scan Mode hotkeys to jump through the text of the message.
+
+Email messages like newsletters and marketing content are often formatted using tables to visually represent the look of the message. For a screen reader user, this information is not needed while reading the message. Narrator now recognizes some of these situations and will remove the information about the table to allow you to quickly move through the text contained in the message. This lets you to be much more efficient while reading these types of email messages.
+#### Known issues
+* The cursor may not move to the location last read as Narrator auto-reads when an Outlook message is opened while in Scan Mode.
+* Narrator will start reading when replying to a message. Press the control key and move to the top of the message to write your reply.
+
+### Narrator’s Outlook folder reading has been enhanced for an optimal triaging experience
+As you read through your emails in Outlook, such as the inbox, Narrator now reads the information more efficiently. Each line item now starts with the status of the email, such as unread, forwarded, etc., followed by the other columns, such as from, subject, etc. Column headers will be silenced and columns with no data or that have the default (expected value) will be silenced, such as normal importance or unflagged, etc. While in Outlook, headers can be turned back on by pressing Narrator + H which will toggle their reading on and off.
+
+### Text cursor indicator
+Have you ever had an issue finding the text cursor in the middle of a large amount of text, during a presentation, or on the screen in an educational setting? The new Text cursor indicator will help you see and find the text cursor wherever you are at any time! Select from a range of sizes for the text cursor indicator and make it a color easy for you to see. Or, personalize the color of your text cursor indicator to your personal preference. In the Ease of Access settings, open the new Text cursor page, turn on the text cursor indicator, and never lose track of your text cursor ever again!
+
+![Accessibility](images/18945-3.png "Text cursor indicator")
+
+#### Known issues 
+* Text cursor indicator color and size might not persist when you sign in. To work around that, simply turn off and turn on the “Use text cursor indicator” setting again.
+* Occasionally, you might see that the text cursor indicator stay on the screen or reappear after the app has been closed or the page contents have scrolled away.
+
+## Updated File Explorer search rolling out to all Insiders
+Over the next few days, [the new File Explorer search experience](https://blogs.windows.com/windowsexperience/2019/05/08/announcing-windows-10-insider-preview-build-18894/#QfdoEyQ3TQXvJVoD.97) will be rolling out to all Insiders in the Fast ring! Thanks everyone who’s shared feedback so far and helped us to improve the experience. Please don’t hesitate to share any other comments – you can file feedback for this area under Files, Folders, and Storage > File Explorer in the Feedback Hub.
+
+![File Exploer](images/18945-4.png "pdated File Explorer search rolling out to all Insiders")
+
+
+## Updating the Korean IME
+Earlier in this development cycle, we released [updated versions of both the Chinese and Japanese IMEs](https://blogs.windows.com/windowsexperience/2019/04/10/announcing-windows-10-insider-preview-build-18875/#shlPX8HU74Tl0frv.97). As part of our ongoing efforts to modernize and improve your typing experience in Windows, today we’re rolling out an updated version of the Korean IME to all Insiders in the Fast ring. This update is going out with the goal of making the IME more secure, reliable, and more beautiful to look at.
+
+For those who’re familiar with typing in Korean, the changes will be most noticeable if you write in Hanja; we have a new candidate selection window that uses modern controls and clearer typography:
+
+![Korean IME](images/18941-1.png "Updating the Korean IME")
+
+We have also improved the algorithm used for text prediction when writing Korean using the touch keyboard. Text suggestions should now be more accurate and relevant to what you are writing.
+With this change, we have a couple of known issues we’re working on addressing:
+* Typing very fast in Notepad can cause the IME to stop working. If you experience this, restarting Notepad should resolve it.
+* Pressing hotkeys, such as CTRL + A, in while in the middle of writing a Hangul letter has inconsistent behavior across apps.
+
+We started rolling this change out to a small portion of Insiders a few days ago, and appreciate the feedback shared so far! Your feedback helps make Windows is better for everyone, so please don’t hesitate to [continue sharing your thoughts and experiences](https://aka.ms/inputfeedback).
+
 ## Quick Event Create from the Taskbar (Build 18936)
 Do you ever open the clock and calendar flyout to help organize your thoughts while making plans? We’ve been working on making it easier to create new events and reminders, and are happy to announce that as of today, all Insiders in the Fast ring should see this when you click on the date in the taskbar:
 ![Taskbar](images/18936-1.png "Quick Event Create from the Taskbar")'
@@ -26,14 +98,14 @@ For improved security and a more seamless sign-in experience, you can now enable
 
 Please note: This feature is currently being rolled out to a small portion of Insiders and the above option may not show for all users in Settings. If the toggle isn’t showing for you yet, check back in a week so.
 
-## Eye Control Improvements(build 18932)
+## Eye Control Improvements (Build 18932)
 We’re continuing to extend and improve Eye Control based on your customer feedback. With this release, we have improvements in the following areas, which we invite your feedback about through the Feedback Hub and [Microsoft Accessibility Feedback Forum](https://microsoftaccessibility.uservoice.com/forums/307429-microsoft-accessibility-feedback?category_id=317314).
 
-![Accessibility](images/18932-3.png "Eye Control")
+![Eye Control](images/18932-1.png "controls")
 
 __Drag-and-drop:__ One of the most requested features, performing mouse drag-and-drop, is now implemented in Eye Control. When turned on from within Eye Control’s settings screen, the precise mouse control tool now allows mouse drag operations, as well as the ability to combine clicks and drags with Shift and Ctrl modifier keys.
 
-![Accessibility](images/18932-4.png "Eye Control")
+![Eye Control](images/18932-2.png "Drag and Drop")
 
 __Pause:__ We’ve made improvements to the pause experience. Selecting the pause button completely hides the launchpad. When dismissed, the launchpad reappears when you briefly close your eyes or look away from the screen. This allows uninterrupted viewing of full screen content, like watching a video. Similarly, it also allows eye gaze enabled applications to be used without triggering Eye Control features, useful if playing the [recently launched Eye First applications](https://blogs.msdn.microsoft.com/accessibility/2019/06/18/eyesfirstgame/).
 
@@ -43,13 +115,13 @@ __Under the hood__ People wishing to develop their own gaze enabled applications
 
 __Settings:__ We have updated settings to allow you to manage more Eye Control features. This includes enabling some of the new features and more fine control of the numeric values that change how responsive the system is to eye movements. This allows for a more customized and natural feel for your Eye Control experience.
 
-![Accessibility](images/18932-5.png "Eye Control")
+![Eye Control](images/18932-3.png "Settings")
 
 ## Other Accessibility Improvements (Build 18932)
 * __Narrator will now automatically start reading webpages and emails:__ Do you want to hear the most valuable content faster? Narrator now automatically starts reading webpages when they are loaded. Narrator will start reading at the main landmark, if there is one, or will fall back to a reasonable paragraph. Narrator will also start automatically reading emails when they are opened in Outlook and the inbox Mail applications. If you find experiences that aren’t working well, please send us feedback.
 * __The Magnifier UI now works with dark theme and text sizing options.__ The image below shows two Magnifier windows. The top one is in Light theme and default text size; the bottom one is in Dark theme and the text is scaled at 125%.
 
-![Accessibility](images/18932-6.png "Eye Control")
+![Accessibility](images/18932-4.png "Eye Control")
 
 ## Refining your notification settings (Build 18932)
 Over the last few releases, based on your feedback, we’ve been working on giving you more control over potential interruptions. [Introducing Focus Assist](https://blogs.windows.com/windowsexperience/2018/05/09/windows-10-tip-how-to-enable-focus-assist-in-the-windows-10-april-2018-update/#6pHjPV1ym9QaGIuO.97) to automatically suppress notifications when you’re trying to stay in the moment and not get distracted, and adding the option to use middle click to dismiss notifications if you want to quickly make a notification toast go away.
@@ -57,21 +129,21 @@ One thing we’ve heard from you, though, is that our notification settings aren
 In order to address this, we’ve begun rolling out a few changes, including:
 1. When you receive a notification toast, there will now be an inline option to turn off notifications for that app, or head to the app’s notification settings.
 
-![Notifications](images/18932-7.gif "settings")
+![Notifications](images/18932-5.gif "settings")
 
 2. When you dive into an app’s notification settings, you’ll find that we’ve added pictures to help articulate the impact of a certain settings.
 
-![Notifications](images/18932-8.png "settings")
+![Notifications](images/18932-6.png "UI updates - settings")
 
 3. Prefer to have all your notifications muted? You no longer have to go to the old sound control panel to do that – we’ve added it as a top-level option in Notification & Actions Settings.
 
 4. But wait, there’s more! We’ve also added a new direct link at the top of the Action Center to manage notifications, so it takes one less step to get to Notification & Actions settings. To make room for this we’ve moved the “no notifications” text down to the middle of the Action Center, which also means your eyes don’t have to traverse as far to see it when you launch the Action Center from the bottom of the screen.
 
-![Notifications](images/18932-9.png "settings")
+![Notifications](images/18932-7.png "settings")
 
 5. Finally, ever dismissed a notification you wanted to disable, and went to Notification & Actions Settings only to find the list of notification senders to be really really long? You can now sort the list by which apps most recently sent notifications.
 
-![Notifications](images/18932-10.png "settings")
+![Notifications](images/18932-8.png "settings")
 
 ## Language Settings Improvements (Build 18922)
 The Global Language Experience team has improvements in Language Settings to make it easier for you to see the current state of your language settings at a glance. The new overview section lets you quickly know which languages are selected as default for their Windows display, Apps & websites, Regional format, Keyboard, and Speech. If everything looks as expected you can quickly move on, you can click one of the tiles which will take you to where you need to be to change that selection.
@@ -103,14 +175,15 @@ We’ve optimized the information you hear with Narrator when navigating a table
 WSL 2 is a new version of the architecture that powers the Windows Subsystem for Linux to run ELF64 Linux binaries on Windows. This new architecture, which uses a real Linux kernel, changes how these Linux binaries interact with Windows and your computer’s hardware, but still provides the same user experience as in WSL 1 (the current widely available version). WSL 2 delivers a much faster file system performance and full system call compatibility, which lets you run more applications like Docker!
 [Read more about the release of WSL 2](https://devblogs.microsoft.com/commandline/wsl-2-is-now-available-in-windows-insiders/).
 
-![Windows Subsystem for Linux 2](images/18917-2.gif "WSL 2 delivers a much faster file system performance and full system call compatibility")'
+![WSL](images/18917-2.gif "Introducing Windows Subsystem for Linux 2")
+
 
 ## Windows Ink Workspace Updates (Build 18917)
 As we mentioned last week, you may notice that Windows Ink Workspace has changed on your PC. That’s because we’re updating the Windows Ink Workspace experience and starting to roll it out to some Insiders.
 
-As part of this, Windows Ink Workspace now takes up less screen real estate, and we’re converging our whiteboarding experiences with a new direct link to our [Microsoft Whiteboard app](https://products.office.com/en-us/microsoft-whiteboard/digital-whiteboard-app). Microsoft Whiteboard is a freeform digital canvas where ideas, content, and people can come together. It includes an infinite canvas, optional backgrounds (including graph paper and solid dark grey) to choose from, rainbow ink support, multiple pages, and generally addresses much of the feedback you shared with us about Sketchpad. If you used Sketchpad, don’t worry – we saved the sketch you were working on in your Pictures folder.
+![Windows Ink](images/18917-3.jpg "Windows Ink Workspace Updates")
 
-![Windows Ink](images/18917-3.jpg "workspacw updates")'
+As part of this, Windows Ink Workspace now takes up less screen real estate, and we’re converging our whiteboarding experiences with a new direct link to our [Microsoft Whiteboard app](https://products.office.com/en-us/microsoft-whiteboard/digital-whiteboard-app). Microsoft Whiteboard is a freeform digital canvas where ideas, content, and people can come together. It includes an infinite canvas, optional backgrounds (including graph paper and solid dark grey) to choose from, rainbow ink support, multiple pages, and generally addresses much of the feedback you shared with us about Sketchpad. If you used Sketchpad, don’t worry – we saved the sketch you were working on in your Pictures folder.
 
 We heard your feedback, and we’ve streamlined the Windows Ink Workspace for you. Stay tuned as we continue to evolve! Once the new experience arrives on your PC, please take a moment to try it out and share feedback via Feedback Hub under Desktop Environment > Windows Ink Workspace. If the Windows Ink Workspace icon isn’t visible in your taskbar, you can show it by right-clicking the taskbar and selecting “Show Windows Workspace Icon.”
 
@@ -148,7 +221,7 @@ Ever had a word that you just can’t figure out how to spell? Or like to think 
 
 How to try it? Set focus to a text field and press WIN+H! Or you can tap the little microphone button at the top of the touch keyboard. Say what you wanna say, then press WIN+H a second time or tap the mic button to stop the dictation, or let the dictation session time out on its own. 
 
-![dictation](images/18885-1.gif "expanded language support")
+![dictation](images/18885-2.gif "expanded dictation support to more languages")
 
 We’d love to hear your feedback – you can report issues or make feature requests under Input & Language > Speech Input in the Feedback Hub.
 
