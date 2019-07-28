@@ -592,7 +592,7 @@ The Ebrima font also supports other African writings systems N'ko, Tifinagh, Vai
 
 ![Showing sample of the Ebrima font](images/ebrima-font.png "Showing sample of the Ebrima font")
 
-### ADLaM and Osage keyboard support (Build 18329)
+### ADLaM and Osage keyboard support 
 Building on the [font support we announced recently](https://docs.microsoft.com/windows-insider/at-home/whats-new-wip-at-home#ebrima-font-addition-with-adlam-support-build-18252), today we’re introducing keyboard support for ADLaM and Osage. ADLaM script is used to write Pular/Fulfulde, the language of the Fulani people of West Africa. Osage script is used to write the Osage language spoken by the Osage Nation in Oklahoma.
 
 Here is an example what you’d see on the touch keyboard when using ADLaM:
