@@ -14,6 +14,27 @@ ms.prod: w10
 # What's new for Windows 10 Insider Preview Builds (20H1)
 The [Windows Insider Program](https://insider.windows.com/en-us/) lets you preview builds of the upcoming 20H1 release of Windows 10. This topic lists all new Windows 10 features for you to try. 
 
+## Japanese IME Improvements (Build 18950)
+Thank you everyone who’s shared feedback so far about the new Japanese IME. The development team has been working on improving the quality based on your feedback. Here are some improvements that you can try out in this build:
+* __Prediction Candidate window key navigation:__ We fixed an issue where the focus inside prediction candidate window wouldn’t move when using the Up Arrow key.
+* __Key customization:__ We’ve improved the discoverability of key assignment settings. Also, based on feedback, we’ve updated the default assigned value of Ctrl + Space to be “None”. Ctrl + Space can still be used for toggling IME-on/off by changing the value through its setting.
+
+![Japanese IME](images/18950-1.png "Japanese IME Improvements")
+
+Please don’t hesitate to continue [sharing your thoughts with us](https://aka.ms/inputfeedback) about typing in Windows – our ears are open and we’d love to hear from you.
+
+## Snip & Sketch improvements headed your way (Build 18950)
+Thanks everyone who’s shared feedback so far for our updated snipping experience! We really appreciate it and are starting to roll out some more improvements based on what you’ve told us:
+* __Single window mode:__ Do you tend to retake snips multiple times in order to get the perfect screenshot? We’re updating the New button to now open new snips in your current app window, so you don’t end up with a ton of open snips (that you then need to close.) If you’d rather keep all snips open in separate windows. the option is now a toggle in settings, so you can decide which mode you prefer.
+
+![Snip & Sketch](images/18950-2.png "Singke Mode View")
+ 
+* __Zoom:__ Need we say more? You can now zoom in on your screenshots if they’re a bit too small for you to annotate on (and yes, CTRL+Plus, CTRL+Minus and Ctrl+Mouse wheel are supported!). We’ll also zoom out to make sure the whole snip fits in the Snip & Sketch window. If you want to see the snip at its original size, click the Zoom button and then “Actual Size”.
+
+* __Improving WIN+Shift+S discoverability:__ You mentioned you loved learning about using WIN+Shift+S to take new snips any time and we thought others would too! If you haven’t taken a snip yet, we’ll now use the canvas space in Snip & Sketch to help you learn how to start a snip without needing to open the app first. 
+
+These changes are currently available for a portion of Insiders in the Fast ring as we evaluate the quality before continuing the rollout. Note the rollout for each change mentioned above is being handled separately, with separate random populations in the initial rollout, so seeing one of the changes with app version 10.1907.2064.0 doesn’t necessarily mean you’ll see all three.
+
 ## Introducing a new Cortana experience for Windows 10 (Build 18945)
 We are beginning to roll out a new Cortana experience for Windows 10 as a Beta to Windows Insiders in the U.S. This new experience features a brand-new chat-based UI that gives you the ability to type or speak natural language queries.
 
