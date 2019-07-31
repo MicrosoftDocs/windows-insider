@@ -23,7 +23,8 @@ The items in **bold** are the latest releases for the individual versions of the
 
 | Build | Fast | Slow | Server | IoT | ISO | SDK |
 |-------|------|------|--------|-----|-----|-----|
-|18945|[**7/26/2019**](https://blogs.windows.com/windowsexperience/2019/07/26/announcing-windows-10-insider-preview-build-18945/)||[**7/30/2019**](https://blogs.windows.com/windowsexperience/2019/07/30/announcing-windows-server-vnext-insider-preview-build-18945/)|||[**7/30/2019**](https://blogs.windows.com/windowsdeveloper/2019/07/30/windows-10-sdk-preview-build-18945-available-now/)|
+|18950|[**7/31/2019**](https://blogs.windows.com/windowsexperience/2019/07/31/announcing-windows-10-insider-preview-build-18950/)||||||
+|18945|[7/26/2019](https://blogs.windows.com/windowsexperience/2019/07/26/announcing-windows-10-insider-preview-build-18945/)||[**7/30/2019**](https://blogs.windows.com/windowsexperience/2019/07/30/announcing-windows-server-vnext-insider-preview-build-18945/)|||[**7/30/2019**](https://blogs.windows.com/windowsdeveloper/2019/07/30/windows-10-sdk-preview-build-18945-available-now/)|
 |18941|[7/18/2019](https://blogs.windows.com/windowsexperience/2019/07/18/announcing-windows-10-insider-preview-build-18941/)||||||
 |18936|[7/10/2019](https://blogs.windows.com/windowsexperience/2019/07/10/announcing-windows-10-insider-preview-build-18936/)||||||
 |18932|[7/03/2019](https://blogs.windows.com/windowsexperience/2019/07/03/announcing-windows-10-insider-preview-build-18932/)||[7/09/2019](https://blogs.windows.com/windowsexperience/2019/07/09/announcing-windows-server-vnext-preview-build-18932/)||[**7/09/2019**](https://www.microsoft.com/software-download/windowsinsiderpreviewadvanced)||
