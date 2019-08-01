@@ -187,33 +187,34 @@ Windows 10, version 1809, and Windows Server 2019 were released to the world on 
 
 ## Windows 10 Fall Creators Update (RS3)
 
-[The Windows 10 Fall Creators Update](https://blogs.windows.com/windowsexperience/2017/10/17/windows-10-fall-creators-update-and-mixed-reality-headsets-available-today-announcing-surface-book-2/) was released to the world on October 17th, 2017. Windows Insiders helped test 24 builds.
+The [Windows 10 Fall Creators Update](https://blogs.windows.com/windowsexperience/2017/10/17/windows-10-fall-creators-update-and-mixed-reality-headsets-available-today-announcing-surface-book-2/) was released to the world on October 17th, 2017. Windows Insiders helped test 24 builds.
 
 | Build | Fast | Slow | Release Preview |
 |-------|------|------|-----------------|
-| 16299.15 | [10/2/2017](https://blogs.windows.com/windowsexperience/2017/09/26/announcing-windows-10-insider-preview-build-16299-pc/) | 10/4/2017 | 10/10/2017 |
-| 16299.1 | [9/26/2017](https://blogs.windows.com/windowsexperience/2017/09/26/announcing-windows-10-insider-preview-build-16299-pc/) | 9/28/2017 |
-| 16296 | [9/22/2017](https://blogs.windows.com/windowsexperience/2017/09/22/announcing-windows-10-insider-preview-build-16296-pc/) | 9/28/2017 |
-| 16294 | [9/20/2017](https://blogs.windows.com/windowsexperience/2017/09/20/announcing-windows-10-insider-preview-build-16294-pc/) | |
-| 16291 | [9/19/2017](https://blogs.windows.com/windowsexperience/2017/09/19/announcing-windows-10-insider-preview-build-16291-pc/) | 9/22/2017 |
-| 16288 | [9/12/2017](https://blogs.windows.com/windowsexperience/2017/09/12/announcing-windows-10-insider-preview-build-16288-pc-build-15250-mobile/) | 9/15/2017 |
-| 16281 | [9/1/2017](https://blogs.windows.com/windowsexperience/2017/09/01/announcing-windows-10-insider-preview-build-16281-pc/) |
-| 16278 | [8/29/2017](https://blogs.windows.com/windowsexperience/2017/08/29/announcing-windows-10-insider-preview-build-16278-pc/) | 9/01/2017 |
-| 16275 | [8/25/2017](https://blogs.windows.com/windowsexperience/2017/08/25/announcing-windows-10-insider-preview-build-16275-pc-build-15245-mobile/) |
-| 16273 | [8/23/2017](https://blogs.windows.com/windowsexperience/2017/08/23/announcing-windows-10-insider-preview-build-16273-pc/) |
-| 16257 | [8/01/2017](https://blogs.windows.com/windowsexperience/2017/08/02/announcing-windows-10-insider-preview-build-16257-pc-build-15237-mobile/) |
-| 16251 | [7/26/2017](https://blogs.windows.com/windowsexperience/2017/07/26/announcing-windows-10-insider-preview-build-16251-pc-build-15235-mobile/) | 8/02/2017 |
-| 16241 | [7/13/2017](https://blogs.windows.com/windowsexperience/2017/07/13/announcing-windows-10-insider-preview-build-16241-pc-build-15230-mobile/) |
-| 16237 | [7/07/2017](https://blogs.windows.com/windowsexperience/2017/07/07/announcing-windows-10-insider-preview-build-16237-pc/) |
-| 16232 | [6/28/2017](https://blogs.windows.com/windowsexperience/2017/06/28/announcing-windows-10-insider-preview-build-16232-pc-build-15228-mobile/) | 7/07/2017 |
-| 16226 | [6/21/2017](https://blogs.windows.com/windowsexperience/2017/06/21/announcing-windows-10-insider-preview-build-16226-pc/) |
-| 16215 | [6/08/2017](https://blogs.windows.com/windowsexperience/2017/06/08/announcing-windows-10-insider-preview-build-16215-pc-build-15222-mobile/) |
-| 16199 | [5/17/2017](https://blogs.windows.com/windowsexperience/2017/05/17/announcing-windows-10-insider-preview-build-16199-pc-build-15215-mobile/)
-| 16193 | [5/11/2017](https://blogs.windows.com/windowsexperience/2017/05/11/announcing-windows-10-insider-preview-build-16193-pc-build-15213-mobile/) |
-| 16188 | [5/05/2017](https://blogs.windows.com/windowsexperience/2017/05/04/announcing-windows-10-insider-preview-build-16188-pc-build-15210-mobile/) |
-| 16179 | [4/28/2017](https://blogs.windows.com/windowsexperience/2017/04/19/announcing-windows-10-insider-preview-build-16179-pc-build-15205-mobile/) |
-| 16176 | [4/14/2017](https://blogs.windows.com/windowsexperience/2017/04/14/announcing-windows-10-insider-preview-build-16176-pc-build-15204-mobile/) |
-| 16170 | [4/07/2017](https://blogs.windows.com/windowsexperience/2017/04/07/announcing-windows-10-insider-preview-build-16170-pc/) |
+|16299.15|[**10/02/2017**](https://blogs.windows.com/windowsexperience/2017/09/26/announcing-windows-10-insider-preview-build-16299-pc/)|[**10/04/2017**](https://blogs.windows.com/windowsexperience/2017/09/26/announcing-windows-10-insider-preview-build-16299-pc/)|[**10/10/2017**](https://blogs.windows.com/windowsexperience/2017/09/26/announcing-windows-10-insider-preview-build-16299-pc/)|
+|16299|[9/26/2017](https://blogs.windows.com/windowsexperience/2017/09/26/announcing-windows-10-insider-preview-build-16299-pc/)|[9/28/2017](https://blogs.windows.com/windowsexperience/2017/09/26/announcing-windows-10-insider-preview-build-16299-pc/)||
+|16296|[9/22/2017](https://blogs.windows.com/windowsexperience/2017/09/22/announcing-windows-10-insider-preview-build-16296-pc/)|[9/26/2017](https://blogs.windows.com/windowsexperience/2017/09/22/announcing-windows-10-insider-preview-build-16296-pc/)||
+|16294|[9/20/2017](https://blogs.windows.com/windowsexperience/2017/09/20/announcing-windows-10-insider-preview-build-16294-pc/)|||
+|16291|[9/19/2017](https://blogs.windows.com/windowsexperience/2017/09/19/announcing-windows-10-insider-preview-build-16291-pc/)|[9/22/2017](https://blogs.windows.com/windowsexperience/2017/09/19/announcing-windows-10-insider-preview-build-16291-pc/)||
+|16288|[9/12/2017](https://blogs.windows.com/windowsexperience/2017/09/12/announcing-windows-10-insider-preview-build-16288-pc-build-15250-mobile/)|[9/15/2017](https://blogs.windows.com/windowsexperience/2017/09/12/announcing-windows-10-insider-preview-build-16288-pc-build-15250-mobile/)||
+|16281|[9/01/2017](https://blogs.windows.com/windowsexperience/2017/09/01/announcing-windows-10-insider-preview-build-16281-pc/)|||
+|16278|[8/29/2017](https://blogs.windows.com/windowsexperience/2017/08/29/announcing-windows-10-insider-preview-build-16278-pc/)|[9/01/2017](https://blogs.windows.com/windowsexperience/2017/08/29/announcing-windows-10-insider-preview-build-16278-pc/)||
+|16275|[8/25/2017](https://blogs.windows.com/windowsexperience/2017/08/25/announcing-windows-10-insider-preview-build-16275-pc-build-15245-mobile/)|||
+|16273|[8/23/2017](https://blogs.windows.com/windowsexperience/2017/08/23/announcing-windows-10-insider-preview-build-16273-pc/)|||
+|16257|[8/02/2017](https://blogs.windows.com/windowsexperience/2017/08/02/announcing-windows-10-insider-preview-build-16257-pc-build-15237-mobile/)|||
+|16251|[7/26/2017](https://blogs.windows.com/windowsexperience/2017/07/26/announcing-windows-10-insider-preview-build-16251-pc-build-15235-mobile/)|[8/02/2017](https://blogs.windows.com/windowsexperience/2017/07/26/announcing-windows-10-insider-preview-build-16251-pc-build-15235-mobile/)||
+|16241|[7/13/2017](https://blogs.windows.com/windowsexperience/2017/07/13/announcing-windows-10-insider-preview-build-16241-pc-build-15230-mobile/)|||
+|16237|[7/07/2017](https://blogs.windows.com/windowsexperience/2017/07/07/announcing-windows-10-insider-preview-build-16237-pc/)|||
+|16232|[6/28/2017](https://blogs.windows.com/windowsexperience/2017/06/28/announcing-windows-10-insider-preview-build-16232-pc-build-15228-mobile/)|[7/07/2017](https://blogs.windows.com/windowsexperience/2017/06/28/announcing-windows-10-insider-preview-build-16232-pc-build-15228-mobile/)||
+|16226|[6/21/2017](https://blogs.windows.com/windowsexperience/2017/06/21/announcing-windows-10-insider-preview-build-16226-pc/)|||
+|16215|[6/08/2017](https://blogs.windows.com/windowsexperience/2017/06/08/announcing-windows-10-insider-preview-build-16215-pc-build-15222-mobile/)|||
+|16199|[5/17/2017](https://blogs.windows.com/windowsexperience/2017/05/17/announcing-windows-10-insider-preview-build-16199-pc-build-15215-mobile/)|||
+|16193|[5/11/2017](https://blogs.windows.com/windowsexperience/2017/05/11/announcing-windows-10-insider-preview-build-16193-pc-build-15213-mobile/)|||
+|16188|[5/04/2017](https://blogs.windows.com/windowsexperience/2017/05/04/announcing-windows-10-insider-preview-build-16188-pc-build-15210-mobile/)|||
+|16184|[4/28/2017](https://blogs.windows.com/windowsexperience/2017/04/28/announcing-windows-10-insider-preview-build-16184-pc-build-15208-mobile/)|||
+|16179|[4/19/2017](https://blogs.windows.com/windowsexperience/2017/04/19/announcing-windows-10-insider-preview-build-16179-pc-build-15205-mobile/)|||
+|16176|[4/14/2017](https://blogs.windows.com/windowsexperience/2017/04/14/announcing-windows-10-insider-preview-build-16176-pc-build-15204-mobile/)|||
+|16170|[4/07/2017](https://blogs.windows.com/windowsexperience/2017/04/07/announcing-windows-10-insider-preview-build-16170-pc/)|||
 
 ## Windows 10 Creators Update (RS2)
 
@@ -221,4 +222,4 @@ The [Windows 10 Creators Update](https://blogs.windows.com/windowsexperience/201
 
 | Build | Fast | Slow | Release Preview |
 |-------|------|------|-----------------|
-| 15063 | [3/20/2017](https://blogs.windows.com/windowsexperience/2017/03/20/announcing-windows-10-insider-preview-build-15063-pc-mobile/) | 3/23/2017 | 3/30/2017 |
+|15063|[**3/20/2017**](https://blogs.windows.com/windowsexperience/2017/03/20/announcing-windows-10-insider-preview-build-15063-pc-mobile/)|[**3/23/2017**](https://blogs.windows.com/windowsexperience/2017/03/20/announcing-windows-10-insider-preview-build-15063-pc-mobile/)|[**3/30/2017**](https://blogs.windows.com/windowsexperience/2017/03/20/announcing-windows-10-insider-preview-build-15063-pc-mobile/)|
