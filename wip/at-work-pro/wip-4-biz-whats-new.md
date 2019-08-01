@@ -167,7 +167,7 @@ We have introduced a simplified assigned access configuration page in Settings t
 
 Please go to Settings, search for assigned access, and open the “Set up a kiosk” page to give it a try. We would love to hear your feedback! Let us know via the [Feedback Hub](insiderhub://home/).   
 
-![set up a kiosk](images/kiosk-mode.png "set up a kiosk")
+![set up a kiosk](images/kiosk-mode.PNG "set up a kiosk")
 
 We are very excited to announce that Microsoft Edge now works with assigned access which allows IT administrators to create a tailored browsing experience designed for kiosk devices. Microsoft Edge kiosk mode supports the following four types.
 
@@ -197,7 +197,7 @@ Learn more about [Microsoft Edge kiosk mode](https://docs.microsoft.com/microsof
 ## Web sign-in to Windows 10 (Build 17713)
 Until now, Windows logon only supported the use of identities federated to ADFS or other providers that support the WS-Fed protocol. We are introducing “web sign-in,” a new way of signing into your Windows PC. Web sign-in enables Windows logon support for non-ADFS federated providers (e.g.SAML).
 
-![web sign-in](images/websignin.png "web sign-in")
+![web sign-in](images/WebSignIn.png "web sign-in")
 
 ### To try out web sign-in:
 1. Azure AD Join your Windows 10 PC. (Web sign-in is only supported on Azure AD Joined PCs).
@@ -207,7 +207,7 @@ Until now, Windows logon only supported the use of identities federated to ADFS 
 
 ## Faster sign-in to a Windows 10 shared pc (Build 17713)
 Do you have shared PCs deployed in your work place? Introducing “fast sign-in,” which enables users to sign in to a shared Windows 10 PC in a flash!
-![fast sign-in](images/fastsignin.png "fast sign-in")
+![fast sign-in](images/FastSignIn.png "fast sign-in")
 
 ### To enable fast sign-in,
 1. Set up a shared or guest PC with Windows 10
@@ -245,7 +245,7 @@ In this example, Windows uses facial recognition to authenticate the RDP session
 
 ![Microsoft Hyper-V Server 2016](images/hyper-v.png "Microsoft Hyper-V Server 2016")
 
-##Windows 10 Pro S Mode requires a network connection (Build 17712)
+## Windows 10 Pro S Mode requires a network connection (Build 17712)
 
 Starting with Windows 10 Pro S Mode build 17712, a network connection is now required to set up a new device. As a result, we removed the “skip for now” option in the network setup page in OOBE. 
 
@@ -288,7 +288,7 @@ You can still get to the app in all the usual ways – simply ask Cortana to ope
 ## Windows Security Center gets a Fluent Design refresh (Build 17650)
 We’ve heard your feedback and we’ve updated Windows Security Center (WSC) to include the Fluent Design elements you know and love. You’ll also notice we’ve adjusted the spacing and padding around the app and will now dynamically size the categories on the main page if more room is needed for extra info. Last but not least, we’ve also updated the title bar of the app so that it will now use your accent color if you’ve enabled that option in Color Settings – with Sets enabled, you will see this color in the WDSC tab.
 
-![alt text](images/defender.png "Windows Security Center")
+![Defender fluent design](images/Defender.png "Windows Security Center")
 
 
 ## Windows Defender Firewall now supports Windows Subsystem for Linux (WSL) processes (Build 17627)
