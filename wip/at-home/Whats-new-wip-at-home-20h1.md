@@ -27,9 +27,11 @@ Please don’t hesitate to continue [sharing your thoughts with us](https://aka.
 Thanks everyone who’s shared feedback so far for our updated snipping experience! We really appreciate it and are starting to roll out some more improvements based on what you’ve told us:
 * __Single window mode:__ Do you tend to retake snips multiple times in order to get the perfect screenshot? We’re updating the New button to now open new snips in your current app window, so you don’t end up with a ton of open snips (that you then need to close.) If you’d rather keep all snips open in separate windows. the option is now a toggle in settings, so you can decide which mode you prefer.
 
-![Snip & Sketch](images/18950-2.png "Singke Mode View")
+![Snip & Sketch](images/18950-2.png "Single Mode View")
  
 * __Zoom:__ Need we say more? You can now zoom in on your screenshots if they’re a bit too small for you to annotate on (and yes, CTRL+Plus, CTRL+Minus and Ctrl+Mouse wheel are supported!). We’ll also zoom out to make sure the whole snip fits in the Snip & Sketch window. If you want to see the snip at its original size, click the Zoom button and then “Actual Size”.
+
+![Snip & Sketch](images/18950-3.gif "zoom")
 
 * __Improving WIN+Shift+S discoverability:__ You mentioned you loved learning about using WIN+Shift+S to take new snips any time and we thought others would too! If you haven’t taken a snip yet, we’ll now use the canvas space in Snip & Sketch to help you learn how to start a snip without needing to open the app first. 
 
@@ -87,13 +89,13 @@ Have you ever had an issue finding the text cursor in the middle of a large amou
 * Text cursor indicator color and size might not persist when you sign in. To work around that, simply turn off and turn on the “Use text cursor indicator” setting again.
 * Occasionally, you might see that the text cursor indicator stay on the screen or reappear after the app has been closed or the page contents have scrolled away.
 
-## Updated File Explorer search rolling out to all Insiders
+## Updated File Explorer search rolling out to all Insiders (Build 18945)
 Over the next few days, [the new File Explorer search experience](https://blogs.windows.com/windowsexperience/2019/05/08/announcing-windows-10-insider-preview-build-18894/#QfdoEyQ3TQXvJVoD.97) will be rolling out to all Insiders in the Fast ring! Thanks everyone who’s shared feedback so far and helped us to improve the experience. Please don’t hesitate to share any other comments – you can file feedback for this area under Files, Folders, and Storage > File Explorer in the Feedback Hub.
 
 ![File Exploer](images/18945-4.png "pdated File Explorer search rolling out to all Insiders")
 
 
-## Updating the Korean IME
+## Updating the Korean IME (Build 18941)
 Earlier in this development cycle, we released [updated versions of both the Chinese and Japanese IMEs](https://blogs.windows.com/windowsexperience/2019/04/10/announcing-windows-10-insider-preview-build-18875/#shlPX8HU74Tl0frv.97). As part of our ongoing efforts to modernize and improve your typing experience in Windows, today we’re rolling out an updated version of the Korean IME to all Insiders in the Fast ring. This update is going out with the goal of making the IME more secure, reliable, and more beautiful to look at.
 
 For those who’re familiar with typing in Korean, the changes will be most noticeable if you write in Hanja; we have a new candidate selection window that uses modern controls and clearer typography:
