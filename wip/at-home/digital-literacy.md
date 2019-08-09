@@ -1,5 +1,5 @@
 ---
-title: #InsiderUp and digital literacy
+title: Digital literacy and #InsiderUp communities
 description: Digital literacy resources
 author: arshields7
 manager: arshields7
@@ -11,7 +11,7 @@ ms.topic: article
 ms.prod: w10
 ---
 
-# #InsiderUp and Digital Literacy
+# Digital literacy and #InsiderUp communities
 
 ## What is digital literacy?
 Digital literacy is the ability to use and understand digital devices and technologies in their daily lives and careers.
@@ -29,7 +29,7 @@ We've found that rather than building something for the customer, it’s better 
 
 [Find Insider communities around the world >](https://insider.windows.com/en-us/community-leaders/)
 
-## Starting your own #InsiderUp community
+## Starting your own community
 
 If you're interested in starting your own community or even just hosting a meetup, [Insider community leaders](https://insider.windows.com/en-us/community-leaders/) who have been through this process helped us create this playbook of advice to help you get started. 
 
