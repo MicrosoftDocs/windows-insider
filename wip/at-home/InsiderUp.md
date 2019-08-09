@@ -64,7 +64,7 @@ Below is a playbook that we've put together based on feedback from others settin
 
 5.	What is the format of the event? Lecture style? Guest speaker? Hands-on? Panel?  Be clear in your invite. 
 
-	- Example: Basic structure of 10-15-minute intro, 30-minute guest speaker, then workshop. No more than 2.5 hours total.
+	- ***Example:*** Basic structure of 10-15-minute intro, 30-minute guest speaker, then workshop. No more than 2.5 hours total.
 
 6.	Who is going to help you? Remember, you don’t have to do this alone. Is there someone from the local community who would like to partner with you to help organize, send invites, collect surveys, etc.?
 
