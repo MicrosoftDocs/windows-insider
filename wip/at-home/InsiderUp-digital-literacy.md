@@ -1,5 +1,5 @@
 ---
-title: #InsiderUp digital literacy
+title: #InsiderUp and digital literacy
 description: Digital literacy resources
 author: arshields7
 manager: arshields7
@@ -11,7 +11,7 @@ ms.topic: article
 ms.prod: w10
 ---
 
-# #InsiderUp Digital Literacy
+# #InsiderUp and Digital Literacy
 
 ## What is digital literacy?
 Digital literacy is the ability to use and understand digital devices and technologies in their daily lives and careers.
