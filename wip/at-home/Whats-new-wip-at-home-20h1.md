@@ -14,6 +14,77 @@ ms.prod: w10
 # What's new for Windows 10 Insider Preview Builds (20H1)
 The [Windows Insider Program](https://insider.windows.com/en-us/) lets you preview builds of the upcoming 20H1 release of Windows 10. This topic lists all new Windows 10 features for you to try. 
 
+## A redesigned Network Status page in Settings (Build 18956)
+Based on your feedback, we’re revamping the Network & Internet landing page in Settings to provide more information at a glance about your device’s connectivity, combining several pages to give you one clear view of how you are connected to the internet.
+* __New view of active connections:__ We now show all available connection interfaces on the Status page, so you can quickly see what is connected and view and change properties as needed. If you have multiple connections, only one will be used for internet connectivity at a time, and that one is still shown in the Status diagram at the top of the page.
+
+![Network status](images/18956-1.png "New view of active connections")
+
+* __Integrated Data Usage:__ As you may have noticed in the picture above, you can now see how much data is being used by a network right from the Status page! If it looks like you’re using a lot of data, you can drill into the Data Usage page to create a limit for that network, which will warn you if you get close or go over your limit. You can also see how much data each app is using on that network.
+
+![Network status](images/18956-2.png "Integrated Data Usage")
+
+We hope you like the changes! If you have any feedback about these, you can share it via the Feedback Hub under Network and Internet > Networking Experience – Look and Feel.
+
+## Traditional Chinese IME Improvements (Build 18956)
+Thank you everyone who’s shared feedback about the new Traditional Chinese Bopomofo / ChangJie / Quick IME so far! The development team has been working on improving the quality and fixing bugs based on what you’ve told us, including:
+* __Bopomofo, ChangJie, and Quick IMEs:__ We improved the speed of toggling conversion mode ([中] mode and [英] mode). Now it you can switch between the two faster.
+* __Bopomofo IME:__ We heard feedback that some of you’ve been accidentally hitting the Shift + Space keyboard shortcut, resulting in the character width changing unexpectedly between Half-width and Full-width, so we’ve added a new setting for this if you’d prefer to disable the keyboard shortcut (Note: The default is enabled). To access this setting, right click the [中/英] icon in the taskbar, click Settings > General > “Use Shift + Space to switch character width”.
+
+As you may have noticed in the screenshot below, we’re now adding the ability to change the candidate font size, separate from the rest of the system if you find that you need it to be a bit bigger. (You can still change the system font size under [Ease of Access]>[Display]>[Make text bigger].)
+
+![Traditional Chinese IME](images/18956-3.png "Bopomofo IME settings")
+
+__We also fixed issues where:__ 
+* The candidate numbers sometimes disappeared from the candidate window.
+* Shift+Number wasn’t working for selecting an associated phrase.
+
+Thanks again! If you have any further feedback about these experiences, [let us know](https://aka.ms/inputfeedback).
+
+## Notification settings improvements now rolling out to all of Fast (Build 18956) 
+Thanks everyone who’s tried out our [improvements so far](https://blogs.windows.com/windowsexperience/2019/07/03/announcing-windows-10-insider-preview-build-18932/). We’re now starting to roll these out to all Insiders. To recap what you’ll see when you have the change:
+* If you hover your mouse over an incoming notification, you’ll now see a settings icon to make it easy to adjust that app’s notification settings.
+* We’ve updated the design of the per-app notification settings for visual clarity.
+* There’s now a direct link to notification settings at the top of the Action Center.
+* Notifications & Action Settings now has a checkbox for muting the sound of all notifications.
+* By default, the senders in Notifications & Action Settings are now sorted by “most recently sent a notification.”
+
+![Notification settings](images/18956-4.png "Notification settings improvements now rolling out to all of Fast")
+
+## Cortana rollout increasing to more Insiders using English (Build 18956 - United States)
+We’re increasing the rollout of the [new Cortana experience](https://blogs.windows.com/windowsexperience/2019/07/26/announcing-windows-10-insider-preview-build-18945/) to now be available for 50% of the Insiders using English (United States). You may need to reboot before you see the change on your PC. Looking for something to try once it appears for you? Try “What’s the weather?” or “Tell me a joke” to get started.
+
+![Cortana](images/18956-5.png "New Cortana experience")
+ 
+## Calculator app updates (Build 18956)
+Over the next few days we’ll be starting to roll out a Calculator app update to Insiders in the Fast ring. This app is most notable because it adds the ability to put Calculator in an Always on Top mode! Thanks everyone who shared feedback requesting this – we look forward to you trying it out. Once you have the updated version, you’ll be able to switch into the Always on Top mode by clicking the icon next to the calculator mode name.
+
+![Calculator app](images/18956-6.gif "Calculator app updates")
+
+
+## Japanese IME Improvements (Build 18950)
+Thank you everyone who’s shared feedback so far about the new Japanese IME. The development team has been working on improving the quality based on your feedback. Here are some improvements that you can try out in this build:
+* __Prediction Candidate window key navigation:__ We fixed an issue where the focus inside prediction candidate window wouldn’t move when using the Up Arrow key.
+* __Key customization:__ We’ve improved the discoverability of key assignment settings. Also, based on feedback, we’ve updated the default assigned value of Ctrl + Space to be “None”. Ctrl + Space can still be used for toggling IME-on/off by changing the value through its setting.
+
+![Japanese IME](images/18950-1.png "Japanese IME Improvements")
+
+Please don’t hesitate to continue [sharing your thoughts with us](https://aka.ms/inputfeedback) about typing in Windows – our ears are open and we’d love to hear from you.
+
+## Snip & Sketch improvements headed your way (Build 18950)
+Thanks everyone who’s shared feedback so far for our updated snipping experience! We really appreciate it and are starting to roll out some more improvements based on what you’ve told us:
+* __Single window mode:__ Do you tend to retake snips multiple times in order to get the perfect screenshot? We’re updating the New button to now open new snips in your current app window, so you don’t end up with a ton of open snips (that you then need to close.) If you’d rather keep all snips open in separate windows. the option is now a toggle in settings, so you can decide which mode you prefer.
+
+![Snip & Sketch](images/18950-2.png "Single Mode View")
+ 
+* __Zoom:__ Need we say more? You can now zoom in on your screenshots if they’re a bit too small for you to annotate on (and yes, CTRL+Plus, CTRL+Minus and Ctrl+Mouse wheel are supported!). We’ll also zoom out to make sure the whole snip fits in the Snip & Sketch window. If you want to see the snip at its original size, click the Zoom button and then “Actual Size”.
+
+![Snip & Sketch](images/18950-3.gif "zoom")
+
+* __Improving WIN+Shift+S discoverability:__ You mentioned you loved learning about using WIN+Shift+S to take new snips any time and we thought others would too! If you haven’t taken a snip yet, we’ll now use the canvas space in Snip & Sketch to help you learn how to start a snip without needing to open the app first. 
+
+These changes are currently available for a portion of Insiders in the Fast ring as we evaluate the quality before continuing the rollout. Note the rollout for each change mentioned above is being handled separately, with separate random populations in the initial rollout, so seeing one of the changes with app version 10.1907.2064.0 doesn’t necessarily mean you’ll see all three.
+
 ## Introducing a new Cortana experience for Windows 10 (Build 18945)
 We are beginning to roll out a new Cortana experience for Windows 10 as a Beta to Windows Insiders in the U.S. This new experience features a brand-new chat-based UI that gives you the ability to type or speak natural language queries.
 
@@ -66,13 +137,13 @@ Have you ever had an issue finding the text cursor in the middle of a large amou
 * Text cursor indicator color and size might not persist when you sign in. To work around that, simply turn off and turn on the “Use text cursor indicator” setting again.
 * Occasionally, you might see that the text cursor indicator stay on the screen or reappear after the app has been closed or the page contents have scrolled away.
 
-## Updated File Explorer search rolling out to all Insiders
+## Updated File Explorer search rolling out to all Insiders (Build 18945)
 Over the next few days, [the new File Explorer search experience](https://blogs.windows.com/windowsexperience/2019/05/08/announcing-windows-10-insider-preview-build-18894/#QfdoEyQ3TQXvJVoD.97) will be rolling out to all Insiders in the Fast ring! Thanks everyone who’s shared feedback so far and helped us to improve the experience. Please don’t hesitate to share any other comments – you can file feedback for this area under Files, Folders, and Storage > File Explorer in the Feedback Hub.
 
 ![File Exploer](images/18945-4.png "pdated File Explorer search rolling out to all Insiders")
 
 
-## Updating the Korean IME
+## Updating the Korean IME (Build 18941)
 Earlier in this development cycle, we released [updated versions of both the Chinese and Japanese IMEs](https://blogs.windows.com/windowsexperience/2019/04/10/announcing-windows-10-insider-preview-build-18875/#shlPX8HU74Tl0frv.97). As part of our ongoing efforts to modernize and improve your typing experience in Windows, today we’re rolling out an updated version of the Korean IME to all Insiders in the Fast ring. This update is going out with the goal of making the IME more secure, reliable, and more beautiful to look at.
 
 For those who’re familiar with typing in Korean, the changes will be most noticeable if you write in Hanja; we have a new candidate selection window that uses modern controls and clearer typography:
@@ -94,6 +165,7 @@ Pick your desired date and start typing – you’ll now see inline options to s
 
 ## Go passwordless with Microsoft accounts on your device (Build 18936)
 For improved security and a more seamless sign-in experience, you can now enable passwordless sign-in for Microsoft accounts on your Windows 10 device by going to Settings > Accounts > Sign-in options, and selecting ‘On’ under ‘Make your device passwordless’. Enabling passwordless sign in will switch all Microsoft accounts on your Windows 10 device to modern authentication with Windows Hello Face, Fingerprint, or PIN. Don’t have Windows Hello set up yet? No problem! We’ll walk you through the setup experience on your next sign-in. Curious how a Windows Hello PIN is more secure than a password? Learn more [here](https://channel9.msdn.com/Blogs/One-Dev-Minute/Why-is-the-PIN-for-Windows-Hello-more-secure-than-a-password--One-Dev-Question). 
+
 ![password](images/18936-2.png "Go passwordless with Microsoft accounts on your device")'
 
 Please note: This feature is currently being rolled out to a small portion of Insiders and the above option may not show for all users in Settings. If the toggle isn’t showing for you yet, check back in a week so.
@@ -232,7 +304,7 @@ Notes:
 ## Cross-language support in Feedback Hub 
 Based on your feedback, with Feedback Hub version 1.1903, Insiders with Windows set to a language other than English now have the option of browsing English feedback within the Feedback Hub, as well as submitting feedback in English on the New Feedback form.
 
-![dictation](images/18885-2.png "expanded language support")
+![dictation](images/18885-3.png "expanded language support")
 
 ## East Asian Microsoft Input Method Editor (IME) Improvements (Build 18875)
 __The New Japanese IME is now available to all Insiders in Fast.__ During 19H1, we announced we were working on [a new Japanese IME](https://blogs.windows.com/windowsexperience/2018/11/07/announcing-windows-10-insider-preview-build-18277/#jJxpLldDZEsihHJv.97). We got a lot of great feedback, and the IME was taken offline for a time while we worked on improving the experience based on what you’d told us. Today the IME – now more secure, more stable, with improved game compatibility, and more – is once again available for all Insiders starting with this build. If you speak Japanese, please take some time to evaluate how it feels to use the IME (with all the improvements) for daily usage, and let us know what you think! If you already were using the Japanese IME, you’ll automatically have the new one when you install this build – if you weren’t already using the Japanese IME, you can add it by going to Languages Settings and adding Japanese to the list.
