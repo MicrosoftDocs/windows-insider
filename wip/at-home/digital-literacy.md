@@ -13,7 +13,7 @@ ms.prod: w10
 
 # Digital literacy and #InsiderUp communities
 
-![Task Manager](images/CC0438_MS_IconicWins_StudentStories_SAMBHAV_STILL08.jpg "Windows Insider Sambhav Burtel teaching students in his community")
+![Task Manager](images/Sambhav.jpg "Windows Insider Sambhav Burtel teaching students in his community")
 
 ## What is digital literacy?
 Digital literacy is the ability to use and understand digital devices and technologies in their daily lives and careers.
