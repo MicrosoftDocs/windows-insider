@@ -29,7 +29,7 @@ How can we help everyone learn to code, to make the most of digital tools, and t
 
 We've found that rather than building something for the customer, it’s better to build something **with** the customer. We hope to support Insiders around the world who are building local, educational communities to help others #InsiderUp their digital skills. We don’t want to create a single learning path, but many paths for different tools, technologies, and people. What works for one community won’t work for every community, so it’s our mission to work together with many community leaders to lead the change.
 
-[![Alt text](https://img.youtube.com/vi/YQAoPngq8Eg/0.jpg)](https://www.youtube.com/watch?v=YQAoPngq8Eg)
+<center>[![Alt text](https://img.youtube.com/vi/YQAoPngq8Eg/0.jpg)](https://www.youtube.com/watch?v=YQAoPngq8Eg)</center>
 
 ## Starting your own community
 
