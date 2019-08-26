@@ -221,8 +221,39 @@ The [Windows 10 Fall Creators Update](https://blogs.windows.com/windowsexperienc
 
 ## Windows 10 Creators Update (RS2)
 
-The [Windows 10 Creators Update](https://blogs.windows.com/windowsexperience/2017/04/11/whats-new-in-the-windows-10-creators-update/) was released to the world on April 11th, 2017.
+The [Windows 10 Creators Update](https://blogs.windows.com/windowsexperience/2017/04/11/whats-new-in-the-windows-10-creators-update/) was released to the world on April 11th, 2017. Windows Insiders helped test 32 builds.
 
 | Build | Fast | Slow | Release Preview |
 |-------|------|------|-----------------|
 |15063|[**3/20/2017**](https://blogs.windows.com/windowsexperience/2017/03/20/announcing-windows-10-insider-preview-build-15063-pc-mobile/)|[**3/23/2017**](https://blogs.windows.com/windowsexperience/2017/03/20/announcing-windows-10-insider-preview-build-15063-pc-mobile/)|[**3/30/2017**](https://blogs.windows.com/windowsexperience/2017/03/20/announcing-windows-10-insider-preview-build-15063-pc-mobile/)|
+|15061|[3/17/2017](https://blogs.windows.com/windowsexperience/2017/03/17/announcing-windows-10-insider-preview-build-15061-pc/)|||
+|15060|[3/16/2017](https://blogs.windows.com/windowsexperience/2017/03/16/announcing-windows-10-insider-preview-build-15060-pc/)|||
+|15058|[3/14/2017](https://blogs.windows.com/windowsexperience/2017/03/14/announcing-windows-10-insider-preview-build-15058-pc/)|[3/17/2017](https://blogs.windows.com/windowsexperience/2017/03/14/announcing-windows-10-insider-preview-build-15058-pc/)||
+|15055|[3/10/2017](https://blogs.windows.com/windowsexperience/2017/03/10/announcing-windows-10-insider-preview-build-15055-pc-mobile/)|||
+|15051|[3/08/2017](https://blogs.windows.com/windowsexperience/2017/03/08/announcing-windows-10-insider-preview-build-15051-mobile/)|[3/10/2017](https://blogs.windows.com/windowsexperience/2017/03/08/announcing-windows-10-insider-preview-build-15051-mobile/)||
+|15048|[3/03/2017](https://blogs.windows.com/windowsexperience/2017/03/03/announcing-windows-10-insider-preview-build-15048-for-pc-and-build-15047-mobile/)|[3/08/2017](https://blogs.windows.com/windowsexperience/2017/03/03/announcing-windows-10-insider-preview-build-15048-for-pc-and-build-15047-mobile/)||
+|15047|[3/03/2017](https://blogs.windows.com/windowsexperience/2017/03/03/announcing-windows-10-insider-preview-build-15048-for-pc-and-build-15047-mobile/)|||
+|15046|[2/28/2017](https://blogs.windows.com/windowsexperience/2017/02/28/announcing-windows-10-insider-preview-build-15046-pc/)|||
+|15043|[2/24/2017](https://blogs.windows.com/windowsexperience/2017/02/24/announcing-windows-10-insider-preview-build-15042-pc-build-15043-mobile/)|[3/02/2017](https://blogs.windows.com/windowsexperience/2017/02/24/announcing-windows-10-insider-preview-build-15042-pc-build-15043-mobile/)||
+|15042|[2/24/2017](https://blogs.windows.com/windowsexperience/2017/02/24/announcing-windows-10-insider-preview-build-15042-pc-build-15043-mobile/)|||
+|15031|[2/09/2017](https://blogs.windows.com/windowsexperience/2017/02/09/announcing-windows-10-insider-preview-build-15031-mobile/)<br>[2/08/2017](https://blogs.windows.com/windowsexperience/2017/02/08/announcing-windows-10-insider-preview-build-15031-pc/)|||
+|15025|[2/02/2017](https://blogs.windows.com/windowsexperience/2017/02/02/announcing-windows-10-insider-preview-build-15025-mobile/)<br>[2/01/2017](https://blogs.windows.com/windowsexperience/2017/02/01/announcing-windows-10-insider-preview-build-15025-pc/)|||
+|15019|[1/27/2017](https://blogs.windows.com/windowsexperience/2017/01/27/announcing-windows-10-insider-preview-build-15019-pc/)|||
+|15014|[1/19/2017](https://blogs.windows.com/windowsexperience/2017/01/19/announcing-windows-10-insider-preview-build-15014-for-pc-and-mobile-hello-windows-insiders-today-we-are-excited-to-be-releasing-windows-10-insider-preview-build-15014-for-pc-and-mobile/)|||
+|15007|[1/12/2017](https://blogs.windows.com/windowsexperience/2017/01/12/announcing-windows-10-insider-preview-build-15007-pc-mobile/)|||
+|15002|[1/09/2017](https://blogs.windows.com/windowsexperience/2017/01/09/announcing-windows-10-insider-preview-build-15002-pc/)|||
+|14986|[12/07/2016](https://blogs.windows.com/windowsexperience/2016/12/07/announcing-windows-10-insider-preview-build-14986-pc/)|[12/14/2016](https://blogs.windows.com/windowsexperience/2016/12/07/announcing-windows-10-insider-preview-build-14986-pc/)||
+|14977|[12/01/2016](https://blogs.windows.com/windowsexperience/2016/12/01/announcing-windows-10-insider-preview-build-14977-mobile/)|||
+|14971|[11/17/2016](https://blogs.windows.com/windowsexperience/2016/11/17/announcing-windows-10-insider-preview-build-14971-for-pc/)|||
+|14965|[11/09/2016](https://blogs.windows.com/windowsexperience/2016/11/09/announcing-windows-10-insider-preview-build-14965-for-mobile-and-pc/)|[11/17/2016](https://blogs.windows.com/windowsexperience/2016/11/09/announcing-windows-10-insider-preview-build-14965-for-mobile-and-pc/)<br>[11/16/2016](https://blogs.windows.com/windowsexperience/2016/11/09/announcing-windows-10-insider-preview-build-14965-for-mobile-and-pc/)||
+|14959|[11/03/2016](https://blogs.windows.com/windowsexperience/2016/11/03/announcing-windows-10-insider-preview-build-14959-for-mobile-and-pc/)|||
+|14955|[10/25/2016](https://blogs.windows.com/windowsexperience/2016/10/25/announcing-windows-10-insider-preview-build-14955-for-mobile-and-pc/)|||
+|14951|[10/19/2016](https://blogs.windows.com/windowsexperience/2016/10/19/announcing-windows-10-insider-preview-build-14951-for-mobile-and-pc/)|||
+|14946|[10/13/2016](https://blogs.windows.com/windowsexperience/2016/10/13/announcing-windows-10-insider-preview-build-14946-for-pc-and-mobile/)|||
+|14942|[10/07/2016](https://blogs.windows.com/windowsexperience/2016/10/07/announcing-windows-10-insider-preview-build-14942-for-pc/)|||
+|14936|[9/28/2016](https://blogs.windows.com/windowsexperience/2016/09/28/announcing-windows-10-insider-preview-build-14936-for-pc/)|||
+|14931|[9/21/2016](https://blogs.windows.com/windowsexperience/2016/09/21/announcing-windows-10-insider-preview-build-14931-for-pc/)|[10/05/2016](https://blogs.windows.com/windowsexperience/2016/09/21/announcing-windows-10-insider-preview-build-14931-for-pc/)||
+|14926|[9/14/2016](https://blogs.windows.com/windowsexperience/2016/09/14/announcing-windows-10-insider-preview-build-14926-for-pc-and-mobile/)|||
+|14915|[8/31/2016](https://blogs.windows.com/windowsexperience/2016/08/31/announcing-windows-10-insider-preview-build-14915-for-pc-and-mobile/)|||
+|14905|[8/17/2016](https://blogs.windows.com/windowsexperience/2016/08/17/announcing-windows-10-insider-preview-build-14905-for-pc-mobile/)|||
+|14901|[8/11/2016](https://blogs.windows.com/windowsexperience/2016/08/11/announcing-windows-10-insider-preview-build-14901-for-pc/)|||
