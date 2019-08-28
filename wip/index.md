@@ -99,7 +99,7 @@ ms.localizationpriority: medium
                             </a>
                         </li>
                         <li>
-                            <a href="/windows-insider/at-home/digital-literacy">
+                            <a href="/windows-insider/at-home/digital-literacy/">
                             <div class="cardSize">
                                 <div class="cardPadding">
                                     <div class="card">
