@@ -87,7 +87,7 @@ You can get started with two easy steps:
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="at-work-pro/images/i_FAQ.svg" alt="" />
+                            <img src="images/i_FAQ.svg" alt="" />
                         </div>
                     </div>
                     <div class="cardText">
