@@ -14,6 +14,7 @@
 #### [Register with the Windows 10 Insider Program for Business](https://docs.microsoft.com/windows-insider/at-work-pro/wip-4-biz-register)
 #### [Install Windows 10 Insider Preview builds](https://docs.microsoft.com/windows-insider/at-work-pro/wip-4-biz-install)
 #### [Manage Windows 10 Insider Preview Builds](https://docs.microsoft.com/windows-insider/at-work-pro/wip-4-biz-manage)
+#### [Windows Insider Program for Business FAQ](https://docs.microsoft.com/en-us/windows-insider/at-work-pro/wip-4-biz-FAQ)
 ### [Share and track feedback](https://docs.microsoft.com/windows-insider/at-work-pro/wip-4-biz-feedback)
 ### [Working with Windows 10 Insider Preview Builds](https://docs.microsoft.com/windows-insider/at-work-pro/wip-4-biz-explore-and-validate)
 ### [What's new for business in Windows 10 Insider Preview Builds](https://docs.microsoft.com/windows-insider/at-work-pro/wip-4-biz-whats-new)
