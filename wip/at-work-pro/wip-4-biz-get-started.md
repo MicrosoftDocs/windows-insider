@@ -62,7 +62,7 @@ You can get started with two easy steps:
 
 <ul class="cardsF panelContent">
     <li>
-        <a href="https://docs.microsoft.com/en-us/windows-insider/at-work-pro/wip-4-biz-feedback">
+        <a href="/windows-insider/at-work-pro/wip-4-biz-feedback">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -81,13 +81,13 @@ You can get started with two easy steps:
         </a>
     </li> 
     <li>
-        <a href="https://docs.microsoft.com/en-us/windows-insider/at-work-pro/wip-4-biz-FAQ">
+        <a href="/windows-insider/at-work-pro/wip-4-biz-FAQ">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/at-work-pro/images/i_FAQ.svg" alt="" />
+                            <img src="at-work-pro/images/i_FAQ.svg" alt="" />
                         </div>
                     </div>
                     <div class="cardText">
