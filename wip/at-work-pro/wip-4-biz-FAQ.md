@@ -1,14 +1,14 @@
 ---
 title: Windows Insider Program for Business Frequently Asked Questions
 description: Answers to your commonly asked Windows Insider Program for Business questions
-author: lizap
-manager: dougkim
+author: arshields7
+manager: arshields7
 ms.topic: article
 ms.prod: w10
 ms.tgt_pltfrm: na
 ms.devlang: na
-ms.date: 06/28/2018
-ms.author: elizapo
+ms.date: 10/24/2017
+ms.author: arshields7
 ms.localizationpriority: medium
 ---
 
@@ -28,7 +28,6 @@ If your Windows build is not in one of the available base languages, you will no
 Hindi, Catalan, and Vietnamese can only be installed as a language pack over supported base languages.
 
 > [!NOTE] 
-
 > To learn how to install a language pack, see How to add an input language to your PC Additional.
 
 **How do I register for the Windows Insider Program for Business?**
@@ -42,7 +41,6 @@ To register for the Windows Insider Program for Business, follow the steps below
 3. Enroll your Windows 10 PC to get the latest Windows 10 Insider Preview builds. Go to **Settings > Updates & Security > Windows Insider Program**. Select **Get Started**, enter your corporate credentials that you used to register, then follow the on-screen directions.
 
 > [!NOTE] 
-
 > Make sure that you have administrator rights to your machine and that it has latest Windows updates.
 
 **Are there any management capabilities that allow an IT admin to manage settings for a corporate environment?**
@@ -85,7 +83,6 @@ In just a few steps, you can switch your existing program registration from your
 4. Select your corporate account and select Continue to change your account.
 
 > [!NOTE] 
-
 > Your corporate account must be connected to the device for it to appear in the account list.
 
 **How do I sign into the Feedback Hub with my corporate credentials?**
