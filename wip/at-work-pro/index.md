@@ -67,7 +67,7 @@ The Windows Insider Program for Business provides additional benefits to busines
 
 <ul class="cardsF panelContent cols cols2">
     <li>
-        <a href="https://docs.microsoft.com/windows-insider/at-work-pro/wip-4-biz-feedback-hub">
+        <a href="https://docs.microsoft.com/en-us/windows-insider/at-work-pro/wip-4-biz-feedback">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -77,3 +77,12 @@ The Windows Insider Program for Business provides additional benefits to busines
                         </div>
                     </div>
                     <div class="cardText">
+                        <h2>Got Feedback?</h2>
+                <p>Use the Feedback Hub App to submit your feedback to Microsoft.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li> 
+</ul>
