@@ -16,7 +16,7 @@ ms.prod: w10
 ![Task Manager](images/Sambhav.jpg "Windows Insider Sambhav Burtel teaching students in his community")
 
 ## What is digital literacy?
-Digital literacy is the ability to use and understand digital devices and technologies in their daily lives and careers.
+Digital literacy is the ability to use and understand digital devices and technologies in your daily life and career.
 
 Technology has become a vital part of sustainable development across industries and around the world. Leaders in the tech industry know that advancements like AI could hurt traditional industrial jobs in the future, but there will be even more opportunities within tech. But many people around the world don't have the access, skills, resources, or knowledge to fill these roles, or even to make the most of tech advancements in their daily lives. 
 
