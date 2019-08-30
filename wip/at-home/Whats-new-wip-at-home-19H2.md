@@ -54,12 +54,12 @@ Other than one update has features turned off, and the other has features turned
 
 * You can now quickly create an event straight from the Calendar flyout on the Taskbar. Just click on the date and time at the lower right corner of the Taskbar to open the Calendar flyout and pick your desired date and start typing in the text box – you’ll now see inline options to set a time and location.
 
-![taskbar calendar](wip/at-home/images/19H2ACB.png)
+![taskbar calendar](/wip/at-home/images/19H2ACB.png)
 
 * The navigation pane on the Start menu now expands when you hover over it with your mouse to better inform where clicking goes.
 * We have added friendly images to show what is meant by “banner” and “Action Center” when adjusting the notifications on apps in order to make these settings more approachable and understandable.
 
-![action center & banner](wip/at-home/images/19H2TBC.png)
+![action center & banner](/wip/at-home/images/19H2TBC.png)
 
 * Notifications settings under Settings > System > Notifications will now default to sorting notification senders by most recently shown notification, rather than sender name. This makes it easier to find and configure frequent and recent senders. We have also added a setting to turn off playing sound when notifications appear.
 * We now show the options to configure and turn off notifications from an app/website right on the notification, both as a banner and in Action Center.
