@@ -32,7 +32,7 @@ Hindi, Catalan, and Vietnamese can only be installed as a language pack over sup
 
 **How do I register for the Windows Insider Program for Business?**
 
-To register for the Windows Insider Program for Business, follow the steps below using your corporate account in Azure Active Directory (AAD). This account is the same account that you use for Office 365 and other Microsoft services.
+To register for the Windows Insider Program for Business, follow the steps below using your corporate account in Azure Active Directory (AAD). This account is the same account that you use for Office 365 and other Microsoft services. Check with your IT department before signing up.
 
 1. Visit the [Windows Insider Program website](https://insider.windows.com) and select **Get Started**.
 
@@ -71,7 +71,9 @@ No. At this point, we are only supporting Azure Active Directory as a corporate 
 
 **I just want to participate as a Windows Insider. Do I still need to register with my corporate account in Azure Active Directory?**
 
-No. You can join the Windows Insider Program using your Microsoft account (MSA) with these [instructions on getting started](https://docs.microsoft.com/en-us/windows-insider/at-home/get-started). However, please note that if you want to access the benefits of the Windows Insider Program for Business, you will need to sign-up using your corporate account in Azure Active Directory.
+No. You can join the Windows Insider Program using your Microsoft account (MSA) with these [instructions on getting started](https://docs.microsoft.com/en-us/windows-insider/at-home/get-started). 
+
+However, please note that if you want to access the benefits of the Windows Insider Program for Business, you will need to sign-up using your corporate account in Azure Active Directory. Check with your IT department before signing up with your corporate account.
 
 **I am already a Windows Insider. I want to switch my account from my Microsoft account to my corporate account in Azure Active Directory. How can I do this?**
 
