@@ -14,6 +14,39 @@ ms.prod: w10
 # What's new for Windows 10 Insider Preview Builds (20H1)
 The [Windows Insider Program](https://insider.windows.com/en-us/) lets you preview builds of the upcoming 20H1 release of Windows 10. This topic lists all new Windows 10 features for you to try. 
 
+## Introducing a new tablet experience for 2-in-1 convertible PCs! (Build 18970)
+
+We are beginning to roll out a new tablet experience for 2-in-1 convertible PCs as a Beta to Windows Insiders. 
+
+![tablet experience](images/18970-1.png "a new tablet experience for 2-in-1 convertible PCs")
+
+This new experience allows users entering tablet posture to stay in the familiar desktop experience without interruption, plus a few key touch improvements:
+* Increased spacing between Taskbar icons.
+* Search box on taskbar collapsed into an icon.
+* File Explorer switches to touch optimized layout.
+* Touch keyboard auto invokes when you tap text fields.
+
+As part of this, we’ve also made a few small changes to the tablet section in Settings.
+This experience is currently available for a portion of Insiders as we evaluate the quality. Here are the steps once it becomes available on your PC:
+1. Use your convertible PC as a laptop as you normally would–opening apps and interacting with them.
+2. When you’re ready to pick it up and go or simply lean back on the couch, you can fold back the keyboard or remove it altogether, and it should switch to this new mode shown above.
+3. Now use your device as a tablet with touch.
+
+We’d love to hear your feedback about the new experience–share your thoughts here.
+
+## Introducing a new PC reset option (Build 18970)
+
+Reset this PC now provides users a new choice to download Windows or use local reinstall. Previously, Reset this PC was only able to do a local reinstall and would build a new Windows installation from existing Windows files. When this feature was introduced in Windows 10 version 1507, it provided the advantage of enabling Windows to be recoverable without requiring extra disk space to store a compressed, backup copy of Windows in a hidden partition. We’ve heard feedback that some of you would prefer to use your high-speed internet connection to speed up this process by just downloading Windows.
+
+Important note: This is a recovery operation and will remove apps you have installed. Additionally, if the “Remove everything” option is selected, user data will also be deleted. For more information on Reset this PC and other recovery options visit aka.ms/win10recoveryoptions.
+
+The cloud download option will reinstall the same build, version, and edition, that is currently installed on your device. This new cloud download option is available to all Windows 10 devices and is different from the “Recover from the cloud” feature available on some earlier Windows 10 devices.
+
+![recovery improvements](images/18970-2.gif "Introducing a new Reset this PC option–Cloud Download")
+
+## Continuing the Cortana rollout (Build 18970)
+The [new Cortana experience](http://aka.ms/wip18945) is now available to all Insiders in the Fast ring in the United States. If it’s available on your device and you haven’t tried it out already, we’d love to hear your feedback! We’ve posted a [Quest in the Feedback Hub](https://aka.ms/AA5yky2) to help you get started.
+
 ## Control over restarting apps at sign-in (Build 18965)
 As some of you already know, apps have the ability to register for restart, which helps in a few situations, including enabling you to get back to what you were doing if you need to restart your PC. Previously this option was tied to the “Use my sign-in info to automatically finish setting up my device” option under Sign-in options in accounts settings. We’ve heard feedback that some of you would prefer more explicit control over when Windows automatically restarts apps that were open when you restart your PC, and with 20H1 we’re bringing that option to you.
 
@@ -21,31 +54,7 @@ Windows now puts you in control with a new app restart setting. When turned on, 
 
 ![Sign-in options](images/18965-1.png "Control over restarting apps at sign-in")
 
-## Feedback Hub updates (Build 18965)
-The Feedback Hub team has been hard at work lately to bring you some app updates based on your feature requests, and we have a few changes and improvements to share about the latest version that’s currently rolling out to Insiders in the Fast ring.
 
-### Feedback Search UI updates
-On the Feedback section of the app, you will now be able to more clearly see the differentiation between Problems and Suggestions, with each showing an icon, color, and labels Problem or Suggestion displayed above each feedback entry. We also have updated iconography and displays for Adding similar feedback to problems, upvoting suggestions, and adding comments to feedback.
-
-![Feedback Hub](images/18965-2.png "Feedback Search UI updates")
-
-### Adding similar feedback
-
-In the past, Feedback Hub allowed two kinds of participation on feedback: upvoting and adding more details. The notion of voting on Suggestions makes a lot of sense – engineers at Microsoft want to know which features the community wants us to build next, and voting on feature suggestions is a great way to see where your interest lies.
-
-However, voting on Problems was trickier – problems are not a matter of popularity, and what helps engineers here resolve problems is having clear descriptions of how the issue arose. Feedback is especially helpful if it includes a reproduction of the problem, diagnostics that help our teams pinpoint what went wrong so they can fix issues faster. Voting on the search page often did not provide enough detail as to what was happening, and we saw that few people went into existing feedback to add their personal reproductions of the issues.
-
-With the new Add similar feedback feature, selecting a problem with symptoms that match your own will take you to the feedback form, with the title pre-filled. You edit the title or add your own description to let us know exactly what was happening when you encountered the problem. We’ll already have your category selected to ensure the right feature team sees your feedback, and in our new Similar Feedback section, the feedback you selected will already be selected. As usual, the last step involves optionally adding your own reproduction of the issue or any attachments you like.
-
-### Windows Insiders Achievements
-
-We are excited to announce a refresh of the Windows Insider Achievements page. We’ve made achievements more discoverable by moving them from your profile page to their own landing page, and we added additional features that allow you to categorize and track your progress. Be sure to check it out today and begin unlocking badges. We would love to hear your feedback on social media by using the hashtag #Builds4Badges.
-
-The information previously found in your profile (Device ID and User ID) is now located in the settings section of Feedback Hub.
-
-As always, we appreciate your feedback – if you have any suggestions or problems to report, you can share them in the Feedback Hub under Apps > Feedback Hub.
-
-![Feedback Hub](images/18965-3.png "Windows Insiders Achievements")
 
 ## GPU temperature comes to Task Manager (Build 18963)
 One of the longstanding requests we’ve been tracking for Task Manager is to add temperature monitoring support, and with today’s build we’re making progress on that ask. If you have a dedicated GPU card, we will now bubble up the current temperature next to its listing in the Performance Tab.
@@ -283,8 +292,9 @@ Do you ever open the clock and calendar flyout to help organize your thoughts wh
 Pick your desired date and start typing – you’ll now see inline options to set a time and location. We’re looking forward to you trying it out! Let us know if you have any feedback.
 
 ## Go passwordless with Microsoft accounts on your device (Build 18936)
-For improved security and a more seamless sign-in experience, you can now enable passwordless sign-in for Microsoft accounts on your Windows 10 device by going to Settings > Accounts > Sign-in options, and selecting ‘On’ under ‘Make your device passwordless’. Enabling passwordless sign in will switch all Microsoft accounts on your Windows 10 device to modern authentication with Windows Hello Face, Fingerprint, or PIN. Don’t have Windows Hello set up yet? No problem! We’ll walk you through the setup experience on your next sign-in. Curious how a Windows Hello PIN is more secure than a password? Learn more [here](https://channel9.msdn.com/Blogs/One-Dev-Minute/Why-is-the-PIN-for-Windows-Hello-more-secure-than-a-password--One-Dev-Question). 
+For improved security and a more seamless sign-in experience, you can now enable passwordless sign-in for Microsoft accounts on your Windows 10 device by going to Settings > Accounts > Sign-in options, and selecting ‘On’ under ‘Make your device passwordless’. This will strengthen your device sign-in by switching all Microsoft accounts on your device to modern multifactor authentication with Windows Hello Face, Fingerprint, or PIN, and eliminating passwords from Windows.
 
+Don’t have Windows Hello set up yet? No problem! We’ll walk you through the setup experience on your next sign-in. Curious how a Windows Hello PIN is more secure than a password? Learn more [here](https://channel9.msdn.com/Blogs/One-Dev-Minute/Why-is-the-PIN-for-Windows-Hello-more-secure-than-a-password--One-Dev-Question). 
 ![password](images/18936-2.png "Go passwordless with Microsoft accounts on your device")'
 
 Please note: This feature is currently being rolled out to a small portion of Insiders and the above option may not show for all users in Settings. If the toggle isn’t showing for you yet, check back in a week so.
