@@ -113,6 +113,7 @@ Below is a playbook that we've put together based on feedback from others settin
 - [Microsoft Docs](https://docs.microsoft.com/en-us/)
 - [Microsoft Learn](https://docs.microsoft.com/en-us/learn/)
 - [Hour of Code Activities](https://hourofcode.com/us/learn)
+- [Digital Skills for young people](https://www.microsoft.com/en-us/digital-skills/)
 - [GitHub Guides](https://guides.github.com/activities/hello-world/)
 - [What is Azure?](https://docs.microsoft.com/en-us/learn/paths/azure-fundamentals/)
 - [IOT School](https://iotschool.microsoft.com/en-us/home)
