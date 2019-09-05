@@ -52,9 +52,6 @@ Thank you to everyone who gave us feedback over the last few weeks to help us im
 
 __5/29/2019__
 
-## Your Phone app – Introducing even more new features 
-We’re bringing multiple new features to the Your Phone app in this build. Try them out and let us know what you think.
-
 ### Phone screen – Accessibility features, keyboard language and layout, new phone models
 We’re pleased to preview two new accessibility features – screen reading and focus tracking – as well as the ability to easily switch your Android phone’s keyboard language or layout while in phone screen.
 
@@ -274,6 +271,33 @@ Please try it out and let us know what you think by tweeting at [@MicrosoftToDo]
 3. Use check-marks within the circle to the left of a task to complete it.
 
 ## Feedback Hub 
+
+__8/21/2019 - Version 1907__
+
+The Feedback Hub team has been hard at work lately to bring you some app updates based on your feature requests, and we have a few changes and improvements to share about the latest version that’s currently rolling out to Insiders in the Fast ring.
+
+### Feedback Search UI updates
+On the Feedback section of the app, you will now be able to more clearly see the differentiation between Problems and Suggestions, with each showing an icon, color, and labels Problem or Suggestion displayed above each feedback entry. We also have updated iconography and displays for Adding similar feedback to problems, upvoting suggestions, and adding comments to feedback.
+
+![Feedback Hub](images/18965-2.png "Feedback Search UI updates")
+
+### Adding similar feedback
+
+In the past, Feedback Hub allowed two kinds of participation on feedback: upvoting and adding more details. The notion of voting on Suggestions makes a lot of sense – engineers at Microsoft want to know which features the community wants us to build next, and voting on feature suggestions is a great way to see where your interest lies.
+
+However, voting on Problems was trickier – problems are not a matter of popularity, and what helps engineers here resolve problems is having clear descriptions of how the issue arose. Feedback is especially helpful if it includes a reproduction of the problem, diagnostics that help our teams pinpoint what went wrong so they can fix issues faster. Voting on the search page often did not provide enough detail as to what was happening, and we saw that few people went into existing feedback to add their personal reproductions of the issues.
+
+With the new Add similar feedback feature, selecting a problem with symptoms that match your own will take you to the feedback form, with the title pre-filled. You edit the title or add your own description to let us know exactly what was happening when you encountered the problem. We’ll already have your category selected to ensure the right feature team sees your feedback, and in our new Similar Feedback section, the feedback you selected will already be selected. As usual, the last step involves optionally adding your own reproduction of the issue or any attachments you like.
+
+### Windows Insiders Achievements
+
+We are excited to announce a refresh of the Windows Insider Achievements page. We’ve made achievements more discoverable by moving them from your profile page to their own landing page, and we added additional features that allow you to categorize and track your progress. Be sure to check it out today and begin unlocking badges. We would love to hear your feedback on social media by using the hashtag #Builds4Badges.
+
+The information previously found in your profile (Device ID and User ID) is now located in the settings section of Feedback Hub.
+
+As always, we appreciate your feedback – if you have any suggestions or problems to report, you can share them in the Feedback Hub under Apps > Feedback Hub.
+
+![Feedback Hub](images/18965-3.png "Windows Insiders Achievements")
 
 __12/10/2018 - Version 1811__
 
