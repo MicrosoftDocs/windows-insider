@@ -65,7 +65,7 @@ For details regarding the 19H2 feature update for Windows 10, see this [blog pos
 |18363.327*|[8/26/2019](https://blogs.windows.com/windowsexperience/2019/08/26/testing-the-throttled-delivery-approach-for-19h2/#rzLtlTlO7Lsx91fy.97)|
 
 >[!NOTE] 
-> "*" denotes that the update went out to only a subset of Windows Insiders in the Release Preview ring which means not everyone in the Slow ring will see the update.
+> "*" denotes that the update went out to only a subset of Windows Insiders in the Release Preview ring which means not everyone in the Release Preview ring will see the update.
 
 **19H2 in the Slow ring:**
 
