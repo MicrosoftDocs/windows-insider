@@ -87,7 +87,7 @@ You can get started with two easy steps:
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="images/i_FAQ.svg" alt="" />
+                            <img src="https://docs.microsoft.com/media/common/i_learn-about.svg" alt="" />
                         </div>
                     </div>
                     <div class="cardText">
