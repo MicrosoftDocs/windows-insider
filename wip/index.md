@@ -105,7 +105,7 @@ ms.localizationpriority: medium
                                     <div class="card">
                                         <div class="cardImageOuter">
                                             <div class="cardImage">
-                                                <img src="at-home/images/i_community.svg" alt="" />
+                                                <img src="/windows-insider/at-home/images/i_community.svg" alt="" />
                                             </div>
                                         </div>
                                         <div class="cardText">
