@@ -105,7 +105,7 @@ ms.localizationpriority: medium
                                     <div class="card">
                                         <div class="cardImageOuter">
                                             <div class="cardImage">
-                                                <img src="at-home/images/i_community.svg" alt="" />
+                                                <img src="https://docs.microsoft.com/media/common/i_configure-teams.svg" alt="" />
                                             </div>
                                         </div>
                                         <div class="cardText">
