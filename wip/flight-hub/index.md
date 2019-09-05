@@ -57,10 +57,21 @@ The items in **bold** are the latest releases for the individual versions of the
 
 For details regarding the 19H2 feature update for Windows 10, see this [blog post](https://blogs.windows.com/windowsexperience/2019/07/01/evolving-windows-10-servicing-and-quality-the-next-steps/#IX1elYqpB4qhmMMg.97).
 
+On 8/26/2019, we began releasing 19H2 to the Release Preview ring.
+
+| Build | Release Preview | 
+|-------|------|
+|18363.329|[**8/29/2019**](https://blogs.windows.com/windowsexperience/2019/08/26/testing-the-throttled-delivery-approach-for-19h2/#rzLtlTlO7Lsx91fy.97)|
+|18363.327|[8/26/2019](https://blogs.windows.com/windowsexperience/2019/08/26/testing-the-throttled-delivery-approach-for-19h2/#rzLtlTlO7Lsx91fy.97)|
+
+>[!NOTE] 
+> "*" denotes that the update went out to ONLY 10% of Windows Insiders in the Release Preview ring using “seeker” experience. For these Insiders, if they go to Settings > Update & Security > Windows Update, they will see that there is a Windows 10, version 1909 update available. They will be able to choose to download and install this update on their PC. 
+
 | Build | Slow | 
 |-------|------|
-|18362.10015*|[**8/19/2019**](https://blogs.windows.com/windowsexperience/2019/08/19/announcing-windows-10-insider-preview-build-18362-10014-18362-10015-19h2/#PEFspjojVbEUJGYm.97)|
-|18362.10014|[**8/19/2019**](https://blogs.windows.com/windowsexperience/2019/08/19/announcing-windows-10-insider-preview-build-18362-10014-18362-10015-19h2/#PEFspjojVbEUJGYm.97)|
+|18362.10019|[**9/5/2019**](https://blogs.windows.com/windowsexperience/2019/09/05/announcing-windows-10-insider-preview-build-18362-10019-19h2/#zXIxwqlHOrmjfQmO.97)|
+|18362.10015*|[8/19/2019](https://blogs.windows.com/windowsexperience/2019/08/19/announcing-windows-10-insider-preview-build-18362-10014-18362-10015-19h2/#PEFspjojVbEUJGYm.97)|
+|18362.10014|[8/19/2019](https://blogs.windows.com/windowsexperience/2019/08/19/announcing-windows-10-insider-preview-build-18362-10014-18362-10015-19h2/#PEFspjojVbEUJGYm.97)|
 |18362.10013*|[8/8/2019](https://blogs.windows.com/windowsexperience/2019/08/08/announcing-windows-10-insider-preview-build-18362-10012-18362-10013-19h2/#yk0xEO5dIG6u1XLs.97)|
 |18362.10012|[8/8/2019](https://blogs.windows.com/windowsexperience/2019/08/08/announcing-windows-10-insider-preview-build-18362-10012-18362-10013-19h2/#yk0xEO5dIG6u1XLs.97)|
 |18362.10006*|[7/17/2019](https://blogs.windows.com/windowsexperience/2019/07/15/announcing-windows-10-insider-preview-build-18362-10005-19h2/#lPWlUoqlUbDUCrUL.97)|
