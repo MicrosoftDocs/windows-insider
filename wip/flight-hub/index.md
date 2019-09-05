@@ -57,15 +57,17 @@ The items in **bold** are the latest releases for the individual versions of the
 
 For details regarding the 19H2 feature update for Windows 10, see this [blog post](https://blogs.windows.com/windowsexperience/2019/07/01/evolving-windows-10-servicing-and-quality-the-next-steps/#IX1elYqpB4qhmMMg.97).
 
-On 8/26/2019, we began releasing 19H2 to the Release Preview ring.
+**19H2 in the Release Preview ring:**
 
 | Build | Release Preview | 
 |-------|------|
-|18363.329|[**8/29/2019**](https://blogs.windows.com/windowsexperience/2019/08/26/testing-the-throttled-delivery-approach-for-19h2/#rzLtlTlO7Lsx91fy.97)|
-|18363.327|[8/26/2019](https://blogs.windows.com/windowsexperience/2019/08/26/testing-the-throttled-delivery-approach-for-19h2/#rzLtlTlO7Lsx91fy.97)|
+|18363.329*|[**8/29/2019**](https://blogs.windows.com/windowsexperience/2019/08/26/testing-the-throttled-delivery-approach-for-19h2/#rzLtlTlO7Lsx91fy.97)|
+|18363.327*|[8/26/2019](https://blogs.windows.com/windowsexperience/2019/08/26/testing-the-throttled-delivery-approach-for-19h2/#rzLtlTlO7Lsx91fy.97)|
 
 >[!NOTE] 
-> "*" denotes that the update went out to ONLY 10% of Windows Insiders in the Release Preview ring using “seeker” experience. For these Insiders, if they go to Settings > Update & Security > Windows Update, they will see that there is a Windows 10, version 1909 update available. They will be able to choose to download and install this update on their PC. 
+> "*" denotes that the update went out to only a subset of Windows Insiders in the Release Preview ring which means not everyone in the Slow ring will see the update.
+
+**19H2 in the Slow ring:**
 
 | Build | Slow | 
 |-------|------|
