@@ -14,6 +14,30 @@ ms.prod: w10
 # What's new for Windows 10 Insider Preview Builds (20H1)
 The [Windows Insider Program](https://insider.windows.com/en-us/) lets you preview builds of the upcoming 20H1 release of Windows 10. This topic lists all new Windows 10 features for you to try. 
 
+## Introducing the ability to move the Cortana window (Build 18975)
+With the [new conversational Cortana experience](https://blogs.windows.com/windowsexperience/2019/07/26/announcing-windows-10-insider-preview-build-18945/), we understand that you wanna keep the chat going sometimes, and the default position of the window isn’t always where you’d prefer to have it docked if you’re going to have a longer back and forth. That’s why we’re starting to roll out the option to be able to move the window (by dragging the title bar area), to anywhere you’d like on the screen–just like you can with other windows. You can also resize the window if you’d like. Currently, this change is rolled out to 50% of Insiders with the new Cortana experience, and we’ll continue the rollout as we validate the quality of the experience.
+
+![Cortana experience](images/18975-1.gif "Cortana window moves around the desktop")
+
+## Windows Subsystem for Linux (WSL) Improvements (Build 18975)
+[See the latest improvements with WSL](https://docs.microsoft.com/en-us/windows/wsl/release-notes) in the latest Insider Preview builds.
+
+## Announcing the first preview and code release of PowerToys (Build 18975)
+Yesterday we announced the first preview and code release of PowerToys for Windows 10. This first preview includes two utilities: the Windows key shortcut guide and a window manager called FancyZones. Check out this article for all the details!
+
+![PowerToys](images/18975-2.jpg "PowerToys logo")
+
+## Update on Virtual Desktop renaming (Build 18975)
+The ability to rename your virtual desktops is now available for all Insiders in the Fast ring! Thanks again everyone who shared feedback requesting this.
+To get started:
+1. Open Task View by selecting the Task View icon in the taskbar or pressing WIN+Tab.
+2. Select New Desktop.
+3. Select the desktop name (“Desktop 1”) and it should become editable, or right click the desktop thumbnail and a context menu will appear with a Rename entry.
+4. Input whatever name you’d like, and press enter.
+5. Done!
+
+![Virtual Desktop renaming ](images/18975-3.gif "add a name with Emoji to a virtual desktop tab")
+
 ## Introducing a new tablet experience for 2-in-1 convertible PCs! (Build 18970)
 
 We are beginning to roll out a new tablet experience for 2-in-1 convertible PCs as a Beta to Windows Insiders. 
