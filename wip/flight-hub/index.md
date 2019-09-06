@@ -24,11 +24,11 @@ The items in **bold** are the latest releases for the individual versions of the
 | Build | Fast | Slow | Server | IoT | ISO | SDK |
 |-------|------|------|--------|-----|-----|-----|
 |18975|[**9/6/2019**](https://blogs.windows.com/windowsexperience/2019/09/06/announcing-windows-10-insider-preview-build-18975/#YBrowhPurxI5cXLp.97)||||||
-|18970|[8/30/2019](https://blogs.windows.com/windowsexperience/2019/08/29/announcing-windows-10-insider-preview-build-18970/#e8Ozzmx73tV0B4C0.97)||||||
-|18965|[8/21/2019](https://blogs.windows.com/windowsexperience/2019/08/21/announcing-windows-10-insider-preview-build-18965/#rcUVlEFB6ViG9mrH.97)||[**8/27/2019**](https://blogs.windows.com/windowsexperience/2019/08/27/announcing-windows-server-vnext-insider-preview-build-18965/#Frrc7VBwu7pme8VM.97)|||[**8/27/2019**](https://blogs.windows.com/windowsdeveloper/2019/08/27/windows-10-sdk-preview-build-18965-available-now/#0AHla8dQfKDErfOB.97)|
+|18970|[8/30/2019](https://blogs.windows.com/windowsexperience/2019/08/29/announcing-windows-10-insider-preview-build-18970/#e8Ozzmx73tV0B4C0.97)||||[**9/3/2019**](https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewadvanced)|[**9/3/2019**](https://blogs.windows.com/windowsdeveloper/2019/09/03/windows-10-sdk-preview-build-18970-available-now/#VmuwGU7llwp8b4jr.97)|
+|18965|[8/21/2019](https://blogs.windows.com/windowsexperience/2019/08/21/announcing-windows-10-insider-preview-build-18965/#rcUVlEFB6ViG9mrH.97)||[**8/27/2019**](https://blogs.windows.com/windowsexperience/2019/08/27/announcing-windows-server-vnext-insider-preview-build-18965/#Frrc7VBwu7pme8VM.97)|||[8/27/2019](https://blogs.windows.com/windowsdeveloper/2019/08/27/windows-10-sdk-preview-build-18965-available-now/#0AHla8dQfKDErfOB.97)|
 |18963|[8/16/2019](https://blogs.windows.com/windowsexperience/2019/08/16/announcing-windows-10-insider-preview-build-18963/#QzXW0ffZdfqqz164.97)||||||
 |18956|[8/7/2019](https://blogs.windows.com/windowsexperience/2019/08/07/announcing-windows-10-insider-preview-build-18956/#Xo3SXfcEckSeJVe9.97)|||||[8/13/2019](https://blogs.windows.com/windowsdeveloper/2019/08/13/windows-10-sdk-preview-build-18956-available-now/#ClhoYjSb7DBEUMva.97)|
-|18950|[7/31/2019](https://blogs.windows.com/windowsexperience/2019/07/31/announcing-windows-10-insider-preview-build-18950/#LqI2Ry5Q7Xj9dlUf.97)||||[**8/6/2019**](https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewadvanced)||
+|18950|[7/31/2019](https://blogs.windows.com/windowsexperience/2019/07/31/announcing-windows-10-insider-preview-build-18950/#LqI2Ry5Q7Xj9dlUf.97)||||[8/6/2019]||
 |18945|[7/26/2019](https://blogs.windows.com/windowsexperience/2019/07/26/announcing-windows-10-insider-preview-build-18945/#gOul7WV7Js1k355B.97)||[7/30/2019](https://blogs.windows.com/windowsexperience/2019/07/30/announcing-windows-server-vnext-insider-preview-build-18945/#qQDiTt2WSjkfeJqp.97)|||[7/30/2019](https://blogs.windows.com/windowsdeveloper/2019/07/30/windows-10-sdk-preview-build-18945-available-now/#69Utog0lRzUzL2X6.97)|
 |18941|[7/18/2019](https://blogs.windows.com/windowsexperience/2019/07/18/announcing-windows-10-insider-preview-build-18941/#akihmq2vm7o6cTT4.97)||||||
 |18936|[7/10/2019](https://blogs.windows.com/windowsexperience/2019/07/10/announcing-windows-10-insider-preview-build-18936/#xOTpdwyjIUeGvlDK.97)||||||
@@ -60,10 +60,10 @@ For details regarding the 19H2 feature update for Windows 10, see this [blog pos
 
 **19H2 in the Release Preview ring:**
 
-| Build | Release Preview | 
-|-------|------|
-|18363.329*|[**8/29/2019**](https://blogs.windows.com/windowsexperience/2019/08/26/testing-the-throttled-delivery-approach-for-19h2/#rzLtlTlO7Lsx91fy.97)|
-|18363.327*|[8/26/2019](https://blogs.windows.com/windowsexperience/2019/08/26/testing-the-throttled-delivery-approach-for-19h2/#rzLtlTlO7Lsx91fy.97)|
+| Build | Release Preview | ISO |
+|-------|------|------|
+|18363.329*|[**8/29/2019**](https://blogs.windows.com/windowsexperience/2019/08/26/testing-the-throttled-delivery-approach-for-19h2/#rzLtlTlO7Lsx91fy.97)|[**9/3/2019**](https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewadvanced)|
+|18363.327*|[8/26/2019](https://blogs.windows.com/windowsexperience/2019/08/26/testing-the-throttled-delivery-approach-for-19h2/#rzLtlTlO7Lsx91fy.97)||
 
 >[!NOTE] 
 > "*" denotes that the update went out to only a subset of Windows Insiders in the Release Preview ring which means not everyone in the Release Preview ring will see the update.
