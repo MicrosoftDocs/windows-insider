@@ -14,6 +14,205 @@ ms.prod: w10
 # What's new for Windows 10 Insider Preview Builds (20H1)
 The [Windows Insider Program](https://insider.windows.com/en-us/) lets you preview builds of the upcoming 20H1 release of Windows 10. This topic lists all new Windows 10 features for you to try. 
 
+## Introducing a new tablet experience for 2-in-1 convertible PCs! (Build 18970)
+
+We are beginning to roll out a new tablet experience for 2-in-1 convertible PCs as a Beta to Windows Insiders. 
+
+![tablet experience](images/18970-1.png "a new tablet experience for 2-in-1 convertible PCs")
+
+This new experience allows users entering tablet posture to stay in the familiar desktop experience without interruption, plus a few key touch improvements:
+* Increased spacing between Taskbar icons.
+* Search box on taskbar collapsed into an icon.
+* File Explorer switches to touch optimized layout.
+* Touch keyboard auto invokes when you tap text fields.
+
+As part of this, we’ve also made a few small changes to the tablet section in Settings.
+This experience is currently available for a portion of Insiders as we evaluate the quality. Here are the steps once it becomes available on your PC:
+1. Use your convertible PC as a laptop as you normally would–opening apps and interacting with them.
+2. When you’re ready to pick it up and go or simply lean back on the couch, you can fold back the keyboard or remove it altogether, and it should switch to this new mode shown above.
+3. Now use your device as a tablet with touch.
+
+We’d love to hear your feedback about the new experience–share your thoughts here.
+
+## Introducing a new PC reset option (Build 18970)
+
+Reset this PC now provides users a new choice to download Windows or use local reinstall. Previously, Reset this PC was only able to do a local reinstall and would build a new Windows installation from existing Windows files. When this feature was introduced in Windows 10 version 1507, it provided the advantage of enabling Windows to be recoverable without requiring extra disk space to store a compressed, backup copy of Windows in a hidden partition. We’ve heard feedback that some of you would prefer to use your high-speed internet connection to speed up this process by just downloading Windows.
+
+Important note: This is a recovery operation and will remove apps you have installed. Additionally, if the “Remove everything” option is selected, user data will also be deleted. For more information on Reset this PC and other recovery options visit aka.ms/win10recoveryoptions.
+
+The cloud download option will reinstall the same build, version, and edition, that is currently installed on your device. This new cloud download option is available to all Windows 10 devices and is different from the “Recover from the cloud” feature available on some earlier Windows 10 devices.
+
+![recovery improvements](images/18970-2.gif "Introducing a new Reset this PC option–Cloud Download")
+
+## Continuing the Cortana rollout (Build 18970)
+The [new Cortana experience](http://aka.ms/wip18945) is now available to all Insiders in the Fast ring in the United States. If it’s available on your device and you haven’t tried it out already, we’d love to hear your feedback! We’ve posted a [Quest in the Feedback Hub](https://aka.ms/AA5yky2) to help you get started.
+
+## Control over restarting apps at sign-in (Build 18965)
+As some of you already know, apps have the ability to register for restart, which helps in a few situations, including enabling you to get back to what you were doing if you need to restart your PC. Previously this option was tied to the “Use my sign-in info to automatically finish setting up my device” option under Sign-in options in accounts settings. We’ve heard feedback that some of you would prefer more explicit control over when Windows automatically restarts apps that were open when you restart your PC, and with 20H1 we’re bringing that option to you.
+
+Windows now puts you in control with a new app restart setting. When turned on, Windows automatically saves your restartable apps when signing out, restarting, or shutting down Windows, and restarts them next time you sign in. This setting is off by default and you can change it any time in Settings > Accounts > Sign-in options, and can find it by searching for “restart apps” in Start or the search box.
+
+![Sign-in options](images/18965-1.png "Control over restarting apps at sign-in")
+
+
+
+## GPU temperature comes to Task Manager (Build 18963)
+One of the longstanding requests we’ve been tracking for Task Manager is to add temperature monitoring support, and with today’s build we’re making progress on that ask. If you have a dedicated GPU card, we will now bubble up the current temperature next to its listing in the Performance Tab.
+
+![Task Manager](images/18963-1.png "GPU temperature comes to Task Manager")
+
+We hope you like the change! If you have any further feedback for Task Manager, please don’t hesitate to share it. To make suggestions or report issues in this space, press WIN+F and file the feedback under Desktop Environment > Task Manager in the Feedback Hub.
+
+__Notes:__
+* Showing the GPU temperature in Task Manager is currently only supported if you have a dedicated GPU card.
+* You may need an updated graphics driver to see the temperature. Specifically one which supports version 2.4 (or higher) of WDDM is required. To check which version your PC has, press WIN+R and enter dxdiag. Under the Display tab, it will say your WDDM version next to Driver Model.
+* Currently the temperature value is only supported in Celsius.
+
+## Renaming your virtual desktops (Build 18963)
+
+Virtual Desktops exist to help you visually and cognitively separate different tasks on your PC. They can also be handy when doing presentations – enabling you to prepare demos on different desktops. Something we’ve heard loud and clear is that you want to be able to set names for your different desktops, in order to help cement the separation between workspaces, and we’re excited to share that rolling out to Insiders in the Fast ring is exactly that!
+
+![virtual deskops](images/18963-2.gif "Renaming your virtual desktops")
+
+Wanna try it out? With the change, when you open Task View (by selecting the Task View button in the taskbar, or by pressing WIN+Tab,) clicking the name of your desktop will now switch it to be an editable fiel where you can set the name to be anything you’d like (including emoji). You can also right-click the thumbnail of the desired desktop in Task View, and a context menu with a Rename entry in it should appear. If you don’t have any additional desktops created yet, select “New desktop” in Task View to get started.
+
+And yes, since we know you’ll ask – the names persist reboot. 
+
+Currently this change is live for 50% of Insiders in the Fast ring, and we’ll be expanding the rollout over the next few weeks as we evaluate the quality of experience.
+
+## Improving the Optional Features page in Settings (Build 18963)
+Based on your feedback, we’ve made a number of usability improvements to the Optional Features page in Settings (Settings > Apps & Features > Optional Features), and they’re now starting to roll out to Insiders in the Fast ring.
+
+* __Multi-select:__ You can now select and install multiple optional features at the same time.
+Better list management: You can now search through lists of optional features and sort them by Name, Size, and Install date.
+* __More useful information:__ You can now see the install date for each optional feature in your ‘Installed features’ list. We’ve also added feature dependencies to the description of each optional feature in the list of features available for install.
+* __Easier page navigation:__ View the status of your latest installs/uninstalls/cancels right on the main page in the ‘Latest actions’ section. You can now add optional features and view your history via pop-up dialogues, so you never have to navigate away from the main page
+
+We’re excited for you to try it! Currently these changes are live for 50% of Insiders in the Fast ring, and we’ll be expanding the rollout over the next few weeks as we evaluate the quality of experience. Here’s a peek at what you’ll see once it’s available on your PC:
+
+![Optional Features](images/18963-3.jpg "Improving the Optional Features page in Settings")
+
+![Optional Features](images/18963-4.png "add an optional feature")
+
+## Adding Mouse Cursor speed to Settings (Build 18963)
+As some Insiders have noticed, you can now set your mouse cursor speed from within Settings! This is the latest piece of our larger ongoing effort to converge Settings and Control Panel experiences. You can find the setting under Settings > Devices > Mouse.
+
+![Mouse Cursor](images/18963-5.png "Adding Mouse Cursor speed to Settings")
+
+## Making Notepad store-updatable (Build 18963)
+Notepad has been a well-loved text editor in Windows for over 30 years. Over the last few releases, we’ve been making a number of small improvements to Notepad based on your feedback (including [expanded line ending support](https://devblogs.microsoft.com/commandline/extended-eol-in-notepad/), [wrap around search](https://blogs.windows.com/windowsexperience/2018/07/11/announcing-windows-10-insider-preview-build-17713/), and [indicating when there’s unsaved content](https://blogs.windows.com/windowsexperience/2018/12/10/announcing-windows-10-insider-preview-build-18298/#5443RXdQaojX3WyZ.97).) Starting with this build, we’re making a change so that future Notepad updates will be automatically available via the store. This will allow us the flexibility to respond to issues and feedback outside the bounds of Windows releases. As always, if you have any feedback for Notepad, we welcome it in the Feedback Hub under [Apps > Notepad](http://aka.ms/notepadfeedback).
+
+## Traditional Chinese IME improvements (Build 18963)
+Thank you everyone who’s shared feedback about the new Traditional Chinese Bopomofo, ChangJie, and Quick IMEs. The developer team has been working on improving the quality and fixing bugs. With today’s build:
+
+* __Toolbar Improvements:__ We fixed an issue where toolbar shows up even when [Use IME toolbar] is turned off in the setting. We also added [Hide toolbar] button in the toolbar menu.
+
+![Traditional Chinese IME](images/18963-6.png "Toolbar Improvements")
+
+__Note:__ Other ways to show/hide toolbar: 1, From settings: Right click [中/英] icon > Click [Settings] > [General] > [Use IME toolbar]; 2. From right click menu: Right click [中/英] icon > [Show/hide IME toolbar]
+ 
+* __Candidate Window Improvements:__ We have been working on improving candidate window quality. We fixed an issue where candidate window sometimes only showed limited number of candidates. We also fixed an issue where candidates shown in table view cannot be selected by number keys.
+
+Please keep trying out this new IME, and let us know your feedback.
+
+## Changes to your account picture in Windows (Build 18963)
+Changing the picture for the account you use to sign in to Windows is now better than ever! Your updated picture will now show up quickly across Windows, apps, and many of the Microsoft sites you use every day. Previously, you might see as many as three or four different pictures for your account in different apps and sites at one time. Its super easy to try out – just go to Your info in Windows settings and change your picture there!
+
+__Steps__
+1. Open “Your info” in Windows settings by pressing the Windows key, and typing “Your info,” and selecting “Your account info.”
+2. Use the options in ‘Create your picture’ to select a new picture for your account.
+3. Check if your picture has been updated in Windows, and on the sites and apps you use.
+
+__Note:__ We’re still working with many sites and apps that will need to be updated to work well with this new feature. For example, the account manager control that appears in the upper right of many Microsoft websites currently updates every 24 hours. This will be changed in the next few months to update quickly when your account picture changes.
+Other updates for Insiders 
+
+## Windows Search improvements (Build 18963)
+We wanted to take a moment to cover some of the server-side search improvements we’ve been rolling out based on your feedback:
+
+* __Improved spell correction for Apps & Settings searches.__
+Windows Search has built-in spell correction to help you find what you’re looking for. When you’re typing quickly sometimes mistakes happen – we’re excited to announce that we’ve updated our spell correction technology to intelligently understand and correct small typos like “powerpiont” and “exce;” which previously would return no results. With these updates, you get better results faster. This feature is now available on both Insider and retail builds in English-language markets.  
+
+* __Hints to improve Best match results.__ Our goal with Windows Search is to provide a simple to use experience, and a key aspect of this is making results easy to understand. Something we’ve heard from you is surprise that sometimes settings search results don’t match your search. To help address this, in certain cases where the Best match result isn’t an exact match for your search, a “Related:” line will be included below the result to help clarify why this result is appearing.  We’ll be expanding this feature to include Apps search in the coming weeks.  This feature is now available on both Insider and retail builds in English (United States).
+
+![Windows Search](images/18963-7.png "Hints to improve Best match results.")
+
+* __Bringing the latest Search Home experience to more users.__ With the Windows 10 May 2019 Update we updated Search Home to help you save time by adding quick access to your Top apps and Recent activities. After receiving positive feedback and comments about this new experience, we’re now making it available to more users by rolling it out to everyone using the Windows 10 October 2018 Update as well. We hope you find them useful and that they help make Search Home more productive for you.
+Here’s a glance at what it looks like for those on the Windows 10 October 2018 Update:
+
+![Windows Search](images/18963-8.png "Bringing the latest Search Home experience to more users")
+
+
+## A redesigned Network Status page in Settings (Build 18956)
+Based on your feedback, we’re revamping the Network & Internet landing page in Settings to provide more information at a glance about your device’s connectivity, combining several pages to give you one clear view of how you are connected to the internet.
+* __New view of active connections:__ We now show all available connection interfaces on the Status page, so you can quickly see what is connected and view and change properties as needed. If you have multiple connections, only one will be used for internet connectivity at a time, and that one is still shown in the Status diagram at the top of the page.
+
+![Network status](images/18956-1.png "New view of active connections")
+
+* __Integrated Data Usage:__ As you may have noticed in the picture above, you can now see how much data is being used by a network right from the Status page! If it looks like you’re using a lot of data, you can drill into the Data Usage page to create a limit for that network, which will warn you if you get close or go over your limit. You can also see how much data each app is using on that network.
+
+![Network status](images/18956-2.png "Integrated Data Usage")
+
+We hope you like the changes! If you have any feedback about these, you can share it via the Feedback Hub under Network and Internet > Networking Experience – Look and Feel.
+
+## Traditional Chinese IME Improvements (Build 18956)
+Thank you everyone who’s shared feedback about the new Traditional Chinese Bopomofo / ChangJie / Quick IME so far! The development team has been working on improving the quality and fixing bugs based on what you’ve told us, including:
+* __Bopomofo, ChangJie, and Quick IMEs:__ We improved the speed of toggling conversion mode ([中] mode and [英] mode). Now it you can switch between the two faster.
+* __Bopomofo IME:__ We heard feedback that some of you’ve been accidentally hitting the Shift + Space keyboard shortcut, resulting in the character width changing unexpectedly between Half-width and Full-width, so we’ve added a new setting for this if you’d prefer to disable the keyboard shortcut (Note: The default is enabled). To access this setting, right click the [中/英] icon in the taskbar, click Settings > General > “Use Shift + Space to switch character width”.
+
+As you may have noticed in the screenshot below, we’re now adding the ability to change the candidate font size, separate from the rest of the system if you find that you need it to be a bit bigger. (You can still change the system font size under [Ease of Access]>[Display]>[Make text bigger].)
+
+![Traditional Chinese IME](images/18956-3.png "Bopomofo IME settings")
+
+__We also fixed issues where:__ 
+* The candidate numbers sometimes disappeared from the candidate window.
+* Shift+Number wasn’t working for selecting an associated phrase.
+
+Thanks again! If you have any further feedback about these experiences, [let us know](https://aka.ms/inputfeedback).
+
+## Notification settings improvements now rolling out to all of Fast (Build 18956) 
+Thanks everyone who’s tried out our [improvements so far](https://blogs.windows.com/windowsexperience/2019/07/03/announcing-windows-10-insider-preview-build-18932/). We’re now starting to roll these out to all Insiders. To recap what you’ll see when you have the change:
+* If you hover your mouse over an incoming notification, you’ll now see a settings icon to make it easy to adjust that app’s notification settings.
+* We’ve updated the design of the per-app notification settings for visual clarity.
+* There’s now a direct link to notification settings at the top of the Action Center.
+* Notifications & Action Settings now has a checkbox for muting the sound of all notifications.
+* By default, the senders in Notifications & Action Settings are now sorted by “most recently sent a notification.”
+
+![Notification settings](images/18956-4.png "Notification settings improvements now rolling out to all of Fast")
+
+## Cortana rollout increasing to more Insiders using English (Build 18956 - United States)
+We’re increasing the rollout of the [new Cortana experience](https://blogs.windows.com/windowsexperience/2019/07/26/announcing-windows-10-insider-preview-build-18945/) to now be available for 50% of the Insiders using English (United States). You may need to reboot before you see the change on your PC. Looking for something to try once it appears for you? Try “What’s the weather?” or “Tell me a joke” to get started.
+
+![Cortana](images/18956-5.png "New Cortana experience")
+ 
+## Calculator app updates (Build 18956)
+Over the next few days we’ll be starting to roll out a Calculator app update to Insiders in the Fast ring. This app is most notable because it adds the ability to put Calculator in an Always on Top mode! Thanks everyone who shared feedback requesting this – we look forward to you trying it out. Once you have the updated version, you’ll be able to switch into the Always on Top mode by clicking the icon next to the calculator mode name.
+
+![Calculator app](images/18956-6.gif "Calculator app updates")
+
+
+## Japanese IME Improvements (Build 18950)
+Thank you everyone who’s shared feedback so far about the new Japanese IME. The development team has been working on improving the quality based on your feedback. Here are some improvements that you can try out in this build:
+* __Prediction Candidate window key navigation:__ We fixed an issue where the focus inside prediction candidate window wouldn’t move when using the Up Arrow key.
+* __Key customization:__ We’ve improved the discoverability of key assignment settings. Also, based on feedback, we’ve updated the default assigned value of Ctrl + Space to be “None”. Ctrl + Space can still be used for toggling IME-on/off by changing the value through its setting.
+
+![Japanese IME](images/18950-1.png "Japanese IME Improvements")
+
+Please don’t hesitate to continue [sharing your thoughts with us](https://aka.ms/inputfeedback) about typing in Windows – our ears are open and we’d love to hear from you.
+
+## Snip & Sketch improvements headed your way (Build 18950)
+Thanks everyone who’s shared feedback so far for our updated snipping experience! We really appreciate it and are starting to roll out some more improvements based on what you’ve told us:
+* __Single window mode:__ Do you tend to retake snips multiple times in order to get the perfect screenshot? We’re updating the New button to now open new snips in your current app window, so you don’t end up with a ton of open snips (that you then need to close.) If you’d rather keep all snips open in separate windows. the option is now a toggle in settings, so you can decide which mode you prefer.
+
+![Snip & Sketch](images/18950-2.png "Single Mode View")
+ 
+* __Zoom:__ Need we say more? You can now zoom in on your screenshots if they’re a bit too small for you to annotate on (and yes, CTRL+Plus, CTRL+Minus and Ctrl+Mouse wheel are supported!). We’ll also zoom out to make sure the whole snip fits in the Snip & Sketch window. If you want to see the snip at its original size, click the Zoom button and then “Actual Size”.
+
+![Snip & Sketch](images/18950-3.gif "zoom")
+
+* __Improving WIN+Shift+S discoverability:__ You mentioned you loved learning about using WIN+Shift+S to take new snips any time and we thought others would too! If you haven’t taken a snip yet, we’ll now use the canvas space in Snip & Sketch to help you learn how to start a snip without needing to open the app first. 
+
+These changes are currently available for a portion of Insiders in the Fast ring as we evaluate the quality before continuing the rollout. Note the rollout for each change mentioned above is being handled separately, with separate random populations in the initial rollout, so seeing one of the changes with app version 10.1907.2064.0 doesn’t necessarily mean you’ll see all three.
+
 ## Introducing a new Cortana experience for Windows 10 (Build 18945)
 We are beginning to roll out a new Cortana experience for Windows 10 as a Beta to Windows Insiders in the U.S. This new experience features a brand-new chat-based UI that gives you the ability to type or speak natural language queries.
 
@@ -66,13 +265,13 @@ Have you ever had an issue finding the text cursor in the middle of a large amou
 * Text cursor indicator color and size might not persist when you sign in. To work around that, simply turn off and turn on the “Use text cursor indicator” setting again.
 * Occasionally, you might see that the text cursor indicator stay on the screen or reappear after the app has been closed or the page contents have scrolled away.
 
-## Updated File Explorer search rolling out to all Insiders
+## Updated File Explorer search rolling out to all Insiders (Build 18945)
 Over the next few days, [the new File Explorer search experience](https://blogs.windows.com/windowsexperience/2019/05/08/announcing-windows-10-insider-preview-build-18894/#QfdoEyQ3TQXvJVoD.97) will be rolling out to all Insiders in the Fast ring! Thanks everyone who’s shared feedback so far and helped us to improve the experience. Please don’t hesitate to share any other comments – you can file feedback for this area under Files, Folders, and Storage > File Explorer in the Feedback Hub.
 
 ![File Exploer](images/18945-4.png "pdated File Explorer search rolling out to all Insiders")
 
 
-## Updating the Korean IME
+## Updating the Korean IME (Build 18941)
 Earlier in this development cycle, we released [updated versions of both the Chinese and Japanese IMEs](https://blogs.windows.com/windowsexperience/2019/04/10/announcing-windows-10-insider-preview-build-18875/#shlPX8HU74Tl0frv.97). As part of our ongoing efforts to modernize and improve your typing experience in Windows, today we’re rolling out an updated version of the Korean IME to all Insiders in the Fast ring. This update is going out with the goal of making the IME more secure, reliable, and more beautiful to look at.
 
 For those who’re familiar with typing in Korean, the changes will be most noticeable if you write in Hanja; we have a new candidate selection window that uses modern controls and clearer typography:
@@ -93,7 +292,9 @@ Do you ever open the clock and calendar flyout to help organize your thoughts wh
 Pick your desired date and start typing – you’ll now see inline options to set a time and location. We’re looking forward to you trying it out! Let us know if you have any feedback.
 
 ## Go passwordless with Microsoft accounts on your device (Build 18936)
-For improved security and a more seamless sign-in experience, you can now enable passwordless sign-in for Microsoft accounts on your Windows 10 device by going to Settings > Accounts > Sign-in options, and selecting ‘On’ under ‘Make your device passwordless’. Enabling passwordless sign in will switch all Microsoft accounts on your Windows 10 device to modern authentication with Windows Hello Face, Fingerprint, or PIN. Don’t have Windows Hello set up yet? No problem! We’ll walk you through the setup experience on your next sign-in. Curious how a Windows Hello PIN is more secure than a password? Learn more [here](https://channel9.msdn.com/Blogs/One-Dev-Minute/Why-is-the-PIN-for-Windows-Hello-more-secure-than-a-password--One-Dev-Question). 
+For improved security and a more seamless sign-in experience, you can now enable passwordless sign-in for Microsoft accounts on your Windows 10 device by going to Settings > Accounts > Sign-in options, and selecting ‘On’ under ‘Make your device passwordless’. This will strengthen your device sign-in by switching all Microsoft accounts on your device to modern multifactor authentication with Windows Hello Face, Fingerprint, or PIN, and eliminating passwords from Windows.
+
+Don’t have Windows Hello set up yet? No problem! We’ll walk you through the setup experience on your next sign-in. Curious how a Windows Hello PIN is more secure than a password? Learn more [here](https://channel9.msdn.com/Blogs/One-Dev-Minute/Why-is-the-PIN-for-Windows-Hello-more-secure-than-a-password--One-Dev-Question). 
 ![password](images/18936-2.png "Go passwordless with Microsoft accounts on your device")'
 
 Please note: This feature is currently being rolled out to a small portion of Insiders and the above option may not show for all users in Settings. If the toggle isn’t showing for you yet, check back in a week so.
@@ -232,7 +433,7 @@ Notes:
 ## Cross-language support in Feedback Hub 
 Based on your feedback, with Feedback Hub version 1.1903, Insiders with Windows set to a language other than English now have the option of browsing English feedback within the Feedback Hub, as well as submitting feedback in English on the New Feedback form.
 
-![dictation](images/18885-2.png "expanded language support")
+![dictation](images/18885-3.png "expanded language support")
 
 ## East Asian Microsoft Input Method Editor (IME) Improvements (Build 18875)
 __The New Japanese IME is now available to all Insiders in Fast.__ During 19H1, we announced we were working on [a new Japanese IME](https://blogs.windows.com/windowsexperience/2018/11/07/announcing-windows-10-insider-preview-build-18277/#jJxpLldDZEsihHJv.97). We got a lot of great feedback, and the IME was taken offline for a time while we worked on improving the experience based on what you’d told us. Today the IME – now more secure, more stable, with improved game compatibility, and more – is once again available for all Insiders starting with this build. If you speak Japanese, please take some time to evaluate how it feels to use the IME (with all the improvements) for daily usage, and let us know what you think! If you already were using the Japanese IME, you’ll automatically have the new one when you install this build – if you weren’t already using the Japanese IME, you can add it by going to Languages Settings and adding Japanese to the list.
