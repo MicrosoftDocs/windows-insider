@@ -54,19 +54,32 @@ The items in **bold** are the latest releases for the individual versions of the
 
 ## Next feature update for Windows 10 (19H2)
 
-For details regarding the 19H2 feature update for Windows 10, see this [blog post](https://blogs.windows.com/windowsexperience/2019/07/01/evolving-windows-10-servicing-and-quality-the-next-steps/#IX1elYqpB4qhmMMg.97).
+For details regarding the 19H2 feature update for Windows 10, see [Evolving Windows 10 servicing: the next steps](https://blogs.windows.com/windowsexperience/2019/07/01/evolving-windows-10-servicing-and-quality-the-next-steps/).
 
-| Build | Slow | 
+**19H2 in the Release Preview ring:**
+
+| Build | Release Preview | ISO |
+|-------|-----------------|-----|
+|18363.329*|[**8/29/2019**](https://blogs.windows.com/windowsexperience/2019/08/26/testing-the-throttled-delivery-approach-for-19h2/)|[**9/3/2019**](https://www.microsoft.com/software-download/windowsinsiderpreviewadvanced)|
+|18363.327*|[8/26/2019](https://blogs.windows.com/windowsexperience/2019/08/26/testing-the-throttled-delivery-approach-for-19h2/)||
+
+>[!NOTE]
+> "*" denotes that the update went out to only a subset of Windows Insiders in the Release Preview ring which means not everyone in the Release Preview ring will see the update.
+
+**19H2 in the Slow ring:**
+
+| Build | Slow |
 |-------|------|
-|18362.10015*|[**8/19/2019**](https://blogs.windows.com/windowsexperience/2019/08/19/announcing-windows-10-insider-preview-build-18362-10014-18362-10015-19h2/)|
-|18362.10014|[**8/19/2019**](https://blogs.windows.com/windowsexperience/2019/08/19/announcing-windows-10-insider-preview-build-18362-10014-18362-10015-19h2/)|
-|18362.10013*|[8/08/2019](https://blogs.windows.com/windowsexperience/2019/08/08/announcing-windows-10-insider-preview-build-18362-10012-18362-10013-19h2/)|
-|18362.10012|[8/08/2019](https://blogs.windows.com/windowsexperience/2019/08/08/announcing-windows-10-insider-preview-build-18362-10012-18362-10013-19h2/)|
+|18362.10019|[**9/5/2019**](https://blogs.windows.com/windowsexperience/2019/09/05/announcing-windows-10-insider-preview-build-18362-10019-19h2/)|
+|18362.10015*|[8/19/2019](https://blogs.windows.com/windowsexperience/2019/08/19/announcing-windows-10-insider-preview-build-18362-10014-18362-10015-19h2/)|
+|18362.10014|[8/19/2019](https://blogs.windows.com/windowsexperience/2019/08/19/announcing-windows-10-insider-preview-build-18362-10014-18362-10015-19h2/)|
+|18362.10013*|[8/8/2019](https://blogs.windows.com/windowsexperience/2019/08/08/announcing-windows-10-insider-preview-build-18362-10012-18362-10013-19h2/)|
+|18362.10012|[8/8/2019](https://blogs.windows.com/windowsexperience/2019/08/08/announcing-windows-10-insider-preview-build-18362-10012-18362-10013-19h2/)|
 |18362.10006*|[7/17/2019](https://blogs.windows.com/windowsexperience/2019/07/15/announcing-windows-10-insider-preview-build-18362-10005-19h2/)|
 |18362.10005|[7/15/2019](https://blogs.windows.com/windowsexperience/2019/07/15/announcing-windows-10-insider-preview-build-18362-10005-19h2/)|
-|18362.10000|[7/01/2019](https://blogs.windows.com/windowsexperience/2019/07/01/announcing-windows-10-insider-preview-build-18362-10000-19h2/)|
+|18362.10000|[7/1/2019](https://blogs.windows.com/windowsexperience/2019/07/01/announcing-windows-10-insider-preview-build-18362-10000-19h2/)|
 
->[!NOTE] 
+>[!NOTE]
 > "*" denotes that the update went out to only a subset of Windows Insiders in the Slow ring which means not everyone in the Slow ring will see the update.
 
 ## Windows 10 May 2019 Update (19H1)
