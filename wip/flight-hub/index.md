@@ -257,3 +257,43 @@ The [Windows 10 Creators Update](https://blogs.windows.com/windowsexperience/201
 |14915|[8/31/2016](https://blogs.windows.com/windowsexperience/2016/08/31/announcing-windows-10-insider-preview-build-14915-for-pc-and-mobile/)|||
 |14905|[8/17/2016](https://blogs.windows.com/windowsexperience/2016/08/17/announcing-windows-10-insider-preview-build-14905-for-pc-mobile/)|||
 |14901|[8/11/2016](https://blogs.windows.com/windowsexperience/2016/08/11/announcing-windows-10-insider-preview-build-14901-for-pc/)|||
+
+## Windows 10 Anniversary Update (RS1)
+
+The [Windows 10 Anniversary Update](https://blogs.windows.com/windowsexperience/2016/08/02/how-to-get-the-windows-10-anniversary-update/) was released to the world on August 2nd, 2016. Windows Insiders helped test 33 builds.
+
+| Build | Fast | Slow | Release Preview | IoT | ISO | SDK |
+|-------|------|------|-----------------|-----|-----|-----|
+|14393|[**7/18/2016**](https://blogs.windows.com/windowsexperience/2016/07/18/build14393/)|[**7/20/2016**](https://blogs.windows.com/windowsexperience/2016/07/18/build14393/)|[**7/28/2016**](https://blogs.windows.com/windowsexperience/2016/07/18/build14393/)|[**7/22/2016**](https://social.msdn.microsoft.com/Forums/en-US/81a58d4a-9f1c-4da4-8803-9cbb4c5d5cf5/new-flight-14393-released)|||
+|14390|[7/15/2016](https://blogs.windows.com/windowsexperience/2016/07/15/announcing-windows-10-insider-preview-build-14390-for-pc-and-mobile/)||||||
+|14388|[7/12/2016](https://blogs.windows.com/windowsexperience/2016/07/12/announcing-windows-10-insider-preview-build-14388-for-pc-and-mobile/)|[7/15/2016](https://blogs.windows.com/windowsexperience/2016/07/12/announcing-windows-10-insider-preview-build-14388-for-pc-and-mobile/)||||[7/12/2016](https://blogs.windows.com/windowsdeveloper/2016/07/12/windows-10-anniversary-sdk-preview-build-14388-released/)|
+|14385|[7/9/2016](https://blogs.windows.com/windowsexperience/2016/07/09/announcing-windows-10-insider-preview-build-14385-for-pc-and-mobile/)||||||
+|14383|[7/7/2016](https://blogs.windows.com/windowsexperience/2016/07/07/announcing-windows-10-insider-preview-build-14383-for-pc-and-mobile/)|||||[7/7/2016](https://blogs.windows.com/windowsdeveloper/2016/07/07/windows-10-anniversary-sdk-preview-build-14383-released/)|
+|14379|[6/30/2016](https://blogs.windows.com/windowsexperience/2016/06/30/announcing-windows-10-insider-preview-build-14379-for-pc-and-mobile/)||||||
+|14376|[6/28/2016](https://blogs.windows.com/windowsexperience/2016/06/28/announcing-windows-10-insider-preview-build-14376-for-pc-and-mobile/)|||[7/7/2016](https://social.msdn.microsoft.com/Forums/en-US/1c62e526-6553-4236-9bc4-8548edf4be13/new-flight-14376-released)|||
+|14372|[6/23/2016](https://blogs.windows.com/windowsexperience/2016/06/23/announcing-windows-10-insider-preview-build-14372-for-pc-and-mobile/)|[6/28/2016](https://blogs.windows.com/windowsexperience/2016/06/23/announcing-windows-10-insider-preview-build-14372-for-pc-and-mobile/)|||||
+|14371|[6/22/2016](https://blogs.windows.com/windowsexperience/2016/06/22/announcing-windows-10-insider-preview-build-14371-for-pc/)<br>[6/21/2016](https://blogs.windows.com/windowsexperience/2016/06/21/announcing-windows-10-mobile-insider-preview-build-14371/)||||||
+|14367|[6/16/2016](https://blogs.windows.com/windowsexperience/2016/06/16/announcing-windows-10-insider-preview-build-14367-for-pc-and-mobile/)|[6/21/2016](https://blogs.windows.com/windowsexperience/2016/06/16/announcing-windows-10-insider-preview-build-14367-for-pc-and-mobile/)|||||
+|14366|[6/14/2016](https://blogs.windows.com/windowsexperience/2016/06/14/announcing-windows-10-insider-preview-build-14366-mobile-build-14364/)|[6/17/2016](https://blogs.windows.com/windowsexperience/2016/06/14/announcing-windows-10-insider-preview-build-14366-mobile-build-14364/)|||[6/26/2016](https://www.microsoft.com/software-download/windowsinsiderpreviewadvanced)|[6/16/2016](https://blogs.windows.com/windowsdeveloper/2016/06/16/windows-10-anniversary-sdk-preview-build-14366-released/)|
+|14364|[6/14/2016](https://blogs.windows.com/windowsexperience/2016/06/14/announcing-windows-10-insider-preview-build-14366-mobile-build-14364/)||||||
+|14361|[6/8/2016](https://blogs.windows.com/windowsexperience/2016/06/08/announcing-windows-10-insider-preview-build-14361/)||||||
+|14356|[6/1/2016](https://blogs.windows.com/windowsexperience/2016/06/01/announcing-windows-10-mobile-insider-preview-build-14356/)||||||
+|14352|[5/26/2016](https://blogs.windows.com/windowsexperience/2016/05/26/announcing-windows-10-insider-preview-build-14352/)||||||
+|14342|[5/16/2016](https://blogs.windows.com/windowsexperience/2016/05/16/announcing-windows-10-mobile-insider-preview-build-14342/)<br>[5/10/2016](https://blogs.windows.com/windowsexperience/2016/05/10/announcing-windows-10-insider-preview-build-14342/)|[5/31/2016](https://blogs.windows.com/windowsexperience/2016/05/16/announcing-windows-10-mobile-insider-preview-build-14342/)<br>[5/18/2016](https://blogs.windows.com/windowsexperience/2016/05/10/announcing-windows-10-insider-preview-build-14342/)|||[5/31/2016](https://www.microsoft.com/software-download/windowsinsiderpreviewadvanced)||
+|14332|[4/26/2016](https://blogs.windows.com/windowsexperience/2016/04/26/announcing-windows-10-insider-preview-build-14332/)||||[5/6/2016](https://www.microsoft.com/software-download/windowsinsiderpreviewadvanced)|[4/28/2016](https://blogs.windows.com/windowsdeveloper/2016/04/28/windows-10-anniversary-sdk-preview-build-14332-released/)|
+|14328|[4/22/2016](https://blogs.windows.com/windowsexperience/2016/04/22/announcing-windows-10-insider-preview-build-14328-for-pc-and-mobile/)||||||
+|14327|[4/20/2016](https://blogs.windows.com/windowsexperience/2016/04/20/announcing-windows-10-mobile-insider-preview-build-14327/)||||||
+|14322|[4/14/2016](https://blogs.windows.com/windowsexperience/2016/04/14/announcing-windows-10-mobile-insider-preview-build-14322/)||||||
+|14316|[4/6/2016](https://blogs.windows.com/windowsexperience/2016/04/06/announcing-windows-10-insider-preview-build-14316/)||||||
+|14295|[3/25/2016](https://blogs.windows.com/windowsexperience/2016/03/25/announcing-windows-10-insider-preview-build-14295-for-pc-and-mobile/)|[3/30/2016](https://blogs.windows.com/windowsexperience/2016/03/25/announcing-windows-10-insider-preview-build-14295-for-pc-and-mobile/)|||[3/31/2016](https://www.microsoft.com/software-download/windowsinsiderpreviewadvanced)||
+|14291|[3/17/2016](https://blogs.windows.com/windowsexperience/2016/03/17/announcing-windows-10-mobile-insider-preview-build-14291-for-pc-and-mobile/)||||||
+|14283|[3/10/2016](https://blogs.windows.com/windowsexperience/2016/03/10/announcing-windows-10-mobile-insider-preview-build-14283/)||||||
+|14279|[3/4/2016](https://blogs.windows.com/windowsexperience/2016/03/04/announcing-windows-10-insider-preview-build-14279/)||||||
+|14271|[2/24/2016](https://blogs.windows.com/windowsexperience/2016/02/24/announcing-windows-10-insider-preview-build-14271-mobile-build-14267-1004/)||||||
+|14267.1004|[2/24/2016](https://blogs.windows.com/windowsexperience/2016/02/24/announcing-windows-10-insider-preview-build-14271-mobile-build-14267-1004/)||||||
+|14267|[2/19/2016](https://blogs.windows.com/windowsexperience/2016/02/19/announcing-windows-10-mobile-insider-preview-build-14267/)<br>[2/18/2016](https://blogs.windows.com/windowsexperience/2016/02/18/announcing-windows-10-insider-preview-build-14267/)|||||[2/24/2016](https://blogs.windows.com/windowsdeveloper/2016/02/24/windows-10-sdk-preview-build-14267-released/)|
+|14257|[2/3/2016](https://blogs.windows.com/windowsexperience/2016/02/03/announcing-windows-10-insider-preview-build-14257/)||||||
+|14251|[1/27/2016](https://blogs.windows.com/windowsexperience/2016/01/27/announcing-windows-10-insider-preview-build-14251/)||||||
+|11102|[1/21/2016](https://blogs.windows.com/windowsexperience/2016/01/21/announcing-windows-10-insider-preview-build-11102/)||||||
+|11099|[1/13/2016](https://blogs.windows.com/windowsexperience/2016/01/13/announcing-windows-10-insider-preview-build-11099/)||||||
+|11082|[12/16/2015](https://blogs.windows.com/windowsexperience/2015/12/16/announcing-windows-10-insider-preview-build-11082/)||||||
