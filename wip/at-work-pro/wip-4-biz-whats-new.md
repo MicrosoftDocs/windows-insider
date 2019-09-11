@@ -92,7 +92,7 @@ One of the longstanding requests we’ve been tracking for Task Manager is to ad
 
 ![Task Manager](images/18963-1.png "GPU temperature comes to Task Manager")
 
-# A redesigned Network Status page in Settings (Build 18956)
+## A redesigned Network Status page in Settings (Build 18956)
 Based on your feedback, we’re revamping the Network & Internet landing page in Settings to provide more information at a glance about your device’s connectivity, combining several pages to give you one clear view of how you are connected to the internet.
 * __New view of active connections:__ We now show all available connection interfaces on the Status page, so you can quickly see what is connected and view and change properties as needed. If you have multiple connections, only one will be used for internet connectivity at a time, and that one is still shown in the Status diagram at the top of the page.
 
@@ -211,5 +211,5 @@ We have made several updates to improve Windows Sandbox accessibility scenarios.
 * A Shift + Alt + PrintScreen key sequence in Windows Sandbox which activates the ease of access dialog for enabling high contrast mode.
 * A ctrl + alt + break key sequence in Windows Sandbox which allows entering/exiting fullscreen mode
 
-# Windows Sandbox configuration file support (Build 18841)
+## Windows Sandbox configuration file support (Build 18841)
 Windows Sandbox now supports configuration files! These files allow users to configure some aspects of the sandbox, such as vGPU, networking and shared folders. [Check out the blog post explaining this new feature](https://aka.ms/WindowsSandbox_ConfigFile).
