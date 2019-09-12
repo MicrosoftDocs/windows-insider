@@ -12,43 +12,43 @@ ms.prod: w10
 # What’s new for business in Windows 10 Insider Preview Builds
 
 ## Introducing the ability to move the Cortana window (Build 18975)
-With the [new conversational Cortana experience](https://blogs.windows.com/windowsexperience/2019/07/26/announcing-windows-10-insider-preview-build-18945/), we understand that you wanna keep the chat going sometimes, and the default position of the window isn’t always where you’d prefer to have it docked if you’re going to have a longer back and forth. That’s why we’re starting to roll out the option to be able to move the window (by dragging the title bar area), to anywhere you’d like on the screen–just like you can with other windows. You can also resize the window if you’d like. Currently, this change is rolled out to 50% of Insiders with the new Cortana experience, and we’ll continue the rollout as we validate the quality of the experience.
+With the [new conversational Cortana experience](https://blogs.windows.com/windowsexperience/2019/07/26/announcing-windows-10-insider-preview-build-18945/), we understand that you want to keep the chat going sometimes, and the default position of the window isn’t always where you’d prefer to have it docked if you’re going to have a longer back and forth. That’s why we’re starting to roll out the option to be able to move the window (by dragging the title bar area), to anywhere you’d like on the screen–just like you can with other windows. You can also resize the window if you’d like. Currently, this change is rolled out to 50% of Insiders with the new Cortana experience, and we’ll continue the rollout as we validate the quality of the experience.
 
 ![Cortana experience](images/18975-1.gif "Cortana window moves around the desktop")
 
 ## Introducing a new PC reset option (Build 18970)
 Reset this PC now provides users a new choice to download Windows or use local reinstall. Previously, Reset this PC was only able to do a local reinstall and would build a new Windows installation from existing Windows files. When this feature was introduced in Windows 10 version 1507, it provided the advantage of enabling Windows to be recoverable without requiring extra disk space to store a compressed, backup copy of Windows in a hidden partition. We’ve heard feedback that some of you would prefer to use your high-speed internet connection to speed up this process by just downloading Windows.
 
-Important note: This is a recovery operation and will remove apps you have installed. Additionally, if the “Remove everything” option is selected, user data will also be deleted. For more information on Reset this PC and other recovery options visit aka.ms/win10recoveryoptions.
+Important note: This is a recovery operation and will remove apps you have installed. Additionally, if the “Remove everything” option is selected, user data will also be deleted. For more information on Reset this PC and other recovery options, visit aka.ms/win10recoveryoptions.
 
 The cloud download option will reinstall the same build, version, and edition, that is currently installed on your device. This new cloud download option is available to all Windows 10 devices and is different from the “Recover from the cloud” feature available on some earlier Windows 10 devices.
 
 ![recovery improvements](images/18970-2.gif "Introducing a new Reset this PC option–Cloud Download")
 
-## Introducing a new tablet experience for 2-in-1 convertible PCs! (Build 18970)
+## New tablet experience for 2-in-1 convertible PCs! (Build 18970)
 
-We are beginning to roll out a new tablet experience for 2-in-1 convertible PCs as a Beta to Windows Insiders. 
+Windows Insiders can now take part in the new Beta tablet experience for 2-in-1 convertible PCs.
 
 ![tablet experience](images/18970-1.png "a new tablet experience for 2-in-1 convertible PCs")
 
 This new experience allows users entering tablet posture to stay in the familiar desktop experience without interruption, plus a few key touch improvements:
 * Increased spacing between Taskbar icons.
 * Search box on taskbar collapsed into an icon.
-* File Explorer switches to touch optimized layout.
+* File Explorer switches to touch-optimized layout.
 * Touch keyboard auto invokes when you tap text fields.
 
 As part of this, we’ve also made a few small changes to the tablet section in Settings.
 This experience is currently available for a portion of Insiders as we evaluate the quality. Here are the steps once it becomes available on your PC:
-1. Use your convertible PC as a laptop as you normally would–opening apps and interacting with them.
-2. When you’re ready to pick it up and go or simply lean back on the couch, you can fold back the keyboard or remove it altogether, and it should switch to this new mode shown above.
+1. Use your convertible PC as a laptop as you usually would–opening apps and interacting with them.
+2. When you’re ready to pick it up and go or lean back on the couch, you can fold back the keyboard or remove it altogether, and it should switch to this new model shown above.
 3. Now use your device as a tablet with touch.
 
 We’d love to hear your feedback about the new experience–share your thoughts here.
 
 ## Control over restarting apps at sign-in (Build 18965)
-As some of you already know, apps have the ability to register for restart, which helps in a few situations, including enabling you to get back to what you were doing if you need to restart your PC. Previously this option was tied to the “Use my sign-in info to automatically finish setting up my device” option under Sign-in options in accounts settings. We’ve heard feedback that some of you would prefer more explicit control over when Windows automatically restarts apps that were open when you restart your PC, and with 20H1 we’re bringing that option to you.
+Applications can register for restart, which helps in a few situations, including enabling you to get back to what you were doing if you need to restart your PC. Previously this option was tied to the “Use my sign-in info to automatically finish setting up my device” option under Sign-in options in accounts settings. We’ve heard feedback that some of you would prefer more explicit control over when Windows automatically restarts apps that were open when you restart your PC, and with 20H1 we’re bringing that option to you.
 
-Windows now puts you in control with a new app restart setting. When turned on, Windows automatically saves your restartable apps when signing out, restarting, or shutting down Windows, and restarts them next time you sign in. This setting is off by default and you can change it any time in Settings > Accounts > Sign-in options, and can find it by searching for “restart apps” in Start or the search box.
+Windows now put you in control with a new app restart setting. When turned on, Windows automatically saves your restartable apps when signing out, restarting, or shutting down Windows, and restarts them next time you sign in. This setting is off by default and you can change it any time in Settings > Accounts > Sign-in options, and can find it by searching for “restart apps” in Start or the search box.
 
 ![Sign-in options](images/18965-1.png "Control over restarting apps at sign-in")
 
@@ -58,9 +58,8 @@ Based on your feedback, we’ve made a number of usability improvements to the O
 * __Multi-select:__ You can now select and install multiple optional features at the same time.
 Better list management: You can now search through lists of optional features and sort them by Name, Size, and Install date.
 * __More useful information:__ You can now see the install date for each optional feature in your ‘Installed features’ list. We’ve also added feature dependencies to the description of each optional feature in the list of features available for install.
-* __Easier page navigation:__ View the status of your latest installs/uninstalls/cancels right on the main page in the ‘Latest actions’ section. You can now add optional features and view your history via pop-up dialogues, so you never have to navigate away from the main page
+* __Easier page navigation:__ View the status of your latest installs/uninstalls/cancel right on the main page in the ‘Latest actions’ section. You can now add optional features and view your history via pop-up dialogues, so you never have to navigate away from the main page
 
-We’re excited for you to try it! Currently these changes are live for 50% of Insiders in the Fast ring, and we’ll be expanding the rollout over the next few weeks as we evaluate the quality of experience. Here’s a peek at what you’ll see once it’s available on your PC:
 
 ![Optional Features](images/18963-3.jpg "Improving the Optional Features page in Settings")
 
@@ -72,18 +71,16 @@ We’re excited for you to try it! Currently these changes are live for 50% of I
 Virtual Desktops exist to help you visually and cognitively separate different tasks on your PC. They can also be handy when doing presentations – enabling you to prepare demos on different desktops. Something we’ve heard loud and clear is that you want to be able to set names for your different desktops, in order to help cement the separation between workspaces, and we’re excited to share that rolling out to Insiders in the Fast ring is exactly that!
 
 ![virtual deskops](images/18963-2.gif "Renaming your virtual desktops")
+Do you want to try it out? With the change, when you open Task View (by selecting the Task View button in the taskbar, or by pressing WIN+Tab,) clicking the name of your desktop will now switch it to be an editable field where you can set the name to be anything you’d like (including emoji). You can also right-click the thumbnail of the desired desktop in Task View, and a context menu with a Rename entry in it should appear. If you don’t have any additional desktops created yet, select “New desktop” in Task View to get started.
 
-Wanna try it out? With the change, when you open Task View (by selecting the Task View button in the taskbar, or by pressing WIN+Tab,) clicking the name of your desktop will now switch it to be an editable fiel where you can set the name to be anything you’d like (including emoji). You can also right-click the thumbnail of the desired desktop in Task View, and a context menu with a Rename entry in it should appear. If you don’t have any additional desktops created yet, select “New desktop” in Task View to get started.
+Moreover, since we know, you’ll ask – the names persist a reboot. 
 
-And yes, since we know you’ll ask – the names persist reboot. 
-
-Currently this change is live for 50% of Insiders in the Fast ring, and we’ll be expanding the rollout over the next few weeks as we evaluate the quality of experience.
 
 ## Making Notepad store-updatable (Build 18963)
 Notepad has been a well-loved text editor in Windows for over 30 years. Over the last few releases, we’ve been making a number of small improvements to Notepad based on your feedback (including [expanded line ending support](https://devblogs.microsoft.com/commandline/extended-eol-in-notepad/), [wrap around search](https://blogs.windows.com/windowsexperience/2018/07/11/announcing-windows-10-insider-preview-build-17713/), and [indicating when there’s unsaved content](https://blogs.windows.com/windowsexperience/2018/12/10/announcing-windows-10-insider-preview-build-18298/#5443RXdQaojX3WyZ.97).) Starting with this build, we’re making a change so that future Notepad updates will be automatically available via the store. This will allow us the flexibility to respond to issues and feedback outside the bounds of Windows releases. As always, if you have any feedback for Notepad, we welcome it in the Feedback Hub under [Apps > Notepad](http://aka.ms/notepadfeedback).
 
 ## Adding Mouse Cursor speed to Settings (Build 18963)
-As some Insiders have noticed, you can now set your mouse cursor speed from within Settings! This is the latest piece of our larger ongoing effort to converge Settings and Control Panel experiences. You can find the setting under Settings > Devices > Mouse.
+You can now set your mouse cursor speed from within Settings! This is the latest piece of our larger ongoing effort to converge Settings and Control Panel experiences. You can find the setting under Settings > Devices > Mouse.
 
 ![Mouse Cursor](images/18963-5.png "Adding Mouse Cursor speed to Settings")
 
@@ -98,14 +95,14 @@ Based on your feedback, we’re revamping the Network & Internet landing page in
 
 ![Network status](images/18956-1.png "New view of active connections")
 
-* __Integrated Data Usage:__ As you may have noticed in the picture above, you can now see how much data is being used by a network right from the Status page! If it looks like you’re using a lot of data, you can drill into the Data Usage page to create a limit for that network, which will warn you if you get close or go over your limit. You can also see how much data each app is using on that network.
+* __Integrated Data Usage:__ You can now see how much data is being used by a network right from the Status page! If it looks like you’re using a lot of data, you can drill into the Data Usage page to create a limit for that network, which will warn you if you get close or go over your limit. You can also see how much data each app is using on that network.
 
 ![Network status](images/18956-2.png "Integrated Data Usage")
 
 We hope you like the changes! If you have any feedback about these, you can share it via the Feedback Hub under Network and Internet > Networking Experience – Look and Feel.
 
-## Notification settings improvements now rolling out to all of Fast (Build 18956) 
-Thanks everyone who’s tried out our [improvements so far](https://blogs.windows.com/windowsexperience/2019/07/03/announcing-windows-10-insider-preview-build-18932/). We’re now starting to roll these out to all Insiders. To recap what you’ll see when you have the change:
+## Notification settings improvements (Build 18956) 
+Thanks everyone who’s tried out our [improvements so far](https://blogs.windows.com/windowsexperience/2019/07/03/announcing-windows-10-insider-preview-build-18932/). To recap what you’ll see when you have the change:
 * If you hover your mouse over an incoming notification, you’ll now see a settings icon to make it easy to adjust that app’s notification settings.
 * We’ve updated the design of the per-app notification settings for visual clarity.
 * There’s now a direct link to notification settings at the top of the Action Center.
@@ -121,17 +118,18 @@ You’ll now be able to connect to your WSL 2 Linux networking applications usin
 
 ![WSL 2](images/18945-2.png "Added connecting via localhost to WSL 2 Linux apps from Windows and global WSL configuration options")
 
-Additionally, we’ve added global configuration options for WSL. These are options that will apply to each of your WSL distros. This also allows you to specify options that relate to the WSL 2 virtual machine (VM), as all your WSL 2 distros run inside of the same VM. The most exciting option that you’ll get access to in this build is being able to specify a custom Linux kernel!
+Additionally, we’ve added global configuration options for WSL. These are options that will apply to each of your WSL distros. This also allows you to specify options that relate to the WSL 2 virtual machine (VM), as all your WSL 2 distros run inside of the same VM. The most exciting option that you’ll get access to in this build is able to specify a custom Linux kernel!
 For the full details on what’s new in this release, check out [What’s new for WSL in Insiders Preview Build 18945](http://devblogs.microsoft.com/commandline/whats-new-for-wsl-in-insiders-preview-build-18945) on the Windows command line blog.
 
 
-## Updated File Explorer search rolling out to all Insiders (Build 18945)
-Over the next few days, [the new File Explorer search experience](https://blogs.windows.com/windowsexperience/2019/05/08/announcing-windows-10-insider-preview-build-18894/#QfdoEyQ3TQXvJVoD.97) will be rolling out to all Insiders in the Fast ring! Thanks everyone who’s shared feedback so far and helped us to improve the experience. Please don’t hesitate to share any other comments – you can file feedback for this area under Files, Folders, and Storage > File Explorer in the Feedback Hub.
+## Updated File Explorer search (Build 18945)
 
-![File Exploer](images/18945-4.png "pdated File Explorer search rolling out to all Insiders")
+Thanks everyone who’s shared feedback so far and helped us to improve the File Explorer experience. [Click on the link to read more about this update.](https://blogs.windows.com/windowsexperience/2019/05/08/announcing-windows-10-insider-preview-build-18894/#QfdoEyQ3TQXvJVoD.97) Please don’t hesitate to share any other comments – you can file feedback for this area under Files, Folders, and Storage > File Explorer in the Feedback Hub.
 
-## Introducing a new Cortana experience for Windows 10 (Build 18945)
-We are beginning to roll out a new Cortana experience for Windows 10 as a Beta to Windows Insiders in the U.S. This new experience features a brand-new chat-based UI that gives you the ability to type or speak natural language queries.
+![File Exploer](images/18945-4.png "pdated File Explorer search")
+
+## New Cortana experience for Windows 10 (Build 18945)
+Now available, a new Cortana experience for Windows 10 as a Beta to Windows Insiders in the U.S. This new experience features a brand-new chat-based UI that gives you the ability to type or speak natural language queries.
 
 ![Cortana](images/18945-1.png "Introducing a new Cortana experience for Windows 10 ")
 
@@ -147,12 +145,12 @@ To get started, choose the Cortana icon on the taskbar next to the search box. Y
 
 __Note:__ This requires enabling this functionality in Settings > Voice activation privacy settings  – Talk to Cortana. 
 
-If you’re an Insider in the U.S. and are not seeing the new experience, please be patient as we’re slowing rolling it out. Additional markets and languages will become available at a later date. You must be signed in to use Cortana. Historically, there were quite a few skills that could be used unauthenticated (Bing answers, open apps, Assistant conversations) but this is no longer the case. Only limited skills are currently supported in the new experience. Don’t worry we’ll be bringing back many skills over the coming months.
+Additional markets and languages will become available at a later date. You must be signed in to use Cortana. Historically, there were quite a few skills that could be used unauthenticated (Bing answers, open apps, Assistant conversations) but this is no longer the case. Only limited skills are currently supported in the new experience. Don’t worry we’ll be bringing back many skills over the coming months.
 
 ## Refining your notification settings (Build 18932)
 Over the last few releases, based on your feedback, we’ve been working on giving you more control over potential interruptions. [Introducing Focus Assist](https://blogs.windows.com/windowsexperience/2018/05/09/windows-10-tip-how-to-enable-focus-assist-in-the-windows-10-april-2018-update/#6pHjPV1ym9QaGIuO.97) to automatically suppress notifications when you’re trying to stay in the moment and not get distracted, and adding the option to use middle click to dismiss notifications if you want to quickly make a notification toast go away.
 One thing we’ve heard from you, though, is that our notification settings aren’t easily discoverable. In addition, once you find the settings, they can be difficult to understand.
-In order to address this, we’ve begun rolling out a few changes, including:
+In order to address this, we’ve made a few changes, including:
 1. When you receive a notification toast, there will now be an inline option to turn off notifications for that app, or head to the app’s notification settings.
 
 ![Notifications](images/18932-5.gif "settings")
@@ -167,7 +165,7 @@ In order to address this, we’ve begun rolling out a few changes, including:
 
 ![Notifications](images/18932-7.png "settings")
 
-5. Finally, ever dismissed a notification you wanted to disable, and went to Notification & Actions Settings only to find the list of notification senders to be really really long? You can now sort the list by which apps most recently sent notifications.
+5. Finally, ever dismissed a notification you wanted to disable, and went to Notification & Actions Settings only to find the list of notification senders to be really long? You can now sort the list by which apps most recently sent notifications.
 
 ![Notifications](images/18932-8.png "settings")
 
