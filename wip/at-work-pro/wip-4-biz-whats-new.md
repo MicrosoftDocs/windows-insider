@@ -11,11 +11,11 @@ ms.prod: w10
 
 # What’s new for business in Windows 10 Insider Preview Builds
 
-## Introducing the ability to move the Cortana window (Build 18975)
+## Cortana new groove (Build 18975)
 With the [new conversational Cortana experience](https://blogs.windows.com/windowsexperience/2019/07/26/announcing-windows-10-insider-preview-build-18945/), we understand that you want to keep the chat going sometimes, and the default position of the window isn’t always where you’d prefer to have it docked if you’re going to have a longer back and forth. That’s why we’ve rolled out the option to be able to move the window (by dragging the title bar area), to anywhere you’d like on the screen–just like you can with other windows. You can also resize the window if you’d like.
 ![Cortana experience](images/18975-1.gif "Cortana window moves around the desktop")
 
-## Introducing a new PC reset option (Build 18970)
+## New PC reset option (Build 18970)
 Reset this PC provides users a new choice to download Windows or use local reinstall. Previously, Reset this PC was only able to do a local reinstall and would build a new Windows installation from existing Windows files. When this feature was introduced in Windows 10 version 1507, it provided the advantage of enabling Windows to be recoverable without requiring extra disk space to store a compressed, backup copy of Windows in a hidden partition. We’ve heard feedback that some of you would prefer to use your high-speed internet connection to speed up this process by just downloading Windows.
 
 Important note: This is a recovery operation and will remove apps you have installed. Additionally, if the “Remove everything” option is selected, user data will also be deleted. For more information on Reset this PC and other recovery options, visit aka.ms/win10recoveryoptions.
