@@ -19,7 +19,7 @@ With the [new conversational Cortana experience](https://blogs.windows.com/windo
 Reset this PC provides users a new choice to download Windows or use local reinstall. Previously, Reset this PC was only able to do a local reinstall and would build a new Windows installation from existing Windows files. When this feature was introduced in Windows 10 version 1507, it provided the advantage of enabling Windows to be recoverable without requiring extra disk space to store a compressed, backup copy of Windows in a hidden partition. We’ve heard feedback that some of you would prefer to use your high-speed internet connection to speed up this process by just downloading Windows.
 
 >[!NOTE]
->This is a recovery operation and will remove apps you have installed. Additionally, if the “Remove everything” option is selected, user data will also be deleted. For more information on Reset this PC and other recovery options, visit aka.ms/win10recoveryoptions.
+>This is a recovery operation and will remove apps you have installed. Additionally, if the “Remove everything” option is selected, user data will also be deleted. For more information on Reset this PC and other recovery options, [visit the link here.](aka.ms/win10recoveryoptions)
 
 The cloud download option will reinstall the same build, version, and edition, that is currently installed on your device. This new cloud download option is available to all Windows 10 devices and is different from the “Recover from the cloud” feature available on some earlier Windows 10 devices.
 
@@ -42,8 +42,6 @@ Here are the steps once it becomes available on your PC:
 1. Use your convertible PC as a laptop as you usually would–opening apps and interacting with them.
 2. When you’re ready to pick it up and go or lean back on the couch, you can fold back the keyboard or remove it altogether, and it should switch to this new model shown above.
 3. Now use your device as a tablet with touch.
-
-We’d love to hear your feedback about the new experience–share your thoughts here.
 
 ## Control over restarting apps at sign-in (Build 18965)
 Applications can register for restart, which helps in a few situations, including enabling you to get back to what you were doing if you need to restart your PC. Previously this option was tied to the “Use my sign-in info to automatically finish setting up my device” option under Sign-in options in accounts settings. We’ve heard feedback that some of you would prefer more explicit control over when Windows automatically restarts apps that were open when you restart your PC, and with 20H1 we’re bringing that option to you.
