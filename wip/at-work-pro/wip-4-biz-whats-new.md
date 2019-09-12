@@ -11,7 +11,7 @@ ms.prod: w10
 
 # What’s new for business in Windows 10 Insider Preview Builds
 
-## Cortana new groove (Build 18975)
+## Cortana's new Groove (Build 18975)
 With the [new conversational Cortana experience](https://blogs.windows.com/windowsexperience/2019/07/26/announcing-windows-10-insider-preview-build-18945/), we understand that you want to keep the chat going sometimes, and the default position of the window isn’t always where you’d prefer to have it docked if you’re going to have a longer back and forth. That’s why we’ve rolled out the option to be able to move the window (by dragging the title bar area), to anywhere you’d like on the screen–just like you can with other windows. You can also resize the window if you’d like.
 ![Cortana experience](images/18975-1.gif "Cortana window moves around the desktop")
 
