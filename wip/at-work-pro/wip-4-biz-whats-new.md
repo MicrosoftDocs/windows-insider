@@ -18,7 +18,8 @@ With the [new conversational Cortana experience](https://blogs.windows.com/windo
 ## New PC reset option (Build 18970)
 Reset this PC provides users a new choice to download Windows or use local reinstall. Previously, Reset this PC was only able to do a local reinstall and would build a new Windows installation from existing Windows files. When this feature was introduced in Windows 10 version 1507, it provided the advantage of enabling Windows to be recoverable without requiring extra disk space to store a compressed, backup copy of Windows in a hidden partition. We’ve heard feedback that some of you would prefer to use your high-speed internet connection to speed up this process by just downloading Windows.
 
-Important note: This is a recovery operation and will remove apps you have installed. Additionally, if the “Remove everything” option is selected, user data will also be deleted. For more information on Reset this PC and other recovery options, visit aka.ms/win10recoveryoptions.
+>[!IMPORTANT NOTE]
+>This is a recovery operation and will remove apps you have installed. Additionally, if the “Remove everything” option is selected, user data will also be deleted. For more information on Reset this PC and other recovery options, visit aka.ms/win10recoveryoptions.
 
 The cloud download option will reinstall the same build, version, and edition, that is currently installed on your device. This new cloud download option is available to all Windows 10 devices and is different from the “Recover from the cloud” feature available on some earlier Windows 10 devices.
 
@@ -69,10 +70,12 @@ Better list management: You can search through lists of optional features and so
 
 Virtual Desktops exist to help you visually and cognitively separate different tasks on your PC. They can also be handy when doing presentations – enabling you to prepare demos on different desktops. Something we’ve heard loud and clear is that you want to be able to set names for your different desktops, in order to help cement the separation between workspaces, and we’re excited to share that rolling out to Insiders in the Fast ring is exactly that!
 
-![virtual deskops](images/18963-2.gif "Renaming your virtual desktops")
 Do you want to try it out? With the change, when you open Task View (by selecting the Task View button in the taskbar, or by pressing WIN+Tab,) clicking the name of your desktop will switch it to be an editable field where you can set the name to be anything you’d like (including emoji). You can also right-click the thumbnail of the desired desktop in Task View, and a context menu with a Rename entry in it should appear. If you don’t have any additional desktops created yet, select “New desktop” in Task View to get started.
 
 Moreover, since we know, you’ll ask – the names persist a reboot. 
+
+![virtual deskops](images/18963-2.gif "Renaming your virtual desktops")
+
 
 
 ## Making Notepad store-updatable (Build 18963)
@@ -142,7 +145,8 @@ Not all the features from the previous Cortana experience are available just yet
 
 To get started, choose the Cortana icon on the taskbar next to the search box. You can also leverage the speed and convenience of voice with improved speech recognition by simply saying “Hey Cortana”*. You may need to sign-in with your account to get started.
 
-__Note:__ This requires enabling this functionality in Settings > Voice activation privacy settings  – Talk to Cortana. 
+>[!NOTE]
+>This requires enabling this functionality in Settings > Voice activation privacy settings  – Talk to Cortana. 
 
 Additional markets and languages will become available at a later date. You must be signed in to use Cortana. Historically, there were quite a few skills that could be used unauthenticated (Bing answers, open apps, Assistant conversations) but this is no longer the case.
 
@@ -198,7 +202,8 @@ We’ve also updated the design, so as soon as you click the search box in File 
 
 If you encounter any issues, or have any feedback, file them under “Files, Folders, and Online Storage” > “File Explorer” in the Feedback Hub.
 
-NOTES: You may notice in the screenshot, we’ve made the File Explorer search box wider so the suggestions dropdown has a bit more room to show results – that’s not a new option, but we figured you might want to know how to do it: just move your mouse to the starting border of the search box, and your mouse should turn into a resizing double arrow cursor. Just click down and drag the search box to be a bit wider.
+>[!NOTE]
+>You may notice in the screenshot, we’ve made the File Explorer search box wider so the suggestions dropdown has a bit more room to show results – that’s not a new option, but we figured you might want to know how to do it: just move your mouse to the starting border of the search box, and your mouse should turn into a resizing double arrow cursor. Just click down and drag the search box to be a bit wider.
 
 
 ## Improved Windows Sandbox accessibility (Build 18855)
