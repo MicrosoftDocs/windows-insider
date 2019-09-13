@@ -19,7 +19,7 @@ With the [new conversational Cortana experience](https://blogs.windows.com/windo
 Reset this PC provides users a new choice to download Windows or use local reinstall. Previously, Reset this PC was only able to do a local reinstall and would build a new Windows installation from existing Windows files. When this feature was introduced in Windows 10 version 1507, it provided the advantage of enabling Windows to be recoverable without requiring extra disk space to store a compressed, backup copy of Windows in a hidden partition. We’ve heard feedback that some of you would prefer to use your high-speed internet connection to speed up this process by just downloading Windows.
 
 >[!NOTE]
->This is a recovery operation and will remove apps you have installed. Additionally, if the “Remove everything” option is selected, user data will also be deleted. For more information on Reset this PC and other recovery options, [visit the link here.](aka.ms/win10recoveryoptions)
+>This is a recovery operation and will remove apps you have installed. Additionally, if the “Remove everything” option is selected, user data will also be deleted. For more information on Reset this PC and other recovery options, [visit the link here.](https://support.microsoft.com/en-us/help/12415/windows-10-recovery-options)
 
 The cloud download option will reinstall the same build, version, and edition, that is currently installed on your device. This new cloud download option is available to all Windows 10 devices and is different from the “Recover from the cloud” feature available on some earlier Windows 10 devices.
 
@@ -200,23 +200,6 @@ We’ve heard from our users with very low connection speeds that setting downlo
 A small, but perhaps convenient change — you’ll be able to see the disk type (e.g. SSD) for each disk listed in Task Manager’s performance tab. This is particularly helpful in cases where you have multiple disks listed, so you can differentiate between them.
 
 ![dictation](images/18898-1.png "expanded language support")
-
-## File Explorer improvements (Build 18894)
-We’ve heard your feedback asking for increased consistency, and to make it easier to find your files. We have introduced a new File Explorer search experience –  powered by Windows Search. This change will help integrate your OneDrive content online with the traditional indexed results.
-
-What does that mean for you? Once you have the new experience, as you type in File Explorer’s search box, you’ll see a dropdown populated with suggested files at your fingertips that you can pick from.
-
-These improved results can be launched directly by clicking the entry in the new suggestions box, or if you want to open the file location, just right-click the entry and there’ll be an option to do so. If you need to use commands or dig deeper into non-indexed locations, you can still press enter and populate the view with the traditional search results.
-
-![dictation](images/18894-1.png "expanded language support")
-
-We’ve also updated the design, so as soon as you click the search box in File Explorer (or press CTRL+E to set focus to it), you’ll see the dropdown list with your search history.
-
-If you encounter any issues, or have any feedback, file them under “Files, Folders, and Online Storage” > “File Explorer” in the Feedback Hub.
-
->[!NOTE]
->You may notice in the screenshot, we’ve made the File Explorer search box wider so the suggestions dropdown has a bit more room to show results – that’s not a new option, but we figured you might want to know how to do it: just move your mouse to the starting border of the search box, and your mouse should turn into a resizing double arrow cursor. Just click down and drag the search box to be a bit wider.
-
 
 ## Improved Windows Sandbox accessibility (Build 18855)
 We have made several updates to improve Windows Sandbox accessibility scenarios. This includes: 
