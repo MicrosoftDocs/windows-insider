@@ -14,6 +14,16 @@ ms.prod: w10
 # What's new for Windows 10 Insider Preview Builds (20H1)
 The [Windows Insider Program](https://insider.windows.com/en-us/) lets you preview builds of the upcoming 20H1 release of Windows 10. This topic lists all new Windows 10 features for you to try. 
 
+## An update on Cortana (Build 18980)
+In response to feedback, we are executing a plan to make it easier for all Windows customers to use Cortana. As a first step, starting with today’s build, all Insiders worldwide will see the Cortana icon and [the new app](http://aka.ms/wip18945). In a future Cortana app update, customers will have the option to use Cortana if they speak a supported language, regardless of their OS display language. The new Cortana app currently supports English (United States)—because Cortana is service backed. We can and will continue to add new languages over the coming months outside the bounds of OS build updates. We expect to support the same set of regions and languages we [currently support in retail](https://support.microsoft.com/en-us/help/4026948/cortanas-regions-and-languages) by 20H1 launch. We will share more details of our language rollout plans as they progress and appreciate your patience during this transition period.
+
+## Windows Subsystem for Linux (WSL) improvements (Build 18980)
+In this build, we’ve added WSL2 support for ARM64 devices! We’ve also added the ability to set your distribution’s default user using the /etc/wsl.conf file. This release also contains multiple bug fixes, including a long-standing issue for legacy Windows symlinks (for example those in the user profile directory.)
+
+For the full details of changes in this latest Insider Preview build, please see the WSL release notes.
+
+![WSL2](images/18980-1.png "a fix for a long-standing issue for legacy Windows symlinks")
+
 ## Introducing the ability to move the Cortana window (Build 18975)
 With the [new conversational Cortana experience](https://blogs.windows.com/windowsexperience/2019/07/26/announcing-windows-10-insider-preview-build-18945/), we understand that you wanna keep the chat going sometimes, and the default position of the window isn’t always where you’d prefer to have it docked if you’re going to have a longer back and forth. That’s why we’re starting to roll out the option to be able to move the window (by dragging the title bar area), to anywhere you’d like on the screen–just like you can with other windows. You can also resize the window if you’d like. Currently, this change is rolled out to 50% of Insiders with the new Cortana experience, and we’ll continue the rollout as we validate the quality of the experience.
 
@@ -21,11 +31,6 @@ With the [new conversational Cortana experience](https://blogs.windows.com/windo
 
 ## Windows Subsystem for Linux (WSL) Improvements (Build 18975)
 [See the latest improvements with WSL](https://docs.microsoft.com/en-us/windows/wsl/release-notes) in the latest Insider Preview builds.
-
-## Announcing the first preview and code release of PowerToys (Build 18975)
-Yesterday we announced the first preview and code release of PowerToys for Windows 10. This first preview includes two utilities: the Windows key shortcut guide and a window manager called FancyZones. Check out this article for all the details!
-
-![PowerToys](images/18975-2.jpg "PowerToys logo")
 
 ## Update on Virtual Desktop renaming (Build 18975)
 The ability to rename your virtual desktops is now available for all Insiders in the Fast ring! Thanks again everyone who shared feedback requesting this.
@@ -78,8 +83,6 @@ Windows now puts you in control with a new app restart setting. When turned on, 
 
 ![Sign-in options](images/18965-1.png "Control over restarting apps at sign-in")
 
-
-
 ## GPU temperature comes to Task Manager (Build 18963)
 One of the longstanding requests we’ve been tracking for Task Manager is to add temperature monitoring support, and with today’s build we’re making progress on that ask. If you have a dedicated GPU card, we will now bubble up the current temperature next to its listing in the Performance Tab.
 
@@ -114,9 +117,7 @@ Better list management: You can now search through lists of optional features an
 
 We’re excited for you to try it! Currently these changes are live for 50% of Insiders in the Fast ring, and we’ll be expanding the rollout over the next few weeks as we evaluate the quality of experience. Here’s a peek at what you’ll see once it’s available on your PC:
 
-![Optional Features](images/18963-3.jpg "Improving the Optional Features page in Settings")
-
-![Optional Features](images/18963-4.png "add an optional feature")
+![Optional Features](images/18980-2.jpg "Improving the Optional Features page in Settings")
 
 ## Adding Mouse Cursor speed to Settings (Build 18963)
 As some Insiders have noticed, you can now set your mouse cursor speed from within Settings! This is the latest piece of our larger ongoing effort to converge Settings and Control Panel experiences. You can find the setting under Settings > Devices > Mouse.
