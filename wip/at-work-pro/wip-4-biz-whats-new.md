@@ -86,8 +86,7 @@ Notepad has been a well-loved text editor in Windows for over 30 years. Over the
 
 1. Wrap-around find/replace: We’ve made significant improvement to the find/replace experience in Notepad. We added the option to do wrap-around find/replace to the find dialog and Notepad will now remember previously entered values and the state of checkboxes and automatically populate them the next time you open the find dialog. Additionally, when you have text selected and open the find dialog we will automatically populate the search field with the selected text.
 
-![Wrap Around](wip/at-work-pro/images/18963-7.png)
-![Wrap Around](/media/folder-with-same-name-as-article-file/service-technology-image-description.png)
+![Wrap-around](images/18963-7.png "Making Notepad store-updatable")
 
 Starting with this build, we’re making a change so that future Notepad updates will be automatically available via the store. This will allow us the flexibility to respond to issues and feedback outside the bounds of Windows releases. As always, if you have any feedback for Notepad, we welcome it in the Feedback Hub under [Apps > Notepad](http://aka.ms/notepadfeedback).
 
