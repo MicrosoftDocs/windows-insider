@@ -18,11 +18,11 @@ For the full details of changes in this latest Insider Preview build, please see
 
 ![WSL2](images/18980-1.png "a fix for a long-standing issue for legacy Windows symlinks")
 
-## Introducing the ability to move the Cortana window (Build 18975)
+## Cortana window can be moved and adjusted (Build 18975)
 With the [new conversational Cortana experience](https://blogs.windows.com/windowsexperience/2019/07/26/announcing-windows-10-insider-preview-build-18945/), we understand that you want to keep the chat going sometimes, and the default position of the window isn’t always where you’d prefer to have it docked if you’re going to have a longer back and forth. That’s why we’ve rolled out the option to be able to move the window (by dragging the title bar area), to anywhere you’d like on the screen–just like you can with other windows. You can also resize the window if you’d like.
 ![Cortana experience](images/18975-1.gif "Cortana window moves around the desktop")
 
-## Update on Virtual Desktop renaming (Build 18975)
+## Renaming your virtual desktops (Build 18975)
 The ability to rename your virtual desktops is now available for all Insiders in the Fast ring! Thanks again everyone who shared feedback requesting this.
 To get started:
 1. Open Task View by selecting the Task View icon in the taskbar or pressing WIN+Tab.
@@ -34,7 +34,7 @@ To get started:
 ![virtual deskops](images/18963-2.gif "Renaming your virtual desktops")
 
 
-## Introducing a new PC reset option (Build 18970)
+## New Reset this PC-option-Cloud Download (Build 18970)
 Reset this PC provides users a new choice to download Windows or use local reinstall. Previously, Reset this PC was only able to do a local reinstall and would build a new Windows installation from existing Windows files. When this feature was introduced in Windows 10 version 1507, it provided the advantage of enabling Windows to be recoverable without requiring extra disk space to store a compressed, backup copy of Windows in a hidden partition. We’ve heard feedback that some of you would prefer to use your high-speed internet connection to speed up this process by just downloading Windows.
 
 >[!NOTE]
@@ -128,7 +128,7 @@ Additionally, we’ve added global configuration options for WSL. These are opti
 For the full details on what’s new in this release, check out [What’s new for WSL in Insiders Preview Build 18945](http://devblogs.microsoft.com/commandline/whats-new-for-wsl-in-insiders-preview-build-18945) on the Windows command line blog.
 
 
-## Updated File Explorer search (Build 18945)
+## New File Explorer search expereince (Build 18945)
 
 We heard your feedback asking for increased consistency, and to make it easier to find your files. We are happy to announce that you can now take advantage of the new File Explorer search experience – powered by Windows Search. This change will help integrate your OneDrive content online with the traditional indexed results.
 
