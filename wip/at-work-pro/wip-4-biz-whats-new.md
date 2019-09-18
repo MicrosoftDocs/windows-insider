@@ -88,6 +88,41 @@ Notepad has been a well-loved text editor in Windows for over 30 years. Over the
 
 ![Wrap-around](images/18963-7.png "Making Notepad store-updatable")
 
+2. Text zooming: We’ve added options to make it quick and easy to zoom text in Notepad. There is a new menu option under View > Zoom to change the zoom level and we display the current zoom level in the status bar. You can also use Ctrl + Plus, Ctrl + Minus and Ctrl + MouseWheel to zoom in and out and use Ctrl + 0 to restore the zoom level to the default.
+
+![Text zooming](images/18963-8.png "Making Notepad store-updatable")
+
+3. Line numbers with word-wrap: A long outstanding request has been to add the ability to display line and column numbers when word-wrap is enabled. This is now possible in Notepad and we’ve made the status bar visible by default. You can still turn the status bar off in the View menu.
+
+![Line numbers with word-wrap](images/18963-9.png "Making Notepad store-updatable")
+
+4. Modified indicator: Notepad will now show an asterisk (*) in the title bar before the title of a document to indicate that a document has unsaved changes.
+
+![Modified indicator](images/18963-6.png "Making Notepad store-updatable")
+
+5. Send Feedback: You can now send feedback directly from Notepad! Click Help > Send Feedback to open the Feedback Hub with the Notepad category selected and get your feedback directly to the product team.
+
+![Send Feedback](images/18963-10.png "Making Notepad store-updatable")
+
+__UTF-8 Encoding:__ We’ve made significant improvements to the way Notepad handles encoding. Starting with this build, we are adding the option to save files in UTF-8 without a [Byte Order Mark](https://en.wikipedia.org/wiki/Byte_order_mark) and making this the default for new files. UTF-8 without a Byte Order Mark is backwards-compatible with ASCII and will provide better interoperability with the web, where UTF-8 has become the default encoding. Additionally, we added a column to the status bar that displays the encoding of the document.
+
+__Other Updates__
+
+* We’ve added support for some additional shortcuts:
+  * Ctrl+Shift+N will open a new Notepad window.
+  * Ctrl+Shift+S will open the Save as… dialog.
+  * Ctrl+W will close the current Notepad window.
+* Notepad can now open and save files with a path that is longer than 260 characters, also known as MAX_PATH.
+* We’ve fixed a bug where Notepad would count lines incorrectly for documents with very long lines.
+* We’ve fixed a bug where, when you select a placeholder file from OneDrive in the File Open dialog, we would download the file to determine its encoding.
+* We’ve fixed a recent regression where Notepad would no longer create a new file when launched with a file path that didn’t exist.
+* We’ve improved the performance when opening large files in Notepad.
+* Notepad now supports Ctrl + Backspace to delete the previous word.
+* Arrow keys now correctly unselect text first and then move the cursor.
+* When saving a file in Notepad, the line and column number no longer reset to 1.
+* Notepad now correctly displays lines that don’t fit entirely on the screen.
+
+
 Starting with this build, we’re making a change so that future Notepad updates will be automatically available via the store. This will allow us the flexibility to respond to issues and feedback outside the bounds of Windows releases. As always, if you have any feedback for Notepad, we welcome it in the Feedback Hub under [Apps > Notepad](http://aka.ms/notepadfeedback).
 
 ## Adding Mouse Cursor speed to Settings (Build 18963)
