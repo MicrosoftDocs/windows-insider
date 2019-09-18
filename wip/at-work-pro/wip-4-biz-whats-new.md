@@ -90,11 +90,11 @@ Notepad has been a well-loved text editor in Windows for over 30 years. Over the
 
 2. Text zooming: We’ve added options to make it quick and easy to zoom text in Notepad. There is a new menu option under View > Zoom to change the zoom level and we display the current zoom level in the status bar. You can also use Ctrl + Plus, Ctrl + Minus and Ctrl + MouseWheel to zoom in and out and use Ctrl + 0 to restore the zoom level to the default.
 
-![Text zooming](images/18963-8.png "Making Notepad store-updatable")
+![Text zooming](images/18963-8.gif "Making Notepad store-updatable")
 
 3. Line numbers with word-wrap: A long outstanding request has been to add the ability to display line and column numbers when word-wrap is enabled. This is now possible in Notepad and we’ve made the status bar visible by default. You can still turn the status bar off in the View menu.
 
-![Line numbers with word-wrap](images/18963-9.png "Making Notepad store-updatable")
+![Line numbers with word-wrap](images/18963-9.gif "Making Notepad store-updatable")
 
 4. Modified indicator: Notepad will now show an asterisk (*) in the title bar before the title of a document to indicate that a document has unsaved changes.
 
@@ -108,6 +108,7 @@ __UTF-8 Encoding:__ We’ve made significant improvements to the way Notepad han
 
 __Other Updates__
 
+* __[Expanding line support](https://devblogs.microsoft.com/commandline/extended-eol-in-notepad/)__
 * We’ve added support for some additional shortcuts:
   * Ctrl+Shift+N will open a new Notepad window.
   * Ctrl+Shift+S will open the Save as… dialog.
