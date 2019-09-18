@@ -1,5 +1,5 @@
 ---
-title: What's new in the Windows Server 10 Insider Program for Business Preview Builds
+title: What's new in the Windows 10 Insider Program for Business Preview Builds
 description: New features to use and test in the Windows 10 Insider Program for Business Preview Builds
 author: lizap
 manager: dougkim
@@ -11,11 +11,30 @@ ms.prod: w10
 
 # What’s new for business in Windows 10 Insider Preview Builds
 
-## Cortana's new Groove (Build 18975)
+## Windows Subsystem for Linux (WSL) improvements (Build 18980)
+In this build, we’ve added WSL2 support for ARM64 devices! We’ve also added the ability to set your distribution’s default user using the /etc/wsl.conf file. This release also contains multiple bug fixes, including a long-standing issue for legacy Windows symlinks (for example those in the user profile directory.)
+
+For the full details of changes in this latest Insider Preview build, please see the WSL release notes.
+
+![WSL2](images/18980-1.png "a fix for a long-standing issue for legacy Windows symlinks")
+
+## Introducing the ability to move the Cortana window (Build 18975)
 With the [new conversational Cortana experience](https://blogs.windows.com/windowsexperience/2019/07/26/announcing-windows-10-insider-preview-build-18945/), we understand that you want to keep the chat going sometimes, and the default position of the window isn’t always where you’d prefer to have it docked if you’re going to have a longer back and forth. That’s why we’ve rolled out the option to be able to move the window (by dragging the title bar area), to anywhere you’d like on the screen–just like you can with other windows. You can also resize the window if you’d like.
 ![Cortana experience](images/18975-1.gif "Cortana window moves around the desktop")
 
-## New PC reset option (Build 18970)
+## Update on Virtual Desktop renaming (Build 18975)
+The ability to rename your virtual desktops is now available for all Insiders in the Fast ring! Thanks again everyone who shared feedback requesting this.
+To get started:
+1. Open Task View by selecting the Task View icon in the taskbar or pressing WIN+Tab.
+2. Select New Desktop.
+3. Select the desktop name (“Desktop 1”) and it should become editable, or right click the desktop thumbnail and a context menu will appear with a Rename entry.
+4. Input whatever name you’d like, and press enter.
+5. Done!
+
+![virtual deskops](images/18963-2.gif "Renaming your virtual desktops")
+
+
+## Introducing a new PC reset option (Build 18970)
 Reset this PC provides users a new choice to download Windows or use local reinstall. Previously, Reset this PC was only able to do a local reinstall and would build a new Windows installation from existing Windows files. When this feature was introduced in Windows 10 version 1507, it provided the advantage of enabling Windows to be recoverable without requiring extra disk space to store a compressed, backup copy of Windows in a hidden partition. We’ve heard feedback that some of you would prefer to use your high-speed internet connection to speed up this process by just downloading Windows.
 
 >[!NOTE]
@@ -62,19 +81,6 @@ Better list management: You can search through lists of optional features and so
 ![Optional Features](images/18963-3.jpg "Improving the Optional Features page in Settings")
 
 ![Optional Features](images/18963-4.png "add an optional feature")
-
-
-## Renaming your virtual desktops (Build 18963)
-
-Virtual Desktops exist to help you visually and cognitively separate different tasks on your PC. They can also be handy when doing presentations – enabling you to prepare demos on different desktops. Something we’ve heard loud and clear is that you want to be able to set names for your different desktops, in order to help cement the separation between workspaces, and we’re excited to share that rolling out to Insiders in the Fast ring is exactly that!
-
-Do you want to try it out? With the change, when you open Task View (by selecting the Task View button in the taskbar, or by pressing WIN+Tab,) clicking the name of your desktop will switch it to be an editable field where you can set the name to be anything you’d like (including emoji). You can also right-click the thumbnail of the desired desktop in Task View, and a context menu with a Rename entry in it should appear. If you don’t have any additional desktops created yet, select “New desktop” in Task View to get started.
-
-Moreover, since we know, you’ll ask – the names persist a reboot. 
-
-![virtual deskops](images/18963-2.gif "Renaming your virtual desktops")
-
-
 
 ## Making Notepad store-updatable (Build 18963)
 Notepad has been a well-loved text editor in Windows for over 30 years. Over the last few releases, we’ve been making a number of small improvements to Notepad based on your feedback (including [expanded line ending support](https://devblogs.microsoft.com/commandline/extended-eol-in-notepad/), [wrap around search](https://blogs.windows.com/windowsexperience/2018/07/11/announcing-windows-10-insider-preview-build-17713/), and [indicating when there’s unsaved content](https://blogs.windows.com/windowsexperience/2018/12/10/announcing-windows-10-insider-preview-build-18298/#5443RXdQaojX3WyZ.97).) Starting with this build, we’re making a change so that future Notepad updates will be automatically available via the store. This will allow us the flexibility to respond to issues and feedback outside the bounds of Windows releases. As always, if you have any feedback for Notepad, we welcome it in the Feedback Hub under [Apps > Notepad](http://aka.ms/notepadfeedback).
