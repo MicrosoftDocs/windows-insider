@@ -1,5 +1,5 @@
 ---
-title: What's new in the Windows Server 10 Insider Program for Business Preview Builds
+title: What's new in the Windows 10 Insider Program for Business Preview Builds
 description: New features to use and test in the Windows 10 Insider Program for Business Preview Builds
 author: lizap
 manager: dougkim
@@ -11,11 +11,29 @@ ms.prod: w10
 
 # What’s new for business in Windows 10 Insider Preview Builds
 
-## Cortana's new Groove (Build 18975)
-With the [new conversational Cortana experience](https://blogs.windows.com/windowsexperience/2019/07/26/announcing-windows-10-insider-preview-build-18945/), we understand that you want to keep the chat going sometimes, and the default position of the window isn’t always where you’d prefer to have it docked if you’re going to have a longer back and forth. That’s why we’ve rolled out the option to be able to move the window (by dragging the title bar area), to anywhere you’d like on the screen–just like you can with other windows. You can also resize the window if you’d like.
+## Windows Subsystem for Linux (WSL) improvements (Build 18980)
+In this build, we’ve added WSL2 support for ARM64 devices! We’ve also added the ability to set your distribution’s default user using the /etc/wsl.conf file. This release also contains multiple bug fixes, including a long-standing issue for legacy Windows symlinks (for example those in the user profile directory.)
+
+For the full details of changes in this latest Insider Preview build, please see the WSL release notes.
+
+![WSL2](images/18980-1.png "a fix for a long-standing issue for legacy Windows symlinks")
+
+## Renaming your virtual desktops (Build 18975)
+The ability to rename your virtual desktops is now available for all Insiders in the Fast ring! Thanks again everyone who shared feedback requesting this.
+To get started:
+1. Open Task View by selecting the Task View icon in the taskbar or pressing WIN+Tab.
+2. Select New Desktop.
+3. Select the desktop name (“Desktop 1”) and it should become editable, or right click the desktop thumbnail and a context menu will appear with a Rename entry.
+4. Input whatever name you’d like, and press enter.
+5. Done!
+
+![virtual deskops](images/18963-2.gif "Renaming your virtual desktops")
+
+## Cortana window can now move (Build 18975)
+With the [new conversational Cortana experience](https://docs.microsoft.com/en-us/windows-insider/at-work-pro/wip-4-biz-whats-new#new-cortana-experience-for-windows-10-build-18945), we understand that you want to keep the chat going sometimes, and the default position of the window isn’t always where you’d prefer to have it docked if you’re going to have a longer back and forth. That’s why we’ve rolled out the option to be able to move the window (by dragging the title bar area), to anywhere you’d like on the screen–just like you can with other windows. You can also resize the window if you’d like.
 ![Cortana experience](images/18975-1.gif "Cortana window moves around the desktop")
 
-## New PC reset option (Build 18970)
+## New Reset this PC option: Cloud download (Build 18970)
 Reset this PC provides users a new choice to download Windows or use local reinstall. Previously, Reset this PC was only able to do a local reinstall and would build a new Windows installation from existing Windows files. When this feature was introduced in Windows 10 version 1507, it provided the advantage of enabling Windows to be recoverable without requiring extra disk space to store a compressed, backup copy of Windows in a hidden partition. We’ve heard feedback that some of you would prefer to use your high-speed internet connection to speed up this process by just downloading Windows.
 
 >[!NOTE]
@@ -63,21 +81,50 @@ Better list management: You can search through lists of optional features and so
 
 ![Optional Features](images/18963-4.png "add an optional feature")
 
-
-## Renaming your virtual desktops (Build 18963)
-
-Virtual Desktops exist to help you visually and cognitively separate different tasks on your PC. They can also be handy when doing presentations – enabling you to prepare demos on different desktops. Something we’ve heard loud and clear is that you want to be able to set names for your different desktops, in order to help cement the separation between workspaces, and we’re excited to share that rolling out to Insiders in the Fast ring is exactly that!
-
-Do you want to try it out? With the change, when you open Task View (by selecting the Task View button in the taskbar, or by pressing WIN+Tab,) clicking the name of your desktop will switch it to be an editable field where you can set the name to be anything you’d like (including emoji). You can also right-click the thumbnail of the desired desktop in Task View, and a context menu with a Rename entry in it should appear. If you don’t have any additional desktops created yet, select “New desktop” in Task View to get started.
-
-Moreover, since we know, you’ll ask – the names persist a reboot. 
-
-![virtual deskops](images/18963-2.gif "Renaming your virtual desktops")
-
-
-
 ## Making Notepad store-updatable (Build 18963)
-Notepad has been a well-loved text editor in Windows for over 30 years. Over the last few releases, we’ve been making a number of small improvements to Notepad based on your feedback (including [expanded line ending support](https://devblogs.microsoft.com/commandline/extended-eol-in-notepad/), [wrap around search](https://blogs.windows.com/windowsexperience/2018/07/11/announcing-windows-10-insider-preview-build-17713/), and [indicating when there’s unsaved content](https://blogs.windows.com/windowsexperience/2018/12/10/announcing-windows-10-insider-preview-build-18298/#5443RXdQaojX3WyZ.97).) Starting with this build, we’re making a change so that future Notepad updates will be automatically available via the store. This will allow us the flexibility to respond to issues and feedback outside the bounds of Windows releases. As always, if you have any feedback for Notepad, we welcome it in the Feedback Hub under [Apps > Notepad](http://aka.ms/notepadfeedback).
+Notepad has been a well-loved text editor in Windows for over 30 years. Over the last few releases, we’ve been making a number of small improvements to Notepad based on your feedback including:
+
+1. __Wrap-around find/replace:__ We’ve made significant improvement to the find/replace experience in Notepad. We added the option to do wrap-around find/replace to the find dialog and Notepad will now remember previously entered values and the state of checkboxes and automatically populate them the next time you open the find dialog. Additionally, when you have text selected and open the find dialog we will automatically populate the search field with the selected text.
+
+![Wrap-around](images/18963-7.png "Making Notepad store-updatable")
+
+2. __Text zooming:__ We’ve added options to make it quick and easy to zoom text in Notepad. There is a new menu option under View > Zoom to change the zoom level and we display the current zoom level in the status bar. You can also use Ctrl + Plus, Ctrl + Minus and Ctrl + MouseWheel to zoom in and out and use Ctrl + 0 to restore the zoom level to the default.
+
+![Text zooming](images/18963-8.gif "Making Notepad store-updatable")
+
+3. __Line numbers with word-wrap:__ A long outstanding request has been to add the ability to display line and column numbers when word-wrap is enabled. This is now possible in Notepad and we’ve made the status bar visible by default. You can still turn the status bar off in the View menu.
+
+![Line numbers with word-wrap](images/18963-9.gif "Making Notepad store-updatable")
+
+4. __Modified indicator:__ Notepad will now show an asterisk (*) in the title bar before the title of a document to indicate that a document has unsaved changes.
+
+![Modified indicator](images/18963-6.png "Making Notepad store-updatable")
+
+5. __Send Feedback:__ You can now send feedback directly from Notepad! Click Help > Send Feedback to open the Feedback Hub with the Notepad category selected and get your feedback directly to the product team.
+
+![Send Feedback](images/18963-10.png "Making Notepad store-updatable")
+
+__UTF-8 Encoding:__ We’ve made significant improvements to the way Notepad handles encoding. Starting with this build, we are adding the option to save files in UTF-8 without a [Byte Order Mark](https://en.wikipedia.org/wiki/Byte_order_mark) and making this the default for new files. UTF-8 without a Byte Order Mark is backwards-compatible with ASCII and will provide better interoperability with the web, where UTF-8 has become the default encoding. Additionally, we added a column to the status bar that displays the encoding of the document.
+
+__Other Updates__
+
+* __[Expanding line support](https://devblogs.microsoft.com/commandline/extended-eol-in-notepad/)__
+* We’ve added support for some additional shortcuts:
+  * Ctrl+Shift+N will open a new Notepad window.
+  * Ctrl+Shift+S will open the Save as… dialog.
+  * Ctrl+W will close the current Notepad window.
+* Notepad can now open and save files with a path that is longer than 260 characters, also known as MAX_PATH.
+* We’ve fixed a bug where Notepad would count lines incorrectly for documents with very long lines.
+* We’ve fixed a bug where, when you select a placeholder file from OneDrive in the File Open dialog, we would download the file to determine its encoding.
+* We’ve fixed a recent regression where Notepad would no longer create a new file when launched with a file path that didn’t exist.
+* We’ve improved the performance when opening large files in Notepad.
+* Notepad now supports Ctrl + Backspace to delete the previous word.
+* Arrow keys now correctly unselect text first and then move the cursor.
+* When saving a file in Notepad, the line and column number no longer reset to 1.
+* Notepad now correctly displays lines that don’t fit entirely on the screen.
+
+
+Starting with this build, we’re making a change so that future Notepad updates will be automatically available via the store. This will allow us the flexibility to respond to issues and feedback outside the bounds of Windows releases. As always, if you have any feedback for Notepad, we welcome it in the Feedback Hub under [Apps > Notepad](http://aka.ms/notepadfeedback).
 
 ## Adding Mouse Cursor speed to Settings (Build 18963)
 You can set your mouse cursor speed from within Settings! This is the latest piece of our larger ongoing effort to converge Settings and Control Panel experiences. You can find the setting under Settings > Devices > Mouse.
@@ -102,7 +149,7 @@ Based on your feedback, we’re revamping the Network & Internet landing page in
 We hope you like the changes! If you have any feedback about these, you can share it via the Feedback Hub under Network and Internet > Networking Experience – Look and Feel.
 
 ## Notification settings improvements (Build 18956) 
-Thanks everyone who’s tried out our [improvements so far](https://blogs.windows.com/windowsexperience/2019/07/03/announcing-windows-10-insider-preview-build-18932/). To recap what you’ll see when you have the change:
+Thanks everyone who’s tried out our [improvements so far](https://docs.microsoft.com/en-us/windows-insider/at-work-pro/wip-4-biz-whats-new#refining-your-notification-settings-build-18932). To recap what you’ll see when you have the change:
 * If you hover your mouse over an incoming notification, you’ll see a settings icon to make it easy to adjust that app’s notification settings.
 * We’ve updated the design of the per-app notification settings for visual clarity.
 * There’s a direct link to notification settings at the top of the Action Center.
@@ -122,7 +169,7 @@ Additionally, we’ve added global configuration options for WSL. These are opti
 For the full details on what’s new in this release, check out [What’s new for WSL in Insiders Preview Build 18945](http://devblogs.microsoft.com/commandline/whats-new-for-wsl-in-insiders-preview-build-18945) on the Windows command line blog.
 
 
-## Updated File Explorer search (Build 18945)
+## New File Explorer search expereince (Build 18945)
 
 We heard your feedback asking for increased consistency, and to make it easier to find your files. We are happy to announce that you can now take advantage of the new File Explorer search experience – powered by Windows Search. This change will help integrate your OneDrive content online with the traditional indexed results.
 
