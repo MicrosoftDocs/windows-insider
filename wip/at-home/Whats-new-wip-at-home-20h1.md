@@ -40,7 +40,7 @@ As some Insiders have noticed, we’re working on making it easier for you to se
 ## Windows Subsystem for Linux (WSL) improvements (Build 18980)
 In this build, we’ve added WSL2 support for ARM64 devices! We’ve also added the ability to set your distribution’s default user using the /etc/wsl.conf file. This release also contains multiple bug fixes, including a long-standing issue for legacy Windows symlinks (for example those in the user profile directory.)
 
-For the full details of changes in this latest Insider Preview build, please see the [WSL release notes](https://docs.microsoft.com/en-us/windows/wsl/release-notes).
+For the full details of changes in this latest Insider Preview build, please see the [WSL release notes](https://docs.microsoft.com/windows/wsl/release-notes).
 
 ![WSL2](images/18980-1.png "a fix for a long-standing issue for legacy Windows symlinks")
 
@@ -50,7 +50,7 @@ With the [new conversational Cortana experience](https://blogs.windows.com/windo
 ![Cortana experience](images/18975-1.gif "Cortana window moves around the desktop")
 
 ## Windows Subsystem for Linux (WSL) Improvements (Build 18975)
-[See the latest improvements with WSL](https://docs.microsoft.com/en-us/windows/wsl/release-notes) in the latest Insider Preview builds.
+[See the latest improvements with WSL](https://docs.microsoft.com/windows/wsl/release-notes) in the latest Insider Preview builds.
 
 ## Update on Virtual Desktop renaming (Build 18975)
 The ability to rename your virtual desktops is now available for all Insiders in the Fast ring! Thanks again everyone who shared feedback requesting this.
@@ -299,7 +299,7 @@ Have you ever had an issue finding the text cursor in the middle of a large amou
 ## Updated File Explorer search rolling out to all Insiders (Build 18945)
 Over the next few days, [the new File Explorer search experience](https://blogs.windows.com/windowsexperience/2019/05/08/announcing-windows-10-insider-preview-build-18894/#QfdoEyQ3TQXvJVoD.97) will be rolling out to all Insiders in the Fast ring! Thanks everyone who’s shared feedback so far and helped us to improve the experience. Please don’t hesitate to share any other comments – you can file feedback for this area under Files, Folders, and Storage > File Explorer in the Feedback Hub.
 
-![File Exploer](images/18945-4.png "pdated File Explorer search rolling out to all Insiders")
+![File Exploer](images/18945-4.png "updated File Explorer search rolling out to all Insiders")
 
 
 ## Updating the Korean IME (Build 18941)
@@ -343,7 +343,7 @@ __Pause:__ We’ve made improvements to the pause experience. Selecting the paus
 
 __Switch support:__ Previously, Dwell was the method for clicking a button. Dwelling is the act of fixing your eyes on part of the screen and keeping your eyes there for a specific amount of time. In this release, we’re adding a second activation method, switch. In this method, dwell is used to select the target, but clicking a button is done with switch. Currently switches on joysticks, or devices emulating joysticks, are supported.
 
-__Under the hood__ People wishing to develop their own gaze enabled applications can do so using the open source Gaze Interaction Library in the [Windows Community Toolkit](https://docs.microsoft.com/en-us/windows/communitytoolkit/). In this revision of Eye Control, the user interface is implemented using the same code that is in the Gaze Interaction Library.
+__Under the hood__ People wishing to develop their own gaze enabled applications can do so using the open source Gaze Interaction Library in the [Windows Community Toolkit](https://docs.microsoft.com/windows/communitytoolkit/). In this revision of Eye Control, the user interface is implemented using the same code that is in the Gaze Interaction Library.
 
 __Settings:__ We have updated settings to allow you to manage more Eye Control features. This includes enabling some of the new features and more fine control of the numeric values that change how responsive the system is to eye movements. This allows for a more customized and natural feel for your Eye Control experience.
 
