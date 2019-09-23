@@ -79,8 +79,7 @@ ms.localizationpriority: medium
                             </div>
                             </a>
                         </li>
-                        <li></li>
-                        <li>
+                       <li>
                             <a href="/windows-insider/flight-hub">
                             <div class="cardSize">
                                 <div class="cardPadding">
@@ -93,6 +92,25 @@ ms.localizationpriority: medium
                                         <div class="cardText">
                                             <h2>Flight Hub</h2>
                                             <p>Want to see the status of a flight? Check out our Flight Hub.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/windows-insider/at-home/digital-literacy/">
+                            <div class="cardSize">
+                                <div class="cardPadding">
+                                    <div class="card">
+                                        <div class="cardImageOuter">
+                                            <div class="cardImage">
+                                                <img src="https://docs.microsoft.com/media/common/i_configure-teams.svg" alt="" />
+                                            </div>
+                                        </div>
+                                        <div class="cardText">
+                                            <h2>Digital Literacy</h2>
+                                            <p>#InsiderUp communities are helping the world understand tech and learn to code.</p>
                                         </div>
                                     </div>
                                 </div>
