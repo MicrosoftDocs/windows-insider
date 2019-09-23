@@ -21,7 +21,8 @@ _Note:_ Not all app updates will be listed here. Only app updates that include m
 These updates are currently available using PCs running Windows 10 Insider Preview Builds (19H1). 
 
 __7/10/2019__
-## Phone screen now available on more Surface devices
+
+### Phone screen now available on more Surface devices. 
 As promised, we’re excited to expand the availability of the phone screen feature to more PCs. With the latest driver update in the Windows insider rings (Marvell 15.68.17013.110), the following Surface devices will preview the phone screen feature – Surface Laptop, Surface Laptop 2, Surface Pro 4, Surface Pro 5, Surface Pro 6, Surface Book, and Surface Book 2. If you have one of these devices, give it a try and let us know what you think!
 
 __7/3/2019__
@@ -51,9 +52,6 @@ Thank you to everyone who gave us feedback over the last few weeks to help us im
 * Android phone must be on, within Bluetooth range of the PC and connected to the same network as the PC
 
 __5/29/2019__
-
-## Your Phone app – Introducing even more new features 
-We’re bringing multiple new features to the Your Phone app in this build. Try them out and let us know what you think.
 
 ### Phone screen – Accessibility features, keyboard language and layout, new phone models
 We’re pleased to preview two new accessibility features – screen reading and focus tracking – as well as the ability to easily switch your Android phone’s keyboard language or layout while in phone screen.
@@ -177,6 +175,21 @@ __Phone screen requirements:__
 
 ## Snip & Sketch 
 
+__7/31/2019 - Version 10.1907__
+
+Thanks everyone who’s shared feedback so far for our updated snipping experience! We really appreciate it and are starting to roll out some more improvements based on what you’ve told us:
+* __Single window mode:__ Do you tend to retake snips multiple times in order to get the perfect screenshot? We’re updating the New button to now open new snips in your current app window, so you don’t end up with a ton of open snips (that you then need to close.) If you’d rather keep all snips open in separate windows. the option is now a toggle in settings, so you can decide which mode you prefer.
+
+![Snip & Sketch](images/18950-2.png "Single Mode View")
+ 
+* __Zoom:__ Need we say more? You can now zoom in on your screenshots if they’re a bit too small for you to annotate on (and yes, CTRL+Plus, CTRL+Minus and Ctrl+Mouse wheel are supported!). We’ll also zoom out to make sure the whole snip fits in the Snip & Sketch window. If you want to see the snip at its original size, click the Zoom button and then “Actual Size”.
+
+![Snip & Sketch](images/18950-3.gif "zoom")
+
+* __Improving WIN+Shift+S discoverability:__ You mentioned you loved learning about using WIN+Shift+S to take new snips any time and we thought others would too! If you haven’t taken a snip yet, we’ll now use the canvas space in Snip & Sketch to help you learn how to start a snip without needing to open the app first. 
+
+These changes are currently available for a portion of Insiders in the Fast ring as we evaluate the quality before continuing the rollout. Note the rollout for each change mentioned above is being handled separately, with separate random populations in the initial rollout, so seeing one of the changes with app version 10.1907.2064.0 doesn’t necessarily mean you’ll see all three.
+
 __3/6/2019 - Version 10.1901.10521.0__
 
 We’re in the process of rolling out a new app update to Snip & Sketch. It includes a number of fixes based on your feedback, among which are:
@@ -274,6 +287,33 @@ Please try it out and let us know what you think by tweeting at [@MicrosoftToDo]
 3. Use check-marks within the circle to the left of a task to complete it.
 
 ## Feedback Hub 
+
+__8/21/2019 - Version 1907__
+
+The Feedback Hub team has been hard at work lately to bring you some app updates based on your feature requests, and we have a few changes and improvements to share about the latest version that’s currently rolling out to Insiders in the Fast ring.
+
+### Feedback Search UI updates
+On the Feedback section of the app, you will now be able to more clearly see the differentiation between Problems and Suggestions, with each showing an icon, color, and labels Problem or Suggestion displayed above each feedback entry. We also have updated iconography and displays for Adding similar feedback to problems, upvoting suggestions, and adding comments to feedback.
+
+![Feedback Hub](images/18965-2.png "Feedback Search UI updates")
+
+### Adding similar feedback
+
+In the past, Feedback Hub allowed two kinds of participation on feedback: upvoting and adding more details. The notion of voting on Suggestions makes a lot of sense – engineers at Microsoft want to know which features the community wants us to build next, and voting on feature suggestions is a great way to see where your interest lies.
+
+However, voting on Problems was trickier – problems are not a matter of popularity, and what helps engineers here resolve problems is having clear descriptions of how the issue arose. Feedback is especially helpful if it includes a reproduction of the problem, diagnostics that help our teams pinpoint what went wrong so they can fix issues faster. Voting on the search page often did not provide enough detail as to what was happening, and we saw that few people went into existing feedback to add their personal reproductions of the issues.
+
+With the new Add similar feedback feature, selecting a problem with symptoms that match your own will take you to the feedback form, with the title pre-filled. You edit the title or add your own description to let us know exactly what was happening when you encountered the problem. We’ll already have your category selected to ensure the right feature team sees your feedback, and in our new Similar Feedback section, the feedback you selected will already be selected. As usual, the last step involves optionally adding your own reproduction of the issue or any attachments you like.
+
+### Windows Insiders Achievements
+
+We are excited to announce a refresh of the Windows Insider Achievements page. We’ve made achievements more discoverable by moving them from your profile page to their own landing page, and we added additional features that allow you to categorize and track your progress. Be sure to check it out today and begin unlocking badges. We would love to hear your feedback on social media by using the hashtag #Builds4Badges.
+
+The information previously found in your profile (Device ID and User ID) is now located in the settings section of Feedback Hub.
+
+As always, we appreciate your feedback – if you have any suggestions or problems to report, you can share them in the Feedback Hub under Apps > Feedback Hub.
+
+![Feedback Hub](images/18965-3.png "Windows Insiders Achievements")
 
 __12/10/2018 - Version 1811__
 

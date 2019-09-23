@@ -60,9 +60,9 @@ You can get started with two easy steps:
 
 ---
 
-<ul class="cardsF panelContent cols cols2">
+<ul class="cardsF panelContent">
     <li>
-        <a href="https://support.microsoft.com/help/4021566/windows-10-send-feedback-to-microsoft-with-feedback-hub-app">
+        <a href="/windows-insider/at-work-pro/wip-4-biz-feedback">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -74,6 +74,25 @@ You can get started with two easy steps:
                     <div class="cardText">
                         <h2>Got Feedback?</h2>
                 <p>Use the Feedback Hub App to submit your feedback to Microsoft.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li> 
+    <li>
+        <a href="/windows-insider/at-work-pro/wip-4-biz-FAQ">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/media/common/i_learn-about.svg" alt="" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h2>FAQ</h2>
+                <p>Answers to your commonly asked questions about the Windows Insider Program for Business.</p>
                     </div>
                 </div>
             </div>

@@ -14,38 +14,91 @@ ms.prod: w10
 # What's new for Windows 10 Insider Preview Builds (20H1)
 The [Windows Insider Program](https://insider.windows.com/en-us/) lets you preview builds of the upcoming 20H1 release of Windows 10. This topic lists all new Windows 10 features for you to try. 
 
+## Improving your Bluetooth pairing experience (Build 18985)
+
+For Windows 10 version 1803, we announced a new [streamlined experience for pairing supported Bluetooth devices](https://blogs.windows.com/windowsexperience/2018/02/07/announcing-windows-10-insider-preview-build-17093-pc/#w4q0dmD4RI1BsP7d.97). The idea was simple—if a supported device was nearby and in pairing mode, we’d show a notification that prompted you to go through pairing. This saved you from opening Settings yourself and finding the right place to go. Today, we’re rolling out an update with improvements we hope you’ll like.
+Here’s what’s new:
+* Pairing is all done in notifications now. You don’t need to go to the Settings app anymore to finish pairing.
+* For faster pairing time, we improved the UI by showing one less notification.
+* We added a Dismiss button to the first notification to give you more control while using Swift Pair.
+* To make the notification more helpful, now we show the device name and category when we can.
+
+We’re excited for Insiders to try it out and share feedback. This new experience is currently rolled out to 50% of Insiders, and we’ll let you know as the rollout increases. Supported devices include:
+* Surface Ergonomic Keyboard
+* Surface Precision Mouse
+* Microsoft Modern Mobile Mouse
+* Surface Mobile Mouse
+* Microsoft Arc Mouse
+* Surface Arc Mouse
+* Surface Headphones
+
+![Bluetooth pairing](images/18985-1.gif "a notification prompting you to go through pairing a Bluetooth mouse")
+
+## Improving your optional update experience (Build 18985)
+As some Insiders have noticed, we’re working on making it easier for you to see all optional updates (including drivers, feature updates, and monthly non-security quality updates) in one place. Once optional updates are detected, they will be listed in a new page under Settings > Update & Security > Windows Update > View optional updates. For drivers, you no longer need to browse Device Manager for a specific device to update. Windows Update will automatically keep your drivers up-to-date, same as before, but if you’re having a problem one of those optional drivers might help.
+
+## Windows Subsystem for Linux (WSL) improvements (Build 18980)
+In this build, we’ve added WSL2 support for ARM64 devices! We’ve also added the ability to set your distribution’s default user using the /etc/wsl.conf file. This release also contains multiple bug fixes, including a long-standing issue for legacy Windows symlinks (for example those in the user profile directory.)
+
+For the full details of changes in this latest Insider Preview build, please see the [WSL release notes](https://docs.microsoft.com/windows/wsl/release-notes).
+
+![WSL2](images/18980-1.png "a fix for a long-standing issue for legacy Windows symlinks")
+
+## Introducing the ability to move the Cortana window (Build 18975)
+With the [new conversational Cortana experience](https://blogs.windows.com/windowsexperience/2019/07/26/announcing-windows-10-insider-preview-build-18945/), we understand that you wanna keep the chat going sometimes, and the default position of the window isn’t always where you’d prefer to have it docked if you’re going to have a longer back and forth. That’s why we’re starting to roll out the option to be able to move the window (by dragging the title bar area), to anywhere you’d like on the screen–just like you can with other windows. You can also resize the window if you’d like. Currently, this change is rolled out to 50% of Insiders with the new Cortana experience, and we’ll continue the rollout as we validate the quality of the experience.
+
+![Cortana experience](images/18975-1.gif "Cortana window moves around the desktop")
+
+## Windows Subsystem for Linux (WSL) Improvements (Build 18975)
+[See the latest improvements with WSL](https://docs.microsoft.com/windows/wsl/release-notes) in the latest Insider Preview builds.
+
+## Update on Virtual Desktop renaming (Build 18975)
+The ability to rename your virtual desktops is now available for all Insiders in the Fast ring! Thanks again everyone who shared feedback requesting this.
+To get started:
+1. Open Task View by selecting the Task View icon in the taskbar or pressing WIN+Tab.
+2. Select New Desktop.
+3. Select the desktop name (“Desktop 1”) and it should become editable, or right click the desktop thumbnail and a context menu will appear with a Rename entry.
+4. Input whatever name you’d like, and press enter.
+5. Done!
+
+![Virtual Desktop renaming ](images/18975-3.gif "add a name with Emoji to a virtual desktop tab")
+
+## Introducing a new tablet experience for 2-in-1 convertible PCs! (Build 18970)
+
+We are beginning to roll out a new tablet experience for 2-in-1 convertible PCs as a Beta to Windows Insiders. 
+
+![tablet experience](images/18970-1.png "a new tablet experience for 2-in-1 convertible PCs")
+
+This new experience allows users entering tablet posture to stay in the familiar desktop experience without interruption, plus a few key touch improvements:
+* Increased spacing between Taskbar icons.
+* Search box on taskbar collapsed into an icon.
+* File Explorer switches to touch optimized layout.
+* Touch keyboard auto invokes when you tap text fields.
+
+As part of this, we’ve also made a few small changes to the tablet section in Settings.
+This experience is currently available for a portion of Insiders as we evaluate the quality. Here are the steps once it becomes available on your PC:
+1. Use your convertible PC as a laptop as you normally would–opening apps and interacting with them.
+2. When you’re ready to pick it up and go or simply lean back on the couch, you can fold back the keyboard or remove it altogether, and it should switch to this new mode shown above.
+3. Now use your device as a tablet with touch.
+
+We’d love to hear your feedback about the new experience–share your thoughts here.
+
+## Introducing a new PC reset option (Build 18970)
+
+Reset this PC now provides users a new choice to download Windows or use local reinstall. Previously, Reset this PC was only able to do a local reinstall and would build a new Windows installation from existing Windows files. When this feature was introduced in Windows 10 version 1507, it provided the advantage of enabling Windows to be recoverable without requiring extra disk space to store a compressed, backup copy of Windows in a hidden partition. We’ve heard feedback that some of you would prefer to use your high-speed internet connection to speed up this process by just downloading Windows.
+
+Important note: This is a recovery operation and will remove apps you have installed. Additionally, if the “Remove everything” option is selected, user data will also be deleted. For more information on Reset this PC and other recovery options visit aka.ms/win10recoveryoptions.
+
+The cloud download option will reinstall the same build, version, and edition, that is currently installed on your device. This new cloud download option is available to all Windows 10 devices and is different from the “Recover from the cloud” feature available on some earlier Windows 10 devices.
+
+![recovery improvements](images/18970-2.gif "Introducing a new Reset this PC option–Cloud Download")
+
 ## Control over restarting apps at sign-in (Build 18965)
 As some of you already know, apps have the ability to register for restart, which helps in a few situations, including enabling you to get back to what you were doing if you need to restart your PC. Previously this option was tied to the “Use my sign-in info to automatically finish setting up my device” option under Sign-in options in accounts settings. We’ve heard feedback that some of you would prefer more explicit control over when Windows automatically restarts apps that were open when you restart your PC, and with 20H1 we’re bringing that option to you.
 
 Windows now puts you in control with a new app restart setting. When turned on, Windows automatically saves your restartable apps when signing out, restarting, or shutting down Windows, and restarts them next time you sign in. This setting is off by default and you can change it any time in Settings > Accounts > Sign-in options, and can find it by searching for “restart apps” in Start or the search box.
 
 ![Sign-in options](images/18965-1.png "Control over restarting apps at sign-in")
-
-## Feedback Hub updates (Build 18965)
-The Feedback Hub team has been hard at work lately to bring you some app updates based on your feature requests, and we have a few changes and improvements to share about the latest version that’s currently rolling out to Insiders in the Fast ring.
-
-### Feedback Search UI updates
-On the Feedback section of the app, you will now be able to more clearly see the differentiation between Problems and Suggestions, with each showing an icon, color, and labels Problem or Suggestion displayed above each feedback entry. We also have updated iconography and displays for Adding similar feedback to problems, upvoting suggestions, and adding comments to feedback.
-
-![Feedback Hub](images/18965-2.png "Feedback Search UI updates")
-
-### Adding similar feedback
-
-In the past, Feedback Hub allowed two kinds of participation on feedback: upvoting and adding more details. The notion of voting on Suggestions makes a lot of sense – engineers at Microsoft want to know which features the community wants us to build next, and voting on feature suggestions is a great way to see where your interest lies.
-
-However, voting on Problems was trickier – problems are not a matter of popularity, and what helps engineers here resolve problems is having clear descriptions of how the issue arose. Feedback is especially helpful if it includes a reproduction of the problem, diagnostics that help our teams pinpoint what went wrong so they can fix issues faster. Voting on the search page often did not provide enough detail as to what was happening, and we saw that few people went into existing feedback to add their personal reproductions of the issues.
-
-With the new Add similar feedback feature, selecting a problem with symptoms that match your own will take you to the feedback form, with the title pre-filled. You edit the title or add your own description to let us know exactly what was happening when you encountered the problem. We’ll already have your category selected to ensure the right feature team sees your feedback, and in our new Similar Feedback section, the feedback you selected will already be selected. As usual, the last step involves optionally adding your own reproduction of the issue or any attachments you like.
-
-### Windows Insiders Achievements
-
-We are excited to announce a refresh of the Windows Insider Achievements page. We’ve made achievements more discoverable by moving them from your profile page to their own landing page, and we added additional features that allow you to categorize and track your progress. Be sure to check it out today and begin unlocking badges. We would love to hear your feedback on social media by using the hashtag #Builds4Badges.
-
-The information previously found in your profile (Device ID and User ID) is now located in the settings section of Feedback Hub.
-
-As always, we appreciate your feedback – if you have any suggestions or problems to report, you can share them in the Feedback Hub under Apps > Feedback Hub.
-
-![Feedback Hub](images/18965-3.png "Windows Insiders Achievements")
 
 ## GPU temperature comes to Task Manager (Build 18963)
 One of the longstanding requests we’ve been tracking for Task Manager is to add temperature monitoring support, and with today’s build we’re making progress on that ask. If you have a dedicated GPU card, we will now bubble up the current temperature next to its listing in the Performance Tab.
@@ -81,9 +134,7 @@ Better list management: You can now search through lists of optional features an
 
 We’re excited for you to try it! Currently these changes are live for 50% of Insiders in the Fast ring, and we’ll be expanding the rollout over the next few weeks as we evaluate the quality of experience. Here’s a peek at what you’ll see once it’s available on your PC:
 
-![Optional Features](images/18963-3.jpg "Improving the Optional Features page in Settings")
-
-![Optional Features](images/18963-4.png "add an optional feature")
+![Optional Features](images/18980-2.jpg "Improving the Optional Features page in Settings")
 
 ## Adding Mouse Cursor speed to Settings (Build 18963)
 As some Insiders have noticed, you can now set your mouse cursor speed from within Settings! This is the latest piece of our larger ongoing effort to converge Settings and Control Panel experiences. You can find the setting under Settings > Devices > Mouse.
@@ -190,20 +241,6 @@ Thank you everyone who’s shared feedback so far about the new Japanese IME. Th
 
 Please don’t hesitate to continue [sharing your thoughts with us](https://aka.ms/inputfeedback) about typing in Windows – our ears are open and we’d love to hear from you.
 
-## Snip & Sketch improvements headed your way (Build 18950)
-Thanks everyone who’s shared feedback so far for our updated snipping experience! We really appreciate it and are starting to roll out some more improvements based on what you’ve told us:
-* __Single window mode:__ Do you tend to retake snips multiple times in order to get the perfect screenshot? We’re updating the New button to now open new snips in your current app window, so you don’t end up with a ton of open snips (that you then need to close.) If you’d rather keep all snips open in separate windows. the option is now a toggle in settings, so you can decide which mode you prefer.
-
-![Snip & Sketch](images/18950-2.png "Single Mode View")
- 
-* __Zoom:__ Need we say more? You can now zoom in on your screenshots if they’re a bit too small for you to annotate on (and yes, CTRL+Plus, CTRL+Minus and Ctrl+Mouse wheel are supported!). We’ll also zoom out to make sure the whole snip fits in the Snip & Sketch window. If you want to see the snip at its original size, click the Zoom button and then “Actual Size”.
-
-![Snip & Sketch](images/18950-3.gif "zoom")
-
-* __Improving WIN+Shift+S discoverability:__ You mentioned you loved learning about using WIN+Shift+S to take new snips any time and we thought others would too! If you haven’t taken a snip yet, we’ll now use the canvas space in Snip & Sketch to help you learn how to start a snip without needing to open the app first. 
-
-These changes are currently available for a portion of Insiders in the Fast ring as we evaluate the quality before continuing the rollout. Note the rollout for each change mentioned above is being handled separately, with separate random populations in the initial rollout, so seeing one of the changes with app version 10.1907.2064.0 doesn’t necessarily mean you’ll see all three.
-
 ## Introducing a new Cortana experience for Windows 10 (Build 18945)
 We are beginning to roll out a new Cortana experience for Windows 10 as a Beta to Windows Insiders in the U.S. This new experience features a brand-new chat-based UI that gives you the ability to type or speak natural language queries.
 
@@ -219,9 +256,12 @@ Not all the features from the previous Cortana experience are available just yet
 
 To get started, choose the Cortana icon on the taskbar next to the search box. You can also leverage the speed and convenience of voice with improved speech recognition by simply saying “Hey Cortana”*. You may need to sign-in with your account to get started.
 
-__Note:__ This requires enabling this functionality in Settings > Voice activation privacy settings  – Talk to Cortana. 
+__Note:__
+* To enable this functionality go to Settings > Voice activation privacy settings  – Talk to Cortana. 
+* Starting with Build 18980, all Insiders worldwide will see the Cortana icon and the new app. In a future Cortana app update, customers will have the option to use Cortana if they speak a supported language, regardless of their OS display language. 
+* The new Cortana app currently supports English (United States)—because Cortana is service backed. We can and will continue to add new languages over the coming months outside the bounds of OS build updates. We expect to support the same set of regions and languages we [currently support in retail](https://support.microsoft.com/en-us/help/4026948/cortanas-regions-and-languages) by 20H1 launch. We will share more details of our language rollout plans as they progress and appreciate your patience during this transition period.
+* Historically, there were quite a few skills that could be used unauthenticated (Bing answers, open apps, Assistant conversations) but this is no longer the case. Only limited skills are currently supported in the new experience. We’ll be bringing back many skills over the coming months.
 
-If you’re an Insider in the U.S. and are not seeing the new experience, please be patient as we’re slowing rolling it out. Additional markets and languages will become available at a later date. You must be signed in to use Cortana. Historically, there were quite a few skills that could be used unauthenticated (Bing answers, open apps, Assistant conversations) but this is no longer the case. Only limited skills are currently supported in the new experience. Don’t worry we’ll be bringing back many skills over the coming months.
 
 ## Windows Subsystem for Linux (WSL) Improvements (Build 18945) 
 ### Added connecting via localhost to WSL 2 Linux apps from Windows and global WSL configuration options
@@ -259,7 +299,7 @@ Have you ever had an issue finding the text cursor in the middle of a large amou
 ## Updated File Explorer search rolling out to all Insiders (Build 18945)
 Over the next few days, [the new File Explorer search experience](https://blogs.windows.com/windowsexperience/2019/05/08/announcing-windows-10-insider-preview-build-18894/#QfdoEyQ3TQXvJVoD.97) will be rolling out to all Insiders in the Fast ring! Thanks everyone who’s shared feedback so far and helped us to improve the experience. Please don’t hesitate to share any other comments – you can file feedback for this area under Files, Folders, and Storage > File Explorer in the Feedback Hub.
 
-![File Exploer](images/18945-4.png "pdated File Explorer search rolling out to all Insiders")
+![File Exploer](images/18945-4.png "updated File Explorer search rolling out to all Insiders")
 
 
 ## Updating the Korean IME (Build 18941)
@@ -303,7 +343,7 @@ __Pause:__ We’ve made improvements to the pause experience. Selecting the paus
 
 __Switch support:__ Previously, Dwell was the method for clicking a button. Dwelling is the act of fixing your eyes on part of the screen and keeping your eyes there for a specific amount of time. In this release, we’re adding a second activation method, switch. In this method, dwell is used to select the target, but clicking a button is done with switch. Currently switches on joysticks, or devices emulating joysticks, are supported.
 
-__Under the hood__ People wishing to develop their own gaze enabled applications can do so using the open source Gaze Interaction Library in the [Windows Community Toolkit](https://docs.microsoft.com/en-us/windows/communitytoolkit/). In this revision of Eye Control, the user interface is implemented using the same code that is in the Gaze Interaction Library.
+__Under the hood__ People wishing to develop their own gaze enabled applications can do so using the open source Gaze Interaction Library in the [Windows Community Toolkit](https://docs.microsoft.com/windows/communitytoolkit/). In this revision of Eye Control, the user interface is implemented using the same code that is in the Gaze Interaction Library.
 
 __Settings:__ We have updated settings to allow you to manage more Eye Control features. This includes enabling some of the new features and more fine control of the numeric values that change how responsive the system is to eye movements. This allows for a more customized and natural feel for your Eye Control experience.
 
