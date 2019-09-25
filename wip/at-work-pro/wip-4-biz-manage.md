@@ -97,6 +97,9 @@ To set Windows Update for Business policies for Insider Preview builds using non
 
 [Update/BranchReadinessLevel](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-branchreadinesslevel)
 
+## Install Builds via Windows Server Update Services
+You can manage pre-release builds directly from WSUS. To do this, go check the Windows Insiders Pre-release product and Upgrades category in WSUS Products and Classifications and sync WSUS. Then once the sync completes and shows up on WSUS console, approve it for whatever computer group you want the update deployed to, and deploy as you would any other update.
+
 ## Confirm and track installations  
 
 ### Confirm policy 
