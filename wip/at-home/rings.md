@@ -32,7 +32,7 @@ If you want to be on the current public release of Windows 10 but still get earl
 This is a unique version of the Fast ring that allows Insiders to “skip ahead” to Windows 10 Insider Preview builds in the next release of Windows while we are finishing up a current release. Enrollment in Skip Ahead is offered for a limited time to a small subset of Insiders.
 
 ### Switching between rings
-Changing rings is a simple process. Go to __Settings > Updates & Security__ and select __Windows Insider Program__. Under __What kind of content would you like to receive?__ select **Just fixes, apps and drivers** to select Release Preview. Or choose **Active development of Windows** and select **Fast** or **Slow** under **What pace do you want to get new builds?**
+Changing rings is a simple process. Go to **Settings** > **Updates & Security** and select __Windows Insider Program__. Under __What kind of content would you like to receive?__ select **Just fixes, apps and drivers** to select Release Preview. Or choose **Active development of Windows** and select **Fast** or **Slow** under **What pace do you want to get new builds?**
 
 ## Working with updates
 
