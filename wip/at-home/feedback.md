@@ -16,7 +16,7 @@ ms.prod: w10
 
 One of the benefits of being a Windows Insider is knowing that your feedback can change and improve Windows for users around the world. The more detailed your feedback is, the more effectively our engineering teams can identify and respond to it.
 
-To provide feedback, visit the [Feedback Hub](http://insiderhub://home/) app, which you can find in your **Start menu**. The tips below can help you make the most of the Feedback Hub. You can also use the [Language Community App](https://insider.windows.com/en-us/how-to-feedback/#help-us-make-windows-better-in-your-language) to help us make Windows better in your language (PC only).
+To provide feedback, visit the [Feedback Hub](http://insiderhub://home/) app, which you can find in your **Start menu**. The tips below can help you make the most of the Feedback Hub. You can also use the Language Community App to help us make Windows better in your language (PC only).
 
 There are two types of feedback, problems and suggestions. If something is broken, you're getting errors, or something is missing, you should file a problem. If there's a new feature or change you'd like to see, you should file a suggestion.
 
