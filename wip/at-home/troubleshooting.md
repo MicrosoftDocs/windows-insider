@@ -17,7 +17,7 @@ ms.prod: w10
 This section provides tips to address issues that you many encounter when running Windows 10 Insider Preview Builds. 
 
 > [!NOTE] 
-> In many cases, issues may be isolated to your specific Insider Preview build. Please check the most recent [Windows Insider Blog post](https://blogs.windows.com/blog/tag/windows-insider-program/) or our [support resources](https://review.docs.microsoft.com/en-us/windows-insider/at-home/troubleshooting?branch=pr-en-us-100#support-resources), like the [Windows Insider Forums](https://answers.microsoft.com/en-us/insider/forum/insider_wintp-insiderplat_pc?sort=lastreplydate&dir=desc&tab=threads&status=all&mod=&modAge=&advFil=&postedAfter=&postedBefore=&threadType=all&tm=1475533679179). 
+> In many cases, issues may be isolated to your specific Insider Preview build. Please check the most recent [Windows Insider Blog post](https://blogs.windows.com/blog/tag/windows-insider-program/) or our [support resources](https://docs.microsoft.com/en-us/windows-insider/at-home/troubleshooting#support-resources), like the [Windows Insider Forums](https://answers.microsoft.com/en-us/insider/forum/insider_wintp-insiderplat_pc?sort=lastreplydate&dir=desc&tab=threads&status=all&mod=&modAge=&advFil=&postedAfter=&postedBefore=&threadType=all&tm=1475533679179). 
 
 ## Find information about your PC
 
