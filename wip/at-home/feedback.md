@@ -16,11 +16,11 @@ ms.prod: w10
 
 One of the benefits of being a Windows Insider is knowing that your feedback can change and improve Windows for users around the world. The more detailed your feedback is, the more effectively our engineering teams can identify and respond to it.
 
-To provide feedback, visit the [Feedback Hub](http://insiderhub://home/) app, which you can find in your **Start menu**. The tips below can help you make the most of the Feedback Hub. You can also use the Language Community App to help us make Windows better in your language (PC only).
+To provide feedback, visit the [Feedback Hub](http://insiderhub://home/) app, which you can find in your **Start menu**. The tips below can help you make the most of the Feedback Hub. You can also use the [Language Community App](https://review.docs.microsoft.com/en-us/windows-insider/at-home/feedback?branch=pr-en-us-100#help-us-make-windows-better-in-your-language) to help us make Windows better in your language (PC only).
 
 There are two types of feedback, problems and suggestions. If something is broken, you're getting errors, or something is missing, you should file a problem. If there's a new feature or change you'd like to see, you should file a suggestion.
 
-##Checking for existing feedback
+## Checking for existing feedback
 
 Before logging a new piece of feedback, check to see if someone else has already reported that issue or requested that change by. 
 
@@ -64,7 +64,7 @@ When you provide feedback one item at a time, it helps us make sure the correct 
 
 When sharing additional details, it's important to share as much detail about the issue as possible. For example, include the steps to reproduce the issue, attach screenshots (if applicable) and use the “reproduce issue” option, if available for the type of feedback you're submitting.
 
-###Provide additional information
+### Provide additional information
 
 Sharing additional information can be extremely helpful in describing the issue and showing details of what you're experiencing. You can do this by attaching a screen shot or file (such as a dxdiag, .cab files, or other) and recreating the problem with Capture Mode. Capture Mode helps us capture detailed logs while the issue is happening, which can be extremely helpful.
 
