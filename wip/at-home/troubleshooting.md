@@ -17,7 +17,7 @@ ms.prod: w10
 This section provides tips to address issues that you many encounter when running Windows 10 Insider Preview Builds. 
 
 > [!NOTE] 
-> In many cases, issues may be isolated to your specific Insider Preview build. Please check the most recent [Windows Insider Blog post](https://blogs.windows.com/blog/tag/windows-insider-program/)or our support resources below, like the [Windows Insider Forums](https://answers.microsoft.com/en-us/insider/forum/insider_wintp-insiderplat_pc?sort=lastreplydate&dir=desc&tab=threads&status=all&mod=&modAge=&advFil=&postedAfter=&postedBefore=&threadType=all&tm=1475533679179). 
+> In many cases, issues may be isolated to your specific Insider Preview build. Please check the most recent [Windows Insider Blog post](https://blogs.windows.com/blog/tag/windows-insider-program/) or our [support resources](https://review.docs.microsoft.com/en-us/windows-insider/at-home/troubleshooting?branch=pr-en-us-100#support-resources), like the [Windows Insider Forums](https://answers.microsoft.com/en-us/insider/forum/insider_wintp-insiderplat_pc?sort=lastreplydate&dir=desc&tab=threads&status=all&mod=&modAge=&advFil=&postedAfter=&postedBefore=&threadType=all&tm=1475533679179). 
 
 ## Find information about your PC
 
@@ -38,7 +38,7 @@ Open **Settings**, select **Update & Security**, select **Windows Insider Progra
 ### How can I confirm my copy of Windows 10 is activated?
 Open **Settings**, select **Update & Security**, and select **Activation**.
 
-##Not receiving updates
+## Not receiving updates
 
 While participating in the Windows Insider Program, you may find that your PC isn't updating as expected. Review these key times if you're in this state.
 
@@ -63,15 +63,15 @@ Open **Settings** > **Update & Security** and review available updates or select
 
 Open **Settings** > **Update & Security** > **Windows Insider Program** and view the dropdown under **What pace do you want to get new builds?**
 
-### Have you recently done a rollback?
+### Check if you've done a rollback
 
 Check your Windows Insider Preview settings, including ring selection, Microsoft Account, and branch-selection.
 
-### Did you do a clean install? 
+### Consider a clean install
 
 After a clean install and initial setup of a Microsoft Account, even one that has been used previously for receiving Insider builds, the appropriate targeting needs to take place. This background process is known as Compatibility Checker and will run during idle time on your PC. This may take up to 24 hours. Leave your PC turned on to make sure this occurs in timely manner.
 
-### Are there any known issues for your current build?
+### Check known issues for your current build
 
 There may be an issue with a build that could lead to issues with updates being received. Check the most recent [Windows Insider Blog post](https://blogs.windows.com/blog/tag/windows-insider-program/) or reach out to us [@WindowsInsider](http://twitter.com/windowsinsider/).
 
@@ -95,7 +95,7 @@ If you are in a situation where you are unable to use your PC as expected, these
 > [!NOTE] 
 > After installing an update to your PC, you will have seven days to roll back if necessary. If it's needed after that, you'll need to take a future update, or you may clean install an older build via bootable media.
 
-**Clean Install Insider Build via Bootable Media** - Creating a bootable USB with a Windows Installation (from an ISO file) can be helpful in multiple scenarios, from recovering a machine from a bad build, to bypassing some types of bugs, to even joining a new PC into the Windows Insider Program. [How to make a bootable USB drive from a Windows Insider ISO file.](https://answers.microsoft.com/en-us/insider/forum/insider_wintp-insider_install-insiderplat_pc/creating-a-bootable-usb-for-windows-insider-isos/9ebe3cbc-3c8b-4052-9484-0b7cc9b63bec?tm=1519414191218).
+**Clean Install Insider Build via Bootable Media** - Creating a bootable USB with a Windows Installation (from an ISO file) can be helpful in multiple scenarios, from recovering a machine from a bad build, to bypassing some types of bugs, to even joining a new PC into the Windows Insider Program. [How to make a bootable USB drive from a Windows Insider ISO file.](https://answers.microsoft.com/en-us/insider/forum/insider_wintp-insider_install-insiderplat_pc/creating-a-bootable-usb-for-windows-insider-isos/9ebe3cbc-3c8b-4052-9484-0b7cc9b63bec?tm=1519414191218)
 
 ## Feedback Hub error
 
@@ -132,7 +132,7 @@ On your PC, go to **Settings** > **Update & Security** > **Windows Insider Progr
 
 ### Recover your device
 
-Follow the instructions in the Stop receiving Insider builds section above to return your PC to a previous version or reinstall.
+Follow the instructions in the [Stop receiving Insider builds section](https://review.docs.microsoft.com/en-us/windows-insider/at-home/troubleshooting?branch=pr-en-us-100#stop-receiving-insider-builds) above to return your PC to a previous version or reinstall.
 
 ## Support resources
 
