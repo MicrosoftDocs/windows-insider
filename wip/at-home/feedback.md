@@ -39,6 +39,7 @@ You can also filter different categories and subcategories of feedback by select
 If you don't find existing feedback, it's time to add new feedback.
 
 ![Feedback Hub's filters that let you search for existing feedback](images/FeedbackHubHome.png "Feedback Hub filters")
+
 *The Feedback Hub lets you filter feedback based on a variety of criteria.*
 
 ### Looking for collections
@@ -118,6 +119,7 @@ You can track feedback submitted to the Feedback Hub by you and others in your o
 > Feedback filtered with this view will only show Feedback from users in your organization who sign into the Feedback Hub using their registered AAD account.
 
 ![Feedback Hub's filters that let you search for feedback from within your organization](images/FeedbackHubOrg.png "Your organization's feedback in Feedback Hub")
+
 *Filter to view feedback submitted specifically by Windows Insiders in your organization.*
 
 ## Help us make Windows better in your language
