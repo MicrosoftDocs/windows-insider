@@ -106,7 +106,7 @@ As Microsoft engineers process your feedback, you’ll see a banner appear on th
 
 When the state changes, you and other Windows Insiders who have upvoted the feedback will receive a notification from the Feedback Hub about the change.
 
-## Submitting and tracking feedback on behalf of your organization
+## Submitting and tracking your organization's feedback
 
 You can track feedback submitted to the Feedback Hub by you and others in your organization. (AAD account registration is required.) Here’s how:
 
