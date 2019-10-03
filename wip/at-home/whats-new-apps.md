@@ -20,6 +20,21 @@ _Note:_ Not all app updates will be listed here. Only app updates that include m
 ## Your Phone 
 These updates are currently available using PCs running Windows 10 Insider Preview Builds (19H1). 
 
+__10/3/2019__
+
+### Link to Windows on more devices. 
+We’re pleased to announce that Link to Windows feature, which seamlessly connects your phone to your Windows 10 PC, is rolling out to Samsung Galaxy S10, S10+, S10e, S10 5G, and Fold devices in select global markets. With Link to Windows natively integrated into your device, it’s simple and convenient to send messages, manage notifications, sync photos, and mirror your phone on your PC.
+### Phone screen on more device. 
+Phone screen which allows you to access your Android phone’s apps right from your PC while using your keyboard and mouse or touch screen, is also rolling out to Samsung Galaxy S10, S10+, S10e, S10 5G, and Fold devices in select global markets. You can try out multi-touch gestures such as pinch to zoom, rotate, or swipe from your PC’s touchscreen while using Phone screen. If you have one of these devices, give it a try. This is a gradual rollout, so stay tuned for more to come on additional markets and devices.
+
+### Battery level indicator & phone’s home screen wallpaper.
+In addition to Phone screen and Link to Windows expansion, two additional features are rolling out to all users–battery indicator, which will provide quick access to your phone’s battery levels right in the app without needing to check your device, and Your Phone icon within the app, which will show your current static home screen wallpaper for a personal touch.
+
+![Your Phone app](images/18995-2.png "battery level indicator")
+
+All of these features are gradually rolling out to users, so they may take a few days to be available inside the Your Phone app. Please make sure you have the latest versions of Your Phone Companion and the Your Phone app.
+We value your feedback, so give it a try and let us know what you think. You can report any issues under Your Phone > Settings > Send feedback.
+
 __7/10/2019__
 
 ### Phone screen now available on more Surface devices. 
