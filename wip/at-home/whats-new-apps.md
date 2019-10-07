@@ -20,8 +20,24 @@ _Note:_ Not all app updates will be listed here. Only app updates that include m
 ## Your Phone 
 These updates are currently available using PCs running Windows 10 Insider Preview Builds (19H1). 
 
+__10/3/2019__
+
+### Link to Windows on more devices. 
+We’re pleased to announce that Link to Windows feature, which seamlessly connects your phone to your Windows 10 PC, is rolling out to Samsung Galaxy S10, S10+, S10e, S10 5G, and Fold devices in select global markets. With Link to Windows natively integrated into your device, it’s simple and convenient to send messages, manage notifications, sync photos, and mirror your phone on your PC.
+### Phone screen on more device. 
+Phone screen which allows you to access your Android phone’s apps right from your PC while using your keyboard and mouse or touch screen, is also rolling out to Samsung Galaxy S10, S10+, S10e, S10 5G, and Fold devices in select global markets. You can try out multi-touch gestures such as pinch to zoom, rotate, or swipe from your PC’s touchscreen while using Phone screen. If you have one of these devices, give it a try. This is a gradual rollout, so stay tuned for more to come on additional markets and devices.
+
+### Battery level indicator & phone’s home screen wallpaper.
+In addition to Phone screen and Link to Windows expansion, two additional features are rolling out to all users–battery indicator, which will provide quick access to your phone’s battery levels right in the app without needing to check your device, and Your Phone icon within the app, which will show your current static home screen wallpaper for a personal touch.
+
+![Your Phone app](images/18995-2.png "battery level indicator")
+
+All of these features are gradually rolling out to users, so they may take a few days to be available inside the Your Phone app. Please make sure you have the latest versions of Your Phone Companion and the Your Phone app.
+We value your feedback, so give it a try and let us know what you think. You can report any issues under Your Phone > Settings > Send feedback.
+
 __7/10/2019__
-## Phone screen now available on more Surface devices
+
+### Phone screen now available on more Surface devices. 
 As promised, we’re excited to expand the availability of the phone screen feature to more PCs. With the latest driver update in the Windows insider rings (Marvell 15.68.17013.110), the following Surface devices will preview the phone screen feature – Surface Laptop, Surface Laptop 2, Surface Pro 4, Surface Pro 5, Surface Pro 6, Surface Book, and Surface Book 2. If you have one of these devices, give it a try and let us know what you think!
 
 __7/3/2019__
@@ -173,6 +189,21 @@ __Phone screen requirements:__
 * Android phone must be on, within Bluetooth range of the PC, and connected to the same network as the PC.
 
 ## Snip & Sketch 
+
+__7/31/2019 - Version 10.1907__
+
+Thanks everyone who’s shared feedback so far for our updated snipping experience! We really appreciate it and are starting to roll out some more improvements based on what you’ve told us:
+* __Single window mode:__ Do you tend to retake snips multiple times in order to get the perfect screenshot? We’re updating the New button to now open new snips in your current app window, so you don’t end up with a ton of open snips (that you then need to close.) If you’d rather keep all snips open in separate windows. the option is now a toggle in settings, so you can decide which mode you prefer.
+
+![Snip & Sketch](images/18950-2.png "Single Mode View")
+ 
+* __Zoom:__ Need we say more? You can now zoom in on your screenshots if they’re a bit too small for you to annotate on (and yes, CTRL+Plus, CTRL+Minus and Ctrl+Mouse wheel are supported!). We’ll also zoom out to make sure the whole snip fits in the Snip & Sketch window. If you want to see the snip at its original size, click the Zoom button and then “Actual Size”.
+
+![Snip & Sketch](images/18950-3.gif "zoom")
+
+* __Improving WIN+Shift+S discoverability:__ You mentioned you loved learning about using WIN+Shift+S to take new snips any time and we thought others would too! If you haven’t taken a snip yet, we’ll now use the canvas space in Snip & Sketch to help you learn how to start a snip without needing to open the app first. 
+
+These changes are currently available for a portion of Insiders in the Fast ring as we evaluate the quality before continuing the rollout. Note the rollout for each change mentioned above is being handled separately, with separate random populations in the initial rollout, so seeing one of the changes with app version 10.1907.2064.0 doesn’t necessarily mean you’ll see all three.
 
 __3/6/2019 - Version 10.1901.10521.0__
 

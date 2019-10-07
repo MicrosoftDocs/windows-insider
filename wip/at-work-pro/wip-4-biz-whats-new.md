@@ -1,5 +1,5 @@
 ---
-title: What's new in the Windows Server 10 Insider Program for Business Preview Builds
+title: What's new in the Windows 10 Insider Program for Business Preview Builds
 description: New features to use and test in the Windows 10 Insider Program for Business Preview Builds
 author: lizap
 manager: dougkim
@@ -11,329 +11,249 @@ ms.prod: w10
 
 # What’s new for business in Windows 10 Insider Preview Builds
 
-## Windows Defender Application Guard as browser extensions in Google Chrome and Mozilla Firefox
-To extend our container technology to other browsers and provide customers with a comprehensive solution to isolate potential browser-based attacks, we have designed and developed Windows Defender Application Guard extensions for Google Chrome and Mozilla Firefox.
+## Windows Subsystem for Linux (WSL) improvements (Build 18980)
+In this build, we’ve added WSL2 support for ARM64 devices! We’ve also added the ability to set your distribution’s default user using the /etc/wsl.conf file. This release also contains multiple bug fixes, including a long-standing issue for legacy Windows symlinks (for example those in the user profile directory.)
 
-![Application Guard extension](images/18358-1.png "download page")
- 
-__How it works__
+For the full details of changes in this latest Insider Preview build, please see the WSL release notes.
 
-The extensions for Google Chrome and Mozilla Firefox automatically redirect untrusted navigations to Windows Defender Application Guard for Microsoft Edge. The extension relies on a native application that we’ve built to support the communication between the browser and the device’s [Application Guard settings](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-guard/configure-wd-app-guard).
+![WSL2](images/18980-1.png "a fix for a long-standing issue for legacy Windows symlinks")
 
-When users navigate to a site, the extension checks the URL against a list of trusted sites defined by enterprise administrators. If the site is determined to be untrusted, the user is redirected to an isolated Microsoft Edge session. In the isolated Microsoft Edge session, the user can freely navigate to any site that has not been explicitly defined as trusted by their organization without any risk to the rest of system. With our upcoming dynamic switching capability, if the user tries to go to a trusted site while in an isolated Microsoft Edge session, the user is taken back to the default browser.
+## Renaming your virtual desktops (Build 18975)
+The ability to rename your virtual desktops is now available for all Insiders in the Fast ring! Thanks again everyone who shared feedback requesting this.
+To get started:
+1. Open Task View by selecting the Task View icon in the taskbar or pressing WIN+Tab.
+2. Select New Desktop.
+3. Select the desktop name (“Desktop 1”) and it should become editable, or right click the desktop thumbnail and a context menu will appear with a Rename entry.
+4. Input whatever name you’d like, and press enter.
+5. Done!
 
-To configure the Application Guard extension under managed mode, enterprise administrators can follow these recommended steps:
-1. Ensure devices meet requirements.
-2. Turn on Windows Defender Application Guard.
-3. Define the network isolation settings to ensure a set of trusted sites is in place.
-4. Install the new Windows Defender Application Guard companion application from the Microsoft Store.
-5. Install the extension for Google Chrome or Mozilla Firefox browsers provided by Microsoft.
-6. Restart the devices.
+![virtual deskops](images/18963-2.gif "Renaming your virtual desktops")
 
-__Intuitive user experience__
+## Cortana window can now move (Build 18975)
+With the [new conversational Cortana experience](https://docs.microsoft.com/en-us/windows-insider/at-work-pro/wip-4-biz-whats-new#new-cortana-experience-for-windows-10-build-18945), we understand that you want to keep the chat going sometimes, and the default position of the window isn’t always where you’d prefer to have it docked if you’re going to have a longer back and forth. That’s why we’ve rolled out the option to be able to move the window (by dragging the title bar area), to anywhere you’d like on the screen–just like you can with other windows. You can also resize the window if you’d like.
+![Cortana experience](images/18975-1.gif "Cortana window moves around the desktop")
 
-We designed the user interface to be transparent to users about Windows Defender Application Guard being installed on their devices and what it does. We want to ensure that users are fully aware that their untrusted navigations will be isolated and why.
-1. When users initially open Google Chrome or Mozilla Firefox after the extension is deployed and configured properly, they will see a Windows Defender Application Guard landing page.
+## New Reset this PC option: Cloud download (Build 18970)
+Reset this PC provides users a new choice to download Windows or use local reinstall. Previously, Reset this PC was only able to do a local reinstall and would build a new Windows installation from existing Windows files. When this feature was introduced in Windows 10 version 1507, it provided the advantage of enabling Windows to be recoverable without requiring extra disk space to store a compressed, backup copy of Windows in a hidden partition. We’ve heard feedback that some of you would prefer to use your high-speed internet connection to speed up this process by just downloading Windows.
 
-![Application Guard extension](images/18358-2.png "welcome page")
+>[!NOTE]
+>This is a recovery operation and will remove apps you have installed. Additionally, if the “Remove everything” option is selected, user data will also be deleted. For more information on Reset this PC and other recovery options, [visit the link here.](https://support.microsoft.com/en-us/help/12415/windows-10-recovery-options)
 
-2. If there are any problems with the configuration, users will get instructions for resolving any configuration errors.
+The cloud download option will reinstall the same build, version, and edition, that is currently installed on your device. This new cloud download option is available to all Windows 10 devices and is different from the “Recover from the cloud” feature available on some earlier Windows 10 devices.
 
-![Application Guard extension](images/18358-3.png "resolving configuration errors page")
+![recovery improvements](images/18970-2.gif "Introducing a new Reset this PC option–Cloud Download")
 
-3. Users can initiate an Application Guard session without entering a URL or clicking on a link by clicking the extension icon on the menu bar of the browser.
+## New tablet experience for 2-in-1 convertible PCs (Build 18970)
 
-![Application Guard extension](images/18358-4.png "diagnostic information")
+Windows Insiders can take part in the new Beta tablet experience for 2-in-1 convertible PCs.
 
-__Where to get it__
+![tablet experience](images/18970-1.png "a new tablet experience for 2-in-1 convertible PCs")
 
-The Windows Defender Application Guard extension for Google Chrome and Mozilla Firefox is rolling out to Windows Insiders today and will be generally available very soon. This is available for users on Win 10 Enterprise and Pro SKUs on 1803 or later.
-* [Get the Google Chrome extension](https://chrome.google.com/webstore/detail/application-guard-extensi/mfjnknhkkiafjajicegabkbimfhplplj)
-* [Get the Mozilla Firefox extension](https://wdage.azurewebsites.net/)
-* [Get the Microsoft Store companion app](http://ms-windows-store/pdp/?productid=9N8GNLC8Z9C8)
+This new experience allows users entering tablet posture to stay in the familiar desktop experience without interruption, plus a few key touch improvements:
+* Increased spacing between Taskbar icons.
+* Search box on taskbar collapsed into an icon.
+* File Explorer switches to touch-optimized layout.
+* Touch keyboard auto invokes when you tap text fields.
 
-Submit feedback here. Contact our team if you have any questions.
+As part of this, we’ve also made a few small changes to the tablet section in Settings.
+Here are the steps once it becomes available on your PC:
+1. Use your convertible PC as a laptop as you usually would–opening apps and interacting with them.
+2. When you’re ready to pick it up and go or lean back on the couch, you can fold back the keyboard or remove it altogether, and it should switch to this new model shown above.
+3. Now use your device as a tablet with touch.
 
-## Reserving disk space to keep Windows 10 up to date (Build 18312) 
-In 19H1, we’re making a few changes to how Windows 10 manages disk space. Through reserved storage, some disk space will be set aside to be used by updates, apps, temporary files, and system caches. Our goal is to improve the day-to-day function of your PC by ensuring critical OS functions always have access to disk space. With reserved storage, updates, apps, temporary files, and caches are less likely to take away from valuable free space and should continue to operate as expected. Reserved storage will be introduced automatically on PCs that come with 19H1 pre-installed or on PCs where 19H1 was clean installed. For Windows Insiders who want to try this feature out right now – just run through this quest. After completing the quest, reserved storage will kick off with the next flight. (If you do the quest before installing Build 18312 – reserved storage should kick off for this flight.) For more details on reserved storage coming in 19H1, [read this blog post here](https://blogs.technet.microsoft.com/filecab/2019/01/07/windows-10-and-reserved-storage/).
+## Control over restarting apps at sign-in (Build 18965)
+Applications can register for restart, which helps in a few situations, including enabling you to get back to what you were doing if you need to restart your PC. Previously this option was tied to the “Use my sign-in info to automatically finish setting up my device” option under Sign-in options in accounts settings. We’ve heard feedback that some of you would prefer more explicit control over when Windows automatically restarts apps that were open when you restart your PC, and with 20H1 we’re bringing that option to you.
 
-## Reset this PC UI Improvements (Build 18312) 
-We added new UI for Reset this PC as part of Settings > Update & Security > Recovery. The new UI provides a more consistent experience across devices with different configurations and requires fewer clicks to complete.
+Windows puts you in control with a new app restart setting. When turned on, Windows automatically saves your restartable apps when signing out, restarting, or shutting down Windows, and restarts them next time you sign in. This setting is off by default and you can change it any time in Settings > Accounts > Sign-in options, and can find it by searching for “restart apps” in Start or the search box.
 
-![Reset this PC UI](images/18312-1.gif "Reset this PC UI Improvements")
+![Sign-in options](images/18965-1.png "Control over restarting apps at sign-in")
 
-## Windows Subsystem for Linux Command Line Tool Improvements (Build 18312) 
-We added new command line options to the WSL command line tool (wsl.exe) for easier WSL management and added functionality based on your feedback. Below is a summary of changes. You can read about more details in [our release notes](https://docs.microsoft.com/windows/wsl/release-notes) and on our [command line blog](https://blogs.msdn.microsoft.com/commandline/).
-* Consolidated command line options – The wsl command line tool now includes options to manage your WSL distros that are included in the wslconfig command line tool. We intend to only update the wsl tool with the latest management options moving forward.
-* Import a distro for easy sideloading including to non-system drives – Use the “–import” option to imports a tar file as a new distribution. You can specify the distribution registry to the location of your choice including non-system drives.
-* Export your WSL distribution for simpler environment management – Use the “—export” option to export a distribution to a tar file. Your distro will export to your default downloads location.
+## Improving the Optional Features page in Settings (Build 18963)
+Based on your feedback, we’ve made a number of usability improvements to the Optional Features page in Settings (Settings > Apps & Features > Optional Features).
 
-## Streamlined Windows Hello PIN reset experience (Build 18309) 
-We know remembering a PIN can be tricky, so we wanted to provide our Microsoft account users with a revamped Windows Hello PIN reset experience with the same look and feel as signing in on the web. Check it out in today’s build by clicking the ‘I forgot my PIN’ link when signing in to Windows with a PIN. Insiders can try it out on all Windows 10 editions.
+* __Multi-select:__ You can select and install multiple optional features at the same time.
+Better list management: You can search through lists of optional features and sort them by Name, Size, and Install date.
+* __More useful information:__ You can see the install date for each optional feature in your ‘Installed features’ list. We’ve also added feature dependencies to the description of each optional feature in the list of features available for install.
+* __Easier page navigation:__ View the status of your latest installs/uninstalls/cancel right on the main page in the ‘Latest actions’ section. You can add optional features and view your history via pop-up dialogues, so you never have to navigate away from the main page
 
-![Windows Sandboxing](images/18309-1b.gif "Windows Sandboxing")
 
-## Signing in to Windows with password-less Microsoft accounts (Build 18309) 
-We’re pushing forward on eliminating passwords and keeping your accounts safe with another cool feature. With Build 18305, we announced support for setting up and signing in to Windows 10 with a phone number account, without having to create, or deal with the hassle of a password for Insiders using the Windows 10 Home edition. Today, that support is extending to all Windows 10 editions!
-If you have a Microsoft account with your phone number, you can use an SMS code to sign in, and set up your account on Windows 10. Once you’ve setup your account, you can use Windows Hello Face, Fingerprint, or a PIN (depending on your device capabilities) to sign in to Windows 10. No password needed anywhere!
+![Optional Features](images/18963-3.jpg "Improving the Optional Features page in Settings")
 
-![Passwordless Microsoft accounts](images/18309-3.png "Signing in to Windows with password-less Microsoft accounts")
+![Optional Features](images/18963-4.png "add an optional feature")
 
-### Creating a password-less phone number account
-If you don’t already have a password-less phone number account, you can create one in a mobile app like Word on your iOS or Android device to try it out. Simply go to Word and sign up with your phone number by entering your phone number under “Sign in or sign up for free”.
-### Add your password-less phone number account to Windows 
-Now that you’ve created a password-less phone number account, you can use it to sign in to Windows with the following steps:
-1. Add your account to Windows from Settings > Accounts > Family & other Users > “Add someone else to this PC”.
-2. Lock your device and select your phone number account from the Windows sign-in screen.
-3. Since your account doesn’t have a password, select ‘Sign in options’, click the alternative ‘PIN’ tile, and click ‘Sign in’.
-4. Go through web sign in and Windows Hello set up (this is what you’ll use to sign in to your account on subsequent sign ins). 
+## Making Notepad store-updatable (Build 18963)
+Notepad has been a well-loved text editor in Windows for over 30 years. Over the last few releases, we’ve been making a number of small improvements to Notepad based on your feedback including:
 
-You can now enjoy the benefits of signing in to Windows with your password-less phone number account.
+1. __Wrap-around find/replace:__ We’ve made significant improvement to the find/replace experience in Notepad. We added the option to do wrap-around find/replace to the find dialog and Notepad will now remember previously entered values and the state of checkboxes and automatically populate them the next time you open the find dialog. Additionally, when you have text selected and open the find dialog we will automatically populate the search field with the selected text.
 
-## Introducing Windows Sandbox! (Build 18305)
+![Wrap-around](images/18963-7.png "Making Notepad store-updatable")
 
-Windows Sandbox is a new lightweight desktop environment tailored for safely running applications in isolation.
-How many times have you downloaded an executable file, but were afraid to run it? Have you ever been in a situation which required a clean installation of Windows, but didn’t want to set up a virtual machine?
+2. __Text zooming:__ We’ve added options to make it quick and easy to zoom text in Notepad. There is a new menu option under View > Zoom to change the zoom level and we display the current zoom level in the status bar. You can also use Ctrl + Plus, Ctrl + Minus and Ctrl + MouseWheel to zoom in and out and use Ctrl + 0 to restore the zoom level to the default.
 
-At Microsoft, we regularly encounter these situations, so we developed Windows Sandbox: an isolated desktop environment where you can run untrusted software without the fear of lasting impact to your device. Any software installed in Windows Sandbox stays only in the sandbox and cannot affect your host. Once Windows Sandbox is closed, all the software with all of its files and state are permanently deleted.
+![Text zooming](images/18963-8.gif "Making Notepad store-updatable")
 
-Windows Sandbox has the following properties:
+3. __Line numbers with word-wrap:__ A long outstanding request has been to add the ability to display line and column numbers when word-wrap is enabled. This is now possible in Notepad and we’ve made the status bar visible by default. You can still turn the status bar off in the View menu.
 
-* __Part of Windows__ – everything required for this feature ships with Windows 10 Pro and Enterprise. No need to download a VHD! 
-* __Pristine__ – every time Windows Sandbox runs, it’s as clean as a brand-new installation of Windows. 
-* __Disposable__ – nothing persists on the device; everything is discarded after you close the application. 
-* __Secure__ – uses hardware-based virtualization for kernel isolation, which relies on the Microsoft Hypervisor to run a separate kernel which isolates Windows Sandbox from the host.
-* __Efficient__ – uses integrated kernel scheduler, smart memory management, and virtual GPU.
+![Line numbers with word-wrap](images/18963-9.gif "Making Notepad store-updatable")
 
-To install Windows Sandbox, go to __Settings > Apps > Apps & Features > Programs and Features > Turn Windows Features on or off__, and then select __Enable Windows Sandbox__.
-To start Windows Sandbox, open the __Start__ menu, enter Windows Sandbox and then select it.
+4. __Modified indicator:__ Notepad will now show an asterisk (*) in the title bar before the title of a document to indicate that a document has unsaved changes.
 
-Windows Sandbox respects the host diagnostic data settings. All other privacy settings are set to their default values.
-For more information, please visit [Windows Sandbox](https://techcommunity.microsoft.com/t5/Windows-Kernel-Internals/Windows-Sandbox/ba-p/301849) at Windows Kernel Internals.
+![Modified indicator](images/18963-6.png "Making Notepad store-updatable")
 
-We are excited to learn how you use Windows Sandbox! As we continue to add new functionality, your feedback is crucial in shaping the direction of this feature, so share your thoughts with us at [Feedback Hub](https://aka.ms/windowssandbox-fb).
+5. __Send Feedback:__ You can now send feedback directly from Notepad! Click Help > Send Feedback to open the Feedback Hub with the Notepad category selected and get your feedback directly to the product team.
 
-![Windows Sandboxing](images/18305-1b.png "Windows Sandboxing")
+![Send Feedback](images/18963-10.png "Making Notepad store-updatable")
 
-__Known issues__
-* When Windows Sandbox is first installed and on every servicing event a setup process will run and trigger significant CPU and disk activity for a minute or so.
-* Opening the Start menu in Windows Sandbox takes some time and some Start Menu apps will not run.
-* The time zone is not synchronized between Windows Sandbox and the host.
-* Windows Sandbox does not support installers which require reboot.
-* The Microsoft Store is not supported in Windows Sandbox.
-* Windows Sandbox does not support high dpi displays very well.
-* Windows Sandbox does not fully support multi-monitor configurations.
+__UTF-8 Encoding:__ We’ve made significant improvements to the way Notepad handles encoding. Starting with this build, we are adding the option to save files in UTF-8 without a [Byte Order Mark](https://en.wikipedia.org/wiki/Byte_order_mark) and making this the default for new files. UTF-8 without a Byte Order Mark is backwards-compatible with ASCII and will provide better interoperability with the web, where UTF-8 has become the default encoding. Additionally, we added a column to the status bar that displays the encoding of the document.
 
-## Windows Security app improvements (Build 18305)
+__Other Updates__
 
-__New Protection History experience:__ We have had great feedback on our history experience from users, and we’ve listened!  Based on the suggestions and feedback we’ve received, the Protection history experience in Windows Security has been completely revamped. The new Protection History experience still shows you detections by Windows Defender Antivirus, but it’s now updated to also give more detailed and easier to understand information about threats and available actions. We have also added Controlled folder access blocks to history, along with any blocks which are made through organizational configuration of Attack Surface Reduction Rules. If you use the Windows Defender Offline scanning tool, any detections it makes will now also show in your history.  Additionally, you will see any pending recommendations (red or yellow states from throughout the app) in the history list. We hope you like the changes we’ve made!
+* __[Expanding line support](https://devblogs.microsoft.com/commandline/extended-eol-in-notepad/)__
+* We’ve added support for some additional shortcuts:
+  * Ctrl+Shift+N will open a new Notepad window.
+  * Ctrl+Shift+S will open the Save as… dialog.
+  * Ctrl+W will close the current Notepad window.
+* Notepad can now open and save files with a path that is longer than 260 characters, also known as MAX_PATH.
+* We’ve fixed a bug where Notepad would count lines incorrectly for documents with very long lines.
+* We’ve fixed a bug where, when you select a placeholder file from OneDrive in the File Open dialog, we would download the file to determine its encoding.
+* We’ve fixed a recent regression where Notepad would no longer create a new file when launched with a file path that didn’t exist.
+* We’ve improved the performance when opening large files in Notepad.
+* Notepad now supports Ctrl + Backspace to delete the previous word.
+* Arrow keys now correctly unselect text first and then move the cursor.
+* When saving a file in Notepad, the line and column number no longer reset to 1.
+* Notepad now correctly displays lines that don’t fit entirely on the screen.
 
-![New Protection History](images/18305-2b.png "New Protection History experience")
 
-__Introducing Tamper Protection!__ Tamper Protection is a new setting from Windows Defender Antivirus, available in the Windows Security app, which when on, provides additional protections against changes to key security features, including limiting changes which are not made directly through the Windows Security app. You can find this setting under Windows Security > Virus & Threat Protection > Virus & Threat Protection Settings.
+Starting with this build, we’re making a change so that future Notepad updates will be automatically available via the store. This will allow us the flexibility to respond to issues and feedback outside the bounds of Windows releases. As always, if you have any feedback for Notepad, we welcome it in the Feedback Hub under [Apps > Notepad](http://aka.ms/notepadfeedback).
 
-![Tamper Protection](images/18305-4.png "Tamper Protection")
+## Adding Mouse Cursor speed to Settings (Build 18963)
+You can set your mouse cursor speed from within Settings! This is the latest piece of our larger ongoing effort to converge Settings and Control Panel experiences. You can find the setting under Settings > Devices > Mouse.
 
-## Automatic Restart and Sign On (ARSO) for Enterprises (Build 18305)
-Are you tired of seeing these flashing screens after every update? 
+![Mouse Cursor](images/18963-5.png "Adding Mouse Cursor speed to Settings")
 
-![ARSO1](images/18305-3b2.png "Automatic Restart and Sign On (ARSO) for Enterprises")
-![ARSO2](images/18305-3b.png "Automatic Restart and Sign On (ARSO) for Enterprises2")
+## GPU temperature comes to Task Manager (Build 18963)
+One of the longstanding requests we’ve been tracking for Task Manager is to add temperature monitoring support, and with today’s build we’re making progress on that ask. If you have a dedicated GPU card, we will bubble up the current temperature next to its listing in the Performance Tab.
 
-ARSO is a feature that automatically signs-in a user after an update to finish setting up and then locks the PC. This feature is part of our Seamless Update Story for Windows, and its goal is to reduce customer pain points around updates, including things such as post logon set up time and not being able to pick up where you left off.
-This feature will be enabled on Cloud Domain Joined devices that meet certain security requirements:
-* BitLocker is enabled and is not suspended during the upgrade
-* TPM 2.0
-* SecureBoot
+![Task Manager](images/18963-1.png "GPU temperature comes to Task Manager")
 
-To check if your device will get ARSO go to Settings > Accounts > Sign-in options > Privacy:
+## A redesigned Network Status page in Settings (Build 18956)
+Based on your feedback, we’re revamping the Network & Internet landing page in Settings to provide more information at a glance about your device’s connectivity, combining several pages to give you one clear view of how you are connected to the internet.
+* __New view of active connections:__ We show all available connection interfaces on the Status page, so you can quickly see what is connected and view and change properties as needed. If you have multiple connections, only one will be used for internet connectivity at a time, and that one is still shown in the Status diagram at the top of the page.
 
-![ARSO2](images/18305-4b.png "Automatic Restart and Sign On (ARSO) for Enterprises2")
+![Network status](images/18956-1.png "New view of active connections")
 
-If the toggle is switched “On” and is not grayed out, then the device meets the security requirements for ARSO, and is enabled by default.
-If the toggle is grayed out and Enabled, this means that your IT Admin has explicitly enabled ARSO for you, irrespective of your device’s security requirements.
-If the toggle is grayed out and disabled, this means that you do not meet the minimum security requirements for Enterprise ARSO, or your IT Admin has explicitly disabled ARSO for you, irrespective of your device’s security requirements.
+* __Integrated Data Usage:__ You can see how much data is being used by a network right from the Status page! If it looks like you’re using a lot of data, you can drill into the Data Usage page to create a limit for that network, which will warn you if you get close or go over your limit. You can also see how much data each app is using on that network.
 
+![Network status](images/18956-2.png "Integrated Data Usage")
 
-## Windows Security gets an additional Windows Defender Application Guard setting (Build 18277)
+We hope you like the changes! If you have any feedback about these, you can share it via the Feedback Hub under Network and Internet > Networking Experience – Look and Feel.
 
-Insiders will notice that Isolated browsing has an additional toggle that lets users manage access to their camera and microphone while browsing using Application Guard for Microsoft Edge. If this is managed by enterprise admins, users can check how this setting is configured. For this to be turned on in Application Guard for Microsoft Edge, the camera and microphone setting must already be turned on for the device in **Settings > Privacy > Microphone & Settings > Privacy > Camera**.
+## Notification settings improvements (Build 18956) 
+Thanks everyone who’s tried out our [improvements so far](https://docs.microsoft.com/en-us/windows-insider/at-work-pro/wip-4-biz-whats-new#refining-your-notification-settings-build-18932). To recap what you’ll see when you have the change:
+* If you hover your mouse over an incoming notification, you’ll see a settings icon to make it easy to adjust that app’s notification settings.
+* We’ve updated the design of the per-app notification settings for visual clarity.
+* There’s a direct link to notification settings at the top of the Action Center.
+* Notifications & Action Settings has a checkbox for muting the sound of all notifications.
+* By default, the senders in Notifications & Action Settings are sorted by “most recently sent a notification.”
 
-![Application Guard settings](images/18277-image6.png "Shows the setting screen for Application Guard")
+![Notification settings](images/18956-4.png "Notification settings improvements rolling out to all of Fast")
 
-## Improved Kiosk Setup Experience (Build 17723)
+## Windows Subsystem for Linux (WSL) Improvements (Build 18945) 
+### Added connecting via localhost to WSL 2 Linux apps from Windows and global WSL configuration options
 
-We have introduced a simplified assigned access configuration page in Settings that allows device administrators to easily set up their PC as a kiosk or digital sign. This new page provides a wizard experience that walks you through the kiosk setup flow including creating a kiosk account that will automatically sign in on device start.
+You’ll be able to connect to your WSL 2 Linux networking applications using localhost. For example, the image below shows starting a NodeJS server in a WSL 2 distro, and then connecting to it in the Edge Browser with localhost.
 
-Please go to Settings, search for assigned access, and open the “Set up a kiosk” page to give it a try. We would love to hear your feedback! Let us know via the [Feedback Hub](insiderhub://home/).   
+![WSL 2](images/18945-2.png "Added connecting via localhost to WSL 2 Linux apps from Windows and global WSL configuration options")
 
-![set up a kiosk](images/kiosk-mode.PNG "set up a kiosk")
+Additionally, we’ve added global configuration options for WSL. These are options that will apply to each of your WSL distros. This also allows you to specify options that relate to the WSL 2 virtual machine (VM), as all your WSL 2 distros run inside of the same VM. The most exciting option that you’ll get access to in this build is able to specify a custom Linux kernel!
+For the full details on what’s new in this release, check out [What’s new for WSL in Insiders Preview Build 18945](http://devblogs.microsoft.com/commandline/whats-new-for-wsl-in-insiders-preview-build-18945) on the Windows command line blog.
 
-We are very excited to announce that Microsoft Edge now works with assigned access which allows IT administrators to create a tailored browsing experience designed for kiosk devices. Microsoft Edge kiosk mode supports the following four types.
 
-For Microsoft Edge kiosk mode running in single-app assigned access the two kiosk types are:
-1. __Digital / Interactive signage__ that displays a specific website full-screen InPrivate.
-2. __Public browsing__ supports multi-tab browsing and runs InPrivate with minimal features available. Users cannot minimize, close, or open a new Microsoft Edge windows or customize it using Microsoft Edge Settings. Users can clear browsing data, downloads and restart Microsoft Edge by clicking “End session.” Administrators can configure Microsoft Edge to restart after a period of inactivity.
+## New File Explorer search expereince (Build 18945)
 
-![single app assigned access](images/SingleApp_contosoHotel_inFrame@2x.png "single app assigned access")
+We heard your feedback asking for increased consistency, and to make it easier to find your files. We are happy to announce that you can now take advantage of the new File Explorer search experience – powered by Windows Search. This change will help integrate your OneDrive content online with the traditional indexed results.
 
-For Microsoft Edge kiosk mode running in multi-app assigned access the two kiosk types are (<i>Note the following Microsoft Edge kiosk mode types cannot be setup using the new simplified assigned access configuration page in Windows 10 Settings</i>):
+What does that mean for you? Once you have the new experience, as you type in File Explorer’s search box, you’ll now see a dropdown populated with suggested files at your fingertips that you can pick from.
 
-3. __Public browsing__ supports multi-tab browsing and runs InPrivate mode with minimal features available. In this configuration, Microsoft Edge can be one of many apps available. Users can close and open multiple InPrivate windows.
-![multi-app assigned access](images/Multi-app_kiosk_inFrame@2x.png "multi-app assigned access")
-4. __Normal mode__ runs a full version of Microsoft Edge, although some features may not work depending on what apps are configured in assigned access. For example, if the Microsoft Store is not set up, users cannot get books.
-![normal mode](images/Normal_inFrame.png "normal mode")
+These improved results can be launched directly by clicking the entry in the new suggestions box, or if you want to open the file location, just right-click the entry and there’ll be an option to do so. If you need to use commands or dig deeper into non-indexed locations, you can still press enter and populate the view with the traditional search results.
 
+Showing the new dropdown that appears when you type in File Explorer’s search box.
 
-## New Microsoft Edge Group Policies (Build 17723)
-The Microsoft Edge team introduced new Group Policies and MDM settings for IT administrators to manage Microsoft Edge. The new policies include enabling/disabling full-screen mode, printing, favorites bar, and saving history; prevent certificate error overrides; configuring the Home button and startup options; setting the New Tab page and Home button URL and managing extensions. Learn more about the [new Microsoft Edge policies](https://aka.ms/new-microsoft-edge-group-policies).
+![File Exploer](images/18945-4.png "pdated File Explorer search")
 
-## Microsoft Edge kiosk mode (Build 17713)
+We’ve also updated the design, so as soon as you click the search box in File Explorer (or press CTRL+E to set focus to it), you’ll see the dropdown list with your search history.
 
-Microsoft Edge kiosk mode works with assigned access to let IT administrators create a tailored browsing experience designed for kiosk devices. 
-When you configure Microsoft Edge kiosk mode in assigned access, you can set it up to show only a single URL in full-screen, in the case of digital/interactive signage on a single-app kiosk device. You can restrict Microsoft Edge for public browsing (on a single and multi-app kiosk device) which runs a multi-tab version of InPrivate with limited functionality. Also, you can configure a multi-app kiosk device to run a full or normal version of Microsoft Edge. 
-Learn more about [Microsoft Edge kiosk mode](https://docs.microsoft.com/microsoft-edge/deploy/microsoft-edge-kiosk-mode-deploy).
+If you encounter any issues, or have any feedback, file them under “Files, Folders, and Online Storage” > “File Explorer” in the Feedback Hub.
 
-## Web sign-in to Windows 10 (Build 17713)
-Until now, Windows logon only supported the use of identities federated to ADFS or other providers that support the WS-Fed protocol. We are introducing “web sign-in,” a new way of signing into your Windows PC. Web sign-in enables Windows logon support for non-ADFS federated providers (e.g.SAML).
+>[!NOTE]
+>You may notice in the screenshot, we’ve made the File Explorer search box wider so the suggestions dropdown has a bit more room to show results – that’s not a new option, but we figured you might want to know how to do it: just move your mouse to the starting border of the search box, and your mouse should turn into a resizing double arrow cursor. Just click down and drag the search box to be a bit wider.
 
-![web sign-in](images/WebSignIn.png "web sign-in")
 
-### To try out web sign-in:
-1. Azure AD Join your Windows 10 PC. (Web sign-in is only supported on Azure AD Joined PCs).
-2. Set the Policy CSP/Authentication/EnableWebSignIn policy to enable web sign-in. 
-3. On the lock screen, select web sign-in under sign-in options.
-4. Click the “Sign in” button to continue.
+## New Cortana experience for Windows 10 (Build 18945)
+Now available, a new Cortana experience for Windows 10 as a Beta to Windows Insiders in the U.S. This new experience features a brand-new chat-based UI that gives you the ability to type or speak natural language queries.
 
-## Faster sign-in to a Windows 10 shared pc (Build 17713)
-Do you have shared PCs deployed in your work place? Introducing “fast sign-in,” which enables users to sign in to a shared Windows 10 PC in a flash!
-![fast sign-in](images/FastSignIn.png "fast sign-in")
+![Cortana](images/18945-1.png "Introducing a new Cortana experience for Windows 10 ")
 
-### To enable fast sign-in,
-1. Set up a shared or guest PC with Windows 10
-2. Set Policy/Authentication/EnableFastFirstSignIn to enable fast sign-in
-3. With the policy enabled, sign-in to a shared PC with your account and notice the difference!
+It supports most of the Cortana features people enjoy using on Windows, such as Bing answers, Assistant conversations, opening apps, managing lists, and setting reminders, alarms, and timers. And we’ve added some new features we think people will enjoy:
 
-## Windows Defender Application Guard Improvements (Build 17713)
-Windows Defender Application Guard introduced a new user interface inside Windows Security in this release. Standalone users can now install and configure their Windows Defender Application Guard settings in Windows Security without needing to change Registry key settings. 
+* Cortana supports both light and dark themes in Windows.
+* We have created a new, less intrusive screen for “Hey Cortana” queries so you can stay in the flow while you work.
+* We have updated Cortana with new speech and language models, and significantly improved performance – making it faster and more reliable than ever before.
 
-Additionally, users who are managed by enterprise policies will be able to check their settings to see what their administrators have configured for their machines to better understand the behavior of Windows Defender Application Guard. This new UI aims to improve the overall experience for users to manage and check their Windows Defender Application Guard settings. As long as devices meet the minimum requirements, these settings will appear in Windows Security.For detailed information, click [here](https://techcommunity.microsoft.com/t5/Windows-Insider-Program/test/m-p/214102#M1709).
+Not all the features from the previous Cortana experience are available just yet. As a Beta, we plan to add more features over time with updates to Cortana from the Microsoft Store.
 
-To check this out, 
-1. go to Windows Security and select App & browser control.
-![Security at a glance](images/1_AppBrowser.png "app and browser control")
-2. Select Install Windows Defender Application Guard under Isolated browsing, install and restart the device (only for standalone users).
-![Isolated browser](images/2_InstallWDAG.png "isolated browsing")
-3. Select Change Application Guard settings.
-![change WDAG settings](images/3_ChangeSettings.png "change settings")
-4. Configure or check Application Guard Settings.
-![view WDAG settings](images/4_ViewSettings.jpg "view settings")
+To get started, choose the Cortana icon on the taskbar next to the search box. You can also leverage the speed and convenience of voice with improved speech recognition by simply saying “Hey Cortana”*. You may need to sign-in with your account to get started.
 
+>[!NOTE]
+>This requires enabling this functionality in Settings > Voice activation privacy settings  – Talk to Cortana. 
 
-## Remote Desktop with Biometrics (Build 17713)
-We’re happy to share that with this build of Windows 10, Azure Active Directory and Active Directory users using Windows Hello for Business can use biometrics to authenticate to a remote desktop session!
+Additional markets and languages will become available at a later date. You must be signed in to use Cortana. Historically, there were quite a few skills that could be used unauthenticated (Bing answers, open apps, Assistant conversations) but this is no longer the case.
 
-![Enter your credentials](images/RDPwBioTime.png "Windows Hello")
+## Refining your notification settings (Build 18932)
+Over the last few releases, based on your feedback, we’ve been working on giving you more control over potential interruptions. [Introducing Focus Assist](https://blogs.windows.com/windowsexperience/2018/05/09/windows-10-tip-how-to-enable-focus-assist-in-the-windows-10-april-2018-update/#6pHjPV1ym9QaGIuO.97) to automatically suppress notifications when you’re trying to stay in the moment and not get distracted, and adding the option to use middle click to dismiss notifications if you want to quickly make a notification toast go away.
+One thing we’ve heard from you, though, is that our notification settings aren’t easily discoverable. In addition, once you find the settings, they can be difficult to understand.
+In order to address this, we’ve made a few changes, including:
+1. When you receive a notification toast, there will be an inline option to turn off notifications for that app, or head to the app’s notification settings.
 
-To get started, bring up Remote Desktop Connection (mstsc.exe), type the name of the computer to which you want to connect and tap or click __Connect__.
+![Notifications](images/18932-5.gif "settings")
 
-Because you signed using Windows Hello for Business, Windows remembers how you signed in and automatically selects Windows Hello for Business to authenticate you to your RDP session but, you can click __More choices__ to choose alternate credentials.
+2. When you dive into an app’s notification settings, you’ll find that we’ve added pictures to help articulate the impact of a certain settings.
 
-![Enter your credentials](images/RDPwBio2.png "Windows Hello personal")
+![Notifications](images/18932-6.png "UI updates - settings")
 
-In this example, Windows uses facial recognition to authenticate the RDP session to the Windows Server 2016 Hyper-V server. You can continue to use Windows Hello for Business in the remote session, but you must use your PIN.
+3. Prefer to have all your notifications muted? You no longer have to go to the old sound control panel to do that – we’ve added it as a top-level option in Notification & Actions Settings.
 
-![Microsoft Hyper-V Server 2016](images/hyper-v.png "Microsoft Hyper-V Server 2016")
+4. But wait, there’s more! We’ve also added a new direct link at the top of the Action Center to manage notifications, so it takes one less step to get to Notification & Actions settings. To make room for this we’ve moved the “no notifications” text down to the middle of the Action Center, which also means your eyes don’t have to traverse as far to see it when you launch the Action Center from the bottom of the screen.
 
-## Windows 10 Pro S Mode requires a network connection (Build 17712)
+![Notifications](images/18932-7.png "settings")
 
-Starting with Windows 10 Pro S Mode build 17712, a network connection is now required to set up a new device. As a result, we removed the “skip for now” option in the network setup page in OOBE. 
+5. Finally, ever dismissed a notification you wanted to disable, and went to Notification & Actions Settings only to find the list of notification senders to be really long? You can sort the list by which apps most recently sent notifications.
 
-## Registry editor improvements (Build 17711)
+![Notifications](images/18932-8.png "settings")
 
-Have you ever been typing into the regedit address bar, and the next part of the path is just on the tip of your tongue, but you can’t remember? Starting with build 17711, you’ll see a dropdown as you type to help complete the next part of the path. You can also press Ctrl + Backspace to delete the last "word," which makes backing up work that much faster (Ctrl + Delete will delete the next word).
+## Windows Subsystem for Linux 2 (Build 18917)
+WSL 2 is a new version of the architecture that powers the Windows Subsystem for Linux to run ELF64 Linux binaries on Windows. This new architecture, which uses a real Linux kernel, changes how these Linux binaries interact with Windows and your computer’s hardware, but still provides the same user experience as in WSL 1 (the current widely available version). WSL 2 delivers a much faster file system performance and full system call compatibility, which lets you run more applications like Docker!
+[Read more about the release of WSL 2](https://devblogs.microsoft.com/commandline/wsl-2-is-now-available-in-windows-insiders/).
 
-![Registry editor dropdown](images/regeditor.png "Registry editor dropdown")
+![WSL](images/18917-2.gif "Introducing Windows Subsystem for Linux 2")
 
-## Security updates (Build 17704)
+## New download throttling options for Delivery Optimization (Build 18917)
+We’ve heard from our users with very low connection speeds that setting download throttling as a percentage of available bandwidth isn’t providing enough relief in reducing the impact on their network. That’s why we’ve added a new option to throttle the bandwidth used by Delivery Optimization as an absolute value. You can set this separately for Foreground downloads (downloads that you initiate from Windows Store for example) or background downloads. This option already exists for IT Pros who use Group Policies or MDM policies to configure Delivery Optimization. In this build, we’ve made it easier to set via the settings page. You can access this option via Settings > Update & Security > Delivery Optimization > Advanced Options
 
-We’ve continued to work on the **Current threats** area in  [Virus & threat protection](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-security-center/wdsc-virus-threat-protection), which now displays all threats that need action. You can quickly take action on threats straight from this screen: 
+![Delivery Optimization](images/18917-1.jpg "New download throttling options")
 
-![Virus & threat protection settings](images/virus-and-threat-protection.png "Virus & threat protection settings")
 
-You can enable a new protection setting, **Block suspicious behaviors**, which brings [Windows Defender Exploit Guard attack surface reduction technology](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/attack-surface-reduction-exploit-guard) to all users. To enable this setting, go to the Virus & threat protection section and click **Manage settings**, as shown in the following screenshot:
+## Disk type visible in Task Manager Performance tab (Build 18898)
+A small, but perhaps convenient change — you’ll be able to see the disk type (e.g. SSD) for each disk listed in Task Manager’s performance tab. This is particularly helpful in cases where you have multiple disks listed, so you can differentiate between them.
 
-![Block suspicious behaviors](images/block-suspicious-behaviors.png "Block suspicious behaviors")
+![dictation](images/18898-1.png "expanded language support")
 
-With Controlled folder access you can help prevent ransomware and other destructive malware from changing your personal files. In some cases, apps that you normally use might be blocked from making changes to common folders like Documents and Pictures. We’ve made it easier for you to add apps that were recently blocked so you can keep using your device without turning off the feature altogether.
+## Improved Windows Sandbox accessibility (Build 18855)
+We have made several updates to improve Windows Sandbox accessibility scenarios. This includes: 
+* Microphone support
+* Added functionality to configure the audio input device via the Windows Sandbox config file
+* A Shift + Alt + PrintScreen key sequence in Windows Sandbox which activates the ease of access dialog for enabling high contrast mode.
+* A ctrl + alt + break key sequence in Windows Sandbox which allows entering/exiting fullscreen mode
 
-When an app is blocked, it will appear in a recently blocked apps list, which you can get to by clicking **Manage settings** under the **Ransomware protection** heading, and then **Allow an app through Controlled folder access**. After the prompt, click the plus button and choose **Recently blocked apps**. Select any of the apps to add them to the allowed list. You can also browse for an app from this page as well.
-
-We've added a new assessment for the Windows time service to the **Device performance & health** section. If we detect that your device’s time is not properly synced with our time servers and the time-syncing service is disabled, we’ll provide the option for you to turn it back on.
-
-We’re continuing to work on how other security apps you’ve installed show up in the Windows Security app. There’s a new page called **Security providers** that you can find in the Settings section of the app. Click **Manage providers** to see a list of all the other security providers (including antivirus, firewall, and web protection) that are running on your device. Here you can easily open the providers’ apps, or get more information on how to resolve any issue that they have reported to you through the Windows Security app.
-
-This also means you’ll see more links to other security apps within the Windows Security app. For example, if you open the **Firewall & network protection** section, you’ll see the firewall apps that are running on your device under each firewall type (domain, private, and public networks).
- 
-The Windows Security Center (WSC) service now requires antivirus products to run as a protected process to register. Products that have not yet implemented this will not appear in the Windows Security UI, and Windows Defender Antivirus will remain enabled side-by-side with these products. 
-For testing purposes, you can disable this new behavior in Windows Insider builds by creating the following registry key and rebooting the device.  This key will be removed as we get closer to release. 
-
-<pre>HKLM\SOFTWARE\Microsoft\Security Center\Feature 
-DisableAvCheck (DWORD) = 1 </pre>
-
-## Windows Defender Security Center is now called Windows Security (Build 17661)
-
-You can still get to the app in all the usual ways – simply ask Cortana to open Windows Security or interact with the taskbar icon. Windows Security lets you manage all your security needs, including Windows Defender Antivirus and Windows Defender Firewall. 
-
-## Windows Security Center gets a Fluent Design refresh (Build 17650)
-We’ve heard your feedback and we’ve updated Windows Security Center (WSC) to include the Fluent Design elements you know and love. You’ll also notice we’ve adjusted the spacing and padding around the app and will now dynamically size the categories on the main page if more room is needed for extra info. Last but not least, we’ve also updated the title bar of the app so that it will now use your accent color if you’ve enabled that option in Color Settings – with Sets enabled, you will see this color in the WDSC tab.
-
-![Defender fluent design](images/Defender.png "Windows Security Center")
-
-
-## Windows Defender Firewall now supports Windows Subsystem for Linux (WSL) processes (Build 17627)
-You can add specific rules for a WSL process in Windows Defender Firewall, just as you would for any Windows process. Also, Windows Defender Firewall now supports notifications for WSL processes. For example, when a Linux tool wants to allow access to a port from the outside (like SSH or a web server like nginx), the Windows Defender Firewall will prompt to allow access just like it would for a Windows process when the port starts accepting connections. This was first introduced in [Build 17627](https://docs.microsoft.com/windows/wsl/release-notes#build-17618-skip-ahead).
-
-## Windows Autopilot self-deploying mode (Build 17672)
-
-Windows AutoPilot has a self-deploying mode in RS5 that enables a zero touch device provisioning experience. Simply power on the device, plug it into the Ethernet, and the device is fully configured automatically by Windows Autopilot. 
-
-This self-deploying capability removes the current need to have an end user interact by pressing a “Next” button during the deployment processes. In addition, the activities opt-in page in OOBE has also been removed from all Insider Preview builds. 
-
-Utilize Windows Autopilots self-deploying mode to completely register the device to an AAD tenant, enroll in your organization’s MDM provider, ensure all policies, applications, etc. are correctly provisioned on the device with no user authentication or user interaction required, before the end user even logs in. 
-
-To learn more about the Autopilot Self-Deploying feature and see the step by step instructions to perform such a deployment, [click here](https://docs.microsoft.com/windows/deployment/windows-autopilot/self-deploying). 
-
-## Windows Defender Credential Guard is supported by default on 10S devices that are AAD Joined
-
-Windows Defender Credential Guard is a security service in Windows 10 built to protect Active Directory domain (AD) credentials so that they can't be stolen or misused by malware on a users machine. It is designed to protect against well-known threats such as Pass-the-Hash and credential harvesting.
-
-Windows Defender Credential Guard has always been an optional feature, but Windows 10-S turns this functionality on by default when the machine has been AAD joined. This provides an added level of security when connecting to domain resources not normally present on 10-S devices. Please note that Windows Defender Credential Guard is available only to S-Mode devices or Enterprise and Education Editions. 
-
-To evaluate: Windows Defender Credential Guard is preconfigured and enabled for both S-Mode and Enterprise Edition in the [Windows Insider Lab for Enterprise](https://olympia.windows.com/). To configure manually in your own lab environment: 
-
-1.	Set up Intune and enroll a device. [Request an Intune trial](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility-security-trial). 
-2.	Navigate to the [Azure portal](https://portal.azure.com) and sign in with an Intune admin account.
-3.	On the left navigation bar, click __All services__ and search for Intune. 
-4.	In Intune, click on __Device configuration>Profiles__ and click __+ Create profile__.
-6.	Under "Platform", select __Windows 10 and later__. 
-7.  Under "Profile Type", select __Endpoint Protection__. 
-7.	In Settings, click __Windows Defender Credential Guard__ and select __Enable with UEFI Lock__.
-
-## BitLocker silent enforcement on fixed drives
-
-Through an MDM policy, BitLocker can silently be enabled for standard AAD Joined users. In RS4 (Windows 10 build 1803) automatic BitLocker encryption was enabled for standard AADJ users, but this still required modern hardware that passed the Hardware Security Test Interface (HSTI). This new feature functionality enables BitLocker via policy even on devices that don’t pass the HSTI. 
-
-This is an update to the [BitLocker CSP](https://docs.microsoft.com/windows/client-management/mdm/bitlocker-csp), which was introduced in Windows 10 build 1703, and leveraged by Intune and others. 
-This feature will soon be enabled on Olympia Corp as an optional feature.
-
-##  Delivering BitLocker policy to AutoPilot devices during OOBE 
-
-As an IT admin you can choose which encryption algorithm to apply to a device on your automatic BitLocker encryption capable devices, rather than automatically having those devices encrypt themselves with the default algorithm. This new functionality allows the encryption algorithm, and other BitLocker policies that must be applied prior to encryption starting, to get delivered before automatic BitLocker encryption begins. 
-
-For example, as an IT admin for your organization you can choose the XTS-AES 256 encryption algorithm, and have it applied even for devices that would normally encrypt themselves automatically with the default XTS-AES 128 algorithm during OOBE.
-
-To evaluate: This feature is preconfigured in the [Windows Insider Lab for Enterprise](https://olympia.windows.com/). For the steps needed to automatically deploy a device with Bitlocker policy, connect a client device to Olympia Corp and follow the AutoPilot quest. 
-
-
-
+## Windows Sandbox configuration file support (Build 18841)
+Windows Sandbox supports configuration files! These files allow users to configure some aspects of the sandbox, such as vGPU, networking and shared folders. [Check out the blog post explaining this new feature](https://aka.ms/WindowsSandbox_ConfigFile).
