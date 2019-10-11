@@ -24,18 +24,18 @@ With the latest flight, we’re taking another step forward in our Passwordless 
 * Boot your device into Safe mode: 
 1. Go to Settings > Update and Security > Recovery. 
 2. Under Advanced startup select Restart now. 
-3. After your PC restarts to the Choose an option screen, select Troubleshoot > Advanced options > Startup Settings > Restart. You may be asked to enter your [BitLocker recovery key](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fsupport.microsoft.com%2Fen-us%2Fhelp%2F4026181&data=02%7C01%7Cv-alshie%40microsoft.com%7C782d56759fc64df7976308d745c31bc7%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637054576615768081&sdata=ubrFbY5rd7iUOGJjk4%2FhQEvlyfeFkSoNsb209rzr6hU%3D&reserved=0). 
+3. After your PC restarts to the Choose an option screen, select Troubleshoot > Advanced options > Startup Settings > Restart. You may be asked to enter your [BitLocker recovery key](https://support.microsoft.com/help/4026181/windows-10-find-my-bitlocker-recovery-key). 
 4. After your PC restarts, you’ll see a list of options. Select 4 or press F4 to start your PC in Safe Mode. You can also select 5 or press F5 to use Safe Mode with Networking.
 * Sign in to your device with your Windows Hello PIN
 
 ![PIN access in safe made](images/18995-1.png "lock screen showing use of PIN in safe mode")
 
 ## Windows Subsystem for Linux (WSL) Improvements (Build 18995)
-See the [WSL release notes](https://docs.microsoft.com/en-us/windows/wsl/release-notes) for the newest improvements in the latest Insider Preview builds.
+See the [WSL release notes](https://docs.microsoft.com/windows/wsl/release-notes) for the newest improvements in the latest Insider Preview builds.
 
 
 ## Enabling automatic restart for UWP apps (Build 18990)
-Last month, we introduced a new [separate setting](https://docs.microsoft.com/en-us/windows-insider/at-home/whats-new-wip-at-home-20h1#control-over-restarting-apps-at-sign-in-build-18965) to control if [registered desktop apps](https://docs.microsoft.com/en-us/windows/win32/recovery/registering-for-application-restart) from your previous sign-in session are restarted when signing back in to Windows. In the latest Insider Preview builds, in addition to registered desktop apps, when you opt into this setting, the majority of open UWP apps are now also automatically restarted as well! To reduce sign-in time, UWP apps are restarted minimized, in a suspended state, giving Windows and other apps more resources to get started. To try it out:
+Last month, we introduced a new [separate setting](https://docs.microsoft.com/windows-insider/at-home/whats-new-wip-at-home-20h1#control-over-restarting-apps-at-sign-in-build-18965) to control if [registered desktop apps](https://docs.microsoft.com/windows/win32/recovery/registering-for-application-restart) from your previous sign-in session are restarted when signing back in to Windows. In the latest Insider Preview builds, in addition to registered desktop apps, when you opt into this setting, the majority of open UWP apps are now also automatically restarted as well! To reduce sign-in time, UWP apps are restarted minimized, in a suspended state, giving Windows and other apps more resources to get started. To try it out:
 1. Go to Settings > Accounts > Sign-in options and turn on “Automatically save my restartable apps when I sign out and restart them after I sign in.” under “Restart apps”.
 2. Start one or more UWP apps, such as Feedback Hub.
 3. Sign out and then sign back into Windows.
@@ -46,10 +46,10 @@ UWP apps that were started, such as Feedback Hub, should restart minimized with 
 * Improved the performance for directory listings in \\wsl$
 * (WSL2) Injected additional boot entropy [Github Issue 4461]
 * (WSL2) Fixed Windows interop when using su / sudo commands [Github issue 4465]
-For the full details of changes in this latest Insider Preview build, please see the [WSL release notes](https://docs.microsoft.com/en-us/windows/wsl/release-notes).
+For the full details of changes in this latest Insider Preview build, please see the [WSL release notes](https://docs.microsoft.com/windows/wsl/release-notes).
 
 ## Reset your PC from the cloud (Build 18990)
-Earlier today in our Windows Insider webcast, we had the Deployment Team as guests to talk about the new feature that is coming with 20H1 that allows you to reset your PC using the cloud. For more information, check out this [article from Program Manager Aaron Lower](https://insider.windows.com/en-us/articles/optimize-windows-10-pc-reset-using-the-cloud/). 
+Earlier today in our Windows Insider webcast, we had the Deployment Team as guests to talk about the new feature that is coming with 20H1 that allows you to reset your PC using the cloud. For more information, check out this [article from Program Manager Aaron Lower](https://insider.windows.com/articles/optimize-windows-10-pc-reset-using-the-cloud/). 
 
 ## Improving your Bluetooth pairing experience (Build 18985)
 
@@ -82,7 +82,7 @@ For the full details of changes in this latest Insider Preview build, please see
 ![WSL2](images/18980-1.png "a fix for a long-standing issue for legacy Windows symlinks")
 
 ## Introducing the ability to move the Cortana window (Build 18975)
-With the [new conversational Cortana experience](https://docs.microsoft.com/en-us/windows-insider/at-home/whats-new-wip-at-home-20h1#introducing-a-new-cortana-experience-for-windows-10-build-18945), we understand that you wanna keep the chat going sometimes, and the default position of the window isn’t always where you’d prefer to have it docked if you’re going to have a longer back and forth. That’s why we’re starting to roll out the option to be able to move the window (by dragging the title bar area), to anywhere you’d like on the screen–just like you can with other windows. You can also resize the window if you’d like. 
+With the [new conversational Cortana experience](https://docs.microsoft.com/windows-insider/at-home/whats-new-wip-at-home-20h1#introducing-a-new-cortana-experience-for-windows-10-build-18945), we understand that you wanna keep the chat going sometimes, and the default position of the window isn’t always where you’d prefer to have it docked if you’re going to have a longer back and forth. That’s why we’re starting to roll out the option to be able to move the window (by dragging the title bar area), to anywhere you’d like on the screen–just like you can with other windows. You can also resize the window if you’d like. 
 
 Please note that we’re still in the process of expanding language/region support of the new Cortana app (as discussed here), and Insiders outside of English (United States) will see a message when launching Cortana saying “Cortana isn’t available.” We’ll update you when the availability increases.
 
