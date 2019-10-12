@@ -64,10 +64,13 @@ For details regarding the 19H2 feature update for Windows 10, see [Evolving Wind
 **19H2 in the Release Preview ring:**
 
 | Build | Release Preview | ISO |
-|-------|------|------|
-|18363.385*|[**9/23/2019**](https://blogs.windows.com/windowsexperience/2019/08/26/testing-the-throttled-delivery-approach-for-19h2/#rzLtlTlO7Lsx91fy.97)||
-|18363.329*|[8/29/2019](https://blogs.windows.com/windowsexperience/2019/08/26/testing-the-throttled-delivery-approach-for-19h2/#rzLtlTlO7Lsx91fy.97)|[**9/3/2019**](https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewadvanced)|
-|18363.327*|[8/26/2019](https://blogs.windows.com/windowsexperience/2019/08/26/testing-the-throttled-delivery-approach-for-19h2/#rzLtlTlO7Lsx91fy.97)||
+|-------|-----------------|-----|
+|18363.418*|[**10/8/2019**](https://blogs.windows.com/windowsexperience/2019/08/26/testing-the-throttled-delivery-approach-for-19h2/)||
+|18363.388*|[10/3/2019](https://blogs.windows.com/windowsexperience/2019/08/26/testing-the-throttled-delivery-approach-for-19h2/)||
+|18363.387*|[9/27/2019](https://blogs.windows.com/windowsexperience/2019/08/26/testing-the-throttled-delivery-approach-for-19h2/)||
+|18363.385*|[9/23/2019](https://blogs.windows.com/windowsexperience/2019/08/26/testing-the-throttled-delivery-approach-for-19h2/)||
+|18363.329*|[8/29/2019](https://blogs.windows.com/windowsexperience/2019/08/26/testing-the-throttled-delivery-approach-for-19h2/)|[**9/3/2019**](https://www.microsoft.com/software-download/windowsinsiderpreviewadvanced)|
+|18363.327*|[8/26/2019](https://blogs.windows.com/windowsexperience/2019/08/26/testing-the-throttled-delivery-approach-for-19h2/)||
 
 >[!NOTE]
 > "*" denotes that the update went out to only a subset of Windows Insiders in the Release Preview ring which means not everyone in the Release Preview ring will see the update.
@@ -76,7 +79,8 @@ For details regarding the 19H2 feature update for Windows 10, see [Evolving Wind
 
 | Build | Slow |
 |-------|------|
-|18362.10019|[**9/5/2019**](https://blogs.windows.com/windowsexperience/2019/09/05/announcing-windows-10-insider-preview-build-18362-10019-19h2/)|
+|18362.10022|[**9/25/2019**](https://blogs.windows.com/windowsexperience/2019/09/25/announcing-windows-10-insider-preview-build-18362-10022-19h2/)|
+|18362.10019|[9/5/2019](https://blogs.windows.com/windowsexperience/2019/09/05/announcing-windows-10-insider-preview-build-18362-10019-19h2/)|
 |18362.10015*|[8/19/2019](https://blogs.windows.com/windowsexperience/2019/08/19/announcing-windows-10-insider-preview-build-18362-10014-18362-10015-19h2/)|
 |18362.10014|[8/19/2019](https://blogs.windows.com/windowsexperience/2019/08/19/announcing-windows-10-insider-preview-build-18362-10014-18362-10015-19h2/)|
 |18362.10013*|[8/8/2019](https://blogs.windows.com/windowsexperience/2019/08/08/announcing-windows-10-insider-preview-build-18362-10012-18362-10013-19h2/)|
