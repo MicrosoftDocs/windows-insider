@@ -13,13 +13,13 @@ ms.prod: w10
 ---
 
 # Windows app updates 
-You will find information on the latest major app updates for Windows 10 released to Windows Insiders here. Currently, app updates are sorted by date in which announcements of the app updates are made. 
+You will find information on the latest major app updates for Windows 10 released to Windows Insiders here. These updates are currently available using PCs running Windows 10 Version 1903. 
 
 _Note:_ Not all app updates will be listed here. Only app updates that include major changes e.g. new features, etc. will be noted here.
 
 ## Your Phone 
-These updates are currently available using PCs running Windows 10 Insider Preview Builds (19H1). 
 
+__10/8/2019__
 ## Your Phone app – unveiling Calls, now even more ways to stay connected to what matters 
 We first announced the Calls feature at the Samsung Unpacked event in August, and you saw a live demo at last week’s Surface event. Today, we’re excited to unveil the Calls feature to the Windows Insider community. Check out this early preview and let us know what you think. 
 
@@ -376,7 +376,7 @@ __9/24/2019__
 ## Track Achievements and frame rate 
 In case you hadn’t seen, we’ve rolled out an FPS counter in the Performance overlay and added a new Achievement overlay! Use the Achivements overlay to track your progress and see what you've unlocked. View the frame rate of the game you're playing with the FPS counter. Thanks to everyone who shared feedback so far. The update will come via the Microsoft Store. Just set focus to your favorite game and press WIN + G to get started.
 
-NOTE: You’ll find the new achievement overlay and frame rate counter in version V3.33.26001.0 or higher of the Xbox Game Bar which are available in the latest Insider Preview builds. To check that you have the correct version of the Game Bar installed, open your Xbox Game Bar and go to settings (gear icon, upper right). If you do not have the Xbox Game Bar or need to download the latest version, first download the Xbox Insider Hub from the Mi, then go to Insider Content and click on "Game Bar (Windows Gaming)" to get the latest version from the Microsoft Store. 
+NOTE: You’ll find the new achievement overlay and frame rate counter in version V3.33.26001.0 or higher of the Xbox Game Bar. To check that you have the correct version of the Game Bar installed, open your Xbox Game Bar and go to settings (gear icon, upper right). If you do not have the Xbox Game Bar or need to download the latest version, first download the Xbox Insider Hub from the Microsoft Store, then go to Insider Content and click on "Game Bar (Windows Gaming)". 
 
 ![xbox game bar updates](images/18990-1.jpg "FPS counter and achievement overlay")
 
