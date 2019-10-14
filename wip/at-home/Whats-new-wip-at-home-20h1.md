@@ -12,6 +12,7 @@ ms.prod: w10
 ---
 
 # What's new for Windows 10 Insider Preview Builds (20H1)
+
 The [Windows Insider Program](https://insider.windows.com/en-us/) lets you preview builds of the upcoming 20H1 release of Windows 10. This topic lists all new Windows 10 features for you to try.
 
 
@@ -33,7 +34,6 @@ With the latest flight, we’re taking another step forward in our Passwordless 
 ## Windows Subsystem for Linux (WSL) Improvements (Build 18995)
 See the [WSL release notes](https://docs.microsoft.com/windows/wsl/release-notes) for the newest improvements in the latest Insider Preview builds.
 
-
 ## Enabling automatic restart for UWP apps (Build 18990)
 Last month, we introduced a new [separate setting](https://docs.microsoft.com/windows-insider/at-home/whats-new-wip-at-home-20h1#control-over-restarting-apps-at-sign-in-build-18965) to control if [registered desktop apps](https://docs.microsoft.com/windows/win32/recovery/registering-for-application-restart) from your previous sign-in session are restarted when signing back in to Windows. In the latest Insider Preview builds, in addition to registered desktop apps, when you opt into this setting, the majority of open UWP apps are now also automatically restarted as well! To reduce sign-in time, UWP apps are restarted minimized, in a suspended state, giving Windows and other apps more resources to get started. To try it out:
 1. Go to Settings > Accounts > Sign-in options and turn on “Automatically save my restartable apps when I sign out and restart them after I sign in.” under “Restart apps”.
@@ -47,6 +47,13 @@ UWP apps that were started, such as Feedback Hub, should restart minimized with 
 * (WSL2) Injected additional boot entropy [Github Issue 4461]
 * (WSL2) Fixed Windows interop when using su / sudo commands [Github issue 4465]
 For the full details of changes in this latest Insider Preview build, please see the [WSL release notes](https://docs.microsoft.com/windows/wsl/release-notes).
+
+## Xbox Game Bar Updates (Build 18990)
+In case you hadn’t seen, we’re starting to roll out an FPS counter and achievement overlay! Thanks to everyone who shared feedback about this. The update will come via the Microsoft Store. Just set focus to your favorite game and press WIN + G to get started.
+
+NOTE: You may have to be joined to receive Game Bar updates via the Xbox Insider Hub app (under Insider Content) from the Microsoft Store to see this update.
+
+![xbox game bar updates](images/18990-1.jpg "FPS counter and achievement overlay")
 
 ## Reset your PC from the cloud (Build 18990)
 Earlier today in our Windows Insider webcast, we had the Deployment Team as guests to talk about the new feature that is coming with 20H1 that allows you to reset your PC using the cloud. For more information, check out this [article from Program Manager Aaron Lower](https://insider.windows.com/articles/optimize-windows-10-pc-reset-using-the-cloud/). 
@@ -82,6 +89,7 @@ For the full details of changes in this latest Insider Preview build, please see
 ![WSL2](images/18980-1.png "a fix for a long-standing issue for legacy Windows symlinks")
 
 ## Introducing the ability to move the Cortana window (Build 18975)
+
 With the [new conversational Cortana experience](https://docs.microsoft.com/windows-insider/at-home/whats-new-wip-at-home-20h1#introducing-a-new-cortana-experience-for-windows-10-build-18945), we understand that you wanna keep the chat going sometimes, and the default position of the window isn’t always where you’d prefer to have it docked if you’re going to have a longer back and forth. That’s why we’re starting to roll out the option to be able to move the window (by dragging the title bar area), to anywhere you’d like on the screen–just like you can with other windows. You can also resize the window if you’d like. 
 
 Please note that we’re still in the process of expanding language/region support of the new Cortana app (as discussed here), and Insiders outside of English (United States) will see a message when launching Cortana saying “Cortana isn’t available.” We’ll update you when the availability increases.
@@ -291,7 +299,7 @@ To get started, choose the Cortana icon on the taskbar next to the search box. Y
 
 __Note:__ 
 * Starting with Build 18980, all Insiders worldwide will see the Cortana icon and the new app. In a future Cortana app update, customers will have the option to use Cortana if they speak a supported language, regardless of their OS display language. 
-* The new Cortana app currently supports English (United States)—because Cortana is service backed. We can and will continue to add new languages over the coming months outside the bounds of OS build updates. We expect to support the same set of regions and languages we [currently support in retail](https://support.microsoft.com/en-us/help/4026948/cortanas-regions-and-languages) by 20H1 launch. We will share more details of our language rollout plans as they progress and appreciate your patience during this transition period.
+* The new Cortana app currently supports English (United States)—because Cortana is service backed. We can and will continue to add new languages over the coming months outside the bounds of OS build updates. We expect to support the same set of regions and languages we [currently support in retail](https://support.microsoft.com/help/4026948/cortanas-regions-and-languages) by 20H1 launch. We will share more details of our language rollout plans as they progress and appreciate your patience during this transition period.
 * Historically, there were quite a few skills that could be used unauthenticated (Bing answers, open apps, Assistant conversations) but this is no longer the case. Only limited skills are currently supported in the new experience. We’ll be bringing back many skills over the coming months.
 
 
@@ -447,7 +455,7 @@ As we mentioned last week, you may notice that Windows Ink Workspace has changed
 
 ![Windows Ink](images/18917-3.jpg "Windows Ink Workspace Updates")
 
-As part of this, Windows Ink Workspace now takes up less screen real estate, and we’re converging our whiteboarding experiences with a new direct link to our [Microsoft Whiteboard app](https://products.office.com/en-us/microsoft-whiteboard/digital-whiteboard-app). Microsoft Whiteboard is a freeform digital canvas where ideas, content, and people can come together. It includes an infinite canvas, optional backgrounds (including graph paper and solid dark grey) to choose from, rainbow ink support, multiple pages, and generally addresses much of the feedback you shared with us about Sketchpad. If you used Sketchpad, don’t worry – we saved the sketch you were working on in your Pictures folder.
+As part of this, Windows Ink Workspace now takes up less screen real estate, and we’re converging our whiteboarding experiences with a new direct link to our [Microsoft Whiteboard app](https://products.office.com/\/microsoft-whiteboard/digital-whiteboard-app). Microsoft Whiteboard is a freeform digital canvas where ideas, content, and people can come together. It includes an infinite canvas, optional backgrounds (including graph paper and solid dark grey) to choose from, rainbow ink support, multiple pages, and generally addresses much of the feedback you shared with us about Sketchpad. If you used Sketchpad, don’t worry – we saved the sketch you were working on in your Pictures folder.
 
 We heard your feedback, and we’ve streamlined the Windows Ink Workspace for you. Stay tuned as we continue to evolve! Once the new experience arrives on your PC, please take a moment to try it out and share feedback via Feedback Hub under Desktop Environment > Windows Ink Workspace. If the Windows Ink Workspace icon isn’t visible in your taskbar, you can show it by right-clicking the taskbar and selecting “Show Windows Workspace Icon.”
 
@@ -510,7 +518,7 @@ As many of you know, we’ve been working on bringing SwiftKey’s typing intell
 
 Afrikaans (South Africa),  Albanian (Albania),  Arabic (Saudi Arabia),  Armenian (Armenia), Azerbaijani (Azerbaijan), Basque (Spain), Bulgarian (Bulgaria), Catalan (Spain), Croatian (Croatia), Czech (Czech Republic), Danish (Denmark), Dutch (Netherlands), Estonian (Estonia), Finnish (Finland), Galician (Spain), Georgian (Georgia), Greek (Greece), Hausa (Nigeria), Hebrew (Israel), Hindi (India), Hungarian (Hungary), Indonesian (Indonesia), Kazakh (Kazakhstan), Latvian (Latvia), Lithuanian (Lithuania), Macedonian (Macedonia), Malay (Malaysia), Norwegian (Bokmal, Norway), Persian (Iran), Polish (Poland), Romanian (Romania), Serbian (Serbia), Serbian (Serbia), Slovak (Slovakia),  Slovenian (Slovenia), Swedish (Sweden), Turkish (Turkey), Ukrainian (Ukraine), Uzbek (Uzbek)
 
-What does this mean for you? Basically, we’re updating the underlying language model when typing in each of these languages, to improve the accuracy of the autocorrections, shapewriting, and predictions. You’d notice this when using the touch keyboard, or the hardware keyboard text predictions (if enabled). If you use these languages above to type, help us make your typing experience even better by sharing feedback! ([being as specific as possible](https://insider.windows.com/en-us/how-to-feedback/), if you can). We’ll be posting a Quest about this improvement in the Feedback Hub soon.
+What does this mean for you? Basically, we’re updating the underlying language model when typing in each of these languages, to improve the accuracy of the autocorrections, shapewriting, and predictions. You’d notice this when using the touch keyboard, or the hardware keyboard text predictions (if enabled). If you use these languages above to type, help us make your typing experience even better by sharing feedback! ([being as specific as possible](https://insider.windows.com/how-to-feedback/), if you can). We’ll be posting a Quest about this improvement in the Feedback Hub soon.
 
 ## Improved Windows Sandbox accessibility (Build 18855)
 We have made several updates to improve Windows Sandbox accessibility scenarios. This includes: 
