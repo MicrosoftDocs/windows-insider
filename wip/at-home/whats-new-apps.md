@@ -20,6 +20,51 @@ _Note:_ Not all app updates will be listed here. Only app updates that include m
 ## Your Phone 
 These updates are currently available using PCs running Windows 10 Insider Preview Builds (19H1). 
 
+## Your Phone app – unveiling Calls, now even more ways to stay connected to what matters 
+We first announced the Calls feature at the Samsung Unpacked event in August, and you saw a live demo at last week’s Surface event. Today, we’re excited to unveil the Calls feature to the Windows Insider community. Check out this early preview and let us know what you think. 
+
+No need to dig for your Android phone to answer your personal or work calls. You can now stay connected by simply answering (or not) your phone calls on your PC. Tap into your PC’s speakers, microphone, and large screen for a richer calling experience.
+
+With the Calls feature you can:
+* Answer incoming phone calls on your PC.
+* Initiate phone calls from your PC using in-app dialer or contact list.
+* Decline incoming phone calls on your PC with custom text or send directly to your phone’s voicemail.
+* Access your recent call history on your PC. Clicking on a specific call will auto populate the number within the dialer screen.
+* Seamlessly transfer calls between your PC and phone.
+
+![Your Phone app](images/18999-1.png "take calls from your phone on your PC with the new Calls feature")
+
+Calls requirements:
+* Android Phones running Android 7.0 or higher
+* Windows 10 PC with Bluetooth radio
+* Windows 10 Version 1903 (OS build) 18362.356 or newer
+
+Note: 
+* This feature will gradually roll out to Insiders  so it may take a few days to be available inside the Your Phone app.
+* To enable the Calls feature, users must sign into the  Your Phone app using the Microsoft account that they used to register as a Windows Insider. 
+* For set-up instructions and other details see [Calls Feature for the Your phone app](https://answers.microsoft.com/en-us/insider/forum/insider_apps-insider_other-insiderplat_pc/calls-feature-for-the-your-phone-app/8266e234-ba16-42be-8b11-af2e33ba93ed?tm=1570724539623) 
+
+Known issue:
+* In certain instances, Calls feature may require you to pair your mobile phone & PC again. If you have previously paired your devices, unpair your devices and go through the Calls set up flow again.
+
+We value your feedback, so give it a try and let us know what you think. You can report any issues under the Your Phone > Settings > Send feedback.
+
+__10/3/2019__
+
+### Link to Windows on more devices. 
+We’re pleased to announce that Link to Windows feature, which seamlessly connects your phone to your Windows 10 PC, is rolling out to Samsung Galaxy S10, S10+, S10e, S10 5G, and Fold devices in select global markets. With Link to Windows natively integrated into your device, it’s simple and convenient to send messages, manage notifications, sync photos, and mirror your phone on your PC.
+
+### Phone screen on more devices. 
+Phone screen (w)hich allows you to access your Android phone’s apps right from your PC while using your keyboard and mouse or touch screen) is also rolling out to Samsung Galaxy S10, S10+, S10e, S10 5G, and Fold devices in select global markets. You can try out multi-touch gestures such as pinch to zoom, rotate, or swipe from your PC’s touchscreen while using Phone screen. If you have one of these devices, give it a try. This is a gradual rollout, so stay tuned for more to come on additional markets and devices.
+
+### Battery level indicator & phone’s home screen wallpaper.
+In addition to Phone screen and Link to Windows expansion, two additional features are rolling out to all users–battery indicator, which will provide quick access to your phone’s battery levels right in the app without needing to check your device, and Your Phone icon within the app, which will show your current static home screen wallpaper for a personal touch.
+
+![Your Phone app](images/18995-2.png "battery level indicator")
+
+All of these features are gradually rolling out to users, so they may take a few days to be available inside the Your Phone app. Please make sure you have the latest versions of Your Phone Companion and the Your Phone app.
+We value your feedback, so give it a try and let us know what you think. You can report any issues under Your Phone > Settings > Send feedback.
+
 __7/10/2019__
 
 ### Phone screen now available on more Surface devices. 
@@ -324,7 +369,16 @@ This update includes:
 - When creating a new feedback item, that feedback is auto-saved as a draft.  If the app closes unexpectedly in the middle of writing feedback, when you re-open the Feedback Hub you’ll now get notified of the existing draft so you can easily resume.
 - You can now check for app updates from the settings page in the Feedback Hub. We’ll also automatically check for app updates on app launch, and you’ll get a notification letting you know one is available.
 
-## Game Bar 
+## Game Bar
+
+__9/24/2019__
+
+## Track Achievements and frame rate 
+In case you hadn’t seen, we’ve rolled out an FPS counter in the Performance overlay and added a new Achievement overlay! Use the Achivements overlay to track your progress and see what you've unlocked. View the frame rate of the game you're playing with the FPS counter. Thanks to everyone who shared feedback so far. The update will come via the Microsoft Store. Just set focus to your favorite game and press WIN + G to get started.
+
+NOTE: You’ll find the new achievement overlay and frame rate counter in version V3.33.26001.0 or higher of the Xbox Game Bar which are available in the latest Insider Preview builds. To check that you have the correct version of the Game Bar installed, open your Xbox Game Bar and go to settings (gear icon, upper right). If you do not have the Xbox Game Bar or need to download the latest version, first download the Xbox Insider Hub from the Mi, then go to Insider Content and click on "Game Bar (Windows Gaming)" to get the latest version from the Microsoft Store. 
+
+![xbox game bar updates](images/18990-1.jpg "FPS counter and achievement overlay")
 
 __12/10/2018__ 
 
