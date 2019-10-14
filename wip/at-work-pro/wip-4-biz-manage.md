@@ -60,7 +60,9 @@ See also: </br>
 
 ![Intune Update Ring](images/wip-4-biz-gpo.png "ADD")
 
-
+### Manage device restarts after updates
+You can schedule update installation and set policies for restart, configure active hours for when restarts will not occur, or you can do both.
+To read more about how to manage device restarts after updates, [click the link here.](https://docs.microsoft.com/en-us/windows/deployment/update/waas-restart)
 
 ### Set using Microsoft Intune 
 1. Log into the [Azure portal](https://portal.azure.com) and select __Intune__ under __Resources__.
