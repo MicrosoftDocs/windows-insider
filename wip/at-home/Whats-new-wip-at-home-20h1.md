@@ -202,8 +202,8 @@ Windows Search has built-in spell correction to help you find what you’re look
 
 ![Windows Search](images/18963-7.png "Hints to improve Best match results.")
 
-* __Bringing the latest Search Home experience to more users.__ With the Windows 10 May 2019 Update we updated Search Home to help you save time by adding quick access to your Top apps and Recent activities. After receiving positive feedback and comments about this new experience, we’re now making it available to more users by rolling it out to everyone using the Windows 10 October 2018 Update as well. We hope you find them useful and that they help make Search Home more productive for you.
-Here’s a glance at what it looks like for those on the Windows 10 October 2018 Update:
+* __Bringing the latest Search Home experience to more users.__ With the Windows 10 May 2019 Update we updated Search Home to help you save time by adding quick access to your Top apps and Recent activities. After receiving positive feedback and comments about this new experience, we’re now making it available to more users by rolling it out to everyone using the Windows 10 October 2019 Update as well. We hope you find them useful and that they help make Search Home more productive for you.
+Here’s a glance at what it looks like for those on the Windows 10 October 2019 Update:
 
 ![Windows Search](images/18963-8.png "Bringing the latest Search Home experience to more users")
 
