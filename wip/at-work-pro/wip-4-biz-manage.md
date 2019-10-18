@@ -103,8 +103,8 @@ __NOTE:__
 
 3. Deploy the release the same way as any other feature update. create
 
-### Windows 10 Preview
-Windows Insiders can now create and install the Windows 10 Preview on Azure. With the app, you can create and use virtual machine images from this preview, [follow the link to get started and learn more.](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/microsoft-hyperv.windows10preview?tab=Overview)
+### Install Preview Builds from Azure Marketplace 
+Windows Insiders can now create and install the Windows 10 Preview from the Azure Marketplace. After installing, you can preview build on a new virtual machine without any additinal configuraitons or updates. [Follow the link to get started and learn more.](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/microsoft-hyperv.windows10preview?tab=Overview)
 ## Confirm and track installations  
 
 ### Confirm policy 
