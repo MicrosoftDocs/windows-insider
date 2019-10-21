@@ -36,7 +36,7 @@ With the latest flight, we’re taking another step forward in our Passwordless 
 ## Windows Subsystem for Linux (WSL) Improvements (Build 18995)
 See the [WSL release notes](https://docs.microsoft.com/windows/wsl/release-notes) for the newest improvements in the latest Insider Preview builds.
 
-## Connecting Network Cameras to Windows 10 Devices (Build 18995)
+## Connecting network cameras to Windows 10 devices (Build 18995)
 Network cameras, which are Internet Protocol-based cameras that transmit video data over a local area network (LAN), are becoming increasingly prevalent – especially in surveillance and security scenarios. [Windows now allows users to associate network cameras to their PC, enabling photo capture and streaming of video in camera applications.](https://blogs.windows.com/windowsdeveloper/2019/10/10/connecting-network-cameras-to-windows-10-devices/#VgbCTOYwMjeVe6bw.97)
 
 ## Enabling automatic restart for UWP apps (Build 18990)
