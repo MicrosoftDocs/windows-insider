@@ -31,8 +31,13 @@ With the latest flight, we’re taking another step forward in our Passwordless 
 
 ![PIN access in safe made](images/18995-1.png "lock screen showing use of PIN in safe mode")
 
+
+
 ## Windows Subsystem for Linux (WSL) Improvements (Build 18995)
 See the [WSL release notes](https://docs.microsoft.com/windows/wsl/release-notes) for the newest improvements in the latest Insider Preview builds.
+
+## Connecting network cameras to Windows 10 devices (Build 18995)
+Network cameras, which are Internet Protocol-based cameras that transmit video data over a local area network (LAN), are becoming increasingly prevalent – especially in surveillance and security scenarios. [Windows now allows users to associate network cameras to their PC, enabling photo capture and streaming of video in camera applications.](https://blogs.windows.com/windowsdeveloper/2019/10/10/connecting-network-cameras-to-windows-10-devices/#VgbCTOYwMjeVe6bw.97)
 
 ## Enabling automatic restart for UWP apps (Build 18990)
 Last month, we introduced a new [separate setting](https://docs.microsoft.com/windows-insider/at-home/whats-new-wip-at-home-20h1#control-over-restarting-apps-at-sign-in-build-18965) to control if [registered desktop apps](https://docs.microsoft.com/windows/win32/recovery/registering-for-application-restart) from your previous sign-in session are restarted when signing back in to Windows. In the latest Insider Preview builds, in addition to registered desktop apps, when you opt into this setting, the majority of open UWP apps are now also automatically restarted as well! To reduce sign-in time, UWP apps are restarted minimized, in a suspended state, giving Windows and other apps more resources to get started. To try it out:
