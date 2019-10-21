@@ -12,7 +12,27 @@ ms.prod: w10
 ---
 
 # What's new for Windows 10 Insider Preview Builds (20H1)
-The [Windows Insider Program](https://insider.windows.com) lets you preview builds of the upcoming 20H1 release of Windows 10. This topic lists all new Windows 10 features for you to try. 
+
+The [Windows Insider Program](https://insider.windows.com/en-us/) lets you preview builds of the upcoming 20H1 release of Windows 10. This topic lists all new Windows 10 features for you to try.
+
+
+## Windows Hello PIN in Safe mode (Build 18995)
+Safe mode starts Windows in a basic state, using a limited set of files and drivers to help you troubleshoot problems on your PC. If a problem doesn’t happen in Safe mode, this means that default settings and basic device drivers aren’t causing the issue. [Read more about Safe mode](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fsupport.microsoft.com%2Fen-us%2Fhelp%2F12376%2Fwindows-10-start-your-pc-in-safe-mode&data=02%7C01%7Cv-alshie%40microsoft.com%7C782d56759fc64df7976308d745c31bc7%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637054576615768081&sdata=x73OeLvYKrupaizwOI%2BzmLEDIq6%2FmHx%2BlfkvYEkjU8A%3D&reserved=0).
+
+With the latest flight, we’re taking another step forward in our Passwordless journey by adding Windows Hello PIN sign-in support to Safe mode, so that you no longer have rely on your password when troubleshooting your device. Try it out with the instructions below and let us know what you think!
+
+* Set up Windows Hello in Settings > Accounts > Sign-in options
+* Boot your device into Safe mode: 
+1. Go to Settings > Update and Security > Recovery. 
+2. Under Advanced startup select Restart now. 
+3. After your PC restarts to the Choose an option screen, select Troubleshoot > Advanced options > Startup Settings > Restart. You may be asked to enter your [BitLocker recovery key](https://support.microsoft.com/help/4026181/windows-10-find-my-bitlocker-recovery-key). 
+4. After your PC restarts, you’ll see a list of options. Select 4 or press F4 to start your PC in Safe Mode. You can also select 5 or press F5 to use Safe Mode with Networking.
+* Sign in to your device with your Windows Hello PIN
+
+![PIN access in safe made](images/18995-1.png "lock screen showing use of PIN in safe mode")
+
+## Windows Subsystem for Linux (WSL) Improvements (Build 18995)
+See the [WSL release notes](https://docs.microsoft.com/windows/wsl/release-notes) for the newest improvements in the latest Insider Preview builds.
 
 ## Enabling automatic restart for UWP apps (Build 18990)
 Last month, we introduced a new [separate setting](https://docs.microsoft.com/windows-insider/at-home/whats-new-wip-at-home-20h1#control-over-restarting-apps-at-sign-in-build-18965) to control if [registered desktop apps](https://docs.microsoft.com/windows/win32/recovery/registering-for-application-restart) from your previous sign-in session are restarted when signing back in to Windows. In the latest Insider Preview builds, in addition to registered desktop apps, when you opt into this setting, the majority of open UWP apps are now also automatically restarted as well! To reduce sign-in time, UWP apps are restarted minimized, in a suspended state, giving Windows and other apps more resources to get started. To try it out:
@@ -69,7 +89,10 @@ For the full details of changes in this latest Insider Preview build, please see
 ![WSL2](images/18980-1.png "a fix for a long-standing issue for legacy Windows symlinks")
 
 ## Introducing the ability to move the Cortana window (Build 18975)
-With the [new conversational Cortana experience](https://docs.microsoft.com/windows-insider/at-home/whats-new-wip-at-home-20h1#introducing-a-new-cortana-experience-for-windows-10-build-18945), we understand that you wanna keep the chat going sometimes, and the default position of the window isn’t always where you’d prefer to have it docked if you’re going to have a longer back and forth. That’s why we’re starting to roll out the option to be able to move the window (by dragging the title bar area), to anywhere you’d like on the screen–just like you can with other windows. You can also resize the window if you’d like. Currently, this change is rolled out to 50% of Insiders with the new Cortana experience, and we’ll continue the rollout as we validate the quality of the experience.
+
+With the [new conversational Cortana experience](https://docs.microsoft.com/windows-insider/at-home/whats-new-wip-at-home-20h1#introducing-a-new-cortana-experience-for-windows-10-build-18945), we understand that you wanna keep the chat going sometimes, and the default position of the window isn’t always where you’d prefer to have it docked if you’re going to have a longer back and forth. That’s why we’re starting to roll out the option to be able to move the window (by dragging the title bar area), to anywhere you’d like on the screen–just like you can with other windows. You can also resize the window if you’d like. 
+
+Please note that we’re still in the process of expanding language/region support of the new Cortana app (as discussed here), and Insiders outside of English (United States) will see a message when launching Cortana saying “Cortana isn’t available.” We’ll update you when the availability increases.
 
 ![Cortana experience](images/18975-1.gif "Cortana window moves around the desktop")
 
@@ -272,10 +295,9 @@ It supports most of the Cortana features people enjoy using on Windows, such as 
 
 Not all the features from the previous Cortana experience are available just yet. As a Beta, we plan to add more features over time with updates to Cortana from the Microsoft Store.
 
-To get started, choose the Cortana icon on the taskbar next to the search box. You can also leverage the speed and convenience of voice with improved speech recognition by simply saying “Hey Cortana”*. You may need to sign-in with your account to get started.
+To get started, choose the Cortana icon on the taskbar next to the search box. You may need to sign-in with your account to get started. You can also leverage the speed and convenience of voice with improved speech recognition by simply saying “Hey Cortana”*. To enable this functionality go to Settings>Privacy>Voice activation> and enable "Let Cortana respond to 'Hey Cortana' keyword".
 
-__Note:__
-* To enable this functionality go to Settings > Voice activation privacy settings  – Talk to Cortana. 
+__Note:__ 
 * Starting with Build 18980, all Insiders worldwide will see the Cortana icon and the new app. In a future Cortana app update, customers will have the option to use Cortana if they speak a supported language, regardless of their OS display language. 
 * The new Cortana app currently supports English (United States)—because Cortana is service backed. We can and will continue to add new languages over the coming months outside the bounds of OS build updates. We expect to support the same set of regions and languages we [currently support in retail](https://support.microsoft.com/help/4026948/cortanas-regions-and-languages) by 20H1 launch. We will share more details of our language rollout plans as they progress and appreciate your patience during this transition period.
 * Historically, there were quite a few skills that could be used unauthenticated (Bing answers, open apps, Assistant conversations) but this is no longer the case. Only limited skills are currently supported in the new experience. We’ll be bringing back many skills over the coming months.
