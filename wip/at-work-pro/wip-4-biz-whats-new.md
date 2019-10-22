@@ -27,7 +27,7 @@ To get started:
 4. Input whatever name you’d like, and press enter.
 5. Done!
 
-![virtual deskops](images/18963-2.gif "Renaming your virtual desktops")
+![virtual desktops](images/18963-2.gif "Renaming your virtual desktops")
 
 ## Cortana window can now move (Build 18975)
 With the [new conversational Cortana experience](https://docs.microsoft.com/en-us/windows-insider/at-work-pro/wip-4-biz-whats-new#new-cortana-experience-for-windows-10-build-18945), we understand that you want to keep the chat going sometimes, and the default position of the window isn’t always where you’d prefer to have it docked if you’re going to have a longer back and forth. That’s why we’ve rolled out the option to be able to move the window (by dragging the title bar area), to anywhere you’d like on the screen–just like you can with other windows. You can also resize the window if you’d like.
@@ -179,7 +179,7 @@ These improved results can be launched directly by clicking the entry in the new
 
 Showing the new dropdown that appears when you type in File Explorer’s search box.
 
-![File Exploer](images/18945-4.png "pdated File Explorer search")
+![File Explorer](images/18945-4.png "Updated File Explorer search")
 
 We’ve also updated the design, so as soon as you click the search box in File Explorer (or press CTRL+E to set focus to it), you’ll see the dropdown list with your search history.
 
