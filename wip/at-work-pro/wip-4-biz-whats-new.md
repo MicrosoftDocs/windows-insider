@@ -169,7 +169,7 @@ Additionally, we’ve added global configuration options for WSL. These are opti
 For the full details on what’s new in this release, check out [What’s new for WSL in Insiders Preview Build 18945](http://devblogs.microsoft.com/commandline/whats-new-for-wsl-in-insiders-preview-build-18945) on the Windows command line blog.
 
 
-## New File Explorer search expereince (Build 18945)
+## New File Explorer search experience (Build 18945)
 
 We heard your feedback asking for increased consistency, and to make it easier to find your files. We are happy to announce that you can now take advantage of the new File Explorer search experience – powered by Windows Search. This change will help integrate your OneDrive content online with the traditional indexed results.
 
