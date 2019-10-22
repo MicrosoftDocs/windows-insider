@@ -15,9 +15,9 @@ ms.prod: w10
 
 Welcome to Flight Hub! Use this dashboard to quickly identify the latest Windows Insider Preview releases for PC, Server, IoT. You can also look up the status of the SDK and ISO images.
 
-## Current Fast ring builds of Windows 10 (20H1)
+## In-development builds of Windows 10 (20H1)
 
-You can get builds of 20H1 today if you've opted in to **Fast builds**.
+You can get builds of 20H1 today if you've opted into the **Fast ring**.
 
 The items in **bold** are the latest releases for the individual versions of the item.
 
