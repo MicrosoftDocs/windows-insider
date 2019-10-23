@@ -149,17 +149,17 @@ Watching a movie? Poring over some excel tables? Studying? Focus assist is here 
 Like our other focus assist settings, this can be found under Settings > System > Focus Assist. Make sure you take a moment to customize your priority list to ensure any notifications you want to break through the rule will appear! If you'd like to turn off the warning notification that's shown in Action Center after entering focus assist, you can do so by clicking the rule in Focus Assist Settings which prompted the notification.
 
 ### Action Center Improvements
-One of the top requests we've heard from you is that you'd prefer the brightness Quick action to be a slider instead of a button, and with today's build we're making it happen!
+One of the top requests we've heard from you is that you'd prefer the brightness Quick action to be a slider instead of a button, and with today's build we're making it happen! We'd love for you to try it out and share feedback!
 
 ![Action Center](images/18277-image2.png "Action Center slider")
 
-But wait, there's more!
 
-You can now easily customize your Quick actions right from the Action Center itself, rather than having to go into Settings. That means not only can you re-arrange in the moment, but you can also add any Quick action you need on the fly, without needing for it to always take up space.
+>[!NOTE]
+>You can now easily customize your Quick actions right from the Action Center itself, rather than having to go into Settings. Once you’re in Quick actions edit mode, you can re-arrange your Quick actions with your mouse or trackpad, as well as also re-arrange them by using the __Alt+Shift+Arrow__ hotkey.
 
 ![Custom Quick actions](images/18277-image3.gif "Screenshot that shows the updated Settings panel")
 
-We'd love for you to try it out and share feedback!
+
 
 ### See which app is using your microphone
 
