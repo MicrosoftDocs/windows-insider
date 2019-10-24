@@ -40,7 +40,7 @@ See the [WSL release notes](https://docs.microsoft.com/windows/wsl/release-notes
 Network cameras, which are Internet Protocol-based cameras that transmit video data over a local area network (LAN), are becoming increasingly prevalent – especially in surveillance and security scenarios. [Windows now allows users to associate network cameras to their PC, enabling photo capture and streaming of video in camera applications.](https://blogs.windows.com/windowsdeveloper/2019/10/10/connecting-network-cameras-to-windows-10-devices/#VgbCTOYwMjeVe6bw.97)
 
 ## Enabling automatic restart for UWP apps (Build 18990)
-Last month, we introduced a new [separate setting](https://docs.microsoft.com/windows-insider/at-home/whats-new-wip-at-home-20h1#control-over-restarting-apps-at-sign-in-build-18965) to control if [registered desktop apps](https://docs.microsoft.com/windows/win32/recovery/registering-for-application-restart) from your previous sign-in session are restarted when signing back in to Windows. In the latest Insider Preview builds, in addition to registered desktop apps, when you opt into this setting, the majority of open UWP apps are now also automatically restarted as well! To reduce sign-in time, UWP apps are restarted minimized, in a suspended state, giving Windows and other apps more resources to get started. To try it out:
+We already introduced a new [separate setting](https://docs.microsoft.com/windows-insider/at-home/whats-new-wip-at-home-20h1#control-over-restarting-apps-at-sign-in-build-18965) to control if [registered desktop apps](https://docs.microsoft.com/windows/win32/recovery/registering-for-application-restart) from your previous sign-in session are restarted when signing back in to Windows. In the latest Insider Preview builds, in addition to registered desktop apps, when you opt into this setting, the majority of open UWP apps are now also automatically restarted as well! To reduce sign-in time, UWP apps are restarted minimized, in a suspended state, giving Windows and other apps more resources to get started. To try it out:
 1. Go to Settings > Accounts > Sign-in options and turn on “Automatically save my restartable apps when I sign out and restart them after I sign in.” under “Restart apps”.
 2. Start one or more UWP apps, such as Feedback Hub.
 3. Sign out and then sign back into Windows.
@@ -117,7 +117,7 @@ To get started:
 
 ## Introducing a new tablet experience for 2-in-1 convertible PCs! (Build 18970)
 
-We are beginning to roll out a new tablet experience for 2-in-1 convertible PCs as a Beta to Windows Insiders. 
+Now availalble: a new tablet experience for 2-in-1 convertible PCs as a Beta to Windows Insiders. 
 
 ![tablet experience](images/18970-1.png "a new tablet experience for 2-in-1 convertible PCs")
 
@@ -137,9 +137,11 @@ We’d love to hear your feedback about the new experience–share your thoughts
 
 ## Introducing a new PC reset option (Build 18970)
 
-Reset this PC now provides users a new choice to download Windows or use local reinstall. Previously, Reset this PC was only able to do a local reinstall and would build a new Windows installation from existing Windows files. When this feature was introduced in Windows 10 version 1507, it provided the advantage of enabling Windows to be recoverable without requiring extra disk space to store a compressed, backup copy of Windows in a hidden partition. We’ve heard feedback that some of you would prefer to use your high-speed internet connection to speed up this process by just downloading Windows.
+## New Reset this PC option: Cloud download (Build 18970)
+Reset this PC provides users a new choice to download Windows or use local reinstall. Previously, Reset this PC was only able to do a local reinstall and would build a new Windows installation from existing Windows files. When this feature was introduced in Windows 10 version 1507, it provided the advantage of enabling Windows to be recoverable without requiring extra disk space to store a compressed, backup copy of Windows in a hidden partition. We’ve heard feedback that some of you would prefer to use your high-speed internet connection to speed up this process by just downloading Windows.
 
-Important note: This is a recovery operation and will remove apps you have installed. Additionally, if the “Remove everything” option is selected, user data will also be deleted. For more information on Reset this PC and other recovery options visit aka.ms/win10recoveryoptions.
+>[!NOTE]
+>This is a recovery operation and will remove apps you have installed. Additionally, if the “Remove everything” option is selected, user data will also be deleted. For more information on Reset this PC and other recovery options, [visit the link here.](https://support.microsoft.com/en-us/help/12415/windows-10-recovery-options)
 
 The cloud download option will reinstall the same build, version, and edition, that is currently installed on your device. This new cloud download option is available to all Windows 10 devices and is different from the “Recover from the cloud” feature available on some earlier Windows 10 devices.
 
@@ -194,7 +196,49 @@ As some Insiders have noticed, you can now set your mouse cursor speed from with
 ![Mouse Cursor](images/18963-5.png "Adding Mouse Cursor speed to Settings")
 
 ## Making Notepad store-updatable (Build 18963)
-Notepad has been a well-loved text editor in Windows for over 30 years. Over the last few releases, we’ve been making a number of small improvements to Notepad based on your feedback (including [expanded line ending support](https://devblogs.microsoft.com/commandline/extended-eol-in-notepad/), [wrap around search](https://blogs.windows.com/windowsexperience/2018/07/11/announcing-windows-10-insider-preview-build-17713/), and [indicating when there’s unsaved content](https://blogs.windows.com/windowsexperience/2018/12/10/announcing-windows-10-insider-preview-build-18298/#5443RXdQaojX3WyZ.97).) Starting with this build, we’re making a change so that future Notepad updates will be automatically available via the store. This will allow us the flexibility to respond to issues and feedback outside the bounds of Windows releases. As always, if you have any feedback for Notepad, we welcome it in the Feedback Hub under [Apps > Notepad](http://aka.ms/notepadfeedback).
+Notepad has been a well-loved text editor in Windows for over 30 years. Over the last few releases, we’ve been making a number of small improvements to Notepad based on your feedback including:
+
+1. __Wrap-around find/replace:__ We’ve made significant improvement to the find/replace experience in Notepad. We added the option to do wrap-around find/replace to the find dialog and Notepad will now remember previously entered values and the state of checkboxes and automatically populate them the next time you open the find dialog. Additionally, when you have text selected and open the find dialog we will automatically populate the search field with the selected text.
+
+![Wrap-around](images/18963-7.png "Making Notepad store-updatable")
+
+2. __Text zooming:__ We’ve added options to make it quick and easy to zoom text in Notepad. There is a new menu option under View > Zoom to change the zoom level and we display the current zoom level in the status bar. You can also use Ctrl + Plus, Ctrl + Minus and Ctrl + MouseWheel to zoom in and out and use Ctrl + 0 to restore the zoom level to the default.
+
+![Text zooming](images/18963-8.gif "Making Notepad store-updatable")
+
+3. __Line numbers with word-wrap:__ A long outstanding request has been to add the ability to display line and column numbers when word-wrap is enabled. This is now possible in Notepad and we’ve made the status bar visible by default. You can still turn the status bar off in the View menu.
+
+![Line numbers with word-wrap](images/18963-9.gif "Making Notepad store-updatable")
+
+4. __Modified indicator:__ Notepad will now show an asterisk (*) in the title bar before the title of a document to indicate that a document has unsaved changes.
+
+![Modified indicator](images/18963-6.png "Making Notepad store-updatable")
+
+5. __Send Feedback:__ You can now send feedback directly from Notepad! Click Help > Send Feedback to open the Feedback Hub with the Notepad category selected and get your feedback directly to the product team.
+
+![Send Feedback](images/18963-10.png "Making Notepad store-updatable")
+
+__UTF-8 Encoding:__ We’ve made significant improvements to the way Notepad handles encoding. Starting with this build, we are adding the option to save files in UTF-8 without a [Byte Order Mark](https://en.wikipedia.org/wiki/Byte_order_mark) and making this the default for new files. UTF-8 without a Byte Order Mark is backwards-compatible with ASCII and will provide better interoperability with the web, where UTF-8 has become the default encoding. Additionally, we added a column to the status bar that displays the encoding of the document.
+
+__Other Updates__
+
+* __[Expanding line support](https://devblogs.microsoft.com/commandline/extended-eol-in-notepad/)__
+* We’ve added support for some additional shortcuts:
+  * Ctrl+Shift+N will open a new Notepad window.
+  * Ctrl+Shift+S will open the Save as… dialog.
+  * Ctrl+W will close the current Notepad window.
+* Notepad can now open and save files with a path that is longer than 260 characters, also known as MAX_PATH.
+* We’ve fixed a bug where Notepad would count lines incorrectly for documents with very long lines.
+* We’ve fixed a bug where, when you select a placeholder file from OneDrive in the File Open dialog, we would download the file to determine its encoding.
+* We’ve fixed a recent regression where Notepad would no longer create a new file when launched with a file path that didn’t exist.
+* We’ve improved the performance when opening large files in Notepad.
+* Notepad now supports Ctrl + Backspace to delete the previous word.
+* Arrow keys now correctly unselect text first and then move the cursor.
+* When saving a file in Notepad, the line and column number no longer reset to 1.
+* Notepad now correctly displays lines that don’t fit entirely on the screen.
+
+
+Starting with this build, we’re making a change so that future Notepad updates will be automatically available via the store. This will allow us the flexibility to respond to issues and feedback outside the bounds of Windows releases. As always, if you have any feedback for Notepad, we welcome it in the Feedback Hub under [Apps > Notepad](http://aka.ms/notepadfeedback).
 
 ## Traditional Chinese IME improvements (Build 18963)
 Thank you everyone who’s shared feedback about the new Traditional Chinese Bopomofo, ChangJie, and Quick IMEs. The developer team has been working on improving the quality and fixing bugs. With today’s build:
@@ -264,7 +308,7 @@ __We also fixed issues where:__
 Thanks again! If you have any further feedback about these experiences, [let us know](https://aka.ms/inputfeedback).
 
 ## Notification settings improvements now rolling out to all of Fast (Build 18956) 
-Thanks everyone who’s tried out our [improvements so far](https://blogs.windows.com/windowsexperience/2019/07/03/announcing-windows-10-insider-preview-build-18932/). We’re now starting to roll these out to all Insiders. To recap what you’ll see when you have the change:
+Thanks everyone who’s tried out our [improvements so far](https://docs.microsoft.com/en-us/windows-insider/at-work-pro/wip-4-biz-whats-new#refining-your-notification-settings-build-18932). We’re now starting to roll these out to all Insiders. To recap what you’ll see when you have the change:
 * If you hover your mouse over an incoming notification, you’ll now see a settings icon to make it easy to adjust that app’s notification settings.
 * We’ve updated the design of the per-app notification settings for visual clarity.
 * There’s now a direct link to notification settings at the top of the Action Center.
