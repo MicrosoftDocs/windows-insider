@@ -61,7 +61,7 @@ NOTE: You may have to be joined to receive Game Bar updates via the Xbox Insider
 ![xbox game bar updates](images/18990-1.jpg "FPS counter and achievement overlay")
 
 ## Reset your PC from the cloud (Build 18990)
-Earlier today in our Windows Insider webcast, we had the Deployment Team as guests to talk about the new feature that is coming with 20H1 that allows you to reset your PC using the cloud. For more information, check out this [article from Program Manager Aaron Lower](https://insider.windows.com/articles/optimize-windows-10-pc-reset-using-the-cloud/). 
+Earlier today in our Windows Insider webcast, we had the Deployment Team as guests to talk about the new feature that is coming with 20H1 that allows you to reset your PC using the cloud. For more information, check out this [article from Program Manager Aaron Lower](https://insider.windows.com/en-us/articles/optimize-windows-10-pc-reset-using-the-cloud/). 
 
 ## Improving your Bluetooth pairing experience (Build 18985)
 
