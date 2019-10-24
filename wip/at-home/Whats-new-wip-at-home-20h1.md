@@ -136,8 +136,6 @@ This experience is currently available for a portion of Insiders as we evaluate 
 We’d love to hear your feedback about the new experience–share your thoughts here.
 
 ## Introducing a new PC reset option (Build 18970)
-
-## New reset this PC option: cloud download (Build 18970)
 Reset this PC provides users a new choice to download Windows or use local reinstall. Previously, Reset this PC was only able to do a local reinstall and would build a new Windows installation from existing Windows files. When this feature was introduced in Windows 10 version 1507, it provided the advantage of enabling Windows to be recoverable without requiring extra disk space to store a compressed, backup copy of Windows in a hidden partition. We’ve heard feedback that some of you would prefer to use your high-speed internet connection to speed up this process by just downloading Windows.
 
 >[!NOTE]
