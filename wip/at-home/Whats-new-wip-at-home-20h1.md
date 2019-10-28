@@ -60,9 +60,6 @@ NOTE: You may have to be joined to receive Game Bar updates via the Xbox Insider
 
 ![xbox game bar updates](images/18990-1.jpg "FPS counter and achievement overlay")
 
-## Reset your PC from the cloud (Build 18990)
-Earlier today in our Windows Insider webcast, we had the Deployment Team as guests to talk about the new feature that is coming with 20H1 that allows you to reset your PC using the cloud. For more information, check out this [article from Program Manager Aaron Lower](https://insider.windows.com/articles/optimize-windows-10-pc-reset-using-the-cloud/). 
-
 ## Improving your Bluetooth pairing experience (Build 18985)
 
 For Windows 10 version 1803, we announced a new [streamlined experience for pairing supported Bluetooth devices](https://blogs.windows.com/windowsexperience/2018/02/07/announcing-windows-10-insider-preview-build-17093-pc/#w4q0dmD4RI1BsP7d.97). The idea was simple—if a supported device was nearby and in pairing mode, we’d show a notification that prompted you to go through pairing. This saved you from opening Settings yourself and finding the right place to go. Today, we’re rolling out an update with improvements we hope you’ll like.
@@ -72,14 +69,16 @@ Here’s what’s new:
 * We added a Dismiss button to the first notification to give you more control while using Swift Pair.
 * To make the notification more helpful, now we show the device name and category when we can.
 
-We’re excited for Insiders to try it out and share feedback. This new experience is currently rolled out to 50% of Insiders, and we’ll let you know as the rollout increases. Supported devices include:
+Supported devices include:
 * Surface Ergonomic Keyboard
 * Surface Precision Mouse
-* Microsoft Modern Mobile Mouse
 * Surface Mobile Mouse
-* Microsoft Arc Mouse
 * Surface Arc Mouse
 * Surface Headphones
+* Microsoft Arc Mouse
+* Microsoft Modern Mobile Mouse
+* Microsoft Bluetooth Keyboard
+* Microsoft Bluetooth Mouse
 
 ![Bluetooth pairing](images/18985-1.gif "a notification prompting you to go through pairing a Bluetooth mouse")
 
@@ -135,13 +134,15 @@ This experience is currently available for a portion of Insiders as we evaluate 
 
 We’d love to hear your feedback about the new experience–share your thoughts here.
 
-## Introducing a new PC reset option (Build 18970)
+## Reset your PC from the cloud (Build 18970)
 
 Reset this PC now provides users a new choice to download Windows or use local reinstall. Previously, Reset this PC was only able to do a local reinstall and would build a new Windows installation from existing Windows files. When this feature was introduced in Windows 10 version 1507, it provided the advantage of enabling Windows to be recoverable without requiring extra disk space to store a compressed, backup copy of Windows in a hidden partition. We’ve heard feedback that some of you would prefer to use your high-speed internet connection to speed up this process by just downloading Windows.
 
 Important note: This is a recovery operation and will remove apps you have installed. Additionally, if the “Remove everything” option is selected, user data will also be deleted. For more information on Reset this PC and other recovery options visit aka.ms/win10recoveryoptions.
 
 The cloud download option will reinstall the same build, version, and edition, that is currently installed on your device. This new cloud download option is available to all Windows 10 devices and is different from the “Recover from the cloud” feature available on some earlier Windows 10 devices.
+
+For more information, check out [this article from Program Manager Aaron Lower](https://insider.windows.com/articles/optimize-windows-10-pc-reset-using-the-cloud/).
 
 ![recovery improvements](images/18970-2.gif "Introducing a new Reset this PC option–Cloud Download")
 
@@ -201,9 +202,9 @@ Thank you everyone who’s shared feedback about the new Traditional Chinese Bop
 
 * __Toolbar Improvements:__ We fixed an issue where toolbar shows up even when [Use IME toolbar] is turned off in the setting. We also added [Hide toolbar] button in the toolbar menu.
 
-![Traditional Chinese IME](images/18963-6.png "Toolbar Improvements")
+![Traditional Chinese IME](images/18963-12.png "Toolbar Improvements")
 
-__Note:__ Other ways to show/hide toolbar: 1, From settings: Right click [中/英] icon > Click [Settings] > [General] > [Use IME toolbar]; 2. From right click menu: Right click [中/英] icon > [Show/hide IME toolbar]
+__Note:__ Other ways to show/hide toolbar: 1. From settings: Right click [中/英] icon > Click [Settings] > [General] > [Use IME toolbar] 2. From right click menu: Right click [中/英] icon > [Show/hide IME toolbar]
  
 * __Candidate Window Improvements:__ We have been working on improving candidate window quality. We fixed an issue where candidate window sometimes only showed limited number of candidates. We also fixed an issue where candidates shown in table view cannot be selected by number keys.
 
@@ -227,8 +228,6 @@ We wanted to take a moment to cover some of the server-side search improvements 
 Windows Search has built-in spell correction to help you find what you’re looking for. When you’re typing quickly sometimes mistakes happen – we’re excited to announce that we’ve updated our spell correction technology to intelligently understand and correct small typos like “powerpiont” and “exce;” which previously would return no results. With these updates, you get better results faster. This feature is now available on both Insider and retail builds in English-language markets.  
 
 * __Hints to improve Best match results.__ Our goal with Windows Search is to provide a simple to use experience, and a key aspect of this is making results easy to understand. Something we’ve heard from you is surprise that sometimes settings search results don’t match your search. To help address this, in certain cases where the Best match result isn’t an exact match for your search, a “Related:” line will be included below the result to help clarify why this result is appearing.  We’ll be expanding this feature to include Apps search in the coming weeks.  This feature is now available on both Insider and retail builds in English (United States).
-
-![Windows Search](images/18963-7.png "Hints to improve Best match results.")
 
 * __Bringing the latest Search Home experience to more users.__ With the Windows 10 May 2019 Update we updated Search Home to help you save time by adding quick access to your Top apps and Recent activities. After receiving positive feedback and comments about this new experience, we’re now making it available to more users by rolling it out to everyone using the Windows 10 October 2018 Update as well. We hope you find them useful and that they help make Search Home more productive for you.
 Here’s a glance at what it looks like for those on the Windows 10 October 2018 Update:
@@ -531,19 +530,6 @@ We have made several updates to improve Windows Sandbox accessibility scenarios.
 * Added functionality to configure the audio input device via the Windows Sandbox config file
 * A Shift + Alt + PrintScreen key sequence in Windows Sandbox which activates the ease of access dialog for enabling high contrast mode.
 * A ctrl + alt + break key sequence in Windows Sandbox which allows entering/exiting fullscreen mode
-
-## Snip & Sketch version 10.1901.10521.0 (Build 18850)
-As some of you may have already noticed, we’re in the process of rollout out a new app update to Skip Ahead. It includes a number of fixes based on your feedback, among which are:
-* We fixed an issue that could result in snips being a bit blurry after saving or copying to clipboard.
-* We fixed an issue where copying to clipboard would fail if you switched out of the app while the copy operation was in progress.
-* We fixed an issue where the suggested file name was unexpectedly a GUID for snips opened from Win + Shift + S toast.
-* We’ve added Narrator (screen reader) confirmations when a snip is copied to clipboard.
-* We’ve updated the default save format to be png. You can still use the dropdown when saving to pick your desired format if it’s not png.
-* We fixed an issue where auto-copy changes to clipboard wasn’t working on return from Snip & Sketch settings.
-* We fixed an issue where the app might crash if you closed two app windows one after another.
-* We fixed an issue where the default save file location was documents rather than pictures. In fixing this we also fixed an issue where when saving the save dialog wouldn’t remember where you last saved a snip.
-
-The rollout of this app is not tied to the upgrade, so you may see it outside the bounds of this flight.
 
 ## Windows Sandbox configuration file support (Build 18841)
 Windows Sandbox now supports configuration files! These files allow users to configure some aspects of the sandbox, such as vGPU, networking and shared folders. [Check out the blog post explaining this new feature](https://aka.ms/WindowsSandbox_ConfigFile).
