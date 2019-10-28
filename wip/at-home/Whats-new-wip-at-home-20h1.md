@@ -117,7 +117,7 @@ To get started:
 
 ## Introducing a new tablet experience for 2-in-1 convertible PCs! (Build 18970)
 
-Now availalble: a new tablet experience for 2-in-1 convertible PCs as a Beta to Windows Insiders. 
+Now available: a new tablet experience for 2-in-1 convertible PCs as a Beta to Windows Insiders. 
 
 ![tablet experience](images/18970-1.png "a new tablet experience for 2-in-1 convertible PCs")
 
