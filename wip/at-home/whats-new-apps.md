@@ -21,8 +21,6 @@ _Note:_ Not all app updates will be listed here. Only app updates that include m
 
 __10/8/2019__
 ## Your Phone app – unveiling Calls, now even more ways to stay connected to what matters 
-We first announced the Calls feature at the Samsung Unpacked event in August, and you saw a live demo at last week’s Surface event. Today, we’re excited to unveil the Calls feature to the Windows Insider community. Check out this early preview and let us know what you think. 
-
 No need to dig for your Android phone to answer your personal or work calls. You can now stay connected by simply answering (or not) your phone calls on your PC. Tap into your PC’s speakers, microphone, and large screen for a richer calling experience.
 
 With the Calls feature you can:
