@@ -38,8 +38,8 @@ Administrators can install and manage Insider Preview builds centrally across mu
 
 ## Install on a virtual machine
 You can run Insider Preview builds as a virtual machine on a PC in Hyper-V. This option enables you to run Insider Preview builds without changing the Windows 10 production build already running on a PC.
-* For guidance on setting up virtual machines on your PC see: [Introduction to Hyper-V on Windows 10](https://docs.microsoft.com/virtualization/hyper-v-on-windows/about/).
-* To download the latest Insider Preview build ISO file to run on your virtual machine see: [Windows Insider Preview downloads](https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewadvanced).
+* For guidance on setting up virtual machines on your PC, see [Introduction to Hyper-V on Windows 10](https://docs.microsoft.com/virtualization/hyper-v-on-windows/about/).
+* To download the latest Insider Preview build ISO file to run on your virtual machine, see [Windows Insider Preview downloads](https://www.microsoft.com/software-download/windowsinsiderpreviewadvanced).
 
 ## Once you have completed installation
 These tips will help you and your organization get the most out of Insider Preview builds and the Windows Insider Program for Business. 
@@ -57,7 +57,7 @@ Arabic (Saudi Arabia), Bulgarian (Bulgaria), Chinese (Simplified, China), Chines
 Windows 10 Insider Preview is available in the following Language Interface Packs (LIP) languages:
 Afrikaans (South Africa), Albanian (Albania), Amharic, Armenian, Assamese, Azerbaijani (Latin, Azerbaijan), Bangla (Bangladesh), Bangla (India), Basque, Belarusian (Belarus), Bosnian (Latin), Catalan (Catalan), Cherokee (Cherokee), Dari, Filipino (Philippines), Galician (Galician), Georgian, Gujarati, Hindi (India), Icelandic, Indonesian (Indonesia), Irish, Kannada, Kazakh (Kazakhstan), Khmer (Cambodia), KiSwahili, Konkani, Kyrgyz, Lao (Laos), Luxembourgish, Macedonian (Former Yugoslav Republic of Macedonia), Malay (Malaysia), Malayalam, Maltese, Maori, Marathi, Mongolian (Cyrillic), Nepali, Norwegian (Nynorsk), Odia, Persian, Punjabi, Quechua, Scottish Gaelic, Serbian (Cyrillic, Bosnia and Herzegovina), Serbian (Cyrillic, Serbia), Sindhi (Arabic), Sinhala, Tamil (India), Tatar, Telugu, Turkmen, Urdu, Uyghur, Uzbek (Latin, Uzbekistan), Valencian, Vietnamese, Welsh.
 
-LIP languages can be installed as a language pack over [supported base languages](https://support.microsoft.com/en-us/help/14236/language-packs).
+LIP languages can be installed as a language pack over [supported base languages](https://support.microsoft.com/help/14236/language-packs).
 
 ## Related topics
 

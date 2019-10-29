@@ -73,7 +73,7 @@ When we [started this journey](https://blogs.windows.com/windowsexperience/2018/
 - Add a delay snip option
 - Add window snip mode
 
-Delay snip was the first on our list, and we added it with [app version 10.1807](https://blogs.windows.com/windowsexperience/2018/09/06/announcing-windows-10-insider-preview-build-18234/#F4J20LU38c8B3Prp.97). We then addressed a few more of your requests with app version 10.1809*, and today are really excited to announce that window snip is on its way to Insiders too!
+Delay snip was the first on our list, and we added it with [app version 10.1807](https://blogs.windows.com/windowsexperience/2018/09/06/announcing-windows-10-insider-preview-build-18234/). We then addressed a few more of your requests with app version 10.1809*, and today are really excited to announce that window snip is on its way to Insiders too!
 
 ![image 3](images/18282-image3.png "windows snip")
 
@@ -88,7 +88,7 @@ What's next? [Let us know](https://aka.ms/snippingfeedback) what you'd like to s
 
 ### Clipboard history redesign
 
-Have you already tried using clipboard history? If enabled, it allows you to save multiple clipboard items to use later. Introduced during [RS5 development](https://blogs.windows.com/windowsexperience/2018/05/09/announcing-windows-10-insider-preview-build-17666/#QTs2bQCzsFd2D0d1.97), we’ve been getting great feedback from everyone on this experience, and one of the things we heard most is that the UI wasn’t compact enough – a large space was used for each entry even if it was just a small text fragment. We originally opted to show bigger entries so there was space to show an image preview nicely, but when we looked at our data, we found 90% of items in the clipboard history were text. Based on that and your feedback, we now optimizing the design for text snippets – shrinking the height of each entry and thus giving you access to more entries without needing to scroll the view. Hope you like the change we made! Copy some text and press __Windows logo key + V__ to check out the updated design.
+Have you already tried using clipboard history? If enabled, it allows you to save multiple clipboard items to use later. Introduced during [RS5 development](https://blogs.windows.com/windowsexperience/2018/05/09/announcing-windows-10-insider-preview-build-17666/), we’ve been getting great feedback from everyone on this experience, and one of the things we heard most is that the UI wasn’t compact enough—a large space was used for each entry even if it was just a small text fragment. We've originally opted to show bigger entries so that there was space to show an image preview nicely, but when we looked at our data, we found that 90% of the items in the clipboard history were text. Based on that and your feedback, we have now optimized the design for text snippets—shrinking the height of each entry and thus giving you access to more entries without needing to scroll the view. We hope you like the change we've made! Copy some text and press __Windows logo key + V__ to check out the updated design.
 
 ![image4](images/18305-6.png "clipboard history redesign")
 
@@ -118,7 +118,7 @@ With [Build 18277](https://blogs.windows.com/windowsexperience/2018/11/07/announ
 ### A simplified Start layout
 Based on your feedback, we’re introducing a simplified default Start layout for new devices, new user accounts, and clean installs. The new layout has been simplified into a sleek one column design with reduced top-level tiles. For the IT admins out there, don’t worry, commercial and education customers will also see a simplified layout tailored to these scenarios.
 
-Coupled with earlier changes providing the ability to [uninstall additional inbox apps](https://docs.microsoft.com/windows-insider/at-home/whats-new-wip-at-home#uninstall-additional-inbox-apps-build-18262), and a new way to [easily unpin a folder or group of tiles](https://blogs.windows.com/windowsexperience/2018/10/31/announcing-windows-10-insider-preview-build-18272/#q6fgjW1JapokMzJW.97), the simplified Start layout is part of an ongoing effort designed to enhance your Start experience in the upcoming release of Windows.
+Coupled with earlier changes providing the ability to [uninstall additional inbox apps](https://docs.microsoft.com/windows-insider/at-home/whats-new-wip-at-home#uninstall-additional-inbox-apps-build-18262), and a new way to [easily unpin a folder or group of tiles](https://blogs.windows.com/windowsexperience/2018/10/31/announcing-windows-10-insider-preview-build-18272/), the simplified Start layout is part of an ongoing effort designed to enhance your Start experience in the upcoming release of Windows.
 
 Note: When you update to this build, your Start layout won’t automatically change to the new layout because we want everything to be exactly as you left it before you did the update.
 
@@ -245,7 +245,7 @@ More often than not, when you download a file, you don’t change the name befor
 
 ### Friendly dates in File Explorer
 
-Thank you for all of the feedback you provided on Friendly Dates in File Explorer. At this time, we’ve decided not to roll out [Friendly Dates](https://blogs.windows.com/windowsexperience/2018/12/19/announcing-windows-10-insider-preview-build-18305/#xPPTWdO73EwgkGtZ.97) to users as part of the 19H1 release.
+Thank you for all of the feedback you've provided on Friendly Dates in File Explorer. At this time, we’ve decided not to roll out [Friendly Dates](https://blogs.windows.com/windowsexperience/2018/12/19/announcing-windows-10-insider-preview-build-18305/) to users as part of the 19H1 release.
 
 ### Improved RAW image format support
 Do you like taking pictures in Raw image formats and wish that the Raw files from your camera were natively supported by Windows? Good news! Targeting 19H1, we’ve been working hard to release a new store-delivered Raw codec package that dramatically improves native raw file format support in Windows.
@@ -384,7 +384,7 @@ We've heard your feedback about a specific case where a display can become brigh
 Please use Feedback Hub to tell us what you think! You can file the feedback under the category “Device and Drivers” and subcategory “Display and Graphics”.
 
 ### High DPI improvements
-As many of you know, we've been working [over the past few years](https://blogs.windows.com/buildingapps/2016/10/24/high-dpi-scaling-improvements-for-desktop-applications-and-mixed-mode-dpi-scaling-in-the-windows-10-anniversary-update/#BhoQFcZJ0KWWFqub.97) to improve the High DPI story for Win32 (desktop) apps on Windows. As part of this, some of you may recall getting a toast about fixing your apps that led you to this setting we added with [Build 17063](https://blogs.windows.com/windowsexperience/2017/12/19/announcing-windows-10-insider-preview-build-17063-pc/#ffbtP8jT9IuKq8sp.97):
+As many of you know, we've been working [over the past few years](https://blogs.windows.com/buildingapps/2016/10/24/high-dpi-scaling-improvements-for-desktop-applications-and-mixed-mode-dpi-scaling-in-the-windows-10-anniversary-update/) to improve the High DPI story for Win32 (desktop) apps on Windows. As part of this, some of you may recall getting a toast about fixing your apps that led you to this setting we've added with [Build 17063](https://blogs.windows.com/windowsexperience/2017/12/19/announcing-windows-10-insider-preview-build-17063-pc/):
 
 ![Scaling settings](images/18277-image5.png)
 
@@ -430,7 +430,7 @@ Introducing Narrator Home: Every time you turn on Narrator, you’ll be taken to
 
    ![Shows Narrator Home page](images/18298-8.png "Shows Narrator Home page")
 
-### #Narrator works better with Chrome now
+#### Narrator works better with Chrome now
 Using up and down arrows in scan mode, navigating with tab key, continuous reading commands, and navigating by headings and links have initial support for Chrome, with more functionality coming in future flights.
 ### Narrator Braille
 BRLTTY version 5.6 is now provided which adds USB support for Inceptor and Orbit 20 displays. In addition, the BrailleNote Touch is recognized when using USB. Baum displays can now use B9 and B10 interchangeably. Liblouis binaries and tables have been updated to version 3.7.0.
@@ -495,7 +495,7 @@ When changing Narrator’s view to either characters, words, lines or paragraphs
 The keystroke to Move to beginning of text has changed to Narrator + B (was Narrator + Control + B), Move to end of text has changed to Narrator + E (was Narrator + Control + E).
 #### Braille
 Improved usage of Braille commanding when using the Narrator key from the braille display.
-####Other improvements
+#### Other improvements
 ##### Improved reading of controls while navigating and editing
 ##### Improved table reading in PowerPoint
 ##### Improved reading and navigating experiences with Chrome and Narrator
@@ -530,7 +530,7 @@ We added new command line options to the WSL command line tool (wsl.exe) for eas
 
 ### Expanding SwiftKey's Typing intelligence to More Languages
 
-In RS5 we started working on bringing [SwiftKey's AI technology to Windows](https://blogs.windows.com/windowsexperience/2018/06/14/announcing-windows-10-insider-preview-build-17692/#KqkzsMxQJAWrMbJC.97), and we're excited to announce that we're expanding support to the following languages:
+In RS5 we started working on bringing [SwiftKey's AI technology to Windows](https://blogs.windows.com/windowsexperience/2018/06/14/announcing-windows-10-insider-preview-build-17692/), and we're excited to announce that we're expanding support to the following languages:
 
 - English (Canada) – en-CA
 - English (India) – en-IN
@@ -581,7 +581,7 @@ Here are the steps to get started:
 
 ### The new Japanese IME
 
-Thank you everyone who provided feedback about the new Japanese IME. We’ve decided to take some time to continue refining this experience, so that it ships with the highest possible quality. It will not be included with 19H1, but has been reactivated for Windows Insiders to explore in the 20H1 [builds.](https://blogs.windows.com/windowsexperience/2019/04/10/announcing-windows-10-insider-preview-build-18875/#obUbgTUfBRd4IjxX.97)
+Thank you everyone who provided feedback about the new Japanese IME. We’ve decided to take some time to continue refining this experience, so that it ships with the highest possible quality. It will not be included with 19H1, but has been reactivated for Windows Insiders to explore in the 20H1 [builds](https://blogs.windows.com/windowsexperience/2019/04/10/announcing-windows-10-insider-preview-build-18875/).
 
 ### Ebrima font addition with ADLaM support
 You can now read your ADLaM documents and webpages with the Windows Ebrima font!
@@ -628,7 +628,7 @@ Now you can easily access more symbols and special characters directly from touc
 ![more touch keyboard symbols](images/touch-keyboard.png "more touch keyboard symbols")
 
 ### Refreshing the Japanese IME
-We've already made [a few](https://blogs.windows.com/windowsexperience/2018/10/24/announcing-windows-10-insider-preview-build-18267/#3joUFcLxg0ozUFbp.97) [announcements](https://blogs.windows.com/windowsexperience/2018/10/31/announcing-windows-10-insider-preview-build-18272/#FZRyBpZfJrussGPF.97) about how we plan to improve your typing experiences in Windows with this release, and we're excited to add one more to the list today! To provide increased security and reliability, we're updating the Japanese IME by redesigning how it works with applications. Not only that, but we've updated the IME candidate window interface to be cleaner and more polished:
+We've already made [a few](https://blogs.windows.com/windowsexperience/2018/10/24/announcing-windows-10-insider-preview-build-18267/) [announcements](https://blogs.windows.com/windowsexperience/2018/10/31/announcing-windows-10-insider-preview-build-18272/) about how we plan to improve your typing experiences in Windows with this release, and we're excited to add one more to the list today! To provide increased security and reliability, we're updating the Japanese IME by redesigning how it works with applications. Not only that, but we've updated the IME candidate window interface to be cleaner and more polished:
 
 ![Japanese IME](images/18277-image7.png "Shows the Japanese IME")
 
@@ -673,7 +673,7 @@ Microsoft can automatically fix certain critical problems on your Windows device
 
 We’ll also recommend troubleshooting for other problems that aren’t critical to normal Windows operation but might be impacting your experience. For example, we may recommend turning off a setting that sometimes causes an app or feature to crash unexpectedly until an update is available. We’ll let you know when we can help, and you can choose to run the troubleshooter or ignore it. You can also change how recommended troubleshooting is run on your device by opening __Start > Settings > Privacy > Diagnostics & Feedback__.
 
-You may have noticed that this feature has been [visible for a while](https://blogs.windows.com/windowsexperience/2018/10/17/announcing-windows-10-insider-preview-build-18262/#55235pw4SoBiWckd.97), but now it is fully functional. You may see recommended troubleshooting from us while we test the feature. These tests, marked as “sample recommended troubleshooter”, are safe to run and will not make any changes to your device. The tests help to ensure that the feature is working as designed and give you an opportunity to give feedback, so we can help keep your device working at its best. You will see this notification when there is a recommended troubleshooter available for your device:
+You may have noticed that this feature has been [visible for a while](https://blogs.windows.com/windowsexperience/2018/10/17/announcing-windows-10-insider-preview-build-18262/), but now it is fully functional. You may see recommended troubleshooting from us while we test the feature. These tests, marked as “sample recommended troubleshooter”, are safe to run and will not make any changes to your device. The tests help to ensure that the feature is working as designed and give you an opportunity to give feedback, so we can help keep your device working at its best. You will see this notification when there is a recommended troubleshooter available for your device:
 
 ![Windows Hello PIN reset](images/18305-8.png "Streamlined Windows Hello PIN reset experience")
 

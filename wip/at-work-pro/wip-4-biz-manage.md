@@ -62,7 +62,7 @@ See also: </br>
 
 ### Manage device restarts after updates
 You can schedule update installation and set policies for restart, configure active hours for when restarts will not occur, or you can do both.
-To read more about how to manage device restarts after updates, [click the link here.](https://docs.microsoft.com/en-us/windows/deployment/update/waas-restart)
+To read more about how to manage device restarts after updates, see [Manage device restarts after updates](https://docs.microsoft.com/windows/deployment/update/waas-restart).
 
 ### Set using Microsoft Intune 
 1. Log into the [Azure portal](https://portal.azure.com) and select __Intune__ under __Resources__.
@@ -104,7 +104,7 @@ __NOTE:__
 3. Deploy the release the same way as any other feature update. create
 
 ### Install preview builds from Azure Marketplace 
-Windows Insiders can now create and install a Windows 10 Preview build from the Azure Marketplace. After installing, you can preview the latest version on a virtual machine without any additional configurations or updates. [Follow the link to get started and learn more.](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/microsoft-hyperv.windows10preview?tab=Overview)
+Windows Insiders can now create and install a Windows 10 Preview build from the Azure Marketplace. After installing, you can preview the latest version on a virtual machine without any additional configurations or updates. See [Windows 10 Preview](https://azuremarketplace.microsoft.com/marketplace/apps/microsoft-hyperv.windows10preview) to learn more.
 
 ## Confirm and track installations  
 

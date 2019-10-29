@@ -36,4 +36,4 @@ __NOTE:__ You must sign in with your registered AAD account to track feedback fr
 ![organizational feedback](images/wip-4-server-feedback.png "organizational feedback"). 
 
 ## Related topics
-[Send feedback to Microsoft with the Feedback Hub app](https://support.microsoft.com/en-us/help/4021566/windows-10-send-feedback-to-microsoft-with-feedback-hub-app)
+[Send feedback to Microsoft with the Feedback Hub app](https://support.microsoft.com/help/4021566/windows-10-send-feedback-to-microsoft-with-feedback-hub-app)

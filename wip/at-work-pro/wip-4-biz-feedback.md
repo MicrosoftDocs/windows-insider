@@ -14,9 +14,9 @@ ms.prod: w10
 
 # Submit and track feedback using the Feedback Hub
 
-Once users in your organization have installed an Insider Preview build, they can provide feedback to Microsoft on the build using the Feedback Hub application in Windows. This feedback can help us fix issues your users may encounter and is also an effective way to send suggestions to our engineering teams for new features and improvements. For more information see: [Send feedback to Microsoft with the Feedback Hub app](https://support.microsoft.com/en-us/help/4021566/windows-10-send-feedback-to-microsoft-with-feedback-hub-app).
+Once users in your organization have installed an Insider Preview build, they can provide feedback to Microsoft on the build using the Feedback Hub application in Windows. This feedback can help us fix issues your users may encounter and is also an effective way to send suggestions to our engineering teams for new features and improvements. For more information, see: [Send feedback to Microsoft with the Feedback Hub app](https://support.microsoft.com/help/4021566/windows-10-send-feedback-to-microsoft-with-feedback-hub-app).
 
-Users can sign into the Feedback Hub using either their Microsoft account or Azure Active Directory work account. Signing in with a Azure AD work account is recommended for business users as it allows users to submit and track feedback specific to their organization's needs and issues. 
+Users can sign into the Feedback Hub using either their Microsoft account or Azure Active Directory work account. Signing in with an Azure AD work account is recommended for business users as it allows users to submit and track feedback specific to their organization's needs and issues. 
 
 ## Submit feedback on behalf of your organization
 1. Register as a Windows Insider with your work account in Azure Active Directory.
@@ -33,5 +33,5 @@ NOTE: You must sign in with your registered Azure AD account to track feedback f
 ![organizational feedback](images/wip-4-biz-feedback.png "organizational feedback"). 
 
 ## Related topics
-[Send feedback to Microsoft with the Feedback Hub app](https://support.microsoft.com/en-us/help/4021566/windows-10-send-feedback-to-microsoft-with-feedback-hub-app)
+[Send feedback to Microsoft with the Feedback Hub app](https://support.microsoft.com/help/4021566/windows-10-send-feedback-to-microsoft-with-feedback-hub-app)
 

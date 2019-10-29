@@ -67,7 +67,7 @@ The Windows Insider Program for Business provides additional benefits to busines
 
 <ul class="cardsF panelContent cols cols2">
     <li>
-        <a href="https://docs.microsoft.com/en-us/windows-insider/at-work-pro/wip-4-biz-feedback">
+        <a href="https://docs.microsoft.com/windows-insider/at-work-pro/wip-4-biz-feedback">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
