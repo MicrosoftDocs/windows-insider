@@ -13,11 +13,11 @@ ms.prod: w10
 
 # What's new for Windows 10 Insider Preview Builds (20H1)
 
-The [Windows Insider Program](https://insider.windows.com/en-us/) lets you preview builds of the upcoming 20H1 release of Windows 10. This topic lists all new Windows 10 features for you to try.
+The [Windows Insider Program](https://insider.windows.com/) lets you preview builds of the upcoming 20H1 release of Windows 10. This topic lists all new Windows 10 features for you to try.
 
 
 ## Windows Hello PIN in Safe mode (Build 18995)
-Safe mode starts Windows in a basic state, using a limited set of files and drivers to help you troubleshoot problems on your PC. If a problem doesn’t happen in Safe mode, this means that default settings and basic device drivers aren’t causing the issue. [Read more about Safe mode](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fsupport.microsoft.com%2Fen-us%2Fhelp%2F12376%2Fwindows-10-start-your-pc-in-safe-mode&data=02%7C01%7Cv-alshie%40microsoft.com%7C782d56759fc64df7976308d745c31bc7%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637054576615768081&sdata=x73OeLvYKrupaizwOI%2BzmLEDIq6%2FmHx%2BlfkvYEkjU8A%3D&reserved=0).
+Safe mode starts Windows in a basic state, using a limited set of files and drivers to help you troubleshoot problems on your PC. If a problem doesn’t happen in Safe mode, this means that default settings and basic device drivers aren’t causing the issue. [Read more about Safe mode](https://support.microsoft.com/help/12376/windows-10-start-your-pc-in-safe-mode).
 
 With the latest flight, we’re taking another step forward in our Passwordless journey by adding Windows Hello PIN sign-in support to Safe mode, so that you no longer have rely on your password when troubleshooting your device. Try it out with the instructions below and let us know what you think!
 
@@ -37,7 +37,7 @@ With the latest flight, we’re taking another step forward in our Passwordless 
 See the [WSL release notes](https://docs.microsoft.com/windows/wsl/release-notes) for the newest improvements in the latest Insider Preview builds.
 
 ## Connecting network cameras to Windows 10 devices (Build 18995)
-Network cameras, which are Internet Protocol-based cameras that transmit video data over a local area network (LAN), are becoming increasingly prevalent – especially in surveillance and security scenarios. [Windows now allows users to associate network cameras to their PC, enabling photo capture and streaming of video in camera applications.](https://blogs.windows.com/windowsdeveloper/2019/10/10/connecting-network-cameras-to-windows-10-devices/#VgbCTOYwMjeVe6bw.97)
+Network cameras, which are Internet Protocol-based cameras that transmit video data over a local area network (LAN), are becoming increasingly prevalent—especially in surveillance and security scenarios. [Windows now allows users to associate network cameras to their PC, enabling photo capture and streaming of video in camera applications](https://blogs.windows.com/windowsdeveloper/2019/10/10/connecting-network-cameras-to-windows-10-devices/).
 
 ## Enabling automatic restart for UWP apps (Build 18990)
 We already introduced a new [separate setting](https://docs.microsoft.com/windows-insider/at-home/whats-new-wip-at-home-20h1#control-over-restarting-apps-at-sign-in-build-18965) to control if [registered desktop apps](https://docs.microsoft.com/windows/win32/recovery/registering-for-application-restart) from your previous sign-in session are restarted when signing back in to Windows. In the latest Insider Preview builds, in addition to registered desktop apps, when you opt into this setting, the majority of open UWP apps are now also automatically restarted as well! To reduce sign-in time, UWP apps are restarted minimized, in a suspended state, giving Windows and other apps more resources to get started. To try it out:
@@ -65,7 +65,7 @@ In our Windows Insider webcast, we had the Deployment Team as guests to talk abo
 
 ## Improving your Bluetooth pairing experience (Build 18985)
 
-For Windows 10 version 1803, we announced a new [streamlined experience for pairing supported Bluetooth devices](https://blogs.windows.com/windowsexperience/2018/02/07/announcing-windows-10-insider-preview-build-17093-pc/#w4q0dmD4RI1BsP7d.97). The idea was simple—if a supported device was nearby and in pairing mode, we’d show a notification that prompted you to go through pairing. This saved you from opening Settings yourself and finding the right place to go. Today, we’re rolling out an update with improvements we hope you’ll like.
+For Windows 10, version 1803, we announced a new [streamlined experience for pairing supported Bluetooth devices](https://blogs.windows.com/windowsexperience/2018/02/07/announcing-windows-10-insider-preview-build-17093-pc/). The idea was simple—if a supported device was nearby and in pairing mode, we’d show a notification that prompted you to go through pairing. This saved you from opening Settings yourself and finding the right place to go. Today, we’re rolling out an update with improvements we hope you’ll like.
 Here’s what’s new:
 * Pairing is all done in notifications now. You don’t need to go to the Settings app anymore to finish pairing.
 * For faster pairing time, we improved the UI by showing one less notification.
@@ -141,7 +141,7 @@ We’d love to hear your feedback about the new experience–share your thoughts
 Reset this PC provides users a new choice to download Windows or use local reinstall. Previously, Reset this PC was only able to do a local reinstall and would build a new Windows installation from existing Windows files. When this feature was introduced in Windows 10 version 1507, it provided the advantage of enabling Windows to be recoverable without requiring extra disk space to store a compressed, backup copy of Windows in a hidden partition. We’ve heard feedback that some of you would prefer to use your high-speed internet connection to speed up this process by just downloading Windows.
 
 >[!NOTE]
->This is a recovery operation and will remove apps you have installed. Additionally, if the “Remove everything” option is selected, user data will also be deleted. For more information on Reset this PC and other recovery options, [visit the link here.](https://support.microsoft.com/en-us/help/12415/windows-10-recovery-options)
+>This is a recovery operation and will remove apps you have installed. Additionally, if the “Remove everything” option is selected, user data will also be deleted. For more information on Reset this PC and other recovery options, [visit the link here](https://support.microsoft.com/help/12415/windows-10-recovery-options).
 
 The cloud download option will reinstall the same build, version, and edition, that is currently installed on your device. This new cloud download option is available to all Windows 10 devices and is different from the “Recover from the cloud” feature available on some earlier Windows 10 devices.
 
@@ -308,7 +308,7 @@ __We also fixed issues where:__
 Thanks again! If you have any further feedback about these experiences, [let us know](https://aka.ms/inputfeedback).
 
 ## Notification settings improvements now rolling out to all of Fast (Build 18956) 
-Thanks everyone who’s tried out our [improvements so far](https://docs.microsoft.com/en-us/windows-insider/at-work-pro/wip-4-biz-whats-new#refining-your-notification-settings-build-18932). We’re now starting to roll these out to all Insiders. To recap what you’ll see when you have the change:
+Thanks everyone who’s tried out our [improvements so far](https://docs.microsoft.com/windows-insider/at-work-pro/wip-4-biz-whats-new#refining-your-notification-settings-build-18932). We’re now starting to roll these out to all Insiders. To recap what you’ll see when you have the change:
 * If you hover your mouse over an incoming notification, you’ll now see a settings icon to make it easy to adjust that app’s notification settings.
 * We’ve updated the design of the per-app notification settings for visual clarity.
 * There’s now a direct link to notification settings at the top of the Action Center.
@@ -383,16 +383,16 @@ Have you ever had an issue finding the text cursor in the middle of a large amou
 
 #### Known issues 
 * Text cursor indicator color and size might not persist when you sign in. To work around that, simply turn off and turn on the “Use text cursor indicator” setting again.
-* Occasionally, you might see that the text cursor indicator stay on the screen or reappear after the app has been closed or the page contents have scrolled away.
+* Occasionally, you might see that the text cursor indicator stays on the screen or reappears after the app has been closed or the page contents have scrolled away.
 
 ## Updated File Explorer search rolling out to all Insiders (Build 18945)
-Over the next few days, [the new File Explorer search experience](https://blogs.windows.com/windowsexperience/2019/05/08/announcing-windows-10-insider-preview-build-18894/#QfdoEyQ3TQXvJVoD.97) will be rolling out to all Insiders in the Fast ring! Thanks everyone who’s shared feedback so far and helped us to improve the experience. Please don’t hesitate to share any other comments – you can file feedback for this area under Files, Folders, and Storage > File Explorer in the Feedback Hub.
+Over the next few days, [the new File Explorer search experience](https://blogs.windows.com/windowsexperience/2019/05/08/announcing-windows-10-insider-preview-build-18894/) will be rolling out to all Insiders in the Fast ring! Thanks everyone who’s shared feedback so far and helped us to improve the experience. Please don’t hesitate to share any other comments—you can file feedback for this area under Files, Folders, and Storage > File Explorer in the Feedback Hub.
 
 ![File Exploer](images/18945-4.png "updated File Explorer search rolling out to all Insiders")
 
 
 ## Updating the Korean IME (Build 18941)
-Earlier in this development cycle, we released [updated versions of both the Chinese and Japanese IMEs](https://blogs.windows.com/windowsexperience/2019/04/10/announcing-windows-10-insider-preview-build-18875/#shlPX8HU74Tl0frv.97). As part of our ongoing efforts to modernize and improve your typing experience in Windows, today we’re rolling out an updated version of the Korean IME to all Insiders in the Fast ring. This update is going out with the goal of making the IME more secure, reliable, and more beautiful to look at.
+Earlier in this development cycle, we released [updated versions of both the Chinese and Japanese IMEs](https://blogs.windows.com/windowsexperience/2019/04/10/announcing-windows-10-insider-preview-build-18875/). As part of our ongoing efforts to modernize and improve your typing experience in Windows, today we’re rolling out an updated version of the Korean IME to all Insiders in the Fast ring. This update is going out with the goal of making the IME more secure, reliable, and more beautiful to look at.
 
 For those who’re familiar with typing in Korean, the changes will be most noticeable if you write in Hanja; we have a new candidate selection window that uses modern controls and clearer typography:
 
@@ -445,7 +445,7 @@ __Settings:__ We have updated settings to allow you to manage more Eye Control f
 ![Accessibility](images/18932-4.png "Eye Control")
 
 ## Refining your notification settings (Build 18932)
-Over the last few releases, based on your feedback, we’ve been working on giving you more control over potential interruptions. [Introducing Focus Assist](https://blogs.windows.com/windowsexperience/2018/05/09/windows-10-tip-how-to-enable-focus-assist-in-the-windows-10-april-2018-update/#6pHjPV1ym9QaGIuO.97) to automatically suppress notifications when you’re trying to stay in the moment and not get distracted, and adding the option to use middle click to dismiss notifications if you want to quickly make a notification toast go away.
+Over the last few releases, based on your feedback, we’ve been working on giving you more control over potential interruptions. [Introducing Focus Assist](https://blogs.windows.com/windowsexperience/2018/05/09/windows-10-tip-how-to-enable-focus-assist-in-the-windows-10-april-2018-update/) to automatically suppress notifications when you’re trying to stay in the moment and not get distracted, and adding the option to use middle click to dismiss notifications if you want to quickly make a notification toast go away.
 One thing we’ve heard from you, though, is that our notification settings aren’t easily discoverable. In addition, once you find the settings, they can be difficult to understand.
 In order to address this, we’ve begun rolling out a few changes, including:
 1. When you receive a notification toast, there will now be an inline option to turn off notifications for that app, or head to the app’s notification settings.
@@ -556,7 +556,7 @@ Based on your feedback, with Feedback Hub version 1.1903, Insiders with Windows 
 ![dictation](images/18885-3.png "expanded language support")
 
 ## East Asian Microsoft Input Method Editor (IME) Improvements (Build 18875)
-__The New Japanese IME is now available to all Insiders in Fast.__ During 19H1, we announced we were working on [a new Japanese IME](https://blogs.windows.com/windowsexperience/2018/11/07/announcing-windows-10-insider-preview-build-18277/#jJxpLldDZEsihHJv.97). We got a lot of great feedback, and the IME was taken offline for a time while we worked on improving the experience based on what you’d told us. Today the IME – now more secure, more stable, with improved game compatibility, and more – is once again available for all Insiders starting with this build. If you speak Japanese, please take some time to evaluate how it feels to use the IME (with all the improvements) for daily usage, and let us know what you think! If you already were using the Japanese IME, you’ll automatically have the new one when you install this build – if you weren’t already using the Japanese IME, you can add it by going to Languages Settings and adding Japanese to the list.
+__The New Japanese IME is now available to all Insiders in Fast.__ During 19H1, we announced that we were working on [a new Japanese IME](https://blogs.windows.com/windowsexperience/2018/11/07/announcing-windows-10-insider-preview-build-18277/). We got a lot of great feedback, and the IME was taken offline for a time while we worked on improving the experience based on what you had told us. Today the IME—now more secure, more stable, with improved game compatibility, and more—is once again available for all Insiders starting with this build. If you speak Japanese, please take some time to evaluate how it feels to use the IME (with all the improvements) for daily usage, and let us know what you think! If you already were using the Japanese IME, you’ll automatically have the new one when you install this build—if you weren’t already using the Japanese IME, you can add it by going to Languages Settings and adding Japanese to the list.
 
 ![Japanese IME](images/18875-1.jpg "Key and touch customization")
 
