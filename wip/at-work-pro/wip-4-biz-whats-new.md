@@ -30,14 +30,14 @@ To get started:
 ![virtual desktops](images/18963-2.gif "Renaming your virtual desktops")
 
 ## Cortana window can now move (Build 18975)
-With the [new conversational Cortana experience](https://docs.microsoft.com/en-us/windows-insider/at-work-pro/wip-4-biz-whats-new#new-cortana-experience-for-windows-10-build-18945), we understand that you want to keep the chat going sometimes, and the default position of the window isn’t always where you’d prefer to have it docked if you’re going to have a longer back and forth. That’s why we’ve rolled out the option to be able to move the window (by dragging the title bar area), to anywhere you’d like on the screen–just like you can with other windows. You can also resize the window if you’d like.
+With the [new conversational Cortana experience](https://docs.microsoft.com/windows-insider/at-work-pro/wip-4-biz-whats-new#new-cortana-experience-for-windows-10-build-18945), we understand that you want to keep the chat going sometimes, and the default position of the window isn’t always where you’d prefer to have it docked if you’re going to have a longer back and forth. That’s why we’ve rolled out the option to be able to move the window (by dragging the title bar area) to anywhere you’d like on the screen–just like you can with other windows. You can also resize the window if you’d like.
 ![Cortana experience](images/18975-1.gif "Cortana window moves around the desktop")
 
 ## New Reset this PC option: Cloud download (Build 18970)
-Reset this PC provides users a new choice to download Windows or use local reinstall. Previously, Reset this PC was only able to do a local reinstall and would build a new Windows installation from existing Windows files. When this feature was introduced in Windows 10 version 1507, it provided the advantage of enabling Windows to be recoverable without requiring extra disk space to store a compressed, backup copy of Windows in a hidden partition. We’ve heard feedback that some of you would prefer to use your high-speed internet connection to speed up this process by just downloading Windows.
+Reset this PC provides users a new choice to download Windows or use local reinstall. Previously, Reset this PC was only able to do a local reinstall and would build a new Windows installation from existing Windows files. When this feature was introduced in Windows 10, version 1507, it provided the advantage of enabling Windows to be recoverable without requiring extra disk space to store a compressed backup copy of Windows in a hidden partition. We’ve heard feedback that some of you would prefer to use your high-speed internet connection to speed up this process by just downloading Windows.
 
 >[!NOTE]
->This is a recovery operation and will remove apps you have installed. Additionally, if the “Remove everything” option is selected, user data will also be deleted. For more information on Reset this PC and other recovery options, [visit the link here.](https://support.microsoft.com/en-us/help/12415/windows-10-recovery-options)
+>This is a recovery operation and will remove apps you have installed. Additionally, if the “Remove everything” option is selected, user data will also be deleted. For more information on Reset this PC and other recovery options, see [Recovery options in Windows 10](https://support.microsoft.com/help/12415/windows-10-recovery-options).
 
 The cloud download option will reinstall the same build, version, and edition, that is currently installed on your device. This new cloud download option is available to all Windows 10 devices and is different from the “Recover from the cloud” feature available on some earlier Windows 10 devices.
 
@@ -146,10 +146,10 @@ Based on your feedback, we’re revamping the Network & Internet landing page in
 
 ![Network status](images/18956-2.png "Integrated Data Usage")
 
-We hope you like the changes! If you have any feedback about these, you can share it via the Feedback Hub under Network and Internet > Networking Experience – Look and Feel.
+We hope you like the changes! If you have any feedback about these, you can share it via the Feedback Hub under **Network and Internet** > **Networking Experience – Look and Feel**.
 
 ## Notification settings improvements (Build 18956) 
-Thanks everyone who’s tried out our [improvements so far](https://docs.microsoft.com/en-us/windows-insider/at-work-pro/wip-4-biz-whats-new#refining-your-notification-settings-build-18932). To recap what you’ll see when you have the change:
+Thanks everyone who’s tried out our [improvements so far](https://docs.microsoft.com/windows-insider/at-work-pro/wip-4-biz-whats-new#refining-your-notification-settings-build-18932). To recap what you’ll see when you have the change:
 * If you hover your mouse over an incoming notification, you’ll see a settings icon to make it easy to adjust that app’s notification settings.
 * We’ve updated the design of the per-app notification settings for visual clarity.
 * There’s a direct link to notification settings at the top of the Action Center.

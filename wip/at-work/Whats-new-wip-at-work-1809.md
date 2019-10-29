@@ -159,7 +159,7 @@ If you’re already using Windows Defender Advanced Threat Protection (ATP), pre
 
 Otherwise, sign up for the Windows Defender ATP trial on [Windows
 Defender Advanced Threat
-Protection](https://www.microsoft.com/en-us/windowsforbusiness/windows-atp).
+Protection](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp).
 
 ### Windows Defender ATP Exploit Guard
 
@@ -170,7 +170,7 @@ attack vectors and block behaviors commonly used in malware attacks,
 while enabling enterprises to balance their security risk and
 productivity requirements.
 
-- <a href="https://docs.microsoft.com/windows/threat-protection/windows-defender-exploit-guard/attack-surface-reduction-exploit-guard?ocid=cx-blog-mmpc">Attack Surface Reduction
+- <a href="https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction">Attack Surface Reduction
     (ASR)</a>:
     A set of controls that enterprises can enable to prevent malware
     from getting on the machine by blocking suspicious malicious files
@@ -178,18 +178,18 @@ productivity requirements.
     behavior, and email-based threats.
 
 -   [**Network
-    protection**](https://docs.microsoft.com/windows/threat-protection/windows-defender-exploit-guard/network-protection-exploit-guard?ocid=cx-blog-mmpc):
+    protection**](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/network-protection):
     Protects the endpoint against web-based threats by blocking any
     outbound process on the device to untrusted hosts/IP addresses
     through Windows Defender SmartScreen.
 
 -   [**Controlled folder
-    access**](https://blogs.technet.microsoft.com/mmpc/2017/10/23/stopping-ransomware-where-it-counts-protecting-your-data-with-controlled-folder-access?ocid=cx-blog-mmpc):
+    access**](https://www.microsoft.com/security/blog/2017/10/23/stopping-ransomware-where-it-counts-protecting-your-data-with-controlled-folder-access/):
     Protects sensitive data from ransomware by blocking untrusted
     processes from accessing your protected folders.
 
 -   [**Exploit
-    protection**](https://docs.microsoft.com/windows/threat-protection/windows-defender-exploit-guard/exploit-protection-exploit-guard?ocid=cx-blog-mmpc):
+    protection**](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/exploit-protection):
     A set of mitigations for vulnerability exploits (replacing EMET)
     that can be easily configured to protect your system and
     applications.
@@ -294,7 +294,7 @@ branch-office scenario, see [Improved branch office support for shielded
 VMs in Windows Server, version
 1709](https://blogs.technet.microsoft.com/datacentersecurity/2017/11/15/improved-branch-office-support-for-shielded-vms-in-windows-server-version-1709/)
 on our blog. [Offline
-mode](https://docs.microsoft.com/windows-server/virtualization/guarded-fabric-shielded-vm/guarded-fabric-manage-branch-office#offline-mode)
+mode](https://docs.microsoft.com/windows-server/security/guarded-fabric-shielded-vm/guarded-fabric-manage-branch-office#offline-mode)
 allows you to continue to start up your shielded VMs, even if HGS can't
 be reached, as long as the VM has started successfully once, and the
 host's security configuration has not changed. (To enable offline mode,
@@ -313,7 +313,7 @@ For customers who run mixed-OS environments, we now support running
 Ubuntu, Red Hat Enterprise Linux, and SUSE Linux Enterprise Server
 inside shielded virtual machines. Try it out—[Create a Linux shielded VM
 template
-disk](https://docs.microsoft.com/windows-server/virtualization/guarded-fabric-shielded-vm/guarded-fabric-create-a-linux-shielded-vm-template)—and
+disk](https://docs.microsoft.com/windows-server/security/guarded-fabric-shielded-vm/guarded-fabric-create-a-linux-shielded-vm-template)—and
 send us your feedback in the Feedback Hub.
 
 

@@ -38,12 +38,12 @@ Calls requirements:
 * Windows 10 Version 1903 (OS build) 18362.356 or newer
 
 Note: 
-* This feature will gradually roll out to Insiders  so it may take a few days to be available inside the Your Phone app.
-* To enable the Calls feature, users must sign into the  Your Phone app using the Microsoft account that they used to register as a Windows Insider. 
-* For set-up instructions and other details see [Calls Feature for the Your phone app](https://answers.microsoft.com/en-us/insider/forum/insider_apps-insider_other-insiderplat_pc/calls-feature-for-the-your-phone-app/8266e234-ba16-42be-8b11-af2e33ba93ed?tm=1570724539623) 
+* This feature will gradually roll out to Insiders so it may take a few days to be available inside the Your Phone app.
+* To enable the Calls feature, users must sign into the Your Phone app using the Microsoft account that they used to register as a Windows Insider. 
+* For set-up instructions and other details, see [Calls Feature for the Your phone app](https://answers.microsoft.com/en-us/insider/forum/all/calls-feature-for-the-your-phone-app/8266e234-ba16-42be-8b11-af2e33ba93ed).
 
 Known issue:
-* In certain instances, Calls feature may require you to pair your mobile phone & PC again. If you have previously paired your devices, unpair your devices and go through the Calls set up flow again.
+* In certain instances, Calls feature may require you to pair your mobile phone & PC again. If you have previously paired your devices, unpair your devices and go through the Calls setup flow again.
 
 We value your feedback, so give it a try and let us know what you think. You can report any issues under the Your Phone > Settings > Send feedback.
 
@@ -187,7 +187,7 @@ __How set up Your Phone and Notifications__
 
 After you’ve completed the setup process on your Android phone and PC, you’ll be able to use the Your Phone app on your PC to see notifications and photos from your phone and send text messages from your PC. 
 
-For more information on setting up other Your Phone app features, see [Your Phone app help](https://support.microsoft.com/en-us/help/4459358/windows-10-your-phone-app-help).
+For more information on setting up other Your Phone app features, see [Your Phone app help](https://support.microsoft.com/help/4459358/windows-10-your-phone-app-help).
 
 ### Phone screen now supports additional Android devices
 
@@ -295,7 +295,7 @@ If you prefer to view a particular email in light mode, look for the sunshine ic
 ![Dark mode](images/18329-5.jpg "Dark mode now extended to Mail and Calendar items")
 
 ### Default Font
-We are introducing a top customer requested feature: Default font. Now you can customize how new messages will look. If you create a new mail or reply to an existing mail, the text you type will be in the font face, size, color and emphasis you have selected.  To change your default font, go into settings and select “Default font”. Default font applies per-account and does not roam to other devices. These updates are the latest in a [series of updates](https://support.office.com/en-us/article/what-s-new-in-mail-and-calendar-for-windows-10-9822b33c-b9ad-48bc-ac53-c1b6136e405b?ui=en-US&rs=en-US&ad=US) we’ve made based on your feedback, and we’re looking forward to hearing what you’d like to see improved next!
+We are introducing a top customer requested feature: Default font. Now you can customize how new messages will look. If you create a new mail or reply to an existing mail, the text you type will be in the font face, size, color and emphasis you have selected.  To change your default font, go into settings and select “Default font”. Default font applies per-account and does not roam to other devices. These updates are the latest in a [series of updates](https://support.office.com/article/what-s-new-in-mail-and-calendar-for-windows-10-9822b33c-b9ad-48bc-ac53-c1b6136e405b) we’ve made based on your feedback, and we’re looking forward to hearing what you’d like to see improved next!
 
 ![Dark mode](images/18329-6.png "Dark mode now extended to Mail and Calendar items")
 

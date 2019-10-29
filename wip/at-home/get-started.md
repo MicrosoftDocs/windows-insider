@@ -17,9 +17,9 @@ ms.prod: w10
 To install a Windows 10 Insider Preview Build on an individual PC, follow the steps below. 
 
 ## Prerequisites
-1. __Register as a Windows Insider.__ You can register on the [Windows Insider Program website](https://insider.windows.com/en-us/register/), or in Windows Insider settings on your PC. To register, use your Microsoft account or an Azure Active Directory work account. For the benefits of using a work account, see [Register for the Windows Insider Program for Business](https://docs.microsoft.com/windows-insider/at-work-pro/wip-4-biz-register). 
-2. __Install Windows 10 on your PC.__ To install Windows 10 Insider Preview, you’ll need to be running a licensed version of Windows 10 on your PC. If your PC is currently running Windows 7/8/8.1, you can [install Windows 10 here](https://www.microsoft.com/en-us/windows/get-windows-10?step=Win10Question1). If you are having problems installing Windows 10, you can  [download Windows 10 Insider Preview ISO](https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewadvanced).
-3. __Check diagnostic settings.__ Diagnostic data settings must be set to Enhanced or Full to receive Insider Preview builds. To check and change settings, go to **Settings** > **Privacy** > **Diagnostics & feedback**. For more information see [Diagnostics, feedback and privacy in Windows 10](https://support.microsoft.com/en-us/help/4468236/diagnostics-feedback-and-privacy-in-windows-10-microsoft-privacy). 
+1. __Register as a Windows Insider.__ You can register on the [Windows Insider Program website](https://insider.windows.com/), or in Windows Insider settings on your PC. To register, use your Microsoft account or an Azure Active Directory work account. For the benefits of using a work account, see [Register for the Windows Insider Program for Business](https://docs.microsoft.com/windows-insider/at-work-pro/wip-4-biz-register). 
+2. __Install Windows 10 on your PC.__ To install Windows 10 Insider Preview, you’ll need to be running a licensed version of Windows 10 on your PC. If your PC is currently running Windows 7/8/8.1, you can [install Windows 10 here](https://www.microsoft.com/windows/get-windows-10). If you are having problems installing Windows 10, you can  [download Windows 10 Insider Preview ISO](https://www.microsoft.com/software-download/windowsinsiderpreviewadvanced).
+3. __Check diagnostic settings.__ Diagnostic data settings must be set to Enhanced or Full to receive Insider Preview builds. To check and change settings, go to **Settings** > **Privacy** > **Diagnostics & feedback**. For more information, see [Diagnostics, feedback and privacy in Windows 10](https://support.microsoft.com/help/4468236/diagnostics-feedback-and-privacy-in-windows-10-microsoft-privacy). 
 4. __Check language support.__ Confirm that Windows 10 Insider Preview Builds support your desired language on your PC. See __Supported Languages__ below.
 
 ## Configure Windows Insider Program settings 
@@ -44,7 +44,7 @@ The following steps apply to PCs running Windows 10, Version 1809. Steps will va
 3.	To confirm installation of the latest Insider Preview build, type __Winver__ in the Windows search bar and run the command to get the build number of the Windows version currently running on your PC. Compare this against the latest build available as listed in [Flight Hub](https://docs.microsoft.com/windows-insider/flight-hub/). 
 
 > [!NOTE] 
-> Your devices will be automatically updated to the latest Insider Preview builds using Windows Update. See [Windows Update guidance](https://support.microsoft.com/en-us/help/4027667/windows-10-update). 
+> Your devices will be automatically update to the latest Insider Preview builds using Windows Update. See [Windows Update guidance](https://support.microsoft.com/help/4027667/windows-10-update). 
 > If you're unable to install an Insider Preview build or encounter other technical related issues, see [Troubleshooting](troubleshooting.md). 
 
 ## Let us know what you think
@@ -57,7 +57,7 @@ Arabic (Saudi Arabia), Bulgarian (Bulgaria), Chinese (Simplified, China), Chines
 Windows 10 Insider Preview is available in the following Language Interface Packs (LIP) languages:
 Afrikaans (South Africa), Albanian (Albania), Amharic, Armenian, Assamese, Azerbaijani (Latin, Azerbaijan), Bangla (Bangladesh), Bangla (India), Basque, Belarusian (Belarus), Bosnian (Latin), Catalan (Catalan), Cherokee (Cherokee), Dari, Filipino (Philippines), Galician (Galician), Georgian, Gujarati, Hindi (India), Icelandic, Indonesian (Indonesia), Irish, Kannada, Kazakh (Kazakhstan), Khmer (Cambodia), KiSwahili, Konkani, Kyrgyz, Lao (Laos), Luxembourgish, Macedonian (Former Yugoslav Republic of Macedonia), Malay (Malaysia), Malayalam, Maltese, Maori, Marathi, Mongolian (Cyrillic), Nepali, Norwegian (Nynorsk), Odia, Persian, Punjabi, Quechua, Scottish Gaelic, Serbian (Cyrillic, Bosnia and Herzegovina), Serbian (Cyrillic, Serbia), Sindhi (Arabic), Sinhala, Tamil (India), Tatar, Telugu, Turkmen, Urdu, Uyghur, Uzbek (Latin, Uzbekistan), Valencian, Vietnamese, Welsh.
 
-LIP languages can be installed as a language pack over [supported base languages](https://support.microsoft.com/en-us/help/14236/language-packs).
+LIP languages can be installed as a language pack over [supported base languages](https://support.microsoft.com/help/14236/language-packs).
 
 
 
