@@ -15,6 +15,31 @@ ms.prod: w10
 
 The [Windows Insider Program](https://insider.windows.com/) lets you preview builds of the upcoming 20H1 release of Windows 10. This topic lists all new Windows 10 features for you to try.
 
+## More kaomoji (Build 19013)
+As some of you may know, with Windows 10 version 1903, we updated our WIN+(Period) / WIN+(Semicolon) keyboard shortcut to not only include emoji, but to also now contain kaomoji and special characters. What are kaomoji? Basically, they’re faces with expressions you can make by combining various characters–for example, you might be familiar with the shruggie:
+
+¯\_(ツ)_/¯
+
+![Kaomoji](images/19003-2.png "new kaomoji")
+
+Based on your feedback, in this build we’re updating our kaomoji list with a few more favorites, including:
+
+* ヾ(⌐■_■)ノ♪
+* ლ(╹◡╹ლ)
+* (⊙_◎)
+* ( ͡~ ͜ʖ ͡°)
+* ಠ_ರೃ
+* (∩^o^)⊃━☆
+* /ᐠ｡ꞈ｡ᐟ\
+
+And more! Enjoy (❁´◡`❁)
+
+## Windows Subsystem for Linux (WSL) 2 improvements (Build 19013)
+
+Previously, your WSL 2 Virtual Machine’s (VM) memory would grow to meet the needs of your workflow, but would not shrink back down when the memory was no longer needed.  With this change, as memory is no longer in use in the Linux VM, it will be freed back to Windows, which will shrink in memory size accordingly.
+
+## Preview new DirectX 12 features (Build 19013)
+In the latest 20H1 builds, you can preview new DirectX 12 features, including DirectX Raytracing tier 1.1, Mesh Shader, and Sampler Feedback. In [this blog post](https://devblogs.microsoft.com/directx/dev-preview-of-new-directx-12-features/), the DirectX Team explains what each of these features are and how they will improve the gaming experience in Windows 10!
 
 ## Windows Hello PIN in Safe mode (Build 18995)
 Safe mode starts Windows in a basic state, using a limited set of files and drivers to help you troubleshoot problems on your PC. If a problem doesn’t happen in Safe mode, this means that default settings and basic device drivers aren’t causing the issue. [Read more about Safe mode](https://support.microsoft.com/help/12376/windows-10-start-your-pc-in-safe-mode).

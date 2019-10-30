@@ -19,8 +19,31 @@ _Note:_ Not all app updates will be listed here. Only app updates that include m
 
 ## Your Phone 
 
+__10/29/2019__
+
+### Elevating the Phone screen feature by removing its dependency on Bluetooth connection
+
+Windows Insiders, we heard your feedback about the Phone screen feature’s dependency on Bluetooth Low Energy connectivity. To address your feedback, we partnered closely with Samsung to bring you a more streamlined experience across all Windows 10 PCs by removing the peripheral role dependency for Phone screen, which will expand the overall reach of this feature.
+
+Samsung Galaxy Note 10 was the first device to introduce this feature in August. After a positive response, we’ve recently enabled this feature across Samsung Galaxy Fold, S10, S10+, and S10e smartphones. You’ll need to update your supported Samsung devices with the recent software update that enables the ‘Link to Windows’ feature. To continue offering this experience to other smartphones, we’re expanding this feature support to Samsung Galaxy A30s, A50s, and A90 smartphones, and we’ll continue to add additional devices in the coming months.
+
+With the new experience rolling out, we’ll be removing the Bluetooth connectivity option, effective immediately. If you were previously enjoying Phone screen over Bluetooth and you have a phone model that doesn’t yet support Link to Windows, the Phone screen node will disappear automatically within the Your Phone app. We recommend that you unpair your devices by going to the Bluetooth settings on both your PC and your Android phone, so that you don’t have a connection that is no longer in use.
+
+Thank you for helping us refine the Phone screen experience so far!
+
+Phone screen requirements:
+* Select Android phones running Android 9.0 or greater
+* PC running Windows 10 October 2018 Update (version 1809) or later
+* Android phone must be on and connected to the same network as the PC
+* You will need a supported device to use this feature: 
+    * Samsung Galaxy Fold
+    * Samsung Galaxy Note 10/ Note 10+
+    * Samsung Galaxy S10/S10+/S10e
+    * Samsung Galaxy A30s/A50s/A90
+* Refer to the [Your Phone FAQs](https://support.microsoft.com/en-us/help/4459358/windows-10-your-phone-app-help) for additional information.
+
 __10/8/2019__
-## Your Phone app – unveiling Calls, now even more ways to stay connected to what matters 
+### Unveiling Calls, now even more ways to stay connected to what matters 
 No need to dig for your Android phone to answer your personal or work calls. You can now stay connected by simply answering (or not) your phone calls on your PC. Tap into your PC’s speakers, microphone, and large screen for a richer calling experience.
 
 With the Calls feature you can:
@@ -39,7 +62,7 @@ Calls requirements:
 
 Note: 
 * This feature will gradually roll out to Insiders so it may take a few days to be available inside the Your Phone app.
-* To enable the Calls feature, users must sign into the Your Phone app using the Microsoft account that they used to register as a Windows Insider. 
+* To enable the Calls feature, sign into the Your Phone app using the Microsoft account that you used to register as a Windows Insider. 
 * For set-up instructions and other details, see [Calls Feature for the Your phone app](https://answers.microsoft.com/en-us/insider/forum/all/calls-feature-for-the-your-phone-app/8266e234-ba16-42be-8b11-af2e33ba93ed).
 
 Known issue:
@@ -216,6 +239,19 @@ __Phone screen requirements:__
 * Latest 19H1 preview build (18342+ recommended).
 * Android phone must be on, within Bluetooth range of the PC, and connected to the same network as the PC.
 
+## PowerToys 
+
+__10/29/2019__
+
+### PowerToys v0.12 now available!
+We’ve just released our 0.12 release of PowerToys on GitHub. We’ve gotten tons of great feedback and suggestions from the community and want to directly say thank you to everyone.
+
+New features include a great new utility called PowerRename, which makes it easy to batch rename a bunch of files, improvements to FancyZones, and support for Dark Mode.
+
+Check out our [latest article](https://insider.windows.com/en-us/articles/powertoys-v012-now-available/) for all the details.
+
+![Powertoys](images/19003-1.gif "new PowerRename feature")
+
 ## Snip & Sketch 
 
 __7/31/2019 - Version 10.1907__
@@ -371,7 +407,7 @@ This update includes:
 
 __9/24/2019__
 
-## Track Achievements and frame rate 
+### Track Achievements and frame rate 
 In case you hadn’t seen, we’ve rolled out an FPS counter in the Performance overlay and added a new Achievement overlay! Use the Achivements overlay to track your progress and see what you've unlocked. View the frame rate of the game you're playing with the FPS counter. Thanks to everyone who shared feedback so far. The update will come via the Microsoft Store. Just set focus to your favorite game and press WIN + G to get started.
 
 NOTE: You’ll find the new achievement overlay and frame rate counter in version V3.33.26001.0 or higher of the Xbox Game Bar. To check that you have the correct version of the Game Bar installed, open your Xbox Game Bar and go to settings (gear icon, upper right). If you do not have the Xbox Game Bar or need to download the latest version, first download the Xbox Insider Hub from the Microsoft Store, then go to Insider Content and click on "Game Bar (Windows Gaming)". 
