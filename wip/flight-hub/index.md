@@ -23,9 +23,11 @@ The items in **bold** are the latest releases for the individual versions of the
 
 | Build | Fast | Slow | Server | IoT | ISO | SDK |
 |-------|------|------|--------|-----|-----|-----|
-|19002|[**10/17/2019**](https://blogs.windows.com/windowsexperience/2019/10/17/announcing-windows-10-insider-preview-build-19002/)|||||[**10/22/2019**](https://blogs.windows.com/windowsdeveloper/2019/10/22/windows-10-sdk-preview-build-19002-available-now/#CTtMjtzQR1dU2reO.97)|
+|19013|[**10/29/2019**](https://blogs.windows.com/windowsexperience/2019/10/29/announcing-windows-10-insider-preview-build-19013/)||||||
+|19008|[10/22/2019](https://blogs.windows.com/windowsexperience/2019/10/22/announcing-windows-10-insider-preview-build-19008/)||[**10/29/2019**](https://blogs.windows.com/windowsexperience/2019/10/29/announcing-windows-server-vnext-insider-preview-build-19008/)|||[**10/29/2019**](https://blogs.windows.com/windowsdeveloper/2019/10/29/windows-10-sdk-preview-build-19008-available-now/)|
+|19002|[10/17/2019](https://blogs.windows.com/windowsexperience/2019/10/17/announcing-windows-10-insider-preview-build-19002/)|||||[10/22/2019](https://blogs.windows.com/windowsdeveloper/2019/10/22/windows-10-sdk-preview-build-19002-available-now/)|
 |18999|[10/8/2019](https://blogs.windows.com/windowsexperience/2019/10/08/announcing-windows-10-insider-preview-build-18999/)|||||[10/15/2019](https://blogs.windows.com/windowsdeveloper/2019/10/15/windows-10-sdk-preview-build-18999-available-now/)|
-|18995|[10/3/2019](https://blogs.windows.com/windowsexperience/2019/10/03/announcing-windows-10-insider-preview-build-18995/)||[**10/8/2019**](https://blogs.windows.com/windowsexperience/2019/10/08/announcing-windows-server-vnext-insider-preview-build-18995/)|||[10/10/2019](https://blogs.windows.com/windowsdeveloper/2019/10/10/windows-10-sdk-preview-build-18995-available-now/)|
+|18995|[10/3/2019](https://blogs.windows.com/windowsexperience/2019/10/03/announcing-windows-10-insider-preview-build-18995/)||[10/8/2019](https://blogs.windows.com/windowsexperience/2019/10/08/announcing-windows-server-vnext-insider-preview-build-18995/)|||[10/10/2019](https://blogs.windows.com/windowsdeveloper/2019/10/10/windows-10-sdk-preview-build-18995-available-now/)|
 |18990|[9/24/2019](https://blogs.windows.com/windowsexperience/2019/09/24/announcing-windows-10-insider-preview-build-18990/)||||[**10/1/2019**](https://www.microsoft.com/software-download/windowsinsiderpreviewadvanced)|[10/1/2019](https://blogs.windows.com/windowsdeveloper/2019/10/01/windows-10-sdk-preview-build-18990-available-now/)|
 |18985|[9/19/2019](https://blogs.windows.com/windowsexperience/2019/09/19/announcing-windows-10-insider-preview-build-18985/)||[9/24/2019](https://blogs.windows.com/windowsexperience/2019/09/24/announcing-windows-server-vnext-insider-preview-build-18985/)|||[9/24/2019](https://blogs.windows.com/windowsdeveloper/2019/09/24/windows-10-sdk-preview-build-18985-available-now/)|
 |18980|[9/11/2019](https://blogs.windows.com/windowsexperience/2019/09/11/announcing-windows-10-insider-preview-build-18980/)|||||[9/17/2019](https://blogs.windows.com/windowsdeveloper/2019/09/17/windows-10-sdk-preview-build-18980-available-now/)|
@@ -64,15 +66,16 @@ The items in **bold** are the latest releases for the individual versions of the
 
 For details regarding the 19H2 feature update for Windows 10, see [Evolving Windows 10 servicing: the next steps](https://blogs.windows.com/windowsexperience/2019/07/01/evolving-windows-10-servicing-and-quality-the-next-steps/).
 
-On 10/10/2019, we [announced](https://blogs.windows.com/windowsexperience/2019/10/10/getting-the-november-2019-update-ready-for-release/#gl8uKqe3aYdymFzc.97) 19H2 will be the November 2019 Update (Version 1909) and that Build 18363.418 is the final build. We will continue to improve the overall experience of 19H2 on customers’ PCs as part of our normal servicing cadence. This means we will continue to iterate and release new Cumulative Updates for 19H2. You will see these new Cumlative Updates noted below and we will continue to note them here until General Availability. 
+On 10/10/2019, we [announced](https://blogs.windows.com/windowsexperience/2019/10/10/getting-the-november-2019-update-ready-for-release/) 19H2 will be the November 2019 Update (Version 1909) and that Build 18363.418 is the final build. We will continue to improve the overall experience of 19H2 on customers’ PCs as part of our normal servicing cadence. This means we will continue to iterate and release new Cumulative Updates for 19H2. You will see these new Cumulative Updates noted below and we will continue to note them here until General Availability.
 
 **19H2 in the Release Preview ring:**
 
 | Build | Release Preview | ISO |
 |-------|-----------------|-----|
-|18363.448|[**10/18/2019**](https://blogs.windows.com/windowsexperience/2019/10/10/getting-the-november-2019-update-ready-for-release/#gl8uKqe3aYdymFzc.97)||
-|18363.446|[10/17/2019](https://blogs.windows.com/windowsexperience/2019/10/10/getting-the-november-2019-update-ready-for-release/#gl8uKqe3aYdymFzc.97)||
-|18363.418|[10/8/2019](https://blogs.windows.com/windowsexperience/2019/10/10/getting-the-november-2019-update-ready-for-release/#gl8uKqe3aYdymFzc.97)||
+|18363.449|[**10/24/2019**](https://blogs.windows.com/windowsexperience/2019/10/10/getting-the-november-2019-update-ready-for-release/)||
+|18363.448|[10/18/2019](https://blogs.windows.com/windowsexperience/2019/10/10/getting-the-november-2019-update-ready-for-release/)||
+|18363.446|[10/17/2019](https://blogs.windows.com/windowsexperience/2019/10/10/getting-the-november-2019-update-ready-for-release/)||
+|18363.418|[10/8/2019](https://blogs.windows.com/windowsexperience/2019/10/10/getting-the-november-2019-update-ready-for-release/)||
 |18363.388*|[10/3/2019](https://blogs.windows.com/windowsexperience/2019/08/26/testing-the-throttled-delivery-approach-for-19h2/)||
 |18363.387*|[9/27/2019](https://blogs.windows.com/windowsexperience/2019/08/26/testing-the-throttled-delivery-approach-for-19h2/)||
 |18363.385*|[9/23/2019](https://blogs.windows.com/windowsexperience/2019/08/26/testing-the-throttled-delivery-approach-for-19h2/)||
@@ -84,7 +87,7 @@ On 10/10/2019, we [announced](https://blogs.windows.com/windowsexperience/2019/1
 
 **19H2 in the Slow ring:**
 
-As of 10/16/2019 - the Slow ring will no longer be updated with new 19H2 builds. 
+As of 10/16/2019 - the Slow ring will no longer be updated with new 19H2 builds.
 
 | Build | Slow |
 |-------|------|
@@ -144,7 +147,7 @@ The [Windows 10 May 2019 Update](https://blogs.windows.com/windowsexperience/201
 
 ## Windows 10 October 2018 Update (RS5)
 
-Windows 10, version 1809, and Windows Server 2019 were released to the world on November 13, 2018. 
+Windows 10, version 1809, and Windows Server 2019 were released to the world on November 13, 2018.
 
 | Build | Fast | Slow | Server | IoT | ISO | SDK |
 |-------|------|------|--------|-----|-----|-----|
