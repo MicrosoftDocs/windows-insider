@@ -18,7 +18,7 @@ The [Windows Insider Program](https://insider.windows.com/) lets you preview bui
 ## More kaomoji (Build 19013)
 As some of you may know, with Windows 10 version 1903, we updated our WIN+(Period) / WIN+(Semicolon) keyboard shortcut to not only include emoji, but to also now contain kaomoji and special characters. What are kaomoji? Basically, they’re faces with expressions you can make by combining various characters–for example, you might be familiar with the shruggie:
 
-¯\_(ツ)_/¯
+¯\\\_(ツ)_/¯
 
 ![Kaomoji](images/19003-2.png "new kaomoji")
 
