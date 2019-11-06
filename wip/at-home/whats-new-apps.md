@@ -241,7 +241,9 @@ __Phone screen requirements:__
 
 ## PowerToys 
 
-__10/29/2019__
+PowerToys is a set of utilities for power users to tune and streamline their Windows experience for greater productivity. Inspired by the [Windows 95 era PowerToys](https://en.wikipedia.org/wiki/Microsoft_PowerToys) project, this reboot provides power users with utilities to squeeze more efficiency out of the Windows 10 shell and customize it for individual workflows. Check out this great [overview of the Windows 95 PowerToys](https://socket3.wordpress.com/2016/10/22/using-windows-95-powertoys/).
+
+_10/29/2019__
 
 ### PowerToys v0.12 now available!
 We’ve just released our 0.12 release of PowerToys on GitHub. We’ve gotten tons of great feedback and suggestions from the community and want to directly say thank you to everyone.
@@ -251,6 +253,40 @@ New features include a great new utility called PowerRename, which makes it easy
 Check out our [latest article](https://insider.windows.com/en-us/articles/powertoys-v012-now-available/) for all the details.
 
 ![Powertoys](images/19003-1.gif "new PowerRename feature")
+
+
+__9/5/2019__
+
+The first preview release of PowerToys contains two utilities with all the code for the project on GitHub. The repo also contains the information and tools you need to understand how the PowerToys’ utilities work together and how to create your own utilities.
+
+### Getting started
+This first preview of PowerToys contains two utilities. The Windows key shortcut guide and a window manager called FancyZones.
+
+To kick the tires on the first two utilities, [download the installer here](https://github.com/microsoft/PowerToys/releases). The main PowerToys service runs when Windows starts and a user logs in. When the service is running, a PowerToys icon appears in the system tray. Selecting the icon launches the PowerToys settings UI. The settings UI lets you enable and disable individual utilities and provides settings for each utility. There is also a link to the help doc for each utility. You can right click the tray icon to quit the Power Toys service.
+ 
+Note that some PowerToys functionality requires running in an elevated process. Elevation is required to interact with and manipulate windows from processes that have a higher set of rights than the current user. This is why the PowerToys.exe requests elevation when launched.
+If you find bugs or have suggestions, please [open an issue in the Power Toys GitHub repo](https://github.com/microsoft/PowerToys/issues/new). The backlog for creating new utilities is here. You can provide feedback on the backlog to suggest new ideas or a different priority order by joining the backlog discussion in this issue.
+
+### Windows key shortcut guide
+
+The Windows key shortcut guide is a full screen overlay utility that provides a dynamic set of Windows key shortcuts that are applicable for the given desktop and currently active window. When the Windows key is held down for one second, (this time can be tuned in settings,) an overlay appears on the desktop showing all available Windows key shortcuts and what action those shortcuts will take given the current state of the desktop and active window. If the Windows key continues to be held down after a shortcut is issued, the overlay will remain up and show the new state of the active window.
+
+Find detailed information on [the Windows key shortcut guide](https://github.com/Microsoft/PowerToys/tree/master/src/modules/shortcut_guide/README.md), the [backlog for this utility](https://github.com/microsoft/PowerToys/blob/master/doc/planning/ShortcutGuideBacklog.md), and the [source code](https://github.com/Microsoft/PowerToys/tree/master/src/modules/shortcut_guide).
+
+![PowerToys](images/powertoys-1.png "windows key shortcut guide")
+
+### FancyZones
+FancyZones is a window manager that is designed to make it easy to arrange and snap windows into efficient layouts for your workflow, and also to restore these layouts quickly. FancyZones allows the user to define a set of window locations for a desktop that are drag targets for windows. When the user drags a window into a zone, the window is resized and repositioned to fill that zone.
+ 
+To get started with FancyZones, you need to enable the utility in the PowerToys settings, and then invoke the FancyZones setup UI. There’s a button in settings to open this UI, or you can press Win+~ to launch it. When first launched, the UI presents a list of zone layouts that can be quickly adjusted by how many windows are on the monitor. Choosing a layout shows a preview of that layout on the monitor. Pressing the save and close button sets that layout to the monitor.
+
+![PowerToys](images/powertoys-1.png "fancy zones editor")
+ 
+The editor also supports creating and saving custom layouts. This functionality is in the Custom tab in the editor UI. There are two ways to create custom zone layouts, window layout and table layout. These can also be thought of as additive and subtractive models. The additive window layout model starts with a blank layout and supports adding zones that can be dragged and resized, similar to windows.
+ 
+The subtractive table layout model starts with a table layout and allows zones to be created by splitting and merging zones and then resizing the gutter between zones.
+ 
+Find [more information on FancyZones](https://github.com/Microsoft/PowerToys/tree/master/src/modules/fancyzones/README.md), the [backlog for the utility](https://github.com/microsoft/PowerToys/blob/master/doc/planning/FancyZonesBacklog.md), and the [source code](https://github.com/Microsoft/PowerToys/tree/master/src/modules/fancyzones).
 
 ## Snip & Sketch 
 
