@@ -56,8 +56,6 @@ With the latest flight, we’re taking another step forward in our Passwordless 
 
 ![PIN access in safe made](images/18995-1.png "lock screen showing use of PIN in safe mode")
 
-
-
 ## Windows Subsystem for Linux (WSL) Improvements (Build 18995)
 See the [WSL release notes](https://docs.microsoft.com/windows/wsl/release-notes) for the newest improvements in the latest Insider Preview builds.
 
@@ -84,9 +82,6 @@ In case you hadn’t seen, we’re starting to roll out an FPS counter and achie
 NOTE: You may have to be joined to receive Game Bar updates via the Xbox Insider Hub app (under Insider Content) from the Microsoft Store to see this update.
 
 ![xbox game bar updates](images/18990-1.jpg "FPS counter and achievement overlay")
-
-## Reset your PC from the cloud (Build 18990)
-In our Windows Insider webcast, we had the Deployment Team as guests to talk about the new feature that is coming with 20H1 that allows you to reset your PC using the cloud. For more information, check out this [article from Program Manager Aaron Lower](https://insider.windows.com/en-us/articles/optimize-windows-10-pc-reset-using-the-cloud/). 
 
 ## Improving your Bluetooth pairing experience (Build 18985)
 
@@ -120,7 +115,7 @@ For the full details of changes in this latest Insider Preview build, please see
 
 ![WSL2](images/18980-1.png "a fix for a long-standing issue for legacy Windows symlinks")
 
-## Introducing the ability to move the Cortana window (Build 18975)
+## Option to move the Cortana window (Build 18975)
 
 With the [new conversational Cortana experience](https://docs.microsoft.com/windows-insider/at-home/whats-new-wip-at-home-20h1#introducing-a-new-cortana-experience-for-windows-10-build-18945), we understand that you wanna keep the chat going sometimes, and the default position of the window isn’t always where you’d prefer to have it docked if you’re going to have a longer back and forth. That’s why we’re starting to roll out the option to be able to move the window (by dragging the title bar area), to anywhere you’d like on the screen–just like you can with other windows. You can also resize the window if you’d like. 
 
@@ -162,7 +157,7 @@ This experience is currently available for a portion of Insiders as we evaluate 
 
 We’d love to hear your feedback about the new experience–share your thoughts here.
 
-## Introducing a new PC reset option (Build 18970)
+## Reset your PC from the cloud (Build 18970)
 Reset this PC provides users a new choice to download Windows or use local reinstall. Previously, Reset this PC was only able to do a local reinstall and would build a new Windows installation from existing Windows files. When this feature was introduced in Windows 10 version 1507, it provided the advantage of enabling Windows to be recoverable without requiring extra disk space to store a compressed, backup copy of Windows in a hidden partition. We’ve heard feedback that some of you would prefer to use your high-speed internet connection to speed up this process by just downloading Windows.
 
 >[!NOTE]
@@ -265,7 +260,7 @@ __Other Updates__
 * Notepad now correctly displays lines that don’t fit entirely on the screen.
 
 
-Starting with this build, we’re making a change so that future Notepad updates will be automatically available via the store. This will allow us the flexibility to respond to issues and feedback outside the bounds of Windows releases. As always, if you have any feedback for Notepad, we welcome it in the Feedback Hub under [Apps > Notepad](http://aka.ms/notepadfeedback).
+Starting with this build, we’re making a change so that future Notepad updates will be automatically available via the store. This will allow us the flexibility to respond to issues and feedback outside the bounds of Windows releases. As always, if you have any feedback for Notepad, we welcome it in the Feedback Hub under [Apps > Notepad](https://aka.ms/notepadfeedback).
 
 ## Traditional Chinese IME improvements (Build 18963)
 Thank you everyone who’s shared feedback about the new Traditional Chinese Bopomofo, ChangJie, and Quick IMEs. The developer team has been working on improving the quality and fixing bugs. With today’s build:
@@ -385,7 +380,7 @@ You’ll now be able to connect to your WSL 2 Linux networking applications usin
 ![WSL 2](images/18945-2.png "Added connecting via localhost to WSL 2 Linux apps from Windows and global WSL configuration options")
 
 Additionally, we’ve added global configuration options for WSL. These are options that will apply to each of your WSL distros. This also allows you to specify options that relate to the WSL 2 virtual machine (VM), as all your WSL 2 distros run inside of the same VM. The most exciting option that you’ll get access to in this build is being able to specify a custom Linux kernel!
-For the full details on what’s new in this release, check out [What’s new for WSL in Insiders Preview Build 18945](http://devblogs.microsoft.com/commandline/whats-new-for-wsl-in-insiders-preview-build-18945) on the Windows command line blog.
+For the full details on what’s new in this release, check out [What’s new for WSL in Insiders Preview Build 18945](https://devblogs.microsoft.com/commandline/whats-new-for-wsl-in-insiders-preview-build-18945) on the Windows command line blog.
 
 ## Accessibility Improvements (Build 18945)
 
@@ -432,6 +427,7 @@ We started rolling this change out to a small portion of Insiders a few days ago
 
 ## Quick Event Create from the Taskbar (Build 18936)
 Do you ever open the clock and calendar flyout to help organize your thoughts while making plans? We’ve been working on making it easier to create new events and reminders, and are happy to announce that as of today, all Insiders in the Fast ring should see this when you click on the date in the taskbar:
+
 ![Taskbar](images/18936-1.png "Quick Event Create from the Taskbar")'
 
 Pick your desired date and start typing – you’ll now see inline options to set a time and location. We’re looking forward to you trying it out! Let us know if you have any feedback.
