@@ -15,6 +15,26 @@ ms.prod: w10
 
 The [Windows Insider Program](https://insider.windows.com/) lets you preview builds of the upcoming 20H1 release of Windows 10. This topic lists all new Windows 10 features for you to try.
 
+## Quick searches now in Search Home (Build 19018)
+To help you find the info that matters even faster, we’ve added four quick web searches to your Search Home:
+* __Weather:__ Get current conditions and the upcoming forecast
+* __Top news:__ Read the latest headlines from popular news sites
+* __Today in history:__ Explore four events that happened on this day
+* __New movies:__ Find out what’s playing in theaters near you
+
+![Quick Searches](images/19018-1.png "shows four quick searches: weather, top news, today in histroy and new movies")
+
+To preview these web answers and results, select the search box to open Search Home, then choose one of the quick search buttons. Need quick answers about other topics or searches? Just enter a query into the search box for quick results about almost everything.
+
+Let us know what you think about quick searches and how you would like to see them evolve.
+
+Note: This is a server-side change that’s currently rolling out and will appear for users across builds from version 1809 to 20H1. Currently, quick searches are only available in the US, but will be available soon internationally.
+
+### Updated design for web preview in search results (Build 19018)
+We have made a few small tweaks to how it looks–here’s what you’ll see now:
+
+![Search](images/19018-1.png "view of updated design for web preview in search results")
+
 ## More kaomoji (Build 19013)
 As some of you may know, with Windows 10 version 1903, we updated our WIN+(Period) / WIN+(Semicolon) keyboard shortcut to not only include emoji, but to also now contain kaomoji and special characters. What are kaomoji? Basically, they’re faces with expressions you can make by combining various characters–for example, you might be familiar with the shruggie:
 
@@ -389,9 +409,6 @@ For the full details on what’s new in this release, check out [What’s new fo
 When the message is opened, Scan Mode will turn on automatically. This allows the user to use their arrow keys to read the message in addition to all other Scan Mode hotkeys to jump through the text of the message.
 
 Email messages like newsletters and marketing content are often formatted using tables to visually represent the look of the message. For a screen reader user, this information is not needed while reading the message. Narrator now recognizes some of these situations and will remove the information about the table to allow you to quickly move through the text contained in the message. This lets you to be much more efficient while reading these types of email messages.
-#### Known issues
-* The cursor may not move to the location last read as Narrator auto-reads when an Outlook message is opened while in Scan Mode.
-* Narrator will start reading when replying to a message. Press the control key and move to the top of the message to write your reply.
 
 ### Narrator’s Outlook folder reading has been enhanced for an optimal triaging experience
 As you read through your emails in Outlook, such as the inbox, Narrator now reads the information more efficiently. Each line item now starts with the status of the email, such as unread, forwarded, etc., followed by the other columns, such as from, subject, etc. Column headers will be silenced and columns with no data or that have the default (expected value) will be silenced, such as normal importance or unflagged, etc. While in Outlook, headers can be turned back on by pressing Narrator + H which will toggle their reading on and off.
@@ -400,16 +417,6 @@ As you read through your emails in Outlook, such as the inbox, Narrator now read
 Have you ever had an issue finding the text cursor in the middle of a large amount of text, during a presentation, or on the screen in an educational setting? The new Text cursor indicator will help you see and find the text cursor wherever you are at any time! Select from a range of sizes for the text cursor indicator and make it a color easy for you to see. Or, personalize the color of your text cursor indicator to your personal preference. In the Ease of Access settings, open the new Text cursor page, turn on the text cursor indicator, and never lose track of your text cursor ever again!
 
 ![Accessibility](images/18945-3.png "Text cursor indicator")
-
-#### Known issues 
-* Text cursor indicator color and size might not persist when you sign in. To work around that, simply turn off and turn on the “Use text cursor indicator” setting again.
-* Occasionally, you might see that the text cursor indicator stays on the screen or reappears after the app has been closed or the page contents have scrolled away.
-
-## Updated File Explorer search rolling out to all Insiders (Build 18945)
-Over the next few days, [the new File Explorer search experience](https://blogs.windows.com/windowsexperience/2019/05/08/announcing-windows-10-insider-preview-build-18894/) will be rolling out to all Insiders in the Fast ring! Thanks everyone who’s shared feedback so far and helped us to improve the experience. Please don’t hesitate to share any other comments—you can file feedback for this area under Files, Folders, and Storage > File Explorer in the Feedback Hub.
-
-![File Exploer](images/18945-4.png "updated File Explorer search rolling out to all Insiders")
-
 
 ## Updating the Korean IME (Build 18941)
 Earlier in this development cycle, we released [updated versions of both the Chinese and Japanese IMEs](https://blogs.windows.com/windowsexperience/2019/04/10/announcing-windows-10-insider-preview-build-18875/). As part of our ongoing efforts to modernize and improve your typing experience in Windows, today we’re rolling out an updated version of the Korean IME to all Insiders in the Fast ring. This update is going out with the goal of making the IME more secure, reliable, and more beautiful to look at.
@@ -426,11 +433,11 @@ With this change, we have a couple of known issues we’re working on addressing
 We started rolling this change out to a small portion of Insiders a few days ago, and appreciate the feedback shared so far! Your feedback helps make Windows is better for everyone, so please don’t hesitate to [continue sharing your thoughts and experiences](https://aka.ms/inputfeedback).
 
 ## Quick Event Create from the Taskbar (Build 18936)
-Do you ever open the clock and calendar flyout to help organize your thoughts while making plans? We’ve been working on making it easier to create new events and reminders, and are happy to announce that as of today, all Insiders in the Fast ring should see this when you click on the date in the taskbar:
+You can now quickly create an event straight from the Calendar flyout on the Taskbar. Just select the date and time at the lower right corner of the Taskbar to open the Calendar flyout and pick your desired date and start typing in the text box. You’ll then see inline options to set a time and location.
 
-![Taskbar](images/18936-1.png "Quick Event Create from the Taskbar")'
+Note: This feature is available in Insider Preview builds in both the Fast and Slow rings.
 
-Pick your desired date and start typing – you’ll now see inline options to set a time and location. We’re looking forward to you trying it out! Let us know if you have any feedback.
+![Taskbar](images/QuickEvent.png "Quick Event Create from the Taskbar")'
 
 ## Go passwordless with Microsoft accounts on your device (Build 18936)
 For improved security and a more seamless sign-in experience, you can now enable passwordless sign-in for Microsoft accounts on your Windows 10 device by going to Settings > Accounts > Sign-in options, and selecting ‘On’ under ‘Make your device passwordless’. This will strengthen your device sign-in by switching all Microsoft accounts on your device to modern multifactor authentication with Windows Hello Face, Fingerprint, or PIN, and eliminating passwords from Windows.
@@ -538,14 +545,14 @@ A small, but perhaps convenient change — you’ll now be able to see the disk 
 
 ![dictation](images/18898-1.png "expanded language support")
 
-## File Explorer improvements (Build 18894)
+## Updated File Explorer search (Build 18894)
 We’ve heard your feedback asking for increased consistency, and to make it easier to find your files. Over the next few days we’ll be starting to roll out a new File Explorer search experience – now powered by Windows Search. This change will help integrate your OneDrive content online with the traditional indexed results. This rollout will start with a small percent, and then we’ll increase the rollout to more Insiders as we validate the quality of the experience.
 
 What does that mean for you? Once you have the new experience, as you type in File Explorer’s search box, you’ll now see a dropdown populated with suggested files at your fingertips that you can pick from.
 
 These improved results can be launched directly by clicking the entry in the new suggestions box, or if you want to open the file location, just right-click the entry and there’ll be an option to do so. If you need to use commands or dig deeper into non-indexed locations, you can still press enter and populate the view with the traditional search results.
 
-![dictation](images/18894-1.png "expanded language support")
+![File Explorer](images/18945-4.png "updated File Explorer search rolling out to all Insiders")
 
 We’ve also updated the design, so now as soon as you click the search box in File Explorer (or press CTRL+E to set focus to it), you’ll see the dropdown list with your search history.
 
