@@ -552,7 +552,7 @@ What does that mean for you? Once you have the new experience, as you type in Fi
 
 These improved results can be launched directly by clicking the entry in the new suggestions box, or if you want to open the file location, just right-click the entry and there’ll be an option to do so. If you need to use commands or dig deeper into non-indexed locations, you can still press enter and populate the view with the traditional search results.
 
-![File Exploer](images/18945-4.png "updated File Explorer search rolling out to all Insiders")
+![File Explorer](images/18945-4.png "updated File Explorer search rolling out to all Insiders")
 
 We’ve also updated the design, so now as soon as you click the search box in File Explorer (or press CTRL+E to set focus to it), you’ll see the dropdown list with your search history.
 
