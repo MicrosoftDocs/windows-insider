@@ -13,9 +13,9 @@ ms.prod: w10
 ---
 
 # Windows app updates 
-You will find information on the latest major app updates for Windows 10 released to Windows Insiders here. These updates are currently available using PCs running Windows 10 Version 1903. 
+You will find information on the latest major app updates for Windows 10 released here. These updates are currently available using PCs running Windows 10 Version 1903. 
 
-_Note:_ Not all app updates will be listed here. Only app updates that include major changes e.g. new features, etc. will be noted here.
+_Note:_ Not all app updates will be listed here. Only app updates that include major changes e.g. new features, etc. will be noted.
 
 ## Your Phone 
 
@@ -257,10 +257,9 @@ Check out our [latest article](https://insider.windows.com/en-us/articles/powert
 
 __9/5/2019__
 
-The first preview release of PowerToys contains two utilities with all the code for the project on GitHub. The repo also contains the information and tools you need to understand how the PowerToys’ utilities work together and how to create your own utilities.
+### First Preview Release 
 
-### Getting started
-This first preview of PowerToys contains two utilities. The Windows key shortcut guide and a window manager called FancyZones.
+The first preview release of PowerToys contains two utilities: The Windows key shortcut guide and a window manager called FancyZones. All the code for the project is on GitHub. The repo also contains the information and tools you need to understand how the PowerToys’ utilities work together and how to create your own utilities. 
 
 To kick the tires on the first two utilities, [download the installer here](https://github.com/microsoft/PowerToys/releases). The main PowerToys service runs when Windows starts and a user logs in. When the service is running, a PowerToys icon appears in the system tray. Selecting the icon launches the PowerToys settings UI. The settings UI lets you enable and disable individual utilities and provides settings for each utility. There is also a link to the help doc for each utility. You can right click the tray icon to quit the Power Toys service.
  
@@ -275,7 +274,7 @@ Find detailed information on [the Windows key shortcut guide](https://github.com
 
 ![PowerToys](images/powertoys-1.png "windows key shortcut guide")
 
-### FancyZones
+### FancyZones windows manager
 FancyZones is a window manager that is designed to make it easy to arrange and snap windows into efficient layouts for your workflow, and also to restore these layouts quickly. FancyZones allows the user to define a set of window locations for a desktop that are drag targets for windows. When the user drags a window into a zone, the window is resized and repositioned to fill that zone.
  
 To get started with FancyZones, you need to enable the utility in the PowerToys settings, and then invoke the FancyZones setup UI. There’s a button in settings to open this UI, or you can press Win+~ to launch it. When first launched, the UI presents a list of zone layouts that can be quickly adjusted by how many windows are on the monitor. Choosing a layout shows a preview of that layout on the monitor. Pressing the save and close button sets that layout to the monitor.
