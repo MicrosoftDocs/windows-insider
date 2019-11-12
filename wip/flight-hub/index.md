@@ -23,8 +23,9 @@ The items in **bold** are the latest releases for the individual versions of the
 
 | Build | Fast | Slow | Server | IoT | ISO | SDK |
 |-------|------|------|--------|-----|-----|-----|
-|19018|[**11/5/2019**](https://blogs.windows.com/windowsexperience/2019/11/05/announcing-windows-10-insider-preview-build-19018/)||||||
-|19013|[10/29/2019](https://blogs.windows.com/windowsexperience/2019/10/29/announcing-windows-10-insider-preview-build-19013/)||||[**11/5/2019**](https://www.microsoft.com/software-download/windowsinsiderpreviewadvanced)||
+|19018|[**11/12/2019**](https://blogs.windows.com/windowsexperience/2019/11/12/announcing-windows-10-insider-preview-build-19023/)||||||
+|19018|[11/5/2019](https://blogs.windows.com/windowsexperience/2019/11/05/announcing-windows-10-insider-preview-build-19018/)||||||
+|19013|[10/29/2019](https://blogs.windows.com/windowsexperience/2019/10/29/announcing-windows-10-insider-preview-build-19013/)|[**11/11/2019**](https://blogs.windows.com/windowsexperience/2019/11/11/releasing-windows-10-insider-preview-build-19013-into-the-slow-ring/)|||[**11/5/2019**](https://www.microsoft.com/software-download/windowsinsiderpreviewadvanced)||
 |19008|[10/22/2019](https://blogs.windows.com/windowsexperience/2019/10/22/announcing-windows-10-insider-preview-build-19008/)||[**10/29/2019**](https://blogs.windows.com/windowsexperience/2019/10/29/announcing-windows-server-vnext-insider-preview-build-19008/)|||[**10/29/2019**](https://blogs.windows.com/windowsdeveloper/2019/10/29/windows-10-sdk-preview-build-19008-available-now/)|
 |19002|[10/17/2019](https://blogs.windows.com/windowsexperience/2019/10/17/announcing-windows-10-insider-preview-build-19002/)|||||[10/22/2019](https://blogs.windows.com/windowsdeveloper/2019/10/22/windows-10-sdk-preview-build-19002-available-now/)|
 |18999|[10/8/2019](https://blogs.windows.com/windowsexperience/2019/10/08/announcing-windows-10-insider-preview-build-18999/)|||||[10/15/2019](https://blogs.windows.com/windowsdeveloper/2019/10/15/windows-10-sdk-preview-build-18999-available-now/)|
@@ -92,7 +93,7 @@ As of 10/16/2019 - the Slow ring will no longer be updated with new 19H2 builds.
 
 | Build | Slow |
 |-------|------|
-|18362.10024|[**10/16/2019**](https://blogs.windows.com/windowsexperience/2019/10/10/getting-the-november-2019-update-ready-for-release/)|
+|18362.10024|[10/16/2019](https://blogs.windows.com/windowsexperience/2019/10/10/getting-the-november-2019-update-ready-for-release/)|
 |18362.10022|[9/25/2019](https://blogs.windows.com/windowsexperience/2019/09/25/announcing-windows-10-insider-preview-build-18362-10022-19h2/)|
 |18362.10019|[9/5/2019](https://blogs.windows.com/windowsexperience/2019/09/05/announcing-windows-10-insider-preview-build-18362-10019-19h2/)|
 |18362.10015*|[8/19/2019](https://blogs.windows.com/windowsexperience/2019/08/19/announcing-windows-10-insider-preview-build-18362-10014-18362-10015-19h2/)|
