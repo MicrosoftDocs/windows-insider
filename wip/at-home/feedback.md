@@ -69,7 +69,7 @@ As Microsoft engineers process your feedback, you’ll see a banner appear on th
 
 When the state changes, you and other Windows Insiders who have upvoted the feedback will receive a notification from the Feedback Hub about the change.
 
-__Note:__ You can track feedback submitted to the Feedback Hub by you and others in your organization (AAD account registration required). For details see: [Windows Insider Program for Business – feedback](https://docs.microsoft.com/en-us/windows-insider/at-work-pro/wip-4-biz-feedback).
+__Note:__ You can track feedback submitted to the Feedback Hub by you and others in your organization (AAD account registration required). For details see: [Windows Insider Program for Business – feedback](https://docs.microsoft.com/windows-insider/at-work-pro/wip-4-biz-feedback).
 
 ## Sharing your submission
 After you submit feedback, you'll be able to share your submission with other Insiders. They might be experiencing the same issue as you or want the same feature or change that you’re suggesting. If you're asked to communicate directly with a Microsoft engineer later, you may also be asked to share a link to your feedback. To create a feedback link for sharing:
