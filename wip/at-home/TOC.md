@@ -3,7 +3,7 @@
 ## [Windows Insider Program](https://docs.microsoft.com/windows-insider/at-home/index)
 ### [Getting started](https://docs.microsoft.com/windows-insider/at-home/get-started)
 ### [Working with rings](https://docs.microsoft.com/windows-insider/at-home/rings)
-### [Providing feedback](https://docs.microsoft.com/en-us/windows-insider/at-home/feedback)
+### [Providing feedback](https://docs.microsoft.com/windows-insider/at-home/feedback)
 ### [Troubleshooting](https://docs.microsoft.com/windows-insider/at-home/troubleshooting)
 ### [What's new for Windows 10 Insider Preview Builds (20H1)](https://docs.microsoft.com/windows-insider/at-home/Whats-new-wip-at-home-20h1)
 ### [What's new in Windows 10, version 1909](https://docs.microsoft.com/windows-insider/at-home/whats-new-wip-at-home-1909)
