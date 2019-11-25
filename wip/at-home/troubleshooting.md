@@ -113,7 +113,7 @@ If the device is currently running a public release of Windows, opting out will 
 
 If the device is currently running a prerelease version of Windows, it will continue getting updates until the next public release is installed. At that time, we will opt out for you, without any action on your part. (Please note that depending on development timelines, this could take some time). We do this to ensure your device does not get stranded on an unsupported version of Windows that may contain security vulnerabilities.
 
-If you do not want to wait for the next public release to opt out of Insider builds, you can [clean install Windows](https://support.microsoft.com/help/12415/windows-10-recovery-options) immediately. Please see instructions at [Download Windows 10](https://www.microsoft.com/software-download/windows10), or choose from the following, depending on which previous version you are recovering to: [Windows 7 Recovery Image](http://go.microsoft.com/fwlink/p/?LinkId=616947), [Windows 8 Recovery Image](http://go.microsoft.com/fwlink/p/?LinkId=616948), or [Windows 10 Recovery Image](http://go.microsoft.com/fwlink/p/?LinkId=616949).
+If you do not want to wait for the next public release to opt out of Insider builds, you can [clean install Windows](https://support.microsoft.com/help/12415/windows-10-recovery-options) immediately. Please see instructions at [Download Windows 10](https://www.microsoft.com/software-download/windows10). 
 
 ## Leave the program
 
