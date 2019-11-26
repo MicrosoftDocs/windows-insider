@@ -408,7 +408,7 @@ First seen on Always Connected PCs, we brought the disconnected internet icon to
 
 ![Showing the new icon for disconnected internet](images/disconnected-internet-icon.png "Showing the new icon for disconnected internet")
 
-## Tasbar Manager Improvements
+## Taskbar Manager Improvements
 
 ### Set a default Task Manager tab
 
