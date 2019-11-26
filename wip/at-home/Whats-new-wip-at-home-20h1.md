@@ -341,12 +341,6 @@ As you may have noticed in the screenshot below, we’re now adding the ability 
 
 ![Traditional Chinese IME](images/18956-3.png "Bopomofo IME settings")
 
-__We also fixed issues where:__ 
-* The candidate numbers sometimes disappeared from the candidate window.
-* Shift+Number wasn’t working for selecting an associated phrase.
-
-Thanks again! If you have any further feedback about these experiences, [let us know](https://aka.ms/inputfeedback).
-
 ## Notification settings improvements now rolling out to all of Fast (Build 18956) 
 Thanks everyone who’s tried out our [improvements so far](https://docs.microsoft.com/windows-insider/at-work-pro/wip-4-biz-whats-new#refining-your-notification-settings-build-18932). We’re now starting to roll these out to all Insiders. To recap what you’ll see when you have the change:
 * If you hover your mouse over an incoming notification, you’ll now see a settings icon to make it easy to adjust that app’s notification settings.
@@ -361,6 +355,16 @@ Thanks everyone who’s tried out our [improvements so far](https://docs.microso
 Over the next few days we’ll be starting to roll out a Calculator app update to Insiders in the Fast ring. This app is most notable because it adds the ability to put Calculator in an Always on Top mode! Thanks everyone who shared feedback requesting this – we look forward to you trying it out. Once you have the updated version, you’ll be able to switch into the Always on Top mode by clicking the icon next to the calculator mode name.
 
 ![Calculator app](images/18956-6.gif "Calculator app updates")
+
+## Accessibility Improvements (Build 18956)
+•	__Text Cursor Indicator Preview:__ Changes to the text cursor indicator can now be viewed on the fly in a new preview pane when changing the size or color in the Text cursor page in Ease of Access.  
+•	__Magnifier reading now supports 3 new ways to start reading:__ Press the play button to start reading from the top of content, or selected text if text was selected, or press the read from here button then click where you want to start reading. Note that this experience works with apps with large content like Edge, Word, Mail, etc. __Known issue:__ Play from top may not work at times and you will hear “cannot read from here.”  
+•	__Narrator__ gives page summaries and popular links: In Build 18894,we released a quick summary with Narrator + S that will give you headings, links, and landmarks. Pressing Narrator + S twice quickly will open a dialog window with the number of headings, landmarks, and links and a list of popular links. Popular links are the most commonly used links on the website, and you can navigate directly to those links from the page summary.
+•	__New Narrator Sound Scheme:__ We’ve revamped Narrator sounds to be more functional and responsive. As part of that effort, we added sounds for common actions, such as when you land on a link or when you turn on or off scan mode. To manage sounds for common actions, go to Narrator settings.  
+•	In [Build 18945](https://blogs.windows.com/windowsexperience/2019/07/26/announcing-windows-10-insider-preview-build-18945/#LPZ6FzWa1jl3sVSt.97), we released a more efficient reading experience in Outlook when arrowing through emails. If the older reading experience is preferred, you can disable the new reading experience by unchecking the “Have Narrator be more efficient in Outlook (experimental)” option in Narrator Settings.
+
+## Sideloading setting for MSIX no longer required (Build 18956) 
+Starting in this build, enabling the sideloading setting is no longer required to install MSIX packages. Prior to this, you would need to enable a sideloading policy through Settings or group policy to deploy an MSIX package. Now, you can deploy a signed MSIX package onto a device without a special configuration. As part of this change, we have changed the developer mode to be a toggle in the For developer page in Settings. Enterprises can still disable sideloading behaviors via enterprise policy. To learn more about MSIX, please refer to the documentation here: aka.ms/msix.
 
 ## Japanese IME Improvements (Build 18950)
 Thank you everyone who’s shared feedback so far about the new Japanese IME. The development team has been working on improving the quality based on your feedback. Here are some improvements that you can try out in this build:
