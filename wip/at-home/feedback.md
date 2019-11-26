@@ -14,17 +14,16 @@ ms.prod: w10
 
 # Providing feedback
 
-One of the benefits of being a Windows Insider is knowing that your feedback can change and improve Windows for users around the world. You can submit feedback using the Feedback Hub app included with Windows. The Feedback Hub app lets you tell Microsoft about any problems you run into while using Windows 10 and send suggestions to help us improve your Windows experience. Submitting a suggestion or problem can be as easy as finding feedback similar to yours and upvoting it. The steps below can help you create and submit effective feedback. 
+One of the benefits of being a Windows Insider is knowing that your feedback can change and improve Windows for users around the world. The Feedback Hub app in Windows 10 lets you tell Microsoft about problems you run into while using Windows 10 and send suggestions to help us improve your Windows experience. Submitting feedback can be as easy as finding feedback similar to yours and upvoting it. The steps below can help you create and submit effective feedback. 
 
-## Open the Feedback Hub 
+## Explore the Feedback Hub 
 
-1. To open the Feedback Hub, go to [Start>Feedback Hub](insiderhub://home/).
-2. Sign in (bottom left) with the account that you used to register for the Windows Insider Program. This gives you access to the full set of features available to Windows Insiders. These features are available under four tabs in the left margin:  
-
-    __•	Feedback:__ provides tools to search, upvote and submit feedback.   
-    __•	Announcements:__ lists news for Windows Insiders, including details about the latest Windows 10 Insider Preview Builds.  
-     __•	Quests:__ provide step-by-step guidance for Windows features that we’re currently prioritizing and would like feedback on from Windows Insiders. For each Quest completed, you can earn points towards badges which appear in the Achievements section.   
-    __•	Achievements:__ displays Windows Insider Achievement badges available to you as an Insider and shows your points and badges earned.  
+1. To open the Feedback Hub, go to [Start>Feedback Hub](insiderhub://home/).                                
+2. Sign in (bottom left) with the account that you used to register for the Windows Insider Program. This gives you access to the full set of content and features available to Windows Insiders which are available under four tabs in the left margin:  
+    __•	Feedback:__ tools to search, upvote and submit feedback.   
+    __•	Announcements:__ news for Windows Insiders, including details about the latest Windows 10 Insider Preview Builds.  
+     __•Quests:__ step-by-step guidance for Windows features that we’re currently prioritizing and would like feedback on from Windows Insiders. For each Quest completed, you can earn points towards badges which appear in the Achievements section.   
+    __•	Achievements:__ Windows Insider Achievement badges available to you as an Insider. 
 
 __Note:__ 
 When opening the Feedback Hub app, you may see a message to change your Feedback settings from “Basic” to “Full” or “Enhanced”. Select the link in the message to go to Settings. “Enhanced” lets you send verbatim feedback and “Full” lets you send diagnostic information so we can help diagnose problems on your device.
@@ -61,7 +60,7 @@ If you need to report a problem that requires a more immediate or direct respons
 
 ## Check the status of feedback
 As Microsoft engineers process your feedback, you’ll see a banner appear on the feedback item confirming its status. There are five possible states:  
-•	__We've Got It:__ Your feedback has been successfully submitted and is currently being reviewed by an area expert.
+•	__We've Got It:__ Your feedback has been successfully submitted and is currently being reviewed by an area expert.   
 •	__Looking into It:__ Your feedback has been reviewed, and we are currently investigating the best course of action to address the problem or suggestion.  
 •	__Working on It:__ We’re working on making improvements to the experience based on the feedback you’ve shared.  
 •	__Changes Made:__ We’ve made changes based on this feedback! The feedback item will let you know whether they’re available on your current build or app version, or whether you’ll need to update to see them. If you think there’s more we can look into, please leave a comment.    
