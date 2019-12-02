@@ -27,13 +27,13 @@ The following steps apply to PCs running Windows 10, Version 1809. Steps will va
 1. Open [Windows Insider Program Settings](ms-settings:windowsinsider) (**Start** > **Settings** > **Update & Security** > **Windows Insider Program**). 
 2. Select __Get started__.
 3. Under **Pick an account to get started** select **+** to link your Microsoft or work account that you used to register for the Windows Insider Program. Choose __Continue__ or, if you have not already registered for the Windows Insider Program, select __Register__. 
-4. Under **What kind of content that you would like to receive**, select __Active development of Windows__ to receive Insider Preview builds and click __Confirm__. (Select **Just fixes, apps and drivers** only if you want to install builds from the [Release Preview ring](https://docs.microsoft.com/windows-insider/at-home/rings#release-preview-ring). Select **Skip ahead to the next Windows release** if you want to install build from the next release cycle. 
+4. Under **What kind of content that you would like to receive**, select __Active development of Windows__ to receive Insider Preview builds and click __Confirm__. (Select **Just fixes, apps and drivers** only if you want to install builds from the [Release Preview ring](https://docs.microsoft.com/windows-insider/at-home/rings#release-preview-ring). 
 5. Under “What pace do you want to receive preview builds” select __Fast__ if you would like to receive the latest Insider Preview builds. If you prefer to wait for a more stable build, select __Slow__. Choose __Confirm__.
 
 > [!NOTE] 
 > The Fast ring may contain bugs and other issues. If you prefer to wait for a more stable build, select Slow. For more information, see [Working with rings and updates](rings.md)
 > If you are in the Fast ring and your PC gets updated to the next release cycle (20H1), and you want to switch to the Slow or Release Preview rings, you will need to do a clean install of Windows on your PC and reset your Windows Insider Program settings.
-> If the option to **Skip ahead to the next version of Windows** is not available, selecting it will default to the latest Insider Preview build in the Fast ring.
+
 
 6. Review the privacy statement and program terms and select __Confirm__.
 7. Select **Restart Now** or **Restart Later** to activate Windows Insider Program settings. 
