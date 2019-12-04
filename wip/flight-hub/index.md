@@ -23,7 +23,8 @@ The items in **bold** are the latest releases for the individual versions of the
 
 | Build | Fast | Slow | Server | IoT | ISO | SDK |
 |-------|------|------|--------|-----|-----|-----|
-|19033|[**11/26/2019**](https://blogs.windows.com/windowsexperience/2019/11/26/announcing-windows-10-insider-preview-build-19033/)|[**11/26/2019**](https://blogs.windows.com/windowsexperience/2019/11/26/announcing-windows-10-insider-preview-build-19033/)|||||
+|19035|[**12/4/2019**](https://blogs.windows.com/windowsexperience/2019/12/04/announcing-windows-10-insider-preview-build-19035/)|[**12/4/2019**](https://blogs.windows.com/windowsexperience/2019/12/04/announcing-windows-10-insider-preview-build-19035/)|||||
+|19033|[11/26/2019](https://blogs.windows.com/windowsexperience/2019/11/26/announcing-windows-10-insider-preview-build-19033/)|[11/26/2019](https://blogs.windows.com/windowsexperience/2019/11/26/announcing-windows-10-insider-preview-build-19033/)|||||
 |19030|[11/22/2019](https://blogs.windows.com/windowsexperience/2019/11/22/announcing-windows-10-insider-preview-build-19030/)||||||
 |19028|[11/19/2019](https://blogs.windows.com/windowsexperience/2019/11/19/announcing-windows-10-insider-preview-build-19028/)|||||[**11/27/2019**](https://blogs.windows.com/windowsdeveloper/2019/11/27/windows-10-sdk-preview-build-19028-available-now/)|
 |19025|[11/15/2019](https://blogs.windows.com/windowsexperience/2019/11/15/announcing-windows-10-insider-preview-build-19025/)|[11/20/2019](https://blogs.windows.com/windowsexperience/2019/11/20/releasing-windows-10-insider-preview-build-19025-into-the-slow-ring/)|||||
