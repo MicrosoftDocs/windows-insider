@@ -45,7 +45,7 @@ Note: This is a server-side change that’s currently rolling out and will appea
 ### Updated design for web preview in search results (Build 19018)
 We have made a few small tweaks to how it looks–here’s what you’ll see now:
 
-![Search](images/19018-1.png "view of updated design for web preview in search results")
+![Search](images/19018-2.png "view of updated design for web preview in search results")
 
 ## More kaomoji (Build 19013)
 As some of you may know, with Windows 10 version 1903, we updated our WIN+(Period) / WIN+(Semicolon) keyboard shortcut to not only include emoji, but to also now contain kaomoji and special characters. What are kaomoji? Basically, they’re faces with expressions you can make by combining various characters–for example, you might be familiar with the shruggie:
