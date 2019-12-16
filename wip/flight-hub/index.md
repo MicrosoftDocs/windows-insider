@@ -15,7 +15,15 @@ ms.prod: w10
 
 Welcome to Flight Hub! Use this dashboard to quickly identify the latest Windows Insider Preview releases for PC, Server, IoT. You can also look up the status of the SDK and ISO images.
 
-## In-development builds of Windows 10 (20H1)
+## Active Development Builds of Windows 10 
+
+Moving forward, the Fast ring will receive builds directly from this active development branch and new features will show up in these builds first. While features in the Active Development Branch may be slated for a future Windows 10 release, they are no longer matched to a specific Windows 10 release. This means that builds from the active development branch simply reflect the latest work in progress code from our engineers. 
+
+| Build | Fast |
+|-------|------|
+|19535|[**12/16/2019**](https://blogs.windows.com/windowsexperience/2019/12/16/announcing-windows-10-insider-preview-build-19536/)|
+
+## Upcoming Windows 10 Feature Update (20H1)
 
 You can get builds of 20H1 today if you've opted into the **Fast ring**.
 
@@ -23,7 +31,7 @@ The items in **bold** are the latest releases for the individual versions of the
 
 | Build | Fast | Slow | Server | IoT | ISO | SDK |
 |-------|------|------|--------|-----|-----|-----|
-|19041|[**12/10/2019**](https://blogs.windows.com/windowsexperience/2019/12/10/announcing-windows-10-insider-preview-build-19041/)||||||
+|19041|[12/10/2019](https://blogs.windows.com/windowsexperience/2019/12/10/announcing-windows-10-insider-preview-build-19041/)||||||
 |19035|[12/4/2019](https://blogs.windows.com/windowsexperience/2019/12/04/announcing-windows-10-insider-preview-build-19035/)|[**12/4/2019**](https://blogs.windows.com/windowsexperience/2019/12/04/announcing-windows-10-insider-preview-build-19035/)|[**12/10/2019**](https://blogs.windows.com/windowsexperience/2019/12/10/announcing-windows-server-vnext-insider-preview-build-19035/)||[**12/10/2019**](https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewadvanced)|[**12/10/2019**](https://blogs.windows.com/windowsdeveloper/2019/12/10/windows-10-sdk-preview-build-19035-available-now/)|
 |19033|[11/26/2019](https://blogs.windows.com/windowsexperience/2019/11/26/announcing-windows-10-insider-preview-build-19033/)|[11/26/2019](https://blogs.windows.com/windowsexperience/2019/11/26/announcing-windows-10-insider-preview-build-19033/)|||||
 |19030|[11/22/2019](https://blogs.windows.com/windowsexperience/2019/11/22/announcing-windows-10-insider-preview-build-19030/)||||||
