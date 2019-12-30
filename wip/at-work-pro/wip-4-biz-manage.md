@@ -95,11 +95,11 @@ You can manage pre-release builds directly from WSUS. To do this, go check the W
 __NOTE:__
 *While this option will be visible on every version of Configuration Manager, you must be running Configuration Manager, version 1906 or newer to select it.)
 
-![Set using System Center Config](images/SoftwareUpdatePointCompProp.png)
+![Set using System Center Config](images/CM-WIP-1213.gif)
 
 2. If you already manage your organization’s deployments using Configuration Manager, use the same procedure you currently use to deploy any other Windows 10 feature update (Software Library > Overview > Windows 10 Servicing > All Windows 10 Updates). Once you reach the list of All Windows 10 Updates, you will see an option for “Windows Insider Pre-release Feature Update to Windows 10 Version 1909” as shown below:
 
-![Set using System Center Config-2](images/ConfigurManager.png)
+![Set using System Center Config-2](images/Soft-Lib-WIP-1213.gif)
 
 3. Deploy the release the same way as any other feature update. create
 
