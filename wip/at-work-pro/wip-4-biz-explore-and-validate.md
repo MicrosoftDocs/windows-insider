@@ -14,7 +14,7 @@ ms.prod: w10
 
 # Working with Windows 10 Insider Preview Builds 
 
-Windows 10 Insider Preview Builds enable organizations to explore new features and validate apps and infrastructure compatiblity well before a general Windows release. This can help accelerate your next Windows deployment get more value out of Windows for your organization. 
+Windows 10 Insider Preview Builds enable organizations to explore new features and validate apps and infrastructure compatibility well before a general Windows release. This can help accelerate your next Windows deployment and get more value out of Windows for your organization. 
 
 ![WaaS and Rings](images/trumpet2.png "ADD")
 
@@ -36,7 +36,7 @@ To support your broader Windows deployment, Microsoft recommends that all organi
 |__Monitoring__| Encourage users to sign into the Feedback Hub using their Azure AD work accounts. This enables you to track feedback submitted by users within your organization. (Note: This tracking is only visible to Microsoft and registered Insiders within your organization’s domain.) See [Submit and track feedback using the Feedback Hub](wip-4-biz-feedback.md).
 
 ### Validate applications and infrastructure in the Slow Ring
-Early validation of application and infrastucture compatiblity with Windows using Insider Preview builds in the Slow Ring has several benefits:
+Early validation of application and infrastructure compatibility with Windows using Insider Preview builds in the Slow Ring has several benefits:
 * Get a head start on your Windows validation process.
 * Identify issues sooner to accelerate your Windows deployment.
 * Engage Microsoft earlier for help with potential compatibility issues.
@@ -45,7 +45,7 @@ Early validation of application and infrastucture compatiblity with Windows usin
 
  |   |   |
 |-------|-----------|
-|__Overview__|Insider Preview builds in the Slow Ring are released approximately monthly for greater stability. These builds are supported with Quality Update service packages to fix key issues found in the Fast Ring and also receive the latest [Microsoft Security Response Center security fixes](https://blogs.technet.microsoft.com/msrc/). 
+|__Overview__|Insider Preview builds in the Slow Ring are released approximately monthly for greater stability. These builds are supported with Quality Update service packages to fix key issues found in the Fast Ring and also receive the latest [Microsoft Security Response Center security fixes](https://msrc-blog.microsoft.com/category/msrc/). 
 |__Users__|In addition to Insiders who may have participated in feature exploration in the Fast Ring, we recommend including a small group of application owners and users from each business department to ensure a representative sample. Slow Ring releases can be run on either secondary or primary production machines by skilled users.
 |__Activities__|Run Insider Preview builds on representative hardware to confirm compatibility. <br/> Validate new Insider Preview builds against infrastructure to ensure machines can be managed once deployed. NOTE: Before validation, check our [Windows Insider blog](https://blogs.windows.com/windowsexperience/tag/windows-insider-program/) and [Windows Insider Tech Community](https://techcommunity.microsoft.com/t5/Windows-Insider-Program/bd-p/WindowsInsiderProgram) for updates on current issues and fixes. 
 |__Monitoring__|Use Device Health to identify device, device driver and application issues related to Insider Preview builds. For guidance, see [Using Device Health to monitor Insider Preview builds](https://insider.windows.com/en-us/for-business-device-health/). 

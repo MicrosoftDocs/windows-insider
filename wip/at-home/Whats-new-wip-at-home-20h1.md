@@ -34,7 +34,7 @@ To help you find the info that matters even faster, we’ve added four quick web
 * __Today in history:__ Explore four events that happened on this day
 * __New movies:__ Find out what’s playing in theaters near you
 
-![Quick Searches](images/19018-1.png "shows four quick searches: weather, top news, today in histroy and new movies")
+![Quick Searches](images/19018-1.png "shows four quick searches: weather, top news, today in history and new movies")
 
 To preview these web answers and results, select the search box to open Search Home, then choose one of the quick search buttons. Need quick answers about other topics or searches? Just enter a query into the search box for quick results about almost everything.
 
@@ -224,9 +224,9 @@ __Notes:__
 
 Virtual Desktops exist to help you visually and cognitively separate different tasks on your PC. They can also be handy when doing presentations – enabling you to prepare demos on different desktops. Something we’ve heard loud and clear is that you want to be able to set names for your different desktops, in order to help cement the separation between workspaces, and we’re excited to share that rolling out to Insiders in the Fast ring is exactly that!
 
-![virtual deskops](images/18963-2.gif "Renaming your virtual desktops")
+![virtual desktops](images/18963-2.gif "Renaming your virtual desktops")
 
-Wanna try it out? With the change, when you open Task View (by selecting the Task View button in the taskbar, or by pressing WIN+Tab,) clicking the name of your desktop will now switch it to be an editable fiel where you can set the name to be anything you’d like (including emoji). You can also right-click the thumbnail of the desired desktop in Task View, and a context menu with a Rename entry in it should appear. If you don’t have any additional desktops created yet, select “New desktop” in Task View to get started.
+Wanna try it out? With the change, when you open Task View (by selecting the Task View button in the taskbar, or by pressing WIN+Tab,) clicking the name of your desktop will now switch it to be an editable field where you can set the name to be anything you’d like (including emoji). You can also right-click the thumbnail of the desired desktop in Task View, and a context menu with a Rename entry in it should appear. If you don’t have any additional desktops created yet, select “New desktop” in Task View to get started.
 
 And yes, since we know you’ll ask – the names persist reboot. 
 
@@ -371,9 +371,9 @@ Over the next few days we’ll be starting to roll out a Calculator app update t
 ## Accessibility Improvements (Build 18956)
 •	__Text Cursor Indicator Preview:__ Changes to the text cursor indicator can now be viewed on the fly in a new preview pane when changing the size or color in the Text cursor page in Ease of Access.  
 •	__Magnifier reading now supports 3 new ways to start reading:__ Press the play button to start reading from the top of content, or selected text if text was selected, or press the read from here button then click where you want to start reading. Note that this experience works with apps with large content like Edge, Word, Mail, etc. __Known issue:__ Play from top may not work at times and you will hear “cannot read from here.”  
-•	__Narrator__ gives page summaries and popular links: In Build 18894,we released a quick summary with Narrator + S that will give you headings, links, and landmarks. Pressing Narrator + S twice quickly will open a dialog window with the number of headings, landmarks, and links and a list of popular links. Popular links are the most commonly used links on the website, and you can navigate directly to those links from the page summary.
+•	__Narrator__ gives page summaries and popular links: In Build 18894, we released a quick summary with Narrator + S that will give you headings, links, and landmarks. Pressing Narrator + S twice quickly will open a dialog window with the number of headings, landmarks, and links and a list of popular links. Popular links are the most commonly used links on the website, and you can navigate directly to those links from the page summary.
 •	__New Narrator Sound Scheme:__ We’ve revamped Narrator sounds to be more functional and responsive. As part of that effort, we added sounds for common actions, such as when you land on a link or when you turn on or off scan mode. To manage sounds for common actions, go to Narrator settings.  
-•	In [Build 18945](https://blogs.windows.com/windowsexperience/2019/07/26/announcing-windows-10-insider-preview-build-18945/#LPZ6FzWa1jl3sVSt.97), we released a more efficient reading experience in Outlook when arrowing through emails. If the older reading experience is preferred, you can disable the new reading experience by unchecking the “Have Narrator be more efficient in Outlook (experimental)” option in Narrator Settings.
+•	In [Build 18945](https://blogs.windows.com/windowsexperience/2019/07/26/announcing-windows-10-insider-preview-build-18945/), we released a more efficient reading experience in Outlook when arrowing through emails. If the older reading experience is preferred, you can disable the new reading experience by unchecking the “Have Narrator be more efficient in Outlook (experimental)” option in Narrator Settings.
 
 ## Sideloading setting for MSIX no longer required (Build 18956) 
 Starting in this build, enabling the sideloading setting is no longer required to install MSIX packages. Prior to this, you would need to enable a sideloading policy through Settings or group policy to deploy an MSIX package. Now, you can deploy a signed MSIX package onto a device without a special configuration. As part of this change, we have changed the developer mode to be a toggle in the For developer page in Settings. Enterprises can still disable sideloading behaviors via enterprise policy. To learn more about MSIX, please refer to the documentation here: aka.ms/msix.

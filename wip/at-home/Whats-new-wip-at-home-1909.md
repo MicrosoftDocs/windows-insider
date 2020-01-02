@@ -17,9 +17,9 @@ The next feature update for Windows 10 (known in the Windows Insider Program as 
 
 The following new features are being introduced as part of this update.
 
-- This update will be published to WSUS so that customers can deploy and manage Insider Preview builds alongside their standard ConfigMan/WSUS approach. [See this blog post for details.](https://techcommunity.microsoft.com/t5/Windows-IT-Pro-Blog/Publishing-pre-release-Windows-10-feature-updates-to-WSUS/ba-p/845054)  
+- This update will be published to WSUS so that customers can deploy and manage Insider Preview builds alongside their standard ConfigMan/WSUS approach. [See this blog post for details](https://techcommunity.microsoft.com/t5/Windows-IT-Pro-Blog/Publishing-pre-release-Windows-10-feature-updates-to-WSUS/ba-p/845054).  
 
-- We are offering pre-release support for 19H2 offered to Windows Insider Program for Business (WIP4Biz) customers who face blocking issues that prevent them from feature evaluation or device use. [See this article for details.](https://insider.windows.com/en-us/articles/19h2-support-available-for-business-users/) 
+- We are offering pre-release support for 19H2 offered to Windows Insider Program for Business (WIP4Biz) customers who face blocking issues that prevent them from feature evaluation or device use. [See this article for details](https://insider.windows.com/en-us/articles/19h2-support-available-for-business-users/). 
 
 - Windows containers require matched host and container version. This restricts customers and limits Windows containers from supporting mixed-version container pod scenarios This update includes 5 fixes to address this and allow the host to run down-level containers on up-level for process (Argon) isolation.
 

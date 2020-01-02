@@ -22,7 +22,7 @@ One of the benefits of being a Windows Insider is knowing that your feedback can
 2. Sign in (bottom left) with the account that you used to register for the Windows Insider Program. This gives you access to the full set of content and features available to Windows Insiders which are available under four tabs in the left margin:  
     __•	Feedback:__ tools to search, upvote and submit feedback.   
     __•	Announcements:__ news for Windows Insiders, including details about the latest Windows 10 Insider Preview Builds.  
-     __•Quests:__ step-by-step guidance for Windows features that we’re currently prioritizing and would like feedback on from Windows Insiders. For each Quest completed, you can earn points towards badges which appear in the Achievements section.   
+     __• Quests:__ step-by-step guidance for Windows features that we’re currently prioritizing and would like feedback on from Windows Insiders. For each Quest completed, you can earn points towards badges which appear in the Achievements section.   
     __•	Achievements:__ Windows Insider Achievement badges available to you as an Insider. 
 
 __Note:__ 
@@ -31,11 +31,11 @@ When opening the Feedback Hub app, you may see a message to change your Feedback
 ## Check for existing feedback  
 1.	Enter your feedback topic in the __search bar__ on the main page of the Feedback Hub, or in the Feedback section. 
 2.	Narrow your search results by select the link next to __Filters__ at the top of the Feedback section. You can filter problems and suggestions and find feedback that’s been addressed by Microsoft or needs more information. You can also filter search results by device type and functional categories. By clicking “My feedback” above the search box, you can group specific feedback you submitted or upvoted. 
-3.	If you find the feedback you’re looking for, click the __upvote__ button next to the fedback item. You can also click __add comments__ to provide clarity to existing information or add other scenarios to review if needed.
+3.	If you find the feedback you’re looking for, click the __upvote__ button next to the feedback item. You can also click __add comments__ to provide clarity to existing information or add other scenarios to review if needed.
 
 __Note:__ Some feedback items are listed as “Collections” which gather together similar feedback. Collections are identified with an icon next to their title, so you can easily tell them apart from individual feedback. You can learn more about collections here.
 
-![Feedback Hub](images/FBh.png "shows feedback page with trending results")
+![Feedback Hub](images/FBH.png "shows feedback page with trending results")
 
  
 ## Add new feedback
