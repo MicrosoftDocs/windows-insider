@@ -42,7 +42,12 @@ To try any or all of these searches, click the search box on your taskbar or pre
 
 Let us know what you think about quick searches and how you would like to see them evolve.
 
-Note: This is a server-side change that’s currently rolling out and will appear for users across builds from version 1809 to 20H1. Currently, quick searches are only available in: Australia: English, Canada: English and French, China: Chinese (Simplified), France: French, Germany: German, India: English, Italy: Italian, Japan: Japanese, Mexico: Spanish, Spain: Spanish, United Kingdom: English, United States: English. 
+Note: This is a server-side change that’s currently rolling out and will appear for users across builds from version 1809 to 20H1. Currently, quick searches are only available in the US, but will be available soon internationally.
+
+### Updated design for web preview in search results (Build 19018)
+We have made a few small tweaks to how it looks–here’s what you’ll see now:
+
+![Search](images/19018-2.png "view of updated design for web preview in search results")
 
 ## More kaomoji (Build 19013)
 As some of you may know, with Windows 10 version 1903, we updated our WIN+(Period) / WIN+(Semicolon) keyboard shortcut to not only include emoji, but to also now contain kaomoji and special characters. What are kaomoji? Basically, they’re faces with expressions you can make by combining various characters–for example, you might be familiar with the shruggie:

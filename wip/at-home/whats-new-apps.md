@@ -74,7 +74,7 @@ Phone screen requirements:
     * Samsung Galaxy Note 10/ Note 10+
     * Samsung Galaxy S10/S10+/S10e
     * Samsung Galaxy A30s/A50s/A90
-* Refer to the [Your Phone FAQs](https://support.microsoft.com/en-us/help/4459358/windows-10-your-phone-app-help) for additional information.
+* Refer to the [Your Phone FAQs](https://support.microsoft.com/help/4459358/windows-10-your-phone-app-help) for additional information.
 
 __10/8/2019__
 ### Unveiling Calls, now even more ways to stay connected to what matters 
