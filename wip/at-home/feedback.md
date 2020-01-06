@@ -22,7 +22,7 @@ One of the benefits of being a Windows Insider is knowing that your feedback can
 2. Sign in (bottom left) with the account that you used to register for the Windows Insider Program. This gives you access to the full set of content and features available to Windows Insiders which are available under four tabs in the left margin:  
     __•	Feedback:__ tools to search, upvote and submit feedback.   
     __•	Announcements:__ news for Windows Insiders, including details about the latest Windows 10 Insider Preview Builds.  
-     __•Quests:__ step-by-step guidance for Windows features that we’re currently prioritizing and would like feedback on from Windows Insiders. For each Quest completed, you can earn points towards badges which appear in the Achievements section.   
+     __• Quests:__ step-by-step guidance for Windows features that we’re currently prioritizing and would like feedback on from Windows Insiders. For each Quest completed, you can earn points towards badges which appear in the Achievements section.   
     __•	Achievements:__ Windows Insider Achievement badges available to you as an Insider. 
 
 __Note:__ 

@@ -34,9 +34,11 @@ To help you find the info that matters even faster, we’ve added four quick web
 * __Today in history:__ Explore four events that happened on this day
 * __New movies:__ Find out what’s playing in theaters near you
 
+Occasionally, we'll also feature a seasonal topic or interesting quiz. 
+
 ![Quick Searches](images/19018-1.png "shows four quick searches: weather, top news, today in histroy and new movies")
 
-To preview these web answers and results, select the search box to open Search Home, then choose one of the quick search buttons. Need quick answers about other topics or searches? Just enter a query into the search box for quick results about almost everything.
+To try any or all of these searches, click the search box on your taskbar or press the Windows logo key + S to open Search Home. Want answers and results for other searches? Just type to enter your search and get the info you’re looking for quickly and easily.
 
 Let us know what you think about quick searches and how you would like to see them evolve.
 
@@ -45,7 +47,7 @@ Note: This is a server-side change that’s currently rolling out and will appea
 ### Updated design for web preview in search results (Build 19018)
 We have made a few small tweaks to how it looks–here’s what you’ll see now:
 
-![Search](images/19018-1.png "view of updated design for web preview in search results")
+![Search](images/19018-2.png "view of updated design for web preview in search results")
 
 ## More kaomoji (Build 19013)
 As some of you may know, with Windows 10 version 1903, we updated our WIN+(Period) / WIN+(Semicolon) keyboard shortcut to not only include emoji, but to also now contain kaomoji and special characters. What are kaomoji? Basically, they’re faces with expressions you can make by combining various characters–for example, you might be familiar with the shruggie:
@@ -137,15 +139,8 @@ Supported devices include:
 
 ![Bluetooth pairing](images/18985-1.gif "a notification prompting you to go through pairing a Bluetooth mouse")
 
-## Improving your optional update experience (Build 18985)
-As some Insiders have noticed, we’re working on making it easier for you to see all optional updates (including drivers, feature updates, and monthly non-security quality updates) in one place. Once optional updates are detected, they will be listed in a new page under Settings > Update & Security > Windows Update > View optional updates. For drivers, you no longer need to browse Device Manager for a specific device to update. Windows Update will automatically keep your drivers up-to-date, same as before, but if you’re having a problem one of those optional drivers might help.
-
-## Windows Subsystem for Linux (WSL) improvements (Build 18980)
-In this build, we’ve added WSL2 support for ARM64 devices! We’ve also added the ability to set your distribution’s default user using the /etc/wsl.conf file. This release also contains multiple bug fixes, including a long-standing issue for legacy Windows symlinks (for example those in the user profile directory.)
-
-For the full details of changes in this latest Insider Preview build, please see the [WSL release notes](https://docs.microsoft.com/windows/wsl/release-notes).
-
-![WSL2](images/18980-1.png "a fix for a long-standing issue for legacy Windows symlinks")
+## Windows Subsystem for Linux (WSL) ARM64 support.  (Build 18980)
+In this build, we’ve added WSL2 support for ARM64 devices! We’ve also added the ability to set your distribution’s default user using the /etc/wsl.conf file. For the full details of changes in this latest Insider Preview build, please see the [WSL release notes](https://docs.microsoft.com/windows/wsl/release-notes).
 
 ## Option to move the Cortana window (Build 18975)
 
@@ -249,7 +244,7 @@ As some Insiders have noticed, you can now set your mouse cursor speed from with
 
 ![Mouse Cursor](images/18963-5.png "Adding Mouse Cursor speed to Settings")
 
-## Making Notepad store-updatable (Build 18963)
+## Notepad improvements (Build 18963)
 Notepad has been a well-loved text editor in Windows for over 30 years. Over the last few releases, we’ve been making a number of small improvements to Notepad based on your feedback including:
 
 1. __Wrap-around find/replace:__ We’ve made significant improvement to the find/replace experience in Notepad. We added the option to do wrap-around find/replace to the find dialog and Notepad will now remember previously entered values and the state of checkboxes and automatically populate them the next time you open the find dialog. Additionally, when you have text selected and open the find dialog we will automatically populate the search field with the selected text.
@@ -290,9 +285,6 @@ __Other Updates__
 * Arrow keys now correctly unselect text first and then move the cursor.
 * When saving a file in Notepad, the line and column number no longer reset to 1.
 * Notepad now correctly displays lines that don’t fit entirely on the screen.
-
-
-Starting with this build, we’re making a change so that future Notepad updates will be automatically available via the store. This will allow us the flexibility to respond to issues and feedback outside the bounds of Windows releases. As always, if you have any feedback for Notepad, we welcome it in the Feedback Hub under [Apps > Notepad](https://aka.ms/notepadfeedback).
 
 ## Traditional Chinese IME improvements (Build 18963)
 Thank you everyone who’s shared feedback about the new Traditional Chinese Bopomofo, ChangJie, and Quick IMEs. The developer team has been working on improving the quality and fixing bugs. With today’s build:
@@ -352,16 +344,6 @@ Thank you everyone who’s shared feedback about the new Traditional Chinese Bop
 As you may have noticed in the screenshot below, we’re now adding the ability to change the candidate font size, separate from the rest of the system if you find that you need it to be a bit bigger. (You can still change the system font size under [Ease of Access]>[Display]>[Make text bigger].)
 
 ![Traditional Chinese IME](images/18956-3.png "Bopomofo IME settings")
-
-## Notification settings improvements now rolling out to all of Fast (Build 18956) 
-Thanks everyone who’s tried out our [improvements so far](https://docs.microsoft.com/windows-insider/at-work-pro/wip-4-biz-whats-new#refining-your-notification-settings-build-18932). We’re now starting to roll these out to all Insiders. To recap what you’ll see when you have the change:
-* If you hover your mouse over an incoming notification, you’ll now see a settings icon to make it easy to adjust that app’s notification settings.
-* We’ve updated the design of the per-app notification settings for visual clarity.
-* There’s now a direct link to notification settings at the top of the Action Center.
-* Notifications & Action Settings now has a checkbox for muting the sound of all notifications.
-* By default, the senders in Notifications & Action Settings are now sorted by “most recently sent a notification.”
-
-![Notification settings](images/18956-4.png "Notification settings improvements now rolling out to all of Fast")
  
 ## Calculator app updates (Build 18956)
 Over the next few days we’ll be starting to roll out a Calculator app update to Insiders in the Fast ring. This app is most notable because it adds the ability to put Calculator in an Always on Top mode! Thanks everyone who shared feedback requesting this – we look forward to you trying it out. Once you have the updated version, you’ll be able to switch into the Always on Top mode by clicking the icon next to the calculator mode name.
