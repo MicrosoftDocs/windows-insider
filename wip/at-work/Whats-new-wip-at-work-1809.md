@@ -116,7 +116,7 @@ Windows Server Failover Clusters no longer use NTLM authentication by exclusivel
 We’ve improved the scalability and reliability of containers that use group managed service accounts (gMSA) to access network resources. You should see fewer authentication errors when using a single gMSA with multiple container instances. Additionally, you no longer need to set the container's host name to be the same as the gMSA. We also fixed a bug that prevented you from using gMSAs with Hyper-V isolated containers.  
 
 ### Host Device Access for Containers
-You can assign simple buses to process-isolated Windows Server containers. Applications running in containers that need to talk over SPI, I2C, GPIO, and UART/COM will now be able to do so. To learn more, and to see how to leverage the feature, see [Bringing Device Support to Windows Server Containers](https://blogs.technet.microsoft.com/virtualization/2018/08/13/bringing-device-support-to-windows-server-containers/) in the [Virtualization Blog](https://blogs.technet.microsoft.com/virtualization/).
+You can assign simple buses to process-isolated Windows Server containers. Applications running in containers that need to talk over SPI, I2C, GPIO, and UART/COM will now be able to do so. To learn more, and to see how to leverage the feature, see [Bringing Device Support to Windows Server Containers](https://techcommunity.microsoft.com/t5/Containers/Bringing-Device-Support-to-Windows-Containers/ba-p/382423) in the [Virtualization Blog](https://techcommunity.microsoft.com/t5/Virtualization/bg-p/Virtualization).
 
 ### New Container base image: Windows 
 We added a new base image to the Windows Server container collection. In addition to nanoserver and windowsservercore container images, the new windows image is now available. This image carries even more components than its nanoserver and servercore siblings, meaning it can support applications that have additional API dependencies. To learn more and get started, go to https://aka.ms/windowscontainer. 
@@ -134,11 +134,10 @@ And much more! For guidance that walks you through how to install Kubernetes ont
 
 ## Congestion Control with LEDBAT
 
-Keeping a network secure is a never-ending job for IT Pros, and doing so requires regularly updating systems to protect against the latest threat vectors.  This is one of the most common tasks that an IT Pro must perform.  Unfortunately, it can result in dissatisfaction for end-us
-ers as the network bandwidth used for the update can compete with interactive tasks that the end user requires to be productive.
-With Windows Server 2019, we bring a latency optimized, network congestion control provider called LEDBAT which scavenges whatever network bandwidth is available on the network, and uses it
+Keeping a network secure is a never-ending job for IT Pros, and doing so requires regularly updating systems to protect against the latest threat vectors.  This is one of the most common tasks that an IT Pro must perform.  Unfortunately, it can result in dissatisfaction for end-users as the network bandwidth used for the update can compete with interactive tasks that the end user requires to be productive.
+With Windows Server 2019, we bring a latency optimized, network congestion control provider called LEDBAT which scavenges whatever network bandwidth is available on the network, and uses it.
 
-For a full write up detailing this improvement, please see our announcement [LEDBAT – Latency Optimized Background Transport](https://blogs.technet.microsoft.com/networking/2018/07/25/ledbat/)
+For a full write up detailing this improvement, please see our announcement [LEDBAT – Latency Optimized Background Transport](https://techcommunity.microsoft.com/t5/Core-Infrastructure-and-Security/Breaking-Into-Windows-Server-2019-LEDBAT-Latency-Optimized/ba-p/259661).
 
 ## Microsoft Hyper-V 2019 Preview
 This is the first Insider Preview of Microsoft Hyper-V 2019. Microsoft Hyper-V Server is a stand-alone product that contains only the Windows hypervisor, a Windows Server driver model, and virtualization components. It provides a simple and reliable virtualization solution to help you improve your server utilization and reduce costs.
@@ -264,7 +263,7 @@ send us your feedback in the Feedback Hub.
 
 Organizations today deploy their applications across multiple clouds including on-premises private clouds, service provider clouds, and public clouds such as Azure. In such scenarios, enabling secure, high-performance connectivity across workloads in different clouds is essential. Windows Server 2019 brings huge SDN gateway performance improvements for these hybrid connectivity scenarios, with network throughput multiplying by up to 6x.
 
-For more details about these improvements, please see our blog entry: [Top 10 Networking Features in Windows Server 2019: #6 High Performance SDN Gateways](https://blogs.technet.microsoft.com/networking/2018/08/15/high-performance-gateways/).
+For more details about these improvements, please see our blog entry: [Top 10 Networking Features in Windows Server 2019: #6 High Performance SDN Gateways](https://techcommunity.microsoft.com/t5/Networking-Blog/Top-10-Networking-Features-in-Windows-Server-2019-6-High/ba-p/339766).
 
 ### SDN Fabric Access Control Lists (ACLs)
 We provide the ability to lock down the security of your virtual networks by automatically applying ACLs to the fabric.
@@ -279,7 +278,7 @@ SDN includes the ability to use IPv6 for virtual network address spaces, virtual
 The primary security boundary for SDN is the isolation that’s provided by the virtual network itself, but sometimes it becomes necessary to breach this boundary so that two virtual networks are able to communicate with each other. You still want these two individual boundaries to securely communicate, and that's where Virtual Network Peering comes in.
 
 For more details about these improvements, please see our blog entry:
-[Top 10 Networking Features in Windows Server 2019: #4 Security with SDN](https://blogs.technet.microsoft.com/networking/2018/08/29/sdnsecurity/)
+[Top 10 Networking Features in Windows Server 2019: #4 Security with SDN](https://techcommunity.microsoft.com/t5/Networking-Blog/Top-10-Networking-Features-in-Windows-Server-2019-4-Security/ba-p/339774)
 
 
 ## Shielded virtual machines – Offline mode, VMConnect and Linux support
@@ -292,7 +291,7 @@ HGS allows you to configure a second set of URLs for Hyper-V to try if
 it can't reach your primary HGS server. To see how this can be used in a
 branch-office scenario, see [Improved branch office support for shielded
 VMs in Windows Server, version
-1709](https://blogs.technet.microsoft.com/datacentersecurity/2017/11/15/improved-branch-office-support-for-shielded-vms-in-windows-server-version-1709/)
+1709](https://techcommunity.microsoft.com/t5/Data-Center-Security/Improved-branch-office-support-for-shielded-VMs-in-Windows/ba-p/372280)
 on our blog. [Offline
 mode](https://docs.microsoft.com/windows-server/security/guarded-fabric-shielded-vm/guarded-fabric-manage-branch-office#offline-mode)
 allows you to continue to start up your shielded VMs, even if HGS can't
