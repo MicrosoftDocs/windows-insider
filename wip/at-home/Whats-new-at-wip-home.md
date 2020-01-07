@@ -13,10 +13,10 @@ ms.prod: w10
 
 # What's new for Windows 10 Insider Preview Builds 
 
-This topic lists new Windows 10 features for you to try in our active development branch. This branch (called “RS_PRERELEASE”) is where the teams check in all their latest code changes into the OS. Moving forward, the Fast ring will receive builds directly from this active development branch and new features will show up in these builds first. While features in the active development branch may be slated for a future Windows 10 release, they are no longer matched to a specific Windows 10 release. For features available in the Slow ring, see [What's new for Windows Insider Preview (20H1)](https://docs.microsoft.com/windows-insider/at-home/Whats-new-wip-at-home-20h1).
+This topic lists new Windows 10 features for you to try in our active development branch. This branch (called “RS_PRERELEASE”) is where the teams check in all their latest code changes into the OS. While features in the active development branch may be slated for a future Windows 10 release, they are no longer matched to a specific Windows 10 release. Moving forward, the Fast ring will receive builds directly from this active development branch and new features will show up in these builds first. For features available in the Slow ring, see [What's new for Windows Insider Preview (20H1)](https://docs.microsoft.com/windows-insider/at-home/Whats-new-wip-at-home-20h1).
 
 ## Optional Drivers (Build 19536)
-We’re still working on making it easier for you to see all optional updates (including drivers, feature updates, and monthly non-security quality updates) in one place. When optional updates are detected, they will be listed under Settings > Update & Security > Windows Update > View optional updates.
+We are still working on making it easier for you to see all optional updates (including drivers, feature updates, and monthly non-security quality updates) in one place. When optional updates are detected, they will be listed under Settings > Update & Security > Windows Update > View optional updates.
 For drivers, you no longer need to browse Device Manager for a specific device to update. Windows Update will automatically keep your drivers up to date, but if you’re having a problem, one of those optional drivers might help.
 
 ![Optional updates](images/19536-1.png "Windows Update settings screen showing view optional updates link")
