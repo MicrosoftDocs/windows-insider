@@ -17,7 +17,41 @@ You will find information on the latest major app updates for Windows 10 release
 
 _Note:_ Not all app updates will be listed here. Only app updates that include major changes e.g. new features, etc. will be noted.
 
-## Your Phone 
+## Your Phone
+
+__12/16/2019__
+
+### Photos has evolved. View and interact with your most recent 2000 photos!
+We take a lot of photos on our smartphones. We heard our avid Your Phone app users when you when you said you wanted the ability to access more than 25 of your recent photos. Today, we’re happy to announce that we’ve addressed this by letting you view and interact with your most recent 2,000 photos from your Android smartphone’s camera roll on your PC!
+
+With the Your Phone Photos feature, you don’t have to email photos to yourself. Simply take a pic and see it instantly on your PC. When you need to add a recent image to your email, paper, or presentation, just drag and drop. You can also conveniently share it with family or friends or save it directly to your PC by simply right clicking on the image.
+
+Try out this newly enhanced capability and share your experience.
+
+![Your phone](images/19536-4.png "Your Phone app recebt photos page")
+
+___Photos requirements:__
+
+* Any Android phones running version 7.0 or higher
+* PC running Windows 10 April 2018 Update (1803) or higher
+
+__Known Issues:__
+* If the Photo selector in Messages appears blank, navigate to Photos on the left and hit refresh. Your photos should now appear in the Photo selector.
+
+This feature will gradually roll out to Windows Insiders on the Windows 10 May 2019 Update or newer, so it may take a few days to be available inside the Your Phone app. Please make sure you have the latest versions of Your Phone Companion and the Your Phone app to experience this feature.
+
+### Phone screen now supports pen input
+The Phone screen feature is getting a boost. In addition to keyboard, mouse, and touch support, you can now use your digital pen with a compatible stylus to input on any touch screen enabled Windows 10 PC to interact with your mobile apps while in Phone screen session. Leverage your pen’s pressure sensitivity for drawing and writing like you would with your phone’s stylus with apps that support pressure sensitivity. You will also be able to hover over buttons, and it differentiates between the pen and finger touch.
+
+![Your phone](images/19536-5.jpg "Your Phone app recebt photos page")
+
+This feature is available to all Windows Insiders on Windows 10 October 2018 Update or newer and requires Phone screen compatible devices.
+
+We value your feedback, so give it a try and let us know what you think. You can report any issues under Your Phone > Settings > Send feedback or directly through Feedback Hub.
+
+__Pen Input Requirements:__
+Your Phone App version 1.19102.500.0 or newer
+Phone screen compatible devices
 
 __10/29/2019__
 

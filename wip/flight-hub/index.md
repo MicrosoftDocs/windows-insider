@@ -15,9 +15,9 @@ ms.prod: w10
 
 Welcome to Flight Hub! Use this dashboard to quickly identify the latest Windows Insider Preview releases for PC, Server, IoT. You can also look up the status of the SDK and ISO images.
 
-## Active Development Builds of Windows 10 
+## Active Development Builds of Windows 10
 
-Moving forward, the Fast ring will receive builds directly from this active development branch and new features will show up in these builds first. While features in the Active Development Branch may be slated for a future Windows 10 release, they are no longer matched to a specific Windows 10 release. This means that builds from the active development branch simply reflect the latest work in progress code from our engineers. 
+Moving forward, the Fast ring will receive builds directly from this active development branch and new features will show up in these builds first. While features in the Active Development Branch may be slated for a future Windows 10 release, they are no longer matched to a specific Windows 10 release. This means that builds from the active development branch simply reflect the latest work in progress code from our engineers.
 
 | Build | Fast |
 |-------|------|
@@ -25,17 +25,18 @@ Moving forward, the Fast ring will receive builds directly from this active deve
 
 ## Upcoming Windows 10 Feature Update (20H1)
 
-You can get builds of 20H1 today if you've opted into the **Fast ring**.
+You can get builds of 20H1 today if you've opted into the **Slow ring**.
 
 The items in **bold** are the latest releases for the individual versions of the item.
 
 | Build | Fast | Slow | Server | IoT | ISO | SDK |
 |-------|------|------|--------|-----|-----|-----|
-|19041|[12/10/2019](https://blogs.windows.com/windowsexperience/2019/12/10/announcing-windows-10-insider-preview-build-19041/)|||||[**12/17/2019**](https://blogs.windows.com/windowsdeveloper/2019/12/17/windows-10-sdk-preview-build-19041-available-now/)|
-|19035|[12/4/2019](https://blogs.windows.com/windowsexperience/2019/12/04/announcing-windows-10-insider-preview-build-19035/)|[**12/4/2019**](https://blogs.windows.com/windowsexperience/2019/12/04/announcing-windows-10-insider-preview-build-19035/)|[**12/10/2019**](https://blogs.windows.com/windowsexperience/2019/12/10/announcing-windows-server-vnext-insider-preview-build-19035/)||[**12/10/2019**](https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewadvanced)|[12/10/2019](https://blogs.windows.com/windowsdeveloper/2019/12/10/windows-10-sdk-preview-build-19035-available-now/)|
+|19041|[**12/10/2019**](https://blogs.windows.com/windowsexperience/2019/12/10/announcing-windows-10-insider-preview-build-19041/)|[**12/10/2019**](https://blogs.windows.com/windowsexperience/2019/12/10/announcing-windows-10-insider-preview-build-19041/)||||[**12/17/2019**](https://blogs.windows.com/windowsdeveloper/2019/12/17/windows-10-sdk-preview-build-19041-available-now/)|
+|19037|[12/6/2019](https://blogs.windows.com/windowsexperience/2019/12/06/announcing-windows-10-insider-preview-build-19037/)|[12/6/2019](https://blogs.windows.com/windowsexperience/2019/12/06/announcing-windows-10-insider-preview-build-19037/)|||||
+|19035|[12/4/2019](https://blogs.windows.com/windowsexperience/2019/12/04/announcing-windows-10-insider-preview-build-19035/)|[12/4/2019](https://blogs.windows.com/windowsexperience/2019/12/04/announcing-windows-10-insider-preview-build-19035/)|[**12/10/2019**](https://blogs.windows.com/windowsexperience/2019/12/10/announcing-windows-server-vnext-insider-preview-build-19035/)||[**12/10/2019**](https://www.microsoft.com/software-download/windowsinsiderpreviewadvanced)|[12/10/2019](https://blogs.windows.com/windowsdeveloper/2019/12/10/windows-10-sdk-preview-build-19035-available-now/)|
 |19033|[11/26/2019](https://blogs.windows.com/windowsexperience/2019/11/26/announcing-windows-10-insider-preview-build-19033/)|[11/26/2019](https://blogs.windows.com/windowsexperience/2019/11/26/announcing-windows-10-insider-preview-build-19033/)|||||
 |19030|[11/22/2019](https://blogs.windows.com/windowsexperience/2019/11/22/announcing-windows-10-insider-preview-build-19030/)||||||
-|19028|[11/19/2019](https://blogs.windows.com/windowsexperience/2019/11/19/announcing-windows-10-insider-preview-build-19028/)|||||[**11/27/2019**](https://blogs.windows.com/windowsdeveloper/2019/11/27/windows-10-sdk-preview-build-19028-available-now/)|
+|19028|[11/19/2019](https://blogs.windows.com/windowsexperience/2019/11/19/announcing-windows-10-insider-preview-build-19028/)|||||[11/27/2019](https://blogs.windows.com/windowsdeveloper/2019/11/27/windows-10-sdk-preview-build-19028-available-now/)|
 |19025|[11/15/2019](https://blogs.windows.com/windowsexperience/2019/11/15/announcing-windows-10-insider-preview-build-19025/)|[11/20/2019](https://blogs.windows.com/windowsexperience/2019/11/20/releasing-windows-10-insider-preview-build-19025-into-the-slow-ring/)|||||
 |19023|[11/12/2019](https://blogs.windows.com/windowsexperience/2019/11/12/announcing-windows-10-insider-preview-build-19023/)||[11/19/2019](https://blogs.windows.com/windowsexperience/2019/11/19/announcing-windows-server-vnext-insider-preview-build-19023/)|||[11/19/2019](https://blogs.windows.com/windowsdeveloper/2019/11/19/windows-10-sdk-preview-build-19023-available-now/)|
 |19018|[11/5/2019](https://blogs.windows.com/windowsexperience/2019/11/05/announcing-windows-10-insider-preview-build-19018/)|||||[11/12/2019](https://blogs.windows.com/windowsdeveloper/2019/11/12/windows-10-sdk-preview-build-19018-available-now/)|
