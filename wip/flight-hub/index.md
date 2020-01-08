@@ -21,7 +21,8 @@ Moving forward, the Fast ring will receive builds directly from this active deve
 
 | Build | Fast |
 |-------|------|
-|19536|[**12/16/2019**](https://blogs.windows.com/windowsexperience/2019/12/16/announcing-windows-10-insider-preview-build-19536/)|
+|19541|[**1/8/2020**](https://blogs.windows.com/windowsexperience/2020/01/08/announcing-windows-10-insider-preview-build-19541/)|
+|19536|[12/16/2019](https://blogs.windows.com/windowsexperience/2019/12/16/announcing-windows-10-insider-preview-build-19536/)|
 
 ## Upcoming Windows 10 Feature Update (20H1)
 
