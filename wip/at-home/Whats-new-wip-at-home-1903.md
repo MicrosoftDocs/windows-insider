@@ -109,7 +109,7 @@ Currently only the emoji section supports type to search.
 ### Emoji 12.0 Update
 With [Build 18277](https://blogs.windows.com/windowsexperience/2018/11/07/announcing-windows-10-insider-preview-build-18277/), Insiders got their first look at the Emoji 12.0 emoji. In early February, the set of emoji to be included with Emoji 12.0 was finalized by Unicode, and with today’s build, when you press WIN+(period) or WIN+(semicolon), all of these emoji now have keywords hooked up to make them easy to search for. Try it once you install the build! Keywords include otter, sloth, waffle, ballet shoes, and more.
 
-![Emoji 12](images/18277-image4.png "easy symbols and kaomji")
+![Emoji 12](images/18277-image4.png "easy symbols and kaomoji")
 
 ![Emoji 12](images/18348-1.png "emoji 12.0 Update")
 
@@ -270,7 +270,7 @@ Or, ask Cortana to remind you to call a friend and see the reminder appear in yo
 
 ![Cortana and Microsoft To-Do-2](images/18305-17.png "see the reminder appear in your Microsoft To-Do planned list")
 
-With this integration, we are furthering efforts to seamlessly sync your to-do lists across Microsoft To-Do, Cortana, and your tasks in Outlook. To start syncing, your Windows 10 PC must be running Build 18267+ and tied to either the Australia, India, US, or UK region. [Learn more about the Microsoft To-Do and Cortana integration](https://techcommunity.microsoft.com/t5/Microsoft-To-Do-Blog/What-s-new-for-Microsoft-To-Do-in-October-2018/ba-p/279462). To share feedback, [join the cohort](https://insider.windows.com/signup/cortana-cohort/?utm_source=email&utm_medium=email&utm_campaign=CortanaWithMSToDo&utm_content=WIP_Header_Body_CortanaCohortSignUp) or use the Windows Feedback Hub.
+With this integration, we are furthering efforts to seamlessly sync your to-do lists across Microsoft To-Do, Cortana, and your tasks in Outlook. To start syncing, your Windows 10 PC must be running Build 18267+ and tied to either the Australia, India, US, or UK region. [Learn more about the Microsoft To-Do and Cortana integration](https://techcommunity.microsoft.com/t5/Microsoft-To-Do-Blog/What-s-new-for-Microsoft-To-Do-in-October-2018/ba-p/279462). To share feedback, [join the cohort](https://insider.windows.com/signup/cortana-cohort/) or use the Windows Feedback Hub.
 
 ## Windows Hello and PC Sign-in Improvements
 
@@ -510,7 +510,7 @@ Bigger and brighter cursors. We’ve introduced new cursor sizes and colors to m
 
 The UI Automation framework now supports translating IAccessible2 information from Chrome, which supports IAccessible2 rather than UI Automation. This enables UI Automation clients to receive the IAccessible2 information through the UI Automation client interfaces.
 
-## Windows Substem for Linux Improvements
+## Windows Subsystem for Linux Improvements
 
 ### Linux Files inside of File Explorer
 We added the ability for users to access Linux files in a WSL distro from Windows. These files can be accessed through the command line, and also Windows apps, like File Explorer, VSCode, etc. can interact with these files. Access your files by navigating to \\wsl$\<distro_name>, or see a list of running distributions by navigating to \\wsl$. [Learn more about accessing Linux files inside File Explorer](https://blogs.msdn.microsoft.com/commandline/2019/02/15/whats-new-for-wsl-in-windows-10-version-1903/). 
@@ -586,7 +586,7 @@ Thank you everyone who provided feedback about the new Japanese IME. We’ve dec
 ### Ebrima font addition with ADLaM support
 You can now read your ADLaM documents and webpages with the Windows Ebrima font!
 
-ADLaMis a writing system for Pular/Fulfulde, the language of the Fulani people, predominantly residing in west Africa. In the early 1990s, two young teenager brothers, Abdoulaye and Ibrahima Barry, created this writing system. Their work became “Bindi Pulaar” and eventually “ADLaM,” ADLaM is enabling literacy and growing in use for commerce, education, and publishing across western Africa. It was added to Unicode in Unicode 9.0.
+ADLaM is a writing system for Pular/Fulfulde, the language of the Fulani people, predominantly residing in west Africa. In the early 1990s, two young teenager brothers, Abdoulaye and Ibrahima Barry, created this writing system. Their work became “Bindi Pulaar” and eventually “ADLaM,” ADLaM is enabling literacy and growing in use for commerce, education, and publishing across western Africa. It was added to Unicode in Unicode 9.0.
 
 The Ebrima font also supports other African writings systems N'ko, Tifinagh, Vai and Osmanya – here's a sample of what the font looks like:
 
@@ -661,7 +661,7 @@ We would love to get your feedback. Please send your feedback through __Feedback
 With Windows Version 1903, we have added a new toggle in Graphics Settings for variable refresh rate. Variable refresh rate (VRR) is similar to NVIDIA’s G-SYNC and VESA DisplayPort Adaptive-Sync. For more details, read the blog post [here](https://devblogs.microsoft.com/directx/os-variable-refresh-rate/)
 
 ### Reserving disk space to keep Windows 10 up to date
-In 19H1, we’re making a few changes to how Windows 10 manages disk space. Through reserved storage, some disk space will be set aside to be used by updates, apps, temporary files, and system caches. Our goal is to improve the day-to-day function of your PC by ensuring critical OS functions always have access to disk space. With reserved storage, updates, apps, temporary files, and caches are less likely to take away from valuable free space and should continue to operate as expected. Reserved storage will be introduced automatically on PCs that come with 19H1 pre-installed or on PCs where 19H1 was clean installed. For Windows Insiders who want to try this feature out right now – just [run through this quest](https://insider.windows.com/ih/?contentid=2762bf7a-bef0-4835-8e4c-04ae8e3ed299&contenttype=quest&utm_source=product-placement&utm_medium=feedback-hub&utm_campaign=feedback-hub-redirect). After completing the quest, reserved storage will kick off with the next flight. (If you do the quest before installing Build 18312 – reserved storage should kick off for this flight.) For more details on reserved storage coming in 19H1, [read this blog post here](https://blogs.technet.microsoft.com/filecab/2019/01/07/windows-10-and-reserved-storage/).
+In 19H1, we’re making a few changes to how Windows 10 manages disk space. Through reserved storage, some disk space will be set aside to be used by updates, apps, temporary files, and system caches. Our goal is to improve the day-to-day function of your PC by ensuring critical OS functions always have access to disk space. With reserved storage, updates, apps, temporary files, and caches are less likely to take away from valuable free space and should continue to operate as expected. Reserved storage will be introduced automatically on PCs that come with 19H1 pre-installed or on PCs where 19H1 was clean installed. For Windows Insiders who want to try this feature out right now – just [run through this quest](https://insider.windows.com/ih/?contentid=2762bf7a-bef0-4835-8e4c-04ae8e3ed299&contenttype=quest&utm_source=product-placement&utm_medium=feedback-hub&utm_campaign=feedback-hub-redirect). After completing the quest, reserved storage will kick off with the next flight. (If you do the quest before installing Build 18312 – reserved storage should kick off for this flight.) For more details on reserved storage coming in 19H1, [read this blog post here](https://techcommunity.microsoft.com/t5/Storage-at-Microsoft/Windows-10-and-reserved-storage/ba-p/428327).
 
 ### Windows Update notifications
 
