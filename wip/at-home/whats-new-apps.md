@@ -110,7 +110,7 @@ __10/3/2019__
 We’re pleased to announce that Link to Windows feature, which seamlessly connects your phone to your Windows 10 PC, is rolling out to Samsung Galaxy S10, S10+, S10e, S10 5G, and Fold devices in select global markets. With Link to Windows natively integrated into your device, it’s simple and convenient to send messages, manage notifications, sync photos, and mirror your phone on your PC.
 
 ### Phone screen on more devices. 
-Phone screen (w)hich allows you to access your Android phone’s apps right from your PC while using your keyboard and mouse or touch screen) is also rolling out to Samsung Galaxy S10, S10+, S10e, S10 5G, and Fold devices in select global markets. You can try out multi-touch gestures such as pinch to zoom, rotate, or swipe from your PC’s touchscreen while using Phone screen. If you have one of these devices, give it a try. This is a gradual rollout, so stay tuned for more to come on additional markets and devices.
+Phone screen which allows you to access your Android phone’s apps right from your PC while using your keyboard and mouse or touch screen) is also rolling out to Samsung Galaxy S10, S10+, S10e, S10 5G, and Fold devices in select global markets. You can try out multi-touch gestures such as pinch to zoom, rotate, or swipe from your PC’s touchscreen while using Phone screen. If you have one of these devices, give it a try. This is a gradual rollout, so stay tuned for more to come on additional markets and devices.
 
 ### Battery level indicator & phone’s home screen wallpaper.
 In addition to Phone screen and Link to Windows expansion, two additional features are rolling out to all users–battery indicator, which will provide quick access to your phone’s battery levels right in the app without needing to check your device, and Your Phone icon within the app, which will show your current static home screen wallpaper for a personal touch.
@@ -477,9 +477,10 @@ This update includes:
 __9/24/2019__
 
 ### Track Achievements and frame rate 
-In case you hadn’t seen, we’ve rolled out an FPS counter in the Performance overlay and added a new Achievement overlay! Use the Achivements overlay to track your progress and see what you've unlocked. View the frame rate of the game you're playing with the FPS counter. Thanks to everyone who shared feedback so far. The update will come via the Microsoft Store. Just set focus to your favorite game and press WIN + G to get started.
+In case you hadn’t seen, we’ve rolled out an FPS counter in the Performance overlay and added a new Achievement overlay! Use the Achievements overlay to track your progress and see what you've unlocked. View the frame rate of the game you're playing with the FPS counter. Thanks to everyone who shared feedback so far. The update will come via the Microsoft Store. Just set focus to your favorite game and press WIN + G to get started.
 
-NOTE: You’ll find the new achievement overlay and frame rate counter in version V3.33.26001.0 or higher of the Xbox Game Bar. To check that you have the correct version of the Game Bar installed, open your Xbox Game Bar and go to settings (gear icon, upper right). If you do not have the Xbox Game Bar or need to download the latest version, first download the Xbox Insider Hub from the Microsoft Store, then go to Insider Content and click on "Game Bar (Windows Gaming)". 
+> [!NOTE]
+> You’ll find the new achievement overlay and frame rate counter in version V3.33.26001.0 or higher of the Xbox Game Bar. To check that you have the correct version of the Game Bar installed, open your Xbox Game Bar and go to settings (gear icon, upper right). If you do not have the Xbox Game Bar or need to download the latest version, first download the Xbox Insider Hub from the Microsoft Store, then go to Insider Content and click on "Game Bar (Windows Gaming)". 
 
 ![xbox game bar updates](images/18990-1.jpg "FPS counter and achievement overlay")
 

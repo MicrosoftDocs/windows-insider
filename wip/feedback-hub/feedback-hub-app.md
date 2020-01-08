@@ -65,7 +65,7 @@ Make sure your description is about one issue. File separate feedback for each p
 4. In the **Give us more detail (optional)** box, you can give us more specific information, like how you encountered the problem.
 5. Select a category that corresponds to your feedback. For example, if your printer stopped working, you’d select **Hardware, Devices, and Drivers**.
 6. Select a subcategory—like **Print** for problems with printing.
-7. (Optional). If you select **problem** for your feedback - select how the problem impacted your experience, with 1 being a minr problem and 5 being a major problem.
+7. (Optional). If you select **problem** for your feedback - select how the problem impacted your experience, with 1 being a minor problem and 5 being a major problem.
 8. (Optional) Step through the problem while capturing the steps so we can see what happened. 
     1. Select **Recreate the problem (recommended)**.
     2. Select the type of problem you’re having, and select **Start capture**.

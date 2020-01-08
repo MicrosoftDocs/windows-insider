@@ -119,7 +119,7 @@ You may see this window showing after you upgrade. Don’t worry – all your st
 * Improved security on Microsoft Edge browsers by guaranteeing HTTP/2 preferred cipher suites
 * Improved performance on Windows 10 thanks to Cubic, the new default TCP congestion provider.
 
-For more information, see [A Faster, Safer Internet](https://blogs.technet.microsoft.com/networking/2018/08/01/faster-safer-internet/).
+For more information, see [A Faster, Safer Internet](https://techcommunity.microsoft.com/t5/Networking-Blog/Top-10-Networking-Features-in-Windows-Server-2019-8-A-Faster/ba-p/339749).
 
 **Control whether media can play automatically** : We added a new setting in Microsoft Edge to allow you to control whether sites can autoplay media. You can find this setting under **Advanced Settings > Media autoplay**, with options to customize the behavior according to your preferences:
 
@@ -438,7 +438,7 @@ __Steps:__
 
 ![enable wdag](images/enablewdag.png "Enable WDAG")
 
-4. After this policy is enabled, you can download files from your Windows Defender Edge session to your Downloads folder. The files from WDAG will be saved in a folder called __Untrusted files__ nested inside the Downloads folder. This folder is created automatically when you first download a file from WDAGafter enabling the policy.
+4. After this policy is enabled, you can download files from your Windows Defender Edge session to your Downloads folder. The files from WDAG will be saved in a folder called __Untrusted files__ nested inside the Downloads folder. This folder is created automatically when you first download a file from WDAG after enabling the policy.
 
 ![untrusted files](images/untrustedfiles.png "untrusted files")
 
@@ -633,17 +633,7 @@ For more information about Narrator new keyboard layout and other improvements, 
 
 * __Software Timestamping:__ You can now further improve your network time accuracy by eliminating the software delay introduced by the Windows networking stack.
 
-For more details about these new improvements, please see our announcement [here](https://blogs.technet.microsoft.com/networking/2018/07/18/top10-ws2019-hatime/).
-
-## Time accuracy and traceability improvements
-
-*__Leap second support:__ Windows supports these occasional 1-second adjustments in a traceable and UTC-compliant manner. What’s a leap second? As the earth’s rotation slows, [UTC](https://en.wikipedia.org/wiki/Coordinated_Universal_Time) (an atomic timescale) diverges from [mean solar time](https://en.wikipedia.org/wiki/Solar_time#Mean_solar_time) or astronomical time.  Once UTC has diverged by at most .9 seconds, a [leap second](https://en.wikipedia.org/wiki/Leap_second) is inserted to keep UTC in-sync with mean solar time.  Since the practice of inserting leap seconds began in 1972, a leap second has typically occurred every 18 months.
-
-*__Precision Time Protocol:__ For the highest accuracy environments, you can improve your time accuracy by leveraging a new time protocol that delivers more accurate time samples to the endpoint (Windows Server 2019 or Windows 10, host or virtual machine).
-
-*__Software Timestamping:__ You can now further improve your network time accuracy by eliminating the software delay introduced by the Windows networking stack.
-
-For more details about these new improvements, please see our announcement [here](https://blogs.technet.microsoft.com/networking/2018/07/18/top10-ws2019-hatime/).
+For more details about these new improvements, please see [Top 10 Networking Features in Windows Server 2019: #10 Accurate Network Time](https://techcommunity.microsoft.com/t5/Networking-Blog/Top-10-Networking-Features-in-Windows-Server-2019-10-Accurate/ba-p/339739).
 
 ## Kernel debugging improvements 
 We are adding support for IPv6 to KDNET. To make room for the larger headers required for IPv6, we decreased the payload size of packets. As a result, we’re declaring a new version of the protocol, so that host PCs running the latest version of the debugger can be used to debug target PCs that only support IPv4. There is a version of WinDbg Preview available at [https://aka.ms/windbgpreview](https://aka.ms/windbgpreview). Follow the [Debugging Tools for Windows](https://aka.ms/windbgblog) blog for updates on KDNET IPv6 support and documentation. 
