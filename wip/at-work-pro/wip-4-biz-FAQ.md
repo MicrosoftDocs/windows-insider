@@ -34,7 +34,7 @@ Hindi, Catalan, and Vietnamese can only be installed as a language pack over sup
 
 To register for the Windows Insider Program for Business, follow the steps below using your corporate account in Azure Active Directory (AAD). This account is the same account that you use for Office 365 and other Microsoft services. Check with your IT department before signing up.
 
-1. Visit the [Windows Insider Program website](https://insider.windows.com) and select **Get Started**.
+1. Visit the [Windows Insider Program website](https://insider.windows.com/) and select **Get Started**.
 
 2. Sign-in with your corporate account in AAD (username/password) and follow the on-screen registration directions.
 
@@ -79,7 +79,7 @@ However, please note that if you want to access the benefits of the Windows Insi
 
 In just a few steps, you can switch your existing program registration from your Microsoft account to your corporate account in Azure Active Directory.
 
-1. Visit the [Windows Insider Program website](https://insider.windows.com). If you're signed in with your Microsoft account, sign out then sign back in to register with your corporate account in AAD.
+1. Visit the [Windows Insider Program website](https://insider.windows.com/). If you're signed in with your Microsoft account, sign out then sign back in to register with your corporate account in AAD.
 2. On your Windows 10 PC, go to **Settings > Updates & Security > Windows Insider Program**.
 3. In your account, under Windows Insider account, select **Change** to open a pop-up box.
 4. Select your corporate account and select Continue to change your account.

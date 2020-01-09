@@ -270,7 +270,7 @@ Or, ask Cortana to remind you to call a friend and see the reminder appear in yo
 
 ![Cortana and Microsoft To-Do-2](images/18305-17.png "see the reminder appear in your Microsoft To-Do planned list")
 
-With this integration, we are furthering efforts to seamlessly sync your to-do lists across Microsoft To-Do, Cortana, and your tasks in Outlook. To start syncing, your Windows 10 PC must be running Build 18267+ and tied to either the Australia, India, US, or UK region. [Learn more about the Microsoft To-Do and Cortana integration](https://techcommunity.microsoft.com/t5/Microsoft-To-Do-Blog/What-s-new-for-Microsoft-To-Do-in-October-2018/ba-p/279462). To share feedback, [join the cohort](https://insider.windows.com/signup/cortana-cohort/) or use the Windows Feedback Hub.
+With this integration, we are furthering efforts to seamlessly sync your to-do lists across Microsoft To-Do, Cortana, and your tasks in Outlook. To start syncing, your Windows 10 PC must be running Build 18267+ and tied to either the Australia, India, US, or UK region. [Learn more about the Microsoft To-Do and Cortana integration](https://techcommunity.microsoft.com/t5/Microsoft-To-Do-Blog/What-s-new-for-Microsoft-To-Do-in-October-2018/ba-p/279462). To share feedback, [join the cohort](https://insider.windows.com/en-us/signup/cortana-cohort/) or use the Windows Feedback Hub.
 
 ## Windows Hello and PC Sign-in Improvements
 
