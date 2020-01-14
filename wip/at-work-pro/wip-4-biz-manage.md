@@ -18,7 +18,7 @@ Administrators can manage installation of Windows 10 Insider Preview Builds acro
 To authenticate multiple devices for Insider Preview builds, register your organization's Azure Active Directory domain with the Windows Insider Program. To register a domain, you must be registered in the Windows Insider Program with your work account in Azure AD (see [Register](wip-4-biz-register.md)) and you must also be assigned a Global Administrator role on that Azure AD domain. Also requires Windows 10 Version 1703 or later on the machine used for registration. 
 
 > [!div class="nextstepaction"]
-> [Register your domain](https://insider.windows.com/for-business-organization-admin/)
+> [Register your domain](https://insider.windows.com/en-us/for-business-organization-admin/)
 
 __NOTE:__ 
 * The Windows Insider Program only supports registration of domains in Azure Active Directory (and not Active Directory on premises) as a corporate authentication method.
@@ -101,7 +101,7 @@ __NOTE:__
 
 ![Set using System Center Config-2](images/Soft-Lib-WIP-1213.gif)
 
-3. Deploy the release the same way as any other feature update. create
+3. Deploy the release the same way as any other feature update. 
 
 ### Install preview builds from Azure Marketplace 
 Windows Insiders can now create and install a Windows 10 Preview build from the Azure Marketplace. After installing, you can preview the latest version on a virtual machine without any additional configurations or updates. See [Windows 10 Preview](https://azuremarketplace.microsoft.com/marketplace/apps/microsoft-hyperv.windows10preview) to learn more.
@@ -118,7 +118,7 @@ To confirm that your Windows Update for Business policies have been set correctl
 NOTE: Once a policy has been set, the device must be restarted for the policy to be activated. 
 
 ### Track devices 
-You can use Device Health in Windows Analytics to monitor devices running Insider Preview builds. This can be useful for identifying device, device driver and application issues. See [Using Device Health to monitor Insider Preview builds](https://insider.windows.com/for-business-device-health/). 
+You can use Device Health in Windows Analytics to monitor devices running Insider Preview builds. This can be useful for identifying device, device driver and application issues. See [Using Device Health to monitor Insider Preview builds](https://insider.windows.com/en-us/for-business-device-health/). 
 
 ## Related Topics
 * [Deploy updates using Windows Update for Business](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-wufb) 

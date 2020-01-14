@@ -34,11 +34,9 @@ To help you find the info that matters even faster, we’ve added four quick web
 * __Today in history:__ Explore four events that happened on this day
 * __New movies:__ Find out what’s playing in theaters near you
 
-![Quick Searches](images/19018-1.png "shows four quick searches: weather, top news, today in history and new movies")
-
 Occasionally, we'll also feature a seasonal topic or interesting quiz. 
 
-![Quick Searches](images/19018-1.png "shows four quick searches: weather, top news, today in histroy and new movies")
+![Quick Searches](images/19018-1.png "shows four quick searches: weather, top news, today in history, and new movies")
 
 To try any or all of these searches, click the search box on your taskbar or press the Windows logo key + S to open Search Home. Want answers and results for other searches? Just type to enter your search and get the info you’re looking for quickly and easily.
 

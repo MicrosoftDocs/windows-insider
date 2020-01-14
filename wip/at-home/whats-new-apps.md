@@ -28,7 +28,7 @@ With the Your Phone Photos feature, you don’t have to email photos to yourself
 
 Try out this newly enhanced capability and share your experience.
 
-![Your phone](images/19536-4.png "Your Phone app recebt photos page")
+![Your phone](images/19536-4.png "Your Phone app recent photos page")
 
 ___Photos requirements:__
 
@@ -43,7 +43,7 @@ This feature will gradually roll out to Windows Insiders on the Windows 10 May 2
 ### Phone screen now supports pen input
 The Phone screen feature is getting a boost. In addition to keyboard, mouse, and touch support, you can now use your digital pen with a compatible stylus to input on any touch screen enabled Windows 10 PC to interact with your mobile apps while in Phone screen session. Leverage your pen’s pressure sensitivity for drawing and writing like you would with your phone’s stylus with apps that support pressure sensitivity. You will also be able to hover over buttons, and it differentiates between the pen and finger touch.
 
-![Your phone](images/19536-5.jpg "Your Phone app recebt photos page")
+![Your phone](images/19536-5.jpg "Your Phone app recent photos page")
 
 This feature is available to all Windows Insiders on Windows 10 October 2018 Update or newer and requires Phone screen compatible devices.
 
