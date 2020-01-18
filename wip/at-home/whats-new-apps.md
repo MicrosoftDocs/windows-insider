@@ -30,7 +30,7 @@ Try out this newly enhanced capability and share your experience.
 
 ![Your phone](images/19536-4.png "Your Phone app recent photos page")
 
-___Photos requirements:__
+__Photos requirements:__
 
 * Any Android phones running version 7.0 or higher
 * PC running Windows 10 April 2018 Update (1803) or higher
@@ -277,7 +277,7 @@ __Phone screen requirements:__
 
 PowerToys is a set of utilities for power users to tune and streamline their Windows experience for greater productivity. Inspired by the [Windows 95 era PowerToys](https://en.wikipedia.org/wiki/Microsoft_PowerToys) project, this reboot provides power users with utilities to squeeze more efficiency out of the Windows 10 shell and customize it for individual workflows. Check out this great [overview of the Windows 95 PowerToys](https://socket3.wordpress.com/2016/10/22/using-windows-95-powertoys/).
 
-_10/29/2019__
+__10/29/2019__
 
 ### PowerToys v0.12 now available!
 We’ve just released our 0.12 release of PowerToys on GitHub. We’ve gotten tons of great feedback and suggestions from the community and want to directly say thank you to everyone.
@@ -508,7 +508,7 @@ Please give it a shot and let us know on Feedback Hub your thoughts on the new u
 
 Want to get to your notes from anywhere? How about on the web at <https://www.onenote.com/stickynotes>? It will be rolling out worldwide soon – take a look and let us know what you think.
 
-__10/24/2018**- **Sticky Notes 3.1__ (Skip Ahead only) 
+__10/24/2018 - Sticky Notes 3.1__ (Skip Ahead only) 
 
 This version brings the following: 
 * We tested the waters with Charcoal Note and you all seemed keen to go even darker. Introducing full-on Dark Mode!
