@@ -10,7 +10,6 @@ ms.topic: landing-page
 ms.date: 06/28/2018
 ms.author: elizapo
 ms.localizationpriority: medium
-ms.topic: article
 ms.prod: w10
 ---
 # Windows Insider Program for Business docs
