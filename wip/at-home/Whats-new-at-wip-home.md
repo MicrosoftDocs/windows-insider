@@ -20,7 +20,7 @@ For new features available in the Slow ring, see [What's new for Windows 10 Insi
 For new features in Windows 10 apps, see [Windows 10 app updates](https://docs.microsoft.com/windows-insider/at-home/whats-new-apps). 
 
 ## Introducing Graphing Mode in Windows Calculator (Build 19546)
-Today, we’re updating Windows Calculator for Insiders with a preview of our new graphing mode. Adding support for graphing is one of our top feature requests in Feedback Hub, and we’re excited to bring this feature to our users. Graphing capabilities are also essential for students who are beginning to explore linear algebra. With this feature, we hope to empower students to learn mathematics by improving their conceptual understanding and attitudes towards math.
+Adding support for graphing is one of our top feature requests in Feedback Hub, and we’re excited to bring this feature to our users. Graphing capabilities are also essential for students who are beginning to explore linear algebra. With this feature, we hope to empower students to learn mathematics by improving their conceptual understanding and attitudes towards math.
 
 ![Calculator app](images/19546-1.png "Calculator app showing graphing mode")
 
