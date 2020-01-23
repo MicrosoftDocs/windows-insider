@@ -10,7 +10,7 @@
 ### [What's new in Windows 10, version 1909](https://docs.microsoft.com/windows-insider/at-home/Whats-new-wip-at-home-1909)
 ### [What was new for Windows 10, version 1903](https://docs.microsoft.com/windows-insider/at-home/Whats-new-wip-at-home-1903)
 ### [What was new for Windows 10, version 1809](https://docs.microsoft.com/windows-insider/at-home/Whats-new-wip-at-home-1809)
-### [What's new in Windows apps](https://docs.microsoft.com/windows-insider/at-home/whats-new-apps)
+### [What's new in Windows 10 apps](https://docs.microsoft.com/windows-insider/at-home/whats-new-apps)
 ### [Digital Literacy and #InsiderUp communities](https://docs.microsoft.com/windows-insider/at-home/digital-literacy)
 ## [Windows Insider Program for Business](https://docs.microsoft.com/windows-insider/at-work-pro/)
 ### [Getting started with the Windows Insider Program for Business](https://docs.microsoft.com/windows-insider/at-work-pro/wip-4-biz-get-started)

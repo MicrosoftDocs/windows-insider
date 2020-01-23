@@ -382,7 +382,7 @@ It supports most of the Cortana features people enjoy using on Windows, such as 
 
 Not all the features from the previous Cortana experience are available just yet. As a Beta, we plan to add more features over time with updates to Cortana from the Microsoft Store.
 
-To get started, choose the Cortana icon on the taskbar next to the search box. You may need to sign-in with your account to get started. You can also leverage the speed and convenience of voice with improved speech recognition by simply saying “Hey Cortana”*. To enable this functionality go to Settings>Privacy>Voice activation> and enable "Let Cortana respond to 'Hey Cortana' keyword".
+To get started, choose the Cortana icon on the taskbar next to the search box. You may need to sign in with your account to get started. You can also leverage the speed and convenience of voice with improved speech recognition by simply saying “Hey Cortana”. To enable this functionality, go to Settings > Privacy > Voice activation and enable "Let Cortana respond to 'Hey Cortana' keyword".
 
 __Note:__ 
 * Starting with Build 18980, all Insiders worldwide will see the Cortana icon and the new app. In a future Cortana app update, customers will have the option to use Cortana if they speak a supported language, regardless of their OS display language. 
