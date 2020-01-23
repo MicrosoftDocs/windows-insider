@@ -34,7 +34,7 @@ Here are a few things you can try out with this new feature:
 
 ![Calculator app](images/19546-3.png "Calculator app showing graphing mode - analyze the graph")
 
-We’re looking for feedback! Tell us what you want to see next via the Feedback Hub under [Apps > Calculator](https://aka.ms/calcfeedback) or select the Send feedback button on the About page in the app. If you’re a developer, check out the project on [GitHub](http://aka.ms/calculator) — we are always accepting contributions! 
+We’re looking for feedback! Tell us what you want to see next via the Feedback Hub under [Apps > Calculator](https://aka.ms/calcfeedback) or select the Send feedback button on the About page in the app. If you’re a developer, check out the project on [GitHub](https://github.com/Microsoft/calculator) — we are always accepting contributions! 
 
 ## Introducing the Indexer Diagnostics app (Build 19546)
 Available now in beta via the [Microsoft Store](https://www.microsoft.com/store/productId/9N25LZCZWGS4), the Indexer Diagnostics app was created to help enhance your understanding of the capabilities of search, as well as increase the troubleshooting ability and support for general Windows Search issues.
