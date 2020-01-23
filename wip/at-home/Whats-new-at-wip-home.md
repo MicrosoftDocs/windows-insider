@@ -19,6 +19,28 @@ For new features available in the Slow ring, see [What's new for Windows 10 Insi
 
 For new features in Windows 10 apps, see [Windows 10 app updates](https://docs.microsoft.com/windows-insider/at-home/whats-new-apps). 
 
+## Introducing Graphing Mode in Windows Calculator (Build 19546)
+Adding support for graphing is one of our top feature requests in Feedback Hub, and we’re excited to bring this feature to our users. Graphing capabilities are also essential for students who are beginning to explore linear algebra. With this feature, we hope to empower students to learn mathematics by improving their conceptual understanding and attitudes towards math.
+
+![Calculator app](images/19546-1.png "Calculator app showing graphing mode")
+
+Here are a few things you can try out with this new feature:
+* __Plot one or more equations on the graph.__ Enter multiple equations so that you can compare plots against each other and see interactions between the lines. You can also customize the line style and graph viewing window to suit your needs.
+* __Add equations with variables.__ If you enter an equation with a secondary variable (e.g., “y = mx + b”), you’ll be able to easily manipulate those variables so that you can quickly understand how changes to the equation affect the graph.
+
+![Calculator app](images/19546-2.gif "Calculator app showing graphing mode - add equations with variables")
+
+* __Analyze the graph.__ Trace plots with your mouse or keyboard to better understand the relationship between variables in the equation on the graph. You can also analyze equations to help identify key graph features, like the x- and y- intercepts.
+
+![Calculator app](images/19546-3.png "Calculator app showing graphing mode - analyze the graph")
+
+We’re looking for feedback! Tell us what you want to see next via the Feedback Hub under [Apps > Calculator](https://aka.ms/calcfeedback) or select the Send feedback button on the About page in the app. If you’re a developer, check out the project on [GitHub](https://github.com/Microsoft/calculator) — we are always accepting contributions! 
+
+## Introducing the Indexer Diagnostics app (Build 19546)
+Available now in beta via the [Microsoft Store](https://www.microsoft.com/store/productId/9N25LZCZWGS4), the Indexer Diagnostics app was created to help enhance your understanding of the capabilities of search, as well as increase the troubleshooting ability and support for general Windows Search issues.
+
+The tool will continue to be improved with more functionality added over time—as always, appreciate your feedback! The app is available for anyone running Windows 10 version 1809 or higher.
+
 ## Location in-use icon update (Build 19541)
 As some keen eyed Insiders have noticed, we’ve updated the notification area icon for when an app is using your location. The new icon looks like this:
 
