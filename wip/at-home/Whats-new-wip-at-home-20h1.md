@@ -19,7 +19,7 @@ The [Windows Insider Program](https://insider.windows.com/) lets you preview bui
  As part of evolving Cortana from a general digital assistant to a personal productivity assistant that helps you in the Microsoft 365 apps, we’ve made several changes that will give you a glimpse into how your assistant will help you manage tasks and time and connect with people. [Read more about these changes](https://insider.windows.com/en-us/articles/cortana-windows-beta/).
 
 ## Improved disk usage for Windows Search (Build 19025)
-As Insiders know, over the releases, we’ve been continuing to work on improving search results based on your feedback. Including adding Enhanced search mode (adding an easy option to expand search across all folders and drivers) in 19H1, as well integrating Windows Search into File Explorer, to ensure more consistent results regardless of where you start your search.
+As Insiders know, over the releases, we’ve been continuing to work on improving search results based on your feedback, including adding Enhanced search mode (adding an easy option to expand search across all folders and drivers) in 19H1, as well integrating Windows Search into File Explorer, to ensure more consistent results regardless of where you start your search.
 
 In 19H1, we asked Insiders why they were turning off the search indexer. Your feedback helped us make improvements then and helped us focus on three key areas of improvement in 20H1: excessive disk and CPU usage, general performance issues, and low perceived value of the indexer.
 
