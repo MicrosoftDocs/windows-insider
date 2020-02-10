@@ -74,9 +74,3 @@ __Note:__ You can track feedback submitted to the Feedback Hub by you and others
 After you submit feedback, you'll be able to share your submission with other Insiders. They might be experiencing the same issue as you or want the same feature or change that you’re suggesting. If you're asked to communicate directly with a Microsoft engineer later, you may also be asked to share a link to your feedback. To create a feedback link for sharing:
 1.	Search for and open the feedback item you’d like to share. If you're looking for feedback you created, select the __My Feedback__ tab at the top.
 2.	After selecting the right feedback item, choose the __Share__ button in the upper right corner. A small window will open with the newly created link.
-
-
-
-
-
-

@@ -99,7 +99,7 @@ Our ninja cats got a bit of love too – can you spot the difference?
 
 __Emoji search comes to more languages__: You can find an emoji by keyword in over 190 locales, including English (Great Britain), French (France), German (Germany), Spanish (Spain), and more. This will help you get the emoji you want easily and quickly. As a reminder, to bring up the Emoji Panel set focus to a text field and press WIN + (period) or WIN + (semicolon).
 
-*__The IME now uses the same UX for expressive input as other languages__. You can bring it up by clicking the emoji button in the IME toolbar, or use the Emoji Panel hotkeys (WIN + period (.) or WIN + semicolon (;)). You can browse between Emoji, Kaomoji, and Symbol input when Chinese (Simplified) is the active locale.
+__The IME now uses the same UX for expressive input as other languages__. You can bring it up by clicking the emoji button in the IME toolbar, or use the Emoji Panel hotkeys (WIN + period (.) or WIN + semicolon (;)). You can browse between Emoji, Kaomoji, and Symbol input when Chinese (Simplified) is the active locale.
 
 ![ime emojis](images/imeemoji.png "ime emojis")
 
@@ -309,7 +309,7 @@ Continuing our theme of improving the search preview experience, we’re rolling
 **Note**: search is currently limited to English locales
 
 Other Improvements: 
-* Notepad now supports**Ctrl + Backspace** to delete the previous word
+* Notepad now supports **Ctrl + Backspace** to delete the previous word
 * Arrow keys now unselect text first, and then move the cursor
 * When saving a file, the line and column number no longer reset to 1
 * Notepad now correctly displays lines that don’t fit entirely on the screen
@@ -783,13 +783,3 @@ New Power Usage Columns: Task Manager now includes 2 new columns in the “Proce
 Have you ever been typing into the regedit address bar, and the next part of the path is just on the tip of your tongue, but you can’t remember? Starting with today’s build, you’ll now see a dropdown as you type to help complete the next part of the path! Oh, and you can also press Ctrl + Backspace to delete the last “word”, which makes backing up work that much faster (Ctrl + Delete will delete the next word).
 
 ![registry editor](images/reg-editor.png "registry editor")
-
-
-
-
-
- 
-
-
-
-

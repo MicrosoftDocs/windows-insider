@@ -49,7 +49,7 @@ As some keen eyed Insiders have noticed, we’ve updated the notification area i
 ## Showing architecture in Task Manager (Build 19541)
 When you’re using the Details tab in Task Manager, we’ve added a new option to show the architecture of each process. If you’re interested, you can add it by right-clicking on a column header, choosing Select Columns, and selecting Architecture from the list.
 
-![Task Manager](images/19541-2.png "Details tab in Task Manager showibg architecture in process")
+![Task Manager](images/19541-2.png "Details tab in Task Manager showing architecture in process")
 
 ## Optional Drivers (Build 19536)
 We are still working on making it easier for you to see all optional updates (including drivers, feature updates, and monthly non-security quality updates) in one place. When optional updates are detected, they will be listed under Settings > Update & Security > Windows Update > View optional updates.
