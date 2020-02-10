@@ -19,7 +19,7 @@ The [Windows Insider Program](https://insider.windows.com/) lets you preview bui
  As part of evolving Cortana from a general digital assistant to a personal productivity assistant that helps you in the Microsoft 365 apps, we’ve made several changes that will give you a glimpse into how your assistant will help you manage tasks and time and connect with people. [Read more about these changes](https://insider.windows.com/en-us/articles/cortana-windows-beta/).
 
 ## Improved disk usage for Windows Search (Build 19025)
-As Insiders know, over the releases, we’ve been continuing to work on improving search results based on your feedback. Including adding Enhanced search mode (adding an easy option to expand search across all folders and drivers) in 19H1, as well integrating Windows Search into File Explorer, to ensure more consistent results regardless of where you start your search.
+As Insiders know, over the releases, we’ve been continuing to work on improving search results based on your feedback, including adding Enhanced search mode (adding an easy option to expand search across all folders and drivers) in 19H1, as well integrating Windows Search into File Explorer, to ensure more consistent results regardless of where you start your search.
 
 In 19H1, we asked Insiders why they were turning off the search indexer. Your feedback helped us make improvements then and helped us focus on three key areas of improvement in 20H1: excessive disk and CPU usage, general performance issues, and low perceived value of the indexer.
 
@@ -382,7 +382,7 @@ It supports most of the Cortana features people enjoy using on Windows, such as 
 
 Not all the features from the previous Cortana experience are available just yet. As a Beta, we plan to add more features over time with updates to Cortana from the Microsoft Store.
 
-To get started, choose the Cortana icon on the taskbar next to the search box. You may need to sign-in with your account to get started. You can also leverage the speed and convenience of voice with improved speech recognition by simply saying “Hey Cortana”*. To enable this functionality go to Settings>Privacy>Voice activation> and enable "Let Cortana respond to 'Hey Cortana' keyword".
+To get started, choose the Cortana icon on the taskbar next to the search box. You may need to sign in with your account to get started. You can also leverage the speed and convenience of voice with improved speech recognition by simply saying “Hey Cortana”. To enable this functionality, go to Settings > Privacy > Voice activation and enable "Let Cortana respond to 'Hey Cortana' keyword".
 
 __Note:__ 
 * Starting with Build 18980, all Insiders worldwide will see the Cortana icon and the new app. In a future Cortana app update, customers will have the option to use Cortana if they speak a supported language, regardless of their OS display language. 
