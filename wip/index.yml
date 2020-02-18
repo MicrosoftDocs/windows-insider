@@ -53,5 +53,5 @@ additionalContent:
           summary: If you are a system administrator and want to test the preview builds for Windows Server 2019, these docs are for you.
           url: https://docs.microsoft.com/en-us/windows-insider/at-work/
   # footer (optional)
-  footer: "Send your feedback to Microsoft, see [Feedback Hub](https://support.microsoft.com/en-us/help/4021566/windows-10-send-feedback-to-microsoft-with-feedback-hub-app)."
+  footer: "To send your feedback to Microsoft, go to [Feedback Hub](https://support.microsoft.com/en-us/help/4021566/windows-10-send-feedback-to-microsoft-with-feedback-hub-app)."
   
