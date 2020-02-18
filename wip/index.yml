@@ -21,8 +21,7 @@ metadata:
 # productDirectory section (optional)
 productDirectory:
   title: Windows Insider Program # < 60 chars (optional)
-  summary: # < 160 chars (optional)
-  items:
+    items:
     # Card
     - title: Windows Insider Program
       # imageSrc should be square in ratio with no whitespace
@@ -45,8 +44,6 @@ productDirectory:
 additionalContent:
   # Supports up to 3 sections
   sections:
-    - title:  # < 60 chars (optional)
-      summary: # < 160 chars (optional)
       items:
         # Card
         - title: Flight Hub
