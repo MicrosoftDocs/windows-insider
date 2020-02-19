@@ -44,6 +44,8 @@ productDirectory:
 additionalContent:
   # Supports up to 3 sections
   sections:
+    - title: Windows Insider Program Flight Hub, community & support # < 60 chars (optional)
+      summary: Find related links to preview builds and support. # < 160 chars (optional)
       items:
         # Card
         - title: Flight Hub
