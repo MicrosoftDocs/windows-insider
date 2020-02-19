@@ -21,7 +21,7 @@ metadata:
 # productDirectory section (optional)
 productDirectory:
   title: Windows Insider Program # < 60 chars (optional)
-    items:
+  items:
     # Card
     - title: Windows Insider Program
       # imageSrc should be square in ratio with no whitespace
