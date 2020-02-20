@@ -53,7 +53,7 @@ additionalContent:
           url: https://docs.microsoft.com/en-us/windows-insider/flight-hub/
         # Card
         - title: Digital Literacy
-          summary: \#InsiderUp communities are helping the world understand tech and learn to code.
+          summary: #InsiderUp communities are helping the world understand tech and learn to code.
           url: https://docs.microsoft.com/en-us/windows-insider/at-home/digital-literacy
         # Card
         - title: Feedback?
