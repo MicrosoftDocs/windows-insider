@@ -73,7 +73,7 @@ When we [started this journey](https://blogs.windows.com/windowsexperience/2018/
 - Add a delay snip option
 - Add window snip mode
 
-Delay snip was the first on our list, and we added it with [app version 10.1807](https://blogs.windows.com/windowsexperience/2018/09/06/announcing-windows-10-insider-preview-build-18234/). We then addressed a few more of your requests with app version 10.1809*, and today are really excited to announce that window snip is on its way to Insiders too!
+Delay snip was the first on our list, and we added it with [app version 10.1807](https://blogs.windows.com/windowsexperience/2018/09/06/announcing-windows-10-insider-preview-build-18234/). We then addressed a few more of your requests with [app version 10.1809](https://blogs.windows.com/windowsexperience/2018/10/31/announcing-windows-10-insider-preview-build-18272/), and today are really excited to announce that window snip is on its way to Insiders too!
 
 ![image 3](images/18282-image3.png "windows snip")
 
@@ -95,12 +95,12 @@ Have you already tried using clipboard history? If enabled, it allows you to sav
 ### Easy Symbols and Kaomoji Access
 Ever tried to type an em dash, and couldn’t remember the Alt key code? Wanted to post “flipping the table” in social media, but couldn’t remember the sequence of characters? When you press WIN+(period) or WIN+(semicolon), in addition to emoji the picker that appears will now include symbols and kaomoji too!
 
-You may ask, [what is kaomoji](https://en.wikipedia.org/wiki/Emoticon#Japanese_style_kaomoji)? Translated literally from Japanese, it means “face characters” – basically, it’s a way to create faces using only text. You may already use them, for example the one mentioned above [is relatively popular](https://knowyourmeme.com/memes/flipping-tables-%E2%95%AF%E2%96%A1%E2%95%AF%EF%B8%B5-%E2%94%BB%E2%94%81%E2%94%BB): (╯°□°)╯︵ ┻━┻
+You may ask, [what is kaomoji](https://en.wikipedia.org/wiki/Emoticon#Japanese_style_(kaomoji))? Translated literally from Japanese, it means “face characters” – basically, it’s a way to create faces using only text. You may already use them, for example the one mentioned above [is relatively popular](https://knowyourmeme.com/memes/flipping-tables-%E2%95%AF%E2%96%A1%E2%95%AF%EF%B8%B5-%E2%94%BB%E2%94%81%E2%94%BB): (╯°□°)╯︵ ┻━┻
 
 Diving more into the symbols side, you’ll find we’ve included sections for punctuation, currency, geometric, math, Latin, and language symbols. As you pick your most commonly used symbols, the most recently used tab will populate with them, so it will be even easier to select them next time.
 Currently only the emoji section supports type to search.
 
-This experience, originally introduced for Chinese (Simplified) during RS5 development, started rolling out to Insiders across all languages with [Build 18252](https://blogs.windows.com/windowsexperience/2018/10/03/announcing-windows-10-insider-preview-build-18252/) – as of today’s it’s now available to all Insiders in Fast! We’d love for you to try it out and share feedback. Tried it out already? With this build, we’ve updated the available kaomoji a bit based on your feedback, including adding ¯\_(ツ)_/¯ and ᓚᘏᗢ.
+This experience, originally introduced for Chinese (Simplified) during RS5 development, started rolling out to Insiders across all languages with [Build 18252](https://blogs.windows.com/windowsexperience/2018/10/03/announcing-windows-10-insider-preview-build-18252/) – as of today it’s available to all Insiders in Fast! We’d love for you to try it out and share feedback. Tried it out already? With this build, we’ve updated the available kaomoji a bit based on your feedback, including adding ¯\\\_(ツ)_/¯ and ᓚᘏᗢ.
 
 Currently only the emoji section supports type to search.
 
@@ -288,7 +288,7 @@ Ultimately, we want to help you make the right decision for your situation. By c
 ![Redesigned sign-in options](images/18272-image1.png)
 
 ### Set up a security key from sign-in settings
-In 19H1, ](#sign-in-options-redesigned-for-windows-hello), we set out to simplify sign-in settings, to increase visual clarity, and improve ease of use. Our goal is to give you a one-stop shop for all your sign-in settings, and today we’re adding one more to the list: You can now set up a security key straight from Settings.
+In 19H1, we set out to simplify sign-in settings to increase visual clarity and improve ease of use. Our goal is to give you a one-stop shop for all your sign-in settings, and today we’re adding one more to the list: You can now set up a security key straight from Settings.
 
 ![Set up a security key from Settings](images/18298-1.png "Set up a security key from Settings")
 
@@ -327,7 +327,7 @@ Notepad will now show an asterisk (*) in the title bar before the title of a doc
 
 ![Notepad with the asterisk*](images/18298-6.png "Notepad with the asterisk*")
 
-### Send Feedback**
+### Send Feedback
 You can now send feedback directly from Notepad! Click Help > Send Feedback to open the Feedback Hub with [the Notepad category selected](https://blogs.windows.com/windowsexperience/2018/12/10/announcing-windows-10-insider-preview-build-18298/aka.ms/notepadfeedback) and get your feedback directly to the product team.
 
 ![Send feedback from the Help menu](images/18298-7.png "Send feedback from the Help menu")
@@ -692,4 +692,3 @@ We’re making some adjustments to the design of Windows 10 Setup! This is the e
 ### Troubleshooting improvements
 Don’t feel like troubleshooting? We’ve got you covered. In previous releases, if you noticed your PC was having a problem, you would have to find the right troubleshooter and then manually walk through all the different steps to resolve it. We hear your feedback that the time that takes to do can be frustrating – why not just automatically fix issues that you know how to fix and can detect? We agree! If an issue occurs we want to get you back up and running as quickly as possible, so with Build 18262 you’ll find a new recommended troubleshooting setting under Settings > Update & Security > Troubleshoot in Build 18262. This feature uses diagnostic data you send to deliver a tailored set of fixes matching problems we detect on your device and will automatically apply them to your PC.
 We’re still hard at work on this feature so it’s greyed out right now in Settings, but stay tuned for updates in future builds!
-

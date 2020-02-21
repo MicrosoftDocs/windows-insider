@@ -42,11 +42,11 @@ See also [Join your work device to your organization's network](https://docs.mic
 To join multiple devices on your local Active Directory to your Azure AD domain, use Azure AD Connect. For more details, see: [Integrate your on-premises directories with Azure Active Directory](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect)
 
 ## Create and manage policies 
-You can use Group Policy, System Center Configuration Manager or MDM solutions such as Intune to configure the Windows Update for Business settings that control how and when Windows 10 Insider Preview Builds are installed on devices.  
+You can use Group Policy, Microsoft Endpoint Configuration Manager or MDM solutions such as Intune to configure the Windows Update for Business settings that control how and when Windows 10 Insider Preview Builds are installed on devices.  
 
 __NOTE:__ 
 * To enable installation of Insider Preview builds, telemetry on a device must be set to [Enhanced](https://docs.microsoft.com/windows/privacy/enhanced-diagnostic-data-windows-analytics-events-and-fields) (level 2) or [Full](https://docs.microsoft.com/windows/privacy/windows-diagnostic-data) (level 3). By default, Windows 10 devices are set to Full. For more information on diagnostic settings policies, see [Configure Windows diagnostic data in your organization](https://docs.microsoft.com/windows/privacy/configure-windows-diagnostic-data-in-your-organization).
-* Windows Update for Business policies used to install Insider Preview Builds that are created with one management tool cannot be changed using another. For example, a policy set using Group Policy can only be changed on a client device using Group Policy and cannot be changed using SCCM or Intune.  
+* Windows Update for Business policies used to install Insider Preview Builds that are created with one management tool cannot be changed using another. For example, a policy set using Group Policy can only be changed on a client device using Group Policy and cannot be changed using Configuration Manager or Intune.  
 
 
 ### Set using Group Policy
@@ -89,7 +89,7 @@ To set Windows Update for Business policies for Insider Preview builds using non
 ### Install builds via Windows Server Update Services
 You can manage pre-release builds directly from WSUS. To do this, go check the Windows Insiders Pre-release product and Upgrades category in WSUS Products and Classifications and sync WSUS. Then once the sync completes and shows up on WSUS console, approve it for whatever computer group you want the update deployed to, and deploy as you would any other update.
 
-#### Set using System Center Configuration Manager
+#### Set using Microsoft Endpoint Configuration Manager
 
 1. In the __Products__ tab of __Software Update Point Component Properties,__ select the box next to __Windows Insider Pre-Release.__ 
 __NOTE:__
