@@ -38,7 +38,8 @@ The items in **bold** are the latest releases for the individual versions of the
 
 | Build | Fast | Slow | Server | WSUS | ISO | SDK |
 |-------|------|------|--------|-----|-----|-----|
-|19041.84||[**2/12/2020**](https://blogs.windows.com/windowsexperience/2020/02/11/releasing-windows-10-insider-preview-build-19041-84-to-the-slow-ring/)||[**2/25/2020**](https://blogs.windows.com/windowsexperience/2020/02/26/releasing-windows-10-insider-preview-build-19041-84-to-wsus/)|[**2/25/2020**](https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewadvanced)||
+|19041.113||[**2/27/2020**](/)|||||
+|19041.84||[2/12/2020](https://blogs.windows.com/windowsexperience/2020/02/11/releasing-windows-10-insider-preview-build-19041-84-to-the-slow-ring/)||[**2/25/2020**](https://blogs.windows.com/windowsexperience/2020/02/26/releasing-windows-10-insider-preview-build-19041-84-to-wsus/)|[**2/25/2020**](https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewadvanced)||
 |19041.21||[1/14/2020](https://blogs.windows.com/windowsexperience/2020/01/14/releasing-windows-10-insider-preview-build-19041-21-to-the-slow-ring/)|||||
 |19041|[12/10/2019](https://blogs.windows.com/windowsexperience/2019/12/10/announcing-windows-10-insider-preview-build-19041/)|[12/10/2019](https://blogs.windows.com/windowsexperience/2019/12/10/announcing-windows-10-insider-preview-build-19041/)||||[**12/17/2019**](https://blogs.windows.com/windowsdeveloper/2019/12/17/windows-10-sdk-preview-build-19041-available-now/)|
 |19037|[12/6/2019](https://blogs.windows.com/windowsexperience/2019/12/06/announcing-windows-10-insider-preview-build-19037/)|[12/6/2019](https://blogs.windows.com/windowsexperience/2019/12/06/announcing-windows-10-insider-preview-build-19037/)|||||
