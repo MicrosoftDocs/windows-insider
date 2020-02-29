@@ -1,5 +1,5 @@
 ---
-title: What's new in builds from the Active Development Branch (Fast ring)
+title: The Changelog: Active Development Branch (Fast ring)
 description: New Windows 10 features for Insider Preview builds in the Fast ring
 author: lizap
 manager: dougkim
