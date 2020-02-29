@@ -1,5 +1,5 @@
 ---
-title: The Changelog: Active Development Branch (Fast ring)
+title: The Changelog
 description: New Windows 10 features for Insider Preview builds in the Fast ring
 author: lizap
 manager: dougkim
@@ -16,16 +16,10 @@ ms.prod: w10
 The [Windows Insider Program](https://insider.windows.com/) lets you preview builds of the upcoming 20H1 release of Windows 10. This topic lists all new Windows 10 features for you to try.
 
 ## Build 19569
- As part of evolving Cortana from a general digital assistant to a personal productivity assistant that helps you in the Microsoft 365 apps, we’ve made several changes that will give you a glimpse into how your assistant will help you manage tasks and time and connect with people. [Read more about these changes](https://insider.windows.com/en-us/articles/cortana-windows-beta/).
+### Evolving the Windows 10 icons
+We are currently working on a multi-year effort across Microsoft’s design teams to redesign the icons across all our products. We started with the Office icons, and now we’re moving forward with updating the icons in Windows 10, starting with the built-in apps like Alarms & Clock, Calculator, Mail, and Calendar. Research and feedback from Windows Insiders showed a desire to see consistency in design and connection to the brand, with enough differences to aid in recognition. You can read all about our approach to updating the icons in Windows 10 in this Medium post from the Microsoft Design Team!
 
-## Improved disk usage for Windows Search (Build 19025)
-As Insiders know, over the releases, we’ve been continuing to work on improving search results based on your feedback, including adding Enhanced search mode (adding an easy option to expand search across all folders and drivers) in 19H1, as well integrating Windows Search into File Explorer, to ensure more consistent results regardless of where you start your search.
-
-In 19H1, we asked Insiders why they were turning off the search indexer. Your feedback helped us make improvements then and helped us focus on three key areas of improvement in 20H1: excessive disk and CPU usage, general performance issues, and low perceived value of the indexer.
-
-Based on this, we’re introducing an algorithm that detects high disk usage and activity, so it can better identify peak usage times and manage the indexer accordingly. We’re also making changes for developers to prevent searches of certain repositories and project folders to improve disk usage.
-
-Learn more about these features that we’ve been working on throughout 20H1 and get helpful tips and troubleshooting info to help you make the most of Windows Search in our [Supercharging Windows Search article](https://aka.ms/desktop-search).
+![Search](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/2/2020/02/7e4667f9c9e488683aca797991b5a747.png "view of updated design for web preview in search results")
 
 ## Quick searches now in Search Home (Build 19018)
 To help you find the info that matters even faster, we’ve added four quick web searches to your Search Home:
@@ -34,15 +28,7 @@ To help you find the info that matters even faster, we’ve added four quick web
 * __Today in history:__ Explore four events that happened on this day
 * __New movies:__ Find out what’s playing in theaters near you
 
-Occasionally, we'll also feature a seasonal topic or interesting quiz. 
 
-![Quick Searches](images/19018-1.png "shows four quick searches: weather, top news, today in history, and new movies")
-
-To try any or all of these searches, click the search box on your taskbar or press the Windows logo key + S to open Search Home. Want answers and results for other searches? Just type to enter your search and get the info you’re looking for quickly and easily.
-
-Let us know what you think about quick searches and how you would like to see them evolve.
-
-Note: This is a server-side change that’s currently rolling out and will appear for users across builds from version 1809 to 20H1. Currently, quick searches are only available in the US, but will be available soon internationally.
 
 ### Updated design for web preview in search results (Build 19018)
 We have made a few small tweaks to how it looks–here’s what you’ll see now:
