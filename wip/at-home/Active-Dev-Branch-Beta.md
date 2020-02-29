@@ -13,7 +13,7 @@ ms.prod: w10
 
 # The Changelog
 
-The Changelog represents everything new from all the builds release to the Fast ring from the Active Developmemnt Branch (RS_PRELEASE). 
+The Changelog represents everything new from all the builds from the Active Developmemnt Branch (RS_PRELEASE) released to the Fast ring. 
 
 ## Build 19569
 Windows 10 Insider Preview Build 19569 was released to the Fast ring on [2/20/2020](https://blogs.windows.com/windowsexperience/2020/02/20/announcing-windows-10-insider-preview-build-19569/).
