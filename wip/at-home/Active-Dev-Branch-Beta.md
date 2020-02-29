@@ -15,7 +15,7 @@ ms.prod: w10
 
 The [Windows Insider Program](https://insider.windows.com/) lets you preview builds of the upcoming 20H1 release of Windows 10. This topic lists all new Windows 10 features for you to try.
 
-## Cortana on Windows (Beta) – Now with more productivity! (Build 19030)
+## Build 19569
  As part of evolving Cortana from a general digital assistant to a personal productivity assistant that helps you in the Microsoft 365 apps, we’ve made several changes that will give you a glimpse into how your assistant will help you manage tasks and time and connect with people. [Read more about these changes](https://insider.windows.com/en-us/articles/cortana-windows-beta/).
 
 ## Improved disk usage for Windows Search (Build 19025)
