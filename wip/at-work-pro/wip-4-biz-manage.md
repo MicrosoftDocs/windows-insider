@@ -45,7 +45,7 @@ To join multiple devices on your local Active Directory to your Azure AD domain,
 You can use Group Policy, Microsoft Endpoint Configuration Manager or MDM solutions such as Intune to configure the Windows Update for Business settings that control how and when Windows 10 Insider Preview Builds are installed on devices.  
 
 __NOTE:__ 
-* To enable installation of Insider Preview builds, telemetry on a device must be set to [Enhanced](https://docs.microsoft.com/windows/privacy/enhanced-diagnostic-data-windows-analytics-events-and-fields) (level 2) or [Full](https://docs.microsoft.com/windows/privacy/windows-diagnostic-data) (level 3). By default, Windows 10 devices are set to Full. For more information on diagnostic settings policies, see [Configure Windows diagnostic data in your organization](https://docs.microsoft.com/windows/privacy/configure-windows-diagnostic-data-in-your-organization).
+* To enable installation of Insider Preview builds, telemetry on a device must be set to [Enhanced](https://docs.microsoft.com/windows/privacy/enhanced-diagnostic-data-windows-analytics-events-and-fields) (level 2) or [Full](https://docs.microsoft.com/windows/privacy/windows-diagnostic-data) (level 3). By default, Windows 10 devices are set to Full. If your device is currently in the Fast ring, [your settings will be different](https://aka.ms/DDChanges). For more information on diagnostic settings policies, see [Configure Windows diagnostic data in your organization](https://docs.microsoft.com/windows/privacy/configure-windows-diagnostic-data-in-your-organization).
 * Windows Update for Business policies used to install Insider Preview Builds that are created with one management tool cannot be changed using another. For example, a policy set using Group Policy can only be changed on a client device using Group Policy and cannot be changed using Configuration Manager or Intune.  
 
 
@@ -106,7 +106,7 @@ __NOTE:__
 ### Install preview builds from Azure Marketplace 
 Windows Insiders can now create and install a Windows 10 Preview build from the Azure Marketplace. After installing, you can preview the latest version on a virtual machine without any additional configurations or updates. See [Windows 10 Preview](https://azuremarketplace.microsoft.com/marketplace/apps/microsoft-hyperv.windows10preview) to learn more.
 
-## Confirm and track installations  
+## Confirm installations  
 
 ### Confirm policy 
 To confirm that your Windows Update for Business policies have been set correctly, go to __Settings>Update & Security>Windows Update__ on the device and click on "View configured update policies". You can also check the following key in the Registry Editor on the device: __HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate__. A device set to receive an Insider Preview build would show the following values: 
@@ -116,9 +116,6 @@ To confirm that your Windows Update for Business policies have been set correctl
 ![Windows Update for Business values in Registry Editor](images/wip-4-biz-reg-xs.png "ADD")
 
 NOTE: Once a policy has been set, the device must be restarted for the policy to be activated. 
-
-### Track devices 
-You can use Device Health in Windows Analytics to monitor devices running Insider Preview builds. This can be useful for identifying device, device driver and application issues. See [Using Device Health to monitor Insider Preview builds](https://insider.windows.com/en-us/for-business-device-health/). 
 
 ## Related Topics
 * [Deploy updates using Windows Update for Business](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-wufb) 
