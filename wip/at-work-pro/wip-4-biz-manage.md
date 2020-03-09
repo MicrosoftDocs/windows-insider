@@ -106,7 +106,7 @@ __NOTE:__
 ### Install preview builds from Azure Marketplace 
 Windows Insiders can now create and install a Windows 10 Preview build from the Azure Marketplace. After installing, you can preview the latest version on a virtual machine without any additional configurations or updates. See [Windows 10 Preview](https://azuremarketplace.microsoft.com/marketplace/apps/microsoft-hyperv.windows10preview) to learn more.
 
-## Confirm and track installations  
+## Confirm installations  
 
 ### Confirm policy 
 To confirm that your Windows Update for Business policies have been set correctly, go to __Settings>Update & Security>Windows Update__ on the device and click on "View configured update policies". You can also check the following key in the Registry Editor on the device: __HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate__. A device set to receive an Insider Preview build would show the following values: 
@@ -116,9 +116,6 @@ To confirm that your Windows Update for Business policies have been set correctl
 ![Windows Update for Business values in Registry Editor](images/wip-4-biz-reg-xs.png "ADD")
 
 NOTE: Once a policy has been set, the device must be restarted for the policy to be activated. 
-
-### Track devices 
-You can use Device Health in Windows Analytics to monitor devices running Insider Preview builds. This can be useful for identifying device, device driver and application issues. See [Using Device Health to monitor Insider Preview builds](https://insider.windows.com/en-us/for-business-device-health/). 
 
 ## Related Topics
 * [Deploy updates using Windows Update for Business](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-wufb) 
