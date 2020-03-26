@@ -121,5 +121,3 @@ NOTE: Once a policy has been set, the device must be restarted for the policy to
 * [Deploy updates using Windows Update for Business](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-wufb) 
 * [Register for the Windows Insider Program for Business](wip-4-biz-register.md)
 * [Submit and track feedback using the Feedback Hub](wip-4-biz-feedback.md)
-
-
