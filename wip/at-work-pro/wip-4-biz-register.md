@@ -39,10 +39,3 @@ NOTE:
 ## Next up
 > [!div class="nextstepaction"]
 > [Install Windows 10 Insider Preview Builds](wip-4-biz-install.md)
-
-
-
-
-
-
-

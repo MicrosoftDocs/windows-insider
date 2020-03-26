@@ -34,4 +34,3 @@ NOTE: You must sign in with your registered Azure AD account to track feedback f
 
 ## Related topics
 [Send feedback to Microsoft with the Feedback Hub app](https://support.microsoft.com/help/4021566/windows-10-send-feedback-to-microsoft-with-feedback-hub-app)
-
