@@ -50,8 +50,8 @@ This feature is available to all Windows Insiders on Windows 10 October 2018 Upd
 We value your feedback, so give it a try and let us know what you think. You can report any issues under Your Phone > Settings > Send feedback or directly through Feedback Hub.
 
 __Pen Input Requirements:__
-Your Phone App version 1.19102.500.0 or newer
-Phone screen compatible devices
+* Your Phone App version 1.19102.500.0 or newer
+* Phone screen compatible devices
 
 __10/29/2019__
 
@@ -304,7 +304,7 @@ If you find bugs or have suggestions, please [open an issue in the Power Toys Gi
 
 The Windows key shortcut guide is a full screen overlay utility that provides a dynamic set of Windows key shortcuts that are applicable for the given desktop and currently active window. When the Windows key is held down for one second, (this time can be tuned in settings,) an overlay appears on the desktop showing all available Windows key shortcuts and what action those shortcuts will take given the current state of the desktop and active window. If the Windows key continues to be held down after a shortcut is issued, the overlay will remain up and show the new state of the active window.
 
-Find detailed information on [the Windows key shortcut guide](https://github.com/Microsoft/PowerToys/tree/master/src/modules/shortcut_guide/README.md), the [backlog for this utility](https://github.com/microsoft/PowerToys/blob/master/doc/planning/ShortcutGuideBacklog.md), and the [source code](https://github.com/Microsoft/PowerToys/tree/master/src/modules/shortcut_guide).
+Find detailed information on [the Windows key shortcut guide](https://github.com/microsoft/PowerToys/blob/master/src/modules/shortcut_guide/README.md), the [backlog for this utility](https://github.com/microsoft/PowerToys/blob/master/doc/planning/ShortcutGuideBacklog.md), and the [source code](https://github.com/microsoft/PowerToys/tree/master/src/modules/shortcut_guide).
 
 ![PowerToys](images/powertoys-1.png "windows key shortcut guide")
 
@@ -319,7 +319,7 @@ The editor also supports creating and saving custom layouts. This functionality 
  
 The subtractive table layout model starts with a table layout and allows zones to be created by splitting and merging zones and then resizing the gutter between zones.
  
-Find [more information on FancyZones](https://github.com/Microsoft/PowerToys/tree/master/src/modules/fancyzones/README.md), the [backlog for the utility](https://github.com/microsoft/PowerToys/blob/master/doc/planning/FancyZonesBacklog.md), and the [source code](https://github.com/Microsoft/PowerToys/tree/master/src/modules/fancyzones).
+Find [more information on FancyZones](https://github.com/microsoft/PowerToys/blob/master/src/modules/fancyzones/README.md), the [backlog for the utility](https://github.com/microsoft/PowerToys/blob/master/doc/planning/FancyZonesBacklog.md), and the [source code](https://github.com/microsoft/PowerToys/tree/master/src/modules/fancyzones).
 
 ## Snip & Sketch 
 

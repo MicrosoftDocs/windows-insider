@@ -736,10 +736,10 @@ We also added additional entry options for different input modalities:
 
 ![word-wrap](images/linenumbers.png "word-wrap")
 
-**Search with Bing**:To use, highlight a word or phrase in Notepad and you can search Bing using the following methods:
+**Search with Bing**: To use, highlight a word or phrase in Notepad and you can search Bing using the following methods:
 * Select text and choose **Search with Bing** via the right-click (context) menu.
-* Edit menu ->**Search with Bing…**
-* **CTRL + B**. 
+* Edit menu -> **Search with Bing…**
+* **CTRL + E**. 
 
 ![notepad bing search](images/notepad-bing-search.png "notepad bing search")
 
