@@ -42,7 +42,8 @@ The items in **bold** are the latest releases for the individual versions of the
 
 | Build | Fast | Slow | Server | WSUS | ISO | SDK |
 |-------|------|------|--------|-----|-----|-----|
-|19041.172||[**3/26/2020**](https://blogs.windows.com/windowsexperience/2020/03/26/releasing-windows-10-insider-preview-build-19041-172-to-the-slow-ring/)|||||
+|19041.173||[**4/9/2020**](https://blogs.windows.com/windowsexperience/2020/04/09/releasing-windows-10-insider-preview-build-19041-173-to-the-slow-ring/)|||||
+|19041.172||[3/26/2020](https://blogs.windows.com/windowsexperience/2020/03/26/releasing-windows-10-insider-preview-build-19041-172-to-the-slow-ring/)|||||
 |19041.153||[3/13/2020](https://blogs.windows.com/windowsexperience/2020/03/13/releasing-windows-10-insider-preview-build-19041-153-to-the-slow-ring/)|||||
 |19041.113||[2/27/2020](https://blogs.windows.com/windowsexperience/2020/02/27/releasing-windows-10-insider-preview-build-19041-113-to-the-slow-ring/)|||||
 |19041.84||[2/12/2020](https://blogs.windows.com/windowsexperience/2020/02/11/releasing-windows-10-insider-preview-build-19041-84-to-the-slow-ring/)||[**2/25/2020**](https://blogs.windows.com/windowsexperience/2020/02/26/releasing-windows-10-insider-preview-build-19041-84-to-wsus/)|[**2/25/2020**](https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewadvanced)||
