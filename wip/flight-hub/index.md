@@ -21,8 +21,8 @@ Moving forward, the Fast ring will receive builds directly from this active deve
 
 | Build | Fast | Server | SDK |
 |-------|------|--------|-----|
-|19603|[**4/8/2020**](https://blogs.windows.com/windowsexperience/2020/04/08/announcing-windows-10-insider-preview-build-19603/)|||
-|19592|[3/25/2020](https://blogs.windows.com/windowsexperience/2020/03/25/announcing-windows-10-insider-preview-build-19592/)||[**3/31/2020**](https://software-download.microsoft.com/download/sg/Windows_InsiderPreview_SDK_en-us_19592_1.iso)|
+|19603|[**4/8/2020**](https://blogs.windows.com/windowsexperience/2020/04/08/announcing-windows-10-insider-preview-build-19603/)|[**4/14/2020**](https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewserver)||
+|19592|[3/25/2020](https://blogs.windows.com/windowsexperience/2020/03/25/announcing-windows-10-insider-preview-build-19592/)||[3/31/2020](https://software-download.microsoft.com/download/sg/Windows_InsiderPreview_SDK_en-us_19592_1.iso)|
 |19587|[3/18/2020](https://blogs.windows.com/windowsexperience/2020/03/18/announcing-windows-10-insider-preview-build-19587/)||[3/24/2020](https://software-download.microsoft.com/download/sg/Windows_InsiderPreview_SDK_en-us_19587_1.iso)|
 |19582|[3/12/2020](https://blogs.windows.com/windowsexperience/2020/03/12/announcing-windows-10-insider-preview-build-19582/)||[3/17/2020](https://software-download.microsoft.com/download/sg/Windows_InsiderPreview_SDK_en-us_19582_1.iso)|
 |19577|[3/5/2020](https://blogs.windows.com/windowsexperience/2020/03/05/announcing-windows-10-insider-preview-build-19577/)||[3/10/2020](https://software-download.microsoft.com/download/sg/Windows_InsiderPreview_SDK_en-us_19577_1.iso)|
@@ -30,7 +30,7 @@ Moving forward, the Fast ring will receive builds directly from this active deve
 |19564|[2/12/2020](https://blogs.windows.com/windowsexperience/2020/02/12/announcing-windows-10-insider-preview-build-19564/)||[2/19/2020](https://software-download.microsoft.com/download/sg/Windows_InsiderPreview_SDK_en-us_19564_1.iso)|
 |19559|[2/5/2020](https://blogs.windows.com/windowsexperience/2020/02/05/announcing-windows-10-insider-preview-build-19559/)||[2/11/2020](https://software-download.microsoft.com/download/sg/Windows_InsiderPreview_SDK_en-us_19559_1.iso)|
 |19555|[1/30/2020](https://blogs.windows.com/windowsexperience/2020/01/30/announcing-windows-10-insider-preview-build-19555/)||[2/4/2020](https://software-download.microsoft.com/download/sg/Windows_InsiderPreview_SDK_en-us_19555_1.iso)|
-|19551|[1/23/2020](https://blogs.windows.com/windowsexperience/2020/01/23/announcing-windows-10-insider-preview-build-19551/)|[**1/28/2020**](https://blogs.windows.com/windowsexperience/2020/01/28/announcing-windows-server-vnext-insider-preview-build-19551/)|[1/28/2020](https://software-download.microsoft.com/download/sg/Windows_InsiderPreview_SDK_en-us_19551_1.iso)|
+|19551|[1/23/2020](https://blogs.windows.com/windowsexperience/2020/01/23/announcing-windows-10-insider-preview-build-19551/)|[1/28/2020](https://blogs.windows.com/windowsexperience/2020/01/28/announcing-windows-server-vnext-insider-preview-build-19551/)|[1/28/2020](https://software-download.microsoft.com/download/sg/Windows_InsiderPreview_SDK_en-us_19551_1.iso)|
 |19546|[1/16/2020](https://blogs.windows.com/windowsexperience/2020/01/16/announcing-windows-10-insider-preview-build-19546/)||[1/21/2020](https://software-download.microsoft.com/download/sg/Windows_InsiderPreview_SDK_en-us_19546_1.iso)|
 |19541|[1/8/2020](https://blogs.windows.com/windowsexperience/2020/01/08/announcing-windows-10-insider-preview-build-19541/)|||
 |19536|[12/16/2019](https://blogs.windows.com/windowsexperience/2019/12/16/announcing-windows-10-insider-preview-build-19536/)|||
