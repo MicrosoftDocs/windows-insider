@@ -42,10 +42,10 @@ You can get builds of 20H1 today if you've opted into the **Slow ring**.
 
 The items in **bold** are the latest releases for the individual versions of the item.
 
-| Build | Fast | Slow | Server | WSUS | ISO | SDK |
+| Build | Fast | Slow | RP | Server | WSUS | ISO | SDK |
 |-------|------|------|--------|-----|-----|-----|
-|19041.207||[**4/14/2020**](https://blogs.windows.com/windowsexperience/2020/04/14/releasing-windows-10-insider-preview-build-19041-207-to-the-slow-ring/)|||||
-|19041.173||[4/9/2020](https://blogs.windows.com/windowsexperience/2020/04/09/releasing-windows-10-insider-preview-build-19041-173-to-the-slow-ring/)|||||
+|19041.207||[**4/14/2020**](https://blogs.windows.com/windowsexperience/2020/04/14/releasing-windows-10-insider-preview-build-19041-207-to-the-slow-ring/)||||||
+|19041.173||[4/9/2020](https://blogs.windows.com/windowsexperience/2020/04/09/releasing-windows-10-insider-preview-build-19041-173-to-the-slow-ring/)||||||
 |19041.172||[3/26/2020](https://blogs.windows.com/windowsexperience/2020/03/26/releasing-windows-10-insider-preview-build-19041-172-to-the-slow-ring/)|||||
 |19041.153||[3/13/2020](https://blogs.windows.com/windowsexperience/2020/03/13/releasing-windows-10-insider-preview-build-19041-153-to-the-slow-ring/)|||||
 |19041.113||[2/27/2020](https://blogs.windows.com/windowsexperience/2020/02/27/releasing-windows-10-insider-preview-build-19041-113-to-the-slow-ring/)|||||
