@@ -34,3 +34,34 @@ Many of these icons will be updated as app updates from the Microsoft Store. We 
 ## Build 19564
 
 ## Build 19559
+
+## Build 19536
+
+### Optional Drivers
+We’re still working on making it easier for you to see all optional updates (including drivers, feature updates, and monthly non-security quality updates) in one place. When optional updates are detected, they will be listed under Settings > Update & Security > Windows Update > View optional updates.
+
+For drivers, you no longer need to browse Device Manager for a specific device to update. Windows Update will automatically keep your drivers up to date, but if you’re having a problem, one of those optional drivers might help.
+
+View optional updates option in the Windows Update section of Update & Security Settings.
+
+### Re-releasing the updated Korean IME
+During 19H1 development, we’d started work on an updated version of the Korean IME as part of our ongoing efforts to modernize and improve your typing experience in Windows. Based on feedback, we decided not to ship this with 19H1, and instead worked on further improving the experience first. With Build 19536, we’re re-releasing the updated IME, along with some improvements that help it work better with various apps.
+
+To recap the most noticeable changes included as part of this IME work:
+
+For those who’re familiar with typing in Korean when writing in Hanja, we have a new candidate selection window that uses modern controls and clearer typography:
+
+Showing the candidate selection window of the updated Korean IME.
+
+The new IME version also comes with an updated algorithm used for text prediction when writing Korean using the touch keyboard. Text suggestions should now be more accurate and relevant to what you are writing.
+
+### Family group setup
+Microsoft has family features that span across multiple platforms, like Windows, Xbox, and Android. On Windows, you can set things up for your family, like screen time limits, content filters, have kids ask before they buy things, or even stay organized with a shared family calendar, OneNote, and Office 365 Home subscription. If you share a device with family, it’s easy to get their account set up in a family group to take advantage of all these features.
+
+(https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/2/2019/12/df545e6188f866eee1db8f9f73382240.png "New "Who will use this device" screen when setting up a new Windows 10 PC")
+
+In this build, we want to help customers set up their device to be used by multiple people in their family. While we’re not releasing an ISO for this build, some Insiders who choose to reset their PC may see a screen during setup that asks who’ll be using the device. If they select People in my family, we’ll help them get set up in a family group once they get to their desktop, so that they’re ready to get started with all the features.
+
+Showing the OOBE screen for selecting who will use this device.
+
+If you see this new page, let us know what you think by going to Security and Privacy > Child accounts and family settings in the Feedback Hub.
