@@ -18,6 +18,19 @@ The Changelog represents everything new from all the builds from the Active Deve
 >[!NOTE]
 > This page includes everything noted as part of the "What's new" and "General changes & improvements" sections of the blog posts published for each build [on the Windows Blog](https://blogs.windows.com/windowsexperience/tag/windows-insider-program/) and does not contain other noted updates for Insiders, fixes, or known issues. 
 
+## Build 19577
+Windows 10 Insider Preview Build 19577 was released to the Fast ring on [3/5/2020](https://blogs.windows.com/windowsexperience/2020/03/05/announcing-windows-10-insider-preview-build-19577/).
+
+### Diagnostic data changes in Settings
+As part of the Microsoft initiative to increase transparency and control over data, we’re making some changes to the Settings app and Group Policy settings that will start showing up in Windows Insider builds this month. Basic diagnostic data is now known as Required diagnostic data and Full diagnostic data is now Optional diagnostic data. If you’re a commercial customer and choose to send Optional diagnostic data, we will also be providing more granular Group Policy settings to configure the data that’s collected within your organization. We’ll publish more specifics around the new policies when we get closer to the retail release, and in the meantime, check out the Microsoft Privacy Report for more information around our data collection practices.
+
+__Note: Please make sure your device is set to “Full” before updating to Build 19577. You will not be able to take future flights if your diagnostic level is left at “Enhanced”. AAD/Domain-joined PCs set to “Enhanced” will be blocked from taking Build 19577. For more information, see this Answers post.__
+
+### More new icons: Windows Security
+We’re continuing to roll out updated icons to many of the built-in apps in Windows 10. In today’s build, we’ve updated the Windows Security icon to match the new design principles outlined here from the Microsoft Design Team. Unlike many of the built-in apps in Windows 10, which can be updated through the Store, the new Windows Security icon is updated through the OS and will rollout in a future Windows 10 feature update.
+
+![New Windows Security icon](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/2/2020/03/254a7cea7eb9aed8586fc445faeaa227.png "The new Windows Security icon as it appears on the taskbar.")
+
 ## Build 19569
 Windows 10 Insider Preview Build 19569 was released to the Fast ring on [2/20/2020](https://blogs.windows.com/windowsexperience/2020/02/20/announcing-windows-10-insider-preview-build-19569/).
 
@@ -28,14 +41,7 @@ We are currently working on a multi-year effort across Microsoft’s design team
 
 Many of these icons will be updated as app updates from the Microsoft Store. We are beginning to roll them out to Windows Insiders in the Fast ring first, starting today. The Mail and Calendar icons rolled out this morning to Release Preview. Over the coming months, Insiders will see more of the icons in Windows 10 get updated with new designs!
 
-### General changes, improvements, and fixes
-* We fixed an issue resulting in OneDrive not working and using an unexpectedly high amount of CPU for some Insiders on the previous build.
-* We resolved an issue where SCSI drivers weren’t being recognized with certain third-party virtual machines, which was causing c1900191 errors on these devices. We’re continuing to investigate additional c1900191 errors on other devices.
-* We fixed an issue impacting Start menu reliability after upgrade for some Insiders.
-* We fixed an issue resulting in some Insiders experiencing a green screen with a SYSTEMTHREAD EXCEPTION NOT HANDLED error on recent builds.
-
 ## Build 19564
-
 Windows 10 Insider Preview Build 19564 was released to the Fast ring on [2/12/2020](https://blogs.windows.com/windowsexperience/2020/02/12/announcing-windows-10-insider-preview-build-19564/).
 
 ### Graphics Settings Improvements
@@ -46,23 +52,18 @@ We’ve updated the Graphics settings page (Settings > System > Display > Graphi
 You’ll notice alongside this, we’ve also added a search box and a filter for the list of apps.
 
 ## Build 19559
-
 Windows 10 Insider Preview Build 19559 was released to the Fast ring on [2/5/2020](https://blogs.windows.com/windowsexperience/2020/02/05/announcing-windows-10-insider-preview-build-19559/).
 
 ## Build 19555
-
 Windows 10 Insider Preview Build 19551 was released to the Fast ring on [1/30/2020](https://blogs.windows.com/windowsexperience/2020/01/30/announcing-windows-10-insider-preview-build-19555/).
 
 ## Build 19551
-
 Windows 10 Insider Preview Build 19551 was released to the Fast ring on [1/23/2020](https://blogs.windows.com/windowsexperience/2020/01/23/announcing-windows-10-insider-preview-build-19551/).
 
 ## Build 19546
-
 Windows 10 Insider Preview Build 19546 was released to the Fast ring on [1/16/2020](https://blogs.windows.com/windowsexperience/2020/01/16/announcing-windows-10-insider-preview-build-19546/).
 
 ## Build 19541
-
 Windows 10 Insider Preview Build 19541 was released to the Fast ring on [1/8/2020](https://blogs.windows.com/windowsexperience/2020/01/08/announcing-windows-10-insider-preview-build-19541/).
 
 ### Location in-use icon update
@@ -76,7 +77,6 @@ When you’re using the Details tab in Task Manager, we’ve added a new option 
 ![Search](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/2/2020/01/5cd3aaadea5f925716341c53a4b89b20.png "When you're in the Details tab of Task Manager, you can now add this Architecture option.")
 
 ## Build 19536
-
 Windows 10 Insider Preview Build 19536 was released to the Fast ring on [12/16/2019](https://blogs.windows.com/windowsexperience/2019/12/16/announcing-windows-10-insider-preview-build-19536/).
 
 ### Optional Drivers
