@@ -15,6 +15,17 @@ ms.prod: w10
 
 The [Windows Insider Program](https://insider.windows.com/) lets you preview builds of the upcoming 20H1 release of Windows 10. This topic lists all new Windows 10 features for you to try.
 
+## Specialized Displays in Windows 10 Enterprise and Windows 10 Pro for Workstation
+
+If you are running the Windows 10 Enterprise or the Windows 10 Pro for Workstation editions, you may have noticed a new feature under Settings > System > Display and "Advanced display settings" that allows you to use your monitor as a Specialized Display. A monitor is categorized as “specialized” if it is neither intended to be used as a “desktop” monitor nor as a head-mounted display.
+
+The Specialized Display feature enables a display to be dedicated to a specific purpose, such as: 
+* Fixed-function arcade/gaming rigs like cockpit/driving/flight/military simulators 
+* Medical imaging devices that have custom panels (e.g. grayscale X-ray displays) 
+* *Dedicated video monitoring scenarios (e.g. Avid Pro) 
+* Monitor panel testing and validation (e.g. in the factory) 
+* Video walls
+
 ## Cortana on Windows (Beta) – Now with more productivity! (Build 19030)
  As part of evolving Cortana from a general digital assistant to a personal productivity assistant that helps you in the Microsoft 365 apps, we’ve made several changes that will give you a glimpse into how your assistant will help you manage tasks and time and connect with people. [Read more about these changes](https://insider.windows.com/en-us/articles/cortana-windows-beta/).
 
