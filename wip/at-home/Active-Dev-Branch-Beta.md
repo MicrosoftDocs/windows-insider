@@ -35,6 +35,18 @@ Many of these icons will be updated as app updates from the Microsoft Store. We 
 
 ## Build 19559
 
+## Build 19555
+
+Windows 10 Insider Preview Build 19551 was released to the Fast ring on [1/30/2020](https://blogs.windows.com/windowsexperience/2020/01/30/announcing-windows-10-insider-preview-build-19555/).
+
+## Build 19551
+
+Windows 10 Insider Preview Build 19551 was released to the Fast ring on [1/23/2020](https://blogs.windows.com/windowsexperience/2020/01/23/announcing-windows-10-insider-preview-build-19551/).
+
+## Build 19546
+
+Windows 10 Insider Preview Build 19546 was released to the Fast ring on [1/16/2020](https://blogs.windows.com/windowsexperience/2020/01/16/announcing-windows-10-insider-preview-build-19546/).
+
 ## Build 19541
 
 Windows 10 Insider Preview Build 19541 was released to the Fast ring on [1/8/2020](https://blogs.windows.com/windowsexperience/2020/01/08/announcing-windows-10-insider-preview-build-19541/).
