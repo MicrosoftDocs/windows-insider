@@ -80,7 +80,7 @@ We’d love to hear your feedback about the experience:
 4. Screenshot showing improvements to tablet posture, like collapsed search, increased spacing between icons, and a touch keyboard option in your Taskbar.
 
 >[!NOTE] 
-> Note: This feature was previously rolled out as an experiment to Windows Insiders in 20H1 Build 18970 and ended in Build 19013. After some refinement, we’re reintroducing it to Windows Insiders in this build and plan to deliver this experience to customers in a future Windows 10 update.
+>This feature was previously rolled out as an experiment to Windows Insiders in 20H1 Build 18970 and ended in Build 19013. After some refinement, we’re reintroducing it to Windows Insiders in this build and plan to deliver this experience to customers in a future Windows 10 update.
 
 ### General changes & improvements
 * The Windows Search Platform (Indexer) has been updated with improved logic to help find better times to perform indexing of your files and avoiding heavily indexing while you are using your machine. An improvement was also made to significantly limit the amount of times the service indexes your files for content that doesn’t have an impact on search experiences, and gives you a better experience on Windows.
