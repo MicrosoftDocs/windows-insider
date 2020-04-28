@@ -18,6 +18,43 @@ The Changelog represents everything new from all the builds from the Active Deve
 >[!NOTE]
 > This page includes everything noted as part of the "What's new" and "General changes & improvements" sections of the blog posts published for each build [on the Windows Blog](https://blogs.windows.com/windowsexperience/tag/windows-insider-program/) and does not contain other noted updates for Insiders, fixes, or known issues. 
 
+## Build 19592
+Windows 10 Insider Preview Build 19592 was released to the Fast ring on [3/25/2020](https://blogs.windows.com/windowsexperience/2020/03/25/announcing-windows-10-insider-preview-build-19592/).
+
+### Tablet posture improvements for 2-in-1 convertible PCs
+We are beginning to roll out (again*) the new tablet experience for 2-in-1 convertible PCs as a preview to some Windows Insiders in the Fast ring. This experience is separate from the Tablet Mode experience that you will still be able to use. This new experience allows users entering tablet posture to stay in the familiar desktop experience without interruption with a few key touch improvements:
+
+* Taskbar icons are spaced out
+* Search box on taskbar is collapsed into icon-only mode
+* Touch keyboard auto invokes when you tap a text field
+* File explorer elements will have a little more padding, to make them comfortable to interact with using touch
+* You’ll also notice we’ve updated some of the related Tablet settings under Settings > System, so as to give you control over the experience.
+
+![Tablet Posture Improvements](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/2/2020/03/068d5e0abaf805d92a03526f7e208e88.jpg "Tablet posture improvements for 2-in-1 convertible PCs.")
+
+In order to help ensure quality, the feature will be rolling out slowly, starting with a portion of the Insiders that have never detached their keyboard before, or have their tablet mode settings set to __Don’t ask me and don’t switch__.
+
+We’d love to hear your feedback about the experience:
+
+1. Use your convertible PC with apps as you normally would.
+2. When you’re ready to pick it up and go or simply lean back on the couch, you can fold back the keyboard or remove it altogether.
+3. Use your device as a tablet with touch, without going into Tablet Mode.
+4. Screenshot showing improvements to tablet posture, like collapsed search, increased spacing between icons, and a touch keyboard option in your Taskbar.
+
+[!NOTE] Note: This feature was previously rolled out as an experiment to Windows Insiders in 20H1 Build 18970 and ended in Build 19013. After some refinement, we’re reintroducing it to Windows Insiders in this build and plan to deliver this experience to customers in a future Windows 10 update.
+
+### General changes & improvements
+* The Windows Search Platform (Indexer) has been updated with improved logic to help find better times to perform indexing of your files and avoiding heavily indexing while you are using your machine. An improvement was also made to significantly limit the amount of times the service indexes your files for content that doesn’t have an impact on search experiences, and gives you a better experience on Windows.
+
+## Build 19587
+Windows 10 Insider Preview Build 19587 was released to the Fast ring on [3/18/2020](https://blogs.windows.com/windowsexperience/2020/03/18/announcing-windows-10-insider-preview-build-19587/).
+
+### General changes & improvements
+* Based on feedback, when you have muted your volume, the volume will now not unmute when using the hardware keyboard volume keys until you raise the volume (or manually unmute).
+* We made a couple of improvements to Narrator and how it works with some of the controls in Windows:
+    * Narrator now uses a more friendly string to describe the audio output in the Select playback device dropdown menu in the volume flyout.
+    * Narrator now announces more information in the Add Bluetooth or other devices dialog in the Settings application when first opened.
+
 ## Build 19582
 Windows 10 Insider Preview Build 19582 was released to the Fast ring on [3/12/2020](https://blogs.windows.com/windowsexperience/2020/03/12/announcing-windows-10-insider-preview-build-19582/).
 
