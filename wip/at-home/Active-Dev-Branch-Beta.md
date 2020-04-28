@@ -33,7 +33,18 @@ Many of these icons will be updated as app updates from the Microsoft Store. We 
 
 ## Build 19564
 
+Windows 10 Insider Preview Build 19564 was released to the Fast ring on [2/12/2020](https://blogs.windows.com/windowsexperience/2020/02/12/announcing-windows-10-insider-preview-build-19564/).
+
+### Graphics Settings Improvements
+We’ve updated the Graphics settings page (Settings > System > Display > Graphics settings), allowing for better control over designating which GPU your apps run on. With this update, the app list and GPU preference are pre-populated on a best effort basis to improve the default preference management experience. If your desired app isn’t pre-populated, you can still add it by using the app selection drop-down.
+
+![Search](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/2/2020/02/ab377b0f73f0fd7001039bc50d2681ff.jpg "The updated Graphics settings page with pre-populated app preference management.")
+
+You’ll notice alongside this, we’ve also added a search box and a filter for the list of apps.
+
 ## Build 19559
+
+Windows 10 Insider Preview Build 19559 was released to the Fast ring on [2/5/2020](https://blogs.windows.com/windowsexperience/2020/02/05/announcing-windows-10-insider-preview-build-19559/).
 
 ## Build 19555
 
