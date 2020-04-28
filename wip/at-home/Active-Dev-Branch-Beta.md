@@ -18,6 +18,44 @@ The Changelog represents everything new from all the builds from the Active Deve
 >[!NOTE]
 > This page includes everything noted as part of the "What's new" and "General changes & improvements" sections of the blog posts published for each build [on the Windows Blog](https://blogs.windows.com/windowsexperience/tag/windows-insider-program/) and does not contain other noted updates for Insiders, fixes, or known issues. 
 
+## Build 19613
+Windows 10 Insider Preview Build 19613 was released to the Fast ring on [4/22/2020](https://blogs.windows.com/windowsexperience/2020/04/22/announcing-windows-10-insider-preview-build-19613/).
+
+## Build 19608
+Windows 10 Insider Preview Build 19608 was released to the Fast ring on [4/15/2020](https://blogs.windows.com/windowsexperience/2020/04/15/announcing-windows-10-insider-preview-build-19608/).
+
+### Improving your default apps experience
+Over the years, we’ve made a number of improvements to Settings based on your feedback, and we’re happy to share the next one is starting to roll out. We’re adding the ability to search the lists of file types, protocols, and apps when setting a default.
+
+![Choose app defaults](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/2/2020/04/bc885b7c284ce0a6d23eb6a909890cdd.png "Showing the Choose default apps by file type Settings window, now with a search box.")
+
+This change is currently available for 50% of Insiders in the Fast ring as we evaluate the quality. We’ll let you know when that rollout increases. Please give it a try once it’s available on your device, and let us know what improvements you’d like to see next!
+
+## Build 19603
+Windows 10 Insider Preview Build 19603 was released to the Fast ring on [4/8/2020](https://blogs.windows.com/windowsexperience/2020/04/08/announcing-windows-10-insider-preview-build-19603/).
+
+### File Explorer Integration in the Windows Subsystem for Linux (WSL)
+If you have WSL installed and open up File Explorer, you’ll see a familiar face!
+
+![Linux in File Explorer](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/2/2020/04/a115bf3a1a66ef9a9a76190839835e4c.png "Pointing out the Linux entry in the File Explorer navigation pane.")
+
+We’ve had the ability to access your Linux files since Windows 1903, but now you can easily get to them from your left-hand navigation pane in File Explorer. Selecting the Linux icon will show you a view of all your distros, and selecting those will place you in the Linux root file system for that distro.
+
+![Linux in File Explorer](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/2/2020/04/834929eb91b182277df7061b7ce9333a.jpg "Showing the folders under the Linux section in File Explorer.")
+
+### User cleanup recommendations in Storage Settings
+Free up disk space with this Storage Settings feature that gathers unused files and apps so you can digitally cleanse your device.
+
+![User Cleanup](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/2/2020/04/a061c6428b4ed25b7ecba3738744a6ae.png "Find User cleanup recommendations in the Storage Settings page.")
+
+Windows cannot predict whether you want to delete personal files, uninstall apps, or remove local copies of files synced to the cloud. With this tool, all the content is gathered in one page and removable by you with a few clicks.
+
+![User Cleanup](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/2/2020/04/c74dc6e055fe56a9832899f6ca8e6995.png "User cleanup recommendations is made up of 4 sections: Temporary files, Large or unused files, Files synced to the cloud and Unused apps.")
+
+### General changes & improvements
+* Going forward, services that are implemented by binaries residing in the user profiles will be persisted on upgrades.
+* Narrator will no longer automatically enable scan mode when interacting with the Ideas pane in Excel. In the new Microsoft Edge, Narrator now automatically enables scan mode and starts reading webpages.
+
 ## Build 19592
 Windows 10 Insider Preview Build 19592 was released to the Fast ring on [3/25/2020](https://blogs.windows.com/windowsexperience/2020/03/25/announcing-windows-10-insider-preview-build-19592/).
 
@@ -41,7 +79,8 @@ We’d love to hear your feedback about the experience:
 3. Use your device as a tablet with touch, without going into Tablet Mode.
 4. Screenshot showing improvements to tablet posture, like collapsed search, increased spacing between icons, and a touch keyboard option in your Taskbar.
 
-[!NOTE] Note: This feature was previously rolled out as an experiment to Windows Insiders in 20H1 Build 18970 and ended in Build 19013. After some refinement, we’re reintroducing it to Windows Insiders in this build and plan to deliver this experience to customers in a future Windows 10 update.
+>[!NOTE] 
+> Note: This feature was previously rolled out as an experiment to Windows Insiders in 20H1 Build 18970 and ended in Build 19013. After some refinement, we’re reintroducing it to Windows Insiders in this build and plan to deliver this experience to customers in a future Windows 10 update.
 
 ### General changes & improvements
 * The Windows Search Platform (Indexer) has been updated with improved logic to help find better times to perform indexing of your files and avoiding heavily indexing while you are using your machine. An improvement was also made to significantly limit the amount of times the service indexes your files for content that doesn’t have an impact on search experiences, and gives you a better experience on Windows.
