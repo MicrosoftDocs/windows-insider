@@ -15,6 +15,9 @@ ms.prod: w10
 
 The Changelog represents everything new from all the builds from the Active Developmemnt Branch (RS_PRELEASE) released to the Fast ring. 
 
+>[!NOTE]
+> This page includes everything noted as part of the "What's new" and "General changes & improvements" sections of the blog posts published for each build [on the Windows Blog](https://blogs.windows.com/windowsexperience/tag/windows-insider-program/) and does not contain other noted updates for Insiders, fixes, or known issues. 
+
 ## Build 19569
 Windows 10 Insider Preview Build 19569 was released to the Fast ring on [2/20/2020](https://blogs.windows.com/windowsexperience/2020/02/20/announcing-windows-10-insider-preview-build-19569/).
 
