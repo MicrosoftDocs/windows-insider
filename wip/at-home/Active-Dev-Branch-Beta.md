@@ -18,6 +18,24 @@ The Changelog represents everything new from all the builds from the Active Deve
 >[!NOTE]
 > This page includes everything noted as part of the "What's new" and "General changes & improvements" sections of the blog posts published for each build [on the Windows Blog](https://blogs.windows.com/windowsexperience/tag/windows-insider-program/) and does not contain other noted updates for Insiders, fixes, or known issues. 
 
+## Build 19582
+Windows 10 Insider Preview Build 19582 was released to the Fast ring on [3/12/2020](https://blogs.windows.com/windowsexperience/2020/03/12/announcing-windows-10-insider-preview-build-19582/).
+
+### Eye Control Improvements
+Eye Control enables users to interact with Windows using only their eyes. Based on feedback, with this build, we’re updating the Eye Control settings to now span multiple pages, in order to give the options a bit more room to breathe.
+
+![Updated Eye Control Settings](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/2/2020/03/d39bb5a9d70f13c8c4ae23340e4aa927.png "Updated Eye Control Settings that span multiple pages.")
+
+To get started with Eye Control, connect a supported eye tracking device, then [follow the steps here](https://support.microsoft.com/en-us/help/4043921/windows-10-get-started-eye-control).
+
+### General changes & improvements
+* We’re working on giving you control over whether apps can disable the screen capture border. The page isn’t finished being wired up yet, but you’ll see it listed under Privacy Settings.
+* We’ve updated the “set time zone automatically” toggle in Time & Date settings to now be greyed out if location has been disabled.
+* Based on feedback, we’re updating the Scottish Gaelic keyboard in these ways:
+    * Pressing AltGR + 7 will now input ⁊ (U+204A TIRONIAN SIGN ET).
+    * Pressing ‘ will now directly insert that character (right single quote).
+    * Pressing AltGr +’ will now act as a dead key to combine an acute accent with a subsequent letter.
+
 ## Build 19577
 Windows 10 Insider Preview Build 19577 was released to the Fast ring on [3/5/2020](https://blogs.windows.com/windowsexperience/2020/03/05/announcing-windows-10-insider-preview-build-19577/).
 
@@ -30,6 +48,11 @@ __Note: Please make sure your device is set to “Full” before updating to Bui
 We’re continuing to roll out updated icons to many of the built-in apps in Windows 10. In today’s build, we’ve updated the Windows Security icon to match the new design principles outlined here from the Microsoft Design Team. Unlike many of the built-in apps in Windows 10, which can be updated through the Store, the new Windows Security icon is updated through the OS and will rollout in a future Windows 10 feature update.
 
 ![New Windows Security icon](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/2/2020/03/254a7cea7eb9aed8586fc445faeaa227.png "The new Windows Security icon as it appears on the taskbar.")
+
+### General changes & improvements
+* Following up on [our post about the new Cortana app](https://insider.windows.com/en-us/articles/cortana-windows-beta/), we wanted to let you know that in addition to timers and instant answers, which lit up last month, assistant conversations are now online. Some examples to try are “tell me a dad joke”, “tell me a bedtime story”, or “rock, paper, scissors.” We appreciate your patience while we worked on this. This is a server-side change, however we’re noting it here for awareness.
+* We’ve updated the behavior of Advanced startup (Settings > Update & Security > Recovery > Advanced startup “Restart now”) to enable some Ease of Access features to work properly. For example, previously, if the narrator feature was enabled prior to launching Advanced startup, it would stop working. Now, Advanced startup will reboot directly into the Windows Recovery Environment.
+* While the Vietnamese alphabet doesn’t include the Latin letters F, J, W, or Z, based on feedback we’re updating the grouping in the Start menu’s all app’s list to account for these letters when using this display language, so that apps like Windows PowerShell are included in the expected group.
 
 ## Build 19569
 Windows 10 Insider Preview Build 19569 was released to the Fast ring on [2/20/2020](https://blogs.windows.com/windowsexperience/2020/02/20/announcing-windows-10-insider-preview-build-19569/).
