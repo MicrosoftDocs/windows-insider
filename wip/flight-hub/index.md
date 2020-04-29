@@ -21,7 +21,8 @@ Moving forward, the Fast ring will receive builds directly from this active deve
 
 | Build | Fast | SDK |
 |-------|------|------|
-|19613|[**4/22/2020**](https://blogs.windows.com/windowsexperience/2020/04/22/announcing-windows-10-insider-preview-build-19613/)|[**4/28/2020**](https://software-download.microsoft.com/download/sg/Windows_InsiderPreview_SDK_en-us_19613_1.iso)|
+|19619|[**4/29/2020**](https://blogs.windows.com/windowsexperience/2020/04/29/announcing-windows-10-insider-preview-build-19619/)||
+|19613|[4/22/2020](https://blogs.windows.com/windowsexperience/2020/04/22/announcing-windows-10-insider-preview-build-19613/)|[**4/28/2020**](https://software-download.microsoft.com/download/sg/Windows_InsiderPreview_SDK_en-us_19613_1.iso)|
 |19608|[4/15/2020](https://blogs.windows.com/windowsexperience/2020/04/15/announcing-windows-10-insider-preview-build-19608/)|[4/21/2020](https://software-download.microsoft.com/download/sg/Windows_InsiderPreview_SDK_en-us_19608_1.iso)|
 |19603|[4/8/2020](https://blogs.windows.com/windowsexperience/2020/04/08/announcing-windows-10-insider-preview-build-19603/)||
 |19592|[3/25/2020](https://blogs.windows.com/windowsexperience/2020/03/25/announcing-windows-10-insider-preview-build-19592/)|[3/31/2020](https://software-download.microsoft.com/download/sg/Windows_InsiderPreview_SDK_en-us_19592_1.iso)|
