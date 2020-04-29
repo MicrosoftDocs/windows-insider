@@ -21,6 +21,9 @@ The Changelog represents everything new from all the builds from the Active Deve
 ## Build 19619
 Windows 10 Insider Preview Build 19619 was released to the Fast ring on [4/29/2020](https://blogs.windows.com/windowsexperience/2020/04/29/announcing-windows-10-insider-preview-build-19619/).
 
+### General changes & improvements
+* If the Sync button under Settings > Time & Language > Time fails due to network connectivity, the error now tells you that’s the issue.
+
 ## Build 19613
 Windows 10 Insider Preview Build 19613 was released to the Fast ring on [4/22/2020](https://blogs.windows.com/windowsexperience/2020/04/22/announcing-windows-10-insider-preview-build-19613/).
 
