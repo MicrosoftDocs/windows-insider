@@ -49,8 +49,8 @@ The items in **bold** are the latest releases for the individual versions of the
 
 | Build | Fast | Slow | RP | WSUS | ISO | SDK |
 |-------|------|------|--------|-----|-----|-----|
-|19041.208||[**4/22/2020**](https://blogs.windows.com/windowsexperience/2020/04/22/releasing-windows-10-insider-preview-build-19041-208-to-the-slow-ring/)|||||
-|19041.207||[4/14/2020](https://blogs.windows.com/windowsexperience/2020/04/14/releasing-windows-10-insider-preview-build-19041-207-to-the-slow-ring/)|[**4/16/2020**](https://blogs.windows.com/windowsexperience/2020/04/16/getting-the-may-2020-update-ready-for-release/)||||
+|19041.208||[**4/22/2020**](https://blogs.windows.com/windowsexperience/2020/04/22/releasing-windows-10-insider-preview-build-19041-208-to-the-slow-ring/)|[**4/30/2020**](https://blogs.windows.com/windowsexperience/2020/04/30/getting-the-may-2020-update-ready-for-release-updated/)||||
+|19041.207||[4/14/2020](https://blogs.windows.com/windowsexperience/2020/04/14/releasing-windows-10-insider-preview-build-19041-207-to-the-slow-ring/)|[4/16/2020](https://blogs.windows.com/windowsexperience/2020/04/16/getting-the-may-2020-update-ready-for-release/)||||
 |19041.173||[4/9/2020](https://blogs.windows.com/windowsexperience/2020/04/09/releasing-windows-10-insider-preview-build-19041-173-to-the-slow-ring/)|||||
 |19041.172||[3/26/2020](https://blogs.windows.com/windowsexperience/2020/03/26/releasing-windows-10-insider-preview-build-19041-172-to-the-slow-ring/)|||||
 |19041.153||[3/13/2020](https://blogs.windows.com/windowsexperience/2020/03/13/releasing-windows-10-insider-preview-build-19041-153-to-the-slow-ring/)|||||
