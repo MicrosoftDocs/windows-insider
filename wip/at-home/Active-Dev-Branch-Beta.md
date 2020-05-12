@@ -18,6 +18,15 @@ The Changelog represents everything new from all the builds from the Active Deve
 >[!NOTE]
 > This page includes everything noted as part of the "What's new" and "General changes & improvements" sections of the blog posts published for each build [on the Windows Blog](https://blogs.windows.com/windowsexperience/tag/windows-insider-program/) and does not contain other noted updates for Insiders, fixes, or known issues. 
 
+## Build 19624
+Windows 10 Insider Preview Build 19624 was released to the Fast ring on [5/6/2020](https://blogs.windows.com/windowsexperience/2020/05/06/announcing-windows-10-insider-preview-build-19624/).
+
+### General changes & improvements
+* We’re temporarily turning off the new search box in the default apps Settings pages while we work on improving performance and reliability.
+* We’re updating the VPN connection logic based on feedback, so that if you disconnect from a VPN network, it will now uncheck the option to auto-connect (similar to how it’s handled for Wi-Fi).
+* Based on feedback we’re updating the text of the Add a Device dialog so the list of examples under Bluetooth includes controllers.
+* We’re updating the Optional Updates Available section that appears in Windows Update settings, so that you will now be able to copy the text in case you need it.
+
 ## Build 19619
 Windows 10 Insider Preview Build 19619 was released to the Fast ring on [4/29/2020](https://blogs.windows.com/windowsexperience/2020/04/29/announcing-windows-10-insider-preview-build-19619/).
 
