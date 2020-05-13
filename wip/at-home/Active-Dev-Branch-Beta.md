@@ -18,6 +18,13 @@ The Changelog represents everything new from all the builds from the Active Deve
 >[!NOTE]
 > This page includes everything noted as part of the "What's new" and "General changes & improvements" sections of the blog posts published for each build [on the Windows Blog](https://blogs.windows.com/windowsexperience/tag/windows-insider-program/) and does not contain other noted updates for Insiders, fixes, or known issues. 
 
+## Build 19628
+Windows 10 Insider Preview Build 19628 was released to the Fast ring on [5/13/2020](https://blogs.windows.com/windowsexperience/2020/05/13/announcing-windows-10-insider-preview-build-19628/).
+
+### General changes & improvements
+* We’re adding initial support for DNS over HTTPS, so that you can opt into using encryption when Windows makes DNS queries. [Follow the instructions in this blog post](https://techcommunity.microsoft.com/t5/networking-blog/windows-insiders-can-now-test-dns-over-https/ba-p/1381282) to opt in as it will be off by default.
+* Thanks everyone who shared feedback about the updated version of Korea Microsoft IME introduced with Build 18941. For the moment, the IME version will be returning to the previous one while we take your feedback into consideration.
+
 ## Build 19624
 Windows 10 Insider Preview Build 19624 was released to the Fast ring on [5/6/2020](https://blogs.windows.com/windowsexperience/2020/05/06/announcing-windows-10-insider-preview-build-19624/).
 
