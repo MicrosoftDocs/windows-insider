@@ -43,7 +43,7 @@ You can get builds of 20H1 today if you've opted into the **Slow ring**.
 The items in **bold** are the latest releases for the individual versions of the item.
 
 >[!NOTE]
-> We have replaced the Server column with a column for the Release Preview ring which is show as "RP" below.
+> We have replaced the Server column with a column for the Release Preview ring which is shown as "RP" below.
 
 | Build | Fast | Slow | RP | WSUS | ISO | SDK |
 |-------|------|------|--------|-----|-----|-----|
