@@ -38,7 +38,7 @@ Moving forward, the Fast ring will receive builds directly from this active deve
 
 ## Upcoming Windows 10 Feature Update (20H1)
 
-You can get builds of 20H1 today if you've opted into the **Slow ring**.
+You can get builds of 20H1 today if you've opted into the **Slow ring** and **Release Preview**.
 
 The items in **bold** are the latest releases for the individual versions of the item.
 
