@@ -1,0 +1,62 @@
+### YamlMime:Hub
+
+title: Windows Insider Program documentation # < 60 chars
+summary: Windows Insider Program lets you get preview builds of Windows 10 and Windows Server 2019, try out new features and provide feedback directly to Microsoft. # < 160 chars
+# brand: aspnet | azure | dotnet | dynamics | m365 | ms-graph | office | power-bi | power-platform | sql | sql-server | vs | visual-studio | windows | xamarin
+brand: windows
+
+metadata:
+  title: Windows Insider Program documentation # Required; page title displayed in search results. Include the brand. < 60 chars.
+  description: Windows Insider Program lets you get preview builds of Windows 10 and Windows Server 2019, try out new features and provide feedback directly to Microsoft. # Required; article description that is displayed in search results. < 160 chars.
+  services: product-insights
+  ms.service: product-insights #Required; service per approved list. service slug assigned to your service by ACOM.
+  ms.subservice:  # Optional; Remove if no subservice is used.
+  ms.topic: hub-page # Required
+  ms.collection:  # Optional; Remove if no collection is used.
+  author: lizap #Required; your GitHub user alias, with correct capitalization.
+  ms.author: apexprodleads #Required; microsoft alias of author; optional team alias.
+  ms.date: 04/17/2018 #Required; mm/dd/yyyy format.
+  localization_priority: medium
+    
+# productDirectory section (optional)
+productDirectory:
+  title: Windows Insider Program # < 60 chars (optional)
+  items:
+    # Card
+    - title: Windows Insider Program
+      # imageSrc should be square in ratio with no whitespace
+      imageSrc: https://docs.microsoft.com/media/common/i_whats-new.svg
+      summary: If you have a personal Windows 10 device and want to participate in the program, these docs are for you.
+      url: https://docs.microsoft.com/en-us/windows-insider/at-home/
+    # Card
+    - title: Windows Insider Program for Business
+      imageSrc: https://docs.microsoft.com/media/common/i_management.svg
+      summary: If you have a Windows 10 device that you use at work, and you want to participate in the program; or if you are an admin with workers participating in the Windows Insider Program, these docs are for you.
+      url: https://docs.microsoft.com/en-us/windows-insider/at-work-pro/
+    # Card
+    - title: Windows Insider Program for Server
+      imageSrc: https://docs.microsoft.com/media/common/i_server.svg
+      summary: If you are a system administrator and want to test the preview builds for Windows Server 2019, these docs are for you.
+      url: https://docs.microsoft.com/en-us/windows-insider/at-work/
+      
+# additionalContent section (optional)
+# Card with summary style
+additionalContent:
+  # Supports up to 3 sections
+  sections:
+    - title: Windows Insider Program Flight Hub, community & support # < 60 chars (optional)
+      summary: Find related links to preview builds and support. # < 160 chars (optional)
+      items:
+        # Card
+        - title: Flight Hub
+          summary: Want to see the status of a flight? Check out our Flight Hub.
+          url: https://docs.microsoft.com/en-us/windows-insider/flight-hub/
+        # Card
+        - title: Digital Literacy
+          summary: "#InsiderUp communities are helping the world understand tech and learn to code."
+          url: https://docs.microsoft.com/en-us/windows-insider/at-home/digital-literacy
+        # Card
+        - title: Feedback?
+          summary: Use the Feedback Hub to submit your feedback to Microsoft.
+          url: https://support.microsoft.com/en-us/help/4021566/windows-10-send-feedback-to-microsoft-with-feedback-hub-app          
+        

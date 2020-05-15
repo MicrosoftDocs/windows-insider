@@ -34,7 +34,7 @@ Hindi, Catalan, and Vietnamese can only be installed as a language pack over sup
 
 To register for the Windows Insider Program for Business, follow the steps below using your corporate account in Azure Active Directory (AAD). This account is the same account that you use for Office 365 and other Microsoft services. Check with your IT department before signing up.
 
-1. Visit the [Windows Insider Program website](https://insider.windows.com) and select **Get Started**.
+1. Visit the [Windows Insider Program website](https://insider.windows.com/) and select **Get Started**.
 
 2. Sign-in with your corporate account in AAD (username/password) and follow the on-screen registration directions.
 
@@ -48,14 +48,14 @@ To register for the Windows Insider Program for Business, follow the steps below
 Yes. Starting with Windows 10, version 1709, the Windows Insider Program for Business now enables administrators to apply the following group policies to help them manage their organization’s preview builds:
 
 **Manage preview builds:** Administrators can enable or prevent builds from installing on a device. You also have an option to disable preview builds once the release is public.
-**Branch Readiness Level:** Administrators can set the Windows readiness level, including Fast, Slow, Release Preview Rings of Windows Insider Preview) and allows administrators to defer or pause delivery of updates.
+**Branch Readiness Level:** Administrators can set the Windows readiness level (including Fast, Slow, and Release Preview Rings of Windows Insider Preview) and allows administrators to defer or pause delivery of updates.
 
-See more information on [Getting started with Windows Insider Program for Business](https://docs.microsoft.com/en-us/windows-insider/at-work-pro/wip-4-biz-get-started).
+See more information on [Getting started with Windows Insider Program for Business](https://docs.microsoft.com/windows-insider/at-work-pro/wip-4-biz-get-started).
 
 **How can I find out if my corporate account is on Azure Active Directory?**
 On your PC, go to **Settings > Accounts > Access work or school**. If your organization has set up your corporate account in Azure Active Directory, and it is connected to your PC, you will see the account listed as highlighted in this image:
 
-![alt text](https://docs.microsoft.com/en-us/windows/deployment/update/images/waas-wipfb-work-account.jpg "Device connected to work account")
+![alt text](https://docs.microsoft.com/windows/deployment/update/images/waas-wipfb-work-account.jpg "Device connected to work account")
 
 **I have more than one Azure Active Directory account. Which should I use?**
 
@@ -63,7 +63,7 @@ Register for Windows Insider Program for Business with the same active account t
 
 **Can I register multiple users from my organization at the same time for the Windows Insider Program for Business?**
 
-Yes. The Windows Insider Program for Business now allows organizations to register their domain and control settings centrally rather than require each user to register individually for Insider Preview builds. To register, follow the instructions on the [Register for the Windows Insider Program for Business](https://docs.microsoft.com/en-us/windows-insider/at-work-pro/wip-4-biz-register) page.
+Yes. The Windows Insider Program for Business now allows organizations to register their domain and control settings centrally rather than require each user to register individually for Insider Preview builds. To register, follow the instructions on the [Register for the Windows Insider Program for Business](https://docs.microsoft.com/windows-insider/at-work-pro/wip-4-biz-register) page.
 
 **My account is listed in Active Directory but not Azure Active Directory. Can I still register using my Active Directory credentials?**
 
@@ -71,15 +71,15 @@ No. At this point, we are only supporting Azure Active Directory as a corporate 
 
 **I just want to participate as a Windows Insider. Do I still need to register with my corporate account in Azure Active Directory?**
 
-No. You can join the Windows Insider Program using your Microsoft account (MSA) with these [instructions on getting started](https://docs.microsoft.com/en-us/windows-insider/at-home/get-started). 
+No. You can join the Windows Insider Program using your Microsoft account (MSA) with these [instructions on getting started](https://docs.microsoft.com/windows-insider/at-home/get-started). 
 
-However, please note that if you want to access the benefits of the Windows Insider Program for Business, you will need to sign-up using your corporate account in Azure Active Directory. Check with your IT department before signing up with your corporate account.
+However, please note that if you want to access the benefits of the Windows Insider Program for Business, you will need to sign up using your corporate account in Azure Active Directory. Check with your IT department before signing up with your corporate account.
 
 **I am already a Windows Insider. I want to switch my account from my Microsoft account to my corporate account in Azure Active Directory. How can I do this?**
 
 In just a few steps, you can switch your existing program registration from your Microsoft account to your corporate account in Azure Active Directory.
 
-1. Visit the [Windows Insider Program website](https://insider.windows.com). If you're signed in with your Microsoft account, sign out then sign back in to register with your corporate account in AAD.
+1. Visit the [Windows Insider Program website](https://insider.windows.com/). If you're signed in with your Microsoft account, sign out then sign back in to register with your corporate account in AAD.
 2. On your Windows 10 PC, go to **Settings > Updates & Security > Windows Insider Program**.
 3. In your account, under Windows Insider account, select **Change** to open a pop-up box.
 4. Select your corporate account and select Continue to change your account.

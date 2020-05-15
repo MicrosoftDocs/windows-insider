@@ -14,10 +14,10 @@ ms.prod: w10
 
 # Troubleshooting 
 
-This section provides tips to address issues that you many encounter when running Windows 10 Insider Preview Builds. 
+This section provides tips to address issues that you many encounter when running Windows 10 Insider Preview builds. 
 
 > [!NOTE] 
-> In many cases, issues may be isolated to your specific Insider Preview build. Please check the most recent [Windows Insider Blog post](https://blogs.windows.com/blog/tag/windows-insider-program/) or our [support resources](https://docs.microsoft.com/en-us/windows-insider/at-home/troubleshooting#support-resources), like the [Windows Insider Forums](https://answers.microsoft.com/en-us/insider/forum/insider_wintp-insiderplat_pc?sort=lastreplydate&dir=desc&tab=threads&status=all&mod=&modAge=&advFil=&postedAfter=&postedBefore=&threadType=all&tm=1475533679179). 
+> In many cases, issues may be isolated to your specific Insider Preview build. Please check the most recent [Windows Insider Blog post](https://blogs.windows.com/blog/tag/windows-insider-program/) or our [support resources](https://docs.microsoft.com/windows-insider/at-home/troubleshooting#support-resources), like the [Windows Insider Forums](https://answers.microsoft.com/en-us/insider/forum). 
 
 ## Find information about your PC
 
@@ -43,9 +43,9 @@ Open **Settings**, select **Update & Security**, and select **Activation**.
 While participating in the Windows Insider Program, you may find that your PC isn't updating as expected. Review these key times if you're in this state.
 
 ### Run Windows 10
-To install Windows 10 Insider Preview Builds, you need to be running a licensed version of Windows 10 on your PC. If your PC is currently running Windows 7/8/8.1, you can [install Windows 10 here](https://www.microsoft.com/en-us/windows/get-windows-10?step=Win10Question1). 
+To install Windows 10 Insider Preview Builds, you need to be running a licensed version of Windows 10 on your PC. If your PC is currently running Windows 7/8/8.1, you can [install Windows 10 here](https://www.microsoft.com/windows/get-windows-10). 
 
-If you are having problems installing Windows 10, you can download a [Windows 10 Insider Preview ISO](https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewadvanced). 
+If you are having problems installing Windows 10, you can download a [Windows 10 Insider Preview ISO](https://www.microsoft.com/software-download/windowsinsiderpreviewadvanced). 
 
 ### Activate Windows
 
@@ -57,7 +57,7 @@ Open **Settings** > **Update & Security** and review available updates or select
 
 ### Sign in with an MSA or AAD account registered for receiving builds on your device
 
-[Sign in with your MSA or AAD account.](https://insider.windows.com/en-us/insidersigninboth/) You will land on the page “Welcome back!” if your MSA or AAD account is registered with the Windows Insider Program.
+[Sign in with your MSA or AAD account.](https://insider.windows.com/insidersigninboth/) You will land on the page “Welcome back!” if your MSA or AAD account is registered with the Windows Insider Program.
 
 ### Make sure you've chosen a ring
 
@@ -95,7 +95,7 @@ If you are in a situation where you are unable to use your PC as expected, these
 > [!NOTE] 
 > After installing an update to your PC, you will have seven days to roll back if necessary. If it's needed after that, you'll need to take a future update, or you may clean install an older build via bootable media.
 
-**Clean Install Insider Build via Bootable Media** - Creating a bootable USB with a Windows Installation (from an ISO file) can be helpful in multiple scenarios, from recovering a machine from a bad build, to bypassing some types of bugs, to even joining a new PC into the Windows Insider Program. [How to make a bootable USB drive from a Windows Insider ISO file.](https://answers.microsoft.com/en-us/insider/forum/insider_wintp-insider_install-insiderplat_pc/creating-a-bootable-usb-for-windows-insider-isos/9ebe3cbc-3c8b-4052-9484-0b7cc9b63bec?tm=1519414191218)
+**Clean Install Insider Build via Bootable Media** - Creating a bootable USB with a Windows Installation (from an ISO file) can be helpful in multiple scenarios, from recovering a machine from a bad build, to bypassing some types of bugs, to even joining a new PC into the Windows Insider Program. [How to make a bootable USB drive from a Windows Insider ISO file](https://answers.microsoft.com/en-us/insider/forum/all/creating-a-bootable-usb-for-windows-insider-isos/9ebe3cbc-3c8b-4052-9484-0b7cc9b63bec).
 
 ## Feedback Hub error
 
@@ -113,7 +113,7 @@ If the device is currently running a public release of Windows, opting out will 
 
 If the device is currently running a prerelease version of Windows, it will continue getting updates until the next public release is installed. At that time, we will opt out for you, without any action on your part. (Please note that depending on development timelines, this could take some time). We do this to ensure your device does not get stranded on an unsupported version of Windows that may contain security vulnerabilities.
 
-If you do not want to wait for the next public release to opt out of Insider builds, you can [clean install Windows](https://support.microsoft.com/en-us/help/12415/windows-10-recovery-options) immediately. Please see instructions at [Download Windows 10](https://www.microsoft.com/en-us/software-download/windows10), or choose from the following, depending on which previous version you are recovering to: [Windows 7 Recovery Image](http://go.microsoft.com/fwlink/p/?LinkId=616947), [Windows 8 Recovery Image](http://go.microsoft.com/fwlink/p/?LinkId=616948), or [Windows 10 Recovery Image](http://go.microsoft.com/fwlink/p/?LinkId=616949).
+If you do not want to wait for the next public release to opt out of Insider builds, you can [clean install Windows](https://support.microsoft.com/help/12415/windows-10-recovery-options) immediately. Please see instructions at [Download Windows 10](https://www.microsoft.com/software-download/windows10). 
 
 ## Leave the program
 
@@ -123,16 +123,16 @@ If you would no longer like to receive Windows Insider builds on one or more of 
 
 ### Unregister
 
-On the Windows Insider Program website, sign in with your Microsoft Account (MSA) or your Azure Active Directory (AAD) account associated with the Windows Insider Program. [Sign in with your MSA or AAD.](https://insider.windows.com/en-us/insidersigninboth/)
+On the Windows Insider Program website, sign in with your Microsoft Account (MSA) or your Azure Active Directory (AAD) account associated with the Windows Insider Program. [Sign in with your MSA or AAD](https://insider.windows.com/insidersigninboth/).
 
-Go to the page [leave the program](https://insider.windows.com/en-us/leave-program/) (visible in the footer of the site after you sign in,) and select **Leave the Program**. You'll then see a confirmation page.
+Go to the page [leave the program](https://insider.windows.com/leave-program/) (visible in the footer of the site after you sign in,) and select **Leave the Program**. You'll then see a confirmation page.
 
 ### Unenroll
 On your PC, go to **Settings** > **Update & Security** > **Windows Insider Program**, select **Stop Insider Preview Builds**, and follow the additional on-screen prompts.
 
 ### Recover your device
 
-Follow the instructions in the [Stop receiving Insider builds section](https://review.docs.microsoft.com/en-us/windows-insider/at-home/troubleshooting?branch=pr-en-us-100#stop-receiving-insider-builds) above to return your PC to a previous version or reinstall.
+Follow the instructions in the [Stop receiving Insider builds section](https://docs.microsoft.com/windows-insider/at-home/troubleshooting#stop-receiving-insider-builds) above to return your PC to a previous version or to reinstall.
 
 ## Support resources
 
@@ -148,7 +148,7 @@ Share feedback via the [Feedback Hub](insiderhub://home/). Other Insiders can ad
 
 ### Forum
 
-Insiders can filter between PC, Mobile, Office, Edge, and many other sections. There are also sub-topics that will help you narrow down your search to find tailored content. [Go to the Windows Insider forum.](https://answers.microsoft.com/en-us/insider?OCID=WIP_r_Welcome3_Body_InsidersForum)
+Insiders can filter between PC, Mobile, Office, Edge, and many other sections. There are also sub-topics that will help you narrow down your search to find tailored content. [Go to the Windows Insider forum](https://answers.microsoft.com/en-us/insider/forum).
 
 ### Twitter
 

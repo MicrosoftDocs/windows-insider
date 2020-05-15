@@ -38,16 +38,16 @@ Administrators can install and manage Insider Preview builds centrally across mu
 
 ## Install on a virtual machine
 You can run Insider Preview builds as a virtual machine on a PC in Hyper-V. This option enables you to run Insider Preview builds without changing the Windows 10 production build already running on a PC.
-* For guidance on setting up virtual machines on your PC see: [Introduction to Hyper-V on Windows 10](https://docs.microsoft.com/virtualization/hyper-v-on-windows/about/).
-* To download the latest Insider Preview build ISO file to run on your virtual machine see: [Windows Insider Preview downloads](https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewadvanced).
+* For guidance on setting up virtual machines on your PC, see [Introduction to Hyper-V on Windows 10](https://docs.microsoft.com/virtualization/hyper-v-on-windows/about/).
+* To download the latest Insider Preview build ISO file to run on your virtual machine, see [Windows Insider Preview downloads](https://www.microsoft.com/software-download/windowsinsiderpreviewadvanced).
 
 ## Once you have completed installation
 These tips will help you and your organization get the most out of Insider Preview builds and the Windows Insider Program for Business. 
 * __Check to ensure you have the latest build version.__ Once you have installed an Insider Preview build, the version number will appear in a watermark on the lower right corner of your desktop. You can also type __Winver__ in the Windows search bar and run the command to get the build number of the Windows version currently running on your PC. Compare this against the latest build available as listed in [Flight Hub](https://docs.microsoft.com/windows-insider/flight-hub/).  
-*__Not getting Insider Preview builds?__ Check our [Troubleshooting Tips](https://insider.windows.com/en-us/how-to-pc/#not-receiving-updates) to ensure that your PC is able to install the latest Insider Preview build throuh Windows Update.
-* __Follow our Windows Insider Program blog.__ As soon as an Insider Preview build is released, we publish a blog with details on feature highlights and fixes. [See the latest blog](https://blogs.windows.com/windowsexperience/tag/windows-insider-program/#ft9PuorWX0ODx38J.97)
-* __Provide us with feedback.__ To help us shape Windows to address your organization's specific needs, submit feedback on Insider Preview builds directly to the Feedback Hub in Windows. See [Submit and track feedback uisng the Feedback Hub](wip-4-biz-feedback.md). 
-* __Use Insider Preview builds to accelerate your next Windows deployment.__ Validating your apps and infrastructure on Insider Preview builds can play an important role in your Windows 10 deployment strategy. See [Working with Windows 10 Insider Preview Builds](wip-4-biz-explore-and-validate.md). You can also use Windows Anlytics to monitor device health and issues. See [Using Device Health to monitor Insider Preview builds](https://insider.windows.com/en-us/for-business-device-health/). 
+*__Not getting Insider Preview builds?__ Check our [Troubleshooting Tips](https://insider.windows.com/en-us/how-to-pc/#not-receiving-updates) to ensure that your PC is able to install the latest Insider Preview build through Windows Update.
+* __Follow our Windows Insider Program blog.__ As soon as an Insider Preview build is released, we publish a blog with details on feature highlights and fixes. [See the latest blog](https://blogs.windows.com/windowsexperience/tag/windows-insider-program/)
+* __Provide us with feedback.__ To help us shape Windows to address your organization's specific needs, submit feedback on Insider Preview builds directly to the Feedback Hub in Windows. See [Submit and track feedback using the Feedback Hub](wip-4-biz-feedback.md). 
+* __Use Insider Preview builds to accelerate your next Windows deployment.__ Validating your apps and infrastructure on Insider Preview builds can play an important role in your Windows 10 deployment strategy. See [Working with Windows 10 Insider Preview Builds](wip-4-biz-explore-and-validate.md). You can also use Windows Analytics to monitor device health and issues. See [Using Device Health to monitor Insider Preview builds](https://insider.windows.com/en-us/for-business-device-health/). 
 * __Join our community__. Join our [Windows Insider Tech Community](https://techcommunity.microsoft.com/t5/Windows-Insider-Program/bd-p/WindowsInsiderProgram) to share and learn from other IT experts.
 
 ## Supported languages
@@ -57,7 +57,7 @@ Arabic (Saudi Arabia), Bulgarian (Bulgaria), Chinese (Simplified, China), Chines
 Windows 10 Insider Preview is available in the following Language Interface Packs (LIP) languages:
 Afrikaans (South Africa), Albanian (Albania), Amharic, Armenian, Assamese, Azerbaijani (Latin, Azerbaijan), Bangla (Bangladesh), Bangla (India), Basque, Belarusian (Belarus), Bosnian (Latin), Catalan (Catalan), Cherokee (Cherokee), Dari, Filipino (Philippines), Galician (Galician), Georgian, Gujarati, Hindi (India), Icelandic, Indonesian (Indonesia), Irish, Kannada, Kazakh (Kazakhstan), Khmer (Cambodia), KiSwahili, Konkani, Kyrgyz, Lao (Laos), Luxembourgish, Macedonian (Former Yugoslav Republic of Macedonia), Malay (Malaysia), Malayalam, Maltese, Maori, Marathi, Mongolian (Cyrillic), Nepali, Norwegian (Nynorsk), Odia, Persian, Punjabi, Quechua, Scottish Gaelic, Serbian (Cyrillic, Bosnia and Herzegovina), Serbian (Cyrillic, Serbia), Sindhi (Arabic), Sinhala, Tamil (India), Tatar, Telugu, Turkmen, Urdu, Uyghur, Uzbek (Latin, Uzbekistan), Valencian, Vietnamese, Welsh.
 
-LIP languages can be installed as a language pack over [supported base languages](https://support.microsoft.com/en-us/help/14236/language-packs).
+LIP languages can be installed as a language pack over [supported base languages](https://support.microsoft.com/help/14236/language-packs).
 
 ## Related topics
 

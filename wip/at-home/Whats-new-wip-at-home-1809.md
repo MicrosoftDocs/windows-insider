@@ -13,18 +13,18 @@ ms.prod: w10
 ---
 
 #  What's new in the Windows 10 Insider preview builds (RS5)
-The [Windows Insider Program](https://insider.windows.com/en-us/) lets you preview builds of the upcoming release of Windows 10. This topic lists new Windows 10 features for you to try. 
+The [Windows Insider Program](https://insider.windows.com/) lets you preview builds of the upcoming release of Windows 10. This topic lists new Windows 10 features for you to try. 
 
 ## Your Phone app
-Android phone users, you can finally stop emailing yourself photos. With Your Phone app you get instant access to your Android’s most recent photos on your PC. Drag and drop a photo from your phone onto your PC, then you can copy, edit, or ink on the photo.  Try it out by typing **Your Phone** in the Start menu. The **Your phone** app will load and you will receive a request from Microsoft to download the companion app to your mobile phone. Android 7.0+ devices are compatible with the **Your Phone** app. For PCs tied to the China region, **Your Phone** app services will be enabled in the future.
+Android phone users, you can finally stop emailing yourself photos. With Your Phone app you get instant access to your Android’s most recent photos on your PC. Drag and drop a photo from your phone onto your PC, then you can copy, edit, or ink on the photo.  Try it out by typing **Your Phone** in the Start menu. The **Your Phone** app will load and you will receive a request from Microsoft to download the companion app to your mobile phone. Android 7.0+ devices are compatible with the **Your Phone** app. For PCs tied to the China region, **Your Phone** app services will be enabled in the future.
 
 For iPhone users, **Your Phone** app also helps you to link your phone to your PC. Surf the web on your phone, then send the webpage instantly to your computer to continue what you’re doing–read, watch, or browse with all the benefits of a bigger screen. With a linked phone, continuing on your PC is one share away.
 
 ![your phone](images/your-phone.png "your phone")
 
-Notice a desktop pin? It’ll take you directly to the **Your Phone** app – for quicker access to your phone’s content. You can also go through the all apps list in Start Menu, or use the Windows key and search for the **Your Phone** app. 
+Notice a desktop pin? It’ll take you directly to the **Your Phone** app—for quicker access to your phone’s content. You can also go through the all apps list in Start Menu, or use the Windows key and search for the **Your Phone** app. 
 
-For more information about **Your Phone**, see [Your Phone app help](https://support.microsoft.com/en-us/help/4459358/windows-10-your-phone-app-help).
+For more information about **Your Phone**, see [Your Phone app help](https://support.microsoft.com/help/4459358/windows-10-your-phone-app-help).
 
 ## Cloud Clipboard
 
@@ -72,7 +72,7 @@ One of the things we’ve heard from you is that it’s hard to know when you’
 
 ## SwiftKey intelligence
 
-[SwiftKey](https://www.microsoft.com/en-us/swiftkey) gives you more accurate auto-corrections and predictions by learning your writing style – including the words, phrases, and emoji that matter to you. It’s available for Android and iOS, and SwiftKey powers the typing experience on Windows when using the touch keyboard to write in English (United States), English (United Kingdom), French (France), German (Germany), Italian (Italy), Spanish (Spain), Portuguese (Brazil), or Russian. This is an existing feature that we've improved for Windows 10, version 1809.
+[SwiftKey](https://www.microsoft.com/swiftkey) gives you more accurate auto-corrections and predictions by learning your writing style—including the words, phrases, and emoji that matter to you. It’s available for Android and iOS, and SwiftKey powers the typing experience on Windows when using the touch keyboard to write in English (United States), English (United Kingdom), French (France), German (Germany), Italian (Italy), Spanish (Spain), Portuguese (Brazil), or Russian. This is an existing feature that we've improved for Windows 10, version 1809.
 
 ![Swiftkey](images/swift2.png "Swiftkey")
 
@@ -99,7 +99,7 @@ Our ninja cats got a bit of love too – can you spot the difference?
 
 __Emoji search comes to more languages__: You can find an emoji by keyword in over 190 locales, including English (Great Britain), French (France), German (Germany), Spanish (Spain), and more. This will help you get the emoji you want easily and quickly. As a reminder, to bring up the Emoji Panel set focus to a text field and press WIN + (period) or WIN + (semicolon).
 
-*__The IME now uses the same UX for expressive input as other languages__. You can bring it up by clicking the emoji button in the IME toolbar, or use the Emoji Panel hotkeys (WIN + period (.) or WIN + semicolon (;)). You can browse between Emoji, Kaomoji, and Symbol input when Chinese (Simplified) is the active locale.
+__The IME now uses the same UX for expressive input as other languages__. You can bring it up by clicking the emoji button in the IME toolbar, or use the Emoji Panel hotkeys (WIN + period (.) or WIN + semicolon (;)). You can browse between Emoji, Kaomoji, and Symbol input when Chinese (Simplified) is the active locale.
 
 ![ime emojis](images/imeemoji.png "ime emojis")
 
@@ -119,7 +119,7 @@ You may see this window showing after you upgrade. Don’t worry – all your st
 * Improved security on Microsoft Edge browsers by guaranteeing HTTP/2 preferred cipher suites
 * Improved performance on Windows 10 thanks to Cubic, the new default TCP congestion provider.
 
-For more information, see [A Faster, Safer Internet](https://blogs.technet.microsoft.com/networking/2018/08/01/faster-safer-internet/).
+For more information, see [A Faster, Safer Internet](https://techcommunity.microsoft.com/t5/Networking-Blog/Top-10-Networking-Features-in-Windows-Server-2019-8-A-Faster/ba-p/339749).
 
 **Control whether media can play automatically** : We added a new setting in Microsoft Edge to allow you to control whether sites can autoplay media. You can find this setting under **Advanced Settings > Media autoplay**, with options to customize the behavior according to your preferences:
 
@@ -230,7 +230,7 @@ To install WebDriver, just turn on __Developer Mode__ in Windows 10 Settings, or
 We’ve also updated WebDriver to match the latest [W3C Recommendation spec](https://www.w3.org/TR/webdriver/) with major new improvements. You can learn all about these changes on the [Microsoft Edge dev blog](https://www.w3.org/TR/webdriver/).
 
 **Web Authentication preview:** Microsoft Edge now includes unprefixed support for the new Web Authentication API (a.k.a. [WebAuthN](https://www.w3.org/TR/webauthn/)). This evolves our previous support for the WebAuthN specification to enable the updated version of the API by default.
-Web Authentication provides an open, scalable, and interoperable solution to facilitate authentication, which replaces passwords with stronger hardware-bound credentials. The implementation in Microsoft Edge allows users to use [Windows Hello](https://www.microsoft.com/en-us/windows/windows-hello) (via PIN or biometrics) and [external authenticators](https://fidoalliance.org/fido2/) like FIDO2 Security Keys or FIDO U2F Security Keys, to securely authenticate to websites. 
+Web Authentication provides an open, scalable, and interoperable solution to facilitate authentication, which replaces passwords with stronger hardware-bound credentials. The implementation in Microsoft Edge allows users to use [Windows Hello](https://www.microsoft.com/windows/windows-hello) (via PIN or biometrics) and [external authenticators](https://fidoalliance.org/fido2/) like FIDO2 Security Keys or FIDO U2F Security Keys to securely authenticate to websites. 
 
 **New Microsoft Edge Group Policies:** The Microsoft Edge team introduced new Group Policies and MDM settings for IT administrators to manage Microsoft Edge. The new policies include enabling/disabling full-screen mode, printing, favorites bar, and saving history; prevent certificate error overrides; configuring the Home button and startup options; setting the New Tab page and Home button URL and managing extensions. Learn more about the new Microsoft Edge policies.
 
@@ -309,7 +309,7 @@ Continuing our theme of improving the search preview experience, we’re rolling
 **Note**: search is currently limited to English locales
 
 Other Improvements: 
-* Notepad now supports**Ctrl + Backspace** to delete the previous word
+* Notepad now supports **Ctrl + Backspace** to delete the previous word
 * Arrow keys now unselect text first, and then move the cursor
 * When saving a file, the line and column number no longer reset to 1
 * Notepad now correctly displays lines that don’t fit entirely on the screen
@@ -438,7 +438,7 @@ __Steps:__
 
 ![enable wdag](images/enablewdag.png "Enable WDAG")
 
-4. After this policy is enabled, you can download files from your Windows Defender Edge session to your Downloads folder. The files from WDAG will be saved in a folder called __Untrusted files__ nested inside the Downloads folder. This folder is created automatically when you first download a file from WDAGafter enabling the policy.
+4. After this policy is enabled, you can download files from your Windows Defender Edge session to your Downloads folder. The files from WDAG will be saved in a folder called __Untrusted files__ nested inside the Downloads folder. This folder is created automatically when you first download a file from WDAG after enabling the policy.
 
 ![untrusted files](images/untrustedfiles.png "untrusted files")
 
@@ -633,17 +633,7 @@ For more information about Narrator new keyboard layout and other improvements, 
 
 * __Software Timestamping:__ You can now further improve your network time accuracy by eliminating the software delay introduced by the Windows networking stack.
 
-For more details about these new improvements, please see our announcement [here](https://blogs.technet.microsoft.com/networking/2018/07/18/top10-ws2019-hatime/).
-
-## Time accuracy and traceability improvements
-
-*__Leap second support:__ Windows supports these occasional 1-second adjustments in a traceable and UTC-compliant manner. What’s a leap second? As the earth’s rotation slows, [UTC](https://en.wikipedia.org/wiki/Coordinated_Universal_Time) (an atomic timescale) diverges from [mean solar time](https://en.wikipedia.org/wiki/Solar_time#Mean_solar_time) or astronomical time.  Once UTC has diverged by at most .9 seconds, a [leap second](https://en.wikipedia.org/wiki/Leap_second) is inserted to keep UTC in-sync with mean solar time.  Since the practice of inserting leap seconds began in 1972, a leap second has typically occurred every 18 months.
-
-*__Precision Time Protocol:__ For the highest accuracy environments, you can improve your time accuracy by leveraging a new time protocol that delivers more accurate time samples to the endpoint (Windows Server 2019 or Windows 10, host or virtual machine).
-
-*__Software Timestamping:__ You can now further improve your network time accuracy by eliminating the software delay introduced by the Windows networking stack.
-
-For more details about these new improvements, please see our announcement [here](https://blogs.technet.microsoft.com/networking/2018/07/18/top10-ws2019-hatime/).
+For more details about these new improvements, please see [Top 10 Networking Features in Windows Server 2019: #10 Accurate Network Time](https://techcommunity.microsoft.com/t5/Networking-Blog/Top-10-Networking-Features-in-Windows-Server-2019-10-Accurate/ba-p/339739).
 
 ## Kernel debugging improvements 
 We are adding support for IPv6 to KDNET. To make room for the larger headers required for IPv6, we decreased the payload size of packets. As a result, we’re declaring a new version of the protocol, so that host PCs running the latest version of the debugger can be used to debug target PCs that only support IPv4. There is a version of WinDbg Preview available at [https://aka.ms/windbgpreview](https://aka.ms/windbgpreview). Follow the [Debugging Tools for Windows](https://aka.ms/windbgblog) blog for updates on KDNET IPv6 support and documentation. 
@@ -793,13 +783,3 @@ New Power Usage Columns: Task Manager now includes 2 new columns in the “Proce
 Have you ever been typing into the regedit address bar, and the next part of the path is just on the tip of your tongue, but you can’t remember? Starting with today’s build, you’ll now see a dropdown as you type to help complete the next part of the path! Oh, and you can also press Ctrl + Backspace to delete the last “word”, which makes backing up work that much faster (Ctrl + Delete will delete the next word).
 
 ![registry editor](images/reg-editor.png "registry editor")
-
-
-
-
-
- 
-
-
-
-

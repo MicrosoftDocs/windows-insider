@@ -51,9 +51,9 @@ Below is a playbook that we've put together based on feedback from others settin
 
 		- [Entry-level intro to code and logic in one hour](https://hourofcode.com/us/learn)
 		- [What is GitHub, and how can you use it?](https://guides.github.com/activities/hello-world/)
-		- [What is Azure?](https://docs.microsoft.com/en-us/learn/paths/azure-fundamentals/)
-		- [80 billion IOT devices amongst us by 2025? What does that mean for you?](https://iotschool.microsoft.com/en-us/home)
-		- Bring a startup business person and a tech person to talk about how they’re using AI, then an AI tutorial: [What is this AI thing?](https://aischool.microsoft.com/en-us/home)
+		- [What is Azure?](https://docs.microsoft.com/learn/paths/azure-fundamentals/)
+		- [80 billion IOT devices amongst us by 2025? What does that mean for you?](https://iotschool.microsoft.com/)
+		- Bring a startup business person and a tech person to talk about how they’re using AI, then an AI tutorial: [What is this AI thing?](https://aischool.microsoft.com/)
 
 3.	Take inspiration from other successful gatherings — even ones in other countries and cities. Try to figure out which other communities have a similar focus as yours and what they’ve done.  Start by asking about who their audience was, what their goals were, and what kind of content worked for them. This will definitely raise your confidence in your own meetup. This is an area we can also help in since we talk with Insiders all over the world, so let us know what you’re up to, and we can help connect you. 
 
@@ -110,11 +110,11 @@ Below is a playbook that we've put together based on feedback from others settin
 
 ## Resources
 
-- [Microsoft Docs](https://docs.microsoft.com/en-us/)
-- [Microsoft Learn](https://docs.microsoft.com/en-us/learn/)
-- [Hour of Code Activities](https://hourofcode.com/us/learn)
-- [Digital Skills for young people](https://www.microsoft.com/en-us/digital-skills/)
+- [Microsoft Docs](https://docs.microsoft.com/)
+- [Microsoft Learn](https://docs.microsoft.com/learn/)
+- [Hour of Code Activities](https://hourofcode.com/learn)
+- [Digital Skills for young people](https://www.microsoft.com/corporate-responsibility/skills-employability/computer-science)
 - [GitHub Guides](https://guides.github.com/activities/hello-world/)
-- [What is Azure?](https://docs.microsoft.com/en-us/learn/paths/azure-fundamentals/)
-- [IOT School](https://iotschool.microsoft.com/en-us/home)
-- [AI School](https://aischool.microsoft.com/en-us/home)
+- [What is Azure?](https://docs.microsoft.com/learn/paths/azure-fundamentals/)
+- [IOT School](https://iotschool.microsoft.com/)
+- [AI School](https://aischool.microsoft.com/)

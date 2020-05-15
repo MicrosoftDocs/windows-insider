@@ -116,7 +116,7 @@ Windows Server Failover Clusters no longer use NTLM authentication by exclusivel
 We’ve improved the scalability and reliability of containers that use group managed service accounts (gMSA) to access network resources. You should see fewer authentication errors when using a single gMSA with multiple container instances. Additionally, you no longer need to set the container's host name to be the same as the gMSA. We also fixed a bug that prevented you from using gMSAs with Hyper-V isolated containers.  
 
 ### Host Device Access for Containers
-You can assign simple buses to process-isolated Windows Server containers. Applications running in containers that need to talk over SPI, I2C, GPIO, and UART/COM will now be able to do so. To learn more, and to see how to leverage the feature, see [Bringing Device Support to Windows Server Containers](https://blogs.technet.microsoft.com/virtualization/2018/08/13/bringing-device-support-to-windows-server-containers/) in the [Virtualization Blog](https://blogs.technet.microsoft.com/virtualization/).
+You can assign simple buses to process-isolated Windows Server containers. Applications running in containers that need to talk over SPI, I2C, GPIO, and UART/COM will now be able to do so. To learn more, and to see how to leverage the feature, see [Bringing Device Support to Windows Server Containers](https://techcommunity.microsoft.com/t5/Containers/Bringing-Device-Support-to-Windows-Containers/ba-p/382423) in the [Virtualization Blog](https://techcommunity.microsoft.com/t5/Virtualization/bg-p/Virtualization).
 
 ### New Container base image: Windows 
 We added a new base image to the Windows Server container collection. In addition to nanoserver and windowsservercore container images, the new windows image is now available. This image carries even more components than its nanoserver and servercore siblings, meaning it can support applications that have additional API dependencies. To learn more and get started, go to https://aka.ms/windowscontainer. 
@@ -134,11 +134,10 @@ And much more! For guidance that walks you through how to install Kubernetes ont
 
 ## Congestion Control with LEDBAT
 
-Keeping a network secure is a never-ending job for IT Pros, and doing so requires regularly updating systems to protect against the latest threat vectors.  This is one of the most common tasks that an IT Pro must perform.  Unfortunately, it can result in dissatisfaction for end-us
-ers as the network bandwidth used for the update can compete with interactive tasks that the end user requires to be productive.
-With Windows Server 2019, we bring a latency optimized, network congestion control provider called LEDBAT which scavenges whatever network bandwidth is available on the network, and uses it
+Keeping a network secure is a never-ending job for IT Pros, and doing so requires regularly updating systems to protect against the latest threat vectors.  This is one of the most common tasks that an IT Pro must perform.  Unfortunately, it can result in dissatisfaction for end-users as the network bandwidth used for the update can compete with interactive tasks that the end user requires to be productive.
+With Windows Server 2019, we bring a latency optimized, network congestion control provider called LEDBAT which scavenges whatever network bandwidth is available on the network, and uses it.
 
-For a full write up detailing this improvement, please see our announcement [LEDBAT – Latency Optimized Background Transport](https://blogs.technet.microsoft.com/networking/2018/07/25/ledbat/)
+For a full write up detailing this improvement, please see our announcement [LEDBAT – Latency Optimized Background Transport](https://techcommunity.microsoft.com/t5/Core-Infrastructure-and-Security/Breaking-Into-Windows-Server-2019-LEDBAT-Latency-Optimized/ba-p/259661).
 
 ## Microsoft Hyper-V 2019 Preview
 This is the first Insider Preview of Microsoft Hyper-V 2019. Microsoft Hyper-V Server is a stand-alone product that contains only the Windows hypervisor, a Windows Server driver model, and virtualization components. It provides a simple and reliable virtualization solution to help you improve your server utilization and reduce costs.
@@ -159,7 +158,7 @@ If you’re already using Windows Defender Advanced Threat Protection (ATP), pre
 
 Otherwise, sign up for the Windows Defender ATP trial on [Windows
 Defender Advanced Threat
-Protection](https://www.microsoft.com/en-us/windowsforbusiness/windows-atp).
+Protection](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp).
 
 ### Windows Defender ATP Exploit Guard
 
@@ -170,7 +169,7 @@ attack vectors and block behaviors commonly used in malware attacks,
 while enabling enterprises to balance their security risk and
 productivity requirements.
 
-- <a href="https://docs.microsoft.com/windows/threat-protection/windows-defender-exploit-guard/attack-surface-reduction-exploit-guard?ocid=cx-blog-mmpc">Attack Surface Reduction
+- <a href="https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction">Attack Surface Reduction
     (ASR)</a>:
     A set of controls that enterprises can enable to prevent malware
     from getting on the machine by blocking suspicious malicious files
@@ -178,18 +177,18 @@ productivity requirements.
     behavior, and email-based threats.
 
 -   [**Network
-    protection**](https://docs.microsoft.com/windows/threat-protection/windows-defender-exploit-guard/network-protection-exploit-guard?ocid=cx-blog-mmpc):
+    protection**](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/network-protection):
     Protects the endpoint against web-based threats by blocking any
     outbound process on the device to untrusted hosts/IP addresses
     through Windows Defender SmartScreen.
 
 -   [**Controlled folder
-    access**](https://blogs.technet.microsoft.com/mmpc/2017/10/23/stopping-ransomware-where-it-counts-protecting-your-data-with-controlled-folder-access?ocid=cx-blog-mmpc):
+    access**](https://www.microsoft.com/security/blog/2017/10/23/stopping-ransomware-where-it-counts-protecting-your-data-with-controlled-folder-access/):
     Protects sensitive data from ransomware by blocking untrusted
     processes from accessing your protected folders.
 
 -   [**Exploit
-    protection**](https://docs.microsoft.com/windows/threat-protection/windows-defender-exploit-guard/exploit-protection-exploit-guard?ocid=cx-blog-mmpc):
+    protection**](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/exploit-protection):
     A set of mitigations for vulnerability exploits (replacing EMET)
     that can be easily configured to protect your system and
     applications.
@@ -264,7 +263,7 @@ send us your feedback in the Feedback Hub.
 
 Organizations today deploy their applications across multiple clouds including on-premises private clouds, service provider clouds, and public clouds such as Azure. In such scenarios, enabling secure, high-performance connectivity across workloads in different clouds is essential. Windows Server 2019 brings huge SDN gateway performance improvements for these hybrid connectivity scenarios, with network throughput multiplying by up to 6x.
 
-For more details about these improvements, please see our blog entry: [Top 10 Networking Features in Windows Server 2019: #6 High Performance SDN Gateways](https://blogs.technet.microsoft.com/networking/2018/08/15/high-performance-gateways/).
+For more details about these improvements, please see our blog entry: [Top 10 Networking Features in Windows Server 2019: #6 High Performance SDN Gateways](https://techcommunity.microsoft.com/t5/Networking-Blog/Top-10-Networking-Features-in-Windows-Server-2019-6-High/ba-p/339766).
 
 ### SDN Fabric Access Control Lists (ACLs)
 We provide the ability to lock down the security of your virtual networks by automatically applying ACLs to the fabric.
@@ -279,7 +278,7 @@ SDN includes the ability to use IPv6 for virtual network address spaces, virtual
 The primary security boundary for SDN is the isolation that’s provided by the virtual network itself, but sometimes it becomes necessary to breach this boundary so that two virtual networks are able to communicate with each other. You still want these two individual boundaries to securely communicate, and that's where Virtual Network Peering comes in.
 
 For more details about these improvements, please see our blog entry:
-[Top 10 Networking Features in Windows Server 2019: #4 Security with SDN](https://blogs.technet.microsoft.com/networking/2018/08/29/sdnsecurity/)
+[Top 10 Networking Features in Windows Server 2019: #4 Security with SDN](https://techcommunity.microsoft.com/t5/Networking-Blog/Top-10-Networking-Features-in-Windows-Server-2019-4-Security/ba-p/339774)
 
 
 ## Shielded virtual machines – Offline mode, VMConnect and Linux support
@@ -292,9 +291,9 @@ HGS allows you to configure a second set of URLs for Hyper-V to try if
 it can't reach your primary HGS server. To see how this can be used in a
 branch-office scenario, see [Improved branch office support for shielded
 VMs in Windows Server, version
-1709](https://blogs.technet.microsoft.com/datacentersecurity/2017/11/15/improved-branch-office-support-for-shielded-vms-in-windows-server-version-1709/)
+1709](https://techcommunity.microsoft.com/t5/Data-Center-Security/Improved-branch-office-support-for-shielded-VMs-in-Windows/ba-p/372280)
 on our blog. [Offline
-mode](https://docs.microsoft.com/windows-server/virtualization/guarded-fabric-shielded-vm/guarded-fabric-manage-branch-office#offline-mode)
+mode](https://docs.microsoft.com/windows-server/security/guarded-fabric-shielded-vm/guarded-fabric-manage-branch-office#offline-mode)
 allows you to continue to start up your shielded VMs, even if HGS can't
 be reached, as long as the VM has started successfully once, and the
 host's security configuration has not changed. (To enable offline mode,
@@ -313,7 +312,7 @@ For customers who run mixed-OS environments, we now support running
 Ubuntu, Red Hat Enterprise Linux, and SUSE Linux Enterprise Server
 inside shielded virtual machines. Try it out—[Create a Linux shielded VM
 template
-disk](https://docs.microsoft.com/windows-server/virtualization/guarded-fabric-shielded-vm/guarded-fabric-create-a-linux-shielded-vm-template)—and
+disk](https://docs.microsoft.com/windows-server/security/guarded-fabric-shielded-vm/guarded-fabric-create-a-linux-shielded-vm-template)—and
 send us your feedback in the Feedback Hub.
 
 

@@ -12,25 +12,103 @@ ms.prod: w10
 ---
 
 # What's new for Windows 10 Insider Preview Builds (20H1)
-The [Windows Insider Program](https://insider.windows.com/en-us/) lets you preview builds of the upcoming 20H1 release of Windows 10. This topic lists all new Windows 10 features for you to try.
+
+The [Windows Insider Program](https://insider.windows.com/) lets you preview builds of the upcoming 20H1 release of Windows 10. This topic lists all new Windows 10 features for you to try.
+
+## Specialized Displays in Windows 10 Enterprise and Windows 10 Pro for Workstations
+
+If you are running the Windows 10 Enterprise or the Windows 10 Pro for Workstations editions, you may have noticed a new feature under Settings > System > Display > "Advanced display settings" > “Remove display from desktop” that allows you to use your monitor as a Specialized Display. A monitor is categorized as “specialized” if it is neither intended to be used as a “desktop” monitor nor as a head-mounted display.
+
+The Specialized Display feature enables a display to be dedicated to a specific purpose, such as: 
+* Fixed-function arcade/gaming rigs like cockpit/driving/flight/military simulators 
+* Medical imaging devices that have custom panels (e.g. grayscale X-ray displays) 
+* Dedicated video monitoring scenarios (e.g. Avid Pro) 
+* Monitor panel testing and validation (e.g. in the factory) 
+* Video walls
+
+## Cortana on Windows (Beta) – Now with more productivity! (Build 19030)
+ As part of evolving Cortana from a general digital assistant to a personal productivity assistant that helps you in the Microsoft 365 apps, we’ve made several changes that will give you a glimpse into how your assistant will help you manage tasks and time and connect with people. [Read more about these changes](https://insider.windows.com/en-us/articles/cortana-windows-beta/).
+
+## Improved disk usage for Windows Search (Build 19025)
+As Insiders know, over the releases, we’ve been continuing to work on improving search results based on your feedback, including adding Enhanced search mode (adding an easy option to expand search across all folders and drivers) in 19H1, as well integrating Windows Search into File Explorer, to ensure more consistent results regardless of where you start your search.
+
+In 19H1, we asked Insiders why they were turning off the search indexer. Your feedback helped us make improvements then and helped us focus on three key areas of improvement in 20H1: excessive disk and CPU usage, general performance issues, and low perceived value of the indexer.
+
+Based on this, we’re introducing an algorithm that detects high disk usage and activity, so it can better identify peak usage times and manage the indexer accordingly. We’re also making changes for developers to prevent searches of certain repositories and project folders to improve disk usage.
+
+Learn more about these features that we’ve been working on throughout 20H1 and get helpful tips and troubleshooting info to help you make the most of Windows Search in our [Supercharging Windows Search article](https://aka.ms/desktop-search).
+
+## Quick searches now in Search Home (Build 19018)
+To help you find the info that matters even faster, we’ve added four quick web searches to your Search Home:
+* __Weather:__ Get current conditions and the upcoming forecast
+* __Top news:__ Read the latest headlines from popular news sites
+* __Today in history:__ Explore four events that happened on this day
+* __New movies:__ Find out what’s playing in theaters near you
+
+Occasionally, we'll also feature a seasonal topic or interesting quiz. 
+
+![Quick Searches](images/19018-1.png "shows four quick searches: weather, top news, today in history, and new movies")
+
+To try any or all of these searches, click the search box on your taskbar or press the Windows logo key + S to open Search Home. Want answers and results for other searches? Just type to enter your search and get the info you’re looking for quickly and easily.
+
+Let us know what you think about quick searches and how you would like to see them evolve.
+
+Note: This is a server-side change that’s currently rolling out and will appear for users across builds from version 1809 to 20H1. Currently, quick searches are only available in the US, but will be available soon internationally.
+
+### Updated design for web preview in search results (Build 19018)
+We have made a few small tweaks to how it looks–here’s what you’ll see now:
+
+![Search](images/19018-2.png "view of updated design for web preview in search results")
+
+## More kaomoji (Build 19013)
+As some of you may know, with Windows 10 version 1903, we updated our WIN+(Period) / WIN+(Semicolon) keyboard shortcut to not only include emoji, but to also now contain kaomoji and special characters. What are kaomoji? Basically, they’re faces with expressions you can make by combining various characters–for example, you might be familiar with the shruggie:
+
+¯\\\_(ツ)_/¯
+
+![Kaomoji](images/19003-2.png "new kaomoji")
+
+Based on your feedback, in this build we’re updating our kaomoji list with a few more favorites, including:
+
+* ヾ(⌐■_■)ノ♪
+* ლ(╹◡╹ლ)
+* (⊙_◎)
+* ( ͡~ ͜ʖ ͡°)
+* ಠ_ರೃ
+* (∩^o^)⊃━☆
+* /ᐠ｡ꞈ｡ᐟ\
+
+And more! Enjoy (❁´◡`❁)
+
+## Windows Subsystem for Linux (WSL) 2 improvements (Build 19013)
+
+Previously, your WSL 2 Virtual Machine’s (VM) memory would grow to meet the needs of your workflow, but would not shrink back down when the memory was no longer needed.  With this change, as memory is no longer in use in the Linux VM, it will be freed back to Windows, which will shrink in memory size accordingly.
+
+## Preview new DirectX 12 features (Build 19013)
+In the latest 20H1 builds, you can preview new DirectX 12 features, including DirectX Raytracing tier 1.1, Mesh Shader, and Sampler Feedback. In [this blog post](https://devblogs.microsoft.com/directx/dev-preview-of-new-directx-12-features/), the DirectX Team explains what each of these features are and how they will improve the gaming experience in Windows 10!
 
 ## Windows Hello PIN in Safe mode (Build 18995)
-Safe mode starts Windows in a basic state, using a limited set of files and drivers to help you troubleshoot problems on your PC. If a problem doesn’t happen in Safe mode, this means that default settings and basic device drivers aren’t causing the issue. [Read more about Safe mode](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fsupport.microsoft.com%2Fen-us%2Fhelp%2F12376%2Fwindows-10-start-your-pc-in-safe-mode&data=02%7C01%7Cv-alshie%40microsoft.com%7C782d56759fc64df7976308d745c31bc7%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637054576615768081&sdata=x73OeLvYKrupaizwOI%2BzmLEDIq6%2FmHx%2BlfkvYEkjU8A%3D&reserved=0).
+Safe mode starts Windows in a basic state, using a limited set of files and drivers to help you troubleshoot problems on your PC. If a problem doesn’t happen in Safe mode, this means that default settings and basic device drivers aren’t causing the issue. [Read more about Safe mode](https://support.microsoft.com/help/12376/windows-10-start-your-pc-in-safe-mode).
 
 With the latest flight, we’re taking another step forward in our Passwordless journey by adding Windows Hello PIN sign-in support to Safe mode, so that you no longer have rely on your password when troubleshooting your device. Try it out with the instructions below and let us know what you think!
 
 * Set up Windows Hello in Settings > Accounts > Sign-in options
-* Boot your device into Safe mode: 1. Go to Settings > Update and Security > Recovery. 2. Under Advanced startup select Restart now. 3. After your PC restarts to the Choose an option screen, select Troubleshoot > Advanced options > Startup Settings > Restart. You may be asked to enter your [BitLocker recovery key](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fsupport.microsoft.com%2Fen-us%2Fhelp%2F4026181&data=02%7C01%7Cv-alshie%40microsoft.com%7C782d56759fc64df7976308d745c31bc7%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637054576615768081&sdata=ubrFbY5rd7iUOGJjk4%2FhQEvlyfeFkSoNsb209rzr6hU%3D&reserved=0). 4. After your PC restarts, you’ll see a list of options. Select 4 or press F4 to start your PC in Safe Mode. You can also select 5 or press F5 to use Safe Mode with Networking.
+* Boot your device into Safe mode: 
+1. Go to Settings > Update and Security > Recovery. 
+2. Under Advanced startup select Restart now. 
+3. After your PC restarts to the Choose an option screen, select Troubleshoot > Advanced options > Startup Settings > Restart. You may be asked to enter your [BitLocker recovery key](https://support.microsoft.com/help/4026181/windows-10-find-my-bitlocker-recovery-key). 
+4. After your PC restarts, you’ll see a list of options. Select 4 or press F4 to start your PC in Safe Mode. You can also select 5 or press F5 to use Safe Mode with Networking.
 * Sign in to your device with your Windows Hello PIN
 
 ![PIN access in safe made](images/18995-1.png "lock screen showing use of PIN in safe mode")
 
 ## Windows Subsystem for Linux (WSL) Improvements (Build 18995)
-See the [WSL release notes](https://docs.microsoft.com/en-us/windows/wsl/release-notes) for the newest improvements in the latest Insider Preview builds.
+See the [WSL release notes](https://docs.microsoft.com/windows/wsl/release-notes) for the newest improvements in the latest Insider Preview builds.
 
+## Connecting network cameras to Windows 10 devices (Build 18995)
+Network cameras, which are Internet Protocol-based cameras that transmit video data over a local area network (LAN), are becoming increasingly prevalent—especially in surveillance and security scenarios. [Windows now allows users to associate network cameras to their PC, enabling photo capture and streaming of video in camera applications](https://blogs.windows.com/windowsdeveloper/2019/10/10/connecting-network-cameras-to-windows-10-devices/).
 
 ## Enabling automatic restart for UWP apps (Build 18990)
-Last month, we introduced a new [separate setting](https://docs.microsoft.com/en-us/windows-insider/at-home/whats-new-wip-at-home-20h1#control-over-restarting-apps-at-sign-in-build-18965) to control if [registered desktop apps](https://docs.microsoft.com/en-us/windows/win32/recovery/registering-for-application-restart) from your previous sign-in session are restarted when signing back in to Windows. In the latest Insider Preview builds, in addition to registered desktop apps, when you opt into this setting, the majority of open UWP apps are now also automatically restarted as well! To reduce sign-in time, UWP apps are restarted minimized, in a suspended state, giving Windows and other apps more resources to get started. To try it out:
+We already introduced a new [separate setting](https://docs.microsoft.com/windows-insider/at-home/whats-new-wip-at-home-20h1#control-over-restarting-apps-at-sign-in-build-18965) to control if [registered desktop apps](https://docs.microsoft.com/windows/win32/recovery/registering-for-application-restart) from your previous sign-in session are restarted when signing back in to Windows. In the latest Insider Preview builds, in addition to registered desktop apps, when you opt into this setting, the majority of open UWP apps are now also automatically restarted as well! To reduce sign-in time, UWP apps are restarted minimized, in a suspended state, giving Windows and other apps more resources to get started. To try it out:
 1. Go to Settings > Accounts > Sign-in options and turn on “Automatically save my restartable apps when I sign out and restart them after I sign in.” under “Restart apps”.
 2. Start one or more UWP apps, such as Feedback Hub.
 3. Sign out and then sign back into Windows.
@@ -41,7 +119,7 @@ UWP apps that were started, such as Feedback Hub, should restart minimized with 
 * Improved the performance for directory listings in \\wsl$
 * (WSL2) Injected additional boot entropy [Github Issue 4461]
 * (WSL2) Fixed Windows interop when using su / sudo commands [Github issue 4465]
-For the full details of changes in this latest Insider Preview build, please see the [WSL release notes](https://docs.microsoft.com/en-us/windows/wsl/release-notes).
+For the full details of changes in this latest Insider Preview build, please see the [WSL release notes](https://docs.microsoft.com/windows/wsl/release-notes).
 
 ## Xbox Game Bar Updates (Build 18990)
 In case you hadn’t seen, we’re starting to roll out an FPS counter and achievement overlay! Thanks to everyone who shared feedback about this. The update will come via the Microsoft Store. Just set focus to your favorite game and press WIN + G to get started.
@@ -50,41 +128,36 @@ NOTE: You may have to be joined to receive Game Bar updates via the Xbox Insider
 
 ![xbox game bar updates](images/18990-1.jpg "FPS counter and achievement overlay")
 
-## Reset your PC from the cloud (Build 18990)
-Earlier today in our Windows Insider webcast, we had the Deployment Team as guests to talk about the new feature that is coming with 20H1 that allows you to reset your PC using the cloud. For more information, check out this [article from Program Manager Aaron Lower](https://insider.windows.com/en-us/articles/optimize-windows-10-pc-reset-using-the-cloud/). 
-
 ## Improving your Bluetooth pairing experience (Build 18985)
 
-For Windows 10 version 1803, we announced a new [streamlined experience for pairing supported Bluetooth devices](https://blogs.windows.com/windowsexperience/2018/02/07/announcing-windows-10-insider-preview-build-17093-pc/#w4q0dmD4RI1BsP7d.97). The idea was simple—if a supported device was nearby and in pairing mode, we’d show a notification that prompted you to go through pairing. This saved you from opening Settings yourself and finding the right place to go. Today, we’re rolling out an update with improvements we hope you’ll like.
+For Windows 10, version 1803, we announced a new [streamlined experience for pairing supported Bluetooth devices](https://blogs.windows.com/windowsexperience/2018/02/07/announcing-windows-10-insider-preview-build-17093-pc/). The idea was simple—if a supported device was nearby and in pairing mode, we’d show a notification that prompted you to go through pairing. This saved you from opening Settings yourself and finding the right place to go. Today, we’re rolling out an update with improvements we hope you’ll like.
 Here’s what’s new:
 * Pairing is all done in notifications now. You don’t need to go to the Settings app anymore to finish pairing.
 * For faster pairing time, we improved the UI by showing one less notification.
 * We added a Dismiss button to the first notification to give you more control while using Swift Pair.
 * To make the notification more helpful, now we show the device name and category when we can.
 
-We’re excited for Insiders to try it out and share feedback. This new experience is currently rolled out to 50% of Insiders, and we’ll let you know as the rollout increases. Supported devices include:
+Supported devices include:
 * Surface Ergonomic Keyboard
 * Surface Precision Mouse
-* Microsoft Modern Mobile Mouse
 * Surface Mobile Mouse
-* Microsoft Arc Mouse
 * Surface Arc Mouse
 * Surface Headphones
+* Microsoft Arc Mouse
+* Microsoft Modern Mobile Mouse
+* Microsoft Bluetooth Keyboard
+* Microsoft Bluetooth Mouse
 
 ![Bluetooth pairing](images/18985-1.gif "a notification prompting you to go through pairing a Bluetooth mouse")
 
-## Improving your optional update experience (Build 18985)
-As some Insiders have noticed, we’re working on making it easier for you to see all optional updates (including drivers, feature updates, and monthly non-security quality updates) in one place. Once optional updates are detected, they will be listed in a new page under Settings > Update & Security > Windows Update > View optional updates. For drivers, you no longer need to browse Device Manager for a specific device to update. Windows Update will automatically keep your drivers up-to-date, same as before, but if you’re having a problem one of those optional drivers might help.
+## Windows Subsystem for Linux (WSL) ARM64 support.  (Build 18980)
+In this build, we’ve added WSL2 support for ARM64 devices! We’ve also added the ability to set your distribution’s default user using the /etc/wsl.conf file. For the full details of changes in this latest Insider Preview build, please see the [WSL release notes](https://docs.microsoft.com/windows/wsl/release-notes).
 
-## Windows Subsystem for Linux (WSL) improvements (Build 18980)
-In this build, we’ve added WSL2 support for ARM64 devices! We’ve also added the ability to set your distribution’s default user using the /etc/wsl.conf file. This release also contains multiple bug fixes, including a long-standing issue for legacy Windows symlinks (for example those in the user profile directory.)
+## Option to move the Cortana window (Build 18975)
 
-For the full details of changes in this latest Insider Preview build, please see the [WSL release notes](https://docs.microsoft.com/windows/wsl/release-notes).
+With the [new conversational Cortana experience](https://docs.microsoft.com/windows-insider/at-home/whats-new-wip-at-home-20h1#introducing-a-new-cortana-experience-for-windows-10-build-18945), we understand that you wanna keep the chat going sometimes, and the default position of the window isn’t always where you’d prefer to have it docked if you’re going to have a longer back and forth. That’s why we’re starting to roll out the option to be able to move the window (by dragging the title bar area), to anywhere you’d like on the screen–just like you can with other windows. You can also resize the window if you’d like. 
 
-![WSL2](images/18980-1.png "a fix for a long-standing issue for legacy Windows symlinks")
-
-## Introducing the ability to move the Cortana window (Build 18975)
-With the [new conversational Cortana experience](https://docs.microsoft.com/en-us/windows-insider/at-home/whats-new-wip-at-home-20h1#introducing-a-new-cortana-experience-for-windows-10-build-18945), we understand that you wanna keep the chat going sometimes, and the default position of the window isn’t always where you’d prefer to have it docked if you’re going to have a longer back and forth. That’s why we’re starting to roll out the option to be able to move the window (by dragging the title bar area), to anywhere you’d like on the screen–just like you can with other windows. You can also resize the window if you’d like. Currently, this change is rolled out to 50% of Insiders with the new Cortana experience, and we’ll continue the rollout as we validate the quality of the experience.
+Please note that we’re still in the process of expanding language/region support of the new Cortana app (as discussed here), and Insiders outside of English (United States) will see a message when launching Cortana saying “Cortana isn’t available.” We’ll update you when the availability increases.
 
 ![Cortana experience](images/18975-1.gif "Cortana window moves around the desktop")
 
@@ -104,7 +177,10 @@ To get started:
 
 ## Introducing a new tablet experience for 2-in-1 convertible PCs! (Build 18970)
 
-We are beginning to roll out a new tablet experience for 2-in-1 convertible PCs as a Beta to Windows Insiders. 
+>[!NOTE]
+> This was an experiment that we began with Windows Insiders in 20H1 Build 18970 and ended in [Build 19013](https://blogs.windows.com/windowsexperience/2019/10/29/announcing-windows-10-insider-preview-build-19013/). We will deliver this experience to customers in a future update. 
+
+Now available: a new tablet experience for 2-in-1 convertible PCs as a Beta to Windows Insiders. 
 
 ![tablet experience](images/18970-1.png "a new tablet experience for 2-in-1 convertible PCs")
 
@@ -122,13 +198,15 @@ This experience is currently available for a portion of Insiders as we evaluate 
 
 We’d love to hear your feedback about the new experience–share your thoughts here.
 
-## Introducing a new PC reset option (Build 18970)
+## Reset your PC from the cloud (Build 18970)
+Reset this PC provides users a new choice to download Windows or use local reinstall. Previously, Reset this PC was only able to do a local reinstall and would build a new Windows installation from existing Windows files. When this feature was introduced in Windows 10 version 1507, it provided the advantage of enabling Windows to be recoverable without requiring extra disk space to store a compressed, backup copy of Windows in a hidden partition. We’ve heard feedback that some of you would prefer to use your high-speed internet connection to speed up this process by just downloading Windows.
 
-Reset this PC now provides users a new choice to download Windows or use local reinstall. Previously, Reset this PC was only able to do a local reinstall and would build a new Windows installation from existing Windows files. When this feature was introduced in Windows 10 version 1507, it provided the advantage of enabling Windows to be recoverable without requiring extra disk space to store a compressed, backup copy of Windows in a hidden partition. We’ve heard feedback that some of you would prefer to use your high-speed internet connection to speed up this process by just downloading Windows.
-
-Important note: This is a recovery operation and will remove apps you have installed. Additionally, if the “Remove everything” option is selected, user data will also be deleted. For more information on Reset this PC and other recovery options visit aka.ms/win10recoveryoptions.
+>[!NOTE]
+>This is a recovery operation and will remove apps you have installed. Additionally, if the “Remove everything” option is selected, user data will also be deleted. For more information on Reset this PC and other recovery options, [visit the link here](https://support.microsoft.com/help/12415/windows-10-recovery-options).
 
 The cloud download option will reinstall the same build, version, and edition, that is currently installed on your device. This new cloud download option is available to all Windows 10 devices and is different from the “Recover from the cloud” feature available on some earlier Windows 10 devices.
+
+For more information, check out [this article from Program Manager Aaron Lower](https://insider.windows.com/articles/optimize-windows-10-pc-reset-using-the-cloud/).
 
 ![recovery improvements](images/18970-2.gif "Introducing a new Reset this PC option–Cloud Download")
 
@@ -155,9 +233,9 @@ __Notes:__
 
 Virtual Desktops exist to help you visually and cognitively separate different tasks on your PC. They can also be handy when doing presentations – enabling you to prepare demos on different desktops. Something we’ve heard loud and clear is that you want to be able to set names for your different desktops, in order to help cement the separation between workspaces, and we’re excited to share that rolling out to Insiders in the Fast ring is exactly that!
 
-![virtual deskops](images/18963-2.gif "Renaming your virtual desktops")
+![virtual desktops](images/18963-2.gif "Renaming your virtual desktops")
 
-Wanna try it out? With the change, when you open Task View (by selecting the Task View button in the taskbar, or by pressing WIN+Tab,) clicking the name of your desktop will now switch it to be an editable fiel where you can set the name to be anything you’d like (including emoji). You can also right-click the thumbnail of the desired desktop in Task View, and a context menu with a Rename entry in it should appear. If you don’t have any additional desktops created yet, select “New desktop” in Task View to get started.
+Wanna try it out? With the change, when you open Task View (by selecting the Task View button in the taskbar, or by pressing WIN+Tab,) clicking the name of your desktop will now switch it to be an editable field where you can set the name to be anything you’d like (including emoji). You can also right-click the thumbnail of the desired desktop in Task View, and a context menu with a Rename entry in it should appear. If you don’t have any additional desktops created yet, select “New desktop” in Task View to get started.
 
 And yes, since we know you’ll ask – the names persist reboot. 
 
@@ -180,17 +258,56 @@ As some Insiders have noticed, you can now set your mouse cursor speed from with
 
 ![Mouse Cursor](images/18963-5.png "Adding Mouse Cursor speed to Settings")
 
-## Making Notepad store-updatable (Build 18963)
-Notepad has been a well-loved text editor in Windows for over 30 years. Over the last few releases, we’ve been making a number of small improvements to Notepad based on your feedback (including [expanded line ending support](https://devblogs.microsoft.com/commandline/extended-eol-in-notepad/), [wrap around search](https://blogs.windows.com/windowsexperience/2018/07/11/announcing-windows-10-insider-preview-build-17713/), and [indicating when there’s unsaved content](https://blogs.windows.com/windowsexperience/2018/12/10/announcing-windows-10-insider-preview-build-18298/#5443RXdQaojX3WyZ.97).) Starting with this build, we’re making a change so that future Notepad updates will be automatically available via the store. This will allow us the flexibility to respond to issues and feedback outside the bounds of Windows releases. As always, if you have any feedback for Notepad, we welcome it in the Feedback Hub under [Apps > Notepad](http://aka.ms/notepadfeedback).
+## Notepad improvements (Build 18963)
+Notepad has been a well-loved text editor in Windows for over 30 years. Over the last few releases, we’ve been making a number of small improvements to Notepad based on your feedback including:
+
+1. __Wrap-around find/replace:__ We’ve made significant improvement to the find/replace experience in Notepad. We added the option to do wrap-around find/replace to the find dialog and Notepad will now remember previously entered values and the state of checkboxes and automatically populate them the next time you open the find dialog. Additionally, when you have text selected and open the find dialog we will automatically populate the search field with the selected text.
+
+![Wrap-around](images/18963-7.png "Making Notepad store-updatable")
+
+2. __Text zooming:__ We’ve added options to make it quick and easy to zoom text in Notepad. There is a new menu option under View > Zoom to change the zoom level and we display the current zoom level in the status bar. You can also use Ctrl + Plus, Ctrl + Minus and Ctrl + MouseWheel to zoom in and out and use Ctrl + 0 to restore the zoom level to the default.
+
+![Text zooming](images/18963-8.gif "Making Notepad store-updatable")
+
+3. __Line numbers with word-wrap:__ A long outstanding request has been to add the ability to display line and column numbers when word-wrap is enabled. This is now possible in Notepad and we’ve made the status bar visible by default. You can still turn the status bar off in the View menu.
+
+![Line numbers with word-wrap](images/18963-9.gif "Making Notepad store-updatable")
+
+4. __Modified indicator:__ Notepad will now show an asterisk (*) in the title bar before the title of a document to indicate that a document has unsaved changes.
+
+![Modified indicator](images/18963-6.png "Making Notepad store-updatable")
+
+5. __Send Feedback:__ You can now send feedback directly from Notepad! Click Help > Send Feedback to open the Feedback Hub with the Notepad category selected and get your feedback directly to the product team.
+
+![Send Feedback](images/18963-10.png "Making Notepad store-updatable")
+
+__UTF-8 Encoding:__ We’ve made significant improvements to the way Notepad handles encoding. Starting with this build, we are adding the option to save files in UTF-8 without a [Byte Order Mark](https://en.wikipedia.org/wiki/Byte_order_mark) and making this the default for new files. UTF-8 without a Byte Order Mark is backwards-compatible with ASCII and will provide better interoperability with the web, where UTF-8 has become the default encoding. Additionally, we added a column to the status bar that displays the encoding of the document.
+
+__Other Updates__
+
+* __[Expanding line support](https://devblogs.microsoft.com/commandline/extended-eol-in-notepad/)__
+* We’ve added support for some additional shortcuts:
+  * Ctrl+Shift+N will open a new Notepad window.
+  * Ctrl+Shift+S will open the Save as… dialog.
+  * Ctrl+W will close the current Notepad window.
+* Notepad can now open and save files with a path that is longer than 260 characters, also known as MAX_PATH.
+* We’ve fixed a bug where Notepad would count lines incorrectly for documents with very long lines.
+* We’ve fixed a bug where, when you select a placeholder file from OneDrive in the File Open dialog, we would download the file to determine its encoding.
+* We’ve fixed a recent regression where Notepad would no longer create a new file when launched with a file path that didn’t exist.
+* We’ve improved the performance when opening large files in Notepad.
+* Notepad now supports Ctrl + Backspace to delete the previous word.
+* Arrow keys now correctly unselect text first and then move the cursor.
+* When saving a file in Notepad, the line and column number no longer reset to 1.
+* Notepad now correctly displays lines that don’t fit entirely on the screen.
 
 ## Traditional Chinese IME improvements (Build 18963)
 Thank you everyone who’s shared feedback about the new Traditional Chinese Bopomofo, ChangJie, and Quick IMEs. The developer team has been working on improving the quality and fixing bugs. With today’s build:
 
 * __Toolbar Improvements:__ We fixed an issue where toolbar shows up even when [Use IME toolbar] is turned off in the setting. We also added [Hide toolbar] button in the toolbar menu.
 
-![Traditional Chinese IME](images/18963-6.png "Toolbar Improvements")
+![Traditional Chinese IME](images/18963-12.png "Toolbar Improvements")
 
-__Note:__ Other ways to show/hide toolbar: 1, From settings: Right click [中/英] icon > Click [Settings] > [General] > [Use IME toolbar]; 2. From right click menu: Right click [中/英] icon > [Show/hide IME toolbar]
+__Note:__ Other ways to show/hide toolbar: 1. From settings: Right click [中/英] icon > Click [Settings] > [General] > [Use IME toolbar] 2. From right click menu: Right click [中/英] icon > [Show/hide IME toolbar]
  
 * __Candidate Window Improvements:__ We have been working on improving candidate window quality. We fixed an issue where candidate window sometimes only showed limited number of candidates. We also fixed an issue where candidates shown in table view cannot be selected by number keys.
 
@@ -214,8 +331,6 @@ We wanted to take a moment to cover some of the server-side search improvements 
 Windows Search has built-in spell correction to help you find what you’re looking for. When you’re typing quickly sometimes mistakes happen – we’re excited to announce that we’ve updated our spell correction technology to intelligently understand and correct small typos like “powerpiont” and “exce;” which previously would return no results. With these updates, you get better results faster. This feature is now available on both Insider and retail builds in English-language markets.  
 
 * __Hints to improve Best match results.__ Our goal with Windows Search is to provide a simple to use experience, and a key aspect of this is making results easy to understand. Something we’ve heard from you is surprise that sometimes settings search results don’t match your search. To help address this, in certain cases where the Best match result isn’t an exact match for your search, a “Related:” line will be included below the result to help clarify why this result is appearing.  We’ll be expanding this feature to include Apps search in the coming weeks.  This feature is now available on both Insider and retail builds in English (United States).
-
-![Windows Search](images/18963-7.png "Hints to improve Best match results.")
 
 * __Bringing the latest Search Home experience to more users.__ With the Windows 10 May 2019 Update we updated Search Home to help you save time by adding quick access to your Top apps and Recent activities. After receiving positive feedback and comments about this new experience, we’re now making it available to more users by rolling it out to everyone using the Windows 10 October 2018 Update as well. We hope you find them useful and that they help make Search Home more productive for you.
 Here’s a glance at what it looks like for those on the Windows 10 October 2018 Update:
@@ -243,27 +358,21 @@ Thank you everyone who’s shared feedback about the new Traditional Chinese Bop
 As you may have noticed in the screenshot below, we’re now adding the ability to change the candidate font size, separate from the rest of the system if you find that you need it to be a bit bigger. (You can still change the system font size under [Ease of Access]>[Display]>[Make text bigger].)
 
 ![Traditional Chinese IME](images/18956-3.png "Bopomofo IME settings")
-
-__We also fixed issues where:__ 
-* The candidate numbers sometimes disappeared from the candidate window.
-* Shift+Number wasn’t working for selecting an associated phrase.
-
-Thanks again! If you have any further feedback about these experiences, [let us know](https://aka.ms/inputfeedback).
-
-## Notification settings improvements now rolling out to all of Fast (Build 18956) 
-Thanks everyone who’s tried out our [improvements so far](https://blogs.windows.com/windowsexperience/2019/07/03/announcing-windows-10-insider-preview-build-18932/). We’re now starting to roll these out to all Insiders. To recap what you’ll see when you have the change:
-* If you hover your mouse over an incoming notification, you’ll now see a settings icon to make it easy to adjust that app’s notification settings.
-* We’ve updated the design of the per-app notification settings for visual clarity.
-* There’s now a direct link to notification settings at the top of the Action Center.
-* Notifications & Action Settings now has a checkbox for muting the sound of all notifications.
-* By default, the senders in Notifications & Action Settings are now sorted by “most recently sent a notification.”
-
-![Notification settings](images/18956-4.png "Notification settings improvements now rolling out to all of Fast")
  
 ## Calculator app updates (Build 18956)
 Over the next few days we’ll be starting to roll out a Calculator app update to Insiders in the Fast ring. This app is most notable because it adds the ability to put Calculator in an Always on Top mode! Thanks everyone who shared feedback requesting this – we look forward to you trying it out. Once you have the updated version, you’ll be able to switch into the Always on Top mode by clicking the icon next to the calculator mode name.
 
 ![Calculator app](images/18956-6.gif "Calculator app updates")
+
+## Accessibility Improvements (Build 18956)
+•	__Text Cursor Indicator Preview:__ Changes to the text cursor indicator can now be viewed on the fly in a new preview pane when changing the size or color in the Text cursor page in Ease of Access.  
+•	__Magnifier reading now supports 3 new ways to start reading:__ Press the play button to start reading from the top of content, or selected text if text was selected, or press the read from here button then click where you want to start reading. Note that this experience works with apps with large content like Edge, Word, Mail, etc. __Known issue:__ Play from top may not work at times and you will hear “cannot read from here.”  
+•	__Narrator__ gives page summaries and popular links: In Build 18894, we released a quick summary with Narrator + S that will give you headings, links, and landmarks. Pressing Narrator + S twice quickly will open a dialog window with the number of headings, landmarks, and links and a list of popular links. Popular links are the most commonly used links on the website, and you can navigate directly to those links from the page summary.
+•	__New Narrator Sound Scheme:__ We’ve revamped Narrator sounds to be more functional and responsive. As part of that effort, we added sounds for common actions, such as when you land on a link or when you turn on or off scan mode. To manage sounds for common actions, go to Narrator settings.  
+•	In [Build 18945](https://blogs.windows.com/windowsexperience/2019/07/26/announcing-windows-10-insider-preview-build-18945/), we released a more efficient reading experience in Outlook when arrowing through emails. If the older reading experience is preferred, you can disable the new reading experience by unchecking the “Have Narrator be more efficient in Outlook (experimental)” option in Narrator Settings.
+
+## Sideloading setting for MSIX no longer required (Build 18956) 
+Starting in this build, enabling the sideloading setting is no longer required to install MSIX packages. Prior to this, you would need to enable a sideloading policy through Settings or group policy to deploy an MSIX package. Now, you can deploy a signed MSIX package onto a device without a special configuration. As part of this change, we have changed the developer mode to be a toggle in the For developer page in Settings. Enterprises can still disable sideloading behaviors via enterprise policy. To learn more about MSIX, please refer to the documentation here: aka.ms/msix.
 
 ## Japanese IME Improvements (Build 18950)
 Thank you everyone who’s shared feedback so far about the new Japanese IME. The development team has been working on improving the quality based on your feedback. Here are some improvements that you can try out in this build:
@@ -287,11 +396,11 @@ It supports most of the Cortana features people enjoy using on Windows, such as 
 
 Not all the features from the previous Cortana experience are available just yet. As a Beta, we plan to add more features over time with updates to Cortana from the Microsoft Store.
 
-To get started, choose the Cortana icon on the taskbar next to the search box. You may need to sign-in with your account to get started. You can also leverage the speed and convenience of voice with improved speech recognition by simply saying “Hey Cortana”*. To enable this functionality go to Settings>Privacy>Voice activation> and enable "Let Cortana respond to 'Hey Cortana' keyword".
+To get started, choose the Cortana icon on the taskbar next to the search box. You may need to sign in with your account to get started. You can also leverage the speed and convenience of voice with improved speech recognition by simply saying “Hey Cortana”. To enable this functionality, go to Settings > Privacy > Voice activation and enable "Let Cortana respond to 'Hey Cortana' keyword".
 
 __Note:__ 
 * Starting with Build 18980, all Insiders worldwide will see the Cortana icon and the new app. In a future Cortana app update, customers will have the option to use Cortana if they speak a supported language, regardless of their OS display language. 
-* The new Cortana app currently supports English (United States)—because Cortana is service backed. We can and will continue to add new languages over the coming months outside the bounds of OS build updates. We expect to support the same set of regions and languages we [currently support in retail](https://support.microsoft.com/en-us/help/4026948/cortanas-regions-and-languages) by 20H1 launch. We will share more details of our language rollout plans as they progress and appreciate your patience during this transition period.
+* The new Cortana app currently supports English (United States)—because Cortana is service backed. We can and will continue to add new languages over the coming months outside the bounds of OS build updates. We expect to support the same set of regions and languages we [currently support in retail](https://support.microsoft.com/help/4026948/cortanas-regions-and-languages) by 20H1 launch. We will share more details of our language rollout plans as they progress and appreciate your patience during this transition period.
 * Historically, there were quite a few skills that could be used unauthenticated (Bing answers, open apps, Assistant conversations) but this is no longer the case. Only limited skills are currently supported in the new experience. We’ll be bringing back many skills over the coming months.
 
 
@@ -303,7 +412,7 @@ You’ll now be able to connect to your WSL 2 Linux networking applications usin
 ![WSL 2](images/18945-2.png "Added connecting via localhost to WSL 2 Linux apps from Windows and global WSL configuration options")
 
 Additionally, we’ve added global configuration options for WSL. These are options that will apply to each of your WSL distros. This also allows you to specify options that relate to the WSL 2 virtual machine (VM), as all your WSL 2 distros run inside of the same VM. The most exciting option that you’ll get access to in this build is being able to specify a custom Linux kernel!
-For the full details on what’s new in this release, check out [What’s new for WSL in Insiders Preview Build 18945](http://devblogs.microsoft.com/commandline/whats-new-for-wsl-in-insiders-preview-build-18945) on the Windows command line blog.
+For the full details on what’s new in this release, check out [What’s new for WSL in Insiders Preview Build 18945](https://devblogs.microsoft.com/commandline/whats-new-for-wsl-in-insiders-preview-build-18945) on the Windows command line blog.
 
 ## Accessibility Improvements (Build 18945)
 
@@ -312,9 +421,6 @@ For the full details on what’s new in this release, check out [What’s new fo
 When the message is opened, Scan Mode will turn on automatically. This allows the user to use their arrow keys to read the message in addition to all other Scan Mode hotkeys to jump through the text of the message.
 
 Email messages like newsletters and marketing content are often formatted using tables to visually represent the look of the message. For a screen reader user, this information is not needed while reading the message. Narrator now recognizes some of these situations and will remove the information about the table to allow you to quickly move through the text contained in the message. This lets you to be much more efficient while reading these types of email messages.
-#### Known issues
-* The cursor may not move to the location last read as Narrator auto-reads when an Outlook message is opened while in Scan Mode.
-* Narrator will start reading when replying to a message. Press the control key and move to the top of the message to write your reply.
 
 ### Narrator’s Outlook folder reading has been enhanced for an optimal triaging experience
 As you read through your emails in Outlook, such as the inbox, Narrator now reads the information more efficiently. Each line item now starts with the status of the email, such as unread, forwarded, etc., followed by the other columns, such as from, subject, etc. Column headers will be silenced and columns with no data or that have the default (expected value) will be silenced, such as normal importance or unflagged, etc. While in Outlook, headers can be turned back on by pressing Narrator + H which will toggle their reading on and off.
@@ -324,18 +430,8 @@ Have you ever had an issue finding the text cursor in the middle of a large amou
 
 ![Accessibility](images/18945-3.png "Text cursor indicator")
 
-#### Known issues 
-* Text cursor indicator color and size might not persist when you sign in. To work around that, simply turn off and turn on the “Use text cursor indicator” setting again.
-* Occasionally, you might see that the text cursor indicator stay on the screen or reappear after the app has been closed or the page contents have scrolled away.
-
-## Updated File Explorer search rolling out to all Insiders (Build 18945)
-Over the next few days, [the new File Explorer search experience](https://blogs.windows.com/windowsexperience/2019/05/08/announcing-windows-10-insider-preview-build-18894/#QfdoEyQ3TQXvJVoD.97) will be rolling out to all Insiders in the Fast ring! Thanks everyone who’s shared feedback so far and helped us to improve the experience. Please don’t hesitate to share any other comments – you can file feedback for this area under Files, Folders, and Storage > File Explorer in the Feedback Hub.
-
-![File Exploer](images/18945-4.png "updated File Explorer search rolling out to all Insiders")
-
-
 ## Updating the Korean IME (Build 18941)
-Earlier in this development cycle, we released [updated versions of both the Chinese and Japanese IMEs](https://blogs.windows.com/windowsexperience/2019/04/10/announcing-windows-10-insider-preview-build-18875/#shlPX8HU74Tl0frv.97). As part of our ongoing efforts to modernize and improve your typing experience in Windows, today we’re rolling out an updated version of the Korean IME to all Insiders in the Fast ring. This update is going out with the goal of making the IME more secure, reliable, and more beautiful to look at.
+Earlier in this development cycle, we released [updated versions of both the Chinese and Japanese IMEs](https://blogs.windows.com/windowsexperience/2019/04/10/announcing-windows-10-insider-preview-build-18875/). As part of our ongoing efforts to modernize and improve your typing experience in Windows, today we’re rolling out an updated version of the Korean IME to all Insiders in the Fast ring. This update is going out with the goal of making the IME more secure, reliable, and more beautiful to look at.
 
 For those who’re familiar with typing in Korean, the changes will be most noticeable if you write in Hanja; we have a new candidate selection window that uses modern controls and clearer typography:
 
@@ -349,10 +445,11 @@ With this change, we have a couple of known issues we’re working on addressing
 We started rolling this change out to a small portion of Insiders a few days ago, and appreciate the feedback shared so far! Your feedback helps make Windows is better for everyone, so please don’t hesitate to [continue sharing your thoughts and experiences](https://aka.ms/inputfeedback).
 
 ## Quick Event Create from the Taskbar (Build 18936)
-Do you ever open the clock and calendar flyout to help organize your thoughts while making plans? We’ve been working on making it easier to create new events and reminders, and are happy to announce that as of today, all Insiders in the Fast ring should see this when you click on the date in the taskbar:
-![Taskbar](images/18936-1.png "Quick Event Create from the Taskbar")'
+You can now quickly create an event straight from the Calendar flyout on the Taskbar. Just select the date and time at the lower right corner of the Taskbar to open the Calendar flyout and pick your desired date and start typing in the text box. You’ll then see inline options to set a time and location.
 
-Pick your desired date and start typing – you’ll now see inline options to set a time and location. We’re looking forward to you trying it out! Let us know if you have any feedback.
+Note: This feature is available in Insider Preview builds in both the Fast and Slow rings.
+
+![Taskbar](images/QuickEvent.png "Quick Event Create from the Taskbar")'
 
 ## Go passwordless with Microsoft accounts on your device (Build 18936)
 For improved security and a more seamless sign-in experience, you can now enable passwordless sign-in for Microsoft accounts on your Windows 10 device by going to Settings > Accounts > Sign-in options, and selecting ‘On’ under ‘Make your device passwordless’. This will strengthen your device sign-in by switching all Microsoft accounts on your device to modern multifactor authentication with Windows Hello Face, Fingerprint, or PIN, and eliminating passwords from Windows.
@@ -388,7 +485,7 @@ __Settings:__ We have updated settings to allow you to manage more Eye Control f
 ![Accessibility](images/18932-4.png "Eye Control")
 
 ## Refining your notification settings (Build 18932)
-Over the last few releases, based on your feedback, we’ve been working on giving you more control over potential interruptions. [Introducing Focus Assist](https://blogs.windows.com/windowsexperience/2018/05/09/windows-10-tip-how-to-enable-focus-assist-in-the-windows-10-april-2018-update/#6pHjPV1ym9QaGIuO.97) to automatically suppress notifications when you’re trying to stay in the moment and not get distracted, and adding the option to use middle click to dismiss notifications if you want to quickly make a notification toast go away.
+Over the last few releases, based on your feedback, we’ve been working on giving you more control over potential interruptions. [Introducing Focus Assist](https://blogs.windows.com/windowsexperience/2018/05/09/windows-10-tip-how-to-enable-focus-assist-in-the-windows-10-april-2018-update/) to automatically suppress notifications when you’re trying to stay in the moment and not get distracted, and adding the option to use middle click to dismiss notifications if you want to quickly make a notification toast go away.
 One thing we’ve heard from you, though, is that our notification settings aren’t easily discoverable. In addition, once you find the settings, they can be difficult to understand.
 In order to address this, we’ve begun rolling out a few changes, including:
 1. When you receive a notification toast, there will now be an inline option to turn off notifications for that app, or head to the app’s notification settings.
@@ -447,7 +544,7 @@ As we mentioned last week, you may notice that Windows Ink Workspace has changed
 
 ![Windows Ink](images/18917-3.jpg "Windows Ink Workspace Updates")
 
-As part of this, Windows Ink Workspace now takes up less screen real estate, and we’re converging our whiteboarding experiences with a new direct link to our [Microsoft Whiteboard app](https://products.office.com/en-us/microsoft-whiteboard/digital-whiteboard-app). Microsoft Whiteboard is a freeform digital canvas where ideas, content, and people can come together. It includes an infinite canvas, optional backgrounds (including graph paper and solid dark grey) to choose from, rainbow ink support, multiple pages, and generally addresses much of the feedback you shared with us about Sketchpad. If you used Sketchpad, don’t worry – we saved the sketch you were working on in your Pictures folder.
+As part of this, Windows Ink Workspace now takes up less screen real estate, and we’re converging our whiteboarding experiences with a new direct link to our [Microsoft Whiteboard app](https://products.office.com/\/microsoft-whiteboard/digital-whiteboard-app). Microsoft Whiteboard is a freeform digital canvas where ideas, content, and people can come together. It includes an infinite canvas, optional backgrounds (including graph paper and solid dark grey) to choose from, rainbow ink support, multiple pages, and generally addresses much of the feedback you shared with us about Sketchpad. If you used Sketchpad, don’t worry – we saved the sketch you were working on in your Pictures folder.
 
 We heard your feedback, and we’ve streamlined the Windows Ink Workspace for you. Stay tuned as we continue to evolve! Once the new experience arrives on your PC, please take a moment to try it out and share feedback via Feedback Hub under Desktop Environment > Windows Ink Workspace. If the Windows Ink Workspace icon isn’t visible in your taskbar, you can show it by right-clicking the taskbar and selecting “Show Windows Workspace Icon.”
 
@@ -460,14 +557,14 @@ A small, but perhaps convenient change — you’ll now be able to see the disk 
 
 ![dictation](images/18898-1.png "expanded language support")
 
-## File Explorer improvements (Build 18894)
+## Updated File Explorer search (Build 18894)
 We’ve heard your feedback asking for increased consistency, and to make it easier to find your files. Over the next few days we’ll be starting to roll out a new File Explorer search experience – now powered by Windows Search. This change will help integrate your OneDrive content online with the traditional indexed results. This rollout will start with a small percent, and then we’ll increase the rollout to more Insiders as we validate the quality of the experience.
 
 What does that mean for you? Once you have the new experience, as you type in File Explorer’s search box, you’ll now see a dropdown populated with suggested files at your fingertips that you can pick from.
 
 These improved results can be launched directly by clicking the entry in the new suggestions box, or if you want to open the file location, just right-click the entry and there’ll be an option to do so. If you need to use commands or dig deeper into non-indexed locations, you can still press enter and populate the view with the traditional search results.
 
-![dictation](images/18894-1.png "expanded language support")
+![File Explorer](images/18945-4.png "updated File Explorer search rolling out to all Insiders")
 
 We’ve also updated the design, so now as soon as you click the search box in File Explorer (or press CTRL+E to set focus to it), you’ll see the dropdown list with your search history.
 
@@ -499,7 +596,7 @@ Based on your feedback, with Feedback Hub version 1.1903, Insiders with Windows 
 ![dictation](images/18885-3.png "expanded language support")
 
 ## East Asian Microsoft Input Method Editor (IME) Improvements (Build 18875)
-__The New Japanese IME is now available to all Insiders in Fast.__ During 19H1, we announced we were working on [a new Japanese IME](https://blogs.windows.com/windowsexperience/2018/11/07/announcing-windows-10-insider-preview-build-18277/#jJxpLldDZEsihHJv.97). We got a lot of great feedback, and the IME was taken offline for a time while we worked on improving the experience based on what you’d told us. Today the IME – now more secure, more stable, with improved game compatibility, and more – is once again available for all Insiders starting with this build. If you speak Japanese, please take some time to evaluate how it feels to use the IME (with all the improvements) for daily usage, and let us know what you think! If you already were using the Japanese IME, you’ll automatically have the new one when you install this build – if you weren’t already using the Japanese IME, you can add it by going to Languages Settings and adding Japanese to the list.
+__The New Japanese IME is now available to all Insiders in Fast.__ During 19H1, we announced that we were working on [a new Japanese IME](https://blogs.windows.com/windowsexperience/2018/11/07/announcing-windows-10-insider-preview-build-18277/). We got a lot of great feedback, and the IME was taken offline for a time while we worked on improving the experience based on what you had told us. Today the IME—now more secure, more stable, with improved game compatibility, and more—is once again available for all Insiders starting with this build. If you speak Japanese, please take some time to evaluate how it feels to use the IME (with all the improvements) for daily usage, and let us know what you think! If you already were using the Japanese IME, you’ll automatically have the new one when you install this build—if you weren’t already using the Japanese IME, you can add it by going to Languages Settings and adding Japanese to the list.
 
 ![Japanese IME](images/18875-1.jpg "Key and touch customization")
 
@@ -510,7 +607,7 @@ As many of you know, we’ve been working on bringing SwiftKey’s typing intell
 
 Afrikaans (South Africa),  Albanian (Albania),  Arabic (Saudi Arabia),  Armenian (Armenia), Azerbaijani (Azerbaijan), Basque (Spain), Bulgarian (Bulgaria), Catalan (Spain), Croatian (Croatia), Czech (Czech Republic), Danish (Denmark), Dutch (Netherlands), Estonian (Estonia), Finnish (Finland), Galician (Spain), Georgian (Georgia), Greek (Greece), Hausa (Nigeria), Hebrew (Israel), Hindi (India), Hungarian (Hungary), Indonesian (Indonesia), Kazakh (Kazakhstan), Latvian (Latvia), Lithuanian (Lithuania), Macedonian (Macedonia), Malay (Malaysia), Norwegian (Bokmal, Norway), Persian (Iran), Polish (Poland), Romanian (Romania), Serbian (Serbia), Serbian (Serbia), Slovak (Slovakia),  Slovenian (Slovenia), Swedish (Sweden), Turkish (Turkey), Ukrainian (Ukraine), Uzbek (Uzbek)
 
-What does this mean for you? Basically, we’re updating the underlying language model when typing in each of these languages, to improve the accuracy of the autocorrections, shapewriting, and predictions. You’d notice this when using the touch keyboard, or the hardware keyboard text predictions (if enabled). If you use these languages above to type, help us make your typing experience even better by sharing feedback! ([being as specific as possible](https://insider.windows.com/en-us/how-to-feedback/), if you can). We’ll be posting a Quest about this improvement in the Feedback Hub soon.
+What does this mean for you? Basically, we’re updating the underlying language model when typing in each of these languages, to improve the accuracy of the autocorrections, shapewriting, and predictions. You’d notice this when using the touch keyboard, or the hardware keyboard text predictions (if enabled). If you use these languages above to type, help us make your typing experience even better by sharing feedback! ([being as specific as possible](https://insider.windows.com/how-to-feedback/), if you can). We’ll be posting a Quest about this improvement in the Feedback Hub soon.
 
 ## Improved Windows Sandbox accessibility (Build 18855)
 We have made several updates to improve Windows Sandbox accessibility scenarios. This includes: 
@@ -518,19 +615,6 @@ We have made several updates to improve Windows Sandbox accessibility scenarios.
 * Added functionality to configure the audio input device via the Windows Sandbox config file
 * A Shift + Alt + PrintScreen key sequence in Windows Sandbox which activates the ease of access dialog for enabling high contrast mode.
 * A ctrl + alt + break key sequence in Windows Sandbox which allows entering/exiting fullscreen mode
-
-## Snip & Sketch version 10.1901.10521.0 (Build 18850)
-As some of you may have already noticed, we’re in the process of rollout out a new app update to Skip Ahead. It includes a number of fixes based on your feedback, among which are:
-* We fixed an issue that could result in snips being a bit blurry after saving or copying to clipboard.
-* We fixed an issue where copying to clipboard would fail if you switched out of the app while the copy operation was in progress.
-* We fixed an issue where the suggested file name was unexpectedly a GUID for snips opened from Win + Shift + S toast.
-* We’ve added Narrator (screen reader) confirmations when a snip is copied to clipboard.
-* We’ve updated the default save format to be png. You can still use the dropdown when saving to pick your desired format if it’s not png.
-* We fixed an issue where auto-copy changes to clipboard wasn’t working on return from Snip & Sketch settings.
-* We fixed an issue where the app might crash if you closed two app windows one after another.
-* We fixed an issue where the default save file location was documents rather than pictures. In fixing this we also fixed an issue where when saving the save dialog wouldn’t remember where you last saved a snip.
-
-The rollout of this app is not tied to the upgrade, so you may see it outside the bounds of this flight.
 
 ## Windows Sandbox configuration file support (Build 18841)
 Windows Sandbox now supports configuration files! These files allow users to configure some aspects of the sandbox, such as vGPU, networking and shared folders. [Check out the blog post explaining this new feature](https://aka.ms/WindowsSandbox_ConfigFile).

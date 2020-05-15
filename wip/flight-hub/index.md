@@ -15,71 +15,131 @@ ms.prod: w10
 
 Welcome to Flight Hub! Use this dashboard to quickly identify the latest Windows Insider Preview releases for PC, Server, IoT. You can also look up the status of the SDK and ISO images.
 
-## Current Fast ring builds of Windows 10 (20H1)
+## Active Development Builds of Windows 10
 
-You can get builds of 20H1 today if you've opted in to **Fast builds**.
+Moving forward, the Fast ring will receive builds directly from this active development branch and new features will show up in these builds first. While features in the Active Development Branch may be slated for a future Windows 10 release, they are no longer matched to a specific Windows 10 release. This means that builds from the active development branch simply reflect the latest work in progress code from our engineers.
+
+| Build | Fast | SDK | ISO |
+|-------|------|------|
+|19628|[**5/13/2020**](https://blogs.windows.com/windowsexperience/2020/05/13/announcing-windows-10-insider-preview-build-19628/)|[**5/13/2020**](https://software-download.microsoft.com/download/sg/Windows_InsiderPreview_SDK_en-us_19628_1.iso)||
+|19624|[5/6/2020](https://blogs.windows.com/windowsexperience/2020/05/06/announcing-windows-10-insider-preview-build-19624/)|[5/6/2020](https://software-download.microsoft.com/download/sg/Windows_InsiderPreview_SDK_en-us_19624_1.iso)||
+|19619|[4/29/2020](https://blogs.windows.com/windowsexperience/2020/04/29/announcing-windows-10-insider-preview-build-19619/)||[**5/6/2020**](https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewadvanced)|
+|19613|[4/22/2020](https://blogs.windows.com/windowsexperience/2020/04/22/announcing-windows-10-insider-preview-build-19613/)|[4/28/2020](https://software-download.microsoft.com/download/sg/Windows_InsiderPreview_SDK_en-us_19613_1.iso)||
+|19608|[4/15/2020](https://blogs.windows.com/windowsexperience/2020/04/15/announcing-windows-10-insider-preview-build-19608/)|[4/21/2020](https://software-download.microsoft.com/download/sg/Windows_InsiderPreview_SDK_en-us_19608_1.iso)||
+|19603|[4/8/2020](https://blogs.windows.com/windowsexperience/2020/04/08/announcing-windows-10-insider-preview-build-19603/)|||
+|19592|[3/25/2020](https://blogs.windows.com/windowsexperience/2020/03/25/announcing-windows-10-insider-preview-build-19592/)|[3/31/2020](https://software-download.microsoft.com/download/sg/Windows_InsiderPreview_SDK_en-us_19592_1.iso)||
+|19587|[3/18/2020](https://blogs.windows.com/windowsexperience/2020/03/18/announcing-windows-10-insider-preview-build-19587/)|[3/24/2020](https://software-download.microsoft.com/download/sg/Windows_InsiderPreview_SDK_en-us_19587_1.iso)||
+|19582|[3/12/2020](https://blogs.windows.com/windowsexperience/2020/03/12/announcing-windows-10-insider-preview-build-19582/)|[3/17/2020](https://software-download.microsoft.com/download/sg/Windows_InsiderPreview_SDK_en-us_19582_1.iso)||
+|19577|[3/5/2020](https://blogs.windows.com/windowsexperience/2020/03/05/announcing-windows-10-insider-preview-build-19577/)|[3/10/2020](https://software-download.microsoft.com/download/sg/Windows_InsiderPreview_SDK_en-us_19577_1.iso)||
+|19569|[2/20/2020](https://blogs.windows.com/windowsexperience/2020/02/20/announcing-windows-10-insider-preview-build-19569/)|[2/25/2020](https://software-download.microsoft.com/download/sg/Windows_InsiderPreview_SDK_en-us_19569_1.iso)||
+|19564|[2/12/2020](https://blogs.windows.com/windowsexperience/2020/02/12/announcing-windows-10-insider-preview-build-19564)|[2/19/2020](https://software-download.microsoft.com/download/sg/Windows_InsiderPreview_SDK_en-us_19564_1.iso)||
+|19559|[2/5/2020](https://blogs.windows.com/windowsexperience/2020/02/05/announcing-windows-10-insider-preview-build-19559/)|[2/11/2020](https://software-download.microsoft.com/download/sg/Windows_InsiderPreview_SDK_en-us_19559_1.iso)||
+|19555|[1/30/2020](https://blogs.windows.com/windowsexperience/2020/01/30/announcing-windows-10-insider-preview-build-19555/)|[2/4/2020](https://software-download.microsoft.com/download/sg/Windows_InsiderPreview_SDK_en-us_19555_1.iso)||
+|19551|[1/23/2020](https://blogs.windows.com/windowsexperience/2020/01/23/announcing-windows-10-insider-preview-build-19551/)|[1/28/2020](https://software-download.microsoft.com/download/sg/Windows_InsiderPreview_SDK_en-us_19551_1.iso)||
+|19546|[1/16/2020](https://blogs.windows.com/windowsexperience/2020/01/16/announcing-windows-10-insider-preview-build-19546/)|[1/21/2020](https://software-download.microsoft.com/download/sg/Windows_InsiderPreview_SDK_en-us_19546_1.iso)||
+|19541|[1/8/2020](https://blogs.windows.com/windowsexperience/2020/01/08/announcing-windows-10-insider-preview-build-19541/)|||
+|19536|[12/16/2019](https://blogs.windows.com/windowsexperience/2019/12/16/announcing-windows-10-insider-preview-build-19536/)|||
+
+## Upcoming Windows 10 Feature Update (20H1)
+
+You can get builds of 20H1 today if you've opted into the **Slow ring**.
 
 The items in **bold** are the latest releases for the individual versions of the item.
 
-| Build | Fast | Slow | Server | IoT | ISO | SDK |
-|-------|------|------|--------|-----|-----|-----|
-|18995|[**10/3/2019**](https://blogs.windows.com/windowsexperience/2019/10/03/announcing-windows-10-insider-preview-build-18995/#33dmmDl1grllPKGD.97)||||||
-|18990|[9/24/2019](https://blogs.windows.com/windowsexperience/2019/09/24/announcing-windows-10-insider-preview-build-18990/#H2sEW2zKbyMuiGJP.97)||||[**10/3/2019**](https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewadvanced)|[**10/3/2019**](https://blogs.windows.com/windowsdeveloper/2019/10/01/windows-10-sdk-preview-build-18990-available-now/#LqI0dvt8u3pOTH5D.97)|
-|18985|[9/19/2019](https://blogs.windows.com/windowsexperience/2019/09/19/announcing-windows-10-insider-preview-build-18985/#KoURibChyw2pDya7.97)||[**9/24/2019**](https://blogs.windows.com/windowsexperience/2019/09/24/announcing-windows-server-vnext-insider-preview-build-18985/#t1myedPhTyJCos0c.97)|||[9/24/2019](https://blogs.windows.com/windowsdeveloper/2019/09/24/windows-10-sdk-preview-build-18985-available-now/#j2dvbtFRg39Io4gJ.97)|
-|18980|[9/11/2019](https://blogs.windows.com/windowsexperience/2019/09/11/announcing-windows-10-insider-preview-build-18980/#voQTm4Gtmvr11USC.97)||||||
-|18975|[9/6/2019](https://blogs.windows.com/windowsexperience/2019/09/06/announcing-windows-10-insider-preview-build-18975/#YBrowhPurxI5cXLp.97)||[9/10/2019](https://blogs.windows.com/windowsexperience/2019/09/10/announcing-windows-server-vnext-insider-preview-build-18975/#A4515R9W5xmdJA8P.97)|||[9/10/2019](https://blogs.windows.com/windowsdeveloper/2019/09/10/windows-10-sdk-preview-build-18975-available-now/#muUxPBVmOosGurPX.97)|
-|18970|[8/30/2019](https://blogs.windows.com/windowsexperience/2019/08/29/announcing-windows-10-insider-preview-build-18970/#e8Ozzmx73tV0B4C0.97)||||9/3/2019|[9/3/2019](https://blogs.windows.com/windowsdeveloper/2019/09/03/windows-10-sdk-preview-build-18970-available-now/#VmuwGU7llwp8b4jr.97)|
-|18965|[8/21/2019](https://blogs.windows.com/windowsexperience/2019/08/21/announcing-windows-10-insider-preview-build-18965/#rcUVlEFB6ViG9mrH.97)||[8/27/2019](https://blogs.windows.com/windowsexperience/2019/08/27/announcing-windows-server-vnext-insider-preview-build-18965/#Frrc7VBwu7pme8VM.97)|||[8/27/2019](https://blogs.windows.com/windowsdeveloper/2019/08/27/windows-10-sdk-preview-build-18965-available-now/#0AHla8dQfKDErfOB.97)|
-|18963|[8/16/2019](https://blogs.windows.com/windowsexperience/2019/08/16/announcing-windows-10-insider-preview-build-18963/#QzXW0ffZdfqqz164.97)||||||
-|18956|[8/7/2019](https://blogs.windows.com/windowsexperience/2019/08/07/announcing-windows-10-insider-preview-build-18956/#Xo3SXfcEckSeJVe9.97)|||||[8/13/2019](https://blogs.windows.com/windowsdeveloper/2019/08/13/windows-10-sdk-preview-build-18956-available-now/#ClhoYjSb7DBEUMva.97)|
-|18950|[7/31/2019](https://blogs.windows.com/windowsexperience/2019/07/31/announcing-windows-10-insider-preview-build-18950/#LqI2Ry5Q7Xj9dlUf.97)||||8/6/2019||
-|18945|[7/26/2019](https://blogs.windows.com/windowsexperience/2019/07/26/announcing-windows-10-insider-preview-build-18945/#gOul7WV7Js1k355B.97)||[7/30/2019](https://blogs.windows.com/windowsexperience/2019/07/30/announcing-windows-server-vnext-insider-preview-build-18945/#qQDiTt2WSjkfeJqp.97)|||[7/30/2019](https://blogs.windows.com/windowsdeveloper/2019/07/30/windows-10-sdk-preview-build-18945-available-now/#69Utog0lRzUzL2X6.97)|
-|18941|[7/18/2019](https://blogs.windows.com/windowsexperience/2019/07/18/announcing-windows-10-insider-preview-build-18941/#akihmq2vm7o6cTT4.97)||||||
-|18936|[7/10/2019](https://blogs.windows.com/windowsexperience/2019/07/10/announcing-windows-10-insider-preview-build-18936/#xOTpdwyjIUeGvlDK.97)||||||
-|18932|[7/3/2019](https://blogs.windows.com/windowsexperience/2019/07/03/announcing-windows-10-insider-preview-build-18932/#sUiWQPvrozsGJic1.97)||[7/9/2019](https://blogs.windows.com/windowsexperience/2019/07/09/announcing-windows-server-vnext-preview-build-18932/#DCLEVeqRhjO6zt4y.97)||7/9/2019||
-|18922|[6/19/2019](https://blogs.windows.com/windowsexperience/2019/06/19/announcing-windows-10-insider-preview-build-18922/#10cEFDsT6sfvrWxB.97)|||||[6/25/2019](https://blogs.windows.com/windowsdeveloper/2019/06/25/windows-10-sdk-preview-build-18922-available-now/#eoRmKh1p3rbbzWxU.97)|
-|18917|[6/12/2019](https://blogs.windows.com/windowsexperience/2019/06/12/announcing-windows-10-insider-preview-build-18917/#PBr663oII3EUQIbs.97)||[6/18/2019](https://blogs.windows.com/windowsexperience/2019/06/18/announcing-windows-server-vnext-preview-build-18917/#tyx8k4Df5qcXrR2H.97)|||[6/19/2019](https://blogs.windows.com/buildingapps/2019/06/18/windows-10-sdk-preview-build-18917-available-now/#fjfrOP7EMM0uopmg.97)|
-|18912|[6/5/2019](https://blogs.windows.com/windowsexperience/2019/06/05/announcing-windows-10-insider-preview-build-18912/#0gP9MhjvK4H4pDmV.97)||||6/11/2019|[6/12/2019](https://blogs.windows.com/buildingapps/2019/06/12/windows-10-sdk-preview-build-18912-available-now/#ajeSVKgySF074qlD.97)|
-|18908|[5/29/2019](https://blogs.windows.com/windowsexperience/2019/05/29/announcing-windows-10-insider-preview-build-18908/#wLhkJEJogirFpiWD.97)|||||[6/4/2019](https://blogs.windows.com/buildingapps/2019/06/04/windows-10-sdk-preview-build-18908-available-now/#JMGhJlytQzsYi1uV.97)|
-|18898|[5/15/2019](https://blogs.windows.com/windowsexperience/2019/05/15/announcing-windows-10-insider-preview-build-18898/#AFRsWFqeWjUIH3Sx.97)|||||[5/24/2019](https://blogs.windows.com/buildingapps/2019/05/24/windows-10-sdk-preview-build-18898-available-now/#K3BR81PS2HRZ7e1U.97)|
-|18895|[5/10/2019](https://blogs.windows.com/windowsexperience/2019/05/10/announcing-windows-10-insider-preview-build-18895/#Bp2Sl3z6UyTLJpuK.97)||||||
-|18894|[5/08/2019](https://blogs.windows.com/windowsexperience/2019/05/08/announcing-windows-10-insider-preview-build-18894/#h0HVgMsGgvjGPg2A.97)|||||[5/14/2019](https://blogs.windows.com/buildingapps/2019/05/14/windows-10-sdk-preview-build-18894-available-now/)|
-|18890|[5/01/2019](https://blogs.windows.com/windowsexperience/2019/05/01/announcing-windows-10-insider-preview-build-18890/#ySSQukgWEOMTK9di.97)||||||
-|18885|[4/26/2019](https://blogs.windows.com/windowsexperience/2019/04/26/announcing-windows-10-insider-preview-build-18885/#OLMv93qV5DLDAWO4.97)||||||
-|18875|[4/10/2019](https://blogs.windows.com/windowsexperience/2019/04/10/announcing-windows-10-insider-preview-build-18875/#urRQqJMPrtfb7Ayb.97)||||||
-|18865*|[3/27/2019](https://blogs.windows.com/windowsexperience/2019/03/27/announcing-windows-10-insider-preview-build-18865/#ZF0T5LhE0MwjYrzl.97)||||||
-|18860*|[3/20/2019](https://blogs.windows.com/windowsexperience/2019/03/20/announcing-windows-10-insider-preview-build-18860/#Od4bL4pQLHX2vF2q.97)||||||
-|18855*|[3/13/2019](https://blogs.windows.com/windowsexperience/2019/03/13/announcing-windows-10-insider-preview-build-18855/#mFYIvpxUKdSZ0TXd.97)||||||
-|18850*|[3/06/2019](https://blogs.windows.com/windowsexperience/2019/03/06/announcing-windows-10-insider-preview-build-18850/#pGuAWEtusq2D6vXj.97)|||||||
-|18845*|[2/28/2019](https://blogs.windows.com/windowsexperience/2019/02/28/announcing-windows-10-insider-preview-build-18845/#0vImDZSkgMk3AdDB.97)||||||||
-|18841*|[2/22/2019](https://blogs.windows.com/windowsexperience/2019/02/22/announcing-windows-10-insider-preview-build-18841/)||||||||
-|18836*|[2/14/2019](https://blogs.windows.com/windowsexperience/2019/02/14/announcing-windows-10-insider-preview-build-18836/#uTrXpJD1cfT1y6vy.97)||||||
+>[!NOTE]
+> We have replaced the Server column with a column for the Release Preview ring which is show as "RP" below.
 
->[!NOTE] 
+| Build | Fast | Slow | RP | WSUS | ISO | SDK |
+|-------|------|------|--------|-----|-----|-----|
+|19041.264||[**5/12/2020**](https://blogs.windows.com/windowsexperience/2020/05/12/releasing-windows-10-insider-preview-build-19041-264-to-the-slow-release-preview-rings/)|[**5/12/2020**](https://blogs.windows.com/windowsexperience/2020/05/12/releasing-windows-10-insider-preview-build-19041-264-to-the-slow-release-preview-rings/)||||
+|19041.208||[4/22/2020](https://blogs.windows.com/windowsexperience/2020/04/22/releasing-windows-10-insider-preview-build-19041-208-to-the-slow-ring/)|[4/30/2020](https://blogs.windows.com/windowsexperience/2020/04/30/getting-the-may-2020-update-ready-for-release-updated/)||||
+|19041.207||[4/14/2020](https://blogs.windows.com/windowsexperience/2020/04/14/releasing-windows-10-insider-preview-build-19041-207-to-the-slow-ring/)|[4/16/2020](https://blogs.windows.com/windowsexperience/2020/04/16/getting-the-may-2020-update-ready-for-release/)||||
+|19041.173||[4/9/2020](https://blogs.windows.com/windowsexperience/2020/04/09/releasing-windows-10-insider-preview-build-19041-173-to-the-slow-ring/)|||||
+|19041.172||[3/26/2020](https://blogs.windows.com/windowsexperience/2020/03/26/releasing-windows-10-insider-preview-build-19041-172-to-the-slow-ring/)|||||
+|19041.153||[3/13/2020](https://blogs.windows.com/windowsexperience/2020/03/13/releasing-windows-10-insider-preview-build-19041-153-to-the-slow-ring/)|||||
+|19041.113||[2/27/2020](https://blogs.windows.com/windowsexperience/2020/02/27/releasing-windows-10-insider-preview-build-19041-113-to-the-slow-ring/)|||||
+|19041.84||[2/12/2020](https://blogs.windows.com/windowsexperience/2020/02/11/releasing-windows-10-insider-preview-build-19041-84-to-the-slow-ring/)||[**2/25/2020**](https://blogs.windows.com/windowsexperience/2020/02/26/releasing-windows-10-insider-preview-build-19041-84-to-wsus/)|[**2/25/2020**](https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewadvanced)||
+|19041.21||[1/14/2020](https://blogs.windows.com/windowsexperience/2020/01/14/releasing-windows-10-insider-preview-build-19041-21-to-the-slow-ring/)|||||
+|19041|[12/10/2019](https://blogs.windows.com/windowsexperience/2019/12/10/announcing-windows-10-insider-preview-build-19041/)|[12/10/2019](https://blogs.windows.com/windowsexperience/2019/12/10/announcing-windows-10-insider-preview-build-19041/)||||[**12/17/2019**](https://blogs.windows.com/windowsdeveloper/2019/12/17/windows-10-sdk-preview-build-19041-available-now/)|
+|19037|[12/6/2019](https://blogs.windows.com/windowsexperience/2019/12/06/announcing-windows-10-insider-preview-build-19037/)|[12/6/2019](https://blogs.windows.com/windowsexperience/2019/12/06/announcing-windows-10-insider-preview-build-19037/)|||||
+|19035|[12/4/2019](https://blogs.windows.com/windowsexperience/2019/12/04/announcing-windows-10-insider-preview-build-19035/)|[12/4/2019](https://blogs.windows.com/windowsexperience/2019/12/04/announcing-windows-10-insider-preview-build-19035/)|||[12/10/2019](https://www.microsoft.com/software-download/windowsinsiderpreviewadvanced)|[12/10/2019](https://blogs.windows.com/windowsdeveloper/2019/12/10/windows-10-sdk-preview-build-19035-available-now/)|
+|19033|[11/26/2019](https://blogs.windows.com/windowsexperience/2019/11/26/announcing-windows-10-insider-preview-build-19033/)|[11/26/2019](https://blogs.windows.com/windowsexperience/2019/11/26/announcing-windows-10-insider-preview-build-19033/)|||||
+|19030|[11/22/2019](https://blogs.windows.com/windowsexperience/2019/11/22/announcing-windows-10-insider-preview-build-19030/)||||||
+|19028|[11/19/2019](https://blogs.windows.com/windowsexperience/2019/11/19/announcing-windows-10-insider-preview-build-19028/)|||||[11/27/2019](https://blogs.windows.com/windowsdeveloper/2019/11/27/windows-10-sdk-preview-build-19028-available-now/)|
+|19025|[11/15/2019](https://blogs.windows.com/windowsexperience/2019/11/15/announcing-windows-10-insider-preview-build-19025/)|[11/20/2019](https://blogs.windows.com/windowsexperience/2019/11/20/releasing-windows-10-insider-preview-build-19025-into-the-slow-ring/)|||||
+|19023|[11/12/2019](https://blogs.windows.com/windowsexperience/2019/11/12/announcing-windows-10-insider-preview-build-19023/)|||||[11/19/2019](https://blogs.windows.com/windowsdeveloper/2019/11/19/windows-10-sdk-preview-build-19023-available-now/)|
+|19018|[11/5/2019](https://blogs.windows.com/windowsexperience/2019/11/05/announcing-windows-10-insider-preview-build-19018/)|||||[11/12/2019](https://blogs.windows.com/windowsdeveloper/2019/11/12/windows-10-sdk-preview-build-19018-available-now/)|
+|19013|[10/29/2019](https://blogs.windows.com/windowsexperience/2019/10/29/announcing-windows-10-insider-preview-build-19013/)|[11/11/2019](https://blogs.windows.com/windowsexperience/2019/11/11/releasing-windows-10-insider-preview-build-19013-into-the-slow-ring/)|||[11/5/2019](https://www.microsoft.com/software-download/windowsinsiderpreviewadvanced)|[11/7/2019](https://blogs.windows.com/windowsdeveloper/2019/11/07/windows-10-sdk-preview-build-19013-available-now/)|
+|19008|[10/22/2019](https://blogs.windows.com/windowsexperience/2019/10/22/announcing-windows-10-insider-preview-build-19008/)|||||[10/29/2019](https://blogs.windows.com/windowsdeveloper/2019/10/29/windows-10-sdk-preview-build-19008-available-now/)|
+|19002|[10/17/2019](https://blogs.windows.com/windowsexperience/2019/10/17/announcing-windows-10-insider-preview-build-19002/)|||||[10/22/2019](https://blogs.windows.com/windowsdeveloper/2019/10/22/windows-10-sdk-preview-build-19002-available-now/)|
+|18999|[10/8/2019](https://blogs.windows.com/windowsexperience/2019/10/08/announcing-windows-10-insider-preview-build-18999/)|||||[10/15/2019](https://blogs.windows.com/windowsdeveloper/2019/10/15/windows-10-sdk-preview-build-18999-available-now/)|
+|18995|[10/3/2019](https://blogs.windows.com/windowsexperience/2019/10/03/announcing-windows-10-insider-preview-build-18995/)|||||[10/10/2019](https://blogs.windows.com/windowsdeveloper/2019/10/10/windows-10-sdk-preview-build-18995-available-now/)|
+|18990|[9/24/2019](https://blogs.windows.com/windowsexperience/2019/09/24/announcing-windows-10-insider-preview-build-18990/)||||[10/1/2019](https://www.microsoft.com/software-download/windowsinsiderpreviewadvanced)|[10/1/2019](https://blogs.windows.com/windowsdeveloper/2019/10/01/windows-10-sdk-preview-build-18990-available-now/)|
+|18985|[9/19/2019](https://blogs.windows.com/windowsexperience/2019/09/19/announcing-windows-10-insider-preview-build-18985/)|||||[9/24/2019](https://blogs.windows.com/windowsdeveloper/2019/09/24/windows-10-sdk-preview-build-18985-available-now/)|
+|18980|[9/11/2019](https://blogs.windows.com/windowsexperience/2019/09/11/announcing-windows-10-insider-preview-build-18980/)|||||[9/17/2019](https://blogs.windows.com/windowsdeveloper/2019/09/17/windows-10-sdk-preview-build-18980-available-now/)|
+|18975|[9/6/2019](https://blogs.windows.com/windowsexperience/2019/09/06/announcing-windows-10-insider-preview-build-18975/)|||||[9/10/2019](https://blogs.windows.com/windowsdeveloper/2019/09/10/windows-10-sdk-preview-build-18975-available-now/)|
+|18970|[8/29/2019](https://blogs.windows.com/windowsexperience/2019/08/29/announcing-windows-10-insider-preview-build-18970/)||||[9/3/2019](https://www.microsoft.com/software-download/windowsinsiderpreviewadvanced)|[9/3/2019](https://blogs.windows.com/windowsdeveloper/2019/09/03/windows-10-sdk-preview-build-18970-available-now/)|
+|18965|[8/21/2019](https://blogs.windows.com/windowsexperience/2019/08/21/announcing-windows-10-insider-preview-build-18965/)|||||[8/27/2019](https://blogs.windows.com/windowsdeveloper/2019/08/27/windows-10-sdk-preview-build-18965-available-now/)|
+|18963|[8/16/2019](https://blogs.windows.com/windowsexperience/2019/08/16/announcing-windows-10-insider-preview-build-18963/)||||||
+|18956|[8/7/2019](https://blogs.windows.com/windowsexperience/2019/08/07/announcing-windows-10-insider-preview-build-18956/)|||||[8/13/2019](https://blogs.windows.com/windowsdeveloper/2019/08/13/windows-10-sdk-preview-build-18956-available-now/)|
+|18950|[7/31/2019](https://blogs.windows.com/windowsexperience/2019/07/31/announcing-windows-10-insider-preview-build-18950/)||||[8/6/2019](https://www.microsoft.com/software-download/windowsinsiderpreviewadvanced)|[8/6/2019](https://blogs.windows.com/windowsdeveloper/2019/08/06/windows-10-sdk-preview-build-18950-available-now/)|
+|18945|[7/26/2019](https://blogs.windows.com/windowsexperience/2019/07/26/announcing-windows-10-insider-preview-build-18945/)|||||[7/30/2019](https://blogs.windows.com/windowsdeveloper/2019/07/30/windows-10-sdk-preview-build-18945-available-now/)|
+|18941|[7/18/2019](https://blogs.windows.com/windowsexperience/2019/07/18/announcing-windows-10-insider-preview-build-18941/)||||||
+|18936|[7/10/2019](https://blogs.windows.com/windowsexperience/2019/07/10/announcing-windows-10-insider-preview-build-18936/)||||||
+|18932|[7/3/2019](https://blogs.windows.com/windowsexperience/2019/07/03/announcing-windows-10-insider-preview-build-18932/)||||[7/9/2019](https://www.microsoft.com/software-download/windowsinsiderpreviewadvanced)||
+|18922|[6/19/2019](https://blogs.windows.com/windowsexperience/2019/06/19/announcing-windows-10-insider-preview-build-18922/)|||||[6/25/2019](https://blogs.windows.com/windowsdeveloper/2019/06/25/windows-10-sdk-preview-build-18922-available-now/)|
+|18917|[6/12/2019](https://blogs.windows.com/windowsexperience/2019/06/12/announcing-windows-10-insider-preview-build-18917/)|||||[6/18/2019](https://blogs.windows.com/windowsdeveloper/2019/06/18/windows-10-sdk-preview-build-18917-available-now/)|
+|18912|[6/5/2019](https://blogs.windows.com/windowsexperience/2019/06/05/announcing-windows-10-insider-preview-build-18912/)||||[6/11/2019](https://www.microsoft.com/software-download/windowsinsiderpreviewadvanced)|[6/12/2019](https://blogs.windows.com/windowsdeveloper/2019/06/12/windows-10-sdk-preview-build-18912-available-now/)|
+|18908|[5/29/2019](https://blogs.windows.com/windowsexperience/2019/05/29/announcing-windows-10-insider-preview-build-18908/)|||||[6/4/2019](https://blogs.windows.com/windowsdeveloper/2019/06/04/windows-10-sdk-preview-build-18908-available-now/)|
+|18898|[5/15/2019](https://blogs.windows.com/windowsexperience/2019/05/15/announcing-windows-10-insider-preview-build-18898/)|||||[5/24/2019](https://blogs.windows.com/windowsdeveloper/2019/05/24/windows-10-sdk-preview-build-18898-available-now/)|
+|18895|[5/10/2019](https://blogs.windows.com/windowsexperience/2019/05/10/announcing-windows-10-insider-preview-build-18895/)||||||
+|18894|[5/8/2019](https://blogs.windows.com/windowsexperience/2019/05/08/announcing-windows-10-insider-preview-build-18894/)|||||[5/14/2019](https://blogs.windows.com/windowsdeveloper/2019/05/14/windows-10-sdk-preview-build-18894-available-now/)|
+|18890|[5/1/2019](https://blogs.windows.com/windowsexperience/2019/05/01/announcing-windows-10-insider-preview-build-18890/)|||||[5/9/2019](https://blogs.windows.com/windowsdeveloper/2019/05/09/windows-10-sdk-preview-build-18890-available-now/)|
+|18885|[4/26/2019](https://blogs.windows.com/windowsexperience/2019/04/26/announcing-windows-10-insider-preview-build-18885/)||||||
+|18875|[4/10/2019](https://blogs.windows.com/windowsexperience/2019/04/10/announcing-windows-10-insider-preview-build-18875/)||||||
+|18865*|[3/27/2019](https://blogs.windows.com/windowsexperience/2019/03/27/announcing-windows-10-insider-preview-build-18865/)||||||
+|18860*|[3/20/2019](https://blogs.windows.com/windowsexperience/2019/03/20/announcing-windows-10-insider-preview-build-18860/)||||||
+|18855*|[3/13/2019](https://blogs.windows.com/windowsexperience/2019/03/13/announcing-windows-10-insider-preview-build-18855/)||||||
+|18850*|[3/6/2019](https://blogs.windows.com/windowsexperience/2019/03/06/announcing-windows-10-insider-preview-build-18850/)||||||
+|18845*|[2/28/2019](https://blogs.windows.com/windowsexperience/2019/02/28/announcing-windows-10-insider-preview-build-18845/)||||||
+|18841*|[2/22/2019](https://blogs.windows.com/windowsexperience/2019/02/22/announcing-windows-10-insider-preview-build-18841/)||||||
+|18836*|[2/14/2019](https://blogs.windows.com/windowsexperience/2019/02/14/announcing-windows-10-insider-preview-build-18836/)||||||
+
+>[!NOTE]
 > "*" denotes a Skip Ahead flight.
 
-## Next feature update for Windows 10 (19H2)
+## Windows 10 November 2019 Update (19H2)
 
 For details regarding the 19H2 feature update for Windows 10, see [Evolving Windows 10 servicing: the next steps](https://blogs.windows.com/windowsexperience/2019/07/01/evolving-windows-10-servicing-and-quality-the-next-steps/).
+
+On 10/10/2019, we [announced](https://blogs.windows.com/windowsexperience/2019/10/10/getting-the-november-2019-update-ready-for-release/) 19H2 will be the November 2019 Update (Version 1909) and that Build 18363.418 is the final build. We will continue to improve the overall experience of 19H2 on customers’ PCs as part of our normal servicing cadence. This means we will continue to iterate and release new Cumulative Updates for 19H2. You will see these new Cumulative Updates noted below and we will continue to note them here until General Availability.
 
 **19H2 in the Release Preview ring:**
 
 | Build | Release Preview | ISO |
-|-------|------|------|
-|18363.388*|[**10/3/2019**](https://blogs.windows.com/windowsexperience/2019/08/26/testing-the-throttled-delivery-approach-for-19h2/#rzLtlTlO7Lsx91fy.97)||
-|18363.385*|[9/23/2019](https://blogs.windows.com/windowsexperience/2019/08/26/testing-the-throttled-delivery-approach-for-19h2/#rzLtlTlO7Lsx91fy.97)||
-|18363.329*|[8/29/2019](https://blogs.windows.com/windowsexperience/2019/08/26/testing-the-throttled-delivery-approach-for-19h2/#rzLtlTlO7Lsx91fy.97)|[**9/3/2019**](https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewadvanced)|
-|18363.327*|[8/26/2019](https://blogs.windows.com/windowsexperience/2019/08/26/testing-the-throttled-delivery-approach-for-19h2/#rzLtlTlO7Lsx91fy.97)||
+|-------|-----------------|-----|
+|18363.449|[**10/24/2019**](https://blogs.windows.com/windowsexperience/2019/10/10/getting-the-november-2019-update-ready-for-release/)||
+|18363.448|[10/18/2019](https://blogs.windows.com/windowsexperience/2019/10/10/getting-the-november-2019-update-ready-for-release/)||
+|18363.446|[10/17/2019](https://blogs.windows.com/windowsexperience/2019/10/10/getting-the-november-2019-update-ready-for-release/)||
+|18363.418|[10/8/2019](https://blogs.windows.com/windowsexperience/2019/10/10/getting-the-november-2019-update-ready-for-release/)||
+|18363.388*|[10/3/2019](https://blogs.windows.com/windowsexperience/2019/08/26/testing-the-throttled-delivery-approach-for-19h2/)||
+|18363.387*|[9/27/2019](https://blogs.windows.com/windowsexperience/2019/08/26/testing-the-throttled-delivery-approach-for-19h2/)||
+|18363.385*|[9/23/2019](https://blogs.windows.com/windowsexperience/2019/08/26/testing-the-throttled-delivery-approach-for-19h2/)||
+|18363.329*|[8/29/2019](https://blogs.windows.com/windowsexperience/2019/08/26/testing-the-throttled-delivery-approach-for-19h2/)|[**9/3/2019**](https://www.microsoft.com/software-download/windowsinsiderpreviewadvanced)|
+|18363.327*|[8/26/2019](https://blogs.windows.com/windowsexperience/2019/08/26/testing-the-throttled-delivery-approach-for-19h2/)||
 
 >[!NOTE]
 > "*" denotes that the update went out to only a subset of Windows Insiders in the Release Preview ring which means not everyone in the Release Preview ring will see the update.
 
 **19H2 in the Slow ring:**
 
+As of 10/16/2019 - the Slow ring will no longer be updated with new 19H2 builds.
+
 | Build | Slow |
 |-------|------|
-|18362.10022|[**9/25/2019**](https://blogs.windows.com/windowsexperience/2019/09/25/announcing-windows-10-insider-preview-build-18362-10022-19h2/#weuFob4YQAirgxtH.97)|
-|18362.10019|[9/5/2019](https://blogs.windows.com/windowsexperience/2019/09/05/announcing-windows-10-insider-preview-build-18362-10019-19h2/#zXIxwqlHOrmjfQmO.97)|
+|18362.10024|[10/16/2019](https://blogs.windows.com/windowsexperience/2019/10/10/getting-the-november-2019-update-ready-for-release/)|
+|18362.10022|[9/25/2019](https://blogs.windows.com/windowsexperience/2019/09/25/announcing-windows-10-insider-preview-build-18362-10022-19h2/)|
+|18362.10019|[9/5/2019](https://blogs.windows.com/windowsexperience/2019/09/05/announcing-windows-10-insider-preview-build-18362-10019-19h2/)|
 |18362.10015*|[8/19/2019](https://blogs.windows.com/windowsexperience/2019/08/19/announcing-windows-10-insider-preview-build-18362-10014-18362-10015-19h2/)|
 |18362.10014|[8/19/2019](https://blogs.windows.com/windowsexperience/2019/08/19/announcing-windows-10-insider-preview-build-18362-10014-18362-10015-19h2/)|
 |18362.10013*|[8/8/2019](https://blogs.windows.com/windowsexperience/2019/08/08/announcing-windows-10-insider-preview-build-18362-10012-18362-10013-19h2/)|
@@ -133,7 +193,7 @@ The [Windows 10 May 2019 Update](https://blogs.windows.com/windowsexperience/201
 
 ## Windows 10 October 2018 Update (RS5)
 
-Windows 10, version 1809, and Windows Server 2019 were released to the world on November 13, 2018. 
+Windows 10, version 1809, and Windows Server 2019 were released to the world on November 13, 2018.
 
 | Build | Fast | Slow | Server | IoT | ISO | SDK |
 |-------|------|------|--------|-----|-----|-----|
@@ -246,40 +306,43 @@ The [Windows 10 Fall Creators Update](https://blogs.windows.com/windowsexperienc
 
 The [Windows 10 Creators Update](https://blogs.windows.com/windowsexperience/2017/04/11/how-to-get-the-windows-10-creators-update/) was released to the world on April 11th, 2017. Windows Insiders helped test 35 builds.
 
-| Build | Fast | Slow | Release Preview |
-|-------|------|------|-----------------|
-|15063|[**3/20/2017**](https://blogs.windows.com/windowsexperience/2017/03/20/announcing-windows-10-insider-preview-build-15063-pc-mobile/)|[**3/23/2017**](https://blogs.windows.com/windowsexperience/2017/03/20/announcing-windows-10-insider-preview-build-15063-pc-mobile/)|[**3/30/2017**](https://blogs.windows.com/windowsexperience/2017/03/20/announcing-windows-10-insider-preview-build-15063-pc-mobile/)|
-|15061|[3/17/2017](https://blogs.windows.com/windowsexperience/2017/03/17/announcing-windows-10-insider-preview-build-15061-pc/)|||
-|15060|[3/16/2017](https://blogs.windows.com/windowsexperience/2017/03/16/announcing-windows-10-insider-preview-build-15060-pc/)|||
-|15058|[3/14/2017](https://blogs.windows.com/windowsexperience/2017/03/14/announcing-windows-10-insider-preview-build-15058-pc/)|[3/17/2017](https://blogs.windows.com/windowsexperience/2017/03/14/announcing-windows-10-insider-preview-build-15058-pc/)||
-|15055|[3/10/2017](https://blogs.windows.com/windowsexperience/2017/03/10/announcing-windows-10-insider-preview-build-15055-pc-mobile/)|||
-|15051|[3/08/2017](https://blogs.windows.com/windowsexperience/2017/03/08/announcing-windows-10-insider-preview-build-15051-mobile/)|[3/10/2017](https://blogs.windows.com/windowsexperience/2017/03/08/announcing-windows-10-insider-preview-build-15051-mobile/)||
-|15048|[3/03/2017](https://blogs.windows.com/windowsexperience/2017/03/03/announcing-windows-10-insider-preview-build-15048-for-pc-and-build-15047-mobile/)|[3/08/2017](https://blogs.windows.com/windowsexperience/2017/03/03/announcing-windows-10-insider-preview-build-15048-for-pc-and-build-15047-mobile/)||
-|15047|[3/03/2017](https://blogs.windows.com/windowsexperience/2017/03/03/announcing-windows-10-insider-preview-build-15048-for-pc-and-build-15047-mobile/)|||
-|15046|[2/28/2017](https://blogs.windows.com/windowsexperience/2017/02/28/announcing-windows-10-insider-preview-build-15046-pc/)|||
-|15043|[2/24/2017](https://blogs.windows.com/windowsexperience/2017/02/24/announcing-windows-10-insider-preview-build-15042-pc-build-15043-mobile/)|[3/02/2017](https://blogs.windows.com/windowsexperience/2017/02/24/announcing-windows-10-insider-preview-build-15042-pc-build-15043-mobile/)||
-|15042|[2/24/2017](https://blogs.windows.com/windowsexperience/2017/02/24/announcing-windows-10-insider-preview-build-15042-pc-build-15043-mobile/)|||
-|15031|[2/09/2017](https://blogs.windows.com/windowsexperience/2017/02/09/announcing-windows-10-insider-preview-build-15031-mobile/)<br>[2/08/2017](https://blogs.windows.com/windowsexperience/2017/02/08/announcing-windows-10-insider-preview-build-15031-pc/)|||
-|15025|[2/02/2017](https://blogs.windows.com/windowsexperience/2017/02/02/announcing-windows-10-insider-preview-build-15025-mobile/)<br>[2/01/2017](https://blogs.windows.com/windowsexperience/2017/02/01/announcing-windows-10-insider-preview-build-15025-pc/)|||
-|15019|[1/27/2017](https://blogs.windows.com/windowsexperience/2017/01/27/announcing-windows-10-insider-preview-build-15019-pc/)|||
-|15014|[1/19/2017](https://blogs.windows.com/windowsexperience/2017/01/19/announcing-windows-10-insider-preview-build-15014-for-pc-and-mobile-hello-windows-insiders-today-we-are-excited-to-be-releasing-windows-10-insider-preview-build-15014-for-pc-and-mobile/)|||
-|15007|[1/12/2017](https://blogs.windows.com/windowsexperience/2017/01/12/announcing-windows-10-insider-preview-build-15007-pc-mobile/)|||
-|15002|[1/09/2017](https://blogs.windows.com/windowsexperience/2017/01/09/announcing-windows-10-insider-preview-build-15002-pc/)|||
-|14986|[12/07/2016](https://blogs.windows.com/windowsexperience/2016/12/07/announcing-windows-10-insider-preview-build-14986-pc/)|[12/14/2016](https://blogs.windows.com/windowsexperience/2016/12/07/announcing-windows-10-insider-preview-build-14986-pc/)||
-|14977|[12/01/2016](https://blogs.windows.com/windowsexperience/2016/12/01/announcing-windows-10-insider-preview-build-14977-mobile/)|||
-|14971|[11/17/2016](https://blogs.windows.com/windowsexperience/2016/11/17/announcing-windows-10-insider-preview-build-14971-for-pc/)|||
-|14965|[11/09/2016](https://blogs.windows.com/windowsexperience/2016/11/09/announcing-windows-10-insider-preview-build-14965-for-mobile-and-pc/)|[11/17/2016](https://blogs.windows.com/windowsexperience/2016/11/09/announcing-windows-10-insider-preview-build-14965-for-mobile-and-pc/)<br>[11/16/2016](https://blogs.windows.com/windowsexperience/2016/11/09/announcing-windows-10-insider-preview-build-14965-for-mobile-and-pc/)||
-|14959|[11/03/2016](https://blogs.windows.com/windowsexperience/2016/11/03/announcing-windows-10-insider-preview-build-14959-for-mobile-and-pc/)|||
-|14955|[10/25/2016](https://blogs.windows.com/windowsexperience/2016/10/25/announcing-windows-10-insider-preview-build-14955-for-mobile-and-pc/)|||
-|14951|[10/19/2016](https://blogs.windows.com/windowsexperience/2016/10/19/announcing-windows-10-insider-preview-build-14951-for-mobile-and-pc/)|||
-|14946|[10/13/2016](https://blogs.windows.com/windowsexperience/2016/10/13/announcing-windows-10-insider-preview-build-14946-for-pc-and-mobile/)|||
-|14942|[10/07/2016](https://blogs.windows.com/windowsexperience/2016/10/07/announcing-windows-10-insider-preview-build-14942-for-pc/)|||
-|14936|[9/28/2016](https://blogs.windows.com/windowsexperience/2016/09/28/announcing-windows-10-insider-preview-build-14936-for-pc/)|||
-|14931|[9/21/2016](https://blogs.windows.com/windowsexperience/2016/09/21/announcing-windows-10-insider-preview-build-14931-for-pc/)|[10/05/2016](https://blogs.windows.com/windowsexperience/2016/09/21/announcing-windows-10-insider-preview-build-14931-for-pc/)||
-|14926|[9/14/2016](https://blogs.windows.com/windowsexperience/2016/09/14/announcing-windows-10-insider-preview-build-14926-for-pc-and-mobile/)|||
-|14915|[8/31/2016](https://blogs.windows.com/windowsexperience/2016/08/31/announcing-windows-10-insider-preview-build-14915-for-pc-and-mobile/)|||
-|14905|[8/17/2016](https://blogs.windows.com/windowsexperience/2016/08/17/announcing-windows-10-insider-preview-build-14905-for-pc-mobile/)|||
-|14901|[8/11/2016](https://blogs.windows.com/windowsexperience/2016/08/11/announcing-windows-10-insider-preview-build-14901-for-pc/)|||
+| Build | Fast | Slow | Release Preview | IoT | ISO | SDK |
+|-------|------|------|-----------------|-----|-----|-----|
+|15063|[**3/20/2017**](https://blogs.windows.com/windowsexperience/2017/03/20/announcing-windows-10-insider-preview-build-15063-pc-mobile/)|[**3/23/2017**](https://blogs.windows.com/windowsexperience/2017/03/20/announcing-windows-10-insider-preview-build-15063-pc-mobile/)|[**3/30/2017**](https://blogs.windows.com/windowsexperience/2017/03/20/announcing-windows-10-insider-preview-build-15063-pc-mobile/)|[**3/23/2017**](https://social.msdn.microsoft.com/Forums/en-US/55da1cc7-a852-41d3-a04f-ed9fd3ba5666/new-flight-15063-released-for-insiders)|[**3/30/2017**](https://www.microsoft.com/software-download/windowsinsiderpreviewadvanced)|[**4/5/2017**](https://blogs.windows.com/windowsdeveloper/2017/04/05/windows-10-creators-update-creators-update-sdk-released/)|
+|15061|[3/17/2017](https://blogs.windows.com/windowsexperience/2017/03/17/announcing-windows-10-insider-preview-build-15061-pc/)||||||
+|15060|[3/16/2017](https://blogs.windows.com/windowsexperience/2017/03/16/announcing-windows-10-insider-preview-build-15060-pc/)||||||
+|15058|[3/14/2017](https://blogs.windows.com/windowsexperience/2017/03/14/announcing-windows-10-insider-preview-build-15058-pc/)|[3/17/2017](https://blogs.windows.com/windowsexperience/2017/03/14/announcing-windows-10-insider-preview-build-15058-pc/)||[3/16/2017](https://social.msdn.microsoft.com/Forums/en-US/696ed681-b9cc-4d25-bc6c-86bdb47bcf5c/new-flight-15058-released-for-insiders)|[3/17/2017](https://www.microsoft.com/software-download/windowsinsiderpreviewadvanced)||
+|15055|[3/10/2017](https://blogs.windows.com/windowsexperience/2017/03/10/announcing-windows-10-insider-preview-build-15055-pc-mobile/)||||||
+|15052||||||[3/14/2017](https://blogs.windows.com/windowsdeveloper/2017/03/14/windows-10-sdk-preview-build-15052-released/)|
+|15051|[3/8/2017](https://blogs.windows.com/windowsexperience/2017/03/08/announcing-windows-10-insider-preview-build-15051-mobile/)|[3/10/2017](https://blogs.windows.com/windowsexperience/2017/03/08/announcing-windows-10-insider-preview-build-15051-mobile/)||[3/9/2017](https://social.msdn.microsoft.com/Forums/en-US/2e96b5f7-84ed-4f54-9bfd-60c2b050942a/new-flight-15051-released-for-insiders)|||
+|15048|[3/3/2017](https://blogs.windows.com/windowsexperience/2017/03/03/announcing-windows-10-insider-preview-build-15048-for-pc-and-build-15047-mobile/)|[3/8/2017](https://blogs.windows.com/windowsexperience/2017/03/03/announcing-windows-10-insider-preview-build-15048-for-pc-and-build-15047-mobile/)|||[3/14/2017](https://www.microsoft.com/software-download/windowsinsiderpreviewadvanced)||
+|15047|[3/3/2017](https://blogs.windows.com/windowsexperience/2017/03/03/announcing-windows-10-insider-preview-build-15048-for-pc-and-build-15047-mobile/)||||||
+|15046|[2/28/2017](https://blogs.windows.com/windowsexperience/2017/02/28/announcing-windows-10-insider-preview-build-15046-pc/)||||||
+|15043|[2/24/2017](https://blogs.windows.com/windowsexperience/2017/02/24/announcing-windows-10-insider-preview-build-15042-pc-build-15043-mobile/)|[3/2/2017](https://blogs.windows.com/windowsexperience/2017/02/24/announcing-windows-10-insider-preview-build-15042-pc-build-15043-mobile/)||[2/25/2017](https://social.msdn.microsoft.com/Forums/en-US/1772b05f-dd3e-4182-86ff-9e374f0aaf32/new-flight-15043-released-for-insiders)|||
+|15042|[2/24/2017](https://blogs.windows.com/windowsexperience/2017/02/24/announcing-windows-10-insider-preview-build-15042-pc-build-15043-mobile/)||||[3/1/2017](https://www.microsoft.com/software-download/windowsinsiderpreviewadvanced)|[2/28/2017](https://blogs.windows.com/windowsdeveloper/2017/02/28/windows-10-sdk-preview-build-15042-released/)|
+|15031|[2/9/2017](https://blogs.windows.com/windowsexperience/2017/02/09/announcing-windows-10-insider-preview-build-15031-mobile/)<br>[2/8/2017](https://blogs.windows.com/windowsexperience/2017/02/08/announcing-windows-10-insider-preview-build-15031-pc/)||||||
+|15025|[2/2/2017](https://blogs.windows.com/windowsexperience/2017/02/02/announcing-windows-10-insider-preview-build-15025-mobile/)<br>[2/1/2017](https://blogs.windows.com/windowsexperience/2017/02/01/announcing-windows-10-insider-preview-build-15025-pc/)||||[2/5/2017](https://www.microsoft.com/software-download/windowsinsiderpreviewadvanced)||
+|15021||||||[2/3/2017](https://blogs.windows.com/windowsdeveloper/2017/02/03/windows-10-sdk-preview-build-15021-released/)|
+|15019|[1/27/2017](https://blogs.windows.com/windowsexperience/2017/01/27/announcing-windows-10-insider-preview-build-15019-pc/)||||||
+|15014|[1/19/2017](https://blogs.windows.com/windowsexperience/2017/01/19/announcing-windows-10-insider-preview-build-15014-for-pc-and-mobile-hello-windows-insiders-today-we-are-excited-to-be-releasing-windows-10-insider-preview-build-15014-for-pc-and-mobile/)||||||
+|15007|[1/12/2017](https://blogs.windows.com/windowsexperience/2017/01/12/announcing-windows-10-insider-preview-build-15007-pc-mobile/)|||[1/12/2017](https://social.msdn.microsoft.com/Forums/en-US/7c3dd88a-b3f0-46c4-bbcd-f3ec21891380/new-flight-15007-released-for-insiders)|||
+|15003||||||[1/13/2017](https://blogs.windows.com/windowsdeveloper/2017/01/13/windows-10-sdk-preview-build-15003-released/)|
+|15002|[1/9/2017](https://blogs.windows.com/windowsexperience/2017/01/09/announcing-windows-10-insider-preview-build-15002-pc/)|||[1/9/2017](https://social.msdn.microsoft.com/Forums/en-US/b4b2f11d-3318-4efa-8e8b-778ece599046/new-flight-15002-released-for-insiders)|[1/13/2017](https://www.microsoft.com/software-download/windowsinsiderpreviewadvanced)||
+|14986|[12/7/2016](https://blogs.windows.com/windowsexperience/2016/12/07/announcing-windows-10-insider-preview-build-14986-pc/)|[12/14/2016](https://blogs.windows.com/windowsexperience/2016/12/07/announcing-windows-10-insider-preview-build-14986-pc/)||[12/10/2016](https://social.msdn.microsoft.com/Forums/en-US/be5fc892-b4d7-4f44-a3c2-c0a1c302dc0c/new-flight-14986-released-for-insiders)|||
+|14977|[12/1/2016](https://blogs.windows.com/windowsexperience/2016/12/01/announcing-windows-10-insider-preview-build-14977-mobile/)||||||
+|14971|[11/17/2016](https://blogs.windows.com/windowsexperience/2016/11/17/announcing-windows-10-insider-preview-build-14971-for-pc/)|||[11/17/2016](https://social.msdn.microsoft.com/Forums/en-US/1d5244ac-bf5c-486c-a203-b0406bc858f6/new-flight-14971-released-for-insiders)|||
+|14965|[11/9/2016](https://blogs.windows.com/windowsexperience/2016/11/09/announcing-windows-10-insider-preview-build-14965-for-mobile-and-pc/)|[11/17/2016](https://blogs.windows.com/windowsexperience/2016/11/09/announcing-windows-10-insider-preview-build-14965-for-mobile-and-pc/)<br>[11/16/2016](https://blogs.windows.com/windowsexperience/2016/11/09/announcing-windows-10-insider-preview-build-14965-for-mobile-and-pc/)||[11/10/2016](https://social.msdn.microsoft.com/Forums/en-US/76bdff34-8816-4b48-aa36-c91b1f2c2447/new-flight-14965-released-for-insiders)||[11/21/2016](https://blogs.windows.com/windowsdeveloper/2016/11/21/windows-10-sdk-preview-build-14965-released/)|
+|14959|[11/3/2016](https://blogs.windows.com/windowsexperience/2016/11/03/announcing-windows-10-insider-preview-build-14959-for-mobile-and-pc/)|||[11/3/2016](https://social.msdn.microsoft.com/Forums/en-US/a6c9acaf-6b4c-445f-aef2-041ea743061e/new-flight-14959-released-for-insiders)|||
+|14955|[10/25/2016](https://blogs.windows.com/windowsexperience/2016/10/25/announcing-windows-10-insider-preview-build-14955-for-mobile-and-pc/)|||[11/2/2016](https://social.msdn.microsoft.com/Forums/en-US/3c6bb41c-6f1d-4e11-ba3a-fac208721bc7/new-flight-14955-released)|||
+|14951|[10/19/2016](https://blogs.windows.com/windowsexperience/2016/10/19/announcing-windows-10-insider-preview-build-14951-for-mobile-and-pc/)|||[10/21/2016](https://social.msdn.microsoft.com/Forums/en-US/f2170a43-dd3c-45bd-84fc-471508ba9364/new-flight-14951-released)|||
+|14946|[10/13/2016](https://blogs.windows.com/windowsexperience/2016/10/13/announcing-windows-10-insider-preview-build-14946-for-pc-and-mobile/)||||||
+|14942|[10/7/2016](https://blogs.windows.com/windowsexperience/2016/10/07/announcing-windows-10-insider-preview-build-14942-for-pc/)||||||
+|14936|[9/28/2016](https://blogs.windows.com/windowsexperience/2016/09/28/announcing-windows-10-insider-preview-build-14936-for-pc/)|||[9/29/2016](https://social.msdn.microsoft.com/Forums/en-US/9c92fe44-166c-4ae9-9c66-09553315d97a/new-flight-14936-released)|||
+|14931|[9/21/2016](https://blogs.windows.com/windowsexperience/2016/09/21/announcing-windows-10-insider-preview-build-14931-for-pc/)|[10/5/2016](https://blogs.windows.com/windowsexperience/2016/09/21/announcing-windows-10-insider-preview-build-14931-for-pc/)||[9/22/2016](https://social.msdn.microsoft.com/Forums/en-US/163e8227-6e5a-43a5-9f69-499304587a4b/new-flight-14931-released)|[10/5/2016](https://www.microsoft.com/software-download/windowsinsiderpreviewadvanced)||
+|14926|[9/14/2016](https://blogs.windows.com/windowsexperience/2016/09/14/announcing-windows-10-insider-preview-build-14926-for-pc-and-mobile/)|||[9/19/2016](https://social.msdn.microsoft.com/Forums/en-US/9f7c7042-5b49-4563-8385-89bd21b0feb7/new-flight-14926-released)|||
+|14915|[8/31/2016](https://blogs.windows.com/windowsexperience/2016/08/31/announcing-windows-10-insider-preview-build-14915-for-pc-and-mobile/)|||[9/6/2016](https://social.msdn.microsoft.com/Forums/en-US/4ddb5e1d-fbf1-46e0-9b47-5dfd24202826/new-flight-14915-released)|||
+|14905|[8/17/2016](https://blogs.windows.com/windowsexperience/2016/08/17/announcing-windows-10-insider-preview-build-14905-for-pc-mobile/)||||||
+|14901|[8/11/2016](https://blogs.windows.com/windowsexperience/2016/08/11/announcing-windows-10-insider-preview-build-14901-for-pc/)||||||
 
 ## Windows 10 Anniversary Update (RS1)
 

@@ -13,9 +13,9 @@ ms.localizationpriority: medium
 ---
 
 # Register for the Windows Insider Program for Business
-The first step to participating in the Windows Insider Program for Business and installing Windows 10 Insider Preview Builds is to register as a Windows Insider. You have two registration options: 
+The first step to participating in the Windows Insider Program for Business and installing Windows 10 Insider Preview builds is to register as a Windows Insider. You have two registration options: 
 
-* Go to [Windows Insider Program website](https://insider.windows.com/en-us/register/), OR 
+* Go to [Windows Insider Program website](https://insider.windows.com/), OR 
 * Go to [Settings> Update & Security> Windows Insider Program](ms-settings:windowsinsider) and click "Get Started". 
 
 You can register with either your work account in Azure Active Directory or your Microsoft account. 
@@ -33,7 +33,7 @@ __Register your personal Microsoft account.__ If you do not have an Azure AD wor
 
 NOTE:
 * You can also register directly on a device. Go to __Settings > Update & Security > Windows Insider Program__ and click "Get started". 
-* The account that you use to register for the Windows Insider Program does not have to be the same as the account that you used to authenciate with Windows on your device. 
+* The account that you use to register for the Windows Insider Program does not have to be the same as the account that you used to authenticate with Windows on your device. 
 * You can switch the account that you used to register for the Windows Insider Program by going to __Settings > Updates & Security > Windows Insider Program__. Under __Windows Insider account__ select __Change__.
 
 ## Next up

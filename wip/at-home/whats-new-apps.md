@@ -13,19 +13,104 @@ ms.prod: w10
 ---
 
 # Windows app updates 
-You will find information on the latest major app updates for Windows 10 released to Windows Insiders here. Currently, app updates are sorted by date in which announcements of the app updates are made. 
+You will find information on the latest major app updates for Windows 10 released here. These updates are currently available using PCs running Windows 10 Version 1903. 
 
-_Note:_ Not all app updates will be listed here. Only app updates that include major changes e.g. new features, etc. will be noted here.
+_Note:_ Not all app updates will be listed here. Only app updates that include major changes e.g. new features, etc. will be noted.
 
-## Your Phone 
-These updates are currently available using PCs running Windows 10 Insider Preview Builds (19H1). 
+## Your Phone
+
+__12/16/2019__
+
+### Photos has evolved. View and interact with your most recent 2000 photos!
+We take a lot of photos on our smartphones. We heard our avid Your Phone app users when you when you said you wanted the ability to access more than 25 of your recent photos. Today, we’re happy to announce that we’ve addressed this by letting you view and interact with your most recent 2,000 photos from your Android smartphone’s camera roll on your PC!
+
+With the Your Phone Photos feature, you don’t have to email photos to yourself. Simply take a pic and see it instantly on your PC. When you need to add a recent image to your email, paper, or presentation, just drag and drop. You can also conveniently share it with family or friends or save it directly to your PC by simply right clicking on the image.
+
+Try out this newly enhanced capability and share your experience.
+
+![Your phone](images/19536-4.png "Your Phone app recent photos page")
+
+__Photos requirements:__
+
+* Any Android phones running version 7.0 or higher
+* PC running Windows 10 April 2018 Update (1803) or higher
+
+__Known Issues:__
+* If the Photo selector in Messages appears blank, navigate to Photos on the left and hit refresh. Your photos should now appear in the Photo selector.
+
+This feature will gradually roll out to Windows Insiders on the Windows 10 May 2019 Update or newer, so it may take a few days to be available inside the Your Phone app. Please make sure you have the latest versions of Your Phone Companion and the Your Phone app to experience this feature.
+
+### Phone screen now supports pen input
+The Phone screen feature is getting a boost. In addition to keyboard, mouse, and touch support, you can now use your digital pen with a compatible stylus to input on any touch screen enabled Windows 10 PC to interact with your mobile apps while in Phone screen session. Leverage your pen’s pressure sensitivity for drawing and writing like you would with your phone’s stylus with apps that support pressure sensitivity. You will also be able to hover over buttons, and it differentiates between the pen and finger touch.
+
+![Your phone](images/19536-5.jpg "Your Phone app recent photos page")
+
+This feature is available to all Windows Insiders on Windows 10 October 2018 Update or newer and requires Phone screen compatible devices.
+
+We value your feedback, so give it a try and let us know what you think. You can report any issues under Your Phone > Settings > Send feedback or directly through Feedback Hub.
+
+__Pen Input Requirements:__
+Your Phone App version 1.19102.500.0 or newer
+Phone screen compatible devices
+
+__10/29/2019__
+
+### Elevating the Phone screen feature by removing its dependency on Bluetooth connection
+
+Windows Insiders, we heard your feedback about the Phone screen feature’s dependency on Bluetooth Low Energy connectivity. To address your feedback, we partnered closely with Samsung to bring you a more streamlined experience across all Windows 10 PCs by removing the peripheral role dependency for Phone screen, which will expand the overall reach of this feature.
+
+Samsung Galaxy Note 10 was the first device to introduce this feature in August. After a positive response, we’ve recently enabled this feature across Samsung Galaxy Fold, S10, S10+, and S10e smartphones. You’ll need to update your supported Samsung devices with the recent software update that enables the ‘Link to Windows’ feature. To continue offering this experience to other smartphones, we’re expanding this feature support to Samsung Galaxy A30s, A50s, and A90 smartphones, and we’ll continue to add additional devices in the coming months.
+
+With the new experience rolling out, we’ll be removing the Bluetooth connectivity option, effective immediately. If you were previously enjoying Phone screen over Bluetooth and you have a phone model that doesn’t yet support Link to Windows, the Phone screen node will disappear automatically within the Your Phone app. We recommend that you unpair your devices by going to the Bluetooth settings on both your PC and your Android phone, so that you don’t have a connection that is no longer in use.
+
+Thank you for helping us refine the Phone screen experience so far!
+
+Phone screen requirements:
+* Select Android phones running Android 9.0 or greater
+* PC running Windows 10 October 2018 Update (version 1809) or later
+* Android phone must be on and connected to the same network as the PC
+* You will need a supported device to use this feature: 
+    * Samsung Galaxy Fold
+    * Samsung Galaxy Note 10/ Note 10+
+    * Samsung Galaxy S10/S10+/S10e
+    * Samsung Galaxy A30s/A50s/A90
+* Refer to the [Your Phone FAQs](https://support.microsoft.com/help/4459358/windows-10-your-phone-app-help) for additional information.
+
+__10/8/2019__
+### Unveiling Calls, now even more ways to stay connected to what matters 
+No need to dig for your Android phone to answer your personal or work calls. You can now stay connected by simply answering (or not) your phone calls on your PC. Tap into your PC’s speakers, microphone, and large screen for a richer calling experience.
+
+With the Calls feature you can:
+* Answer incoming phone calls on your PC.
+* Initiate phone calls from your PC using in-app dialer or contact list.
+* Decline incoming phone calls on your PC with custom text or send directly to your phone’s voicemail.
+* Access your recent call history on your PC. Clicking on a specific call will auto populate the number within the dialer screen.
+* Seamlessly transfer calls between your PC and phone.
+
+![Your Phone app](images/18999-1.png "take calls from your phone on your PC with the new Calls feature")
+
+Calls requirements:
+* Android Phones running Android 7.0 or higher
+* Windows 10 PC with Bluetooth radio
+* Windows 10 Version 1903 (OS build) 18362.356 or newer
+
+Note: 
+* This feature will gradually roll out to Insiders so it may take a few days to be available inside the Your Phone app.
+* To enable the Calls feature, sign into the Your Phone app using the Microsoft account that you used to register as a Windows Insider. 
+* For set-up instructions and other details, see [Calls Feature for the Your phone app](https://answers.microsoft.com/en-us/insider/forum/all/calls-feature-for-the-your-phone-app/8266e234-ba16-42be-8b11-af2e33ba93ed).
+
+Known issue:
+* In certain instances, Calls feature may require you to pair your mobile phone & PC again. If you have previously paired your devices, unpair your devices and go through the Calls setup flow again.
+
+We value your feedback, so give it a try and let us know what you think. You can report any issues under the Your Phone > Settings > Send feedback.
 
 __10/3/2019__
 
 ### Link to Windows on more devices. 
 We’re pleased to announce that Link to Windows feature, which seamlessly connects your phone to your Windows 10 PC, is rolling out to Samsung Galaxy S10, S10+, S10e, S10 5G, and Fold devices in select global markets. With Link to Windows natively integrated into your device, it’s simple and convenient to send messages, manage notifications, sync photos, and mirror your phone on your PC.
-### Phone screen on more device. 
-Phone screen which allows you to access your Android phone’s apps right from your PC while using your keyboard and mouse or touch screen, is also rolling out to Samsung Galaxy S10, S10+, S10e, S10 5G, and Fold devices in select global markets. You can try out multi-touch gestures such as pinch to zoom, rotate, or swipe from your PC’s touchscreen while using Phone screen. If you have one of these devices, give it a try. This is a gradual rollout, so stay tuned for more to come on additional markets and devices.
+
+### Phone screen on more devices. 
+Phone screen which allows you to access your Android phone’s apps right from your PC while using your keyboard and mouse or touch screen) is also rolling out to Samsung Galaxy S10, S10+, S10e, S10 5G, and Fold devices in select global markets. You can try out multi-touch gestures such as pinch to zoom, rotate, or swipe from your PC’s touchscreen while using Phone screen. If you have one of these devices, give it a try. This is a gradual rollout, so stay tuned for more to come on additional markets and devices.
 
 ### Battery level indicator & phone’s home screen wallpaper.
 In addition to Phone screen and Link to Windows expansion, two additional features are rolling out to all users–battery indicator, which will provide quick access to your phone’s battery levels right in the app without needing to check your device, and Your Phone icon within the app, which will show your current static home screen wallpaper for a personal touch.
@@ -159,7 +244,7 @@ __How set up Your Phone and Notifications__
 
 After you’ve completed the setup process on your Android phone and PC, you’ll be able to use the Your Phone app on your PC to see notifications and photos from your phone and send text messages from your PC. 
 
-For more information on setting up other Your Phone app features, see [Your Phone app help](https://support.microsoft.com/en-us/help/4459358/windows-10-your-phone-app-help).
+For more information on setting up other Your Phone app features, see [Your Phone app help](https://support.microsoft.com/help/4459358/windows-10-your-phone-app-help).
 
 ### Phone screen now supports additional Android devices
 
@@ -187,6 +272,54 @@ __Phone screen requirements:__
 * Windows 10 PC with a Bluetooth radio that supports low energy peripheral role. [How to check if your PC supports this](https://go.microsoft.com/fwlink/?linkid=2066643).
 * Latest 19H1 preview build (18342+ recommended).
 * Android phone must be on, within Bluetooth range of the PC, and connected to the same network as the PC.
+
+## PowerToys 
+
+PowerToys is a set of utilities for power users to tune and streamline their Windows experience for greater productivity. Inspired by the [Windows 95 era PowerToys](https://en.wikipedia.org/wiki/Microsoft_PowerToys) project, this reboot provides power users with utilities to squeeze more efficiency out of the Windows 10 shell and customize it for individual workflows. Check out this great [overview of the Windows 95 PowerToys](https://socket3.wordpress.com/2016/10/22/using-windows-95-powertoys/).
+
+__10/29/2019__
+
+### PowerToys v0.12 now available!
+We’ve just released our 0.12 release of PowerToys on GitHub. We’ve gotten tons of great feedback and suggestions from the community and want to directly say thank you to everyone.
+
+New features include a great new utility called PowerRename, which makes it easy to batch rename a bunch of files, improvements to FancyZones, and support for Dark Mode.
+
+Check out our [latest article](https://insider.windows.com/en-us/articles/powertoys-v012-now-available/) for all the details.
+
+![Powertoys](images/19003-1.gif "new PowerRename feature")
+
+
+__9/5/2019__
+
+### First Preview Release 
+
+The first preview release of PowerToys contains two utilities: The Windows key shortcut guide and a window manager called FancyZones. All the code for the project is on GitHub. The repo also contains the information and tools you need to understand how the PowerToys’ utilities work together and how to create your own utilities. 
+
+To kick the tires on the first two utilities, [download the installer here](https://github.com/microsoft/PowerToys/releases). The main PowerToys service runs when Windows starts and a user logs in. When the service is running, a PowerToys icon appears in the system tray. Selecting the icon launches the PowerToys settings UI. The settings UI lets you enable and disable individual utilities and provides settings for each utility. There is also a link to the help doc for each utility. You can right click the tray icon to quit the Power Toys service.
+ 
+Note that some PowerToys functionality requires running in an elevated process. Elevation is required to interact with and manipulate windows from processes that have a higher set of rights than the current user. This is why the PowerToys.exe requests elevation when launched.
+If you find bugs or have suggestions, please [open an issue in the Power Toys GitHub repo](https://github.com/microsoft/PowerToys/issues/new). The backlog for creating new utilities is here. You can provide feedback on the backlog to suggest new ideas or a different priority order by joining the backlog discussion in this issue.
+
+### Windows key shortcut guide
+
+The Windows key shortcut guide is a full screen overlay utility that provides a dynamic set of Windows key shortcuts that are applicable for the given desktop and currently active window. When the Windows key is held down for one second, (this time can be tuned in settings,) an overlay appears on the desktop showing all available Windows key shortcuts and what action those shortcuts will take given the current state of the desktop and active window. If the Windows key continues to be held down after a shortcut is issued, the overlay will remain up and show the new state of the active window.
+
+Find detailed information on [the Windows key shortcut guide](https://github.com/Microsoft/PowerToys/tree/master/src/modules/shortcut_guide/README.md), the [backlog for this utility](https://github.com/microsoft/PowerToys/blob/master/doc/planning/ShortcutGuideBacklog.md), and the [source code](https://github.com/Microsoft/PowerToys/tree/master/src/modules/shortcut_guide).
+
+![PowerToys](images/powertoys-1.png "windows key shortcut guide")
+
+### FancyZones windows manager
+FancyZones is a window manager that is designed to make it easy to arrange and snap windows into efficient layouts for your workflow, and also to restore these layouts quickly. FancyZones allows the user to define a set of window locations for a desktop that are drag targets for windows. When the user drags a window into a zone, the window is resized and repositioned to fill that zone.
+ 
+To get started with FancyZones, you need to enable the utility in the PowerToys settings, and then invoke the FancyZones setup UI. There’s a button in settings to open this UI, or you can press Win+~ to launch it. When first launched, the UI presents a list of zone layouts that can be quickly adjusted by how many windows are on the monitor. Choosing a layout shows a preview of that layout on the monitor. Pressing the save and close button sets that layout to the monitor.
+
+![PowerToys](images/powertoys-1.png "fancy zones editor")
+ 
+The editor also supports creating and saving custom layouts. This functionality is in the Custom tab in the editor UI. There are two ways to create custom zone layouts, window layout and table layout. These can also be thought of as additive and subtractive models. The additive window layout model starts with a blank layout and supports adding zones that can be dragged and resized, similar to windows.
+ 
+The subtractive table layout model starts with a table layout and allows zones to be created by splitting and merging zones and then resizing the gutter between zones.
+ 
+Find [more information on FancyZones](https://github.com/Microsoft/PowerToys/tree/master/src/modules/fancyzones/README.md), the [backlog for the utility](https://github.com/microsoft/PowerToys/blob/master/doc/planning/FancyZonesBacklog.md), and the [source code](https://github.com/Microsoft/PowerToys/tree/master/src/modules/fancyzones).
 
 ## Snip & Sketch 
 
@@ -267,7 +400,7 @@ If you prefer to view a particular email in light mode, look for the sunshine ic
 ![Dark mode](images/18329-5.jpg "Dark mode now extended to Mail and Calendar items")
 
 ### Default Font
-We are introducing a top customer requested feature: Default font. Now you can customize how new messages will look. If you create a new mail or reply to an existing mail, the text you type will be in the font face, size, color and emphasis you have selected.  To change your default font, go into settings and select “Default font”. Default font applies per-account and does not roam to other devices. These updates are the latest in a [series of updates](https://support.office.com/en-us/article/what-s-new-in-mail-and-calendar-for-windows-10-9822b33c-b9ad-48bc-ac53-c1b6136e405b?ui=en-US&rs=en-US&ad=US) we’ve made based on your feedback, and we’re looking forward to hearing what you’d like to see improved next!
+We are introducing a top customer requested feature: Default font. Now you can customize how new messages will look. If you create a new mail or reply to an existing mail, the text you type will be in the font face, size, color and emphasis you have selected.  To change your default font, go into settings and select “Default font”. Default font applies per-account and does not roam to other devices. These updates are the latest in a [series of updates](https://support.office.com/article/what-s-new-in-mail-and-calendar-for-windows-10-9822b33c-b9ad-48bc-ac53-c1b6136e405b) we’ve made based on your feedback, and we’re looking forward to hearing what you’d like to see improved next!
 
 ![Dark mode](images/18329-6.png "Dark mode now extended to Mail and Calendar items")
 
@@ -339,7 +472,17 @@ This update includes:
 - When creating a new feedback item, that feedback is auto-saved as a draft.  If the app closes unexpectedly in the middle of writing feedback, when you re-open the Feedback Hub you’ll now get notified of the existing draft so you can easily resume.
 - You can now check for app updates from the settings page in the Feedback Hub. We’ll also automatically check for app updates on app launch, and you’ll get a notification letting you know one is available.
 
-## Game Bar 
+## Game Bar
+
+__9/24/2019__
+
+### Track Achievements and frame rate 
+In case you hadn’t seen, we’ve rolled out an FPS counter in the Performance overlay and added a new Achievement overlay! Use the Achievements overlay to track your progress and see what you've unlocked. View the frame rate of the game you're playing with the FPS counter. Thanks to everyone who shared feedback so far. The update will come via the Microsoft Store. Just set focus to your favorite game and press WIN + G to get started.
+
+> [!NOTE]
+> You’ll find the new achievement overlay and frame rate counter in version V3.33.26001.0 or higher of the Xbox Game Bar. To check that you have the correct version of the Game Bar installed, open your Xbox Game Bar and go to settings (gear icon, upper right). If you do not have the Xbox Game Bar or need to download the latest version, first download the Xbox Insider Hub from the Microsoft Store, then go to Insider Content and click on "Game Bar (Windows Gaming)". 
+
+![xbox game bar updates](images/18990-1.jpg "FPS counter and achievement overlay")
 
 __12/10/2018__ 
 
@@ -365,7 +508,7 @@ Please give it a shot and let us know on Feedback Hub your thoughts on the new u
 
 Want to get to your notes from anywhere? How about on the web at <https://www.onenote.com/stickynotes>? It will be rolling out worldwide soon – take a look and let us know what you think.
 
-__10/24/2018**- **Sticky Notes 3.1__ (Skip Ahead only) 
+__10/24/2018 - Sticky Notes 3.1__ (Skip Ahead only) 
 
 This version brings the following: 
 * We tested the waters with Charcoal Note and you all seemed keen to go even darker. Introducing full-on Dark Mode!
