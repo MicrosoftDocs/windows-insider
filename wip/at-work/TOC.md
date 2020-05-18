@@ -6,7 +6,7 @@
 ### [Providing feedback](https://docs.microsoft.com/windows-insider/at-home/feedback)
 ### [Troubleshooting](https://docs.microsoft.com/windows-insider/at-home/troubleshooting)
 ## Windows Insider Program for Business
-### [Getting started with the Windows Insider Program for Business](https://docs.microsoft.com/windows-insider/at-work-pro/wip-4-biz-get-started)
+### Getting started with the Windows Insider Program for Business
 #### [Register with the Windows 10 Insider Program for Business](https://docs.microsoft.com/windows-insider/at-work-pro/wip-4-biz-register)
 #### [Install Windows 10 Insider Preview Builds](https://docs.microsoft.com/windows-insider/at-work-pro/wip-4-biz-install)
 #### [Manage Windows 10 Insider Preview Builds](https://docs.microsoft.com/windows-insider/at-work-pro/wip-4-biz-manage)
