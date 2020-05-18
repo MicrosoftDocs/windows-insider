@@ -1,12 +1,12 @@
 ## [Flight Hub](https://docs.microsoft.com/windows-insider/flight-hub/)
 ## [The Changelog](https://docs.microsoft.com/en-us/windows-insider/at-home/active-dev-branch)
-## [Windows Insider Program]
+## Windows Insider Program
 ### [Getting started](https://docs.microsoft.com/windows-insider/at-home/get-started)
 ### [Working with rings](https://docs.microsoft.com/windows-insider/at-home/rings)
 ### [Providing feedback](https://docs.microsoft.com/windows-insider/at-home/feedback)
 ### [Troubleshooting](https://docs.microsoft.com/windows-insider/at-home/troubleshooting)
-## [Windows Insider Program for Business]
-### [Getting started with the Windows Insider Program for Business](https://docs.microsoft.com/windows-insider/at-work-pro/wip-4-biz-get-started)
+## Windows Insider Program for Business
+### Getting started with the Windows Insider Program for Business
 #### [Register with the Windows 10 Insider Program for Business](https://docs.microsoft.com/windows-insider/at-work-pro/wip-4-biz-register)
 #### [Install Windows 10 Insider Preview Builds](https://docs.microsoft.com/windows-insider/at-work-pro/wip-4-biz-install)
 #### [Manage Windows 10 Insider Preview Builds](https://docs.microsoft.com/windows-insider/at-work-pro/wip-4-biz-manage)
@@ -14,13 +14,13 @@
 ### [Share and track feedback](https://docs.microsoft.com/windows-insider/at-work-pro/wip-4-biz-feedback)
 ### [Working with Windows 10 Insider Preview Builds](https://docs.microsoft.com/windows-insider/at-work-pro/wip-4-biz-explore-and-validate)
 ### [What's new for business in Windows 10 Insider Preview Builds](https://docs.microsoft.com/windows-insider/at-work-pro/wip-4-biz-whats-new)
-## [Windows Insider Program for Server]
+## Windows Insider Program for Server
 ### [What's new in the Windows Server Semi-Annual Channel vNext Preview](https://docs.microsoft.com/windows-insider/at-work/Whats-new-wip-at-work)
 ### [What was new in the Windows Server Insider preview builds (RS5)](https://docs.microsoft.com/windows-insider/at-work/Whats-new-wip-at-work-1809)
 ### [Share Feedback on Windows Server via Feedback Hub](https://docs.microsoft.com/windows-insider/at-work/wip-4-server-feedback-hub)
-## [App updates]
+## App updates
 ### [What's new in Windows 10 apps](https://docs.microsoft.com/windows-insider/at-home/whats-new-apps)
-## [Archive]
+## Archive
 ### [What's new for Windows 10 Insider Preview Builds](https://docs.microsoft.com/windows-insider/at-home/Whats-new-at-wip-home)
 ### [What's new for Windows 10 Insider Preview Builds (20H1)](https://docs.microsoft.com/windows-insider/at-home/Whats-new-wip-at-home-20h1)
 ### [What's new in Windows 10, version 1909](https://docs.microsoft.com/windows-insider/at-home/Whats-new-wip-at-home-1909)
