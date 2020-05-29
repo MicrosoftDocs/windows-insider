@@ -1,5 +1,5 @@
 ## [Flight Hub](https://docs.microsoft.com/windows-insider/flight-hub/)
-## [The Changelog](https://docs.microsoft.com/en-us/windows-insider/at-home/active-dev-branch)
+## [The Changelog](https://docs.microsoft.com/windows-insider/at-home/active-dev-branch)
 ## Windows Insider Program
 ### [Getting started](https://docs.microsoft.com/windows-insider/at-home/get-started)
 ### [Working with rings](https://docs.microsoft.com/windows-insider/at-home/rings)
