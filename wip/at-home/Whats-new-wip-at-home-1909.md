@@ -21,8 +21,6 @@ The following new features are being introduced as part of this update.
 
 - We are offering pre-release support for 19H2 offered to Windows Insider Program for Business (WIP4Biz) customers who face blocking issues that prevent them from feature evaluation or device use. [See this article for details](https://insider.windows.com/en-us/articles/19h2-support-available-for-business-users/). 
 
-- Windows containers require matched host and container version. This restricts customers and limits Windows containers from supporting mixed-version container pod scenarios This update includes 5 fixes to address this and allow the host to run down-level containers on up-level for process (Argon) isolation.
-
 - A fix to allow OEMs to reduce the inking latency based on the hardware capabilities of their devices rather than being stuck with latency selected on typical hardware configuration by the OS.
 
 - Key-rolling or Key-rotation feature enables secure rolling of Recovery passwords on MDM managed AAD devices upon on demand request from Microsoft Intune/MDM tools or upon every time recovery password is used to unlock the BitLocker protected drive. This feature will help prevent accidental recovery password disclosure as part of manual BitLocker drive unlock by users.
