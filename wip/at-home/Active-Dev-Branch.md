@@ -18,6 +18,9 @@ The Changelog represents everything new from all the builds from the Active Deve
 >[!NOTE]
 > This page includes everything noted as part of the "What's new" and "General changes & improvements" sections of the blog posts published for each build [on the Windows Blog](https://blogs.windows.com/windowsexperience/tag/windows-insider-program/) and does not contain other noted updates for Insiders, fixes, or known issues. 
 
+## Build 19635
+Windows 10 Insider Preview Build 19635 was released to the Fast ring on [5/28/2020](https://blogs.windows.com/windowsexperience/2020/05/28/announcing-windows-10-insider-preview-build-19635/).
+
 ## Build 19631
 Windows 10 Insider Preview Build 19631 was released to the Fast ring on [5/21/2020](https://blogs.windows.com/windowsexperience/2020/05/21/announcing-windows-10-insider-preview-build-19631/).
 
