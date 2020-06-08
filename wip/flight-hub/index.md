@@ -43,14 +43,9 @@ Moving forward, the Fast ring will receive builds directly from this active deve
 |19541|[1/8/2020](https://blogs.windows.com/windowsexperience/2020/01/08/announcing-windows-10-insider-preview-build-19541/)|||
 |19536|[12/16/2019](https://blogs.windows.com/windowsexperience/2019/12/16/announcing-windows-10-insider-preview-build-19536/)|||
 
-## Upcoming Windows 10 Feature Update (20H1)
+## Windows 10 May 2020 Update (20H1)
 
-You can get builds of 20H1 today if you've opted into the **Slow ring**.
-
-The items in **bold** are the latest releases for the individual versions of the item.
-
->[!NOTE]
-> We have replaced the Server column with a column for the Release Preview ring which is show as "RP" below.
+The Windows 10 May 2020 Update was released to the world [starting on May 27th, 2020](https://blogs.windows.com/windowsexperience/2020/05/27/how-to-get-the-windows-10-may-2020-update/).
 
 | Build | Fast | Slow | RP | WSUS | ISO | SDK |
 |-------|------|------|--------|-----|-----|-----|
