@@ -5,7 +5,7 @@ manager: eliotgra
 ms.tgt_pltfrm: na
 ms.devlang: na
 ms.date: 06/10/2020
-ms.author: v-allsh
+ms.author: arshields7
 ms.localizationpriority: medium
 ms.topic: article
 ms.prod: w10
@@ -19,29 +19,29 @@ We're always testing different versions of features with our user, and with our 
 
 **Test different package flights.** Package flights let you give different sets of your users different packages, without disrupting the experience of your other customers. When you set up package flights, you can make known user groups to choose who gets specific packages. 
 
-[Set up package flights >](https://docs.microsoft.com/en-us/windows/uwp/publish/package-flights#create-a-new-flight-group)
+[Set up package flights >](https://docs.microsoft.com/windows/uwp/publish/package-flights#create-a-new-flight-group)
 
-**Perform A/B testing.** You can use the [Windows Dev Center dashboard](https://docs.microsoft.com/en-us/windows/uwp/publish/using-the-windows-dev-center-dashboard) to define and test remote variables inside your UWP apps, then monitor how they drive your users' behavior. Variables can be used to configure different types of app experiences, like in-app purchases, sign-up flowa, captions, and ad placements.
+**Perform A/B testing.** You can use the [Windows Dev Center dashboard](https://docs.microsoft.com/windows/uwp/publish/using-the-windows-dev-center-dashboard) to define and test remote variables inside your UWP apps, then monitor how they drive your users' behavior. Variables can be used to configure different types of app experiences, like in-app purchases, sign-up flowa, captions, and ad placements.
 
-[Set up A/B testing >](https://docs.microsoft.com/en-us/windows/uwp/monetize/run-app-experiments-with-a-b-testing)
+[Set up A/B testing >](https://docs.microsoft.com/windows/uwp/monetize/run-app-experiments-with-a-b-testing)
 
 ## Collect and manage feedback
 You can also use the same Feedback Hub app we use with your own applications for a direct channel to your users and Insiders submitting feedback.
 
 **Integrate Feedback Hub.** Feedback Hub can be embedded and launched from directly inside your app using an API from the Microsoft Store Services SDK.
 
-[How to integrate Feedback Hub >](https://docs.microsoft.com/en-us/windows/uwp/monetize/launch-feedback-hub-from-your-app)
+[How to integrate Feedback Hub >](https://docs.microsoft.com/windows/uwp/monetize/launch-feedback-hub-from-your-app)
 
 **Track feedback.** All the feedback submitted for your app through the Feedback Hub is collected into a feedback report in the Windows Dev Center dashboard, so you can easily see the problems, suggestions, and upvotes that your customers have submitted.
 
-[How to monitor feedback >](https://docs.microsoft.com/en-us/windows/uwp/publish/feedback-report)
+[How to monitor feedback >](https://docs.microsoft.com/windows/uwp/publish/feedback-report)
 
 **Respond to feedback.** You can respond to specific feedback in the Feedback Hub by commenting or by setting a status, like investigating or completed. You can also respond directly to a user who's left feedback through email.
 
-[How to respond to feedback >](https://docs.microsoft.com/en-us/windows/uwp/publish/respond-to-customer-feedback)
+[How to respond to feedback >](https://docs.microsoft.com/windows/uwp/publish/respond-to-customer-feedback)
 
 ## Send notifications to customers
 
 You can also send notifications to your app's customers through the Windows Dev Center's data-driven customer engagement platform. Notifications are a great way to encourage your customers to rate your app, give feedback, buy an add-on, try a new feature, download another app, or take further action.
 
-[How to send notifications >](https://docs.microsoft.com/en-us/windows/uwp/publish/send-push-notifications-to-your-apps-customers)
+[How to send notifications >](https://docs.microsoft.com/windows/uwp/publish/send-push-notifications-to-your-apps-customers)
