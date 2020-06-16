@@ -18,6 +18,16 @@ The Changelog represents everything new from all the builds from the Active Deve
 >[!NOTE]
 > This page includes everything noted as part of the "What's new" and "General changes & improvements" sections of the blog posts published for each build [on the Windows Blog](https://blogs.windows.com/windowsexperience/tag/windows-insider-program/) and does not contain other noted updates for Insiders, fixes, or known issues. 
 
+## Build 19645
+Windows 10 Insider Preview Build 19640 was released to the Fast ring on [6/10/2020](https://blogs.windows.com/windowsexperience/2020/06/10/announcing-windows-10-insider-preview-build-19645/).
+
+### General changes & improvements
+* We changed the servicing model for the Linux kernel inside of Windows Subsystem for Linux 2 distributions. This build includes this change to remove the Linux kernel from the Windows image, and instead have it be serviced via Microsoft Update, the same way that 3rd party drivers (like graphics, or touchpad drivers) are installed and updated on your machine today. For full details [please read this blog post on the Windows Command Line blog](https://devblogs.microsoft.com/commandline/wsl2-will-be-generally-available-in-windows-10-version-2004/) and for information about the kernel version please [view the kernel docs page here](https://docs.microsoft.com/en-us/windows/wsl/kernel-release-notes).
+* Support for [Nested Virtualization](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/user-guide/nested-virtualization) on AMD processors is now available. Being an early release we recommend you [read this blog post](https://techcommunity.microsoft.com/t5/virtualization/amd-nested-virtualization-support/ba-p/1434841) for details on what platforms currently work as well as how to enable the feature.
+
+## Build 19640
+Windows 10 Insider Preview Build 19640 was released to the Fast ring on [6/3/2020](https://blogs.windows.com/windowsexperience/2020/06/03/announcing-windows-10-insider-preview-build-19640/).
+
 ## Build 19635
 Windows 10 Insider Preview Build 19635 was released to the Fast ring on [5/28/2020](https://blogs.windows.com/windowsexperience/2020/05/28/announcing-windows-10-insider-preview-build-19635/).
 
