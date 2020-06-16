@@ -15,7 +15,7 @@ ms.prod: w10
 
 Welcome to Flight Hub! Use this dashboard to quickly identify the latest Windows Insider Preview releases for PC, Server, IoT. You can also look up the status of the SDK and ISO images.
 
-[**ANNOUNCEMENT:**] The Insider rings are becoming channels! [Read our blog post here for all the details](https://blogs.windows.com/windowsexperience/2020/06/15/introducing-windows-insider-channels/). 
+**ANNOUNCEMENT:** The Insider rings are becoming channels! [Read our blog post here for all the details](https://blogs.windows.com/windowsexperience/2020/06/15/introducing-windows-insider-channels/). 
 
 ## Active Development Builds of Windows 10
 
