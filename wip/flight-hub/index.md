@@ -15,11 +15,13 @@ ms.prod: w10
 
 Welcome to Flight Hub! Use this dashboard to quickly identify the latest Windows Insider Preview releases for PC, Server, IoT. You can also look up the status of the SDK and ISO images.
 
+**ANNOUNCEMENT:** The Insider rings are becoming channels! [Read our blog post here for all the details](https://blogs.windows.com/windowsexperience/2020/06/15/introducing-windows-insider-channels/). Note that for legacy purposes, we will keep the ring names for older Windows 10 releases referenced here and will use the new channel naming for releases and Active Development Branch builds going forward.
+
 ## Active Development Builds of Windows 10
 
 Moving forward, the Fast ring will receive builds directly from this active development branch and new features will show up in these builds first. While features in the Active Development Branch may be slated for a future Windows 10 release, they are no longer matched to a specific Windows 10 release. This means that builds from the active development branch simply reflect the latest work in progress code from our engineers.
 
-| Build | Fast | SDK | ISO |
+| Build | Dev | SDK | ISO |
 |-------|------|------|
 |19645|[**6/10/2020**](https://blogs.windows.com/windowsexperience/2020/06/10/announcing-windows-10-insider-preview-build-19645/)|||
 |19640|[6/3/2020](https://blogs.windows.com/windowsexperience/2020/06/03/announcing-windows-10-insider-preview-build-19640/)|||
@@ -43,6 +45,11 @@ Moving forward, the Fast ring will receive builds directly from this active deve
 |19546|[1/16/2020](https://blogs.windows.com/windowsexperience/2020/01/16/announcing-windows-10-insider-preview-build-19546/)|[1/21/2020](https://software-download.microsoft.com/download/sg/Windows_InsiderPreview_SDK_en-us_19546_1.iso)||
 |19541|[1/8/2020](https://blogs.windows.com/windowsexperience/2020/01/08/announcing-windows-10-insider-preview-build-19541/)|||
 |19536|[12/16/2019](https://blogs.windows.com/windowsexperience/2019/12/16/announcing-windows-10-insider-preview-build-19536/)|||
+
+## Upcoming Feature Update for Windows 10 (20H2)
+| Build | Beta |
+|-------|------|
+|19042.330|[**6/16/2020**](https://blogs.windows.com/windowsexperience/2020/06/16/announcing-windows-10-insider-preview-build-19042-330-20h2/)
 
 ## Windows 10 May 2020 Update (20H1)
 
