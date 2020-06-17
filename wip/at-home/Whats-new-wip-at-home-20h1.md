@@ -206,7 +206,7 @@ Reset this PC provides users a new choice to download Windows or use local reins
 
 The cloud download option will reinstall the same build, version, and edition, that is currently installed on your device. This new cloud download option is available to all Windows 10 devices and is different from the “Recover from the cloud” feature available on some earlier Windows 10 devices.
 
-For more information, check out [this article from Program Manager Aaron Lower](https://insider.windows.com/articles/optimize-windows-10-pc-reset-using-the-cloud/).
+For more information, check out [this article from Program Manager Aaron Lower](https://insider.windows.com/en-us/articles/optimize-windows-10-pc-reset-using-the-cloud/).
 
 ![recovery improvements](images/18970-2.gif "Introducing a new Reset this PC option–Cloud Download")
 
