@@ -306,12 +306,11 @@ Please keep trying out this new IME, and let us know your feedback.
 Changing the picture for the account you use to sign in to Windows is now better than ever! Your updated picture will now show up quickly across Windows, apps, and many of the Microsoft sites you use every day. Previously, you might see as many as three or four different pictures for your account in different apps and sites at one time. Its super easy to try out – just go to Your info in Windows settings and change your picture there!
 
 __Steps__
-1. Open “Your info” in Windows settings by pressing the Windows key, and typing “Your info,” and selecting “Your account info.”
-2. Use the options in ‘Create your picture’ to select a new picture for your account.
+1. Open “Your info” in Windows settings by pressing the Windows key, and typing “Your info” and selecting “Your account info”
+2. Use the options in “Create your picture” to select a new picture for your account.
 3. Check if your picture has been updated in Windows, and on the sites and apps you use.
 
-__Note:__ We’re still working with many sites and apps that will need to be updated to work well with this new feature. For example, the account manager control that appears in the upper right of many Microsoft websites currently updates every 24 hours. This will be changed in the next few months to update quickly when your account picture changes.
-Other updates for Insiders 
+__Note:__ We’re still working with many sites and apps that will need to be updated to work well with this new feature. For example, the account manager control that appears in the upper right of many Microsoft websites currently updates every 24 hours. This will be changed in the next few months to update quickly when your account picture changes. 
 
 ## Windows Search improvements (Build 18963)
 We wanted to take a moment to cover some of the server-side search improvements we’ve been rolling out based on your feedback:
