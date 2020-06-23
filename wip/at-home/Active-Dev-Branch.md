@@ -18,6 +18,19 @@ The Changelog represents everything new from all the builds from the Active Deve
 >[!NOTE]
 > This page includes everything noted as part of the "What's new" and "General changes & improvements" sections of the blog posts published for each build [on the Windows Blog](https://blogs.windows.com/windowsexperience/tag/windows-insider-program/) and does not contain other noted updates for Insiders, fixes, or known issues. 
 
+## Build 20150
+Windows 10 Insider Preview Build 20150 was released to the Dev Channel (Fast ring) on [6/17/2020](https://blogs.windows.com/windowsexperience/2020/06/17/announcing-windows-10-insider-preview-build-20150/).
+
+### Three new Windows Subsystem for Linux (WSL) features: GPU compute, WSL install, and WSL update
+This build contains three new exciting WSL features. The first is GPU compute: a feature that allows your Linux binaries to leverage your GPU, which makes it possible to do more machine learning development and data science workflows directly in WSL. Secondly, we’ve added a new command: `wsl –install` which allows you to install WSL with just one command. Lastly, we’ve added `wsl –update` which gives you the ability to easily manage the Linux kernel version used by WSL 2 distros. To view a summary of these announcements [please read this post on the Windows Command line blog](https://devblogs.microsoft.com/commandline/gpu-compute-wsl-install-and-wsl-update-arrive-in-the-windows-insiders-fast-ring-for-the-windows-subsystem-for-linux), and for in-depth details on GPU compute in WSL please [read this post](https://blogs.windows.com/windowsdeveloper/?p=55781) on the Windows Developer blog.
+
+![WSL GPU](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/2/2020/06/3d39cf80787a7208278a716ceb76d29a.gif "GPU Compute via WSL.")
+
+### General changes & improvements
+* With this week’s build, we’ll be starting to roll out [the new search box on the default app settings pages](https://blogs.windows.com/windowsexperience/2020/04/15/announcing-windows-10-insider-preview-build-19608/). As part of this, we’ve done some work to improve the performance of the search box.
+* [The new Korean IME](https://blogs.windows.com/windowsexperience/2019/12/16/announcing-windows-10-insider-preview-build-19536/) is now available again for Insiders to use.
+* Based on feedback, we’re updating the text of the Settings > Privacy > Location page to clarify that the icon displayed when your location is being used will be displayed in the taskbar.
+
 ## Build 19645
 Windows 10 Insider Preview Build 19640 was released to the Fast ring on [6/10/2020](https://blogs.windows.com/windowsexperience/2020/06/10/announcing-windows-10-insider-preview-build-19645/).
 
