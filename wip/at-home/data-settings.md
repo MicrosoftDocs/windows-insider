@@ -19,7 +19,7 @@ Your privacy is important to us, so you're in control of how much of your data y
 
 1. Go to [**Settings > Privacy > Diagnostics & feedback**](https://aka.ms/WIPDataSettings) on your device.
 
-2. Set your device's data settings to Enhanced or Full.
+2. Set your device's data settings to Full.
 
 3. Reboot your device.
 
@@ -32,7 +32,7 @@ If you're running preview builds on a personal device, use these instructions to
  
 1. Go to [**Settings > Privacy > Diagnostics & feedback**](https://aka.ms/WIPDataSettings) on your device.
 
-2. Flip the **Send Optional Diagnostic Data** switch from **Required** to **Optional**.
+2. Flip the **Optional Diagnostic Data** switch from **Off** to **On**.
 
 3. Reboot your device.
 
