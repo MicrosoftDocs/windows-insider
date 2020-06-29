@@ -178,7 +178,7 @@ To get started:
 ## Introducing a new tablet experience for 2-in-1 convertible PCs! (Build 18970)
 
 >[!NOTE]
-> This was an experiment that we began with Windows Insiders in 20H1 Build 18970 and ended in [Build 19013](https://blogs.windows.com/windowsexperience/2019/10/29/announcing-windows-10-insider-preview-build-19013/). We will deliver this experience to customers in a future update. 
+> This was an experiment that we began with Windows Insiders in 20H1 Build 18970 and ended in [Build 19013](https://blogs.windows.com/windowsexperience/2019/10/29/announcing-windows-10-insider-preview-build-19013/). We will deliver this experience to customers [as part of KB4557957 for the Windows 10 May 2020 Update](https://support.microsoft.com/en-us/help/4557957/windows-10-update-kb4557957). 
 
 Now available: a new tablet experience for 2-in-1 convertible PCs as a Beta to Windows Insiders. 
 
