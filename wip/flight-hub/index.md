@@ -23,13 +23,13 @@ Moving forward, the Fast ring will receive builds directly from this active deve
 
 | Build | Dev | SDK | ISO |
 |-------|------|------|
-|20161|[**7/1/2020**](https://blogs.windows.com/windowsexperience/2020/07/01/announcing-windows-10-insider-preview-build-20161/)|||
+|20161|[**7/1/2020**](https://blogs.windows.com/windowsexperience/2020/07/01/announcing-windows-10-insider-preview-build-20161/)|[**7/2/2020**](https://aka.ms/InsiderSDK)||
 |20152|[6/24/2020](https://blogs.windows.com/windowsexperience/2020/06/24/announcing-windows-10-insider-preview-build-20152/)|||
 |20150|[6/17/2020](https://blogs.windows.com/windowsexperience/2020/06/17/announcing-windows-10-insider-preview-build-20150/)||[**6/17/2020**](https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewadvanced)|)
 |19645|[6/10/2020](https://blogs.windows.com/windowsexperience/2020/06/10/announcing-windows-10-insider-preview-build-19645/)|||
 |19640|[6/3/2020](https://blogs.windows.com/windowsexperience/2020/06/03/announcing-windows-10-insider-preview-build-19640/)|||
 |19635|[5/28/2020](https://blogs.windows.com/windowsexperience/2020/05/28/announcing-windows-10-insider-preview-build-19635/)|||
-|19631|[5/21/2020](https://blogs.windows.com/windowsexperience/2020/05/21/announcing-windows-10-insider-preview-build-19631/)|[**5/21/2020**](https://software-download.microsoft.com/download/sg/Windows_InsiderPreview_SDK_en-us_19631_1.iso)||
+|19631|[5/21/2020](https://blogs.windows.com/windowsexperience/2020/05/21/announcing-windows-10-insider-preview-build-19631/)|[5/21/2020](https://software-download.microsoft.com/download/sg/Windows_InsiderPreview_SDK_en-us_19631_1.iso)||
 |19628|[5/13/2020](https://blogs.windows.com/windowsexperience/2020/05/13/announcing-windows-10-insider-preview-build-19628/)|[5/13/2020](https://software-download.microsoft.com/download/sg/Windows_InsiderPreview_SDK_en-us_19628_1.iso)||
 |19624|[5/6/2020](https://blogs.windows.com/windowsexperience/2020/05/06/announcing-windows-10-insider-preview-build-19624/)|[5/6/2020](https://software-download.microsoft.com/download/sg/Windows_InsiderPreview_SDK_en-us_19624_1.iso)||
 |19619|[4/29/2020](https://blogs.windows.com/windowsexperience/2020/04/29/announcing-windows-10-insider-preview-build-19619/)||[5/6/2020](https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewadvanced)|
