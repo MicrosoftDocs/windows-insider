@@ -15,11 +15,11 @@ ms.prod: w10
 
 Welcome to Flight Hub! Use this dashboard to quickly identify the latest Windows Insider Preview Builds for PC, Server, and IoT. You can also look up the status of the SDK and ISO images.
 
-**ANNOUNCEMENT:** The Insider rings are becoming channels! [Read our blog post here to learn more about channels.](https://blogs.windows.com/windowsexperience/2020/06/15/introducing-windows-insider-channels/). Note that for legacy purposes, we will keep the ring names for older Windows 10 releases referenced here and will use the new channel naming for new releases and Active Development Branch builds going forward.
+**ANNOUNCEMENT:** The Insider rings are becoming channels! [Read our blog post here to learn more about channels.](https://blogs.windows.com/windowsexperience/2020/06/15/introducing-windows-insider-channels/). Note that for legacy purposes, we will keep the ring names for older Windows 10 releases referenced here and will use the new channel naming for new releases and active development branch builds going forward.
 
 ## Active Development Builds of Windows 10
 
-Moving forward, the Dev Channel will receive builds directly from the Active Development Branch, and new features will show up in these builds first. While features in the Active Development Branch may be slated for a future Windows 10 release, they are no longer matched to a specific Windows 10 release. This means that builds from the Active Development Branch simply reflect the latest work in progress code from our engineers.
+Moving forward, the Dev Channel will receive builds directly from the active development branch, and new features will show up in these builds first. While features in the active development branch may be slated for a future Windows 10 release, they are no longer matched to a specific Windows 10 release. This means that builds from the active development branch simply reflect the latest work in progress code from our engineers.
 
 | Build | Dev | SDK | ISO |
 |-------|------|------|
