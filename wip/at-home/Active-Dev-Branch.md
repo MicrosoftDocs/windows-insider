@@ -1,6 +1,6 @@
 ---
 title: The Changelog
-description: New Windows 10 features for Insider Preview builds in the Fast ring
+description: New Windows 10 features for Insider Preview builds in the Dev Channel.
 author: lizap
 manager: dougkim
 ms.tgt_pltfrm: na
@@ -13,10 +13,10 @@ ms.prod: w10
 
 # The Changelog
 
-The Changelog represents everything new from all the builds from the Active Developmemnt Branch (RS_PRELEASE) released to the Fast ring. 
+The Changelog shows everything new from all the builds from the Active Development Branch (RS_PRELEASE) released to the Dev Channel. 
 
 >[!NOTE]
-> This page includes everything noted as part of the "What's new" and "General changes & improvements" sections of the blog posts published for each build [on the Windows Blog](https://blogs.windows.com/windowsexperience/tag/windows-insider-program/) and does not contain other noted updates for Insiders, fixes, or known issues. 
+> This page includes everything noted as part of the **What's new** and **General changes & improvements** sections of [the blog posts published for each build on the Windows Blog](https://blogs.windows.com/windowsexperience/tag/windows-insider-program/) and does not include other noted updates for Windows Insiders, fixes, or known issues. 
 
 ## Build 20152
 Windows 10 Insider Preview Build 20152 was released to the Dev Channel (Fast ring) on [6/24/2020](https://blogs.windows.com/windowsexperience/2020/06/24/announcing-windows-10-insider-preview-build-20152/).
