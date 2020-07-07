@@ -13,7 +13,7 @@ ms.prod: w10
 
 # The Changelog
 
-The Changelog shows everything new from all the builds from the Active Development Branch (RS_PRELEASE) released to the Dev Channel. 
+The Changelog shows everything new from all the builds from the active development branch (RS_PRELEASE) released to the Dev Channel. 
 
 >[!NOTE]
 > This page includes everything noted as part of the **What's new** and **General changes & improvements** sections of [the blog posts published for each build on the Windows Blog](https://blogs.windows.com/windowsexperience/tag/windows-insider-program/) and does not include other noted updates for Windows Insiders, fixes, or known issues. 
