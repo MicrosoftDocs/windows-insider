@@ -48,7 +48,7 @@ For Windows Insiders who were already flighting, you were automatically moved to
 
 IT administrators can still manage builds from the Beta Channel and Release Preview Channel using the same tools you'd used to manage your policies before or through Azure Marketplace virtual machines.
 
-If you want to try out a new experience, go to **[Settings > Update & Security > Windows Insider Program](http://aka.ms/WIPSettings)** to change your channel. 
+If you want to try out a new experience, go to **[Settings > Update & Security > Windows Insider Program](https://aka.ms/WIPSettings)** to change your channel. 
 
 ## Switching between channels
 
@@ -56,14 +56,14 @@ If you've installed an Insider Preview build in the Beta Channel or Release Prev
 
 ### Switching from the Beta Channel or Release Preview Channel
 
-1. Go to **[Settings > Update & Security > Windows Insider Program](http://aka.ms/WIPSettings)**.
+1. Go to **[Settings > Update & Security > Windows Insider Program](https://aka.ms/WIPSettings)**.
 2. Under **Pick your Insider settings**, select your current channel to open all the channel options. 
 3. Choose the radio button beside the channel you'd like to switch to. Your Settings will update to your new channel.
 4. The next time you receive an update, it will be for your new channel.
 
 ### Switching from the Dev Channel
 1. Do a clean install of Windows 10 on your device with one of these [recovery options in Windows 10](https://support.microsoft.com/help/12415/windows-10-recovery-options).
-2. Once you've reinstalled Windows, go to **[Settings > Update & Security > Windows Insider Program](http://aka.ms/WIPSettings)** to set up your device again, making sure you select the channel you'd like to move to. [Learn more about setting up your device.](https://docs.microsoft.com/windows-insider/at-home/get-started) 
+2. Once you've reinstalled Windows, go to **[Settings > Update & Security > Windows Insider Program](https://aka.ms/WIPSettings)** to set up your device again, making sure you select the channel you'd like to move to. [Learn more about setting up your device.](https://docs.microsoft.com/windows-insider/at-home/get-started) 
 
 ## Understanding updates
 
