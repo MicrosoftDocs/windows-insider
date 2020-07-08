@@ -38,7 +38,7 @@ The Beta Channel is for early adopters and IT professionals who want to see what
 As a part of the Beta Channel, you'll be seeing builds tied to a specific upcoming release, like 20H1 or 20H2. Your feedback will be especially important here, since it will help our engineers make sure that key issues are fixed before major releases.
 
 ### Release Preview Channel
-In the Release Preview Channel, Insiders and IT professionals get the upcoming version of Windows before it's released to the world, with advanced quality updates and certain key features. These builds are also supported by Microsoft if you're in the [Windows Insider Program for Business](https://docs.microsoft.com/windows-insider/at-work-pro/s).
+In the Release Preview Channel, Insiders and IT professionals get the upcoming version of Windows before it's released to the world, with advanced quality updates and certain key features. These builds are also supported by Microsoft if you're in the [Windows Insider Program for Business](https://docs.microsoft.com/windows-insider/at-work-pro/).
 
 ## Our move from rings to channels
 
