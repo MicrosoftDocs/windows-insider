@@ -18,7 +18,7 @@ If you're an IT administrator who's interested in exploring new features as they
 
 We recommend having a small subset of devices in the Beta Channel, usually from your IT department, or you can allow end users who are passionate about Windows to enroll themselves. 
 
-[Set up Insider Preview builds from the Beta Channel for your organization >](https://docs.microsoft.com/en-us/windows-insider/at-work-pro/wip-4-biz-manage)
+[Set up Insider Preview builds from the Beta Channel for your organization >](https://docs.microsoft.com/windows-insider/at-work-pro/wip-4-biz-manage)
 
 Once your users are seeing new features, have them [submit feedback on behalf of your organization](https://docs.microsoft.com/windows-insider/at-work-pro/wip-4-biz-feedback), which you can then track in the Feedback Hub, to help us make improvements. 
 
