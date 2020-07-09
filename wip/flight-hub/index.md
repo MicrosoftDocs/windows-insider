@@ -13,19 +13,19 @@ ms.prod: w10
 
 # Flight Hub
 
-Welcome to Flight Hub! Use this dashboard to quickly identify the latest Windows Insider Preview releases for PC, Server, IoT. You can also look up the status of the SDK and ISO images.
+Welcome to Flight Hub! Use this dashboard to quickly identify the latest Windows Insider Preview Builds for PC, Server, and IoT. You can also look up the status of the SDK and ISO images.
 
-**ANNOUNCEMENT:** The Insider rings are becoming channels! [Read our blog post here for all the details](https://blogs.windows.com/windowsexperience/2020/06/15/introducing-windows-insider-channels/). Note that for legacy purposes, we will keep the ring names for older Windows 10 releases referenced here and will use the new channel naming for releases and Active Development Branch builds going forward.
+**ANNOUNCEMENT:** The Insider rings are becoming channels! [Read our blog post here to learn more about channels.](https://blogs.windows.com/windowsexperience/2020/06/15/introducing-windows-insider-channels/). Note that for legacy purposes, we will keep the ring names for older Windows 10 releases referenced here and will use the new channel naming for new releases and active development branch builds going forward.
 
 ## Active Development Builds of Windows 10
 
-Moving forward, the Fast ring will receive builds directly from this active development branch and new features will show up in these builds first. While features in the Active Development Branch may be slated for a future Windows 10 release, they are no longer matched to a specific Windows 10 release. This means that builds from the active development branch simply reflect the latest work in progress code from our engineers.
+Moving forward, the Dev Channel will receive builds directly from the active development branch, and new features will show up in these builds first. While features in the active development branch may be slated for a future Windows 10 release, they are no longer matched to a specific Windows 10 release. This means that builds from the active development branch simply reflect the latest work in progress code from our engineers.
 
 | Build | Dev | SDK | ISO |
 |-------|------|------|
 |20161|[**7/1/2020**](https://blogs.windows.com/windowsexperience/2020/07/01/announcing-windows-10-insider-preview-build-20161/)|[**7/2/2020**](https://aka.ms/InsiderSDK)||
 |20152|[6/24/2020](https://blogs.windows.com/windowsexperience/2020/06/24/announcing-windows-10-insider-preview-build-20152/)|||
-|20150|[6/17/2020](https://blogs.windows.com/windowsexperience/2020/06/17/announcing-windows-10-insider-preview-build-20150/)||[**6/17/2020**](https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewadvanced)|)
+|20150|[6/17/2020](https://blogs.windows.com/windowsexperience/2020/06/17/announcing-windows-10-insider-preview-build-20150/)||[**6/17/2020**](https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewadvanced)|
 |19645|[6/10/2020](https://blogs.windows.com/windowsexperience/2020/06/10/announcing-windows-10-insider-preview-build-19645/)|||
 |19640|[6/3/2020](https://blogs.windows.com/windowsexperience/2020/06/03/announcing-windows-10-insider-preview-build-19640/)|||
 |19635|[5/28/2020](https://blogs.windows.com/windowsexperience/2020/05/28/announcing-windows-10-insider-preview-build-19635/)|||
@@ -56,7 +56,7 @@ Moving forward, the Fast ring will receive builds directly from this active deve
 
 ## Windows 10 May 2020 Update (20H1)
 
-The Windows 10 May 2020 Update was released to the world [starting on May 27th, 2020](https://blogs.windows.com/windowsexperience/2020/05/27/how-to-get-the-windows-10-may-2020-update/).
+The [Windows 10 May 2020 Update](https://blogs.windows.com/windowsexperience/2020/05/27/how-to-get-the-windows-10-may-2020-update/) was released to the world starting on May 27, 2020.
 
 | Build | Fast | Slow | RP | WSUS | ISO | SDK |
 |-------|------|------|--------|-----|-----|-----|
@@ -115,13 +115,13 @@ The Windows 10 May 2020 Update was released to the world [starting on May 27th, 
 |18836*|[2/14/2019](https://blogs.windows.com/windowsexperience/2019/02/14/announcing-windows-10-insider-preview-build-18836/)||||||
 
 >[!NOTE]
-> "*" denotes a Skip Ahead flight.
+> Builds marked with an * were Skip Ahead flights.
 
 ## Windows 10 November 2019 Update (19H2)
 
-For details regarding the 19H2 feature update for Windows 10, see [Evolving Windows 10 servicing: the next steps](https://blogs.windows.com/windowsexperience/2019/07/01/evolving-windows-10-servicing-and-quality-the-next-steps/).
+For details about the 19H2 feature update for Windows 10, see [Evolving Windows 10 servicing: the next steps](https://blogs.windows.com/windowsexperience/2019/07/01/evolving-windows-10-servicing-and-quality-the-next-steps/).
 
-On 10/10/2019, we [announced](https://blogs.windows.com/windowsexperience/2019/10/10/getting-the-november-2019-update-ready-for-release/) 19H2 will be the November 2019 Update (Version 1909) and that Build 18363.418 is the final build. We will continue to improve the overall experience of 19H2 on customers’ PCs as part of our normal servicing cadence. This means we will continue to iterate and release new Cumulative Updates for 19H2. You will see these new Cumulative Updates noted below and we will continue to note them here until General Availability.
+On October 10, 2019, [we announced that 19H2 will be the November 2019 Update (Version 1909)](https://blogs.windows.com/windowsexperience/2019/10/10/getting-the-november-2019-update-ready-for-release/) and that Build 18363.418 is the final build. We will continue to improve the overall experience of 19H2 on customers’ PCs as part of our normal servicing schedule, which means we'll continue to release new Cumulative Updates. You will see these new Cumulative Updates noted below, and we will continue to note them here until it becomes available for the general public.
 
 **19H2 in the Release Preview ring:**
 
@@ -138,11 +138,11 @@ On 10/10/2019, we [announced](https://blogs.windows.com/windowsexperience/2019/1
 |18363.327*|[8/26/2019](https://blogs.windows.com/windowsexperience/2019/08/26/testing-the-throttled-delivery-approach-for-19h2/)||
 
 >[!NOTE]
-> "*" denotes that the update went out to only a subset of Windows Insiders in the Release Preview ring which means not everyone in the Release Preview ring will see the update.
+> Builds marked with an * went out to only a subset of Windows Insiders in the Release Preview ring, which means not everyone in the Release Preview ring will see the update.
 
 **19H2 in the Slow ring:**
 
-As of 10/16/2019 - the Slow ring will no longer be updated with new 19H2 builds.
+As of October 16, 2019, the Slow ring will no longer be updated with new 19H2 builds.
 
 | Build | Slow |
 |-------|------|
@@ -158,11 +158,11 @@ As of 10/16/2019 - the Slow ring will no longer be updated with new 19H2 builds.
 |18362.10000|[7/1/2019](https://blogs.windows.com/windowsexperience/2019/07/01/announcing-windows-10-insider-preview-build-18362-10000-19h2/)|
 
 >[!NOTE]
-> "*" denotes that the update went out to only a subset of Windows Insiders in the Slow ring which means not everyone in the Slow ring will see the update.
+> Builds marked with an * went out to only a subset of Windows Insiders in the Slow ring, which means not everyone in the Slow ring will see the update.
 
 ## Windows 10 May 2019 Update (19H1)
 
-The [Windows 10 May 2019 Update](https://blogs.windows.com/windowsexperience/2019/05/21/how-to-get-the-windows-10-may-2019-update/) was released to the world on May 21st, 2019. Windows Insiders helped test 33 builds.
+The [Windows 10 May 2019 Update](https://blogs.windows.com/windowsexperience/2019/05/21/how-to-get-the-windows-10-may-2019-update/) was released to the world on May 21, 2019. Windows Insiders helped test 33 builds.
 
 | Build | Fast | Slow | Release Preview | Server | IoT | ISO | SDK |
 |-------|------|------|-----------------|--------|-----|-----|-----|
@@ -244,7 +244,7 @@ Windows 10, version 1809, and Windows Server 2019 were released to the world on 
 
 ## Windows 10 April 2018 Update (RS4)
 
-The [Windows 10 April 2018 Update](https://blogs.windows.com/windowsexperience/2018/04/30/how-to-get-the-windows-10-april-2018-update/) was released to the world on April 30th, 2018. Windows Insiders helped test 28 builds.
+The [Windows 10 April 2018 Update](https://blogs.windows.com/windowsexperience/2018/04/30/how-to-get-the-windows-10-april-2018-update/) was released to the world on April 30, 2018. Windows Insiders helped test 28 builds.
 
 | Build | Fast | Slow | Release Preview | Server | IoT | ISO | SDK |
 |-------|------|------|-----------------|--------|-----|-----|-----|
@@ -279,7 +279,7 @@ The [Windows 10 April 2018 Update](https://blogs.windows.com/windowsexperience/2
 
 ## Windows 10 Fall Creators Update (RS3)
 
-The [Windows 10 Fall Creators Update](https://blogs.windows.com/windowsexperience/2017/10/17/get-windows-10-fall-creators-update/) was released to the world on October 17th, 2017. Windows Insiders helped test 27 builds.
+The [Windows 10 Fall Creators Update](https://blogs.windows.com/windowsexperience/2017/10/17/get-windows-10-fall-creators-update/) was released to the world on October 17, 2017. Windows Insiders helped test 27 builds.
 
 | Build | Fast | Slow | Release Preview | Server | IoT | ISO | SDK |
 |-------|------|------|-----------------|--------|-----|-----|-----|
@@ -313,7 +313,7 @@ The [Windows 10 Fall Creators Update](https://blogs.windows.com/windowsexperienc
 
 ## Windows 10 Creators Update (RS2)
 
-The [Windows 10 Creators Update](https://blogs.windows.com/windowsexperience/2017/04/11/how-to-get-the-windows-10-creators-update/) was released to the world on April 11th, 2017. Windows Insiders helped test 35 builds.
+The [Windows 10 Creators Update](https://blogs.windows.com/windowsexperience/2017/04/11/how-to-get-the-windows-10-creators-update/) was released to the world on April 11, 2017. Windows Insiders helped test 35 builds.
 
 | Build | Fast | Slow | Release Preview | IoT | ISO | SDK |
 |-------|------|------|-----------------|-----|-----|-----|
@@ -355,7 +355,7 @@ The [Windows 10 Creators Update](https://blogs.windows.com/windowsexperience/201
 
 ## Windows 10 Anniversary Update (RS1)
 
-The [Windows 10 Anniversary Update](https://blogs.windows.com/windowsexperience/2016/08/02/how-to-get-the-windows-10-anniversary-update/) was released to the world on August 2nd, 2016. Windows Insiders helped test 33 builds.
+The [Windows 10 Anniversary Update](https://blogs.windows.com/windowsexperience/2016/08/02/how-to-get-the-windows-10-anniversary-update/) was released to the world on August 2, 2016. Windows Insiders helped test 33 builds.
 
 | Build | Fast | Slow | Release Preview | IoT | ISO | SDK |
 |-------|------|------|-----------------|-----|-----|-----|
