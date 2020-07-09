@@ -1,10 +1,10 @@
 ---
-title: Working with rings and updates
-description: definition of Insider rings and updates
+title: Deeper look at flighting
+description: Understanding flighting, channels, and updates
 manager: eliotgra
 ms.tgt_pltfrm: na
 ms.devlang: na
-ms.date: 11/02/2018
+ms.date: 07/08/2020
 ms.author: v-colinmit
 author: cdmm12
 ms.localizationpriority: medium
@@ -12,46 +12,69 @@ ms.topic: article
 ms.prod: w10
 ---
 
-# Working with rings and updates
+# Deeper look at flighting
 
-## What are rings?
-Windows 10 Insider Preview Builds are released in “rings." Each ring is defined by a different release frequency and level of stability. Rings are used to evaluate the quality of our software as it's released to progressively larger audiences. If the build passes automated testing in the lab, we will flight (release a build) to the next ring. 
+## What is flighting?
+Flighting is the process of running Windows 10 Insider Preview Builds on your device. When you run these early versions of Windows and give us feedback, you can help us shape the future of Windows. Once you've registered for the program, you can run Insider Preview builds on as many devices as you want, each in the channel of your choice.
 
-![Ring Theory](images/Rings4.png "Windows Insider Preview Rings")
+## What are channels?
+We release Insider Preview builds to you through channels, which are each designed to bring you a different experience based on the quality of Windows you need for your life and your device. When choosing a channel, you should keep in mind:
 
-### Fast ring
-The benefit of being in the Fast ring is that you will be among the first to use and provide feedback on new and improved features. Devices in the Fast ring are typically updated on a weekly basis with a new Insider Preview build through [Windows Update](https://docs.microsoft.com/windows/deployment/update/windows-update-overview). Be prepared for issues that might block key activities or might require workarounds. Because we are also validating a build on a smaller set of devices before releasing, there is a chance that some features might fail in some device configurations. If significantly blocked, report the issue to us in the [Feedback Hub](feedback-hub:///) app or the [Windows Insider forums](https://social.technet.microsoft.com/Forums/en-US/home?forum=WindowsInsiderPreview) and be ready to reinstall Windows using the Media Creation Tool. 
+1. How stable you need your device to be
+2. What level of issues you can handle on your device
+3. How early in development you'd like to see features and changes
+4. Whether or not you need Microsoft support
 
-### Slow ring
-The benefit of being in the Slow ring is that you’ll still receive Insider Preview builds with new preview features and updates, but the builds will be more stable. Devices in the Slow ring are typically updated on a monthly basis with a new Insider Preview build through Windows Update. Builds are sent to the Slow ring after feedback has been received from Insiders on the Fast ring and analyzed by our Engineering teams. Slow ring builds include Quality Update service packages to fix key issues and also receive the latest [Microsoft Security Response Center security fixes](https://msrc-blog.microsoft.com/category/msrc/) shortly after public availability. Note that, because these builds are from the Development Branch, they could have issues that might be addressed in a future flight. For more information, see [Servicing comes to the Slow ring](https://insider.windows.com/en-us/articles/servicing-comes-to-the-slow-ring/).
+As we continue to evolve the way we’re building and releasing Windows in the future, we may introduce new channels to bring you new experiences.
 
-### Release Preview ring
-If you want to be on the current public release of Windows 10 but still get early access to updates, applications, and drivers without taking the risk of moving to the Development Branch, the Release Preview ring is your best option. The Release Preview ring is only visible when your Windows build version is the same as the current Production Branch. The easiest way to go between the Development Branch to the current Production Branch is to reinstall Windows using the Media Creation Tool. 
+### Dev Channel
+The Dev Channel is for highly technical users who love to be the first to see the latest features and updates for all things Windows. It will get builds that are earliest in a development cycle with the latest work-in-progress code from our engineers. These aren't always stable builds, and sometimes you will see issues that block key activities or require workarounds while flighting in this channel.
 
-### Skip Ahead
-This is a unique version of the Fast ring that allows Insiders to “skip ahead” to Windows 10 Insider Preview builds in the next release of Windows while we are finishing up a current release. Enrollment in Skip Ahead is offered for a limited time to a small subset of Insiders.
+These builds aren't matched to a specific release, which means these may simply be the latest work-in-progress code from our engineers. New features and OS improvements in this channel will show up in future Windows 10 releases when they're ready, and we may deliver them as full OS build updates or servicing releases. Your feedback here will help our engineers with major fixes and changes to the latest code.
 
-### Switching between rings
-Changing rings is a simple process. Go to **Settings** > **Updates & Security** and select __Windows Insider Program__. Under __What kind of content would you like to receive?__ select **Just fixes, apps and drivers** to select Release Preview. Or choose **Active development of Windows** and select **Fast** or **Slow** under **What pace do you want to get new builds?**
+### Beta Channel
+The Beta Channel is for early adopters and IT professionals who want to see what's next or validate the latest Windows updates and features, but still need reliable updates that are validated by Microsoft.
 
-## Working with updates
+As a part of the Beta Channel, you'll be seeing builds tied to a specific upcoming release, like 20H1 or 20H2. Your feedback will be especially important here, since it will help our engineers make sure that key issues are fixed before major releases.
 
-After you've registered in the Windows Insider Program and installed your first Windows 10 Insider Preview build, you'll begin to receive updates to the device(s) you have enrolled. During the development process, the build number will change with each update. There are two different types of builds being delivered to your device(s):
+### Release Preview Channel
+In the Release Preview Channel, Insiders and IT professionals get the upcoming version of Windows before it's released to the world, with advanced quality updates and certain key features. These builds are also supported by Microsoft if you're in the [Windows Insider Program for Business](https://docs.microsoft.com/windows-insider/at-work-pro/).
+
+## Our move from rings to channels
+
+For Windows Insiders who were already flighting, you were automatically moved to the new channel that corresponded to your old ring. The Fast ring moved to the Dev Channel, the Slow ring moved to the Beta Channel, and the Release Preview ring move to the Release Preview Channel.
+
+![Moving to channels](images/ChannelsMove.png "Channels overview and how rings move to them.")
+
+IT administrators can still manage builds from the Beta Channel and Release Preview Channel using the same tools you'd used to manage your policies before or through Azure Marketplace virtual machines.
+
+If you want to try out a new experience, go to **[Settings > Update & Security > Windows Insider Program](https://aka.ms/WIPSettings)** to change your channel. 
+
+## Switching between channels
+
+If you've installed an Insider Preview build in the Beta Channel or Release Preview Channel, switching between channels is easy. But if you've installed a build in the Dev Channel, because it's not tied to a specific release, you'll have to do a clean install of Windows and reset your Windows Insider settings on that device to switch.
+
+### Switching from the Beta Channel or Release Preview Channel
+
+1. Go to **[Settings > Update & Security > Windows Insider Program](https://aka.ms/WIPSettings)**.
+2. Under **Pick your Insider settings**, select your current channel to open all the channel options. 
+3. Choose the radio button beside the channel you'd like to switch to. Your Settings will update to your new channel.
+4. The next time you receive an update, it will be for your new channel.
+
+### Switching from the Dev Channel
+1. Do a clean install of Windows 10 on your device with one of these [recovery options in Windows 10](https://support.microsoft.com/help/12415/windows-10-recovery-options).
+2. Once you've reinstalled Windows, go to **[Settings > Update & Security > Windows Insider Program](https://aka.ms/WIPSettings)** to set up your device again, making sure you select the channel you'd like to move to. [Learn more about setting up your device.](https://docs.microsoft.com/windows-insider/at-home/get-started) 
+
+## Understanding updates
+
+After you've set up your device and installed your first Insider Preview build, you'll start getting updates based on the channel experience you picked. With each new update, you'll see a new build number, and that number can help you understand what you'll see in the build.
 
 ### Major builds
+Major builds can include new features, updates, bug fixes, application changes, and more. You'll know you received a major build when the build number increased by one or more from your previous build. You will see major builds in the Dev Channel, Beta Channel, and Release Preview Channel.
 
-When a major build is released, it will include any combination of new features, updates to existing features, bug fixes, application changes, or other changes. For a major build, you will see the build number increment by 1 or more. Build numbers may or may not be consecutive, which depends on internal ring promotions. For example, 14361 > 14365.
+## Minor builds
+Also known as servicing or cumulative updates, minor builds give you small bug fixes, updates, or changes that work with a major build that's already been released. You'll know you received a minor build when the build number increases by decimal points. While there's no set rules about when you'll see minor builds, usually they'll be rare in the Dev Channel, attached to major builds in the Beta Channel, and released between select major builds in the Release Preview Channel.
 
-### Minor/servicing Builds
 
-Also known as “Servicing” or “Cumulative” updates, these builds represent a smaller set of changes to a currently released Major Build. Servicing Builds often include bug fixes, minor operating system updates, or other smaller changes as needed. For example, 14361 > 14361.1002 > 14361.1003.
-
-### What to expect in each ring
-
-While there is no set requirement for how build numbers are delivered to each ring, in general you'll find these to be true:
-
-**Fast ring:** Major Build releases, very few servicing builds.
-
-**Slow ring:** Major Build with minor build fixes attached.
-
-**Release Preview ring:** Major Build change at a release milestone, and then a continued series of Servicing Builds until the next release milestone is reached.
+> [!NOTE] 
+>If you're having issues receiving Insider Preview builds, would like to stop receiving preview builds, or would like to leave the program, [learn more in our troubleshooting section](https://docs.microsoft.com/windows-insider/at-home/troubleshooting).

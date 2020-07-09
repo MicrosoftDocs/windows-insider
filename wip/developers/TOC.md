@@ -2,7 +2,7 @@
 ## [The Changelog](https://docs.microsoft.com/windows-insider/at-home/active-dev-branch)
 ## Windows Insider Program
 ### [Getting started](https://docs.microsoft.com/windows-insider/at-home/get-started)
-### [Working with rings](https://docs.microsoft.com/windows-insider/at-home/rings)
+### [Deeper look at flighting](https://docs.microsoft.com/windows-insider/at-home/flighting)
 ### [Providing feedback](https://docs.microsoft.com/windows-insider/at-home/feedback)
 ### [Troubleshooting](https://docs.microsoft.com/windows-insider/at-home/troubleshooting)
 ## Windows Insider Program for Business
