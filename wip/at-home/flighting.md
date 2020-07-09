@@ -72,7 +72,7 @@ After you've set up your device and installed your first Insider Preview build, 
 ### Major builds
 Major builds can include new features, updates, bug fixes, application changes, and more. You'll know you received a major build when the build number increased by one or more from your previous build. You will see major builds in the Dev Channel, Beta Channel, and Release Preview Channel.
 
-## Minor builds
+### Minor builds
 Also known as servicing or cumulative updates, minor builds give you small bug fixes, updates, or changes that work with a major build that's already been released. You'll know you received a minor build when the build number increases by decimal points. While there's no set rules about when you'll see minor builds, usually they'll be rare in the Dev Channel, attached to major builds in the Beta Channel, and released between select major builds in the Release Preview Channel.
 
 
