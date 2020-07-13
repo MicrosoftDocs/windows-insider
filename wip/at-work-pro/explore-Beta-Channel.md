@@ -14,7 +14,7 @@ ms.prod: w10
 
 # Exploring new features in the Beta Channel
 
-If you're an IT administrator who's interested in exploring new features as they're being created, we recommend using the Beta Channel. Windows 10 Insider Preview Builds in the Beta Channel are reliable and validated by Microsoft. Your feedback here will also have the maximum impact on helping shape the product for your business's needs. 
+If you're an IT administrator who's interested in exploring new features as they're being created, we recommend using the Beta Channel. Windows 10 Insider Preview Builds in the Beta Channel are reliable and validated by Microsoft, and you'll receive security updates to make sure they stay patched in line with production software. Your feedback here will also have the maximum impact on helping shape the product for your business's needs. 
 
 We recommend having a small subset of devices in the Beta Channel, usually from your IT department, or you can allow end users who are passionate about Windows to enroll themselves. 
 
