@@ -12,8 +12,8 @@
 #### [Manage Windows 10 Insider Preview Builds](https://docs.microsoft.com/windows-insider/at-work-pro/wip-4-biz-manage)
 #### [Windows Insider Program for Business FAQ](https://docs.microsoft.com/windows-insider/at-work-pro/wip-4-biz-FAQ)
 ### [Share and track feedback](https://docs.microsoft.com/windows-insider/at-work-pro/wip-4-biz-feedback)
-### [Exploring new features in the Beta Channel](https://docs.microsoft.com/windows-insider/at-work-pro/explore-beta-channel)
-### [Validating upcoming releases in the Release Preview Channel](https://docs.microsoft.com/windows-insider/at-work-pro/validate-release-preview-channel)
+### [Exploring in the Beta Channel](https://docs.microsoft.com/windows-insider/at-work-pro/explore-beta-channel)
+### [Validating in the Release Preview Channel](https://docs.microsoft.com/windows-insider/at-work-pro/validate-release-preview-channel)
 ### Windows Insider Program for Server
 #### [Share Feedback on Windows Server via Feedback Hub](https://docs.microsoft.com/windows-insider/at-work/wip-4-server-feedback-hub)
 ## App updates
