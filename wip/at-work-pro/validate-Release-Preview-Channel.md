@@ -14,11 +14,11 @@ ms.prod: w10
 
 # Validating upcoming releases in the Release Preview Channel
 
-If you're an IT administrator who wants to validate the upcoming Windows 10 releases before broad deployment within your organization, we recommend using the Release Preview Channel. These Windows 10 Insider Preview Builds give you an early look at the upcoming version of Windows before it's released to the world, with advanced quality updates and certain key features. They're also validated and supported by Microsoft if you're in the Windows Insider Program for Business.
+If you're an IT administrator who wants to validate the upcoming Windows 10 releases before broad deployment within your organization, we recommend using the Release Preview Channel. These Windows 10 Insider Preview Builds give you an early look at the upcoming version of Windows before it's released to the world, with advanced quality updates and certain key features. They also receive monthly security updates and are supported by Microsoft if you're in the Windows Insider Program for Business.
 
 The Release Preview Channel lets you validate the next version of Windows a few months before it's released to the public, so you can:
 
-* Identify issues sooner to accelerate your Windows deployment.
+* Identify issues sooner in your organization to accelerate your Windows deployment.
 * Get help from us on potential compatibility issues earlier.
 * Deploy Windows 10 Semi-Annual releases faster and more confidently.
 * Maximize the support window that comes with each Semi-Annual release.
