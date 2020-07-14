@@ -52,7 +52,8 @@ Moving forward, the Dev Channel will receive builds directly from the active dev
 ## Upcoming Feature Update for Windows 10 (20H2)
 | Build | Beta |
 |-------|------|
-|19042.330|[**6/16/2020**](https://blogs.windows.com/windowsexperience/2020/06/16/announcing-windows-10-insider-preview-build-19042-330-20h2/)
+|19042.388|[**7/14/2020**](https://blogs.windows.com/windowsexperience/2020/07/14/announcing-windows-10-insider-preview-build-19042-388-20h2/)
+|19042.330|[6/16/2020](https://blogs.windows.com/windowsexperience/2020/06/16/announcing-windows-10-insider-preview-build-19042-330-20h2/)
 
 ## Windows 10 May 2020 Update (20H1)
 
