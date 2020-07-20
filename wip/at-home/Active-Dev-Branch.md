@@ -39,6 +39,38 @@ __This feature is currently rolling out to a subset of Insiders today in the Dev
 
 This is just the beginning of productivity enhancements coming to Microsoft Edge—stay tuned!
 
+### A more personalized Taskbar for new users
+We want to help customers get the most out of their PCs from day one, and that starts with offering a cleaner, more personalized, out-of-box experience to give you the content you want and less clutter. This provides us with a flexible, cloud-driven infrastructure to test customer reception of default Taskbar content and tailor these layouts based on user and device signal.
+
+We will evaluate the performance of individual default properties, monitoring diagnostic data and user feedback to assess an audience’s reception. Using this information, we will tune default layouts to minimize clutter and perceptions of bloatware.
+
+__Please note that this experience is limited to new account creation or first logon scenarios. We will not use Programmable Taskbar to alter the Taskbar layout on existing accounts.__
+
+![Personalized Taskbar](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/2/2020/07/2a484fd68334970e192f8a1138aedc73-1536x635.jpg "A more personalized Taskbar for new users.")
+
+### Improving the notification experience
+We are making some changes to improve the notifications experience in Windows 10.
+
+First, know where your toast is coming from by checking out the app logo at the top. Done with the notification? Select the X on the top right corner to quickly dismiss and move on with your life.
+
+![Updated notification toast](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/2/2020/07/5db65c59e8b5b819bd9203996bf7b8c3.png "See where your notification toast is coming from by checking out the app logo at the top and quicklt dismiss by selecting the X on the top right corner.")
+
+And second, we are turning off the Focus Assist notification and summary toast by default, so we will no longer let users know that Focus Assist has been turned on through an automatic rule via a notification. This can be changed back to the previous behavior via Settings.
+
+### Making Settings even better
+We’re continuing to work on bringing capabilities from Control Panel forward into Settings. As part of this ongoing effort, we are migrating information found in Control Panel’s System page into the Settings About page under __Settings > System > About__. Links that would open the System page in Control Panel will now direct you to About in Settings. We are also bringing new improvements like making your device information copyable and streamlining the security information shown. And don’t worry—if you’re looking for more advanced controls that lived in the System page in Control Panel, you can still get to them from the modern About page if you need them!
+
+![About settings](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/2/2020/07/329ddd5b6ac1257e88fbc73d79d9e7a9-1536x1112.png "We are migrating information found in Control Panel’s System page into the Settings About page under Settings > System > About.")
+
+There will be more improvements coming that will further bring Settings closer to Control Panel. If you rely on settings that only exist in Control Panel today, please file feedback and let us know what those settings are.
+
+### Improving the tablet experience for 2-in-1 devices
+Previously, when detaching the keyboard on a 2-in-1 device, a notification toast would appear asking if you wanted to switch into tablet mode. If you selected yes, you would switch into tablet mode. If you chose no, it would give you the new tablet posture experience [introduced in the May 2020 Update](https://docs.microsoft.com/en-us/windows-insider/at-home/Whats-new-wip-at-home-20h1#introducing-a-new-tablet-experience-for-2-in-1-convertible-pcs-build-18970) (or simply the desktop on earlier versions of Windows 10). We are further updating this experience by changing the default, so that this notification toast no longer appears and instead will switch you directly into the new tablet experience, with some improvements for touch. You can change this setting by going to Settings > System > Tablet. Some users may have already seen this change on Surface devices.
+
+And to address confusion with some users getting stuck in tablet mode on non-touch devices, we are removing the tablet mode quick action on non-touch devices.
+
+In addition, new logic is incorporated to let users boot into the appropriate mode according to the mode they were last in and whether the keyboard is attached or not.
+
 ## Build 20152
 Windows 10 Insider Preview Build 20152 was released to the Dev Channel (Fast ring) on [6/24/2020](https://blogs.windows.com/windowsexperience/2020/06/24/announcing-windows-10-insider-preview-build-20152/).
 
