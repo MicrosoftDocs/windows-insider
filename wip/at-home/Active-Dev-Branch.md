@@ -18,6 +18,27 @@ The Changelog represents everything new from all the builds from the Active Deve
 >[!NOTE]
 > This page includes everything noted as part of the "What's new" and "General changes & improvements" sections of the blog posts published for each build [on the Windows Blog](https://blogs.windows.com/windowsexperience/tag/windows-insider-program/) and does not contain other noted updates for Insiders, fixes, or known issues. 
 
+## Build 20161
+Windows 10 Insider Preview Build 20152 was released to the Dev Channel (Fast ring) on [7/1/2020](https://blogs.windows.com/windowsexperience/2020/07/01/announcing-windows-10-insider-preview-build-20161/).
+
+### Theme-aware tiles in Start
+We are freshening up the Start menu with a more streamlined design that removes the solid color backplates behind the logos in the apps list and applies a uniform, partially transparent background to the tiles. This design creates a beautiful stage for your apps, especially the Fluent Design icons for Office and Microsoft Edge, as well as the redesigned icons for built-in apps like Calculator, Mail, and Calendar that we started rolling out earlier this year.
+
+![Theme-aware tiles on Start](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/2/2020/07/dabfa329dfacdc1a2669002649ed75d6.gif "Theme-aware tiles on the Start menu.")
+
+This refined Start design looks great in both dark and light theme, but if you’re looking for a splash of color, first make sure to turn on Windows dark theme and then toggle “Show accent color on the following surfaces” for “Start, taskbar, and action center” under __Settings > Personalization > Color__ to elegantly apply your accent color to the Start frame and tiles.
+
+### ALT + TAB between apps and sites
+Are you a multitasker? We have exciting news for you! Beginning with today’s build, all tabs open in Microsoft Edge will start appearing in Alt + TAB, not just the active one in each browser window. We’re making this change so you can quickly get back to whatever you were doing—wherever you were doing it.
+
+![ALT + TAB sites](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/2/2020/07/634dd641ac5d268c671631222138c910.gif "ALT + TAB between apps and sites.")
+
+If you’d prefer fewer tabs or the classic Alt + TAB experience, we’ve added some settings for you under __Settings > System > Multitasking__. You can configure Alt + Tab to only show your last three or five tabs or choose to turn this feature off completely.
+
+__This feature is currently rolling out to a subset of Insiders today in the Dev Channel and requires a Canary or Dev build of Microsoft Edge (version 83.0.475.0 or higher).__
+
+This is just the beginning of productivity enhancements coming to Microsoft Edge—stay tuned!
+
 ## Build 20152
 Windows 10 Insider Preview Build 20152 was released to the Dev Channel (Fast ring) on [6/24/2020](https://blogs.windows.com/windowsexperience/2020/06/24/announcing-windows-10-insider-preview-build-20152/).
 
