@@ -28,6 +28,13 @@ We’ve also updated the volume mixer to include a link to the per app audio set
 
 There is more work on the way in this area – stay tuned!
 
+### Changes and Improvements
+* As part of our ongoing efforts [to update the iconography across Windows](https://medium.com/microsoft-design/iconic-icons-designing-the-world-of-windows-5e70e25e5416), Insiders will notice we’re introducing a new Settings icon in this build. The new Settings icon looks great on the Start menu with the theme-aware tiles [introduced in Build 20161](https://blogs.windows.com/windowsexperience/2020/07/01/announcing-windows-10-insider-preview-build-20161/)!
+The new Settings icon as it will appear on Start with theme-aware tiles. 
+![New Settings icon](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/2/2020/07/48b8ca797ac8591eb4e6f8532915f91e-1024x314.png "New Settings icon with theme-aware tiles on Start.")
+* While we work on improving reliability, we’re temporarily turning off Notepad’s ability to persist open windows across restarts and updates.
+* An experimental implementation of Transport Layer Security (TLS) 1.3 is enabled by default starting with Insider Preview Build 20170. IIS/HTTP.SYS have TLS 1.3 enabled by default. SSPI callers can use TLS 1.3 by passing the new crypto-agile [SCH_CREDENTIALS](https://docs.microsoft.com/en-us/windows/win32/api/schannel/ns-schannel-sch_credentials) structure when calling [AcquireCredentialsHanlde](https://docs.microsoft.com/en-us/windows/win32/secauthn/acquirecredentialshandle--schannel). SSPI callers using TLS 1.3 need to make sure their code correctly handles [SEC_I_RENEGOTIATE](https://docs.microsoft.com/en-us/windows/win32/secauthn/recognizing-a-request-to-renegotiate-a-connection).
+
 ## Build 20161
 Windows 10 Insider Preview Build 20161 was released to the Dev Channel on [7/1/2020](https://blogs.windows.com/windowsexperience/2020/07/01/announcing-windows-10-insider-preview-build-20161/).
 
