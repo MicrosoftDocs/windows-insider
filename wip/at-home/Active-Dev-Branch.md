@@ -18,8 +18,18 @@ The Changelog represents everything new from all the builds from the Active Deve
 >[!NOTE]
 > This page includes everything noted as part of the "What's new" and "General changes & improvements" sections of the blog posts published for each build [on the Windows Blog](https://blogs.windows.com/windowsexperience/tag/windows-insider-program/) and does not contain other noted updates for Insiders, fixes, or known issues. 
 
+## Build 20170
+Windows 10 Insider Preview Build 20170 was released to the Dev Channel on [7/15/2020](https://blogs.windows.com/windowsexperience/2020/07/15/announcing-windows-10-insider-preview-build-20170/).
+
+### Improving your Sound Settings experience
+Last week we mentioned we were planning on bringing more Control Panel capabilities forward into Settings, and here’s another one – we’re updating Settings > System > Sound > Manage sound devices to now let you know which device is default, and if not, enable you to set it as your default device or default communication device.
+
+We’ve also updated the volume mixer to include a link to the per app audio settings, which you can use to redirect audio endpoints per app.
+
+There is more work on the way in this area – stay tuned!
+
 ## Build 20161
-Windows 10 Insider Preview Build 20152 was released to the Dev Channel (Fast ring) on [7/1/2020](https://blogs.windows.com/windowsexperience/2020/07/01/announcing-windows-10-insider-preview-build-20161/).
+Windows 10 Insider Preview Build 20161 was released to the Dev Channel on [7/1/2020](https://blogs.windows.com/windowsexperience/2020/07/01/announcing-windows-10-insider-preview-build-20161/).
 
 ### Theme-aware tiles in Start
 We are freshening up the Start menu with a more streamlined design that removes the solid color backplates behind the logos in the apps list and applies a uniform, partially transparent background to the tiles. This design creates a beautiful stage for your apps, especially the Fluent Design icons for Office and Microsoft Edge, as well as the redesigned icons for built-in apps like Calculator, Mail, and Calendar that we started rolling out earlier this year.
