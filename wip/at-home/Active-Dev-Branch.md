@@ -18,6 +18,76 @@ The Changelog shows everything new from all the builds from the active developme
 >[!NOTE]
 > This page includes everything noted as part of the **What's new** and **General changes & improvements** sections of [the blog posts published for each build on the Windows Blog](https://blogs.windows.com/windowsexperience/tag/windows-insider-program/) and does not include other noted updates for Windows Insiders, fixes, or known issues. 
 
+## Build 20170
+Windows 10 Insider Preview Build 20170 was released to the Dev Channel on [7/15/2020](https://blogs.windows.com/windowsexperience/2020/07/15/announcing-windows-10-insider-preview-build-20170/).
+
+### Improving your Sound Settings experience
+Last week we mentioned we were planning on bringing more Control Panel capabilities forward into Settings, and here’s another one – we’re updating Settings > System > Sound > Manage sound devices to now let you know which device is default, and if not, enable you to set it as your default device or default communication device.
+
+We’ve also updated the volume mixer to include a link to the per app audio settings, which you can use to redirect audio endpoints per app.
+
+There is more work on the way in this area – stay tuned!
+
+### Changes and Improvements
+* As part of our ongoing efforts [to update the iconography across Windows](https://medium.com/microsoft-design/iconic-icons-designing-the-world-of-windows-5e70e25e5416), Insiders will notice we’re introducing a new Settings icon in this build. The new Settings icon looks great on the Start menu with the theme-aware tiles [introduced in Build 20161](https://blogs.windows.com/windowsexperience/2020/07/01/announcing-windows-10-insider-preview-build-20161/)!
+The new Settings icon as it will appear on Start with theme-aware tiles. 
+![New Settings icon](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/2/2020/07/48b8ca797ac8591eb4e6f8532915f91e-1024x314.png "New Settings icon with theme-aware tiles on Start.")
+* While we work on improving reliability, we’re temporarily turning off Notepad’s ability to persist open windows across restarts and updates.
+* An experimental implementation of Transport Layer Security (TLS) 1.3 is enabled by default starting with Insider Preview Build 20170. IIS/HTTP.SYS have TLS 1.3 enabled by default. SSPI callers can use TLS 1.3 by passing the new crypto-agile [SCH_CREDENTIALS](https://docs.microsoft.com/en-us/windows/win32/api/schannel/ns-schannel-sch_credentials) structure when calling [AcquireCredentialsHanlde](https://docs.microsoft.com/en-us/windows/win32/secauthn/acquirecredentialshandle--schannel). SSPI callers using TLS 1.3 need to make sure their code correctly handles [SEC_I_RENEGOTIATE](https://docs.microsoft.com/en-us/windows/win32/secauthn/recognizing-a-request-to-renegotiate-a-connection).
+
+## Build 20161
+Windows 10 Insider Preview Build 20161 was released to the Dev Channel on [7/1/2020](https://blogs.windows.com/windowsexperience/2020/07/01/announcing-windows-10-insider-preview-build-20161/).
+
+### Theme-aware tiles in Start
+We are freshening up the Start menu with a more streamlined design that removes the solid color backplates behind the logos in the apps list and applies a uniform, partially transparent background to the tiles. This design creates a beautiful stage for your apps, especially the Fluent Design icons for Office and Microsoft Edge, as well as the redesigned icons for built-in apps like Calculator, Mail, and Calendar that we started rolling out earlier this year.
+
+![Theme-aware tiles on Start](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/2/2020/07/dabfa329dfacdc1a2669002649ed75d6.gif "Theme-aware tiles on the Start menu.")
+
+This refined Start design looks great in both dark and light theme, but if you’re looking for a splash of color, first make sure to turn on Windows dark theme and then toggle “Show accent color on the following surfaces” for “Start, taskbar, and action center” under __Settings > Personalization > Color__ to elegantly apply your accent color to the Start frame and tiles.
+
+### ALT + TAB between apps and sites
+Are you a multitasker? We have exciting news for you! Beginning with today’s build, all tabs open in Microsoft Edge will start appearing in Alt + TAB, not just the active one in each browser window. We’re making this change so you can quickly get back to whatever you were doing—wherever you were doing it.
+
+![ALT + TAB sites](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/2/2020/07/634dd641ac5d268c671631222138c910.gif "ALT + TAB between apps and sites.")
+
+If you’d prefer fewer tabs or the classic Alt + TAB experience, we’ve added some settings for you under __Settings > System > Multitasking__. You can configure Alt + Tab to only show your last three or five tabs or choose to turn this feature off completely.
+
+__This feature is currently rolling out to a subset of Insiders today in the Dev Channel and requires a Canary or Dev build of Microsoft Edge (version 83.0.475.0 or higher).__
+
+This is just the beginning of productivity enhancements coming to Microsoft Edge—stay tuned!
+
+### A more personalized Taskbar for new users
+We want to help customers get the most out of their PCs from day one, and that starts with offering a cleaner, more personalized, out-of-box experience to give you the content you want and less clutter. This provides us with a flexible, cloud-driven infrastructure to test customer reception of default Taskbar content and tailor these layouts based on user and device signal.
+
+We will evaluate the performance of individual default properties, monitoring diagnostic data and user feedback to assess an audience’s reception. Using this information, we will tune default layouts to minimize clutter and perceptions of bloatware.
+
+__Please note that this experience is limited to new account creation or first logon scenarios. We will not use Programmable Taskbar to alter the Taskbar layout on existing accounts.__
+
+![Personalized Taskbar](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/2/2020/07/2a484fd68334970e192f8a1138aedc73-1536x635.jpg "A more personalized Taskbar for new users.")
+
+### Improving the notification experience
+We are making some changes to improve the notifications experience in Windows 10.
+
+First, know where your toast is coming from by checking out the app logo at the top. Done with the notification? Select the X on the top right corner to quickly dismiss and move on with your life.
+
+![Updated notification toast](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/2/2020/07/5db65c59e8b5b819bd9203996bf7b8c3.png "See where your notification toast is coming from by checking out the app logo at the top and quicklt dismiss by selecting the X on the top right corner.")
+
+And second, we are turning off the Focus Assist notification and summary toast by default, so we will no longer let users know that Focus Assist has been turned on through an automatic rule via a notification. This can be changed back to the previous behavior via Settings.
+
+### Making Settings even better
+We’re continuing to work on bringing capabilities from Control Panel forward into Settings. As part of this ongoing effort, we are migrating information found in Control Panel’s System page into the Settings About page under __Settings > System > About__. Links that would open the System page in Control Panel will now direct you to About in Settings. We are also bringing new improvements like making your device information copyable and streamlining the security information shown. And don’t worry—if you’re looking for more advanced controls that lived in the System page in Control Panel, you can still get to them from the modern About page if you need them!
+
+![About settings](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/2/2020/07/329ddd5b6ac1257e88fbc73d79d9e7a9-1536x1112.png "We are migrating information found in Control Panel’s System page into the Settings About page under Settings > System > About.")
+
+There will be more improvements coming that will further bring Settings closer to Control Panel. If you rely on settings that only exist in Control Panel today, please file feedback and let us know what those settings are.
+
+### Improving the tablet experience for 2-in-1 devices
+Previously, when detaching the keyboard on a 2-in-1 device, a notification toast would appear asking if you wanted to switch into tablet mode. If you selected yes, you would switch into tablet mode. If you chose no, it would give you the new tablet posture experience [introduced in the May 2020 Update](https://docs.microsoft.com/en-us/windows-insider/at-home/Whats-new-wip-at-home-20h1#introducing-a-new-tablet-experience-for-2-in-1-convertible-pcs-build-18970) (or simply the desktop on earlier versions of Windows 10). We are further updating this experience by changing the default, so that this notification toast no longer appears and instead will switch you directly into the new tablet experience, with some improvements for touch. You can change this setting by going to Settings > System > Tablet. Some users may have already seen this change on Surface devices.
+
+And to address confusion with some users getting stuck in tablet mode on non-touch devices, we are removing the tablet mode quick action on non-touch devices.
+
+In addition, new logic is incorporated to let users boot into the appropriate mode according to the mode they were last in and whether the keyboard is attached or not.
+
 ## Build 20152
 Windows 10 Insider Preview Build 20152 was released to the Dev Channel (Fast ring) on [6/24/2020](https://blogs.windows.com/windowsexperience/2020/06/24/announcing-windows-10-insider-preview-build-20152/).
 
