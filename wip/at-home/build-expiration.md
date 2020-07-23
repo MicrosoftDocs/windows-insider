@@ -19,7 +19,7 @@ To move off the Insider Preview build expiring on your device, you can either ge
 
 ## Get Insider Preview Builds in the Dev Channel
 
-1. Go to [**Settings > Update & Security > Windows Insider Program**](http://aka.ms/WIPSettings) on your device.
+1. Go to [**Settings > Update & Security > Windows Insider Program**](https://aka.ms/WIPSettings) on your device.
 
 2. Set it to the Dev Channel.
 
@@ -38,7 +38,7 @@ To move off the Insider Preview build expiring on your device, you can either ge
 
 5. During setup, select the **Change what to keep** option, and then choose **Nothing** on the next screen to complete a clean intall.
 
-6. Once it's finished installing, go to [**Settings > Update & Security > Windows Insider Program**](http://aka.ms/WIPSettings) to set up Insider Preview builds in the Beta Channel. [Get more help setting up Insider Preview builds.](https://insider.windows.com/getting-started#flight)
+6. Once it's finished installing, go to [**Settings > Update & Security > Windows Insider Program**](https://aka.ms/WIPSettings) to set up Insider Preview builds in the Beta Channel. [Get more help setting up Insider Preview builds.](https://insider.windows.com/getting-started#flight)
 
 ## Start fresh with a clean installation of Windows 10
 
@@ -52,4 +52,4 @@ To move off the Insider Preview build expiring on your device, you can either ge
 
 5. During setup, select the **Change what to keep** option, and then choose **Nothing** on the next screen to complete a clean intall.
 
-6. Once it's finished installing, go to [**Settings > Update & Security > Windows Insider Program**](http://aka.ms/WIPSettings) if you'd like to set up Insider Preview builds again. [Get more help setting up Insider Preview builds.](https://insider.windows.com/getting-started#flight)
+6. Once it's finished installing, go to [**Settings > Update & Security > Windows Insider Program**](https://aka.ms/WIPSettings) if you'd like to set up Insider Preview builds again. [Get more help setting up Insider Preview builds.](https://insider.windows.com/getting-started#flight)
