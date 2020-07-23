@@ -30,7 +30,7 @@ To move off the Insider Preview build expiring on your device, you can either ge
 
 1. Back up all your files and applications. A clean install with a Windows Insider ISO will erase all of your files, settings, and applications.
 
-2. [Download the latest Beta Channel ISO from the Windows Insider ISO page](https://aka.ms/WIPISO) by saving it to a location on your PC or [creating a bootable USB](aka.ms/WIPbootISO).
+2. [Download the latest Beta Channel ISO from the Windows Insider ISO page](https://aka.ms/WIPISO) by saving it to a location on your PC or [creating a bootable USB](https://aka.ms/WIPbootISO).
 
 3. Open File Explorer and go to where you saved the ISO. Select the ISO file to open it, which lets Windows mount the image so you can access it.
 
@@ -44,7 +44,7 @@ To move off the Insider Preview build expiring on your device, you can either ge
 
 1. Back up all your files and applications. A clean install with a Windows 10 ISO will erase all of your files, settings, and applications.
 
-2. [Download the latest Windows 10 ISO](https://www.microsoft.com/software-download/windows10) by saving it to a location on your PC or [creating a bootable USB](aka.ms/WIPbootISO).
+2. [Download the latest Windows 10 ISO](https://www.microsoft.com/software-download/windows10) by saving it to a location on your PC or [creating a bootable USB](https://aka.ms/WIPbootISO).
 
 3. Open File Explorer and go to where you saved the ISO. Select the ISO file to open it, which lets Windows mount the image so you can access it.
 
