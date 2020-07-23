@@ -15,7 +15,7 @@ ms.prod: w10
 # Updating from an expiring Insider Preview build
 To move off the Insider Preview build expiring on your device, you can either get preview builds in the Dev Channel, reinstall Windows using a Windows Insider ISO to move to the Beta channel, or start fresh with a clean installation of Windows 10.
 
-[Learn more about why you might be stuck on an expiring preview build.](https://aka.ms/timebomb)
+[Learn more about why you might be on an expiring preview build and unable to update.](https://aka.ms/timebomb)
 
 ## Get Insider Preview Builds in the Dev Channel
 
