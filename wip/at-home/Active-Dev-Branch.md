@@ -18,6 +18,36 @@ The Changelog shows everything new from all the builds from the active developme
 >[!NOTE]
 > This page includes everything noted as part of the **What's new** and **General changes & improvements** sections of [the blog posts published for each build on the Windows Blog](https://blogs.windows.com/windowsexperience/tag/windows-insider-program/) and does not include other noted updates for Windows Insiders, fixes, or known issues. 
 
+## Build 20175
+Windows 10 Insider Preview Build 20175 was released to the Dev Channel on [7/22/2020](https://blogs.windows.com/windowsexperience/2020/07/22/announcing-windows-10-insider-preview-build-20175/).
+
+### Improving pinned sites in Microsoft Edge
+Earlier this month, we announced ALT + TAB between apps and sites, the first of our new productivity enhancements coming to Microsoft Edge on Windows 10. Today, we’re announcing another feature we’ve been working on to make you more efficient when browsing the web: quick access to tabs for your pinned sites. Clicking a pinned site on the Taskbar will now show you all of the open tabs for that site across any of your Microsoft Edge windows, just like you’d expect for any app with multiple open windows. Please let us know what you think!
+
+![Pinned Sites](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/2/2020/07/f50733d9580bd7b17dd3b245952a8634.gif "Clicking a pinned site on the Taskbar will now show you all of the open tabs for that site across any of your Microsoft Edge windows.")
+
+Clicking a pinned site on the Taskbar will now show you all of the open tabs for that site across any of your Microsoft Edge windows.
+
+__This feature is currently rolling out to a subset of Insiders today and requires Microsoft Edge Insider Build 85.0.561.0 or higher (Canary or Dev Channel).__
+
+NOTE: Since this is an early preview, existing sites on your Taskbar will not experience this new behavior until you remove and re-pin them.
+
+For more details on our new multitasking improvements, [check out our post on the Microsoft Edge blog](https://blogs.windows.com/msedgedev/2020/07/22/multitasking-improvements-windows-10-microsoft-edge/).
+
+### Introducing Reset-AppxPackage
+For some time now, you’ve been able to reset your UWP apps in Settings – with today’s build we’re now exposing this ability via PowerShell as well. To do this, you’ll need the appx package name, so your use of the command may look like this:
+
+>> Get-AppxPackage *calculator* | Reset-AppxPackage
+
+The benefit of enabling this via PowerShell is that if needed you will now be able to run the reset commands for certain system components that are not currently listed as available to reset in Settings, for example Start.
+
+Please note by nature of this command, if you choose to run it it will reset your experience back to the default experience and you will lose the associated app data.
+
+### Make a more personal connection with Eye Contact on Surface Pro X
+Powered by artificial intelligence capabilities of the Microsoft SQ1(TM) processor, Eye Contact helps to adjust your gaze on video calls so you appear to be looking directly in the camera on your Surface Pro X. Windows Insiders can turn this feature on via the Surface app on their Surface Pro X.
+
+![Eye Contact](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/2/2020/07/7395420e4c7efa64b0fbff4552d9a54b-1024x796.png "Eye Contact helps to adjust your gaze on video calls so you appear to be looking directly in the camera on your Surface Pro X.")
+
 ## Build 20170
 Windows 10 Insider Preview Build 20170 was released to the Dev Channel on [7/15/2020](https://blogs.windows.com/windowsexperience/2020/07/15/announcing-windows-10-insider-preview-build-20170/).
 
