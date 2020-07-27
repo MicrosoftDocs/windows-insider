@@ -23,6 +23,7 @@ Moving forward, the Fast ring will receive builds directly from this active deve
 
 | Build | Dev | SDK | ISO |
 |-------|------|------|
+|20175|[**7/22/2020**](https://blogs.windows.com/windowsexperience/2020/07/22/announcing-windows-10-insider-preview-build-20175/)|[**7/22/2020**](https://aka.ms/InsiderSDK)||
 |20170|[**7/15/2020**](https://blogs.windows.com/windowsexperience/2020/07/15/announcing-windows-10-insider-preview-build-20170/)|[**7/15/2020**](https://aka.ms/InsiderSDK)||
 |20161|[7/1/2020](https://blogs.windows.com/windowsexperience/2020/07/01/announcing-windows-10-insider-preview-build-20161/)|[7/2/2020](https://aka.ms/InsiderSDK)||
 |20152|[6/24/2020](https://blogs.windows.com/windowsexperience/2020/06/24/announcing-windows-10-insider-preview-build-20152/)|||
