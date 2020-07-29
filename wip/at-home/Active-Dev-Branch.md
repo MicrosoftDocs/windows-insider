@@ -18,6 +18,14 @@ The Changelog shows everything new from all the builds from the active developme
 >[!NOTE]
 > This page includes everything noted as part of the **What's new** and **General changes & improvements** sections of [the blog posts published for each build on the Windows Blog](https://blogs.windows.com/windowsexperience/tag/windows-insider-program/) and does not include other noted updates for Windows Insiders, fixes, or known issues. 
 
+## Build 20180
+Windows 10 Insider Preview Build 20180 was released to the Dev Channel on [7/29/2020](https://blogs.windows.com/windowsexperience/2020/07/29/announcing-windows-10-insider-preview-build-20180/).
+
+### Changes and Improvements
+* Based on feedback, we’re changing the tablet posture logic for 2-in-1 devices to now only apply when using a single screen.
+* Based on feedback we’re updating the new folder icon in the Start menu’s All app’s list to be a little smaller so it better aligns with the size of the other icons.
+* We’ve updated the search box in the Default Apps settings pages to improve performance.
+
 ## Build 20175
 Windows 10 Insider Preview Build 20175 was released to the Dev Channel on [7/22/2020](https://blogs.windows.com/windowsexperience/2020/07/22/announcing-windows-10-insider-preview-build-20175/).
 
