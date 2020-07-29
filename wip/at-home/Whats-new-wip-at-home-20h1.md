@@ -22,7 +22,7 @@ If you are running the Windows 10 Enterprise or the Windows 10 Pro for Workstati
 The Specialized Display feature enables a display to be dedicated to a specific purpose, such as: 
 * Fixed-function arcade/gaming rigs like cockpit/driving/flight/military simulators 
 * Medical imaging devices that have custom panels (e.g. grayscale X-ray displays) 
-* Dedicated video monitoring scenarios (e.g. Avid Pro) 
+* Dedicated video monitoring scenarios 
 * Monitor panel testing and validation (e.g. in the factory) 
 * Video walls
 
