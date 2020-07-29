@@ -1,0 +1,45 @@
+### YamlMime:Landing
+
+title: Windows Insider Program for Server documentation # < 60 chars
+summary: Windows Insider Program for Server allows you deploy the Windows Server 2019 Insider Preview builds in your enterprise. The docs cover the new enterprise features we'd like you to test and describes how to do the most common tasks. If you are an administrator, you're in the right place.  # < 160 chars
+
+metadata:
+  title: Windows Insider Program for Server documentation # Required; page title displayed in search results. Include the brand. < 60 chars.
+  description: Windows Insider Program for Server allows you deploy the Windows Server 2019 Insider Preview builds in your enterprise. The docs cover the new enterprise features we'd like you to test and describes how to do the most common tasks. If you are an administrator, you're in the right place. # Required; article description that is displayed in search results. < 160 chars.
+  ms.topic: landing-page # Required
+  author: lizap #Required; your GitHub user alias, with correct capitalization.
+  manager: dougkim
+  ms.author: elizapo #Required; microsoft alias of author; optional team alias.
+  ms.localizationpriority: medium
+  ms.prod: w10
+  ms.technology: windows
+  ms.date: 07/01/2020 #Required; mm/dd/yyyy format.
+
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
+
+landingContent:
+# Cards and links should be based on top customer tasks or top subjects
+# Start card title with a verb
+  # Card (optional)
+  - title: Explore new Windows features for Server
+    linkLists:
+      - linkListType: whats-new
+        links:
+          - text: What's new in the Windows Server Semi-Annual Channel vNext Preview
+            url: whats-new-wip-at-work.md
+
+  # Card (optional)
+  - title: Get started
+    linkLists:
+      - linkListType: get-started
+        links:
+          - text: Register for the Windows Insider Program for Server
+            url: https://insider.windows.com/en-us/for-business-getting-started-server/
+
+  # Card
+  - title: Feedback Hub
+    linkLists:
+      - linkListType: reference
+        links:
+          - text: Got Feedback?
+            url: wip-4-server-feedback-hub.md
