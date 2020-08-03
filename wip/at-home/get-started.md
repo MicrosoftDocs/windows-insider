@@ -73,11 +73,11 @@ Afrikaans (South Africa), Albanian (Albania), Amharic, Armenian, Assamese, Azerb
 
 ## Giving feedback
 
-1. Once you've had a chance to explore Windows 10 Insider Preview Builds, use the [Feedback Hub](http://aka.ms/FeedbackHub) to let us know what you think of the latest updates, report issues, or suggest new features. This feedback goes directly to our engineers working to improve Windows.
+1. Once you've had a chance to explore Windows 10 Insider Preview Builds, use the [Feedback Hub](https://aka.ms/FeedbackHub) to let us know what you think of the latest updates, report issues, or suggest new features. This feedback goes directly to our engineers working to improve Windows.
 
 2. Not sure how to get started in the Feedback Hub? [Learn more about how to give great feedback.](https://docs.microsoft.com/windows-insider/at-home/feedback)
 
 3. Participate in Quests, bug bashes, and more in the Feedback Hub, and start connecting with our community. [Learn more about getting involved in the Feedback Hub.]((https://docs.microsoft.com/windows-insider/at-home/feedback))
 
 > [!div class="nextstepaction"]
-> [Give feedback](http://aka.ms/FeedbackHub)
+> [Give feedback](https://aka.ms/FeedbackHub)
