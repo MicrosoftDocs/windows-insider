@@ -77,7 +77,7 @@ Afrikaans (South Africa), Albanian (Albania), Amharic, Armenian, Assamese, Azerb
 
 2. Not sure how to get started in the Feedback Hub? [Learn more about how to give great feedback.](https://docs.microsoft.com/windows-insider/at-home/feedback)
 
-3. Participate in Quests, bug bashes, and more in the Feedback Hub, and start connecting with our community. [Learn more about getting involved in the Feedback Hub.]((https://docs.microsoft.com/windows-insider/at-home/feedback))
+3. Participate in Quests, bug bashes, and more in the Feedback Hub, and start connecting with our community. [Learn more about getting involved in the Feedback Hub.](https://docs.microsoft.com/windows-insider/at-home/feedback)
 
 > [!div class="nextstepaction"]
 > [Give feedback](https://aka.ms/FeedbackHub)
