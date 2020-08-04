@@ -121,7 +121,7 @@ If an issue is preventing you from getting updates or using your device, you hav
 
 Use Reset this PC to reset your device, which will reinstall Windows on the same build you're currently on. 
 
-Go to **[Settings > Update & Security > Recovery](https://aka.ms/WIPRecoverySettings)** and under **Reset this PC**, select **Get Started**. Follow its directions to reset your device.
+Go to **[Settings > Update & Security > Recovery](https://aka.ms/WIPRecoverySettings)**, and under **Reset this PC**, select **Get Started**. Follow its directions to reset your device.
 
 2. **Roll back to a previous build.**
 
