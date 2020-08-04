@@ -140,7 +140,7 @@ For a fresh start, you can also do a clean installation of a different Insider P
 
 Insider Preview builds do expire eventually. Staying up to date is key to avoiding security risks, which is why expiration dates are important. 
 
-If your device is on an expiring build, you'll start getting notifications letting you know that you need to update. Go to **[Settings > Update & Security](https://aka.ms/WIPWindowsUpdate)** and select **Check for Updates** to get the latest update available in your channel.   
+If your device is on an expiring build, you'll start getting notifications letting you know that you need to update. Go to **[Settings > Update & Security > Windows Update](https://aka.ms/WIPWindowsUpdate)** and select **Check for Updates** to get the latest update available in your channel.   
 
 If you aren't seeing any updates available, you might need to adjust your settings or do a clean install. [Learn more about what to do if you're not seeing updates and your build is expiring.](https://docs.microsoft.com/windows-insider/at-home/build-expiration) 
 
