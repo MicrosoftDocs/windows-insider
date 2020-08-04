@@ -165,12 +165,12 @@ If you no longer want to receive Insider Preview builds, you'll have to unenroll
 
 Windows Insiders help shape the future of Windows, and your participation is important to us. But if you're sure you'd like to stop getting emails and Windows 10 Insider Preview Builds from us, you can unregister and leave the program. 
 
-If you'd just like to stop getting Insider Preview builds, you can also unenroll your device with the steps in the Stop receiving Insider Preview builds section above, but stay registered to keep getting email updates from us.
+If you'd just like to stop getting Insider Preview builds, you can also unenroll your device with the steps in the **Stop receiving Insider Preview builds** section above, but stay registered to keep getting email updates from us.
 
 > [!div class="nextstepaction"]
-> [Leave the program now](https://insider.windows.com/for-business-getting-started#flight)
+> [Leave the program now](https://insider.windows.com/leave-program)
 
-Once you leave the program, use the Stop receiving Insider Preview builds section above to stop getting preview builds on your devices.
+Once you leave the program, use the **Stop receiving Insider Preview builds** section above to stop getting preview builds on your devices.
 
 ## Get more help
 
