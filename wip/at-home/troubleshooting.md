@@ -104,6 +104,10 @@ Can you still use your device or is key functionality broken? Is it a single app
 
 Tell us about the issue you're seeing in the **[Feedback Hub](https://aka.ms/WIPFeedbackHub)** and include as many details, screenshots, and logs as possible along with your feedback.
 
+5. **Recover or reset your device.**
+
+If an issue is preventing you from using your device, you might need to recover or reset it.
+
 
 ## Recovering your device
 
