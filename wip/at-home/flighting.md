@@ -1,12 +1,11 @@
 ---
 title: Deeper look at flighting
 description: Understanding flighting, channels, and updates
-manager: eliotgra
+author: bleblanc
+manager: dougkim
 ms.tgt_pltfrm: na
 ms.devlang: na
-ms.date: 07/08/2020
-ms.author: v-colinmit
-author: cdmm12
+ms.author: v-allsh
 ms.localizationpriority: medium
 ms.topic: article
 ms.prod: w10
