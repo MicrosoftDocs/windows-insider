@@ -33,7 +33,7 @@ Or you can also type **winver** into your search and open it to see your latest 
 
 - **Find which channel your device is in**
 
-Go to **[Settings > Update & Security > Windows Insider Program](https://aka.ms/WIPSettings)**. Under Pick your Insider settings, you'll see your current channel.
+Go to **[Settings > Update & Security > Windows Insider Program](https://aka.ms/WIPSettings)**. Under **Pick your Insider settings**, you'll see your current channel.
 
 
 - **Check which Microsoft Account (MSA) or Azure Active Directory (AAD) account you're using on your device**
