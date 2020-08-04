@@ -146,7 +146,7 @@ If you aren't seeing any updates available, you might need to adjust your settin
 
 ## Stop receiving Insider Preview builds
 
-If you no longer want to receive Insider Preview builds, you'll have to unenroll your device. If you don't leave the program though, you will continue to receive emails. To unenroll your device. 
+If you no longer want to receive Insider Preview builds, you'll have to unenroll your device. If you don't leave the program though, you will continue to receive emails. To unenroll your device:
 
 1. Go to **[Settings > Update & Security > Windows Insider Program](https://aka.ms/WIPSettings)**, and under **Stop Insider Preview Builds**, flip the switch. 
 
