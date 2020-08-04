@@ -40,6 +40,9 @@ Go to **[Settings > Update & Security > Windows Insider Program](https://aka.ms/
 
 Go to **[Settings > Update & Security > Windows Insider Program](https://aka.ms/WIPSettings)**. Under Windows Insider account, you'll see the account it's tied to.
 
+## Changing channels
+
+If you install an Insider Preview build in one channel, and you want to switch to a different channel, you might need to do a clean install of Windows and reset your Windows Insider settings on that device. [Learn more about switching channels.](https://docs.microsoft.com/windows-insider/at-home/flighting#switching-between-channels)
 
 ## Not receiving updates
 
@@ -132,10 +135,6 @@ To roll back, go to **[Settings > Update & Security > Recovery](https://aka.ms/W
 3. **Clean install Windows or an Insider Preview build.**
 
 For a fresh start, you can also do a clean installation of a different Insider Preview build or the latest version of Windows 10 using an ISO file. [Learn more about clean installations with ISOs.](https://docs.microsoft.com/windows-insider/at-home/ISOs)
-
-## Changing channels
-
-If you install an Insider Preview build in one channel, and you want to switch to a different channel, you might need to do a clean install of Windows and reset your Windows Insider settings on that device. [Learn more about switching channels.](https://docs.microsoft.com/windows-insider/at-home/flighting#switching-between-channels)
 
 ## Build expiration
 
