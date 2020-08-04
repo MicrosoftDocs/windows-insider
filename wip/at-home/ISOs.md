@@ -70,7 +70,7 @@ If you're having certain issues that prevent you from downloading an ISO to your
 
 - **Cluster size** can stay on **4096 bytes (Default)**
 
-- In **New volume label**, enter a name of your choosing.
+- For **New volume label**, enter a name of your choosing.
 
 - Under **Format Options**, **1 Pass** should be selected from the first dropdown. Select the checkboxes beside **Quick format**, **Create a bootable disk using**, and **Create extended label and icon files**. Beside **Create a bootable disk using**, choose **ISO Image** from the dropdown, then select the disk icon next to the dropdown and navigate to the ISO file you downloaded.
 
