@@ -152,7 +152,7 @@ If you no longer want to receive Insider Preview builds, you'll have to unenroll
 
 2. Depending on which build and channel your device was in, you might have to wait for this to take effect or take further action to recover your device.
 
-- If your device is currently running a public release of Windows, this will immediately opt you out of getting preview builds, just restart your device to complete the process.
+- If your device is currently running a public release of Windows, this will immediately opt you out of getting preview builds. Just restart your device to complete the process.
 
 - If your device was on a preview build in the Beta Channel or Release Preview Channel, it will continue getting updates until the next public release is installed. Once that happens, it will opt you out of future preview builds, without any further action from you. This is to make sure your device doesn't get stuck on an unsupported version of Windows that could have security issues. Depending on where that channel's builds are in the development cycle, this could take some time.
 
