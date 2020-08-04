@@ -25,7 +25,7 @@ If your device is hard to use because of an issue, or if you want to switch out 
 
 2. Open File Explorer and go to where you saved the ISO. Select the ISO file to open it, which lets Windows mount the image so you can access it.
 
-3. Select the Setup.exe file to launch the install process.
+3. Select the setup.exe file to launch the install process.
 
 4. During setup, select the **Keep Windows settings, personal files, and apps** option.
 
@@ -39,7 +39,7 @@ If your device is hard to use because of an issue, or if you want to switch out 
 
 3. Open File Explorer and go to where you saved the ISO. Select the ISO file to open it, which lets Windows mount the image so you can access it.
 
-4. Select the Setup.exe file to launch the install process.
+4. Select the setup.exe file to launch the install process.
 
 5. During setup, select the **Change what to keep** option, and then choose **Nothing** on the next screen to complete a clean intall.
 
@@ -90,7 +90,7 @@ If you're having certain issues that prevent you from downloading an ISO to your
 
 3. Open File Explorer and go to where you saved the ISO. Select the ISO file to open it, which lets Windows mount the image so you can access it.
 
-4. Select the Setup.exe file to launch the install process.
+4. Select the setup.exe file to launch the install process.
 
 5. During setup, select the **Change what to keep** option, and then choose **Nothing** on the next screen to complete a clean intall.
 
