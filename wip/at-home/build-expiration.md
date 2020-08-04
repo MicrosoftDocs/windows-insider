@@ -1,12 +1,11 @@
 ---
 title: Updating from an expiring Insider Preview build
 description: How you can move your device off an expiring preview build
-manager: eliotgra
+author: bleblanc
+manager: dougkim
 ms.tgt_pltfrm: na
 ms.devlang: na
-ms.date: 7/21/2020
 ms.author: v-allsh
-author: bleblanc
 ms.localizationpriority: medium
 ms.topic: article
 ms.prod: w10
