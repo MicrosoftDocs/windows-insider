@@ -1,12 +1,11 @@
 ---
 title: Tools to get feedback from your customers
 description: Developer tools for getting feedback from your customers
-author: lizap
-manager: eliotgra
+author: bleblanc
+manager: dougkim
 ms.tgt_pltfrm: na
 ms.devlang: na
-ms.date: 06/10/2020
-ms.author: elizapo
+ms.author: v-allsh
 ms.localizationpriority: medium
 ms.topic: article
 ms.prod: w10
