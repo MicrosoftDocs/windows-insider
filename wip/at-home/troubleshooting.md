@@ -24,7 +24,7 @@ Running into an issue on Windows 10 Insider Preview Builds? This section can hel
 When giving feedback or getting support it can be important that you know how to find key information about your device.
 
 
-- **Find the build number your device is currently.**
+- **Find the build number your device is on currently.**
 
 Go to **[Settings > System > About](https://aka.ms/AboutSettings)** and your OS build number will show under Windows specifications. 
 
