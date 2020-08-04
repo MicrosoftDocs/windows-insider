@@ -127,7 +127,7 @@ Go to **[Settings > Update & Security > Recovery](https://aka.ms/WIPRecoverySett
 
 If your device was working on the previous build, you can roll back for seven days after installing the update without having to completely reset your device. After that, you'll have to take a new update or do a clean install.
 
-To roll back, go to **[Settings > Update & Security > Recovery](https://aka.ms/WIPRecoverySettings)**, and under **Go back to the previous version of Windows 10** select **Get Started**. Follow its directions to finish rolling back.
+To roll back, go to **[Settings > Update & Security > Recovery](https://aka.ms/WIPRecoverySettings)**, and under **Go back to the previous version of Windows 10**, select **Get Started**. Follow its directions to finish rolling back.
 
 3. **Clean install Windows or an Insider Preview build.**
 
