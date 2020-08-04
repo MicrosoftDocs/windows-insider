@@ -47,7 +47,7 @@ If your device is hard to use because of an issue, or if you want to switch out 
 
 ## Creating a bootable USB for Windows Insider ISOs
 
-If you're having certain issues that prevent you from downloading an ISO to your device or need to quickly set up a new device in the Windows Insider Program, a bootable USB made from a Windows Insider ISO file can help.
+If you're having certain issues that prevent you from downloading an ISO to your device, or you need to quickly set up a new device in the Windows Insider Program, a bootable USB made from a Windows Insider ISO file can help.
 
 > [!NOTE] 
 > There are many third-party software applications that are capable of converting a USB drive into a bootable format. We're using [Rufus](https://rufus.akeo.ie/) in this example since it's free and lightweight on system resources. You can use any software that can format the USB into a bootable format and convert the ISO into the decompiled installation files.
