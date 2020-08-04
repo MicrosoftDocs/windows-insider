@@ -111,7 +111,7 @@ If an issue is preventing you from using your device, you might need to recover 
 
 ## Recovering your device
 
-If an issue is preventing you from getting update or using your device and these didn't help, you have a few options for recovering it.
+If an issue is preventing you from getting updates or using your device, you have a few options for recovering it.
 
 > [!NOTE] 
 > Before reinstalling or rolling back on your device, make sure you've backed up all of your important files.
