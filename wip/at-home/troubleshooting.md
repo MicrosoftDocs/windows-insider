@@ -63,7 +63,7 @@ Windows must be activated to run Windows Insider Preview builds. Go to **[Settin
 
 5. **Manually check for updates.**
 
-Go to **[Settings > Update & Security](https://aka.ms/WIPWindowsUpdate)** and select **Check for Updates**. If you have set active hours, make sure your device is left turned on and signed in during your off-hours, so the update can install.
+Go to **[Settings > Update & Security > Windows Update](https://aka.ms/WIPWindowsUpdate)** and select **Check for Updates**. If you have set active hours, make sure your device is left turned on and signed in during your off-hours, so the update can install.
 
 6. **Check you're signed in with a registered account.**
 
