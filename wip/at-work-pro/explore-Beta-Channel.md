@@ -1,12 +1,11 @@
 ---
 title: Exploring new features in the Beta Channel 
 description: Using Windows 10 Insider Preview Builds in the Beta Channel to explore new features
-manager: eliotgra
+author: bleblanc
+manager: dougkim
 ms.tgt_pltfrm: na
 ms.devlang: na
-ms.date: 07/10/2020
-ms.author: v-colinmit
-author: cdmm12
+ms.author: v-allsh
 ms.localizationpriority: medium
 ms.topic: article
 ms.prod: w10
