@@ -26,7 +26,7 @@ When giving feedback or getting support it can be important that you know how to
 
 - **Find the build number your device is on currently.**
 
-Go to **[Settings > System > About](https://aka.ms/AboutSettings)** and your OS build number will show under Windows specifications. 
+Go to **[Settings > System > About](https://aka.ms/AboutSettings)**, and your OS build number will show under Windows specifications. 
 
 Or you can also type **winver** into your search and open it to see your latest Windows details, including OS build number.
 
