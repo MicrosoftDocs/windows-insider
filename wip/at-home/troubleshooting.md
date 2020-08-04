@@ -94,7 +94,7 @@ We document known issues in our [flight blog posts](https://blogs.windows.com/bl
 
 2. **Check for updates.**
 
-Make sure there's not a newer build available that could fix the issue by going to **[Settings > Update & Security](https://aka.ms/WIPWindowsUpdate)** and selecting **Check for Updates**.
+Make sure there's not a newer build available that could fix the issue by going to **[Settings > Update & Security > Windows Update](https://aka.ms/WIPWindowsUpdate)** and selecting **Check for Updates**.
 
 3. **Decide how serious the issue is.**
 
