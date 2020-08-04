@@ -1,12 +1,11 @@
 ---
 title: Troubleshooting 
 description: Troubleshooting tips 
-manager: eliotgra
+author: bleblanc
+manager: dougkim
 ms.tgt_pltfrm: na
 ms.devlang: na
-ms.date: 11/01/2018
-ms.author: v-colinmit
-author: cdmm12
+ms.author: v-allsh
 ms.localizationpriority: medium
 ms.topic: article
 ms.prod: w10
