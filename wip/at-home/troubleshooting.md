@@ -71,8 +71,6 @@ You must be registered as a Windows Insider to get preview builds. [You can regi
 
 Make sure your device is connected to your registered account under **[Settings > Accounts > Access work or school](https://aka.ms/WorkAccountSettings)**. 
 
-[Sign in with your MSA or AAD account.](https://insider.windows.com/insidersigninboth/) You will land on the page “Welcome back!” if your MSA or AAD account is registered with the Windows Insider Program. 
-
 7. **Check your program settings.**
 
 Go to **[Settings > Update & Security > Windows Insider Program](https://aka.ms/WIPSettings)** and make sure you've activated the Windows Insider Program on your device and that you've chosen a channel to receive builds from. [Learn more about channels.](https://docs.microsoft.com/windows-insider/at-home/flighting)
