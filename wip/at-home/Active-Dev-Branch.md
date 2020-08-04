@@ -1,11 +1,11 @@
 ---
 title: The Changelog
 description: New Windows 10 features for Insider Preview builds in the Dev Channel.
-author: lizap
+author: bleblanc
 manager: dougkim
 ms.tgt_pltfrm: na
 ms.devlang: na
-ms.author: elizapo
+ms.author: bleblanc
 ms.localizationpriority: medium
 ms.topic: article
 ms.prod: w10
