@@ -76,7 +76,7 @@ If you're having certain issues that prevent you from downloading an ISO to your
 
 5. Select **Start**, and Rufus will format your USB and decompile the ISO.
 
-6. Once it's finished, you're all set. Now you can use it to install the ISO on a device.
+6. Once it's finished, you're all set. Now you can use it on a device.
 
 - If you use this drive to upgrade a device that already has Windows on it, connect it to the device, open File Explorer, locate the drive, and launch setup.exe to get started.
 
