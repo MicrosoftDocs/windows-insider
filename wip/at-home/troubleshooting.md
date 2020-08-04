@@ -59,7 +59,7 @@ To install Windows 10 Insider Preview Builds, you must be running a licensed ver
 
 4. **Make sure Windows is activated.**
 
-Windows must be activated to run Windows Insider Preview builds. Go to **[Settings > Update & Security > Activation}(https://aka.ms/ActivationSettings)** to make sure your copy is activated.
+Windows must be activated to run Windows Insider Preview builds. Go to **[Settings > Update & Security > Activation](https://aka.ms/ActivationSettings)** to make sure your copy is activated.
 
 5. **Manually check for updates.**
 
