@@ -131,7 +131,7 @@ To roll back, go to **[Settings > Update & Security > Recovery](https://aka.ms/W
 
 3. **Clean install Windows or an Insider Preview build.**
 
-You can also do a clean installation for a fresh start on your device using an ISO file. You can use an ISO to do a clean installation of a different Insider Preview build or the latest version of Windows 10. [Learn more about clean installations with ISOs.](https://docs.microsoft.com/windows-insider/at-home/ISOs)
+For a fresh start, you can also do a clean installation of a different Insider Preview build or the latest version of Windows 10 using an ISO file. You can use an ISO to do a clean installation of a different Insider Preview build or the latest version of Windows 10. [Learn more about clean installations with ISOs.](https://docs.microsoft.com/windows-insider/at-home/ISOs)
 
 ## Changing channels
 
