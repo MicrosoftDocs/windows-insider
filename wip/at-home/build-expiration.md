@@ -52,4 +52,4 @@ To move off the Insider Preview build expiring on your device, you can either ge
 
 5. During setup, select the **Change what to keep** option, and then choose **Nothing** on the next screen to complete a clean intall.
 
-6. Once it's finished installing, go to [**Settings > Update & Security > Windows Insider Program**](https://aka.ms/WIPSettings) if you'd like to set up Insider Preview builds again. [Get more help setting up Insider Preview builds.](https://insider.windows.com/getting-started#flight)
+6. Once it's finished installing, go to [**Settings > Update & Security > Windows Insider Program**](https://aka.ms/WIPSettings) if you'd like to set up Insider Preview builds again. [Get more help setting up Insider Preview builds.](https://docs.microsoft.com/windows-insider/at-home/get-started#start-flighting)
