@@ -4,7 +4,6 @@ description: How to use ISOs
 manager: eliotgra
 ms.tgt_pltfrm: na
 ms.devlang: na
-ms.date: 8/4/2020
 ms.author: bleblanc
 author: cdmm12
 ms.localizationpriority: medium
