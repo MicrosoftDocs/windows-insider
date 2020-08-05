@@ -1,12 +1,11 @@
 ---
 title: Deeper look at flighting
 description: Understanding flighting, channels, and updates
-manager: eliotgra
+author: bleblanc
+manager: dougkim
 ms.tgt_pltfrm: na
 ms.devlang: na
-ms.date: 07/08/2020
-ms.author: v-colinmit
-author: cdmm12
+ms.author: v-allsh
 ms.localizationpriority: medium
 ms.topic: article
 ms.prod: w10
@@ -62,7 +61,7 @@ If you've installed an Insider Preview build in the Beta Channel or Release Prev
 4. The next time you receive an update, it will be for your new channel.
 
 ### Switching from the Dev Channel
-1. Do a clean install of Windows 10 on your device with one of these [recovery options in Windows 10](https://support.microsoft.com/help/12415/windows-10-recovery-options).
+1. [Do a clean installation of Windows 10 on your device with these instructions.](https://docs.microsoft.com/windows-insider/at-home/ISOs#clean-installation-with-a-Windows-10-ISO)
 2. Once you've reinstalled Windows, go to **[Settings > Update & Security > Windows Insider Program](https://aka.ms/WIPSettings)** to set up your device again, making sure you select the channel you'd like to move to. [Learn more about setting up your device.](https://docs.microsoft.com/windows-insider/at-home/get-started) 
 
 ## Understanding updates

@@ -1,12 +1,11 @@
 ---
 title: Getting started with Windows 10 Insider Preview Builds
 description: How to install Insider Preview builds 
-manager: eliotgra
+author: bleblanc
+manager: dougkim
 ms.tgt_pltfrm: na
 ms.devlang: na
-ms.date: 10/24/2018
-ms.author: v-colinmit
-author: cdmm12
+ms.author: v-allsh
 ms.localizationpriority: medium
 ms.topic: article
 ms.prod: w10
@@ -15,7 +14,7 @@ ms.prod: w10
 # Getting started with Windows 10 Insider Preview Builds 
 
 ## Register for the Windows Insider Program
-1. [Register on our website](https://insider.windows.com/register) with your Microsoft account, which is the same account you use for other Microsoft services, like email, Microsoft Office, or OneDrive. (Don't have a Microsoft account? [Sign up now!](https://account.microsoft.com/account) You can also [register for the Windows Insider Program for Business](https://docs.microsoft.com/windows-insider/at-work-pro/wip-4-biz-register) with your work account.
+1. [Register on our website](https://insider.windows.com/register) with your Microsoft account, which is the same account you use for other Microsoft services, like email, Microsoft Office, or OneDrive. (Don't have a Microsoft account? [Sign up now!](https://account.microsoft.com/account)) You can also [register for the Windows Insider Program for Business](https://docs.microsoft.com/windows-insider/at-work-pro/wip-4-biz-register) with your work account.
 
 2. Accept the terms of our Program Agreement and Privacy Statement and submit. Welcome to the Windows Insider Program!
 
@@ -73,11 +72,11 @@ Afrikaans (South Africa), Albanian (Albania), Amharic, Armenian, Assamese, Azerb
 
 ## Giving feedback
 
-1. Once you've had a chance to explore Windows 10 Insider Preview Builds, use the [Feedback Hub](https://aka.ms/FeedbackHub) to let us know what you think of the latest updates, report issues, or suggest new features. This feedback goes directly to our engineers working to improve Windows.
+1. Once you've had a chance to explore Windows 10 Insider Preview Builds, use the [Feedback Hub](https://aka.ms/WIPFeedbackHub) to let us know what you think of the latest updates, report issues, or suggest new features. This feedback goes directly to our engineers working to improve Windows.
 
 2. Not sure how to get started in the Feedback Hub? [Learn more about how to give great feedback.](https://docs.microsoft.com/windows-insider/at-home/feedback)
 
 3. Participate in Quests, bug bashes, and more in the Feedback Hub, and start connecting with our community. [Learn more about getting involved in the Feedback Hub.](https://docs.microsoft.com/windows-insider/at-home/feedback)
 
 > [!div class="nextstepaction"]
-> [Give feedback](https://aka.ms/FeedbackHub)
+> [Give feedback](https://aka.ms/WIPFeedbackHub)

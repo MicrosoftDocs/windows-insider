@@ -19,7 +19,6 @@
 ## App updates
 ### [What's new in Windows 10 apps](https://docs.microsoft.com/windows-insider/at-home/whats-new-apps)
 ## Archive
-### [What's new for Windows 10 Insider Preview Builds](https://docs.microsoft.com/windows-insider/at-home/Whats-new-at-wip-home)
 ### [What's new for Windows 10 Insider Preview Builds (20H1)](https://docs.microsoft.com/windows-insider/at-home/Whats-new-wip-at-home-20h1)
 ### [What's new in Windows 10, version 1909](https://docs.microsoft.com/windows-insider/at-home/Whats-new-wip-at-home-1909)
 ### [What was new for Windows 10, version 1903](https://docs.microsoft.com/windows-insider/at-home/Whats-new-wip-at-home-1903)
