@@ -29,7 +29,7 @@ Moving forward, the Fast ring will receive builds directly from this active deve
 |20170|[7/15/2020](https://blogs.windows.com/windowsexperience/2020/07/15/announcing-windows-10-insider-preview-build-20170/)|[7/15/2020](https://software-download.microsoft.com/download/sg/Windows_InsiderPreview_SDK_en-us_20170_1.iso)||
 |20161|[7/1/2020](https://blogs.windows.com/windowsexperience/2020/07/01/announcing-windows-10-insider-preview-build-20161/)|[7/2/2020](https://software-download.microsoft.com/download/sg/Windows_InsiderPreview_SDK_en-us_20161_1.iso)||
 |20152|[6/24/2020](https://blogs.windows.com/windowsexperience/2020/06/24/announcing-windows-10-insider-preview-build-20152/)|||
-|20150|[6/17/2020](https://blogs.windows.com/windowsexperience/2020/06/17/announcing-windows-10-insider-preview-build-20150/)||[**6/17/2020**](https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewadvanced)|)
+|20150|[6/17/2020](https://blogs.windows.com/windowsexperience/2020/06/17/announcing-windows-10-insider-preview-build-20150/)||[**6/17/2020**](https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewadvanced)|
 |19645|[6/10/2020](https://blogs.windows.com/windowsexperience/2020/06/10/announcing-windows-10-insider-preview-build-19645/)|||
 |19640|[6/3/2020](https://blogs.windows.com/windowsexperience/2020/06/03/announcing-windows-10-insider-preview-build-19640/)|||
 |19635|[5/28/2020](https://blogs.windows.com/windowsexperience/2020/05/28/announcing-windows-10-insider-preview-build-19635/)|||
