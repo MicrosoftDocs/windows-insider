@@ -18,6 +18,84 @@ The Changelog represents everything new from all the builds from the Active Deve
 >[!NOTE]
 > This page includes everything noted as part of the "What's new" and "General changes & improvements" sections of the blog posts published for each build [on the Windows Blog](https://blogs.windows.com/windowsexperience/tag/windows-insider-program/) and does not contain other noted updates for Insiders, fixes, or known issues. 
 
+## Build 20185
+Windows 10 Insider Preview Build 20185 was released to the Dev Channel on [8/5/2020](https://blogs.windows.com/windowsexperience/2020/08/05/announcing-windows-10-insider-preview-build-20185/).
+
+### Improving DNS configuration in Settings
+We’re making a few changes to the Network section in Settings. 
+
+__Making DNS settings more easily accessible:__ Editing your DNS server assignment is now a top-level option when you go into your network’s properties page.
+
+__Encrypted DNS controls in the Settings app:__ Encrypted DNS (DNS over HTTPS, or DoH) [can help increase privacy and security while browsing the web](https://techcommunity.microsoft.com/t5/networking-blog/windows-insiders-can-now-test-dns-over-https/ba-p/138128). You can now configure DoH directly in the Settings app to more easily take advantage of this feature:
+
+* For ethernet connections: Go to Settings > Network & Internet > Status. Click Properties, then select Edit IP assignment or Edit DNS server assignment and it will be available in the popup. 
+
+* For Wi-Fi connections: Go to Settings > Network & Internet > Wi-Fi. Click the adapter properties link, then select Edit IP assignment or Edit DNS server assignment and it will be available in the popup. Currently you will not see the encryption options if you go to the individual network’s property page.
+
+You can add any IP address listed here to unlock the DoH dropdown and choose to use encryption. Once encryption is enabled, you can confirm it’s working by looking at the applied DNS servers in the network properties and see them labeled as “(Encrypted)” servers. If you want to try a custom DoH server we don’t recognize yet, you can configure an IP address to be recognized as a DoH server by using the netsh command documented here at the end of the blog post.
+
+![DNS Settings](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/2/2020/08/7783c5f1f83fba22ff585bc2c57ac6fc.png "The new Edit Network DNS settings popup in Settings.")
+
+### New ADMX Backed Policies for MDM
+Starting with Windows 10 Insider Preview Build 20175, we have enabled 647 new MDM policies across 56 ADMX files to enable commercial customers to configure policies that are also supported through Group Policies. Contains ADMX based Policies such as App Compat, Event Forwarding, Servicing and Task Scheduler. These new policies can be configured using Intune custom profile. Intune UX is planned to be available later this year.
+
+ADMX file name:
+
+* AddRemovePrograms.admx
+* AppCompat.admx
+* AuditSettings.admx
+* CipherSuiteOrder.admx
+* COM.admx
+* Cpls.admx
+* CtrlAltDel.admx
+* DigitalLocker.admx
+* DnsClient.admx
+* DWM.admx
+* EncryptFilesonMove.admx
+* EventForwarding.admx
+* FileServerVSSProvider.admx
+* FileSys.admx
+* FolderRedirection.admx
+* Help.admx
+* HelpAndSupport.admx
+* kdc.admx
+* LanmanServer.admx
+* LinkLayerTopologyDiscovery.admx
+* MMC.admx
+* MMCSnapins.admx
+* MSAPolicy.admx
+* nca.admx
+* NCSI.admx
+* Netlogon.admx
+* OfflineFiles.admx
+* PeerToPeerCaching.admx
+* PerformanceDiagnostics.admx
+* PreviousVersions.admx
+* QOS.admx
+* Reliability.admx
+* Scripts.admx
+* sdiageng.admx
+* Securitycenter.admx
+* Servicing.admx
+* Setup.admx
+* SharedFolders.admx
+* Sharing.admx
+* Shell-CommandPrompt-RegEditTools.admx
+* Smartcard.admx
+* Snmp.admx
+* TaskScheduler.admxtcpip.admx
+* Thumbnails.admx
+* TPM.admx
+* UserExperienceVirtualization.admx
+* W32Time.admx
+* WinCal.admx
+* WindowsAnytimeUpgrade.admx
+* WindowsConnectNow.admx
+* WindowsMediaDRM.admx
+* WindowsMediaPlayer.admx
+* WindowsMessenger.admx
+* WinInit.admx
+
 ## Build 20180
 Windows 10 Insider Preview Build 20180 was released to the Dev Channel on [7/29/2020](https://blogs.windows.com/windowsexperience/2020/07/29/announcing-windows-10-insider-preview-build-20180/).
 
