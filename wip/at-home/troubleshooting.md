@@ -173,4 +173,4 @@ Once you leave the program, use the **Stop receiving Insider Preview builds** se
 
 ## Get more help
 
-If you're still having problems, make sure you report feedback in the [Feedback Hub](http://aka.ms/WIPFeedbackHub). Then, you can also share your feedback link with us on the [Windows Insider Twitter](https://twitter.com/windowsinsider) or [Answers forum](https://answers.microsoft.com/) to get more help from our team.
+If you're still having problems, make sure you report feedback in the [Feedback Hub](https://aka.ms/WIPFeedbackHub). Then, you can also share your feedback link with us on the [Windows Insider Twitter](https://twitter.com/windowsinsider) or [Answers forum](https://answers.microsoft.com/) to get more help from our team.
