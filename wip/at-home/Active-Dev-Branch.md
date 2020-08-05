@@ -96,6 +96,9 @@ ADMX file name:
 * WindowsMessenger.admx
 * WinInit.admx
 
+### Changes and Improvements
+* We’re moving the 3D Viewer app into the Windows Accessories folder in the Start menu all apps list.
+
 ## Build 20180
 Windows 10 Insider Preview Build 20180 was released to the Dev Channel on [7/29/2020](https://blogs.windows.com/windowsexperience/2020/07/29/announcing-windows-10-insider-preview-build-20180/).
 
