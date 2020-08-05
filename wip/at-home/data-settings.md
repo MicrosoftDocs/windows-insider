@@ -1,12 +1,11 @@
 ---
 title: Choosing your data settings
 description: Choosing your diagnostic data settings for flighting 
-manager: eliotgra
+author: bleblanc
+manager: dougkim
 ms.tgt_pltfrm: na
 ms.devlang: na
-ms.date: 10/24/2018
 ms.author: v-allsh
-author: bleblanc
 ms.localizationpriority: medium
 ms.topic: article
 ms.prod: w10
@@ -15,7 +14,7 @@ ms.prod: w10
 # Choosing your data settings
 Your privacy is important to us, so you're in control of how much of your data you share with us. But to run Windows 10 Insider Preview Builds, you must allow us to see a certain amount of diagnostic data, so we can investigate issues you might see, like crashes and bugs. Use these instructions to update your diagnostic data settings if you want to run Insider Preview builds.
 
-## Setting up a device for the first time
+## Set up a device for the first time
 
 1. Go to [**Settings > Privacy > Diagnostics & feedback**](https://aka.ms/WIPDataSettings) on your device.
 
@@ -26,7 +25,7 @@ Your privacy is important to us, so you're in control of how much of your data y
 4. Your device is ready to get Insider Preview builds. Go to [**Settings > Update & Security > Windows Update**](https://aka.ms/WIPWindowsUpdate) to check for the latest update.
 
 
-## Changing data settings on a device already running Insider Preview builds
+## Change data settings on a device already running Insider Preview builds
 
 If you're running preview builds on a personal device, use these instructions to update your data settings:
  
