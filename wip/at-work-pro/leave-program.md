@@ -27,7 +27,7 @@ If you'd just like to stop getting Insider Preview builds, you can also unenroll
 
 ## Stop receiving Insider Preview builds as a business
 
-1. If you no longer want to manage Insider Preview builds for your organization using policies, [you'll need to log in to this page on our website with your registered admin account and unregister your domain](https://insider.windows.com/leave-program) with the Windows Insider Program. Unregistering also prevents other administrators from setting policies to manage Insider Preview builds across your organization.
+1. If you no longer want to manage Insider Preview builds for your organization using policies, you'll need to [log in to this page on our website with your registered admin account and unregister your domain](https://insider.windows.com/leave-program) with the Windows Insider Program. Unregistering also prevents other administrators from setting policies to manage Insider Preview builds across your organization.
 
 2. After unregistering your domain, you can change update policies on a device by using the setting **Select when Preview Builds and Feature updates are received**.
 
