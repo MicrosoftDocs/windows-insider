@@ -43,7 +43,7 @@ If you'd just like to stop getting Insider Preview builds, you can also unenroll
 
 ### Create installation media
 
-1. Back up all your files and applications. A clean install with a Windows 10 ISO will erase all of your files, settings, and applications.
+1. Back up all your files and applications. A clean install will erase all of your files, settings, and applications.
 
 2. [Download this tool to get the latest Windows 10 ISO](https://www.microsoft.com/software-download/windows10) and select Run. You need to be an administrator to run this tool.
 
