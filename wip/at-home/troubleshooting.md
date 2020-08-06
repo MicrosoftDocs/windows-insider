@@ -159,7 +159,7 @@ If you no longer want to receive Insider Preview builds, you'll have to unenroll
 
 - If your device was on a preview build in the Beta Channel or Release Preview Channel, it will continue getting updates until the next public release is installed. Once that happens, it will opt you out of future preview builds, without any further action from you. This is to make sure your device doesn't get stuck on an unsupported version of Windows that could have security issues. Depending on where that channel's builds are in the development cycle, this could take some time.
 
-- If your device was on a preview build in the Dev Channel, or you don't want to wait for the next public release in the Beta Channel or Release Preview Channel, you should [complete a clean installation of Windows](https://docs.microsoft.com/windows-insider/at-home/ISOs#clean-installation-with-a-Windows-10-ISO). 
+- If your device was on a preview build in the Dev Channel, or you don't want to wait for the next public release in the Beta Channel or Release Preview Channel, you should [complete a clean installation of Windows](https://support.microsoft.com/help/4000735/windows-10-reinstall#Clean%20install%20of%20Windows%2010%20using%20installation%20media). 
 
 > [!NOTE] 
 > If you're receiving Insider Preview builds through work but aren't the administrator, you will still get preview builds until your organization leaves the program or adjusts your settings. 
