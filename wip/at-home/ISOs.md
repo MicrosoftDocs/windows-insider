@@ -81,16 +81,49 @@ If you're having certain issues that prevent you from downloading an ISO to your
 
 - If you use this drive to do a clean Windows install, connect it to the device and reboot. You may also need to adjust your BIOS or UEFI settings to allow it to boot from a USB-based drive.
 
-## Clean installation with a Windows 10 ISO
+## Clean installation of Windows
 
-1. Back up all your files and applications. A clean install with a Windows 10 ISO will erase all of your files, settings, and applications.
+> [!NOTE] 
+> A clean installation is an advanced option to help you start fresh on your device. This will remove all your personal files, apps, and drivers, apps and customizations from your device manufacturer, and changes you made in Settings. We recommend you read through these steps and make sure you're confident how to do them before you get started.
 
-2. [Download the latest Windows 10 ISO](https://www.microsoft.com/software-download/windows10) by saving it to a location on your PC or creating a bootable USB.
+### Create installation media
 
-3. Open File Explorer and go to where you saved the ISO. Select the ISO file to open it, which lets Windows mount the image so you can access it.
+1. Back up all your files and applications. A clean install will erase all of your files, settings, and applications.
 
-4. Select the setup.exe file to launch the install process.
+2. [Download this tool](https://www.microsoft.com/software-download/windows10) and select **Run**. You need to be an administrator to run this tool.
 
-5. During setup, select the **Change what to keep** option, and then choose **Nothing** on the next screen to complete a clean intall.
+3. If you agree to the license terms, select **Accept**.
 
-6. Once it's finished installing, go to **[Settings > Update & Security > Windows Insider Program](https://aka.ms/WIPSettings)** if you'd like to set up Insider Preview builds again. [Get more help setting up Insider Preview builds.](https://docs.microsoft.com/windows-insider/at-home/get-started)
+4. On the **What do you want to do?** page, select **Create installation media for another PC**, and then select **Next**.
+
+5. Select the language, edition, and architecture (64-bit or 32-bit) for Windows 10. 
+
+6. Select which media you want to use:
+
+- **ISO file.** Save an ISO file to your device, which can also be used to create a DVD. After the file is downloaded, you can go to where the file was saved, or select Open DVD burner, and follow the instructions to burn the file to a DVD.
+
+- **USB flash drive.** Attach a blank USB flash drive with at least 8GB of space. Any content on the flash drive will be deleted.
+
+### Using the ISO file you created
+
+1. Open File Explorer and go to where you saved the ISO. Select the ISO file to open it, which lets Windows mount the image so you can access it.
+
+2. Select the setup.exe file to launch the install process.
+
+3. During setup, select the **Change what to keep** option, and then choose **Nothing** on the next screen to complete a clean intall.
+
+4. Once it's finished installing, you can check for updates now by going to **[Settings > Update & Security > Windows Update](https://aka.ms/WIPWindowsUpdate)** and selecting **Check for updates**.
+
+### Using the USB or DVD you created
+
+1. Attach the USB flash drive or insert the DVD in the device where you want to install Windows 10.
+
+2. Restart your device.
+
+3. If your device does not automatically boot to the USB or DVD media, you might have to open a boot menu or change the boot order in your BIOS or UEFI settings. 
+
+4. On the **Install Windows** page, select your language, time, and keyboard preferences, and then select **Next**.
+
+5. Select Install Windows.
+
+6. Once it's finished installing, you can check for updates now by going to **[Settings > Update & Security > Windows Update](https://aka.ms/WIPWindowsUpdate)** and selecting **Check for updates**.
