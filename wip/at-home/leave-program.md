@@ -35,7 +35,7 @@ If you no longer want to receive Insider Preview builds, you'll have to unenroll
 - If your device was on a preview build in the Dev Channel, or you don't want to wait for the next public release in the Beta Channel or Release Preview Channel, you should complete a clean installation of Windows.
 
 > [!NOTE] 
-> If you're receiving Insider Preview builds through work but aren't the administrator, you will still get preview builds until your organization leaves the program or adjusts your settings. 
+> If you're receiving Insider Preview builds through work but aren't the administrator, you will still get preview builds until your organization leaves the program or adjusts your settings. [Learn more about how to stop receiving preview builds as a business.](https://docs.microsoft.com/windows-insider/at-work-pro/leave-program)
 
 ## Clean installation of Windows
 
