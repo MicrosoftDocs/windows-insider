@@ -11,7 +11,7 @@ ms.topic: article
 ms.prod: w10
 ---
 
-## Leave the Windows Insider Program for Business
+# Leave the Windows Insider Program for Business
 
 Windows Insiders help shape the future of Windows, and your participation is important to us. But if you're sure you'd like to stop getting emails and Windows 10 Insider Preview Builds from us, you can unregister and leave the program. 
 
