@@ -18,6 +18,9 @@ If your device is hard to use because of an issue, or if you want to switch out 
 > [!div class="nextstepaction"]
 > [Download Windows Insider ISOs](https://aka.ms/WIPISO)
 
+> [!NOTE] 
+> A clean installation is an advanced option to help you start fresh on your device. This will remove all your personal files, apps, and drivers, apps and customizations from your device manufacturer, and changes you made in Settings. We recommend you read through these steps and make sure you're confident how to do them before you get started.
+
 ## In-place upgrade with a Windows Insider Preview ISO 
 
 1. [Download your chosen ISO from the Windows Insider ISO page](https://aka.ms/WIPISO) by saving it to a location on your device or creating a bootable USB.
@@ -82,9 +85,6 @@ If you're having certain issues that prevent you from downloading an ISO to your
 - If you use this drive to do a clean Windows install, connect it to the device and reboot. You may also need to adjust your BIOS or UEFI settings to allow it to boot from a USB-based drive.
 
 ## Clean installation of Windows
-
-> [!NOTE] 
-> A clean installation is an advanced option to help you start fresh on your device. This will remove all your personal files, apps, and drivers, apps and customizations from your device manufacturer, and changes you made in Settings. We recommend you read through these steps and make sure you're confident how to do them before you get started.
 
 ### Create installation media
 
