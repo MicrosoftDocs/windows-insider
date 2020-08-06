@@ -46,7 +46,7 @@ If you no longer want to receive Insider Preview builds, you'll have to unenroll
 
 1. Back up all your files and applications. A clean install will erase all of your files, settings, and applications.
 
-2. [Download this tool to get the latest Windows 10 ISO](https://www.microsoft.com/software-download/windows10) and select Run. You need to be an administrator to run this tool.
+2. [Download this tool](https://www.microsoft.com/software-download/windows10) and select **Run**. You need to be an administrator to run this tool.
 
 3. If you agree to the license terms, select Accept.
 
