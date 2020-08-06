@@ -47,7 +47,7 @@ If you'd just like to stop getting Insider Preview builds, you can also unenroll
 
 2. [Download this tool](https://www.microsoft.com/software-download/windows10) and select **Run**. You need to be an administrator to run this tool.
 
-3. If you agree to the license terms, select Accept.
+3. If you agree to the license terms, select **Accept**.
 
 4. On the **What do you want to do?** page, select **Create installation media for another PC**, and then select **Next**.
 
