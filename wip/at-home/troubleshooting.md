@@ -77,11 +77,15 @@ Make sure your device is connected to your registered account under **[Settings 
 
 Go to **[Settings > Update & Security > Windows Insider Program](https://aka.ms/WIPSettings)** and make sure you've activated the Windows Insider Program on your device and that you've chosen a channel to receive builds from. [Learn more about channels.](https://docs.microsoft.com/windows-insider/at-home/flighting)
 
-8. **Make sure you didn't change from the Dev Channel.**
+8. **Check your data settings.**
+
+Your privacy is important to us, so you're in control of how much of your data you share with us. But to run Windows 10 Insider Preview Builds, you must allow us to see a certain amount of diagnostic data, so we can investigate issues you might see, like crashes and bugs. [Make sure your data settings are at the right level to receive preview builds.](https://docs.microsoft.com/windows-insider/at-home/data-settings) 
+
+9. **Make sure you didn't change from the Dev Channel.**
 
 If you've already installed a build in the Dev Channel and want to switch channels or stop receiving Insider Preview builds, because it's not tied to a specific release, you'll have to do a clean install of Windows and reset your Windows Insider settings. If you only switch your channel settings and don't do a clean install, you could be stuck not receiving updates. [Learn more about how to switch channels.](https://docs.microsoft.com/windows-insider/at-home/flighting#switching-between-channels)
 
-9. **Consider a clean install.**
+10. **Consider a clean install.**
 
 If none of these options work for you, you may need to do a clean installation of Windows to reset your device. [Learn more about clean installations with ISOs.](https://docs.microsoft.com/windows-insider/at-home/ISOs)
 
@@ -127,7 +131,7 @@ Go to **[Settings > Update & Security > Recovery](https://aka.ms/WIPRecoverySett
 
 2. **Roll back to a previous build.**
 
-If your device was working on the previous build, you can roll back for seven days after installing the update without having to completely reset your device. After that, you'll have to take a new update or do a clean install.
+If your device was working on the previous build, you can roll back for 10 days (or until you take the next build) after installing the update without having to completely reset your device. After that, you'll have to take a new update or do a clean install.
 
 To roll back, go to **[Settings > Update & Security > Recovery](https://aka.ms/WIPRecoverySettings)**, and under **Go back to the previous version of Windows 10**, select **Get Started**. Follow its directions to finish rolling back.
 
@@ -155,7 +159,7 @@ If you no longer want to receive Insider Preview builds, you'll have to unenroll
 
 - If your device was on a preview build in the Beta Channel or Release Preview Channel, it will continue getting updates until the next public release is installed. Once that happens, it will opt you out of future preview builds, without any further action from you. This is to make sure your device doesn't get stuck on an unsupported version of Windows that could have security issues. Depending on where that channel's builds are in the development cycle, this could take some time.
 
-- If your device was on a preview build in the Dev Channel, or you don't want to wait for the next public release in the Beta Channel or Release Preview Channel, you should [complete a clean installation of Windows](https://docs.microsoft.com/windows-insider/at-home/ISOs#clean-installation-with-a-Windows-10-ISO). 
+- If your device was on a preview build in the Dev Channel, or you don't want to wait for the next public release in the Beta Channel or Release Preview Channel, you should [complete a clean installation of Windows](https://support.microsoft.com/help/4000735/windows-10-reinstall#Clean%20install%20of%20Windows%2010%20using%20installation%20media). 
 
 > [!NOTE] 
 > If you're receiving Insider Preview builds through work but aren't the administrator, you will still get preview builds until your organization leaves the program or adjusts your settings. 
