@@ -11,7 +11,7 @@ ms.topic: article
 ms.prod: w10
 ---
 
-# Registering for the Windows Insider Program for Business
+# Register for the Windows Insider Program for Business
 To join the Windows Insider Program for Business, the first thing you have to do is register.
 
 You can [register through the Windows Insider Program website](https://insider.windows.com/en-us/for-business-getting-started), or go directly to **[Settings> Update & Security > Windows Insider Program](https://aka.ms/WIPSettings)** and select **Get Started**.
