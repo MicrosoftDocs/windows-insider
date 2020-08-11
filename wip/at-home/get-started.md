@@ -1,5 +1,5 @@
 ---
-title: Getting started with Windows 10 Insider Preview Builds
+title: Getting started with the Windows Insider Program
 description: How to install Insider Preview builds 
 author: bleblanc
 manager: dougkim
@@ -11,9 +11,9 @@ ms.topic: article
 ms.prod: w10
 ---
 
-# Getting started with Windows 10 Insider Preview Builds 
+# Getting started with the Windows Insider Program
 
-## Register for the Windows Insider Program
+## Register
 1. [Register on our website](https://insider.windows.com/register) with your Microsoft account, which is the same account you use for other Microsoft services, like email, Microsoft Office, or OneDrive. (Don't have a Microsoft account? [Sign up now!](https://account.microsoft.com/account)) You can also [register for the Windows Insider Program for Business](https://docs.microsoft.com/windows-insider/at-work-pro/wip-4-biz-register) with your work account.
 
 2. Accept the terms of our Program Agreement and Privacy Statement and submit. Welcome to the Windows Insider Program!
@@ -70,7 +70,7 @@ Afrikaans (South Africa), Albanian (Albania), Amharic, Armenian, Assamese, Azerb
 
 *Windows 10 Insider Preview Builds may be substantially modified before they're commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here. Some product features and functionality may require additional hardware or software.*
 
-## Giving feedback
+## Give feedback
 
 1. Once you've had a chance to explore Windows 10 Insider Preview Builds, use the [Feedback Hub](https://aka.ms/WIPFeedbackHub) to let us know what you think of the latest updates, report issues, or suggest new features. This feedback goes directly to our engineers working to improve Windows.
 
