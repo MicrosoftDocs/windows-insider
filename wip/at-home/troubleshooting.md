@@ -18,7 +18,7 @@ Running into an issue on Windows 10 Insider Preview Builds? This section can hel
 > [!NOTE] 
 > We document known issues for Insider Preview builds in our [flight blog posts](https://blogs.windows.com/blog/tag/windows-insider-program/). Most issues are tied to specific builds, so this is the first place you should check if you're having problems.  
 
-## Finding information about your PC
+## Find information about your PC
 
 When giving feedback or getting support it can be important that you know how to find key information about your device.
 
