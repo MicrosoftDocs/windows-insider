@@ -1,5 +1,5 @@
 ---
-title: Getting started with the Windows Insider Program for Windows Server
+title: Get started with the Windows Insider Program for Windows Server
 description: How to get started with the Windows Insider Program for Windows Server
 author: bleblanc
 manager: dougkim
@@ -11,7 +11,7 @@ ms.topic: article
 ms.prod: w10
 ---
 
-# Getting started with the Windows Insider Program for Windows Server
+# Get started with the Windows Insider Program for Windows Server
 
 ## Register for the Windows Insider Program
 
