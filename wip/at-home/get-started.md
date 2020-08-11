@@ -1,5 +1,5 @@
 ---
-title: Getting started with the Windows Insider Program
+title: Get started with the Windows Insider Program
 description: How to get started with the Windows Insider Program
 author: bleblanc
 manager: dougkim
@@ -11,7 +11,7 @@ ms.topic: article
 ms.prod: w10
 ---
 
-# Getting started with the Windows Insider Program
+# Get started with the Windows Insider Program
 
 ## Register
 1. [Register on our website](https://insider.windows.com/register) with your Microsoft account, which is the same account you use for other Microsoft services, like email, Microsoft Office, or OneDrive. (Don't have a Microsoft account? [Sign up now!](https://account.microsoft.com/account)) You can also [register for the Windows Insider Program for Business](https://docs.microsoft.com/windows-insider/at-work-pro/wip-4-biz-register) with your work account.
