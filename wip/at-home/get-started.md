@@ -1,6 +1,6 @@
 ---
 title: Getting started with the Windows Insider Program
-description: How to install Insider Preview builds 
+description: How to get started with the Windows Insider Program
 author: bleblanc
 manager: dougkim
 ms.tgt_pltfrm: na
