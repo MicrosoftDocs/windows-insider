@@ -28,7 +28,7 @@ ms.prod: w10
 
 First, make sure you're ready to set up flighting:
 
-- To install Windows 10 Insider Preview Builds1, you must be running a licensed version of Windows 10 on your device. You can install Windows 10 here if your device is currently running an older version or if you need to buy Windows. If you're having issues installing Windows 10, you can also download a Windows 10 Insider Preview ISO to get started.
+- To install Windows 10 Insider Preview Builds, you must be running a licensed version of Windows 10 on your device. You can install Windows 10 here if your device is currently running an older version or if you need to buy Windows. If you're having issues installing Windows 10, you can also download a Windows 10 Insider Preview ISO to get started.
 
 - The process of setting up flighting restarts your device during program setup and updating. Make sure you're ready for this, so you don't lose open documents or unsaved work. You might also want to take a picture of these directions or bookmark this page on your browser to get back to it easily.
 
