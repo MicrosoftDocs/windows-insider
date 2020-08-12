@@ -15,7 +15,7 @@ ms.prod: w10
 
 ## Register for the Windows Insider Program
 
-1. Register with your Microsoft account, which is the same account you use for other Microsoft services, like email, Microsoft Office, or OneDrive. (Don't have a Microsoft account? [Sign up now!](https://account.microsoft.com/account)) You can also [register for the Windows Insider Program for Business](https://docs.microsoft.com/en-us/windows-insider/at-work-pro/wip-4-biz-register) with your work account.
+1. Register with your Microsoft account, which is the same account you use for other Microsoft services, like email, Microsoft Office, or OneDrive. (Don't have a Microsoft account? [Sign up now!](https://account.microsoft.com/account)) You can also [register for the Windows Insider Program for Business](https://docs.microsoft.com/windows-insider/at-work-pro/wip-4-biz-register) with your work account.
 
 2. Accept the terms of our Program Agreement and Privacy Statement and submit. Welcome to the Windows Insider Program!
 
