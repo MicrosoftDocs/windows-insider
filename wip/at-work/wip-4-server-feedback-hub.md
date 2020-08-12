@@ -18,7 +18,7 @@ You can sign into the Feedback Hub using either your personal Microsoft account 
 
 ## Give feedback with your Microsoft account
 
-1. Open the [Feedback Hub](https://aka.ms/WIPFeedbackHub) app on your device, make sure you're logged in with your registered Microsoft account.
+1. Open the [Feedback Hub](https://aka.ms/WIPFeedbackHub) app on your device, make sure you're logged in with your registered Microsoft account by checking the person icon on the bottom of the side menu.
 
 2. Select the **Feedback** section from the side menu.
 
@@ -36,7 +36,7 @@ You can sign into the Feedback Hub using either your personal Microsoft account 
 
 ## Give feedback with your work account
 
-1. Open the [Feedback Hub](https://aka.ms/WIPFeedbackHub) app on your device and make sure you're logged in with your registered AAD account.
+1. Open the [Feedback Hub](https://aka.ms/WIPFeedbackHub) app on your device and make sure you're logged in with your registered AAD account by checking the person icon on the bottom of the side menu. If you're already signed in with your personal Microsoft account, you can switch to your work account by signing out and signing back in.
 
 > [!NOTE] 
 > When you log in to the Feedback Hub with your AAD account for the first time, you'll see a popup asking for permission to access your account's data, like name, organizational tenant ID, and user ID. If you can't give it permission in the popup, Feedback Hub may be blocked for you. Your administrator can give you access in the [Azure portal](https://portal.azure.com/) under **Enterprise applications** by enabling **Users can allow apps to access their data**. 
@@ -59,7 +59,7 @@ You can sign into the Feedback Hub using either your personal Microsoft account 
 
 When you're signed in with your AAD acccount, you can also see feedback from other users in your organization.
 
-1. Open the [Feedback Hub](https://aka.ms/WIPFeedbackHub) app on your device and make sure you're logged in with your registered AAD account.
+1. Open the [Feedback Hub](https://aka.ms/WIPFeedbackHub) app on your device and make sure you're logged in with your registered AAD account by checking the person icon on the bottom of the side menu. If you're already signed in with your personal Microsoft account, you can switch to your work account by signing out and signing back in.
 
 2. Select the **Feedback** section from the side menu.
 
