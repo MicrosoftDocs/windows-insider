@@ -18,6 +18,30 @@ The Changelog shows everything new from all the builds from the active developme
 >[!NOTE]
 > This page includes everything noted as part of the **What's new** and **General changes & improvements** sections of [the blog posts published for each build on the Windows Blog](https://blogs.windows.com/windowsexperience/tag/windows-insider-program/) and does not include other noted updates for Windows Insiders, fixes, or known issues. 
 
+## Build 20190
+Windows 10 Insider Preview Build 20190 was released to the Dev Channel on [8/12/2020](https://blogs.windows.com/windowsexperience/2020/08/12/announcing-windows-10-insider-preview-build-20190/).
+
+### New post-update experience
+We know that it doesn’t always feel clear what changed with a major update, or even how you can learn about and try out new features and improvements. This means that updates can feel time consuming without real benefit to you, and we want to change that. We’re introducing a new first run experience via the Tips app that highlights the most exciting changes on your PC after a major Windows 10 feature update is installed. After installing this build, Insiders will see the Tips app is launched highlight some of the most recent new features from the latest Insider Preview builds in the Dev Channel. To see this experience on your device, make sure the “Show me the Windows welcome experience” checkbox in Settings > System > Notifications & actions is checked.
+
+![Tips app](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/2/2020/08/cb69036429ed8a259c5ed6e5da6b4153.png "The Tips app launches post-update to highlight new features from the latest Insider Preview builds.")
+
+This experience will show up for Windows Insiders in EN locales such as US, UK, AU, IN, and CA.
+
+### Improved Graphics Settings experience
+While this isn’t a new feature all together, we have made significant changes based on customer feedback that will benefit our customers’ Graphics Settings experience. We have made the following improvements:
+
+* __We’ve updated the Graphics Settings to allow users to specify a default high performance GPU.__
+* __We’ve updated the Graphics Settings to allow users to pick a specific GPU on a per application basis.__
+
+If you’re a power user that has multiple high performance GPUs and would like to specify which of those GPUs should be the one used for high performance uses cases, you can now do that by going to __Settings > System > Display > Graphics settings__ or __Settings > Gaming > Graphics settings__. What this means is that an application that asks for a high-performance GPU will by default use the high-performance GPU you specify on this page.
+
+![Default GPU selection page](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/2/2020/08/16635566f758c021e6b341dfba58769d.jpg "Default high performance GPU selection page.")
+
+Now if you want even more control, we have also added the ability for you to specify exactly which GPU you want an app to run on using the new “Specific GPU” option. As you can see below, an application can be set to run on your GPU of choice.
+
+![Per app GPU selection](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/2/2020/08/bfb6378b0d407e4d79ce6527c67c35bd.jpg "The new per-application specific GPU selection option.")
+
 ## Build 20185
 Windows 10 Insider Preview Build 20185 was released to the Dev Channel on [8/5/2020](https://blogs.windows.com/windowsexperience/2020/08/05/announcing-windows-10-insider-preview-build-20185/).
 
