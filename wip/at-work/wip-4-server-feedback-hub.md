@@ -55,7 +55,7 @@ You can sign into the Feedback Hub using either your personal Microsoft account 
 
 [Learn more about giving great feedback and using the Feedback Hub.](https://docs.microsoft.com/windows-insider/at-home/feedback)
 
-## Track feedback from users in your organization
+## Track feedback from your organization
 
 When you're signed in with your AAD acccount, you can also see feedback from other users in your organization.
 
