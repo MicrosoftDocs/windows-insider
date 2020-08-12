@@ -65,4 +65,4 @@ When you're signed in with your AAD acccount, you can also see feedback from oth
 
 2. Under the **Filter** dropdown, select **My Organization**. This will show all the feedback from users in your organization who are also signed into the Feedback Hub using their registered AAD accounts.
 
-![Filtering to see your organization's feedback in the Feedback Hub.](images/wip-4-server-feedback.png "organizational feedback"). 
+![Filtering to see your organization's feedback in the Feedback Hub.](images/wip-4-server-feedback.png) 
