@@ -24,7 +24,7 @@ You can sign into the Feedback Hub using either your personal Microsoft account 
 
 3. Select the **+ Add new feedback** button.
 
-4. Under **Enter your feedback**, enter a title that says the build number you're providing feedback for, like this: [Server #####] Title of your feedback. Explain your feedback in more detail.
+4. Under **Enter your feedback**, enter a title that says the build number you're providing feedback for, like this: [Server #####] Title of your feedback. Then explain your feedback in more detail.
 
 5. Under **Choose a category**, choose if it's a problem or suggestion. Select **Windows Server** from the first dropdown and then the best subcategory for your feedback from the second dropdown. 
 
@@ -45,7 +45,7 @@ You can sign into the Feedback Hub using either your personal Microsoft account 
 
 3. Select the **+ Add new feedback** button.
 
-4. Under **Enter your feedback**, enter a title that says the build number you're providing feedback for, like this: [Server #####] Title of your feedback. Explain your feedback in more detail.
+4. Under **Enter your feedback**, enter a title that says the build number you're providing feedback for, like this: [Server #####] Title of your feedback. Then explain your feedback in more detail.
 
 5. Under **Choose a category**, choose if it's a problem or suggestion. Select **Windows Server** from the first dropdown and then the best subcategory for your feedback from the second dropdown. 
 
