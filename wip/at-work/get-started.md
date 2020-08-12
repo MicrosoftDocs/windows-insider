@@ -35,7 +35,7 @@ ms.prod: w10
 
 ## Give feedback
 
-1. Once you've had a chance to explore Windows Server Insider Preview Builds, give us feedback in the [Feedback Hub](https://aka.ms/FeedbackHub) by selecting the Windows Server category and the right subcategory for your feedback. Be sure to include the build number you're using. This feedback goes directly to our engineers working to improve Windows Server. Not sure how to get started in the Feedback Hub? [Learn more about how to give great feedback.](https://docs.microsoft.com/en-us/windows-insider/at-home/feedback)
+1. Once you've had a chance to explore Windows Server Insider Preview Builds, give us feedback in the [Feedback Hub](https://aka.ms/FeedbackHub) by selecting the Windows Server category and the right subcategory for your feedback. Be sure to include the build number you're using. This feedback goes directly to our engineers working to improve Windows Server. Not sure how to get started in the Feedback Hub? [Learn more about how to give great feedback.](https://docs.microsoft.com/windows-insider/at-home/feedback)
 
 2. When you register with your work's Azure Active Directory (AAD) account, you can also search in the Feedback Hub to see feedback from other Windows Insiders in your organization. Only Microsoft and users registered under your company's domain in AAD can view your organization's feedback. [Learn how to see your organization's feedback.](https://docs.microsoft.com/windows-insider/at-work/wip-4-server-feedback-hub)
 
