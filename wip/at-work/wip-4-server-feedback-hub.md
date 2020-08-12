@@ -20,7 +20,7 @@ You can sign into the Feedback Hub using either your personal Microsoft account 
 
 1. Open the [Feedback Hub](https://aka.ms/WIPFeedbackHub) app on your device, make sure you're logged in with your registered Microsoft account.
 
-2. Select the Feedback section from the side menu.
+2. Select the **Feedback** section from the side menu.
 
 3. Select the **+ Add new feedback** button.
 
@@ -41,7 +41,7 @@ You can sign into the Feedback Hub using either your personal Microsoft account 
 > [!NOTE] 
 > When you log in to the Feedback Hub with your AAD account for the first time, you'll see a popup asking for permission to access your account's data, like name, organizational tenant ID, and user ID. If you can't give it permission in the popup, Feedback Hub may be blocked for you. Your administrator can give you access in the [Azure portal](https://portal.azure.com/) under **Enterprise applications** by enabling **Users can allow apps to access their data**. 
 
-2. Select the Feedback section from the side menu.
+2. Select the **Feedback** section from the side menu.
 
 3. Select the **+ Add new feedback** button.
 
@@ -61,7 +61,7 @@ When you're signed in with your AAD acccount, you can also see feedback from oth
 
 1. Open the [Feedback Hub](https://aka.ms/WIPFeedbackHub) app on your device and make sure you're logged in with your registered AAD account.
 
-2. Select the Feedback section from the side menu.
+2. Select the **Feedback** section from the side menu.
 
 2. Under the **Filter** dropdown, select **My Organization**. This will show all the feedback from users in your organization who are also signed into the Feedback Hub using their registered AAD accounts.
 
