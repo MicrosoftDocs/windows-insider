@@ -27,7 +27,7 @@ You can sign into the Feedback Hub using either your personal Microsoft account 
 
 4. Under **Enter your feedback**, enter a title and explain your feedback in more detail.
 
-5. Under **Choose a category**, choose if it's a problem or suggestion. Select the best category and subcategory for your feedback from the second dropdown. 
+5. Under **Choose a category**, choose if it's a problem or suggestion. Select the best category and subcategory for your feedback from the dropdowns. 
 
 6. Continue to find similar feedback and then add more details, like screenshots, files, and diagnostic data.
 
@@ -48,7 +48,7 @@ You can sign into the Feedback Hub using either your personal Microsoft account 
 
 4. Under **Enter your feedback**, enter a title and explain your feedback in more detail.
 
-5. Under **Choose a category**, choose if it's a problem or suggestion. Select the best category and subcategory for your feedback from the second dropdown. 
+5. Under **Choose a category**, choose if it's a problem or suggestion. Select the best category and subcategory for your feedback from the dropdowns. 
 
 6. Continue to find similar feedback and then add more details, like screenshots, files, and diagnostic data.
 
