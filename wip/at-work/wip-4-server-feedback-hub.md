@@ -28,7 +28,7 @@ You can sign into the Feedback Hub using either your personal Microsoft account 
 
 5. Under **Choose a category**, choose if it's a problem or suggestion. Select **Windows Server** from the first dropdown and then the best subcategory for your feedback from the second dropdown. 
 
-6. Continue to find similar feedback and then add more details, like diagnostic information.
+6. Continue to find similar feedback, and then add more details, like diagnostic information.
 
 7. Submit your feedback.
 
@@ -49,7 +49,7 @@ You can sign into the Feedback Hub using either your personal Microsoft account 
 
 5. Under **Choose a category**, choose if it's a problem or suggestion. Select **Windows Server** from the first dropdown and then the best subcategory for your feedback from the second dropdown. 
 
-6. Continue to find similar feedback and then add more details, like diagnostic information.
+6. Continue to find similar feedback, and then add more details, like diagnostic information.
 
 7. Submit your feedback.
 
