@@ -49,7 +49,7 @@ Your privacy is important to us. But, to run Insider Preview builds on a device 
 
 * If you're already running Insider Preview builds in the Dev Channel on devices, [use these instructions to update your diagnostic data settings](https://aka.ms/DDChanges).
 
-[Learn more about diagnostic data and configuring it for your organization.](https://docs.microsoft.com/en-us/windows/privacy/configure-windows-diagnostic-data-in-your-organization)
+[Learn more about diagnostic data and configuring it for your organization.](https://docs.microsoft.com/windows/privacy/configure-windows-diagnostic-data-in-your-organization)
 
 ## Create and manage policies 
 You can use Windows Update for Business (Group Policy or Mobile Device Management (MDM) tools, such as Intune,) or Windows Server Update Service (WSUS) tools, such as Configuration Manager, to control how and when Windows 10 Insider Preview Builds are installed on devices in your organization.  
