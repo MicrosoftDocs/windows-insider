@@ -1,37 +1,69 @@
 ---
-title: Share and track feedback 
-description: how to share and track feedback using the Feedback Hub 
-author: lizap
+title: Give feedback as a business
+description: How to give feedback in the Windows Insider Program for Business
+author: bleblanc
 manager: dougkim
 ms.tgt_pltfrm: na
 ms.devlang: na
-ms.date: 08/20/2018
-ms.author: elizapo
+ms.author: v-allsh
 ms.localizationpriority: medium
 ms.topic: article
 ms.prod: w10
 ---
 
-# Submit and track feedback using the Feedback Hub
+# Give feedback as a business
 
-Once users in your organization have installed an Insider Preview build, they can provide feedback to Microsoft on the build using the Feedback Hub application in Windows. This feedback can help us fix issues your users may encounter and is also an effective way to send suggestions to our engineering teams for new features and improvements. For more information, see: [Send feedback to Microsoft with the Feedback Hub app](https://support.microsoft.com/help/4021566/windows-10-send-feedback-to-microsoft-with-feedback-hub-app).
+Once you've had a chance to explore Windows 10 Insider Preview Builds, you and users across your organization can give us your feedback in the [Feedback Hub](https://aka.ms/WIPFeedbackHub) to help us fix issues, create new features and improvements, and continue to evolve Windows for everyone.
 
-Users can sign into the Feedback Hub using either their Microsoft account or Azure Active Directory work account. Signing in with an Azure AD work account is recommended for business users as it allows users to submit and track feedback specific to their organization's needs and issues. 
+You can sign into the Feedback Hub using either your personal Microsoft account or your Azure Active Directory (AAD) work account. When you use your organization's account, you'll be able to give us feedback on behalf of your organization to help shape Windows to meet your business's specific needs.
 
-## Submit feedback on behalf of your organization
-1. Register as a Windows Insider with your work account in Azure Active Directory.
-2. Sign into the [Feedback Hub](insiderhub://home/) using this same work account. On the Welcome page of the Feedback Hub, click on the People icon, lower left and select or add your AAD work account. If you're signed in to the Feedback Hub App using your personal Microsoft Account (MSA), you can switch to your work account by clicking on your account, signing out and signing back in.
+## Give feedback with your Microsoft account
 
-NOTE: The Feedback Hub needs a user's consent to access their Azure AD account profile data (we read name, organizational tenant ID, and user ID). When users sign in for the first time with their Azure AD account, they will see a pop-up asking for permission. If a user cannot give consent in the pop-up, access to the Feedback Hub may be blocked. Administrators can unblock in the [Azure portal](https://portal.azure.com/). Go to __Enterprise applications__ section and enable __Users can allow apps to access their data__. 
+1. Open the [Feedback Hub](https://aka.ms/WIPFeedbackHub) app on your device, make sure you're logged in with your registered Microsoft account by checking the person icon on the bottom of the side menu.
 
-3. To submit feedback, go to the Feedback Hub and click on the __Feedback tab__ in the upper-left corner off the screen. For more information, see: [How to provide effective feedback](https://insider.windows.com/en-us/how-to-feedback/).  
+2. Select the **Feedback** section from the side menu.
 
-## Track feedback from users in your organization
-To track feedback submitted to the Feedback Hub by other users in your organization, go to __Feedback>All Feedback__. Under the __Filter__ drop-down, select __My Organization__. 
-NOTE: You must sign in with your registered Azure AD account to track feedback from users in your organization. Feedback filtered with this view will only show feedback from users in your organization who sign into the Feedback Hub using their registered work account in Azure AD. 
+3. Select the **+ Add new feedback** button.
 
-![organizational feedback](images/wip-4-biz-feedback.png "organizational feedback"). 
+4. Under **Enter your feedback**, enter a title and explain your feedback in more detail.
 
-## Related topics
-[Send feedback to Microsoft with the Feedback Hub app](https://support.microsoft.com/help/4021566/windows-10-send-feedback-to-microsoft-with-feedback-hub-app)
+5. Under **Choose a category**, choose if it's a problem or suggestion. Select the best category and subcategory for your feedback from the dropdowns. 
 
+6. Continue to find similar feedback and then add more details, like screenshots, files, and diagnostic data.
+
+7. Submit your feedback.
+
+[Learn more about giving great feedback and using the Feedback Hub.](https://docs.microsoft.com/windows-insider/at-home/feedback)
+
+## Give feedback with your work account
+
+1. Open the [Feedback Hub](https://aka.ms/WIPFeedbackHub) app on your device and make sure you're logged in with your registered AAD account by checking the person icon on the bottom of the side menu. If you're already signed in with your personal Microsoft account, you can switch to your work account by signing out and signing back in.
+
+> [!NOTE] 
+> When you log in to the Feedback Hub with your AAD account for the first time, you'll see a popup asking for permission to access your account's data, like name, organizational tenant ID, and user ID. If you can't give it permission in the popup, Feedback Hub may be blocked for you. Your administrator can give you access in the [Azure portal](https://portal.azure.com/) under **Enterprise applications** by enabling **Users can allow apps to access their data**. 
+
+2. Select the **Feedback** section from the side menu.
+
+3. Select the **+ Add new feedback** button.
+
+4. Under **Enter your feedback**, enter a title and explain your feedback in more detail.
+
+5. Under **Choose a category**, choose if it's a problem or suggestion. Select the best category and subcategory for your feedback from the dropdowns. 
+
+6. Continue to find similar feedback and then add more details, like screenshots, files, and diagnostic data.
+
+7. Submit your feedback.
+
+[Learn more about giving great feedback and using the Feedback Hub.](https://docs.microsoft.com/windows-insider/at-home/feedback)
+
+## Track feedback from your organization
+
+When you're signed in with your AAD acccount, you can also see feedback from other users in your organization.
+
+1. Open the [Feedback Hub](https://aka.ms/WIPFeedbackHub) app on your device and make sure you're logged in with your registered AAD account by checking the person icon on the bottom of the side menu. If you're already signed in with your personal Microsoft account, you can switch to your work account by signing out and signing back in.
+
+2. Select the **Feedback** section from the side menu.
+
+2. Under the **Filter** dropdown, select **My Organization**. This will show all the feedback from users in your organization who are also signed into the Feedback Hub using their registered AAD accounts.
+
+![Filtering to see your organization's feedback in the Feedback Hub.](images/wip-4-biz-feedback.png)

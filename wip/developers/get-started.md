@@ -1,6 +1,6 @@
 ---
-title: Get started with the Windows Insider Program
-description: How to get started with the Windows Insider Program
+title: Get started with the Windows Insider Program for Developers
+description: How to get started with the Windows Insider Program for Developers
 author: bleblanc
 manager: dougkim
 ms.tgt_pltfrm: na
@@ -11,10 +11,11 @@ ms.topic: article
 ms.prod: w10
 ---
 
-# Get started with the Windows Insider Program
+# Get started with the Windows Insider Program for Developers
 
-## Register
-1. [Register on our website](https://insider.windows.com/register) with your Microsoft account, which is the same account you use for other Microsoft services, like email, Microsoft Office, or OneDrive. (Don't have a Microsoft account? [Sign up now!](https://account.microsoft.com/account)) You can also [register for the Windows Insider Program for Business](https://docs.microsoft.com/windows-insider/at-work-pro/wip-4-biz-register) with your work account.
+## Register for the Windows Insider Program
+
+1. Register with your Microsoft account, which is the same account you use for other Microsoft services, like email, Microsoft Office, or OneDrive. (Don't have a Microsoft account? [Sign up now!](https://account.microsoft.com/account)) You can also [register for the Windows Insider Program for Business](https://docs.microsoft.com/windows-insider/at-work-pro/wip-4-biz-register) with your work account.
 
 2. Accept the terms of our Program Agreement and Privacy Statement and submit. Welcome to the Windows Insider Program!
 
@@ -27,7 +28,7 @@ ms.prod: w10
 
 First, make sure you're ready to set up flighting:
 
-- To install Windows 10 Insider Preview Builds1, you must be running a licensed version of Windows 10 on your device. You can install Windows 10 here if your device is currently running an older version or if you need to buy Windows. If you're having issues installing Windows 10, you can also download a Windows 10 Insider Preview ISO to get started.
+- To install Windows 10 Insider Preview Builds, you must be running a licensed version of Windows 10 on your device. You can install Windows 10 here if your device is currently running an older version or if you need to buy Windows. If you're having issues installing Windows 10, you can also download a Windows 10 Insider Preview ISO to get started.
 
 - The process of setting up flighting restarts your device during program setup and updating. Make sure you're ready for this, so you don't lose open documents or unsaved work. You might also want to take a picture of these directions or bookmark this page on your browser to get back to it easily.
 
@@ -70,9 +71,23 @@ Afrikaans (South Africa), Albanian (Albania), Amharic, Armenian, Assamese, Azerb
 
 *Windows 10 Insider Preview Builds may be substantially modified before they're commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here. Some product features and functionality may require additional hardware or software.*
 
+## Download the SDK
+
+1. [Download the latest SDK Insider Preview from the Windows Insider Program website.](https://insider.windows.com/for-developers-getting-started#download)
+
+2. Check the [SDK Insider Preview release notes](https://blogs.windows.com/windowsdeveloper/) for details on new APIs, controls, issues, fixes, and more for each preview.
+
+3. Use the SDK Insider Preview with Windows 10 Insider Preview Builds to develop and update your apps to work with the latest versions of Windows 10.
+
+4. SDK Insider Previews are designed for you to download at your convenience, so return to our website to download new versions. We recommend keeping any eye on the release notes or [Flight Hub](https://docs.microsoft.com/windows-insider/flight-hub/) to know when new previews are available.
+
+> [!div class="nextstepaction"]
+> [Download now](https://insider.windows.com/for-developers-getting-started#download)
+
+
 ## Give feedback
 
-1. Once you've had a chance to explore Windows 10 Insider Preview Builds, use the [Feedback Hub](https://aka.ms/WIPFeedbackHub) to let us know what you think of the latest updates, report issues, or suggest new features. This feedback goes directly to our engineers working to improve Windows. Not sure how to get started in the Feedback Hub? [Learn more about how to give great feedback.](https://docs.microsoft.com/windows-insider/at-home/feedback)
+1. Once you've had a chance to explore Windows 10 Software Development Kit (SDK) Insider Preview Builds, give us feedback about the tools in the [developer forum](https://aka.ms/WIPDeveloperForum). Once you've had a chance to explore Windows 10 Insider Preview Builds, use the [Feedback Hub](https://aka.ms/WIPFeedbackHub) to let us know what you think of the latest updates, report issues, or suggest new features. This feedback goes directly to our engineers working to improve Windows. Not sure how to get started in the Feedback Hub? [Learn more about how to give great feedback.](https://docs.microsoft.com/windows-insider/at-home/feedback)
 
 2. Participate in Quests, bug bashes, and more in the Feedback Hub, and start connecting with our community. [Learn more about getting involved in the Feedback Hub.](https://docs.microsoft.com/windows-insider/at-home/feedback)
 
