@@ -18,6 +18,28 @@ The Changelog represents everything new from all the builds from the Active Deve
 >[!NOTE]
 > This page includes everything noted as part of the "What's new" and "General changes & improvements" sections of the blog posts published for each build [on the Windows Blog](https://blogs.windows.com/windowsexperience/tag/windows-insider-program/) and does not contain other noted updates for Insiders, fixes, or known issues. 
 
+## Build 20197
+Windows 10 Insider Preview Build 20197 was released to the Dev Channel on [8/21/2020](https://blogs.windows.com/windowsexperience/2020/08/21/announcing-windows-10-insider-preview-build-20197/).
+
+### Bringing Disk Management into Settings
+We mentioned we had more Settings work on the way, and here’s the next one – as of today’s build you’ll now be able to manage your disks and volumes from within the Settings app. This includes tasks such as viewing disk information, creating and formatting volumes, and assigning drive letters.
+
+Unlike the existing Disk Management MMC snap-in, this modern experience was built from the ground up to with accessibility in mind. It also features better integration with features such as Storage Spaces and the Storage breakdown page.
+
+Go to __Settings > System > Storage__ and __click Manage Disks and Volumes__ to get started. We’d love to hear your feedback once you try it out.
+
+![Settings Disk Management](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/2/2020/08/113cc52773bb5f5e6b6b6d761e294222.png "The Manage Disks and Volumes page in Settings. C drive is selected and shows Explorer and Properties options.")
+
+The existing Disk Management MMC snap-in is still available for those that need it.
+
+### Changes and Improvements
+* We’re updating the [ALT + Tab behavior with Microsoft Edge tabs](http://aka.ms/wip20161) to now have a default of displaying at most 5 tabs, rather than any recent tabs. If at any point you’d like to change this, you can under Settings > System > Multitasking.
+* We’re exploring including a Web Browsing section [in the Settings header](https://docs.microsoft.com/en-us/windows-insider/at-home/Whats-new-wip-at-home-1903#updated-settings-homepage), and Insiders may start to see this.
+* Going forward only the currently active profile picture will display under Your Info in Settings.
+* Based on feedback we’re turning off ESENT Warning Event ID 642.
+* It’s now possible to select the new Microsoft Edge as your desired app in Assigned Access.
+* We’ve updated Narrator so that now when using the Microsoft Pinyin IME, Narrator is able to distinguish candidate characters/words by providing detailed reading information.
+
 ## Build 20190
 Windows 10 Insider Preview Build 20190 was released to the Dev Channel on [8/12/2020](https://blogs.windows.com/windowsexperience/2020/08/12/announcing-windows-10-insider-preview-build-20190/).
 
@@ -27,6 +49,8 @@ We know that it doesn’t always feel clear what changed with a major update, or
 ![Tips app](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/2/2020/08/cb69036429ed8a259c5ed6e5da6b4153.png "The Tips app launches post-update to highlight new features from the latest Insider Preview builds.")
 
 This experience will show up for Windows Insiders in EN locales such as US, UK, AU, IN, and CA.
+
+__NOTE: The new post update experience with the Tips app mentioned with Build 20190 was a trial run for this experience to get feedback and gauge interest and specific only to Build 20190. You will not see this experience on newer builds. Insiders may see other experiences like this one on newer builds coming soon.__
 
 ### Improved Graphics Settings experience
 While this isn’t a new feature all together, we have made significant changes based on customer feedback that will benefit our customers’ Graphics Settings experience. We have made the following improvements:
