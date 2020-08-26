@@ -18,6 +18,9 @@ The Changelog shows everything new from all the builds from the active developme
 >[!NOTE]
 > This page includes everything noted as part of the **What's new** and **General changes & improvements** sections of [the blog posts published for each build on the Windows Blog](https://blogs.windows.com/windowsexperience/tag/windows-insider-program/) and does not include other noted updates for Windows Insiders, fixes, or known issues. 
 
+## Build 20201
+Windows 10 Insider Preview Build 20201 was released to the Dev Channel on [8/26/2020](https://blogs.windows.com/windows-insider/2020/08/26/announcing-windows-10-insider-preview-build-20201/).
+
 ## Build 20197
 Windows 10 Insider Preview Build 20197 was released to the Dev Channel on [8/21/2020](https://blogs.windows.com/windowsexperience/2020/08/21/announcing-windows-10-insider-preview-build-20197/).
 
