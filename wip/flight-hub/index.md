@@ -23,11 +23,12 @@ Moving forward, the Fast ring will receive builds directly from this active deve
 
 | Build | Dev | SDK | ISO |
 |-------|------|------|
-|20197|[**8/21/2020**](https://blogs.windows.com/windowsexperience/2020/08/21/announcing-windows-10-insider-preview-build-20197/)|||
-|20190|[8/12/2020](https://blogs.windows.com/windowsexperience/2020/08/12/announcing-windows-10-insider-preview-build-20190/)|[**8/12/2020**](https://software-download.microsoft.com/download/sg/Windows_InsiderPreview_SDK_en-us_20190_1.iso)||
+|20201|[**8/26/2020**](https://blogs.windows.com/windowsexperience/2020/08/21/announcing-windows-10-insider-preview-build-20197/)|[**8/26/2020**](https://software-download.microsoft.com/download/sg/Windows_InsiderPreview_SDK_en-us_20201_1.iso)|[**8/26/2020**](https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewadvanced)|
+|20197|[8/21/2020](https://blogs.windows.com/windowsexperience/2020/08/21/announcing-windows-10-insider-preview-build-20197/)|||
+|20190|[8/12/2020](https://blogs.windows.com/windowsexperience/2020/08/12/announcing-windows-10-insider-preview-build-20190/)|[8/12/2020](https://software-download.microsoft.com/download/sg/Windows_InsiderPreview_SDK_en-us_20190_1.iso)||
 |20185|[8/5/2020](https://blogs.windows.com/windowsexperience/2020/08/05/announcing-windows-10-insider-preview-build-20185/)|[8/5/2020](https://software-download.microsoft.com/download/sg/Windows_InsiderPreview_SDK_en-us_20185_1.iso)||
 |20180|[7/29/2020](https://blogs.windows.com/windowsexperience/2020/07/29/announcing-windows-10-insider-preview-build-20180/)|[7/29/2020](https://software-download.microsoft.com/download/sg/Windows_InsiderPreview_SDK_en-us_20180_1.iso)||
-|20175|[7/22/2020](https://blogs.windows.com/windowsexperience/2020/07/22/announcing-windows-10-insider-preview-build-20175/)|[7/22/2020](https://software-download.microsoft.com/download/sg/Windows_InsiderPreview_SDK_en-us_20175_1.iso)||
+|20175|[7/22/2020](https://blogs.windows.com/windowsexperience/2020/07/22/announcing-windows-10-insider-preview-build-20175/)|[7/22/2020](https://software-download.microsoft.com/download/sg/Windows_InsiderPreview_SDK_en-us_20175_1.iso)|[7/22/2020](https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewadvanced)|
 |20170|[7/15/2020](https://blogs.windows.com/windowsexperience/2020/07/15/announcing-windows-10-insider-preview-build-20170/)|[7/15/2020](https://software-download.microsoft.com/download/sg/Windows_InsiderPreview_SDK_en-us_20170_1.iso)||
 |20161|[7/1/2020](https://blogs.windows.com/windowsexperience/2020/07/01/announcing-windows-10-insider-preview-build-20161/)|[7/2/2020](https://software-download.microsoft.com/download/sg/Windows_InsiderPreview_SDK_en-us_20161_1.iso)||
 |20152|[6/24/2020](https://blogs.windows.com/windowsexperience/2020/06/24/announcing-windows-10-insider-preview-build-20152/)|||
