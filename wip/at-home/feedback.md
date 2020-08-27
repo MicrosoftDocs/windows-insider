@@ -110,7 +110,7 @@ First, check if feedback already exists for your problem or suggestion. If your 
 
 9. Select **Next.** 
 
-7.  If you're reporting a problem, under **4. Add more details**, you can check **Prioritize this as high severity** if your issue is urgent. You should also choose which of the categories best describes your problem:
+7.  If you're reporting a problem, under **4. Add more details**, you can check **Prioritize this as high severity** if your issue is urgent. You should also choose which of these categories best describes your problem:
 
 - **Mising personal data**
 - **Security or privacy concern**
@@ -123,9 +123,9 @@ First, check if feedback already exists for your problem or suggestion. If your 
 
 - **Attach a screenshot** - Press Ctrl + V to paste an image from your clipboard or go to where you're seeing the issue and press the Windows key + Print screen to take a screenshot that gets saved to your Pictures > Screenshots folder. Then **Choose a screenshot** to attach the file. 
 
-- **Attach a file** - Use File Explorer to find and attach the file you'd like to submit with your feedback.
+- **Attach a file** - Select this to use File Explorer to find and attach the file you'd like to submit with your feedback.
 
-- **Recreate your problem or suggestion** - Check the default settings it's showing for your issue, and then **Start recording**. While it's recording, run through the steps that led to your issue or show us how you think your suggestion would work. When you're done, select **Stop capture** to attach it to your feedback. You'll can review and edit this data before you send it 
+- **Recreate your problem or suggestion** - Check the default settings it's showing for your issue, and then **Start recording**. While it's recording, run through the steps that led to your issue or show us how you think your suggestion would work. When you're done, select **Stop capture** to attach it to your feedback. You can review and edit this data before you send it.
 
 9. If you'd like to have a copy of the information you're sending us, check the box to **Save a local copy of diagnostics and attachments created when giving feedback**.
 
