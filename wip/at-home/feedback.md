@@ -23,21 +23,21 @@ The [Feedback Hub](https://aka.ms/WIPFeedbackHub) is an app available on Windows
 
 First, the **Home** section, where you land when you open the app, shows the account you're logged into, some key quick links, and a section with what's new. 
 
-### Feedback
+### Feedback section
 
 The **Feedback** section shows you all the current feedback and has filters to help you look through it. You can also add your own new feedback, upvote suggestions from others, or add comments. You'll also see **Collections**, which group together similar feedback, making it easier to find.
 
 Use the **My feedback** tab to go back and look at all of your past feedback and check its status. If you start feedback but don't submit it, a **Drafts** tab will also show up here. From there, you'll be able to open a feedback draft, continue to edit it, and submit when you're ready.
 
-### Announcements
+### Announcements section
 
 In **Announcements**, you'll see quick versions of the latest Windows Insider news. You can also [read full versions of these announcements in our flight blog posts](https://blogs.windows.com/windows-insider/). 
 
-### Quests
+### Quests section
 
 In **Quests**, follow our step-by-step instructions to try out Windows features we're currently working on improving with your feedback. For each Quest you finish, you'll earn points towards badges, which you'll see in the **Achievements** section. 
 
-### Achieverments
+### Achieverments section
 
 In the **Achievements** section, you'll see all the badges you've earned as a Windows Insider from flighting, Quests, and more.
 
