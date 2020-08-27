@@ -19,33 +19,33 @@ As a Windows Insider, your feedback can change and improve Windows for users aro
 
 The [Feedback Hub](https://aka.ms/WIPFeedbackHub) is an app available on Windows devices. You can search for it or find it in your Start menu to get started. Sign in with the account that that you used to register for the Windows Insider Program to get access to all its features.
 
-**Home**
+### Home
 
 First, the **Home** section, where you land when you open the app, shows the account you're logged into, some key quick links, and a section with what's new. 
 
-**Feedback**
+### Feedback
 
 The **Feedback** section shows you all the current feedback and has filters to help you look through it. You can also add your own new feedback, upvote suggestions from others, or add comments. You'll also see **Collections**, which group together similar feedback, making it easier to find.
 
 Use the **My feedback** tab to go back and look at all of your past feedback and check its status. If you start feedback but don't submit it, a **Drafts** tab will also show up here. From there, you'll be able to open a feedback draft, continue to edit it, and submit when you're ready.
 
-**Announcements**
+### Announcements
 
 In **Announcements**, you'll see quick versions of the latest Windows Insider news. You can also [read full versions of these announcements in our flight blog posts](https://blogs.windows.com/windows-insider/). 
 
-**Quests**
+### Quests
 
 In **Quests**, follow our step-by-step instructions to try out Windows features we're currently working on improving with your feedback. For each Quest you finish, you'll earn points towards badges, which you'll see in the **Achievements** section. 
 
-**Achieverments**
+### Achieverments
 
 In the **Achievements** section, you'll see all the badges you've earned as a Windows Insider from flighting, Quests, and more.
 
-**Your account**
+### Your account
 
 At the bottom of the menu, you'll see either your account name and picture, which means you're logged in, or an icon you can select to log in.
 
-**Settings**
+### Settings
 
 Finally, you'll see **Settings** at the very bottom of the menu. This lets you choose when you get notifications, adjust your theme or diagnostics settings, and see some of your device information. 
 
