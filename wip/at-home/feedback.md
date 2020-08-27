@@ -58,6 +58,9 @@ The [Feedback Hub](https://aka.ms/WIPFeedbackHub) collects information based on 
 
 First, check if feedback already exists for your problem or suggestion. If your problem already exists, you can add similar feedback. If your suggestion already exists, you can upvote that feedback. You can also add comments to share more details. If you can't find feedback like yours, it's time to add new feedback.
 
+> [!div class="nextstepaction"]
+> [Give feedback](https://aka.ms/WIPFeedbackHub)
+
 > [!NOTE] 
 > Depending on the kind of feedback you're giving, we might need to be able to see a certain amount of diagnostic data. [Make sure your data settings are set to the right level to flight and give us feedback.](https://docs.microsoft.com/windows-insider/at-home/get-started)
 
@@ -69,7 +72,7 @@ First, check if feedback already exists for your problem or suggestion. If your 
 
 3. In the search on either the **Home** or **Feedback** sections, enter the topic you want to check for feedback on.
 
-4. Use the filters at the top to further narrow your search results. You can select multiple filters from the 
+4. Use the filters at the top to further narrow your search results.
 
 - The **Sort** option helps you find the latest issues and suggestions. Choose from Trending, Most recent, or upvotes.
 
