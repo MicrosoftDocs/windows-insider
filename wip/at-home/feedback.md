@@ -72,9 +72,9 @@ First, check if feedback already exists for your problem or suggestion. If your 
 
 3. In the search on either the **Home** or **Feedback** sections, enter the topic you want to check for feedback on.
 
-4. Use the filters at the top to further narrow your search results.
+4. Use the filters at the top to further narrow your search results:
 
-- The **Sort** option helps you find the latest issues and suggestions. Choose from Trending, Most recent, or upvotes.
+- The **Sort** option helps you find the latest issues and suggestions. Choose from **Trending**, **Most recent**, or **Upvotes**.
 
 - The **Filter** option gives you the most ways to filter your results. You can sort feedback by your build number, if they're suggestions or problems, if they have official responses, or their status, like more details needed and changes made. You can also exclude all feedback with changes made, so you're only seeing open issues. You can also choose multiple filters in the section.
 
