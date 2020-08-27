@@ -37,7 +37,7 @@ In **Announcements**, you'll see quick versions of the latest Windows Insider ne
 
 In **Quests**, follow our step-by-step instructions to try out Windows features we're currently working on improving with your feedback. For each Quest you finish, you'll earn points towards badges, which you'll see in the **Achievements** section. 
 
-### Achieverments section
+### Achievements section
 
 In the **Achievements** section, you'll see all the badges you've earned as a Windows Insider from flighting, Quests, and more.
 
