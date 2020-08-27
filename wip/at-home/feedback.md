@@ -94,23 +94,23 @@ First, check if feedback already exists for your problem or suggestion. If your 
 
 - Snip & Sketch app should have a zoom feature
 
-3. Under **Explain in more detail**, give us more specific details about how you encountered the issue, error messages you saw, why you think improvements would help, or any other information you think will help us resolve the issue. Information about your device, operating system, and applications are automatically included with your feedback, so you don't have to include those details. For example:
+3. Under **Explain in more detail**, give us more specific details about how you encountered the issue, error messages you saw, why you think improvements would help, or any other information you think will help us resolve the issue. (Information about your device, operating system, and applications are automatically included with your feedback, so you don't have to include those details.) For example:
 
 - You should be able to zoom in on an image using Snip & Sketch. When you're working with an image that's the same size as your display, it's hard to edit or annotate small parts of the image without being able to zoom in. 
 
 4. Select **Next**. 
 
-5. Under **Choose a category**, tell us if your feedback is a **Problem** or **Suggestion**. If you're seeing an issue, like something being broken or missing, you should choose problem. If you want a new feature or change in Windows, choose suggestion.
+5. Under **2. Choose a category**, tell us if your feedback is a **Problem** or **Suggestion**. If you're seeing an issue, like something being broken or missing, you should choose problem. If you want a new feature or change in Windows, choose suggestion.
 
-6. Based on what you've entered so far, [Feedback Hub](https://aka.ms/WIPFeedbackHub) usually chooses a **Category** and **Subcategory** for your feedback. Make sure what it's chosen matches the feedback you've given or use the dropdowns to change them. Categories make sure your device pulls the right information and that your feedback is sent to the right teams, so it's important to check them.
+6. Based on what you've entered so far, [Feedback Hub](https://aka.ms/WIPFeedbackHub) usually chooses a **Category** and **Subcategory** for your feedback. Categories make sure your device pulls the right information and that your feedback is sent to the right teams, so it's important to check these. Make sure what it's chosen matches the feedback you've given or use the dropdowns to change them. 
 
 7. Select **Next.** 
 
-8. Under **Find Similar Feedback**, it will pull up a list of feedback similar to yours if it exists. If there's a match, select it and continue to add more details specific to your issue. If there isn't anything that's a good match, select **New Feedback**.
+8. Under **3. Find Similar Feedback**, it will pull up a list of any feedback similar to yours. If there's a match, select it and continue to add more details specific to your issue. If there isn't anything that's a good match, select **New feedback**.
 
 9. Select **Next.** 
 
-7.  If you're reporting a problem, under **Add more details**, you can check **Prioritize this as high severity** if your issue is urgent. You should also choose which of the categories best describes your problem:
+7.  If you're reporting a problem, under **4. Add more details**, you can check **Prioritize this as high severity** if your issue is urgent. You should also choose which of the categories best describes your problem:
 
 - **Mising personal data**
 - **Security or privacy concern**
