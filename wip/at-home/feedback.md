@@ -144,11 +144,12 @@ If you think others are experiencing the same issue or would like the same new f
 
 3. Share your feedback link with your community.
 
+> [!NOTE] 
+> If you're on an Azure Active Directory (AAD) work account, you can also see feedback from other users in your organization. [Learn more about giving and tracking feedback as a business.](https://docs.microsoft.com/windows-insider/at-work-pro/wip-4-biz-feedback).
+
 ## Check the status of your feedback
 
-You can come back to the **My feedback** tab of the **Feedback** section any time to see the status of your feedback. When the status of your feedback changes, you'll get a notification. (You'll also get these for feedback you upvote.) 
-
-When it changes, you’ll see a banner on your feedback showing its status.
+You can come back to the **My feedback** tab of the **Feedback** section any time to see the status of your feedback. When the status of your feedback changes, you'll get a notification. (You'll also get these for feedback you upvote.) When it changes, you’ll see a banner on your feedback showing its status:
 
 • **We've got it** - Your feedback's been sent to an expert to review.
 
@@ -156,12 +157,10 @@ When it changes, you’ll see a banner on your feedback showing its status.
 
 • **Working on it** - We're working on improvements based on your feedback.
 
-• **Changes made** - We've made an update based on your feedback! It will also let you know which build or app version has the change and if you need to update to see it. If you think there’s more we can look into, please leave a comment.    
+• **Changes made** - We've made an update based on your feedback. It will also let you know which build or app version has the change and if you need to update to see it. If you think there’s more we can look into, please leave a comment.    
 
 • **Needs more info** - We need your help to understand this issue better. Please review our comments and add details to help us better understand the problem.
 
-> [!NOTE] 
-> If you're on an Azure Active Directory (AAD) work account, you can also see feedback from other users in your organization. [Learn more about giving and tracking feedback as a business.](https://docs.microsoft.com/windows-insider/at-work-pro/wip-4-biz-feedback).
 
 ## Get involved in our community
 
