@@ -59,8 +59,8 @@ Moving forward, the Dev Channel will receive builds directly from the active dev
 ## Upcoming Feature Update for Windows 10 (20H2)
 | Build | Beta | ISO |
 |-------|------|------|
-|19042.487|[**8/26/2020**](https://blogs.windows.com/windows-insider/2020/08/26/announcing-windows-10-insider-preview-build-19042-487-20h2/)|[**8/26/2020**](https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewadvanced)
-|19042.450|[8/11/2020](https://blogs.windows.com/windowsexperience/2020/08/11/announcing-windows-10-insider-preview-build-19042-450-20h2/)|
+|19042.487|[**8/26/2020**](https://blogs.windows.com/windows-insider/2020/08/26/announcing-windows-10-insider-preview-build-19042-487-20h2/)|
+|19042.450|[8/11/2020](https://blogs.windows.com/windowsexperience/2020/08/11/announcing-windows-10-insider-preview-build-19042-450-20h2/)|[**8/26/2020**](https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewadvanced)
 |19042.423|[7/31/2020](https://blogs.windows.com/windowsexperience/2020/07/31/announcing-windows-10-insider-preview-build-19042-423-20h2/)|
 |19042.421|[7/24/2020](https://blogs.windows.com/windowsexperience/2020/07/24/announcing-windows-10-insider-preview-build-19042-421-20h2/)|
 |19042.388|[7/14/2020](https://blogs.windows.com/windowsexperience/2020/07/14/announcing-windows-10-insider-preview-build-19042-388-20h2/)|
