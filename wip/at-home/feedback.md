@@ -19,15 +19,19 @@ As a Windows Insider, your feedback can change and improve Windows for users aro
 
 The [Feedback Hub](https://aka.ms/WIPFeedbackHub) is an app available on Windows devices. You can search for it or find it in your Start menu to get started. Sign in with the account that that you used to register for the Windows Insider Program to get access to all its features.
 
-### Home
+### Home section
 
 First, the **Home** section, where you land when you open the app, shows the account you're logged into, some key quick links, and a section with what's new. 
+
+![The Home section of the Feedback Hub.](images/FBH-home.jpg)
 
 ### Feedback section
 
 The **Feedback** section shows you all the current feedback and has filters to help you look through it. You can also add your own new feedback, upvote suggestions from others, or add comments. You'll also see **Collections**, which group together similar feedback, making it easier to find.
 
 Use the **My feedback** tab to go back and look at all of your past feedback and check its status. If you start feedback but don't submit it, a **Drafts** tab will also show up here. From there, you'll be able to open a feedback draft, continue to edit it, and submit when you're ready.
+
+![The Feedback section of the Feedback Hub.](images/FBH-feedback.jpg)
 
 ### Announcements section
 
@@ -40,6 +44,10 @@ In **Quests**, follow our step-by-step instructions to try out Windows features 
 ### Achievements section
 
 In the **Achievements** section, you'll see all the badges you've earned as a Windows Insider from flighting, Quests, and more.
+
+### Advanced Diagnostics section
+
+In the **Advanced Diagnostics** section, you can save a copy of diagnostics to your device. Choose either default or custom diagnostics and the category, subcategories, and type of problem from the dropdowns, then start your recording.
 
 ### Your account
 
@@ -72,6 +80,8 @@ First, check if feedback already exists for your problem or suggestion. If your 
 
 3. In the search on either the **Home** or **Feedback** sections, enter the topic you want to check for feedback on.
 
+![Searching for feedback on Snip & Sketch in the Feedback section of the Feedback Hub.](images/FBH-search.jpg)
+
 4. Use the filters at the top to further narrow your search results:
 
 - The **Sort** option helps you find the latest issues and suggestions. Choose from **Trending**, **Most recent**, or **Upvotes**.
@@ -80,7 +90,7 @@ First, check if feedback already exists for your problem or suggestion. If your 
 
 - The **Device** option helps you narrow your results by device, either **PC**, **Mobile**, or **HoloLens**.
 
-- The **Categories** and **Subcategories** options let you filter by all the same categories you can use to file feedback.
+- The **Category** and **Subcategories** options let you filter by all the same categories you can use to file feedback.
  
 5.  If you find the feedback you’re looking for, you have a few options to engage with it. If it's a suggestion, you can **Upvote** it to let us know you agree with the feedback. On both suggestions and problems, you can also leave a comment to provide additional information or scenarios for us to look into.
 
@@ -94,13 +104,19 @@ First, check if feedback already exists for your problem or suggestion. If your 
 
 - Snip & Sketch app should have a zoom feature
 
+![Adding new feedback with the title Snip & Sketch app should have a zoom feature.](images/FBH-title.jpg)
+
 3. Under **Explain in more detail**, give us more specific details about how you encountered the issue, error messages you saw, why you think improvements would help, or any other information you think will help us resolve the issue. (Information about your device, operating system, and applications are automatically included with your feedback, so you don't have to include those details.) For example:
 
 - You should be able to zoom in on an image using Snip & Sketch. When you're working with an image that's the same size as your display, it's hard to edit or annotate small parts of the image without being able to zoom in. 
 
+![Adding new feedback with the explanation, you should be able to zoom in on an image using Snip & Sketch. When you're working with an image that's the same size as your display, it's hard to edit or annotate small parts of the image without being able to zoom in..](images/FBH-detail.jpg)
+
 4. Select **Next**. 
 
 5. Under **2. Choose a category**, tell us if your feedback is a **Problem** or **Suggestion**. If you're seeing an issue, like something being broken or missing, you should choose problem. If you want a new feature or change in Windows, choose suggestion.
+
+![Choosing Problem or Suggestion and Categories while giving new feedback.](images/FBH-category.jpg)
 
 6. Based on what you've entered so far, [Feedback Hub](https://aka.ms/WIPFeedbackHub) usually chooses a **Category** and **Subcategory** for your feedback. Categories make sure your device pulls the right information and that your feedback is sent to the right teams, so it's important to check these. Make sure what it's chosen matches the feedback you've given or use the dropdowns to change them. 
 
@@ -127,6 +143,8 @@ First, check if feedback already exists for your problem or suggestion. If your 
 
 - **Recreate your problem or suggestion** - Check the default settings it's showing for your issue, and then **Start recording**. While it's recording, run through the steps that led to your issue or show us how you think your suggestion would work. When you're done, select **Stop capture** to attach it to your feedback. You can review and edit this data before you send it.
 
+![Adding more details with attachments while submitting new feedback.](images/FBH-files.jpg)
+
 9. If you'd like to have a copy of the information you're sending us, check the box to **Save a local copy of diagnostics and attachments created when giving feedback**.
 
 10. When you’re satisfied with your feedback, select **Submit** to send us your feedback.
@@ -140,7 +158,11 @@ If you think others are experiencing the same issue or would like the same new f
 
 1. Once you've submitted feedback, you'll be able to see it under the **My feedback** tab of the **Feedback** section. You can also search and filter all of your feedback to find the piece you're looking for.
 
+![A look at your feedback in the My feedback tab.](images/FBH-Myfeedback.jpg)
+
 2. Select the feedback you'd like to share. Choose the **Share** button near the top of the page to open its link to copy it or open more sharing options.
+
+![The Share button on your feedback's detail page.](images/FBH-share.jpg)
 
 3. Share your feedback link with your community.
 
@@ -161,6 +183,7 @@ You can come back to the **My feedback** tab of the **Feedback** section any tim
 
 • **Needs more info** - We need your help to understand this issue better. Please review our comments and add details to help us better understand the problem.
 
+![Looking at the status of your feedback on the feedback detail page.](images/FBH-status.jpg)
 
 ## Get involved in our community
 
