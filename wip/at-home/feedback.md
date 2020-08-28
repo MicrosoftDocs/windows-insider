@@ -17,7 +17,7 @@ As a Windows Insider, your feedback can change and improve Windows for users aro
 
 ## Explore the Feedback Hub 
 
-The [Feedback Hub](https://aka.ms/WIPFeedbackHub) is an app available on Windows devices. You can search for it or find it in your Start menu to get started. Sign in with the account that that you used to register for the Windows Insider Program to get access to all its features.
+The [Feedback Hub](https://aka.ms/WIPFeedbackHub) is an app available on Windows devices. You can search for it, press the Windows key + F to open it, or find it in your Start menu to get started. Sign in with the account that that you used to register for the Windows Insider Program to get access to all its features.
 
 ### Home section
 
@@ -88,9 +88,9 @@ First, check if feedback already exists for your problem or suggestion. If your 
 
 - The **Filter** option gives you the most ways to filter your results, and you can choose multiple filters in the section. You can sort feedback by your build number, if they're suggestions or problems, if they have official responses, or their status, like more details needed and changes made. You can also exclude all feedback with changes made, so you're only seeing open issues.
 
-- The **Device** option helps you narrow your results by device, either **PC**, **Mobile**, or **HoloLens**.
+- The **Device** option helps you narrow your results by device, either **PC** or **HoloLens**.
 
-- The **Category** and **Subcategories** options let you filter by all the same categories you can use to file feedback.
+- The **category** and **subcategories** options let you filter by all the same categories you can use to file feedback.
  
 5.  If you find the feedback you’re looking for, you have a few options to engage with it. If it's a suggestion, you can **Upvote** it to let us know you agree with the feedback. On both suggestions and problems, you can also leave a comment to provide additional information or scenarios for us to look into.
 
@@ -116,9 +116,9 @@ First, check if feedback already exists for your problem or suggestion. If your 
 
 5. Under **2. Choose a category**, tell us if your feedback is a **Problem** or **Suggestion**. If you're seeing an issue, like something being broken or missing, you should choose problem. If you want a new feature or change in Windows, choose suggestion.
 
-6. Based on what you've entered so far, [Feedback Hub](https://aka.ms/WIPFeedbackHub) usually chooses a **Category** and **Subcategory** for your feedback. Categories make sure your device pulls the right information and that your feedback is sent to the right teams, so it's important to check these. Make sure what it's chosen matches the feedback you've given or use the dropdowns to change them. 
+6. Based on what you've entered so far, [Feedback Hub](https://aka.ms/WIPFeedbackHub) usually chooses a **category** and **subcategory** for your feedback. Categories make sure your device pulls the right information and that your feedback is sent to the right teams, so it's important to check these. Make sure what it's chosen matches the feedback you've given or use the dropdowns to change them. 
 
-![Choosing Problem or Suggestion and Categories while giving new feedback.](images/FBH-category.jpg)
+![Choosing Problem or Suggestion and categories while giving new feedback.](images/FBH-category.jpg)
 
 7. Select **Next.** 
 
@@ -148,9 +148,6 @@ First, check if feedback already exists for your problem or suggestion. If your 
 9. If you'd like to have a copy of the information you're sending us, check the box to **Save a local copy of diagnostics and attachments created when giving feedback**.
 
 10. When you’re satisfied with your feedback, select **Submit** to send us your feedback.
-
-> [!NOTE] 
-> If you're having a problem that needs an immediate or personal response, use the Get Help app or go to [support.microsoft.com](https://support.microsoft.com/).
 
 ## Share your feedback
 
