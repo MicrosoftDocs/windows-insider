@@ -26,7 +26,7 @@ ms.prod: w10
 
 1. Go to the [Windows Server Insider Preview page](https://aka.ms/DownloadWindowsServerPreviews) and download the current build. Matching debugging symbols are also provided. Containers are available on Docker Hub. [Visit Windows Containers Documentation](https://docs.microsoft.com/virtualization/windowscontainers/) to learn more about Windows Server containers and Insider Preview builds.
 
-2. When new builds are available, announcements will be posted in our [flight blog posts](https://blogs.windows.com/windowsexperience/tag/windows-insider-program/), our [Windows Server Insiders Tech Community](https://techcommunity.microsoft.com/t5/windows-server-insiders/bd-p/WindowsServerInsiders), [the Windows Server blog](https://cloudblogs.microsoft.com/windowsserver/), and the announcements section of the [Feedback Hub](https://aka.ms/FeedbackHub).
+2. When new builds are available, announcements will be posted in our [flight blog posts](https://blogs.windows.com/windows-insider/), our [Windows Server Insiders Tech Community](https://techcommunity.microsoft.com/t5/windows-server-insiders/bd-p/WindowsServerInsiders), [the Windows Server blog](https://cloudblogs.microsoft.com/windowsserver/), and the announcements section of the [Feedback Hub](https://aka.ms/FeedbackHub).
 
 3. Windows Server Insider Preview builds are designed for you to download at your convenience, so we won't automatically install new builds on your servers. You'll have to return to our website to download new versions.
 
