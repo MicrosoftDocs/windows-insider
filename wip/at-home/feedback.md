@@ -116,9 +116,9 @@ First, check if feedback already exists for your problem or suggestion. If your 
 
 5. Under **2. Choose a category**, tell us if your feedback is a **Problem** or **Suggestion**. If you're seeing an issue, like something being broken or missing, you should choose problem. If you want a new feature or change in Windows, choose suggestion.
 
-![Choosing Problem or Suggestion and Categories while giving new feedback.](images/FBH-category.jpg)
-
 6. Based on what you've entered so far, [Feedback Hub](https://aka.ms/WIPFeedbackHub) usually chooses a **Category** and **Subcategory** for your feedback. Categories make sure your device pulls the right information and that your feedback is sent to the right teams, so it's important to check these. Make sure what it's chosen matches the feedback you've given or use the dropdowns to change them. 
+
+![Choosing Problem or Suggestion and Categories while giving new feedback.](images/FBH-category.jpg)
 
 7. Select **Next.** 
 
