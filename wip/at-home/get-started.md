@@ -60,7 +60,7 @@ Afrikaans (South Africa), Albanian (Albania), Amharic, Armenian, Assamese, Azerb
 
 6. Once you've checked your data settings, go to **[Settings > Update & Security > Windows Update](https://aka.ms/WIPWindowsUpdate)** and select the **Check for updates** button to download the latest Insider Preview build based on the settings you chose. Your device will update like it normally would with a Windows update.
 
-7. [Read our flight blog posts](https://blogs.windows.com/windowsexperience/tag/windows-insider-program/) to learn more about what's in your Insider Preview build.
+7. [Read our flight blog posts](https://blogs.windows.com/windows-insider/) to learn more about what's in your Insider Preview build.
 
 > [!div class="nextstepaction"]
 > [Open Settings](https://aka.ms/WIPSettings)
