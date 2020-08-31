@@ -37,7 +37,7 @@ No, you can [join the Windows Insider Program using your Microsoft account](http
 
 ## If I'm already a Windows Insider with my Microsoft account, how can I switch to my AAD account?
 
-First, you have to [register for the program with your AAD account](https://docs.microsoft.com/windows-insider/at-work-pro/wip-4-biz-register). Once you've done that, go to **[Settings > Accounts > Access work and school](https://aka.ms/WorkAccountSettings)** to make sure your AAD account is connected to your device. Then, go to **[Settings > Updates & Security > Windows Insider Program](https://aka.ms/WIPSettings)** to change which Windows Insider account your device is connected to.
+First, you have to [register for the program with your AAD account](https://docs.microsoft.com/windows-insider/at-work-pro/wip-4-biz-register). Once you've done that, go to **[Settings > Accounts > Access work and school](https://aka.ms/WorkAccountSettings)** to make sure your AAD account is connected to your device. Then, go to **[Settings > Update & Security > Windows Insider Program](https://aka.ms/WIPSettings)** to change which Windows Insider account your device is connected to.
 
 ## How do I register for the Windows Insider Program for Business?
 
