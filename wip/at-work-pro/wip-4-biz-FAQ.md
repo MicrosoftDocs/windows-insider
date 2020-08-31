@@ -1,108 +1,85 @@
 ---
-title: Windows Insider Program for Business Frequently Asked Questions
-description: Answers to your commonly asked Windows Insider Program for Business questions
-author: arshields7
-manager: arshields7
-ms.topic: article
-ms.prod: w10
+title: Windows Insider Program for Business FAQ
+description: Answers to your frequently asked questions about the Windows Insider Program for Business
+author: bleblanc
+manager: dougkim
 ms.tgt_pltfrm: na
 ms.devlang: na
-ms.date: 10/24/2017
-ms.author: arshields7
+ms.author: v-allsh
 ms.localizationpriority: medium
+ms.topic: article
+ms.prod: w10
 ---
 
-# Windows Insider Program for Business Frequently Asked Questions
-**Are the Windows Insider Program and Windows Insider Program for Business separate programs?**
+# Windows Insider Program for Business FAQ
 
-No, in fact just the opposite. The Windows Insider Program was created in 2014 to help Microsoft engage with Windows Fans worldwide. Windows Insiders are the first to be able to try new Windows features that we introduce through Windows 10 Insider Preview Builds. At the same time, they can provide feedback through the Feedback Hub App which helps create even better versions of Windows for all users. The Windows Insider Program for Business enables you to incorporate Insider Preview builds into your deployment plans using your corporate credentials, deepen connections with the IT Pro community, collect feedback within your organization, and increase the visibility of your organization’s feedback – especially on features that support productivity and business needs. Together we can resolve blocking or critical issues to better support your organization’s needs sooner. Incorporating the Windows Insider Program for Business into your deployment plans enables you to prepare your organization for the next update of Windows 10, to deploy new services and tools more quickly, to help secure your applications, and to increase productivity and confidence in the stability of your environment. Windows Insider Program for Business participants collaborate with the Windows team to build and document features, infuse innovation, and plan for what’s around the bend. We’ve architected some great features together, received amazing feedback, and we’re not done.
+## Are the Windows Insider Program and Windows Insider Program for Business different programs?
 
-**What Languages are available?**
+No, the Windows Insider Program for Business is just one of the audiences we serve through the Windows Insider Program. With extra features focused on helping enterprises participate in the program, businesses can better prepare for the future as Windows Insiders, and we can get valuable feedback from key customers to help improve Windows. [Learn more about the Windows Insider Program for Business.](https://insider.windows.com/for-business) 
 
-Insider Preview builds are available in the following languages: 
+## Do I have to have an Azure Active Directory (AAD) account to join?
 
-English (United States), English (United Kingdom), Chinese (Simplified), Chinese (Traditional), Portuguese (Brazilian), Japanese, Russian, German, French, French (Canada), Korean, Italian, Spanish, Spanish (Latin America), Swedish, Finnish, Turkish, Arabic, Dutch, Czech, Polish, Thai, Catalan, Hindi, and Vietnamese
+Yes, currently we're only supporting AAD for corporate accounts. Make sure you use the same active account that you use to access your work email and other Microsoft services when registering.
 
-If your Windows build is not in one of the available base languages, you will not receive Insider Preview builds.
+To check if your work account is on AAD, go to **[Settings > Accounts > Access work and school](https://aka.ms/WorkAccountSettings)** on a device with your work account connected. Your account will say it's connected to your company's Azure AD if it's on AAD.
 
-Hindi, Catalan, and Vietnamese can only be installed as a language pack over supported base languages.
+If you don't have an AAD, you can still [join the program using your Microsoft account](https://insider.windows.com/getting-started), but you won't be able to manage updates across devices in your company or tag and track feedback as an enterprise.
 
-> [!NOTE] 
-> To learn how to install a language pack, see How to add an input language to your PC Additional.
+## If I have more than one AAD account, which should I use?
 
-**How do I register for the Windows Insider Program for Business?**
+Make sure you use the same active account that you use to access your work email and other Microsoft services when registering.
 
-To register for the Windows Insider Program for Business, follow the steps below using your corporate account in Azure Active Directory (AAD). This account is the same account that you use for Office 365 and other Microsoft services. Check with your IT department before signing up.
+Use a production tenant of AAD, not a test tenant, to make the most of the program. The AAD tenant is just used for authentication, so you won't need to worry about changes to it from the the program.
 
-1. Visit the [Windows Insider Program website](https://insider.windows.com/) and select **Get Started**.
+## If I just want to participate as a Windows Insider, do I still need to register my AAD account?
 
-2. Sign-in with your corporate account in AAD (username/password) and follow the on-screen registration directions.
+No, you can [join the Windows Insider Program using your Microsoft account](https://docs.microsoft.com/windows-insider/at-home/get-started), but you won't be able to manage Insider Preview builds or track feedback across your organization if you don't register with an AAD account.
 
-3. Enroll your Windows 10 PC to get the latest Windows 10 Insider Preview builds. Go to **Settings > Updates & Security > Windows Insider Program**. Select **Get Started**, enter your corporate credentials that you used to register, then follow the on-screen directions.
+## If I'm already a Windows Insider with my Microsoft account, how can I switch to my AAD account?
 
-> [!NOTE] 
-> Make sure that you have administrator rights to your machine and that it has latest Windows updates.
+First, you have to [register for the program with your AAD account](https://docs.microsoft.com/windows-insider/at-work-pro/wip-4-biz-register). Once you've done that, go to **[Settings > Accounts > Access work and school](https://aka.ms/WorkAccountSettings)** to make sure your AAD account is connected to your device. Then, go to **[Settings > Updates & Security > Windows Insider Program](https://aka.ms/WIPSettings)** to change which Windows Insider account your device is connected to.
 
-**Are there any management capabilities that allow an IT admin to manage settings for a corporate environment?**
+## How do I register for the Windows Insider Program for Business?
 
-Yes. Starting with Windows 10, version 1709, the Windows Insider Program for Business now enables administrators to apply the following group policies to help them manage their organization’s preview builds:
+[Use these instructions to register for the Windows Insider Program for Business.](https://docs.microsoft.com/windows-insider/at-work-pro/wip-4-biz-register)
 
-**Manage preview builds:** Administrators can enable or prevent builds from installing on a device. You also have an option to disable preview builds once the release is public.
-**Branch Readiness Level:** Administrators can set the Windows readiness level (including Fast, Slow, and Release Preview Rings of Windows Insider Preview) and allows administrators to defer or pause delivery of updates.
+## Do I have to be an administrator on my device to run Windows 10 Insider Preview Builds?
 
-See more information on [Getting started with Windows Insider Program for Business](https://docs.microsoft.com/windows-insider/at-work-pro/wip-4-biz-get-started).
+Yes, you must be an admin on your device to change your update settings, so you can receive Insider Preview builds.
 
-**How can I find out if my corporate account is on Azure Active Directory?**
-On your PC, go to **Settings > Accounts > Access work or school**. If your organization has set up your corporate account in Azure Active Directory, and it is connected to your PC, you will see the account listed as highlighted in this image:
+If you don't have admin access on your work device, you can still join the program on your personal device with your individual Microsoft account.
 
-![alt text](https://docs.microsoft.com/windows/deployment/update/images/waas-wipfb-work-account.jpg "Device connected to work account")
+## Can I flight on more than one of my devices from the same registered account?
 
-**I have more than one Azure Active Directory account. Which should I use?**
+Yes, you can flight on as many devices as you'd like. Just make sure when giving feedback to file it from the device you're experiencing the issue on, so any diagnostic data that's included will show the issue.
 
-Register for Windows Insider Program for Business with the same active account that you use to access your corporate email in Office 365 and other Microsoft services. To ensure you get the most benefit out of the Windows Insider Program for Business and that your company is fully represented, do not set up a separate tenant for testing activities. There will be no modifications to the AAD tenant to support Windows Insider Program for Business, and it will only be used as an authentication method.
+## How do I set up and manage Insider Preview builds not just on my device, but across my organization?
 
-**Can I register multiple users from my organization at the same time for the Windows Insider Program for Business?**
+[Administrators can install and manage Insider Preview builds centrally across multiple devices in your organizational domain.](https://docs.microsoft.com/windows-insider/at-work-pro/wip-4-biz-manage) This requires an AAD domain, which must be registered in the Windows Insider Program.
 
-Yes. The Windows Insider Program for Business now allows organizations to register their domain and control settings centrally rather than require each user to register individually for Insider Preview builds. To register, follow the instructions on the [Register for the Windows Insider Program for Business](https://docs.microsoft.com/windows-insider/at-work-pro/wip-4-biz-register) page.
+## Should I use Insider Preview builds in a live operating environment?
 
-**My account is listed in Active Directory but not Azure Active Directory. Can I still register using my Active Directory credentials?**
+We do not recommend organizations run Insider Preview builds outside of their test environments. These preview builds aren't the final versions, and they may change before commercial release or not be released commercially at all. 
 
-No. At this point, we are only supporting Azure Active Directory as a corporate authentication method. If you’d like to suggest or upvote another authentication method, visit our [Answers forum](https://answers.microsoft.com/en-us/insider/forum).
+## How do I use the Feedback Hub with my business account?
 
-**I just want to participate as a Windows Insider. Do I still need to register with my corporate account in Azure Active Directory?**
+To use the [Feedback Hub](http://aka.ms/WIPFeedbackHub) as an enterprise, you must have registered with an AAD account. When you submit feedback to us through that account, you can track feedback from other users in your organization, and we can track your company's issues and suggestions.
 
-No. You can join the Windows Insider Program using your Microsoft account (MSA) with these [instructions on getting started](https://docs.microsoft.com/windows-insider/at-home/get-started). 
+If you were using the Feedback Hub with a Microsoft account before, your old feedback will not be transferred to your AAD account. You'll have to switch back to your other account in Feedback Hub to access the feedback or badges tied to it. [Learn more about giving feedback as a business.](https://docs.microsoft.com/windows-insider/at-work-pro/wip-4-biz-feedback)
 
-However, please note that if you want to access the benefits of the Windows Insider Program for Business, you will need to sign up using your corporate account in Azure Active Directory. Check with your IT department before signing up with your corporate account.
+## Do devices need to have a Windows 10 license to run Insider Preview builds? 
 
-**I am already a Windows Insider. I want to switch my account from my Microsoft account to my corporate account in Azure Active Directory. How can I do this?**
+Yes, all devices need to have a valid Windows 10 license to run Insider Preview builds.
 
-In just a few steps, you can switch your existing program registration from your Microsoft account to your corporate account in Azure Active Directory.
+## Which languages are supported?
 
-1. Visit the [Windows Insider Program website](https://insider.windows.com/). If you're signed in with your Microsoft account, sign out then sign back in to register with your corporate account in AAD.
-2. On your Windows 10 PC, go to **Settings > Updates & Security > Windows Insider Program**.
-3. In your account, under Windows Insider account, select **Change** to open a pop-up box.
-4. Select your corporate account and select Continue to change your account.
+Windows 10 Insider Preview Builds are available in the following SKU languages:
+
+Arabic (Saudi Arabia), Bulgarian (Bulgaria), Chinese (Simplified, China), Chinese (Traditional, Taiwan), Croatian (Croatia), Czech (Czech Republic), Danish (Denmark), Dutch (Netherlands), English (United Kingdom), English (United States), Estonian (Estonia), Finnish (Finland), French (Canada), French (France), German (Germany), Greek (Greece), Hebrew (Israel), Hungarian (Hungary), Italian (Italy), Japanese (Japan), Korean (Korea), Latvian (Latvia), Lithuanian (Lithuania), Norwegian, Bokmål (Norway), Polish (Poland), Portuguese (Brazil), Portuguese (Portugal), Romanian (Romania), Russian (Russia), Serbian (Latin, Serbia), Slovak (Slovakia), Slovenian (Slovenia), Spanish (Mexico), Spanish (Spain, International Sort), Swedish (Sweden), Thai (Thailand), Turkish (Turkey), Ukrainian (Ukraine)
+
+Windows 10 Insider Preview Builds are available in the following Language Interface Packs (LIP) languages:
+
+Afrikaans (South Africa), Albanian (Albania), Amharic, Armenian, Assamese, Azerbaijani (Latin, Azerbaijan), Bangla (Bangladesh), Bangla (India), Basque, Belarusian (Belarus), Bosnian (Latin), Catalan (Catalan), Cherokee (Cherokee), Dari, Filipino (Philippines), Galician (Galician), Georgian, Gujarati, Hindi (India), Icelandic, Indonesian (Indonesia), Irish, Kannada, Kazakh (Kazakhstan), Khmer (Cambodia), KiSwahili, Konkani, Kyrgyz, Lao (Laos), Luxembourgish, Macedonian (North Macedonia), Malay (Malaysia), Malayalam, Maltese, Maori, Marathi, Mongolian (Cyrillic), Nepali, Norwegian (Nynorsk), Oriya, Persian, Punjabi, Quechua, Scottish Gaelic, Serbian (Cyrillic, Bosnia and Herzegovina), Serbian (Cyrillic, Serbia), Sindhi (Arabic), Sinhala, Tamil (India), Tatar, Telugu, Turkmen, Urdu, Uyghur, Uzbek (Latin, Uzbekistan), Valencian, Vietnamese, Welsh
 
 > [!NOTE] 
-> Your corporate account must be connected to the device for it to appear in the account list.
-
-**How do I sign into the Feedback Hub with my corporate credentials?**
-
-Sign in to the Feedback Hub using the same AAD account you are using to flight builds.
-
-**Am I going to lose all the feedback I submitted and badges I earned with my MSA?**
-
-No. However, your feedback will not be transferred from your MSA to your AAD account. You can switch back to your MSA account in the Feedback Hub to access feedback you’ve submitted and badges you’ve earned.
-
-**How is licensing handled for Windows 10 Insider builds?**
-
-All PCs need to have a valid Windows 10 license. This requirement applies whether a device joins the Windows Insider Program using a Microsoft account or an Azure Active Directory account.
-
-**Can I use the Software in a live operating environment?**
-
-The software is a pre-release version, and we do not recommend that organizations run Windows Insider Preview builds outside of their test environments. This software may not work the way a final version of the software will. We may change it for the final, commercial version. We also may not release a commercial version.
-
-**Can a single MSA or AAD account be used to register more than one PC in the program?**
-
-Yes. If each PC has a valid Windows 10 or Windows 10 Mobile license you can use your MSA on as many devices as you’d like. However, the main concern would be that your feedback all looks like it comes from a single user. If multiple devices are experiencing problems with a build, you’ll want the ability to submit the same feedback from multiple people (or upvote the same piece of feedback.)
+> Windows LIP language packs can only be installed over [supported base languages](https://support.microsoft.com/help/14236). [Learn how to configure your input or display languages after installing a language pack.](https://support.microsoft.com/help/4027670/windows-10-add-and-switch-input-and-display-language-preferences)
