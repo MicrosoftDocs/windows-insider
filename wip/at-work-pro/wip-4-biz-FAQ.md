@@ -63,7 +63,7 @@ We do not recommend organizations run Insider Preview builds outside of their te
 
 ## How do I use the Feedback Hub with my business account?
 
-To use the [Feedback Hub](http://aka.ms/WIPFeedbackHub) as an enterprise, you must have registered with an AAD account. When you submit feedback to us through that account, you can track feedback from other users in your organization, and we can track your company's issues and suggestions.
+To use the [Feedback Hub](https://aka.ms/WIPFeedbackHub) as an enterprise, you must have registered with an AAD account. When you submit feedback to us through that account, you can track feedback from other users in your organization, and we can track your company's issues and suggestions.
 
 If you were using the Feedback Hub with a Microsoft account before, your old feedback will not be transferred to your AAD account. You'll have to switch back to your other account in Feedback Hub to access the feedback or badges tied to it. [Learn more about giving feedback as a business.](https://docs.microsoft.com/windows-insider/at-work-pro/wip-4-biz-feedback)
 
