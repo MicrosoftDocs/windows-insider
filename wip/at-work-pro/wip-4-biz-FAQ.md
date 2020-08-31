@@ -23,7 +23,7 @@ Yes, currently we're only supporting AAD for corporate accounts. Make sure you u
 
 To check if your work account is on AAD, go to **[Settings > Accounts > Access work and school](https://aka.ms/WorkAccountSettings)** on a device with your work account connected. Your account will say it's connected to your company's Azure AD if it's on AAD.
 
-If you don't have an AAD, you can still [join the program using your Microsoft account](https://insider.windows.com/getting-started), but you won't be able to manage updates across devices in your company or tag and track feedback as an enterprise.
+If you don't have an AAD, you can still [join the program using your Microsoft account](https://docs.microsoft.com/windows-insider/at-home/get-started), but you won't be able to manage updates across devices in your company or tag and track feedback as an enterprise.
 
 ## If I have more than one AAD account, which should I use?
 
