@@ -47,7 +47,7 @@ First, you have to [register for the program with your AAD account](https://docs
 
 Yes, you must be an admin on your device to change your update settings, so you can receive Insider Preview builds.
 
-If you don't have admin access on your work device, you can still join the program on your personal device with your individual Microsoft account.
+If you don't have admin access on your work device, you can still [join the program on your personal device with your individual Microsoft account](https://docs.microsoft.com/windows-insider/at-home/get-started).
 
 ## Can I flight on more than one of my devices from the same registered account?
 
