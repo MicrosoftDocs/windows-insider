@@ -138,7 +138,7 @@ You will now be able to interact with your phone screen using one-touch tap and 
 We’re pleased to launch Notifications integration with Phone screen for Insiders with the May 2019 update or newer. If Phone screen is set up, your notifications will open in Phone screen allowing you to interact with your keyboard and mouse. If Phone screen is not supported or set up, clicking on notifications will take you to your notifications feed instead.
 Note that your text message notifications (SMS, MMS) will continue to be available within the messaging node.
 
-![Notifications integration with Phone screen](images/18932-10.png)
+![Notifications integration with Phone screen](images/18932-9.png)
  
 ### Your Phone Notifications available to all users
 Thank you to everyone who gave us feedback over the last few weeks to help us improve the Notifications feature in the Your Phone app. We’re happy to announce that this feature is now gradually rolling out to all Windows 10 users with the April 2018 update and newer. It may take a few days to show up within Your Phone app, so keep a look out!
@@ -269,7 +269,7 @@ For more information on setting up other Your Phone app features, see [Your Phon
 
 ### Phone screen now supports additional Android devices
 
-As promised, we have expanded [phone screen support](https://aka.ms/wip18356) to additional phone models – __OnePlus 6, OnePlus 6T, Samsung Galaxy S10e, S10, S10+, Note 8, Note 9__. Try out phone screen and send us your feedback. We will continue to expand the list of supported devices over time.
+As promised, we have expanded [phone screen support](https://aka.ms/wip18356) to additional phone models, **OnePlus 6, OnePlus 6T, Samsung Galaxy S10e, S10, S10+, Note 8, Note 9**. Try out phone screen and send us your feedback. We will continue to expand the list of supported devices over time.
 
 ## 3/12/2019
  
