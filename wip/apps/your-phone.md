@@ -95,13 +95,13 @@ With the Calls feature you can:
 * Windows 10 PC with Bluetooth radio
 * Windows 10 Version 1903 (OS build) 18362.356 or newer
 
-**Note:**
+**Note**
 
 * This feature will gradually roll out to Insiders so it may take a few days to be available inside the Your Phone app.
 * To enable the Calls feature, sign into the Your Phone app using the Microsoft account that you used to register as a Windows Insider. 
 * For set-up instructions and other details, see [Calls Feature for the Your phone app](https://answers.microsoft.com/en-us/insider/forum/all/calls-feature-for-the-your-phone-app/8266e234-ba16-42be-8b11-af2e33ba93ed).
 
-**Known issue:**
+**Known issue**
 
 * In certain instances, Calls feature may require you to pair your mobile phone & PC again. If you have previously paired your devices, unpair your devices and go through the Calls setup flow again.
 
@@ -109,13 +109,13 @@ We value your feedback, so give it a try and let us know what you think. You can
 
 ## 10/3/2019
 
-### Link to Windows on more devices. 
+### Link to Windows on more devices
 We’re pleased to announce that Link to Windows feature, which seamlessly connects your phone to your Windows 10 PC, is rolling out to Samsung Galaxy S10, S10+, S10e, S10 5G, and Fold devices in select global markets. With Link to Windows natively integrated into your device, it’s simple and convenient to send messages, manage notifications, sync photos, and mirror your phone on your PC.
 
-### Phone screen on more devices. 
+### Phone screen on more devices
 Phone screen which allows you to access your Android phone’s apps right from your PC while using your keyboard and mouse or touch screen) is also rolling out to Samsung Galaxy S10, S10+, S10e, S10 5G, and Fold devices in select global markets. You can try out multi-touch gestures such as pinch to zoom, rotate, or swipe from your PC’s touchscreen while using Phone screen. If you have one of these devices, give it a try. This is a gradual rollout, so stay tuned for more to come on additional markets and devices.
 
-### Battery level indicator & phone’s home screen wallpaper.
+### Battery level indicator & phone’s home screen wallpaper
 In addition to Phone screen and Link to Windows expansion, two additional features are rolling out to all users–battery indicator, which will provide quick access to your phone’s battery levels right in the app without needing to check your device, and Your Phone icon within the app, which will show your current static home screen wallpaper for a personal touch.
 
 ![Battery level indicator](images/18995-2.png)
@@ -126,7 +126,7 @@ We value your feedback, so give it a try and let us know what you think. You can
 
 ## 7/10/2019
 
-### Phone screen now available on more Surface devices. 
+### Phone screen now available on more Surface devices
 As promised, we’re excited to expand the availability of the phone screen feature to more PCs. With the latest driver update in the Windows insider rings (Marvell 15.68.17013.110), the following Surface devices will preview the phone screen feature – Surface Laptop, Surface Laptop 2, Surface Pro 4, Surface Pro 5, Surface Pro 6, Surface Book, and Surface Book 2. If you have one of these devices, give it a try and let us know what you think!
 
 ## 7/3/2019
