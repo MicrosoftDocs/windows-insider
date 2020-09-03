@@ -13,9 +13,7 @@ ms.prod: w10
 
 # Your Phone
 
-The latest major updates and features for Your Phone. 
-
-We value your feedback, so give these features a try and let us know what you think. You can report any issues under **Your Phone > Settings > Send feedback** or directly through the [Feedback Hub](http://aka.ms/yourphonefh).
+The latest major updates and features for Your Phone. We value your feedback, so give these features a try and let us know what you think. You can report any issues under **Your Phone > Settings > Send feedback** or directly through the [Feedback Hub](http://aka.ms/yourphonefh).
 
 ## August 21, 2020
 
