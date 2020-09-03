@@ -13,10 +13,194 @@ ms.prod: w10
 
 # Your Phone
 
-The latest major updates and features for Your Phone.
+The latest major updates and features for Your Phone. 
 
+We value your feedback, so give these features a try and let us know what you think. You can report any issues under **Your Phone > Settings > Send feedback** or directly through the [Feedback Hub](http://aka.ms/yourphonefh).
 
-## 12/16/2019
+## August 21, 2020
+
+### Your Phone Apps experience is now gradually rolling out to the general public
+
+We're excited to announce that the Your Phone apps feature which was highlighted during the Aug 5 [Samsung Unpacked](https://blogs.windows.com/windowsexperience/2020/08/05/microsoft-and-samsung-expand-partnership-empowering-you-across-work-and-play/) event is now gradually rolling out to the gneral public. 
+
+As a reminder, the Your Phone apps feature allows you to instantly access your Android phone’s mobile apps directly from your Windows 10 device. You can conveniently pin your favorite mobile apps to your Taskbar or Start menu for quick and easy access. When you launch an app, it opens in a separate window outside of the Your Phone app to let you multitask. So, whether you need to quickly reply to a conversation, respond to your social posts, or order food, you can do it quickly using your PC’s large screen, keyboard, mouse, pen, and touch screen alongside your other PC apps!
+
+** Apps feature requirements**
+
+* PC running Windows 10 October 2018 Update or later. However, we always recommend updating to the latest version of Windows 10.
+* Your Phone app (1.20071.88) and Link to Windows (2.0).
+* Available on select Android phones running Android 9.0 or greater with the Link to Windows integration. Check out the list of supported phones here.
+* Phone and PC must be on the same Wi-Fi network.
+
+This is a gradual rollout, so it may take few days for Apps to show up within the Your Phone app.
+
+## August 5, 2020
+
+### Access your Android phone’s apps directly from your PC
+
+The Your Phone app is continuing to evolve. We're happy to announce another exciting feature, a seamless continuation of our vision and promise to help you be more productive and keep you in your flow. Tap into the power of Your Phone app with Link to Windows integration on select Samsung devices to instantly access your phone’s mobile apps directly from your Windows 10 device. 
+
+There’s no need to install, sign in, or set up your apps on your PC, saving you time and hassle. You can conveniently pin your favorite mobile apps to your Taskbar or Start menu on your PC for quick and easy access. When you launch an app, it opens in a separate window outside of the Your Phone app to let you multitask. So, whether you need to quickly reply to a conversation, respond to your social posts, or order food, you can do it quickly by using your PC's large screen, keyboard, mouse, pen, or touch screen alongside your other PC apps!
+
+![Mobile phone and Windows laptop highlighting Your Phone Apps feature.](images/20185.gif)
+
+And we are not stopping here. Later in the year, Samsung Galaxy Note20 users will experience the power and convenience of running multiple apps side by side, and we will continue to work with Samsung to bring this feature to additional devices. Apps will launch in separate windows, so you can interact with multiple apps at the same time. So, whether you are working on a document, keeping up on your social media feed, or simply staying connected with family and friends, everything is accessible in one place and your flow is never broken.
+
+Starting today, Android phones supporting Your Phone app’s Phone screen feature will be able to preview the Apps feature. See list of supported devices here. The ability to run multiple apps simultaneously is currently not available and will be introduced later this year. Give this feature a try and provide us with your valuable feedback as we continue to test, learn, and improve the overall experience.
+
+**Key features**
+* See a list of your installed Android apps directly within the Your Phone app.
+* Add your frequently used apps to the favorites section or search among your apps for even quicker access.
+* Launch any mobile app directly from your PC.
+* Apps and your mirrored phone screen launch in a separate window on your PC.
+* Pin your mobile apps to Windows Taskbar or Start menu.
+* Stay in the know by keeping an eye on the app notification badging (unread notifications) in the All apps list or your Favorites.
+
+![Screen showing mobile phone’s apps and open Instagram panel.](images/20185-2.png)
+
+** Apps feature requirements**
+
+* PC running Windows 10 October 2018 Update or later. However, we always recommend updating to the latest version of Windows 10, Your Phone app and Link to Windows.
+* Available on select Android phones running Android 9.0 or greater with the Link to Windows integration. Check out the list of supported phones here.
+* Phone and PC must be on the same Wi-Fi network.
+
+**Known issues**
+
+* Some apps might block the ability to cast to other screens, and you will see a black screen instead.
+* Some games and apps might not respond to interactions from your PC mouse or keyboard. You will need to use a touch-enabled PC to interact with them.
+* Audio from apps will play from your mobile device.
+* Ability to run multiple apps will rollout out later in the year.
+
+## June 10, 2020
+
+### Your Phone app’s audio controls feature now rolling out to the public
+
+The audio controls functionality announced in April is now rolling out to the general public. This feature lets you control your music and audio apps from the Your Phone app. Now you can access and control the audio apps playing from your phone directly within the app, without needing to split your attention between devices or breaking your workflow. Your audio tracks will stay in sync between your phone and PC, and you can switch between multiple sources using the dropdown in the player.
+
+Please make sure you have the latest versions of Your Phone Companion and the Your Phone app to experience this feature.
+
+## April 29, 2020
+
+### Control your music and audio from within the Your Phone app
+
+We’re excited to preview another exciting feature, which will allow you to control your music and audio apps from within the Your Phone app. Now you can access and control the audio apps playing from your phone directly within the app, without needing to split your attention between devices or breaking your workflow. Your audio tracks will remain in sync between your phone and PC, and you can switch between multiple sources using the dropdown in the player. Give it a try and let us know what you think!
+
+**Key features**
+
+* See and interact with the audio apps playing from your smartphone.
+Audio title track details are displayed and remain in sync with what’s playing on your phone.
+* Control your tracks from your PC, including play, pause, previous/next.
+* Switch between multiple sources using the dropdown in the audio player.
+
+![Screen showing audio player controls within the Your Phone app.](images/19608-1.jpg)
+
+**Audio player control requirements**
+
+* A PC running Windows 10 October 2018 Update or later. However, we always recommend updating to the latest version.
+* Android phone running 7.0+.
+* Apps that support media controls in their Android notifications. Some examples of popular apps that are supported include Spotify, Pandora, Amazon Music, Google Play Music, YouTube Music, Xiami Music, and Google Podcast.
+* **Show audio currently playing from my phone** will be turned on by default in the Your Phone app settings if Your Phone Notifications permissions are granted.
+* Individual audio apps require notifications permissions granted on your Android phone. Turn these on through **Android Settings > Notifications > select the audio app > turn Notifications on.**
+
+**Known issues**
+
+* Some audio apps support “Previous Track” and others may support “Rewind Track.”
+* YouTube video and Audible are currently not supported.
+
+The feature is gradually rolling out, so it may take a few days to show up in the Your Phone app (YP version 1.20041.85 and YPC 1.20041.82.* or newer).
+
+## April 15, 2020
+
+### Seamlessly Drag and Drop files between your devices with the Your Phone app
+
+Continuing our partnership with Samsung, we’re excited to bring you an early preview into the newest feature for the Your Phone app—file drag and drop. This feature allows any Samsung smartphone that supports phone screen to wirelessly drag and drop files from their phone to their PC and vice versa without having to dig for cables. Give it a try and let us know what you think!
+
+![Illustration highlighting file transfer between PC and Phone.](images/19608-1.jpg)
+
+**Drag and Drop feature requirements**
+
+* PC must be running Windows 10 October 2018 Update or later. However, we always recommend updating to the latest version available.
+* Your phone must support phone screen. [Check out the full list of supported devices.](https://support.microsoft.com/en-us/help/4551890/supported-devices-for-your-phone-experiences)
+
+**Known issues**
+
+* Drag and drop of folders is currently not supported in either direction.
+* Transferring files from the My Files folder on your phone to PC on devices other than the S20 series and the Z flip requires an update to the My Files app, which Samsung is gradually rolling out this month.
+* Dragging images from the Gallery app on your phone to PC is supported on all phone screen capable devices.
+* If you drag a file too quickly from the phone, it may result in transfer failure. Minimizing the Your Phone app during transfer will cancel the transfer in progress. Feature requires Your Phone app to be open during the entire transfer.
+* Maximum number of files per transfer is limited to 100. Only one transfer at a time is allowed.
+
+This feature is gradually rolling out, so it may take few days to show up in the Your Phone app (YP version 1.20032.104).
+
+### Cross-device Copy & Paste feature now available on additional Samsung Galaxy devices
+
+The [Cross-device Copy and Paste](https://blogs.windows.com/windowsexperience/2020/03/12/announcing-windows-10-insider-preview-build-19582/) feature, which allows you to seamlessly copy text and images between devices, is now rolling out to Samsung Galaxy S10e/S10/S10+, Note 10, and Fold devices.
+
+![Illustration highlighting Copy/Cut and Paste between devices.](images/19608-2.jpg)
+
+### Messages node
+
+Compose new messages, within the Messages node, is getting a brand-new rounded user interface (UI). Check it out and let us know what you think!
+
+![Screen highlighting Compose new message rounded icon at the bottom. ](images/19608-3.jpg)
+
+### UI updates
+
+We recently introduced a number of UI changes to improve the overall look and feel of the Your Phone app. Updates include:
+
+* The option to match your app’s background with your phone’s wallpaper. This not only complements the look and feel of the app, but it makes it more personal.
+* The app background color in dark mode is now lighter tone of gray.
+* Typography of headers is more modern and prominent.
+* Improvements to app-wide padding and responsiveness to work better for different sizes of the app window as you navigate across nodes.
+
+![Settings screen that highlights our UI improvements, like the header typography and background color.](images/19608-4.jpg)
+
+These features are gradually rolling out to the public, so they may take few days to show up in the Your Phone app.
+
+## March 12, 2020
+
+Continuing our strong partnership with Samsung from last August, we’re excited to introduce exciting new features, which are now available on the latest Samsung Galaxy S20/S20+/S20 Ultra and Samsung Galaxy Z Flip devices in select markets. You can enjoy copying and pasting text and images between your devices, black screen while in phone screen, Rich Communication Service messaging, and more!
+
+## Copy and paste between devices and vice versa
+
+You can now copy and paste text and images between your phone and Windows 10 PC seamlessly. Simply turn on this feature in the Your Phone app settings and enjoy copying and pasting content with the familiar ctrl + C and ctrl + v commands on the PC or the tapping and holding gesture on your Android phone. It’s that simple.
+
+![Screen showing settings to turn on cross-device copy and paste feature.](images/19582.png)
+
+**Copy and paste requirements**
+
+* Samsung Galaxy S20/S20+/S20 Ultra and Samsung Galaxy Z Flip devices in select markets
+* PC running Windows 10 April 2018 Update or higher
+
+## Black screen while using phone screen
+
+The phone screen feature is getting a boost. Users now have the option to turn off their smartphone screen to optimize battery consumption and protect the privacy of their phone’s personal content. Black screen will show during a phone screen session on all supported devices (any device that supports Link to Windows). The black screen kicks in when the session is initiated and dismisses itself when it ends. The user can dismiss the black screen anytime by:
+
+* Pressing the power button
+* Swiping the device screen
+* Activating Bixby
+* Disabling the black screen at any time from the Settings page
+
+**Feature requirements**
+
+* Latest version of Link to Windows
+* Phone screen supported devices
+
+[Check out the list of supported phone screen compatible devices.](https://answers.microsoft.com/en-us/insider/forum/insider_apps-insider_other-insiderplat_pc/phone-screen-supported-devices/18794409-3e4a-40eb-a6b1-7d06a16b956e?tm=1552337567199&auth=1)
+
+## Rich Communication Service (RCS)
+
+Your Phone app now supports RCS (send/receive) for a richer messaging experience on select Samsung devices, provided your mobile operator supports RCS. For users who have RCS messaging enabled on their device and use Samsung Messages app as the default app on their phone, they will now be able to send and receive these messages from the Your Phone app. Additionally, users will be able to see their messages get marked as read. If a user views messages on their PC, they will also be marked as read on the phone, removing the need to clear notifications on the phone.
+
+**RCS requirements**
+
+* Samsung Galaxy S20 series running version 10.0 or higher
+* PC running Windows 10 April 2018 Update or higher
+* Mobile operator supporting RCS messaging
+
+These features are available to Windows Insiders on Windows 10 Build 19H2+ and to the general public. Please make sure you have the latest versions of the Your Phone Companion - Link to Windows, and the Your Phone app. We plan on supporting additional Samsung devices in the future and will keep you posted.
+
+## December 16, 2019
 
 ### Photos has evolved. View and interact with your most recent 2000 photos!
 We take a lot of photos on our smartphones. We heard our avid Your Phone app users when you when you said you wanted the ability to access more than 25 of your recent photos. Today, we’re happy to announce that we’ve addressed this by letting you view and interact with your most recent 2,000 photos from your Android smartphone’s camera roll on your PC!
@@ -44,13 +228,11 @@ The Phone screen feature is getting a boost. In addition to keyboard, mouse, and
 
 This feature is available to all Windows Insiders on Windows 10 October 2018 Update or newer and requires Phone screen compatible devices.
 
-We value your feedback, so give it a try and let us know what you think. You can report any issues under Your Phone > Settings > Send feedback or directly through Feedback Hub.
-
 **Pen input requirements**
 * Your Phone App version 1.19102.500.0 or newer
 * Phone screen compatible devices
 
-## 10/29/2019
+## October 29, 2019
 
 ### Elevating the Phone screen feature by removing its dependency on Bluetooth connection
 
@@ -74,7 +256,7 @@ Thank you for helping us refine the Phone screen experience so far!
     * Samsung Galaxy A30s/A50s/A90
 * Refer to the [Your Phone FAQs](https://support.microsoft.com/help/4459358/windows-10-your-phone-app-help) for additional information.
 
-## 10/8/2019
+## October 8, 2019
 
 ### Unveiling Calls, now even more ways to stay connected to what matters 
 No need to dig for your Android phone to answer your personal or work calls. You can now stay connected by simply answering (or not) your phone calls on your PC. Tap into your PC’s speakers, microphone, and large screen for a richer calling experience.
@@ -95,47 +277,44 @@ With the Calls feature you can:
 * Windows 10 PC with Bluetooth radio
 * Windows 10 Version 1903 (OS build) 18362.356 or newer
 
-**Note**
+**Note:**
 
 * This feature will gradually roll out to Insiders so it may take a few days to be available inside the Your Phone app.
 * To enable the Calls feature, sign into the Your Phone app using the Microsoft account that you used to register as a Windows Insider. 
 * For set-up instructions and other details, see [Calls Feature for the Your phone app](https://answers.microsoft.com/en-us/insider/forum/all/calls-feature-for-the-your-phone-app/8266e234-ba16-42be-8b11-af2e33ba93ed).
 
-**Known issue**
+**Known issue:**
 
 * In certain instances, Calls feature may require you to pair your mobile phone & PC again. If you have previously paired your devices, unpair your devices and go through the Calls setup flow again.
 
-We value your feedback, so give it a try and let us know what you think. You can report any issues under the Your Phone > Settings > Send feedback.
+## October 3, 2019
 
-## 10/3/2019
-
-### Link to Windows on more devices
+### Link to Windows on more devices. 
 We’re pleased to announce that Link to Windows feature, which seamlessly connects your phone to your Windows 10 PC, is rolling out to Samsung Galaxy S10, S10+, S10e, S10 5G, and Fold devices in select global markets. With Link to Windows natively integrated into your device, it’s simple and convenient to send messages, manage notifications, sync photos, and mirror your phone on your PC.
 
-### Phone screen on more devices
+### Phone screen on more devices. 
 Phone screen which allows you to access your Android phone’s apps right from your PC while using your keyboard and mouse or touch screen) is also rolling out to Samsung Galaxy S10, S10+, S10e, S10 5G, and Fold devices in select global markets. You can try out multi-touch gestures such as pinch to zoom, rotate, or swipe from your PC’s touchscreen while using Phone screen. If you have one of these devices, give it a try. This is a gradual rollout, so stay tuned for more to come on additional markets and devices.
 
-### Battery level indicator & phone’s home screen wallpaper
+### Battery level indicator & phone’s home screen wallpaper.
 In addition to Phone screen and Link to Windows expansion, two additional features are rolling out to all users–battery indicator, which will provide quick access to your phone’s battery levels right in the app without needing to check your device, and Your Phone icon within the app, which will show your current static home screen wallpaper for a personal touch.
 
 ![Battery level indicator](images/18995-2.png)
 
 All of these features are gradually rolling out to users, so they may take a few days to be available inside the Your Phone app. Please make sure you have the latest versions of Your Phone Companion and the Your Phone app.
 
-We value your feedback, so give it a try and let us know what you think. You can report any issues under Your Phone > Settings > Send feedback.
+## July 10, 2019
 
-## 7/10/2019
-
-### Phone screen now available on more Surface devices
+### Phone screen now available on more Surface devices. 
 As promised, we’re excited to expand the availability of the phone screen feature to more PCs. With the latest driver update in the Windows insider rings (Marvell 15.68.17013.110), the following Surface devices will preview the phone screen feature – Surface Laptop, Surface Laptop 2, Surface Pro 4, Surface Pro 5, Surface Pro 6, Surface Book, and Surface Book 2. If you have one of these devices, give it a try and let us know what you think!
 
-## 7/3/2019
+## July 3, 2019
 
 ### Enabling touch functionality
 You will now be able to interact with your phone screen using one-touch tap and long press. This handy feature will allow you to conveniently open apps, select items, click on links, and more, directly on your touch-enabled PC.
 
 ### Notifications integration with Phone screen
 We’re pleased to launch Notifications integration with Phone screen for Insiders with the May 2019 update or newer. If Phone screen is set up, your notifications will open in Phone screen allowing you to interact with your keyboard and mouse. If Phone screen is not supported or set up, clicking on notifications will take you to your notifications feed instead.
+
 Note that your text message notifications (SMS, MMS) will continue to be available within the messaging node.
 
 ![Notifications integration with Phone screen](images/18932-9.png)
@@ -154,7 +333,7 @@ Thank you to everyone who gave us feedback over the last few weeks to help us im
 * Minimum Windows Insiders Build 18338 and above
 * Android phone must be on, within Bluetooth range of the PC and connected to the same network as the PC
 
-## 5/29/2019
+## May 29, 2019
 
 ### Phone screen accessibility features, keyboard language and layout, new phone models
 We’re pleased to preview two new accessibility features – screen reading and focus tracking – as well as the ability to easily switch your Android phone’s keyboard language or layout while in phone screen.
@@ -229,7 +408,7 @@ We’re also introducing a new look for both Your Phone and Your Phone Companion
 
 ![New Your Phone icons](images/18908-6.png)
 
-## 4/26/2019
+## April 26, 2019
 
 ### Never miss your Android phone’s notifications
 
@@ -271,7 +450,7 @@ For more information on setting up other Your Phone app features, see [Your Phon
 
 As promised, we have expanded [phone screen support](https://aka.ms/wip18356) to additional phone models, **OnePlus 6, OnePlus 6T, Samsung Galaxy S10e, S10, S10+, Note 8, Note 9**. Try out phone screen and send us your feedback. We will continue to expand the list of supported devices over time.
 
-## 3/12/2019
+## March 12, 2019
  
 ### Take your phone’s screen to the big screen  
 
