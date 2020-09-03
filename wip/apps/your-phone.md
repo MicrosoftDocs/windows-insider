@@ -90,7 +90,7 @@ Audio title track details are displayed and remain in sync with what’s playing
 * Control your tracks from your PC, including play, pause, previous/next.
 * Switch between multiple sources using the dropdown in the audio player.
 
-![Screen showing audio player controls within the Your Phone app.](images/19608-1.png)
+![Screen showing audio player controls within the Your Phone app.](images/19619.png)
 
 **Audio player control requirements**
 
