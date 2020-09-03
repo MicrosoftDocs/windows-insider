@@ -44,7 +44,7 @@ The information previously found in your profile, like Device ID and User ID, is
 
 Based on your feedback, we’re updating the Feedback Hub with a new feature called **Find similar feedback**. When you go to log a new piece of feedback, you’ll now see a section that looks to see if there’s any existing feedback that sounds similar to yours. You can choose to automatically link your feedback to that existing feedback (rather than creating a new piece of feedback). This is currently in the process of rolling out to Insiders with version 1.1904.1584.0. We look forward to you trying it out!
 
-![Showing the entry to find similar feedback when logging a new piece of feedback in the Feedback Hub](images/find-similar-feedback)
+![Showing the entry to find similar feedback when logging a new piece of feedback in the Feedback Hub](images/find-similar-feedback.png)
 
 We’ve also updated the Thank You page a little bit, so that now there’s a direct button to share your feedback if that’s what you want to do (rather than having to go find your feedback afterwards in the **My feedback** section).  
 
