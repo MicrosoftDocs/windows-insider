@@ -56,7 +56,7 @@ Starting today, Android phones supporting Your Phone app’s Phone screen featur
 
 ![Screen showing mobile phone’s apps and open Instagram panel.](images/20185-2.png)
 
-** Apps feature requirements**
+**Apps feature requirements**
 
 * PC running Windows 10 October 2018 Update or later. However, we always recommend updating to the latest version of Windows 10, Your Phone app and Link to Windows.
 * Available on select Android phones running Android 9.0 or greater with the Link to Windows integration. Check out the list of supported phones here.
@@ -90,7 +90,7 @@ Audio title track details are displayed and remain in sync with what’s playing
 * Control your tracks from your PC, including play, pause, previous/next.
 * Switch between multiple sources using the dropdown in the audio player.
 
-![Screen showing audio player controls within the Your Phone app.](images/19608-1.jpg)
+![Screen showing audio player controls within the Your Phone app.](images/19608-1.png)
 
 **Audio player control requirements**
 
@@ -113,7 +113,7 @@ The feature is gradually rolling out, so it may take a few days to show up in th
 
 Continuing our partnership with Samsung, we’re excited to bring you an early preview into the newest feature for the Your Phone app—file drag and drop. This feature allows any Samsung smartphone that supports phone screen to wirelessly drag and drop files from their phone to their PC and vice versa without having to dig for cables. Give it a try and let us know what you think!
 
-![Illustration highlighting file transfer between PC and Phone.](images/19608-1.jpg)
+![Illustration highlighting file transfer between PC and Phone.](images/19608-1.png)
 
 **Drag and Drop feature requirements**
 
@@ -134,7 +134,7 @@ This feature is gradually rolling out, so it may take few days to show up in the
 
 The [Cross-device Copy and Paste](https://blogs.windows.com/windowsexperience/2020/03/12/announcing-windows-10-insider-preview-build-19582/) feature, which allows you to seamlessly copy text and images between devices, is now rolling out to Samsung Galaxy S10e/S10/S10+, Note 10, and Fold devices.
 
-![Illustration highlighting Copy/Cut and Paste between devices.](images/19608-2.jpg)
+![Illustration highlighting Copy/Cut and Paste between devices.](images/19608-2.png)
 
 ### Messages node
 
@@ -151,7 +151,7 @@ We recently introduced a number of UI changes to improve the overall look and fe
 * Typography of headers is more modern and prominent.
 * Improvements to app-wide padding and responsiveness to work better for different sizes of the app window as you navigate across nodes.
 
-![Settings screen that highlights our UI improvements, like the header typography and background color.](images/19608-4.jpg)
+![Settings screen that highlights our UI improvements, like the header typography and background color.](images/19608-4.png)
 
 These features are gradually rolling out to the public, so they may take few days to show up in the Your Phone app.
 
