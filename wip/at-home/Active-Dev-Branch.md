@@ -13,10 +13,7 @@ ms.prod: w10
 
 # The Changelog
 
-The Changelog represents everything new from all the builds from the Active Developmemnt Branch (RS_PRELEASE) released to the Fast ring. 
-
->[!NOTE]
-> This page includes everything noted as part of the "What's new" and "General changes & improvements" sections of the blog posts published for each build [on the Windows Blog](https://blogs.windows.com/windowsexperience/tag/windows-insider-program/) and does not contain other noted updates for Insiders, fixes, or known issues. 
+The Changelog represents everything new from all the builds from the Active Developmemnt Branch (RS_PRELEASE) released to the **Dev Channel**. This page includes everything noted as part of the "What's new" and "General changes & improvements" sections of the blog posts published for each build [on the Windows Blog](https://blogs.windows.com/windows-insider/) and does not contain other noted updates for Insiders, fixes, or known issues. 
 
 ## Build 20206
 Windows 10 Insider Preview Build 20206 was released to the Dev Channel on [9/2/2020](https://blogs.windows.com/windows-insider/2020/09/02/announcing-windows-10-insider-preview-build-20206/).
@@ -117,7 +114,8 @@ One thing we heard from our customers is the desire to change the cursor positio
 
 All you need to do is place a finger on the space bar and slide your finger left, right, up, or down. As your finger moves, so will the cursor – one character or line at a time.
 
-Press and hold on the space bar on the touch keyboard to move the cursor on your screen. 
+![Cursor movement spacebar](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2020/09/Single-Portrait-Docked-1-1024x423.png "Press and hold on the space bar on the touch keyboard to move the cursor on your screen.")
+
 We’ll be continuing to work on input in Windows and would love to hear your thoughts on further improvements.
 
 >[!NOTE] 
