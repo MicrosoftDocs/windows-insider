@@ -62,14 +62,14 @@ The Windows key shortcut guide is a full screen overlay utility that provides a 
 
 Find detailed information on [the Windows key shortcut guide](https://github.com/Microsoft/PowerToys/tree/master/src/modules/shortcut_guide/README.md), the [backlog for this utility](https://github.com/microsoft/PowerToys/blob/master/doc/planning/ShortcutGuideBacklog.md), and the [source code](https://github.com/Microsoft/PowerToys/tree/master/src/modules/shortcut_guide).
 
-![Windows key shortcut guide](images/powertoys-1.png)
+![Windows key shortcut guide](images/Powertoys-1.png)
 
 ### FancyZones windows manager
 FancyZones is a window manager that’s designed to make it easy to arrange and snap windows into efficient layouts for your workflow, and also to restore these layouts quickly. FancyZones allows the user to define a set of window locations for a desktop that are drag targets for windows. When the user drags a window into a zone, the window is resized and repositioned to fill that zone.
  
 To get started with FancyZones, you need to enable the utility in the PowerToys settings, and then open the FancyZones setup UI. There’s a button in settings to open this UI, or you can press Win+~ to launch it. When first launched, the UI presents a list of zone layouts that can be quickly adjusted by how many windows are on the monitor. Choosing a layout shows a preview of that layout on the monitor. Pressing the save and close button sets that layout to the monitor.
 
-![FancyZones editor](images/powertoys-1.png )
+![FancyZones editor](images/Powertoys-2.png)
  
 The editor also supports creating and saving custom layouts. This functionality is in the Custom tab in the editor UI. There are two ways to create custom zone layouts, window layout, and table layout. These can also be thought of as additive and subtractive models. The additive window layout model starts with a blank layout and supports adding zones that can be dragged and resized, similar to windows.
 
