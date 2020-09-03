@@ -27,7 +27,7 @@ As a reminder, the Your Phone apps feature allows you to instantly access your A
 
 * PC running Windows 10 October 2018 Update or later. However, we always recommend updating to the latest version of Windows 10.
 * Your Phone app (1.20071.88) and Link to Windows (2.0).
-* Available on select Android phones running Android 9.0 or greater with the Link to Windows integration. Check out the list of supported phones here.
+* Available on select Android phones running Android 9.0 or greater with the Link to Windows integration. [Check out the list of supported phones here.](https://support.microsoft.com/help/4551890/supported-devices-for-your-phone-experiences)
 * Phone and PC must be on the same Wi-Fi network.
 
 This is a gradual rollout, so it may take few days for Apps to show up within the Your Phone app.
@@ -194,7 +194,7 @@ Your Phone app now supports RCS (send/receive) for a richer messaging experience
 * PC running Windows 10 April 2018 Update or higher
 * Mobile operator supporting RCS messaging
 
-These features are available to Windows Insiders on Windows 10 Build 19H2+ and to the general public. Please make sure you have the latest versions of the Your Phone Companion - Link to Windows, and the Your Phone app. We plan on supporting additional Samsung devices in the future and will keep you posted.
+These features are available to Windows Insiders on Windows 10 Build 19H2+ and to the general public. Please make sure you have the latest versions of the Your Phone Companion—Link to Windows, and the Your Phone app. We plan on supporting additional Samsung devices in the future and will keep you posted.
 
 ## December 16, 2019
 
