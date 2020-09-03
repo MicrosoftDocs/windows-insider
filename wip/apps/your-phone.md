@@ -13,7 +13,7 @@ ms.prod: w10
 
 # Your Phone
 
-The latest major updates and features for Your Phone. We value your feedback, so give these features a try and let us know what you think. You can report any issues under **Your Phone > Settings > Send feedback** or directly through the [Feedback Hub](http://aka.ms/yourphonefh).
+The latest major updates and features for Your Phone. We value your feedback, so give these features a try and let us know what you think. You can report any issues under **Your Phone > Settings > Send feedback** or directly through the [Feedback Hub](https://aka.ms/yourphonefh).
 
 ## August 21, 2020
 
@@ -220,7 +220,7 @@ This feature will gradually roll out to Windows Insiders on the Windows 10 May 2
 ### Phone screen now supports pen input
 The Phone screen feature is getting a boost. In addition to keyboard, mouse, and touch support, you can now use your digital pen with a compatible stylus to input on any touch screen enabled Windows 10 PC to interact with your mobile apps while in Phone screen session. Leverage your pen’s pressure sensitivity for drawing and writing like you would with your phone’s stylus with apps that support pressure sensitivity. You will also be able to hover over buttons, and it differentiates between the pen and finger touch.
 
-![Your Phone app recent photos page](images/19536-5.jpg)
+![Your Phone app pen input](images/19536-5.jpg)
 
 This feature is available to all Windows Insiders on Windows 10 October 2018 Update or newer and requires Phone screen compatible devices.
 
