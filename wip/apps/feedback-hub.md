@@ -36,7 +36,7 @@ With the new **Add similar feedback** feature, selecting a problem that matches 
 
 We're also excited to announce a refresh of the Windows Insider Achievements page. We’ve moved them from your profile page to their own landing page to make them easier to find, and we added additional features that allow you to categorize and track your progress. Be sure to check it out today and begin unlocking badges. We would love to hear your feedback on social media by using the hashtag #Builds4Badges.
 
-The information previously found in your profile, like Device ID and User ID, is now located in the Settings section of Feedback Hub.
+The information previously found in your profile, like Device ID and User ID, is now located in the **Settings** section of Feedback Hub.
 
 ![Windows Insiders Achievements](images/18965-3.png)
 
@@ -64,4 +64,4 @@ This update includes:
 * We’ve made some improvements to how the UI flows between different window sizes.
 * Screenshots and Steps capture images can be now be easily reviewed in the app.
 * When creating a new feedback item, that feedback is auto-saved as a draft.  If the app closes unexpectedly in the middle of writing feedback, when you re-open the Feedback Hub, you’ll now get notified of the existing draft so you can easily resume.
-* You can now check for app updates from the Settings page in the Feedback Hub. We’ll also automatically check for app updates on app launch, and you’ll get a notification letting you know one is available.
+* You can now check for app updates from the **Settings** page in the Feedback Hub. We’ll also automatically check for app updates on app launch, and you’ll get a notification letting you know one is available.
