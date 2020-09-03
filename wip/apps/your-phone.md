@@ -140,7 +140,7 @@ The [Cross-device Copy and Paste](https://blogs.windows.com/windowsexperience/20
 
 Compose new messages, within the Messages node, is getting a brand-new rounded user interface (UI). Check it out and let us know what you think!
 
-![Screen highlighting Compose new message rounded icon at the bottom. ](images/19608-3.jpg)
+![Screen highlighting Compose new message rounded icon at the bottom. ](images/19608-3.png)
 
 ### UI updates
 
