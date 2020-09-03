@@ -45,9 +45,9 @@ Windows voice typing is the new and improved version of Windows dictation that e
 
 Improved features for voice typing include:
 
-A modern design – optimized for use with touch keyboards.
-Auto-punctuation that allows you to effortlessly put your thoughts down without worrying about question marks and periods (turn it on in settings).
-An updated back end for the most reliable voice typing experience ever on Windows.
+* A modern design – optimized for use with touch keyboards.
+* Auto-punctuation that allows you to effortlessly put your thoughts down without worrying about question marks and periods (turn it on in settings).
+* An updated back end for the most reliable voice typing experience ever on Windows.
 Easily start voice typing any time by using the keyboard shortcut (WIN + H) or tapping the microphone button on the touch keyboard.
 
 When using the hardware keyboard:
@@ -56,33 +56,37 @@ Use the WIN + H keyboard shortcut for quick access to the microphone button for 
 When using the touch keyboard:
 
 When using the touch keyboard in Windows, you can use the microphone icon to quickly use voice to text. 
+
 Want to up your voice typing to the next level? Try out the following supported voice commands:
 
 List of voice commands in different languages. 
+
 Voice typing is available in the following languages/locales*:
 
-English (US)
-English (Australia)
-English (India)
-English (Canada)
-English (United Kingdom)
-French (France)
-French (Canada)
-Portuguese (Brazilian)
-Simplified Chinese
-Spanish (Mexico)
-Spanish (Spanish)
-German
-Italian
-Japanese**
-*Voice typing will automatically use the language your keyboard is set to (if supported).
-**Auto-punctuation is not available in Japanese at this time.
+* English (US)
+* English (Australia)
+* English (India)
+* English (Canada)
+* English (United Kingdom)
+* French (France)
+* French (Canada)
+* Portuguese (Brazilian)
+* Simplified Chinese
+* Spanish (Mexico)
+* Spanish (Spanish)
+* German
+* Italian
+* Japanese**
 
-Please note: we are still working to improve the feature and how it interacts with different applications. In some Office apps you may experience random pauses while using the voice typing feature. If this happens, click the microphone icon again to restart the listening experience.
+_*Voice typing will automatically use the language your keyboard is set to (if supported)._
+_**Auto-punctuation is not available in Japanese at this time._
 
-This feature is rolling out to a subset of Insiders in the Dev Channel at first, to help us quickly identify issues that may impact performance and reliability. Rest assured they will be gradually rolled out to everyone in the Dev Channel.
+_Please note: we are still working to improve the feature and how it interacts with different applications. In some Office apps you may experience random pauses while using the voice typing feature. If this happens, click the microphone icon again to restart the listening experience._
 
-Improving the touch keyboard design
+>[!NOTE] 
+>This feature is rolling out to a subset of Insiders in the Dev Channel at first, to help us quickly identify issues that may impact performance and reliability. Rest assured they will be gradually rolled out to everyone in the Dev Channel.
+
+### Improving the touch keyboard design
 Some Insiders will start to see our new touch keyboard design rolling out to their PCs. The updated design includes a fresh aesthetic and many other small tweaks, including updated key sizes / layouts to optimize for typing comfort & accuracy. We have also done some work to help improve discoverability and usability of available features.
 
 While exploring the updated design, you will notice a number of refinements, including:
