@@ -35,7 +35,7 @@ We know that you need more than just emojis to properly convey your message when
 
 We will be continuing to work on input in Windows and would love to hear your thoughts on further improvements. We are lighting up a new area path in the Feedback Hub for you to share your suggestions: Input and Language > Emoji, Kaomoji, GIF and other input.
 
-__Please note: In order to insert an animated GIF when typing, the text field needs to support it. Animated GIF search requires an internet connection and is powered by Tenor. For more details about languages where animated GIF search is supported by Tenor, please see here.__
+_Please note: In order to insert an animated GIF when typing, the text field needs to support it. Animated GIF search requires an internet connection and is powered by Tenor. For more details about languages where animated GIF search is supported by Tenor, please see here._
 
 **This feature is rolling out to a subset of Insiders in the Dev Channel at first, to help us quickly identify issues that may impact performance and reliability. Rest assured they will be gradually rolled out to everyone in the Dev Channel.**
 
