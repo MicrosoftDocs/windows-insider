@@ -34,7 +34,7 @@ With the new **Add similar feedback** feature, selecting a problem that matches 
 
 ### Achievements
 
-We're also excited to announce a refresh of the Windows Insider Achievements page. We’ve moved them from your profile page to their own landing page to make them easier to find, and we added additional features that allow you to categorize and track your progress. Be sure to check it out today and begin unlocking badges. We would love to hear your feedback on social media by using the hashtag #Builds4Badges.
+We're also excited to announce a refresh of the Windows Insider **Achievements** page. We’ve moved them from your profile page to their own landing page to make them easier to find, and we added additional features that allow you to categorize and track your progress. Be sure to check it out today and begin unlocking badges. We would love to hear your feedback on social media by using the hashtag #Builds4Badges.
 
 The information previously found in your profile, like Device ID and User ID, is now located in the **Settings** section of Feedback Hub.
 
