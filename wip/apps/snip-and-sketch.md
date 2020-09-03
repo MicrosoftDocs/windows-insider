@@ -76,7 +76,6 @@ Also, Window snip & borders are both now available to 100 percent of Insiders in
 
 ![Windows Snip window](images/snip_window.png)
 
-
 ## October 31, 2018
 
 This update brings several improvements, including:
