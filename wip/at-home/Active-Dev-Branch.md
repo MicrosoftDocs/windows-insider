@@ -33,11 +33,12 @@ We know that you need more than just emojis to properly convey your message when
 * Animated GIF support, including search: Going forward, WIN + [.] and WIN + [;] will now enable you to quickly input animated GIFs. The selection of animated gifs will be continuously updated based on current trends and #hashtags. Search is also available for those times where you need to find the perfect reaction gif to succinctly communicate your message.
 * Converging our input experiences across emoji and clipboard history: We are bringing input and clipboard history together into a single experience. You can still press WIN + V to go straight to clipboard history, but now you can also access it by switching to the “Clipboard” category after pressing WIN + [.] or WIN + [;].
 
-We will be continuing to work on input in Windows and would love to hear your thoughts on further improvements. We are lighting up a new area path in the Feedback Hub for you to share your suggestions: Input and Language > Emoji, Kaomoji, GIF and other input.
+We will be continuing to work on input in Windows and would love to hear your thoughts on further improvements. We are lighting up a new area path in the Feedback Hub for you to share your suggestions: **Input and Language > Emoji, Kaomoji, GIF and other input**.
 
 _Please note: In order to insert an animated GIF when typing, the text field needs to support it. Animated GIF search requires an internet connection and is powered by Tenor. For more details about languages where animated GIF search is supported by Tenor, please see here._
 
-**This feature is rolling out to a subset of Insiders in the Dev Channel at first, to help us quickly identify issues that may impact performance and reliability. Rest assured they will be gradually rolled out to everyone in the Dev Channel.**
+>[!NOTE] 
+>TThis feature is rolling out to a subset of Insiders in the Dev Channel at first, to help us quickly identify issues that may impact performance and reliability. Rest assured they will be gradually rolled out to everyone in the Dev Channel.
 
 ### Introducing Voice Typing
 Windows voice typing is the new and improved version of Windows dictation that enables you to type effortlessly with your voice wherever there’s a text field on your PC. Sometimes, using your voice is more comfortable and efficient than typing on a keyboard – with Windows voice typing, you can relax your hands and just say what you want to write.
