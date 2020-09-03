@@ -15,7 +15,7 @@ ms.prod: w10
 
 The latest major updates and features for the Feedback Hub. Let us know what you think about these changes in the [Feedback Hub](https://aka.ms/WIPFeedbackHub) by choosing **Apps > Feedback Hub** under **Category** when filing feeback.
 
-__8/21/2019 - Version 1907__
+## August 21, 2019
 
 The Feedback Hub team has been hard at work lately to bring you some app updates based on your feature requests, and we have a few changes and improvements to share about the latest version that’s currently rolling out to Windows Insiders in the Fast ring.
 
