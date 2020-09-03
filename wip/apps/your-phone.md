@@ -159,7 +159,7 @@ These features are gradually rolling out to the public, so they may take few day
 
 Continuing our strong partnership with Samsung from last August, we’re excited to introduce exciting new features, which are now available on the latest Samsung Galaxy S20/S20+/S20 Ultra and Samsung Galaxy Z Flip devices in select markets. You can enjoy copying and pasting text and images between your devices, black screen while in phone screen, Rich Communication Service messaging, and more!
 
-## Copy and paste between devices and vice versa
+### Copy and paste between devices and vice versa
 
 You can now copy and paste text and images between your phone and Windows 10 PC seamlessly. Simply turn on this feature in the Your Phone app settings and enjoy copying and pasting content with the familiar ctrl + C and ctrl + v commands on the PC or the tapping and holding gesture on your Android phone. It’s that simple.
 
@@ -170,7 +170,7 @@ You can now copy and paste text and images between your phone and Windows 10 PC 
 * Samsung Galaxy S20/S20+/S20 Ultra and Samsung Galaxy Z Flip devices in select markets
 * PC running Windows 10 April 2018 Update or higher
 
-## Black screen while using phone screen
+### Black screen while using phone screen
 
 The phone screen feature is getting a boost. Users now have the option to turn off their smartphone screen to optimize battery consumption and protect the privacy of their phone’s personal content. Black screen will show during a phone screen session on all supported devices (any device that supports Link to Windows). The black screen kicks in when the session is initiated and dismisses itself when it ends. The user can dismiss the black screen anytime by:
 
@@ -186,7 +186,7 @@ The phone screen feature is getting a boost. Users now have the option to turn o
 
 [Check out the list of supported phone screen compatible devices.](https://answers.microsoft.com/en-us/insider/forum/insider_apps-insider_other-insiderplat_pc/phone-screen-supported-devices/18794409-3e4a-40eb-a6b1-7d06a16b956e?tm=1552337567199&auth=1)
 
-## Rich Communication Service (RCS)
+### Rich Communication Service (RCS)
 
 Your Phone app now supports RCS (send/receive) for a richer messaging experience on select Samsung devices, provided your mobile operator supports RCS. For users who have RCS messaging enabled on their device and use Samsung Messages app as the default app on their phone, they will now be able to send and receive these messages from the Your Phone app. Additionally, users will be able to see their messages get marked as read. If a user views messages on their PC, they will also be marked as read on the phone, removing the need to clear notifications on the phone.
 
