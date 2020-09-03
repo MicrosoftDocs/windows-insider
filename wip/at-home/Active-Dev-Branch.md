@@ -18,6 +18,100 @@ The Changelog represents everything new from all the builds from the Active Deve
 >[!NOTE]
 > This page includes everything noted as part of the "What's new" and "General changes & improvements" sections of the blog posts published for each build [on the Windows Blog](https://blogs.windows.com/windowsexperience/tag/windows-insider-program/) and does not contain other noted updates for Insiders, fixes, or known issues. 
 
+## Build 20206
+Windows 10 Insider Preview Build 20201 was released to the Dev Channel on [8/26/2020](https://blogs.windows.com/windows-insider/2020/08/26/announcing-windows-10-insider-preview-build-20201/).
+
+### Evolving the Emoji Picker
+Over the last 3 years, we have been adding ways to express yourself when typing in Windows. In addition to adding an emoji picker and support for more emoji, we have also added support for many more languages, kaomoji, and symbols. We have also added ways to manage your clipboard history. We are evolving the emoji picker in Windows to bring many of these separate experiences together as well as introduce some new capabilities such as easy access to animated GIFs.
+
+The revamped emoji picker is your one-stop for expressing yourself with quick access to emoji, kaomoji, symbols, animated GIFs and your clipboard.
+
+We know that you need more than just emojis to properly convey your message when communicating using text. To that end, we’ve revamped the emoji picker to be a one-stop for expressing yourself while you type on your device!  This new experience offers:
+
+* An updated design: We are making the experience more aligned with our Fluent Design principles, including a new acrylic background.
+* Emoji search: We are improving discoverability of emoji search in supported languages by having an inline search box.
+* Animated GIF support, including search: Going forward, WIN + [.] and WIN + [;] will now enable you to quickly input animated GIFs. The selection of animated gifs will be continuously updated based on current trends and #hashtags. Search is also available for those times where you need to find the perfect reaction gif to succinctly communicate your message.
+* Converging our input experiences across emoji and clipboard history: We are bringing input and clipboard history together into a single experience. You can still press WIN + V to go straight to clipboard history, but now you can also access it by switching to the “Clipboard” category after pressing WIN + [.] or WIN + [;].
+
+We will be continuing to work on input in Windows and would love to hear your thoughts on further improvements. We are lighting up a new area path in the Feedback Hub for you to share your suggestions: Input and Language > Emoji, Kaomoji, GIF and other input.
+
+__Please note: In order to insert an animated GIF when typing, the text field needs to support it. Animated GIF search requires an internet connection and is powered by Tenor. For more details about languages where animated GIF search is supported by Tenor, please see here.__
+
+**This feature is rolling out to a subset of Insiders in the Dev Channel at first, to help us quickly identify issues that may impact performance and reliability. Rest assured they will be gradually rolled out to everyone in the Dev Channel.**
+
+### Introducing Voice Typing
+Windows voice typing is the new and improved version of Windows dictation that enables you to type effortlessly with your voice wherever there’s a text field on your PC. Sometimes, using your voice is more comfortable and efficient than typing on a keyboard – with Windows voice typing, you can relax your hands and just say what you want to write.
+
+Improved features for voice typing include:
+
+A modern design – optimized for use with touch keyboards.
+Auto-punctuation that allows you to effortlessly put your thoughts down without worrying about question marks and periods (turn it on in settings).
+An updated back end for the most reliable voice typing experience ever on Windows.
+Easily start voice typing any time by using the keyboard shortcut (WIN + H) or tapping the microphone button on the touch keyboard.
+
+When using the hardware keyboard:
+
+Use the WIN + H keyboard shortcut for quick access to the microphone button for voice to text. 
+When using the touch keyboard:
+
+When using the touch keyboard in Windows, you can use the microphone icon to quickly use voice to text. 
+Want to up your voice typing to the next level? Try out the following supported voice commands:
+
+List of voice commands in different languages. 
+Voice typing is available in the following languages/locales*:
+
+English (US)
+English (Australia)
+English (India)
+English (Canada)
+English (United Kingdom)
+French (France)
+French (Canada)
+Portuguese (Brazilian)
+Simplified Chinese
+Spanish (Mexico)
+Spanish (Spanish)
+German
+Italian
+Japanese**
+*Voice typing will automatically use the language your keyboard is set to (if supported).
+**Auto-punctuation is not available in Japanese at this time.
+
+Please note: we are still working to improve the feature and how it interacts with different applications. In some Office apps you may experience random pauses while using the voice typing feature. If this happens, click the microphone icon again to restart the listening experience.
+
+This feature is rolling out to a subset of Insiders in the Dev Channel at first, to help us quickly identify issues that may impact performance and reliability. Rest assured they will be gradually rolled out to everyone in the Dev Channel.
+
+Improving the touch keyboard design
+Some Insiders will start to see our new touch keyboard design rolling out to their PCs. The updated design includes a fresh aesthetic and many other small tweaks, including updated key sizes / layouts to optimize for typing comfort & accuracy. We have also done some work to help improve discoverability and usability of available features.
+
+While exploring the updated design, you will notice a number of refinements, including:
+
+New key press animations and sounds.
+Child keys have been optimized for quicker entry – try pressing and holding keys like “e” or “-“ and see how it looks.
+For those who prefer to keep their keyboard undocked, the option now accessible via a button directly in the candidate bar, and you can easily move the keyboard around using the gripper region at the top of the keyboard.
+All entries in the settings menu now have labels for improved clarity of available options.
+We are bringing emoji search to the touch keyboard, so you no longer need to hunt through the different categories to find the one you are looking for. More so, you can also now search for animated GIFs. All accessible from our new expressive input button in the candidate bar. (For more – see our section above on evolving the emoji panel.)
+A new entry point into voice typing has been added to the left of the space bar in supported languages. (See above section on voice typing.)
+The redesigned touch keyboard introduces a variety of improvements such as new key press animations and sounds, quick access to emoji and animated GIFs, and a new entry point for voice typing. 
+The redesigned touch keyboard offers quick access to emoji and animated GIFs so you and express yourself any way you like while typing in Windows.
+The touch keyboard can also be invoked on any PC from the touch keyboard button on the taskbar, although you may need to enable the button. To do so, right-click or press and hold on the taskbar, then select “Show touch keyboard button” in the menu. Once the touch keyboard is open, try typing or shapewriting on the keyboard and let us know how it feels.
+
+We want to thank Insiders for sharing their feedback about the touch keyboard over the years – your comments directly inspired these changes. We look forward to you trying them out and to even more feedback!
+
+Please note: Some of the keyboard layouts for certain languages are still in the process of being updated to the new design. Currently shapewriting is only supported when using the wide or onehanded touch keyboard layouts.
+
+This feature is rolling out to a subset of Insiders in the Dev Channel at first, to help us quickly identify issues that may impact performance and reliability. Rest assured they will be gradually rolled out to everyone in the Dev Channel.
+
+Cursor movement using the space bar  
+One thing we heard from our customers is the desire to change the cursor position with the touch keyboard. Based on that feedback, we are updating the keyboard so that you can now quickly do this in any text field using gestures on the space bar.
+
+All you need to do is place a finger on the space bar and slide your finger left, right, up, or down. As your finger moves, so will the cursor – one character or line at a time.
+
+Press and hold on the space bar on the touch keyboard to move the cursor on your screen. 
+We’ll be continuing to work on input in Windows and would love to hear your thoughts on further improvements.
+
+This feature is rolling out to a subset of Insiders in the Dev Channel at first, to help us quickly identify issues that may impact performance and reliability. Rest assured they will be gradually rolled out to everyone in the Dev Channel.
+
 ## Build 20201
 Windows 10 Insider Preview Build 20201 was released to the Dev Channel on [8/26/2020](https://blogs.windows.com/windows-insider/2020/08/26/announcing-windows-10-insider-preview-build-20201/).
 
