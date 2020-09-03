@@ -19,7 +19,7 @@ The Changelog represents everything new from all the builds from the Active Deve
 > This page includes everything noted as part of the "What's new" and "General changes & improvements" sections of the blog posts published for each build [on the Windows Blog](https://blogs.windows.com/windowsexperience/tag/windows-insider-program/) and does not contain other noted updates for Insiders, fixes, or known issues. 
 
 ## Build 20206
-Windows 10 Insider Preview Build 20201 was released to the Dev Channel on [8/26/2020](https://blogs.windows.com/windows-insider/2020/08/26/announcing-windows-10-insider-preview-build-20201/).
+Windows 10 Insider Preview Build 20206 was released to the Dev Channel on [9/2/2020](https://blogs.windows.com/windows-insider/2020/09/02/announcing-windows-10-insider-preview-build-20206/).
 
 ### Evolving the Emoji Picker
 Over the last 3 years, we have been adding ways to express yourself when typing in Windows. In addition to adding an emoji picker and support for more emoji, we have also added support for many more languages, kaomoji, and symbols. We have also added ways to manage your clipboard history. We are evolving the emoji picker in Windows to bring many of these separate experiences together as well as introduce some new capabilities such as easy access to animated GIFs.
@@ -52,14 +52,15 @@ Easily start voice typing any time by using the keyboard shortcut (WIN + H) or t
 
 When using the hardware keyboard:
 
-Use the WIN + H keyboard shortcut for quick access to the microphone button for voice to text. 
+![Voice Typing Hardware Keyboard](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2020/09/VoiceTypingFloaty-300x239.png "Use the WIN + H keyboard shortcut for quick access to the microphone button for voice to text.")
+
 When using the touch keyboard:
 
-When using the touch keyboard in Windows, you can use the microphone icon to quickly use voice to text. 
+![Voice Typing Touch Keyboard](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2020/09/VoiceTypingKeyboard-1024x427.png "When using the touch keyboard in Windows, you can use the microphone icon to quickly use voice to text.")
 
 Want to up your voice typing to the next level? Try out the following supported voice commands:
 
-List of voice commands in different languages. 
+![Voice Typing Commands List](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2020/09/VTCommands.png "List of voice commands in different languages. ")
 
 Voice typing is available in the following languages/locales*:
 
@@ -98,9 +99,9 @@ While exploring the updated design, you will notice a number of refinements, inc
 We are bringing emoji search to the touch keyboard, so you no longer need to hunt through the different categories to find the one you are looking for. More so, you can also now search for animated GIFs. All accessible from our new expressive input button in the candidate bar. (For more – see our section above on evolving the emoji panel.)
 * A new entry point into voice typing has been added to the left of the space bar in supported languages. (See above section on voice typing.)
 
-The redesigned touch keyboard introduces a variety of improvements such as new key press animations and sounds, quick access to emoji and animated GIFs, and a new entry point for voice typing. 
+![Touch Keyboard Redesign](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2020/09/2020-09-01-6.png "The redesigned touch keyboard introduces a variety of improvements such as new key press animations and sounds, quick access to emoji and animated GIFs, and a new entry point for voice typing.")
 
-The redesigned touch keyboard offers quick access to emoji and animated GIFs so you and express yourself any way you like while typing in Windows.
+![Touch Keyboard Redesign 2](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2020/09/2020-09-01-5-1024x644.png "The redesigned touch keyboard offers quick access to emoji and animated GIFs so you and express yourself any way you like while typing in Windows.")
 
 The touch keyboard can also be invoked on any PC from the touch keyboard button on the taskbar, although you may need to enable the button. To do so, right-click or press and hold on the taskbar, then select “Show touch keyboard button” in the menu. Once the touch keyboard is open, try typing or shapewriting on the keyboard and let us know how it feels.
 
