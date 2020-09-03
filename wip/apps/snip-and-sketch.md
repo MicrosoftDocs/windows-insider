@@ -21,7 +21,7 @@ After spending time in both the Fast and Slow rings, we’re starting to roll ou
 
 As a reminder, this update includes single window mode and zoom support.
 
-## July 31,2019
+## July 31, 2019
 
 Thanks everyone who’s shared feedback so far for our updated snipping experience! We really appreciate it and are starting to roll out some more improvements based on what you’ve told us:
 
@@ -37,7 +37,7 @@ You can now zoom in on your screenshots if they’re a bit too small for you to 
 
 If you prefer keeping a small Snip & Sketch window, we’ll also zoom out to ensure the whole snip fits in the Snip & Sketch window. If you want to see the snip at its original size, select the zoom button and then **View actual size**.
 
-![Showing a small Snip & Sketch window, where the screenshot has been shrunk to fit the window.](images/18985.png)
+![Showing a small Snip & Sketch window, where the screenshot has been shrunk to fit the window.](images/18985.jpg)
 
 **Improving WIN+Shift+S discoverability** 
 
