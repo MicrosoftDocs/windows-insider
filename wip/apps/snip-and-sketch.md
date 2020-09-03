@@ -45,7 +45,7 @@ You mentioned you loved learning about using **WIN + Shift + S** to take new sni
 
 These changes are currently available for a portion of Insiders in the Fast ring as we evaluate the quality before continuing the rollout. Note the rollout for each change mentioned above is being handled separately, with separate random populations in the initial rollout, so seeing one of the changes with app version 10.1907.2064.0 doesn’t necessarily mean you’ll see all three.
 
-## March 6, 20193/6/2019
+## March 6, 2019
 
 We’re in the process of rolling out a new app update to Snip & Sketch. It includes a number of fixes based on your feedback, including:
 
@@ -67,7 +67,7 @@ We’re in the process of rolling out a new app update to Snip & Sketch. It incl
 ![Windows Snip window](images/snip_window.png)
 
 
-## October 31,2018
+## October 31, 2018
 
 This update brings several improvements, including:
 
