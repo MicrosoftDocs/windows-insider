@@ -24,7 +24,7 @@ Windows 10 Insider Preview Build 20201 was released to the Dev Channel on [8/26/
 ### Evolving the Emoji Picker
 Over the last 3 years, we have been adding ways to express yourself when typing in Windows. In addition to adding an emoji picker and support for more emoji, we have also added support for many more languages, kaomoji, and symbols. We have also added ways to manage your clipboard history. We are evolving the emoji picker in Windows to bring many of these separate experiences together as well as introduce some new capabilities such as easy access to animated GIFs.
 
-The revamped emoji picker is your one-stop for expressing yourself with quick access to emoji, kaomoji, symbols, animated GIFs and your clipboard.
+![Updated Emoji Picker](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2020/09/Screenshot-2020-09-01-172040.png "The revamped emoji picker is your one-stop for expressing yourself with quick access to emoji, kaomoji, symbols, animated GIFs and your clipboard.")
 
 We know that you need more than just emojis to properly convey your message when communicating using text. To that end, we’ve revamped the emoji picker to be a one-stop for expressing yourself while you type on your device!  This new experience offers:
 
@@ -78,8 +78,8 @@ Voice typing is available in the following languages/locales*:
 * Italian
 * Japanese**
 
-_*Voice typing will automatically use the language your keyboard is set to (if supported)._
-_**Auto-punctuation is not available in Japanese at this time._
+_*Voice typing will automatically use the language your keyboard is set to (if supported).
+**Auto-punctuation is not available in Japanese at this time._
 
 _Please note: we are still working to improve the feature and how it interacts with different applications. In some Office apps you may experience random pauses while using the voice typing feature. If this happens, click the microphone icon again to restart the listening experience._
 
@@ -91,23 +91,27 @@ Some Insiders will start to see our new touch keyboard design rolling out to the
 
 While exploring the updated design, you will notice a number of refinements, including:
 
-New key press animations and sounds.
-Child keys have been optimized for quicker entry – try pressing and holding keys like “e” or “-“ and see how it looks.
-For those who prefer to keep their keyboard undocked, the option now accessible via a button directly in the candidate bar, and you can easily move the keyboard around using the gripper region at the top of the keyboard.
-All entries in the settings menu now have labels for improved clarity of available options.
+* New key press animations and sounds.
+* Child keys have been optimized for quicker entry – try pressing and holding keys like “e” or “-“ and see how it looks.
+* For those who prefer to keep their keyboard undocked, the option now accessible via a button directly in the candidate bar, and you can easily move the keyboard around using the gripper region at the top of the keyboard.
+* All entries in the settings menu now have labels for improved clarity of available options.
 We are bringing emoji search to the touch keyboard, so you no longer need to hunt through the different categories to find the one you are looking for. More so, you can also now search for animated GIFs. All accessible from our new expressive input button in the candidate bar. (For more – see our section above on evolving the emoji panel.)
-A new entry point into voice typing has been added to the left of the space bar in supported languages. (See above section on voice typing.)
+* A new entry point into voice typing has been added to the left of the space bar in supported languages. (See above section on voice typing.)
+
 The redesigned touch keyboard introduces a variety of improvements such as new key press animations and sounds, quick access to emoji and animated GIFs, and a new entry point for voice typing. 
+
 The redesigned touch keyboard offers quick access to emoji and animated GIFs so you and express yourself any way you like while typing in Windows.
+
 The touch keyboard can also be invoked on any PC from the touch keyboard button on the taskbar, although you may need to enable the button. To do so, right-click or press and hold on the taskbar, then select “Show touch keyboard button” in the menu. Once the touch keyboard is open, try typing or shapewriting on the keyboard and let us know how it feels.
 
 We want to thank Insiders for sharing their feedback about the touch keyboard over the years – your comments directly inspired these changes. We look forward to you trying them out and to even more feedback!
 
-Please note: Some of the keyboard layouts for certain languages are still in the process of being updated to the new design. Currently shapewriting is only supported when using the wide or onehanded touch keyboard layouts.
+_Please note: Some of the keyboard layouts for certain languages are still in the process of being updated to the new design. Currently shapewriting is only supported when using the wide or onehanded touch keyboard layouts._
 
-This feature is rolling out to a subset of Insiders in the Dev Channel at first, to help us quickly identify issues that may impact performance and reliability. Rest assured they will be gradually rolled out to everyone in the Dev Channel.
+>[!NOTE] 
+>This feature is rolling out to a subset of Insiders in the Dev Channel at first, to help us quickly identify issues that may impact performance and reliability. Rest assured they will be gradually rolled out to everyone in the Dev Channel.
 
-Cursor movement using the space bar  
+### Cursor movement using the space bar  
 One thing we heard from our customers is the desire to change the cursor position with the touch keyboard. Based on that feedback, we are updating the keyboard so that you can now quickly do this in any text field using gestures on the space bar.
 
 All you need to do is place a finger on the space bar and slide your finger left, right, up, or down. As your finger moves, so will the cursor – one character or line at a time.
@@ -115,7 +119,8 @@ All you need to do is place a finger on the space bar and slide your finger left
 Press and hold on the space bar on the touch keyboard to move the cursor on your screen. 
 We’ll be continuing to work on input in Windows and would love to hear your thoughts on further improvements.
 
-This feature is rolling out to a subset of Insiders in the Dev Channel at first, to help us quickly identify issues that may impact performance and reliability. Rest assured they will be gradually rolled out to everyone in the Dev Channel.
+>[!NOTE] 
+>This feature is rolling out to a subset of Insiders in the Dev Channel at first, to help us quickly identify issues that may impact performance and reliability. Rest assured they will be gradually rolled out to everyone in the Dev Channel.
 
 ## Build 20201
 Windows 10 Insider Preview Build 20201 was released to the Dev Channel on [8/26/2020](https://blogs.windows.com/windows-insider/2020/08/26/announcing-windows-10-insider-preview-build-20201/).
