@@ -68,7 +68,7 @@ We’re currently rolling out Snip & Sketch version 10.1811.3371.0 to Insiders i
 * We fixed an issue where temp image files in app storage were never cleaned up, leading to potentially a large amount of space being used if you took a lot of snips.
 * We’ve made some improvements to address an issue where the app might hang when opening or annotating a high resolution image when auto-copy was enabled.
 
-Also: Window snip & borders are both now available to 100 percent of Insiders in the Fast ring! Thanks everyone who’s shared feedback about the experience so far!
+Also, Window snip & borders are both now available to 100 percent of Insiders in the Fast ring! Thanks everyone who’s shared feedback about the experience so far!
 
 ### Bring window snip to your modern snipping experience
 
