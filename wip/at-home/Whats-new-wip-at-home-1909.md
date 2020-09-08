@@ -1,19 +1,20 @@
 ---
-title: What's new in Windows 10, version 1909
-description: New Windows features for Windows Insider Program Preview Builds
-author: lizap
+title: What was new in 19H2 Windows 10 Insider Preview Builds
+description: What was new in 19H1 preview builds
+author: bleblanc
 manager: dougkim
 ms.tgt_pltfrm: na
 ms.devlang: na
-ms.author: elizapo
+ms.author: v-allsh
 ms.localizationpriority: medium
 ms.topic: article
 ms.prod: w10
 ---
 
-# What's new in Windows 10, version 1909
+# What was new in 19H2 Windows 10 Insider Preview Builds
+The Windows Insider Program lets you preview builds of the upcoming release of Windows 10. This lists all of the Windows 10 features for you to try in 19H2. 
 
-The next feature update for Windows 10 (known in the Windows Insider Program as 19H2) will be a scoped set of features for select performance improvements, enterprise features, and quality enhancements. To deliver these updates in a less disruptive fashion, we will deliver this feature update in a new way, using servicing technology (like the monthly update process) for customers running the May 2019 Update who choose to update to the new release. For more details on how we will be releasing this feature update–[please read this blog post from John Cable](https://blogs.windows.com/windowsexperience/2019/07/01/evolving-windows-10-servicing-and-quality-the-next-steps/). When 19H2 is officially released, it will be referred to as “version 1909.” 
+The next feature update for Windows 10 will be a scoped set of features for select performance improvements, enterprise features, and quality enhancements. To deliver these updates in a less disruptive fashion, we will deliver this feature update in a new way, using servicing technology (like the monthly update process) for customers running the May 2019 Update who choose to update to the new release. For more details on how we will be releasing this feature update–[please read this blog post from John Cable](https://blogs.windows.com/windowsexperience/2019/07/01/evolving-windows-10-servicing-and-quality-the-next-steps/).
 
 The following new features are being introduced as part of this update.
 
