@@ -1,6 +1,6 @@
 ---
 title: What was new in 19H2 Windows 10 Insider Preview Builds
-description: What was new in 19H1 preview builds
+description: What was new in 19H2 preview builds
 author: bleblanc
 manager: dougkim
 ms.tgt_pltfrm: na
