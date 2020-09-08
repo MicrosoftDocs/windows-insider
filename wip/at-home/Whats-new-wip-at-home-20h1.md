@@ -1,19 +1,18 @@
 ---
-title: What's new in the Windows 10 Insider Preview Builds (20H1)
-description: New Windows features for Windows Insider Program Preview Builds
-author: lizap
+title: What was new in 20H1 Windows 10 Insider Preview Builds
+description: What was new in 20H1 preview builds
+author: bleblanc
 manager: dougkim
 ms.tgt_pltfrm: na
 ms.devlang: na
-ms.author: elizapo
+ms.author: v-allsh
 ms.localizationpriority: medium
 ms.topic: article
 ms.prod: w10
 ---
 
-# What's new for Windows 10 Insider Preview Builds (20H1)
-
-The [Windows Insider Program](https://insider.windows.com/) lets you preview builds of the upcoming 20H1 release of Windows 10. This topic lists all new Windows 10 features for you to try.
+# What was new in 20H1 Windows 10 Insider Preview Builds
+The Windows Insider Program lets you preview builds of the upcoming release of Windows 10. This lists all of the Windows 10 features for you to try in 20H1. 
 
 ## Specialized Displays in Windows 10 Enterprise and Windows 10 Pro for Workstations
 
