@@ -1,5 +1,5 @@
 ---
-title: What was new in 19H1 Windows 10 Insider Preview Builds 19H1
+title: What was new in 19H1 Windows 10 Insider Preview Builds
 description: What was new in 19H1 preview builds
 author: bleblanc
 manager: dougkim
