@@ -1,5 +1,5 @@
 ---
-title: What was new in Windows 10 Insider Preview Builds RS5
+title: What was new in RS5 Windows 10 Insider Preview Builds
 description: What was new in RS5 preview builds
 author: bleblanc
 manager: dougkim
@@ -12,7 +12,7 @@ ms.prod: w10
 ---
 
 #  What was new in RS5 Windows 10 Insider Preview Builds
-The Windows Insider Program lets you preview builds of the upcoming release of Windows 10. This topic lists new Windows 10 features for you to try in RS5. 
+The Windows Insider Program lets you preview builds of the upcoming release of Windows 10. This lists all of the Windows 10 features for you to try in RS5. 
 
 ## Your Phone app
 Android phone users, you can finally stop emailing yourself photos. With Your Phone app you get instant access to your Android’s most recent photos on your PC. Drag and drop a photo from your phone onto your PC, then you can copy, edit, or ink on the photo.  Try it out by typing **Your Phone** in the Start menu. The **Your Phone** app will load and you will receive a request from Microsoft to download the companion app to your mobile phone. Android 7.0+ devices are compatible with the **Your Phone** app. For PCs tied to the China region, **Your Phone** app services will be enabled in the future.
