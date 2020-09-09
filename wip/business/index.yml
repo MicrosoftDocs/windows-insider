@@ -1,11 +1,11 @@
 ### YamlMime:Landing
 
 title: Windows Insider Program for Business documentation # < 60 chars
-summary: The Windows Insider Program for Business provides additional benefits to business users and organizations. It helps you deploy the Windows Insider Program in your enterprise. Find out more about Windows Insider Program for Business in the following links.  # < 160 chars
+summary: Run Insider Preview builds within your organization to explore the latest features, validate your apps and infrastructure, and deploy faster. # < 160 chars
 
 metadata:
   title: Windows Insider Program for Business documentation # Required; page title displayed in search results. Include the brand. < 60 chars.
-  description: WIP for Business helps you deploy the Windows Insider Program in your enterprise. The docs cover the new enterprise features we'd like you to test and describes how to do the most common tasks. If you are an administrator or a user in a business environment, you're in the right place. # Required; article description that is displayed in search results. < 160 chars.
+  description: Run Insider Preview builds within your organization to explore the latest features, validate your apps and infrastructure, and deploy faster. # Required; article description that is displayed in search results. < 160 chars.
   ms.topic: landing-page # Required
   author: lizap #Required; your GitHub user alias, with correct capitalization.
   manager: dougkim
@@ -21,43 +21,48 @@ landingContent:
 # Cards and links should be based on top customer tasks or top subjects
 # Start card title with a verb
   # Card (optional)
-  - title: Explore new Windows features for business
-    linkLists:
-      - linkListType: whats-new
-        links:
-          - text: What's new for business in Windows 10 Insider Preview Builds
-            url: wip-4-biz-whats-new.md
-
-  # Card (optional)
-  - title: Get started
+  - title: Getting started
     linkLists:
       - linkListType: get-started
         links:
-          - text: Register as a Windows Insider
-            url: wip-4-biz-register.md
-          - text: Install a Windows 10 Insider Preview Build
-            url: wip-4-biz-install.md
+          - text: Register for the Windows Insider Program for Business
+            url: https://docs.microsoft.com/windows-insider/get-started
       - linkListType: how-to-guide
         links:
-          - text: Manage Windows 10 Insider Preview Builds
-            url: wip-4-biz-manage.md
+          - text: Start flighting as a business
+            url: https://docs.microsoft.com/windows-insider/business/flighting
+          - text: Manage Insider Preview builds across your organization
+            url: https://docs.microsoft.com/windows-insider/business/manage-builds
+          - text: Give feedback as a business
+            url: https://docs.microsoft.com/windows-insider/business/feedback
+   
+                   
+  # Card          
+  - title: Helpful resources
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: Explore in the Beta Channel
+            url: https://docs.microsoft.com/windows-insider/business/explore-Beta-Channel
+          - text: Validate in the Release Preview Channel
+            url: https://docs.microsoft.com/windows-insider/business/validate-Release-Preview-Channel
+          - text: Windows Insider Program for Business FAQ
+            url: https://docs.microsoft.com/windows-insider/business/FAQ
+      - linkListType: whats-new
+        links:
+          - text: Flight Hub
+            url: https://docs.microsoft.com/en-us/windows-insider/flight-hub/
+          - text: The Changelog
+            url: https://docs.microsoft.com/windows-insider/Active-Dev-Branch      
 
   # Card
-  - title: Accelerate your Windows deployment
-    linkLists:
+  - title: Windows Insider Program for Server
+    linkLists:        
+      - linkListType: get-started
+        links:
+          - text: Get started with the Windows Insider Program for Windows Server
+            url: https://docs.microsoft.com/windows-insider/business/server-get-started
       - linkListType: how-to-guide
         links:
-          - text: Work with Windows 10 Insider Preview Builds
-            url: wip-4-biz-explore-and-validate.md
-
-  # Card
-  - title: Feedback Hub, FAQ, and other content
-    linkLists:
-      - linkListType: reference
-        links:
-          - text: Got Feedback?
-            url: wip-4-biz-feedback.md
-          - text: FAQ
-            url: wip-4-biz-FAQ.md
-          - text: Get Windows Server Insider Preview
-            url: /windows-insider/at-work/
+          - text: Give feedback on Windows Server Insider Preview Builds
+            url: https://docs.microsoft.com/windows-insider/business/server-feedback
