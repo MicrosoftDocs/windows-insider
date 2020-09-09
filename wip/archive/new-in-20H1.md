@@ -555,7 +555,7 @@ Do you get frustrated tabbing through “Click me” links? Narrator can now tel
 ## Disk type now visible in Task Manager Performance tab (Build 18898)
 A small, but perhaps convenient change — you’ll now be able to see the disk type (e.g. SSD) for each disk listed in Task Manager’s performance tab. This is particularly helpful in cases where you have multiple disks listed, so you can differentiate between them.
 
-![Expanded language support.](images/18898-1.png)
+![Disk type in Task Manager.](images/18898-1.png)
 
 ## Updated File Explorer search (Build 18894)
 We’ve heard your feedback asking for increased consistency, and to make it easier to find your files. Over the next few days we’ll be starting to roll out a new File Explorer search experience – now powered by Windows Search. This change will help integrate your OneDrive content online with the traditional indexed results. This rollout will start with a small percent, and then we’ll increase the rollout to more Insiders as we validate the quality of the experience.
