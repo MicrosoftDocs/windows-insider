@@ -15,7 +15,7 @@ ms.prod: w10
 If you're an administrator, you can manage installations of Windows 10 Insider Preview Builds across multiple devices in your organization using Group Policy, MDM solutions such as Intune, Configuration Manager, or Windows Server Update Services.
 
 > [!NOTE] 
-> You can also [start flighting on an individual device or virtual machine](https://docs.microsoft.com/windows-insider/at-work-pro/wip-4-biz-install) or [use ISOs to download Insider Preview builds](https://docs.microsoft.com/windows-insider/at-home/ISOs). 
+> You can also [start flighting on an individual device or virtual machine](https://docs.microsoft.com/windows-insider/business/flighting) or [use ISOs to download Insider Preview builds](https://docs.microsoft.com/windows-insider/ISOs). 
 
 ## Register your domain 
 
@@ -23,7 +23,7 @@ First, register your Azure Active Directory domain through our website. By regis
 
 To register your domain:
 
-* You must already be registered with the work email address tied to your Azure Active Directory (AAD) Global Administrator account. [Learn more about registering with your work email address.](https://docs.microsoft.com/windows-insider/at-work-pro/wip-4-biz-register)  
+* You must already be registered with the work email address tied to your Azure Active Directory (AAD) Global Administrator account. [Learn more about registering with your work email address.](https://docs.microsoft.com/windows-insider/business/register)  
 * It must be in Azure Active Directory. We don't support Active Directory on premises in the Windows Insider Program.
 * Use a production tenant of AAD, not a test tenant, to make the most of the program. The AAD tenant is just used for authentication, so you won't need to worry about changes to it from the the program.
 
