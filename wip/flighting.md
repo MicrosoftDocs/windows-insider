@@ -37,7 +37,7 @@ The Beta Channel is for early adopters and IT professionals who want to see what
 As a part of the Beta Channel, you'll be seeing builds tied to a specific upcoming release, like 20H1 or 20H2. Your feedback will be especially important here, since it will help our engineers make sure that key issues are fixed before major releases.
 
 ### Release Preview Channel
-In the Release Preview Channel, Insiders and IT professionals get the upcoming version of Windows before it's released to the world, with advanced quality updates and certain key features. These builds are also supported by Microsoft if you're in the [Windows Insider Program for Business](https://docs.microsoft.com/windows-insider/at-work-pro/).
+In the Release Preview Channel, Insiders and IT professionals get the upcoming version of Windows before it's released to the world, with advanced quality updates and certain key features. These builds are also supported by Microsoft if you're in the [Windows Insider Program for Business](https://docs.microsoft.com/windows-insider/business/).
 
 ## Our move from rings to channels
 
@@ -61,8 +61,8 @@ If you've installed an Insider Preview build in the Beta Channel or Release Prev
 4. The next time you receive an update, it will be for your new channel.
 
 ### Switching from the Dev Channel
-1. [Do a clean installation of Windows 10 on your device with these instructions.](https://docs.microsoft.com/windows-insider/at-home/ISOs#clean-installation-with-a-Windows-10-ISO)
-2. Once you've reinstalled Windows, go to **[Settings > Update & Security > Windows Insider Program](https://aka.ms/WIPSettings)** to set up your device again, making sure you select the channel you'd like to move to. [Learn more about setting up your device.](https://docs.microsoft.com/windows-insider/at-home/get-started) 
+1. [Do a clean installation of Windows 10 on your device with these instructions.](https://docs.microsoft.com/windows-insider/ISOs#clean-installation-with-a-Windows-10-ISO)
+2. Once you've reinstalled Windows, go to **[Settings > Update & Security > Windows Insider Program](https://aka.ms/WIPSettings)** to set up your device again, making sure you select the channel you'd like to move to. [Learn more about setting up your device.](https://docs.microsoft.com/windows-insider/get-started) 
 
 ## Understanding updates
 
@@ -76,4 +76,4 @@ Also known as servicing or cumulative updates, minor builds give you small bug f
 
 
 > [!NOTE] 
->If you're having issues receiving Insider Preview builds, would like to stop receiving preview builds, or would like to leave the program, [learn more in our troubleshooting section](https://docs.microsoft.com/windows-insider/at-home/troubleshooting).
+>If you're having issues receiving Insider Preview builds, would like to stop receiving preview builds, or would like to leave the program, [learn more in our troubleshooting section](https://docs.microsoft.com/windows-insider/troubleshooting).
