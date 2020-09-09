@@ -22,7 +22,7 @@ landingContent:
     linkLists:
       - linkListType: get-started
         links:
-          - text: Register, flight, and give feedback
+          - text: Get started with the Windows Insider Program
             url: https://docs.microsoft.com/windows-insider/get-started
       - linkListType: overview
         links:
