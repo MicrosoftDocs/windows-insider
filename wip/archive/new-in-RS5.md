@@ -426,7 +426,7 @@ __Requirements:__
 __Steps:__
 1. Navigate to __Local Group Policy Editor > Administrative Templates > Windows Components > Windows Defender Application Guard__.
 
-![wdag](images/wdag.png)
+![WDAG settings.](images/wdag.png)
 
 2. Select __Allow files to download and save to the host operating system from Windows Defender Application Guard__.
 3. Select __Enabled and Apply__.
@@ -490,9 +490,9 @@ Often font files come within a compressed folder (that is, a .zip file). The “
 
 
 ### RSAT is now available on demand!
-You no longer have to manually download RSAT every time you upgrade! Just go to **Manage optional features** in Settings and click **Add a feature**. You’ll now see all of the RSAT components listed. Pick the ones you want, and the next time you upgrade Windows will automatically ensure that those components remain after the upgrade, just like any of our other on-demand features, like speech resources or OpenSSH. 
+You no longer have to manually download RSAT every time you upgrade! Just go to **Manage optional features** in Settings and select **Add a feature**. You’ll now see all of the RSAT components listed. Pick the ones you want, and the next time you upgrade Windows will automatically ensure that those components remain after the upgrade, just like any of our other on-demand features, like speech resources or OpenSSH. 
 
-![RSAT](images/rsat.png)
+![RSAT Settings](images/rsat.png)
 
 ### See Your Videos Better Outside
 
