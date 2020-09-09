@@ -250,7 +250,7 @@ Thank you for all of the feedback you've provided on Friendly Dates in File Expl
 ### Improved RAW image format support
 Do you like taking pictures in Raw image formats and wish that the Raw files from your camera were natively supported by Windows? Good news! Targeting 19H1, we’ve been working hard to release a new store-delivered Raw codec package that dramatically improves native raw file format support in Windows.
 
-![Improved RAW image formats.](images/18323-1.jpg)
+![Improved RAW image formats support.](images/18323-1.jpg)
 
 By downloading the new Raw Image Extension (Beta) package from the store, you can now view image thumbnails, previews, and camera metadata of previously unsupported raw files right in File Explorer. You can also view your raw images – at full resolution – in apps such as Photos or any other Windows app that uses Windows Imaging Component framework to decode raw images.
 
@@ -347,7 +347,7 @@ You can now send feedback directly from Notepad! Click Help > Send Feedback to o
 
 At this time the updated design is only available for Home and non-domain-joined Windows 10 Pro edition PCs. It’s currently in the process of rolling out to those editions – we will update this message once it’s live for everyone.
 
-![Choose whether or not to run the recommended troubleshooter.](images/18305-11.png)
+![Updated settings homepage design.](images/18305-11.png)
 
 ### A simpler Windows Insider Program Settings page
 We are introducing a simplified Windows Insider Program Settings page via Settings > Update & Security > Windows Insider Program with Build 18317. The goal is to make the end-to-end experience of signing up for the Windows Insider Program and setting up your PC to take new builds much easier by simplifying the experience and removing some of the clutter. You’ll find that all the same functionality is still there. Under “Pick your Insider settings” is where you can change your Insider ring on your PC.
@@ -601,7 +601,7 @@ Here is an example what you’d see on the touch keyboard when using ADLaM:
 
 To try this out yourself, just go to Language Settings, click Add a preferred language, and search for ADLaM or Osage:
 
-![Improved RAW image formats.](images/18329-4.png)
+![Language Settings search for ADLaM or Osage.](images/18329-4.png)
 
 
 
@@ -675,11 +675,11 @@ We’ll also recommend troubleshooting for other problems that aren’t critical
 
 You may have noticed that this feature has been [visible for a while](https://blogs.windows.com/windowsexperience/2018/10/17/announcing-windows-10-insider-preview-build-18262/), but now it is fully functional. You may see recommended troubleshooting from us while we test the feature. These tests, marked as “sample recommended troubleshooter”, are safe to run and will not make any changes to your device. The tests help to ensure that the feature is working as designed and give you an opportunity to give feedback, so we can help keep your device working at its best. You will see this notification when there is a recommended troubleshooter available for your device:
 
-![Streamlined Windows Hello PIN reset experience.](images/18305-8.png)
+![Recommended troubleshooting notification.](images/18305-8.png)
 
 After clicking the notification, you’ll see this screen, where you can choose whether or not to run the recommended troubleshooter.
 
-![Choose whether or not to run the recommended troubleshooter.](images/18305-9.png)
+![Run the recommended troubleshooter.](images/18305-9.png)
 
 ### Updating the Windows 10 Setup experience
 We’re making some adjustments to the design of Windows 10 Setup! This is the experience you see when running setup.exe from an ISO – it will look like this now:
