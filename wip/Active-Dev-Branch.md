@@ -139,7 +139,7 @@ The existing Disk Management MMC snap-in is still available for those that need 
 
 ### Changes and Improvements
 * We’re updating the [ALT + Tab behavior with Microsoft Edge tabs](https://aka.ms/wip20161) to now have a default of displaying at most 5 tabs, rather than any recent tabs. If at any point you’d like to change this, you can under Settings > System > Multitasking.
-* We’re exploring including a Web Browsing section [in the Settings header](https://docs.microsoft.com/windows-insider/at-home/Whats-new-wip-at-home-1903#updated-settings-homepage), and Insiders may start to see this.
+* We’re exploring including a Web Browsing section [in the Settings header](https://docs.microsoft.com/windows-insider/archive/new-in-19H1#updated-settings-homepage), and Insiders may start to see this.
 * Going forward only the currently active profile picture will display under Your Info in Settings.
 * Based on feedback we’re turning off ESENT Warning Event ID 642.
 * It’s now possible to select the new Microsoft Edge as your desired app in Assigned Access.
@@ -354,7 +354,7 @@ We’re continuing to work on bringing capabilities from Control Panel forward i
 There will be more improvements coming that will further bring Settings closer to Control Panel. If you rely on settings that only exist in Control Panel today, please file feedback and let us know what those settings are.
 
 ### Improving the tablet experience for 2-in-1 devices
-Previously, when detaching the keyboard on a 2-in-1 device, a notification toast would appear asking if you wanted to switch into tablet mode. If you selected yes, you would switch into tablet mode. If you chose no, it would give you the new tablet posture experience [introduced in the May 2020 Update](https://docs.microsoft.com/windows-insider/at-home/Whats-new-wip-at-home-20h1#introducing-a-new-tablet-experience-for-2-in-1-convertible-pcs-build-18970) (or simply the desktop on earlier versions of Windows 10). We are further updating this experience by changing the default, so that this notification toast no longer appears and instead will switch you directly into the new tablet experience, with some improvements for touch. You can change this setting by going to Settings > System > Tablet. Some users may have already seen this change on Surface devices.
+Previously, when detaching the keyboard on a 2-in-1 device, a notification toast would appear asking if you wanted to switch into tablet mode. If you selected yes, you would switch into tablet mode. If you chose no, it would give you the new tablet posture experience [introduced in the May 2020 Update](https://docs.microsoft.com/windows-insider/archive/new-in-20H1#introducing-a-new-tablet-experience-for-2-in-1-convertible-pcs-build-18970) (or simply the desktop on earlier versions of Windows 10). We are further updating this experience by changing the default, so that this notification toast no longer appears and instead will switch you directly into the new tablet experience, with some improvements for touch. You can change this setting by going to Settings > System > Tablet. Some users may have already seen this change on Surface devices.
 
 And to address confusion with some users getting stuck in tablet mode on non-touch devices, we are removing the tablet mode quick action on non-touch devices.
 
