@@ -41,7 +41,7 @@ Go to **[Settings > Update & Security > Windows Insider Program](https://aka.ms/
 
 ## Changing channels
 
-If you install an Insider Preview build in one channel, and you want to switch to a different channel, you might need to do a clean install of Windows and reset your Windows Insider settings on that device. [Learn more about switching channels.](https://docs.microsoft.com/windows-insider/at-home/flighting#switching-between-channels)
+If you install an Insider Preview build in one channel, and you want to switch to a different channel, you might need to do a clean install of Windows and reset your Windows Insider settings on that device. [Learn more about switching channels.](https://docs.microsoft.com/windows-insider/flighting#switching-between-channels)
 
 ## Not receiving updates
 
@@ -75,19 +75,19 @@ Make sure your device is connected to your registered account under **[Settings 
 
 7. **Check your program settings.**
 
-Go to **[Settings > Update & Security > Windows Insider Program](https://aka.ms/WIPSettings)** and make sure you've activated the Windows Insider Program on your device and that you've chosen a channel to receive builds from. [Learn more about channels.](https://docs.microsoft.com/windows-insider/at-home/flighting)
+Go to **[Settings > Update & Security > Windows Insider Program](https://aka.ms/WIPSettings)** and make sure you've activated the Windows Insider Program on your device and that you've chosen a channel to receive builds from. [Learn more about channels.](https://docs.microsoft.com/windows-insider/flighting)
 
 8. **Check your data settings.**
 
-Your privacy is important to us, so you're in control of how much of your data you share with us. But to run Windows 10 Insider Preview Builds, you must allow us to see a certain amount of diagnostic data, so we can investigate issues you might see, like crashes and bugs. [Make sure your data settings are at the right level to receive preview builds.](https://docs.microsoft.com/windows-insider/at-home/data-settings) 
+Your privacy is important to us, so you're in control of how much of your data you share with us. But to run Windows 10 Insider Preview Builds, you must allow us to see a certain amount of diagnostic data, so we can investigate issues you might see, like crashes and bugs. [Make sure your data settings are at the right level to receive preview builds.](https://docs.microsoft.com/windows-insider/data-settings) 
 
 9. **Make sure you didn't change from the Dev Channel.**
 
-If you've already installed a build in the Dev Channel and want to switch channels or stop receiving Insider Preview builds, because it's not tied to a specific release, you'll have to do a clean install of Windows and reset your Windows Insider settings. If you only switch your channel settings and don't do a clean install, you could be stuck not receiving updates. [Learn more about how to switch channels.](https://docs.microsoft.com/windows-insider/at-home/flighting#switching-between-channels)
+If you've already installed a build in the Dev Channel and want to switch channels or stop receiving Insider Preview builds, because it's not tied to a specific release, you'll have to do a clean install of Windows and reset your Windows Insider settings. If you only switch your channel settings and don't do a clean install, you could be stuck not receiving updates. [Learn more about how to switch channels.](https://docs.microsoft.com/windows-insider/flighting#switching-between-channels)
 
 10. **Consider a clean install.**
 
-If none of these options work for you, you may need to do a clean installation of Windows to reset your device. [Learn more about clean installations with ISOs.](https://docs.microsoft.com/windows-insider/at-home/ISOs)
+If none of these options work for you, you may need to do a clean installation of Windows to reset your device. [Learn more about clean installations with ISOs.](https://docs.microsoft.com/windows-insider/ISOs)
 
 
 ## Dealing with issues
@@ -137,7 +137,7 @@ To roll back, go to **[Settings > Update & Security > Recovery](https://aka.ms/W
 
 3. **Clean install Windows or an Insider Preview build.**
 
-For a fresh start, you can also do a clean installation of a different Insider Preview build or the latest version of Windows 10 using an ISO file. [Learn more about clean installations with ISOs.](https://docs.microsoft.com/windows-insider/at-home/ISOs)
+For a fresh start, you can also do a clean installation of a different Insider Preview build or the latest version of Windows 10 using an ISO file. [Learn more about clean installations with ISOs.](https://docs.microsoft.com/windows-insider/ISOs)
 
 ## Build expiration
 
@@ -145,7 +145,7 @@ Insider Preview builds do expire eventually. Staying up to date is key to avoidi
 
 If your device is on an expiring build, you'll start getting notifications letting you know that you need to update. Go to **[Settings > Update & Security > Windows Update](https://aka.ms/WIPWindowsUpdate)** and select **Check for Updates** to get the latest update available in your channel.   
 
-If you aren't seeing any updates available, you might need to adjust your settings or do a clean install. [Learn more about what to do if you're not seeing updates and your build is expiring.](https://docs.microsoft.com/windows-insider/at-home/build-expiration) 
+If you aren't seeing any updates available, you might need to adjust your settings or do a clean install. [Learn more about what to do if you're not seeing updates and your build is expiring.](https://docs.microsoft.com/windows-insider/build-expiration) 
 
 ## Stop receiving Insider Preview builds
 
