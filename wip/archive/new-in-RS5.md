@@ -19,7 +19,7 @@ Android phone users, you can finally stop emailing yourself photos. With Your Ph
 
 For iPhone users, **Your Phone** app also helps you to link your phone to your PC. Surf the web on your phone, then send the webpage instantly to your computer to continue what you’re doing–read, watch, or browse with all the benefits of a bigger screen. With a linked phone, continuing on your PC is one share away.
 
-![your phone](images/your-phone.png "your phone")
+![Your Phone app](images/your-phone.png)
 
 Notice a desktop pin? It’ll take you directly to the **Your Phone** app—for quicker access to your phone’s content. You can also go through the all apps list in Start Menu, or use the Windows key and search for the **Your Phone** app. 
 
@@ -29,13 +29,13 @@ For more information about **Your Phone**, see [Your Phone app help](https://sup
 
 Copy/paste is something we all do, probably multiple times a day. But what do you do if you need to copy the same few things again and again? How do you copy content across your devices? In Windows 10, version 1809 we're addressing that and taking the clipboard to the next level. Press **WIN + V** and you'll be presented with our new clipboard experience.  
 
-![clipboard history](images/clipboardhistory.png "clipboard history")
+![clipboard history.](images/clipboardhistory.png)
 
 Not only can you can paste from the clipboard history, but you can also pin the items you find yourself using all the time. This history roams with you using the same technology that powers Timelines, which means you can access your clipboard across any PC.  
 
 Our new settings page for enabling this experience is under __Settings > System > Clipboard__. 
 
-![clipboard settings](images/clipboardsettings.png "clipboard settings")
+![Clipboard settings.](images/clipboardsettings.png)
 
 __Note:__ Roaming text on the clipboard is supported for text-only content less than 100kb. Currently, the clipboard history supports plain text, HTML and images less than 4MB. 
 
@@ -44,7 +44,7 @@ __Note:__ Roaming text on the clipboard is supported for text-only content less 
 
 As many of you know, we added dark theme support to Windows based on your feedback. This setting is available under __Settings > Personalization > Colors__, and if you switch it any apps and system UI that support it will follow suit. Since releasing this feature, our top feedback request from you has been to update File Explorer to support dark theme. Along the way, we also added dark theme support to the File Explorer context menu, as well as the Common File Dialog (aka the Open and Save dialogs). Thanks again for everyone’s feedback!
 
-![dark theme](images/dark-theme.png "dark theme")
+![Dark theme.](images/dark-theme.png)
 
 ### High Efficiency Image File Format (HEIF)
 We are happy to announce that you can now rotate HEIF-format images in File Explorer, and edit metadata, such as “Date taken”.
@@ -58,7 +58,7 @@ The new functionality requires the latest version of the HEIF package. The lates
 
 To rotate a HEIF image file, simply right-click on it in File Explorer and select "Rotate right" or "Rotate left" from the menu. "Date taken" and other properties can be edited by clicking on "Properties" and selecting the "Details" tab.
 
-![HEIF in file explorer](images/heic2.png "HEIF in file explorer")
+![HEIF in File Explorer.](images/heic2.png)
 
 ## Wireless projection experience
 
@@ -67,13 +67,13 @@ One of the things we’ve heard from you is that it’s hard to know when you’
 * Video mode increases the screen to screen latency to ensure the video on the big screen plays back smoothly
 * Productivity modes strikes a good balance between game mode and video mode; the screen to screen latency is responsive enough that typing feels natural, while ensuring videos don’t glitch too often
 
-![wireless projection banner](images/beaming.png "wireless projection banner")
+![Wireless projection banner.](images/beaming.png)
 
 ## SwiftKey intelligence
 
 [SwiftKey](https://www.microsoft.com/swiftkey) gives you more accurate auto-corrections and predictions by learning your writing style—including the words, phrases, and emoji that matter to you. It’s available for Android and iOS, and SwiftKey powers the typing experience on Windows when using the touch keyboard to write in English (United States), English (United Kingdom), French (France), German (Germany), Italian (Italy), Spanish (Spain), Portuguese (Brazil), or Russian. This is an existing feature that we've improved for Windows 10, version 1809.
 
-![Swiftkey](images/swift2.png "Swiftkey")
+![Swiftkey.](images/swift2.png)
 
 ## Typing Insights
 
@@ -81,34 +81,34 @@ Windows shows you insights about how artificial intelligence (AI) helps you type
 
 Windows now shows you stats about each of these features. Go to **Settings > Devices > Typing** and click on **View typing insights** to see them.
 <br/>
-![typing insights](images/typing-insights.png "typing insights")
+![Typing insights.](images/typing-insights.png)
 
 ## Emoji 11
 
 [Unicode 11 comes with 157 new emoji](http://blog.unicode.org/2018/06/announcing-unicode-standard-version-110.html). Superheroes, redheads, a softball, a pirate flag, and a llama all made the cut. You can access them using the Emoji Panel **WIN + (Period)** or via the touch keyboard.
 
-![new emojis](images/EmojiRS5.png "new emojis")
+![New emojis.](images/EmojiRS5.png)
 
 We’ve also made tweaks to some of our existing emoji – here are some examples:
 
-![emojis before after combo](images/emoji_beforeaftercombo.png "emojis before after combo")
+![Emojis before after combo.](images/emoji_beforeaftercombo.png)
 
 Our ninja cats got a bit of love too – can you spot the difference?
-![ninja cat emojis](images/EmojiRS5_NinjaCats.png "ninja cat emojis")
+![Ninja cat emojis](images/EmojiRS5_NinjaCats.png)
 
 __Emoji search comes to more languages__: You can find an emoji by keyword in over 190 locales, including English (Great Britain), French (France), German (Germany), Spanish (Spain), and more. This will help you get the emoji you want easily and quickly. As a reminder, to bring up the Emoji Panel set focus to a text field and press WIN + (period) or WIN + (semicolon).
 
 __The IME now uses the same UX for expressive input as other languages__. You can bring it up by clicking the emoji button in the IME toolbar, or use the Emoji Panel hotkeys (WIN + period (.) or WIN + semicolon (;)). You can browse between Emoji, Kaomoji, and Symbol input when Chinese (Simplified) is the active locale.
 
-![ime emojis](images/imeemoji.png "ime emojis")
+![IME emojis.](images/imeemoji.png)
 
 **Note**: Use the Microsoft Input Method Editor (IME) to type in East Asian languages you’ve installed on your PC. Press and hold (or right-click) the input method indicator to switch input modes, then open the IME pad or open more IME settings.
 
 ## Post-upgrade setup
 
-You may see this window showing after you upgrade. Don’t worry – all your stuff is still there! We know some of you bought and setup your devices a long time ago. The features available in Windows have changed since then, so we’re giving you an opportunity to go through the setup questions you may have missed to ensure your device has the best configuration for you. Click **Let’s Go** to go through those setup questions or click **Skip for now** if you want to go straight to your desktop. 
+You may see this window showing after you upgrade. Don’t worry – all your stuff is still there! We know some of you bought and setup your devices a long time ago. The features available in Windows have changed since then, so we’re giving you an opportunity to go through the setup questions you may have missed to ensure your device has the best configuration for you. Select **Let’s Go** to go through those setup questions or choose **Skip for now** if you want to go straight to your desktop. 
 
-![oobe](images/SCOOBE-Intro.png "oobe")
+![OOBE.](images/SCOOBE-Intro.png)
 
 ## Microsoft Edge improvements
 
@@ -122,7 +122,7 @@ For more information, see [A Faster, Safer Internet](https://techcommunity.micro
 
 **Control whether media can play automatically** : We added a new setting in Microsoft Edge to allow you to control whether sites can autoplay media. You can find this setting under **Advanced Settings > Media autoplay**, with options to customize the behavior according to your preferences:
 
-![Edge autoplay](images/edge-autoplay.png "Edge autoplay")
+![Edge autoplay.](images/edge-autoplay.png)
 
 * **Allow** is the default and will continue to play videos when a tab is first viewed in the foreground, at the site’s discretion.
 * **Limit** restricts autoplay to work only when videos are muted, so you‘re never surprised by a sound. Once you click anywhere on the page, autoplay is re-enabled, and will continue to be allowed within that domain in that tab.
@@ -133,62 +133,60 @@ Per-site media autoplay controls: You can now control autoplay permissions on a 
 
 **Per-site media autoplay controls:** You can now control autoplay permissions on a per-site basis under the **Website permission** section of the **Website Identification** pane – just click the information icon or lock icon on the left side of the address bar and click **manage permissions** to get started.
 
-![Edge autoplay](images/autoplay.png "Edge autoplay")
+![Edge autoplay controls.](images/autoplay.png)
 
 **New design improvements:** As we continue to evolve how Microsoft Edge leverages the Fluent Design System for a more natural and usable experience, you may notice some subtle tweaks to the look of the tab bar in Microsoft Edge. In this build, we’re adding a new depth effect to the tab bar to help emphasize the active tab.
 
-![Edge design improvements](images/edge-design.png "Edge design improvements")
+![Edge design improvements.](images/edge-design.png)
 
 **Customize toolbar items for Microsoft Edge:** When you click **…** in the Microsoft Edge toolbar, you’ll find a refined menu that puts common commands like **New window** front and center. We’ve also added the much-requested ability to customize which icons appear in the Microsoft Edge toolbar – you can remove them all for a tidier look or add as many as you like to bring your favorite functionality to your fingertips!
 Last (but not least), this release breaks **Settings** out into subpages by category, with better-organized options and less clutter on each page. The new **Settings** experience is designed to match the experience in the Microsoft Edge hub, for a quicker and more familiar experience.
 
-![Edge custom toolbar](images/edge-custom-toolbar.png "Edge custom toolbar")
+![Edge custom toolbar.](images/edge-custom-toolbar.png)
 
 **Redesigned “…” menu and Settings:** We’ve heard your feedback that the Microsoft Edge settings were getting a little complex for a single page. In this release, we’re overhauling the Microsoft Edge settings to make it easier to navigate, put commonly-used actions front and center, and allow more customization than ever.
 
-![Edge menu options](images/SettingsandMore.png "Edge menu options")
+![Edge menu options.](images/SettingsandMore.png)
 
 **New consent box for saving Autofill data:** Microsoft Edge seeks your permission each time to save your passwords and card details for Autofill purposes. We have come up with improved design and string changes to the consent notification pop-up to improve discoverability and provide clarity on the value of saving this information. The changes include introducing password and payment icons, improved messaging, and highlighting of options. One interesting update would be the cool micro-animations for the new password and payment icons.
 
-![Edge autofill consent](images/edge-autofill-consent.png "Edge autofill consent")
+![Edge autofill consent.](images/edge-autofill-consent.png)
 
 __See your top sites in the jump list:__ You can now see your top sites in the jump list on the Windows task bar or Start menu. Just right-click the Microsoft Edge icon to see a list of your most visited sites and pin the ones that matter most to you. Right-click on any entry to remove it from the list. 
 
-__Do more from the “Downloads” pane:__ We’ve added options for __Show in folder__ and __Copy link__ to the right-click menu for downloads in the __Downloads__ pane. 
+__Do more from the Downloads pane:__ We’ve added options for __Show in folder__ and __Copy link__ to the right-click menu for downloads in the __Downloads__ pane. 
 
-![downloads pane](images/downloads.png "Downloads pane")
+![Downloads pane.](images/downloads.png)
 
 ### Microsoft Edge PDF reader improvements
 
 **New PDF icon:** Windows 10 now has a new icon for PDFs in File Explorer when Microsoft Edge is your default PDF handler.
 
-![new pdf icon](images/new-pdf-icon.png "new pdf icon")
+![New pdf icon.](images/new-pdf-icon.png)
 
 __Improved toolbar options:__ The toolbar available on a PDF document opened in Microsoft Edge will now show text descriptions for the icons to make them easily understandable by users. New options like __Add notes__ are now available in the toolbar so that these tools are handy when you need them.
 
-![improved toolbar](images/PDFImprovedToolbar.png "improved toolbar")
+![Improved toolbar.](images/PDFImprovedToolbar.png)
 
 __Pin/unpin PDF toolbar:__ The PDF toolbar can now be pinned at the top of the document, making all the PDF tools easily accessible if you need them. You can also unpin the toolbar for an immersive reading experience. If the toolbar is unpinned, it will hide itself – just hover over the top area to bring it back.
 
-![pin or unpin the toolbar](images/PDFPinButton.png "pin or unpin the toolbar")
+![Pin or unpin the toolbar.](images/PDFPinButton.png)
 
 __Rendering improvements:__ We’ve included a bunch of rendering performance fixes so that you will see less white pages when you navigate through PDF files in Microsoft Edge.
 
 **Lookup definitions for words in reading view, books, and PDFs:** We’ve added a new dictionary function, so you can look up definitions for key words when reading a page or document. Simply select a single word to see the definition appear above your selection.
 
-![dictionary](images/dictionary.png "dictionary")
-
 You can choose to have a word read aloud to you to hear the correct pronunciation or expand more details from the definition. You can toggle whether definitions appear and which types of content they work in under the __General__ tab of the Microsoft Edge settings menu.
 
 **Learning tools get richer:** Under learning tools available on Reading View, you can now see additional themes. These let you choose the theme color which is best for your eyes.
 
-![edge themes](images/edge-themes.png "edge themes")
+![Edge themes.](images/edge-themes.png)
 
 Along with highlighting Parts of speech you can now also change the color in which the part of speech should be highlighted as well as turn on an indicator right over it. Making it much easier to identify the part of speech.
 
 **Line focus:** Helps improve focus while reading an article by highlighting sets of one, three, or five lines.
 
-![edge line focus](images/edge-line-focus.png "edge line focus")
+![Edge line focus.](images/edge-line-focus.png)
 
 ### Improved Kiosk Setup Experience
 
@@ -196,23 +194,23 @@ We have introduced a simplified assigned access configuration page in Settings t
 
 Please go to Settings, search for assigned access, and open the “Set up a kiosk” page to give it a try. 
 
-![kiosk](images/kiosk.png "kiosk")
+![Create a kiosk account.](images/kiosk.png)
 
 For Microsoft Edge kiosk mode running in single-app assigned access the two kiosk types are:
 1.	Digital / Interactive signage that displays a specific website full-screen InPrivate mode.
 2.	Public browsing supports multi-tab browsing and runs InPrivate mode with minimal features available. Users cannot minimize, close, or open a new Microsoft Edge windows or customize it using Microsoft Edge Settings. Users can clear browsing data, clear downloads, and restart Microsoft Edge by clicking **End session.** Administrators can configure Microsoft Edge to restart after a period of inactivity.
 
-![kiosk](images/kiosk-2.png "kiosk")
+![Displaying a website with kiosk.](images/kiosk-2.png)
 
 For Microsoft Edge kiosk mode running in multi-app assigned access the two kiosk types are (Note the following Microsoft Edge kiosk mode types cannot be setup using the new simplified assigned access configuration page in Windows 10 Settings):
 
 3.	Public browsing supports multi-tab browsing and runs InPrivate mode with minimal features available. In this configuration, Microsoft Edge can be one of many apps available. Users can close and open multiple InPrivate windows.
 
-![kiosk](images/kiosk-3.png "kiosk")
+![Opening multi-tab browsing with kiosk.](images/kiosk-3.png)
 
 4.	Normal mode runs a full version of Microsoft Edge, although some features may not work depending on what apps are configured in assigned access. For example, if the Microsoft Store is not set up, users cannot get books.
 
-![kiosk](images/kiosk-4.png "kiosk")
+![Normal mode running.](images/kiosk-4.png)
 
 Learn how to setup Microsoft Edge kiosk mode in the [Microsoft Edge kiosk mode deployment guide](https://docs.microsoft.com/microsoft-edge/deploy/microsoft-edge-kiosk-mode-deploy).
 
@@ -239,25 +237,23 @@ __Retired XSS filter:__ We are retiring the XSS filter in Microsoft Edge. Our cu
 
 In Windows 10, version 1809, Azure Active Directory and Active Directory users using Windows Hello for Business can use biometrics to authenticate to a remote desktop session!
 
-![Remote Desktop with Biometrics](images/remote-desktop-hello.png "Remote Desktop with Biometrics")
+![Remote Desktop Connection dialogue.](images/remote-desktop-hello.png)
 
 To get started, bring up Remote Desktop Connection (mstsc.exe), type the name of the computer to which you want to connect and click **Connect**. Because you signed using Windows Hello for Business, Windows remembers how you signed in and automatically selects Windows Hello for Business to authenticate you to your RDP session but, you can click More choices to choose alternate credentials.
 
-![Remote Desktop with Biometrics](images/remote-desktop-hello-2.png "Remote Desktop with Biometrics")
+![Enter your credentials with Hello.](images/remote-desktop-hello-2.png)
 
 In this example, Windows uses facial recognition to authenticate the RDP session to the Windows Server 2016 Hyper-V server. You can continue to use Windows Hello for Business in the remote session, but you must use your PIN.
 
-![Remote Desktop with Biometrics](images/remote-desktop-hello-3.png "Remote Desktop with Biometrics")
+![Your Server details and license.](images/remote-desktop-hello-3.png)
 
 ## Web Sign-in to Windows 10
 Until now, Windows logon only supported the use of identities federated to ADFS or other providers that support the WS-Fed protocol. We are introducing “Web Sign-in,” a new way of signing into your Windows PC. Web Sign-in enables Windows logon support for  non-ADFS federated providers (e.g. SAML).
 
-![web sign-in](images/WebSignIn.png "web sign-in")
-
 **To try out Web Sign-in:**
 1.	Azure AD Join your Windows 10 PC. (Note: Web Sign-in is only supported on Azure AD Joined PCs).
 
-![web sign-in](images/WebSignIn-2.png "web sign-in")
+![Web Sign-in.](images/WebSignIn-2.png)
 
 2. Set the following policy to enable Web Sign-in (Policy CSP/Authentication/EnableWebSignIn)
 3. On the lock screen, select Web Sign-in under Sign-in options.
@@ -266,7 +262,7 @@ Until now, Windows logon only supported the use of identities federated to ADFS 
 ## Faster sign-in to a Windows 10 shared PC
 Do you have shared PCs deployed in your work place? Do you wish that signing in to a PC with your account was faster? Starting with this build, we are introducing “Fast Sign-in,” which enables users to sign in to a shared Windows 10 PC in a flash!
 
-![fast sign-in](images/FastSignIn.png "fast sign-in")
+![Fast sign-in.](images/FastSignIn.png)
 
 **To enable Fast Sign in:**
 1.	Set up a shared or guest PC with Windows 10
@@ -277,7 +273,7 @@ Do you have shared PCs deployed in your work place? Do you wish that signing in 
 
 To create a tile folder in Start, just drag one tile on top of another for a second then release. Continue dropping as many tiles into the folder as you’d like. When you expand the folder, you’ll see a new option to name it. The name will be visible when the folder is medium, wide, or large-sized. 
 
-![folder naming in Start](images/namedfolder_optionalgif.png "folder naming in Start")
+![Folder naming in Start.](images/namedfolder_optionalgif.png)
 
 ## Search improvements
 
@@ -285,7 +281,7 @@ To create a tile folder in Start, just drag one tile on top of another for a sec
 
 Now you can find past or future events by searching for the name, location, people included or words in the event body. Events that match your search will be clearly visible on your calendar, while those that don’t will be greyed-out so you can find what you need quickly.
 
-![calendar with search](images/calendarwithsearch.png "calendar with search")
+![Calendar with search.](images/calendarwithsearch.png)
 
 Search will work for Outlook, Hotmail, Live and Office 365 accounts. 
 
@@ -298,12 +294,12 @@ We have expanded previews to support apps, documents, and more. Search previews 
 
 We made the Search experience wider so you can access information and actions in the preview faster than ever. The preview will be updated and improved over time, as we develop and add more features. 
 
-![calendar with search](images/search-2.jpg "wider search experience")
+![Wider search experience.](images/search-2.jpg)
 
 ### Find software downloads faster in Search
 Continuing our theme of improving the search preview experience, we’re rolling out an update to make it easier to find official download pages for Windows software you want to install. 
 
-![GitHub search example](images/search.png "GitHub search example")
+![GitHub search example.](images/search.png)
 
 **Note**: search is currently limited to English locales
 
@@ -331,7 +327,7 @@ In the past you probably fumbled about or removed your headset, which can be clu
 
 We added the ability to peer into your physical environment through Flashlight – without removing your headset! You can open a portal into your real world at any time via the Start menu, a button shortcut, or a voice command. This opens a low-latency pass-through camera feed connected to your controller. It’s comfortable, intuitive, and keeps you immersed.
 
-![mixed reality flashlight](images/Flashlight_7-13.png "mixed reality flashlight")
+![Mixed reality flashlight.](images/Flashlight_7-13.png)
 
 Flashlight finally allows you to mix your physical and virtual realities.
 
@@ -355,7 +351,7 @@ You may also notice some new error codes in Mixed Reality Portal to be more spec
 ### Game bar improvements
 __Audio controls__: Change your default audio output device and mute or adjust the volume of games and apps running.
 
-![game bar](images/New-Game-bar.png "game bar")
+![Game Bar](images/New-Game-bar.png)
 
 ### Game mode improvements
 New options are now available for Game Mode that are expected to improve the gaming experience on desktop PCs.  Gamers on PCs with many background processes may also see performance improvements when they toggle __Dedicate resources__ in Game bar.
@@ -367,7 +363,7 @@ Now focus assist will turn on automatically when you’re playing any full scree
 
 We introduced the embedded handwriting panel with the April 2018 Update, and after taking some time to refine the experience based on your feedback, in RS5 the embedded handwriting will now be the default experience for text entry with a pen in modern applications. Just tap a text area, like a search box, and it will expand to give you a comfortable area in which to write.
 
-![inking](images/inking.png "inking")
+![Inking updates.](images/inking.png)
 
 You can even edit what you’ve written with simple, intuitive gestures.
 In places where embedded handwriting doesn’t support your language or isn’t supported by the app (e.g. legacy Win32 applications), you can still invoke the floating handwriting panel.
@@ -383,7 +379,7 @@ We’re also bringing some changes to how we present threats and actions that ne
 
 We’ve heard your feedback and when you install this build you’ll find we’ve updated Windows Security Center to include the Fluent Design elements you know and love. You’ll also notice we’ve adjusted the spacing and padding around the app and will now dynamically size the categories on the main page if more room is needed for extra info. Last but not least, we’ve also updated the title bar of the app so that it will now use your accent color if you’ve enabled that option in Color Settings.
 
-![wdsc](images/wdsc.png "wdsc")
+![wdsc refresh.](images/wdsc.png)
 
 ### Windows Defender Firewall now supports Windows Subsystem for Linux (WSL) processes 
 You can add specific rules for a WSL process in Windows Defender Firewall, just as you would for any Windows process. Also, Windows Defender Firewall now supports notifications for WSL processes. For example, when a Linux tool wants to allow access to a port from the outside (like SSH or a web server like nginx), the Windows Defender Firewall will prompt to allow access just like it would for a Windows process when the port starts accepting connections. 
@@ -402,19 +398,19 @@ For more information, read [this](https://techcommunity.microsoft.com/t5/Windows
 To check this out:
 1. Go to **Windows Security** and select **App & browser** control.
 
-![app browser control](images/app-browser-control.png "app browser control")
+![App browser control.](images/app-browser-control.png)
 
 2. Select **Install Windows Defender Application Guard** under **Isolated browsing**, install and restart the device (only for standalone users).
 
-![isolated browsing](images/isolated-browsing.png "isolated browsing")
+![Isolated browsing.](images/isolated-browsing.png)
 
 3. Select **Change Application Guard settings**.
 
-![Change Application Guard settings](images/change-app-guard.png "Change Application Guard settings")
+![Change Application Guard settings.](images/change-app-guard.png)
 
 4. Configure or check **Application Guard Settings**.
 
-![Check Application Guard settings](images/check-app-guard.png "Check Application Guard settings")
+![Check Application Guard settings.](images/check-app-guard.png)
 
 __Performance improvements__: The teams at Microsoft are constantly working to improve performance for our users. WDAG is no different. In this feature update, you will notice an improvement in the launch time for WDAG. We have made the start process lighter and faster, which will provide our users with a better experience when accessing Microsoft Edge in WDAG.
 
@@ -430,16 +426,16 @@ __Requirements:__
 __Steps:__
 1. Navigate to __Local Group Policy Editor > Administrative Templates > Windows Components > Windows Defender Application Guard__.
 
-![wdag](images/wdag.png "WDAG")
+![wdag](images/wdag.png)
 
 2. Select __Allow files to download and save to the host operating system from Windows Defender Application Guard__.
 3. Select __Enabled and Apply__.
 
-![enable wdag](images/enablewdag.png "Enable WDAG")
+![Enable wdag.](images/enablewdag.png)
 
 4. After this policy is enabled, you can download files from your Windows Defender Edge session to your Downloads folder. The files from WDAG will be saved in a folder called __Untrusted files__ nested inside the Downloads folder. This folder is created automatically when you first download a file from WDAG after enabling the policy.
 
-![untrusted files](images/untrustedfiles.png "untrusted files")
+![untrusted files](images/untrustedfiles.png)
 
 Notes:
 * This feature is off by default.
@@ -449,29 +445,29 @@ Notes:
 ### General Windows Security Improvements 
 We’ve continued to work on the **Current threats** area on the **Virus & threat protection** section, which now displays all threats that need action. You can quickly act on threats straight from this screen.
 
-![Windows Security](images/security-improvements.png "Windows Security")
+![Windows Security.](images/security-improvements.png)
 
 You can enable a new protection setting, **Block suspicious behaviors**, which brings our Windows Defender Exploit Guard attack surface reduction technology to all users. To enable this setting, go to the **Virus & threat protection** section and click **Manage settings**, as shown in the following screenshot:
 
-![Block suspicious behaviors](images/block-suspicious.png "Block suspicious behaviors")
+![Block suspicious behaviors.](images/block-suspicious.png)
 
 With Controlled folder access you can help prevent ransomware and other destructive malware from changing your personal files. In some cases, apps that you normally use might be blocked from making changes to common folders like Documents and Pictures. We’ve made it easier for you to add apps that were recently blocked so you can keep using your device without turning off the feature altogether.
 
 When an app is blocked, it will appear in a recently blocked apps list, which you can get to by opening the **Virus & threat protection** section, clicking **Manage settings** under the **Ransomware** protection heading. You can then allow apps through Controlled folder access. After the prompt, click the plus button and choose Recently blocked apps. Select any of the apps to add them to the allowed list. You can also browse for an app from this page as well.
 
-![controlled folder access](images/controlled-folder-access.png "controlled folder access")
+![Controlled folder access.](images/controlled-folder-access.png)
 
 In the **Device performance & health** section, we added a new assessment for the Windows time service. If we detect that your device’s time is not properly synced with our time servers and the time-syncing service is disabled, we’ll provide the option for you to turn it back on.
 
 We’re continuing to work on how other security apps you’ve installed show up in the Windows Security app. There’s a new page called **Security providers** that you can find in the **Settings** section of the app. Click **Manage providers** to see a list of all the other security providers (including antivirus, firewall, and web protection) that are running on your device. Here you can easily open the providers’ apps, or get more information on how to resolve any issue that they have reported to you through the Windows Security app.
 
-![security providers](images/security-providers.png "security providers")
+![Security providers.](images/security-providers.png)
 
 ## Settings Improvements
 
 We’ve heard your feedback that settings can be confusing sometimes, so we’re working with Bing to bubble up some of the most common questions we hear right into the Settings pages themselves. The FAQ’s are contextual in nature and aim to you to quickly get the answer you’re looking for to complete configuration tasks. It may even help you discover something you didn’t know was an option! Clicking on these questions will take you to Bing.com to display the answer.  
 
-![settings faq](images/questions.png "settings faq")
+![Settings FAQ.](images/questions.png)
 
 **Note**: The faqs are currently available in English locales only.
 
@@ -486,23 +482,23 @@ If you tried to install a font but didn’t have admin privileges, then you woul
 In the Windows 10 1803 feature update, we introduced fonts in the Microsoft Store. To enable that capability, we needed to make changes deep in Windows to allow a font to be installed for a specific user rather than system-wide. That’s why no admin action is needed when fonts acquired in the Store are installed.
 Now we’ve extended this further to include font files that you obtain from other sources and want to install. Now when you right-click on a font file in **File Explorer**, you’ll see two options. **Install for all users** provides the past, system-wide install capability and requires an admin. But now there is another option: **Install** allows any user, including non-admin users, to install a font for their own use.
 
-![per user fonts](images/install-font.png "per user fonts")
+![Per user fonts install right-click menu.](images/install-font.png)
 
 Often font files come within a compressed folder (that is, a .zip file). The “Install” context-menu option isn’t available in File Explorer when you view the contents of a compressed folder, but you can double-click the font file within the compressed folder to open it in the font previewer, and that provides an “Install” button. In the past, the button in the font previewer had the security badge, and it would do a system-wide install, requiring an admin. Now the security badge is gone, and the “Install” button in the font previewer performs a single-user font install, which can be done by non-admins.
 
-![per user fonts](images/install-font-2.png "per user fonts")
+![Install button on font.](images/install-font-2.png)
 
 
 ### RSAT is now available on demand!
 You no longer have to manually download RSAT every time you upgrade! Just go to **Manage optional features** in Settings and click **Add a feature**. You’ll now see all of the RSAT components listed. Pick the ones you want, and the next time you upgrade Windows will automatically ensure that those components remain after the upgrade, just like any of our other on-demand features, like speech resources or OpenSSH. 
 
-![RSAT](images/rsat.png "RSAT")
+![RSAT](images/rsat.png)
 
 ### See Your Videos Better Outside
 
 There’s a new viewing mode for you to try out, designed to improve the visibility of your video when you are in a very bright environment. This feature uses the light sensor on your device to detect your ambient light, and automatically adjusts your video accordingly. To turn it on, navigate to **Settings > Apps > Video playback**, and turn on **Adjust video based on lighting**.
 
-![video playback](images/video-playback.png "video playback")
+![Video playback.](images/video-playback.png)
 
 We’d love feedback as we work to refine this feature for the next Windows release! Please use the Feedback Hub and file feedback under Category: “Devices and Drivers”, Subcategory: “Video Playback”. Click **Recreate my problem** and start the capture of the video playback you would like to give feedback on!
 
@@ -511,7 +507,7 @@ Note: In order for this feature to work, your device must have a light sensor.
 ### Display Settings Improvements
 A new Windows HD Color page is now available under Display Settings! Windows HD Color-capable devices can show high dynamic range (HDR) content, including photos, videos, games, and apps.  This depends on your display and your PC. The “Windows HD Color Settings” page linked in Display Settings now reports your system’s HD Color capabilities and allows HD Color features to be configured on capable systems. The HD Color settings page is your one-stop shop to understand and configure your device’s settings – if you have an HDR-capable display connected to a recent PC, please give it a try and send us feedback!
 
-![hd color settings](images/hd-color-settings.png "hd color settings")
+![HD color settings.](images/hd-color-settings.png)
 
 ### External GPU safe removal experience
 We added a safe removal experience for external GPUs connected via Thunderbolt 3. The safe remove experience allows you to know which applications are running on an external GPU so that you can safely remove it and prevent data loss during detach.
@@ -521,13 +517,13 @@ To safely remove an external graphics card, go to the __Safely Remove Hardware a
 ### Bluetooth battery percentage in settings
 In the __Bluetooth & other devices__ page in Settings, you can check the battery level of your Bluetooth devices for Bluetooth devices that support this feature, in which case the battery percentage will update whenever your PC and the device are connected.
 
-![bluetooth battery](images/bluetoothbattery.png "bluetooth battery")
+![Bluetooth battery.](images/bluetoothbattery.png)
 
 ### Roaming Usage (Data Sense) 
 
 Does your device have a SIM? We’ve updated Data Usage Settings to let you know how much data you are using while roaming! The roaming usage info will appear once you start using roaming data. As a reminder, if you’d like to enable or disable roaming altogether, you can find the option under **Cellular Settings**.
 
-![data sense](images/data-usage.png "data sense")
+![Data sense.](images/data-usage.png)
 
 ### Mobile broadband (LTE) connectivity on Windows gets a makeover
 
@@ -549,9 +545,9 @@ __Step 3__: Choose the Net Adapter based MBB USB class driver as default driver.
 4. Once installed reboot for the new driver to take effect. 
 5. Ensure the status of the connection remains “Connected”.
 
-![net adapter steps](images/NetAdapterSteps_Pic1.png "Net adapter steps")
-![net adapter steps](images/NetAdpaterSteps_Pic2.PNG "Net adapter steps")
-![net adapter steps](images/NetAdapterSteps_Pic3.jpg "Net adapter steps")
+![net adapter step 1](images/NetAdapterSteps_Pic1.png)
+![net adapter step 2](images/NetAdpaterSteps_Pic2.PNG)
+![net adapter step 3](images/NetAdapterSteps_Pic3.jpg)
 
 __Note__: Follow the instructions in Step 4 to revert to the default driver(xxxxx Mobile Broadband Adapter), in case of issues with Net Adapter driver(Generic Mobile Broadband Cx Net Adapter). 
 
@@ -562,18 +558,18 @@ To report issues and give feedback, use Feedback Hub on your PC and set Category
 
 Consolidating our settings experiences is an ongoing priority for us. We started our work moving **Sound settings** to Settings with the Windows 10 April 2018 Update, and we’re happy to announce the next piece of that with this release. Device properties has now been integrated into Settings – just click on the links in **Sound Settings** and you’ll find a new page where you can name your device and select your preferred spatial audio format.
 
-![sound settings](images/sound-settings.png "sound settings")
+![Sound settings.](images/sound-settings.png)
 
 ### Improved local experience
 
 We have introduced a new Region page that allows overrides to default regional format settings such as Calendar, First day of the week, Dates, Times, and Currency. Please go to Settings App – Time & Language – Region and give it a try.
 
-![local experience](images/local-exp.png "local experience")
+![Local experience.](images/local-exp.png)
 
 
 Local Experience Packs are Microsoft Store apps that deliver Windows display language quality improvements. You can now access them easily via the Settings App. Please go to Settings App – Time & Language – Language. Once here click on <i>Add a Windows display language with Local Experience Packs</i> link to download a Local Experience Pack from the Microsoft Store and start enjoying Windows in your preferred language.
 
-![local experience packs](images/Get-LXP-from-Store.png "local experience packs")
+![Local experience packs.](images/Get-LXP-from-Store.png)
 
 The Settings app provides improved discoverability of features supported for each language.
 
@@ -581,7 +577,7 @@ We have also started utilizing Artificial Intelligence (AI) and neural network-b
 
 We have introduced a new __Region__ page that allows overrides to default regional format settings such as Calendar, First day of the week, Dates, Times, and Currency. 
 
-![region page](images/Region.png "Region page")
+![Region page.](images/Region.png)
 
 ### Storage Sense picks up a new skill
 Starting with the [Creators Update](https://blogs.windows.com/windowsexperience/2017/01/19/announcing-windows-10-insider-preview-build-15014-for-pc-and-mobile-hello-windows-insiders-today-we-are-excited-to-be-releasing-windows-10-insider-preview-build-15014-for-pc-and-mobile/) we embarked on a journey to help you automatically clean up storage when low on disk space. We expanded on that with the Fall Creators Update ([here](https://blogs.windows.com/windowsexperience/2017/05/17/announcing-windows-10-insider-preview-build-16199-pc-build-15215-mobile/) and [here](https://blogs.windows.com/windowsexperience/2017/06/21/announcing-windows-10-insider-preview-build-16226-pc/)). We also added the ability to automatically make any downloaded Files On-Demand online-only if you haven’t used them in a certain number of days. Head to __Settings > System > Storage > Storage Sense__ to try out this new feature.
@@ -592,18 +588,18 @@ You have more control so you can now decide which UWP apps can access your full 
 ### Have a question about Settings?
 We’ve heard your feedback that settings can be confusing sometimes, so we’re working with Bing to bubble up some of the most common questions we hear right into the Settings pages themselves. The FAQ’s are contextual in nature and aim to you to quickly get the answer you’re looking for to complete configuration tasks. It may even help you discover something you didn’t know was an option! Clicking on these questions will take you to Bing.com to display the answer.
 
-![settings](images/settings.png "Settings")
+![Questions about Settings.](images/settings.png)
 
 ## Ease of access improvements
 **Make text bigger**: We’ve heard your feedback and are excited to announce that the ability to increase text size across the system is back and better than ever! When you go to **Settings > Ease of Access > Display**, you’ll find a new setting called “Make text bigger” – this slider will adjust text across the system, win32 apps, and UWP apps.
 That means you can now make text bigger in Start, File Explorer, Settings, etc., without having to change the overall scaling of your system.
 
-![Make text bigger option in the Ease of Access Display settings](images/bigger-text.png "Make text bigger option in the Ease of Access Display settings")
+![Make text bigger option in the Ease of Access Display settings.](images/bigger-text.png)
 
 ## Magnifier improvements
 We’ve heard your feedback asking us for a way to keep your mouse centered on the screen in Full-Screen mode, in the Windows 10 October 2018 Update we’re making it happen! This new option under **Settings > Ease of Access > Magnifier > Keep the mouse cursor > Centered on the screen** enables easier tracking and use of the mouse, especially helpful at higher magnification levels.  In addition, you now have more control over zoom level increments with the addition of 5% and 10% under the Change zoom level setting.
 
-![Magnifier settings, Keep the mouse cursor, centered on the screen option](images/CenterOnTheScreen.png "Magnifier settings, Keep the mouse cursor, centered on the screen option")
+![Magnifier settings, Keep the mouse cursor, centered on the screen option.](images/CenterOnTheScreen.png)
 
 ## Narrator improvements 
 
@@ -654,18 +650,18 @@ Through the viewer, you can see the different categories of diagnostic data whic
 
 Each of these categories are important so that we can diagnose performance issues and ensure your device is secure. The viewer provides you full insights into exactly what we collect so that you are aware of what’s happening on your device. Through this tool, you can do things like search by keyword, filter data by category, export the data to a separate file, and provide feedback about the tool or a specific data point.
 
-![diagnostic data](images/diagnostic-data.png "diagnostic data")
+![Diagnostic data.](images/diagnostic-data.png)
 
 **New to the Diagnostic Data Viewer:** We are excited to say that users can now directly view Problem Reports that have or will be sent to Microsoft. Problem Reports help us identify crashes and other disruptions on your device so that we can improve your Windows experience. On the **Diagnostic Data Viewer**, users can view specific details about each report collected such as when it was sent and what application or component caused the report to be created.
 
-![diagnostic data viewer](images/diagnostic-data-2.png "diagnostic data viewer")
+![Diagnostic data viewer.](images/diagnostic-data-2.png)
 
 Along with the ability to see Problem Reports, the Diagnostic Data Viewer comes with new changes to the UI as well. For example, the filter feature to view data points by category is now directly to the right of the search bar, and the export data feature now exists at the top right of the tool.
 
 ### Microphone access
 If access to the microphone has been disabled in your privacy settings, we’ll now pop a notification the first time an attempt to use the microphone is blocked so you can review the settings if desired.
 
-![microphone privacy toast](images/micprivacy_toastonly.png "microphone privacy toast")
+![Microphone privacy toast.](images/micprivacy_toastonly.png)
 
 ### Privacy settings layout in the set-up experience 
 
@@ -685,7 +681,8 @@ If you find your device restarting at the wrong time, please file a bug in the [
 
 ## Windows Container Improvements
 **New Windows Image:** We’re adding a new base image to the Windows Server container collection. In addition to nanoserver and windowsservercore container images, the new windows image is now available. This image carries even more components than its nanoserver and servercore siblings, meaning it can support applications that have additional API dependencies. Go to https://aka.ms/windowscontainer to learn more and get started.
-![Windows container](images/windows-container.png "Windows container")
+
+![Windows container.](images/windows-container.png)
 
 **Group managed service account reliability:** We’ve improved the scalability and reliability of containers that use group managed service accounts (gMSA) to access network resources. You should see fewer authentication errors when using a single gMSA with multiple container instances. Additionally, you no longer need to set the container hostname to be the same as the gMSA. We also fixed a bug that prevented you from using gMSAs with Hyper-V isolated containers.
 
@@ -698,7 +695,7 @@ We have too many new features to list here. Go [here](https://docs.microsoft.com
 
 The new snipping experience is here to help you capture and annotate what you see on your screen. 
 
-![screen sketch](images/screen-sketch1.png "screen sketch")
+![The new snipping experience.](images/screen-sketch1.png)
 
 Originally introduced as part of the Windows Ink Workspace, the **Snip & Sketch** app comes with a variety of benefits, including:
 1. It can be updated via the Microsoft Store
@@ -708,12 +705,12 @@ Originally introduced as part of the Windows Ink Workspace, the **Snip & Sketch*
 
 **WIN + Shift + S** will bring up a snipping toolbar – snip a rectangle, something a bit more freeform, or full screen and it will go straight to your clipboard. Immediately after taking a snip you’ll also get a notification that will take you and your snip to the Snip & Sketch app where you can annotate and share away!
 
-![screen sketch](images/screen-sketch2.png "screen sketch")
+![Screen sketch.](images/screen-sketch2.png)
 
 We also added additional entry options for different input modalities: 
 * __Just click the pen tail button__. If you have a pen, go into __Pen & Windows Ink Settings__ – you’ll find screen snipping is now an option for single click. This will launch you directly into our snipping experience:
 
-![pen settings](images/pensettingsinked.png "pen settings")
+![Pen settings](images/pensettingsinked.png)
 
 * __Press Print Screen__. You’ll see a new option that says __Use the Print Screen key to launch screen snipping__. Opening Settings and searching for __print screen__ will take you to the right page.
  
@@ -725,22 +722,22 @@ We also added additional entry options for different input modalities:
 
 **Wrap-around find and replace**: We added the option to do wrap-around find and replace to the find dialog. Notepad will remember previously entered values and the state of check boxes, and will automatically populate them the next time you open the find dialog. Additionally, when you have text selected and open the find dialog we will automatically populate the search field with the selected text.
 
-![wrap around find and replace](images/WrapAround.PNG "wrap around find and replace")
+![Wrap around find and replace.](images/WrapAround.PNG)
 
 **Text zooming**: We added a new menu option under __View > Zoom__ to change the zoom level, and we display the current zoom level in the status bar. You can also use **Ctrl + Plus**, **Ctrl + Minus** and **Ctrl + MouseWheel** to zoom in and out and use **Ctrl + 0** to restore the zoom level to the default.
 
-![text zooming](images/zooming2.gif "text zooming")
+![Text zooming.](images/zooming2.gif)
 
 **Line numbers with word-wrap**: Notepad can display line and column numbers when word-wrap is enabled, and we’ve made the status bar visible by default. You can still turn the status bar off in the **View** menu.
 
-![word-wrap](images/linenumbers.png "word-wrap")
+![Word-wrap.](images/linenumbers.png)
 
 **Search with Bing**:To use, highlight a word or phrase in Notepad and you can search Bing using the following methods:
 * Select text and choose **Search with Bing** via the right-click (context) menu.
 * Edit menu ->**Search with Bing…**
 * **CTRL + B**. 
 
-![notepad bing search](images/notepad-bing-search.png "notepad bing search")
+![Notepad Bing search.](images/notepad-bing-search.png)
 
 ### Skype for Windows 10 Improvements
 This new [Skype for Windows 10 update](https://aka.ms/skypeinsider_windows10) brings all of the latest Skype capabilities to Windows 10 users.
@@ -767,7 +764,7 @@ After this update, the square root calculation now recognizes perfect squares an
 ### Microsoft Font Maker app
 With the **Microsoft Font Maker** app you can use your pen to create a custom font based on the nuances of your own handwriting – currently available via the [Microsoft Store](https://www.microsoft.com/store/productId/9N9209F8S3VC) and we’d love to hear your feedback! Install the fonts you create to add a personal touch to everything you do!
 
-![font maker](images/font-maker.png "font-maker")
+![Font maker.](images/font-maker.png)
 
 ### Task Manager Improvements
 
@@ -776,9 +773,9 @@ New Power Usage Columns: Task Manager now includes 2 new columns in the “Proce
 * Power usage: This column will provide an instantaneous view of apps/services using power.
 * Power usage trend: This column provides a power usage trend over 2 mins for each running apps/services. This column will be blank when you start an app but will populate based on the power usage every 2 mins.
 
-![task manager](images/task-manager.png "task manager")
+![Task Manager.](images/task-manager.png)
 
 ### Registry Editor Improvements
 Have you ever been typing into the regedit address bar, and the next part of the path is just on the tip of your tongue, but you can’t remember? Starting with today’s build, you’ll now see a dropdown as you type to help complete the next part of the path! Oh, and you can also press Ctrl + Backspace to delete the last “word”, which makes backing up work that much faster (Ctrl + Delete will delete the next word).
 
-![registry editor](images/reg-editor.png "registry editor")
+![Registry Editor.](images/reg-editor.png)
