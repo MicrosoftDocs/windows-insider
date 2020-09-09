@@ -33,7 +33,7 @@ You can sign into the Feedback Hub using either your personal Microsoft account 
 
 7. Submit your feedback.
 
-[Learn more about giving great feedback and using the Feedback Hub.](https://docs.microsoft.com/windows-insider/at-home/feedback)
+[Learn more about giving great feedback and using the Feedback Hub.](https://docs.microsoft.com/windows-insider/feedback)
 
 ## Give feedback with your work account
 
@@ -54,7 +54,7 @@ You can sign into the Feedback Hub using either your personal Microsoft account 
 
 7. Submit your feedback.
 
-[Learn more about giving great feedback and using the Feedback Hub.](https://docs.microsoft.com/windows-insider/at-home/feedback)
+[Learn more about giving great feedback and using the Feedback Hub.](https://docs.microsoft.com/windows-insider/feedback)
 
 ## Track feedback from your organization
 
