@@ -30,13 +30,13 @@ The following new features are being introduced as part of this update.
 
 - You can now quickly create an event straight from the Calendar flyout on the Taskbar. Just select the date and time at the lower right corner of the Taskbar to open the Calendar flyout and pick your desired date and start typing in the text box–you’ll now see inline options to set a time and location.
  
-![Create an event from the Calendar flyout on Taskbar](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/2/2019/08/cc9a9d57f8c15907344cb5f718ca63ce.png "How you can add an event to feed the chickens from the Calendar flyout on Taskbar.")
+![Create an event from the Calendar flyout on Taskbar.](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/2/2019/08/cc9a9d57f8c15907344cb5f718ca63ce.png)
 
 - The navigation pane on the Start menu now expands when you hover over it with your mouse to better inform where clicking goes.
 
 - We have added friendly images to show what is meant by “banner” and “Action Center” when adjusting the notifications on apps in order to make these settings more approachable and understandable.
 
-![Images to demonstrate banner and Action center when adjusting notifications on apps](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/2/2019/08/6c36cef63ea624500333417377850ba7.png "Screenshot of the friendly images that will now show what we mean by banner and Action Center when you're adjusting the notifications on apps.")
+![Images to demonstrate banner and Action center when adjusting notifications on apps](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/2/2019/08/6c36cef63ea624500333417377850ba7.png)
  
 - Notifications settings under Settings > System > Notifications will now default to sorting notification senders by most recently shown notification, rather than sender name. This makes it easier to find and configure frequent and recent senders. We have also added a setting to turn off playing sound when notifications appear.
 
