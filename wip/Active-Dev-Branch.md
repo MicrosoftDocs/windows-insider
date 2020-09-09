@@ -8,7 +8,7 @@ ms.devlang: na
 ms.author: bleblanc
 ms.localizationpriority: medium
 ms.topic: article
-ms.technology: w10
+ms.prod: w10
 ---
 
 # The Changelog
