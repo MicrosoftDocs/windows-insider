@@ -23,4 +23,4 @@ You can also register with your personal Microsoft account, which is the same ac
 > [!div class="nextstepaction"]
 > [Register now](https://insider.windows.com/register)
 
-If you'd like to manage Insider Preview build across your organization, you'll also have to register your domain. [Learn more about registering your domain.](https://docs.microsoft.com/windows-insider/at-work-pro/wip-4-biz-manage)
+If you'd like to manage Insider Preview build across your organization, you'll also have to register your domain. [Learn more about registering your domain.](https://docs.microsoft.com/windows-insider/business/manage-builds)
