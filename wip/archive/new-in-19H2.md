@@ -20,7 +20,7 @@ The following new features are being introduced as part of this update.
 
 - This update will be published to WSUS so that customers can deploy and manage Insider Preview builds alongside their standard ConfigMan/WSUS approach. [See this blog post for details](https://techcommunity.microsoft.com/t5/Windows-IT-Pro-Blog/Publishing-pre-release-Windows-10-feature-updates-to-WSUS/ba-p/845054).  
 
-- We are offering pre-release support for 19H2 offered to Windows Insider Program for Business (WIP4Biz) customers who face blocking issues that prevent them from feature evaluation or device use. [See this article for details](https://insider.windows.com/en-us/articles/19h2-support-available-for-business-users/). 
+- We are offering pre-release support for 19H2 offered to Windows Insider Program for Business (WIP4Biz) customers who face blocking issues that prevent them from feature evaluation or device use. [See this article for details](https://insider.windows.com/articles/19h2-support-available-for-business-users/). 
 
 - A fix to allow OEMs to reduce the inking latency based on the hardware capabilities of their devices rather than being stuck with latency selected on typical hardware configuration by the OS.
 
