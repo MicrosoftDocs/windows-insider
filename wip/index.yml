@@ -20,7 +20,6 @@ metadata:
     
 # productDirectory section (optional)
 productDirectory:
-  title: # < 60 chars (optional)
   items:
     # Card
     - title: Windows Insider Program
