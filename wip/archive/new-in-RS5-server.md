@@ -350,8 +350,7 @@ answer these questions. There's nothing to install, configure, or
 start—it's built-in and always-on. Learn more at
 <https://aka.ms/clusterperformancehistory>.
 
-![Project Honolulu](images/Hyper-Converged-in-Honolulu.png "New charts in Project Honolulu, powered by built-in cluster
-performance history.")
+![New charts in Project Honolulu, powered by built-in cluster performance history.](images/Hyper-Converged-in-Honolulu.png)
 
 ### Storage Migration Service
 
@@ -365,7 +364,7 @@ Windows Server 2019 introduces the Storage Migration Service (SMS), a new role i
 
 SMS provides orchestrated workflow with a Honolulu-based graphical management system, allowing scalable migrations of many servers simultaneously to new targets running on premises or in Azure.
 
-![Scalable migrations](images/scalable-migrations.png "Scalable migrations")
+![Scalable migrations.](images/scalable-migrations.png)
 
 SMS handles common problems and subtleties of a migration, including in-use files, share settings, security settings, network addresses and names, local security principals, encrypted data, and more. All of this is available from an intuitive graphical interface, which is backed by robust PowerShell automation.
 
@@ -391,7 +390,7 @@ System Insights is a new feature available in Windows Server 2019 that brings lo
 
 Because each of these capabilities runs locally, all your data is collected, persisted, and analyzed directly on your Windows Server instance, allowing you to use predictive analytics capabilities without any cloud connectivity. In Windows Server 2019, System Insights introduces a set of capabilities focused on capacity forecasting, predicting future usage for compute, networking, and storage.
 
-![System insights](images/system-insights.png "System Insights")
+![System insights.](images/system-insights.png)
 
 You can manage System Insights through an intuitive Windows Admin Center extension or directly through PowerShell, and System Insights allows you to manage each capability individually. This includes configuring custom schedules to run each capability and adding remediation scripts to automatically address any issue detected by a capability.
 
@@ -410,6 +409,3 @@ For more information about System Insights, please visit [aka.ms/SystemInsights]
 
 ## Windows Admin Center Preview 1806
 For full details, see the [Windows Admin Center Preview 1806 Announcement](https://aka.ms/WACPreview1806-InsiderBlog).
-
-
-
