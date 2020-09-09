@@ -41,7 +41,7 @@ We are excited to learn how you use Windows Sandbox! As we continue to add new f
 
 ![Windows Sandboxing](images/18305-2.png "Windows Sandboxing")
 ### Windows light theme
-We introduced the new light theme in Windows 10 with [Build 18282](https://docs.microsoft.com/windows-insider/at-home/whats-new-wip-at-home#windows-light-theme-build-18282) and today’s build has some improvements to light theme worth taking note of based on your feedback:
+We introduced the new light theme in Windows 10 with Build 18282, and today’s build has some improvements to light theme worth taking note of based on your feedback:
 
 * We fixed an issue where the text in the battery flyout might become unreadable in light theme due to it being white.
 * We fixed an issue where the scrollbar in the network flyout wasn’t visible in light theme.
@@ -118,7 +118,7 @@ With [Build 18277](https://blogs.windows.com/windowsexperience/2018/11/07/announ
 ### A simplified Start layout
 Based on your feedback, we’re introducing a simplified default Start layout for new devices, new user accounts, and clean installs. The new layout has been simplified into a sleek one column design with reduced top-level tiles. For the IT admins out there, don’t worry, commercial and education customers will also see a simplified layout tailored to these scenarios.
 
-Coupled with earlier changes providing the ability to [uninstall additional inbox apps](https://docs.microsoft.com/windows-insider/at-home/whats-new-wip-at-home#uninstall-additional-inbox-apps-build-18262), and a new way to [easily unpin a folder or group of tiles](https://blogs.windows.com/windowsexperience/2018/10/31/announcing-windows-10-insider-preview-build-18272/), the simplified Start layout is part of an ongoing effort designed to enhance your Start experience in the upcoming release of Windows.
+Coupled with earlier changes providing the ability to uninstall additional inbox apps, and a new way to [easily unpin a folder or group of tiles](https://blogs.windows.com/windowsexperience/2018/10/31/announcing-windows-10-insider-preview-build-18272/), the simplified Start layout is part of an ongoing effort designed to enhance your Start experience in the upcoming release of Windows.
 
 Note: When you update to this build, your Start layout won’t automatically change to the new layout because we want everything to be exactly as you left it before you did the update.
 
@@ -323,9 +323,9 @@ Tamper Protection is a new setting from Windows Defender Antivirus, available in
 We’ve made significant improvements to the way Notepad handles encoding. Starting with this build, we are adding the option to save files in UTF-8 without a Byte Order Mark and making this the default for new files. UTF-8 without a Byte Order Mark is backwards-compatible with ASCII and will provide better interoperability with the web, where UTF-8 has become the default encoding. Additionally, we added a column to the status bar that displays the encoding of the document.
 
 ### Modified indicator
-Notepad will now show an asterisk (*) in the title bar before the title of a document to indicate that a document has unsaved changes.
+Notepad will now show an asterisk ( * ) in the title bar before the title of a document to indicate that a document has unsaved changes.
 
-![Notepad with the asterisk*](images/18298-6.png "Notepad with the asterisk*")
+![Notepad with the asterisk](images/18298-6.png "Notepad with the asterisk")
 
 ### Send Feedback
 You can now send feedback directly from Notepad! Click Help > Send Feedback to open the Feedback Hub with [the Notepad category selected](https://blogs.windows.com/windowsexperience/2018/12/10/announcing-windows-10-insider-preview-build-18298/aka.ms/notepadfeedback) and get your feedback directly to the product team.
@@ -593,7 +593,7 @@ The Ebrima font also supports other African writings systems N'ko, Tifinagh, Vai
 ![Showing sample of the Ebrima font](images/ebrima-font.png "Showing sample of the Ebrima font")
 
 ### ADLaM and Osage keyboard support 
-Building on the [font support we announced recently](https://docs.microsoft.com/windows-insider/at-home/whats-new-wip-at-home#ebrima-font-addition-with-adlam-support-build-18252), today we’re introducing keyboard support for ADLaM and Osage. ADLaM script is used to write Pular/Fulfulde, the language of the Fulani people of West Africa. Osage script is used to write the Osage language spoken by the Osage Nation in Oklahoma.
+Building on the font support we announced recently, today we’re introducing keyboard support for ADLaM and Osage. ADLaM script is used to write Pular/Fulfulde, the language of the Fulani people of West Africa. Osage script is used to write the Osage language spoken by the Osage Nation in Oklahoma.
 
 Here is an example what you’d see on the touch keyboard when using ADLaM:
 
