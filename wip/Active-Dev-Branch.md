@@ -15,7 +15,7 @@ ms.prod: w10
 The Changelog represents everything new from all the builds from the Active Developmemnt Branch (RS_PRELEASE) released to the **Dev Channel**. This page includes everything noted as part of the "What's new" and "General changes & improvements" sections of the blog posts published for each build [on the Windows Blog](https://blogs.windows.com/windows-insider/) and does not contain other noted updates for Insiders, fixes, or known issues. 
 
 ## Build 20211
-Windows 10 Insider Preview Build 20206 was released to the Dev Channel on [9/11/2020](https://blogs.windows.com/windows-insider/2020/09/10/announcing-windows-10-insider-preview-build-20211/).
+Windows 10 Insider Preview Build 20206 was released to the Dev Channel on [9/10/2020](https://blogs.windows.com/windows-insider/2020/09/10/announcing-windows-10-insider-preview-build-20211/).
 
 ### Adding Search to the Default Apps pages in Settings
 After making some updates to help improve performance, this change to enable searching the lists of file types, protocols, and apps when setting a default is now rolling out to all Insiders in the Dev Channel – thanks everyone who’s shared feedback along the way.
