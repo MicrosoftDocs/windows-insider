@@ -1,0 +1,58 @@
+### YamlMime:Landing
+
+title: Windows Insider Program for Developers documentation
+summary: Run Insider Preview builds and preview the Windows 10 Software Development Kit to bring better applications to your customers faster.
+
+metadata:
+  title: Windows Insider Program for Developers documentation
+  description: Run Insider Preview builds and preview the Windows 10 Software Development Kit to bring better applications to your customers faster. 
+  ms.topic: landing-page # Required
+  author: dawnwood
+  ms.author: dawn.wood
+  ms.date: 6/30/2020
+  ms.prod: w10 
+
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
+
+landingContent:
+# Cards and links should be based on top customer tasks or top subjects
+# Start card title with a verb
+  # Card (optional)
+  - title: Getting started
+    linkLists:
+      - linkListType: get-started
+        links:
+          - text: Get started with the Windows Insider Program for Developers
+            url: https://docs.microsoft.com/windows-insider/developers/get-started
+      - linkListType: overview
+        links:
+          - text: Deeper look at flighting
+            url: https://docs.microsoft.com/windows-insider/flighting
+          - text: Deeper look at feedback
+            url: https://docs.microsoft.com/windows-insider/feedback
+      - linkListType: whats-new
+        links:
+          - text: Flight Hub
+            url: https://docs.microsoft.com/en-us/windows-insider/flight-hub/
+          - text: The Changelog
+            url: https://docs.microsoft.com/windows-insider/Active-Dev-Branch
+                   
+  # Card          
+  - title: Helpful guides
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+          - text: Tools to get feedback from your customers
+            url: https://docs.microsoft.com/windows-insider/developers/tools
+
+  # Card
+  - title: Related documentation
+    linkLists:        
+      - linkListType: overview
+        links:
+          - text: Windows Insider Program
+            url: https://docs.microsoft.com/windows-insider/about
+          - text: Windows Insider Program for business
+            url: https://docs.microsoft.com/windows-insider/business
+          - text: Windows Insider Program for Server
+            url: https://docs.microsoft.com/windows-insider/business/server-get-started

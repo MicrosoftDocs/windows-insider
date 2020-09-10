@@ -1,0 +1,64 @@
+### YamlMime:Landing
+
+title: Get to know the Windows Insider Program
+summary: In the Windows Insider Program, be the first to see what's next and help shape Windows' future by running Windows 10 Insider Preview Builds and giving feedback. 
+
+metadata:
+  title: Get to know the Windows Insider Program
+  description: In the Windows Insider Program, be the first to see what's next and help shape Windows' future by running Windows 10 Insider Preview Builds and giving feedback. 
+  ms.topic: landing-page # Required
+  author: dawnwood
+  ms.author: dawn.wood
+  ms.date: 6/30/2020
+  ms.prod: w10 
+
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
+
+landingContent:
+# Cards and links should be based on top customer tasks or top subjects
+# Start card title with a verb
+  # Card (optional)
+  - title: Explore the Windows Insider Program
+    linkLists:
+      - linkListType: get-started
+        links:
+          - text: Get started with the Windows Insider Program
+            url: https://docs.microsoft.com/windows-insider/get-started
+      - linkListType: overview
+        links:
+          - text: Deeper look at flighting
+            url: https://docs.microsoft.com/windows-insider/flighting
+          - text: Deeper look at feedback
+            url: https://docs.microsoft.com/windows-insider/feedback
+      - linkListType: whats-new
+        links:
+          - text: Flight Hub
+            url: https://docs.microsoft.com/en-us/windows-insider/flight-hub/
+          - text: The Changelog
+            url: https://docs.microsoft.com/windows-insider/Active-Dev-Branch
+                   
+  # Card          
+  - title: Helpful guides
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+          - text: Troubleshooting
+            url: https://docs.microsoft.com/windows-insider/troubleshooting
+          - text: Choosing your data settings
+            url: https://docs.microsoft.com/windows-insider/data-settings
+          - text: Using ISOs
+            url: https://docs.microsoft.com/windows-insider/ISOs  
+          - text: Updating from an expiring Insider Preview build
+            url: https://docs.microsoft.com/windows-insider/build-expiration       
+
+  # Card
+  - title: Related documentation
+    linkLists:        
+      - linkListType: overview
+        links:
+          - text: Windows Insider Program for Business
+            url: https://docs.microsoft.com/windows-insider/business/
+          - text: Windows Insider Program for Server
+            url: https://docs.microsoft.com/windows-insider/business/server-get-started
+          - text: Windows Insider Program for Developers
+            url: https://docs.microsoft.com/windows-insider/developers
