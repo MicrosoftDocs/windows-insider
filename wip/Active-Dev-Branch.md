@@ -14,6 +14,17 @@ ms.prod: w10
 # The Changelog
 The Changelog represents everything new from all the builds from the Active Developmemnt Branch (RS_PRELEASE) released to the **Dev Channel**. This page includes everything noted as part of the "What's new" and "General changes & improvements" sections of the blog posts published for each build [on the Windows Blog](https://blogs.windows.com/windows-insider/) and does not contain other noted updates for Insiders, fixes, or known issues. 
 
+## Build 20211
+Windows 10 Insider Preview Build 20206 was released to the Dev Channel on [9/10/2020](https://blogs.windows.com/windows-insider/2020/09/10/announcing-windows-10-insider-preview-build-20211/).
+
+### Adding Search to the Default Apps pages in Settings
+After making some updates to help improve performance, this change to enable searching the lists of file types, protocols, and apps when setting a default is now rolling out to all Insiders in the Dev Channel – thanks everyone who’s shared feedback along the way.
+
+![Default apps search](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2020/09/default-apps.png "Search the lists of file types, protocols, and apps when setting a default.")
+
+### Access Linux file systems in the Windows Subsystem for Linux
+This latest insiders preview build adds the ability for users to attach and mount a physical disk inside of a WSL 2 distro. This enables you to access file systems that aren’t natively supported by Windows (such as ext4). So if you’re dual booting with Windows and Linux, and are using different disks, you can now access your Linux files from Windows! To learn more about this feature please read [this blog post](https://devblogs.microsoft.com/commandline/access-linux-filesystems-in-windows-and-wsl-2/) on the Windows Command Line blog.
+
 ## Build 20206
 Windows 10 Insider Preview Build 20206 was released to the Dev Channel on [9/2/2020](https://blogs.windows.com/windows-insider/2020/09/02/announcing-windows-10-insider-preview-build-20206/).
 
