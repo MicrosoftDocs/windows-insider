@@ -48,7 +48,7 @@ We’ve just released our 0.12 release of PowerToys on GitHub. We’ve gotten to
 
 New features include a great new utility called PowerRename, which makes it easy to batch rename a bunch of files, improvements to FancyZones, and support for Dark Mode.
 
-Check out our [latest article](https://insider.windows.com/en-us/articles/powertoys-v012-now-available/) for all the details.
+Check out our [latest article](https://insider.windows.com/articles/powertoys-v012-now-available/) for all the details.
 
 ![New PowerRename feature](images/19003-1.gif)
 
