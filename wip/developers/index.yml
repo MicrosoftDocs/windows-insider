@@ -52,7 +52,7 @@ landingContent:
         links:
           - text: Windows Insider Program
             url: https://docs.microsoft.com/windows-insider/about
-          - text: Windows Insider Program for business
+          - text: Windows Insider Program for Business
             url: https://docs.microsoft.com/windows-insider/business
           - text: Windows Insider Program for Server
             url: https://docs.microsoft.com/windows-insider/business/server-get-started
