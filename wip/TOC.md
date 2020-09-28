@@ -6,7 +6,7 @@
 ## [Troubleshooting](https://docs.microsoft.com/windows-insider/troubleshooting)
 ### [Choosing your data settings](https://docs.microsoft.com/windows-insider/data-settings)
 ### [Using ISOs](https://docs.microsoft.com/windows-insider/ISOs)
-### [How you can tell if you're flighting](https://docs.microsoft.com/windows-insider/check-flighting-status)
+### [Checking if you're flighting](https://docs.microsoft.com/windows-insider/check-flighting-status)
 ### [Updating from an expiring Insider Preview build](https://docs.microsoft.com/windows-insider/build-expiration)
 ## Windows Insider Program for Business
 ### [Register](https://docs.microsoft.com/windows-insider/business/register)
