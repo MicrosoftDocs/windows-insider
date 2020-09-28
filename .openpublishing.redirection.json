@@ -2,22 +2,22 @@
     "redirections": [
     {
     "source_path": "wip/at-work-pro/wip-4-biz-AAD.md",
-    "redirect_url": "/windows-insider/at-work-pro/wip-4-biz-register",
+    "redirect_url": "/windows-insider/business/register",
     "redirect_document_id": true
     },
     {
     "source_path": "wip/at-home/Whats-new-wip-at-home.md",
-    "redirect_url": "/windows-insider/at-home/whats-new-wip-at-home-1903",
+    "redirect_url": "/windows-insider/Active-Dev-Branch",
     "redirect_document_id": true
     },
     {
     "source_path": "wip/at-home/whats-new-apps-19h1.md",
-    "redirect_url": "/windows-insider/at-home/whats-new-apps",
+    "redirect_url": "/windows-insider/Active-Dev-Branch",
     "redirect_document_id": true
     },
     {
     "source_path": "wip/at-home/Whats-new-wip-at-home-19h1.md",
-    "redirect_url": "/windows-insider/at-home/whats-new-wip-at-home-1903",
+    "redirect_url": "/windows-insider/Active-Dev-Branch",
     "redirect_document_id": false
     }
     ]
