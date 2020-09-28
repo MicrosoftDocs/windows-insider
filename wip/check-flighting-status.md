@@ -1,6 +1,6 @@
 ---
-title: How you can tell if you're flighting
-description: Ways to check if your device is on an Insider Preview build
+title: Checking if you're flighting
+description: How to tell if your device is on an Insider Preview build
 author: bleblanc
 manager: dougkim
 ms.tgt_pltfrm: na
@@ -11,7 +11,7 @@ ms.topic: article
 ms.prod: w10
 ---
 
-# How you can tell if you're flighting
+# Checking if you're flighting
 Flighting is the process of running Windows 10 Insider Preview Builds on your device. We know that sometimes it can be hard to tell if you’re flighting and successfully receiving updates, but there are some quick and easy ways to know which Insider Preview build your device is on and what your Windows Insider settings are.
 
 To see the latest build number for your channel, [check out Flight Hub](https://docs.microsoft.com/windows-insider/flight-hub/).
