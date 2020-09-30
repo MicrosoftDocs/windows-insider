@@ -14,8 +14,26 @@ ms.prod: w10
 # The Changelog
 The Changelog represents everything new from all the builds from the Active Development Branch (RS_PRELEASE) released to the **Dev Channel**. This page includes everything noted as part of the "What's new" and "General changes & improvements" sections of the blog posts published for each build [on the Windows Blog](https://blogs.windows.com/windows-insider/) and does not contain other noted updates for Insiders, fixes, or known issues. 
 
+## Build 20226
+Windows 10 Insider Preview Build 20226 was released to the Dev Channel on [9/30/2020](https://blogs.windows.com/windows-insider/2020/09/16/announcing-windows-10-insider-preview-build-20215/).
+
+## Build 20221
+Windows 10 Insider Preview Build 20221 was released to the Dev Channel on [9/23/2020](https://blogs.windows.com/windows-insider/2020/09/23/announcing-windows-10-insider-preview-build-20221/).
+
 ## Build 20215
-Windows 10 Insider Preview Build 20215 was released to the Dev Channel on [9/16/2020](https://blogs.windows.com/windows-insider/2020/09/16/announcing-windows-10-insider-preview-build-20215/).
+Windows 10 Insider Preview Build 20215 was released to the Dev Channel on [9/10/2020](https://blogs.windows.com/windows-insider/2020/09/16/announcing-windows-10-insider-preview-build-20215/).
+
+### Introducing Meet Now in the Windows 10 Taskbar
+Earlier this year we introduced Meet Now in Skype. Meet Now makes it easy to connect with anyone in as little as two clicks for free and each call can last up to 24 hours. Today, we’re excited to share that we are extending this capability in Windows 10 by bringing Meet Now right to the taskbar. You can now easily set up a video call and reach friends and family in an instant by clicking on the Meet Now icon in the notification area (system tray) of the taskbar in Windows 10. No sign ups or downloads needed.
+
+Create a meeting:
+
+Create a meeting with Meet Now.
+Join a meeting:
+
+Join a meeting in Meet Now.
+
+**This feature is rolling out to a subset of Insiders in the Dev Channel at first, to help us quickly identify issues that may impact performance and reliability. Rest assured they will be gradually rolled out to everyone in the Dev Channel.**
 
 ## Build 20211
 Windows 10 Insider Preview Build 20211 was released to the Dev Channel on [9/10/2020](https://blogs.windows.com/windows-insider/2020/09/10/announcing-windows-10-insider-preview-build-20211/).
