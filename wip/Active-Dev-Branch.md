@@ -14,8 +14,49 @@ ms.prod: w10
 # The Changelog
 The Changelog represents everything new from all the builds from the Active Development Branch (RS_PRELEASE) released to the **Dev Channel**. This page includes everything noted as part of the "What's new" and "General changes & improvements" sections of the blog posts published for each build [on the Windows Blog](https://blogs.windows.com/windows-insider/) and does not contain other noted updates for Insiders, fixes, or known issues. 
 
+## Build 20226
+Windows 10 Insider Preview Build 20226 was released to the Dev Channel on [9/30/2020](https://blogs.windows.com/windows-insider/2020/09/30/announcing-windows-10-insider-preview-build-20226/).
+
+### Storage health monitoring to protect user data
+Attempting to recover data after drive failure is both frustrating and expensive. This feature is designed to detect hardware abnormalities for NVMe SSDs and notify users with enough time to act. It is strongly recommended that users immediately back up their data after receiving a notification.
+
+![Storage alert toast](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2020/09/DriveHealthToast.png "Image of toast notification sent to users when NVMe SSD abnormalities are detected.")
+
+Clicking on the notification or navigating to the drive properties page in Storage Settings (Settings -> System -> Storage -> Manage disks and volumes -> Properties) will provide additional details.
+
+![SSD properties page with alert](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2020/09/DriveHealth-Cropped.png "Image of toast notification sent to users when NVMe SSD abnormalities are detected.")
+
+### Changes and Improvements
+* We’re starting to roll out a change that will turn off theme syncing. As part of that, you will no longer see “Theme” as an option in Sync your settings, and changes made to your background will not sync across device. If you have been using theme synchronization, when setting up a new PC or account there will be a one-time download of the last saved synchronized desktop background to %LOCALAPPDATA%\Microsoft\Windows\WallpaperBackup if you need to access it.
+* Thanks for your patience – after making some reliability improvements, we’re re-enabling the ability for Notepad windows to persist update and restarts (if “Restart apps” is enabled in Sign-in Settings).
+* When you have a PWA installed from Microsoft Edge, Task Manager will now correctly display it under Applications instead of Background Processes in the Processes tab, and will show the app icon associated with the PWA.
+* We’re updating File Explorer so that if you right-click on a zipped OneDrive file that was set to online-only, you’ll now see an Extract All option, same as if the file was available locally on the PC.
+* We’re updating the new DNS options in Settings to make a static DNS entry required when entering a static IP, and to make gateway not a required field.
+* We’re updating the N’Ko keyboard layout so that pressing Shift + 6 will now insert ߾ (U+07FE ) and pressing Shift + 7 will now insert ߿ (U+07FF).
+
+## Build 20221
+Windows 10 Insider Preview Build 20221 was released to the Dev Channel on [9/23/2020](https://blogs.windows.com/windows-insider/2020/09/23/announcing-windows-10-insider-preview-build-20221/).
+
+### Introducing Meet Now in the Windows 10 Taskbar
+Earlier this year we introduced Meet Now in Skype. Meet Now makes it easy to connect with anyone in as little as two clicks for free and each call can last up to 24 hours. Today, we’re excited to share that we are extending this capability in Windows 10 by bringing Meet Now right to the taskbar. You can now easily set up a video call and reach friends and family in an instant by clicking on the Meet Now icon in the notification area (system tray) of the taskbar in Windows 10. No sign ups or downloads needed.
+
+Create a meeting:
+
+![Create a meeting](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2020/09/menow21-startshort-800-v5.C0.5.gif "Create a meeting with Meet Now.")
+
+Join a meeting:
+
+![Join a meeting](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2020/09/menow21-join-800-v3.C0.9.gif "Join a meeting in Meet Now.")
+
+>[!NOTE]
+>This feature is rolling out to a subset of Insiders in the Dev Channel at first, to help us quickly identify issues that may impact performance and reliability. Rest assured they will be gradually rolled out to everyone in the Dev Channel.
+
+### Changes and Improvements
+* As some Insiders may have noticed, we’re adding a notification to let you know when an app registers to run at startup (Settings > Apps > Startup Apps).
+* With most of the launches of the People app coming directly from within the Mail and Calendar apps in Windows 10, the People app no longer appears as a standalone app in Start. It remains as an inbox app and can be launched to manage your contacts from the button in the Mail and Calendar apps.
+
 ## Build 20215
-Windows 10 Insider Preview Build 20215 was released to the Dev Channel on [9/16/2020](https://blogs.windows.com/windows-insider/2020/09/16/announcing-windows-10-insider-preview-build-20215/).
+Windows 10 Insider Preview Build 20215 was released to the Dev Channel on [9/10/2020](https://blogs.windows.com/windows-insider/2020/09/16/announcing-windows-10-insider-preview-build-20215/).
 
 ## Build 20211
 Windows 10 Insider Preview Build 20211 was released to the Dev Channel on [9/10/2020](https://blogs.windows.com/windows-insider/2020/09/10/announcing-windows-10-insider-preview-build-20211/).

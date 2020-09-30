@@ -29,6 +29,8 @@ Go to **[Settings > System > About](https://aka.ms/AboutSettings)**, and your OS
 
 Or you can also type **winver** into your search and open it to see your latest Windows details, including OS build number.
 
+[See all the ways you can check if your device is flighting.](https://docs.microsoft.com/windows-insider/check-flighting-status)
+
 
 - **Find which channel your device is in.**
 
