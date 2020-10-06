@@ -15,7 +15,7 @@ ms.prod: w10
 
 The latest major updates and features for Your Phone. We value your feedback, so give these features a try and let us know what you think. You can report any issues under **Your Phone > Settings > Send feedback** or directly through the [Feedback Hub](https://aka.ms/yourphonefh).
 
-## September 30,2020
+## September 30, 2020
 
 ### New Your Phone settings experience for seamless device management within the app
 
@@ -25,9 +25,9 @@ The Your Phone team is excited to roll out a new user experience for managing yo
 
 This new user experience will be gradually rolling out to Insiders, so it may take some time to show up in the Your Phone app.
 
-## September 23,2020
+## September 23, 2020
 
-###Your Phone Notifications gets a new pinning feature
+### Your Phone Notifications gets a new pinning feature
 We're excited to announce that the Your Phone app has a new pinning feature integrated with the notifications feed. With notifications pinning, you can easily pin to save important notifications that will stick to the top of your feed, so they are readily accessible and distinguished from the rest of your notifications. To try out this feature, find a notification you want to pin and select the ellipses in the overflow menu. There you will see the option **Pin notification**.
 
 Since the notification will now stick to the top of your feed, you no longer have to worry about losing the notification and can easily access the thread and use all your favorite functionality, like in-line reply. When you no longer need that notification thread, you can simply unpin it by choosing the unpin icon.
