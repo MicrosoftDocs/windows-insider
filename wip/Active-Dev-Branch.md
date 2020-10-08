@@ -84,7 +84,7 @@ Join a meeting:
 ![Join a meeting](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2020/09/menow21-join-800-v3.C0.9.gif "Join a meeting in Meet Now.")
 
 >[!NOTE]
->This feature is rolling out to a subset of Insiders in the Dev Channel at first, to help us quickly identify issues that may impact performance and reliability. Rest assured they will be gradually rolled out to everyone in the Dev Channel.
+>T~~his feature is rolling out to a subset of Insiders in the Dev Channel at first, to help us quickly identify issues that may impact performance and reliability. Rest assured they will be gradually rolled out to everyone in the Dev Channel.~~ This is now available to all Insiders in the Dev Channel as of Build 20231.
 
 ### Changes and Improvements
 * As some Insiders may have noticed, we’re adding a notification to let you know when an app registers to run at startup (Settings > Apps > Startup Apps).
