@@ -15,6 +15,27 @@ ms.prod: w10
 
 The latest major updates and features for Your Phone. We value your feedback, so give these features a try and let us know what you think. You can report any issues under **Your Phone > Settings > Send feedback** or directly through the [Feedback Hub](https://aka.ms/yourphonefh).
 
+## September 30, 2020
+
+### New Your Phone settings experience for seamless device management within the app
+
+The Your Phone team is excited to roll out a new user experience for managing your linked devices with the app. We are happy to announce with this new settings page, you can now link a new device, remove an old device, and switch between active devices, all easily within the app. We’ve also made visual improvements to displaying your device list. Now each device is identifiable on its own device card with your personally synced wallpaper.
+
+![The Your Phone app displaying the new my devices section of settings.](images/YPSettings-09302020.jpg)
+
+This new user experience will be gradually rolling out to Insiders, so it may take some time to show up in the Your Phone app.
+
+## September 23, 2020
+
+### Your Phone Notifications gets a new pinning feature
+We're excited to announce that the Your Phone app has a new pinning feature integrated with the notifications feed. With notifications pinning, you can easily pin to save important notifications that will stick to the top of your feed, so they are readily accessible and distinguished from the rest of your notifications. To try out this feature, find a notification you want to pin and select the ellipses in the overflow menu. There you will see the option **Pin notification**.
+
+Since the notification will now stick to the top of your feed, you no longer have to worry about losing the notification and can easily access the thread and use all your favorite functionality, like in-line reply. When you no longer need that notification thread, you can simply unpin it by choosing the unpin icon.
+
+![Your Phone app on Notifications feature with Notifications menu pinning expanded.](images/YPNotifications-092320.jpg)
+
+This is a gradual rollout, so it may take a few days for notifications pinning to show up within the Your Phone app.
+
 ## August 21, 2020
 
 ### Your Phone apps experience is now gradually rolling out to the general public

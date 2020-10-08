@@ -14,6 +14,41 @@ ms.prod: w10
 # The Changelog
 The Changelog represents everything new from all the builds from the Active Development Branch (RS_PRELEASE) released to the **Dev Channel**. This page includes everything noted as part of the "What's new" and "General changes & improvements" sections of the blog posts published for each build [on the Windows Blog](https://blogs.windows.com/windows-insider/) and does not contain other noted updates for Insiders, fixes, or known issues. 
 
+## Build 20231
+Windows 10 Insider Preview Build 20231 was released to the Dev Channel on [10/7/2020](https://blogs.windows.com/windows-insider/2020/10/07/announcing-windows-10-insider-preview-build-20231/).
+
+### Improving relevancy of initial device setup
+Based on feedback, we’re exploring adding a page to Windows setup (OOBE) to help better understand how you plan to use your device and aid in customizing your device given your intended usage.
+
+![OOBE usage screen](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2020/10/Intent.jpg "Displaying a page in OOBE prompting you to customize your device by saying if you plan to use it for things like gaming or business.")
+
+This is the initial wave of work for this feature, and Insiders may notice different options presented in OOBE depending on what they select, however at this time Insiders will not notice any other configuration differences after exiting OOBE. We look forward to sharing future improvements in this space.
+
+>[!NOTE]
+>This feature is rolling out to a subset of Insiders in the Dev Channel at first, to help us quickly identify issues that may impact performance and reliability. Rest assured they will be gradually rolled out to everyone in the Dev Channel. NOTE: You will see this feature if you choose to reset your PC and when you do a clean install of Windows with the ISO for Build 20231 and higher. 
+
+### Better Management Options for App Default File Associations 
+Enterprise customers can now modify file associations on a per-user or per-device basis. This change will apply to existing users as well as users with new deployments. This means that IT admins can set which apps will automatically open various file types or links. For example, this makes it easy to set Microsoft Edge as your organization’s default browser, or always open PDFs in your organization’s preferred app. Leveraging this group policy for the default browser and common file types means that your organization’s end users will not have to decide on these defaults themselves.
+
+Deployment/Testing Steps:
+
+1. Generate Default Application Associations XML file by following [this page](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-8.1-and-8/hh825038(v=win.10)?redirectedfrom=MSDN).
+2. Manually modify the XML by adding 2 new properties:
+3. Add Version=”1“ to the DefaultAssociations tag.
+4. Add Suggested=”True” to any Association tag.
+5. Enable the group policy to set the default file associations by following [this doc](https://docs.microsoft.com/internet-explorer/ie11-deploy-guide/set-the-default-browser-using-group-policy?redirectedfrom=MSDN&f=255&MSPPError=-2147217396).
+6. Reboot or log in as the user.
+
+_Please note: If your device does not have this feature enabled, the policy will fall back to the default logic and will not respect the “Version” and “Suggested” fields of the policy._
+
+>[!NOTE]
+>This feature is rolling out to a subset of Insiders in the Dev Channel at first, to help us quickly identify issues that may impact performance and reliability. Rest assured they will be gradually rolled out to everyone in the Dev Channel.
+
+### Changes and Improvements
+* [Meet Now in the Windows 10 Taskbar](https://blogs.windows.com/windows-insider/2020/09/23/announcing-windows-10-insider-preview-build-20221/) is now available to all Windows Insiders in the Dev Channel.
+* We’re starting to roll out a change to enable displaying graphics card information listed under Settings > System > About, and some Insiders may see this on their PCs.
+* Our change to enable [moving the text cursor via gestures on the touch keyboard](https://blogs.windows.com/windows-insider/2020/09/02/announcing-windows-10-insider-preview-build-20206/) is now rolling out to all Insiders in the Dev Channel.
+
 ## Build 20226
 Windows 10 Insider Preview Build 20226 was released to the Dev Channel on [9/30/2020](https://blogs.windows.com/windows-insider/2020/09/30/announcing-windows-10-insider-preview-build-20226/).
 
@@ -49,7 +84,7 @@ Join a meeting:
 ![Join a meeting](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2020/09/menow21-join-800-v3.C0.9.gif "Join a meeting in Meet Now.")
 
 >[!NOTE]
->This feature is rolling out to a subset of Insiders in the Dev Channel at first, to help us quickly identify issues that may impact performance and reliability. Rest assured they will be gradually rolled out to everyone in the Dev Channel.
+>T~~his feature is rolling out to a subset of Insiders in the Dev Channel at first, to help us quickly identify issues that may impact performance and reliability. Rest assured they will be gradually rolled out to everyone in the Dev Channel.~~ This is now available to all Insiders in the Dev Channel as of Build 20231.
 
 ### Changes and Improvements
 * As some Insiders may have noticed, we’re adding a notification to let you know when an app registers to run at startup (Settings > Apps > Startup Apps).
@@ -173,7 +208,7 @@ All you need to do is place a finger on the space bar and slide your finger left
 We’ll be continuing to work on input in Windows and would love to hear your thoughts on further improvements.
 
 >[!NOTE] 
->This feature is rolling out to a subset of Insiders in the Dev Channel at first, to help us quickly identify issues that may impact performance and reliability. Rest assured they will be gradually rolled out to everyone in the Dev Channel.
+>~~This feature is rolling out to a subset of Insiders in the Dev Channel at first, to help us quickly identify issues that may impact performance and reliability. Rest assured they will be gradually rolled out to everyone in the Dev Channel.~~ This is now available to all Insiders in the Dev Channel as of Build 20231. 
 
 ## Build 20201
 Windows 10 Insider Preview Build 20201 was released to the Dev Channel on [8/26/2020](https://blogs.windows.com/windows-insider/2020/08/26/announcing-windows-10-insider-preview-build-20201/).
