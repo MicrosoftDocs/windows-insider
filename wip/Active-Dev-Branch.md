@@ -208,7 +208,7 @@ All you need to do is place a finger on the space bar and slide your finger left
 We’ll be continuing to work on input in Windows and would love to hear your thoughts on further improvements.
 
 >[!NOTE] 
->~This feature is rolling out to a subset of Insiders in the Dev Channel at first, to help us quickly identify issues that may impact performance and reliability. Rest assured they will be gradually rolled out to everyone in the Dev Channel.~ This is now available to all Insiders in the Dev Channel as of Build 20231. 
+>~~This feature is rolling out to a subset of Insiders in the Dev Channel at first, to help us quickly identify issues that may impact performance and reliability. Rest assured they will be gradually rolled out to everyone in the Dev Channel.~~ This is now available to all Insiders in the Dev Channel as of Build 20231. 
 
 ## Build 20201
 Windows 10 Insider Preview Build 20201 was released to the Dev Channel on [8/26/2020](https://blogs.windows.com/windows-insider/2020/08/26/announcing-windows-10-insider-preview-build-20201/).
