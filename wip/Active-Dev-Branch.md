@@ -14,6 +14,17 @@ ms.prod: w10
 # The Changelog
 The Changelog represents everything new from all the builds from the Active Development Branch (RS_PRELEASE) released to the **Dev Channel**. This page includes everything noted as part of the "What's new" and "General changes & improvements" sections of the blog posts published for each build [on the Windows Blog](https://blogs.windows.com/windows-insider/) and does not contain other noted updates for Insiders, fixes, or known issues. 
 
+## Build 20236
+Windows 10 Insider Preview Build 20236 was released to the Dev Channel on [10/14/2020](https://blogs.windows.com/windows-insider/2020/10/14/announcing-windows-10-insider-preview-build-20236/).
+
+### Change Refresh Rate of your display
+You can now go to Settings > System > Display > Advanced display settings and change the refresh rate of your selected display. A higher refresh rate allows for smoother motion. The presented refresh rates can vary with the supported hardware on your device.
+
+![Refresh rate](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2020/10/refresh-rate.png "Showing the new refresh rate dropdown in Advanced Display Settings.")
+
+### Changes and Improvements
+* To improve accessibility of PDFs for Narrator and other screen reader users, in the cases where Unicode is not provided by the printing application, we’re updating our Microsoft Print to PDF option to make an attempt to convert the provided font glyphs to Unicode.
+
 ## Build 20231
 Windows 10 Insider Preview Build 20231 was released to the Dev Channel on [10/7/2020](https://blogs.windows.com/windows-insider/2020/10/07/announcing-windows-10-insider-preview-build-20231/).
 

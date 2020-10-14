@@ -47,7 +47,9 @@ landingContent:
           - text: Choosing your data settings
             url: https://docs.microsoft.com/windows-insider/data-settings
           - text: Using ISOs
-            url: https://docs.microsoft.com/windows-insider/ISOs  
+            url: https://docs.microsoft.com/windows-insider/ISOs
+          - text: Checking if you're flighting
+            url: https://docs.microsoft.com/windows-insider/check-flighting-status  
           - text: Updating from an expiring Insider Preview build
             url: https://docs.microsoft.com/windows-insider/build-expiration       
 
