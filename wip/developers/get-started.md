@@ -75,7 +75,7 @@ Afrikaans (South Africa), Albanian (Albania), Amharic, Armenian, Assamese, Azerb
 
 1. [Download the latest SDK Insider Preview from the Windows Insider Program website.](https://insider.windows.com/for-developers-getting-started#download)
 
-2. Check the [SDK Insider Preview release notes](https://blogs.windows.com/windowsdeveloper/) for details on new APIs, controls, issues, fixes, and more for each preview.
+2. Check the [SDK Insider Preview release notes](https://blogs.windows.com/windowsdeveloper/) for details on new APIs, controls, issues, fixes, and more for major releases.
 
 3. Use the SDK Insider Preview with Windows 10 Insider Preview Builds to develop and update your apps to work with the latest versions of Windows 10.
 
