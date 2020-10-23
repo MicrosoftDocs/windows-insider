@@ -153,15 +153,11 @@ If you aren't seeing any updates available, you might need to adjust your settin
 
 If you no longer want to receive Insider Preview builds, you'll have to unenroll your device. If you don't leave the program though, you will continue to receive emails. To unenroll your device:
 
-1. Go to **[Settings > Update & Security > Windows Insider Program](https://aka.ms/WIPSettings)**, and under **Stop Insider Preview Builds**, flip the switch. 
+1. Go to **[Settings > Update & Security > Windows Insider Program](https://aka.ms/WIPSettings) > Stop Insider Preview Builds** to see your options.
 
-2. Depending on which build and channel your device was in, you might have to wait for this to take effect or take further action to recover your device.
+2. If you're in the Beta Channel or the Release Preview Channel, you can flip the switch to stop stop getting preview builds on your device when the next major release of Windows 10 launches to the public. (If your device is currently running a public release of Windows, this will immediately opt you out of getting preview builds. Just restart your device to complete the process.)
 
-- If your device is currently running a public release of Windows, this will immediately opt you out of getting preview builds. Just restart your device to complete the process.
-
-- If your device was on a preview build in the Beta Channel or Release Preview Channel, it will continue getting updates until the next public release is installed. Once that happens, it will opt you out of future preview builds, without any further action from you. This is to make sure your device doesn't get stuck on an unsupported version of Windows that could have security issues. Depending on where that channel's builds are in the development cycle, this could take some time.
-
-- If your device was on a preview build in the Dev Channel, or you don't want to wait for the next public release in the Beta Channel or Release Preview Channel, you should [complete a clean installation of Windows](https://support.microsoft.com/help/4000735/windows-10-reinstall#Clean%20install%20of%20Windows%2010%20using%20installation%20media). 
+3. If you're in the Dev Channel or you'd like to stop getting preview builds immediately, you should [use these instructions to complete a clean installation of Windows 10](https://support.microsoft.com/help/4000735/windows-10-reinstall#Clean%20install%20of%20Windows%2010%20using%20installation%20media).
 
 > [!NOTE] 
 > If you're receiving Insider Preview builds through work but aren't the administrator, you will still get preview builds until your organization leaves the program or adjusts your settings. 
