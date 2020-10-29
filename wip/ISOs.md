@@ -28,7 +28,7 @@ If your device is hard to use because of an issue, or if you want to switch out 
 
 4. During setup, select the **Keep Windows settings, personal files, and apps** option.
 
-5. Once it's finished installing, go to **[Settings > Update & Security > Windows Insider Program](https://aka.ms/WIPSettings)** to make sure your Windows Insider settings are correct.
+5. Once it's finished installing, go to [**Settings** > **Update & Security** > **Windows Insider Program**](https://aka.ms/WIPSettings) to make sure your Windows Insider settings are correct.
 
 ## Clean installation with a Windows Insider Preview ISO 
 
@@ -42,7 +42,7 @@ If your device is hard to use because of an issue, or if you want to switch out 
 
 5. During setup, select the **Change what to keep** option, and then choose **Nothing** on the next screen to complete a clean intall.
 
-6. Once it's finished installing, go to **[Settings > Update & Security > Windows Insider Program](https://aka.ms/WIPSettings)** to make sure your Windows Insider settings are correct.
+6. Once it's finished installing, go to [**Settings** > **Update & Security** > **Windows Insider Program**](https://aka.ms/WIPSettings) to make sure your Windows Insider settings are correct.
 
 ## Creating a bootable USB for Windows Insider ISOs
 
@@ -93,4 +93,4 @@ If you're having certain issues that prevent you from downloading an ISO to your
 
 5. During setup, select the **Change what to keep** option, and then choose **Nothing** on the next screen to complete a clean intall.
 
-6. Once it's finished installing, go to **[Settings > Update & Security > Windows Insider Program](https://aka.ms/WIPSettings)** if you'd like to set up Insider Preview builds again. [Get more help setting up Insider Preview builds.](https://docs.microsoft.com/windows-insider/get-started)
+6. Once it's finished installing, go to [**Settings** > **Update & Security** > **Windows Insider Program**](https://aka.ms/WIPSettings) if you'd like to set up Insider Preview builds again. [Get more help setting up Insider Preview builds.](https://docs.microsoft.com/windows-insider/get-started)

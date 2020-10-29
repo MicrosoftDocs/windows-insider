@@ -15,7 +15,7 @@ As a Windows Insider, your feedback can change and improve Windows for users aro
 
 ## Explore the Feedback Hub 
 
-The [Feedback Hub](https://aka.ms/WIPFeedbackHub) is an app available on Windows devices. You can search for it, press the Windows key + F to open it, or find it in your Start menu to get started. Sign in with the account that that you used to register for the Windows Insider Program to get access to all its features.
+The [Feedback Hub](https://aka.ms/WIPFeedbackHub) is an app available on Windows devices. You can search for it, press **Win** + **F** to open it, or find it in your Start menu to get started. Sign in with the account that that you used to register for the Windows Insider Program to get access to all its features.
 
 ### Home section
 
@@ -135,7 +135,7 @@ First, check if feedback already exists for your problem or suggestion. If your 
 
 8. Once you're done filling out these details, or if you're submitting a suggestion, under the **Attachments** section, you can attach any related information you have.
 
-- **Attach a screenshot** - Press Ctrl + V to paste an image from your clipboard or go to where you're seeing the issue and press the Windows key + Print screen to take a screenshot that gets saved to your Pictures > Screenshots folder. Then **Choose a screenshot** to attach the file. 
+- **Attach a screenshot** - Press **Ctrl** + **V** to paste an image from your clipboard or go to where you're seeing the issue and press **Win** + **PrtScn** to take a screenshot that gets saved to your **Pictures** > **Screenshots** folder. Then **Choose a screenshot** to attach the file. 
 
 - **Attach a file** - Select this to use File Explorer to find and attach the file you'd like to submit with your feedback.
 

@@ -34,7 +34,7 @@ To register your domain:
 
 To receive Insider Preview builds, devices must be joined to the same AAD domain that you used to register with the program.
 
-1. To join individual devices, go to **[Settings > Accounts > Access work or school](https://aka.ms/WorkAccountSettings)**, select **Join this device to Azure Active Directory**, and log in with your AAD account. Get more detailed instructions for this on [Microsoft Azure Docs](https://docs.microsoft.com/azure/active-directory/user-help/user-help-join-device-on-network).
+1. To join individual devices, go to [**Settings** > **Accounts** > **Access work or school**](https://aka.ms/WorkAccountSettings), select **Join this device to Azure Active Directory**, and log in with your AAD account. Get more detailed instructions for this on [Microsoft Azure Docs](https://docs.microsoft.com/azure/active-directory/user-help/user-help-join-device-on-network).
 
 2. If you have your organization's devices attached to Active Directory Domain Services, you can also bulk import all of them with [Azure AD Connect](https://docs.microsoft.com/azure/active-directory/hybrid/whatis-hybrid-identity).
  
@@ -58,21 +58,21 @@ You can use Windows Update for Business (Group Policy or Mobile Device Managemen
 
 1. In the Group Policy Management Console (GPMC), create a Group Policy Object and add it to the Organizational Unit that has the devices you want to manage in it.
 
-2. Go to **Computer Configuration > Administrative Templates > Windows Components > Data Collection and Preview Builds > Allow Telemetry**. 
+2. Go to **Computer Configuration** > **Administrative Templates** > **Windows Components** > **Data Collection and Preview Builds** > **Allow Telemetry**. 
 
 3. Inside **Allow Telemetry**, select the Enabled radio button. Under Options, set the dropdown to 3 - Full, and apply.
 
-5. Go to **Computer Configuration > Administrative Templates > Windows Components > Windows Update > Windows Update for Business** and open **Manage preview builds**.
+5. Go to **Computer Configuration** > **Administrative Templates** > **Windows Components** > **Windows Update** > **Windows Update for Business** and open **Manage preview builds**.
 
 6. Inside **Manage preview builds**, select the Enabled radio button, and apply. (Under the **Options** section's **Enable preview builds** dropdown, you can also prevent installation on selected devices or set it to stop Insider Preview builds once a release is public.)
 
-7. Go back to **Computer Configuration > Administrative Templates > Windows Components > Windows Update > Windows Update for Business** and open **Select when Preview Builds and Feature Updates are received**.
+7. Go back to **Computer Configuration** > **Administrative Templates** > **Windows Components** > **Windows Update** > **Windows Update for Business** and open **Select when Preview Builds and Feature Updates are received**.
 
 8. Inside **Select when Preview Builds and Feature Updates are received**, select the Enabled radio button. Under **Options**, choose the channel you'd like to get Insider Preview builds from the dropdown. (You can also choose to defer or pause builds here.)
 
 ![Select when Preview Builds and Feature Updates are received configuration screen](images/wip-4-biz-gpo.png)
 
-[Learn more about using Group Policy to configure Windows Update for Business >](https://docs.microsoft.com/windows/deployment/update/waas-wufb-group-policy)
+[Learn more about using Group Policy to configure Windows Update for Business.](https://docs.microsoft.com/windows/deployment/update/waas-wufb-group-policy)
 
 > [!NOTE] 
 > You can also schedule update installations, choose active hours, and set policies for restart. [Learn more about managing device restarts after updates.](https://docs.microsoft.com/windows/deployment/update/waas-restart)
@@ -81,7 +81,7 @@ You can use Windows Update for Business (Group Policy or Mobile Device Managemen
 
 1. Log in to the [Azure portal](https://portal.azure.com) and select **Intune**.
 
-2. Go to **Software Updates > Windows 10 Update Rings** and select **+ Create** to make an Update Ring policy.
+2. Go to **Software Updates** > **Windows 10 Update Rings** and select **+ Create** to make an Update Ring policy.
 
 3. Add a name and select the **Settings** section to configure its settings.
 
@@ -120,7 +120,7 @@ To set up Insider Preview builds through other MDM service providers, use these 
 > [!NOTE] 
 > While this option will be visible on every version of Configuration Manager, you must be running Configuration Manager, version 1906 or newer to select it.
 
-2. If you already manage your organization’s deployments using Configuration Manager, go to **Software Library > Overview > Windows 10 Servicing > All Windows 10 Updates** to use the same procedure you currently use to deploy Windows 10 feature updates. In the list of **All Windows 10 Updates**, you'll see an option for **Windows Insider Pre-release Feature Update to Windows 10 Version 1909**.
+2. If you already manage your organization’s deployments using Configuration Manager, go to **Software Library** > **Overview** > **Windows 10 Servicing** > **All Windows 10 Updates** to use the same procedure you currently use to deploy Windows 10 feature updates. In the list of **All Windows 10 Updates**, you'll see an option for **Windows Insider Pre-release Feature Update to Windows 10 Version 1909**.
 
 ![Choosing and deploying Windows Insider Pre-release Feature Update to Windows 10 Version 1909 from All Windows 10 Updates.](images/Soft-Lib-WIP-1213.gif)
 
@@ -134,7 +134,7 @@ To set up Insider Preview builds through other MDM service providers, use these 
 
 ## Confirm installations
 
-Once a policy has been set, restart the device to activate the policy. Then, to confirm that your policies have been set correctly, go to **[Settings > Update & Security > Windows Update](https://aka.ms/WIPWindowsUpdate)** on one of the targeted devices and select **View configured update policies**. 
+Once a policy has been set, restart the device to activate the policy. Then, to confirm that your policies have been set correctly, go to [**Settings** > **Update & Security** > **Windows Update**](https://aka.ms/WIPWindowsUpdate) on one of the targeted devices and select **View configured update policies**. 
 
 You can also check this key in the Registry Editor on the device: 
 - **HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate** 
