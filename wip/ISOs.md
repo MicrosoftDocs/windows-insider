@@ -28,7 +28,7 @@ If your device is hard to use because of an issue, or if you want to switch out 
 
 4. During setup, select the **Keep Windows settings, personal files, and apps** option.
 
-5. Once it's finished installing, go to [**Settings** > **Update & Security** > **Windows Insider Program**](https://aka.ms/WIPSettings)** to make sure your Windows Insider settings are correct.
+5. Once it's finished installing, go to [**Settings** > **Update & Security** > **Windows Insider Program**](https://aka.ms/WIPSettings) to make sure your Windows Insider settings are correct.
 
 ## Clean installation with a Windows Insider Preview ISO 
 
