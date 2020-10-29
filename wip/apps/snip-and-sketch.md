@@ -33,15 +33,15 @@ Do you tend to retake snips multiple times in order to get the perfect screensho
  
 **Zoom** 
 
-You can now zoom in on your screenshots if they’re a bit too small for you to annotate on. And yes, touch, **CTRL + Plus**, **CTRL + Minus**, and **Ctrl + Mouse wheel** are supported! 
+You can now zoom in on your screenshots if they’re a bit too small for you to annotate on. And yes, touch, **CTRL + Plus**, **CTRL** + **Minus**, and **Ctrl** + **(Mouse wheel)** are supported! 
 
 If you prefer keeping a small Snip & Sketch window, we’ll also zoom out to ensure the whole snip fits in the Snip & Sketch window. If you want to see the snip at its original size, select the zoom button and then **View actual size**.
 
 ![Showing a small Snip & Sketch window, where the screenshot has been shrunk to fit the window.](images/18985.jpg)
 
-**Improving WIN+Shift+S discoverability** 
+**Improving WIN + Shift + S discoverability** 
 
-You mentioned you loved learning about using **WIN + Shift + S** to take new snips any time, and we thought others would too! If you haven’t taken a snip yet, we’ll now use the canvas space in Snip & Sketch to help you learn how to start a snip without needing to open the app first. 
+You mentioned you loved learning about using **WIN** + **Shift** + **S** to take new snips any time, and we thought others would too! If you haven’t taken a snip yet, we’ll now use the canvas space in Snip & Sketch to help you learn how to start a snip without needing to open the app first. 
 
 These changes are currently available for a portion of Insiders in the Fast ring as we evaluate the quality before continuing the rollout. Note the rollout for each change mentioned above is being handled separately, with separate random populations in the initial rollout, so seeing one of the changes with app version 10.1907.2064.0 doesn’t necessarily mean you’ll see all three.
 
@@ -51,7 +51,7 @@ We’re in the process of rolling out a new app update to Snip & Sketch. It incl
 
 * We fixed an issue that could result in snips being a bit blurry after saving or copying to clipboard.
 * We fixed an issue where copying to clipboard would fail if you switched out of the app while the copy operation was in progress.
-* We fixed an issue where the suggested file name was unexpectedly a GUID for snips opened from **Win + Shift + S** toast notification.
+* We fixed an issue where the suggested file name was unexpectedly a GUID for snips opened from **Win** + **Shift** + **S** toast notification.
 * We’ve added Narrator (screen reader) confirmations when a snip is copied to clipboard.
 * We’ve updated the default save format to be png. You can still use the dropdown when saving to pick your desired format if it’s not png.
 * We fixed an issue where auto-copy changes to clipboard wasn’t working on return from Snip & Sketch settings.
@@ -72,7 +72,7 @@ Also, Window snip & borders are both now available to 100 percent of Insiders in
 
 ### Bring window snip to your modern snipping experience
 
- Start your snip via your preferred entry point—**WIN + Shift + S**, **Print Screen** (if you’ve enabled it), directly from within Snip & Sketch—and select the window snip option at the top, and snip away! That selection will be remembered the next time you start a snip.
+ Start your snip via your preferred entry point—**WIN** + **Shift** + **S**, **Print Screen** (if you’ve enabled it), directly from within Snip & Sketch—and select the window snip option at the top, and snip away! That selection will be remembered the next time you start a snip.
 
 ![Windows Snip window](images/snip_window.png)
 
