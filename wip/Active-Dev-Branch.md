@@ -14,6 +14,66 @@ ms.prod: w10
 # The Changelog
 The Changelog represents everything new from all the builds from the Active Development Branch (RS_PRELEASE) released to the **Dev Channel**. This page includes everything noted as part of the "What's new" and "General changes & improvements" sections of the blog posts published for each build [on the Windows Blog](https://blogs.windows.com/windows-insider/) and does not contain other noted updates for Insiders, fixes, or known issues. 
 
+## Build 20241
+Windows 10 Insider Preview Build 20241 was released to the Dev Channel on [10/21/2020](https://blogs.windows.com/windows-insider/2020/10/21/announcing-windows-10-insider-preview-build-20241/).
+
+### Introducing theme-aware splash screens for apps
+Building on theme-aware tiles in Start, we’re introducing theme-aware splash screens for Universal Windows Platform (UWP) apps. Now, when an eligible UWP app is launched, the splash screen color will match your default app mode. For example, if you have light theme turned on, you’ll see a light theme splash screen, and if you have dark theme turned on (for the “default app mode”) then you’ll see a dark theme splash screen.
+
+Settings app splash screen before and after in light theme:
+
+![Theme-aware splash light](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2020/10/Settings-Light-Before-After-GIF.gif "Settings splash screen before and after in light theme.")
+
+Settings app splash screen before and after in dark theme:
+
+![Theme-aware splash light](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2020/10/Settings-Dark-Before-After-GIF.gif "Settings splash screen before and after in dark theme.")
+
+The following apps support theme-aware splash screens today:
+
+* Settings
+* Store
+* Windows Security
+* Alarms & Clock
+* Calculator
+* Maps
+* Voice Recorder
+* Groove
+* Movies & TV
+* Snip & Sketch
+* Microsoft ToDo
+* Office
+* Feedback Hub
+* Microsoft Solitaire Collection
+
+Over time, more apps will be updated via the Store to support having a theme-aware splash screen.
+
+_NOTE: Some apps like Store and Feedback Hub may show an extended splash screen in your accent color instead of the theme-aware light or dark theme._ 
+
+>[!NOTE]
+>This feature is rolling out to a subset of Insiders in the Dev Channel at first to help us quickly identify issues that may impact performance and reliability. Rest assured they will be gradually rolling out to everyone in the Dev Channel. 
+
+### Enhancing your defrag experience
+We’re making a few changes to the Optimize Drives page (Settings > System > Storage > Optimize Drives), including:
+
+* Adding a new “Advanced View” checkbox to list all volumes including hidden volumes. Please note we’re still getting this one up and running, so you’ll see the checkbox in this build, but may not notice any differences when you click it.
+* Listing more details in the “Current status” column when volumes are not available for defrag (for example, “Partition type not supported” and “File system type not supported”).
+* Adding support for pressing F5 to refresh.
+
+### Changes and Improvements
+* To help ensure Narrator users are aware of notifications on the screen, if a high priority notification appears while the computer is locked and stays on the screen, we will now also read it out when unlocking your PC and not just at arrival time.
+* We’re removing the Japanese Address and Rinna candidate suggestion services from the Japanese IME – thank you Windows Insiders who’ve shared feedback on them.
+
+## Build 20236
+Windows 10 Insider Preview Build 20236 was released to the Dev Channel on [10/14/2020](https://blogs.windows.com/windows-insider/2020/10/14/announcing-windows-10-insider-preview-build-20236/).
+
+### Change Refresh Rate of your display
+You can now go to Settings > System > Display > Advanced display settings and change the refresh rate of your selected display. A higher refresh rate allows for smoother motion. The presented refresh rates can vary with the supported hardware on your device.
+
+![Refresh rate](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2020/10/refresh-rate.png "Showing the new refresh rate dropdown in Advanced Display Settings.")
+
+### Changes and Improvements
+* To improve accessibility of PDFs for Narrator and other screen reader users, in the cases where Unicode is not provided by the printing application, we’re updating our Microsoft Print to PDF option to make an attempt to convert the provided font glyphs to Unicode.
+
 ## Build 20231
 Windows 10 Insider Preview Build 20231 was released to the Dev Channel on [10/7/2020](https://blogs.windows.com/windows-insider/2020/10/07/announcing-windows-10-insider-preview-build-20231/).
 
