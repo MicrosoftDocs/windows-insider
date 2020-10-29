@@ -25,7 +25,7 @@ When giving feedback or getting support it can be important that you know how to
 
 - **Find the build number your device is on currently.**
 
-Go to **[Settings > System > About](https://aka.ms/AboutSettings)**, and your OS build number will show under Windows specifications. 
+Go to [**Settings** > **System** > **About**](https://aka.ms/AboutSettings), and your OS build number will show under Windows specifications. 
 
 Or you can also type **winver** into your search and open it to see your latest Windows details, including OS build number.
 
@@ -34,12 +34,12 @@ Or you can also type **winver** into your search and open it to see your latest 
 
 - **Find which channel your device is in.**
 
-Go to **[Settings > Update & Security > Windows Insider Program](https://aka.ms/WIPSettings)**. Under **Pick your Insider settings**, you'll see your current channel.
+Go to [**Settings** > **Update & Security** > **Windows Insider Program**](https://aka.ms/WIPSettings). Under **Pick your Insider settings**, you'll see your current channel.
 
 
 - **Check which Microsoft Account (MSA) or Azure Active Directory (AAD) account you're using on your device.**
 
-Go to **[Settings > Update & Security > Windows Insider Program](https://aka.ms/WIPSettings)**. Under Windows Insider account, you'll see the account it's tied to.
+Go to [**Settings** > **Update & Security** > **Windows Insider Program**](https://aka.ms/WIPSettings). Under Windows Insider account, you'll see the account it's tied to.
 
 ## Changing channels
 
@@ -63,21 +63,21 @@ To install Windows 10 Insider Preview Builds, you must be running a licensed ver
 
 4. **Make sure Windows is activated.**
 
-Windows must be activated to run Windows Insider Preview builds. Go to **[Settings > Update & Security > Activation](https://aka.ms/ActivationSettings)** to make sure your copy is activated.
+Windows must be activated to run Windows Insider Preview builds. Go to [**Settings** > **Update & Security** > **Activation**](https://aka.ms/ActivationSettings) to make sure your copy is activated.
 
 5. **Manually check for updates.**
 
-Go to **[Settings > Update & Security > Windows Update](https://aka.ms/WIPWindowsUpdate)** and select **Check for Updates**. If you have set active hours, make sure your device is left turned on and signed in during your off-hours, so the update can install.
+Go to [**Settings** > **Update & Security** > **Windows Update**](https://aka.ms/WIPWindowsUpdate) and select **Check for Updates**. If you have set active hours, make sure your device is left turned on and signed in during your off-hours, so the update can install.
 
 6. **Check you're signed in with a registered account.**
 
 You must be registered as a Windows Insider to get preview builds. [You can register on our website.](https://insider.windows.com/getting-started) If you're already registered, when you log in to the site, you'll no longer be able to see register options on the site.
 
-Make sure your device is connected to your registered account under **[Settings > Accounts > Access work or school](https://aka.ms/WorkAccountSettings)**. 
+Make sure your device is connected to your registered account under [**Settings** > **Accounts** > **Access work or school**](https://aka.ms/WorkAccountSettings). 
 
 7. **Check your program settings.**
 
-Go to **[Settings > Update & Security > Windows Insider Program](https://aka.ms/WIPSettings)** and make sure you've activated the Windows Insider Program on your device and that you've chosen a channel to receive builds from. [Learn more about channels.](https://docs.microsoft.com/windows-insider/flighting)
+Go to [**Settings** > **Update & Security** > **Windows Insider Program**](https://aka.ms/WIPSettings) and make sure you've activated the Windows Insider Program on your device and that you've chosen a channel to receive builds from. [Learn more about channels.](https://docs.microsoft.com/windows-insider/flighting)
 
 8. **Check your data settings.**
 
@@ -102,7 +102,7 @@ We document known issues in our [flight blog posts](https://blogs.windows.com/bl
 
 2. **Check for updates.**
 
-Make sure there's not a newer build available that could fix the issue by going to **[Settings > Update & Security > Windows Update](https://aka.ms/WIPWindowsUpdate)** and selecting **Check for Updates**.
+Make sure there's not a newer build available that could fix the issue by going to [**Settings** > **Update & Security** > **Windows Update**](https://aka.ms/WIPWindowsUpdate) and selecting **Check for Updates**.
 
 3. **Decide how serious the issue is.**
 
@@ -110,7 +110,7 @@ Can you still use your device or is key functionality broken? Is it a single app
 
 4. **File feedback.**
 
-Tell us about the issue you're seeing in the **[Feedback Hub](https://aka.ms/WIPFeedbackHub)** and include as many details, screenshots, and logs as possible along with your feedback.
+Tell us about the issue you're seeing in the [Feedback Hub](https://aka.ms/WIPFeedbackHub) and include as many details, screenshots, and logs as possible along with your feedback.
 
 5. **Recover or reset your device.**
 
@@ -129,13 +129,13 @@ If an issue is preventing you from getting updates or using your device, you hav
 
 Use Reset this PC to reset your device, which will reinstall Windows on the same build you're currently on. 
 
-Go to **[Settings > Update & Security > Recovery](https://aka.ms/WIPRecoverySettings)**, and under **Reset this PC**, select **Get Started**. Follow its directions to reset your device.
+Go to [**Settings** > **Update & Security** > **Recovery**](https://aka.ms/WIPRecoverySettings), and under **Reset this PC**, select **Get Started**. Follow its directions to reset your device.
 
 2. **Roll back to a previous build.**
 
 If your device was working on the previous build, you can roll back for 10 days (or until you take the next build) after installing the update without having to completely reset your device. After that, you'll have to take a new update or do a clean install.
 
-To roll back, go to **[Settings > Update & Security > Recovery](https://aka.ms/WIPRecoverySettings)**, and under **Go back to the previous version of Windows 10**, select **Get Started**. Follow its directions to finish rolling back.
+To roll back, go to [**Settings** > **Update & Security** > **Recovery**](https://aka.ms/WIPRecoverySettings), and under **Go back to the previous version of Windows 10**, select **Get Started**. Follow its directions to finish rolling back.
 
 3. **Clean install Windows or an Insider Preview build.**
 
@@ -145,7 +145,7 @@ For a fresh start, you can also do a clean installation of a different Insider P
 
 Insider Preview builds do expire eventually. Staying up to date is key to avoiding security risks, which is why expiration dates are important. 
 
-If your device is on an expiring build, you'll start getting notifications letting you know that you need to update. Go to **[Settings > Update & Security > Windows Update](https://aka.ms/WIPWindowsUpdate)** and select **Check for Updates** to get the latest update available in your channel.   
+If your device is on an expiring build, you'll start getting notifications letting you know that you need to update. Go to [**Settings** > **Update & Security** > **Windows Update**](https://aka.ms/WIPWindowsUpdate) and select **Check for Updates** to get the latest update available in your channel.   
 
 If you aren't seeing any updates available, you might need to adjust your settings or do a clean install. [Learn more about what to do if you're not seeing updates and your build is expiring.](https://docs.microsoft.com/windows-insider/build-expiration) 
 
@@ -153,7 +153,7 @@ If you aren't seeing any updates available, you might need to adjust your settin
 
 If you no longer want to receive Insider Preview builds, you'll have to unenroll your device. If you don't leave the program though, you will continue to receive emails. To unenroll your device:
 
-1. Go to **[Settings > Update & Security > Windows Insider Program](https://aka.ms/WIPSettings) > Stop Insider Preview Builds** to see your options.
+1. Go to [**Settings** > **Update & Security** > **Windows Insider Program**](https://aka.ms/WIPSettings) > **Stop Insider Preview Builds** to see your options.
 
 2. If you're in the Beta Channel or the Release Preview Channel, you can flip the switch to stop stop getting preview builds on your device when the next major release of Windows 10 launches to the public. (If your device is currently running a public release of Windows, this will immediately opt you out of getting preview builds. Just restart your device to complete the process.)
 
