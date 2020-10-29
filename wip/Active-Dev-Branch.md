@@ -12,7 +12,13 @@ ms.prod: w10
 ---
 
 # The Changelog
-The Changelog represents everything new from all the builds from the Active Development Branch (RS_PRELEASE) released to the **Dev Channel**. This page includes everything noted as part of the **What's new** and **General changes & improvements** sections of the blog posts published for each build [on the Windows Blog](https://blogs.windows.com/windows-insider/) and does not contain other noted updates for Insiders, fixes, or known issues. 
+The Changelog represents everything new from all the builds from the Active Development Branch released to the **Dev Channel**. This page includes everything noted as part of the "What's new" and "General changes & improvements" sections of the blog posts published for each build [on the Windows Blog](https://blogs.windows.com/windows-insider/) and does not contain other noted updates for Insiders, fixes, or known issues. 
+
+## Build 20246
+Windows 10 Insider Preview Build 20246 was released to the Dev Channel on [10/29/2020](https://blogs.windows.com/windows-insider/2020/10/29/announcing-windows-10-insider-preview-build-20246/).
+
+### Changes and Improvements
+* We added automatic Linux distro installation to the wsl.exe --install command! This means that users who wish to install the Windows Subsystem for Linux quickly can just type in wsl.exe --install into the command line and then will have a fully set up WSL instance ready to go, including their Linux distro of choice.
 
 ## Build 20241
 Windows 10 Insider Preview Build 20241 was released to the Dev Channel on [10/21/2020](https://blogs.windows.com/windows-insider/2020/10/21/announcing-windows-10-insider-preview-build-20241/).
