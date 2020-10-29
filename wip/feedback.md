@@ -137,8 +137,8 @@ First, check if feedback already exists for your problem or suggestion. If your 
 
 8. Once you're done filling out these details, or if you're submitting a suggestion, under the **Attachments** section, you can attach any related information you have.
 
-- **Attach a screenshot** - Press Ctrl + V to paste an image from your clipboard or go to where you're seeing the issue and press the Windows key + Print screen to take a screenshot that gets saved to your Pictures > Screenshots folder. Then **Choose a screenshot** to attach the file. 
-
+- **Attach a screenshot** - Press **Ctrl** + **V** to paste an image from your clipboard or go to where you're seeing the issue and press **Win** + **PrtScn** to take a screenshot that gets saved to your **Pictures** > **Screenshots folder**. Then **Choose a screenshot** to attach the file. 
+1
 - **Attach a file** - Select this to use File Explorer to find and attach the file you'd like to submit with your feedback.
 
 - **Recreate your problem or suggestion** - Check the default settings it's showing for your issue, and then **Start recording**. While it's recording, run through the steps that led to your issue or show us how you think your suggestion would work. When you're done, select **Stop capture** to attach it to your feedback. You can review and edit this data before you send it.
