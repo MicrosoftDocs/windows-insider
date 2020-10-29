@@ -26,7 +26,7 @@ Sometimes, as builds in the Beta Channel and Release Preview Channel get close t
 
 ## Look at About in Settings
 
-You can also see which version of Windows your device is on in the About section of Settings. Go to **[Settings > System > About > Windows specifications](https://aka.ms/AboutSettings)** to see which edition, version, and OS build your device is on.
+You can also see which version of Windows your device is on in the About section of Settings. Go to [**Settings** > **System** > **About** > **Windows specifications**](https://aka.ms/AboutSettings) to see which edition, version, and OS build your device is on.
 
 ![Windows' About Settings, scrolled down to the Windows specifications section to highlight your current OS build.](images/About.jpg "Channels overview and how rings move to them.")
 
@@ -48,7 +48,7 @@ Hit enter, and it will pull up which version your device is on. The last numbers
 
 ## Double-check your Windows Insider settings
 
-If checking your device information made you realize you’re not on the build that you expected, make sure your Windows Insider Program settings are right. Go to **[Settings > Update & Security > Windows Insider Program](https://aka.ms/WIPSettings)** to check if your registered Insider account is connected and if you’re in the right channel. [Learn more about our channels and what you can expect to see in each.](https://docs.microsoft.com/windows-insider/flighting)
+If checking your device information made you realize you’re not on the build that you expected, make sure your Windows Insider Program settings are right. Go to [**Settings** > **Update & Security** > **Windows Insider Program**](https://aka.ms/WIPSettings) to check if your registered Insider account is connected and if you’re in the right channel. [Learn more about our channels and what you can expect to see in each.](https://docs.microsoft.com/windows-insider/flighting)
 
 ![The Windows Insider Program's section in Settings showing your channel and the Insider account tied to your device.](images/WIP-settings.jpg "Channels overview and how rings move to them.")
 
