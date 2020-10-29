@@ -13,7 +13,7 @@ ms.prod: w10
 
 # Your Phone
 
-The latest major updates and features for Your Phone. We value your feedback, so give these features a try and let us know what you think. You can report any issues under **Your Phone > Settings > Send feedback** or directly through the [Feedback Hub](https://aka.ms/yourphonefh).
+The latest major updates and features for Your Phone. We value your feedback, so give these features a try and let us know what you think. You can report any issues under **Your Phone** > **Settings** > **Send feedback** or directly through the [Feedback Hub](https://aka.ms/yourphonefh).
 
 ## September 30, 2020
 
@@ -117,7 +117,7 @@ Audio title track details are displayed and remain in sync with what’s playing
 * Android phone running 7.0+.
 * Apps that support media controls in their Android notifications. Some examples of popular apps that are supported include Spotify, Pandora, Amazon Music, Google Play Music, YouTube Music, Xiami Music, and Google Podcast.
 * **Show audio currently playing from my phone** will be turned on by default in the Your Phone app settings if Your Phone Notifications permissions are granted.
-* Individual audio apps require notifications permissions granted on your Android phone. Turn these on through **Android Settings > Notifications > select the audio app > turn Notifications on.**
+* Individual audio apps require notifications permissions granted on your Android phone. Turn these on through **Android Settings** > **Notifications** > **select the audio app** > **turn Notifications on.**
 
 **Known issues**
 
@@ -180,7 +180,7 @@ Continuing our strong partnership with Samsung from last August, we’re excited
 
 ### Copy and paste between devices and vice versa
 
-You can now copy and paste text and images between your phone and Windows 10 PC seamlessly. Simply turn on this feature in the Your Phone app settings and enjoy copying and pasting content with the familiar ctrl + C and ctrl + v commands on the PC or the tapping and holding gesture on your Android phone. It’s that simple.
+You can now copy and paste text and images between your phone and Windows 10 PC seamlessly. Simply turn on this feature in the Your Phone app settings and enjoy copying and pasting content with the familiar **Ctrl** + **C** and **Ctrl** + **V** commands on the PC or the tapping and holding gesture on your Android phone. It’s that simple.
 
 ![Screen showing settings to turn on cross-device copy and paste feature.](images/19582.png)
 
@@ -365,7 +365,7 @@ For users of TalkBack, you can now enable the Your Phone Companion accessibility
 
 You will now be able to interact with your Android phone’s apps at your preferred magnification while in phone screen. Focus tracking will seamlessly follow your keyboard focus and mouse pointer input.
 
-To enable the focus tracking accessibility feature, you must first turn on the Your Phone Companion accessibility service and TalkBack on your Android phone. Once these services are enabled, you can turn on Magnifier on your PC using the shortcut: Windows Key and the Plus sign (+) or open the app from your Windows menu.
+To enable the focus tracking accessibility feature, you must first turn on the Your Phone Companion accessibility service and TalkBack on your Android phone. Once these services are enabled, you can turn on Magnifier on your PC using the shortcut **Win** + **(+)** or open the app from your Windows menu.
 
 ![Your Phone focus tracking](images/18908-2.png)
 
@@ -452,12 +452,12 @@ We look forward to your feedback as we continue to test, learn, and improve the 
 
 **How set up Your Phone and notifications** 
 
-1.	In the Your Phone app on your PC (Start>Your Phone), sign in to your Microsoft account. 
-2.	Enter your mobile phone number so we can send you a link to install the Your Phone Companion app for Android on your phone. 
-3.	When you receive the text message from Microsoft, tap the link to install the companion app on your phone.
-4.	Open the companion app on your phone and follow the setup instructions.
-5.	If you're prompted to sign in to the companion app, be sure to use the same Microsoft account that you're using on your PC. 
-6.	Accept the notifications on your phone that requests access to your photos and other related permissions.
+1.  In the Your Phone app on your PC (**Start** > **Your Phone**), sign in to your Microsoft account. 
+2.  Enter your mobile phone number so we can send you a link to install the Your Phone Companion app for Android on your phone. 
+3.  When you receive the text message from Microsoft, tap the link to install the companion app on your phone.
+4.  Open the companion app on your phone and follow the setup instructions.
+5.  If you're prompted to sign in to the companion app, be sure to use the same Microsoft account that you're using on your PC. 
+6.  Accept the notifications on your phone that requests access to your photos and other related permissions.
 
 After you’ve completed the setup process on your Android phone and PC, you’ll be able to use the Your Phone app on your PC to see notifications and photos from your phone and send text messages from your PC. 
 

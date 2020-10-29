@@ -13,7 +13,7 @@ ms.prod: w10
 
 # Sticky Notes 
 
-The latest major updates and features for Sticky Notes. Let us know what you think in the [Feedback Hub](https://aka.ms/WIPFeedbackHub) by choosing **Apps > Sticky Notes** under **Category** when filing feeback.
+The latest major updates and features for Sticky Notes. Let us know what you think in the [Feedback Hub](https://aka.ms/WIPFeedbackHub) by choosing **Apps** > **Sticky Notes** under **Category** when filing feeback.
 
 ## August 7, 2019
 
@@ -50,7 +50,7 @@ Sticky Notes v3.6 is rolling out to those of you in Skip Ahead and on Builds 188
 
 * We improved speed and added icons to the context menu when you’re selecting text.
 * Multi-desktop support is finally here. Stick your notes wherever your work takes you.
-* Select specific notes with the taskbar or with **Alt + Tab** and **Win + Tab**. But don’t worry, Ctrl + Tab is still there for you to switch between your Sticky Notes.
+* Select specific notes with the taskbar or with **Alt** + **Tab** and **Win** + **Tab**. But don’t worry, **Ctrl** + **Tab** is still there for you to switch between your Sticky Notes.
 * We’ve made many bug fixes and improvements.
 
 ## November 30, 2018

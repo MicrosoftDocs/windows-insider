@@ -12,7 +12,13 @@ ms.prod: w10
 ---
 
 # The Changelog
-The Changelog represents everything new from all the builds from the Active Development Branch (RS_PRELEASE) released to the **Dev Channel**. This page includes everything noted as part of the "What's new" and "General changes & improvements" sections of the blog posts published for each build [on the Windows Blog](https://blogs.windows.com/windows-insider/) and does not contain other noted updates for Insiders, fixes, or known issues. 
+The Changelog represents everything new from all the builds from the Active Development Branch released to the **Dev Channel**. This page includes everything noted as part of the "What's new" and "General changes & improvements" sections of the blog posts published for each build [on the Windows Blog](https://blogs.windows.com/windows-insider/) and does not contain other noted updates for Insiders, fixes, or known issues. 
+
+## Build 20246
+Windows 10 Insider Preview Build 20246 was released to the Dev Channel on [10/29/2020](https://blogs.windows.com/windows-insider/2020/10/29/announcing-windows-10-insider-preview-build-20246/).
+
+### Changes and Improvements
+* We added automatic Linux distro installation to the wsl.exe --install command! This means that users who wish to install the Windows Subsystem for Linux quickly can just type in wsl.exe --install into the command line and then will have a fully set up WSL instance ready to go, including their Linux distro of choice.
 
 ## Build 20241
 Windows 10 Insider Preview Build 20241 was released to the Dev Channel on [10/21/2020](https://blogs.windows.com/windows-insider/2020/10/21/announcing-windows-10-insider-preview-build-20241/).
@@ -53,9 +59,9 @@ _NOTE: Some apps like Store and Feedback Hub may show an extended splash screen 
 >This feature is rolling out to a subset of Insiders in the Dev Channel at first to help us quickly identify issues that may impact performance and reliability. Rest assured they will be gradually rolling out to everyone in the Dev Channel. 
 
 ### Enhancing your defrag experience
-We’re making a few changes to the Optimize Drives page (Settings > System > Storage > Optimize Drives), including:
+We’re making a few changes to the Optimize Drives page (**Settings** > **System** > **Storage** > **Optimize Drives**), including:
 
-* Adding a new “Advanced View” checkbox to list all volumes including hidden volumes. Please note we’re still getting this one up and running, so you’ll see the checkbox in this build, but may not notice any differences when you click it.
+* Adding a new “Advanced View” checkbox to list all volumes including hidden volumes. Please note we’re still getting this one up and running, so you’ll see the checkbox in this build, but may not notice any differences when you select it.
 * Listing more details in the “Current status” column when volumes are not available for defrag (for example, “Partition type not supported” and “File system type not supported”).
 * Adding support for pressing F5 to refresh.
 
@@ -67,7 +73,7 @@ We’re making a few changes to the Optimize Drives page (Settings > System > St
 Windows 10 Insider Preview Build 20236 was released to the Dev Channel on [10/14/2020](https://blogs.windows.com/windows-insider/2020/10/14/announcing-windows-10-insider-preview-build-20236/).
 
 ### Change Refresh Rate of your display
-You can now go to Settings > System > Display > Advanced display settings and change the refresh rate of your selected display. A higher refresh rate allows for smoother motion. The presented refresh rates can vary with the supported hardware on your device.
+You can now go to **Settings** > **System** > **Display** > **Advanced display settings** and change the refresh rate of your selected display. A higher refresh rate allows for smoother motion. The presented refresh rates can vary with the supported hardware on your device.
 
 ![Refresh rate](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2020/10/refresh-rate.png "Showing the new refresh rate dropdown in Advanced Display Settings.")
 
@@ -106,7 +112,7 @@ _Please note: If your device does not have this feature enabled, the policy will
 
 ### Changes and Improvements
 * [Meet Now in the Windows 10 Taskbar](https://blogs.windows.com/windows-insider/2020/09/23/announcing-windows-10-insider-preview-build-20221/) is now available to all Windows Insiders in the Dev Channel.
-* We’re starting to roll out a change to enable displaying graphics card information listed under Settings > System > About, and some Insiders may see this on their PCs.
+* We’re starting to roll out a change to enable displaying graphics card information listed under **Settings** > **System** > **About**, and some Insiders may see this on their PCs.
 * Our change to enable [moving the text cursor via gestures on the touch keyboard](https://blogs.windows.com/windows-insider/2020/09/02/announcing-windows-10-insider-preview-build-20206/) is now rolling out to all Insiders in the Dev Channel.
 
 ## Build 20226
@@ -117,7 +123,7 @@ Attempting to recover data after drive failure is both frustrating and expensive
 
 ![Storage alert toast](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2020/09/DriveHealthToast.png "Image of toast notification sent to users when NVMe SSD abnormalities are detected.")
 
-Clicking on the notification or navigating to the drive properties page in Storage Settings (Settings -> System -> Storage -> Manage disks and volumes -> Properties) will provide additional details.
+Selecting the notification or navigating to the drive properties page in Storage Settings (**Settings** > **System** > **Storage** > **Manage disks and volumes** > **Properties**) will provide additional details.
 
 ![SSD properties page with alert](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2020/09/DriveHealth-Cropped.png "Image of toast notification sent to users when NVMe SSD abnormalities are detected.")
 
@@ -127,13 +133,13 @@ Clicking on the notification or navigating to the drive properties page in Stora
 * When you have a PWA installed from Microsoft Edge, Task Manager will now correctly display it under Applications instead of Background Processes in the Processes tab, and will show the app icon associated with the PWA.
 * We’re updating File Explorer so that if you right-click on a zipped OneDrive file that was set to online-only, you’ll now see an Extract All option, same as if the file was available locally on the PC.
 * We’re updating the new DNS options in Settings to make a static DNS entry required when entering a static IP, and to make gateway not a required field.
-* We’re updating the N’Ko keyboard layout so that pressing Shift + 6 will now insert ߾ (U+07FE ) and pressing Shift + 7 will now insert ߿ (U+07FF).
+* We’re updating the N’Ko keyboard layout so that pressing **Shift** + **6** will now insert ߾ (U+07FE ) and pressing **Shift** + **7** will now insert ߿ (U+07FF).
 
 ## Build 20221
 Windows 10 Insider Preview Build 20221 was released to the Dev Channel on [9/23/2020](https://blogs.windows.com/windows-insider/2020/09/23/announcing-windows-10-insider-preview-build-20221/).
 
 ### Introducing Meet Now in the Windows 10 Taskbar
-Earlier this year we introduced Meet Now in Skype. Meet Now makes it easy to connect with anyone in as little as two clicks for free and each call can last up to 24 hours. Today, we’re excited to share that we are extending this capability in Windows 10 by bringing Meet Now right to the taskbar. You can now easily set up a video call and reach friends and family in an instant by clicking on the Meet Now icon in the notification area (system tray) of the taskbar in Windows 10. No sign ups or downloads needed.
+Earlier this year we introduced Meet Now in Skype. Meet Now makes it easy to connect with anyone in as little as two clicks for free and each call can last up to 24 hours. Today, we’re excited to share that we are extending this capability in Windows 10 by bringing Meet Now right to the Taskbar. You can now easily set up a video call and reach friends and family in an instant by selecting the Meet Now icon in the notification area (system tray) of the Taskbar in Windows 10. No sign ups or downloads needed.
 
 Create a meeting:
 
@@ -144,10 +150,10 @@ Join a meeting:
 ![Join a meeting](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2020/09/menow21-join-800-v3.C0.9.gif "Join a meeting in Meet Now.")
 
 >[!NOTE]
->T~~his feature is rolling out to a subset of Insiders in the Dev Channel at first, to help us quickly identify issues that may impact performance and reliability. Rest assured they will be gradually rolled out to everyone in the Dev Channel.~~ This is now available to all Insiders in the Dev Channel as of Build 20231.
+>This feature is rolling out to a subset of Insiders in the Dev Channel at first, to help us quickly identify issues that may impact performance and reliability. Rest assured they will be gradually rolled out to everyone in the Dev Channel.~~ This is now available to all Insiders in the Dev Channel as of Build 20231.
 
 ### Changes and Improvements
-* As some Insiders may have noticed, we’re adding a notification to let you know when an app registers to run at startup (Settings > Apps > Startup Apps).
+* As some Insiders may have noticed, we’re adding a notification to let you know when an app registers to run at startup (**Settings** > **Apps** > **Startup Apps**).
 * With most of the launches of the People app coming directly from within the Mail and Calendar apps in Windows 10, the People app no longer appears as a standalone app in Start. It remains as an inbox app and can be launched to manage your contacts from the button in the Mail and Calendar apps.
 
 ## Build 20215
@@ -176,15 +182,15 @@ We know that you need more than just emojis to properly convey your message when
 
 * An updated design: We are making the experience more aligned with our Fluent Design principles, including a new acrylic background.
 * Emoji search: We are improving discoverability of emoji search in supported languages by having an inline search box.
-* Animated GIF support, including search: Going forward, WIN + [.] and WIN + [;] will now enable you to quickly input animated GIFs. The selection of animated gifs will be continuously updated based on current trends and #hashtags. Search is also available for those times where you need to find the perfect reaction gif to succinctly communicate your message.
-* Converging our input experiences across emoji and clipboard history: We are bringing input and clipboard history together into a single experience. You can still press WIN + V to go straight to clipboard history, but now you can also access it by switching to the “Clipboard” category after pressing WIN + [.] or WIN + [;].
+* Animated GIF support, including search: Going forward, **Win** + **(period)** and **Win** + **(semicolon)** will now enable you to quickly input animated GIFs. The selection of animated gifs will be continuously updated based on current trends and #hashtags. Search is also available for those times where you need to find the perfect reaction gif to succinctly communicate your message.
+* Converging our input experiences across emoji and clipboard history: We are bringing input and clipboard history together into a single experience. You can still press **Win** + **V** to go straight to clipboard history, but now you can also access it by switching to the **Clipboard** category after pressing **Win** + **(period)** or **Win** + **(semicolon)**.
 
-We will be continuing to work on input in Windows and would love to hear your thoughts on further improvements. We are lighting up a new area path in the Feedback Hub for you to share your suggestions: **Input and Language > Emoji, Kaomoji, GIF and other input**.
+We will be continuing to work on input in Windows and would love to hear your thoughts on further improvements. We are lighting up a new area path in the Feedback Hub for you to share your suggestions: **Input and Language** > **Emoji, Kaomoji, GIF and other input**.
 
 _Please note: In order to insert an animated GIF when typing, the text field needs to support it. Animated GIF search requires an internet connection and is powered by Tenor. For more details about languages where animated GIF search is supported by Tenor, please see here._
 
 >[!NOTE] 
->TThis feature is rolling out to a subset of Insiders in the Dev Channel at first, to help us quickly identify issues that may impact performance and reliability. Rest assured they will be gradually rolled out to everyone in the Dev Channel.
+>This feature is rolling out to a subset of Insiders in the Dev Channel at first, to help us quickly identify issues that may impact performance and reliability. Rest assured they will be gradually rolled out to everyone in the Dev Channel.
 
 ### Introducing Voice Typing
 Windows voice typing is the new and improved version of Windows dictation that enables you to type effortlessly with your voice wherever there’s a text field on your PC. Sometimes, using your voice is more comfortable and efficient than typing on a keyboard – with Windows voice typing, you can relax your hands and just say what you want to write.
@@ -194,11 +200,11 @@ Improved features for voice typing include:
 * A modern design – optimized for use with touch keyboards.
 * Auto-punctuation that allows you to effortlessly put your thoughts down without worrying about question marks and periods (turn it on in settings).
 * An updated back end for the most reliable voice typing experience ever on Windows.
-Easily start voice typing any time by using the keyboard shortcut (WIN + H) or tapping the microphone button on the touch keyboard.
+Easily start voice typing any time by using the keyboard shortcut (**Win** + **H**) or tapping the microphone button on the touch keyboard.
 
 When using the hardware keyboard:
 
-![Voice Typing Hardware Keyboard](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2020/09/VoiceTypingFloaty-300x239.png "Use the WIN + H keyboard shortcut for quick access to the microphone button for voice to text.")
+![Voice Typing Hardware Keyboard](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2020/09/VoiceTypingFloaty-300x239.png "Use the Win + H keyboard shortcut for quick access to the microphone button for voice to text.")
 
 When using the touch keyboard:
 
@@ -228,7 +234,7 @@ Voice typing is available in the following languages/locales*:
 _*Voice typing will automatically use the language your keyboard is set to (if supported).
 **Auto-punctuation is not available in Japanese at this time._
 
-_Please note: we are still working to improve the feature and how it interacts with different applications. In some Office apps you may experience random pauses while using the voice typing feature. If this happens, click the microphone icon again to restart the listening experience._
+_Please note: we are still working to improve the feature and how it interacts with different applications. In some Office apps you may experience random pauses while using the voice typing feature. If this happens, select the microphone icon again to restart the listening experience._
 
 >[!NOTE] 
 >This feature is rolling out to a subset of Insiders in the Dev Channel at first, to help us quickly identify issues that may impact performance and reliability. Rest assured they will be gradually rolled out to everyone in the Dev Channel.
@@ -249,7 +255,7 @@ We are bringing emoji search to the touch keyboard, so you no longer need to hun
 
 ![Touch Keyboard Redesign 2](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2020/09/2020-09-01-5-1024x644.png "The redesigned touch keyboard offers quick access to emoji and animated GIFs so you and express yourself any way you like while typing in Windows.")
 
-The touch keyboard can also be invoked on any PC from the touch keyboard button on the taskbar, although you may need to enable the button. To do so, right-click or press and hold on the taskbar, then select “Show touch keyboard button” in the menu. Once the touch keyboard is open, try typing or shapewriting on the keyboard and let us know how it feels.
+The touch keyboard can also be invoked on any PC from the touch keyboard button on the Taskbar, although you may need to enable the button. To do so, right-click or press and hold on the Taskbar, then select “Show touch keyboard button” in the menu. Once the touch keyboard is open, try typing or shapewriting on the keyboard and let us know how it feels.
 
 We want to thank Insiders for sharing their feedback about the touch keyboard over the years – your comments directly inspired these changes. We look forward to you trying them out and to even more feedback!
 
@@ -268,7 +274,7 @@ All you need to do is place a finger on the space bar and slide your finger left
 We’ll be continuing to work on input in Windows and would love to hear your thoughts on further improvements.
 
 >[!NOTE] 
->~~This feature is rolling out to a subset of Insiders in the Dev Channel at first, to help us quickly identify issues that may impact performance and reliability. Rest assured they will be gradually rolled out to everyone in the Dev Channel.~~ This is now available to all Insiders in the Dev Channel as of Build 20231. 
+>This feature is rolling out to a subset of Insiders in the Dev Channel at first, to help us quickly identify issues that may impact performance and reliability. Rest assured they will be gradually rolled out to everyone in the Dev Channel.~~ This is now available to all Insiders in the Dev Channel as of Build 20231. 
 
 ## Build 20201
 Windows 10 Insider Preview Build 20201 was released to the Dev Channel on [8/26/2020](https://blogs.windows.com/windows-insider/2020/08/26/announcing-windows-10-insider-preview-build-20201/).
@@ -281,14 +287,14 @@ We mentioned we had more Settings work on the way, and here’s the next one –
 
 Unlike the existing Disk Management MMC snap-in, this modern experience was built from the ground up to with accessibility in mind. It also features better integration with features such as Storage Spaces and the Storage breakdown page.
 
-Go to __Settings > System > Storage__ and __click Manage Disks and Volumes__ to get started. We’d love to hear your feedback once you try it out.
+Go to **Settings** > **System** > **Storage** and select **Manage Disks and Volumes** to get started. We’d love to hear your feedback once you try it out.
 
 ![The Manage Disks and Volumes page in Settings. C drive is selected and shows Explorer and Properties options.](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/2/2020/08/113cc52773bb5f5e6b6b6d761e294222.png)
 
 The existing Disk Management MMC snap-in is still available for those that need it.
 
 ### Changes and Improvements
-* We’re updating the [ALT + Tab behavior with Microsoft Edge tabs](https://aka.ms/wip20161) to now have a default of displaying at most 5 tabs, rather than any recent tabs. If at any point you’d like to change this, you can under Settings > System > Multitasking.
+* We’re updating the [**Alt** + **Tab** behavior with Microsoft Edge tabs](https://aka.ms/wip20161) to now have a default of displaying at most 5 tabs, rather than any recent tabs. If at any point you’d like to change this, you can under **Settings** > **System** > **Multitasking**.
 * We’re exploring including a Web Browsing section [in the Settings header](https://docs.microsoft.com/windows-insider/archive/new-in-19H1#updated-settings-homepage), and Insiders may start to see this.
 * Going forward only the currently active profile picture will display under Your Info in Settings.
 * Based on feedback we’re turning off ESENT Warning Event ID 642.
@@ -299,7 +305,7 @@ The existing Disk Management MMC snap-in is still available for those that need 
 Windows 10 Insider Preview Build 20190 was released to the Dev Channel on [8/12/2020](https://blogs.windows.com/windowsexperience/2020/08/12/announcing-windows-10-insider-preview-build-20190/).
 
 ### New post-update experience
-We know that it doesn’t always feel clear what changed with a major update, or even how you can learn about and try out new features and improvements. This means that updates can feel time consuming without real benefit to you, and we want to change that. We’re introducing a new first run experience via the Tips app that highlights the most exciting changes on your PC after a major Windows 10 feature update is installed. After installing this build, Insiders will see the Tips app is launched highlight some of the most recent new features from the latest Insider Preview builds in the Dev Channel. To see this experience on your device, make sure the “Show me the Windows welcome experience” checkbox in Settings > System > Notifications & actions is checked.
+We know that it doesn’t always feel clear what changed with a major update, or even how you can learn about and try out new features and improvements. This means that updates can feel time consuming without real benefit to you, and we want to change that. We’re introducing a new first run experience via the Tips app that highlights the most exciting changes on your PC after a major Windows 10 feature update is installed. After installing this build, Insiders will see the Tips app is launched highlight some of the most recent new features from the latest Insider Preview builds in the Dev Channel. To see this experience on your device, make sure the **Show me the Windows welcome experience** checkbox in **Settings** > **System** > **Notifications & actions** is checked.
 
 ![The Tips app launches post-update to highlight new features from the latest Insider Preview builds.](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/2/2020/08/cb69036429ed8a259c5ed6e5da6b4153.png)
 
@@ -313,7 +319,7 @@ While this isn’t a new feature all together, we have made significant changes 
 * __We’ve updated the Graphics Settings to allow users to specify a default high performance GPU.__
 * __We’ve updated the Graphics Settings to allow users to pick a specific GPU on a per application basis.__
 
-If you’re a power user that has multiple high performance GPUs and would like to specify which of those GPUs should be the one used for high performance uses cases, you can now do that by going to __Settings > System > Display > Graphics settings__ or __Settings > Gaming > Graphics settings__. What this means is that an application that asks for a high-performance GPU will by default use the high-performance GPU you specify on this page.
+If you’re a power user that has multiple high performance GPUs and would like to specify which of those GPUs should be the one used for high performance uses cases, you can now do that by going to **Settings** > **System** > **Display** > **Graphics settings** or **Settings** > **Gaming** > **Graphics settings**. What this means is that an application that asks for a high-performance GPU will by default use the high-performance GPU you specify on this page.
 
 ![Default high performance GPU selection page.](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/2/2020/08/16635566f758c021e6b341dfba58769d.jpg)
 
@@ -331,9 +337,9 @@ __Making DNS settings more easily accessible:__ Editing your DNS server assignme
 
 __Encrypted DNS controls in the Settings app:__ Encrypted DNS (DNS over HTTPS, or DoH) [can help increase privacy and security while browsing the web](https://techcommunity.microsoft.com/t5/networking-blog/windows-insiders-can-now-test-dns-over-https/ba-p/138128). You can now configure DoH directly in the Settings app to more easily take advantage of this feature:
 
-* For ethernet connections: Go to Settings > Network & Internet > Status. Click Properties, then select Edit IP assignment or Edit DNS server assignment and it will be available in the popup. 
+* For ethernet connections: Go to **Settings** > **Network & Internet** > **Status**. Select **Properties**, then select **Edit IP assignment** or **Edit DNS server assignment**, and it will be available in the popup. 
 
-* For Wi-Fi connections: Go to Settings > Network & Internet > Wi-Fi. Click the adapter properties link, then select Edit IP assignment or Edit DNS server assignment and it will be available in the popup. Currently you will not see the encryption options if you go to the individual network’s property page.
+* For Wi-Fi connections: Go to **Settings** > **Network & Internet** > **Wi-Fi**. Select the adapter properties link, then select **Edit IP assignment** or **Edit DNS server assignment**, and it will be available in the popup. Currently you will not see the encryption options if you go to the individual network’s property page.
 
 You can add any IP address listed here to unlock the DoH dropdown and choose to use encryption. Once encryption is enabled, you can confirm it’s working by looking at the applied DNS servers in the network properties and see them labeled as “(Encrypted)” servers. If you want to try a custom DoH server we don’t recognize yet, you can configure an IP address to be recognized as a DoH server by using the netsh command documented here at the end of the blog post.
 
@@ -414,11 +420,11 @@ Windows 10 Insider Preview Build 20180 was released to the Dev Channel on [7/29/
 Windows 10 Insider Preview Build 20175 was released to the Dev Channel on [7/22/2020](https://blogs.windows.com/windowsexperience/2020/07/22/announcing-windows-10-insider-preview-build-20175/).
 
 ### Improving pinned sites in Microsoft Edge
-Earlier this month, we announced ALT + TAB between apps and sites, the first of our new productivity enhancements coming to Microsoft Edge on Windows 10. Today, we’re announcing another feature we’ve been working on to make you more efficient when browsing the web: quick access to tabs for your pinned sites. Clicking a pinned site on the Taskbar will now show you all of the open tabs for that site across any of your Microsoft Edge windows, just like you’d expect for any app with multiple open windows. Please let us know what you think!
+Earlier this month, we announced **Alt** + **Tab** between apps and sites, the first of our new productivity enhancements coming to Microsoft Edge on Windows 10. Today, we’re announcing another feature we’ve been working on to make you more efficient when browsing the web: quick access to tabs for your pinned sites. selecting a pinned site on the Taskbar will now show you all of the open tabs for that site across any of your Microsoft Edge windows, just like you’d expect for any app with multiple open windows. Please let us know what you think!
 
 ![Selecting a pinned site on the Taskbar will now show you all of the open tabs for that site across any of your Microsoft Edge windows.](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/2/2020/07/f50733d9580bd7b17dd3b245952a8634.gif)
 
-Clicking a pinned site on the Taskbar will now show you all of the open tabs for that site across any of your Microsoft Edge windows.
+Selecting a pinned site on the Taskbar will now show you all of the open tabs for that site across any of your Microsoft Edge windows.
 
 __This feature is currently rolling out to a subset of Insiders today and requires Microsoft Edge Insider Build 85.0.561.0 or higher (Canary or Dev Channel).__
 
@@ -444,11 +450,11 @@ Powered by artificial intelligence capabilities of the Microsoft SQ1(TM) process
 Windows 10 Insider Preview Build 20170 was released to the Dev Channel on [7/15/2020](https://blogs.windows.com/windowsexperience/2020/07/15/announcing-windows-10-insider-preview-build-20170/).
 
 ### Improving your Sound Settings experience
-Last week we mentioned we were planning on bringing more Control Panel capabilities forward into Settings, and here’s another one – we’re updating Settings > System > Sound > Manage sound devices to now let you know which device is default, and if not, enable you to set it as your default device or default communication device.
+Last week we mentioned we were planning on bringing more Control Panel capabilities forward into Settings, and here’s another one – we’re updating **Settings** > **System** > **Sound** > **Manage sound devices** to now let you know which device is default, and if not, enable you to set it as your default device or default communication device.
 
 We’ve also updated the volume mixer to include a link to the per app audio settings, which you can use to redirect audio endpoints per app.
 
-There is more work on the way in this area – stay tuned!
+There is more work on the way in this area—stay tuned!
 
 ### Changes and Improvements
 * As part of our ongoing efforts [to update the iconography across Windows](https://medium.com/microsoft-design/iconic-icons-designing-the-world-of-windows-5e70e25e5416), Insiders will notice we’re introducing a new Settings icon in this build. The new Settings icon looks great on the Start menu with the theme-aware tiles [introduced in Build 20161](https://blogs.windows.com/windowsexperience/2020/07/01/announcing-windows-10-insider-preview-build-20161/)!
@@ -465,14 +471,14 @@ We are freshening up the Start menu with a more streamlined design that removes 
 
 ![Theme-aware tiles on the Start menu.](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/2/2020/07/dabfa329dfacdc1a2669002649ed75d6.gif)
 
-This refined Start design looks great in both dark and light theme, but if you’re looking for a splash of color, first make sure to turn on Windows dark theme and then toggle “Show accent color on the following surfaces” for “Start, taskbar, and action center” under __Settings > Personalization > Color__ to elegantly apply your accent color to the Start frame and tiles.
+This refined Start design looks great in both dark and light theme, but if you’re looking for a splash of color, first make sure to turn on Windows dark theme and then toggle **Show accent color on the following surfaces** for **Start, Taskbar, and action center** under **Settings** > **Personalization** > **Color** to elegantly apply your accent color to the Start frame and tiles.
 
-### ALT + TAB between apps and sites
-Are you a multitasker? We have exciting news for you! Beginning with today’s build, all tabs open in Microsoft Edge will start appearing in Alt + TAB, not just the active one in each browser window. We’re making this change so you can quickly get back to whatever you were doing—wherever you were doing it.
+### Alt + Tab between apps and sites
+Are you a multitasker? We have exciting news for you! Beginning with today’s build, all tabs open in Microsoft Edge will start appearing in **Alt** + **Tab**, not just the active one in each browser window. We’re making this change so you can quickly get back to whatever you were doing—wherever you were doing it.
 
-![ALT + TAB between apps and sites.](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/2/2020/07/634dd641ac5d268c671631222138c910.gif)
+![Alt + Tab between apps and sites.](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/2/2020/07/634dd641ac5d268c671631222138c910.gif)
 
-If you’d prefer fewer tabs or the classic Alt + TAB experience, we’ve added some settings for you under __Settings > System > Multitasking__. You can configure Alt + Tab to only show your last three or five tabs or choose to turn this feature off completely.
+If you’d prefer fewer tabs or the classic **Alt** + **Tab** experience, we’ve added some settings for you under **Settings** > **System** > **Multitasking**. You can configure **Alt** + **Tab** to only show your last three or five tabs or choose to turn this feature off completely.
 
 __This feature is currently rolling out to a subset of Insiders today in the Dev Channel and requires a Canary or Dev build of Microsoft Edge (version 83.0.475.0 or higher).__
 
@@ -497,14 +503,14 @@ First, know where your toast is coming from by checking out the app logo at the 
 And second, we are turning off the Focus Assist notification and summary toast by default, so we will no longer let users know that Focus Assist has been turned on through an automatic rule via a notification. This can be changed back to the previous behavior via Settings.
 
 ### Making Settings even better
-We’re continuing to work on bringing capabilities from Control Panel forward into Settings. As part of this ongoing effort, we are migrating information found in Control Panel’s System page into the Settings About page under __Settings > System > About__. Links that would open the System page in Control Panel will now direct you to About in Settings. We are also bringing new improvements like making your device information copyable and streamlining the security information shown. And don’t worry—if you’re looking for more advanced controls that lived in the System page in Control Panel, you can still get to them from the modern About page if you need them!
+We’re continuing to work on bringing capabilities from Control Panel forward into Settings. As part of this ongoing effort, we are migrating information found in Control Panel’s System page into the Settings About page under **Settings** > **System** > **About**. Links that would open the System page in Control Panel will now direct you to About in Settings. We are also bringing new improvements like making your device information copyable and streamlining the security information shown. And don’t worry—if you’re looking for more advanced controls that lived in the System page in Control Panel, you can still get to them from the modern About page if you need them!
 
-![We are migrating information found in Control Panel’s System page into the Settings About page under Settings > System > About.](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/2/2020/07/329ddd5b6ac1257e88fbc73d79d9e7a9-1536x1112.png)
+![We are migrating information found in Control Panel’s System page into the Settings About page under **Settings** > **System** > **About**.](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/2/2020/07/329ddd5b6ac1257e88fbc73d79d9e7a9-1536x1112.png)
 
 There will be more improvements coming that will further bring Settings closer to Control Panel. If you rely on settings that only exist in Control Panel today, please file feedback and let us know what those settings are.
 
 ### Improving the tablet experience for 2-in-1 devices
-Previously, when detaching the keyboard on a 2-in-1 device, a notification toast would appear asking if you wanted to switch into tablet mode. If you selected yes, you would switch into tablet mode. If you chose no, it would give you the new tablet posture experience [introduced in the May 2020 Update](https://docs.microsoft.com/windows-insider/archive/new-in-20H1#introducing-a-new-tablet-experience-for-2-in-1-convertible-pcs-build-18970) (or simply the desktop on earlier versions of Windows 10). We are further updating this experience by changing the default, so that this notification toast no longer appears and instead will switch you directly into the new tablet experience, with some improvements for touch. You can change this setting by going to Settings > System > Tablet. Some users may have already seen this change on Surface devices.
+Previously, when detaching the keyboard on a 2-in-1 device, a notification toast would appear asking if you wanted to switch into tablet mode. If you selected yes, you would switch into tablet mode. If you chose no, it would give you the new tablet posture experience [introduced in the May 2020 Update](https://docs.microsoft.com/windows-insider/archive/new-in-20H1#introducing-a-new-tablet-experience-for-2-in-1-convertible-pcs-build-18970) (or simply the desktop on earlier versions of Windows 10). We are further updating this experience by changing the default, so that this notification toast no longer appears and instead will switch you directly into the new tablet experience, with some improvements for touch. You can change this setting by going to **Settings** > **System** > **Tablet**. Some users may have already seen this change on Surface devices.
 
 And to address confusion with some users getting stuck in tablet mode on non-touch devices, we are removing the tablet mode quick action on non-touch devices.
 
@@ -524,7 +530,7 @@ This build contains three new exciting WSL features. The first is GPU compute: a
 ### General changes & improvements
 * With this week’s build, we’ll be starting to roll out [the new search box on the default app settings pages](https://blogs.windows.com/windowsexperience/2020/04/15/announcing-windows-10-insider-preview-build-19608/). As part of this, we’ve done some work to improve the performance of the search box.
 * [The new Korean IME](https://blogs.windows.com/windowsexperience/2019/12/16/announcing-windows-10-insider-preview-build-19536/) is now available again for Insiders to use.
-* Based on feedback, we’re updating the text of the Settings > Privacy > Location page to clarify that the icon displayed when your location is being used will be displayed in the taskbar.
+* Based on feedback, we’re updating the text of the **Settings** > **Privacy** > **Location** page to clarify that the icon displayed when your location is being used will be displayed in the Taskbar.
 
 ## Build 19645
 Windows 10 Insider Preview Build 19640 was released to the Fast ring on [6/10/2020](https://blogs.windows.com/windowsexperience/2020/06/10/announcing-windows-10-insider-preview-build-19645/).
@@ -565,7 +571,7 @@ Windows 10 Insider Preview Build 19624 was released to the Fast ring on [5/6/202
 Windows 10 Insider Preview Build 19619 was released to the Fast ring on [4/29/2020](https://blogs.windows.com/windowsexperience/2020/04/29/announcing-windows-10-insider-preview-build-19619/).
 
 ### General changes & improvements
-* If the Sync button under Settings > Time & Language > Time fails due to network connectivity, the error now tells you that’s the issue.
+* If the Sync button under **Settings** > **Time & Language** > **Time** fails due to network connectivity, the error now tells you that’s the issue.
 
 ## Build 19613
 Windows 10 Insider Preview Build 19613 was released to the Fast ring on [4/22/2020](https://blogs.windows.com/windowsexperience/2020/04/22/announcing-windows-10-insider-preview-build-19613/).
@@ -612,10 +618,10 @@ Windows 10 Insider Preview Build 19592 was released to the Fast ring on [3/25/20
 We are beginning to roll out (again*) the new tablet experience for 2-in-1 convertible PCs as a preview to some Windows Insiders in the Fast ring. This experience is separate from the Tablet Mode experience that you will still be able to use. This new experience allows users entering tablet posture to stay in the familiar desktop experience without interruption with a few key touch improvements:
 
 * Taskbar icons are spaced out
-* Search box on taskbar is collapsed into icon-only mode
+* Search box on Taskbar is collapsed into icon-only mode
 * Touch keyboard auto invokes when you tap a text field
 * File explorer elements will have a little more padding, to make them comfortable to interact with using touch
-* You’ll also notice we’ve updated some of the related Tablet settings under Settings > System, so as to give you control over the experience.
+* You’ll also notice we’ve updated some of the related Tablet settings under **Settings** > **System**, so as to give you control over the experience.
 
 ![Tablet posture improvements for 2-in-1 convertible PCs.](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/2/2020/03/068d5e0abaf805d92a03526f7e208e88.jpg)
 
@@ -657,9 +663,9 @@ To get started with Eye Control, connect a supported eye tracking device, then [
 * We’re working on giving you control over whether apps can disable the screen capture border. The page isn’t finished being wired up yet, but you’ll see it listed under Privacy Settings.
 * We’ve updated the “set time zone automatically” toggle in Time & Date settings to now be greyed out if location has been disabled.
 * Based on feedback, we’re updating the Scottish Gaelic keyboard in these ways:
-    * Pressing AltGR + 7 will now input ⁊ (U+204A TIRONIAN SIGN ET).
-    * Pressing ‘ will now directly insert that character (right single quote).
-    * Pressing AltGr +’ will now act as a dead key to combine an acute accent with a subsequent letter.
+    * Pressing **AltGR** + **7** will now input ⁊ (U+204A TIRONIAN SIGN ET).
+    * Pressing **(‘)** will now directly insert that character (right single quote).
+    * Pressing **AltGr** + **(’)** will now act as a dead key to combine an acute accent with a subsequent letter.
 
 ## Build 19577
 Windows 10 Insider Preview Build 19577 was released to the Fast ring on [3/5/2020](https://blogs.windows.com/windowsexperience/2020/03/05/announcing-windows-10-insider-preview-build-19577/).
@@ -672,11 +678,11 @@ __Note: Please make sure your device is set to “Full” before updating to Bui
 ### More new icons: Windows Security
 We’re continuing to roll out updated icons to many of the built-in apps in Windows 10. In today’s build, we’ve updated the Windows Security icon to match the new design principles outlined here from the Microsoft Design Team. Unlike many of the built-in apps in Windows 10, which can be updated through the Store, the new Windows Security icon is updated through the OS and will rollout in a future Windows 10 feature update.
 
-![The new Windows Security icon as it appears on the taskbar.](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/2/2020/03/254a7cea7eb9aed8586fc445faeaa227.png)
+![The new Windows Security icon as it appears on the Taskbar.](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/2/2020/03/254a7cea7eb9aed8586fc445faeaa227.png)
 
 ### General changes & improvements
 * Following up on [our post about the new Cortana app](https://insider.windows.com/articles/cortana-windows-beta/), we wanted to let you know that in addition to timers and instant answers, which lit up last month, assistant conversations are now online. Some examples to try are “tell me a dad joke”, “tell me a bedtime story”, or “rock, paper, scissors.” We appreciate your patience while we worked on this. This is a server-side change, however we’re noting it here for awareness.
-* We’ve updated the behavior of Advanced startup (Settings > Update & Security > Recovery > Advanced startup “Restart now”) to enable some Ease of Access features to work properly. For example, previously, if the narrator feature was enabled prior to launching Advanced startup, it would stop working. Now, Advanced startup will reboot directly into the Windows Recovery Environment.
+* We’ve updated the behavior of Advanced startup (**Settings** > **Update & Security** > **Recovery** > **Advanced startup** > **Restart now**) to enable some Ease of Access features to work properly. For example, previously, if the narrator feature was enabled prior to launching Advanced startup, it would stop working. Now, Advanced startup will reboot directly into the Windows Recovery Environment.
 * While the Vietnamese alphabet doesn’t include the Latin letters F, J, W, or Z, based on feedback we’re updating the grouping in the Start menu’s all app’s list to account for these letters when using this display language, so that apps like Windows PowerShell are included in the expected group.
 
 ## Build 19569
@@ -693,7 +699,7 @@ Many of these icons will be updated as app updates from the Microsoft Store. We 
 Windows 10 Insider Preview Build 19564 was released to the Fast ring on [2/12/2020](https://blogs.windows.com/windowsexperience/2020/02/12/announcing-windows-10-insider-preview-build-19564/).
 
 ### Graphics Settings Improvements
-We’ve updated the Graphics settings page (Settings > System > Display > Graphics settings), allowing for better control over designating which GPU your apps run on. With this update, the app list and GPU preference are pre-populated on a best effort basis to improve the default preference management experience. If your desired app isn’t pre-populated, you can still add it by using the app selection drop-down.
+We’ve updated the Graphics settings page (**Settings** > **System** > **Display** > **Graphics settings**), allowing for better control over designating which GPU your apps run on. With this update, the app list and GPU preference are pre-populated on a best effort basis to improve the default preference management experience. If your desired app isn’t pre-populated, you can still add it by using the app selection drop-down.
 
 ![The updated Graphics settings page with pre-populated app preference management.](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/2/2020/02/ab377b0f73f0fd7001039bc50d2681ff.jpg)
 
@@ -731,7 +737,7 @@ When you’re using the Details tab in Task Manager, we’ve added a new option 
 Windows 10 Insider Preview Build 19536 was released to the Fast ring on [12/16/2019](https://blogs.windows.com/windowsexperience/2019/12/16/announcing-windows-10-insider-preview-build-19536/).
 
 ### Optional Drivers
-[We’re still working on making it easier for you to see all optional updates](https://aka.ms/wip18985) (including drivers, feature updates, and monthly non-security quality updates) in one place. When optional updates are detected, they will be listed under Settings > Update & Security > Windows Update > View optional updates.
+[We’re still working on making it easier for you to see all optional updates](https://aka.ms/wip18985) (including drivers, feature updates, and monthly non-security quality updates) in one place. When optional updates are detected, they will be listed under **Settings** > **Update & Security** > **Windows Update** > **View optional updates**.
 
 For drivers, you no longer need to browse Device Manager for a specific device to update. Windows Update will automatically keep your drivers up to date, but if you’re having a problem, one of those optional drivers might help.
 
@@ -755,4 +761,4 @@ To recap the most noticeable changes included as part of this IME work:
 
 In this build, we want to help customers set up their device to be used by multiple people in their family. While we’re not releasing an ISO for this build, some Insiders who choose to reset their PC may see a screen during setup that asks who’ll be using the device. If they select People in my family, we’ll help them get set up in a family group once they get to their desktop, so that they’re ready to get started with all the features.
 
-If you see this new page, let us know what you think by going to Security and Privacy > Child accounts and family settings in the Feedback Hub.
+If you see this new page, let us know what you think by going to Security and **Privacy** > **Child accounts and family settings** in the Feedback Hub.
