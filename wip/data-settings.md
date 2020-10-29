@@ -16,26 +16,26 @@ Your privacy is important to us, so you're in control of how much of your data y
 
 ## Set up a device for the first time
 
-1. Go to [**Settings > Privacy > Diagnostics & feedback**](https://aka.ms/WIPDataSettings) on your device.
+1. Go to [**Settings** > **Privacy** > **Diagnostics & feedback**](https://aka.ms/WIPDataSettings) on your device.
 
 2. Set your device's data settings to Full.
 
 3. Reboot your device.
 
-4. Your device is ready to get Insider Preview builds. Go to [**Settings > Update & Security > Windows Update**](https://aka.ms/WIPWindowsUpdate) to check for the latest update.
+4. Your device is ready to get Insider Preview builds. Go to [**Settings** > **Update & Security** > **Windows Update**](https://aka.ms/WIPWindowsUpdate) to check for the latest update.
 
 
 ## Change data settings on a device already running Insider Preview builds
 
 If you're running preview builds on a personal device, use these instructions to update your data settings:
  
-1. Go to [**Settings > Privacy > Diagnostics & feedback**](https://aka.ms/WIPDataSettings) on your device.
+1. Go to [**Settings** > **Privacy** > **Diagnostics & feedback**](https://aka.ms/WIPDataSettings) on your device.
 
 2. Flip the **Optional Diagnostic Data** switch from **Off** to **On**.
 
 3. Reboot your device.
 
-4. Your device is ready to keep getting Insider Preview builds. Go to [**Settings > Update & Security > Windows Update**](https://aka.ms/WIPDataSettings) to check for the latest update.
+4. Your device is ready to keep getting Insider Preview builds. Go to [**Settings** > **Update & Security** > **Windows Update**](https://aka.ms/WIPDataSettings) to check for the latest update.
 
 > [!NOTE] 
 >If you're on a work device that's part of an Azure Active Directory (AAD) or domain joined account where you control your data settings, and those were set to Enhanced before Build 19577 was released, you'll have to use the steps in the first section to set your device to Full, and then the steps in the second section to continue receiving Insider Preview builds.
