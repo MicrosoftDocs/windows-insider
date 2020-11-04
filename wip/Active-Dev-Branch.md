@@ -14,6 +14,9 @@ ms.prod: w10
 # The Changelog
 The Changelog represents everything new from all the builds from the Active Development Branch released to the **Dev Channel**. This page includes everything noted as part of the "What's new" and "General changes & improvements" sections of the blog posts published for each build [on the Windows Blog](https://blogs.windows.com/windows-insider/) and does not contain other noted updates for Insiders, fixes, or known issues. 
 
+## Build 20251
+Windows 10 Insider Preview Build 20251 was released to the Dev Channel on [114/2020](https://blogs.windows.com/windows-insider/2020/11/04/announcing-windows-10-insider-preview-build-20251/).
+
 ## Build 20246
 Windows 10 Insider Preview Build 20246 was released to the Dev Channel on [10/29/2020](https://blogs.windows.com/windows-insider/2020/10/29/announcing-windows-10-insider-preview-build-20246/).
 
