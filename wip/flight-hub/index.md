@@ -23,7 +23,8 @@ Moving forward, the Dev Channel will receive builds directly from the active dev
 
 | Build | Dev | SDK | ISO |
 |-------|------|------|
-|20246|[**10/29/2020**](https://blogs.windows.com/windows-insider/2020/10/29/announcing-windows-10-insider-preview-build-20246/)|[**10/29/2020**](https://software-download.microsoft.com/download/sg/Windows_InsiderPreview_SDK_en-us_20246_1.iso)||
+|20251|[**11/4/2020**](https://blogs.windows.com/windows-insider/2020/11/04/announcing-windows-10-insider-preview-build-20251/)|[**11/4/2020**](https://software-download.microsoft.com/download/sg/Windows_InsiderPreview_SDK_en-us_20251_1.iso)||
+|20246|[10/29/2020](https://blogs.windows.com/windows-insider/2020/10/29/announcing-windows-10-insider-preview-build-20246/)|[10/29/2020](https://software-download.microsoft.com/download/sg/Windows_InsiderPreview_SDK_en-us_20246_1.iso)||
 |20241|[10/21/2020](https://blogs.windows.com/windows-insider/2020/10/21/announcing-windows-10-insider-preview-build-20241/)|[10/21/2020](https://software-download.microsoft.com/download/sg/Windows_InsiderPreview_SDK_en-us_20241_1.iso)||
 |20236|[10/14/2020](https://blogs.windows.com/windows-insider/2020/10/14/announcing-windows-10-insider-preview-build-20236/)|[10/14/2020](https://software-download.microsoft.com/download/sg/Windows_InsiderPreview_SDK_en-us_20236_1.iso)||
 |20231|[10/7/2020](https://blogs.windows.com/windows-insider/2020/10/07/announcing-windows-10-insider-preview-build-20231/)|[10/7/2020](https://software-download.microsoft.com/download/sg/Windows_InsiderPreview_SDK_en-us_20231_1.iso)|[**10/7/2020**](https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewadvanced)|
