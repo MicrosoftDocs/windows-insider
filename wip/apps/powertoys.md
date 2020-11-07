@@ -1,5 +1,5 @@
 ---
-title: PowerToys uodates
+title: PowerToys updates
 description: The latest updates to PowerToys
 author: bleblanc
 manager: dougkim
