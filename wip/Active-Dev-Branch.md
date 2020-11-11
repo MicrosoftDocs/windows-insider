@@ -14,6 +14,12 @@ ms.prod: w10
 # The Changelog
 The Changelog represents everything new from all the builds from the Active Development Branch released to the **Dev Channel**. This page includes everything noted as part of the "What's new" and "General changes & improvements" sections of the blog posts published for each build [on the Windows Blog](https://blogs.windows.com/windows-insider/) and does not contain other noted updates for Insiders, fixes, or known issues. 
 
+## Build 20257
+Windows 10 Insider Preview Build 20257 was released to the Dev Channel on [11/11/2020](https://blogs.windows.com/windows-insider/2020/11/11/announcing-windows-10-insider-preview-build-20257/).
+
+### Changes and Improvements
+* Based on feedback, we’re updating our Start menu tile theming logic such that the tile background for Win32 apps will no longer adjust based on detected contrast ratio, except in the case of pinned Microsoft Edge PWAs.
+
 ## Build 20251
 Windows 10 Insider Preview Build 20251 was released to the Dev Channel on [11/4/2020](https://blogs.windows.com/windows-insider/2020/11/04/announcing-windows-10-insider-preview-build-20251/).
 
