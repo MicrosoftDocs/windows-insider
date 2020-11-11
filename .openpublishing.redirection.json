@@ -19,6 +19,11 @@
     "source_path": "wip/at-home/Whats-new-wip-at-home-19h1.md",
     "redirect_url": "/windows-insider/Active-Dev-Branch",
     "redirect_document_id": false
+    },
+    {
+    "source_path": "wip/apps/powertoys.md",
+    "redirect_url": "https://github.com/microsoft/PowerToys/wiki",
+    "redirect_document_id": true
     }
     ]
     }
