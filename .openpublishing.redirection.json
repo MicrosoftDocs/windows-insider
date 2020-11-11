@@ -23,7 +23,7 @@
     {
     "source_path": "wip/apps/powertoys.md",
     "redirect_url": "https://github.com/microsoft/PowerToys/wiki",
-    "redirect_document_id": true
+    "redirect_document_id": false
     }
     ]
     }
