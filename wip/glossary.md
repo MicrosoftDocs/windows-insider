@@ -101,11 +101,11 @@ The Windows Insider Program is a community of millions of Windows' biggest fans 
 
 ## Windows Insider Program for Business
 
-The Windows Insider Program for Business is a set of features within the Windows Insider Program that help you run Windows 10 Insider Preview Builds within your organization, validate your apps and infrastructure, and deploy faster.
+The Windows Insider Program for Business is a set of features within the Windows Insider Program that help you run Insider Preview builds within your organization, validate your apps and infrastructure, and deploy faster.
 
 ## Windows Insider Program for Developers
 
-The Windows Insider Program for Developers is a set of tools within the Windows Insider Program that let you use Windows 10 Software Development Kit (SDK) Insider Preview Builds with the latest Windows 10 Insider Preview Builds to bring better applications to your customers faster.
+The Windows Insider Program for Developers is a set of tools within the Windows Insider Program that let you use Windows 10 Software Development Kit (SDK) Insider Preview Builds with the latest Insider Preview builds to bring better applications to your customers faster.
 
 ## Windows Insider Program for Windows Server
 
