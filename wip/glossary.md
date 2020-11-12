@@ -1,6 +1,6 @@
 ---
 title: Windows Insider Program glossary
-description: The key terms you'll need to know in the Windows Insider Program
+description: The key terms you'll need to know in the Windows Insider Program.
 author: bleblanc
 manager: dougkim
 ms.tgt_pltfrm: na
