@@ -48,6 +48,8 @@ landingContent:
             url: https://docs.microsoft.com/windows-insider/business/validate-Release-Preview-Channel
           - text: Windows Insider Program for Business FAQ
             url: https://docs.microsoft.com/windows-insider/business/FAQ
+          - text: Glossary
+            url: https://docs.microsoft.com/windows-insider/glossary
       - linkListType: whats-new
         links:
           - text: Flight Hub
