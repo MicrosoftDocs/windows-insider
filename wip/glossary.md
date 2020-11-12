@@ -65,7 +65,7 @@ Flighting is the process of running Windows 10 Insider Preview Builds on your de
 
 ## Quests
 
-Quests are step-by-step instructions to try out Windows features we're currently working on improving with your feedback. You can [find Quests in the Feedback Hub](http://aka.ms/FBHQuests), and for each Quest you finish, you'll earn points towards badges, which you'll [see in the **Achievements** section](https://aka.ms/WIPAchievements). 
+Quests are step-by-step instructions to try out Windows features we're currently working on improving with your feedback. You can [find Quests in the Feedback Hub](https://aka.ms/FBHQuests), and for each Quest you finish, you'll earn points towards badges, which you'll [see in the **Achievements** section](https://aka.ms/WIPAchievements). 
 
 ## Release Preview Channel
 
