@@ -78,7 +78,7 @@ Our old rings included the Fast, Slow, and Release Preview rings. With the move 
 
 ## Windows 10 Insider Preview Builds
 
-Windows 10 Insider Preview Builds, or Insider Preview builds, are early versions of Windows that Windows Insiders run on their devices, which are released through channels.
+Windows 10 Insider Preview Builds, or Insider Preview builds, are early versions of Windows, which are released through channels, that our Windows Insiders run on their devices.
 
 ### Major builds
 
