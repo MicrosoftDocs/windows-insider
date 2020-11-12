@@ -30,6 +30,8 @@ landingContent:
             url: https://docs.microsoft.com/windows-insider/flighting
           - text: Deeper look at feedback
             url: https://docs.microsoft.com/windows-insider/feedback
+          - text: Glossary
+            url: https://docs.microsoft.com/windows-insider/glossary  
       - linkListType: whats-new
         links:
           - text: Flight Hub
