@@ -1,6 +1,6 @@
 ---
 title: Windows Insider Program glossary
-description: The key terms you'll need to know in the Windows Insider Program.
+description: The key terms you'll need to know in the Windows Insider Program
 author: bleblanc
 manager: dougkim
 ms.tgt_pltfrm: na
@@ -69,7 +69,7 @@ Quests are step-by-step instructions to try out Windows features we're currently
 
 ## Release Preview Channel
 
-In the Release Preview Channel, you'll get the upcoming version of Windows before it's released to the world, with advanced quality updates and certain key features. These builds are also supported by Microsoft if you're in the Windows Insider Program for Business.
+The Release Preview Channel is one of our channel options for receiving Insider Preview builds. In it, you'll get the upcoming version of Windows before it's released to the world, with advanced quality updates and certain key features. These builds are also supported by Microsoft if you're in the Windows Insider Program for Business.
 
 ## Rings
 Before channels, our Insider Preview builds were released in rings, based on frequency. **Channels are our current standard for releasing Insider Preview builds.**
