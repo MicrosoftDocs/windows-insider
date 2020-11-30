@@ -37,3 +37,4 @@
 ### [RS5 features](https://docs.microsoft.com/windows-insider/archive/new-in-RS5)
 ### [RS5 Server features](https://docs.microsoft.com/windows-insider/archive/new-in-RS5-server)
 ### [Past business features](https://docs.microsoft.com/windows-insider/archive/new-for-business)
+## [Glossary](https://docs.microsoft.com/windows-insider/glossary)
