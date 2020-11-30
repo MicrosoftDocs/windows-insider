@@ -98,7 +98,7 @@ If you're seeing an issue on a Windows 10 Insider Preview Build, here's what you
 
 1. **Check the known issues.**
 
-We document known issues in our [flight blog posts](https://blogs.windows.com/blog/tag/windows-insider-program/). This is the first place you should check if you're seeing an issue. We may already be working on it.
+We document known issues in our [flight blog posts](https://blogs.windows.com/blog/tag/windows-insider-program/). This is the first place you should check if you are seeing an issue. We may already be working on it.
 
 2. **Check for updates.**
 
