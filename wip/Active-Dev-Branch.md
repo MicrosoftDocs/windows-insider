@@ -14,6 +14,13 @@ ms.prod: w10
 # The Changelog
 The Changelog represents everything new from all the builds from the Active Development Branch released to the **Dev Channel**. This page includes everything noted as part of the "What's new" and "General changes & improvements" sections of the blog posts published for each build [on the Windows Blog](https://blogs.windows.com/windows-insider/) and does not contain other noted updates for Insiders, fixes, or known issues. 
 
+## Build 20270
+Windows 10 Insider Preview Build 20270 was released to the Dev Channel on [12/3/2020](https://blogs.windows.com/windows-insider/2020/12/03/announcing-windows-10-insider-preview-build-20270/).
+
+### Changes and Improvements
+* The new “Advanced View” checkbox in Optimize Drives is now up and running and checking it will display volumes previously not visible in this window (for example system and recovery partitions).
+* Using the touch keyboard in a portrait posture on a 2-in-1 touch device now supports split keyboard mode. (This was released to Windows Insiders in the Beta Channel as part of the recent Windows Feature Experience Pack update.)
+
 ## Build 20262
 Windows 10 Insider Preview Build 20262 was released to the Dev Channel on [11/18/2020](https://blogs.windows.com/windows-insider/2020/11/18/announcing-windows-10-insider-preview-build-20262/).
 
