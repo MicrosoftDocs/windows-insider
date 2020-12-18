@@ -14,6 +14,52 @@ ms.prod: w10
 # The Changelog
 The Changelog represents everything new from all the builds from the Active Development Branch released to the **Dev Channel**. This page includes everything noted as part of the "What's new" and "General changes & improvements" sections of the blog posts published for each build [on the Windows Blog](https://blogs.windows.com/windows-insider/) and does not contain other noted updates for Insiders, fixes, or known issues. 
 
+## Build 21277
+Windows 10 Insider Preview Build 21277 was released to the Dev Channel on [12/10/2020](https://blogs.windows.com/windows-insider/2020/12/10/announcing-windows-10-insider-preview-build-21277/).
+
+### Introducing x64 emulation in preview for Windows 10 on ARM PCs
+Windows Insiders with ARM PCs who install this build can try out x64 emulation by installing x64 apps from the Microsoft Store or from any other location of their choosing. For more details on this experience, please head on over [and read this blog post from Hari Pulapaka](https://blogs.windows.com/windows-insider/?p=174852)!
+
+### Adding Support for Unicode Emoji 12.1 and 13.0
+Starting with this build, Insiders will get their first look at the emoji we’ve designed to support Emoji 12.1 and 13.0! This update brings over 200 new glyphs to Windows – including bubble tea, a smiling face with tear, a ninja, a magic wand, and more:
+
+![New Emoji 12.1 and 13.0 emojis](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2020/12/Emoji13@2x.png "Showing an array of the new emoji that will be added, including ninja, bubble tea, face wearing a disguise, and smiling face with a tear.")
+
+As part of this change, we’re introducing a gender-neutral emoji design, which you can now select alongside the corresponding male or female design in our emoji panel and touch keyboard:
+
+![Gender-neutral emoji design](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2020/12/GenderInclusive@2x.png "Displaying 3 versions (male, female, and gender-neutral) of various emoji (genie, superhero, person shrugging, etc.).")
+
+You’ll also find we’ve made some tweaks to our existing emoji to improve cross-platform consistency:
+
+(OLD)
+![Old emoji design](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2020/12/RedesignBefore@2x.png "Some existing emoji and how they’ve been tweaked (face with mask, giraffe, and confused face).")
+
+(NEW)
+![New emoji design](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2020/12/RedesignAfter@2x.png "Some existing emoji and how they’ve been tweaked (face with mask, giraffe, and confused face).")
+
+Some existing emoji and how they’ve been tweaked (face with mask, giraffe, and confused face).
+To bring up the emoji panel and check out all the changes, press Windows key + Period (.) or Windows key + Semicolon (;).
+
+One final note: we’ve made several improvements to our emoji search terms based on your feedback – if you update to today’s build and still find the expected emoji isn’t being returned when you search for it, please let us know! You can file feedback for this in the Feedback Hub under Input and Language > Emoji panel. Please specify what words you used, and which emoji you expected to appear.
+
+### Changes and Improvements
+* We’ve updated the animation when opening or closing a window to make the transition smoother. Do you notice a difference? Let us know!
+* Based on Insider feedback, you can now use the built-in screen snipping experience in Windows (WIN + SHIFT + S) to create a snip of your screen and paste it directly into a folder of your choice in File Explorer to save the screenshot there. Try it out! (This was released to Windows Insiders in the Beta Channel [as part of the recent Windows Feature Experience Pack update](https://blogs.windows.com/windows-insider/2020/11/30/releasing-windows-feature-experience-pack-120-2212-1070-0-to-the-beta-channel/).)
+* Using the touch keyboard in a portrait posture on a 2-in-1 touch device now supports split keyboard mode. (This was released to Windows Insiders in the Beta Channel [as part of the recent Windows Feature Experience Pack update](https://blogs.windows.com/windows-insider/2020/11/30/releasing-windows-feature-experience-pack-120-2212-1070-0-to-the-beta-channel/).)
+* It’s now possible to uninstall the Snipping Tool. If you choose to uninstall it, it can be reinstalled via the Optional Features page in Settings.
+* We’ve made some adjustments to improve the scaling logic of the graphs in Task Manager’s Performance tab.
+We’ve updated Registry Editor so that the Find window, renaming a key, and other places all now support CTRL + Backspace to delete words at a time.
+* When using the Delete key or Dismiss button in Action Center to clear groups of notifications, Narrator will now announce that the notification group has been cleared instead of just moving focus to the next notification group.
+* Based on feedback we’re adjusting a few strings in Offline Maps Settings to improve clarity.
+* To help you find what you’re looking for faster, we’ve updated our folder logic in Start menu’s all apps list so that if a folder only contains a single item we will now display that item in place of the folder.
+![Updated folder logic on Start](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2020/12/Start-menu-folder.png "Showing Visual Studio code in a folder by itself and then (after) not in a folder.")
+
+## Build 20279
+Windows 10 Insider Preview Build 20279 was released to the Dev Channel on [12/14/2020](https://blogs.windows.com/windows-insider/2020/12/14/announcing-windows-10-insider-preview-build-20279/).
+
+## Build 20277
+Windows 10 Insider Preview Build 20277 was released to the Dev Channel on [12/10/2020](https://blogs.windows.com/windows-insider/2020/12/10/announcing-windows-10-insider-preview-build-20277/).
+
 ## Build 20270
 Windows 10 Insider Preview Build 20270 was released to the Dev Channel on [12/3/2020](https://blogs.windows.com/windows-insider/2020/12/03/announcing-windows-10-insider-preview-build-20270/).
 
