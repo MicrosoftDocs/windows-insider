@@ -52,6 +52,7 @@ We’ve updated Registry Editor so that the Find window, renaming a key, and oth
 * When using the Delete key or Dismiss button in Action Center to clear groups of notifications, Narrator will now announce that the notification group has been cleared instead of just moving focus to the next notification group.
 * Based on feedback we’re adjusting a few strings in Offline Maps Settings to improve clarity.
 * To help you find what you’re looking for faster, we’ve updated our folder logic in Start menu’s all apps list so that if a folder only contains a single item we will now display that item in place of the folder.
+
 ![Updated folder logic on Start](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2020/12/Start-menu-folder.png "Showing Visual Studio code in a folder by itself and then (after) not in a folder.")
 
 ## Build 20279
