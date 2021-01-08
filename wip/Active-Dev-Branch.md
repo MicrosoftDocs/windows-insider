@@ -56,7 +56,7 @@ This will display the used space under each folder of the current directory.
 
 Get started today by typing diskusage /? in a command line window for more options and usage information.
 
-![DiskUsage](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2021/01/mods.gif "Running the DiskUsage command in Windows Terminal.")
+![DiskUsage](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2021/01/diskusage.png "Running the DiskUsage command in Windows Terminal.")
 
 ### Run commands on start up in the Windows Subsystem for Linux (WSL)
 We have added an option that allows you to run any specified Linux command on startup of a WSL distribution. You can accomplish this by editing the /etc/wsl.conf file in your distribution and adding an option titled “command” under a section titled “boot”. This command will run whenever your specific WSL distribution starts up. The example below shows using this functionality to create a method to log the time and date for each startup of this WSL distro.
