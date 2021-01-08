@@ -14,6 +14,65 @@ ms.prod: w10
 # The Changelog
 The Changelog represents everything new from all the builds from the Active Development Branch released to the **Dev Channel**. This page includes everything noted as part of the "What's new" and "General changes & improvements" sections of the blog posts published for each build [on the Windows Blog](https://blogs.windows.com/windows-insider/) and does not contain other noted updates for Insiders, fixes, or known issues. 
 
+## Build 21286
+Windows 10 Insider Preview Build 21286 was released to the Dev Channel on [1/6/2021](https://blogs.windows.com/windows-insider/2021/01/06/announcing-windows-10-insider-preview-build-21286/).
+
+### Introducing news and interests on the taskbar
+
+With news and interests on the Windows taskbar, you get quick access to an integrated feed of dynamic content such as news and weather that updates throughout the day.
+
+![News and feeds on the taskbar](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2021/01/News-and-interests.png "News and interests on the Windows taskbar gives you quick access to an integrated feed of dynamic content such as news and weather that updates throughout the day.")
+
+You can personalize your feed with relevant content tailored for you. Instead of switching between apps or your PC and phone to stay up to date with the news and interests you care about – seamlessly peek into your feed directly from the taskbar anytime you want throughout your day.
+
+![News and feeds on the taskbar gif](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2021/01/News-and-interests-video.gif "Showing news and interests on the taskbar with the flyout of content just for you.")
+
+* **Staying up to date:** Quickly glance at your news and interests directly from the taskbar. Get caught up on the latest headlines, weather, sports, and more, then go back to whatever you were doing without disrupting your workflow. You have convenient access to news and interesting content from over 4,500 global brands such as The New York Times, BBC or The Verge, and gorgeous live weather maps. Select an article to open a streamlined reading view with fewer distractions, so you can save time and stay focused.
+* **Personalize your feed:** You can tell us which content you like seeing or don’t like seeing (select More options … and choose “More stories like this” or “Fewer stories like this”) and over time, more stories about the things you care about will show up in your feed, including ones you might otherwise miss. You can also use emoji to react to stories, too.
+* **You’re in control:** At Microsoft, we believe privacy starts with putting you in control and giving you the tools and information, you need to make informed choices. Through news and interests, there is quick access to the Microsoft Privacy Dashboard. Through the Microsoft Edge browser, there are built-in controls to limit tracking from advertisers and third parties. And if news and interests doesn’t appeal to you, you can easily turn it off by right-clicking on the taskbar.
+
+As more of us are spending time on our PCs to work, learn, connect, and play, news and interests on the taskbar is a nice companion for those who want to stay connected with information on the latest current events. Over time, we hope to bring your feed of news and interests to other places, such as in Microsoft Edge, so no matter where you are, you’ll be able to stay up to date.
+
+**We are beginning to roll out news and interests to Windows Insiders today starting with Build 21286 in the Dev Channel and Insiders will need to reboot after installing Build 21286 to enable this feature.** Managing the rollout of features like this allows us to quickly identify issues that may impact performance and reliability. We plan to evolve this experience over time, so please let us know what you think and how we can make it better through Feedback Hub (go to Desktop Environment > News and interests). The team is excited to hear what you think!
+
+_IMPORTANT NOTE: This feature is currently only available to Windows Insiders in United States, Canada, Great Britain, Australia, and India. This feature also requires the new Chromium-based Microsoft Edge browser to be installed on your PC. We are also testing different variations of this experience so some Insiders may see a different experience than others._
+
+### Modernized Storage Spaces Settings
+You can now create and manage Storage Spaces from within the Settings app. This includes creating storage pools and storage spaces, adding, and removing disks, and optimizing pools. This new experience provides an accessible, modern experience integrated with other storage features.
+
+![Modern Storage Spaces](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2021/01/mods.gif "Managing Storage Spaces in the Settings up via Settings > System > Storage.")
+
+Go to **Settings > System > Storage** and click the **Manage Storage Spaces** under “More storage settings” to get started.
+
+>[!NOTE]
+>This feature is rolling out to a subset of Insiders in the Dev Channel at first, to help us quickly identify issues that may impact performance and reliability. Rest assured they will be gradually rolled out to everyone in the Dev Channel.
+
+### Introducing New File System Command Line Tool DiskUsage
+As some Insiders have noticed, we’re working on an enhancement to the file system utilities family – called DiskUsage, enabling users to view and query disk space usage via the command line. With DiskUsage, you can now track files and directories which are consuming excessive amount of space on the drive. It scans the specified directory recursively or the entire drive with detailed information on how much each subfolder is using. It also supports extensive filtering and output customization options.
+
+For example: >> diskusage /d:1
+
+This will display the used space under each folder of the current directory.
+
+Get started today by typing diskusage /? in a command line window for more options and usage information.
+
+![DiskUsage](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2021/01/mods.gif "Running the DiskUsage command in Windows Terminal.")
+
+### Run commands on start up in the Windows Subsystem for Linux (WSL)
+We have added an option that allows you to run any specified Linux command on startup of a WSL distribution. You can accomplish this by editing the /etc/wsl.conf file in your distribution and adding an option titled “command” under a section titled “boot”. This command will run whenever your specific WSL distribution starts up. The example below shows using this functionality to create a method to log the time and date for each startup of this WSL distro.
+
+![WSL startup commands](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2021/01/wsl-terminal-startup-commands.png "A screenshot of Windows Terminal displaying a user interacting with WSL.")
+
+This command will run when a WSL distribution is first started. WSL distributions will remain running for a few minutes even after the last Linux process inside of them is closed. You can view if your WSL distro is running using wsl --list --verbose and you can manually shut down all WSL distributions using wsl --shutdown.
+
+### Improving your experience when transitioning between time zones
+Based on feedback, we’re making a couple small adjustments for users of “Set time zone automatically” in Date & Time Settings:
+
+* When your time zone is updated because of a high confidence detected location change, we’ll now send a notification letting you know about it. The notification will include information about the new time zone and clicking it will open the Date & Time Settings.
+* If we detect a low confidence location change and there is a single administrator on the device, we will now send a notification asking if you would like to update your time zone – clicking the OK button in the prompt will make the change.
+
+![Improved time zone transitions](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2021/01/timezonenotifications.png "Displaying examples of the two possible time zone notifications.")
+
 ## Build 21277
 Windows 10 Insider Preview Build 21277 was released to the Dev Channel on [12/10/2020](https://blogs.windows.com/windows-insider/2020/12/10/announcing-windows-10-insider-preview-build-21277/).
 
