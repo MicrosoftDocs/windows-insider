@@ -23,7 +23,7 @@ Moving forward, the Dev Channel will receive builds directly from the active dev
 
 | Build | Dev | SDK | ISO |
 |-------|------|------|
-|21286|[**1/6/2021**](https://blogs.windows.com/windows-insider/2021/01/06/announcing-windows-10-insider-preview-build-21286/)||[**1/6/2021**](https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewadvanced))|
+|21286|[**1/6/2021**](https://blogs.windows.com/windows-insider/2021/01/06/announcing-windows-10-insider-preview-build-21286/)||[**1/6/2021**](https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewadvanced)|
 |21277|[12/10/2020](https://blogs.windows.com/windows-insider/2020/12/10/announcing-windows-10-insider-preview-build-21277/)|||
 |20279|[12/14/2020](https://blogs.windows.com/windows-insider/2020/12/14/announcing-windows-10-insider-preview-build-20279/)|[**12/16/2020**](https://software-download.microsoft.com/download/sg/Windows_InsiderPreview_SDK_en-us_20279_1.iso)||
 |20277|[12/10/2020](https://blogs.windows.com/windows-insider/2020/12/03/announcing-windows-10-insider-preview-build-20270/)|[12/10/2020](https://software-download.microsoft.com/download/sg/Windows_InsiderPreview_SDK_en-us_20277_1.iso)||
