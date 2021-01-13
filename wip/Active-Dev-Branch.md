@@ -14,6 +14,12 @@ ms.prod: w10
 # The Changelog
 The Changelog represents everything new from all the builds from the Active Development Branch released to the **Dev Channel**. This page includes everything noted as part of the "What's new" and "General changes & improvements" sections of the blog posts published for each build [on the Windows Blog](https://blogs.windows.com/windows-insider/) and does not contain other noted updates for Insiders, fixes, or known issues. 
 
+## Build 21292
+Windows 10 Insider Preview Build 21292 was released to the Dev Channel on [1/13/2021](https://blogs.windows.com/windows-insider/2021/01/13/announcing-windows-10-insider-preview-build-21292/).
+
+### Changes and Improvements
+* Based on feedback, we’re updating Settings > System > Sounds to now display a message when microphone permissions have been turned off for the whole system or for all apps, with a link to the microphone privacy settings page.
+
 ## Build 21286
 Windows 10 Insider Preview Build 21286 was released to the Dev Channel on [1/6/2021](https://blogs.windows.com/windows-insider/2021/01/06/announcing-windows-10-insider-preview-build-21286/).
 
@@ -72,6 +78,9 @@ Based on feedback, we’re making a couple small adjustments for users of “Set
 * If we detect a low confidence location change and there is a single administrator on the device, we will now send a notification asking if you would like to update your time zone – clicking the OK button in the prompt will make the change.
 
 ![Improved time zone transitions](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2021/01/timezonenotifications.png "Displaying examples of the two possible time zone notifications.")
+
+### Changes and Improvements
+* Based on feedback, (GitHub issue #1495) we’re adding an option to disable automatic controller-to-virtual-key mapping for UWP apps. If you have a need to do this, add the following registry key, with a DWORD value of Enabled set to 0: HKLM\Software\Microsoft\Input\Settings\ControllerProcessor\ControllerToVKMapping.
 
 ## Build 21277
 Windows 10 Insider Preview Build 21277 was released to the Dev Channel on [12/10/2020](https://blogs.windows.com/windows-insider/2020/12/10/announcing-windows-10-insider-preview-build-21277/).
