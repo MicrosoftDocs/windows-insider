@@ -14,6 +14,13 @@ ms.prod: w10
 # The Changelog
 The Changelog represents everything new from all the builds from the Active Development Branch released to the **Dev Channel**. This page includes everything noted as part of the "What's new" and "General changes & improvements" sections of the blog posts published for each build [on the Windows Blog](https://blogs.windows.com/windows-insider/) and does not contain other noted updates for Insiders, fixes, or known issues. 
 
+## Build 21296
+Windows 10 Insider Preview Build 21296 was released to the Dev Channel on [1/21/2021](https://blogs.windows.com/windows-insider/2021/01/21/announcing-windows-10-insider-preview-build-21296/).
+
+### Changes and Improvements
+* We’re starting to roll out an update to [our converged clipboard history design](https://aka.ms/wip20206) (WIN + V) to support pinning, unpinning, deleting, and syncing individual entries. Appreciate your patience and feedback while we’ve been working on this. If you have any other feedback in this space, we welcome it in the Feedback Hub under Input and Language > Clipboard.
+* The [ability to manage and create Storage Spaces from within Settings](https://blogs.windows.com/windows-insider/2021/01/06/announcing-windows-10-insider-preview-build-21286/) is now rolling out to all Insiders in the Dev Channel. If you have any feedback as you explore the changes, please file it under Files, Folders, and Online Storage > Storage spaces in the Feedback Hub.
+
 ## Build 21292
 Windows 10 Insider Preview Build 21292 was released to the Dev Channel on [1/13/2021](https://blogs.windows.com/windows-insider/2021/01/13/announcing-windows-10-insider-preview-build-21292/).
 
@@ -62,7 +69,7 @@ This will display the used space under each folder of the current directory.
 
 Get started today by typing diskusage /? in a command line window for more options and usage information.
 
-![DiskUsage](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2021/01/diskusage.png "Running the DiskUsage command in Windows Terminal.")
+![New DiskUsage Tool](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2021/01/diskusage.png "Running the DiskUsage command in Windows Terminal.")
 
 ### Run commands on start up in the Windows Subsystem for Linux (WSL)
 We have added an option that allows you to run any specified Linux command on startup of a WSL distribution. You can accomplish this by editing the /etc/wsl.conf file in your distribution and adding an option titled “command” under a section titled “boot”. This command will run whenever your specific WSL distribution starts up. The example below shows using this functionality to create a method to log the time and date for each startup of this WSL distro.
@@ -162,11 +169,11 @@ Building on theme-aware tiles in Start, we’re introducing theme-aware splash s
 
 Settings app splash screen before and after in light theme:
 
-![Theme-aware splash light](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2020/10/Settings-Light-Before-After-GIF.gif "Settings splash screen before and after in light theme.")
+![Theme-aware splash light 1](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2020/10/Settings-Light-Before-After-GIF.gif "Settings splash screen before and after in light theme.")
 
 Settings app splash screen before and after in dark theme:
 
-![Theme-aware splash light](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2020/10/Settings-Dark-Before-After-GIF.gif "Settings splash screen before and after in dark theme.")
+![Theme-aware splash light 2](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2020/10/Settings-Dark-Before-After-GIF.gif "Settings splash screen before and after in dark theme.")
 
 The following apps support theme-aware splash screens today:
 
