@@ -79,7 +79,8 @@ Moving forward, the Dev Channel will receive builds directly from the active dev
 ##  Windows Experience Feature Pack Updates
 | Version | Beta |
 |------|------|
-|120.2212.1070.0|[**11/30/2020**](https://blogs.windows.com/windows-insider/2020/11/30/releasing-windows-feature-experience-pack-120-2212-1070-0-to-the-beta-channel/)
+|120.2212.2020.0|[**1/26/2021**](https://blogs.windows.com/windows-insider/2021/01/26/releasing-windows-feature-experience-pack-120-2212-2020-0-to-the-beta-channel/)
+|120.2212.1070.0|[11/30/2020](https://blogs.windows.com/windows-insider/2020/11/30/releasing-windows-feature-experience-pack-120-2212-1070-0-to-the-beta-channel/)
 
 ##  Windows 10 October 2020 Update (20H2)
 | Build | Beta | Release Preview | WSUS | ISO |
