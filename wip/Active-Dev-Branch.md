@@ -12,7 +12,154 @@ ms.prod: w10
 ---
 
 # The Changelog
-The Changelog represents everything new from all the builds from the Active Development Branch (RS_PRELEASE) released to the **Dev Channel**. This page includes everything noted as part of the **What's new** and **General changes & improvements** sections of the blog posts published for each build [on the Windows Blog](https://blogs.windows.com/windows-insider/) and does not contain other noted updates for Insiders, fixes, or known issues. 
+The Changelog represents everything new from all the builds from the Active Development Branch released to the **Dev Channel**. This page includes everything noted as part of the "What's new" and "General changes & improvements" sections of the blog posts published for each build [on the Windows Blog](https://blogs.windows.com/windows-insider/) and does not contain other noted updates for Insiders, fixes, or known issues. 
+
+## Build 21296
+Windows 10 Insider Preview Build 21296 was released to the Dev Channel on [1/21/2021](https://blogs.windows.com/windows-insider/2021/01/21/announcing-windows-10-insider-preview-build-21296/).
+
+### Changes and Improvements
+* We’re starting to roll out an update to [our converged clipboard history design](https://aka.ms/wip20206) (WIN + V) to support pinning, unpinning, deleting, and syncing individual entries. Appreciate your patience and feedback while we’ve been working on this. If you have any other feedback in this space, we welcome it in the Feedback Hub under Input and Language > Clipboard.
+* The [ability to manage and create Storage Spaces from within Settings](https://blogs.windows.com/windows-insider/2021/01/06/announcing-windows-10-insider-preview-build-21286/) is now rolling out to all Insiders in the Dev Channel. If you have any feedback as you explore the changes, please file it under Files, Folders, and Online Storage > Storage spaces in the Feedback Hub.
+
+## Build 21292
+Windows 10 Insider Preview Build 21292 was released to the Dev Channel on [1/13/2021](https://blogs.windows.com/windows-insider/2021/01/13/announcing-windows-10-insider-preview-build-21292/).
+
+### Changes and Improvements
+* Based on feedback, we’re updating Settings > System > Sounds to now display a message when microphone permissions have been turned off for the whole system or for all apps, with a link to the microphone privacy settings page.
+
+## Build 21286
+Windows 10 Insider Preview Build 21286 was released to the Dev Channel on [1/6/2021](https://blogs.windows.com/windows-insider/2021/01/06/announcing-windows-10-insider-preview-build-21286/).
+
+### Introducing news and interests on the taskbar
+
+With news and interests on the Windows taskbar, you get quick access to an integrated feed of dynamic content such as news and weather that updates throughout the day.
+
+![News and feeds on the taskbar](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2021/01/News-and-interests.png "News and interests on the Windows taskbar gives you quick access to an integrated feed of dynamic content such as news and weather that updates throughout the day.")
+
+You can personalize your feed with relevant content tailored for you. Instead of switching between apps or your PC and phone to stay up to date with the news and interests you care about – seamlessly peek into your feed directly from the taskbar anytime you want throughout your day.
+
+![News and feeds on the taskbar gif](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2021/01/News-and-interests-video.gif "Showing news and interests on the taskbar with the flyout of content just for you.")
+
+* **Staying up to date:** Quickly glance at your news and interests directly from the taskbar. Get caught up on the latest headlines, weather, sports, and more, then go back to whatever you were doing without disrupting your workflow. You have convenient access to news and interesting content from over 4,500 global brands such as The New York Times, BBC or The Verge, and gorgeous live weather maps. Select an article to open a streamlined reading view with fewer distractions, so you can save time and stay focused.
+* **Personalize your feed:** You can tell us which content you like seeing or don’t like seeing (select More options … and choose “More stories like this” or “Fewer stories like this”) and over time, more stories about the things you care about will show up in your feed, including ones you might otherwise miss. You can also use emoji to react to stories, too.
+* **You’re in control:** At Microsoft, we believe privacy starts with putting you in control and giving you the tools and information, you need to make informed choices. Through news and interests, there is quick access to the Microsoft Privacy Dashboard. Through the Microsoft Edge browser, there are built-in controls to limit tracking from advertisers and third parties. And if news and interests doesn’t appeal to you, you can easily turn it off by right-clicking on the taskbar.
+
+As more of us are spending time on our PCs to work, learn, connect, and play, news and interests on the taskbar is a nice companion for those who want to stay connected with information on the latest current events. Over time, we hope to bring your feed of news and interests to other places, such as in Microsoft Edge, so no matter where you are, you’ll be able to stay up to date.
+
+**We are beginning to roll out news and interests to Windows Insiders today starting with Build 21286 in the Dev Channel and Insiders will need to reboot after installing Build 21286 to enable this feature.** Managing the rollout of features like this allows us to quickly identify issues that may impact performance and reliability. We plan to evolve this experience over time, so please let us know what you think and how we can make it better through Feedback Hub (go to Desktop Environment > News and interests). The team is excited to hear what you think!
+
+_IMPORTANT NOTE: This feature is currently only available to Windows Insiders in United States, Canada, Great Britain, Australia, and India. This feature also requires the new Chromium-based Microsoft Edge browser to be installed on your PC. We are also testing different variations of this experience so some Insiders may see a different experience than others._
+
+### Modernized Storage Spaces Settings
+You can now create and manage Storage Spaces from within the Settings app. This includes creating storage pools and storage spaces, adding, and removing disks, and optimizing pools. This new experience provides an accessible, modern experience integrated with other storage features.
+
+![Modern Storage Spaces](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2021/01/mods.gif "Managing Storage Spaces in the Settings up via Settings > System > Storage.")
+
+Go to **Settings > System > Storage** and click the **Manage Storage Spaces** under “More storage settings” to get started.
+
+>[!NOTE]
+>This feature is rolling out to a subset of Insiders in the Dev Channel at first, to help us quickly identify issues that may impact performance and reliability. Rest assured they will be gradually rolled out to everyone in the Dev Channel.
+
+### Introducing New File System Command Line Tool DiskUsage
+As some Insiders have noticed, we’re working on an enhancement to the file system utilities family – called DiskUsage, enabling users to view and query disk space usage via the command line. With DiskUsage, you can now track files and directories which are consuming excessive amount of space on the drive. It scans the specified directory recursively or the entire drive with detailed information on how much each subfolder is using. It also supports extensive filtering and output customization options.
+
+For example: >> diskusage /d:1
+
+This will display the used space under each folder of the current directory.
+
+Get started today by typing diskusage /? in a command line window for more options and usage information.
+
+![New DiskUsage Tool](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2021/01/diskusage.png "Running the DiskUsage command in Windows Terminal.")
+
+### Run commands on start up in the Windows Subsystem for Linux (WSL)
+We have added an option that allows you to run any specified Linux command on startup of a WSL distribution. You can accomplish this by editing the /etc/wsl.conf file in your distribution and adding an option titled “command” under a section titled “boot”. This command will run whenever your specific WSL distribution starts up. The example below shows using this functionality to create a method to log the time and date for each startup of this WSL distro.
+
+![WSL startup commands](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2021/01/wsl-terminal-startup-commands.png "A screenshot of Windows Terminal displaying a user interacting with WSL.")
+
+This command will run when a WSL distribution is first started. WSL distributions will remain running for a few minutes even after the last Linux process inside of them is closed. You can view if your WSL distro is running using wsl --list --verbose and you can manually shut down all WSL distributions using wsl --shutdown.
+
+### Improving your experience when transitioning between time zones
+Based on feedback, we’re making a couple small adjustments for users of “Set time zone automatically” in Date & Time Settings:
+
+* When your time zone is updated because of a high confidence detected location change, we’ll now send a notification letting you know about it. The notification will include information about the new time zone and clicking it will open the Date & Time Settings.
+* If we detect a low confidence location change and there is a single administrator on the device, we will now send a notification asking if you would like to update your time zone – clicking the OK button in the prompt will make the change.
+
+![Improved time zone transitions](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2021/01/timezonenotifications.png "Displaying examples of the two possible time zone notifications.")
+
+### Changes and Improvements
+* Based on feedback, (GitHub issue #1495) we’re adding an option to disable automatic controller-to-virtual-key mapping for UWP apps. If you have a need to do this, add the following registry key, with a DWORD value of Enabled set to 0: HKLM\Software\Microsoft\Input\Settings\ControllerProcessor\ControllerToVKMapping.
+
+## Build 21277
+Windows 10 Insider Preview Build 21277 was released to the Dev Channel on [12/10/2020](https://blogs.windows.com/windows-insider/2020/12/10/announcing-windows-10-insider-preview-build-21277/).
+
+### Introducing x64 emulation in preview for Windows 10 on ARM PCs
+Windows Insiders with ARM PCs who install this build can try out x64 emulation by installing x64 apps from the Microsoft Store or from any other location of their choosing. For more details on this experience, please head on over [and read this blog post from Hari Pulapaka](https://blogs.windows.com/windows-insider/?p=174852)!
+
+### Adding Support for Unicode Emoji 12.1 and 13.0
+Starting with this build, Insiders will get their first look at the emoji we’ve designed to support Emoji 12.1 and 13.0! This update brings over 200 new glyphs to Windows – including bubble tea, a smiling face with tear, a ninja, a magic wand, and more:
+
+![New Emoji 12.1 and 13.0 emojis](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2020/12/Emoji13@2x.png "Showing an array of the new emoji that will be added, including ninja, bubble tea, face wearing a disguise, and smiling face with a tear.")
+
+As part of this change, we’re introducing a gender-neutral emoji design, which you can now select alongside the corresponding male or female design in our emoji panel and touch keyboard:
+
+![Gender-neutral emoji design](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2020/12/GenderInclusive@2x.png "Displaying 3 versions (male, female, and gender-neutral) of various emoji (genie, superhero, person shrugging, etc.).")
+
+You’ll also find we’ve made some tweaks to our existing emoji to improve cross-platform consistency:
+
+(OLD)
+![Old emoji design](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2020/12/RedesignBefore@2x.png "Some existing emoji and how they’ve been tweaked (face with mask, giraffe, and confused face).")
+
+(NEW)
+![New emoji design](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2020/12/RedesignAfter@2x.png "Some existing emoji and how they’ve been tweaked (face with mask, giraffe, and confused face).")
+
+Some existing emoji and how they’ve been tweaked (face with mask, giraffe, and confused face).
+To bring up the emoji panel and check out all the changes, press Windows key + Period (.) or Windows key + Semicolon (;).
+
+One final note: we’ve made several improvements to our emoji search terms based on your feedback – if you update to today’s build and still find the expected emoji isn’t being returned when you search for it, please let us know! You can file feedback for this in the Feedback Hub under Input and Language > Emoji panel. Please specify what words you used, and which emoji you expected to appear.
+
+### Changes and Improvements
+* We’ve updated the animation when opening or closing a window to make the transition smoother. Do you notice a difference? Let us know!
+* Based on Insider feedback, you can now use the built-in screen snipping experience in Windows (WIN + SHIFT + S) to create a snip of your screen and paste it directly into a folder of your choice in File Explorer to save the screenshot there. Try it out! (This was released to Windows Insiders in the Beta Channel [as part of the recent Windows Feature Experience Pack update](https://blogs.windows.com/windows-insider/2020/11/30/releasing-windows-feature-experience-pack-120-2212-1070-0-to-the-beta-channel/).)
+* Using the touch keyboard in a portrait posture on a 2-in-1 touch device now supports split keyboard mode. (This was released to Windows Insiders in the Beta Channel [as part of the recent Windows Feature Experience Pack update](https://blogs.windows.com/windows-insider/2020/11/30/releasing-windows-feature-experience-pack-120-2212-1070-0-to-the-beta-channel/).)
+* It’s now possible to uninstall the Snipping Tool. If you choose to uninstall it, it can be reinstalled via the Optional Features page in Settings.
+* We’ve made some adjustments to improve the scaling logic of the graphs in Task Manager’s Performance tab.
+We’ve updated Registry Editor so that the Find window, renaming a key, and other places all now support CTRL + Backspace to delete words at a time.
+* When using the Delete key or Dismiss button in Action Center to clear groups of notifications, Narrator will now announce that the notification group has been cleared instead of just moving focus to the next notification group.
+* Based on feedback we’re adjusting a few strings in Offline Maps Settings to improve clarity.
+* To help you find what you’re looking for faster, we’ve updated our folder logic in Start menu’s all apps list so that if a folder only contains a single item we will now display that item in place of the folder.
+
+![Updated folder logic on Start](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2020/12/Start-menu-folder.png "Showing Visual Studio code in a folder by itself and then (after) not in a folder.")
+
+## Build 20279
+Windows 10 Insider Preview Build 20279 was released to the Dev Channel on [12/14/2020](https://blogs.windows.com/windows-insider/2020/12/14/announcing-windows-10-insider-preview-build-20279/).
+
+## Build 20277
+Windows 10 Insider Preview Build 20277 was released to the Dev Channel on [12/10/2020](https://blogs.windows.com/windows-insider/2020/12/10/announcing-windows-10-insider-preview-build-20277/).
+
+## Build 20270
+Windows 10 Insider Preview Build 20270 was released to the Dev Channel on [12/3/2020](https://blogs.windows.com/windows-insider/2020/12/03/announcing-windows-10-insider-preview-build-20270/).
+
+### Changes and Improvements
+* The new “Advanced View” checkbox in Optimize Drives is now up and running and checking it will display volumes previously not visible in this window (for example system and recovery partitions).
+* Using the touch keyboard in a portrait posture on a 2-in-1 touch device now supports split keyboard mode. (This was released to Windows Insiders in the Beta Channel as part of the recent Windows Feature Experience Pack update.)
+
+## Build 20262
+Windows 10 Insider Preview Build 20262 was released to the Dev Channel on [11/18/2020](https://blogs.windows.com/windows-insider/2020/11/18/announcing-windows-10-insider-preview-build-20262/).
+
+## Build 20257
+Windows 10 Insider Preview Build 20257 was released to the Dev Channel on [11/11/2020](https://blogs.windows.com/windows-insider/2020/11/11/announcing-windows-10-insider-preview-build-20257/).
+
+### Changes and Improvements
+* Based on feedback, we’re updating our Start menu tile theming logic such that the tile background for Win32 apps will no longer adjust based on detected contrast ratio, except in the case of pinned Microsoft Edge PWAs.
+
+## Build 20251
+Windows 10 Insider Preview Build 20251 was released to the Dev Channel on [11/4/2020](https://blogs.windows.com/windows-insider/2020/11/04/announcing-windows-10-insider-preview-build-20251/).
+
+## Build 20246
+Windows 10 Insider Preview Build 20246 was released to the Dev Channel on [10/29/2020](https://blogs.windows.com/windows-insider/2020/10/29/announcing-windows-10-insider-preview-build-20246/).
+
+### Changes and Improvements
+* We added automatic Linux distro installation to the wsl.exe --install command! This means that users who wish to install the Windows Subsystem for Linux quickly can just type in wsl.exe --install into the command line and then will have a fully set up WSL instance ready to go, including their Linux distro of choice.
 
 ## Build 20241
 Windows 10 Insider Preview Build 20241 was released to the Dev Channel on [10/21/2020](https://blogs.windows.com/windows-insider/2020/10/21/announcing-windows-10-insider-preview-build-20241/).
@@ -22,11 +169,11 @@ Building on theme-aware tiles in Start, we’re introducing theme-aware splash s
 
 Settings app splash screen before and after in light theme:
 
-![Theme-aware splash light](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2020/10/Settings-Light-Before-After-GIF.gif "Settings splash screen before and after in light theme.")
+![Theme-aware splash light 1](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2020/10/Settings-Light-Before-After-GIF.gif "Settings splash screen before and after in light theme.")
 
 Settings app splash screen before and after in dark theme:
 
-![Theme-aware splash light](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2020/10/Settings-Dark-Before-After-GIF.gif "Settings splash screen before and after in dark theme.")
+![Theme-aware splash light 2](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2020/10/Settings-Dark-Before-After-GIF.gif "Settings splash screen before and after in dark theme.")
 
 The following apps support theme-aware splash screens today:
 
