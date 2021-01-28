@@ -14,6 +14,36 @@ ms.prod: w10
 # The Changelog
 The Changelog represents everything new from all the builds from the Active Development Branch released to the **Dev Channel**. This page includes everything noted as part of the "What's new" and "General changes & improvements" sections of the blog posts published for each build [on the Windows Blog](https://blogs.windows.com/windows-insider/) and does not contain other noted updates for Insiders, fixes, or known issues. 
 
+## Build 21301
+Windows 10 Insider Preview Build 21301 was released to the Dev Channel on [1/27/2021](https://blogs.windows.com/windows-insider/2021/01/27/announcing-windows-10-insider-preview-build-21301/).
+
+### Improving the touch keyboard design
+Building on the design changes already live in the Dev Channel, Windows Insiders will start to notice some more refinements rolling out for the touch keyboard based on their feedback. Those refinements include:
+
+* When undocking the keyboard, it now switches to the Small keyboard layout, and you can easily move the keyboard around using the gripper region at the top of the keyboard.
+* Small and split layouts will now feature an updated symbol’s view based on the default layout.
+* The settings menu now has a nested structure for improved clarity and less clutter.
+* Finally, we have a new password feedback icon to the left of the space bar for when you are in a password field and would like to turn on visual key press feedback on the touch keyboard.
+
+![Touch keyboard layout improvements](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2021/01/Updated-keyboard-menu.png "The revamped touch keyboard settings menu allows you to quickly change between keyboard modes, access more settings and give feedback.")
+
+Some Insiders may also see updates to the default keyboard layout on 12” or larger screens with the keyboard having a more traditional keyboard layout featuring an ESC, Tab, and Windows key and other small tweaks.
+
+![Touch keyboard layout improvements 2](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2021/01/Updated_keyboard.jpg "The updated default layout now features the Esc, Tab, Windows, and Alt keys.")
+
+One thing we heard from our customers is that the candidate bar can feel cluttered and hard to quickly process. To reduce the cognitive overload we will be displaying 5 candidates maximum and centering them into position above the keyboard.
+
+![Touch keyboard layout improvements 3](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2021/01/Updated_candidate_bar.png "The candidate suggestion bar is now centered and features 5 candidates for you to choose from.")
+
+>[!NOTE]
+>This feature is rolling out to a subset of Insiders in the Dev Channel at first, to help us quickly identify issues that may impact performance and reliability. Rest assured they will be gradually rolled out to everyone in the Dev Channel.
+
+### Changes and Improvements
+* We made a change so that when you right click locally saved files displayed in jump lists, in addition to Open you will now have the option to Open File Location.
+* We updated our N’Ko keyboard layout to add access to currency and some other symbols by tapping the keys along the top row of your keyboard while holding the Shift key.
+* We updated the Touchpad on/off toggle under Settings > Devices > Touchpad such that it no longer requires admin privileges to change.
+* We updated our backend dictionaries to help improve spellchecking and text prediction relevance.
+
 ## Build 21296
 Windows 10 Insider Preview Build 21296 was released to the Dev Channel on [1/21/2021](https://blogs.windows.com/windows-insider/2021/01/21/announcing-windows-10-insider-preview-build-21296/).
 
