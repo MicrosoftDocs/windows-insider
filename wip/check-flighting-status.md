@@ -18,7 +18,7 @@ To see the latest build number for your channel, [check out Flight Hub](https://
 
 ## Check for the watermark
 
-If you’re on an Insider Preview build, you should be able to see a watermark on the bottom right of your desktop, right above the time and date in your Taskbar, that tells you exactly which version of Windows you’re running.
+If you’re on an Insider Preview build, you should be able to see a watermark on the bottom right of your desktop, right above the time and date in your taskbar, that tells you exactly which version of Windows you’re running.
 
 ![Windows watermark for Windows 10 Insider Preview Builds showing Build 20211.](images/Watermark.jpg "Channels overview and how rings move to them.")
 
@@ -32,7 +32,7 @@ You can also see which version of Windows your device is on in the About section
 
 ## Run the winver command
 
-Need a quick, easy way to pull up your Windows details? Just type **winver** into the search on your Taskbar, then select it to run the command. A window will open telling you which version and Insider Preview build you’re on.
+Need a quick, easy way to pull up your Windows details? Just type **winver** into the search on your taskbar, then select it to run the command. A window will open telling you which version and Insider Preview build you’re on.
 
 ![The About Windows module that pops up from running the winver command, highlighting the Build 20211 the device is on.](images/winver.jpg "Channels overview and how rings move to them.")
 
