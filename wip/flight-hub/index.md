@@ -84,12 +84,12 @@ Moving forward, the Dev Channel will receive builds directly from the active dev
 |120.2212.1070.0|[11/30/2020](https://blogs.windows.com/windows-insider/2020/11/30/releasing-windows-feature-experience-pack-120-2212-1070-0-to-the-beta-channel/)
 
 ##  Upcoming Windows 10 Feature Update (21H1)
->[!NOTE]
->*Currenty only available as an optional update for Windows Insiders in the Beta Channel.
-
 | Build | Beta |
 |------|------|
 |19043.844*|[**2/17/2021**](https://blogs.windows.com/windows-insider/2021/02/17/announcing-windows-10-insider-preview-build-19043-844-21h1/)
+
+>[!NOTE]
+>*Currenty only available as an optional update for Windows Insiders in the Beta Channel.
 
 ##  Windows 10 October 2020 Update (20H2)
 | Build | Beta | Release Preview | WSUS | ISO |
