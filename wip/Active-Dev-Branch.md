@@ -282,7 +282,7 @@ _Please note: If your device does not have this feature enabled, the policy will
 >This feature is rolling out to a subset of Insiders in the Dev Channel at first, to help us quickly identify issues that may impact performance and reliability. Rest assured they will be gradually rolled out to everyone in the Dev Channel.
 
 ### Changes and Improvements
-* [Meet Now in the Windows 10 Taskbar](https://blogs.windows.com/windows-insider/2020/09/23/announcing-windows-10-insider-preview-build-20221/) is now available to all Windows Insiders in the Dev Channel.
+* [Meet Now in the Windows 10 taskbar](https://blogs.windows.com/windows-insider/2020/09/23/announcing-windows-10-insider-preview-build-20221/) is now available to all Windows Insiders in the Dev Channel.
 * We’re starting to roll out a change to enable displaying graphics card information listed under **Settings** > **System** > **About**, and some Insiders may see this on their PCs.
 * Our change to enable [moving the text cursor via gestures on the touch keyboard](https://blogs.windows.com/windows-insider/2020/09/02/announcing-windows-10-insider-preview-build-20206/) is now rolling out to all Insiders in the Dev Channel.
 
@@ -309,8 +309,8 @@ Selecting the notification or navigating to the drive properties page in Storage
 ## Build 20221
 Windows 10 Insider Preview Build 20221 was released to the Dev Channel on [9/23/2020](https://blogs.windows.com/windows-insider/2020/09/23/announcing-windows-10-insider-preview-build-20221/).
 
-### Introducing Meet Now in the Windows 10 Taskbar
-Earlier this year we introduced Meet Now in Skype. Meet Now makes it easy to connect with anyone in as little as two clicks for free and each call can last up to 24 hours. Today, we’re excited to share that we are extending this capability in Windows 10 by bringing Meet Now right to the Taskbar. You can now easily set up a video call and reach friends and family in an instant by selecting the Meet Now icon in the notification area (system tray) of the Taskbar in Windows 10. No sign ups or downloads needed.
+### Introducing Meet Now in the Windows 10 taskbar
+Earlier this year we introduced Meet Now in Skype. Meet Now makes it easy to connect with anyone in as little as two clicks for free and each call can last up to 24 hours. Today, we’re excited to share that we are extending this capability in Windows 10 by bringing Meet Now right to the taskbar. You can now easily set up a video call and reach friends and family in an instant by selecting the Meet Now icon in the notification area (system tray) of the taskbar in Windows 10. No sign ups or downloads needed.
 
 Create a meeting:
 
@@ -426,7 +426,7 @@ We are bringing emoji search to the touch keyboard, so you no longer need to hun
 
 ![Touch Keyboard Redesign 2](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2020/09/2020-09-01-5-1024x644.png "The redesigned touch keyboard offers quick access to emoji and animated GIFs so you and express yourself any way you like while typing in Windows.")
 
-The touch keyboard can also be invoked on any PC from the touch keyboard button on the Taskbar, although you may need to enable the button. To do so, right-click or press and hold on the Taskbar, then select “Show touch keyboard button” in the menu. Once the touch keyboard is open, try typing or shapewriting on the keyboard and let us know how it feels.
+The touch keyboard can also be invoked on any PC from the touch keyboard button on the taskbar, although you may need to enable the button. To do so, right-click or press and hold on the taskbar, then select “Show touch keyboard button” in the menu. Once the touch keyboard is open, try typing or shapewriting on the keyboard and let us know how it feels.
 
 We want to thank Insiders for sharing their feedback about the touch keyboard over the years – your comments directly inspired these changes. We look forward to you trying them out and to even more feedback!
 
@@ -591,15 +591,15 @@ Windows 10 Insider Preview Build 20180 was released to the Dev Channel on [7/29/
 Windows 10 Insider Preview Build 20175 was released to the Dev Channel on [7/22/2020](https://blogs.windows.com/windowsexperience/2020/07/22/announcing-windows-10-insider-preview-build-20175/).
 
 ### Improving pinned sites in Microsoft Edge
-Earlier this month, we announced **Alt** + **Tab** between apps and sites, the first of our new productivity enhancements coming to Microsoft Edge on Windows 10. Today, we’re announcing another feature we’ve been working on to make you more efficient when browsing the web: quick access to tabs for your pinned sites. selecting a pinned site on the Taskbar will now show you all of the open tabs for that site across any of your Microsoft Edge windows, just like you’d expect for any app with multiple open windows. Please let us know what you think!
+Earlier this month, we announced **Alt** + **Tab** between apps and sites, the first of our new productivity enhancements coming to Microsoft Edge on Windows 10. Today, we’re announcing another feature we’ve been working on to make you more efficient when browsing the web: quick access to tabs for your pinned sites. selecting a pinned site on the taskbar will now show you all of the open tabs for that site across any of your Microsoft Edge windows, just like you’d expect for any app with multiple open windows. Please let us know what you think!
 
-![Selecting a pinned site on the Taskbar will now show you all of the open tabs for that site across any of your Microsoft Edge windows.](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/2/2020/07/f50733d9580bd7b17dd3b245952a8634.gif)
+![Selecting a pinned site on the taskbar will now show you all of the open tabs for that site across any of your Microsoft Edge windows.](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/2/2020/07/f50733d9580bd7b17dd3b245952a8634.gif)
 
-Selecting a pinned site on the Taskbar will now show you all of the open tabs for that site across any of your Microsoft Edge windows.
+Selecting a pinned site on the taskbar will now show you all of the open tabs for that site across any of your Microsoft Edge windows.
 
 __This feature is currently rolling out to a subset of Insiders today and requires Microsoft Edge Insider Build 85.0.561.0 or higher (Canary or Dev Channel).__
 
-NOTE: Since this is an early preview, existing sites on your Taskbar will not experience this new behavior until you remove and re-pin them.
+NOTE: Since this is an early preview, existing sites on your taskbar will not experience this new behavior until you remove and re-pin them.
 
 For more details on our new multitasking improvements, [check out our post on the Microsoft Edge blog](https://blogs.windows.com/msedgedev/2020/07/22/multitasking-improvements-windows-10-microsoft-edge/).
 
@@ -642,7 +642,7 @@ We are freshening up the Start menu with a more streamlined design that removes 
 
 ![Theme-aware tiles on the Start menu.](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/2/2020/07/dabfa329dfacdc1a2669002649ed75d6.gif)
 
-This refined Start design looks great in both dark and light theme, but if you’re looking for a splash of color, first make sure to turn on Windows dark theme and then toggle **Show accent color on the following surfaces** for **Start, Taskbar, and action center** under **Settings** > **Personalization** > **Color** to elegantly apply your accent color to the Start frame and tiles.
+This refined Start design looks great in both dark and light theme, but if you’re looking for a splash of color, first make sure to turn on Windows dark theme and then toggle **Show accent color on the following surfaces** for **Start, taskbar, and action center** under **Settings** > **Personalization** > **Color** to elegantly apply your accent color to the Start frame and tiles.
 
 ### Alt + Tab between apps and sites
 Are you a multitasker? We have exciting news for you! Beginning with today’s build, all tabs open in Microsoft Edge will start appearing in **Alt** + **Tab**, not just the active one in each browser window. We’re making this change so you can quickly get back to whatever you were doing—wherever you were doing it.
@@ -655,14 +655,14 @@ __This feature is currently rolling out to a subset of Insiders today in the Dev
 
 This is just the beginning of productivity enhancements coming to Microsoft Edge—stay tuned!
 
-### A more personalized Taskbar for new users
-We want to help customers get the most out of their PCs from day one, and that starts with offering a cleaner, more personalized, out-of-box experience to give you the content you want and less clutter. This provides us with a flexible, cloud-driven infrastructure to test customer reception of default Taskbar content and tailor these layouts based on user and device signal.
+### A more personalized taskbar for new users
+We want to help customers get the most out of their PCs from day one, and that starts with offering a cleaner, more personalized, out-of-box experience to give you the content you want and less clutter. This provides us with a flexible, cloud-driven infrastructure to test customer reception of default taskbar content and tailor these layouts based on user and device signal.
 
 We will evaluate the performance of individual default properties, monitoring diagnostic data and user feedback to assess an audience’s reception. Using this information, we will tune default layouts to minimize clutter and perceptions of bloatware.
 
-__Please note that this experience is limited to new account creation or first logon scenarios. We will not use Programmable Taskbar to alter the Taskbar layout on existing accounts.__
+__Please note that this experience is limited to new account creation or first logon scenarios. We will not use Programmable taskbar to alter the taskbar layout on existing accounts.__
 
-![A more personalized Taskbar for new users.](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/2/2020/07/2a484fd68334970e192f8a1138aedc73-1536x635.jpg)
+![A more personalized taskbar for new users.](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/2/2020/07/2a484fd68334970e192f8a1138aedc73-1536x635.jpg)
 
 ### Improving the notification experience
 We are making some changes to improve the notifications experience in Windows 10.
@@ -701,7 +701,7 @@ This build contains three new exciting WSL features. The first is GPU compute: a
 ### General changes & improvements
 * With this week’s build, we’ll be starting to roll out [the new search box on the default app settings pages](https://blogs.windows.com/windowsexperience/2020/04/15/announcing-windows-10-insider-preview-build-19608/). As part of this, we’ve done some work to improve the performance of the search box.
 * [The new Korean IME](https://blogs.windows.com/windowsexperience/2019/12/16/announcing-windows-10-insider-preview-build-19536/) is now available again for Insiders to use.
-* Based on feedback, we’re updating the text of the **Settings** > **Privacy** > **Location** page to clarify that the icon displayed when your location is being used will be displayed in the Taskbar.
+* Based on feedback, we’re updating the text of the **Settings** > **Privacy** > **Location** page to clarify that the icon displayed when your location is being used will be displayed in the taskbar.
 
 ## Build 19645
 Windows 10 Insider Preview Build 19640 was released to the Fast ring on [6/10/2020](https://blogs.windows.com/windowsexperience/2020/06/10/announcing-windows-10-insider-preview-build-19645/).
@@ -788,8 +788,8 @@ Windows 10 Insider Preview Build 19592 was released to the Fast ring on [3/25/20
 ### Tablet posture improvements for 2-in-1 convertible PCs
 We are beginning to roll out (again*) the new tablet experience for 2-in-1 convertible PCs as a preview to some Windows Insiders in the Fast ring. This experience is separate from the Tablet Mode experience that you will still be able to use. This new experience allows users entering tablet posture to stay in the familiar desktop experience without interruption with a few key touch improvements:
 
-* Taskbar icons are spaced out
-* Search box on Taskbar is collapsed into icon-only mode
+* taskbar icons are spaced out
+* Search box on taskbar is collapsed into icon-only mode
 * Touch keyboard auto invokes when you tap a text field
 * File explorer elements will have a little more padding, to make them comfortable to interact with using touch
 * You’ll also notice we’ve updated some of the related Tablet settings under **Settings** > **System**, so as to give you control over the experience.
@@ -803,7 +803,7 @@ We’d love to hear your feedback about the experience:
 1. Use your convertible PC with apps as you normally would.
 2. When you’re ready to pick it up and go or simply lean back on the couch, you can fold back the keyboard or remove it altogether.
 3. Use your device as a tablet with touch, without going into Tablet Mode.
-4. Screenshot showing improvements to tablet posture, like collapsed search, increased spacing between icons, and a touch keyboard option in your Taskbar.
+4. Screenshot showing improvements to tablet posture, like collapsed search, increased spacing between icons, and a touch keyboard option in your taskbar.
 
 >[!NOTE] 
 >This feature was previously rolled out as an experiment to Windows Insiders in 20H1 Build 18970 and ended in Build 19013. After some refinement, we’re reintroducing it to Windows Insiders in this build and plan to deliver this experience to customers in a future Windows 10 update.
@@ -849,7 +849,7 @@ __Note: Please make sure your device is set to “Full” before updating to Bui
 ### More new icons: Windows Security
 We’re continuing to roll out updated icons to many of the built-in apps in Windows 10. In today’s build, we’ve updated the Windows Security icon to match the new design principles outlined here from the Microsoft Design Team. Unlike many of the built-in apps in Windows 10, which can be updated through the Store, the new Windows Security icon is updated through the OS and will rollout in a future Windows 10 feature update.
 
-![The new Windows Security icon as it appears on the Taskbar.](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/2/2020/03/254a7cea7eb9aed8586fc445faeaa227.png)
+![The new Windows Security icon as it appears on the taskbar.](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/2/2020/03/254a7cea7eb9aed8586fc445faeaa227.png)
 
 ### General changes & improvements
 * Following up on [our post about the new Cortana app](https://insider.windows.com/articles/cortana-windows-beta/), we wanted to let you know that in addition to timers and instant answers, which lit up last month, assistant conversations are now online. Some examples to try are “tell me a dad joke”, “tell me a bedtime story”, or “rock, paper, scissors.” We appreciate your patience while we worked on this. This is a server-side change, however we’re noting it here for awareness.
