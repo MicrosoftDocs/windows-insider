@@ -14,6 +14,110 @@ ms.prod: w10
 # The Changelog
 The Changelog represents everything new from all the builds from the Active Development Branch released to the **Dev Channel**. This page includes everything noted as part of the "What's new" and "General changes & improvements" sections of the blog posts published for each build [on the Windows Blog](https://blogs.windows.com/windows-insider/) and does not contain other noted updates for Insiders, fixes, or known issues. 
 
+## Build 21322
+Windows 10 Insider Preview Build 21322 was released to the Dev Channel on [2/24/2021](https://blogs.windows.com/windows-insider/2021/02/24/announcing-windows-10-insider-preview-build-21322/).
+
+### Changes and Improvements
+* The 3D Objects folder will no longer be shown as a special folder in File Explorer after updating to this build. If you need to access this folder, you can do so via typing %userprofile% in File Explorer or through the navigation pane option “Show all folders”.
+* [News and interests] We removed the “Reduce taskbar updates” option from the context menu. We expect it to return in a future update.
+* We have temporarily removed the touch keyboard refinements [noted in Build 21301](https://blogs.windows.com/windows-insider/2021/01/27/announcing-windows-10-insider-preview-build-21301/) to fix some issues. However, the updates to the default keyboard layout on 12” or larger screens and the candidate bar remain available to everyone in Dev Channel [as noted last week with Build 21318](https://blogs.windows.com/windows-insider/2021/02/19/announcing-windows-10-insider-preview-build-21318/).
+
+## Build 21318
+Windows 10 Insider Preview Build 21318 was released to the Dev Channel on [2/19/2021](https://blogs.windows.com/windows-insider/2021/02/19/announcing-windows-10-insider-preview-build-21318/).
+
+### Paste as plain text in clipboard history
+Simply open clipboard history (WIN + V) and click the … button next to any text-based entry in your clipboard history – you will now see a “Paste as plain text” option alongside pin and delete! When you use this action in clipboard history, it pastes the text content of the clipboard without its original formatting (font, color, size etc.), allowing it to match the formatting of the destination document.
+
+![Paste as plain text](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2021/02/paste-in-plain-text.png "Displaying the new Paste as Text option in clipboard history.")
+
+We look forward to you trying it! Please file any feedback you have for clipboard history under Input and Language > Clipboard (Copy and Paste) in the Feedback Hub.
+
+>[!NOTE]
+>This feature is rolling out to a subset of Insiders in the Dev Channel at first, to help us quickly identify issues that may impact performance and reliability. Rest assured they will be gradually rolled out to everyone in the Dev Channel.
+
+### Changes and Improvements
+* Insiders using x64 apps on ARM64 will no longer need to download and install a separate preview version of the ARM64 C++ redistributable package.
+* We’re making a change so that [the notification](https://docs.microsoft.com/windows-hardware/design/component-guidelines/bluetooth-swift-pair) when pairing supported Bluetooth devices will now stay on the screen a little longer, given you the chance to interact with it before it goes away. If you’d like to dismiss it before then, you can still do so at any point by clicking the X in the notification, middle clicking the notification, or sliding the notification off the screen.
+* Touch keyboard improvements as mentioned in [Build 21301](https://blogs.windows.com/windows-insider/2021/01/27/announcing-windows-10-insider-preview-build-21301/) such as updates to the default keyboard layout on 12” or larger screens and the candidate bar are now rolling out to all Insiders in the Dev Channel.
+* We’ve improved the smoothness of motion while using Magnifier – for the scenario where you are transitioning between mouse and keyboard focus.
+
+## Build 21313
+Windows 10 Insider Preview Build 21313 was released to the Dev Channel on [2/12/2021](https://blogs.windows.com/windows-insider/2021/02/12/announcing-windows-10-insider-preview-build-21313/).
+
+### Expanding news and interests to more languages and markets
+We’ve heard your feedback! Today we’re excited to announce that we’re expanding the news and interests experience on the taskbar to a broader set of international languages and markets. Previously, the experience was only available in United States, Canada, Great Britain, Australia, and India. This now means that the news content, weather forecasts, sports and finance updates will be based on your location anywhere in the world!
+
+![Expanded news and interests to more markets](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2021/02/News-and-interests-JP-updated2.jpg "News and interests on the Windows taskbar as seen from a Windows Insider’s PC in Japan.")
+
+News and interests will automatically detect your language and location, and deliver a localized experience consisting of content from local publishers and data providers.
+
+Please let us know what you think and how we can make news and interests better through Feedback Hub (go to Desktop Environment > News and interests). The team is excited to hear what you think!
+
+The experience is not yet available in China. We hope to bring this experience to customers soon.
+
+>[!NOTE]
+>As a reminder, we continue to roll out news and interests to Windows Insiders which means it isn’t available to everyone in the Dev Channel just yet.
+
+### The new Microsoft Edge to replace Microsoft Edge Legacy
+With the release of Windows 10 Insider Preview Build 21313, Microsoft Edge Legacy will be replaced by the new Microsoft Edge. This will be the case for Windows 10 Insider Preview builds moving forward.
+
+With Microsoft Edge, it’s time to expect more. You get world-class performance, with more privacy, more productivity, and more value as you browse.
+
+And if you’d like to try out upcoming features in Microsoft Edge, join the Microsoft Edge Insider Program. Be one of the first to see what’s new by downloading the Microsoft Edge Canary, Dev, or Beta channels [from the Microsoft Edge Insider website](https://www.microsoftedgeinsider.com/download?form=MD19OP&OCID=MD19OP).
+
+### Modernizing our IME candidate window design
+An IME (Input Method Editor) is fundamental for typing East Asian languages, and leverages something we call a candidate window to enables users to insert characters efficiently. With recent releases of Windows 10, we started introducing new versions of our IMEs. Today, we’re excited to share the next part of those efforts – based on your feedback, the new candidate window offers:
+
+A modern design – more aligned with our Fluent Design principles, including an acrylic background, a new selection visual, and dark theme support.
+Optimized font size – we’ve adjusted the font size in the Candidate Window UI to minimize the intrusiveness while securing visibility.
+Quick access to emoji – to help improve discoverability, we’re adding direct access to the Emoji Panel via a button from the candidate window UI. Please note: We are still working to improve the experience of this button. Currently the composition string is finalized when it is pressed.
+Improved performance – input is at the core of how you interact with your PC, and we want to ensure you have the best possible experience as we roll out these changes.
+
+For those unfamiliar with the previous design, it looked like this when you started typing:
+
+![Previous IME candidate window design](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2021/02/Previous-Japanese-IME-candidate-window-UI.png "Previous Japanese IME candidate window design, showing conversion candidates of “kyou”.")
+
+We’re looking forward for Insiders to try our updated design:
+
+![New IME candidate window design 1](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2021/02/New-Japanese-IME-candidate-window-UI.png "New (1) Japanese IME candidate window design, in light and dark mode. Design now follows Fluent Design principles.")
+
+![New IME candidate window design 2](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2021/02/New-Chinese-Simplified-IME-candidate-window-UI.png "New (2) Japanese IME candidate window design, in light and dark mode. Design now follows Fluent Design principles.")
+
+The new UI design is available for the following languages/keyboards:
+
+* Japanese – Microsoft IME
+* Chinese (Simplified) – Microsoft Pinyin
+* Chinese (Simplified) – Microsoft Wubi
+* Chinese (Traditional) – Microsoft Bopomofo
+* Chinese (Traditional) – Microsoft ChangJie
+* Chinese (Traditional) – Microsoft Quick
+* Korean – Microsoft IME
+* Hindi – Hindi Phonetic
+* Bangla – Bangla Phonetic
+* Marathi – Marathi Phonetic
+* Telugu – Telugu Phonetic
+* Tamil – Tamil Phonetic
+* Kannada – Kannada Phonetic
+* Malayalam – Malayalam Phonetic
+* Gujarati – Gujarati Phonetic
+* Odia – Odia Phonetic
+* Punjabi – Punjabi Phonetic
+
+>[!NOTE]
+>This feature is rolling out to a subset of Insiders in the Dev Channel at first, to help us quickly identify issues that may impact performance and reliability. Rest assured they will be gradually rolled out to everyone in the Dev Channel. If you have any feedback for these changes as they roll out to you, please file them in the Feedback Hub under Input and Language > Text Input.
+
+### Changes and Improvements
+* Based on feedback, and to align with the fact that Dev Channel builds are not matched to a specific Windows 10 release, we have updated the displayed version name to now be Dev.
+* We heard feedback that it wasn’t clear how to turn off news and interests if this was your preference. To help address this, we changed the “Hidden” option in the taskbar context menu to now say “Turn off” to make this functionality clearer.
+* Based on feedback, we’ve made some small adjustments to the [new app launch animation](http://aka.ms/wip21277) to improve speed and make it a little smoother.
+The improvement to the candidate bar on the touch keyboard [announced in Build 21301](https://blogs.windows.com/windows-insider/2021/01/27/announcing-windows-10-insider-preview-build-21301/) where it displays 5 candidates maximum and centers them into position above the keyboard has begun rolling out.
+* The new voice typing experience that was [announced in Build 20206](https://blogs.windows.com/windows-insider/2020/09/02/announcing-windows-10-insider-preview-build-20206/) has begun rolling out to all Insiders in the Dev Channel. Press the Windows key plus H if you’d like to try it out in one of the supported languages.
+* The change to enable pinning items in our [updated clipboard history design](https://blogs.windows.com/windows-insider/2020/09/02/announcing-windows-10-insider-preview-build-20206/) (inside the emoji picker) is now rolling out to all Insiders in the Dev Channel.
+* We’ve made a few more updates to our emoji search teams based on feedback, including that programming will now return the 3 technologist emojis and RIP will now return the tombstone emoji. We’ve also updated the search in Russian so that emoji with the letter ё in their keywords can now also be found by using the letter e. Please keep the feedback coming!
+* We are removing the capability to copy and paste a screen snip directly into a folder in File Explorer for now due to an issue discovered thanks to the feedback from Windows Insiders. We hope to re-enable this capability in a future update after we address this issue. (This change was also released to Windows Insiders in the Beta Channel as part of the [recent Windows Feature Experience Pack update](https://blogs.windows.com/windows-insider/2021/01/26/releasing-windows-feature-experience-pack-120-2212-2020-0-to-the-beta-channel/).)
+* As part of our continued iconography work, this build introduces a new design for our Narrator icon.
+![Updated Narrator icon](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2021/02/narratroicon.png "The essence of the icon is the same (a computer with a speech bubble), but now the speech bubble is brightly colored rather than just white lines on a blue background.")
+
 ## Build 21301
 Windows 10 Insider Preview Build 21301 was released to the Dev Channel on [1/27/2021](https://blogs.windows.com/windows-insider/2021/01/27/announcing-windows-10-insider-preview-build-21301/).
 
@@ -24,6 +128,9 @@ Building on the design changes already live in the Dev Channel, Windows Insiders
 * Small and split layouts will now feature an updated symbol’s view based on the default layout.
 * The settings menu now has a nested structure for improved clarity and less clutter.
 * Finally, we have a new password feedback icon to the left of the space bar for when you are in a password field and would like to turn on visual key press feedback on the touch keyboard.
+
+>[!NOTE]
+>The above mentioned refinements have been temporarily removed as of Build 21322 to fix some issues.
 
 ![Touch keyboard layout improvements](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2021/01/Updated-keyboard-menu.png "The revamped touch keyboard settings menu allows you to quickly change between keyboard modes, access more settings and give feedback.")
 
@@ -36,7 +143,7 @@ One thing we heard from our customers is that the candidate bar can feel clutter
 ![Touch keyboard layout improvements 3](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2021/01/Updated_candidate_bar.png "The candidate suggestion bar is now centered and features 5 candidates for you to choose from.")
 
 >[!NOTE]
->This feature is rolling out to a subset of Insiders in the Dev Channel at first, to help us quickly identify issues that may impact performance and reliability. Rest assured they will be gradually rolled out to everyone in the Dev Channel.
+>The updates to the default keyboard layout on 12” or larger screens and the candidate bar remain available to everyone in Dev Channel as of Build 21322.
 
 ### Changes and Improvements
 * We made a change so that when you right click locally saved files displayed in jump lists, in addition to Open you will now have the option to Open File Location.
