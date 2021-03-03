@@ -14,6 +14,32 @@ ms.prod: w10
 # The Changelog
 The Changelog represents everything new from all the builds from the Active Development Branch released to the **Dev Channel**. This page includes everything noted as part of the "What's new" and "General changes & improvements" sections of the blog posts published for each build [on the Windows Blog](https://blogs.windows.com/windows-insider/) and does not contain other noted updates for Insiders, fixes, or known issues. 
 
+## Build 21327
+Windows 10 Insider Preview Build 21327 was released to the Dev Channel on [3/3/2021](https://blogs.windows.com/windows-insider/2021/03/03/announcing-windows-10-insider-preview-build-21327/).
+
+### News and interests has an updated look!
+Thanks for your ongoing feedback about news and interests on the Windows taskbar! Today, we’re excited to start rolling out a new design that makes it even more delightful to scan and interact with the headlines and stories in your feed. Imagery from articles now shines through with a vibrant and colorful design, making your feed more glanceable, engaging, and beautiful.
+
+![News and interests updated design](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2021/03/News-and-interests-redesign.gif "News and interests on the Windows taskbar showing a vibrant new design for stories in the feed.")
+
+There are more updates when you click “See more news”. The new feed experience that opens in the browser has been redesigned to help you catch up with the top headlines at a glance and enjoy a vibrant feed that brings your personalized stories to light. Larger cards can now also show article text, helping you get a sense of a topic before diving in.
+
+![News and interests updated design on the web](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2021/03/Feeds-browser-redesign-scaled.jpg "By clicking “See more news”, you get a redesigned feed experience with top headlines and a vibrant feed of personalized stories.")
+
+Across news and interests and the homepage, we are also making it easier to share your reaction to the news, with updated emoji graphics so you can respond with a like, love, surprise, anger, and more.
+
+We look forward to hearing what you think! This updated design will start to roll out to Insiders with news and features in the U.S. first. Over time, it’ll roll out to other markets so stay tuned if you do not see these changes immediately.
+
+>[!NOTE]
+>REMINDER: We continue to roll out news and interests to Windows Insiders which means it isn’t available to everyone in the Dev Channel just yet.
+
+### Changes and Improvements
+* Sharped-eyed Windows Insiders will notice many of the system icons in this build have been updated and now align to the Microsoft Fluent Design style. This build includes a new font Segoe Fluent Icons. Areas of the OS that use the Segoe MDL2 assets such as the Start menu and Settings app will include the new icon designs which have a more rounded and simplified look and feel.
+
+![New Segoe Fluent Icons font](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2021/03/fluent_monolineIcons.jpg "The new Segoe Fluent Icons font includes new icon designs which have a more rounded and simplified look and feel.")
+
+* On ARM64 devices, the default architecture for PowerShell is now x64 rather than x86.
+
 ## Build 21322
 Windows 10 Insider Preview Build 21322 was released to the Dev Channel on [2/24/2021](https://blogs.windows.com/windows-insider/2021/02/24/announcing-windows-10-insider-preview-build-21322/).
 
