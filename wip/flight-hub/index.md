@@ -23,7 +23,10 @@ Moving forward, the Dev Channel will receive builds directly from the active dev
 
 | Build | Dev | SDK | ISO |
 |-------|------|------|
-|21313|[**2/12/2021**](https://blogs.windows.com/windows-insider/2021/02/12/announcing-windows-10-insider-preview-build-21313/)|||
+|21327|[**3/3/2021**](https://blogs.windows.com/windows-insider/2021/03/03/announcing-windows-10-insider-preview-build-21327/)|||
+|21322|[2/24/2021](https://blogs.windows.com/windows-insider/2021/02/24/announcing-windows-10-insider-preview-build-21322/)|||
+|21318|[2/19/2021](https://blogs.windows.com/windows-insider/2021/02/19/announcing-windows-10-insider-preview-build-21318/)|||
+|21313|[2/12/2021](https://blogs.windows.com/windows-insider/2021/02/12/announcing-windows-10-insider-preview-build-21313/)|||
 |21301|[1/27/2021](https://blogs.windows.com/windows-insider/2021/01/27/announcing-windows-10-insider-preview-build-21301/)|||
 |21296|[1/21/2021](https://blogs.windows.com/windows-insider/2021/01/21/announcing-windows-10-insider-preview-build-21296/)|||
 |21292|[1/13/2021](https://blogs.windows.com/windows-insider/2021/01/13/announcing-windows-10-insider-preview-build-21292/)|||
@@ -80,7 +83,8 @@ Moving forward, the Dev Channel will receive builds directly from the active dev
 ##  Windows Experience Feature Pack Updates
 | Version | Beta |
 |------|------|
-|120.2212.2020.0|[**1/26/2021**](https://blogs.windows.com/windows-insider/2021/01/26/releasing-windows-feature-experience-pack-120-2212-2020-0-to-the-beta-channel/)
+|120.2212.3030.0|[**2/23/2021**](https://blogs.windows.com/windows-insider/2021/02/23/releasing-windows-feature-experience-pack-120-2212-3030-0-to-the-beta-channel/)
+|120.2212.2020.0|[1/26/2021](https://blogs.windows.com/windows-insider/2021/01/26/releasing-windows-feature-experience-pack-120-2212-2020-0-to-the-beta-channel/)
 |120.2212.1070.0|[11/30/2020](https://blogs.windows.com/windows-insider/2020/11/30/releasing-windows-feature-experience-pack-120-2212-1070-0-to-the-beta-channel/)
 
 ##  Upcoming Windows 10 Feature Update (21H1)
