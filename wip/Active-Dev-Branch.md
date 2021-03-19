@@ -71,7 +71,7 @@ Notepad is now updateable via the Microsoft Store outside major OS updates. It a
 
 **Windows Terminal now included as an inbox app:**
 
-![Windows Terminal icon width="250"](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2021/03/LargeTile.scale-400.png "Windows Terminal app icon.")
+![Windows Terminal icon](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2021/03/LargeTile.scale-400.png=250 "Windows Terminal app icon.")
 
 Windows Terminal is now an inbox app. Windows Terminal is a modern, fast, efficient, powerful, and productive terminal application for users of command line tools and shells like Command Prompt, PowerShell, and Windows Subsystem for Linux (WSL). Its main features include multiple tabs, panes, Unicode and UTF-8 character support, a GPU accelerated text rendering engine, and custom themes, styles, and configurations. Updates for Windows Terminal will continue to come through the Microsoft Store.
 
