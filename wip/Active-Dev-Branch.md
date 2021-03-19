@@ -14,6 +14,97 @@ ms.prod: w10
 # The Changelog
 The Changelog represents everything new from all the builds from the Active Development Branch released to the **Dev Channel**. This page includes everything noted as part of the "What's new" and "General changes & improvements" sections of the blog posts published for each build [on the Windows Blog](https://blogs.windows.com/windows-insider/) and does not contain other noted updates for Insiders, fixes, or known issues. 
 
+## Build 21337
+Windows 10 Insider Preview Build 21337 was released to the Dev Channel on [3/17/2021](https://blogs.windows.com/windows-insider/2021/03/17/announcing-windows-10-insider-preview-build-21337/).
+
+### Reorder and customize your Virtual Desktops
+We’ve heard your feedback asking for more control over Virtual Desktops. Starting with Build 21337, we are bringing the ability to reorder and customize the backgrounds for each of your Virtual Desktops! You can access your Virtual Desktops via Task View (Win + Tab).
+
+![Right-click Virtual Desktops](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2021/03/vd-right-click.png "You can now reorder and customize the backgrounds for each of your Virtual Desktops.")
+
+Virtual Desktops help you cognitively separate different tasks on your PC, including helping to create work-life separation. They can be swapped into view, letting you shift your work from one desktop to another. Instead of juggling multiple windows, you can switch between Virtual Desktops to multitask.
+
+![Drag and drop Virtual Desktops](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2021/03/dragdrop.gif "Dragging and droping to reorder Virtual Desktops!")
+
+Here are the steps you can take to try these new features out.
+
+**Change Virtual Desktop background:**
+
+1. Under Settings > Personalization > Background, left click a background to change the background for the active Virtual Desktop.
+2. Right clicking a background on this Settings page has a new option to change the background for a specific Virtual Desktop.
+3. Once you’ve made the change, you’ll see your new background when you switch to that Virtual Desktop, and in the preview thumbnail in Task View.
+
+**Reorder Virtual Desktops:**
+
+1. Enter Task View (via Win + Tab), create multiple new Virtual Desktops.
+2. Drag and drop a Virtual Desktop to another position in the list in Task View.
+3. Right click a Virtual Desktop thumbnail in task view and select “Move left” or “Move right” in the context menu to move the desktop to another position.
+4. Use keyboard navigation to set focus to the desired Virtual Desktop in Task View, and then press ALT + Shift + Left / Right Arrow to move it in either direction in the list.
+
+If you have any feedback about these changes, please file it under Desktop Environment > Virtual Desktops in the Feedback Hub.
+
+### Auto HDR Preview for PC
+Today we’re excited to bring you a preview of Auto HDR for your PC gaming experience and we’re looking for your help to test it out. When enabled on your HDR capable gaming PC, you will automatically get awesome HDR visuals on an additional 1000+ DirectX 11 and DirectX 12 games! Check out our DirectX blog post for more details!
+
+### File Explorer Layout Update
+The default layout of File Explorer adds additional padding between elements. For users who prefer a more information-dense layout, there is a setting in View Options called “Use compact mode,” which will restore the classic layout of File Explorer. **The UX for toggling this setting is not final.** The level of padding is designed for better consistency with modern (XAML) experiences. This should also make it easier to work with File Explorer when using a touch screen.
+
+![File Explorer Layout Update](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2021/03/file-explorer-layout-update.png "The default layout of File Explorer adds additional padding between elements.")
+
+### Updates to Captions Settings for Windows Insiders
+Thanks to feedback from customers and Windows Insiders, we are making updates to the captions settings in the latest Insider Preview builds. To get started, go to Settings > Ease of Access > Hearing > Captions.
+
+![Captions settings update](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2021/03/captions.png "Displaying the updated Captions page in Settings.")
+
+To learn more about how to make your app accessible, go to [Accessibility overview – UWP applications | Microsoft Docs](https://docs.microsoft.com/en-us/windows/uwp/design/accessibility/accessibility-overview).
+
+Please note, the option to discard changes may not work as expected in this build – we’re working on a fix.
+
+### Inbox app updates
+We are making some changes to existing inbox apps and adding some new ones.
+
+**Notepad is now updated via the Microsoft Store:**
+
+![New Notepad icon](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2021/03/NotepadLargeTile.scale-400.png "New Notepad app icon.")
+
+Notepad is now updateable via the Microsoft Store outside major OS updates. It also has a new icon and has been promoted out of the Windows Accessories folder to its own place in the Start menu.
+
+**Windows Terminal now included as an inbox app:**
+
+![Windows Terminal icon](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2021/03/LargeTile.scale-400.png "Windows Terminal app icon.")
+
+Windows Terminal is now an inbox app. Windows Terminal is a modern, fast, efficient, powerful, and productive terminal application for users of command line tools and shells like Command Prompt, PowerShell, and Windows Subsystem for Linux (WSL). Its main features include multiple tabs, panes, Unicode and UTF-8 character support, a GPU accelerated text rendering engine, and custom themes, styles, and configurations. Updates for Windows Terminal will continue to come through the Microsoft Store.
+
+**Power Automate Desktop now included as an inbox app:**
+
+![Power Automate icon](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2021/03/PowerAutomateAppIcon.scale-400.png "Power Automate Desktop app icon. ")
+
+Power Automate Desktop is now an inbox app. Power Automate Desktop allows you to automate web and desktop applications on your Windows desktop by mimicking the user interface actions like clicks, and keyboard input. You can also combine these actions with predefined support for applications like Excel to help automate repetitive tasks. You can find Power Automate within the Windows Accessories folder from the Start menu. During Microsoft Ignite earlier this month, we announced Power Automate Desktop will be available to Windows 10 users at no additional cost. [Check out this blog post from the Power Automate Team for more details](https://flow.microsoft.com/en-us/blog/automate-tasks-with-power-automate-desktop-for-windows-10-no-additional-cost/)!
+
+*NOTE: Power Automate Desktop isn’t yet available for ARM PCs.*
+
+**Updating WordPad integrations:** We’ve made some small changes to make Word or Notepad the text editor/viewer of choice in Windows when launching text file types, but if WordPad is your text editor of choice, it’s still available.
+
+### Changes and Improvements
+* We are now rolling out [the new IME candidate window design](http://aka.ms/wip21313) to all Windows Insiders in the Dev Channel using Japanese, Chinese Traditional, and Indic IMEs. We’ll let you know once the rollout for the remaining IMEs increases.
+* We’re updating the emoji panel (WIN + Period) to support searching in more languages, including Amharic, Belarus, Cherokee, Filipino, Faroese, Icelandic, Khmer, Mongolian (Cyrillic script), Burmese, Sindhi, Serbian (Cyrillic script), Serbian (Latin script), Swahili, Thai, Turkmen, Tonga, Uzbek (Latin script), and Cantonese (Traditional). Please continue sharing feedback about the emoji search results in the Feedback Hub under Input and Language > Emoji Panel.
+* Live previews for websites pinned to the taskbar from Microsoft Edge are now rolling out for all Insiders.
+* We have moved the settings for showing Windows Ink Workspace, Touch Keyboard button, and Task View from right-clicking on Taskbar to Settings > Personalization > Taskbar.
+
+## Build 21332
+Windows 10 Insider Preview Build 21332 was released to the Dev Channel on [3/10/2021](https://blogs.windows.com/windows-insider/2021/03/10/announcing-windows-10-insider-preview-build-21332/).
+
+### An update on the roll out of news and interests
+Over the last two months, we’ve been trying out several variations of the news and interests experience on the Windows taskbar. We have received a lot of great feedback from Windows Insiders and as a result, have landed on what we believe to be the best experience for customers. The news and interests flyout experience will now show two columns of content, making it easy to quickly glance over your feed of weather, headlines, money, and more. By default, it will open via hover or click. Based on your feedback, we will also be introducing an option to only open via click in a coming update. As a result of these changes, we’re resetting the roll out of news and interests to Insiders in the Dev Channel. This means that Insiders who previously had news and interests enabled on their taskbars may see it go away. Don’t worry, we hope to make news and interests available to everyone in the Dev Channel soon!
+
+It is important to reiterate that by gradually rolling out features to Insiders like this, it really helps us quickly identify issues that may impact performance and reliability.
+
+### Changes and Improvements
+* Our new option [to paste as plain text](https://blogs.windows.com/windows-insider/2021/02/19/announcing-windows-10-insider-preview-build-21318/) from clipboard history (WIN + V) is now rolling out to all Insiders in the Dev Channel.
+Theme-aware splash screens have been re-enabled for everyone in the Dev Channel with this build.
+* 3D Viewer and Paint 3D will no longer be preinstalled on clean installs of the latest Insider Preview builds. Both apps will still be available in the Store and will stay on your device after an OS update. So, if you upgraded your PC like normal, you shouldn’t see these apps changed in your app list.
+* Due to increasingly low usage, Math Input Panel is being removed. However, the input control and math recognition engine that powered the app is remaining as an optional feature titled “Math Recognizer” which can be installed via Settings > Apps > Apps & features and clicking “Optional features”. So, while the app itself will no longer be there, the features it enabled for math equation input in OneNote, Excel, and elsewhere, will continue to work and developers can continue to utilize the input control.
+
 ## Build 21327
 Windows 10 Insider Preview Build 21327 was released to the Dev Channel on [3/3/2021](https://blogs.windows.com/windows-insider/2021/03/03/announcing-windows-10-insider-preview-build-21327/).
 
