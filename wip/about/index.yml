@@ -23,21 +23,21 @@ landingContent:
       - linkListType: get-started
         links:
           - text: Get started with the Windows Insider Program
-            url: https://docs.microsoft.com/windows-insider/get-started
+            url: ../get-started.md
       - linkListType: overview
         links:
           - text: Deeper look at flighting
-            url: https://docs.microsoft.com/windows-insider/flighting
+            url: ../flighting.md
           - text: Deeper look at feedback
-            url: https://docs.microsoft.com/windows-insider/feedback
+            url: ../feedback.md
           - text: Glossary
-            url: https://docs.microsoft.com/windows-insider/glossary
+            url: ../glossary.md
       - linkListType: whats-new
         links:
           - text: Flight Hub
-            url: https://docs.microsoft.com/en-us/windows-insider/flight-hub/
+            url: ../flight-hub/index.md
           - text: The Changelog
-            url: https://docs.microsoft.com/windows-insider/Active-Dev-Branch
+            url: ../active-dev-branch.md
                    
   # Card          
   - title: Helpful guides
@@ -45,15 +45,15 @@ landingContent:
       - linkListType: how-to-guide
         links:
           - text: Troubleshooting
-            url: https://docs.microsoft.com/windows-insider/troubleshooting
+            url: ../troubleshooting.md
           - text: Choosing your data settings
-            url: https://docs.microsoft.com/windows-insider/data-settings
+            url: ../data-settings.md
           - text: Using ISOs
-            url: https://docs.microsoft.com/windows-insider/ISOs
+            url: ../isos.md
           - text: Checking if you're flighting
-            url: https://docs.microsoft.com/windows-insider/check-flighting-status  
+            url: ../check-flighting-status.md
           - text: Updating from an expiring Insider Preview build
-            url: https://docs.microsoft.com/windows-insider/build-expiration       
+            url: ../build-expiration.md
 
   # Card
   - title: Related documentation
@@ -61,8 +61,8 @@ landingContent:
       - linkListType: overview
         links:
           - text: Windows Insider Program for Business
-            url: https://docs.microsoft.com/windows-insider/business/
+            url: ../business/index.yml
           - text: Windows Insider Program for Server
-            url: https://docs.microsoft.com/windows-insider/business/server-get-started
+            url: ../business/server-get-started.md
           - text: Windows Insider Program for Developers
-            url: https://docs.microsoft.com/windows-insider/developers
+            url: ../developers/index.yml
