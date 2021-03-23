@@ -23,7 +23,7 @@ Yes, currently we're only supporting AAD for corporate accounts. Make sure you u
 
 To check if your work account is on AAD, go to **[Settings > Accounts > Access work and school](https://aka.ms/WorkAccountSettings)** on a device with your work account connected. Your account will say it's connected to your company's Azure AD if it's on AAD.
 
-If you don't have an AAD, you can still [join the program using your Microsoft account](https://docs.microsoft.com/windows-insider/get-started), but you won't be able to manage updates across devices in your company or tag and track feedback as an enterprise.
+If you don't have an AAD, you can still [join the program using your Microsoft account](../get-started.md), but you won't be able to manage updates across devices in your company or tag and track feedback as an enterprise.
 
 ## If I have more than one AAD account, which should I use?
 
@@ -33,21 +33,21 @@ Use a production tenant of AAD, not a test tenant, to make the most of the progr
 
 ## If I just want to participate as a Windows Insider, do I still need to register my AAD account?
 
-No, you can [join the Windows Insider Program using your Microsoft account](https://docs.microsoft.com/windows-insider/get-started), but you won't be able to manage Insider Preview builds or track feedback across your organization if you don't register with an AAD account.
+No, you can [join the Windows Insider Program using your Microsoft account](../get-started.md), but you won't be able to manage Insider Preview builds or track feedback across your organization if you don't register with an AAD account.
 
 ## If I'm already a Windows Insider with my Microsoft account, how can I switch to my AAD account?
 
-First, you have to [register for the program with your AAD account](https://docs.microsoft.com/windows-insider/business/register). Once you've done that, go to **[Settings > Accounts > Access work and school](https://aka.ms/WorkAccountSettings)** to make sure your AAD account is connected to your device. Then, go to **[Settings > Update & Security > Windows Insider Program](https://aka.ms/WIPSettings)** to change which Windows Insider account your device is connected to.
+First, you have to [register for the program with your AAD account](./register.md). Once you've done that, go to **[Settings > Accounts > Access work and school](https://aka.ms/WorkAccountSettings)** to make sure your AAD account is connected to your device. Then, go to **[Settings > Update & Security > Windows Insider Program](https://aka.ms/WIPSettings)** to change which Windows Insider account your device is connected to.
 
 ## How do I register for the Windows Insider Program for Business?
 
-[Use these instructions to register for the Windows Insider Program for Business.](https://docs.microsoft.com/windows-insider/business/register)
+[Use these instructions to register for the Windows Insider Program for Business.](./register.md)
 
 ## Do I have to be an administrator on my device to run Windows 10 Insider Preview Builds?
 
 Yes, you must be an admin on your device to change your update settings, so you can receive Insider Preview builds.
 
-If you don't have admin access on your work device, you can still [join the program on your personal device with your individual Microsoft account](https://docs.microsoft.com/windows-insider/get-started).
+If you don't have admin access on your work device, you can still [join the program on your personal device with your individual Microsoft account](../get-started.md).
 
 ## Can I flight on more than one of my devices from the same registered account?
 
@@ -55,7 +55,7 @@ Yes, you can flight on as many devices as you'd like. Just make sure when giving
 
 ## How do I set up and manage Insider Preview builds not just on my device, but across my organization?
 
-[Administrators can install and manage Insider Preview builds centrally across multiple devices in your organizational domain.](https://docs.microsoft.com/windows-insider/business/manage-builds) This requires an AAD domain, which must be registered in the Windows Insider Program.
+[Administrators can install and manage Insider Preview builds centrally across multiple devices in your organizational domain.](./manage-builds.md) This requires an AAD domain, which must be registered in the Windows Insider Program.
 
 ## Should I use Insider Preview builds in a live operating environment?
 
@@ -65,7 +65,7 @@ We do not recommend organizations run Insider Preview builds outside of their te
 
 To use the [Feedback Hub](https://aka.ms/WIPFeedbackHub) as an enterprise, you must have registered with an AAD account. When you submit feedback to us through that account, you can track feedback from other users in your organization, and we can track your company's issues and suggestions.
 
-If you were using the Feedback Hub with a Microsoft account before, your old feedback will not be transferred to your AAD account. You'll have to switch back to your other account in Feedback Hub to access the feedback or badges tied to it. [Learn more about giving feedback as a business.](https://docs.microsoft.com/windows-insider/business/feedback)
+If you were using the Feedback Hub with a Microsoft account before, your old feedback will not be transferred to your AAD account. You'll have to switch back to your other account in Feedback Hub to access the feedback or badges tied to it. [Learn more about giving feedback as a business.](./feedback.md)
 
 ## Why am I getting a something went wrong error message in Feedback Hub?
 

@@ -29,7 +29,7 @@ With the latest flight, we’re taking another step forward in our Passwordless 
 ![Lock screen showing use of PIN in safe mode.](images/18995-1.png)
 
 ## Enabling automatic restart for UWP apps (Build 18990)
-We already introduced a new [separate setting](https://docs.microsoft.com/windows-insider/archive/new-in-20H1#control-over-restarting-apps-at-sign-in-build-18965) to control if [registered desktop apps](https://docs.microsoft.com/windows/win32/recovery/registering-for-application-restart) from your previous sign-in session are restarted when signing back in to Windows. In the latest Insider Preview builds, in addition to registered desktop apps, when you opt into this setting, the majority of open UWP apps are now also automatically restarted as well! To reduce sign-in time, UWP apps are restarted minimized, in a suspended state, giving Windows and other apps more resources to get started. To try it out:
+We already introduced a new [separate setting](./new-in-20h1.md#control-over-restarting-apps-at-sign-in-build-18965) to control if [registered desktop apps](/windows/win32/recovery/registering-for-application-restart) from your previous sign-in session are restarted when signing back in to Windows. In the latest Insider Preview builds, in addition to registered desktop apps, when you opt into this setting, the majority of open UWP apps are now also automatically restarted as well! To reduce sign-in time, UWP apps are restarted minimized, in a suspended state, giving Windows and other apps more resources to get started. To try it out:
 1. Go to Settings > Accounts > Sign-in options and turn on “Automatically save my restartable apps when I sign out and restart them after I sign in.” under “Restart apps”.
 2. Start one or more UWP apps, such as Feedback Hub.
 3. Sign out and then sign back into Windows.
@@ -55,7 +55,7 @@ To get started:
 ![Renaming your virtual desktops.](images/18963-2.gif)
 
 ## Cortana window can now move (Build 18975)
-With the [new conversational Cortana experience](https://docs.microsoft.com/windows-insider/archive/new-for-business#new-cortana-experience-for-windows-10-build-18945), we understand that you want to keep the chat going sometimes, and the default position of the window isn’t always where you’d prefer to have it docked if you’re going to have a longer back and forth. That’s why we’ve rolled out the option to be able to move the window (by dragging the title bar area) to anywhere you’d like on the screen–just like you can with other windows. You can also resize the window if you’d like.
+With the [new conversational Cortana experience](#new-cortana-experience-for-windows-10-build-18945), we understand that you want to keep the chat going sometimes, and the default position of the window isn’t always where you’d prefer to have it docked if you’re going to have a longer back and forth. That’s why we’ve rolled out the option to be able to move the window (by dragging the title bar area) to anywhere you’d like on the screen–just like you can with other windows. You can also resize the window if you’d like.
 ![Cortana window moves around the desktop.](images/18975-1.gif)
 
 ## New Reset this PC option: Cloud download (Build 18970)
@@ -174,7 +174,7 @@ Based on your feedback, we’re revamping the Network & Internet landing page in
 We hope you like the changes! If you have any feedback about these, you can share it via the Feedback Hub under **Network and Internet** > **Networking Experience – Look and Feel**.
 
 ## Notification settings improvements (Build 18956) 
-Thanks everyone who’s tried out our [improvements so far](https://docs.microsoft.com/windows-insider/archive/new-for-business#refining-your-notification-settings-build-18932). To recap what you’ll see when you have the change:
+Thanks everyone who’s tried out our [improvements so far](#refining-your-notification-settings-build-18932). To recap what you’ll see when you have the change:
 * If you hover your mouse over an incoming notification, you’ll see a settings icon to make it easy to adjust that app’s notification settings.
 * We’ve updated the design of the per-app notification settings for visual clarity.
 * There’s a direct link to notification settings at the top of the Action Center.

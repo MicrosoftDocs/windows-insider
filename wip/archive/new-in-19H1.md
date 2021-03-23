@@ -275,7 +275,7 @@ With this integration, we are furthering efforts to seamlessly sync your to-do l
 ## Windows Hello and PC Sign-in Improvements
 
 ### Bringing acrylic to the Windows sign-in screen
-The Windows sign-in screen now supports [acrylic](https://docs.microsoft.com/windows/uwp/design/style/acrylic), a type of brush from the [Fluent Design System](https://docs.microsoft.com/windows/uwp/design/fluent-design-system/index), to the sign-in screen background.  The translucent texture of this transient surface helps you focus on the sign-in task by moving the actionable controls up in the visual hierarchy while maintaining their accessibility.
+The Windows sign-in screen now supports [acrylic](/windows/uwp/design/style/acrylic), a type of brush from the [Fluent Design System](/windows/uwp/design/fluent-design-system/index), to the sign-in screen background.  The translucent texture of this transient surface helps you focus on the sign-in task by moving the actionable controls up in the visual hierarchy while maintaining their accessibility.
 
 ![Showing acrylic in Windows sign-in screen.](images/acrylic-sign-in.png)
 
@@ -422,7 +422,7 @@ We added a new optional column to the **Details** tab of **Task Manager** so you
 
 ![Showing the DPI Awareness category in Task Manager, with examples of Per-Monitor and System.](images/dpi-aware-task-manager.png)
 
-To show the column, right-click on any of the column headers in the **Details** tab, click **Select Columns**, then add **DPI Awareness** to the list. To learn more about DPI Awareness, see [High DPI Desktop Application Development on Windows](https://docs.microsoft.com/windows/desktop/hidpi/high-dpi-desktop-application-development-on-windows).
+To show the column, right-click on any of the column headers in the **Details** tab, click **Select Columns**, then add **DPI Awareness** to the list. To learn more about DPI Awareness, see [High DPI Desktop Application Development on Windows](/windows/desktop/hidpi/high-dpi-desktop-application-development-on-windows).
 
 ## Accessibility Improvements
 ### Narrator Improvements
@@ -518,7 +518,7 @@ We added the ability for users to access Linux files in a WSL distro from Window
 ![Linux files inside of File Explorer.](images/18342-1.png)
 
 ### Windows Subsystem for Linux Command Line Tool Improvements 
-We added new command line options to the WSL command line tool (wsl.exe) for easier WSL management and added functionality based on your feedback. Below is a summary of changes. You can read about more details in [our release notes](https://docs.microsoft.com/windows/wsl/release-notes) and on our [command line blog](https://blogs.msdn.microsoft.com/commandline/).
+We added new command line options to the WSL command line tool (wsl.exe) for easier WSL management and added functionality based on your feedback. Below is a summary of changes. You can read about more details in [our release notes](/windows/wsl/release-notes) and on our [command line blog](https://blogs.msdn.microsoft.com/commandline/).
 
 * Consolidated command line options – The wsl command line tool now includes options to manage your WSL distros that are included in the wslconfig command line tool. We intend to only update the wsl tool with the latest management options moving forward.
 * Import a distro for easy sideloading including to non-system drives – Use the “–import” option to imports a tar file as a new distribution. You can specify the distribution registry to the location of your choice including non-system drives.
@@ -576,7 +576,7 @@ Here are the steps to get started:
 
 7. Click input indicator on the taskbar (or press the Windows key + Space) and select the Indic Phonetic keyboard. Time to type something!
    >[!NOTE]
-   >You need to [download the dictionaries](https://docs.microsoft.com/windows-hardware/manufacture/desktop/features-on-demand-v2--capabilities) used for the Indic Phonetic keyboards. Right after adding the keyboard, please connect to Internet – you may need to wait a bit for the dictionary download to finish.
+   >You need to [download the dictionaries](/windows-hardware/manufacture/desktop/features-on-demand-v2--capabilities) used for the Indic Phonetic keyboards. Right after adding the keyboard, please connect to Internet – you may need to wait a bit for the dictionary download to finish.
 
 
 ### The new Japanese IME

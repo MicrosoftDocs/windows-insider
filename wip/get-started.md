@@ -14,7 +14,7 @@ ms.prod: w10
 # Get started with the Windows Insider Program
 
 ## Register
-1. [Register on our website](https://insider.windows.com/register) with your Microsoft account, which is the same account you use for other Microsoft services, like email, Microsoft Office, or OneDrive. (Don't have a Microsoft account? [Sign up now!](https://account.microsoft.com/account)) You can also [register for the Windows Insider Program for Business](https://docs.microsoft.com/windows-insider/business/register) with your work account.
+1. [Register on our website](https://insider.windows.com/register) with your Microsoft account, which is the same account you use for other Microsoft services, like email, Microsoft Office, or OneDrive. (Don't have a Microsoft account? [Sign up now!](https://account.microsoft.com/account)) You can also [register for the Windows Insider Program for Business](./business/register.md) with your work account.
 
 2. Accept the terms of our Program Agreement and Privacy Statement and submit. Welcome to the Windows Insider Program!
 
@@ -52,11 +52,11 @@ Afrikaans (South Africa), Albanian (Albania), Amharic, Armenian, Assamese, Azerb
 
 2. Select the **Get Started** button. Under **Pick an account to get started**, select **+** to connect the Microsoft account you registered with and continue.
 
-3. Follow the directions on your screen to choose the experience and channel you'd like to get Insider Preview builds through. (Not sure which channel to choose? [Learn more about channels.](https://docs.microsoft.com/windows-insider/flighting))
+3. Follow the directions on your screen to choose the experience and channel you'd like to get Insider Preview builds through. (Not sure which channel to choose? [Learn more about channels.](./flighting.md))
 
 4. Review the Privacy Statement and program terms, confirm, and choose **Restart Now** or **Restart Later** to finish setting up your device.
 
-5. Once your device restarts, [make sure your data settings are set to the right level](https://docs.microsoft.com/windows-insider/data-settings), so you can receive preview builds.
+5. Once your device restarts, [make sure your data settings are set to the right level](./data-settings.md), so you can receive preview builds.
 
 6. Once you've checked your data settings, go to [**Settings** > **Update & Security** > **Windows Update**](https://aka.ms/WIPWindowsUpdate) and select the **Check for updates** button to download the latest Insider Preview build based on the settings you chose. Your device will update like it normally would with a Windows update.
 
@@ -66,15 +66,15 @@ Afrikaans (South Africa), Albanian (Albania), Amharic, Armenian, Assamese, Azerb
 > [Open Settings](https://aka.ms/WIPSettings)
 
 > [!NOTE] 
-> If you install an Insider Preview build in one channel, and you want to switch to a different channel, you might need to do a clean install of Windows and reset your Windows Insider settings on that device. [Learn more about switching channels.](https://docs.microsoft.com/windows-insider/flighting#switching-between-channels)
+> If you install an Insider Preview build in one channel, and you want to switch to a different channel, you might need to do a clean install of Windows and reset your Windows Insider settings on that device. [Learn more about switching channels.](./flighting.md#switching-between-channels)
 
 *Windows 10 Insider Preview Builds may be substantially modified before they're commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here. Some product features and functionality may require additional hardware or software.*
 
 ## Give feedback
 
-1. Once you've had a chance to explore Windows 10 Insider Preview Builds, use the [Feedback Hub](https://aka.ms/WIPFeedbackHub) to let us know what you think of the latest updates, report issues, or suggest new features. This feedback goes directly to our engineers working to improve Windows. Not sure how to get started in the Feedback Hub? [Learn more about how to give great feedback.](https://docs.microsoft.com/windows-insider/feedback)
+1. Once you've had a chance to explore Windows 10 Insider Preview Builds, use the [Feedback Hub](https://aka.ms/WIPFeedbackHub) to let us know what you think of the latest updates, report issues, or suggest new features. This feedback goes directly to our engineers working to improve Windows. Not sure how to get started in the Feedback Hub? [Learn more about how to give great feedback.](./feedback.md)
 
-2. Participate in Quests, bug bashes, and more in the Feedback Hub, and start connecting with our community. [Learn more about getting involved in the Feedback Hub.](https://docs.microsoft.com/windows-insider/feedback)
+2. Participate in Quests, bug bashes, and more in the Feedback Hub, and start connecting with our community. [Learn more about getting involved in the Feedback Hub.](./feedback.md)
 
 > [!div class="nextstepaction"]
 > [Give feedback](https://aka.ms/WIPFeedbackHub)
