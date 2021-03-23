@@ -16,7 +16,7 @@ Windows 10 Insider Preview Builds do expire eventually. Staying up to date is ke
 
 If your device is on an expiring build, you'll start getting notifications letting you know that you need to update. Go to [**Settings** > **Update & Security** > **Windows Update**](https://aka.ms/WIPWindowsUpdate) and select **Check for Updates** to get the latest update available in your channel.   
 
-If you aren't seeing any updates available, you might be experiencing issues preventing updates. Or, if you'd already installed a build in the Dev Channel and tried to [switch channels](./flighting.md#switching-between-channels) or [stop receiving Insider Preview builds](./troubleshooting.md#stop-receiving-insider-builds) without doing a clean installation of Windows, you might not be seeing updates either.
+If you aren't seeing any updates available, you might be experiencing issues preventing updates. Or, if you'd already installed a build in the Dev Channel and tried to [switch channels](./flighting.md#switching-between-channels) or [stop receiving Insider Preview builds](./troubleshooting.md) without doing a clean installation of Windows, you might not be seeing updates either.
 
 To move off the Insider Preview build expiring on your device, you can either get preview builds in the Dev Channel, reinstall Windows using a Windows Insider ISO to move to the Beta channel, or start fresh with a clean installation of Windows 10.
 

@@ -86,7 +86,7 @@ Power Automate Desktop is now an inbox app. Power Automate Desktop allows you to
 **Updating WordPad integrations:** We’ve made some small changes to make Word or Notepad the text editor/viewer of choice in Windows when launching text file types, but if WordPad is your text editor of choice, it’s still available.
 
 ### Changes and Improvements
-* We are now rolling out [the new IME candidate window design](http://aka.ms/wip21313) to all Windows Insiders in the Dev Channel using Japanese, Chinese Traditional, and Indic IMEs. We’ll let you know once the rollout for the remaining IMEs increases.
+* We are now rolling out [the new IME candidate window design](https://aka.ms/wip21313) to all Windows Insiders in the Dev Channel using Japanese, Chinese Traditional, and Indic IMEs. We’ll let you know once the rollout for the remaining IMEs increases.
 * We’re updating the emoji panel (WIN + Period) to support searching in more languages, including Amharic, Belarus, Cherokee, Filipino, Faroese, Icelandic, Khmer, Mongolian (Cyrillic script), Burmese, Sindhi, Serbian (Cyrillic script), Serbian (Latin script), Swahili, Thai, Turkmen, Tonga, Uzbek (Latin script), and Cantonese (Traditional). Please continue sharing feedback about the emoji search results in the Feedback Hub under Input and Language > Emoji Panel.
 * Live previews for websites pinned to the taskbar from Microsoft Edge are now rolling out for all Insiders.
 * We have moved the settings for showing Windows Ink Workspace, Touch Keyboard button, and Task View from right-clicking on Taskbar to Settings > Personalization > Taskbar.
@@ -226,7 +226,7 @@ The new UI design is available for the following languages/keyboards:
 ### Changes and Improvements
 * Based on feedback, and to align with the fact that Dev Channel builds are not matched to a specific Windows 10 release, we have updated the displayed version name to now be Dev.
 * We heard feedback that it wasn’t clear how to turn off news and interests if this was your preference. To help address this, we changed the “Hidden” option in the taskbar context menu to now say “Turn off” to make this functionality clearer.
-* Based on feedback, we’ve made some small adjustments to the [new app launch animation](http://aka.ms/wip21277) to improve speed and make it a little smoother.
+* Based on feedback, we’ve made some small adjustments to the [new app launch animation](https://aka.ms/wip21277) to improve speed and make it a little smoother.
 The improvement to the candidate bar on the touch keyboard [announced in Build 21301](https://blogs.windows.com/windows-insider/2021/01/27/announcing-windows-10-insider-preview-build-21301/) where it displays 5 candidates maximum and centers them into position above the keyboard has begun rolling out.
 * The new voice typing experience that was [announced in Build 20206](https://blogs.windows.com/windows-insider/2020/09/02/announcing-windows-10-insider-preview-build-20206/) has begun rolling out to all Insiders in the Dev Channel. Press the Windows key plus H if you’d like to try it out in one of the supported languages.
 * The change to enable pinning items in our [updated clipboard history design](https://blogs.windows.com/windows-insider/2020/09/02/announcing-windows-10-insider-preview-build-20206/) (inside the emoji picker) is now rolling out to all Insiders in the Dev Channel.
