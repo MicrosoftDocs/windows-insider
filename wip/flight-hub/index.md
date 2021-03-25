@@ -95,12 +95,12 @@ Moving forward, the Dev Channel will receive builds directly from the active dev
 >*This update will NOT be offered to commercial devices in the Release Preview Channel. These devices are devices AAD-joined and/or running the Windows 10 Enterprise edition. These customers will get Windows Feature Experience Packs delivered through “C” Preview releases which then get rolled up into monthly “B” releases. This enables commercial customers to test all the non-security fixes and features that will be rolled up into the next monthly “B” release. See this blog post for the details on the existing servicing process for Windows 10.
 
 ##  Upcoming Windows 10 Feature Update (21H1)
-| Build | Beta | Release Preview |
-|------|------|------|
-|19043.906|[**3/25/2021**](https://blogs.windows.com/windows-insider/2021/03/25/releasing-windows-10-build-19043-906-21h1-to-beta-channel/)|
-|19043.899|[3/15/2021](https://blogs.windows.com/windows-insider/2021/03/15/releasing-windows-10-build-19043-899-21h1-to-beta-channel/)|[3/18/2021*](https://techcommunity.microsoft.com/t5/windows-it-pro-blog/windows-10-version-21h1-for-commercial-pre-release-validation/ba-p/2220577)
-|19043.867|[3/9/2021](https://blogs.windows.com/windows-insider/2021/03/09/releasing-windows-10-build-19043-867-21h1-to-beta-channel/)|
-|19043.844*|[2/17/2021](https://blogs.windows.com/windows-insider/2021/02/17/announcing-windows-10-insider-preview-build-19043-844-21h1/)|
+| Build | Beta | Release Preview | ISO 
+|------|------|------|------|
+|19043.906|[**3/25/2021**](https://blogs.windows.com/windows-insider/2021/03/25/releasing-windows-10-build-19043-906-21h1-to-beta-channel/)||
+|19043.899|[3/15/2021](https://blogs.windows.com/windows-insider/2021/03/15/releasing-windows-10-build-19043-899-21h1-to-beta-channel/)|[3/18/2021](https://techcommunity.microsoft.com/t5/windows-it-pro-blog/windows-10-version-21h1-for-commercial-pre-release-validation/ba-p/2220577)|[**3/18/2021**](https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewiso)
+|19043.867|[3/9/2021](https://blogs.windows.com/windows-insider/2021/03/09/releasing-windows-10-build-19043-867-21h1-to-beta-channel/)||
+|19043.844*|[2/17/2021](https://blogs.windows.com/windows-insider/2021/02/17/announcing-windows-10-insider-preview-build-19043-844-21h1/)||
 
 >[!NOTE]
 >*Only available to commercial customers in the Release Preview Channel [as described here in this blog post](https://techcommunity.microsoft.com/t5/windows-it-pro-blog/windows-10-version-21h1-for-commercial-pre-release-validation/ba-p/2220577).
@@ -108,7 +108,7 @@ Moving forward, the Dev Channel will receive builds directly from the active dev
 ##  Windows 10 October 2020 Update (20H2)
 | Build | Beta | Release Preview | WSUS | ISO |
 |-------|------|------|------|------|
-|19042.906||[3/25/2021](https://blogs.windows.com/windows-insider/2021/03/25/releasing-windows-10-build-19042-906-20h2-to-release-preview-channel/)|
+|19042.906||[**3/25/2021**](https://blogs.windows.com/windows-insider/2021/03/25/releasing-windows-10-build-19042-906-20h2-to-release-preview-channel/)|
 |19042.867||[3/9/2021](https://support.microsoft.com/en-us/topic/march-9-2021-kb5000802-os-builds-19041-867-and-19042-867-63552d64-fe44-4132-8813-ef56d3626e14)|[3/9/2021](https://support.microsoft.com/en-us/topic/march-9-2021-kb5000802-os-builds-19041-867-and-19042-867-63552d64-fe44-4132-8813-ef56d3626e14)|
 |19042.867||[3/9/2021](https://support.microsoft.com/en-us/topic/march-9-2021-kb5000802-os-builds-19041-867-and-19042-867-63552d64-fe44-4132-8813-ef56d3626e14)|[3/9/2021](https://support.microsoft.com/en-us/topic/march-9-2021-kb5000802-os-builds-19041-867-and-19042-867-63552d64-fe44-4132-8813-ef56d3626e14)|
 |19042.844|[2/17/2021](https://blogs.windows.com/windows-insider/2021/02/17/releasing-windows-10-build-19042-844-20h2-to-beta-and-release-preview-channels/)|[2/17/2021](https://blogs.windows.com/windows-insider/2021/02/17/releasing-windows-10-build-19042-844-20h2-to-beta-and-release-preview-channels/)||
