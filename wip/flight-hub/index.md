@@ -97,7 +97,7 @@ Moving forward, the Dev Channel will receive builds directly from the active dev
 ##  Upcoming Windows 10 Feature Update (21H1)
 | Build | Beta | Release Preview | ISO 
 |------|------|------|------|
-|19043.906|[**3/25/2021**](https://blogs.windows.com/windows-insider/2021/03/25/releasing-windows-10-build-19043-906-21h1-to-beta-channel/)||
+|19043.906|[**3/25/2021**](https://blogs.windows.com/windows-insider/2021/03/25/releasing-windows-10-build-19043-906-21h1-to-beta-channel/)|[**3/18/2021**](https://blogs.windows.com/windows-insider/2021/03/25/releasing-windows-10-build-19043-906-21h1-to-beta-channel/)|
 |19043.899|[3/15/2021](https://blogs.windows.com/windows-insider/2021/03/15/releasing-windows-10-build-19043-899-21h1-to-beta-channel/)|[3/18/2021](https://techcommunity.microsoft.com/t5/windows-it-pro-blog/windows-10-version-21h1-for-commercial-pre-release-validation/ba-p/2220577)|[**3/18/2021**](https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewiso)
 |19043.867|[3/9/2021](https://blogs.windows.com/windows-insider/2021/03/09/releasing-windows-10-build-19043-867-21h1-to-beta-channel/)||
 |19043.844*|[2/17/2021](https://blogs.windows.com/windows-insider/2021/02/17/announcing-windows-10-insider-preview-build-19043-844-21h1/)||
