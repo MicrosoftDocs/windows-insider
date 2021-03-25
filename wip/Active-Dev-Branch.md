@@ -14,6 +14,40 @@ ms.prod: w10
 # The Changelog
 The Changelog represents everything new from all the builds from the Active Development Branch released to the **Dev Channel**. This page includes everything noted as part of the "What's new" and "General changes & improvements" sections of the blog posts published for each build [on the Windows Blog](https://blogs.windows.com/windows-insider/) and does not contain other noted updates for Insiders, fixes, or known issues. 
 
+## Build 21343
+Windows 10 Insider Preview Build 21343 was released to the Dev Channel on [3/24/2021](https://blogs.windows.com/windows-insider/2021/03/24/announcing-windows-10-insider-preview-build-21343/).
+
+### New icons in File Explorer
+We first [began updating the icons in Windows 10 last year](https://blogs.windows.com/windows-insider/2020/02/20/announcing-windows-10-insider-preview-build-19569/) starting with the built-in apps. Since then, we have continued updating icons throughout Windows 10 including [the icon for Windows Security](https://blogs.windows.com/windows-insider/2020/03/05/announcing-windows-10-insider-preview-build-19577/), [the Narrator icon](https://blogs.windows.com/windows-insider/2021/02/12/announcing-windows-10-insider-preview-build-21313/), and most recently [the icon for Notepad](https://blogs.windows.com/windows-insider/2021/03/17/announcing-windows-10-insider-preview-build-21337/). Now we’re taking the next step by updating many of the system icons used throughout File Explorer.
+
+*Please note: After upgrading to this build, any custom folders pinned to Quick Access will disappear. You can either make note of them prior to updating to this build or pause updates until we get a fix in.*
+
+![New icons in File Explorer](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2021/03/file-explorer-icons.png "New system icons in File Explorer.")
+
+Several changes, such as the orientation of the folder icons and the default file type icons, have been made for greater consistency across Microsoft products that show files. Notably, the top-level user folders such as Desktop, Documents, Downloads, and Pictures have a new design that should make it a little easier to tell them apart at a glance. And yes, the Recycle Bin icon has also been updated!
+
+![New Photos icons in File Explorer](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2021/03/Pictures-Folder@2x-refresh.png "Before and after Photos icons in File Explorer.")
+
+![New hard drive and Recycle Bin icons in File Explorer](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2021/03/DriveAndRecycle@2x.png "Before and after of hard drive and Recycle Bin icons.")
+
+As you can imagine, there are a lot of icons in Windows 10 and more icons will continue to get updated over time.
+
+### Changes and Improvements
+* We’re changing the name of the Windows Administrative Tools folder in Start to Windows Tools. We are working to better organize all the admin and system tools in Windows 10.
+* [News and interests] Update on the rollout: following our [last update](https://blogs.windows.com/windows-insider/2021/02/12/announcing-windows-10-insider-preview-build-21313/) on languages and markets, this week we’re also introducing the experience to China! We continue to roll out news and interests to Windows Insiders, so it isn’t available to everyone in the Dev Channel just yet.
+* We are now rolling out the [new IME candidate window design](http://aka.ms/wip21313) to all Windows Insiders in the Dev Channel using Simplified Chinese IMEs.
+* We’re updating the “Get Help” link in the touch keyboard to now say “Learn more”.
+* We’re updating File Explorer when renaming files to now support using CTRL + Left / Right arrow to move your cursor between words in the file name, as well as CTRL + Delete and CTRL + Backspace to delete words at a time, like other places in Windows.
+* We’ve made some updates to the network related surfaces in Windows so that the displayed symbols use [the updated system icons we recently added in the Dev Channel](https://blogs.windows.com/windows-insider/2021/03/03/announcing-windows-10-insider-preview-build-21327/).
+* Based on feedback, if the Shared Experiences page identifies an issue with your account connection, it will now send the notifications directly into the Action Center rather than repeated notification toasts that need to be dismissed.
+
+### Improvements to Windows Sandbox and Microsoft Defender Application Guard (MDAG)
+Both Windows Sandbox and Microsoft Defender Application Guard [take advantage of special container technology built into Windows 10](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-sandbox/windows-sandbox-architecture). Previously, the container runtime matched the host. Starting with Build 21343, we are introducing a new runtime that is designed and optimized for container scenarios. It is lightweight and allows faster launch times for both Windows Sandbox and Microsoft Defender Application Guard.
+
+We do not expect this change to affect the application compatibility inside Windows Sandbox. However, this is a significant change and users may encounter some differences in behavior.
+
+Additionally, Windows Sandbox now includes the new Chromium based Microsoft Edge browser (as of [Build 21313](https://blogs.windows.com/windows-insider/2021/02/12/announcing-windows-10-insider-preview-build-21313/)). Here are instructions on [how to get started with Windows Sandbox](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-sandbox/windows-sandbox-overview).
+
 ## Build 21337
 Windows 10 Insider Preview Build 21337 was released to the Dev Channel on [3/17/2021](https://blogs.windows.com/windows-insider/2021/03/17/announcing-windows-10-insider-preview-build-21337/).
 
