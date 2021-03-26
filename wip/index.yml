@@ -26,17 +26,17 @@ productDirectory:
       # imageSrc should be square in ratio with no whitespace
       imageSrc: https://docs.microsoft.com/media/common/i_whats-new.svg
       summary: Learn more about the Windows Insider Program, how you can get started, and get help with common issues.
-      url: https://docs.microsoft.com/windows-insider/about/
+      url: ./about/index.yml
     # Card
     - title: Windows Insider Program for Business
       imageSrc: https://docs.microsoft.com/media/common/i_management.svg
       summary: Learn how to run Insider Preview builds and preview Windows Server within your organization to explore the latest features, validate your apps and infrastructure, and deploy faster.
-      url: https://docs.microsoft.com/windows-insider/business/
+      url: ./business/index.yml
     # Card
     - title: Windows Insider Program for Developers
       imageSrc: https://docs.microsoft.com//media/common/i_code-blocks.svg
       summary: Learn how to run Insider Preview builds and preview the Windows 10 Software Development Kit to bring better applications to your customers faster.
-      url: https://docs.microsoft.com/windows-insider/developers/
+      url: ./developers/index.yml
       
 # additionalContent section (optional)
 # Card with summary style
@@ -49,13 +49,12 @@ additionalContent:
         # Card
         - title: Flight Hub
           summary: Check our Flight Hub to find and learn more about the latest preview build in your channel.
-          url: https://docs.microsoft.com/windows-insider/flight-hub/
+          url: ./flight-hub/index.md
         # Card
         - title: The Changelog
           summary: See the latest features, changes, and improvements in our preview builds.
-          url: https://docs.microsoft.com/windows-insider/Active-Dev-Branch
+          url: ./active-dev-branch.md
         # Card
         - title: Give feedback
           summary: Tell us what you think of the latest preview builds and features in the Feedback Hub.
-          url: https://docs.microsoft.com/windows-insider/feedback       
-       
+          url: ./feedback.md
