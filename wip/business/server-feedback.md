@@ -32,7 +32,7 @@ You can sign into the Feedback Hub using either your personal Microsoft account 
 
 7. Submit your feedback.
 
-[Learn more about giving great feedback and using the Feedback Hub.](https://docs.microsoft.com/windows-insider/feedback)
+[Learn more about giving great feedback and using the Feedback Hub.](../feedback.md)
 
 ## Give feedback with your work account
 
@@ -53,7 +53,7 @@ You can sign into the Feedback Hub using either your personal Microsoft account 
 
 7. Submit your feedback.
 
-[Learn more about giving great feedback and using the Feedback Hub.](https://docs.microsoft.com/windows-insider/feedback)
+[Learn more about giving great feedback and using the Feedback Hub.](../feedback.md)
 
 ## Track feedback from your organization
 
@@ -65,4 +65,4 @@ When you're signed in with your AAD acccount, you can also see feedback from oth
 
 2. Under the **Filter** dropdown, select **My Organization**. This will show all the feedback from users in your organization who are also signed into the Feedback Hub using their registered AAD accounts.
 
-![Filtering to see your organization's feedback in the Feedback Hub.](images/wip-4-server-feedback.png) 
+![Filtering to see your organization's feedback in the Feedback Hub.](images/wip-4-server-feedback.png)

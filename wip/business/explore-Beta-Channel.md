@@ -18,9 +18,9 @@ If you're an IT administrator who's interested in exploring new features as they
 We recommend having a small subset of devices in the Beta Channel, usually from your IT department, or you can allow end users who are passionate about Windows to enroll themselves. 
 
 > [!div class="nextstepaction"]
-> [Set up Insider Preview builds from the Beta Channel for your organization](https://docs.microsoft.com/windows-insider/business/manage-builds)
+> [Set up Insider Preview builds from the Beta Channel for your organization](./manage-builds.md)
 
-Once your users are seeing new features, have them [submit feedback on behalf of your organization](https://docs.microsoft.com/windows-insider/business/feedback), which you can then track in the Feedback Hub, to help us make improvements. 
+Once your users are seeing new features, have them [submit feedback on behalf of your organization](./feedback.md), which you can then track in the Feedback Hub, to help us make improvements. 
 
 > [!NOTE] 
-> Not familiar with channels? [Learn more about how channels work.](https://docs.microsoft.com/windows-insider/flighting)
+> Not familiar with channels? [Learn more about how channels work.](../flighting.md)
