@@ -38,7 +38,7 @@ You can also use the same Feedback Hub app we use with your own applications for
 **Track feedback.** All the feedback submitted for your app through the Feedback Hub is collected into a feedback report in the Windows Dev Center dashboard, so you can easily see the problems, suggestions, and upvotes that your customers have submitted.
 
 > [!div class="nextstepaction"]
-> [How to monitor feedback](https://docs.microsoft.com/windows/uwp/publish/feedback-report)
+> [[How to monitor feedback](https://docs.microsoft.com/windows/uwp/publish/feedback-report)
 
 **Respond to feedback.** You can respond to specific feedback in the Feedback Hub by commenting or by setting a status, like investigating or completed. You can also respond directly to a user who's left feedback through email.
 
