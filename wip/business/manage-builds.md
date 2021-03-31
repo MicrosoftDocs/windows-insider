@@ -43,9 +43,7 @@ To receive Insider Preview builds, devices must be joined to the same AAD domain
 ## Choose your diagnostic data settings
 Your privacy is important to us. But, to run Insider Preview builds on a device updating directly from Windows Update, you must allow us to see a certain amount of diagnostic data, so we can investigate issues you might see.
 
-* By default, Windows 10 devices' diagnostic data levels are set to Full. 
-
-* If you're setting up Insider Preview builds for the first time, make sure your diagnostic data levels across devices are set to Full.
+* Depending on your organization's settings and location, your Windows 10 device could have Optional data turn on already. If you’re setting up Insider Preview builds for the first time, you must have Optional data turned on, so you should check this setting.
 
 * If you're already running Insider Preview builds in the Dev Channel on devices, [use these instructions to update your diagnostic data settings](https://aka.ms/DDChanges).
 
