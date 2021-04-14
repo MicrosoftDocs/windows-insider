@@ -14,6 +14,93 @@ ms.prod: w10
 # The Changelog
 The Changelog represents everything new from all the builds from the Active Development Branch released to the **Dev Channel**. This page includes everything noted as part of the "What's new" and "General changes & improvements" sections of the blog posts published for each build [on the Windows Blog](https://blogs.windows.com/windows-insider/) and does not contain other noted updates for Insiders, fixes, or known issues. 
 
+## Build 21359
+Windows 10 Insider Preview Build 21354 was released to the Dev Channel on [4/14/2021](https://blogs.windows.com/windows-insider/2021/04/14/announcing-windows-10-insider-preview-build-21359/).
+
+### News and interests available to 100% of Dev Channel
+As of Build 21359, we’re rolling out news and interests on the taskbar to 100% of the Dev Channel! News and interests makes it easy to stay up to date with information at a glance and has incorporated ongoing improvements based on Insider feedback. We acknowledge that many of you have had to wait some time to experience it and appreciate your patience. We can’t wait to hear what you think!
+
+### Changes and Improvements
+* We have added an option under the Power menu on the Start menu to restart apps after signing in when you reboot your device. When this setting is checked, it toggles the option under Settings > Accounts > Sign-in options > Restart apps we introduced in 20H1.
+![Power menu restart apps](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2021/04/new-restart-apps.png "We have added an option under the Power menu on the Start menu to restart apps after signing in when you reboot your device.")
+* If you have your activity history synced across your devices through your Microsoft account (MSA), you’ll no longer have the option to upload new activity in Timeline. AAD-connected accounts won’t be impacted. To view web history, Edge and other browsers have the option to look back at recent web activities. You can also view recently used files using OneDrive and Office. **Note: Timeline and all your local activity history still remain on Windows 10.**
+* We’re updating the Ease of Access category in Settings to now be called Accessibility.
+* We’re updating the Ebrima font to now support characters from Bamum (Unicode block U+A6A0 to U+A6FF).
+* We’re updating the Nirmala UI font family to improve how the Chakma characters are displayed when combined based on feedback.
+* Thank you to the Insiders who have taken the time to share feedback about the new version of our Korean IME. For the time being we will be reverting to the version included in previous releases.
+
+## Build 21354
+Windows 10 Insider Preview Build 21354 was released to the Dev Channel on [4/7/2021](https://blogs.windows.com/windows-insider/2021/04/07/announcing-windows-10-insider-preview-build-21354/).
+
+### New personalization options for news and interests on the taskbar
+Thanks for your continued feedback for news and interests on the Windows taskbar! We’re continuing to develop the experience based on your suggestions. Today, we’re pleased to announce a new set of features rolling out for personalizing the feed to suit your interests.
+
+Now, when you hover on the weather on your taskbar, you’ll see a new “Manage interests” button appear at the top of the window. This button links to a new full-page personalization experience, where you can choose the topics that you’re interested in. New users may also see a personalization card in their feed to help them get started.
+
+![News and interests manage](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2021/04/news-and-interests-flyout-scaled.jpg "News and interests on the Windows taskbar showing a new “Manage interests” button and personalization card to help new users get started with their feed.")
+
+Use the search box at the top of the “My interests” page to search for the topics or publishers you want to follow. You can also discover interests by browsing over a dozen categories, including different types of news, entertainment, and sports topics. When you select a topic to follow, you’ll see more stories about it in your feed as stories become available. You can manage the topics you’re following by selecting “Followed interests” in the left navigation.
+
+![News and interests My Interests](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2021/04/news-and-interests-personalization-flow.gif "The “My interests” page enables you to follow topics you’re interested in and tune your feed with publishers and articles that pique your interest.")
+
+We’re also excited to announce, “Tune your feed”, available from the left navigation on the “My interests” page. This experience makes it easy to explore and follow publishers from our partner ecosystem and select example articles that pique your interest. Select a couple of publishers and stories to get started or scroll to see more. You can see and manage the publishers you’re following by clicking “Followed Publishers” on the left navigation. You can also tune your feed wherever you see a story. Click the “X” on the top right of the card to remove the article and provide feedback: “Not interested in this story”, “Don’t like the source”, or “Report an issue”. We’ve refined this experience based on user feedback, to give you another way to fine-tune your feed for your preferences.
+
+These new personalization experiences are now available in several markets, including the U.S., U.K., Canada, India, and Australia, with global rollout continuing. We look forward to hearing what you think about these new options for personalizing news and interests!
+
+>[!NOTE]
+>Reminder: We continue to roll out news and interests to Windows Insiders, so it isn’t available to everyone in the Dev Channel just yet.
+
+### Improvements to Display Settings
+**Content adaptive brightness control (CABC) disabling:** CABC helps improve battery performance on PCs, but with the trade-off of decreased image quality. It can result in distracting brightness changes that interfere in experiences where image quality is of high importance such as for creative professionals looking for color accuracy. The ability to turn CABC off has been a highly requested feature and Windows Insiders can now disable CABC directly in the Display settings via Settings > System > Display.
+
+![CABC disable](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2021/04/CABC-UI.png "Windows Insiders can now disable CABC directly in the Display settings via Settings > System > Display.")
+
+*Note: Depending on your device, you may see just one (or both) of the checkboxes seen under the brightness slider below. To find out if your device has CABC support, you can look at your GPU control panel.*
+
+**HDR certification:** To bring awareness to high quality HDR displays and educate customers, we are bringing HDR certification to Settings > System > Display under “Advanced display settings” with the latest Insider Preview builds. Under this settings page, a display’s HDR certifications will be shown.
+
+We will be rolling out this feature over time and are starting with select Dolby Vision and VESA DisplayHDR models, so please don’t be alarmed if in the Advanced display settings, you see that your display has no HDR certification even though it is certified.
+
+### New Camera Settings page
+We are extremely excited to introduce a new Camera Settings page we’ve been working on, giving users the ability to add/remove cameras and configure the default image settings of each one.
+
+![New Camera Settings page](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2021/04/Camera-L1-light.png "The Camera Settings Page lets you discover, pair and unpair ONVIF IP cameras, as well as view and manage all video cameras on the device.")
+
+This page allows you to manage cameras through the Settings app, whether they’re connected directly to the device (like a webcam) or are ONVIF IP cameras on your local network (for more info on ONVIF support in Windows, see this blog post). This new Settings page can be found at Settings > Devices > Camera. Each camera has a “Configure” button that lets you make changes to the default brightness and contrast – letting you get rid of the pesky backlight that always shadows your face in your video calls. Depending on what features are supported by your camera, you can configure brightness and contrast, enable Video HDR or Eye Contact, or correct for camera rotation.
+
+![Configure camera on Camera Settings page](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2021/04/Camera-L2-light.png "The Configure page for cameras allows you to adjust default image settings such as brightness and contrast.")
+
+We look forward to hearing your feedback about this new feature. Please try out the Configure default image settings for your camera Quest on Feedback Hub and then send us your feedback at the end – we’d love to hear what other features you’d like to see, and if you run into any issues with your specific PC, camera and/or video app.
+
+### Inbox app updates
+**MSPaint is now updated via the Microsoft Store:**
+
+![New MSPaint icon](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2021/04/Paint-Icon.png "New MSPaint app icon.")
+
+MSPaint is now updateable via the Microsoft Store outside major OS updates. It also has a new icon and has been promoted out of the Windows Accessories folder to its own place in the Start menu.
+
+**Snipping Tool is now updated via the Microsoft Store:**
+
+![Snipping Tool icon](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2021/04/Snipping-Tool-icon.png "Snipping Tool app icon.")
+
+Snipping Tool is now updateable via the Microsoft Store outside major OS updates. It has been packaged together with Snip & Sketch so we can deliver updates for both at the same time. It has also been promoted out of the Windows Accessories folder to its own place in the Start menu.
+
+*NOTE: Because we’re combining both Snip & Sketch and Snipping Tool, Insiders who previously did not have Snip & Sketch installed will see Snipping Tool removed after updating to this build and will have to go and install Snip & Sketch from the Store to get it back.*
+
+**Organizing all the admin and system tools under Windows Tools:**
+
+![New Windows Tools icon](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2021/04/Windows-Tools-icon.png "The Windows Tools shortcut icon.")
+
+In Build 21343, we announced we changed the name of the Windows Administrative Tools folder in Start to Windows Tools as part of an effort to better organize all the admin and system tools in Windows 10. In Build 21354, we are continuing that effort. The Windows Accessories, Windows Administrative Tools, Windows PowerShell, and Windows System folders have now been removed from Start and the apps within these folders can now be accessed via the Windows Tools entry point that directs to the full apps list in File Explorer. All these apps will still appear in via search, launch via any method, can be pinned to Start or taskbar, and any customized shortcuts in the folder paths will remain intact. Also, File Explorer has been moved into its own place in the Start menu as part of this work.
+
+### Changes and Improvements
+* [News and interests] As [mentioned previously](https://blogs.windows.com/windows-insider/2021/03/10/announcing-windows-10-insider-preview-build-21332/), we have enabled the ability to deselect “Open on hover” in the “News and interests” taskbar options. This is based on your feedback.
+* The default path to access Linux files from Windows using the Windows Subsystem for Linux has been changed from `\\wsl\\` to `\\wsl.localhost\\` to improve performance and reliability. You will still be able to access Linux files using `\\wsl$\\`.
+* Under Settings > Update & Security > Change active hours, you will find the toggle turned on for “Automatically adjust active hours for this device based on activity”, if you have never adjusted this feature. We are starting a roll out a change for Insiders that makes this setting on by default. With this setting turned on, Windows Update will be able to schedule automatic restarts when you are typically not using your device more accurately.
+* As of the latest versions of Microsoft Edge, all pinned sites (regardless of what version you were using when you pinned them), should now use the taskbar behavior described [here](https://blogs.windows.com/windows-insider/2020/07/22/announcing-windows-10-insider-preview-build-20175/) without you first having to unpin and re-pin the site.
+* On ARM64 devices, you can now toggle compatibility settings for x64 applications.
+* Under Settings > Personalization > Device usage, you can select all the ways you plan to use your device to get customized suggestions for tips, tools, and services.
+
 ## Build 21343
 Windows 10 Insider Preview Build 21343 was released to the Dev Channel on [3/24/2021](https://blogs.windows.com/windows-insider/2021/03/24/announcing-windows-10-insider-preview-build-21343/).
 
