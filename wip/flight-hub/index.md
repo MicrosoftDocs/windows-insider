@@ -100,6 +100,9 @@ Moving forward, the Dev Channel will receive builds directly from the active dev
 >*This update will NOT be offered to commercial devices in the Release Preview Channel. These devices are devices AAD-joined and/or running the Windows 10 Enterprise edition. These customers will get Windows Feature Experience Packs delivered through “C” Preview releases which then get rolled up into monthly “B” releases. This enables commercial customers to test all the non-security fixes and features that will be rolled up into the next monthly “B” release. See this blog post for the details on the existing servicing process for Windows 10.
 
 ## Windows 10 May 2021 Update (21H1)
+
+The [final build for the May 2021 Update](https://blogs.windows.com/windows-insider/2021/04/28/preparing-the-windows-10-may-2021-update-for-release/) is Build 19043.928.
+
 | Build | Beta | Release Preview | ISO 
 |------|------|------|------|
 |19043.964|[**4/28/2021**](https://blogs.windows.com/windows-insider/2021/04/28/releasing-windows-10-build-19043-964-21h1-to-beta-channel-release-preview-channels/)|[**4/28/2021**](https://blogs.windows.com/windows-insider/2021/04/28/releasing-windows-10-build-19043-964-21h1-to-beta-channel-release-preview-channels/)|
