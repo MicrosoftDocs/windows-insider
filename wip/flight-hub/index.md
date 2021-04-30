@@ -90,8 +90,9 @@ Moving forward, the Dev Channel will receive builds directly from the active dev
 ##  Windows Experience Feature Pack Updates
 | Version | Beta | Release Preview* |
 |------|------|------|
-|120.2212.3530.0|[**3/25/2021**](https://blogs.windows.com/windows-insider/2021/03/25/releasing-windows-feature-experience-pack-120-2212-3530-0-to-the-beta-release-preview-channels/)|[**3/25/2021**](https://blogs.windows.com/windows-insider/2021/03/25/releasing-windows-feature-experience-pack-120-2212-3530-0-to-the-beta-release-preview-channels/)
-|120.2212.3030.0|[2/23/2021*](https://blogs.windows.com/windows-insider/2021/02/23/releasing-windows-feature-experience-pack-120-2212-3030-0-to-the-beta-channel/)|
+|120.2212.3740.0|[**4/28/2021**](https://blogs.windows.com/windows-insider/2021/04/28/releasing-windows-feature-experience-pack-120-2212-3740-0-to-the-beta-release-preview-channels/)|[**4/28/2021***](https://blogs.windows.com/windows-insider/2021/04/28/releasing-windows-feature-experience-pack-120-2212-3740-0-to-the-beta-release-preview-channels/)
+|120.2212.3530.0|[3/25/2021](https://blogs.windows.com/windows-insider/2021/03/25/releasing-windows-feature-experience-pack-120-2212-3530-0-to-the-beta-release-preview-channels/)|[3/25/2021*](https://blogs.windows.com/windows-insider/2021/03/25/releasing-windows-feature-experience-pack-120-2212-3530-0-to-the-beta-release-preview-channels/)
+|120.2212.3030.0|[2/23/2021](https://blogs.windows.com/windows-insider/2021/02/23/releasing-windows-feature-experience-pack-120-2212-3030-0-to-the-beta-channel/)|
 |120.2212.2020.0|[1/26/2021](https://blogs.windows.com/windows-insider/2021/01/26/releasing-windows-feature-experience-pack-120-2212-2020-0-to-the-beta-channel/)|
 |120.2212.1070.0|[11/30/2020](https://blogs.windows.com/windows-insider/2020/11/30/releasing-windows-feature-experience-pack-120-2212-1070-0-to-the-beta-channel/)|
 
