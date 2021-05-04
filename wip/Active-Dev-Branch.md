@@ -14,6 +14,74 @@ ms.prod: w10
 # The Changelog
 The Changelog represents everything new from all the builds from the Active Development Branch released to the **Dev Channel**. This page includes everything noted as part of the "What's new" and "General changes & improvements" sections of the blog posts published for each build [on the Windows Blog](https://blogs.windows.com/windows-insider/) and does not contain other noted updates for Insiders, fixes, or known issues. 
 
+## Build 21370
+Windows 10 Insider Preview Build 21354 was released to the Dev Channel on [4/14/2021](https://blogs.windows.com/windows-insider/2021/04/14/announcing-windows-10-insider-preview-build-21359/).
+
+### Improving the Bluetooth audio experience
+Over the past several months, we have been adding new features to make Bluetooth audio streaming easier, better, and more performant.
+
+![Improved Bluetooth audio experience](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2021/04/unified_endpoint.png "Updates to the “Select playback device” dropdown on the taskbar for Bluetooth audio devices. ")
+
+* Unified audio endpoint: No more clicking through multiple audio endpoints to make your Bluetooth headset’s voice and mic work properly. We now only expose one audio endpoint in the UI and will switch to the correct one automatically for you for a seamless experience. Listening to Spotify and then have to hop onto a Teams call? You can also now directly control the volume of your headset.
+* Support for AAC codec: Enjoy premium audio streaming quality wirelessly on your Bluetooth headphones and speakers with AAC codec. Short for Advanced Audio Codec, AAC is a lossy codec that delivers high quality audio streaming in smaller files – great for listening to music online.
+
+### Changes and Improvements
+* We’ve made some small adjustments to the icons in File Explorer’s address bar.
+* We’ve improved the touch keyboard launch animation to make it smoother in cases where UWP apps reflow when it appears.
+* We made a change so that if you set focus to the Run dialog, the touch keyboard will now show a backslash (\) key.
+
+## Build 21364
+Windows 10 Insider Preview Build 21354 was released to the Dev Channel on [4/21/2021](https://blogs.windows.com/windows-insider/2021/04/21/announcing-windows-10-insider-preview-build-21364/).
+
+### Run Linux GUI applications directly on Windows using the first preview of GUI app support on the Windows Subsystem for Linux (WSL)
+The Windows Subsystem for Linux now includes a first preview of support for GUI applications! This means you can now run your favorite GUI editors, tools, and applications, to develop, test, build and run your Linux apps! For more info on this change please view [this blog post](https://devblogs.microsoft.com/commandline/the-initial-preview-of-gui-app-support-is-now-available-for-the-windows-subsystem-for-linux-2/).
+
+### Task Manager supports Microsoft Edge process classification
+We partnered with the Microsoft Edge team to support process classification in Task Manager. This will help you to identify resource consumption under Microsoft Edge. The classification is broken down to several different components like Tabs, Browser processes (Browser, GPU Process, Crashpad), Utility plugins (Utility: Audio Service Extensions), Dedicated & Service workers etc. It also features separate icons for each process to help you identify them including fav icon for website. Head over to this Microsoft Edge blog post for a list of detailed improvements.
+
+![Edge processes in Task Manager](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2021/04/task-manager-edge.png "Showing Microsoft Edge process classification support in Task Manager.")
+
+>[!NOTE]
+>NOTE: This feature is available to Windows Insiders that are running the latest Microsoft Edge Canary or Dev builds. Insiders can download the latest version here. This feature is also rolling out to a subset of Insiders in the Dev Channel at first, to help us quickly identify issues that may impact performance and reliability. Rest assured they will be gradually rolled out to everyone in the Dev Channel.
+
+### Eco mode in Task Manager
+Task Manager has a new experimental feature in this build called “Eco mode” which provides users with an option to throttle process resources. It will also help identify apps that are already running in Eco mode. This feature is helpful when you notice an app consuming high resources and would like to limit its consumption so that the system gives priority to other apps which will lead to faster foreground responsiveness and better energy efficiency.
+
+![Right-click Eco mode in Task Manager](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2021/04/task-manager-eco.png "Right-click on child processes in Task Manager to enable “Eco mode”.")
+
+Here is how to enable Eco mode for any process:
+
+1. Open Task Manager.
+2. Click on Processes tab.
+3. Right-click on a child process or an individual process.
+4. Click on “Eco mode” in the context menu to apply throttling.
+5. The status column in the Processes tab should show Eco mode for the process.
+
+This same process also works on the Details tab too.
+
+If “Eco mode” is greyed out, then it’s a parent/group process. You can expand the process tree to apply Eco mode on one of its child processes.
+
+And if Microsoft Edge (or Chrome) is showing “Eco mode” as enabled but you did not apply it, this is due to both Microsoft Edge and Chrome experimenting with lowering base priority and applying power efficiency APIs to improve performance which is similar to what Task Manager is doing to identify “Eco” efficient apps. You may see other apps with “Eco mode” if they adapt to similar techniques to improve performance.
+
+You can submit feedback on these recent Task Manager changes in Feedback Hub under Desktop Environment > Task Manager.
+
+>[!NOTE]
+>NOTE: This feature is rolling out to a subset of Insiders in the Dev Channel at first, to help us quickly identify issues that may impact performance and reliability. Rest assured they will be gradually rolled out to everyone in the Dev Channel.
+
+### Japanese 50-on touch keyboard
+We’re excited to introduce a new touch keyboard layout for Japanese, 50-on touch keyboard. 50-on touch keyboard is a popular layout widely used for Kiosk devices in Japan. It allows you to input Japanese texts intuitively without knowing how to compose Hiragana characters.
+
+![50-on touch keyboard layout for Japanese](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2021/04/1_Japanese50onTouchKeyboardHiraganaView.png "The new 50-on touch keyboard layout for Japanese.")
+
+You can switch to 50-on layout from [⚙] > [50-on]. It also provides alphabet and symbol views newly designed specifically for the layout. You may notice some known issues where inserting a full-width space using Shift key doesn’t work and typing some characters shows garbled suggestion candidates. We’re actively working on addressing them. Thank you for your patience. We’re looking forward to your feedback via [Give feedback] menu!
+
+![Enable 50-on touch keyboard layout for Japanese](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2021/04/2_Japanese50onTouchKeyboardSwitchingLayout.png "Enabling the new 50-on touch keyboard.")
+
+### Changes and Improvements
+* Based on feedback, we’re updating the notification that used to say “We need to fix your account (most likely your password changed)”, to be more representative of what it’s for, and now say “Select here to sign in to your account to continue using apps between this device and your other devices.”
+* When you turn on or off night light manually, for example via the Action Center, night light will now turn on immediately rather than slowly transition.
+* You can now turn off Aero Shake via Settings > System > Multitasking and choosing the “off” toggle under “Title bar window shake”. This setting is now off by default so for those who want it back will need to turn this setting on.
+
 ## Build 21359
 Windows 10 Insider Preview Build 21354 was released to the Dev Channel on [4/14/2021](https://blogs.windows.com/windows-insider/2021/04/14/announcing-windows-10-insider-preview-build-21359/).
 
@@ -122,18 +190,18 @@ As you can imagine, there are a lot of icons in Windows 10 and more icons will c
 ### Changes and Improvements
 * We’re changing the name of the Windows Administrative Tools folder in Start to Windows Tools. We are working to better organize all the admin and system tools in Windows 10.
 * [News and interests] Update on the rollout: following our [last update](https://blogs.windows.com/windows-insider/2021/02/12/announcing-windows-10-insider-preview-build-21313/) on languages and markets, this week we’re also introducing the experience to China! We continue to roll out news and interests to Windows Insiders, so it isn’t available to everyone in the Dev Channel just yet.
-* We are now rolling out the [new IME candidate window design](http://aka.ms/wip21313) to all Windows Insiders in the Dev Channel using Simplified Chinese IMEs.
+* We are now rolling out the [new IME candidate window design](https://aka.ms/wip21313) to all Windows Insiders in the Dev Channel using Simplified Chinese IMEs.
 * We’re updating the “Get Help” link in the touch keyboard to now say “Learn more”.
 * We’re updating File Explorer when renaming files to now support using CTRL + Left / Right arrow to move your cursor between words in the file name, as well as CTRL + Delete and CTRL + Backspace to delete words at a time, like other places in Windows.
 * We’ve made some updates to the network related surfaces in Windows so that the displayed symbols use [the updated system icons we recently added in the Dev Channel](https://blogs.windows.com/windows-insider/2021/03/03/announcing-windows-10-insider-preview-build-21327/).
 * Based on feedback, if the Shared Experiences page identifies an issue with your account connection, it will now send the notifications directly into the Action Center rather than repeated notification toasts that need to be dismissed.
 
 ### Improvements to Windows Sandbox and Microsoft Defender Application Guard (MDAG)
-Both Windows Sandbox and Microsoft Defender Application Guard [take advantage of special container technology built into Windows 10](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-sandbox/windows-sandbox-architecture). Previously, the container runtime matched the host. Starting with Build 21343, we are introducing a new runtime that is designed and optimized for container scenarios. It is lightweight and allows faster launch times for both Windows Sandbox and Microsoft Defender Application Guard.
+Both Windows Sandbox and Microsoft Defender Application Guard [take advantage of special container technology built into Windows 10](https://docs.microsoft.com/windows/security/threat-protection/windows-sandbox/windows-sandbox-architecture). Previously, the container runtime matched the host. Starting with Build 21343, we are introducing a new runtime that is designed and optimized for container scenarios. It is lightweight and allows faster launch times for both Windows Sandbox and Microsoft Defender Application Guard.
 
 We do not expect this change to affect the application compatibility inside Windows Sandbox. However, this is a significant change and users may encounter some differences in behavior.
 
-Additionally, Windows Sandbox now includes the new Chromium based Microsoft Edge browser (as of [Build 21313](https://blogs.windows.com/windows-insider/2021/02/12/announcing-windows-10-insider-preview-build-21313/)). Here are instructions on [how to get started with Windows Sandbox](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-sandbox/windows-sandbox-overview).
+Additionally, Windows Sandbox now includes the new Chromium based Microsoft Edge browser (as of [Build 21313](https://blogs.windows.com/windows-insider/2021/02/12/announcing-windows-10-insider-preview-build-21313/)). Here are instructions on [how to get started with Windows Sandbox](https://docs.microsoft.com/windows/security/threat-protection/windows-sandbox/windows-sandbox-overview).
 
 ## Build 21337
 Windows 10 Insider Preview Build 21337 was released to the Dev Channel on [3/17/2021](https://blogs.windows.com/windows-insider/2021/03/17/announcing-windows-10-insider-preview-build-21337/).
