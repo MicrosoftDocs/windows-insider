@@ -17,6 +17,18 @@ The Changelog represents everything new from all the builds from the Active Deve
 ## Build 21370
 Windows 10 Insider Preview Build 21354 was released to the Dev Channel on [4/14/2021](https://blogs.windows.com/windows-insider/2021/04/14/announcing-windows-10-insider-preview-build-21359/).
 
+### Improving the Bluetooth audio experience
+Over the past several months, we have been adding new features to make Bluetooth audio streaming easier, better, and more performant.
+
+![Improved Bluetooth audio experience](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2021/04/unified_endpoint.png "Updates to the “Select playback device” dropdown on the taskbar for Bluetooth audio devices. ")
+
+* Unified audio endpoint: No more clicking through multiple audio endpoints to make your Bluetooth headset’s voice and mic work properly. We now only expose one audio endpoint in the UI and will switch to the correct one automatically for you for a seamless experience. Listening to Spotify and then have to hop onto a Teams call? You can also now directly control the volume of your headset.
+* Support for AAC codec: Enjoy premium audio streaming quality wirelessly on your Bluetooth headphones and speakers with AAC codec. Short for Advanced Audio Codec, AAC is a lossy codec that delivers high quality audio streaming in smaller files – great for listening to music online.
+
+### Changes and Improvements
+* We’ve made some small adjustments to the icons in File Explorer’s address bar.
+* We’ve improved the touch keyboard launch animation to make it smoother in cases where UWP apps reflow when it appears.
+* We made a change so that if you set focus to the Run dialog, the touch keyboard will now show a backslash (\) key.
 
 ## Build 21364
 Windows 10 Insider Preview Build 21354 was released to the Dev Channel on [4/21/2021](https://blogs.windows.com/windows-insider/2021/04/21/announcing-windows-10-insider-preview-build-21364/).
