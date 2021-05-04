@@ -190,18 +190,18 @@ As you can imagine, there are a lot of icons in Windows 10 and more icons will c
 ### Changes and Improvements
 * We’re changing the name of the Windows Administrative Tools folder in Start to Windows Tools. We are working to better organize all the admin and system tools in Windows 10.
 * [News and interests] Update on the rollout: following our [last update](https://blogs.windows.com/windows-insider/2021/02/12/announcing-windows-10-insider-preview-build-21313/) on languages and markets, this week we’re also introducing the experience to China! We continue to roll out news and interests to Windows Insiders, so it isn’t available to everyone in the Dev Channel just yet.
-* We are now rolling out the [new IME candidate window design](http://aka.ms/wip21313) to all Windows Insiders in the Dev Channel using Simplified Chinese IMEs.
+* We are now rolling out the [new IME candidate window design](https://aka.ms/wip21313) to all Windows Insiders in the Dev Channel using Simplified Chinese IMEs.
 * We’re updating the “Get Help” link in the touch keyboard to now say “Learn more”.
 * We’re updating File Explorer when renaming files to now support using CTRL + Left / Right arrow to move your cursor between words in the file name, as well as CTRL + Delete and CTRL + Backspace to delete words at a time, like other places in Windows.
 * We’ve made some updates to the network related surfaces in Windows so that the displayed symbols use [the updated system icons we recently added in the Dev Channel](https://blogs.windows.com/windows-insider/2021/03/03/announcing-windows-10-insider-preview-build-21327/).
 * Based on feedback, if the Shared Experiences page identifies an issue with your account connection, it will now send the notifications directly into the Action Center rather than repeated notification toasts that need to be dismissed.
 
 ### Improvements to Windows Sandbox and Microsoft Defender Application Guard (MDAG)
-Both Windows Sandbox and Microsoft Defender Application Guard [take advantage of special container technology built into Windows 10](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-sandbox/windows-sandbox-architecture). Previously, the container runtime matched the host. Starting with Build 21343, we are introducing a new runtime that is designed and optimized for container scenarios. It is lightweight and allows faster launch times for both Windows Sandbox and Microsoft Defender Application Guard.
+Both Windows Sandbox and Microsoft Defender Application Guard [take advantage of special container technology built into Windows 10](https://docs.microsoft.com/windows/security/threat-protection/windows-sandbox/windows-sandbox-architecture). Previously, the container runtime matched the host. Starting with Build 21343, we are introducing a new runtime that is designed and optimized for container scenarios. It is lightweight and allows faster launch times for both Windows Sandbox and Microsoft Defender Application Guard.
 
 We do not expect this change to affect the application compatibility inside Windows Sandbox. However, this is a significant change and users may encounter some differences in behavior.
 
-Additionally, Windows Sandbox now includes the new Chromium based Microsoft Edge browser (as of [Build 21313](https://blogs.windows.com/windows-insider/2021/02/12/announcing-windows-10-insider-preview-build-21313/)). Here are instructions on [how to get started with Windows Sandbox](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-sandbox/windows-sandbox-overview).
+Additionally, Windows Sandbox now includes the new Chromium based Microsoft Edge browser (as of [Build 21313](https://blogs.windows.com/windows-insider/2021/02/12/announcing-windows-10-insider-preview-build-21313/)). Here are instructions on [how to get started with Windows Sandbox](https://docs.microsoft.com/windows/security/threat-protection/windows-sandbox/windows-sandbox-overview).
 
 ## Build 21337
 Windows 10 Insider Preview Build 21337 was released to the Dev Channel on [3/17/2021](https://blogs.windows.com/windows-insider/2021/03/17/announcing-windows-10-insider-preview-build-21337/).
