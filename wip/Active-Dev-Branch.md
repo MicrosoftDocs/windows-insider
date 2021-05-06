@@ -14,8 +14,27 @@ ms.prod: w10
 # The Changelog
 The Changelog represents everything new from all the builds from the Active Development Branch released to the **Dev Channel**. This page includes everything noted as part of the "What's new" and "General changes & improvements" sections of the blog posts published for each build [on the Windows Blog](https://blogs.windows.com/windows-insider/) and does not contain other noted updates for Insiders, fixes, or known issues. 
 
+## Build 21376
+Windows 10 Insider Preview Build 21376 was released to the Dev Channel on [5/6/2021](https://blogs.windows.com/windows-insider/2021/05/06/announcing-windows-10-insider-preview-build-21376/).
+
+### Updated Segoe UI font
+We are introducing Segoe UI Variable which includes an optical axis so that font outlines can scale seamlessly from small to larger display sizes. Segoe UI Variable is a refreshed take on the classic Segoe, now with improved legibility at small sizes, and much improved outlines at display sizes.
+
+Historically, fonts for printing small text were designed differently than fonts designed for large display text. Segoe UI was originally designed to work at 9pt, which makes it a great font for that size, but limits expression at large sizes and lacks legibility at even smaller sizes. Segoe UI Variable solves this by using a new version of Segoe that uses variable font technology to dynamically offer great legibility at very small sizes, and style at large sizes.
+
+![Segeo UI Variable](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2021/05/segoe-variable.png "Demoing Segoe UI Variable at different sizes and pointing out the spacing differences.")
+
+*Please note: While Segoe UI Variable is included as part of the OS, it’s adoption across all the visual surface areas is ongoing and will rollout progressively over time. This means not every visual surface is utilizing the new font just yet.*
+
+### Changes and Improvements
+* To continue enjoying Auto HDR, visit Settings > Display > HDR Settings and make sure Auto HDR is set to On.
+* We’ve made some small updates to improve the drag-and-drop default cursor design in scenarios like dragging and dropping into Outlook.
+* We’re updating the Connect app icon to align with our other recent iconography improvements.
+* Based on feedback we’ve made some small tweaks to how the symbols in the symbols section of the emoji panel are sorted.
+* We’re updating the Segoe UI Historic font to add Bamum Unicode range support.
+
 ## Build 21370
-Windows 10 Insider Preview Build 21354 was released to the Dev Channel on [4/14/2021](https://blogs.windows.com/windows-insider/2021/04/14/announcing-windows-10-insider-preview-build-21359/).
+Windows 10 Insider Preview Build 21370 was released to the Dev Channel on [4/29/2021](https://blogs.windows.com/windows-insider/2021/04/29/announcing-windows-10-insider-preview-build-21370/).
 
 ### Improving the Bluetooth audio experience
 Over the past several months, we have been adding new features to make Bluetooth audio streaming easier, better, and more performant.
