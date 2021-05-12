@@ -1,0 +1,68 @@
+### YamlMime:Landing
+
+title: Get to know the Windows Insider Program
+summary: In the Windows Insider Program, be the first to see what's next and help shape Windows' future by running Windows 10 Insider Preview Builds and giving feedback. 
+
+metadata:
+  title: Get to know the Windows Insider Program
+  description: In the Windows Insider Program, be the first to see what's next and help shape Windows' future by running Windows 10 Insider Preview Builds and giving feedback. 
+  ms.topic: landing-page # Required
+  author: dawnwood
+  ms.author: dawn.wood
+  ms.date: 6/30/2020
+  ms.prod: w10 
+
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
+
+landingContent:
+# Cards and links should be based on top customer tasks or top subjects
+# Start card title with a verb
+  # Card (optional)
+  - title: Explore the Windows Insider Program
+    linkLists:
+      - linkListType: get-started
+        links:
+          - text: Get started with the Windows Insider Program
+            url: ../get-started.md
+      - linkListType: overview
+        links:
+          - text: Deeper look at flighting
+            url: ../flighting.md
+          - text: Deeper look at feedback
+            url: ../feedback.md
+          - text: Glossary
+            url: ../glossary.md
+      - linkListType: whats-new
+        links:
+          - text: Flight Hub
+            url: ../flight-hub/index.md
+          - text: The Changelog
+            url: ../active-dev-branch.md
+                   
+  # Card          
+  - title: Helpful guides
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+          - text: Troubleshooting
+            url: ../troubleshooting.md
+          - text: Choosing your data settings
+            url: ../data-settings.md
+          - text: Using ISOs
+            url: ../isos.md
+          - text: Checking if you're flighting
+            url: ../check-flighting-status.md
+          - text: Updating from an expiring Insider Preview build
+            url: ../build-expiration.md
+
+  # Card
+  - title: Related documentation
+    linkLists:        
+      - linkListType: overview
+        links:
+          - text: Windows Insider Program for Business
+            url: ../business/index.yml
+          - text: Windows Insider Program for Server
+            url: ../business/server-get-started.md
+          - text: Windows Insider Program for Developers
+            url: ../developers/index.yml

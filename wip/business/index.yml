@@ -1,0 +1,70 @@
+### YamlMime:Landing
+
+title: Windows Insider Program for Business documentation # < 60 chars
+summary: Run Insider Preview builds within your organization to explore the latest features, validate your apps and infrastructure, and deploy faster. # < 160 chars
+
+metadata:
+  title: Windows Insider Program for Business documentation # Required; page title displayed in search results. Include the brand. < 60 chars.
+  description: Run Insider Preview builds within your organization to explore the latest features, validate your apps and infrastructure, and deploy faster. # Required; article description that is displayed in search results. < 160 chars.
+  ms.topic: landing-page # Required
+  author: lizap #Required; your GitHub user alias, with correct capitalization.
+  manager: dougkim
+  ms.author: elizapo #Required; microsoft alias of author; optional team alias.
+  ms.localizationpriority: medium
+  ms.prod: w10
+  ms.technology: windows
+  ms.date: 06/30/2020 #Required; mm/dd/yyyy format.
+
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
+
+landingContent:
+# Cards and links should be based on top customer tasks or top subjects
+# Start card title with a verb
+  # Card (optional)
+  - title: Getting started
+    linkLists:
+      - linkListType: get-started
+        links:
+          - text: Register for the Windows Insider Program for Business
+            url: ../get-started.md
+      - linkListType: how-to-guide
+        links:
+          - text: Start flighting as a business
+            url: ./flighting.md
+          - text: Manage Insider Preview builds across your organization
+            url: ./manage-builds.md
+          - text: Give feedback as a business
+            url: ./feedback.md
+   
+                   
+  # Card          
+  - title: Helpful resources
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: Explore in the Beta Channel
+            url: ./explore-beta-channel.md
+          - text: Validate in the Release Preview Channel
+            url: ./validate-release-preview-channel.md
+          - text: Windows Insider Program for Business FAQ
+            url: ./faq.md
+          - text: Glossary
+            url: ../glossary.md
+      - linkListType: whats-new
+        links:
+          - text: Flight Hub
+            url: ../flight-hub/index.md
+          - text: The Changelog
+            url: ../active-dev-branch.md
+
+  # Card
+  - title: Windows Insider Program for Server
+    linkLists:        
+      - linkListType: get-started
+        links:
+          - text: Get started with the Windows Insider Program for Windows Server
+            url: ./server-get-started.md
+      - linkListType: how-to-guide
+        links:
+          - text: Give feedback on Windows Server Insider Preview Builds
+            url: ./server-feedback.md
