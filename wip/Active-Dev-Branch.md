@@ -14,6 +14,13 @@ ms.prod: w10
 # The Changelog
 The Changelog represents everything new from all the builds from the Active Development Branch released to the **Dev Channel**. This page includes everything noted as part of the "What's new" and "General changes & improvements" sections of the blog posts published for each build [on the Windows Blog](https://blogs.windows.com/windows-insider/) and does not contain other noted updates for Insiders, fixes, or known issues. 
 
+## Build 21390
+Windows 10 Insider Preview Build 21390 was released to the Dev Channel on [5/26/2021](https://blogs.windows.com/windows-insider/2021/05/26/announcing-windows-10-insider-preview-build-21390/).
+
+### Changes and Improvements
+* As part of our ongoing iconography improvements, Task Manager and MSI installers now have new Fluent icons.
+* You can now set Windows Terminal Preview as your default terminal emulator on Windows – please see [this blog post](https://devblogs.microsoft.com/commandline/windows-terminal-preview-1-9-release/) for details. This requires Windows Terminal Preview version 1.9 (or higher).
+
 ## Build 21387
 Windows 10 Insider Preview Build 21387 was released to the Dev Channel on [5/21/2021](https://blogs.windows.com/windows-insider/2021/05/21/announcing-windows-10-insider-preview-build-21387/).
 
