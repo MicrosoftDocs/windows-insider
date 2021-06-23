@@ -23,7 +23,10 @@ Moving forward, the Dev Channel will receive builds directly from the active dev
 
 | Build | Dev | SDK | ISO |
 |-------|------|------|
-|21376|[**5/6/2021**](https://blogs.windows.com/windows-insider/2021/05/06/announcing-windows-10-insider-preview-build-21376/)|||
+|21390|[**5/26/2021**](https://blogs.windows.com/windows-insider/2021/05/26/announcing-windows-10-insider-preview-build-21390/)|||
+|21387|[5/21/2021](https://blogs.windows.com/windows-insider/2021/05/21/announcing-windows-10-insider-preview-build-21387/)|||
+|21382|[5/14/2021](https://blogs.windows.com/windows-insider/2021/05/14/announcing-windows-10-insider-preview-build-21382/)|||
+|21376|[5/6/2021](https://blogs.windows.com/windows-insider/2021/05/06/announcing-windows-10-insider-preview-build-21376/)|||
 |21370|[4/29/2021](https://blogs.windows.com/windows-insider/2021/04/29/announcing-windows-10-insider-preview-build-21370/)|||
 |21364|[4/21/2021](https://blogs.windows.com/windows-insider/2021/04/21/announcing-windows-10-insider-preview-build-21364/)|||
 |21359|[4/14/2021](https://blogs.windows.com/windows-insider/2021/04/14/announcing-windows-10-insider-preview-build-21359/)|||
@@ -106,7 +109,9 @@ The [final build for the May 2021 Update](https://blogs.windows.com/windows-insi
 
 | Build | Beta | Release Preview | ISO 
 |------|------|------|------|
-|19043.964|[**4/28/2021**](https://blogs.windows.com/windows-insider/2021/04/28/releasing-windows-10-build-19043-964-21h1-to-beta-channel-release-preview-channels/)|[**4/28/2021**](https://blogs.windows.com/windows-insider/2021/04/28/releasing-windows-10-build-19043-964-21h1-to-beta-channel-release-preview-channels/)|
+|19043.1023|[**5/21/2021**](https://blogs.windows.com/windows-insider/2021/05/21/releasing-windows-10-build-19043-1023-21h1-to-beta-release-preview-channels/)|[**5/21/2021**](https://blogs.windows.com/windows-insider/2021/05/21/releasing-windows-10-build-19043-1023-21h1-to-beta-release-preview-channels/)|
+|19043.985|[5/11/2021](https://blogs.windows.com/windows-insider/2021/05/11/releasing-windows-10-build-19043-985-21h1-to-beta-release-preview-channels/)|[5/11/2021](https://blogs.windows.com/windows-insider/2021/05/11/releasing-windows-10-build-19043-985-21h1-to-beta-release-preview-channels/)|
+|19043.964|[4/28/2021](https://blogs.windows.com/windows-insider/2021/04/28/releasing-windows-10-build-19043-964-21h1-to-beta-channel-release-preview-channels/)|[4/28/2021](https://blogs.windows.com/windows-insider/2021/04/28/releasing-windows-10-build-19043-964-21h1-to-beta-channel-release-preview-channels/)|
 |19043.962|[4/19/2021](https://blogs.windows.com/windows-insider/2021/04/19/releasing-windows-10-build-19043-962-21h1-to-beta-channel-release-preview-channels/)|[4/19/2021](https://blogs.windows.com/windows-insider/2021/04/19/releasing-windows-10-build-19043-962-21h1-to-beta-channel-release-preview-channels/)|
 |19043.928|[4/13/2021](https://blogs.windows.com/windows-insider/2021/04/13/releasing-windows-10-build-19043-928-21h1-to-beta-release-preview-channels/)|[4/13/2021](https://blogs.windows.com/windows-insider/2021/04/13/releasing-windows-10-build-19043-928-21h1-to-beta-release-preview-channels/)|[**4/21/2021**](https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewiso)
 |19043.906|[3/25/2021](https://blogs.windows.com/windows-insider/2021/03/25/releasing-windows-10-build-19043-906-21h1-to-beta-channel/)|[3/18/2021](https://blogs.windows.com/windows-insider/2021/03/25/releasing-windows-10-build-19043-906-21h1-to-beta-channel/)|
@@ -120,7 +125,8 @@ The [final build for the May 2021 Update](https://blogs.windows.com/windows-insi
 ## Windows 10 October 2020 Update (20H2)
 | Build | Beta | Release Preview | WSUS | ISO |
 |-------|------|------|------|------|
-|19042.964||[**4/28/2021**](https://support.microsoft.com/en-us/topic/april-28-2021-kb5001391-os-builds-19041-964-and-19042-964-preview-fc8959e2-f2a0-4223-b56b-0ad8d9b4f96c)|
+|19042.1023||[**5/21/2021**](https://blogs.windows.com/windows-insider/2021/05/21/releasing-windows-10-build-19042-1023-20h2-to-release-preview-channel/)|
+|19042.964||[4/28/2021](https://support.microsoft.com/en-us/topic/april-28-2021-kb5001391-os-builds-19041-964-and-19042-964-preview-fc8959e2-f2a0-4223-b56b-0ad8d9b4f96c)|
 |19042.962||[4/19/2021](https://blogs.windows.com/windows-insider/2021/04/19/releasing-windows-10-build-19042-962-20h2-to-release-preview-channel/)|
 |19042.928||[4/13/2021](https://support.microsoft.com/en-us/topic/april-13-2021-kb5001330-os-builds-19041-928-and-19042-928-cead30cd-f284-4115-a42f-d67fec538490)|[**4/13/2021**](https://support.microsoft.com/en-us/topic/april-13-2021-kb5001330-os-builds-19041-928-and-19042-928-cead30cd-f284-4115-a42f-d67fec538490)
 |19042.906||[3/25/2021](https://blogs.windows.com/windows-insider/2021/03/25/releasing-windows-10-build-19042-906-20h2-to-release-preview-channel/)|

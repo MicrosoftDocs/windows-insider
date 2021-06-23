@@ -14,6 +14,32 @@ ms.prod: w10
 # The Changelog
 The Changelog represents everything new from all the builds from the Active Development Branch released to the **Dev Channel**. This page includes everything noted as part of the "What's new" and "General changes & improvements" sections of the blog posts published for each build [on the Windows Blog](https://blogs.windows.com/windows-insider/) and does not contain other noted updates for Insiders, fixes, or known issues. 
 
+## Build 21390
+Windows 10 Insider Preview Build 21390 was released to the Dev Channel on [5/26/2021](https://blogs.windows.com/windows-insider/2021/05/26/announcing-windows-10-insider-preview-build-21390/).
+
+### Changes and Improvements
+* As part of our ongoing iconography improvements, Task Manager and MSI installers now have new Fluent icons.
+* You can now set Windows Terminal Preview as your default terminal emulator on Windows – please see [this blog post](https://devblogs.microsoft.com/commandline/windows-terminal-preview-1-9-release/) for details. This requires Windows Terminal Preview version 1.9 (or higher).
+
+## Build 21387
+Windows 10 Insider Preview Build 21387 was released to the Dev Channel on [5/21/2021](https://blogs.windows.com/windows-insider/2021/05/21/announcing-windows-10-insider-preview-build-21387/).
+
+## Build 21382
+Windows 10 Insider Preview Build 21382 was released to the Dev Channel on [5/14/2021](https://blogs.windows.com/windows-insider/2021/05/14/announcing-windows-10-insider-preview-build-21382/).
+
+### Bringing HDR support to color managed apps
+HDR mode changes the behavior of some creative and artistic apps that use International Color Consortium (ICC) display color profiles, such as Adobe Photoshop, Adobe Lightroom Classic, and CorelDraw (amongst others). In the past, these apps were limited to targeting the sRGB color gamut.
+
+We have added a new feature that lets these apps get accurate color and access the full gamut of your HDR display. To turn this feature on, close your application, right-click the app’s icon and click in Properties > Compatibility tab and then under Settings select “Use legacy display ICC color management”. This flag only has an effect in HDR mode.
+
+![HDR color in managed apps](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2021/05/HDR-shim-UI.png "Application Properties window. HDR ICC compatibility tool can be enabled on the Compatibility tab, under Settings, by checking the “Use legacy display ICC color management” checkbox.")
+
+### Changes and Improvements
+* As some Insiders have noticed, Device Manager now has the ability to view drivers alongside of devices. The new driver focused “Devices by drivers”, “Drivers by type”, and “Drivers by devices” views enable users to view, install, and remove drivers, while the new “Add drivers” action enables users to add and install new drivers across all applicable devices. Managing drivers directly is more intuitive in many situations than working with them by way of the devices they are installed on, so we hope that developers and power users alike will enjoy the added flexibility. This change was added in Build 21343.
+* The Start menu will launch to help people get to the apps they want quickly after a clean install or upgrade is finished.
+* We’ve updated the new generic folder icon in File Explorer so it will now show an indication when the folder has contents.
+* We’ve updated the touch keyboard to use [the Segoe UI Variable font](https://blogs.windows.com/windows-insider/2021/05/06/announcing-windows-10-insider-preview-build-21376/) and made some small adjustments to the icons.
+
 ## Build 21376
 Windows 10 Insider Preview Build 21376 was released to the Dev Channel on [5/6/2021](https://blogs.windows.com/windows-insider/2021/05/06/announcing-windows-10-insider-preview-build-21376/).
 
