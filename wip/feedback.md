@@ -5,15 +5,15 @@ author: bleblanc
 manager: dougkim
 ms.tgt_pltfrm: na
 ms.devlang: na
-ms.author: v-allsh
+ms.author: v-jamleo
 ms.localizationpriority: medium
 ms.topic: article
-ms.prod: w10
+ms.prod: w10-w11
 ---
 
 # Deeper look at feedback
 
-As a Windows Insider, your feedback can change and improve Windows for users around the world. Once you're flighting Windows 10 Insider Preview Builds, it's time to give us feedback and start connecting to our community. The [Feedback Hub](https://aka.ms/WIPFeedbackHub) on Windows 10 makes giving us your feedback easy.
+As a Windows Insider, your feedback can change and improve Windows for users around the world. Once you're flighting Windows Insider Preview Builds, it's time to give us feedback and start connecting to our community. The [Feedback Hub](https://aka.ms/WIPFeedbackHub) on Windows makes giving us your feedback easy.
 
 ## Explore the Feedback Hub 
 
