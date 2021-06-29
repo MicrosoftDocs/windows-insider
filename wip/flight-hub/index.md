@@ -13,9 +13,15 @@ ms.prod: w10
 
 # Flight Hub
 
-Welcome to Flight Hub! Use this dashboard to quickly identify the latest Windows Insider Preview Builds for PC, Server, and IoT. You can also look up the status of the SDK and ISO images.
+Welcome to Flight Hub! Use this dashboard to quickly identify the latest Windows Insider Preview Builds. You can also see SDK and ISO releases.
 
-**ANNOUNCEMENT:** The Insider rings are becoming channels! [Read our blog post here to learn more about channels.](https://blogs.windows.com/windowsexperience/2020/06/15/introducing-windows-insider-channels/). Note that for legacy purposes, we will keep the ring names for older Windows 10 releases referenced here and will use the new channel naming for new releases and Active Development Branch builds going forward.
+## Active Development Builds of Windows 11
+
+Please read this blog post on how the Windows 11 hardware requirements may impact flighting on your PC and your options to get started.
+
+| Build | Dev | SDK | ISO |
+|-------|------|------|
+|22000.51|[**6/28/2021**](https://blogs.windows.com/windows-insider/2021/06/28/announcing-the-first-insider-preview-for-windows-11/)|[**6/28/2021**](https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewSDK)||
 
 ## Active Development Builds of Windows 10
 
@@ -23,7 +29,7 @@ Moving forward, the Dev Channel will receive builds directly from the active dev
 
 | Build | Dev | SDK | ISO |
 |-------|------|------|
-|21390|[**5/26/2021**](https://blogs.windows.com/windows-insider/2021/05/26/announcing-windows-10-insider-preview-build-21390/)|||
+|21390|[5/26/2021](https://blogs.windows.com/windows-insider/2021/05/26/announcing-windows-10-insider-preview-build-21390/)|||
 |21387|[5/21/2021](https://blogs.windows.com/windows-insider/2021/05/21/announcing-windows-10-insider-preview-build-21387/)|||
 |21382|[5/14/2021](https://blogs.windows.com/windows-insider/2021/05/14/announcing-windows-10-insider-preview-build-21382/)|||
 |21376|[5/6/2021](https://blogs.windows.com/windows-insider/2021/05/06/announcing-windows-10-insider-preview-build-21376/)|||
