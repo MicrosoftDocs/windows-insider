@@ -101,7 +101,8 @@ Please read [this blog post](https://blogs.windows.com/windows-insider/2021/06/2
 ##  Windows Experience Feature Pack Updates
 | Version | Beta | Release Preview* |
 |------|------|------|
-|120.2212.3740.0|[**4/28/2021**](https://blogs.windows.com/windows-insider/2021/04/28/releasing-windows-feature-experience-pack-120-2212-3740-0-to-the-beta-release-preview-channels/)|[**4/28/2021**](https://blogs.windows.com/windows-insider/2021/04/28/releasing-windows-feature-experience-pack-120-2212-3740-0-to-the-beta-release-preview-channels/)
+|120.2212.3920.0|[**6/22/2021**](https://blogs.windows.com/windows-insider/2021/06/22/releasing-windows-feature-experience-pack-120-2212-3920-0-to-the-beta-release-preview-channels/)|[**6/22/2021**](https://blogs.windows.com/windows-insider/2021/06/22/releasing-windows-feature-experience-pack-120-2212-3920-0-to-the-beta-release-preview-channels/)
+|120.2212.3740.0|[4/28/2021](https://blogs.windows.com/windows-insider/2021/04/28/releasing-windows-feature-experience-pack-120-2212-3740-0-to-the-beta-release-preview-channels/)|[4/28/2021](https://blogs.windows.com/windows-insider/2021/04/28/releasing-windows-feature-experience-pack-120-2212-3740-0-to-the-beta-release-preview-channels/)
 |120.2212.3530.0|[3/25/2021](https://blogs.windows.com/windows-insider/2021/03/25/releasing-windows-feature-experience-pack-120-2212-3530-0-to-the-beta-release-preview-channels/)|[3/25/2021](https://blogs.windows.com/windows-insider/2021/03/25/releasing-windows-feature-experience-pack-120-2212-3530-0-to-the-beta-release-preview-channels/)
 |120.2212.3030.0|[2/23/2021](https://blogs.windows.com/windows-insider/2021/02/23/releasing-windows-feature-experience-pack-120-2212-3030-0-to-the-beta-channel/)|
 |120.2212.2020.0|[1/26/2021](https://blogs.windows.com/windows-insider/2021/01/26/releasing-windows-feature-experience-pack-120-2212-2020-0-to-the-beta-channel/)|
@@ -116,7 +117,8 @@ The [final build for the May 2021 Update](https://blogs.windows.com/windows-insi
 
 | Build | Beta | Release Preview | ISO 
 |------|------|------|------|
-|19043.1023|[**5/21/2021**](https://blogs.windows.com/windows-insider/2021/05/21/releasing-windows-10-build-19043-1023-21h1-to-beta-release-preview-channels/)|[**5/21/2021**](https://blogs.windows.com/windows-insider/2021/05/21/releasing-windows-10-build-19043-1023-21h1-to-beta-release-preview-channels/)|
+|19043.1081|[**6/17/2021**](https://blogs.windows.com/windows-insider/2021/06/17/releasing-windows-10-build-19043-1081-21h1-to-beta-release-preview-channels/)|[**6/17/2021**](https://blogs.windows.com/windows-insider/2021/06/17/releasing-windows-10-build-19043-1081-21h1-to-beta-release-preview-channels/)|
+|19043.1023|[5/21/2021](https://blogs.windows.com/windows-insider/2021/05/21/releasing-windows-10-build-19043-1023-21h1-to-beta-release-preview-channels/)|[5/21/2021](https://blogs.windows.com/windows-insider/2021/05/21/releasing-windows-10-build-19043-1023-21h1-to-beta-release-preview-channels/)|
 |19043.985|[5/11/2021](https://blogs.windows.com/windows-insider/2021/05/11/releasing-windows-10-build-19043-985-21h1-to-beta-release-preview-channels/)|[5/11/2021](https://blogs.windows.com/windows-insider/2021/05/11/releasing-windows-10-build-19043-985-21h1-to-beta-release-preview-channels/)|
 |19043.964|[4/28/2021](https://blogs.windows.com/windows-insider/2021/04/28/releasing-windows-10-build-19043-964-21h1-to-beta-channel-release-preview-channels/)|[4/28/2021](https://blogs.windows.com/windows-insider/2021/04/28/releasing-windows-10-build-19043-964-21h1-to-beta-channel-release-preview-channels/)|
 |19043.962|[4/19/2021](https://blogs.windows.com/windows-insider/2021/04/19/releasing-windows-10-build-19043-962-21h1-to-beta-channel-release-preview-channels/)|[4/19/2021](https://blogs.windows.com/windows-insider/2021/04/19/releasing-windows-10-build-19043-962-21h1-to-beta-channel-release-preview-channels/)|
@@ -132,7 +134,8 @@ The [final build for the May 2021 Update](https://blogs.windows.com/windows-insi
 ## Windows 10 October 2020 Update (20H2)
 | Build | Beta | Release Preview | WSUS | ISO |
 |-------|------|------|------|------|
-|19042.1023||[**5/21/2021**](https://blogs.windows.com/windows-insider/2021/05/21/releasing-windows-10-build-19042-1023-20h2-to-release-preview-channel/)|
+|19042.1081||[**6/17/2021**](https://blogs.windows.com/windows-insider/2021/06/17/releasing-windows-10-build-19042-1081-20h2-to-release-preview-channel/)|
+|19042.1023||[5/21/2021](https://blogs.windows.com/windows-insider/2021/05/21/releasing-windows-10-build-19042-1023-20h2-to-release-preview-channel/)|
 |19042.964||[4/28/2021](https://support.microsoft.com/en-us/topic/april-28-2021-kb5001391-os-builds-19041-964-and-19042-964-preview-fc8959e2-f2a0-4223-b56b-0ad8d9b4f96c)|
 |19042.962||[4/19/2021](https://blogs.windows.com/windows-insider/2021/04/19/releasing-windows-10-build-19042-962-20h2-to-release-preview-channel/)|
 |19042.928||[4/13/2021](https://support.microsoft.com/en-us/topic/april-13-2021-kb5001330-os-builds-19041-928-and-19042-928-cead30cd-f284-4115-a42f-d67fec538490)|[**4/13/2021**](https://support.microsoft.com/en-us/topic/april-13-2021-kb5001330-os-builds-19041-928-and-19042-928-cead30cd-f284-4115-a42f-d67fec538490)
