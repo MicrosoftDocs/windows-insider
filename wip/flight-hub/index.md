@@ -16,8 +16,9 @@ ms.prod: w10
 Welcome to Flight Hub! Use this dashboard to quickly identify the latest Windows Insider Preview Builds. You can also see SDK and ISO releases.
 
 ## Active Development Builds of Windows 11
+Builds from the active development branch simply reflect the latest work in progress code from our engineers.
 
-Please read this blog post on how the Windows 11 hardware requirements may impact flighting on your PC and your options to get started.
+Please read [this blog post](https://blogs.windows.com/windows-insider/2021/06/24/preparing-for-insider-preview-builds-of-windows-11/) on how the Windows 11 hardware requirements may impact flighting on your PC and your options to get started.
 
 | Build | Dev | SDK | ISO |
 |-------|------|------|
@@ -25,7 +26,7 @@ Please read this blog post on how the Windows 11 hardware requirements may impac
 
 ## Active Development Builds of Windows 10
 
-Moving forward, the Dev Channel will receive builds directly from the active development branch, and new features will show up in these builds first. While features in the active development branch may be slated for a future Windows 10 release, they are no longer matched to a specific Windows 10 release. This means that builds from the active development branch simply reflect the latest work in progress code from our engineers.
+ Builds from the active development branch simply reflect the latest work in progress code from our engineers.
 
 | Build | Dev | SDK | ISO |
 |-------|------|------|
