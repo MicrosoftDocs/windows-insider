@@ -34,7 +34,7 @@ These builds aren't matched to a specific release, which means these may simply 
 ### Beta Channel
 The Beta Channel is for early adopters and IT professionals who want to see what's next or validate the latest Windows updates and features, but still need reliable updates that are validated by Microsoft.
 
-As a part of the Beta Channel, you'll be seeing builds tied to a specific upcoming release, like 20H1 or 20H2. Your feedback will be especially important here, since it will help our engineers make sure that key issues are fixed before major releases.
+As a part of the Beta Channel, you'll be seeing builds tied to a specific upcoming release, like Windows 11. Your feedback will be especially important here, since it will help our engineers make sure that key issues are fixed before major releases.
 
 ### Release Preview Channel
 In the Release Preview Channel, Insiders and IT professionals get the upcoming version of Windows before it's released to the world, with advanced quality updates and certain key features. These builds are also supported by Microsoft if you're in the [Windows Insider Program for Business](./business/index.yml).
@@ -43,7 +43,7 @@ In the Release Preview Channel, Insiders and IT professionals get the upcoming v
 
 For Windows Insiders who were already flighting, you were automatically moved to the new channel that corresponded to your old ring. The Fast ring moved to the Dev Channel, the Slow ring moved to the Beta Channel, and the Release Preview ring move to the Release Preview Channel.
 
-![Moving to channels](images/ChannelsMove.png "Channels overview and how rings move to them.")
+![Moving to channels](images/ChannelsMovev2.png "Channels overview and how rings move to them.")
 
 IT administrators can still manage builds from the Beta Channel and Release Preview Channel using the same tools you'd used to manage your policies before or through Azure Marketplace virtual machines.
 
