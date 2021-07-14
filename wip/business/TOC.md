@@ -15,7 +15,7 @@
 ### [Explore in the Beta Channel](./explore-beta-channel.md)
 ### [Validate in the Release Preview Channel](./validate-release-preview-channel.md)
 ### [Give feedback](./feedback.md)
-### [FAQ](./faq.md)
+### [FAQ](./faq.yml)
 ### Windows Insider Program for Server
 #### [Get started](./server-get-started.md)
 #### [Give feedback](./server-feedback.md)
