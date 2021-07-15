@@ -22,9 +22,19 @@ Please read [this blog post](https://blogs.windows.com/windows-insider/2021/06/2
 
 | Build | Dev | SDK | ISO |
 |-------|------|------|
-|22000.51|[**6/28/2021**](https://blogs.windows.com/windows-insider/2021/06/28/announcing-the-first-insider-preview-for-windows-11/)|[**6/28/2021**](https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewSDK)||
+|22000.71|[**7/15/2021**](https://blogs.windows.com/windows-insider/2021/07/15/announcing-windows-11-insider-preview-build-22000-71/)|[**7/15/2021**](https://aka.ms/windowsinsidersdk)||
+|22000.65|[7/8/2021](https://blogs.windows.com/windows-insider/2021/07/08/announcing-windows-11-insider-preview-build-22000-65/)|||
+|22000.51|[6/28/2021](https://blogs.windows.com/windows-insider/2021/06/28/announcing-the-first-insider-preview-for-windows-11/)|6/28/2021||
 
-## Active Development Builds of Windows 10
+## Next Windows 10 Feature Update (21H2)
+
+Windows 10, version 21H2, will be the next feature update for Windows 10 - [see this blog post for details](https://blogs.windows.com/windowsexperience/2021/07/15/introducing-the-next-feature-update-to-windows-10-21h2/).
+
+| Build | Release Preview | ISO 
+|------|------|------|
+|19044.1037|[**7/15/2021**](https://blogs.windows.com/windows-insider/2021/07/15/announcing-windows-10-insider-preview-build-19044-1147-21h2/)||
+
+## Pre-Windows 11 Active Development Builds
 
  Builds from the active development branch simply reflect the latest work in progress code from our engineers.
 
