@@ -5,15 +5,15 @@ author: bleblanc
 manager: dougkim
 ms.tgt_pltfrm: na
 ms.devlang: na
-ms.author: v-allsh
+ms.author: v-jamleo
 ms.localizationpriority: medium
 ms.topic: article
-ms.prod: w10
+ms.prod: w10-w11
 ---
 
 # Using ISOs
 
-If your device is hard to use because of an issue, or if you want to switch out of the Dev Channel or stop receiving preview builds, you might need to use an ISO for a clean installation or in-place upgrade. ISOs are available for both Windows 10 Insider Preview Builds and for Windows.
+If your device is hard to use because of an issue, or if you want to switch out of the Dev Channel or stop receiving preview builds, you might need to use an ISO for a clean installation or in-place upgrade. ISOs are available for Windows 10 Insider Preview Builds.
 
 > [!div class="nextstepaction"]
 > [Download Windows Insider ISOs](https://aka.ms/WIPISO)
@@ -28,11 +28,11 @@ If your device is hard to use because of an issue, or if you want to switch out 
 
 4. During setup, select the **Keep Windows settings, personal files, and apps** option.
 
-5. Once it's finished installing, go to [**Settings** > **Update & Security** > **Windows Insider Program**](https://aka.ms/WIPSettings) to make sure your Windows Insider settings are correct.
+5. Once it's finished installing, go to [**Settings** > **Windows Update** > **Windows Insider Program**](https://aka.ms/WIPSettings) to make sure your Windows Insider settings are correct.
 
 ## Clean installation with a Windows Insider Preview ISO 
 
-1. Back up all your files and applications. A clean install with a Windows Insider ISO will erase all of your files, settings, and applications.
+1. Back up all your files and applications. A clean install with a Windows Insider Preview ISO will erase all of your files, settings, and applications.
 
 2. [Download your chosen ISO from the Windows Insider ISO page](https://aka.ms/WIPISO) by saving it to a location on your device or creating a bootable USB.
 
@@ -42,7 +42,11 @@ If your device is hard to use because of an issue, or if you want to switch out 
 
 5. During setup, select the **Change what to keep** option, and then choose **Nothing** on the next screen to complete a clean intall.
 
-6. Once it's finished installing, go to [**Settings** > **Update & Security** > **Windows Insider Program**](https://aka.ms/WIPSettings) to make sure your Windows Insider settings are correct.
+6. Once it's finished installing, make sure your Windows Insider settings are correct.
+
+- In Windows 10, go to [**Settings** > **Update & Security** > **Windows Insider Program**](https://aka.ms/WIPSettings)
+
+- In Windows 11, go to [**Settings** > **Windows Update** > **Windows Insider Program**](https://aka.ms/WIPSettings)
 
 ## Creating a bootable USB for Windows Insider ISOs
 
