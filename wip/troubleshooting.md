@@ -5,15 +5,15 @@ author: bleblanc
 manager: dougkim
 ms.tgt_pltfrm: na
 ms.devlang: na
-ms.author: v-allsh
+ms.author: v-jamleo
 ms.localizationpriority: medium
 ms.topic: article
-ms.prod: w10
+ms.prod: w10-w11
 ---
 
 # Troubleshooting 
 
-Running into an issue on Windows 10 Insider Preview Builds? This section can help you with some common problems. 
+Running into an issue on Windows Insider Preview Builds? This section can help you with some common problems. 
 
 > [!NOTE] 
 > We document known issues for Insider Preview builds in our [flight blog posts](https://blogs.windows.com/blog/tag/windows-insider-program/). Most issues are tied to specific builds, so this is the first place you should check if you're having problems.  
@@ -34,12 +34,16 @@ Or you can also type **winver** into your search and open it to see your latest 
 
 - **Find which channel your device is in.**
 
-Go to [**Settings** > **Update & Security** > **Windows Insider Program**](https://aka.ms/WIPSettings). Under **Pick your Insider settings**, you'll see your current channel.
+If you're on Windows 10, go to [**Settings** > **Update & Security** > **Windows Insider Program**](https://aka.ms/WIPSettings). Under **Pick your Insider settings**, you'll see your current channel. 
+
+If you're on Windows 11, go to [**Settings** > **Windows Update** > **Windows Insider Program**](https://aka.ms/WIPSettings). Under **Choose your Insider settings**, you will see your current channel.
 
 
 - **Check which Microsoft Account (MSA) or Azure Active Directory (AAD) account you're using on your device.**
 
-Go to [**Settings** > **Update & Security** > **Windows Insider Program**](https://aka.ms/WIPSettings). Under Windows Insider account, you'll see the account it's tied to.
+If you're on Windows 10, go to [**Settings** > **Update & Security** > **Windows Insider Program**](https://aka.ms/WIPSettings). Under Windows Insider account, you'll see the account it's tied to.
+
+If you're on Windows 11, go to [**Settings** > **Windows Update** > **Windows Insider Program**](https://aka.ms/WIPSettings). Under Windows Insider account, you'll see the account it's tied to.
 
 ## Changing channels
 
@@ -59,7 +63,7 @@ There may be an issue with the Insider Preview build you're on or the next build
 
 3. **Make sure you're running Windows 10.**
 
-To install Windows 10 Insider Preview Builds, you must be running a licensed version of Windows 10 on your device. You can [install Windows 10 here](https://www.microsoft.com/windows/get-windows-10?step=Win10Question1) if your device is currently running an older version or if you need to buy Windows. If you're having issues installing Windows 10, you can also [download a Windows 10 Insider Preview ISO](https://www.microsoft.com/software-download/windowsinsiderpreviewadvanced) to get started.
+To install Windows Insider Preview Builds, you must be running a licensed version of Windows 10 on your device. You can [install Windows 10 here](https://www.microsoft.com/windows/get-windows-10?step=Win10Question1) if your device is currently running an older version or if you need to buy Windows. If you're having issues installing Windows 10, you can also [download a Windows 10 Insider Preview ISO](https://www.microsoft.com/software-download/windowsinsiderpreviewadvanced) to get started.
 
 4. **Make sure Windows is activated.**
 
@@ -81,7 +85,7 @@ Go to [**Settings** > **Update & Security** > **Windows Insider Program**](https
 
 8. **Check your data settings.**
 
-Your privacy is important to us, so you're in control of how much of your data you share with us. But to run Windows 10 Insider Preview Builds, you must allow us to see a certain amount of diagnostic data, so we can investigate issues you might see, like crashes and bugs. [Make sure your data settings are at the right level to receive preview builds.](./data-settings.md) 
+Your privacy is important to us, so you're in control of how much of your data you share with us. But to run Windows Insider Preview Builds, you must allow us to see a certain amount of diagnostic data, so we can investigate issues you might see, like crashes and bugs. [Make sure your data settings are at the right level to receive preview builds.](./data-settings.md) 
 
 9. **Make sure you didn't change from the Dev Channel.**
 
@@ -94,7 +98,7 @@ If none of these options work for you, you may need to do a clean installation o
 
 ## Dealing with issues
 
-If you're seeing an issue on a Windows 10 Insider Preview Build, here's what you should do.
+If you're seeing an issue on a Windows Insider Preview Build, here's what you should do.
 
 1. **Check the known issues.**
 
