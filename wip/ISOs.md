@@ -13,7 +13,7 @@ ms.prod: w10-w11
 
 # Using ISOs
 
-If your device is hard to use because of an issue, or if you want to switch out of the Dev Channel or stop receiving preview builds, you might need to use an ISO for a clean installation or in-place upgrade. ISOs are available for Windows 10 Insider Preview Builds.
+If your device is hard to use because of an issue, or if you want to switch out of the Dev Channel or stop receiving preview builds, you might need to use an ISO for a clean installation or in-place upgrade. ISOs are available for both Windows 10 Insider Preview Builds and for Windows.
 
 > [!div class="nextstepaction"]
 > [Download Windows Insider ISOs](https://aka.ms/WIPISO)
