@@ -5,7 +5,7 @@ author: bleblanc
 manager: dougkim
 ms.tgt_pltfrm: na
 ms.devlang: na
-ms.author: v-allsh
+ms.author: v-jamleo
 ms.localizationpriority: medium
 ms.topic: article
 ms.prod: w10
@@ -27,7 +27,7 @@ ms.prod: w10
 
 First, make sure you're ready to set up flighting:
 
-- To install Windows 10 Insider Preview Builds1, you must be running a licensed version of Windows 10 on your device. You can install Windows 10 here if your device is currently running an older version or if you need to buy Windows. If you're having issues installing Windows 10, you can also download a Windows 10 Insider Preview ISO to get started.
+- To install Windows Insider Preview Builds, you must be running a licensed version of Windows on your device. You can install Windows here if your device is currently running an older version or if you need to buy Windows. If you're having issues installing Windows, you can also download a Windows Insider Preview ISO to get started.
 
 - The process of setting up flighting restarts your device during program setup and updating. Make sure you're ready for this, so you don't lose open documents or unsaved work. You might also want to take a picture of these directions or bookmark this page on your browser to get back to it easily.
 
@@ -35,11 +35,11 @@ First, make sure you're ready to set up flighting:
 
 #### Supported languages
 
-Windows 10 Insider Preview Builds are available in the following SKU languages:
+Windows Insider Preview Builds are available in the following SKU languages:
 
 Arabic (Saudi Arabia), Bulgarian (Bulgaria), Chinese (Simplified, China), Chinese (Traditional, Taiwan), Croatian (Croatia), Czech (Czech Republic), Danish (Denmark), Dutch (Netherlands), English (United Kingdom), English (United States), Estonian (Estonia), Finnish (Finland), French (Canada), French (France), German (Germany), Greek (Greece), Hebrew (Israel), Hungarian (Hungary), Italian (Italy), Japanese (Japan), Korean (Korea), Latvian (Latvia), Lithuanian (Lithuania), Norwegian, Bokmål (Norway), Polish (Poland), Portuguese (Brazil), Portuguese (Portugal), Romanian (Romania), Russian (Russia), Serbian (Latin, Serbia), Slovak (Slovakia), Slovenian (Slovenia), Spanish (Mexico), Spanish (Spain, International Sort), Swedish (Sweden), Thai (Thailand), Turkish (Turkey), Ukrainian (Ukraine)
 
-Windows 10 Insider Preview Builds are available in the following Language Interface Packs (LIP) languages:
+Windows Insider Preview Builds are available in the following Language Interface Packs (LIP) languages:
 
 Afrikaans (South Africa), Albanian (Albania), Amharic, Armenian, Assamese, Azerbaijani (Latin, Azerbaijan), Bangla (Bangladesh), Bangla (India), Basque, Belarusian (Belarus), Bosnian (Latin), Catalan (Catalan), Cherokee (Cherokee), Dari, Filipino (Philippines), Galician (Galician), Georgian, Gujarati, Hindi (India), Icelandic, Indonesian (Indonesia), Irish, Kannada, Kazakh (Kazakhstan), Khmer (Cambodia), KiSwahili, Konkani, Kyrgyz, Lao (Laos), Luxembourgish, Macedonian (North Macedonia), Malay (Malaysia), Malayalam, Maltese, Maori, Marathi, Mongolian (Cyrillic), Nepali, Norwegian (Nynorsk), Oriya, Persian, Punjabi, Quechua, Scottish Gaelic, Serbian (Cyrillic, Bosnia and Herzegovina), Serbian (Cyrillic, Serbia), Sindhi (Arabic), Sinhala, Tamil (India), Tatar, Telugu, Turkmen, Urdu, Uyghur, Uzbek (Latin, Uzbekistan), Valencian, Vietnamese, Welsh
 
@@ -68,11 +68,11 @@ Afrikaans (South Africa), Albanian (Albania), Amharic, Armenian, Assamese, Azerb
 > [!NOTE] 
 > If you install an Insider Preview build in one channel, and you want to switch to a different channel, you might need to do a clean install of Windows and reset your Windows Insider settings on that device. [Learn more about switching channels.](./flighting.md#switching-between-channels)
 
-*Windows 10 Insider Preview Builds may be substantially modified before they're commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here. Some product features and functionality may require additional hardware or software.*
+*Windows Insider Preview Builds may be substantially modified before they're commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here. Some product features and functionality may require additional hardware or software.*
 
 ## Give feedback
 
-1. Once you've had a chance to explore Windows 10 Insider Preview Builds, use the [Feedback Hub](https://aka.ms/WIPFeedbackHub) to let us know what you think of the latest updates, report issues, or suggest new features. This feedback goes directly to our engineers working to improve Windows. Not sure how to get started in the Feedback Hub? [Learn more about how to give great feedback.](./feedback.md)
+1. Once you've had a chance to explore Windows Insider Preview Builds, use the [Feedback Hub](https://aka.ms/WIPFeedbackHub) to let us know what you think of the latest updates, report issues, or suggest new features. This feedback goes directly to our engineers working to improve Windows. Not sure how to get started in the Feedback Hub? [Learn more about how to give great feedback.](./feedback.md)
 
 2. Participate in Quests, bug bashes, and more in the Feedback Hub, and start connecting with our community. [Learn more about getting involved in the Feedback Hub.](./feedback.md)
 
