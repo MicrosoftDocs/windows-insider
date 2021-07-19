@@ -32,7 +32,7 @@ Windows 10, version 21H2, will be the next feature update for Windows 10 - [see 
 
 | Build | Release Preview | ISO 
 |------|------|------|
-|19044.1037|[**7/15/2021**](https://blogs.windows.com/windows-insider/2021/07/15/announcing-windows-10-insider-preview-build-19044-1147-21h2/)||
+|19044.1147|[**7/15/2021**](https://blogs.windows.com/windows-insider/2021/07/15/announcing-windows-10-insider-preview-build-19044-1147-21h2/)||
 
 ## Pre-Windows 11 Active Development Builds
 
