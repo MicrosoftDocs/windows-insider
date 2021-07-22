@@ -47,7 +47,7 @@ landingContent:
           - text: Validate in the Release Preview Channel
             url: ./validate-release-preview-channel.md
           - text: Windows Insider Program for Business FAQ
-            url: ./faq.md
+            url: ./faq.yml
           - text: Glossary
             url: ../glossary.md
       - linkListType: whats-new
