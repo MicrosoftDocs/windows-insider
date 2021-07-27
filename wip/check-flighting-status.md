@@ -5,10 +5,10 @@ author: bleblanc
 manager: dougkim
 ms.tgt_pltfrm: na
 ms.devlang: na
-ms.author: v-allsh
+ms.author: v-jamleo
 ms.localizationpriority: medium
 ms.topic: article
-ms.prod: w10
+ms.prod: w10-w11
 ---
 
 # Checking if you're flighting
@@ -20,7 +20,7 @@ To see the latest build number for your channel, [check out Flight Hub](./flight
 
 If you’re on an Insider Preview build, you should be able to see a watermark on the bottom right of your desktop, right above the time and date in your taskbar, that tells you exactly which version of Windows you’re running.
 
-![Windows watermark for Windows 10 Insider Preview Builds showing Build 20211.](images/Watermark.jpg "Channels overview and how rings move to them.")
+![Windows watermark for Windows 10 Insider Preview Builds showing Build 20211.](images/Watermark.jpg "Windows Insider watermark on desktop.")
 
 Sometimes, as builds in the Beta Channel and Release Preview Channel get close to retail however, this goes away. If you think you’re flighting but aren’t seeing the watermark, double-check which version you’re on with one of the other methods below.
 
@@ -28,13 +28,13 @@ Sometimes, as builds in the Beta Channel and Release Preview Channel get close t
 
 You can also see which version of Windows your device is on in the About section of Settings. Go to [**Settings** > **System** > **About** > **Windows specifications**](https://aka.ms/AboutSettings) to see which edition, version, and OS build your device is on.
 
-![Windows' About Settings, scrolled down to the Windows specifications section to highlight your current OS build.](images/About.jpg "Channels overview and how rings move to them.")
+![Windows' About Settings, scrolled down to the Windows specifications section to highlight your current OS build.](images/About-w11.jpg "Windows About Settings page.")
 
 ## Run the winver command
 
 Need a quick, easy way to pull up your Windows details? Just type **winver** into the search on your taskbar, then select it to run the command. A window will open telling you which version and Insider Preview build you’re on.
 
-![The About Windows module that pops up from running the winver command, highlighting the Build 20211 the device is on.](images/winver.jpg "Channels overview and how rings move to them.")
+![The About Windows module that pops up from running the winver command, highlighting the Build 20211 the device is on.](images/winver-w11.jpg "Windows About dialog box.")
 
 ## Check your build with PowerShell
 
@@ -48,8 +48,8 @@ Hit enter, and it will pull up which version your device is on. The last numbers
 
 ## Double-check your Windows Insider settings
 
-If checking your device information made you realize you’re not on the build that you expected, make sure your Windows Insider Program settings are right. Go to [**Settings** > **Update & Security** > **Windows Insider Program**](https://aka.ms/WIPSettings) to check if your registered Insider account is connected and if you’re in the right channel. [Learn more about our channels and what you can expect to see in each.](./flighting.md)
+If checking your device information made you realize you’re not on the build that you expected, make sure your Windows Insider Program settings are right. Go to [**Settings** > **Windows Upadate** > **Windows Insider Program**](https://aka.ms/WIPSettings) to check if your registered Insider account is connected and if you’re in the right channel. [Learn more about our channels and what you can expect to see in each.](./flighting.md)
 
-![The Windows Insider Program's section in Settings showing your channel and the Insider account tied to your device.](images/WIP-settings.jpg "Channels overview and how rings move to them.")
+![The Windows Insider Program's section in Settings showing your channel and the Insider account tied to your device.](images/WIP-settings-w11.jpg "Windows Insider Program Settings page.")
 
 If everything there looks correct, but you still aren’t receiving updates, [check out our troubleshooting section for more help fixing your updates](./troubleshooting.md#not-receiving-updates).
