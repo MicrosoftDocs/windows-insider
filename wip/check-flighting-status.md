@@ -34,7 +34,7 @@ You can also see which version of Windows your device is on in the About section
 
 Need a quick, easy way to pull up your Windows details? Just type **winver** into the search on your taskbar, then select it to run the command. A window will open telling you which version and Insider Preview build you’re on.
 
-![The About Windows module that pops up from running the winver command, highlighting the Build 20211 the device is on.](images/winver-w11.jpg "Windows About dialog box.")
+![The About Windows module that pops up from running the winver command, highlighting the Build 22000.100 the device is on.](images/winver-w11.jpg "Windows About dialog box.")
 
 ## Check your build with PowerShell
 
