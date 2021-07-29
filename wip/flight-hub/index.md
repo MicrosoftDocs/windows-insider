@@ -20,11 +20,12 @@ Builds from the active development branch simply reflect the latest work in prog
 
 Please read [this blog post](https://blogs.windows.com/windows-insider/2021/06/24/preparing-for-insider-preview-builds-of-windows-11/) on how the Windows 11 hardware requirements may impact flighting on your PC and your options to get started.
 
-| Build | Dev | SDK | ISO |
+| Build | Dev | Beta | SDK | ISO |
 |-------|------|------|
-|22000.71|[**7/15/2021**](https://blogs.windows.com/windows-insider/2021/07/15/announcing-windows-11-insider-preview-build-22000-71/)|[**7/15/2021**](https://aka.ms/windowsinsidersdk)||
-|22000.65|[7/8/2021](https://blogs.windows.com/windows-insider/2021/07/08/announcing-windows-11-insider-preview-build-22000-65/)|||
-|22000.51|[6/28/2021](https://blogs.windows.com/windows-insider/2021/06/28/announcing-the-first-insider-preview-for-windows-11/)|6/28/2021||
+|22000.100|[**7/22/2021**](https://blogs.windows.com/windows-insider/2021/07/22/announcing-windows-11-insider-preview-build-22000-100/)|[**7/29/2021**](https://blogs.windows.com/windows-insider/2021/07/22/announcing-windows-11-insider-preview-build-22000-100/)|[**7/15/2021**](https://aka.ms/windowsinsidersdk)||
+|22000.71|[7/15/2021](https://blogs.windows.com/windows-insider/2021/07/15/announcing-windows-11-insider-preview-build-22000-71/)||7/15/2021||
+|22000.65|[7/8/2021](https://blogs.windows.com/windows-insider/2021/07/08/announcing-windows-11-insider-preview-build-22000-65/)||||
+|22000.51|[6/28/2021](https://blogs.windows.com/windows-insider/2021/06/28/announcing-the-first-insider-preview-for-windows-11/)|6/28/2021|||
 
 ## Next Windows 10 Feature Update (21H2)
 
