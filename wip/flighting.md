@@ -51,7 +51,7 @@ If you want to try out a new experience, go to [**Settings** > **Update & Securi
 
 ## Switching between channels
 
-If you've installed an Insider Preview build in the Beta Channel or Release Preview Channel, switching between channels is easy. But if you've installed a build in the Dev Channel, because it's not tied to a specific release, you'll have to do a clean install of Windows and reset your Windows Insider settings on that device to switch.
+If you've installed an Insider Preview build in the Beta Channel or Release Preview Channel, switching between channels is easy. But if you've installed a build in the Dev Channel, because it's not tied to a specific release, it will depend on your current build and the current flighting build in the channel you want to switch to, as to what steps you will need to perform.
 
 ### Switching from the Beta Channel or Release Preview Channel
 
@@ -61,6 +61,22 @@ If you've installed an Insider Preview build in the Beta Channel or Release Prev
 4. The next time you receive an update, it will be for your new channel.
 
 ### Switching from the Dev Channel
+Occasionally it may become possible to switch a device from the Dev Channel to another channel. To determine which process is needed to switch from the Dev Channel, you first need to find your current build number and compare it to the current build number in the channel you wish to switch to.   
+
+To find your current build, you can [check the watermark in the right bottom of your desktop, look at About in Settings, or run the winver command](./check-flighting-status).   
+
+Next determine what is the currently flighting build in the desired channel by checking [Flight Hub](https://aka.ms/FlightHub). 
+
+If your current build number is equal to, or lower than the build number in the channel you want to move to:  
+1. Open [**Settings** > **Windows Update** > **Windows Insider Program**](https://aka.ms/WIPSettings). 
+2. Select **Choose your Insider settings**.  
+3. Select the desired channel, either **Beta Channel (Recommended)**, or **Release Preview Channel**.  
+4. The next time you receive an update, it will be for your new channel. 
+
+> [!NOTE] 
+> It may take some time before updates are available in the new channel you selected.   
+
+If your current build number is higher than the build number in the channel you want to move to:
 1. [Do a clean installation of Windows on your device with these instructions.](./isos.md)
 2. Once you've reinstalled Windows, go to [**Settings** > **Update & Security** > **Windows Insider Program**](https://aka.ms/WIPSettings) to set up your device again, making sure you select the channel you'd like to move to. [Learn more about setting up your device.](./get-started.md) 
 
