@@ -27,7 +27,7 @@ Please read [this blog post](https://blogs.windows.com/windows-insider/2021/06/2
 |22000.100|[7/22/2021**](https://blogs.windows.com/windows-insider/2021/07/22/announcing-windows-11-insider-preview-build-22000-100/)|[7/29/2021](https://blogs.windows.com/windows-insider/2021/07/22/announcing-windows-11-insider-preview-build-22000-100/)|7/22/2021||
 |22000.71|[7/15/2021](https://blogs.windows.com/windows-insider/2021/07/15/announcing-windows-11-insider-preview-build-22000-71/)||7/15/2021||
 |22000.65|[7/8/2021](https://blogs.windows.com/windows-insider/2021/07/08/announcing-windows-11-insider-preview-build-22000-65/)||||
-|22000.51|[6/28/2021](https://blogs.windows.com/windows-insider/2021/06/28/announcing-the-first-insider-preview-for-windows-11/)|6/28/2021|||
+|22000.51|[6/28/2021](https://blogs.windows.com/windows-insider/2021/06/28/announcing-the-first-insider-preview-for-windows-11/)||6/28/2021||
 
 ## Next Windows 10 Feature Update (21H2)
 
