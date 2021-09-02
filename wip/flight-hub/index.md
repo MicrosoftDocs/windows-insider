@@ -18,14 +18,23 @@ Welcome to Flight Hub! Use this dashboard to quickly identify the latest Windows
 ## Active Development Builds of Windows 11
 Builds from the active development branch simply reflect the latest work in progress code from our engineers.
 
+| Build | Dev | SDK | ISO |
+|-------|------|------|
+|22449|[**9/2/2021**](https://blogs.windows.com/windows-insider/2021/09/02/announcing-windows-11-insider-preview-build-22449/)||
+
+## Windows 11 October 2021 Release
+Builds leading up to the very first release of Windows 11 on Oct. 5th. 
+
 Please read [this blog post](https://blogs.windows.com/windows-insider/2021/06/24/preparing-for-insider-preview-builds-of-windows-11/) on how the Windows 11 hardware requirements may impact flighting on your PC and your options to get started.
 
 | Build | Dev | Beta | SDK | ISO |
 |-------|------|------|
-|22000.160|[**8/19/2021**](https://blogs.windows.com/windows-insider/2021/08/19/announcing-windows-11-insider-preview-build-22000-160/)|[**8/19/2021**](https://blogs.windows.com/windows-insider/2021/08/19/announcing-windows-11-insider-preview-build-22000-160/)|[**8/19/2021**](https://aka.ms/windowsinsidersdk)||
+|22000.176||[**9/2/2021**](https://blogs.windows.com/windows-insider/2021/08/27/announcing-windows-11-insider-preview-build-22000-168/)|[**9/2/2021**](https://aka.ms/windowsinsidersdk)||
+|22000.168|[8/27/2021](https://blogs.windows.com/windows-insider/2021/08/27/announcing-windows-11-insider-preview-build-22000-168/)|[8/27/2021](https://blogs.windows.com/windows-insider/2021/08/27/announcing-windows-11-insider-preview-build-22000-168/)|[8/27/2021||
+|22000.160|[8/19/2021](https://blogs.windows.com/windows-insider/2021/08/19/announcing-windows-11-insider-preview-build-22000-160/)|[8/19/2021](https://blogs.windows.com/windows-insider/2021/08/19/announcing-windows-11-insider-preview-build-22000-160/)|8/19/2021||
 |22000.132|[8/12/2021](https://blogs.windows.com/windows-insider/2021/08/12/announcing-windows-11-insider-preview-build-22000-132/)|[8/12/2021](https://blogs.windows.com/windows-insider/2021/08/12/announcing-windows-11-insider-preview-build-22000-132/)|8/12/2021|[**8/19/2021**](https://www.microsoft.com/software-download/windowsinsiderpreviewiso)|
 |22000.120|[8/5/2021](https://blogs.windows.com/windows-insider/2021/08/05/announcing-windows-11-insider-preview-build-22000-120/)|[8/5/2021](https://blogs.windows.com/windows-insider/2021/08/05/announcing-windows-11-insider-preview-build-22000-120/)|8/5/2021||
-|22000.100|[7/22/2021**](https://blogs.windows.com/windows-insider/2021/07/22/announcing-windows-11-insider-preview-build-22000-100/)|[7/29/2021](https://blogs.windows.com/windows-insider/2021/07/22/announcing-windows-11-insider-preview-build-22000-100/)|7/22/2021||
+|22000.100|[7/22/2021](https://blogs.windows.com/windows-insider/2021/07/22/announcing-windows-11-insider-preview-build-22000-100/)|[7/29/2021](https://blogs.windows.com/windows-insider/2021/07/22/announcing-windows-11-insider-preview-build-22000-100/)|7/22/2021||
 |22000.71|[7/15/2021](https://blogs.windows.com/windows-insider/2021/07/15/announcing-windows-11-insider-preview-build-22000-71/)||7/15/2021||
 |22000.65|[7/8/2021](https://blogs.windows.com/windows-insider/2021/07/08/announcing-windows-11-insider-preview-build-22000-65/)||||
 |22000.51|[6/28/2021](https://blogs.windows.com/windows-insider/2021/06/28/announcing-the-first-insider-preview-for-windows-11/)||6/28/2021||
