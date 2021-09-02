@@ -45,7 +45,7 @@ Windows 10, version 21H2, will be the next feature update for Windows 10 - [see 
 
 | Build | Release Preview | ISO 
 |------|------|------|
-|19044.1202|[**8/31/2021**](https://blogs.windows.com/windows-insider/2021/08/31/announcing-windows-10-insider-preview-build-19044-1202-21h2/)||
+|19044.1202|[**8/31/2021**](https://blogs.windows.com/windows-insider/2021/08/31/announcing-windows-10-insider-preview-build-19044-1202-21h2/)|[**9/2/2021**](https://aka.ms/wipISO)|
 |19044.1200|[8/18/2021](https://blogs.windows.com/windows-insider/2021/08/18/announcing-windows-10-insider-preview-build-19044-1198-21h2/)||
 |19044.1149|[7/20/2021](https://blogs.windows.com/windows-insider/2021/07/20/announcing-windows-10-insider-preview-build-19044-1149-21h2/)||
 |19044.1147|[7/15/2021](https://blogs.windows.com/windows-insider/2021/07/15/announcing-windows-10-insider-preview-build-19044-1147-21h2/)||
@@ -152,7 +152,7 @@ The [final build for the May 2021 Update](https://blogs.windows.com/windows-insi
 |19043.985|[5/11/2021](https://blogs.windows.com/windows-insider/2021/05/11/releasing-windows-10-build-19043-985-21h1-to-beta-release-preview-channels/)|[5/11/2021](https://blogs.windows.com/windows-insider/2021/05/11/releasing-windows-10-build-19043-985-21h1-to-beta-release-preview-channels/)|
 |19043.964|[4/28/2021](https://blogs.windows.com/windows-insider/2021/04/28/releasing-windows-10-build-19043-964-21h1-to-beta-channel-release-preview-channels/)|[4/28/2021](https://blogs.windows.com/windows-insider/2021/04/28/releasing-windows-10-build-19043-964-21h1-to-beta-channel-release-preview-channels/)|
 |19043.962|[4/19/2021](https://blogs.windows.com/windows-insider/2021/04/19/releasing-windows-10-build-19043-962-21h1-to-beta-channel-release-preview-channels/)|[4/19/2021](https://blogs.windows.com/windows-insider/2021/04/19/releasing-windows-10-build-19043-962-21h1-to-beta-channel-release-preview-channels/)|
-|19043.928|[4/13/2021](https://blogs.windows.com/windows-insider/2021/04/13/releasing-windows-10-build-19043-928-21h1-to-beta-release-preview-channels/)|[4/13/2021](https://blogs.windows.com/windows-insider/2021/04/13/releasing-windows-10-build-19043-928-21h1-to-beta-release-preview-channels/)|[**4/21/2021**](https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewiso)
+|19043.928|[4/13/2021](https://blogs.windows.com/windows-insider/2021/04/13/releasing-windows-10-build-19043-928-21h1-to-beta-release-preview-channels/)|[4/13/2021](https://blogs.windows.com/windows-insider/2021/04/13/releasing-windows-10-build-19043-928-21h1-to-beta-release-preview-channels/)|4/21/2021
 |19043.906|[3/25/2021](https://blogs.windows.com/windows-insider/2021/03/25/releasing-windows-10-build-19043-906-21h1-to-beta-channel/)|[3/18/2021](https://blogs.windows.com/windows-insider/2021/03/25/releasing-windows-10-build-19043-906-21h1-to-beta-channel/)|
 |19043.899|[3/15/2021](https://blogs.windows.com/windows-insider/2021/03/15/releasing-windows-10-build-19043-899-21h1-to-beta-channel/)|[3/18/2021](https://techcommunity.microsoft.com/t5/windows-it-pro-blog/windows-10-version-21h1-for-commercial-pre-release-validation/ba-p/2220577)|3/18/2021
 |19043.867|[3/9/2021](https://blogs.windows.com/windows-insider/2021/03/09/releasing-windows-10-build-19043-867-21h1-to-beta-channel/)||
