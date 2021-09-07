@@ -128,7 +128,7 @@ First, check if feedback already exists for your problem or suggestion. If your 
 
 7.  If you're reporting a problem, under **4. Add more details**, you can check **Prioritize this as high severity** if your issue is urgent. You should also choose which of these categories best describes your problem:
 
-- **Mising personal data**
+- **Missing personal data**
 - **Security or privacy concern**
 - **Inability to use my PC**
 - **Important functionality not working**
