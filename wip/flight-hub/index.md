@@ -22,7 +22,8 @@ Please read [this blog post](https://blogs.windows.com/windows-insider/2021/06/2
 
 | Build | Dev | SDK | ISO |
 |-------|------|------|
-|22454|[**9/9/2021**](https://blogs.windows.com/windows-insider/2021/09/09/announcing-windows-11-insider-preview-build-22454/)||[**9/9/2021**](https://aka.ms/wipISO)
+|22458|[**9/15/2021**](https://blogs.windows.com/windows-insider/2021/09/15/announcing-windows-11-insider-preview-build-22458/)||
+|22454|[9/9/2021](https://blogs.windows.com/windows-insider/2021/09/09/announcing-windows-11-insider-preview-build-22454/)||[**9/9/2021**](https://aka.ms/wipISO)
 |22449|[9/2/2021](https://blogs.windows.com/windows-insider/2021/09/02/announcing-windows-11-insider-preview-build-22449/)||
 
 ## Windows 11 October 2021 Release
