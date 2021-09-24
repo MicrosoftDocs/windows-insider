@@ -6,7 +6,7 @@ manager: dougkim
 ms.tgt_pltfrm: na
 ms.devlang: na
 ms.author: v-jamleo
-ms.localizationpriority: medium
+ms.localizationpriority: high
 ms.topic: article
 ms.prod: w10-w11
 ---
