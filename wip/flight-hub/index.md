@@ -22,7 +22,8 @@ Please read [this blog post](https://blogs.windows.com/windows-insider/2021/06/2
 
 | Build | Dev | SDK | ISO |
 |-------|------|------|------|
-|22468|[**9/29/2021**](https://blogs.windows.com/windows-insider/2021/09/29/announcing-windows-11-insider-preview-build-22468/)||
+|22471|[**10/4/2021**](https://blogs.windows.com/windows-insider/2021/10/04/announcing-windows-11-insider-preview-build-22471/)||
+|22468|[9/29/2021](https://blogs.windows.com/windows-insider/2021/09/29/announcing-windows-11-insider-preview-build-22468/)||
 |22463|[9/22/2021](https://blogs.windows.com/windows-insider/2021/09/22/announcing-windows-11-insider-preview-build-22463/)||
 |22458|[9/15/2021](https://blogs.windows.com/windows-insider/2021/09/15/announcing-windows-11-insider-preview-build-22458/)||
 |22454|[9/9/2021](https://blogs.windows.com/windows-insider/2021/09/09/announcing-windows-11-insider-preview-build-22454/)||[**9/9/2021**](https://aka.ms/wipISO)
