@@ -2,6 +2,14 @@
 
 
 
+## Week of October 11, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 10/14/2021 | [Flight Hub](/windows-insider/flight-hub/index) | modified |
+
+
 ## Week of October 04, 2021
 
 
