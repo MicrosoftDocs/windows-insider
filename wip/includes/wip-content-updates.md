@@ -2,6 +2,14 @@
 
 
 
+## Week of October 18, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 10/20/2021 | [Flight Hub](/windows-insider/flight-hub/index) | modified |
+
+
 ## Week of October 11, 2021
 
 
@@ -32,14 +40,3 @@
 | Published On |Topic title | Change |
 |------|------------|--------|
 | 9/22/2021 | [Flight Hub](/windows-insider/flight-hub/index) | modified |
-
-
-## Week of September 13, 2021
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 9/14/2021 | [Deeper look at feedback](/windows-insider/feedback) | modified |
-| 9/14/2021 | [Flight Hub](/windows-insider/flight-hub/index) | modified |
-| 9/15/2021 | [Flight Hub](/windows-insider/flight-hub/index) | modified |
-| 9/16/2021 | [Flight Hub](/windows-insider/flight-hub/index) | modified |
