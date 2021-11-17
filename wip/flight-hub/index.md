@@ -53,9 +53,9 @@ Builds leading up to the very first release of Windows 11 on Oct. 5th.
 |22000.65|[7/8/2021](https://blogs.windows.com/windows-insider/2021/07/08/announcing-windows-11-insider-preview-build-22000-65/)||||
 |22000.51|[6/28/2021](https://blogs.windows.com/windows-insider/2021/06/28/announcing-the-first-insider-preview-for-windows-11/)||6/28/2021||
 
-## Next Windows 10 Feature Update (21H2)
+## Windows 10 November 2021 Update (21H2)
 
-Windows 10, version 21H2, will be the next feature update for Windows 10 - [see this blog post for details](https://blogs.windows.com/windowsexperience/2021/07/15/introducing-the-next-feature-update-to-windows-10-21h2/).
+The Windows 10 November 2021 Update is now available - [see details here in this blog post](https://blogs.windows.com/windowsexperience/2021/11/16/how-to-get-the-windows-10-november-2021-update/). [The final build for this update is Build 19044.1288](https://blogs.windows.com/windows-insider/2021/10/21/preparing-the-windows-10-november-2021-update-for-release/). 
 
 | Build | Release Preview | ISO 
 |------|------|------|
