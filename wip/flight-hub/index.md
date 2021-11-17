@@ -22,7 +22,8 @@ Please read [this blog post](https://blogs.windows.com/windows-insider/2021/06/2
 
 | Build | Dev | SDK | ISO |
 |-------|------|------|
-|22499|[**11/10/2021**](https://blogs.windows.com/windows-insider/2021/11/10/announcing-windows-11-insider-preview-build-22499/)||[**11/10/21**](https://aka.ms/wipISO)
+|22504|[**11/17/2021**](https://blogs.windows.com/windows-insider/2021/11/17/announcing-windows-11-insider-preview-build-22504/)||
+|22499|[11/10/2021](https://blogs.windows.com/windows-insider/2021/11/10/announcing-windows-11-insider-preview-build-22499/)||[**11/10/21**](https://aka.ms/wipISO)
 |22494|[11/3/2021](https://blogs.windows.com/windows-insider/2021/11/03/announcing-windows-11-insider-preview-build-22494/)||
 |22489|[10/27/2021](https://blogs.windows.com/windows-insider/2021/10/27/announcing-windows-11-insider-preview-build-22489/)||
 |22483|[10/20/2021](https://blogs.windows.com/windows-insider/2021/10/20/announcing-windows-11-insider-preview-build-22483/)||10/21/21
@@ -52,13 +53,14 @@ Builds leading up to the very first release of Windows 11 on Oct. 5th.
 |22000.65|[7/8/2021](https://blogs.windows.com/windows-insider/2021/07/08/announcing-windows-11-insider-preview-build-22000-65/)||||
 |22000.51|[6/28/2021](https://blogs.windows.com/windows-insider/2021/06/28/announcing-the-first-insider-preview-for-windows-11/)||6/28/2021||
 
-## Next Windows 10 Feature Update (21H2)
+## Windows 10 November 2021 Update (21H2)
 
-Windows 10, version 21H2, will be the next feature update for Windows 10 - [see this blog post for details](https://blogs.windows.com/windowsexperience/2021/07/15/introducing-the-next-feature-update-to-windows-10-21h2/).
+The Windows 10 November 2021 Update is now available - [see details here in this blog post](https://blogs.windows.com/windowsexperience/2021/11/16/how-to-get-the-windows-10-november-2021-update/). [The final build for this update is Build 19044.1288](https://blogs.windows.com/windows-insider/2021/10/21/preparing-the-windows-10-november-2021-update-for-release/). 
 
 | Build | Release Preview | ISO 
 |------|------|------|
-|19044.1320|[**10/26/2021**](https://blogs.windows.com/windows-insider/2021/10/26/releasing-windows-10-build-19044-1320-21h2-to-release-preview-channel/)||
+|19044.1379|[**11/16/2021**](https://blogs.windows.com/windows-insider/2021/11/16/releasing-windows-10-build-19044-1379-19043-1379-to-release-preview-channel/)||
+|19044.1320|[10/26/2021](https://blogs.windows.com/windows-insider/2021/10/26/releasing-windows-10-build-19044-1320-21h2-to-release-preview-channel/)||
 |19044.1319|[10/19/2021](https://blogs.windows.com/windows-insider/2021/10/19/releasing-windows-10-build-19044-1319-21h2-to-release-preview-channel/)||
 |19044.1263|[9/23/2021](https://blogs.windows.com/windows-insider/2021/09/23/releasing-windows-10-build-19044-1263-21h2-to-release-preview-channel/)||
 |19044.1202|[8/31/2021](https://blogs.windows.com/windows-insider/2021/08/31/announcing-windows-10-insider-preview-build-19044-1202-21h2/)|[**9/2/2021**](https://aka.ms/wipISO)|
@@ -159,6 +161,7 @@ The [final build for the May 2021 Update](https://blogs.windows.com/windows-insi
 
 | Build | Beta | Release Preview | ISO 
 |------|------|------|------|
+|19043.1379||[**11/16/2021**](https://blogs.windows.com/windows-insider/2021/11/16/releasing-windows-10-build-19044-1379-19043-1379-to-release-preview-channel/)|
 |19043.1320||[**10/26/2021**](https://blogs.windows.com/windows-insider/2021/10/26/releasing-windows-10-build-19043-1320-21h1-to-release-preview-channel/)|
 |19043.1319||[10/19/2021](https://blogs.windows.com/windows-insider/2021/10/19/releasing-windows-10-build-19043-1319-21h1-to-release-preview-channel/)|
 |19043.1263||[9/23/2021](https://blogs.windows.com/windows-insider/2021/09/23/releasing-windows-10-build-19043-1263-21h1-to-release-preview-channel/)|
