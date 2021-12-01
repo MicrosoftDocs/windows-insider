@@ -41,7 +41,9 @@ Builds leading up to the very first release of Windows 11 on Oct. 5th.
 
 | Build | Dev | Beta | SDK | ISO |
 |-------|------|------|
-|22000.282||[**10/15/2021**](https://blogs.windows.com/windows-insider/2021/10/15/releasing-windows-11-build-22000-282-to-beta-and-release-preview-channels/)|||
+|22000.348||[**11/19/2021**](https://blogs.windows.com/windows-insider/2021/11/19/releasing-windows-11-build-22000-348-to-beta-and-release-preview-channels/)|||
+|22000.346||[11/12/2021](https://blogs.windows.com/windows-insider/2021/11/12/releasing-windows-11-build-22000-346-to-beta-and-release-preview-channels/)|||
+|22000.282||[10/15/2021](https://blogs.windows.com/windows-insider/2021/10/15/releasing-windows-11-build-22000-282-to-beta-and-release-preview-channels/)|||
 |22000.194||[9/16/2021](https://blogs.windows.com/windows-insider/2021/09/16/announcing-windows-11-insider-preview-build-22000-194/)|||
 |22000.184||[9/9/2021](https://blogs.windows.com/windows-insider/2021/09/09/announcing-windows-11-insider-preview-build-22000-184/)|||
 |22000.176||[9/2/2021](https://blogs.windows.com/windows-insider/2021/09/02/announcing-windows-11-insider-preview-build-22000-176/)|[**9/2/2021**](https://aka.ms/windowsinsidersdk)||
