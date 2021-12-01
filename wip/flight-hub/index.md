@@ -165,7 +165,7 @@ The [final build for the May 2021 Update](https://blogs.windows.com/windows-insi
 
 | Build | Beta | Release Preview | ISO 
 |------|------|------|------|
-|19043.1381|[**11/18/2021**](https://blogs.windows.com/windows-insider/2021/11/18/releasing-windows-10-build-19044-1381-19043-1381-to-release-preview-channel/)||
+|19043.1381||[**11/18/2021**](https://blogs.windows.com/windows-insider/2021/11/18/releasing-windows-10-build-19044-1381-19043-1381-to-release-preview-channel/)|
 |19043.1379||[11/16/2021](https://blogs.windows.com/windows-insider/2021/11/16/releasing-windows-10-build-19044-1379-19043-1379-to-release-preview-channel/)|
 |19043.1320||[10/26/2021](https://blogs.windows.com/windows-insider/2021/10/26/releasing-windows-10-build-19043-1320-21h1-to-release-preview-channel/)|
 |19043.1319||[10/19/2021](https://blogs.windows.com/windows-insider/2021/10/19/releasing-windows-10-build-19043-1319-21h1-to-release-preview-channel/)|
