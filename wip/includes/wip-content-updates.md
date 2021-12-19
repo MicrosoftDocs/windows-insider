@@ -2,6 +2,14 @@
 
 
 
+## Week of December 13, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 12/15/2021 | [Flight Hub](/windows-insider/flight-hub/index) | modified |
+
+
 ## Week of December 06, 2021
 
 
