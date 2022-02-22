@@ -249,24 +249,16 @@ For more generic system performance issues, you can file your feedback to the **
 If your device is slow to boot up: 
 
 1. Open Command Prompt and run as administrator.
-
 2. To configure boot tracing (starting next Boot), run: **wpr -boottrace -addboot GeneralProfile -filemode**
-
 3. Use shutdown method of your choice. Preferable command line (**shutdown /r -t 0**) or **Restart** from Start menu.
-
 4. After rebooting, log back in then as soon as possible open command prompt and enter: **wpr -boottrace -stopboot trace.etl**
-
 5. Add the trace to your feedback as a file attachment.
 
 If your device is slow to shutdown on Windows 11:
 
 1. Open Command Prompt and run as administrator.
-
 2. Be ready to shutdown the device and run this to start tracing now and configure so as to persist tracing during shutdown: **wpr -start GeneralProfile -shutdown -filemode**
-
 3. Use shutdown method of your choice. Preferable command line (**shutdown /r -t 0**) or **Restart** from Start menu.
-
 4. After rebooting, log back in then as soon as possible open command prompt and enter: **wpr -stop ShutdownTrace.etl**
-
 5. Add the trace to your feedback as a file attachment.
 
