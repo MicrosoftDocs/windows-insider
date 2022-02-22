@@ -236,7 +236,7 @@ For issues for other input related issues that you can't find a specific context
 
 ### Performance
 
-For specific performance issues like gaming, desktop environment, or browser, try to file your feedback to the appropriate category and subcategory. 
+For specific performance issues like gaming, desktop environment, or your browser, try to file your feedback to the appropriate category and subcategory. 
 
 For more generic system performance issues, you can file your feedback to the **Install and update** > **Post-update slowness, crashes, hangs** category and subcategory. Then:
 
