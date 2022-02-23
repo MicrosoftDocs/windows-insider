@@ -52,9 +52,9 @@ First, check if feedback already exists for your problem or suggestion. If it al
 
 - The **category** and **subcategories** options let you filter by all the same categories you can use to file feedback.
  
-5.  If you find the feedback you’re looking for, you have a few options to engage with it. You can **Upvote** it to let us know you agree with the feedback. 
+5.  If you find the feedback you’re looking for, you have a few options to engage with it.
 
-- Upvote it. If this is a major trending issue or suggestion that hasn't been fixed yet, upvoting it is all you need to do to be heard and show you care about the issue. 
+- **Upvote** it to let us know you agree with the feedback. If this is a major trending issue or suggestion that hasn't been fixed yet, upvoting it is all you need to do to be heard and show you care about the issue. 
 
 - If there's no collection, very few reports or upvotes, or it's marked with **More details needed**, it's a good idea to file your own similar feedback to share your experience. Also, if it's marked with **Changes made**, but you're still seeing the issue on build numbers higher than the fixed build number in the response, file similar feedback to help us investigate further.
 
