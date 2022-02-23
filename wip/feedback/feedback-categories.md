@@ -25,15 +25,15 @@ Use this for issues you experience using apps on your device. The subcategory sh
 
 ### Gaming and Xbox
 
-Use this for issues you experience while gaming or using Xbox features on Windowse, including Game Bar, using controllers, game crashes and performance, issues using your Xbox account, or recording. If your issue doesn't fit neatly into its subcategories, use **All other issues**.
+Use this for issues you experience while gaming or using Xbox features on Windows, including Game Bar, using controllers, game crashes and performance, issues using your Xbox account, or recording. If your issue doesn't fit neatly into its subcategories, use **All other issues**.
 
 ### Accessibility
 
-Use this for features we've built specifically to help users make the most of their device, especially users with special needs, like Narrator, Magnifier, eye control, or live captions. Do not use this for just issues accessing something. If your feedback isn't for one of these features or available as a setting in the **Settings** > **Accessibility** section, it probably needs to be sent directly to the feature's category instead. Still be sure to tell us that it's an accessibility issue in your feedback description though.
+Use this for features we've built specifically to help users make the most of their device, especially users with special needs, like Narrator, Magnifier, eye control, or live captions. Do not use this for just any issue accessing something. If your feedback isn't for one of these features or something available as a setting in the **Settings** > **Accessibility** section, it probably needs to be sent directly to the feature's category instead. Still be sure to tell us that it's an accessibility issue in your feedback description though.
 
 ### Customer programs
 
-Use this for feedback on the Windows Insider Program's content or forums should be sent. 
+Use this for feedback on the Windows Insider Program's content or forums. 
 
 ### Desktop environment
 
@@ -65,7 +65,7 @@ Use this only for the media controls and audio controls you see in the Quick Set
 
 #### Start menu
 
-Use this only for the Start menu, not for the taskbar, other things like apps not starting, or your device not starting up correctly. And while there is a search box in the new Windows 11 Start menu, Start and search are actually different features with different categories. Use **Desktop environment** > **Search** instead for your search feedback.
+Use this only for the Start menu, not for the taskbar, other things like apps not starting, or your device not starting up correctly. While there is a search box in the new Windows 11 Start menu, Start and search are still different features with different categories. Use **Desktop environment** > **Search** instead for your search feedback.
 
 #### System tray 
 
@@ -121,7 +121,7 @@ Use this for any issues with the Settings app, like personalization, date and ti
 
 ## Include the diagnostics needed to investigate
 
-In certain categories and subcategories, we need certain diagnostics attached with your report to be able to take action. Be sure to still give us a good title and good description first. [Learn more about how to give great feedback.](./explore-feedback-hub.md)
+In certain categories and subcategories, we need certain diagnostics attached with your report to be able to take action. Be sure to still give us a good title and good description first. [Learn more about how to give great feedback.](./feedback/feedback.md)
 
 ### App installation and deployment issues
 
