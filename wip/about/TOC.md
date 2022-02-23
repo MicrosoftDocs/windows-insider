@@ -8,7 +8,7 @@
 ### [Explore the Feedback Hub](../feedback-hub/feedback-hub-app.md)
 ## [Troubleshooting](../troubleshooting.md)
 ### [Choosing your data settings](../data-settings.md)
-### [Using ISOs](../isos.md)
+### [Using ISOs](../ISOs.md)
 ### [Checking if you're flighting](../check-flighting-status.md)
 ### [Updating from an expiring Insider Preview build](../build-expiration.md)
 ## Windows Insider Program for Business
