@@ -18,11 +18,11 @@ As a Windows Insider, your feedback can change and improve Windows for users aro
 The [Feedback Hub](https://aka.ms/WIPFeedbackHub), an app on Windows, makes giving us your feedback easy. Sign in with the account that that you used to register for the Windows Insider Program to get access to all its features. 
 
 > [!NOTE] 
-> Open the [Feedback Hub](https://aka.ms/WIPFeedbackHub) in Start, search, or by pressing the Windows key + F. [Learn more about navigating the Feedback Hub.](./explore-feedback-hub.md)
+> Open the [Feedback Hub](https://aka.ms/WIPFeedbackHub) in Start, search, or by pressing the **Win** + **F**. [Learn more about navigating the Feedback Hub.](./feedback-hub/feedback-hub-app.md)
 
 ## Give great feedback
 
-When you file feedback, it will collect information based on your privacy settings and the category of feedback you're giving. If you're letting us pull anonymous diagnostic data, then we also collect info about the specific feature you're giving us feedback on. If you can give us screenshots, key files, or recreate the problem, that can also help us better understand the issue or suggestion.
+When you file feedback, it will collect information based on your privacy settings and the category of feedback you're giving. If you're letting us pull anonymous diagnostic data, then we also collect info about the specific feature you're giving us feedback on. If you can give us screenshots, key files, or recreate the problem, that can also help us better understand the issue or suggestion and collect more diagnostics.
 
 First, check if feedback already exists for your problem or suggestion. If it already exists, you can upvote or add similar feedback. If you can't find feedback like yours, it's time to add new feedback.
 
