@@ -121,7 +121,7 @@ Use this for any issues with the Settings app, like personalization, date and ti
 
 ## Include the diagnostics needed to investigate
 
-In certain categories and subcategories, we need certain diagnostics attached with your report to be able to take action. Be sure to still give us a good title and good description first. [Learn more about how to give great feedback.](./feedback/feedback.md)
+In certain categories and subcategories, we need certain diagnostics attached with your report to be able to take action. Be sure to still give us a good title and good description first. [Learn more about how to give great feedback.](./feedback.md)
 
 ### App installation and deployment issues
 
