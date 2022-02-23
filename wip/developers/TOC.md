@@ -5,7 +5,7 @@
 ## [Deeper look at feedback](./feedback.md)
 ### [Understand feedback categories and diagnostics](./feedback/feedback-categories.md)
 ### [Track your feedback](./feedback/tracking-feedback.md)
-### [Explore the Feedback Hub](./feedback-hub/explore-feedback-hub.md)
+### [Explore the Feedback Hub](./feedback-hub/feedback-hub-app.md)
 ## [Troubleshooting](./troubleshooting.md)
 ### [Choosing your data settings](./data-settings.md)
 ### [Using ISOs](./isos.md)
