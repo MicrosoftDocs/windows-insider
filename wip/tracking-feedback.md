@@ -13,7 +13,7 @@ ms.prod: w10-w11
 
 # Track your feedback
 
-Once you've already filed great feedback, how can you share it and see when it's updated? The Feedback Hub can help.
+Once you've already filed great feedback, how can you share it and see when it's updated? The [Feedback Hub](https://aka.ms/WIPFeedbackHub) can help.
 
 ## Share your feedback
 
