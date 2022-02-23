@@ -30,7 +30,7 @@ If you think others are experiencing the same issue or would like the same new f
 3. Share your feedback link with your community.
 
 > [!NOTE] 
-> If you're on an Azure Active Directory (AAD) work account, you can also see feedback from other users in your organization. [Learn more about giving and tracking feedback as a business.](../business/feedback.md).
+> If you're on an Azure Active Directory (AAD) work account, you can also see feedback from other users in your organization. [Learn more about giving and tracking feedback as a business.](./business/feedback.md).
 
 ## Check the status of your feedback
 
@@ -44,7 +44,7 @@ You can come back to the **My feedback** tab of the **Feedback** section any tim
 
 • **Changes made** - We've made an update based on your feedback. It will also let you know which build or app version has the change and if you need to update to see it. If you're still experiencing that issue on a build higher than the one that it says the fix is in, please file a new, additional piece of feedback to help us investigate further.
 
-• **Needs more info** - We need your help to understand this issue better. Please review our comments and add details to help us better understand the problem and be sure to attach any screenshots you can or recreate your problem. In certain categories and subcategories, we need certain diagnostics attached with your report to take action. [Learn more about what you need to include with certain categories.](../feedback-categories.md)
+• **Needs more info** - We need your help to understand this issue better. Please review our comments and add details to help us better understand the problem and be sure to attach any screenshots you can or recreate your problem. In certain categories and subcategories, we need certain diagnostics attached with your report to take action. [Learn more about what you need to include with certain categories.](./feedback-categories.md)
 
 ![Looking at the status of your feedback on the feedback detail page.](images/FBH-status.jpg)
 
