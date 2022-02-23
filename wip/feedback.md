@@ -81,13 +81,10 @@ First, check if feedback already exists for your problem or suggestion. If it al
 - Why you think improvements would help 
 - Only one piece of feedback in this—giving us a long list of different issues and/or suggestions means we can't tie them to collections or assign them to our teams correctly, so you'll get put into a bucket asking you to file each piece separately instead of being told when your issue is fixed
 - **Do not** include detailed information about your device, operating system, or application versions, which are automatically included with your feedback
-
-
-- **Good suggestion description:** You should be able to zoom in on an image using Snip & Sketch. When you're working with an image that's the same size as your display, it's hard to edit or annotate small parts of the image without being able to zoom in. 
-- **Bad suggestion description:** I don't like that I can't drag files to the taskbar anymore, move it to be vertical on the side, and that auto-hide taskbar has a bug where settings aren't remembered. I also hate Recommended in the Start menu, let me remove it.
-
-- **Good problem description:** In Russian, the "New" label on apps in the Start menu's Recommended section isn't translated correctly. It says "create" or "Создать" instead. It should be "Новое."
-- **Bad problem description:** Nothing opens anymore, what happened? See screenshot.
+-- **Good suggestion description:** You should be able to zoom in on an image using Snip & Sketch. When you're working with an image that's the same size as your display, it's hard to edit or annotate small parts of the image without being able to zoom in. 
+-- **Bad suggestion description:** I don't like that I can't drag files to the taskbar anymore, move it to be vertical on the side, and that auto-hide taskbar has a bug where settings aren't remembered. I also hate Recommended in the Start menu, let me remove it.
+-- **Good problem description:** In Russian, the "New" label on apps in the Start menu's Recommended section isn't translated correctly. It says "create" or "Создать" instead. It should be "Новое."
+-- **Bad problem description:** Nothing opens anymore, what happened? See screenshot.
 
 ![Adding new feedback with the explanation, you should be able to zoom in on an image using Snip & Sketch. When you're working with an image that's the same size as your display, it's hard to edit or annotate small parts of the image without being able to zoom in..](images/FBH-detail.jpg)
 
