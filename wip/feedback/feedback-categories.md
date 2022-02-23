@@ -13,7 +13,7 @@ ms.prod: w10-w11
 
 # Understand feedback categories and diagnostics
 
-We know there's a lot of categories, which can be confusing, but if you file things in the wrong category, we might not be able to do anything with it if we get the wrong diagnostics. Use this page to check if your feedback goes into the category and subcategory you think it does and make sure you're attaching the information we need to investigate.
+We know there's a lot of categories, which can be confusing, but if you file things in the wrong category, we might not be able to do anything with it if we get the wrong diagnostics. Use this page to check if your feedback goes into the category and subcategory you think it does and to make sure you're attaching the information we need to investigate.
 
 ## Choose a category and subcategory
 
@@ -21,15 +21,15 @@ When you look through the list of categories and subcategories, some likely seem
 
 ### Apps
 
-Use this for issues opening or any issues you experience inside apps on your device. The subcategory should be the app's name, or if we don't have a subcategory for that app, which is common for many third-party apps, choose **All other apps** from the bottom of the list.
+Use this for issues you experience using apps on your device. The subcategory should be the app's name, or if we don't have a subcategory for that app, which is common for many third-party apps, choose **All other apps**.
 
 ### Gaming and Xbox
 
-Use this for issues you experience while gaming or using Xbox features on Windows should be sent here, including Game Bar, using controllers, game crashes and performance, issues using your Xbox account, or recording. If your issue doesn't fit neatly into its subcategories, use **All other issues** at the top of the list.
+Use this for issues you experience while gaming or using Xbox features on Windowse, including Game Bar, using controllers, game crashes and performance, issues using your Xbox account, or recording. If your issue doesn't fit neatly into its subcategories, use **All other issues**.
 
 ### Accessibility
 
-Accessibility doesn't mean just anything you can't access. Rather it means features we've built specifically to help users make the most of their device, especially users with special needs, like Narrator, Magnifier, eye control, or live captions. If your feedback isn't for one of these features listed or a setting in the **Settings** > **Accessibility** section, it probably needs to be sent directly to the feature's category instead. Still be sure to tell us that it's an accessibility issue in your feedback description though.
+Use this for features we've built specifically to help users make the most of their device, especially users with special needs, like Narrator, Magnifier, eye control, or live captions. Do not use this for just issues accessing something. If your feedback isn't for one of these features or available as a setting in the **Settings** > **Accessibility** section, it probably needs to be sent directly to the feature's category instead. Still be sure to tell us that it's an accessibility issue in your feedback description though.
 
 ### Customer programs
 
@@ -41,7 +41,7 @@ Desktop environment is one of our most important categories. It includes many pa
 
 #### (Virtual) desktops
 
-Use this only for your multiple desktops that you can switch between in Task view. Issues for your desktop icons should go the **Desktop icons** subcategory, issues for your background and wallpaper should go to the **Background and wallpaper** subcategory, issues for windows on your desktop should go to the **DWM (Desktop Window Manager)** subcategory, and issues with the desktop right-click context menu should go to the **Right-click context menu** subcategory.
+Use this only for the desktops that you can switch between in Task view. Issues for your desktop icons should go the **Desktop icons** subcategory, issues for your background and wallpaper should go to the **Background and wallpaper** subcategory, issues for windows on your desktop should go to the **DWM (Desktop Window Manager)** subcategory, and issues with the desktop right-click context menu should go to the **Right-click context menu** subcategory.
 
 #### Clock and calendar flyout
 
@@ -49,7 +49,7 @@ Use this only for the taskbar date and time and the calendar that opens when you
 
 #### Desktop icons
 
-Use this only for desktop icon issues. Issues for your multiple desktops that you can switch between in Task view, should go to the **(Virtual) desktops** subcategory, issues for your background and wallpaper should go to the **Background and wallpaper** subcategory, issues for windows on your desktop should go to the **DWM (Desktop Window Manager)** subcategory, and issues with the desktop right-click context menu should go to the **Right-click context menu** subcategory.
+Use this only for desktop icon issues. Issues for the desktops that you can switch between in Task view, should go to the **(Virtual) desktops** subcategory, issues for your background and wallpaper should go to the **Background and wallpaper** subcategory, issues for windows on your desktop should go to the **DWM (Desktop Window Manager)** subcategory, and issues with the desktop right-click context menu should go to the **Right-click context menu** subcategory.
 
 #### DWM (Desktop Window Management)
 
@@ -65,7 +65,7 @@ Use this only for the media controls and audio controls you see in the Quick Set
 
 #### Start menu
 
-Use this only for the Start menu, not for the taskbar, other things like apps not starting, or your device not starting up correctly.
+Use this only for the Start menu, not for the taskbar, other things like apps not starting, or your device not starting up correctly. And while there is a search box in the new Windows 11 Start menu, Start and search are actually different features with different categories. Use **Desktop environment** > **Search** instead for your search feedback.
 
 #### System tray 
 
@@ -73,11 +73,11 @@ Use this only for the right side of the taskbar with your date and time, small s
 
 #### Taskbar
 
-Use this only for the taskbar outside of the right side with your date and time, small system icons and the show hidden icons flyout which has its own subcategory called **System tray**. Task manager and Start menu also shouldn't go here, they have their own subcategories.
+Use this only for the taskbar outside of the right side with your date and time, small system icons and the show hidden icons flyout, which has its own subcategory called **System tray**. Task manager and Start menu also shouldn't go here, they have their own subcategories.
 
 #### All other issues
 
-Use this if you're experiencing explorer crashes, issues with small system dialogs that pop up as you do things like run programs, or other major issues on Windows that you're not sure where to put.
+Use this if you're experiencing explorer crashes when you're not sure what caused them, issues with small system dialogs that pop up as you do things like run programs, or other major issues on Windows that you're not sure where to put.
 
 ### Devices and Drivers
 
@@ -105,7 +105,7 @@ Use this for all issues around your internet and network connectivity, like VPNs
 
 ### Power and battery
 
-Use this for all issues with your power, like powering on or off or sleep, or with your battery, like battery saver, overheating, or app energy consumption.
+Use this for all issues with your power—like powering on or off or sleep—or with your battery—like battery saver, overheating, or app energy consumption.
 
 ### Recovery and uninstall
 
