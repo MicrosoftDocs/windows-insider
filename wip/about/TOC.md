@@ -32,7 +32,7 @@
 ### [Snip & Sketch](../apps/snip-and-sketch.md)
 ### [Sticky Notes](../apps/sticky-notes.md)
 ### [Feedback Hub](../apps/feedback-hub.md)
-### [Game Bar](./apps/game-bar.md)
+### [Game Bar](../apps/game-bar.md)
 ## Archive
 ### [20H1 features](../archive/new-in-20h1.md)
 ### [19H2 features](../archive/new-in-19h2.md)
