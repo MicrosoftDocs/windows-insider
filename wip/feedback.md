@@ -115,9 +115,9 @@ First, check if feedback already exists for your problem or suggestion. If it al
 - **Loss of productivity**
 - **Other**
 
-8. Next, under the **Attachments** section, you can attach any related information you have. In certain categories and subcategories, we need certain diagnostics attached with your report to take action. [Learn more about what you need to include with certain categories.](./feedback-categories.md)
+8. Next, under the **Attachments** section, you can attach any related information you have. In certain categories and subcategories, we need certain diagnostics attached with your report to take action, but we always recommend recreating your problem. [Learn more about what you need to include with certain categories.](./feedback-categories.md)
 
-- **Attach a screenshot** - If you're describing a problem that can be seen visually, always attach a screenshot. If it's a new issue, they are incredibly important for us to be able to understand and investigate, especially if we can't reproduce the issue ourselves. Press **Ctrl** + **V** to paste an image from your clipboard or go to where you're seeing the issue and press **Win** + **PrtScn** to take a screenshot that gets saved to your **Pictures** > **Screenshots folder**. Then **Choose a screenshot** to attach the file.
+- **Attach a screenshot** - If you're describing a problem that can be seen visually, always attach a screenshot or recreate your problem. If it's a new issue, these are incredibly important for us to be able to understand and investigate, especially if we can't reproduce the issue ourselves. Press **Ctrl** + **V** to paste an image from your clipboard or go to where you're seeing the issue and press **Win** + **PrtScn** to take a screenshot that gets saved to your **Pictures** > **Screenshots folder**. Then **Choose a screenshot** to attach the file.
 
 - **Attach a file** - Select this to use File Explorer to find and attach the file you'd like to submit with your feedback. This is great for attaching a video recording of your issue.
 
@@ -127,7 +127,7 @@ First, check if feedback already exists for your problem or suggestion. If it al
 
 9. If you'd like to have a copy of the information you're sending us, check the box to **Save a local copy of diagnostics and attachments created when giving feedback**.
 
-10. When you’re satisfied with your feedback, select **Submit** to send us your feedback.
+10. When you’re satisfied with your feedback, select **Submit** to send it to us.
 
 > [!NOTE] 
 > Want to keep track of your feedback after you've submitted? [Learn more about checking the status of your feedback or how to share it with our community.](./tracking-feedback.md)
