@@ -53,4 +53,4 @@ At the bottom of the menu, you'll see either your account name and picture, whic
 Finally, you'll see **Settings** at the very bottom of the menu. This lets you choose when you get notifications, adjust your theme or diagnostics settings, and see some of your device information. 
 
 > [!NOTE] 
-> Ready to start giving feedback? [Learn more about how to give great feedback.](./feedback.md)
+> Ready to start giving feedback? [Learn more about how to give great feedback.](../feedback.md)
