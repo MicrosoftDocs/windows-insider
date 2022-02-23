@@ -12,7 +12,7 @@ ms.prod: w10
 ---
 # Explore the Feedback Hub 
 
-The [Feedback Hub](https://aka.ms/WIPFeedbackHub) is an app available on Windows devices. You can search for it, press the Windows key + F to open it, or find it in your Start menu to get started. Sign in with the account that that you used to register for the Windows Insider Program to get access to all its features.
+The [Feedback Hub](https://aka.ms/WIPFeedbackHub) is an app available on Windows devices. You can search for it, press **Win** + **F** to open it, or find it in your Start menu to get started. Sign in with the account that that you used to register for the Windows Insider Program to get access to all its features.
 
 ## Home section
 
