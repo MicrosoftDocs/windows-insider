@@ -16,7 +16,7 @@
 ### [Start flighting](../business/flighting.md)
 ### [Manage Insider Preview builds](../business/manage-builds.md)
 ### [Explore in the Beta Channel](../business/explore-Beta-Channel.md)
-### [Validate in the Release Preview Channel](./business/validate-Release-Preview-Channel.md)
+### [Validate in the Release Preview Channel](../business/validate-Release-Preview-Channel.md)
 ### [Give feedback](../business/feedback.md)
 ### [FAQ](../business/faq.yml)
 ### Windows Insider Program for Server
