@@ -15,17 +15,19 @@ ms.prod: w10-w11
 
 We know there's a lot of categories, which can be confusing, but if you file things in the wrong category, we might not be able to do anything with it if we get the wrong diagnostics. Use this page to check if your feedback goes into the category and subcategory you think it does and to make sure you're attaching the information we need to investigate.
 
+If you’re seeing an issue from an update of Windows, be sure to file feedback under the category and subcategory for where you’re seeing the issue, not just under **Install and update**. 
+
 ## Choose a category and subcategory
 
 When you look through the list of categories and subcategories, some likely seem straight-forward, like the Microsoft Store category for feedback on the store experience. But this guide can help you choose between some of the others.
 
 ### Apps
 
-Use this for issues you experience using apps on your device. The subcategory should be the app's name, or if we don't have a subcategory for that app, which is common for many third-party apps, choose **All other apps**.
+Use this for issues you experience using apps on your device. The subcategory should be the app's name, or if we don't have a subcategory for that app, which is common for many third-party apps, choose **All other apps**. Do not use this context if you are facing issues installing applications, which should instead go to **Developer Platform** > **App Deployment**, **Install and Update** > **App installation issues**, **Gaming and Xbox** > **Game installation**, and **Apps > MSIX app** depending on the issue.
 
 ### Gaming and Xbox
 
-Use this for issues you experience while gaming or using Xbox features on Windows, including Game Bar, using controllers, game crashes and performance, issues using your Xbox account, or recording. If your issue doesn't fit neatly into its subcategories, use **All other issues**.
+Use this for issues you experience while gaming or using Xbox features on Windows, including Game Bar, using controllers, game installation, game crashes and performance, issues using your Xbox account, or recording. If your issue doesn't fit neatly into its subcategories, use **All other issues**.
 
 ### Accessibility
 
@@ -53,7 +55,7 @@ Use this only for desktop icon issues. Issues for the desktops that you can swit
 
 #### DWM (Desktop Window Management)
 
-Use this for issues with using app windows on your desktop, like them going behind things they shouldn't, their frame, or the close, maximize, and minimize buttons on your app window.
+Use this for issues with using app windows on your desktop, like windows going behind other windows, their frame, mica transparency effects of the window, or the close, maximize, and minimize buttons on your app window.
 
 #### Lock screen
 
