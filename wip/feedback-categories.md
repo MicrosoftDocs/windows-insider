@@ -95,7 +95,7 @@ Use this for any issues with your files and storage, like File Explorer, OneDriv
 
 ### Input and language
 
-Use this for all things input, including your mouse or pen not working, the emoji panel, or keyboard and language switching. If your keyboard isn't working to type or your hardware keys aren't working, send it to the **Text input** subcategory.
+Use this for all things input, including your mouse or pen not working, the emoji panel, or keyboard and language switching. If your keyboard isn't working to type, your hardware keys aren't working, or you’re having issues with the IME (Input Method Editor) for East Asian languages, send it to the **Text input** subcategory.
 
 ### Install and update
 
