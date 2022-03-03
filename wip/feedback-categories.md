@@ -202,7 +202,7 @@ For issues with your pen input, be sure to file them to the **Input and language
 
 #### Text input
 
-For issues with your keyboard, first make sure your OEM drivers are up to date by checking for updates in **Settings** > **Windows Update** and taking any available driver updates. Once you've confirmed that, be sure to file them to the **Input and language** > **Text input** category and subcategory. Then:
+For issues with your keyboard, first make sure your OEM drivers are up to date by checking for updates in **Settings** > **Windows Update** and taking any available driver updates. Once you've confirmed that, be sure to file them to the **Input and language** > **Text input** category and subcategory. Make sure to explain which keyboard behavior specifically is not working as expected. If the issue occurs when you’re using an application, be sure to give examples of which specific applications you’re seeing the issue in. Then:
 
 1. Use **Recreate your problem or suggestion** and make sure the box for **Include data about** is checked and shows **Text input (Default)**.
 2. Select **Start recording**.
