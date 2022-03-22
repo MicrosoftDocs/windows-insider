@@ -13,7 +13,9 @@ ms.prod: w10-w11
 
 # Understand feedback categories and diagnostics
 
-We know there's a lot of categories, which can be confusing, but if you file things in the wrong category, we might not be able to do anything with it if we get the wrong diagnostics. Use this page to check if your feedback goes into the category and subcategory you think it does and to make sure you're attaching the information we need to investigate.
+We know there's a lot of categories, which can be confusing, but filing things in the right category is key to us getting the right diagnostics and being able to help with your issue. Use this page to check if your feedback goes into the category and subcategory you think it does and to make sure you're attaching the information we need to investigate.
+
+![Choosing Problem or Suggestion and categories while giving new feedback.](images/FBH-category.jpg)
 
 If you’re seeing an issue from an update of Windows, be sure to file feedback under the category and subcategory for where you’re seeing the issue, not just under **Install and update**. 
 
@@ -23,7 +25,7 @@ When you look through the list of categories and subcategories, some likely seem
 
 ### Apps
 
-Use this for issues you experience using apps on your device. The subcategory should be the app's name, or if we don't have a subcategory for that app, which is common for many third-party apps, choose **All other apps**. Do not use this context if you are facing issues installing applications, which should instead go to **Developer Platform** > **App Deployment**, **Install and Update** > **App installation issues**, **Gaming and Xbox** > **Game installation**, and **Apps > MSIX app** depending on the issue.
+Use this for issues you experience using apps on your device. The subcategory should be the app's name. Do not use these contexts if you are facing issues installing applications though, which should instead go to **Developer Platform** > **App Deployment**, **Install and Update** > **App installation issues**, **Gaming and Xbox** > **Game installation**, and **Apps > MSIX app** depending on the issue.
 
 ### Gaming and Xbox
 
@@ -35,15 +37,15 @@ Use this for features we've built specifically to help users make the most of th
 
 ### Customer programs
 
-Use this for feedback on the Windows Insider Program's content or forums. 
+Use this for feedback on the Windows Insider Program's content or forums, like their blog posts or Answers forum.
 
 ### Desktop environment
 
-Desktop environment is one of our most important categories. It includes many parts of Windows, like the Start menu and the taskbar. Some tips to avoid confusion when filing in this category:
+Desktop environment includes many parts of Windows, like the Start menu and the taskbar. Some tips to avoid confusion when filing in this category:
 
 #### (Virtual) desktops
 
-Use this only for the desktops that you can switch between in Task view. Issues for your desktop icons should go the **Desktop icons** subcategory, issues for your background and wallpaper should go to the **Background and wallpaper** subcategory, issues for windows on your desktop should go to the **DWM (Desktop Window Manager)** subcategory, and issues with the desktop right-click context menu should go to the **Right-click context menu** subcategory.
+Use this only for [the desktops that you can switch between in Task view](https://support.microsoft.com/windows/multiple-desktops-in-windows-36f52e38-5b4a-557b-2ff9-e1a60c976434). Issues for your desktop icons should go the **Desktop icons** subcategory, issues for your background and wallpaper should go to the **Background and wallpaper** subcategory, issues for windows on your desktop should go to the **DWM (Desktop Window Manager)** subcategory, and issues with the desktop right-click context menu should go to the **Right-click context menu** subcategory.
 
 #### Clock and calendar flyout
 
