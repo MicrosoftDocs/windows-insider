@@ -383,7 +383,7 @@ The [Windows 10 May 2019 Update](https://blogs.windows.com/windowsexperience/201
 
 ## Windows 10 October 2018 Update (RS5)
 
-Windows 10, version 1809, and Windows Server 2019 were released to the world on November 13, 2018.
+The Windows 10 October 2018 Update and Windows Server 2019 were released to the world on November 13, 2018.
 
 | Build | Fast | Slow | Server | IoT | ISO | SDK |
 |-------|------|------|--------|-----|-----|-----|
