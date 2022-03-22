@@ -25,7 +25,7 @@ When you look through the list of categories and subcategories, some likely seem
 
 ### Apps
 
-Use this for issues you experience using apps on your device. The subcategory should be the app's name. Do not use these contexts if you are facing issues installing applications though, which should instead go to **Developer Platform** > **App Deployment**, **Install and Update** > **App installation issues**, **Gaming and Xbox** > **Game installation**, and **Apps > MSIX app** depending on the issue.
+Use this for issues you experience using apps on your device. The subcategory should be the app's name. Do not use these categories if you are facing issues installing applications though, which should instead go to **Developer Platform** > **App Deployment**, **Install and Update** > **App installation issues**, **Gaming and Xbox** > **Game installation**, and **Apps > MSIX app** depending on the issue.
 
 ### Gaming and Xbox
 
