@@ -290,7 +290,7 @@ Thanks to feedback from customers and Windows Insiders, we are making updates to
 
 ![Captions settings update](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2021/03/captions.png "Displaying the updated Captions page in Settings.")
 
-To learn more about how to make your app accessible, go to [Accessibility overview – UWP applications | Microsoft Docs](https://docs.microsoft.com/en-us/windows/uwp/design/accessibility/accessibility-overview).
+To learn more about how to make your app accessible, go to [Accessibility overview – UWP applications | Microsoft Docs](/windows/uwp/design/accessibility/accessibility-overview).
 
 Please note, the option to discard changes may not work as expected in this build – we’re working on a fix.
 
@@ -320,7 +320,7 @@ Power Automate Desktop is now an inbox app. Power Automate Desktop allows you to
 **Updating WordPad integrations:** We’ve made some small changes to make Word or Notepad the text editor/viewer of choice in Windows when launching text file types, but if WordPad is your text editor of choice, it’s still available.
 
 ### Changes and Improvements
-* We are now rolling out [the new IME candidate window design](http://aka.ms/wip21313) to all Windows Insiders in the Dev Channel using Japanese, Chinese Traditional, and Indic IMEs. We’ll let you know once the rollout for the remaining IMEs increases.
+* We are now rolling out [the new IME candidate window design](https://aka.ms/wip21313) to all Windows Insiders in the Dev Channel using Japanese, Chinese Traditional, and Indic IMEs. We’ll let you know once the rollout for the remaining IMEs increases.
 * We’re updating the emoji panel (WIN + Period) to support searching in more languages, including Amharic, Belarus, Cherokee, Filipino, Faroese, Icelandic, Khmer, Mongolian (Cyrillic script), Burmese, Sindhi, Serbian (Cyrillic script), Serbian (Latin script), Swahili, Thai, Turkmen, Tonga, Uzbek (Latin script), and Cantonese (Traditional). Please continue sharing feedback about the emoji search results in the Feedback Hub under Input and Language > Emoji Panel.
 * Live previews for websites pinned to the taskbar from Microsoft Edge are now rolling out for all Insiders.
 * We have moved the settings for showing Windows Ink Workspace, Touch Keyboard button, and Task View from right-clicking on Taskbar to Settings > Personalization > Taskbar.
@@ -388,7 +388,7 @@ We look forward to you trying it! Please file any feedback you have for clipboar
 
 ### Changes and Improvements
 * Insiders using x64 apps on ARM64 will no longer need to download and install a separate preview version of the ARM64 C++ redistributable package.
-* We’re making a change so that [the notification](https://docs.microsoft.com/windows-hardware/design/component-guidelines/bluetooth-swift-pair) when pairing supported Bluetooth devices will now stay on the screen a little longer, given you the chance to interact with it before it goes away. If you’d like to dismiss it before then, you can still do so at any point by clicking the X in the notification, middle clicking the notification, or sliding the notification off the screen.
+* We’re making a change so that [the notification](/windows-hardware/design/component-guidelines/bluetooth-swift-pair) when pairing supported Bluetooth devices will now stay on the screen a little longer, given you the chance to interact with it before it goes away. If you’d like to dismiss it before then, you can still do so at any point by clicking the X in the notification, middle clicking the notification, or sliding the notification off the screen.
 * Touch keyboard improvements as mentioned in [Build 21301](https://blogs.windows.com/windows-insider/2021/01/27/announcing-windows-10-insider-preview-build-21301/) such as updates to the default keyboard layout on 12” or larger screens and the candidate bar are now rolling out to all Insiders in the Dev Channel.
 * We’ve improved the smoothness of motion while using Magnifier – for the scenario where you are transitioning between mouse and keyboard focus.
 
@@ -460,7 +460,7 @@ The new UI design is available for the following languages/keyboards:
 ### Changes and Improvements
 * Based on feedback, and to align with the fact that Dev Channel builds are not matched to a specific Windows 10 release, we have updated the displayed version name to now be Dev.
 * We heard feedback that it wasn’t clear how to turn off news and interests if this was your preference. To help address this, we changed the “Hidden” option in the taskbar context menu to now say “Turn off” to make this functionality clearer.
-* Based on feedback, we’ve made some small adjustments to the [new app launch animation](http://aka.ms/wip21277) to improve speed and make it a little smoother.
+* Based on feedback, we’ve made some small adjustments to the [new app launch animation](https://aka.ms/wip21277) to improve speed and make it a little smoother.
 The improvement to the candidate bar on the touch keyboard [announced in Build 21301](https://blogs.windows.com/windows-insider/2021/01/27/announcing-windows-10-insider-preview-build-21301/) where it displays 5 candidates maximum and centers them into position above the keyboard has begun rolling out.
 * The new voice typing experience that was [announced in Build 20206](https://blogs.windows.com/windows-insider/2020/09/02/announcing-windows-10-insider-preview-build-20206/) has begun rolling out to all Insiders in the Dev Channel. Press the Windows key plus H if you’d like to try it out in one of the supported languages.
 * The change to enable pinning items in our [updated clipboard history design](https://blogs.windows.com/windows-insider/2020/09/02/announcing-windows-10-insider-preview-build-20206/) (inside the emoji picker) is now rolling out to all Insiders in the Dev Channel.
@@ -727,11 +727,11 @@ Enterprise customers can now modify file associations on a per-user or per-devic
 
 Deployment/Testing Steps:
 
-1. Generate Default Application Associations XML file by following [this page](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-8.1-and-8/hh825038(v=win.10)?redirectedfrom=MSDN).
+1. Generate Default Application Associations XML file by following [this page](/previous-versions/windows/it-pro/windows-8.1-and-8/hh825038(v=win.10)).
 2. Manually modify the XML by adding 2 new properties:
 3. Add Version=”1“ to the DefaultAssociations tag.
 4. Add Suggested=”True” to any Association tag.
-5. Enable the group policy to set the default file associations by following [this doc](https://docs.microsoft.com/internet-explorer/ie11-deploy-guide/set-the-default-browser-using-group-policy?redirectedfrom=MSDN&f=255&MSPPError=-2147217396).
+5. Enable the group policy to set the default file associations by following [this doc](/internet-explorer/ie11-deploy-guide/set-the-default-browser-using-group-policy?f=255&MSPPError=-2147217396).
 6. Reboot or log in as the user.
 
 _Please note: If your device does not have this feature enabled, the policy will fall back to the default logic and will not respect the “Version” and “Suggested” fields of the policy._
@@ -740,7 +740,7 @@ _Please note: If your device does not have this feature enabled, the policy will
 >This feature is rolling out to a subset of Insiders in the Dev Channel at first, to help us quickly identify issues that may impact performance and reliability. Rest assured they will be gradually rolled out to everyone in the Dev Channel.
 
 ### Changes and Improvements
-* [Meet Now in the Windows 10 Taskbar](https://blogs.windows.com/windows-insider/2020/09/23/announcing-windows-10-insider-preview-build-20221/) is now available to all Windows Insiders in the Dev Channel.
+* [Meet Now in the Windows 10 taskbar](https://blogs.windows.com/windows-insider/2020/09/23/announcing-windows-10-insider-preview-build-20221/) is now available to all Windows Insiders in the Dev Channel.
 * We’re starting to roll out a change to enable displaying graphics card information listed under **Settings** > **System** > **About**, and some Insiders may see this on their PCs.
 * Our change to enable [moving the text cursor via gestures on the touch keyboard](https://blogs.windows.com/windows-insider/2020/09/02/announcing-windows-10-insider-preview-build-20206/) is now rolling out to all Insiders in the Dev Channel.
 
@@ -767,8 +767,8 @@ Selecting the notification or navigating to the drive properties page in Storage
 ## Build 20221
 Windows 10 Insider Preview Build 20221 was released to the Dev Channel on [9/23/2020](https://blogs.windows.com/windows-insider/2020/09/23/announcing-windows-10-insider-preview-build-20221/).
 
-### Introducing Meet Now in the Windows 10 Taskbar
-Earlier this year we introduced Meet Now in Skype. Meet Now makes it easy to connect with anyone in as little as two clicks for free and each call can last up to 24 hours. Today, we’re excited to share that we are extending this capability in Windows 10 by bringing Meet Now right to the Taskbar. You can now easily set up a video call and reach friends and family in an instant by selecting the Meet Now icon in the notification area (system tray) of the Taskbar in Windows 10. No sign ups or downloads needed.
+### Introducing Meet Now in the Windows 10 taskbar
+Earlier this year we introduced Meet Now in Skype. Meet Now makes it easy to connect with anyone in as little as two clicks for free and each call can last up to 24 hours. Today, we’re excited to share that we are extending this capability in Windows 10 by bringing Meet Now right to the taskbar. You can now easily set up a video call and reach friends and family in an instant by selecting the Meet Now icon in the notification area (system tray) of the taskbar in Windows 10. No sign ups or downloads needed.
 
 Create a meeting:
 
@@ -884,7 +884,7 @@ We are bringing emoji search to the touch keyboard, so you no longer need to hun
 
 ![Touch Keyboard Redesign 2](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2020/09/2020-09-01-5-1024x644.png "The redesigned touch keyboard offers quick access to emoji and animated GIFs so you and express yourself any way you like while typing in Windows.")
 
-The touch keyboard can also be invoked on any PC from the touch keyboard button on the Taskbar, although you may need to enable the button. To do so, right-click or press and hold on the Taskbar, then select “Show touch keyboard button” in the menu. Once the touch keyboard is open, try typing or shapewriting on the keyboard and let us know how it feels.
+The touch keyboard can also be invoked on any PC from the touch keyboard button on the taskbar, although you may need to enable the button. To do so, right-click or press and hold on the taskbar, then select “Show touch keyboard button” in the menu. Once the touch keyboard is open, try typing or shapewriting on the keyboard and let us know how it feels.
 
 We want to thank Insiders for sharing their feedback about the touch keyboard over the years – your comments directly inspired these changes. We look forward to you trying them out and to even more feedback!
 
@@ -924,7 +924,7 @@ The existing Disk Management MMC snap-in is still available for those that need 
 
 ### Changes and Improvements
 * We’re updating the [**Alt** + **Tab** behavior with Microsoft Edge tabs](https://aka.ms/wip20161) to now have a default of displaying at most 5 tabs, rather than any recent tabs. If at any point you’d like to change this, you can under **Settings** > **System** > **Multitasking**.
-* We’re exploring including a Web Browsing section [in the Settings header](https://docs.microsoft.com/windows-insider/archive/new-in-19H1#updated-settings-homepage), and Insiders may start to see this.
+* We’re exploring including a Web Browsing section [in the Settings header](./archive/new-in-19h1.md#updated-settings-homepage), and Insiders may start to see this.
 * Going forward only the currently active profile picture will display under Your Info in Settings.
 * Based on feedback we’re turning off ESENT Warning Event ID 642.
 * It’s now possible to select the new Microsoft Edge as your desired app in Assigned Access.
@@ -1049,15 +1049,15 @@ Windows 10 Insider Preview Build 20180 was released to the Dev Channel on [7/29/
 Windows 10 Insider Preview Build 20175 was released to the Dev Channel on [7/22/2020](https://blogs.windows.com/windowsexperience/2020/07/22/announcing-windows-10-insider-preview-build-20175/).
 
 ### Improving pinned sites in Microsoft Edge
-Earlier this month, we announced **Alt** + **Tab** between apps and sites, the first of our new productivity enhancements coming to Microsoft Edge on Windows 10. Today, we’re announcing another feature we’ve been working on to make you more efficient when browsing the web: quick access to tabs for your pinned sites. selecting a pinned site on the Taskbar will now show you all of the open tabs for that site across any of your Microsoft Edge windows, just like you’d expect for any app with multiple open windows. Please let us know what you think!
+Earlier this month, we announced **Alt** + **Tab** between apps and sites, the first of our new productivity enhancements coming to Microsoft Edge on Windows 10. Today, we’re announcing another feature we’ve been working on to make you more efficient when browsing the web: quick access to tabs for your pinned sites. selecting a pinned site on the taskbar will now show you all of the open tabs for that site across any of your Microsoft Edge windows, just like you’d expect for any app with multiple open windows. Please let us know what you think!
 
-![Selecting a pinned site on the Taskbar will now show you all of the open tabs for that site across any of your Microsoft Edge windows.](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/2/2020/07/f50733d9580bd7b17dd3b245952a8634.gif)
+![Selecting a pinned site on the taskbar will now show you all of the open tabs for that site across any of your Microsoft Edge windows.](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/2/2020/07/f50733d9580bd7b17dd3b245952a8634.gif)
 
-Selecting a pinned site on the Taskbar will now show you all of the open tabs for that site across any of your Microsoft Edge windows.
+Selecting a pinned site on the taskbar will now show you all of the open tabs for that site across any of your Microsoft Edge windows.
 
 __This feature is currently rolling out to a subset of Insiders today and requires Microsoft Edge Insider Build 85.0.561.0 or higher (Canary or Dev Channel).__
 
-NOTE: Since this is an early preview, existing sites on your Taskbar will not experience this new behavior until you remove and re-pin them.
+NOTE: Since this is an early preview, existing sites on your taskbar will not experience this new behavior until you remove and re-pin them.
 
 For more details on our new multitasking improvements, [check out our post on the Microsoft Edge blog](https://blogs.windows.com/msedgedev/2020/07/22/multitasking-improvements-windows-10-microsoft-edge/).
 
@@ -1090,7 +1090,7 @@ There is more work on the way in this area—stay tuned!
 The new Settings icon as it will appear on Start with theme-aware tiles. 
 ![New Settings icon with theme-aware tiles on Start.](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/2/2020/07/48b8ca797ac8591eb4e6f8532915f91e-1024x314.png)
 * While we work on improving reliability, we’re temporarily turning off Notepad’s ability to persist open windows across restarts and updates.
-* An experimental implementation of Transport Layer Security (TLS) 1.3 is enabled by default starting with Insider Preview Build 20170. IIS/HTTP.SYS have TLS 1.3 enabled by default. SSPI callers can use TLS 1.3 by passing the new crypto-agile [SCH_CREDENTIALS](https://docs.microsoft.com/windows/win32/api/schannel/ns-schannel-sch_credentials) structure when calling [AcquireCredentialsHanlde](https://docs.microsoft.com/windows/win32/secauthn/acquirecredentialshandle--schannel). SSPI callers using TLS 1.3 need to make sure their code correctly handles [SEC_I_RENEGOTIATE](https://docs.microsoft.com/windows/win32/secauthn/recognizing-a-request-to-renegotiate-a-connection).
+* An experimental implementation of Transport Layer Security (TLS) 1.3 is enabled by default starting with Insider Preview Build 20170. IIS/HTTP.SYS have TLS 1.3 enabled by default. SSPI callers can use TLS 1.3 by passing the new crypto-agile [SCH_CREDENTIALS](/windows/win32/api/schannel/ns-schannel-sch_credentials) structure when calling [AcquireCredentialsHanlde](/windows/win32/secauthn/acquirecredentialshandle--schannel). SSPI callers using TLS 1.3 need to make sure their code correctly handles [SEC_I_RENEGOTIATE](/windows/win32/secauthn/recognizing-a-request-to-renegotiate-a-connection).
 
 ## Build 20161
 Windows 10 Insider Preview Build 20161 was released to the Dev Channel on [7/1/2020](https://blogs.windows.com/windowsexperience/2020/07/01/announcing-windows-10-insider-preview-build-20161/).
@@ -1100,7 +1100,7 @@ We are freshening up the Start menu with a more streamlined design that removes 
 
 ![Theme-aware tiles on the Start menu.](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/2/2020/07/dabfa329dfacdc1a2669002649ed75d6.gif)
 
-This refined Start design looks great in both dark and light theme, but if you’re looking for a splash of color, first make sure to turn on Windows dark theme and then toggle **Show accent color on the following surfaces** for **Start, Taskbar, and action center** under **Settings** > **Personalization** > **Color** to elegantly apply your accent color to the Start frame and tiles.
+This refined Start design looks great in both dark and light theme, but if you’re looking for a splash of color, first make sure to turn on Windows dark theme and then toggle **Show accent color on the following surfaces** for **Start, taskbar, and action center** under **Settings** > **Personalization** > **Color** to elegantly apply your accent color to the Start frame and tiles.
 
 ### Alt + Tab between apps and sites
 Are you a multitasker? We have exciting news for you! Beginning with today’s build, all tabs open in Microsoft Edge will start appearing in **Alt** + **Tab**, not just the active one in each browser window. We’re making this change so you can quickly get back to whatever you were doing—wherever you were doing it.
@@ -1113,14 +1113,14 @@ __This feature is currently rolling out to a subset of Insiders today in the Dev
 
 This is just the beginning of productivity enhancements coming to Microsoft Edge—stay tuned!
 
-### A more personalized Taskbar for new users
-We want to help customers get the most out of their PCs from day one, and that starts with offering a cleaner, more personalized, out-of-box experience to give you the content you want and less clutter. This provides us with a flexible, cloud-driven infrastructure to test customer reception of default Taskbar content and tailor these layouts based on user and device signal.
+### A more personalized taskbar for new users
+We want to help customers get the most out of their PCs from day one, and that starts with offering a cleaner, more personalized, out-of-box experience to give you the content you want and less clutter. This provides us with a flexible, cloud-driven infrastructure to test customer reception of default taskbar content and tailor these layouts based on user and device signal.
 
 We will evaluate the performance of individual default properties, monitoring diagnostic data and user feedback to assess an audience’s reception. Using this information, we will tune default layouts to minimize clutter and perceptions of bloatware.
 
-__Please note that this experience is limited to new account creation or first logon scenarios. We will not use Programmable Taskbar to alter the Taskbar layout on existing accounts.__
+__Please note that this experience is limited to new account creation or first logon scenarios. We will not use Programmable taskbar to alter the taskbar layout on existing accounts.__
 
-![A more personalized Taskbar for new users.](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/2/2020/07/2a484fd68334970e192f8a1138aedc73-1536x635.jpg)
+![A more personalized taskbar for new users.](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/2/2020/07/2a484fd68334970e192f8a1138aedc73-1536x635.jpg)
 
 ### Improving the notification experience
 We are making some changes to improve the notifications experience in Windows 10.
@@ -1139,7 +1139,7 @@ We’re continuing to work on bringing capabilities from Control Panel forward i
 There will be more improvements coming that will further bring Settings closer to Control Panel. If you rely on settings that only exist in Control Panel today, please file feedback and let us know what those settings are.
 
 ### Improving the tablet experience for 2-in-1 devices
-Previously, when detaching the keyboard on a 2-in-1 device, a notification toast would appear asking if you wanted to switch into tablet mode. If you selected yes, you would switch into tablet mode. If you chose no, it would give you the new tablet posture experience [introduced in the May 2020 Update](https://docs.microsoft.com/windows-insider/archive/new-in-20H1#introducing-a-new-tablet-experience-for-2-in-1-convertible-pcs-build-18970) (or simply the desktop on earlier versions of Windows 10). We are further updating this experience by changing the default, so that this notification toast no longer appears and instead will switch you directly into the new tablet experience, with some improvements for touch. You can change this setting by going to **Settings** > **System** > **Tablet**. Some users may have already seen this change on Surface devices.
+Previously, when detaching the keyboard on a 2-in-1 device, a notification toast would appear asking if you wanted to switch into tablet mode. If you selected yes, you would switch into tablet mode. If you chose no, it would give you the new tablet posture experience [introduced in the May 2020 Update](./archive/new-in-20h1.md#introducing-a-new-tablet-experience-for-2-in-1-convertible-pcs-build-18970) (or simply the desktop on earlier versions of Windows 10). We are further updating this experience by changing the default, so that this notification toast no longer appears and instead will switch you directly into the new tablet experience, with some improvements for touch. You can change this setting by going to **Settings** > **System** > **Tablet**. Some users may have already seen this change on Surface devices.
 
 And to address confusion with some users getting stuck in tablet mode on non-touch devices, we are removing the tablet mode quick action on non-touch devices.
 
@@ -1159,14 +1159,14 @@ This build contains three new exciting WSL features. The first is GPU compute: a
 ### General changes & improvements
 * With this week’s build, we’ll be starting to roll out [the new search box on the default app settings pages](https://blogs.windows.com/windowsexperience/2020/04/15/announcing-windows-10-insider-preview-build-19608/). As part of this, we’ve done some work to improve the performance of the search box.
 * [The new Korean IME](https://blogs.windows.com/windowsexperience/2019/12/16/announcing-windows-10-insider-preview-build-19536/) is now available again for Insiders to use.
-* Based on feedback, we’re updating the text of the **Settings** > **Privacy** > **Location** page to clarify that the icon displayed when your location is being used will be displayed in the Taskbar.
+* Based on feedback, we’re updating the text of the **Settings** > **Privacy** > **Location** page to clarify that the icon displayed when your location is being used will be displayed in the taskbar.
 
 ## Build 19645
 Windows 10 Insider Preview Build 19640 was released to the Fast ring on [6/10/2020](https://blogs.windows.com/windowsexperience/2020/06/10/announcing-windows-10-insider-preview-build-19645/).
 
 ### General changes & improvements
-* We changed the servicing model for the Linux kernel inside of Windows Subsystem for Linux 2 distributions. This build includes this change to remove the Linux kernel from the Windows image, and instead have it be serviced via Microsoft Update, the same way that 3rd party drivers (like graphics, or touchpad drivers) are installed and updated on your machine today. For full details [please read this blog post on the Windows Command Line blog](https://devblogs.microsoft.com/commandline/wsl2-will-be-generally-available-in-windows-10-version-2004/) and for information about the kernel version please [view the kernel docs page here](https://docs.microsoft.com/windows/wsl/kernel-release-notes).
-* Support for [Nested Virtualization](https://docs.microsoft.com/virtualization/hyper-v-on-windows/user-guide/nested-virtualization) on AMD processors is now available. Being an early release we recommend you [read this blog post](https://techcommunity.microsoft.com/t5/virtualization/amd-nested-virtualization-support/ba-p/1434841) for details on what platforms currently work as well as how to enable the feature.
+* We changed the servicing model for the Linux kernel inside of Windows Subsystem for Linux 2 distributions. This build includes this change to remove the Linux kernel from the Windows image, and instead have it be serviced via Microsoft Update, the same way that 3rd party drivers (like graphics, or touchpad drivers) are installed and updated on your machine today. For full details [please read this blog post on the Windows Command Line blog](https://devblogs.microsoft.com/commandline/wsl2-will-be-generally-available-in-windows-10-version-2004/) and for information about the kernel version please [view the kernel docs page here](/windows/wsl/kernel-release-notes).
+* Support for [Nested Virtualization](/virtualization/hyper-v-on-windows/user-guide/nested-virtualization) on AMD processors is now available. Being an early release we recommend you [read this blog post](https://techcommunity.microsoft.com/t5/virtualization/amd-nested-virtualization-support/ba-p/1434841) for details on what platforms currently work as well as how to enable the feature.
 
 ## Build 19640
 Windows 10 Insider Preview Build 19640 was released to the Fast ring on [6/3/2020](https://blogs.windows.com/windowsexperience/2020/06/03/announcing-windows-10-insider-preview-build-19640/).
@@ -1246,8 +1246,8 @@ Windows 10 Insider Preview Build 19592 was released to the Fast ring on [3/25/20
 ### Tablet posture improvements for 2-in-1 convertible PCs
 We are beginning to roll out (again*) the new tablet experience for 2-in-1 convertible PCs as a preview to some Windows Insiders in the Fast ring. This experience is separate from the Tablet Mode experience that you will still be able to use. This new experience allows users entering tablet posture to stay in the familiar desktop experience without interruption with a few key touch improvements:
 
-* Taskbar icons are spaced out
-* Search box on Taskbar is collapsed into icon-only mode
+* taskbar icons are spaced out
+* Search box on taskbar is collapsed into icon-only mode
 * Touch keyboard auto invokes when you tap a text field
 * File explorer elements will have a little more padding, to make them comfortable to interact with using touch
 * You’ll also notice we’ve updated some of the related Tablet settings under **Settings** > **System**, so as to give you control over the experience.
@@ -1261,7 +1261,7 @@ We’d love to hear your feedback about the experience:
 1. Use your convertible PC with apps as you normally would.
 2. When you’re ready to pick it up and go or simply lean back on the couch, you can fold back the keyboard or remove it altogether.
 3. Use your device as a tablet with touch, without going into Tablet Mode.
-4. Screenshot showing improvements to tablet posture, like collapsed search, increased spacing between icons, and a touch keyboard option in your Taskbar.
+4. Screenshot showing improvements to tablet posture, like collapsed search, increased spacing between icons, and a touch keyboard option in your taskbar.
 
 >[!NOTE] 
 >This feature was previously rolled out as an experiment to Windows Insiders in 20H1 Build 18970 and ended in Build 19013. After some refinement, we’re reintroducing it to Windows Insiders in this build and plan to deliver this experience to customers in a future Windows 10 update.
@@ -1307,7 +1307,7 @@ __Note: Please make sure your device is set to “Full” before updating to Bui
 ### More new icons: Windows Security
 We’re continuing to roll out updated icons to many of the built-in apps in Windows 10. In today’s build, we’ve updated the Windows Security icon to match the new design principles outlined here from the Microsoft Design Team. Unlike many of the built-in apps in Windows 10, which can be updated through the Store, the new Windows Security icon is updated through the OS and will rollout in a future Windows 10 feature update.
 
-![The new Windows Security icon as it appears on the Taskbar.](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/2/2020/03/254a7cea7eb9aed8586fc445faeaa227.png)
+![The new Windows Security icon as it appears on the taskbar.](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/2/2020/03/254a7cea7eb9aed8586fc445faeaa227.png)
 
 ### General changes & improvements
 * Following up on [our post about the new Cortana app](https://insider.windows.com/articles/cortana-windows-beta/), we wanted to let you know that in addition to timers and instant answers, which lit up last month, assistant conversations are now online. Some examples to try are “tell me a dad joke”, “tell me a bedtime story”, or “rock, paper, scissors.” We appreciate your patience while we worked on this. This is a server-side change, however we’re noting it here for awareness.

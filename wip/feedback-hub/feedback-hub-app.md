@@ -68,7 +68,7 @@ First, check if feedback already exists for your problem or suggestion. If your 
 > [Give feedback](https://aka.ms/WIPFeedbackHub)
 
 > [!NOTE] 
-> Depending on the kind of feedback you're giving, we might need to be able to see a certain amount of diagnostic data. [Make sure your data settings are set to the right level to flight and give us feedback.](https://docs.microsoft.com/windows-insider/get-started)
+> Depending on the kind of feedback you're giving, we might need to be able to see a certain amount of diagnostic data. [Make sure your data settings are set to the right level to flight and give us feedback.](../get-started.md)
 
 ### Check for existing feedback 
 
@@ -162,7 +162,7 @@ If you think others are experiencing the same issue or would like the same new f
 3. Share your feedback link with your community.
 
 > [!NOTE] 
-> If you're on an Azure Active Directory (AAD) work account, you can also see feedback from other users in your organization. [Learn more about giving and tracking feedback as a business.](https://docs.microsoft.com/windows-insider/business/feedback).
+> If you're on an Azure Active Directory (AAD) work account, you can also see feedback from other users in your organization. [Learn more about giving and tracking feedback as a business.](../business/feedback.md).
 
 ## Check the status of your feedback
 

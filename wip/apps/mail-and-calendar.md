@@ -47,11 +47,11 @@ You can try the preview by going to the Calendar app and selecting the toggle to
 
 ## July 10, 2019
 
-### Quick Event Create from the Taskbar
+### Quick Event Create from the taskbar
 
 Do you ever open the clock and calendar flyout to help organize your thoughts while making plans? We’ve been working on making it easier to create new events and reminders, and are happy to announce that as of today, all Windows Insiders in the Fast ring should see this when you select the date in the taskbar:
 
-![Seeing and adding events to your calendar from the Taskbar flyout](images/flyout-calendar.png)
+![Seeing and adding events to your calendar from the taskbar flyout](images/flyout-calendar.png)
 
 Pick your desired date and start typing. You’ll now see inline options to set a time and location. We’re looking forward to you trying it out! Let us know if you have any feedback.
 

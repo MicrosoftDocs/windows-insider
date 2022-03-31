@@ -12,7 +12,7 @@ ms.prod: w10
 ---
 
 # Start flighting as a business
-You can install Windows 10 Insider Preview Builds directly on your individual device or virtual machine. Or if you're an administrator, you can [manage them centrally across your organization](https://docs.microsoft.com/windows-insider/business/manage-builds).
+You can install Windows 10 Insider Preview Builds directly on your individual device or virtual machine. Or if you're an administrator, you can [manage them centrally across your organization](./manage-builds.md).
 
 
 ## Install on your individual device
@@ -47,11 +47,11 @@ Afrikaans (South Africa), Albanian (Albania), Amharic, Armenian, Assamese, Azerb
 
 2. Select the **Get Started** button. Under **Pick an account to get started**, select **+** to connect the Microsoft account you registered with and continue.
 
-3. Follow the directions on your screen to choose the experience and channel you'd like to get Insider Preview builds through. (Not sure which channel to choose? [Learn more about channels.](https://docs.microsoft.com/windows-insider/flighting))
+3. Follow the directions on your screen to choose the experience and channel you'd like to get Insider Preview builds through. (Not sure which channel to choose? [Learn more about channels.](../flighting.md))
 
 4. Review the Privacy Statement and program terms, confirm, and choose **Restart Now** or **Restart Later** to finish setting up your device.
 
-5. Once your device restarts, [make sure your data settings are set to the right level](https://docs.microsoft.com/windows-insider/data-settings), so you can receive preview builds.
+5. Once your device restarts, [make sure your data settings are set to the right level](../data-settings.md), so you can receive preview builds.
 
 6. Once you've checked your data settings, go to [**Settings** > **Update & Security** > **Windows Update**](https://aka.ms/WIPWindowsUpdate) and select the **Check for updates** button to download the latest Insider Preview build based on the settings you chose. Your device will update like it normally would with a Windows update.
 
@@ -61,7 +61,7 @@ Afrikaans (South Africa), Albanian (Albania), Amharic, Armenian, Assamese, Azerb
 > [Open Settings](https://aka.ms/WIPSettings)
 
 > [!NOTE] 
-> If you install an Insider Preview build in one channel, and you want to switch to a different channel, you might need to do a clean install of Windows and reset your Windows Insider settings on that device. [Learn more about switching channels.](https://docs.microsoft.com/windows-insider/flighting#switching-between-channels)
+> If you install an Insider Preview build in one channel, and you want to switch to a different channel, you might need to do a clean install of Windows and reset your Windows Insider settings on that device. [Learn more about switching channels.](../flighting.md#switching-between-channels)
 
 *Windows 10 Insider Preview Builds may be substantially modified before they're commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here. Some product features and functionality may require additional hardware or software.*
 
@@ -69,7 +69,7 @@ Afrikaans (South Africa), Albanian (Albania), Amharic, Armenian, Assamese, Azerb
 
 Running Insider Preview builds on a virtual machine is a great option if you don't want to change the version of Windows 10 actually running on your device.
 
-1. [Set up a virtual machine on your device](https://docs.microsoft.com/virtualization/hyper-v-on-windows/quick-start/quick-create-virtual-machine) or get the [Windows 10 Preview from the Azure Marketplace](https://azuremarketplace.microsoft.com/marketplace/apps/microsoft-hyperv.windows10preview?tab=Overview).
+1. [Set up a virtual machine on your device](/virtualization/hyper-v-on-windows/quick-start/quick-create-virtual-machine) or get the [Windows 10 Preview from the Azure Marketplace](https://azuremarketplace.microsoft.com/marketplace/apps/microsoft-hyperv.windows10preview?tab=Overview).
 
 2. If you set up a VM on your device, [download the latest Insider Preview build](https://www.microsoft.com/software-download/windowsinsiderpreviewadvanced) and follow the directions on the [Windows Insider Preview downloads page](https://www.microsoft.com/software-download/windowsinsiderpreviewadvanced) to install it on your virtual machine. If you used the Windows 10 Preview from the Azure Marketplace, you'll see preview builds right away.
 
@@ -77,4 +77,4 @@ Running Insider Preview builds on a virtual machine is a great option if you don
 > [Download preview build now](https://www.microsoft.com/software-download/windowsinsiderpreviewadvanced)
 
 ## Manage across your organization
-If you're an administrator, you can install and manage Insider Preview builds centrally across multiple devices within your organization's domain. [Learn more about managing Windows Insider Preview builds for your organization.](https://docs.microsoft.com/windows-insider/business/manage-builds).
+If you're an administrator, you can install and manage Insider Preview builds centrally across multiple devices within your organization's domain. [Learn more about managing Windows Insider Preview builds for your organization.](./manage-builds.md).

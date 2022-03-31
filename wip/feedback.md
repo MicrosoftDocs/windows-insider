@@ -5,15 +5,15 @@ author: bleblanc
 manager: dougkim
 ms.tgt_pltfrm: na
 ms.devlang: na
-ms.author: v-allsh
+ms.author: v-jamleo
 ms.localizationpriority: medium
 ms.topic: article
-ms.prod: w10
+ms.prod: w10-w11
 ---
 
 # Deeper look at feedback
 
-As a Windows Insider, your feedback can change and improve Windows for users around the world. Once you're flighting Windows 10 Insider Preview Builds, it's time to give us feedback and start connecting to our community. The [Feedback Hub](https://aka.ms/WIPFeedbackHub) on Windows 10 makes giving us your feedback easy.
+As a Windows Insider, your feedback can change and improve Windows for users around the world. Once you're flighting Windows Insider Preview Builds, it's time to give us feedback and start connecting to our community. The [Feedback Hub](https://aka.ms/WIPFeedbackHub) on Windows makes giving us your feedback easy.
 
 ## Explore the Feedback Hub 
 
@@ -70,7 +70,7 @@ First, check if feedback already exists for your problem or suggestion. If your 
 > [Give feedback](https://aka.ms/WIPFeedbackHub)
 
 > [!NOTE] 
-> Depending on the kind of feedback you're giving, we might need to be able to see a certain amount of diagnostic data. [Make sure your data settings are set to the right level to flight and give us feedback.](https://docs.microsoft.com/windows-insider/get-started)
+> Depending on the kind of feedback you're giving, we might need to be able to see a certain amount of diagnostic data. [Make sure your data settings are set to the right level to flight and give us feedback.](./get-started.md)
 
 ### Check for existing feedback 
 
@@ -128,7 +128,7 @@ First, check if feedback already exists for your problem or suggestion. If your 
 
 7.  If you're reporting a problem, under **4. Add more details**, you can check **Prioritize this as high severity** if your issue is urgent. You should also choose which of these categories best describes your problem:
 
-- **Mising personal data**
+- **Missing personal data**
 - **Security or privacy concern**
 - **Inability to use my PC**
 - **Important functionality not working**
@@ -164,7 +164,7 @@ If you think others are experiencing the same issue or would like the same new f
 3. Share your feedback link with your community.
 
 > [!NOTE] 
-> If you're on an Azure Active Directory (AAD) work account, you can also see feedback from other users in your organization. [Learn more about giving and tracking feedback as a business.](https://docs.microsoft.com/windows-insider/business/feedback).
+> If you're on an Azure Active Directory (AAD) work account, you can also see feedback from other users in your organization. [Learn more about giving and tracking feedback as a business.](./business/feedback.md).
 
 ## Check the status of your feedback
 

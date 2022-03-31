@@ -27,16 +27,9 @@ We recommend that you put one percent of your organization's devices in the Rele
 You can set up Insider Preview builds from the Release Preview Channel for your organization in your preferred management tool with your normal policy set. This way, you'll not only be able to validate the upcoming release, but also make sure your policies and rollout process are working as expected before you deploy it more broadly. 
 
 > [!div class="nextstepaction"]
-> [Set up Insider Preview builds from the Release Preview Channel for your organization](https://docs.microsoft.com/windows-insider/business/manage-builds)
+> [Set up Insider Preview builds from the Release Preview Channel for your organization](./manage-builds.md)
 
-Once your users are seeing new features, have them [submit feedback on behalf of your organization](https://docs.microsoft.com/windows-insider/business/feedback), which you can then track in the Feedback Hub, to help us make improvements. 
+Once your users are seeing new features, have them [submit feedback on behalf of your organization](./feedback.md), which you can then track in the Feedback Hub, to help us make improvements. 
 
 > [!NOTE] 
-> Not familiar with channels? [Learn more about how channels work.](https://docs.microsoft.com/windows-insider/flighting)
-
-
-
-
-
-
-
+> Not familiar with channels? [Learn more about how channels work.](../flighting.md)

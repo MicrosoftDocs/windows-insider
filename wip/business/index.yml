@@ -26,15 +26,15 @@ landingContent:
       - linkListType: get-started
         links:
           - text: Register for the Windows Insider Program for Business
-            url: https://docs.microsoft.com/windows-insider/get-started
+            url: ../get-started.md
       - linkListType: how-to-guide
         links:
           - text: Start flighting as a business
-            url: https://docs.microsoft.com/windows-insider/business/flighting
+            url: ./flighting.md
           - text: Manage Insider Preview builds across your organization
-            url: https://docs.microsoft.com/windows-insider/business/manage-builds
+            url: ./manage-builds.md
           - text: Give feedback as a business
-            url: https://docs.microsoft.com/windows-insider/business/feedback
+            url: ./feedback.md
    
                    
   # Card          
@@ -43,17 +43,19 @@ landingContent:
       - linkListType: overview
         links:
           - text: Explore in the Beta Channel
-            url: https://docs.microsoft.com/windows-insider/business/explore-Beta-Channel
+            url: ./explore-beta-channel.md
           - text: Validate in the Release Preview Channel
-            url: https://docs.microsoft.com/windows-insider/business/validate-Release-Preview-Channel
+            url: ./validate-release-preview-channel.md
           - text: Windows Insider Program for Business FAQ
-            url: https://docs.microsoft.com/windows-insider/business/FAQ
+            url: ./faq.yml
+          - text: Glossary
+            url: ../glossary.md
       - linkListType: whats-new
         links:
           - text: Flight Hub
-            url: https://docs.microsoft.com/en-us/windows-insider/flight-hub/
+            url: ../flight-hub/index.md
           - text: The Changelog
-            url: https://docs.microsoft.com/windows-insider/Active-Dev-Branch      
+            url: ../active-dev-branch.md
 
   # Card
   - title: Windows Insider Program for Server
@@ -61,8 +63,8 @@ landingContent:
       - linkListType: get-started
         links:
           - text: Get started with the Windows Insider Program for Windows Server
-            url: https://docs.microsoft.com/windows-insider/business/server-get-started
+            url: ./server-get-started.md
       - linkListType: how-to-guide
         links:
           - text: Give feedback on Windows Server Insider Preview Builds
-            url: https://docs.microsoft.com/windows-insider/business/server-feedback
+            url: ./server-feedback.md

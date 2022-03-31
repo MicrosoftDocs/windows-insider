@@ -15,6 +15,18 @@ ms.prod: w10
 
 The latest major updates and features for Your Phone. We value your feedback, so give these features a try and let us know what you think. You can report any issues under **Your Phone** > **Settings** > **Send feedback** or directly through the [Feedback Hub](https://aka.ms/yourphonefh).
 
+## November 11, 2020
+
+### Announcing Your Phone multi-apps experience—Interact with multiple Android mobile apps at the same time on your Windows 10 PC
+
+The [Your Phone apps experience](https://blogs.windows.com/windowsexperience/2020/08/05/microsoft-and-samsung-expand-partnership-empowering-you-across-work-and-play/) is continuing to evolve. We're happy to announce that the multi-apps experience is now ready for you to try. You can experience the power and convenience of running multiple Android mobile apps side by side on your Windows 10 PC on supported Samsung devices. Apps will launch in separate windows, letting you interact with multiple apps at the same time, even if the Your Phone app is not open. Pin your apps to Favorites, Windows 10 taskbar, or Start menu for quick and easy access. And now you can search for your previously pinned apps using Windows search from within your Start app list. So, whether you are staying connected with family and friends, keeping up on your social feed, or ordering food, you can do it all simultaneously from the comfort of your PC, no need to install apps or sign in again.
+
+![Screen showing phone apps opened side by side as separate apps on a Windows10 PC.](images/Your-Phone-multi-apps.png)
+
+Starting last Thursday, the multi-apps feature has started to roll out on supported Samsung Galaxy phones (Note20 5G, Note20 Ultra 5G, Z Fold2 5G, Z Flip, Z Flip 5G) running Android 10 with Link to Windows (LTW) integration and to Windows Insiders who are configured to be in the Dev Channel, Beta Channel, or Release Preview Channel. Please note that this is a server-side change that takes time to reach everyone.
+
+[Find additional feature requirements and known issues here.](https://answers.microsoft.com/en-us/insider/forum/all/your-phone-app-apps-feature-multiple-mobile-apps/abc743ed-9a99-4f8a-be58-18311f692ecb)
+
 ## September 30, 2020
 
 ### New Your Phone settings experience for seamless device management within the app

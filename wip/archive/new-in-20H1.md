@@ -101,13 +101,13 @@ With the latest flight, we’re taking another step forward in our Passwordless 
 ![Lock screen showing use of PIN in safe mode.](images/18995-1.png)
 
 ## Windows Subsystem for Linux (WSL) Improvements (Build 18995)
-See the [WSL release notes](https://docs.microsoft.com/windows/wsl/release-notes) for the newest improvements in the latest Insider Preview builds.
+See the [WSL release notes](/windows/wsl/release-notes) for the newest improvements in the latest Insider Preview builds.
 
 ## Connecting network cameras to Windows 10 devices (Build 18995)
 Network cameras, which are Internet Protocol-based cameras that transmit video data over a local area network (LAN), are becoming increasingly prevalent—especially in surveillance and security scenarios. [Windows now allows users to associate network cameras to their PC, enabling photo capture and streaming of video in camera applications](https://blogs.windows.com/windowsdeveloper/2019/10/10/connecting-network-cameras-to-windows-10-devices/).
 
 ## Enabling automatic restart for UWP apps (Build 18990)
-We already introduced a new [separate setting](https://docs.microsoft.com/windows-insider/archive/new-in-20H1#control-over-restarting-apps-at-sign-in-build-18965) to control if [registered desktop apps](https://docs.microsoft.com/windows/win32/recovery/registering-for-application-restart) from your previous sign-in session are restarted when signing back in to Windows. In the latest Insider Preview builds, in addition to registered desktop apps, when you opt into this setting, the majority of open UWP apps are now also automatically restarted as well! To reduce sign-in time, UWP apps are restarted minimized, in a suspended state, giving Windows and other apps more resources to get started. To try it out:
+We already introduced a new [separate setting](#control-over-restarting-apps-at-sign-in-build-18965) to control if [registered desktop apps](/windows/win32/recovery/registering-for-application-restart) from your previous sign-in session are restarted when signing back in to Windows. In the latest Insider Preview builds, in addition to registered desktop apps, when you opt into this setting, the majority of open UWP apps are now also automatically restarted as well! To reduce sign-in time, UWP apps are restarted minimized, in a suspended state, giving Windows and other apps more resources to get started. To try it out:
 1. Go to Settings > Accounts > Sign-in options and turn on “Automatically save my restartable apps when I sign out and restart them after I sign in.” under “Restart apps”.
 2. Start one or more UWP apps, such as Feedback Hub.
 3. Sign out and then sign back into Windows.
@@ -118,7 +118,7 @@ UWP apps that were started, such as Feedback Hub, should restart minimized with 
 * Improved the performance for directory listings in \\wsl$
 * (WSL2) Injected additional boot entropy [Github Issue 4461]
 * (WSL2) Fixed Windows interop when using su / sudo commands [Github issue 4465]
-For the full details of changes in this latest Insider Preview build, please see the [WSL release notes](https://docs.microsoft.com/windows/wsl/release-notes).
+For the full details of changes in this latest Insider Preview build, please see the [WSL release notes](/windows/wsl/release-notes).
 
 ## Xbox Game Bar Updates (Build 18990)
 In case you hadn’t seen, we’re starting to roll out an FPS counter and achievement overlay! Thanks to everyone who shared feedback about this. The update will come via the Microsoft Store. Just set focus to your favorite game and press WIN + G to get started.
@@ -150,18 +150,18 @@ Supported devices include:
 ![Notification prompting you to go through pairing a Bluetooth mouse.](images/18985-1.gif)
 
 ## Windows Subsystem for Linux (WSL) ARM64 support.  (Build 18980)
-In this build, we’ve added WSL2 support for ARM64 devices! We’ve also added the ability to set your distribution’s default user using the /etc/wsl.conf file. For the full details of changes in this latest Insider Preview build, please see the [WSL release notes](https://docs.microsoft.com/windows/wsl/release-notes).
+In this build, we’ve added WSL2 support for ARM64 devices! We’ve also added the ability to set your distribution’s default user using the /etc/wsl.conf file. For the full details of changes in this latest Insider Preview build, please see the [WSL release notes](/windows/wsl/release-notes).
 
 ## Option to move the Cortana window (Build 18975)
 
-With the [new conversational Cortana experience](https://docs.microsoft.com/windows-insider/archive/new-in-20H1#introducing-a-new-cortana-experience-for-windows-10-build-18945), we understand that you wanna keep the chat going sometimes, and the default position of the window isn’t always where you’d prefer to have it docked if you’re going to have a longer back and forth. That’s why we’re starting to roll out the option to be able to move the window (by dragging the title bar area), to anywhere you’d like on the screen–just like you can with other windows. You can also resize the window if you’d like. 
+With the [new conversational Cortana experience](#introducing-a-new-cortana-experience-for-windows-10-build-18945), we understand that you wanna keep the chat going sometimes, and the default position of the window isn’t always where you’d prefer to have it docked if you’re going to have a longer back and forth. That’s why we’re starting to roll out the option to be able to move the window (by dragging the title bar area), to anywhere you’d like on the screen–just like you can with other windows. You can also resize the window if you’d like. 
 
 Please note that we’re still in the process of expanding language/region support of the new Cortana app (as discussed here), and Insiders outside of English (United States) will see a message when launching Cortana saying “Cortana isn’t available.” We’ll update you when the availability increases.
 
 ![Cortana window moves around the desktop.](images/18975-1.gif)
 
 ## Windows Subsystem for Linux (WSL) Improvements (Build 18975)
-[See the latest improvements with WSL](https://docs.microsoft.com/windows/wsl/release-notes) in the latest Insider Preview builds.
+[See the latest improvements with WSL](/windows/wsl/release-notes) in the latest Insider Preview builds.
 
 ## Update on Virtual Desktop renaming (Build 18975)
 The ability to rename your virtual desktops is now available for all Insiders in the Fast ring! Thanks again everyone who shared feedback requesting this.
@@ -460,7 +460,7 @@ Don’t have Windows Hello set up yet? No problem! We’ll walk you through the 
 Please note: This feature is currently being rolled out to a small portion of Insiders and the above option may not show for all users in Settings. If the toggle isn’t showing for you yet, check back in a week so.
 
 ## Eye Control Improvements (Build 18932)
-We’re continuing to extend and improve Eye Control based on your customer feedback. With this release, we have improvements in the following areas, which we invite your feedback about through the Feedback Hub and [Microsoft Accessibility Feedback Forum](https://microsoftaccessibility.uservoice.com/forums/307429-microsoft-accessibility-feedback?category_id=317314).
+We’re continuing to extend and improve Eye Control based on your customer feedback. With this release, we have improvements in the following areas, which we invite your feedback about through the Feedback Hub and Microsoft Accessibility Feedback Forum.
 
 ![Eye Control](images/18932-1.png)
 
@@ -472,7 +472,7 @@ __Pause:__ We’ve made improvements to the pause experience. Selecting the paus
 
 __Switch support:__ Previously, Dwell was the method for clicking a button. Dwelling is the act of fixing your eyes on part of the screen and keeping your eyes there for a specific amount of time. In this release, we’re adding a second activation method, switch. In this method, dwell is used to select the target, but clicking a button is done with switch. Currently switches on joysticks, or devices emulating joysticks, are supported.
 
-__Under the hood__ People wishing to develop their own gaze enabled applications can do so using the open source Gaze Interaction Library in the [Windows Community Toolkit](https://docs.microsoft.com/windows/communitytoolkit/). In this revision of Eye Control, the user interface is implemented using the same code that is in the Gaze Interaction Library.
+__Under the hood__ People wishing to develop their own gaze enabled applications can do so using the open source Gaze Interaction Library in the [Windows Community Toolkit](/windows/communitytoolkit/). In this revision of Eye Control, the user interface is implemented using the same code that is in the Gaze Interaction Library.
 
 __Settings:__ We have updated settings to allow you to manage more Eye Control features. This includes enabling some of the new features and more fine control of the numeric values that change how responsive the system is to eye movements. This allows for a more customized and natural feel for your Eye Control experience.
 
