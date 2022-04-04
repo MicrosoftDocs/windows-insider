@@ -8,7 +8,7 @@ ms.devlang: na
 ms.author: jhow
 ms.localizationpriority: medium
 ms.topic: article
-ms.prod: w10-w11
+ms.prod: w10
 ---
 
 # Using ISOs
