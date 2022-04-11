@@ -22,7 +22,8 @@ Please read [this blog post](https://blogs.windows.com/windows-insider/2021/06/2
 
 | Build | Dev | Beta | SDK | ISO |
 |-------|------|------|
-|22581|[**3/23/2022**](https://blogs.windows.com/windows-insider/2022/03/23/announcing-windows-11-insider-preview-build-22581/)|[**3/23/2022**](https://blogs.windows.com/windows-insider/2022/03/23/announcing-windows-11-insider-preview-build-22581/)|[**3/23/2022**](https://software-download.microsoft.com/download/sg/Windows_InsiderPreview_SDK_en-us_22581_1.iso)|
+|22593|[**4/6/2022**](https://blogs.windows.com/windows-insider/2022/04/06/announcing-windows-11-insider-preview-build-22593/)|[**4/6/2022**](https://blogs.windows.com/windows-insider/2022/04/06/announcing-windows-11-insider-preview-build-22593/)|[**4/6/2022**](https://software-download.microsoft.com/download/sg/Windows_InsiderPreview_SDK_en-us_22593_1.iso)|
+|22581|[3/23/2022](https://blogs.windows.com/windows-insider/2022/03/23/announcing-windows-11-insider-preview-build-22581/)|[3/23/2022](https://blogs.windows.com/windows-insider/2022/03/23/announcing-windows-11-insider-preview-build-22581/)|[3/23/2022](https://software-download.microsoft.com/download/sg/Windows_InsiderPreview_SDK_en-us_22581_1.iso)|
 |22579|[3/18/2022](https://blogs.windows.com/windows-insider/2022/03/18/announcing-windows-11-insider-preview-build-22579/)||[3/18/2022](https://software-download.microsoft.com/download/sg/Windows_InsiderPreview_SDK_en-us_22579_1.iso)|[**3/18/22**](https://aka.ms/wipISO)
 |22572|[3/9/2022](https://blogs.windows.com/windows-insider/2022/03/09/announcing-windows-11-insider-preview-build-22572/)||[3/9/2022](https://software-download.microsoft.com/download/sg/Windows_InsiderPreview_SDK_en-us_22572_1.iso)|
 |22567|[3/2/2022](https://blogs.windows.com/windows-insider/2022/03/02/announcing-windows-11-insider-preview-build-22567/)||[3/2/2022](https://software-download.microsoft.com/download/sg/Windows_InsiderPreview_SDK_en-us_22567_1.iso)|
