@@ -63,7 +63,7 @@ If you've installed an Insider Preview build in the Beta Channel or Release Prev
 ### Switching from the Dev Channel
 Occasionally it may become possible to switch a device from the Dev Channel to another channel. To determine which process is needed to switch from the Dev Channel, you first need to find your current build number and compare it to the current build number in the channel you wish to switch to.   
 
-To find your current build, you can [check the watermark in the right bottom of your desktop, look at About in Settings, or run the winver command](./check-flighting-status).   
+To find your current build, you can [check the watermark in the right bottom of your desktop, look at About in Settings, or run the winver command](./check-flighting-status.md).   
 
 Next determine what is the currently flighting build in the desired channel by checking [Flight Hub](https://aka.ms/FlightHub). 
 
