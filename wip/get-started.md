@@ -5,7 +5,7 @@ author: bleblanc
 manager: dougkim
 ms.tgt_pltfrm: na
 ms.devlang: na
-ms.author: v-eleonard
+ms.author: bleblanc
 ms.localizationpriority: medium
 ms.topic: article
 ms.prod: w10
