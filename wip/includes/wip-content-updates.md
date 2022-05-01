@@ -9,3 +9,5 @@
 |------|------------|--------|
 | 4/26/2022 | [Using ISOs](/windows-insider/isos) | modified |
 | 4/29/2022 | [Flight Hub](/windows-insider/flight-hub/index) | modified |
+| 4/26/2022 | [Using ISOs](/windows-insider/isos) | modified |
+| 4/29/2022 | [Flight Hub](/windows-insider/flight-hub/index) | modified |
