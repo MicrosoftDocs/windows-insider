@@ -5,7 +5,7 @@ author: bleblanc
 manager: dougkim
 ms.tgt_pltfrm: na
 ms.devlang: na
-ms.author: v-allsh
+ms.author: allieshields
 ms.localizationpriority: medium
 ms.topic: article
 ms.prod: w10
@@ -39,7 +39,7 @@ Operating system components that are available with this update:
 * Failover Cluster Manager (CluAdmin.msc)
 * Internet Explorer (IExplore.exe), an optional component
 
-These components come with support for [SQL Server Management Studio (SSMS)](/sql/ssms/sql-server-management-studio-ssms?view=sql-server-2017), version 16 and 17, which must be installed separately from SQL Server via command line.
+These components come with support for [SQL Server Management Studio (SSMS)](/sql/ssms/sql-server-management-studio-ssms), version 16 and 17, which must be installed separately from SQL Server via command line.
 
 To install Failover Cluster Manager, launch PowerShell, and then enter the following command:
 ```Install-WindowsFeature -Name Failover-Clustering -IncludeManagementTools ```
