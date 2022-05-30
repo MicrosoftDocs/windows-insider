@@ -80,7 +80,7 @@ If you're having certain issues that prevent you from downloading an ISO to your
 
 - If you use this drive to do a clean Windows install, connect it to the target device and reboot. You may also need to adjust your BIOS or UEFI settings to allow it to boot from a USB-based drive.
 
-## Clean installation with a Windows 11 ISO (Not an Insider Preview build)
+## Clean installation with a Windows 11 ISO (Not an Insider Preview Build)
 
 1. Back up all your files and applications. A clean install with a Windows 11 ISO will erase all of your files, settings, and applications.
 
