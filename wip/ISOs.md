@@ -55,7 +55,7 @@ If you're having certain issues that prevent you from downloading an ISO to your
 
 1. [Download your chosen ISO from the Windows Insider ISO page](https://aka.ms/WIPISO) by saving it to a location on your device you can easily remember.
 
-2. Connect a USB drive that's at least 8GB. **Back up any data on the drive you want to save, because any data on it will erased.**
+2. Connect a USB drive that's at least 8 GB. **Back up any data on the drive you want to save, because any data on it will be erased.**
 
 3. Open Start menu. Search for and launch the Recovery Drive application.
 
