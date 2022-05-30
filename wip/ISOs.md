@@ -90,7 +90,7 @@ If you're having certain issues that prevent you from downloading an ISO to your
 
 4. Select the setup.exe file to launch the install process.
 
-5. During setup, select the **Change what to keep** option, and then choose **Nothing** on the next screen to complete a clean intall.
+5. During setup, select the **Change what to keep** option, and then choose **Nothing** on the next screen to complete a clean install.
 
 6. Once it's finished installing, go to [**Settings** > **Windows Update** > **Windows Insider Program**](https://aka.ms/WIPSettings) if you'd like to set up Insider Preview builds again. [Get more help setting up Insider Preview builds.](./get-started.md)
 
