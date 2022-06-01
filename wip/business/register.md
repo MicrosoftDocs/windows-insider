@@ -25,7 +25,8 @@ Register with either your Azure Active Directory (Azure AD) work account, which 
 
 When you use your organization's account, you'll be able to give us feedback on behalf of your organization to help shape Windows to meet your business's specific needs. You must register with your AAD account to manage Windows 10/11 Insider Preview Builds centrally across your organization. If you don't have one, [find out how to get an AAD tenant](/azure/active-directory/develop/active-directory-howto-tenant).
 
-You can also register with your personal Microsoft account (MSA), which is the same account you use for other Microsoft services, like email (@outlook.com), Microsoft Office, or OneDrive. (Don't have a Microsoft account? [Sign up now!](https://account.microsoft.com/account))
+You can also register with your personal Microsoft account, which is the same account you use for other Microsoft services, like email (@outlook.com), Microsoft Office, or OneDrive. (Don't have a Microsoft account? [Sign up now!](https://account.microsoft.com/account))
+
 
 > [!div class="nextstepaction"]
 > [Register now](https://insider.windows.com/register)
