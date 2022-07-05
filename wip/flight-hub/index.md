@@ -22,7 +22,7 @@ Builds from the active development branch simply reflect the latest work in prog
 Please read [this blog post](https://blogs.windows.com/windows-insider/2021/06/24/preparing-for-insider-preview-builds-of-windows-11/) on how the Windows 11 hardware requirements may impact flighting on your PC and your options to get started.
 
 | Build | Dev | Beta | SDK | ISO |
-|-------|------|------|
+|-------|-----|------|-----|-----|
 |25151|[**6/29/2022**](https://blogs.windows.com/windows-insider/2022/06/29/announcing-windows-11-insider-preview-build-25151/)||[**6/29/2022**](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_25151.iso)|
 |25145|[6/22/2022](https://blogs.windows.com/windows-insider/2022/06/22/announcing-windows-11-insider-preview-build-25145/)|||
 |25140|[6/15/2022](https://blogs.windows.com/windows-insider/2022/06/15/announcing-windows-11-insider-preview-build-25140/)||[6/15/2022](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_25140.iso)|[**6/15/2022**](https://aka.ms/wipISO)
@@ -67,7 +67,7 @@ Please read [this blog post](https://blogs.windows.com/windows-insider/2021/06/2
 Builds leading up to the very first release of Windows 11 on Oct. 5th.
 
 | Build | Dev | Beta | RP | SDK | ISO |
-|-------|------|------|
+|-------|-----|------|----|-----|-----|
 |22000.706|||[**5/19/2022**](https://blogs.windows.com/windows-insider/2022/05/19/releasing-windows-11-build-22000-706-to-the-release-preview-channel/)|||
 |22000.651|||[4/14/2022](https://blogs.windows.com/windows-insider/2022/04/14/releasing-windows-11-build-22000-651-to-the-release-preview-channel/)|||
 |22000.588||[3/15/2022](https://blogs.windows.com/windows-insider/2022/03/15/releasing-windows-11-build-22000-588-to-beta-and-release-preview-channels/)||||
@@ -115,7 +115,7 @@ The Windows 10 November 2021 Update is now available - [see details here in this
  Builds from the active development branch simply reflect the latest work in progress code from our engineers.
 
 | Build | Dev | SDK | ISO |
-|-------|------|------|
+|-------|-----|-----|-----|
 |21390|[5/26/2021](https://blogs.windows.com/windows-insider/2021/05/26/announcing-windows-10-insider-preview-build-21390/)|||
 |21387|[5/21/2021](https://blogs.windows.com/windows-insider/2021/05/21/announcing-windows-10-insider-preview-build-21387/)|||
 |21382|[5/14/2021](https://blogs.windows.com/windows-insider/2021/05/14/announcing-windows-10-insider-preview-build-21382/)|||
