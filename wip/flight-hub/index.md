@@ -64,7 +64,7 @@ Please read [this blog post](https://blogs.windows.com/windows-insider/2021/06/2
 
 ## Windows 11 October 2021 Release
 
-Builds leading up to the very first release of Windows 11 on Oct. 5th.
+Builds leading up to the very first release of Windows 11 on October 5.
 
 | Build | Dev | Beta | RP | SDK | ISO |
 |-------|-----|------|----|-----|-----|
