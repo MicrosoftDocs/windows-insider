@@ -2,9 +2,9 @@
 
 
 
-## Week of May 30, 2022
+## Week of July 04, 2022
 
 
 | Published On |Topic title | Change |
 |------|------------|--------|
-| 6/2/2022 | [Flight Hub](/windows-insider/flight-hub/index) | modified |
+| 7/5/2022 | [Flight Hub](/windows-insider/flight-hub/index) | modified |
