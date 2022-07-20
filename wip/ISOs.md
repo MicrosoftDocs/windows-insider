@@ -13,7 +13,7 @@ ms.prod: w11
 
 # Using ISOs
 
-If your device is hard to use because of an issue, or if you want to switch out of the Dev Channel or stop receiving preview builds, you might need to use an ISO for a clean installation or in-place upgrade. ISOs are available for both Windows 10 Insider Preview Builds and for Windows.
+If your device is hard to use because of an issue, or if you want to switch out of the Dev Channel or stop receiving preview builds, you might need to use an ISO for a clean installation or in-place upgrade. ISOs are available for both Windows 10 Insider Preview Builds and for Windows 11 Insider Preview Builds.
 
 > [!div class="nextstepaction"]
 > [Download Windows Insider ISOs](https://aka.ms/WIPISO)
@@ -30,7 +30,7 @@ If your device is hard to use because of an issue, or if you want to switch out 
 
 5. Once it's finished installing, go to [**Settings** > **Windows Update** > **Windows Insider Program**](https://aka.ms/WIPSettings) to make sure your Windows Insider settings are correct.
 
-## Clean installation with a Windows Insider Preview ISO 
+## Clean installation with a Windows Insider Preview ISO
 
 1. Back up all your files and applications. A clean install with a Windows Insider Preview ISO will erase all of your files, settings, and applications.
 
@@ -55,15 +55,15 @@ If you're having certain issues that prevent you from downloading an ISO to your
 
 1. [Download your chosen ISO from the Windows Insider ISO page](https://aka.ms/WIPISO) by saving it to a location on your device you can easily remember.
 
-2. Connect a USB drive that's at least 8GB. **Back up any data on the drive you want to save, because any data on it will erased.**
+2. Connect a USB drive that's at least 8 GB. **Back up any data on the drive you want to save, because any data on it will be erased.**
 
-3. Open Start menu.  Search for and launch the Recovery Drive application.
+3. Open Start menu. Search for and launch the Recovery Drive application.
 
 4. When the application opens, uncheck the "Back up system files to the recovery drive." box and click Next.
 
 5. Select your drive from the list and click Next.
 
-6.  You'll see a confirmation prompt.  Click Create.  When this completes your USB drive will now be in a bootable configuration.  Next we'll add the contents of the ISO file to it.
+6.  You'll see a confirmation prompt. Click Create. When this completes your USB drive will now be in a bootable configuration. Next we'll add the contents of the ISO file to it.
 
 7.  Locate the ISO file you downloaded in step 1 above.  Right-click the ISO file and select Mount.
 
@@ -80,7 +80,21 @@ If you're having certain issues that prevent you from downloading an ISO to your
 
 - If you use this drive to do a clean Windows install, connect it to the target device and reboot. You may also need to adjust your BIOS or UEFI settings to allow it to boot from a USB-based drive.
 
-## Clean installation with a Windows 10 ISO
+## Clean installation with a Windows 11 ISO (Not an Insider Preview Build)
+
+1. Back up all your files and applications. A clean install with a Windows 11 ISO will erase all of your files, settings, and applications.
+
+2. [Download the latest Windows 11 ISO](https://www.microsoft.com/software-download/windows11) by saving it to a location on your PC or creating a bootable USB.
+
+3. Open File Explorer and go to where you saved the ISO. Select the ISO file to open it, which lets Windows mount the image so you can access it.
+
+4. Select the setup.exe file to launch the install process.
+
+5. During setup, select the **Change what to keep** option, and then choose **Nothing** on the next screen to complete a clean install.
+
+6. Once it's finished installing, go to [**Settings** > **Windows Update** > **Windows Insider Program**](https://aka.ms/WIPSettings) if you'd like to set up Insider Preview builds again. [Get more help setting up Insider Preview builds.](./get-started.md)
+
+## Clean installation with a Windows 10 ISO (Not an Insider Preview build)
 
 1. Back up all your files and applications. A clean install with a Windows 10 ISO will erase all of your files, settings, and applications.
 
