@@ -48,7 +48,8 @@ Hit enter, and it will pull up which version your device is on. The last numbers
 
 ## Check your build with System Information
 
-Open Search and type System, hit the enter key. The System Information window will popup.It will show OS Name and the version.
+Open Search and in the prompt, type in System, then hit the Enter key. The System Information window will pop up. It will show the operating system name and version.
+
 
 ## Double-check your Windows Insider settings
 
