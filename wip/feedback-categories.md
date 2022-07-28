@@ -8,7 +8,7 @@ ms.devlang: na
 ms.author: allieshields
 ms.localizationpriority: medium
 ms.topic: article
-ms.prod: w10-w11
+ms.prod: w11
 ---
 
 # Understand feedback categories and diagnostics
