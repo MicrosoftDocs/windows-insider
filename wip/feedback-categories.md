@@ -1,11 +1,11 @@
 ---
 title: Understand feedback categories and diagnostics
-description: Get to know the Feedback Hub
+description: Know where to file your feedback and what to include
 author: bleblanc
 manager: dougkim
 ms.tgt_pltfrm: na
 ms.devlang: na
-ms.author: v-jamleo
+ms.author: allieshields
 ms.localizationpriority: medium
 ms.topic: article
 ms.prod: w10-w11
