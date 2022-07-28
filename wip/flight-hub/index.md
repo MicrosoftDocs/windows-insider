@@ -103,7 +103,7 @@ Builds leading up to the very first release of Windows 11 on Oct. 5th.
 
 | Build | Release Preview | ISO 
 |------|------|------|
-|19045.1862|[**7/28/2022**](https://blogs.windows.com/windows-insider/2022/07/28/releasing-windows-10-version-22h2-to-the-release-preview-channel/)||
+|19045.1865|[**7/28/2022**](https://blogs.windows.com/windows-insider/2022/07/28/releasing-windows-10-version-22h2-to-the-release-preview-channel/)||
 
 ## Windows 10 November 2021 Update (21H2)
 
