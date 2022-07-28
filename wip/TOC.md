@@ -1,4 +1,4 @@
-## [Flight Hub](../flight-hub/index.md)
+## [Flight Hub](./flight-hub/index.md)
 ## [The Changelog](../Active-Dev-Branch.md)
 ## [Get started](../get-started.md)
 ## [Deeper look at flighting](../flighting.md)
