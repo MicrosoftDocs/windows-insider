@@ -36,10 +36,12 @@ Please read [this blog post](https://blogs.windows.com/windows-insider/2021/06/2
 |25126|[5/25/2022](https://blogs.windows.com/windows-insider/2022/05/25/announcing-windows-11-insider-preview-build-25126/)||||
 |25120|[5/18/2022](https://blogs.windows.com/windows-insider/2022/05/18/announcing-windows-11-insider-preview-build-25120/)||||5/18/2022
 |25115|[5/11/2022](https://blogs.windows.com/windows-insider/2022/05/11/announcing-windows-11-insider-preview-build-25115/)||||
-|22621.440*||[**7/28/2022**](https://blogs.windows.com/windows-insider/2022/07/28/announcing-windows-11-insider-preview-build-22621-440-and-22622-440/)|||
+|22621.450*||[**8/2/2022**](https://blogs.windows.com/windows-insider/2022/08/02/announcing-windows-11-insider-preview-build-22621-450-and-22622-450/)|||
+|22621.440||[7/28/2022](https://blogs.windows.com/windows-insider/2022/07/28/announcing-windows-11-insider-preview-build-22621-440-and-22622-440/)|||
 |22621.436*||[7/19/2022](https://blogs.windows.com/windows-insider/2022/07/19/announcing-windows-11-insider-preview-build-22621-436-and-22622-436/)|||
+|22621.317|||[**7/28/2022**](https://blogs.windows.com/windows-insider/2022/07/28/releasing-windows-11-build-22621-317-to-the-release-preview-channel/)||
 |22621.290*||[7/5/2022](https://blogs.windows.com/windows-insider/2022/07/05/announcing-windows-11-insider-preview-build-22621-290-22622-290/)|||
-|22621.169|||[**6/30/2022**](https://blogs.windows.com/windows-insider/2022/06/30/releasing-windows-11-build-22621-165-to-the-release-preview-channel/)||
+|22621.169|||[6/30/2022](https://blogs.windows.com/windows-insider/2022/06/30/releasing-windows-11-build-22621-165-to-the-release-preview-channel/)||
 |22621.160||[6/11/2022](https://blogs.windows.com/windows-insider/2022/06/13/announcing-windows-11-insider-preview-build-22621-160/)|||
 |22621||[5/11/2022](https://blogs.windows.com/windows-insider/2022/05/11/announcing-windows-11-insider-preview-build-22621/)|[6/7/2022](https://blogs.windows.com/windows-insider/2022/06/07/releasing-windows-11-version-22h2-to-the-release-preview-channel/)|[5/11/2022](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_22621_1.iso)|5/11/2022
 |22616|[5/5/2022](https://blogs.windows.com/windows-insider/2022/05/05/announcing-windows-11-insider-preview-build-22616/)|[5/5/2022](https://blogs.windows.com/windows-insider/2022/05/05/announcing-windows-11-insider-preview-build-22616/)|||
