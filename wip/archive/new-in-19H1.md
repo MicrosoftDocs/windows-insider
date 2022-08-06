@@ -328,7 +328,7 @@ Notepad will now show an asterisk in the title bar before the title of a documen
 ![Notepad with the asterisk.](images/18298-6.png)
 
 ### Send Feedback
-You can now send feedback directly from Notepad! Click Help > Send Feedback to open the Feedback Hub with [the Notepad category selected](https://blogs.windows.com/windowsexperience/2018/12/10/announcing-windows-10-insider-preview-build-18298/aka.ms/notepadfeedback) and get your feedback directly to the product team.
+You can now send feedback directly from Notepad! Click Help > Send Feedback to open the Feedback Hub with [the Notepad category selected](https://aka.ms/notepadfeedback) and get your feedback directly to the product team.
 
 ![Send feedback from the Help menu.](images/18298-7.png)
 
