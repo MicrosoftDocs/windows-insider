@@ -2,6 +2,14 @@
 
 
 
+## Week of August 15, 2022
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 8/17/2022 | [Flight Hub](/windows-insider/flight-hub/index) | modified |
+
+
 ## Week of July 25, 2022
 
 
@@ -21,11 +29,3 @@
 |------|------------|--------|
 | 7/20/2022 | [Using ISOs](/windows-insider/isos) | modified |
 | 7/20/2022 | [Flight Hub](/windows-insider/flight-hub/index) | modified |
-
-
-## Week of July 04, 2022
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 7/5/2022 | [Flight Hub](/windows-insider/flight-hub/index) | modified |
