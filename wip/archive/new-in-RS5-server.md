@@ -126,7 +126,8 @@ Kubernetes is a popular orchestration tool for <i>containers</i> (see [What are 
 * Networking: Provide a network for coordinating containers to communicate across machines.
 * Service Discovery: Enable containers to locate each other automatically even as they switch hosts or change IP addresses.
 * Scaling: Add or remove container instances to match demand, either manually or automatically.
-And much more! For guidance that walks you through how to install Kubernetes onto your on-premise Windows datacenter, please see [How To Guide: Kubernetes for Windows Flannel (Host-Gateway)](https://1drv.ms/w/s!AgH65RVQdrbiglNr7P7P4VrO8Rxr). For more information about container orchestrators in general, see [Container orchestrators](/virtualization/windowscontainers/about/#container-orchestrators) on docs.microsoft.com.
+
+And much more! For guidance that walks you through how to install Kubernetes onto your on-premise Windows datacenter, please see [How To Guide: Kubernetes for Windows Flannel (Host-Gateway)](https://1drv.ms/w/s!AgH65RVQdrbiglNr7P7P4VrO8Rxr). For more information about container orchestrators in general, see [Container orchestrators](/virtualization/windowscontainers/about/#container-orchestrators).
 
 ## Congestion Control with LEDBAT
 
