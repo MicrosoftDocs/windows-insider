@@ -25,7 +25,8 @@ Please read [this blog post](https://blogs.windows.com/windows-insider/2021/06/2
 
 | Build | Dev | Beta | RP | SDK | ISO |
 |-------|------|------|
-|25193|[**9/1/2022**](https://blogs.windows.com/windows-insider/2022/09/01/announcing-windows-11-insider-preview-build-25193/)|||[**9/1/2022**](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_25193_1.iso)|
+|25197|[**9/8/2022**](https://blogs.windows.com/windows-insider/2022/09/08/announcing-windows-11-insider-preview-build-25197/)|||[**9/1/2022**](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_25197_1.iso)|
+|25193|[9/1/2022](https://blogs.windows.com/windows-insider/2022/09/01/announcing-windows-11-insider-preview-build-25193/)|||[9/1/2022](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_25193_1.iso)|
 |25188|[8/24/2022](https://blogs.windows.com/windows-insider/2022/08/24/announcing-windows-11-insider-preview-build-25188/)|||[8/17/2022](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_25188_1.iso)|
 |25182|[8/17/2022](https://blogs.windows.com/windows-insider/2022/08/17/announcing-windows-11-insider-preview-build-25182/)|||[8/17/2022](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_25182_1.iso)|
 |25179|[8/10/2022](https://blogs.windows.com/windows-insider/2022/08/10/announcing-windows-11-insider-preview-build-25179/)|||[8/10/2022](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_25179_1.iso)|[**8/10/2022**](https://aka.ms/wipISO)
@@ -215,7 +216,7 @@ The Windows 10 November 2021 Update is now available - [see details here in this
 |19541|[1/8/2020](https://blogs.windows.com/windowsexperience/2020/01/08/announcing-windows-10-insider-preview-build-19541/)|||
 |19536|[12/16/2019](https://blogs.windows.com/windowsexperience/2019/12/16/announcing-windows-10-insider-preview-build-19536/)|||
 
-##  Windows Experience Feature Pack Updates
+##  Windows Feature Experience Pack Updates
 | Version | Beta | Release Preview* |
 |------|------|------|
 |120.2212.3920.0|[**6/22/2021**](https://blogs.windows.com/windows-insider/2021/06/22/releasing-windows-feature-experience-pack-120-2212-3920-0-to-the-beta-release-preview-channels/)|[**6/22/2021**](https://blogs.windows.com/windows-insider/2021/06/22/releasing-windows-feature-experience-pack-120-2212-3920-0-to-the-beta-release-preview-channels/)
