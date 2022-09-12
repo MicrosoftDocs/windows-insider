@@ -43,7 +43,7 @@ Please read [this blog post](https://blogs.windows.com/windows-insider/2021/06/2
 |25120|[5/18/2022](https://blogs.windows.com/windows-insider/2022/05/18/announcing-windows-11-insider-preview-build-25120/)||||5/18/2022
 |25115|[5/11/2022](https://blogs.windows.com/windows-insider/2022/05/11/announcing-windows-11-insider-preview-build-25115/)||||
 |22621.598*||[**9/12/2022**](https://blogs.windows.com/windows-insider/2022/09/12/announcing-windows-11-insider-preview-build-22621-598-and-22622-598/)|||
-|22621.590*||[**9/1/2022**](https://blogs.windows.com/windows-insider/2022/09/01/announcing-windows-11-insider-preview-build-22621-590-and-22622-590/)|||
+|22621.590*||[9/1/2022](https://blogs.windows.com/windows-insider/2022/09/01/announcing-windows-11-insider-preview-build-22621-590-and-22622-590/)|||
 |22621.586*||[8/24/2022](https://blogs.windows.com/windows-insider/2022/08/24/announcing-windows-11-insider-preview-build-22621-586-and-22622-586/)|||
 |22621.575*||[8/10/2022](https://blogs.windows.com/windows-insider/2022/08/10/announcing-windows-11-insider-preview-build-22621-575-and-22622-575/)|||
 |22621.457|||[**8/23/2022**](https://blogs.windows.com/windows-insider/2022/08/23/releasing-windows-11-build-22621-457-to-the-release-preview-channel/)||
