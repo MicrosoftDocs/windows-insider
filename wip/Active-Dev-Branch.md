@@ -242,11 +242,12 @@ As you can imagine, there are a lot of icons in Windows 10 and more icons will c
 * Based on feedback, if the Shared Experiences page identifies an issue with your account connection, it will now send the notifications directly into the Action Center rather than repeated notification toasts that need to be dismissed.
 
 ### Improvements to Windows Sandbox and Microsoft Defender Application Guard (MDAG)
-Both Windows Sandbox and Microsoft Defender Application Guard [take advantage of special container technology built into Windows 10](https://docs.microsoft.com/windows/security/threat-protection/windows-sandbox/windows-sandbox-architecture). Previously, the container runtime matched the host. Starting with Build 21343, we are introducing a new runtime that is designed and optimized for container scenarios. It is lightweight and allows faster launch times for both Windows Sandbox and Microsoft Defender Application Guard.
+
+Both Windows Sandbox and Microsoft Defender Application Guard take advantage of [special container technology built into Windows 10](/windows/security/threat-protection/windows-sandbox/windows-sandbox-architecture). Previously, the container runtime matched the host. Starting with Build 21343, we are introducing a new runtime that is designed and optimized for container scenarios. It is lightweight and allows faster launch times for both Windows Sandbox and Microsoft Defender Application Guard.
 
 We do not expect this change to affect the application compatibility inside Windows Sandbox. However, this is a significant change and users may encounter some differences in behavior.
 
-Additionally, Windows Sandbox now includes the new Chromium based Microsoft Edge browser (as of [Build 21313](https://blogs.windows.com/windows-insider/2021/02/12/announcing-windows-10-insider-preview-build-21313/)). Here are instructions on [how to get started with Windows Sandbox](https://docs.microsoft.com/windows/security/threat-protection/windows-sandbox/windows-sandbox-overview).
+Additionally, Windows Sandbox now includes the new Chromium based Microsoft Edge browser (as of [Build 21313](https://blogs.windows.com/windows-insider/2021/02/12/announcing-windows-10-insider-preview-build-21313/)). Here are instructions on [how to get started with Windows Sandbox](/windows/security/threat-protection/windows-sandbox/windows-sandbox-overview).
 
 ## Build 21337
 Windows 10 Insider Preview Build 21337 was released to the Dev Channel on [3/17/2021](https://blogs.windows.com/windows-insider/2021/03/17/announcing-windows-10-insider-preview-build-21337/).
