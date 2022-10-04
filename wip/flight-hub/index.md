@@ -21,7 +21,7 @@ Builds from the active development branch simply reflect the latest work in prog
 Please read [this blog post](https://blogs.windows.com/windows-insider/2021/06/24/preparing-for-insider-preview-builds-of-windows-11/) on how the Windows 11 hardware requirements may impact flighting on your PC and your options to get started.
 
 >[!NOTE]
->*These builds include an enablement package to Build 22622 for rolling out new features.
+>*These builds include an enablement package to Build 22622/22623 for rolling out new features.
 
 | Build | Dev | Beta | RP | SDK | ISO |
 |-------|------|------|
