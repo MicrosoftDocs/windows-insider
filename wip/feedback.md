@@ -66,6 +66,12 @@ First, check if feedback already exists for your problem or suggestion. If it al
 
 2. Under the first section, **1. Enter your feedback**, create a clear and descriptive title for your feedback in the **Summarize your feedback** field. It is incredibly important to give a good title because it's usually the first thing we see at Microsoft when trying to make sure your feedback gets to the right people. We recommend including the name of the feature and a clear overview of the issue or the request you're seeing.
 
+>[!NOTE]
+>When you use keyword like crash or freeze in the title, when futher in filling in of the feedback item you get option to specify how long ago this happened. Like the following screenshot.
+>
+><img width="580" alt="image" src="https://user-images.githubusercontent.com/22030609/195266782-e79343b8-ec33-483d-a8d0-db7b110605ee.png">
+
+
 - **Good suggestion title:** Snip & Sketch app should have a zoom feature
 - **Bad suggestion title:** I hate it! Give me back old option instead  
 
