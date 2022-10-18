@@ -99,7 +99,8 @@ Builds leading up to the very first release of Windows 11 on Oct. 5th.
 
 | Build | Dev | Beta | RP | SDK | ISO |
 |-------|------|------|
-|22000.1041|||[**9/15/2022**](https://blogs.windows.com/windows-insider/2022/09/15/releasing-windows-11-build-22000-1041-to-the-release-preview-channel/)|||
+|22000.1163|||[**10/18/2022**](https://blogs.windows.com/windows-insider/2022/10/18/releasing-windows-11-build-22000-1163-to-the-release-preview-channel/)|||
+|22000.1041|||[9/15/2022](https://blogs.windows.com/windows-insider/2022/09/15/releasing-windows-11-build-22000-1041-to-the-release-preview-channel/)|||
 |22000.917|||[8/16/2022](https://blogs.windows.com/windows-insider/2022/08/16/releasing-windows-11-build-22000-917-to-the-release-preview-channel/)|||
 |22000.829|||[7/14/2022](https://blogs.windows.com/windows-insider/2022/07/14/releasing-windows-11-build-22000-829-to-the-release-preview-channel/)|||
 |22000.776|||[6/16/2022](https://blogs.windows.com/windows-insider/2022/06/16/releasing-windows-11-build-22000-766-to-the-release-preview-channel/)|||
@@ -135,7 +136,8 @@ The Windows 10 November 2021 Update is now available - [see details here in this
 
 | Build | Release Preview | ISO 
 |------|------|------|
-|19044.2075|[**9/15/2022**](https://blogs.windows.com/windows-insider/2022/09/15/releasing-windows-10-build-19044-2075-to-release-preview-channel/)||
+|19044.2192|[**10/18/2022**](https://blogs.windows.com/windows-insider/2022/10/18/releasing-windows-10-build-19044-2192-to-release-preview-channel/)||
+|19044.2075|[9/15/2022](https://blogs.windows.com/windows-insider/2022/09/15/releasing-windows-10-build-19044-2075-to-release-preview-channel/)||
 |19044.1947|[8/15/2022](https://blogs.windows.com/windows-insider/2022/08/15/releasing-windows-10-build-19044-1947-to-release-preview-channel/)||
 |19044.1862|[7/18/2022](https://blogs.windows.com/windows-insider/2022/07/18/releasing-windows-10-build-19044-1862-to-release-preview-channel/)||
 |19044.1806|[6/24/2022](https://blogs.windows.com/windows-insider/2022/06/24/releasing-windows-10-build-19044-1806-to-release-preview-channel/)||
