@@ -26,7 +26,7 @@ Please read [this blog post](https://blogs.windows.com/windows-insider/2021/06/2
 | Build | Dev | Beta | RP | SDK | ISO |
 |-------|------|------|
 |25262|[**12/9/2022**](https://blogs.windows.com/windows-insider/2022/12/09/announcing-windows-11-insider-preview-build-25262/)|||[**12/9/2022**](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_25262_1.iso)|
-|25252|[11/28/2022](https://blogs.windows.com/windows-insider/2022/11/28/announcing-windows-11-insider-preview-build-25252/)||||
+|25252|[11/28/2022](https://blogs.windows.com/windows-insider/2022/11/28/announcing-windows-11-insider-preview-build-25252/)|||[11/30/2022](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_25252_1.iso)||
 |25247|[11/18/2022](https://blogs.windows.com/windows-insider/2022/11/18/announcing-windows-11-insider-preview-build-25247/)|||[11/18/2022](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_25247_1.iso)|[**11/18/2022**](https://aka.ms/wipISO)
 |25236|[11/2/2022](https://blogs.windows.com/windows-insider/2022/11/02/announcing-windows-11-insider-preview-build-25236/)|||[11/2/2022](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_25236_1.iso)|
 |25231|[10/27/2022](https://blogs.windows.com/windows-insider/2022/10/27/announcing-windows-11-insider-preview-build-25231/)|||[10/27/2022](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_25231_1.iso)|
