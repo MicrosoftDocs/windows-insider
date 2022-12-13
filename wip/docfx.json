@@ -41,6 +41,7 @@
     "globalMetadata": {
       "breadcrumb_path": "/windows-insider/breadcrumb/toc.json",
       "extendBreadcrumb": true,
+      "uhfHeaderId": "MSDocsHeader-Windows",
       "recommendations": true,
       "titleSuffix": "Windows Insider Program",
       "feedback_system": "None",
