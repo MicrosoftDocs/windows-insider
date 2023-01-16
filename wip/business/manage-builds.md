@@ -74,7 +74,7 @@ You can use Windows Update for Business (Group Policy or Mobile Device Managemen
 > [!NOTE] 
 > You can also schedule update installations, choose active hours, and set policies for restart. [Learn more about managing device restarts after updates.](/windows/deployment/update/waas-restart)
 
-### Set up Insider Preview builds using Intune
+### Set up Insider Preview builds using Intune (NOT UP TO DATE... PLEASE UPDATE)
 
 1. Log in to the [Azure portal](https://portal.azure.com) and select **Intune**.
 
