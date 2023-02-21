@@ -1,4 +1,5 @@
 ---
+ms.date: 04/24/2018
 title: Managing preview builds across your organization 
 description: How to manage preview builds across your organization
 author: bleblanc
@@ -143,3 +144,4 @@ Devices set to receive an Insider Preview build show:
 - ManagePreviewBuilds = 1
 
 ![Screenshot of Windows Update for Business values in Registry Editor.](images/wip-4-biz-reg-xs.png)
+

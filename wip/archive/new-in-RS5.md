@@ -1,4 +1,5 @@
 ---
+ms.date: 06/18/2018
 title: What was new in RS5 Windows 10 Insider Preview Builds
 description: What was new in RS5 preview builds
 author: bleblanc
@@ -779,3 +780,4 @@ New Power Usage Columns: Task Manager now includes 2 new columns in the “Proce
 Have you ever been typing into the regedit address bar, and the next part of the path is just on the tip of your tongue, but you can’t remember? Starting with today’s build, you’ll now see a dropdown as you type to help complete the next part of the path! Oh, and you can also press Ctrl + Backspace to delete the last “word”, which makes backing up work that much faster (Ctrl + Delete will delete the next word).
 
 ![Registry Editor.](images/reg-editor.png)
+

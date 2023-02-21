@@ -1,4 +1,5 @@
 ---
+ms.date: 09/03/2020
 title: Sticky Notes updates
 description: The latest updates to the Sticky Notes app
 author: bleblanc
@@ -103,3 +104,4 @@ Sticky Notes 3.0 brings you these amazing new features and capabilities:
     * High contrast.
 
 [Read all about Sticky Notes 3.0.](https://insider.windows.com/articles/sticky-notes-3-0-now-available-to-insiders-who-opted-into-skip-ahead/)
+

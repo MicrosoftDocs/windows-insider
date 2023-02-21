@@ -1,5 +1,6 @@
 ### YamlMime:FAQ
 metadata:
+  ms.date: 07/14/2021
   title: Windows Insider Program for Business FAQ
   description: Answers to your frequently asked questions about the Windows Insider Program for Business
   author: bleblanc
@@ -106,3 +107,4 @@ sections:
           
           > [!NOTE] 
           > Windows LIP language packs can only be installed over [supported base languages](https://support.microsoft.com/help/14236). [Learn how to configure your input or display languages after installing a language pack.](https://support.microsoft.com/help/4027670/windows-10-add-and-switch-input-and-display-language-preferences)
+
