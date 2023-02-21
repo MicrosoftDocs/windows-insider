@@ -1,4 +1,5 @@
 ---
+ms.date: 06/18/2018
 title: What was new in 20H1 Windows 10 Insider Preview Builds
 description: What was new in 20H1 preview builds
 author: bleblanc
@@ -618,3 +619,4 @@ We have made several updates to improve Windows Sandbox accessibility scenarios.
 
 ## Windows Sandbox configuration file support (Build 18841)
 Windows Sandbox now supports configuration files! These files allow users to configure some aspects of the sandbox, such as vGPU, networking and shared folders. [Check out the blog post explaining this new feature](https://aka.ms/WindowsSandbox_ConfigFile).
+

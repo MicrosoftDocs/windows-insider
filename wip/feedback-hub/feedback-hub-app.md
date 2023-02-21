@@ -1,4 +1,5 @@
 ---
+ms.date: 10/30/2018
 title: Explore the Feedback Hub
 description: Get to know the Feedback Hub
 author: bleblanc
@@ -54,3 +55,4 @@ Finally, you'll see **Settings** at the very bottom of the menu. This lets you c
 
 > [!NOTE] 
 > Ready to start giving feedback? [Learn more about how to give great feedback.](../feedback.md)
+

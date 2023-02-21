@@ -1,4 +1,5 @@
 ---
+ms.date: 11/02/2018
 title: Get started with the Windows Insider Program
 description: How to get started with the Windows Insider Program
 author: bleblanc
@@ -78,3 +79,4 @@ Afrikaans (South Africa), Albanian (Albania), Amharic, Armenian, Assamese, Azerb
 
 > [!div class="nextstepaction"]
 > [Give feedback](https://aka.ms/WIPFeedbackHub)
+

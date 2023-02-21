@@ -1,4 +1,5 @@
 ---
+ms.date: 07/21/2020
 title: Updating from an expiring Insider Preview build
 description: How you can move your device off an expiring preview build
 author: bleblanc
@@ -56,3 +57,4 @@ To move off the Insider Preview build expiring on your device, you can either ge
 5. During setup, select the **Change what to keep** option, and then choose **Nothing** on the next screen to complete a clean intall.
 
 6. Once it's finished installing, go to [**Settings** > **Update & Security** > **Windows Insider Program**](https://aka.ms/WIPSettings) if you'd like to set up Insider Preview builds again. [Get more help setting up Insider Preview builds.](./get-started.md#start-flighting)
+

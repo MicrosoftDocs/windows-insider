@@ -1,4 +1,5 @@
 ---
+ms.date: 11/02/2018
 title: Deeper look at flighting
 description: Understanding flighting, channels, and updates
 author: bleblanc
@@ -93,3 +94,4 @@ Also known as servicing or cumulative updates, minor builds give you small bug f
 
 > [!NOTE] 
 >If you're having issues receiving Insider Preview builds, would like to stop receiving preview builds, or would like to leave the program, [learn more in our troubleshooting section](./troubleshooting.md).
+
