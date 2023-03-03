@@ -1,4 +1,5 @@
 ---
+ms.date: 06/10/2020
 title: Tools to get feedback from your customers
 description: Developer tools for getting feedback from your customers
 author: bleblanc
@@ -51,3 +52,4 @@ You can also send notifications to your app's customers through the Windows Dev 
 
 > [!div class="nextstepaction"]
 > [How to send notifications](/windows/uwp/publish/send-push-notifications-to-your-apps-customers)
+

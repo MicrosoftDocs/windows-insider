@@ -1,4 +1,5 @@
 ---
+ms.date: 06/23/2020
 title: Choosing your data settings
 description: Choosing your diagnostic data settings for flighting 
 author: bleblanc
@@ -23,3 +24,4 @@ To run Insider Preview builds, you must have optional data turned on. Use these 
 2. Check the **Optional Diagnostic Data** switch. If it's flipped to **On**, you're ready to go. If it's set to **Off**, flip it to **On** and reboot your device.
 
 3. Go to [**Settings** > **Update & Security** > **Windows Update**](https://aka.ms/WIPWindowsUpdate) to check for the latest update.
+

@@ -1,4 +1,5 @@
 ---
+ms.date: 09/28/2020
 title: Checking if you're flighting
 description: How to tell if your device is on an Insider Preview build
 author: bleblanc
@@ -53,3 +54,4 @@ If checking your device information made you realize you’re not on the build t
 ![The Windows Insider Program's section in Settings showing your channel and the Insider account tied to your device.](images/WIP-settings-w11.jpg "Windows Insider Program Settings page.")
 
 If everything there looks correct, but you still aren’t receiving updates, [check out our troubleshooting section for more help fixing your updates](./troubleshooting.md#not-receiving-updates).
+

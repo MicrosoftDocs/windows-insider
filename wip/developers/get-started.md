@@ -1,4 +1,5 @@
 ---
+ms.date: 11/02/2018
 title: Get started with the Windows Insider Program for Developers
 description: How to get started with the Windows Insider Program for Developers
 author: bleblanc

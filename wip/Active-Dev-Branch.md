@@ -1,4 +1,5 @@
 ---
+ms.date: 06/18/2018
 title: The Changelog
 description: New Windows 10 features for Insider Preview builds in the Dev Channel.
 author: bleblanc
@@ -1392,3 +1393,4 @@ To recap the most noticeable changes included as part of this IME work:
 In this build, we want to help customers set up their device to be used by multiple people in their family. While we’re not releasing an ISO for this build, some Insiders who choose to reset their PC may see a screen during setup that asks who’ll be using the device. If they select People in my family, we’ll help them get set up in a family group once they get to their desktop, so that they’re ready to get started with all the features.
 
 If you see this new page, let us know what you think by going to Security and **Privacy** > **Child accounts and family settings** in the Feedback Hub.
+

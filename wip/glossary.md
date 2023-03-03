@@ -1,4 +1,5 @@
 ---
+ms.date: 11/12/2020
 title: Windows Insider Program glossary
 description: The key terms you'll need to know in the Windows Insider Program
 author: bleblanc
@@ -110,3 +111,4 @@ The Windows Insider Program for Developers is a set of tools within the Windows 
 ## Windows Insider Program for Windows Server
 
 The Windows Insider Program for Windows Server is a set of features within the Windows Insider Program that gives you exclusive access to Windows Server Insider Previews and Remote Server Administration tools to help shape the future of Windows Server.
+
