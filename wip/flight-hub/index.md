@@ -15,13 +15,10 @@ ms.prod: w10
 
 Welcome to Flight Hub! Use this dashboard to quickly identify the latest Windows Insider Preview Builds. You can also see SDK and ISO releases.
 
-## Active Development Builds of Windows 11
-Builds from the active development branch simply reflect the latest work in progress code from our engineers.
-
 Please read [this blog post](https://blogs.windows.com/windows-insider/2021/06/24/preparing-for-insider-preview-builds-of-windows-11/) on how the Windows 11 hardware requirements may impact flighting on your PC and your options to get started.
 
->[!NOTE]
->*These builds include an enablement package to Build 22622/22623 for rolling out new features.
+## Active Development 25000 Series Builds of Windows 11
+Builds from the active development branch simply reflect the latest work in progress code from our engineers.
 
 | Build | Dev | Beta | RP | SDK | ISO |
 |-------|------|------|
@@ -61,6 +58,13 @@ Please read [this blog post](https://blogs.windows.com/windows-insider/2021/06/2
 |25126|[5/25/2022](https://blogs.windows.com/windows-insider/2022/05/25/announcing-windows-11-insider-preview-build-25126/)||||
 |25120|[5/18/2022](https://blogs.windows.com/windows-insider/2022/05/18/announcing-windows-11-insider-preview-build-25120/)||||5/18/2022
 |25115|[5/11/2022](https://blogs.windows.com/windows-insider/2022/05/11/announcing-windows-11-insider-preview-build-25115/)||||
+
+## Windows 11, version 22H2
+Preview builds for updates to Windows 11, version 22H2. Windows 11, version 22H2 [became generally available on September, 20th, 2022](https://blogs.windows.com/windowsexperience/2022/09/20/available-today-the-windows-11-2022-update/). 
+
+>[!NOTE]
+>*These builds include an enablement package to Build 22622/22623/22624 for rolling out new features in the Beta Channel.
+
 |22621.1391*||[**3/2/2023**](https://blogs.windows.com/windows-insider/2023/03/02/announcing-windows-11-insider-preview-build-22621-1391-and-22624-1391/)|||
 |22621.1343|||[**2/21/2023**](https://blogs.windows.com/windows-insider/2023/02/21/releasing-windows-11-build-22621-1343-to-the-release-preview-channel/)||
 |22621.1325*||[2/16/2023](https://blogs.windows.com/windows-insider/2023/02/16/announcing-windows-11-insider-preview-build-22621-1325-and-22623-1325/)|||
