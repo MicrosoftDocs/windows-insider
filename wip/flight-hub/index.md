@@ -135,7 +135,7 @@ Preview builds for updates to Windows 11, version 22H2. Windows 11, version 22H2
 |22449|[9/2/2021](https://blogs.windows.com/windows-insider/2021/09/02/announcing-windows-11-insider-preview-build-22449/)||||
 
 ## Windows 11 October 2021 Release
-Builds leading up to the very first release of Windows 11 on Oct. 5th. 
+Builds leading up to the very first release of Windows 11 on October 5th, 2021. 
 
 | Build | Dev | Beta | RP | SDK | ISO |
 |-------|------|------|
