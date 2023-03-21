@@ -65,6 +65,8 @@ Preview builds for updates to Windows 11, version 22H2. Windows 11, version 22H2
 >[!NOTE]
 >*These builds include an enablement package to Build 22622/22623/22624 for rolling out new features in the Beta Channel.
 
+| Build | Dev | Beta | RP | SDK | ISO |
+|-------|------|------|
 |22621.1391*||[**3/2/2023**](https://blogs.windows.com/windows-insider/2023/03/02/announcing-windows-11-insider-preview-build-22621-1391-and-22624-1391/)|||
 |22621.1343|||[**2/21/2023**](https://blogs.windows.com/windows-insider/2023/02/21/releasing-windows-11-build-22621-1343-to-the-release-preview-channel/)||
 |22621.1325*||[2/16/2023](https://blogs.windows.com/windows-insider/2023/02/16/announcing-windows-11-insider-preview-build-22621-1325-and-22623-1325/)|||
