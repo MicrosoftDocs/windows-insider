@@ -61,6 +61,13 @@ Builds from the active development branch simply reflect the latest work in prog
 |25120||[5/18/2022](https://blogs.windows.com/windows-insider/2022/05/18/announcing-windows-11-insider-preview-build-25120/)||||5/18/2022
 |25115||[5/11/2022](https://blogs.windows.com/windows-insider/2022/05/11/announcing-windows-11-insider-preview-build-25115/)||||
 
+## Active Development 23000 Series Builds of Windows 11
+Builds from the active development branch simply reflect the latest work in progress code from our engineers.
+
+| Build | Canary | Dev | Beta | RP | SDK | ISO |
+|-------|------|------|------|------|------|------|
+|23419||[3/22/2023](https://blogs.windows.com/windows-insider/2023/03/22/announcing-windows-11-insider-preview-build-23419/)|||[3/2/2023](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_23419_1.iso)|[**3/23/2023**](https://aka.ms/wipISO)
+
 ## Windows 11, version 22H2
 Preview builds for updates to Windows 11, version 22H2. Windows 11, version 22H2 [became generally available on September, 20th, 2022](https://blogs.windows.com/windowsexperience/2022/09/20/available-today-the-windows-11-2022-update/). 
 
