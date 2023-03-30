@@ -59,7 +59,7 @@ Please read [this blog post](https://blogs.windows.com/windows-insider/2021/06/2
 |25131||[6/2/2022](https://blogs.windows.com/windows-insider/2022/06/02/announcing-windows-11-insider-preview-build-25131/)|[6/2/2022](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_25131_1.iso)|
 |25126||[5/25/2022](https://blogs.windows.com/windows-insider/2022/05/25/announcing-windows-11-insider-preview-build-25126/)||
 |25120||[5/18/2022](https://blogs.windows.com/windows-insider/2022/05/18/announcing-windows-11-insider-preview-build-25120/)||5/18/2022
-|25115||[5/11/2022](https://blogs.windows.com/windows-insider/2022/05/11/announcing-windows-11-insider-preview-build-25115/)|A|
+|25115||[5/11/2022](https://blogs.windows.com/windows-insider/2022/05/11/announcing-windows-11-insider-preview-build-25115/)||
 
 ## Active Development 23000 Series Builds of Windows 11
 23000 series builds  reflect some the latest work in progress code from our engineers.
