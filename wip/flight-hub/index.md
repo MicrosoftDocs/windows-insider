@@ -147,8 +147,8 @@ Preview builds for updates to Windows 11, version 22H2. Windows 11, version 22H2
 |22454|[9/9/2021](https://blogs.windows.com/windows-insider/2021/09/09/announcing-windows-11-insider-preview-build-22454/)||||9/9/2021
 |22449|[9/2/2021](https://blogs.windows.com/windows-insider/2021/09/02/announcing-windows-11-insider-preview-build-22449/)||||
 
-## Windows 11 October 2021 Release
-Builds leading up to the very first release of Windows 11 on October 5th, 2021. 
+## Windows 11, version 21H2
+Builds leading up to the [very first release of Windows 11 on October 5th, 2021](https://blogs.windows.com/windowsexperience/2021/10/04/windows-11-a-new-era-for-the-pc-begins-today/). 
 
 | Build | Dev | Beta | RP | SDK | ISO |
 |-------|------|------|
@@ -254,7 +254,7 @@ Builds leading up to the very first release of Windows 11 on October 5th, 2021.
 |19541|[1/8/2020](https://blogs.windows.com/windowsexperience/2020/01/08/announcing-windows-10-insider-preview-build-19541/)|||
 |19536|[12/16/2019](https://blogs.windows.com/windowsexperience/2019/12/16/announcing-windows-10-insider-preview-build-19536/)|||
 
-## Windows 10 version 22H2
+## Windows 10, version 22H2
 
 | Build | Release Preview | ISO 
 |------|------|------|
