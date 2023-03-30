@@ -22,7 +22,7 @@ Please read [this blog post](https://blogs.windows.com/windows-insider/2021/06/2
 
 | Build | Canary | Dev | SDK | ISO |
 |-----|---------|---------|---------|---------|
-|25330|[**3/30/2023**](https://blogs.windows.com/windows-insider/2023/03/30/announcing-windows-11-insider-preview-build-25330/)||[**3/30/2023**](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_25330_1.iso)|[**3/23/2023**](https://aka.ms/wipISO)
+|25330|[**3/30/2023**](https://blogs.windows.com/windows-insider/2023/03/30/announcing-windows-11-insider-preview-build-25330/)||[**3/30/2023**](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_25330_1.iso)|
 |25324|[3/23/2023](https://blogs.windows.com/windows-insider/2023/03/23/announcing-windows-11-insider-preview-build-25324/)||[3/23/2023](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_25324_1.iso)|[**3/23/2023**](https://aka.ms/wipISO)
 |25314|[3/8/2023](https://blogs.windows.com/windows-insider/2023/03/08/announcing-windows-11-insider-preview-build-25314/)||[3/8/2023](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_25314_1.iso)|
 |25309||[3/2/2023](https://blogs.windows.com/windows-insider/2023/03/02/announcing-windows-11-insider-preview-build-25309/)|[3/2/2023](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_25309_1.iso)|
