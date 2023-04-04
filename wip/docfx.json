@@ -46,7 +46,7 @@
       "feedback_system": "None",
       "contributors_to_exclude": [
         "beccarobins"
-      ]
+      ],
       "_op_documentIdPathDepotMapping": {
 	 "./": {
            "depot_name": "MSDN.wip",
