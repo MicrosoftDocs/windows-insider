@@ -90,7 +90,8 @@ Preview builds for updates to Windows 11, version 22H2. Windows 11, version 22H2
 
 | Build | Dev | Beta | RP | SDK | ISO |
 |-------|------|------|
-|22621.1690*||[**5/4/2023**](https://blogs.windows.com/windows-insider/2023/05/04/announcing-windows-11-insider-preview-build-22621-1690-and-22624-1690/)|||
+|22621.1755*||[**5/9/2023**](https://blogs.windows.com/windows-insider/2023/05/09/announcing-windows-11-insider-preview-build-22621-1755-and-22624-1755/)|||
+|22621.1690*||[5/4/2023](https://blogs.windows.com/windows-insider/2023/05/04/announcing-windows-11-insider-preview-build-22621-1690-and-22624-1690/)|||
 |22621.1680*||[4/27/2023](https://blogs.windows.com/windows-insider/2023/04/27/announcing-windows-11-insider-preview-build-22621-1680-and-22624-1680/)|||
 |22621.1631|||[**4/13/2023**](https://blogs.windows.com/windows-insider/2023/04/13/releasing-windows-11-build-22621-1631-to-the-release-preview-channel/)||
 |22621.1616*||[4/20/2023](https://blogs.windows.com/windows-insider/2023/04/20/announcing-windows-11-insider-preview-build-22621-1616-and-22624-1616/)|||
