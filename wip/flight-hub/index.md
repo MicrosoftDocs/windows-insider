@@ -89,7 +89,7 @@ Please read [this blog post](https://blogs.windows.com/windows-insider/2021/06/2
 Preview builds for updates to Windows 11, version 22H2. Windows 11, version 22H2 [became generally available on September, 20th, 2022](https://blogs.windows.com/windowsexperience/2022/09/20/available-today-the-windows-11-2022-update/). 
 
 >[!IMPORTANT]
->*These builds include an enablement package to Build 22622/22623/22624 for rolling out new features in the Beta Channel.
+>*These builds include an enablement package to Build 22622/22623/22624/22631 for rolling out new features in the Beta Channel.
 
 | Build | Dev | Beta | RP | SDK | ISO |
 |-------|------|------|
@@ -284,6 +284,8 @@ Builds leading up to the [very first release of Windows 11 on October 5th, 2021]
 
 ## Windows 10 2022 Update (22H2)
 
+The Windows 10 2022 Update was released to the world starting on October 18th, 2022. The final build for this update is Build 19045.2006.
+
 | Build | Release Preview | ISO 
 |------|------|------|
 |19045.3030|[**5/11/2022**](https://blogs.windows.com/windows-insider/2023/05/11/releasing-windows-10-build-19045-3030-to-release-preview-channel/)||
@@ -295,7 +297,7 @@ Builds leading up to the [very first release of Windows 11 on October 5th, 2021]
 
 ## Windows 10 November 2021 Update (21H2)
 
-The Windows 10 November 2021 Update is now available - [see details here in this blog post](https://blogs.windows.com/windowsexperience/2021/11/16/how-to-get-the-windows-10-november-2021-update/). [The final build for this update is Build 19044.1288](https://blogs.windows.com/windows-insider/2021/10/21/preparing-the-windows-10-november-2021-update-for-release/). 
+The [Windows 10 November 2021 Update](https://blogs.windows.com/windowsexperience/2021/11/16/how-to-get-the-windows-10-november-2021-update/) was released to the world starting on November 16th, 2021. [The final build for this update is Build 19044.1288](https://blogs.windows.com/windows-insider/2021/10/21/preparing-the-windows-10-november-2021-update-for-release/). 
 
 | Build | Release Preview | ISO 
 |------|------|------|
@@ -334,7 +336,7 @@ The Windows 10 November 2021 Update is now available - [see details here in this
 
 ## Windows 10 May 2021 Update (21H1)
 
-The [final build for the May 2021 Update](https://blogs.windows.com/windows-insider/2021/04/28/preparing-the-windows-10-may-2021-update-for-release/) is Build 19043.928.
+The Windows 10 May 2021 Update was released to the world starting on May 18th, 2021. The [final build for the May 2021 Update](https://blogs.windows.com/windows-insider/2021/04/28/preparing-the-windows-10-may-2021-update-for-release/) is Build 19043.928.
 
 | Build | Beta | Release Preview | ISO 
 |------|------|------|------|
@@ -362,6 +364,9 @@ The [final build for the May 2021 Update](https://blogs.windows.com/windows-insi
 >*Only available to commercial customers in the Release Preview Channel [as described here in this blog post](https://techcommunity.microsoft.com/t5/windows-it-pro-blog/windows-10-version-21h1-for-commercial-pre-release-validation/ba-p/2220577).
 
 ## Windows 10 October 2020 Update (20H2)
+
+The Windows 10 October 2020 Update was released to the world starting on October 20th, 2020. The final build for this update is Build 19042.572.
+
 | Build | Beta | Release Preview | WSUS | ISO |
 |-------|------|------|------|------|
 |19042.1081||[**6/17/2021**](https://blogs.windows.com/windows-insider/2021/06/17/releasing-windows-10-build-19042-1081-20h2-to-release-preview-channel/)|
