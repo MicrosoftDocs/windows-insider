@@ -297,7 +297,7 @@ The Windows 10 2022 Update was released to the world starting on October 18, 202
 
 ## Windows 10 November 2021 Update (21H2)
 
-The [Windows 10 November 2021 Update](https://blogs.windows.com/windowsexperience/2021/11/16/how-to-get-the-windows-10-november-2021-update/) was released to the world starting on November 16th, 2021. [The final build for this update is Build 19044.1288](https://blogs.windows.com/windows-insider/2021/10/21/preparing-the-windows-10-november-2021-update-for-release/). 
+The [Windows 10 November 2021 Update](https://blogs.windows.com/windowsexperience/2021/11/16/how-to-get-the-windows-10-november-2021-update/) was released to the world starting on November 16, 2021. [The final build for this update is Build 19044.1288](https://blogs.windows.com/windows-insider/2021/10/21/preparing-the-windows-10-november-2021-update-for-release/). 
 
 | Build | Release Preview | ISO 
 |------|------|------|
