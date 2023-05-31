@@ -365,7 +365,7 @@ The Windows 10 May 2021 Update was released to the world starting on May 18, 202
 
 ## Windows 10 October 2020 Update (20H2)
 
-The Windows 10 October 2020 Update was released to the world starting on October 20th, 2020. The final build for this update is Build 19042.572.
+The Windows 10 October 2020 Update was released to the world starting on October 20, 2020. The final build for this update is Build 19042.572.
 
 | Build | Beta | Release Preview | WSUS | ISO |
 |-------|------|------|------|------|
