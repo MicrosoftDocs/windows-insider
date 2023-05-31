@@ -284,7 +284,7 @@ Builds leading up to the [very first release of Windows 11 on October 5th, 2021]
 
 ## Windows 10 2022 Update (22H2)
 
-The Windows 10 2022 Update was released to the world starting on October 18th, 2022. The final build for this update is Build 19045.2006.
+The Windows 10 2022 Update was released to the world starting on October 18, 2022. The final build for this update is Build 19045.2006.
 
 | Build | Release Preview | ISO 
 |------|------|------|
