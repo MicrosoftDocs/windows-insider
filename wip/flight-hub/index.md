@@ -336,7 +336,7 @@ The [Windows 10 November 2021 Update](https://blogs.windows.com/windowsexperienc
 
 ## Windows 10 May 2021 Update (21H1)
 
-The Windows 10 May 2021 Update was released to the world starting on May 18th, 2021. The [final build for the May 2021 Update](https://blogs.windows.com/windows-insider/2021/04/28/preparing-the-windows-10-may-2021-update-for-release/) is Build 19043.928.
+The Windows 10 May 2021 Update was released to the world starting on May 18, 2021. The [final build for the May 2021 Update](https://blogs.windows.com/windows-insider/2021/04/28/preparing-the-windows-10-may-2021-update-for-release/) is Build 19043.928.
 
 | Build | Beta | Release Preview | ISO 
 |------|------|------|------|
