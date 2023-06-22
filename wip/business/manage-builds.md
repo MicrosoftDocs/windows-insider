@@ -63,7 +63,7 @@ You can use Windows Update for Business (Group Policy or Mobile Device Managemen
 5. Go to **Computer Configuration** > **Administrative Templates** > **Windows Components** > **Windows Update** > **Windows Update for Business** and open **Manage preview builds**.
 
 6. Inside **Manage preview builds**, select the Enabled radio button, and apply. (Under the **Options** section's **Enable preview builds** dropdown, you can also prevent installation on selected devices or set it to stop Insider Preview builds once a release is public.)
-
+Note:  If you configure this setting to Disabled, the Windows Insider page settings for "Get started" will be greyed out for users so they cannot optin to Windows Insider program
 7. Go back to **Computer Configuration** > **Administrative Templates** > **Windows Components** > **Windows Update** > **Windows Update for Business** and open **Select when Preview Builds and Feature Updates are received**.
 
 8. Inside **Select when Preview Builds and Feature Updates are received**, select the Enabled radio button. Under **Options**, choose the channel you'd like to get Insider Preview builds from the dropdown. (You can also choose to defer or pause builds here.)
