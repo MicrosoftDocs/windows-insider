@@ -98,7 +98,7 @@ Please read [this blog post](https://blogs.windows.com/windows-insider/2021/06/2
 Preview builds for updates to Windows 11, version 22H2. Windows 11, version 22H2 [became generally available on September, 20th, 2022](https://blogs.windows.com/windowsexperience/2022/09/20/available-today-the-windows-11-2022-update/). 
 
 >[!IMPORTANT]
->*These builds include an enablement package to Build 22622/22623/22624 for rolling out new features in the Beta Channel.
+>*These builds include an enablement package to Build 22622/22623/22624/22631 for rolling out new features in the Beta Channel.
 
 | Build | Dev | Beta | RP | SDK | ISO |
 |-------|------|------|
