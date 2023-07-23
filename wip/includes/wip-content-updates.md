@@ -2,6 +2,14 @@
 
 
 
+## Week of July 17, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 7/17/2023 | [Flight Hub](/windows-insider/flight-hub/index) | modified |
+
+
 ## Week of July 10, 2023
 
 
@@ -24,11 +32,3 @@
 | Published On |Topic title | Change |
 |------|------------|--------|
 | 6/23/2023 | [Flight Hub](/windows-insider/flight-hub/index) | modified |
-
-
-## Week of June 12, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 6/13/2023 | [Flight Hub](/windows-insider/flight-hub/index) | modified |
