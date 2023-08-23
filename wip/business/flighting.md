@@ -3,7 +3,7 @@ ms.date: 04/24/2018
 title: Start flighting as a business
 description: How to 
 author: bleblanc
-manager: dougkim
+manager: bleblanc
 ms.tgt_pltfrm: na
 ms.devlang: na
 ms.author: allieshields

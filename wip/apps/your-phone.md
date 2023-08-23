@@ -3,7 +3,7 @@ ms.date: 09/02/2020
 title: Your Phone updates
 description: The latest updates to the Your Phone app
 author: bleblanc
-manager: dougkim
+manager: bleblanc
 ms.tgt_pltfrm: na
 ms.devlang: na
 ms.author: allieshields

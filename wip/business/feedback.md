@@ -3,7 +3,7 @@ ms.date: 04/24/2018
 title: Give feedback as a business
 description: How to give feedback in the Windows Insider Program for Business
 author: bleblanc
-manager: dougkim
+manager: bleblanc
 ms.tgt_pltfrm: na
 ms.devlang: na
 ms.author: allieshields

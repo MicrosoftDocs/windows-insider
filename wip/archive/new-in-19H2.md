@@ -3,7 +3,7 @@ ms.date: 10/07/2019
 title: What was new in 19H2 Windows 10 Insider Preview Builds
 description: What was new in 19H2 preview builds
 author: bleblanc
-manager: dougkim
+manager: bleblanc
 ms.tgt_pltfrm: na
 ms.devlang: na
 ms.author: allieshields

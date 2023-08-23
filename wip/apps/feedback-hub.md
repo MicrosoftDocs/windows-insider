@@ -3,7 +3,7 @@ ms.date: 09/03/2020
 title: Feedback Hub updates
 description: The latest updates to the Feedback Hub app
 author: bleblanc
-manager: dougkim
+manager: bleblanc
 ms.tgt_pltfrm: na
 ms.devlang: na
 ms.author: allieshields
