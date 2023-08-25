@@ -3,7 +3,7 @@ ms.date: 06/23/2020
 title: Choosing your data settings
 description: Choosing your diagnostic data settings for flighting 
 author: bleblanc
-manager: dougkim
+manager: bleblanc
 ms.tgt_pltfrm: na
 ms.devlang: na
 ms.author: allieshields

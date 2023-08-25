@@ -3,7 +3,7 @@ ms.date: 09/28/2020
 title: Checking if you're flighting
 description: How to tell if your device is on an Insider Preview build
 author: bleblanc
-manager: dougkim
+manager: bleblanc
 ms.tgt_pltfrm: na
 ms.devlang: na
 ms.author: bleblanc

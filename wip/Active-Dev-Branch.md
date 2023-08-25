@@ -3,7 +3,7 @@ ms.date: 06/18/2018
 title: The Changelog
 description: New Windows 10 features for Insider Preview builds in the Dev Channel.
 author: bleblanc
-manager: dougkim
+manager: bleblanc
 ms.tgt_pltfrm: na
 ms.devlang: na
 ms.author: bleblanc

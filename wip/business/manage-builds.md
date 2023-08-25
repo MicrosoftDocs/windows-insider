@@ -3,7 +3,7 @@ ms.date: 04/24/2018
 title: Managing preview builds across your organization 
 description: How to manage preview builds across your organization
 author: bleblanc
-manager: dougkim
+manager: bleblanc
 ms.tgt_pltfrm: na
 ms.devlang: na
 ms.author: allieshields

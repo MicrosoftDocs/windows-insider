@@ -3,7 +3,7 @@ ms.date: 11/12/2020
 title: Windows Insider Program glossary
 description: The key terms you'll need to know in the Windows Insider Program
 author: bleblanc
-manager: dougkim
+manager: bleblanc
 ms.tgt_pltfrm: na
 ms.devlang: na
 ms.author: allieshields

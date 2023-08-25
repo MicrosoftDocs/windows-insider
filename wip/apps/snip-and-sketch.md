@@ -3,7 +3,7 @@ ms.date: 09/03/2020
 title: Snip & Sketch updates
 description: The latest updates to the Snip & Sketch app
 author: bleblanc
-manager: dougkim
+manager: bleblanc
 ms.tgt_pltfrm: na
 ms.devlang: na
 ms.author: allieshields

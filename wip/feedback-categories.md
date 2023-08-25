@@ -3,7 +3,7 @@ ms.date: 02/22/2022
 title: Understand feedback categories and diagnostics
 description: Know where to file your feedback and what to include
 author: bleblanc
-manager: dougkim
+manager: bleblanc
 ms.tgt_pltfrm: na
 ms.devlang: na
 ms.author: allieshields

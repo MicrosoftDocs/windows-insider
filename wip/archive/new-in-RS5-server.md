@@ -3,7 +3,7 @@ ms.date: 06/18/2018
 title: What was new in the RS5 Windows Server 2019 Insider Preview Builds
 description: New features in Windows Server 2019 Preview Builds
 author: bleblanc
-manager: dougkim
+manager: bleblanc
 ms.tgt_pltfrm: na
 ms.devlang: na
 ms.author: allieshields
