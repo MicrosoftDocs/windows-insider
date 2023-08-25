@@ -3,7 +3,7 @@ ms.date: 08/11/2020
 title: Get started with the Windows Insider Program for Windows Server
 description: How to get started with the Windows Insider Program for Windows Server
 author: bleblanc
-manager: dougkim
+manager: bleblanc
 ms.tgt_pltfrm: na
 ms.devlang: na
 ms.author: allieshields

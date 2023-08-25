@@ -3,7 +3,7 @@ ms.date: 11/02/2018
 title: Get started with the Windows Insider Program for Developers
 description: How to get started with the Windows Insider Program for Developers
 author: bleblanc
-manager: dougkim
+manager: bleblanc
 ms.tgt_pltfrm: na
 ms.devlang: na
 ms.author: allieshields

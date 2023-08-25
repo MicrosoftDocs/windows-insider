@@ -3,7 +3,7 @@ ms.date: 02/22/2022
 title: Tracking your feedback
 description: Keep track of what's happened with your feedback
 author: bleblanc
-manager: dougkim
+manager: bleblanc
 ms.tgt_pltfrm: na
 ms.devlang: na
 ms.author: allieshields

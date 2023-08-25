@@ -3,7 +3,7 @@ ms.date: 10/30/2018
 title: Explore the Feedback Hub
 description: Get to know the Feedback Hub
 author: bleblanc
-manager: dougkim
+manager: bleblanc
 ms.tgt_pltfrm: na
 ms.devlang: na
 ms.author: allieshields

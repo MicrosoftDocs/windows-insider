@@ -3,7 +3,7 @@ ms.date: 02/22/2022
 title: Deeper look at feedback
 description: Understanding how to give good feedback
 author: bleblanc
-manager: dougkim
+manager: bleblanc
 ms.tgt_pltfrm: na
 ms.devlang: na
 ms.author: allieshields

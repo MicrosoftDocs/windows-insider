@@ -3,7 +3,7 @@ ms.date: 06/18/2018
 title: What was new in 20H1 Windows 10 Insider Preview Builds
 description: What was new in 20H1 preview builds
 author: bleblanc
-manager: dougkim
+manager: bleblanc
 ms.tgt_pltfrm: na
 ms.devlang: na
 ms.author: allieshields

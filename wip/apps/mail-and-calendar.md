@@ -3,7 +3,7 @@ ms.date: 09/03/2020
 title: Mail & Calendar updates
 description: The latest updates to the Mail & Calendar apps
 author: bleblanc
-manager: dougkim
+manager: bleblanc
 ms.tgt_pltfrm: na
 ms.devlang: na
 ms.author: allieshields

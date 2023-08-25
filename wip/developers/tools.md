@@ -3,7 +3,7 @@ ms.date: 06/10/2020
 title: Tools to get feedback from your customers
 description: Developer tools for getting feedback from your customers
 author: bleblanc
-manager: dougkim
+manager: bleblanc
 ms.tgt_pltfrm: na
 ms.devlang: na
 ms.author: allieshields

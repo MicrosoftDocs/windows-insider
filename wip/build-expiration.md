@@ -3,7 +3,7 @@ ms.date: 07/21/2020
 title: Updating from an expiring Insider Preview build
 description: How you can move your device off an expiring preview build
 author: bleblanc
-manager: dougkim
+manager: bleblanc
 ms.tgt_pltfrm: na
 ms.devlang: na
 ms.author: allieshields

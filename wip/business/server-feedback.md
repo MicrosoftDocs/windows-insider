@@ -3,7 +3,7 @@ ms.date: 04/24/2018
 title: Give feedback on Windows Server Insider Preview Builds
 description: How to give feedback on Windows Server Insider Preview Builds
 author: bleblanc
-manager: dougkim
+manager: bleblanc
 ms.tgt_pltfrm: na
 ms.devlang: na
 ms.author: allieshields
