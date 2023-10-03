@@ -25,7 +25,7 @@ Please read [this blog post](https://blogs.windows.com/windows-insider/2021/06/2
 
 | Build | Canary | Dev | SDK | ISO |
 |-----|---------|---------|---------|---------|
-|25951|[**9/13/2023**](https://blogs.windows.com/windows-insider/2023/09/13/announcing-windows-11-insider-preview-build-25951-canary-channel/)||[**9/13/2023**](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_25947_1.iso)|[**9/13/2023**](https://aka.ms/wipISO)
+|25951|[**9/13/2023**](https://blogs.windows.com/windows-insider/2023/09/13/announcing-windows-11-insider-preview-build-25951-canary-channel/)||[**9/13/2023**](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_25951_1.iso)|[**9/13/2023**](https://aka.ms/wipISO)
 |25947|[9/7/2023](https://blogs.windows.com/windows-insider/2023/09/07/announcing-windows-11-insider-preview-build-25947-canary-channel/)||[9/7/2023](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_25947_1.iso)|
 |25941|[8/31/2023](https://blogs.windows.com/windows-insider/2023/08/31/announcing-windows-11-insider-preview-build-25941-canary-channel/)||[8/31/2023](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_25941_1.iso)|
 |25936|[8/25/2023](https://blogs.windows.com/windows-insider/2023/08/25/announcing-windows-11-insider-preview-build-25936-canary-channel/)||[8/25/2023](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_25936_1.iso)|
@@ -88,7 +88,9 @@ Please read [this blog post](https://blogs.windows.com/windows-insider/2021/06/2
 
 | Build | Dev | SDK | ISO |
 |-----|------|------|------|
-|23545|[**9/13/2023**](https://blogs.windows.com/windows-insider/2023/09/13/announcing-windows-11-insider-preview-build-23545-dev-channel/)|[**9/13/2023**](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_23545_1.iso)|[**9/13/2023**](https://aka.ms/wipISO)
+|23555|[**9/28/2023**](https://blogs.windows.com/windows-insider/2023/09/28/announcing-windows-11-insider-preview-build-23555-dev-channel/)|[**9/28/2023**](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_23555_1.iso)|
+|23550|[9/22/2023](https://blogs.windows.com/windows-insider/2023/09/22/announcing-windows-11-insider-preview-build-23550-dev-channel/)|[9/22/2023](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_23550_1.iso)|
+|23545|[9/13/2023](https://blogs.windows.com/windows-insider/2023/09/13/announcing-windows-11-insider-preview-build-23545-dev-channel/)|[9/13/2023](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_23545_1.iso)|[**9/13/2023**](https://aka.ms/wipISO)
 |23541|[9/8/2023](https://blogs.windows.com/windows-insider/2023/09/08/announcing-windows-11-insider-preview-build-23541-dev-channel/)|[9/8/2023](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_23541_1.iso)|
 |23536|[8/31/2023](https://blogs.windows.com/windows-insider/2023/08/31/announcing-windows-11-insider-preview-build-23536-dev-channel/)|[8/31/2023](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_23536_1.iso)|
 |23531|[8/25/2023](https://blogs.windows.com/windows-insider/2023/08/25/announcing-windows-11-insider-preview-build-23531-dev-channel/)|[8/25/2023](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_23531_1.iso)|
@@ -119,11 +121,13 @@ Preview builds for updates to Windows 11, version 22H2. Windows 11, version 22H2
 
 | Build | Dev | Beta | RP | SDK | ISO |
 |-------|------|------|
+|22621.2361|||[**9/22/2023**](https://blogs.windows.com/windows-insider/2023/09/22/rolling-out-new-features-for-windows-11-22h2-to-the-release-preview-channel/)||
+|22621.2359|||[9/14/2023](https://blogs.windows.com/windows-insider/2023/09/14/releasing-windows-11-build-22621-2359-to-the-release-preview-channel/)||
 |22621.2338*||[**9/12/2023**](https://blogs.windows.com/windows-insider/2023/09/12/announcing-windows-11-insider-preview-build-22621-2338-and-22631-2338-beta-channel/)|||
 |22621.2271*||[9/6/2023](https://blogs.windows.com/windows-insider/2023/09/06/announcing-windows-11-insider-preview-build-22621-2271-and-22631-2271-beta-channel/)|||
 |22621.2265*||[8/31/2023](https://blogs.windows.com/windows-insider/2023/08/31/announcing-windows-11-insider-preview-build-22621-2265-and-22631-2265-beta-channel/)|||
 |22621.2262*||[8/24/2023](https://blogs.windows.com/windows-insider/2023/08/24/announcing-windows-11-insider-preview-build-22621-2262-and-22631-2262-beta-channel/)|||
-|22621.2213|||[**8/10/2023**](https://blogs.windows.com/windows-insider/2023/08/10/releasing-windows-11-build-22621-2213-to-the-release-preview-channel/)||
+|22621.2213|||[8/10/2023](https://blogs.windows.com/windows-insider/2023/08/10/releasing-windows-11-build-22621-2213-to-the-release-preview-channel/)||
 |22621.2199*||[8/18/2023](https://blogs.windows.com/windows-insider/2023/08/18/announcing-windows-11-insider-preview-build-22621-2199-and-22631-2199-beta-channel/)|||
 |22621.2191*||[8/10/2023](https://blogs.windows.com/windows-insider/2023/08/10/announcing-windows-11-insider-preview-build-22621-2191-and-22631-2191/)|||
 |22621.2129*||[8/2/2023](https://blogs.windows.com/windows-insider/2023/08/02/announcing-windows-11-insider-preview-build-22621-2129-and-22631-2129/)|||
@@ -222,7 +226,8 @@ Builds leading up to the [very first release of Windows 11 on October 5th, 2021]
 
 | Build | Dev | Beta | RP | SDK | ISO |
 |-------|------|------|
-|22000.2359|||[**8/10/2023**](https://blogs.windows.com/windows-insider/2023/08/10/releasing-windows-11-build-22000-2359-to-the-release-preview-channel/)|||
+|22000.2479|||[**9/14/2023**](https://blogs.windows.com/windows-insider/2023/09/14/releasing-windows-11-build-22000-2479-to-the-release-preview-channel/)|||
+|22000.2359|||[8/10/2023](https://blogs.windows.com/windows-insider/2023/08/10/releasing-windows-11-build-22000-2359-to-the-release-preview-channel/)|||
 |22000.2243|||[7/13/2023](https://blogs.windows.com/windows-insider/2023/07/13/releasing-windows-11-build-22000-2243-to-the-release-preview-channel/)|||
 |22000.2121|||[6/15/2023](https://blogs.windows.com/windows-insider/2023/06/15/releasing-windows-11-build-22000-2121-to-the-release-preview-channel/)|||
 |22000.2001|||[5/11/2023](https://blogs.windows.com/windows-insider/2023/05/11/releasing-windows-11-build-22000-2001-to-the-release-preview-channel/)|||
@@ -333,7 +338,8 @@ Builds leading up to the [very first release of Windows 11 on October 5th, 2021]
 
 | Build | Release Preview | ISO 
 |------|------|------|
-|19045.3391|[**8/10/2022**](https://blogs.windows.com/windows-insider/2023/08/10/releasing-windows-10-build-19045-3391-to-release-preview-channel/)|
+|19045.3513|[**9/18/2022**](https://blogs.windows.com/windows-insider/2023/09/13/releasing-windows-10-19045-3513/)|
+|19045.3391|[8/10/2022](https://blogs.windows.com/windows-insider/2023/08/10/releasing-windows-10-build-19045-3391-to-release-preview-channel/)|
 |19045.3269|[7/13/2022](https://blogs.windows.com/windows-insider/2023/07/13/releasing-windows-10-build-19045-3269-to-release-preview-channel/)||
 |19045.3154|[6/22/2023](https://blogs.windows.com/windows-insider/2023/06/22/releasing-windows-10-build-19045-3154-to-release-preview-channel/)||
 |19045.3030|[5/11/2023](https://blogs.windows.com/windows-insider/2023/05/11/releasing-windows-10-build-19045-3030-to-release-preview-channel/)||
