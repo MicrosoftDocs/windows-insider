@@ -88,7 +88,8 @@ Please read [this blog post](https://blogs.windows.com/windows-insider/2021/06/2
 
 | Build | Dev | SDK | ISO |
 |-----|------|------|------|
-|23555|[**9/28/2023**](https://blogs.windows.com/windows-insider/2023/09/28/announcing-windows-11-insider-preview-build-23555-dev-channel/)|[**9/28/2023**](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_23555_1.iso)|
+|23560|[**10/4/2023**](https://blogs.windows.com/windows-insider/2023/10/04/announcing-windows-11-insider-preview-build-23560-dev-channel/)||
+|23555|[9/28/2023](https://blogs.windows.com/windows-insider/2023/09/28/announcing-windows-11-insider-preview-build-23555-dev-channel/)|[**9/28/2023**](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_23555_1.iso)|
 |23550|[9/22/2023](https://blogs.windows.com/windows-insider/2023/09/22/announcing-windows-11-insider-preview-build-23550-dev-channel/)|[9/22/2023](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_23550_1.iso)|
 |23545|[9/13/2023](https://blogs.windows.com/windows-insider/2023/09/13/announcing-windows-11-insider-preview-build-23545-dev-channel/)|[9/13/2023](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_23545_1.iso)|[**9/13/2023**](https://aka.ms/wipISO)
 |23541|[9/8/2023](https://blogs.windows.com/windows-insider/2023/09/08/announcing-windows-11-insider-preview-build-23541-dev-channel/)|[9/8/2023](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_23541_1.iso)|
