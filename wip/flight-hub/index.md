@@ -115,7 +115,7 @@ Please read [this blog post](https://blogs.windows.com/windows-insider/2021/06/2
 |23419|[3/22/2023](https://blogs.windows.com/windows-insider/2023/03/22/announcing-windows-11-insider-preview-build-23419/)|[3/22/2023](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_23419_1.iso)|3/22/2023
 |23403|[3/8/2023](https://blogs.windows.com/windows-insider/2023/03/08/announcing-windows-11-insider-preview-build-23403/)||
 
-## Windows 11 2022 Update (23H2)
+## Windows 11 2023 Update (23H2)
 Preview builds for updates to Windows 11, version 22H2. Windows 11, version 22H2. 
 
 >[!IMPORTANT]
@@ -141,10 +141,10 @@ Preview builds for updates to Windows 11, version 22H2. Windows 11, version 22H2
 |22621.1825*|[5/25/2023](https://blogs.windows.com/windows-insider/2023/05/25/announcing-windows-11-insider-preview-build-22621-1825-and-22631-1825/)|||
 
 ## Windows 11 2022 Update (22H2)
-Preview builds for updates to Windows 11, version 22H2. Windows 11, version 22H2 [became generally available on September, 20th, 2022](https://blogs.windows.com/windowsexperience/2022/09/20/available-today-the-windows-11-2022-update/). 
+Preview builds for updates to Windows 11, version 22H2 (Build 22621). Windows 11, version 22H2 [became generally available on September, 20th, 2022](https://blogs.windows.com/windowsexperience/2022/09/20/available-today-the-windows-11-2022-update/). 
 
 >[!IMPORTANT]
->*These builds include an enablement package to Build 22622/22623/22624/22631 for rolling out new features in the Beta Channel.
+>*These builds include an enablement package to Build 22622/22623/22624 for rolling out new features in the Beta Channel.
 
 | Build | Dev | Beta | RP | SDK | ISO |
 |-------|------|------|
@@ -233,7 +233,7 @@ Preview builds for updates to Windows 11, version 22H2. Windows 11, version 22H2
 |22449|[9/2/2021](https://blogs.windows.com/windows-insider/2021/09/02/announcing-windows-11-insider-preview-build-22449/)||||
 
 ## Windows 11 (21H2)
-Builds leading up to the [very first release of Windows 11 on October 5th, 2021](https://blogs.windows.com/windowsexperience/2021/10/04/windows-11-a-new-era-for-the-pc-begins-today/). 
+Builds leading up to the [very first release of Windows 11 on October 5th, 2021](https://blogs.windows.com/windowsexperience/2021/10/04/windows-11-a-new-era-for-the-pc-begins-today/). This release is Windows 11, version 21H2 (Build 22000).
 
 | Build | Dev | Beta | RP | SDK | ISO |
 |-------|------|------|
