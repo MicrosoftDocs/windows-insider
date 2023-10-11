@@ -85,7 +85,7 @@ Please read [this blog post](https://blogs.windows.com/windows-insider/2021/06/2
 |25115||[5/11/2022](https://blogs.windows.com/windows-insider/2022/05/11/announcing-windows-11-insider-preview-build-25115/)||
 
 ## Active Development 23000 Series Builds of Windows 11
-23000 series builds  reflect some the latest work in progress code from our engineers.
+23000 series builds reflect some the latest work in progress code from our engineers.
 
 | Build | Dev | SDK | ISO |
 |-----|------|------|------|
