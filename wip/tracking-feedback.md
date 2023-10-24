@@ -31,7 +31,7 @@ If you think others are experiencing the same issue or would like the same new f
 3. Share your feedback link with your community.
 
 > [!NOTE] 
-> If you're on an Azure Active Directory (AAD) work account, you can also see feedback from other users in your organization. [Learn more about giving and tracking feedback as a business.](./business/feedback.md).
+> If you're on a Microsoft Entra ID work account, you can also see feedback from other users in your organization. [Learn more about giving and tracking feedback as a business.](./business/feedback.md).
 
 ## Check the status of your feedback
 
@@ -58,4 +58,3 @@ If you need further help or would like to help others in the Windows Insider com
 - [Windows Insider Tech Community](https://techcommunity.microsoft.com/t5/windows-insider-program/bd-p/WindowsInsiderProgram)
 - [Windows Server Tech Community](https://techcommunity.microsoft.com/t5/windows-server-insiders/bd-p/WindowsServerInsiders)
 - [Developer forum](https://social.msdn.microsoft.com/Forums/en-US/home?forum=Win10SDKToolsIssues)
-
