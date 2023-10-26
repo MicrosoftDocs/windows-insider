@@ -408,7 +408,7 @@ The Windows 10 November 2021 Update is now available - [see details here in this
 |120.2212.1070.0|[11/30/2020](https://blogs.windows.com/windows-insider/2020/11/30/releasing-windows-feature-experience-pack-120-2212-1070-0-to-the-beta-channel/)|
 
 >[!NOTE]
->*This update will NOT be offered to commercial devices in the Release Preview Channel. These devices are devices AAD-joined and/or running the Windows 10 Enterprise edition. These customers will get Windows Feature Experience Packs delivered through “C” Preview releases which then get rolled up into monthly “B” releases. This enables commercial customers to test all the non-security fixes and features that will be rolled up into the next monthly “B” release. See this blog post for the details on the existing servicing process for Windows 10.
+>*This update will NOT be offered to commercial devices in the Release Preview Channel. These devices are devices Microsoft Entra joined and/or running the Windows 10 Enterprise edition. These customers will get Windows Feature Experience Packs delivered through “C” Preview releases which then get rolled up into monthly “B” releases. This enables commercial customers to test all the non-security fixes and features that will be rolled up into the next monthly “B” release. See this blog post for the details on the existing servicing process for Windows 10.
 
 ## Windows 10 May 2021 Update (21H1)
 
