@@ -127,7 +127,8 @@ Preview builds for updates to Windows 11, version 23H2 (Build 22631).
 
 | Build | Beta | RP |
 |-------|------|------|
-|22635.2486*|[**10/19/2023**](https://blogs.windows.com/windows-insider/2023/10/19/announcing-windows-11-insider-preview-build-22635-2486-beta-channel/)|
+|22635.2552*|[**10/26/2023**](https://blogs.windows.com/windows-insider/2023/10/26/announcing-windows-11-insider-preview-build-22635-2552-beta-channel/)|
+|22635.2486*|[10/19/2023](https://blogs.windows.com/windows-insider/2023/10/19/announcing-windows-11-insider-preview-build-22635-2486-beta-channel/)|
 |22635.2483*|[10/13/2023](https://blogs.windows.com/windows-insider/2023/10/13/announcing-windows-11-insider-preview-build-22635-2483-beta-channel/)|
 |22635.2419*|[10/10/2023](https://blogs.windows.com/windows-insider/2023/10/10/announcing-windows-11-insider-preview-build-22635-2419-beta-channel/)|
 |22631.2361||[**9/26/2023**](https://blogs.windows.com/windows-insider/2023/09/26/releasing-windows-11-version-23h2-to-the-release-preview-channel/)
