@@ -127,7 +127,8 @@ Preview builds for updates to Windows 11, version 23H2 (Build 22631).
 
 | Build | Beta | RP |
 |-------|------|------|
-|22635.2486*|[**10/19/2023**](https://blogs.windows.com/windows-insider/2023/10/19/announcing-windows-11-insider-preview-build-22635-2486-beta-channel/)|
+|22635.2552*|[**10/26/2023**](https://blogs.windows.com/windows-insider/2023/10/26/announcing-windows-11-insider-preview-build-22635-2552-beta-channel/)|
+|22635.2486*|[10/19/2023](https://blogs.windows.com/windows-insider/2023/10/19/announcing-windows-11-insider-preview-build-22635-2486-beta-channel/)|
 |22635.2483*|[10/13/2023](https://blogs.windows.com/windows-insider/2023/10/13/announcing-windows-11-insider-preview-build-22635-2483-beta-channel/)|
 |22635.2419*|[10/10/2023](https://blogs.windows.com/windows-insider/2023/10/10/announcing-windows-11-insider-preview-build-22635-2419-beta-channel/)|
 |22631.2361||[**9/26/2023**](https://blogs.windows.com/windows-insider/2023/09/26/releasing-windows-11-version-23h2-to-the-release-preview-channel/)
@@ -408,7 +409,7 @@ The Windows 10 November 2021 Update is now available - [see details here in this
 |120.2212.1070.0|[11/30/2020](https://blogs.windows.com/windows-insider/2020/11/30/releasing-windows-feature-experience-pack-120-2212-1070-0-to-the-beta-channel/)|
 
 >[!NOTE]
->*This update will NOT be offered to commercial devices in the Release Preview Channel. These devices are devices AAD-joined and/or running the Windows 10 Enterprise edition. These customers will get Windows Feature Experience Packs delivered through “C” Preview releases which then get rolled up into monthly “B” releases. This enables commercial customers to test all the non-security fixes and features that will be rolled up into the next monthly “B” release. See this blog post for the details on the existing servicing process for Windows 10.
+>*This update will NOT be offered to commercial devices in the Release Preview Channel. These devices are devices Microsoft Entra joined and/or running the Windows 10 Enterprise edition. These customers will get Windows Feature Experience Packs delivered through “C” Preview releases which then get rolled up into monthly “B” releases. This enables commercial customers to test all the non-security fixes and features that will be rolled up into the next monthly “B” release. See this blog post for the details on the existing servicing process for Windows 10.
 
 ## Windows 10 May 2021 Update (21H1)
 

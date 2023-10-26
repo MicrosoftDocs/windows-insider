@@ -40,7 +40,7 @@ If you're on Windows 10, go to [**Settings** > **Update & Security** > **Windows
 If you're on Windows 11, go to [**Settings** > **Windows Update** > **Windows Insider Program**](https://aka.ms/WIPSettings). Under **Choose your Insider settings**, you will see your current channel.
 
 
-- **Check which Microsoft Account (MSA) or Azure Active Directory (AAD) account you're using on your device.**
+- **Check which Microsoft Account (MSA) or Microsoft Entra account you're using on your device.**
 
 If you're on Windows 10, go to [**Settings** > **Update & Security** > **Windows Insider Program**](https://aka.ms/WIPSettings). Under Windows Insider account, you'll see the account it's tied to.
 
@@ -181,4 +181,3 @@ Once you leave the program, use the **Stop receiving Insider Preview builds** se
 ## Get more help
 
 If you're still having problems, make sure you report feedback in the [Feedback Hub](https://aka.ms/WIPFeedbackHub). Then, you can also share your feedback link with us on the [Windows Insider Twitter](https://twitter.com/windowsinsider) or [Answers forum](https://answers.microsoft.com/) to get more help from our team.
-
