@@ -375,7 +375,8 @@ Builds leading up to the [very first release of Windows 11 on October 5th, 2021]
 
 | Build | Release Preview | ISO 
 |------|------|------|
-|19045.3754|[**11/16/2023**](https://blogs.windows.com/windows-insider/2023/11/16/releasing-windows-10-build-19045-3754-to-release-preview-channel/)|
+|19045.3757|[**11/20/2023**](https://blogs.windows.com/windows-insider/2023/11/20/releasing-windows-10-build-19045-3757-to-release-preview-channel/)|
+|19045.3754|[11/16/2023](https://blogs.windows.com/windows-insider/2023/11/16/releasing-windows-10-build-19045-3754-to-release-preview-channel/)|
 |19045.3633|[10/17/2023](https://blogs.windows.com/windows-insider/2023/10/17/releasing-windows-10-build-19045-3633-to-release-preview-channel/)|
 |19045.3513|[9/18/2023](https://blogs.windows.com/windows-insider/2023/09/13/releasing-windows-10-19045-3513/)|
 |19045.3391|[8/10/2023](https://blogs.windows.com/windows-insider/2023/08/10/releasing-windows-10-build-19045-3391-to-release-preview-channel/)|
