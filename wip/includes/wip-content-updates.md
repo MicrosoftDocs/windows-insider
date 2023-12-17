@@ -2,6 +2,14 @@
 
 
 
+## Week of December 11, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 12/14/2023 | [Flight Hub](/windows-insider/flight-hub/index) | modified |
+
+
 ## Week of December 04, 2023
 
 
