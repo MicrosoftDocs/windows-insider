@@ -69,7 +69,7 @@ Afrikaans (South Africa), Albanian (Albania), Amharic, Armenian, Assamese, Azerb
 > [!NOTE] 
 > If you install an Insider Preview build in one channel, and you want to switch to a different channel, you might need to do a clean install of Windows and reset your Windows Insider settings on that device. [Learn more about switching channels.](./flighting.md#switching-between-channels)
 
-*Windows Insider Preview Builds may be substantially modified before they're commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here. Some product features and functionality may require additional hardware or software.*
+*Windows Insider Preview Builds may be substantially modified before they're commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here. Some product features and functionality may require additional hardware or software support.*
 
 ## Give feedback
 
