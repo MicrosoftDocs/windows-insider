@@ -1,8 +1,9 @@
 ---
+ms.date: 04/24/2018
 title: Managing preview builds across your organization 
 description: How to manage preview builds across your organization
 author: bleblanc
-manager: dougkim
+manager: bleblanc
 ms.tgt_pltfrm: na
 ms.devlang: na
 ms.author: allieshields
@@ -19,24 +20,26 @@ If you're an administrator, you can manage installations of Windows 10 Insider P
 
 ## Register your domain 
 
-First, register your Azure Active Directory domain through our website. By registering your domain, you won't have to register each device or user in the program and can set important policies around preview builds.
+First, register your Microsoft Entra domain through our website. By registering your domain, you won't have to register each device or user in the program and can set important policies around preview builds.
 
 To register your domain:
 
-* You must already be registered with the work email address tied to your Azure Active Directory (AAD) Global Administrator account. [Learn more about registering with your work email address.](./register.md)  
-* It must be in Azure Active Directory. We don't support Active Directory on premises in the Windows Insider Program.
-* Use a production tenant of AAD, not a test tenant, to make the most of the program. The AAD tenant is just used for authentication, so you won't need to worry about changes to it from the the program.
+* You must already be registered with the work email address tied to your Microsoft Entra Global Administrator account. [Learn more about registering with your work email address.](./register.md)  
+* It must be in Microsoft Entra ID. We don't support Active Directory on premises in the Windows Insider Program.
+* Use a production tenant of Microsoft Entra ID, not a test tenant, to make the most of the program. The Microsoft Entra tenant is just used for authentication, so you won't need to worry about changes to it from the the program.
 
 > [!div class="nextstepaction"]
 > [Register your domain now](https://insider.windows.com/for-business-getting-started#flight)
 
-## Join devices to Azure Active Directory
+<a name='join-devices-to-azure-active-directory'></a>
 
-To receive Insider Preview builds, devices must be joined to the same AAD domain that you used to register with the program.
+## Join devices to Microsoft Entra ID
 
-1. To join individual devices, go to [**Settings** > **Accounts** > **Access work or school**](https://aka.ms/WorkAccountSettings), select **Join this device to Azure Active Directory**, and log in with your AAD account. Get more detailed instructions for this on [Microsoft Azure Docs](/azure/active-directory/user-help/user-help-join-device-on-network).
+To receive Insider Preview builds, devices must be joined to the same Microsoft Entra domain that you used to register with the program.
 
-2. If you have your organization's devices attached to Active Directory Domain Services, you can also bulk import all of them with [Azure AD Connect](/azure/active-directory/hybrid/whatis-hybrid-identity).
+1. To join individual devices, go to [**Settings** > **Accounts** > **Access work or school**](https://aka.ms/WorkAccountSettings), select **Join this device to Microsoft Entra ID**, and log in with your Microsoft Entra account. Get more detailed instructions for this on [Microsoft Azure Docs](/azure/active-directory/user-help/user-help-join-device-on-network).
+
+2. If you have your organization's devices attached to Active Directory Domain Services, you can also bulk import all of them with [Microsoft Entra Connect](/azure/active-directory/hybrid/whatis-hybrid-identity).
  
 [Get more help with a detailed walkthrough of joining your device to your organization's network.](/azure/active-directory/user-help/user-help-join-device-on-network)
 
@@ -62,7 +65,7 @@ You can use Windows Update for Business (Group Policy or Mobile Device Managemen
 5. Go to **Computer Configuration** > **Administrative Templates** > **Windows Components** > **Windows Update** > **Windows Update for Business** and open **Manage preview builds**.
 
 6. Inside **Manage preview builds**, select the Enabled radio button, and apply. (Under the **Options** section's **Enable preview builds** dropdown, you can also prevent installation on selected devices or set it to stop Insider Preview builds once a release is public.)
-
+Note:  If you configure this setting to Disabled, the Windows Insider page settings for "Get started" will be greyed out for users so they cannot optin to Windows Insider program
 7. Go back to **Computer Configuration** > **Administrative Templates** > **Windows Components** > **Windows Update** > **Windows Update for Business** and open **Select when Preview Builds and Feature Updates are received**.
 
 8. Inside **Select when Preview Builds and Feature Updates are received**, select the Enabled radio button. Under **Options**, choose the channel you'd like to get Insider Preview builds from the dropdown. (You can also choose to defer or pause builds here.)

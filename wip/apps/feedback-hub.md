@@ -1,8 +1,9 @@
 ---
+ms.date: 09/03/2020
 title: Feedback Hub updates
 description: The latest updates to the Feedback Hub app
 author: bleblanc
-manager: dougkim
+manager: bleblanc
 ms.tgt_pltfrm: na
 ms.devlang: na
 ms.author: allieshields
@@ -65,3 +66,4 @@ This update includes:
 * Screenshots and Steps capture images can be now be easily reviewed in the app.
 * When creating a new feedback item, that feedback is auto-saved as a draft.  If the app closes unexpectedly in the middle of writing feedback, when you re-open the Feedback Hub, you’ll now get notified of the existing draft so you can easily resume.
 * You can now check for app updates from the **Settings** page in the Feedback Hub. We’ll also automatically check for app updates on app launch, and you’ll get a notification letting you know one is available.
+

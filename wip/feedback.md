@@ -1,8 +1,9 @@
 ---
+ms.date: 02/22/2022
 title: Deeper look at feedback
 description: Understanding how to give good feedback
 author: bleblanc
-manager: dougkim
+manager: bleblanc
 ms.tgt_pltfrm: na
 ms.devlang: na
 ms.author: allieshields
@@ -131,3 +132,4 @@ First, check if feedback already exists for your problem or suggestion. If it al
 
 > [!NOTE] 
 > Want to keep track of your feedback after you've submitted? [Learn more about checking the status of your feedback or how to share it with our community.](./tracking-feedback.md)
+

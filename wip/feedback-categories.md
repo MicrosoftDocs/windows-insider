@@ -1,8 +1,9 @@
 ---
+ms.date: 02/22/2022
 title: Understand feedback categories and diagnostics
 description: Know where to file your feedback and what to include
 author: bleblanc
-manager: dougkim
+manager: bleblanc
 ms.tgt_pltfrm: na
 ms.devlang: na
 ms.author: allieshields
@@ -265,4 +266,5 @@ If your device is slow to shutdown on Windows 11:
 3. Use shutdown method of your choice, preferably command line (**shutdown /r -t 0**) or **Restart** from Start menu.
 4. After rebooting, log back in, then as soon as possible open command prompt and enter: **wpr -stop ShutdownTrace.etl**
 5. Add the trace to your feedback as a file attachment.
+
 

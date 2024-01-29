@@ -1,8 +1,9 @@
 ---
+ms.date: 06/18/2018
 title: The Changelog
 description: New Windows 10 features for Insider Preview builds in the Dev Channel.
 author: bleblanc
-manager: dougkim
+manager: bleblanc
 ms.tgt_pltfrm: na
 ms.devlang: na
 ms.author: bleblanc
@@ -136,7 +137,7 @@ As of Build 21359, we’re rolling out news and interests on the taskbar to 100%
 ### Changes and Improvements
 * We have added an option under the Power menu on the Start menu to restart apps after signing in when you reboot your device. When this setting is checked, it toggles the option under Settings > Accounts > Sign-in options > Restart apps we introduced in 20H1.
 ![Power menu restart apps](https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2021/04/new-restart-apps.png "We have added an option under the Power menu on the Start menu to restart apps after signing in when you reboot your device.")
-* If you have your activity history synced across your devices through your Microsoft account (MSA), you’ll no longer have the option to upload new activity in Timeline. AAD-connected accounts won’t be impacted. To view web history, Edge and other browsers have the option to look back at recent web activities. You can also view recently used files using OneDrive and Office. **Note: Timeline and all your local activity history still remain on Windows 10.**
+* If you have your activity history synced across your devices through your Microsoft account (MSA), you’ll no longer have the option to upload new activity in Timeline. Microsoft Entra connected accounts won’t be impacted. To view web history, Edge and other browsers have the option to look back at recent web activities. You can also view recently used files using OneDrive and Office. **Note: Timeline and all your local activity history still remain on Windows 10.**
 * We’re updating the Ease of Access category in Settings to now be called Accessibility.
 * We’re updating the Ebrima font to now support characters from Bamum (Unicode block U+A6A0 to U+A6FF).
 * We’re updating the Nirmala UI font family to improve how the Chakma characters are displayed when combined based on feedback.
@@ -242,11 +243,12 @@ As you can imagine, there are a lot of icons in Windows 10 and more icons will c
 * Based on feedback, if the Shared Experiences page identifies an issue with your account connection, it will now send the notifications directly into the Action Center rather than repeated notification toasts that need to be dismissed.
 
 ### Improvements to Windows Sandbox and Microsoft Defender Application Guard (MDAG)
-Both Windows Sandbox and Microsoft Defender Application Guard [take advantage of special container technology built into Windows 10](https://docs.microsoft.com/windows/security/threat-protection/windows-sandbox/windows-sandbox-architecture). Previously, the container runtime matched the host. Starting with Build 21343, we are introducing a new runtime that is designed and optimized for container scenarios. It is lightweight and allows faster launch times for both Windows Sandbox and Microsoft Defender Application Guard.
+
+Both Windows Sandbox and Microsoft Defender Application Guard take advantage of [special container technology built into Windows 10](/windows/security/threat-protection/windows-sandbox/windows-sandbox-architecture). Previously, the container runtime matched the host. Starting with Build 21343, we are introducing a new runtime that is designed and optimized for container scenarios. It is lightweight and allows faster launch times for both Windows Sandbox and Microsoft Defender Application Guard.
 
 We do not expect this change to affect the application compatibility inside Windows Sandbox. However, this is a significant change and users may encounter some differences in behavior.
 
-Additionally, Windows Sandbox now includes the new Chromium based Microsoft Edge browser (as of [Build 21313](https://blogs.windows.com/windows-insider/2021/02/12/announcing-windows-10-insider-preview-build-21313/)). Here are instructions on [how to get started with Windows Sandbox](https://docs.microsoft.com/windows/security/threat-protection/windows-sandbox/windows-sandbox-overview).
+Additionally, Windows Sandbox now includes the new Chromium based Microsoft Edge browser (as of [Build 21313](https://blogs.windows.com/windows-insider/2021/02/12/announcing-windows-10-insider-preview-build-21313/)). Here are instructions on [how to get started with Windows Sandbox](/windows/security/threat-protection/windows-sandbox/windows-sandbox-overview).
 
 ## Build 21337
 Windows 10 Insider Preview Build 21337 was released to the Dev Channel on [3/17/2021](https://blogs.windows.com/windows-insider/2021/03/17/announcing-windows-10-insider-preview-build-21337/).
@@ -1302,7 +1304,7 @@ Windows 10 Insider Preview Build 19577 was released to the Fast ring on [3/5/202
 ### Diagnostic data changes in Settings
 As part of the Microsoft initiative to increase transparency and control over data, we’re making some changes to the Settings app and Group Policy settings that will start showing up in Windows Insider builds this month. Basic diagnostic data is now known as Required diagnostic data and Full diagnostic data is now Optional diagnostic data. If you’re a commercial customer and choose to send Optional diagnostic data, we will also be providing more granular Group Policy settings to configure the data that’s collected within your organization. We’ll publish more specifics around the new policies when we get closer to the retail release, and in the meantime, check out the Microsoft Privacy Report for more information around our data collection practices.
 
-__Note: Please make sure your device is set to “Full” before updating to Build 19577. You will not be able to take future flights if your diagnostic level is left at “Enhanced”. AAD/Domain-joined PCs set to “Enhanced” will be blocked from taking Build 19577. For more information, [see this Answers post](https://aka.ms/ddchanges).__
+__Note: Please make sure your device is set to “Full” before updating to Build 19577. You will not be able to take future flights if your diagnostic level is left at “Enhanced”. Microsoft Entra PCs / Domain-joined PCs set to “Enhanced” will be blocked from taking Build 19577. For more information, [see this Answers post](https://aka.ms/ddchanges).__
 
 ### More new icons: Windows Security
 We’re continuing to roll out updated icons to many of the built-in apps in Windows 10. In today’s build, we’ve updated the Windows Security icon to match the new design principles outlined here from the Microsoft Design Team. Unlike many of the built-in apps in Windows 10, which can be updated through the Store, the new Windows Security icon is updated through the OS and will rollout in a future Windows 10 feature update.
@@ -1391,3 +1393,4 @@ To recap the most noticeable changes included as part of this IME work:
 In this build, we want to help customers set up their device to be used by multiple people in their family. While we’re not releasing an ISO for this build, some Insiders who choose to reset their PC may see a screen during setup that asks who’ll be using the device. If they select People in my family, we’ll help them get set up in a family group once they get to their desktop, so that they’re ready to get started with all the features.
 
 If you see this new page, let us know what you think by going to Security and **Privacy** > **Child accounts and family settings** in the Feedback Hub.
+

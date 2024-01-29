@@ -1,8 +1,9 @@
 ---
+ms.date: 11/02/2018
 title: Troubleshooting 
 description: Troubleshooting tips 
 author: bleblanc
-manager: dougkim
+manager: bleblanc
 ms.tgt_pltfrm: na
 ms.devlang: na
 ms.author: bleblanc
@@ -39,7 +40,7 @@ If you're on Windows 10, go to [**Settings** > **Update & Security** > **Windows
 If you're on Windows 11, go to [**Settings** > **Windows Update** > **Windows Insider Program**](https://aka.ms/WIPSettings). Under **Choose your Insider settings**, you will see your current channel.
 
 
-- **Check which Microsoft Account (MSA) or Azure Active Directory (AAD) account you're using on your device.**
+- **Check which Microsoft Account (MSA) or Microsoft Entra account you're using on your device.**
 
 If you're on Windows 10, go to [**Settings** > **Update & Security** > **Windows Insider Program**](https://aka.ms/WIPSettings). Under Windows Insider account, you'll see the account it's tied to.
 

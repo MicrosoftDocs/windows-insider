@@ -2,7 +2,7 @@
 title: Flight Hub
 description: Flight schedules and status for Windows Insider Program
 author: bleblanc
-manager: dougkim
+manager: bleblanc
 ms.tgt_pltfrm: na
 ms.devlang: na
 ms.author: bleblanc
@@ -15,38 +15,225 @@ ms.prod: w10
 
 Welcome to Flight Hub! Use this dashboard to quickly identify the latest Windows Insider Preview Builds. You can also see SDK and ISO releases.
 
-## Active Development Builds of Windows 11
-Builds from the active development branch simply reflect the latest work in progress code from our engineers.
-
 Please read [this blog post](https://blogs.windows.com/windows-insider/2021/06/24/preparing-for-insider-preview-builds-of-windows-11/) on how the Windows 11 hardware requirements may impact flighting on your PC and your options to get started.
 
->[!NOTE]
->*These builds include an enablement package to Build 22622 for rolling out new features.
+> [!IMPORTANT]
+> We have introduced a new Canary Channel and rebooted the Dev Channel. Read about these channel changes and how they impact Windows Insiders [here in this blog post](https://blogs.windows.com/windows-insider/2023/03/06/whats-coming-for-the-windows-insider-program-in-2023/).
+
+## Active Development 25000 Series Builds of Windows 11
+25000 series builds reflect some of the latest work in progress code from our engineers.
+
+| Build | Canary | Dev | SDK | ISO |
+|-----|---------|---------|---------|---------|
+|26020|[**1/3/2024**](https://blogs.windows.com/windows-insider/2024/01/03/announcing-windows-11-insider-preview-build-26020-canary-channel/)||[**1/3/2024**](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_26020_1.iso)|
+|26016|[12/13/2023](https://blogs.windows.com/windows-insider/2023/12/13/announcing-windows-11-insider-preview-build-26016-canary-channel/)||[12/13/2023](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_26016_1.iso)|[**12/13/2023**](https://aka.ms/wipISO)
+|26010|[12/7/2023](https://blogs.windows.com/windows-insider/2023/12/07/announcing-windows-11-insider-preview-build-26010-canary-channel/)||[12/7/2023](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_26010_1.iso)|
+|26002|[11/29/2023](https://blogs.windows.com/windows-insider/2023/11/29/announcing-windows-11-insider-preview-build-26002-canary-channel/)||[11/29/2023](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_26002_1.iso)|
+|25997|[11/15/2023](https://blogs.windows.com/windows-insider/2023/11/15/announcing-windows-11-insider-preview-build-25997-canary-channel/)||[11/15/2023](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_25997_1.iso)|11/15/2023
+|25992|[11/8/2023](https://blogs.windows.com/windows-insider/2023/11/08/announcing-windows-11-insider-preview-build-25992-canary-channel/)||[11/8/2023](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_25992_1.iso)|
+|25987|[11/1/2023](https://blogs.windows.com/windows-insider/2023/11/01/announcing-windows-11-insider-preview-build-25987-canary-channel/)||[11/1/2023](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_25987_1.iso)|
+|25982|[10/25/2023](https://blogs.windows.com/windows-insider/2023/10/25/announcing-windows-11-insider-preview-build-25982-canary-channel/)||[10/25/2023](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_25982_1.iso)|
+|25977|[10/18/2023](https://blogs.windows.com/windows-insider/2023/10/18/announcing-windows-11-insider-preview-build-25977-canary-channel/)||[10/18/2023](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_25977_1.iso)|10/18/2023
+|25967|[10/5/2023](https://blogs.windows.com/windows-insider/2023/10/05/announcing-windows-11-insider-preview-build-25967-canary-channel/)||[10/5/2023](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_25967_1.iso)|
+|25951|[9/13/2023](https://blogs.windows.com/windows-insider/2023/09/13/announcing-windows-11-insider-preview-build-25951-canary-channel/)||[9/13/2023](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_25951_1.iso)|9/13/2023
+|25947|[9/7/2023](https://blogs.windows.com/windows-insider/2023/09/07/announcing-windows-11-insider-preview-build-25947-canary-channel/)||[9/7/2023](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_25947_1.iso)|
+|25941|[8/31/2023](https://blogs.windows.com/windows-insider/2023/08/31/announcing-windows-11-insider-preview-build-25941-canary-channel/)||[8/31/2023](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_25941_1.iso)|
+|25936|[8/25/2023](https://blogs.windows.com/windows-insider/2023/08/25/announcing-windows-11-insider-preview-build-25936-canary-channel/)||[8/25/2023](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_25936_1.iso)|
+|25931|[8/16/2023](https://blogs.windows.com/windows-insider/2023/08/16/announcing-windows-11-insider-preview-build-25931-canary-channel/)||[8/16/2023](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_25931_1.iso)|8/16/2023
+|25926|[8/9/2023](https://blogs.windows.com/windows-insider/2023/08/09/announcing-windows-11-insider-preview-build-25926/)||[8/9/2023](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_25926_1.iso)|
+|25921|[8/4/2023](https://blogs.windows.com/windows-insider/2023/08/04/announcing-windows-11-insider-preview-build-25921/)||[8/4/2023](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_25921_1.iso)|
+|25915|[7/27/2023](https://blogs.windows.com/windows-insider/2023/07/27/announcing-windows-11-insider-preview-build-25915/)||[7/27/2023](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_25915_1.iso)|
+|25905|[7/12/2023](https://blogs.windows.com/windows-insider/2023/07/12/announcing-windows-11-insider-preview-build-25905/)||[7/12/2023](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_25905_1.iso)|7/12/2023
+|25393|6/14/2023||[6/14/2023](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_25393_1.iso)|6/14/2023
+|25387|6/7/2023||[6/7/2023](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_25387_1.iso)|
+|25381|[6/2/2023](https://blogs.windows.com/windows-insider/2023/06/02/announcing-windows-11-insider-preview-build-25381/)||[6/2/2023](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_25381_1.iso)|
+|25375|[5/25/2023](https://blogs.windows.com/windows-insider/2023/05/25/announcing-windows-11-insider-preview-build-25375/)|||5/25/2023
+|25370|[5/22/2023](https://blogs.windows.com/windows-insider/2023/05/22/announcing-windows-11-insider-preview-build-25370/)||[5/22/2023](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_25370_1.iso)|
+|25357|[5/4/2023](https://blogs.windows.com/windows-insider/2023/05/04/announcing-windows-11-insider-preview-build-25357/)||[5/4/2023](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_25357_1.iso)|
+|25352|[4/28/2023](https://blogs.windows.com/windows-insider/2023/04/28/announcing-windows-11-insider-preview-build-25352/)||[4/28/2023](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_25352_1.iso)|
+|25346|[4/19/2023](https://blogs.windows.com/windows-insider/2023/04/19/announcing-windows-11-insider-preview-build-25346/)||[4/19/2023](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_25346_1.iso)|4/19/2023
+|25336|[4/7/2023](https://blogs.windows.com/windows-insider/2023/04/07/announcing-windows-11-insider-preview-build-25336/)||[4/7/2023**](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_25336_1.iso)|
+|25330|[3/30/2023](https://blogs.windows.com/windows-insider/2023/03/30/announcing-windows-11-insider-preview-build-25330/)||[3/30/2023](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_25330_1.iso)|
+|25324|[3/23/2023](https://blogs.windows.com/windows-insider/2023/03/23/announcing-windows-11-insider-preview-build-25324/)||[3/23/2023](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_25324_1.iso)|3/23/2023
+|25314|[3/8/2023](https://blogs.windows.com/windows-insider/2023/03/08/announcing-windows-11-insider-preview-build-25314/)||[3/8/2023](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_25314_1.iso)|
+|25309||[3/2/2023](https://blogs.windows.com/windows-insider/2023/03/02/announcing-windows-11-insider-preview-build-25309/)|[3/2/2023](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_25309_1.iso)|
+|25300||[2/15/2023](https://blogs.windows.com/windows-insider/2023/02/15/announcing-windows-11-insider-preview-build-25300/)|[2/15/2023](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_25300_1.iso)|2/15/2023
+|25295||[2/9/2023](https://blogs.windows.com/windows-insider/2023/02/09/announcing-windows-11-insider-preview-build-25295/)|[2/9/2023](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_25295_1.iso)|
+|25290||[2/1/2023](https://blogs.windows.com/windows-insider/2023/02/01/announcing-windows-11-insider-preview-build-25290/)|[2/1/2023](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_25290_1.iso)|
+|25284||[1/25/2023](https://blogs.windows.com/windows-insider/2023/01/25/announcing-windows-11-insider-preview-build-25284/)|[1/25/2023](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_25284_1.iso)|
+|25281||[1/19/2023](https://blogs.windows.com/windows-insider/2023/01/19/announcing-windows-11-insider-preview-build-25281/)|[1/19/2023](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_25281_1.iso)|
+|25276||[1/12/2023](https://blogs.windows.com/windows-insider/2023/01/12/announcing-windows-11-insider-preview-build-25276/)|[1/12/2023](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_25276_1.iso)|1/12/2023
+|25272||[1/5/2023](https://blogs.windows.com/windows-insider/2023/01/05/announcing-windows-11-insider-preview-build-25272/)|[1/5/2023](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_25272_1.iso)|
+|25267||[12/14/2022](https://blogs.windows.com/windows-insider/2022/12/14/announcing-windows-11-insider-preview-build-25267/)|[12/14/2022](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_25267_1.iso)|12/14/2022
+|25262||[12/9/2022](https://blogs.windows.com/windows-insider/2022/12/09/announcing-windows-11-insider-preview-build-25262/)|[12/9/2022](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_25262_1.iso)|
+|25252||[11/28/2022](https://blogs.windows.com/windows-insider/2022/11/28/announcing-windows-11-insider-preview-build-25252/)|[11/30/2022](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_25252_1.iso)||
+|25247||[11/18/2022](https://blogs.windows.com/windows-insider/2022/11/18/announcing-windows-11-insider-preview-build-25247/)|[11/18/2022](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_25247_1.iso)|11/18/2022
+|25236||[11/2/2022](https://blogs.windows.com/windows-insider/2022/11/02/announcing-windows-11-insider-preview-build-25236/)|[11/2/2022](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_25236_1.iso)|
+|25231||[10/27/2022](https://blogs.windows.com/windows-insider/2022/10/27/announcing-windows-11-insider-preview-build-25231/)|[10/27/2022](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_25231_1.iso)|
+|25227||[10/19/2022](https://blogs.windows.com/windows-insider/2022/10/19/announcing-windows-11-insider-preview-build-25227/)|[10/19/2022](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_25227_1.iso)|10/19/2022
+|25217||[10/6/2022](https://blogs.windows.com/windows-insider/2022/10/06/announcing-windows-11-insider-preview-build-25217/)|[10/6/2022](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_25217_1.iso)|
+|25211||[9/29/2022](https://blogs.windows.com/windows-insider/2022/09/29/announcing-windows-11-insider-preview-build-25211/)|[9/29/2022](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_25211_1.iso)|
+|25206||[9/21/2022](https://blogs.windows.com/windows-insider/2022/09/21/announcing-windows-11-insider-preview-build-25206/)|[9/21/2022](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_25206_1.iso)|
+|25201||[9/14/2022](https://blogs.windows.com/windows-insider/2022/09/14/announcing-windows-11-insider-preview-build-25201/)|[9/14/2022](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_25201_1.iso)|9/14/2022
+|25197||[9/8/2022](https://blogs.windows.com/windows-insider/2022/09/08/announcing-windows-11-insider-preview-build-25197/)|[9/8/2022](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_25197_1.iso)|9/9/2022
+|25193||[9/1/2022](https://blogs.windows.com/windows-insider/2022/09/01/announcing-windows-11-insider-preview-build-25193/)|[9/1/2022](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_25193_1.iso)|
+|25188||[8/24/2022](https://blogs.windows.com/windows-insider/2022/08/24/announcing-windows-11-insider-preview-build-25188/)|[8/17/2022](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_25188_1.iso)|
+|25182||[8/17/2022](https://blogs.windows.com/windows-insider/2022/08/17/announcing-windows-11-insider-preview-build-25182/)|[8/17/2022](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_25182_1.iso)|
+|25179||[8/10/2022](https://blogs.windows.com/windows-insider/2022/08/10/announcing-windows-11-insider-preview-build-25179/)|[8/10/2022](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_25179_1.iso)|8/10/2022
+|25174||[8/3/2022](https://blogs.windows.com/windows-insider/2022/08/03/announcing-windows-11-insider-preview-build-25174/)|[8/3/2022](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_25174_1.iso)|
+|25169||[7/28/2022](https://blogs.windows.com/windows-insider/2022/07/28/announcing-windows-11-insider-preview-build-25169/)|[7/28/2022](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_25169_1.iso)|
+|25163||[7/20/2022](https://blogs.windows.com/windows-insider/2022/07/20/announcing-windows-11-insider-preview-build-25163/)|[7/20/2022](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_25163_1.iso)|
+|25158||[7/13/2022](https://blogs.windows.com/windows-insider/2022/07/13/announcing-windows-11-insider-preview-build-25158/)|[7/13/2022](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_25158_1.iso)|7/13/2022
+|25151||[6/29/2022](https://blogs.windows.com/windows-insider/2022/06/29/announcing-windows-11-insider-preview-build-25151/)|[6/29/2022](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_25151_1.iso)|
+|25145||[6/22/2022](https://blogs.windows.com/windows-insider/2022/06/22/announcing-windows-11-insider-preview-build-25145/)|[6/22/2022](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_25145_1.iso)|
+|25140||[6/15/2022](https://blogs.windows.com/windows-insider/2022/06/15/announcing-windows-11-insider-preview-build-25140/)|[6/15/2022](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_25140_1.iso)|6/15/2022
+|25136||[6/9/2022](https://blogs.windows.com/windows-insider/2022/06/09/announcing-windows-11-insider-preview-build-25136/)|[6/9/2022](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_25136_1.iso)|
+|25131||[6/2/2022](https://blogs.windows.com/windows-insider/2022/06/02/announcing-windows-11-insider-preview-build-25131/)|[6/2/2022](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_25131_1.iso)|
+|25126||[5/25/2022](https://blogs.windows.com/windows-insider/2022/05/25/announcing-windows-11-insider-preview-build-25126/)||
+|25120||[5/18/2022](https://blogs.windows.com/windows-insider/2022/05/18/announcing-windows-11-insider-preview-build-25120/)||5/18/2022
+|25115||[5/11/2022](https://blogs.windows.com/windows-insider/2022/05/11/announcing-windows-11-insider-preview-build-25115/)||
+
+## Active Development 23000 Series Builds of Windows 11
+23000 series builds reflect some the latest work in progress code from our engineers.
+
+| Build | Dev | SDK | ISO |
+|-----|------|------|------|
+|23615|[**1/11/2024**](https://blogs.windows.com/windows-insider/2024/01/11/announcing-windows-11-insider-preview-build-23615-dev-channel/)|[**1/11/2024**](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_23615_1.iso)|[**1/11/2024**](https://aka.ms/wipISO)
+|23612|[1/3/2024](https://blogs.windows.com/windows-insider/2024/01/03/announcing-windows-11-insider-preview-build-23612-dev-channel/)|[1/3/2024](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_23612_1.iso)|
+|23606|[12/13/2023](https://blogs.windows.com/windows-insider/2023/12/13/announcing-windows-11-insider-preview-build-23606-dev-channel/)|[12/13/2023](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_23606_1.iso)|12/13/2023
+|23601|[12/7/2023](https://blogs.windows.com/windows-insider/2023/12/07/announcing-windows-11-insider-preview-build-23601-dev-channel/)|[12/7/2023](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_23601_2.iso)|
+|23595|[11/29/2023**](https://blogs.windows.com/windows-insider/2023/11/29/announcing-windows-11-insider-preview-build-23595-dev-channel/)|[11/29/2023](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_23595_1.iso)|
+|23590|[11/15/2023](https://blogs.windows.com/windows-insider/2023/11/08/announcing-windows-11-insider-preview-build-23585-dev-channel/)|[11/15/2023](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_23590_1.iso)|11/15/2023
+|23585|[11/8/2023](https://blogs.windows.com/windows-insider/2023/11/08/announcing-windows-11-insider-preview-build-23585-dev-channel/)|[11/8/2023](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_23585_1.iso)|
+|23580|[11/1/2023](https://blogs.windows.com/windows-insider/2023/11/01/announcing-windows-11-insider-preview-build-23580-dev-channel/)|[11/1/2023](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_23580_1.iso)|
+|23575|[10/27/2023](https://blogs.windows.com/windows-insider/2023/10/27/announcing-windows-11-insider-preview-build-23575-dev-channel/)||
+|23570|[10/18/2023](https://blogs.windows.com/windows-insider/2023/10/18/announcing-windows-11-insider-preview-build-23570-dev-channel/)|[10/18/2023](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_23570_1.iso)|
+|23565|[10/11/2023](https://blogs.windows.com/windows-insider/2023/10/11/announcing-windows-11-insider-preview-build-23565-dev-channel/)|[10/11/2023](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_23565_1.iso)|10/11/2023
+|23560|[10/4/2023](https://blogs.windows.com/windows-insider/2023/10/04/announcing-windows-11-insider-preview-build-23560-dev-channel/)||
+|23555|[9/28/2023](https://blogs.windows.com/windows-insider/2023/09/28/announcing-windows-11-insider-preview-build-23555-dev-channel/)|[9/28/2023](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_23555_1.iso)|
+|23550|[9/22/2023](https://blogs.windows.com/windows-insider/2023/09/22/announcing-windows-11-insider-preview-build-23550-dev-channel/)|[9/22/2023](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_23550_1.iso)|
+|23545|[9/13/2023](https://blogs.windows.com/windows-insider/2023/09/13/announcing-windows-11-insider-preview-build-23545-dev-channel/)|[9/13/2023](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_23545_1.iso)|9/13/2023
+|23541|[9/8/2023](https://blogs.windows.com/windows-insider/2023/09/08/announcing-windows-11-insider-preview-build-23541-dev-channel/)|[9/8/2023](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_23541_1.iso)|
+|23536|[8/31/2023](https://blogs.windows.com/windows-insider/2023/08/31/announcing-windows-11-insider-preview-build-23536-dev-channel/)|[8/31/2023](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_23536_1.iso)|
+|23531|[8/25/2023](https://blogs.windows.com/windows-insider/2023/08/25/announcing-windows-11-insider-preview-build-23531-dev-channel/)|[8/25/2023](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_23531_1.iso)|
+|23526|[8/18/2023](https://blogs.windows.com/windows-insider/2023/08/18/announcing-windows-11-insider-preview-build-23526-dev-channel/)|[8/18/2023](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_23526_1.iso)|8/18/2023
+|23521|[8/10/2023](https://blogs.windows.com/windows-insider/2023/08/10/announcing-windows-11-insider-preview-build-23521/)|[8/10/2023](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_23521_1.iso)|
+|23516|[8/2/2023](https://blogs.windows.com/windows-insider/2023/08/02/announcing-windows-11-insider-preview-build-23516/)|[8/2/2023](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_23516_1.iso)|
+|23511|[7/27/2023](https://blogs.windows.com/windows-insider/2023/07/27/announcing-windows-11-insider-preview-build-23511/)|[7/27/2023](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_23511_1.iso)|
+|23506|[7/19/2023](https://blogs.windows.com/windows-insider/2023/07/19/announcing-windows-11-insider-preview-build-23506/)|[7/19/2023](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_23506_1.iso)|7/19/2023
+|23493|[6/29/2023](https://blogs.windows.com/windows-insider/2023/06/29/announcing-windows-11-insider-preview-build-23493/)||
+|23486|[6/22/2023](https://blogs.windows.com/windows-insider/2023/06/22/announcing-windows-11-insider-preview-build-23486/)|[6/22/2023](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_23486_1.iso)|
+|23481|[6/14/2023](https://blogs.windows.com/windows-insider/2023/06/14/announcing-windows-11-insider-preview-build-23481/)|[6/14/2023](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_23481_1.iso)|6/14/2023
+|23475|[6/7/2023](https://blogs.windows.com/windows-insider/2023/06/07/announcing-windows-11-insider-preview-build-23475/)|[6/7/2023](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_23475_1.iso)|
+|23471|[6/1/2023](https://blogs.windows.com/windows-insider/2023/06/01/announcing-windows-11-insider-preview-build-23471/)|[6/1/2023](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_23471_1.iso)|
+|23466|[5/24/2023](https://blogs.windows.com/windows-insider/2023/05/24/announcing-windows-11-insider-preview-build-23466/)|[5/24/2023](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_23466_1.iso)|5/24/2023
+|23451|[5/4/2023](https://blogs.windows.com/windows-insider/2023/05/04/announcing-windows-11-insider-preview-build-23451/)|[5/4/2023](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_23451_1.iso)|
+|23440|[4/19/2023](https://blogs.windows.com/windows-insider/2023/04/19/announcing-windows-11-insider-preview-build-23440/)|[4/19/2023](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_23440_1.iso)|4/19/2023
+|23435|[4/14/2023](https://blogs.windows.com/windows-insider/2023/04/14/announcing-windows-11-insider-preview-build-23435/)|[4/14/2023](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_23435_1.iso)|
+|23430|[4/7/2023](https://blogs.windows.com/windows-insider/2023/04/07/announcing-windows-11-insider-preview-build-23430/)|[4/7/2023](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_23430_1.iso)|
+|23424|[3/30/2023](https://blogs.windows.com/windows-insider/2023/03/30/announcing-windows-11-insider-preview-build-23424/)|[3/30/2023](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_23424_1.iso)|
+|23419|[3/22/2023](https://blogs.windows.com/windows-insider/2023/03/22/announcing-windows-11-insider-preview-build-23419/)|[3/22/2023](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_23419_1.iso)|3/22/2023
+|23403|[3/8/2023](https://blogs.windows.com/windows-insider/2023/03/08/announcing-windows-11-insider-preview-build-23403/)||
+
+## Windows 11 2023 Update (23H2)
+Preview builds for updates to Windows 11, version 23H2 (Build 22631). 
+
+>[!IMPORTANT]
+>*These builds include represent an enablement package to Build 22635 for the Beta Channel ONLY. It should not be assumed that this build number will be used beyond the Beta Channel.
+
+| Build | Beta | RP |
+|-------|------|------|
+|22631.3078||[**1/11/2024**](https://blogs.windows.com/windows-insider/2024/01/11/releasing-windows-11-builds-22621-3078-and-22631-3078-to-the-release-preview-channel/)
+|22635.3061*|[**1/11/2024**](https://blogs.windows.com/windows-insider/2024/01/11/announcing-windows-11-insider-preview-build-22635-3061-beta-channel/)|
+|22635.2921*|[1/4/2024](https://blogs.windows.com/windows-insider/2024/01/04/announcing-windows-11-insider-preview-build-22635-2921-beta-channel/)|
+|22635.2915*|[12/14/2023](https://blogs.windows.com/windows-insider/2023/12/14/announcing-windows-11-insider-preview-build-22635-2915-beta-channel/)|
+|22635.2850*|[12/8/2023](https://blogs.windows.com/windows-insider/2023/12/08/announcing-windows-11-insider-preview-build-22635-2850-beta-channel/)|
+|22635.2841*|[12/4/2023](https://blogs.windows.com/windows-insider/2023/12/04/announcing-windows-11-insider-preview-build-22635-2841-beta-channel/)|
+|22631.2787||[11/16/2023](https://blogs.windows.com/windows-insider/2023/11/16/releasing-windows-11-builds-22621-2787-and-22631-2787-to-the-release-preview-channel/)
+|22635.2776*|[11/28/2023](https://blogs.windows.com/windows-insider/2023/11/28/announcing-windows-11-insider-preview-build-22635-2776-beta-channel/)|
+|22635.2771*|[11/16/2023](https://blogs.windows.com/windows-insider/2023/11/16/announcing-windows-11-insider-preview-build-22635-2771-beta-channel/)|
+|22635.2700*|[11/2/2023](https://blogs.windows.com/windows-insider/2023/11/02/announcing-windows-11-insider-preview-build-22635-2700-beta-channel/)|
+|22635.2552*|[10/26/2023](https://blogs.windows.com/windows-insider/2023/10/26/announcing-windows-11-insider-preview-build-22635-2552-beta-channel/)|
+|22631.2506||[10/26/2023](https://blogs.windows.com/windows-insider/2023/10/26/releasing-windows-11-build-22631-2506-to-the-release-preview-channel/)
+|22635.2486*|[10/19/2023](https://blogs.windows.com/windows-insider/2023/10/19/announcing-windows-11-insider-preview-build-22635-2486-beta-channel/)|
+|22635.2483*|[10/13/2023](https://blogs.windows.com/windows-insider/2023/10/13/announcing-windows-11-insider-preview-build-22635-2483-beta-channel/)|
+|22635.2419*|[10/10/2023](https://blogs.windows.com/windows-insider/2023/10/10/announcing-windows-11-insider-preview-build-22635-2419-beta-channel/)|
+|22631.2361||[9/26/2023](https://blogs.windows.com/windows-insider/2023/09/26/releasing-windows-11-version-23h2-to-the-release-preview-channel/)
+|22631.2338|[9/12/2023](https://blogs.windows.com/windows-insider/2023/09/12/announcing-windows-11-insider-preview-build-22621-2338-and-22631-2338-beta-channel/)|
+|22631.2338|[9/12/2023](https://blogs.windows.com/windows-insider/2023/09/12/announcing-windows-11-insider-preview-build-22621-2338-and-22631-2338-beta-channel/)|
+|22631.2271|[9/6/2023](https://blogs.windows.com/windows-insider/2023/09/06/announcing-windows-11-insider-preview-build-22621-2271-and-22631-2271-beta-channel/)|
+|22631.2265|[8/31/2023](https://blogs.windows.com/windows-insider/2023/08/31/announcing-windows-11-insider-preview-build-22621-2265-and-22631-2265-beta-channel/)|
+|22631.2262|[8/24/2023](https://blogs.windows.com/windows-insider/2023/08/24/announcing-windows-11-insider-preview-build-22621-2262-and-22631-2262-beta-channel/)|
+|22631.2199|[8/18/2023](https://blogs.windows.com/windows-insider/2023/08/18/announcing-windows-11-insider-preview-build-22621-2199-and-22631-2199-beta-channel/)|
+|22631.2191|[8/10/2023](https://blogs.windows.com/windows-insider/2023/08/10/announcing-windows-11-insider-preview-build-22621-2191-and-22631-2191/)|
+|22631.2129|[8/2/2023](https://blogs.windows.com/windows-insider/2023/08/02/announcing-windows-11-insider-preview-build-22621-2129-and-22631-2129/)|
+|22631.2115|[7/26/2023](https://blogs.windows.com/windows-insider/2023/07/26/announcing-windows-11-insider-preview-build-22621-2115-and-22631-2115/)|
+|22631.2050|[7/21/2023](https://blogs.windows.com/windows-insider/2023/07/21/announcing-windows-11-insider-preview-build-22621-2050-and-22631-2050/)|
+|22631.2048|[7/13/2023](https://blogs.windows.com/windows-insider/2023/07/13/announcing-windows-11-insider-preview-build-22621-2048-and-22631-2048/)|
+|22631.1972|[6/29/2023](https://blogs.windows.com/windows-insider/2023/06/29/announcing-windows-11-insider-preview-build-22621-1972-and-22631-1972/)|
+|22631.1906|[6/22/2023](https://blogs.windows.com/windows-insider/2023/06/22/announcing-windows-11-insider-preview-build-22621-1906-and-22631-1906/)|
+|22631.1900|[6/15/2023](https://blogs.windows.com/windows-insider/2023/06/15/announcing-windows-11-insider-preview-build-22621-1900-and-22631-1900/)|
+|22631.1835|[6/7/2023](https://blogs.windows.com/windows-insider/2023/06/08/announcing-windows-11-insider-preview-build-22621-1835-and-22631-1835/)|
+|22631.1830|[6/1/2023](https://blogs.windows.com/windows-insider/2023/06/01/announcing-windows-11-insider-preview-build-22621-1830-and-22631-1830/)|
+|22631.1825|[5/25/2023](https://blogs.windows.com/windows-insider/2023/05/25/announcing-windows-11-insider-preview-build-22621-1825-and-22631-1825/)|
+
+## Windows 11 2022 Update (22H2)
+Preview builds for updates to Windows 11, version 22H2. Windows 11, version 22H2 (Build 22621) [became generally available on September, 20th, 2022](https://blogs.windows.com/windowsexperience/2022/09/20/available-today-the-windows-11-2022-update/). 
+
+>[!IMPORTANT]
+>*These builds include an enablement package to Build 22622/22623/22624 for rolling out new features in the Beta Channel.
 
 | Build | Dev | Beta | RP | SDK | ISO |
 |-------|------|------|
-|25197|[**9/8/2022**](https://blogs.windows.com/windows-insider/2022/09/08/announcing-windows-11-insider-preview-build-25197/)|||[**9/8/2022**](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_25197_1.iso)|[**9/9/2022**](https://aka.ms/wipISO)
-|25193|[9/1/2022](https://blogs.windows.com/windows-insider/2022/09/01/announcing-windows-11-insider-preview-build-25193/)|||[9/1/2022](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_25193_1.iso)|
-|25188|[8/24/2022](https://blogs.windows.com/windows-insider/2022/08/24/announcing-windows-11-insider-preview-build-25188/)|||[8/17/2022](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_25188_1.iso)|
-|25182|[8/17/2022](https://blogs.windows.com/windows-insider/2022/08/17/announcing-windows-11-insider-preview-build-25182/)|||[8/17/2022](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_25182_1.iso)|
-|25179|[8/10/2022](https://blogs.windows.com/windows-insider/2022/08/10/announcing-windows-11-insider-preview-build-25179/)|||[8/10/2022](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_25179_1.iso)|8/10/2022
-|25174|[8/3/2022](https://blogs.windows.com/windows-insider/2022/08/03/announcing-windows-11-insider-preview-build-25174/)|||[8/3/2022](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_25174_1.iso)|
-|25169|[7/28/2022](https://blogs.windows.com/windows-insider/2022/07/28/announcing-windows-11-insider-preview-build-25169/)|||[7/28/2022](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_25169_1.iso)|
-|25163|[7/20/2022](https://blogs.windows.com/windows-insider/2022/07/20/announcing-windows-11-insider-preview-build-25163/)|||[7/20/2022](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_25163_1.iso)|
-|25158|[7/13/2022](https://blogs.windows.com/windows-insider/2022/07/13/announcing-windows-11-insider-preview-build-25158/)|||[7/13/2022](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_25158_1.iso)|7/13/2022
-|25151|[6/29/2022](https://blogs.windows.com/windows-insider/2022/06/29/announcing-windows-11-insider-preview-build-25151/)|||[6/29/2022](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_25151_1.iso)|
-|25145|[6/22/2022](https://blogs.windows.com/windows-insider/2022/06/22/announcing-windows-11-insider-preview-build-25145/)|||[6/22/2022](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_25145_1.iso)|
-|25140|[6/15/2022](https://blogs.windows.com/windows-insider/2022/06/15/announcing-windows-11-insider-preview-build-25140/)|||[6/15/2022](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_25140_1.iso)|6/15/2022
-|25136|[6/9/2022](https://blogs.windows.com/windows-insider/2022/06/09/announcing-windows-11-insider-preview-build-25136/)|||[6/9/2022](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_25136_1.iso)|
-|25131|[6/2/2022](https://blogs.windows.com/windows-insider/2022/06/02/announcing-windows-11-insider-preview-build-25131/)|||[6/2/2022](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_25131_1.iso)|
-|25126|[5/25/2022](https://blogs.windows.com/windows-insider/2022/05/25/announcing-windows-11-insider-preview-build-25126/)||||
-|25120|[5/18/2022](https://blogs.windows.com/windows-insider/2022/05/18/announcing-windows-11-insider-preview-build-25120/)||||5/18/2022
-|25115|[5/11/2022](https://blogs.windows.com/windows-insider/2022/05/11/announcing-windows-11-insider-preview-build-25115/)||||
-|22621.598*||[**9/12/2022**](https://blogs.windows.com/windows-insider/2022/09/12/announcing-windows-11-insider-preview-build-22621-598-and-22622-598/)|||
+|22621.3078|||[**1/11/2024**](https://blogs.windows.com/windows-insider/2024/01/11/releasing-windows-11-builds-22621-3078-and-22631-3078-to-the-release-preview-channel/)||
+|22621.2787|||[11/16/2023](https://blogs.windows.com/windows-insider/2023/11/16/releasing-windows-11-builds-22621-2787-and-22631-2787-to-the-release-preview-channel/)||
+|22621.2500|||[10/12/2023](https://blogs.windows.com/windows-insider/2023/10/12/releasing-windows-11-build-22621-2500-to-the-release-preview-channel/)||
+|22621.2361|||[9/22/2023](https://blogs.windows.com/windows-insider/2023/09/22/rolling-out-new-features-for-windows-11-22h2-to-the-release-preview-channel/)||
+|22621.2359|||[9/14/2023](https://blogs.windows.com/windows-insider/2023/09/14/releasing-windows-11-build-22621-2359-to-the-release-preview-channel/)||
+|22621.2213|||[8/10/2023](https://blogs.windows.com/windows-insider/2023/08/10/releasing-windows-11-build-22621-2213-to-the-release-preview-channel/)||
+|22621.2066|||[7/13/2023](https://blogs.windows.com/windows-insider/2023/07/13/releasing-windows-11-build-22621-2066-to-the-release-preview-channel/)||
+|22621.1926|||[6/20/2023](https://blogs.windows.com/windows-insider/2023/06/20/releasing-windows-11-build-22621-1926-to-the-release-preview-channel/)||
+|22621.1776|||[5/11/2023](https://blogs.windows.com/windows-insider/2023/05/11/releasing-windows-11-build-22621-1776-to-the-release-preview-channel/)||
+|22621.1755*||[5/9/2023](https://blogs.windows.com/windows-insider/2023/05/09/announcing-windows-11-insider-preview-build-22621-1755-and-22624-1755/)|||
+|22621.1690*||[5/4/2023](https://blogs.windows.com/windows-insider/2023/05/04/announcing-windows-11-insider-preview-build-22621-1690-and-22624-1690/)|||
+|22621.1680*||[4/27/2023](https://blogs.windows.com/windows-insider/2023/04/27/announcing-windows-11-insider-preview-build-22621-1680-and-22624-1680/)|||
+|22621.1631|||[4/13/2023](https://blogs.windows.com/windows-insider/2023/04/13/releasing-windows-11-build-22621-1631-to-the-release-preview-channel/)||
+|22621.1616*||[4/20/2023](https://blogs.windows.com/windows-insider/2023/04/20/announcing-windows-11-insider-preview-build-22621-1616-and-22624-1616/)|||
+|22621.1610*||[4/13/2023](https://blogs.windows.com/windows-insider/2023/04/13/announcing-windows-11-insider-preview-build-22621-1610-and-22624-1610/)|||
+|22621.1546*||[4/7/2023](https://blogs.windows.com/windows-insider/2023/04/07/announcing-windows-11-insider-preview-build-22621-1546-and-22624-1546/)|||
+|22621.1537*||[3/31/2023](https://blogs.windows.com/windows-insider/2023/03/31/announcing-windows-11-insider-preview-build-22621-1537-and-22624-1537)|||
+|22621.1483|||[3/21/2023](https://blogs.windows.com/windows-insider/2023/03/21/releasing-windows-11-build-22621-1483-to-the-release-preview-channel/)||
+|22621.1470*||[3/23/2023](https://blogs.windows.com/windows-insider/2023/03/23/announcing-windows-11-insider-preview-build-22621-1470-and-22624-1470/)|||
+|22621.1465*||[3/16/2023](https://blogs.windows.com/windows-insider/2023/03/16/announcing-windows-11-insider-preview-build-22621-1465-and-22624-1465/)|||
+|22621.1391*||[3/2/2023](https://blogs.windows.com/windows-insider/2023/03/02/announcing-windows-11-insider-preview-build-22621-1391-and-22624-1391/)|||
+|22621.1343|||[2/21/2023](https://blogs.windows.com/windows-insider/2023/02/21/releasing-windows-11-build-22621-1343-to-the-release-preview-channel/)||
+|22621.1325*||[2/16/2023](https://blogs.windows.com/windows-insider/2023/02/16/announcing-windows-11-insider-preview-build-22621-1325-and-22623-1325/)|||
+|22621.1255*||[2/9/2023](https://blogs.windows.com/windows-insider/2023/02/09/announcing-windows-11-insider-preview-build-22621-1255-and-22623-1255/)|||
+|22621.1250*||[2/2/2023](https://blogs.windows.com/windows-insider/2023/02/02/announcing-windows-11-insider-preview-build-22621-1250-and-22623-1250/)|||
+|22621.1245*||[1/26/2023](https://blogs.windows.com/windows-insider/2023/01/26/announcing-windows-11-insider-preview-build-22621-1245-and-22623-1245/)|||
+|22621.1192|||[1/17/2023](https://blogs.windows.com/windows-insider/2023/01/17/releasing-windows-11-build-22621-1192-to-the-release-preview-channel/)||
+|22621.1180*||[1/19/2023](https://blogs.windows.com/windows-insider/2023/01/19/announcing-windows-11-insider-preview-build-22621-1180-and-22623-1180/)|||
+|22621.1095*||[1/5/2023](https://blogs.windows.com/windows-insider/2023/01/05/announcing-windows-11-insider-preview-build-22621-1095-and-22623-1095/)|||
+|22621.1037*||[12/15/2022](https://blogs.windows.com/windows-insider/2022/12/15/announcing-windows-11-insider-preview-build-22621-1037-and-22623-1037/)|||
+|22621.1028*||[12/6/2022](https://blogs.windows.com/windows-insider/2022/12/06/announcing-windows-11-insider-preview-build-22621-1028-and-22623-1028/)|||
+|22621.1020*||[11/28/2022](https://blogs.windows.com/windows-insider/2022/11/28/announcing-windows-11-insider-preview-build-22621-1020-and-22623-1020/)|||
+|22621.898|||[11/17/2022](https://blogs.windows.com/windows-insider/2022/11/17/releasing-windows-11-build-22621-898-to-the-release-preview-channel/)||
+|22621.891*||[11/10/2022](https://blogs.windows.com/windows-insider/2022/11/10/announcing-windows-11-insider-preview-build-22621-891-and-22623-891/)|||
+|22621.885*||[11/7/2022](https://blogs.windows.com/windows-insider/2022/11/07/announcing-windows-11-insider-preview-build-22621-885-and-22623-885/)|||
+|22621.875*||[10/27/2022](https://blogs.windows.com/windows-insider/2022/10/27/announcing-windows-11-insider-preview-build-22621-875-and-22623-875/)|||
+|22621.870*||[10/20/2022](https://blogs.windows.com/windows-insider/2022/10/20/announcing-windows-11-insider-preview-build-22621-870-and-22623-870/)|||
+|22621.754|||[10/19/2022](https://blogs.windows.com/windows-insider/2022/10/19/releasing-windows-11-build-22621-754-to-the-release-preview-channel/)||
+|22621.746*||[10/13/2022](https://blogs.windows.com/windows-insider/2022/10/13/announcing-windows-11-insider-preview-build-22621-746-and-22623-746/)|||
+|22621.741*||[10/10/2022](https://blogs.windows.com/windows-insider/2022/10/10/announcing-windows-11-insider-preview-build-22621-741-and-22623-741/)|||
+|22621.730*||[9/29/2022](https://blogs.windows.com/windows-insider/2022/09/29/announcing-windows-11-insider-preview-build-22621-730-and-22623-730/)|||
+|22621.675|||[10/11/2022](https://blogs.windows.com/windows-insider/2022/10/11/releasing-windows-11-build-22621-675-to-the-release-preview-channel/)||
+|22621.607|||[9/22/2022](https://blogs.windows.com/windows-insider/2022/09/22/releasing-windows-11-build-22621-607-to-the-release-preview-channel/)||
+|22621.601*||[9/21/2022](https://blogs.windows.com/windows-insider/2022/09/21/announcing-windows-11-insider-preview-build-22621-601-and-22622-601/)|||
+|22621.598*||[9/12/2022](https://blogs.windows.com/windows-insider/2022/09/12/announcing-windows-11-insider-preview-build-22621-598-and-22622-598/)|||
 |22621.590*||[9/1/2022](https://blogs.windows.com/windows-insider/2022/09/01/announcing-windows-11-insider-preview-build-22621-590-and-22622-590/)|||
 |22621.586*||[8/24/2022](https://blogs.windows.com/windows-insider/2022/08/24/announcing-windows-11-insider-preview-build-22621-586-and-22622-586/)|||
 |22621.575*||[8/10/2022](https://blogs.windows.com/windows-insider/2022/08/10/announcing-windows-11-insider-preview-build-22621-575-and-22622-575/)|||
-|22621.457|||[**8/23/2022**](https://blogs.windows.com/windows-insider/2022/08/23/releasing-windows-11-build-22621-457-to-the-release-preview-channel/)||
+|22621.457|||[8/23/2022](https://blogs.windows.com/windows-insider/2022/08/23/releasing-windows-11-build-22621-457-to-the-release-preview-channel/)||
 |22621.450*||[8/2/2022](https://blogs.windows.com/windows-insider/2022/08/02/announcing-windows-11-insider-preview-build-22621-450-and-22622-450/)|||
 |22621.440||[7/28/2022](https://blogs.windows.com/windows-insider/2022/07/28/announcing-windows-11-insider-preview-build-22621-440-and-22622-440/)|||
 |22621.436*||[7/19/2022](https://blogs.windows.com/windows-insider/2022/07/19/announcing-windows-11-insider-preview-build-22621-436-and-22622-436/)|||
@@ -85,12 +272,24 @@ Please read [this blog post](https://blogs.windows.com/windows-insider/2021/06/2
 |22454|[9/9/2021](https://blogs.windows.com/windows-insider/2021/09/09/announcing-windows-11-insider-preview-build-22454/)||||9/9/2021
 |22449|[9/2/2021](https://blogs.windows.com/windows-insider/2021/09/02/announcing-windows-11-insider-preview-build-22449/)||||
 
-## Windows 11 October 2021 Release
-Builds leading up to the very first release of Windows 11 on Oct. 5th. 
+## Windows 11 (21H2)
+Builds leading up to the [very first release of Windows 11 on October 5th, 2021](https://blogs.windows.com/windowsexperience/2021/10/04/windows-11-a-new-era-for-the-pc-begins-today/). This release is Windows 11, version 21H2 (Build 22000).
 
 | Build | Dev | Beta | RP | SDK | ISO |
 |-------|------|------|
-|22000.917|||[**8/16/2022**](https://blogs.windows.com/windows-insider/2022/08/16/releasing-windows-11-build-22000-917-to-the-release-preview-channel/)|||
+|22000.2479|||[**9/14/2023**](https://blogs.windows.com/windows-insider/2023/09/14/releasing-windows-11-build-22000-2479-to-the-release-preview-channel/)|||
+|22000.2359|||[8/10/2023](https://blogs.windows.com/windows-insider/2023/08/10/releasing-windows-11-build-22000-2359-to-the-release-preview-channel/)|||
+|22000.2243|||[7/13/2023](https://blogs.windows.com/windows-insider/2023/07/13/releasing-windows-11-build-22000-2243-to-the-release-preview-channel/)|||
+|22000.2121|||[6/15/2023](https://blogs.windows.com/windows-insider/2023/06/15/releasing-windows-11-build-22000-2121-to-the-release-preview-channel/)|||
+|22000.2001|||[5/11/2023](https://blogs.windows.com/windows-insider/2023/05/11/releasing-windows-11-build-22000-2001-to-the-release-preview-channel/)|||
+|22000.1879|||[4/13/2023](https://blogs.windows.com/windows-insider/2023/04/13/releasing-windows-11-build-22000-1879-to-the-release-preview-channel/)|||
+|22000.1757|||[3/16/2023](https://blogs.windows.com/windows-insider/2023/03/16/releasing-windows-11-build-22000-1757-to-the-release-preview-channel/)|||
+|22000.1639|||[2/16/2023](https://blogs.windows.com/windows-insider/2023/02/16/releasing-windows-11-build-22000-1639-to-the-release-preview-channel/)|||
+|22000.1515|||[1/17/2023](https://blogs.windows.com/windows-insider/2023/01/17/releasing-windows-11-build-22000-1515-to-the-release-preview-channel/)|||
+|22000.1279|||[11/10/2022](https://blogs.windows.com/windows-insider/2022/11/10/releasing-windows-11-build-22000-1279-to-the-release-preview-channel/)|||
+|22000.1163|||[10/18/2022](https://blogs.windows.com/windows-insider/2022/10/18/releasing-windows-11-build-22000-1163-to-the-release-preview-channel/)|||
+|22000.1041|||[9/15/2022](https://blogs.windows.com/windows-insider/2022/09/15/releasing-windows-11-build-22000-1041-to-the-release-preview-channel/)|||
+|22000.917|||[8/16/2022](https://blogs.windows.com/windows-insider/2022/08/16/releasing-windows-11-build-22000-917-to-the-release-preview-channel/)|||
 |22000.829|||[7/14/2022](https://blogs.windows.com/windows-insider/2022/07/14/releasing-windows-11-build-22000-829-to-the-release-preview-channel/)|||
 |22000.776|||[6/16/2022](https://blogs.windows.com/windows-insider/2022/06/16/releasing-windows-11-build-22000-766-to-the-release-preview-channel/)|||
 |22000.706|||[5/19/2022](https://blogs.windows.com/windows-insider/2022/05/19/releasing-windows-11-build-22000-706-to-the-release-preview-channel/)|||
@@ -103,7 +302,7 @@ Builds leading up to the very first release of Windows 11 on Oct. 5th.
 |22000.282||[10/15/2021](https://blogs.windows.com/windows-insider/2021/10/15/releasing-windows-11-build-22000-282-to-beta-and-release-preview-channels/)||||
 |22000.194||[9/16/2021](https://blogs.windows.com/windows-insider/2021/09/16/announcing-windows-11-insider-preview-build-22000-194/)|||[9/16/2021](https://aka.ms/wipISO)
 |22000.184||[9/9/2021](https://blogs.windows.com/windows-insider/2021/09/09/announcing-windows-11-insider-preview-build-22000-184/)|||
-|22000.176||[9/2/2021](https://blogs.windows.com/windows-insider/2021/09/02/announcing-windows-11-insider-preview-build-22000-176/)||[**9/2/2021**](https://aka.ms/windowsinsidersdk)||
+|22000.176||[9/2/2021](https://blogs.windows.com/windows-insider/2021/09/02/announcing-windows-11-insider-preview-build-22000-176/)||[9/2/2021](https://aka.ms/windowsinsidersdk)||
 |22000.168|[8/27/2021](https://blogs.windows.com/windows-insider/2021/08/27/announcing-windows-11-insider-preview-build-22000-168/)|[8/27/2021](https://blogs.windows.com/windows-insider/2021/08/27/announcing-windows-11-insider-preview-build-22000-168/)||8/27/2021||
 |22000.160|[8/19/2021](https://blogs.windows.com/windows-insider/2021/08/19/announcing-windows-11-insider-preview-build-22000-160/)|[8/19/2021](https://blogs.windows.com/windows-insider/2021/08/19/announcing-windows-11-insider-preview-build-22000-160/)||8/19/2021||
 |22000.132|[8/12/2021](https://blogs.windows.com/windows-insider/2021/08/12/announcing-windows-11-insider-preview-build-22000-132/)|[8/12/2021](https://blogs.windows.com/windows-insider/2021/08/12/announcing-windows-11-insider-preview-build-22000-132/)||8/12/2021|8/19/2021|
@@ -113,39 +312,8 @@ Builds leading up to the very first release of Windows 11 on Oct. 5th.
 |22000.65|[7/8/2021](https://blogs.windows.com/windows-insider/2021/07/08/announcing-windows-11-insider-preview-build-22000-65/)|||||
 |22000.51|[6/28/2021](https://blogs.windows.com/windows-insider/2021/06/28/announcing-the-first-insider-preview-for-windows-11/)|||6/28/2021||
 
-## Windows 10 version 22H2
-
-| Build | Release Preview | ISO 
-|------|------|------|
-|19045.1865|[**7/28/2022**](https://blogs.windows.com/windows-insider/2022/07/28/releasing-windows-10-version-22h2-to-the-release-preview-channel/)||
-
-## Windows 10 November 2021 Update (21H2)
-
-The Windows 10 November 2021 Update is now available - [see details here in this blog post](https://blogs.windows.com/windowsexperience/2021/11/16/how-to-get-the-windows-10-november-2021-update/). [The final build for this update is Build 19044.1288](https://blogs.windows.com/windows-insider/2021/10/21/preparing-the-windows-10-november-2021-update-for-release/). 
-
-| Build | Release Preview | ISO 
-|------|------|------|
-|19044.1947|[**8/15/2022**](https://blogs.windows.com/windows-insider/2022/08/15/releasing-windows-10-build-19044-1947-to-release-preview-channel/)||
-|19044.1862|[7/18/2022](https://blogs.windows.com/windows-insider/2022/07/18/releasing-windows-10-build-19044-1862-to-release-preview-channel/)||
-|19044.1806|[6/24/2022](https://blogs.windows.com/windows-insider/2022/06/24/releasing-windows-10-build-19044-1806-to-release-preview-channel/)||
-|19044.1741|[6/2/2022](https://blogs.windows.com/windows-insider/2022/06/02/releasing-windows-10-build-19044-1741-to-release-preview-channel/)||
-|19044.1739|[5/23/2022](https://blogs.windows.com/windows-insider/2022/05/23/releasing-windows-10-build-19044-1739-to-release-preview-channel/)||
-|19044.1679|[4/14/2022](https://blogs.windows.com/windows-insider/2022/04/14/releasing-windows-10-build-19044-1679-to-release-preview-channel/)||
-|19044.1618|[3/14/2022](https://blogs.windows.com/windows-insider/2022/03/14/releasing-windows-10-build-19044-1618-to-release-preview-channel/)||
-|19044.1499|[1/14/2022](https://blogs.windows.com/windows-insider/2022/01/14/releasing-windows-10-build-19044-1499-to-release-preview-channel/)||
-|19044.1381|[11/18/2021](https://blogs.windows.com/windows-insider/2021/11/18/releasing-windows-10-build-19044-1381-19043-1381-to-release-preview-channel/)||
-|19044.1379|[11/16/2021](https://blogs.windows.com/windows-insider/2021/11/16/releasing-windows-10-build-19044-1379-19043-1379-to-release-preview-channel/)||
-|19044.1320|[10/26/2021](https://blogs.windows.com/windows-insider/2021/10/26/releasing-windows-10-build-19044-1320-21h2-to-release-preview-channel/)||
-|19044.1319|[10/19/2021](https://blogs.windows.com/windows-insider/2021/10/19/releasing-windows-10-build-19044-1319-21h2-to-release-preview-channel/)||
-|19044.1263|[9/23/2021](https://blogs.windows.com/windows-insider/2021/09/23/releasing-windows-10-build-19044-1263-21h2-to-release-preview-channel/)||
-|19044.1202|[8/31/2021](https://blogs.windows.com/windows-insider/2021/08/31/announcing-windows-10-insider-preview-build-19044-1202-21h2/)|[**9/2/2021**](https://aka.ms/wipISO)|
-|19044.1200|[8/18/2021](https://blogs.windows.com/windows-insider/2021/08/18/announcing-windows-10-insider-preview-build-19044-1198-21h2/)||
-|19044.1149|[7/20/2021](https://blogs.windows.com/windows-insider/2021/07/20/announcing-windows-10-insider-preview-build-19044-1149-21h2/)||
-|19044.1147|[7/15/2021](https://blogs.windows.com/windows-insider/2021/07/15/announcing-windows-10-insider-preview-build-19044-1147-21h2/)||
-
 ## Pre-Windows 11 Active Development Builds
-
- Builds from the active development branch simply reflect the latest work in progress code from our engineers.
+ These builds were early development builds for Windows 11.
 
 | Build | Dev | SDK | ISO |
 |-------|------|------|
@@ -217,6 +385,51 @@ The Windows 10 November 2021 Update is now available - [see details here in this
 |19541|[1/8/2020](https://blogs.windows.com/windowsexperience/2020/01/08/announcing-windows-10-insider-preview-build-19541/)|||
 |19536|[12/16/2019](https://blogs.windows.com/windowsexperience/2019/12/16/announcing-windows-10-insider-preview-build-19536/)|||
 
+## Windows 10 2022 Update (22H2)
+
+| Build | Release Preview | ISO 
+|------|------|------|
+|19045.3992|[**1/11/2024**](https://blogs.windows.com/windows-insider/2024/01/11/releasing-windows-10-build-19045-3992-to-release-preview-channel/)|
+|19045.3757|[11/20/2023](https://blogs.windows.com/windows-insider/2023/11/20/releasing-windows-10-build-19045-3757-to-release-preview-channel/)|
+|19045.3754|[11/16/2023](https://blogs.windows.com/windows-insider/2023/11/16/releasing-windows-10-build-19045-3754-to-release-preview-channel/)|
+|19045.3633|[10/17/2023](https://blogs.windows.com/windows-insider/2023/10/17/releasing-windows-10-build-19045-3633-to-release-preview-channel/)|
+|19045.3513|[9/18/2023](https://blogs.windows.com/windows-insider/2023/09/13/releasing-windows-10-19045-3513/)|
+|19045.3391|[8/10/2023](https://blogs.windows.com/windows-insider/2023/08/10/releasing-windows-10-build-19045-3391-to-release-preview-channel/)|
+|19045.3269|[7/13/2023](https://blogs.windows.com/windows-insider/2023/07/13/releasing-windows-10-build-19045-3269-to-release-preview-channel/)||
+|19045.3154|[6/22/2023](https://blogs.windows.com/windows-insider/2023/06/22/releasing-windows-10-build-19045-3154-to-release-preview-channel/)||
+|19045.3030|[5/11/2023](https://blogs.windows.com/windows-insider/2023/05/11/releasing-windows-10-build-19045-3030-to-release-preview-channel/)||
+|19045.2908|[4/13/2023](https://blogs.windows.com/windows-insider/2023/04/13/releasing-windows-10-build-19045-2907-to-release-preview-channel/)||
+|19045.2787|[3/16/2023](https://blogs.windows.com/windows-insider/2023/03/16/releasing-windows-10-build-19045-2787-to-release-preview-channel/)||
+|19045.2670|[2/16/2023](https://blogs.windows.com/windows-insider/2023/02/16/releasing-windows-10-build-19045-2670-to-release-preview-channel/)||
+|19045.2301|[11/10/2022](https://blogs.windows.com/windows-insider/2022/11/10/releasing-windows-10-build-19045-2301-to-release-preview-channel/)||
+|19045.1865|[7/28/2022](https://blogs.windows.com/windows-insider/2022/07/28/releasing-windows-10-version-22h2-to-the-release-preview-channel/)||
+
+## Windows 10 November 2021 Update (21H2)
+
+The Windows 10 November 2021 Update is now available - [see details here in this blog post](https://blogs.windows.com/windowsexperience/2021/11/16/how-to-get-the-windows-10-november-2021-update/). [The final build for this update is Build 19044.1288](https://blogs.windows.com/windows-insider/2021/10/21/preparing-the-windows-10-november-2021-update-for-release/). 
+
+| Build | Release Preview | ISO 
+|------|------|------|
+|19044.2192|[**10/18/2022**](https://blogs.windows.com/windows-insider/2022/10/18/releasing-windows-10-build-19044-2192-to-release-preview-channel/)||
+|19044.2075|[9/15/2022](https://blogs.windows.com/windows-insider/2022/09/15/releasing-windows-10-build-19044-2075-to-release-preview-channel/)||
+|19044.1947|[8/15/2022](https://blogs.windows.com/windows-insider/2022/08/15/releasing-windows-10-build-19044-1947-to-release-preview-channel/)||
+|19044.1862|[7/18/2022](https://blogs.windows.com/windows-insider/2022/07/18/releasing-windows-10-build-19044-1862-to-release-preview-channel/)||
+|19044.1806|[6/24/2022](https://blogs.windows.com/windows-insider/2022/06/24/releasing-windows-10-build-19044-1806-to-release-preview-channel/)||
+|19044.1741|[6/2/2022](https://blogs.windows.com/windows-insider/2022/06/02/releasing-windows-10-build-19044-1741-to-release-preview-channel/)||
+|19044.1739|[5/23/2022](https://blogs.windows.com/windows-insider/2022/05/23/releasing-windows-10-build-19044-1739-to-release-preview-channel/)||
+|19044.1679|[4/14/2022](https://blogs.windows.com/windows-insider/2022/04/14/releasing-windows-10-build-19044-1679-to-release-preview-channel/)||
+|19044.1618|[3/14/2022](https://blogs.windows.com/windows-insider/2022/03/14/releasing-windows-10-build-19044-1618-to-release-preview-channel/)||
+|19044.1499|[1/14/2022](https://blogs.windows.com/windows-insider/2022/01/14/releasing-windows-10-build-19044-1499-to-release-preview-channel/)||
+|19044.1381|[11/18/2021](https://blogs.windows.com/windows-insider/2021/11/18/releasing-windows-10-build-19044-1381-19043-1381-to-release-preview-channel/)||
+|19044.1379|[11/16/2021](https://blogs.windows.com/windows-insider/2021/11/16/releasing-windows-10-build-19044-1379-19043-1379-to-release-preview-channel/)||
+|19044.1320|[10/26/2021](https://blogs.windows.com/windows-insider/2021/10/26/releasing-windows-10-build-19044-1320-21h2-to-release-preview-channel/)||
+|19044.1319|[10/19/2021](https://blogs.windows.com/windows-insider/2021/10/19/releasing-windows-10-build-19044-1319-21h2-to-release-preview-channel/)||
+|19044.1263|[9/23/2021](https://blogs.windows.com/windows-insider/2021/09/23/releasing-windows-10-build-19044-1263-21h2-to-release-preview-channel/)||
+|19044.1202|[8/31/2021](https://blogs.windows.com/windows-insider/2021/08/31/announcing-windows-10-insider-preview-build-19044-1202-21h2/)|[**9/2/2021**](https://aka.ms/wipISO)|
+|19044.1200|[8/18/2021](https://blogs.windows.com/windows-insider/2021/08/18/announcing-windows-10-insider-preview-build-19044-1198-21h2/)||
+|19044.1149|[7/20/2021](https://blogs.windows.com/windows-insider/2021/07/20/announcing-windows-10-insider-preview-build-19044-1149-21h2/)||
+|19044.1147|[7/15/2021](https://blogs.windows.com/windows-insider/2021/07/15/announcing-windows-10-insider-preview-build-19044-1147-21h2/)||
+
 ##  Windows Feature Experience Pack Updates
 | Version | Beta | Release Preview* |
 |------|------|------|
@@ -228,7 +441,7 @@ The Windows 10 November 2021 Update is now available - [see details here in this
 |120.2212.1070.0|[11/30/2020](https://blogs.windows.com/windows-insider/2020/11/30/releasing-windows-feature-experience-pack-120-2212-1070-0-to-the-beta-channel/)|
 
 >[!NOTE]
->*This update will NOT be offered to commercial devices in the Release Preview Channel. These devices are devices AAD-joined and/or running the Windows 10 Enterprise edition. These customers will get Windows Feature Experience Packs delivered through “C” Preview releases which then get rolled up into monthly “B” releases. This enables commercial customers to test all the non-security fixes and features that will be rolled up into the next monthly “B” release. See this blog post for the details on the existing servicing process for Windows 10.
+>*This update will NOT be offered to commercial devices in the Release Preview Channel. These devices are devices Microsoft Entra joined and/or running the Windows 10 Enterprise edition. These customers will get Windows Feature Experience Packs delivered through “C” Preview releases which then get rolled up into monthly “B” releases. This enables commercial customers to test all the non-security fixes and features that will be rolled up into the next monthly “B” release. See this blog post for the details on the existing servicing process for Windows 10.
 
 ## Windows 10 May 2021 Update (21H1)
 

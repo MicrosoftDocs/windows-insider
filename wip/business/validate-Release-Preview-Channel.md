@@ -1,8 +1,9 @@
 ---
+ms.date: 07/08/2020
 title: Validating upcoming releases in the Release Preview Channel 
 description: Using Windows 10 Insider Preview Builds in the Release Preview Channel to validate upcoming releases of Windows
 author: bleblanc
-manager: dougkim
+manager: bleblanc
 ms.tgt_pltfrm: na
 ms.devlang: na
 ms.author: allieshields

@@ -1,8 +1,9 @@
 ---
+ms.date: 09/03/2020
 title: Mail & Calendar updates
 description: The latest updates to the Mail & Calendar apps
 author: bleblanc
-manager: dougkim
+manager: bleblanc
 ms.tgt_pltfrm: na
 ms.devlang: na
 ms.author: allieshields
@@ -80,4 +81,5 @@ To change your default font, go into Settings and select **Default font**. Defau
 ## November 28, 2018
 
 With Mail & Calendar version 11001.20106, it's now easier to keep track of your tasks in Microsoft To-Do! With the latest Mail & Calendar update from the Store, we’ve added the ability to switch directly to To-Do in our app navigation. This update is rolling out to both Windows Insiders and retail users as we speak.
+
 

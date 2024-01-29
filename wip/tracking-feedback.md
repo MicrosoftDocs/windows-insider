@@ -1,8 +1,9 @@
 ---
+ms.date: 02/22/2022
 title: Tracking your feedback
 description: Keep track of what's happened with your feedback
 author: bleblanc
-manager: dougkim
+manager: bleblanc
 ms.tgt_pltfrm: na
 ms.devlang: na
 ms.author: allieshields
@@ -30,7 +31,7 @@ If you think others are experiencing the same issue or would like the same new f
 3. Share your feedback link with your community.
 
 > [!NOTE] 
-> If you're on an Azure Active Directory (AAD) work account, you can also see feedback from other users in your organization. [Learn more about giving and tracking feedback as a business.](./business/feedback.md).
+> If you're on a Microsoft Entra ID work account, you can also see feedback from other users in your organization. [Learn more about giving and tracking feedback as a business.](./business/feedback.md).
 
 ## Check the status of your feedback
 
