@@ -9,7 +9,7 @@ ms.devlang: na
 ms.author: jhow
 ms.localizationpriority: medium
 ms.topic: article
-ms.prod: w11
+ms.service: windows-11
 ---
 
 # Using ISOs
