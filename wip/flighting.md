@@ -9,7 +9,7 @@ ms.devlang: na
 ms.author: bleblanc
 ms.localizationpriority: medium
 ms.topic: article
-ms.prod: w11
+ms.service: windows-11
 ---
 
 # Deeper look at flighting
