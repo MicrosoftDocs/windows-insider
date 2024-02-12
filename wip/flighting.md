@@ -1,14 +1,15 @@
 ---
+ms.date: 11/02/2018
 title: Deeper look at flighting
 description: Understanding flighting, channels, and updates
 author: bleblanc
-manager: dougkim
+manager: bleblanc
 ms.tgt_pltfrm: na
 ms.devlang: na
-ms.author: v-jamleo
+ms.author: bleblanc
 ms.localizationpriority: high
 ms.topic: article
-ms.prod: w10-w11
+ms.service: windows-11
 ---
 
 # Deeper look at flighting
@@ -63,7 +64,7 @@ If you've installed an Insider Preview build in the Beta Channel or Release Prev
 ### Switching from the Dev Channel
 Occasionally it may become possible to switch a device from the Dev Channel to another channel. To determine which process is needed to switch from the Dev Channel, you first need to find your current build number and compare it to the current build number in the channel you wish to switch to.   
 
-To find your current build, you can [check the watermark in the right bottom of your desktop, look at About in Settings, or run the winver command](./check-flighting-status).   
+To find your current build, you can [check the watermark in the right bottom of your desktop, look at About in Settings, or run the winver command](./check-flighting-status.md).   
 
 Next determine what is the currently flighting build in the desired channel by checking [Flight Hub](https://aka.ms/FlightHub). 
 
@@ -93,3 +94,4 @@ Also known as servicing or cumulative updates, minor builds give you small bug f
 
 > [!NOTE] 
 >If you're having issues receiving Insider Preview builds, would like to stop receiving preview builds, or would like to leave the program, [learn more in our troubleshooting section](./troubleshooting.md).
+

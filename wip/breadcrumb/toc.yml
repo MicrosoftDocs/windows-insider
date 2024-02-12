@@ -1,11 +1,3 @@
-- name: Docs
-  tocHref: /
-  topicHref: /
-  items: 
-    - name: Windows Insider
-      tocHref: /windows-insider/
-      topicHref: /windows-insider/index
-      items: 
-        - name: Feedback Hub
-          tocHref: /windows-insider/feedback-hub/
-          topicHref: /windows-insider/feedback-hub/feedback-hub-app
+- name: Windows
+  tocHref: /windows-insider/
+  topicHref: /windows/index

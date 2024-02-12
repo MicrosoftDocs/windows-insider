@@ -1,11 +1,12 @@
 ---
+ms.date: 09/03/2020
 title: Game Bar updates
 description: The latest updates to the Xbox Game Bar app
 author: bleblanc
-manager: dougkim
+manager: bleblanc
 ms.tgt_pltfrm: na
 ms.devlang: na
-ms.author: v-allsh
+ms.author: allieshields
 ms.localizationpriority: medium
 ms.topic: article
 ms.prod: w10
@@ -38,3 +39,4 @@ Without ever leaving your game, you can now view screenshots and videos taken th
 ## July 25, 2018
 
 In RS5, we’re making it easier to access the Game Bar. In this flight, you can now discover Game Bar from the Start menu or bring up Game Bar by using the **Win + G** shortcut at any time.
+

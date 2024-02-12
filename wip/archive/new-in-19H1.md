@@ -1,11 +1,12 @@
 ---
+ms.date: 07/18/2019
 title: What was new in 19H1 Windows 10 Insider Preview Builds
 description: What was new in 19H1 preview builds
 author: bleblanc
-manager: dougkim
+manager: bleblanc
 ms.tgt_pltfrm: na
 ms.devlang: na
-ms.author: v-allsh
+ms.author: allieshields
 ms.localizationpriority: medium
 ms.topic: article
 ms.prod: w10
@@ -328,7 +329,7 @@ Notepad will now show an asterisk in the title bar before the title of a documen
 ![Notepad with the asterisk.](images/18298-6.png)
 
 ### Send Feedback
-You can now send feedback directly from Notepad! Click Help > Send Feedback to open the Feedback Hub with [the Notepad category selected](https://blogs.windows.com/windowsexperience/2018/12/10/announcing-windows-10-insider-preview-build-18298/aka.ms/notepadfeedback) and get your feedback directly to the product team.
+You can now send feedback directly from Notepad! Click Help > Send Feedback to open the Feedback Hub with [the Notepad category selected](https://aka.ms/notepadfeedback) and get your feedback directly to the product team.
 
 ![Send feedback from the Help menu.](images/18298-7.png)
 
@@ -692,3 +693,4 @@ We’re making some adjustments to the design of Windows 10 Setup! This is the e
 ### Troubleshooting improvements
 Don’t feel like troubleshooting? We’ve got you covered. In previous releases, if you noticed your PC was having a problem, you would have to find the right troubleshooter and then manually walk through all the different steps to resolve it. We hear your feedback that the time that takes to do can be frustrating – why not just automatically fix issues that you know how to fix and can detect? We agree! If an issue occurs we want to get you back up and running as quickly as possible, so with Build 18262 you’ll find a new recommended troubleshooting setting under Settings > Update & Security > Troubleshoot in Build 18262. This feature uses diagnostic data you send to deliver a tailored set of fixes matching problems we detect on your device and will automatically apply them to your PC.
 We’re still hard at work on this feature so it’s greyed out right now in Settings, but stay tuned for updates in future builds!
+

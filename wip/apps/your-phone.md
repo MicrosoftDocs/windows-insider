@@ -1,11 +1,12 @@
 ---
+ms.date: 09/02/2020
 title: Your Phone updates
 description: The latest updates to the Your Phone app
 author: bleblanc
-manager: dougkim
+manager: bleblanc
 ms.tgt_pltfrm: na
 ms.devlang: na
-ms.author: v-allsh
+ms.author: allieshields
 ms.localizationpriority: medium
 ms.topic: article
 ms.prod: w10
@@ -502,3 +503,4 @@ We look forward to your feedback as we continue to test, learn, and improve the 
 * Windows 10 PC with a Bluetooth radio that supports low energy peripheral role. [How to check if your PC supports this](https://go.microsoft.com/fwlink/?linkid=2066643).
 * Latest 19H1 preview build (18342+ recommended).
 * Android phone must be on, within Bluetooth range of the PC, and connected to the same network as the PC.
+

@@ -1,11 +1,12 @@
 ---
+ms.date: 06/18/2018
 title: What was new in the RS5 Windows Server 2019 Insider Preview Builds
 description: New features in Windows Server 2019 Preview Builds
 author: bleblanc
-manager: dougkim
+manager: bleblanc
 ms.tgt_pltfrm: na
 ms.devlang: na
-ms.author: v-allsh
+ms.author: allieshields
 ms.localizationpriority: medium
 ms.topic: article
 ms.prod: w10
@@ -39,7 +40,7 @@ Operating system components that are available with this update:
 * Failover Cluster Manager (CluAdmin.msc)
 * Internet Explorer (IExplore.exe), an optional component
 
-These components come with support for [SQL Server Management Studio (SSMS)](/sql/ssms/sql-server-management-studio-ssms?view=sql-server-2017), version 16 and 17, which must be installed separately from SQL Server via command line.
+These components come with support for [SQL Server Management Studio (SSMS)](/sql/ssms/sql-server-management-studio-ssms), version 16 and 17, which must be installed separately from SQL Server via command line.
 
 To install Failover Cluster Manager, launch PowerShell, and then enter the following command:
 ```Install-WindowsFeature -Name Failover-Clustering -IncludeManagementTools ```
@@ -126,7 +127,8 @@ Kubernetes is a popular orchestration tool for <i>containers</i> (see [What are 
 * Networking: Provide a network for coordinating containers to communicate across machines.
 * Service Discovery: Enable containers to locate each other automatically even as they switch hosts or change IP addresses.
 * Scaling: Add or remove container instances to match demand, either manually or automatically.
-And much more! For guidance that walks you through how to install Kubernetes onto your on-premise Windows datacenter, please see [How To Guide: Kubernetes for Windows Flannel (Host-Gateway)](https://1drv.ms/w/s!AgH65RVQdrbiglNr7P7P4VrO8Rxr). For more information about container orchestrators in general, see [Container orchestrators](/virtualization/windowscontainers/about/#container-orchestrators) on docs.microsoft.com.
+
+And much more! For guidance that walks you through how to install Kubernetes onto your on-premise Windows datacenter, please see [How To Guide: Kubernetes for Windows Flannel (Host-Gateway)](https://1drv.ms/w/s!AgH65RVQdrbiglNr7P7P4VrO8Rxr). For more information about container orchestrators in general, see [Container orchestrators](/virtualization/windowscontainers/about/#container-orchestrators).
 
 ## Congestion Control with LEDBAT
 
@@ -409,3 +411,4 @@ For more information about System Insights, please visit [aka.ms/SystemInsights]
 
 ## Windows Admin Center Preview 1806
 For full details, see the [Windows Admin Center Preview 1806 Announcement](https://aka.ms/WACPreview1806-InsiderBlog).
+

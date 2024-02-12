@@ -1,11 +1,12 @@
 ---
+ms.date: 09/03/2020
 title: Snip & Sketch updates
 description: The latest updates to the Snip & Sketch app
 author: bleblanc
-manager: dougkim
+manager: bleblanc
 ms.tgt_pltfrm: na
 ms.devlang: na
-ms.author: v-allsh
+ms.author: allieshields
 ms.localizationpriority: medium
 ms.topic: article
 ms.prod: w10
@@ -108,3 +109,4 @@ We flighted version 10.1807.2286.0 of Snip & Sketch, which included the highly r
 Just select the arrow next to the New button in the app, and you’ll now find options to **Snip now**, **Snip in 3 seconds**, and **Snip in 10 seconds**. If you have the app open or pinned to your taskbar, you can also just right-click the icon in the taskbar to get these options, since we’ve added them to the jump list.
 
 ![Delay snip in Snip & Sketch](images/snip-n-sketch.png)
+

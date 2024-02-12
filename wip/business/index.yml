@@ -8,11 +8,10 @@ metadata:
   description: Run Insider Preview builds within your organization to explore the latest features, validate your apps and infrastructure, and deploy faster. # Required; article description that is displayed in search results. < 160 chars.
   ms.topic: landing-page # Required
   author: lizap #Required; your GitHub user alias, with correct capitalization.
-  manager: dougkim
+  manager: bleblanc
   ms.author: elizapo #Required; microsoft alias of author; optional team alias.
   ms.localizationpriority: medium
   ms.prod: w10
-  ms.technology: windows
   ms.date: 06/30/2020 #Required; mm/dd/yyyy format.
 
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
