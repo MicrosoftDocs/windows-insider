@@ -20,8 +20,8 @@ Please read [this blog post](https://blogs.windows.com/windows-insider/2021/06/2
 > [!IMPORTANT]
 > We have introduced a new Canary Channel and rebooted the Dev Channel. Read about these channel changes and how they impact Windows Insiders [here in this blog post](https://blogs.windows.com/windows-insider/2023/03/06/whats-coming-for-the-windows-insider-program-in-2023/).
 
-## Active Development 25000 Series Builds of Windows 11
-25000 series builds reflect some of the latest work in progress code from our engineers.
+## Windows 11 2024 Update (43H2)
+Preview builds for Windows 11, version 24H2.
 
 | Build | Canary | Dev | SDK | ISO |
 |-----|---------|---------|---------|---------|
