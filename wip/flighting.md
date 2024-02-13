@@ -7,7 +7,7 @@ manager: bleblanc
 ms.tgt_pltfrm: na
 ms.devlang: na
 ms.author: bleblanc
-ms.localizationpriority: medium
+ms.localizationpriority: high
 ms.topic: article
 ms.service: windows-11
 ---
