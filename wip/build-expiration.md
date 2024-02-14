@@ -9,7 +9,7 @@ ms.devlang: na
 ms.author: allieshields
 ms.localizationpriority: high
 ms.topic: article
-ms.prod: w10
+ms.service: windows-10
 ---
 
 # Updating from an expiring Insider Preview build

@@ -9,7 +9,7 @@ ms.devlang: na
 ms.author: allieshields
 ms.localizationpriority: medium
 ms.topic: article
-ms.prod: w10
+ms.service: windows-10
 ---
 
 # Get started with the Windows Insider Program for Developers
