@@ -8,7 +8,7 @@ ms.devlang: na
 ms.author: bleblanc
 ms.localizationpriority: medium
 ms.topic: article
-ms.prod: w10
+ms.service: windows-10
 ---
 
 # Flight Hub
@@ -25,8 +25,9 @@ Preview builds for Windows 11, version 24H2.
 
 | Build | Canary | Dev | SDK | ISO |
 |-----|---------|---------|---------|---------|
-|26052|[**2/8/2024**](https://blogs.windows.com/windows-insider/2024/02/08/announcing-windows-11-insider-preview-build-26052-canary-and-dev-channels/)|[**2/8/2024**](https://blogs.windows.com/windows-insider/2024/02/08/announcing-windows-11-insider-preview-build-26052-canary-and-dev-channels/)|[**2/8/2024**](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_26052_1.iso)|
-|26040|[1/26/2024](https://blogs.windows.com/windows-insider/2024/01/26/announcing-windows-11-insider-preview-build-26040-canary-channel/)||[1/26/2024](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_26040_1.iso)|[**1/26/2024**](https://aka.ms/wipISO)
+|26058|[**2/14/2024**](https://blogs.windows.com/windows-insider/2024/02/14/announcing-windows-11-insider-preview-build-26058-canary-and-dev-channels/)|[**2/14/2024**](https://blogs.windows.com/windows-insider/2024/02/14/announcing-windows-11-insider-preview-build-26058-canary-and-dev-channels/)|[**2/14/2024**](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_26058_1.iso)|[**2/14/2024**](https://aka.ms/wipISO)
+|26052|[2/8/2024](https://blogs.windows.com/windows-insider/2024/02/08/announcing-windows-11-insider-preview-build-26052-canary-and-dev-channels/)|[2/8/2024](https://blogs.windows.com/windows-insider/2024/02/08/announcing-windows-11-insider-preview-build-26052-canary-and-dev-channels/)|[2/8/2024](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_26052_1.iso)|
+|26040|[1/26/2024](https://blogs.windows.com/windows-insider/2024/01/26/announcing-windows-11-insider-preview-build-26040-canary-channel/)||[1/26/2024](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_26040_1.iso)|1/26/2024
 |26020|[1/3/2024](https://blogs.windows.com/windows-insider/2024/01/03/announcing-windows-11-insider-preview-build-26020-canary-channel/)||[1/3/2024](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_26020_1.iso)|
 |26016|[12/13/2023](https://blogs.windows.com/windows-insider/2023/12/13/announcing-windows-11-insider-preview-build-26016-canary-channel/)||[12/13/2023](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_26016_1.iso)|12/13/2023
 |26010|[12/7/2023](https://blogs.windows.com/windows-insider/2023/12/07/announcing-windows-11-insider-preview-build-26010-canary-channel/)||[12/7/2023](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_26010_1.iso)|
