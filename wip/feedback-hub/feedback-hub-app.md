@@ -5,7 +5,7 @@ description: Get to know the Feedback Hub
 author: bleblanc
 manager: bleblanc
 ms.tgt_pltfrm: na
-ms.devlang: na
+
 ms.author: allieshields
 ms.localizationpriority: medium
 ms.topic: article

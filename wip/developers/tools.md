@@ -5,7 +5,7 @@ description: Developer tools for getting feedback from your customers
 author: bleblanc
 manager: bleblanc
 ms.tgt_pltfrm: na
-ms.devlang: na
+
 ms.author: allieshields
 ms.localizationpriority: medium
 ms.topic: article

@@ -5,7 +5,7 @@ description: The key terms you'll need to know in the Windows Insider Program
 author: bleblanc
 manager: bleblanc
 ms.tgt_pltfrm: na
-ms.devlang: na
+
 ms.author: allieshields
 ms.localizationpriority: medium
 ms.topic: article

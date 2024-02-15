@@ -5,7 +5,7 @@ description: How to give feedback on Windows Server Insider Preview Builds
 author: bleblanc
 manager: bleblanc
 ms.tgt_pltfrm: na
-ms.devlang: na
+
 ms.author: allieshields
 ms.localizationpriority: medium
 ms.topic: article
