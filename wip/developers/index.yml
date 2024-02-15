@@ -1,11 +1,11 @@
 ### YamlMime:Landing
 
 title: Windows Insider Program for Developers documentation
-summary: Run Insider Preview builds and preview the Windows 10 Software Development Kit to bring better applications to your customers faster.
+summary: Run Insider Preview builds and preview the Windows 11 Software Development Kit to bring better applications to your customers faster.
 
 metadata:
   title: Windows Insider Program for Developers documentation
-  description: Run Insider Preview builds and preview the Windows 10 Software Development Kit to bring better applications to your customers faster. 
+  description: Run Insider Preview builds and preview the Windows 11 Software Development Kit to bring better applications to your customers faster. 
   ms.topic: landing-page # Required
   author: dawnwood
   ms.author: dawn.wood
@@ -38,8 +38,8 @@ landingContent:
             url: ../flight-hub/index.md
           - text: The Changelog
             url: ../active-dev-branch.md
-                   
-  # Card          
+
+  # Card
   - title: Helpful guides
     linkLists:
       - linkListType: how-to-guide
@@ -49,7 +49,7 @@ landingContent:
 
   # Card
   - title: Related documentation
-    linkLists:        
+    linkLists:
       - linkListType: overview
         links:
           - text: Windows Insider Program
