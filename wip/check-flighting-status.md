@@ -5,7 +5,7 @@ description: How to tell if your device is on an Insider Preview build
 author: bleblanc
 manager: bleblanc
 ms.tgt_pltfrm: na
-ms.devlang: na
+
 ms.author: bleblanc
 ms.localizationpriority: medium
 ms.topic: article

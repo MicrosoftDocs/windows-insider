@@ -5,7 +5,7 @@ description: How to give feedback in the Windows Insider Program for Business
 author: bleblanc
 manager: bleblanc
 ms.tgt_pltfrm: na
-ms.devlang: na
+
 ms.author: allieshields
 ms.localizationpriority: medium
 ms.topic: article

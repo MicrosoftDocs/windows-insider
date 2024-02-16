@@ -5,7 +5,7 @@ description: New Windows 10 features for Insider Preview builds in the Dev Chann
 author: bleblanc
 manager: bleblanc
 ms.tgt_pltfrm: na
-ms.devlang: na
+
 ms.author: bleblanc
 ms.localizationpriority: medium
 ms.topic: article
