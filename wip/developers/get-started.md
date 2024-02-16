@@ -5,7 +5,7 @@ description: How to get started with the Windows Insider Program for Developers
 author: bleblanc
 manager: bleblanc
 ms.tgt_pltfrm: na
-ms.devlang: na
+
 ms.author: allieshields
 ms.localizationpriority: medium
 ms.topic: article

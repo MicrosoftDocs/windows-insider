@@ -5,7 +5,7 @@ description: How you can move your device off an expiring preview build
 author: bleblanc
 manager: bleblanc
 ms.tgt_pltfrm: na
-ms.devlang: na
+
 ms.author: allieshields
 ms.localizationpriority: high
 ms.topic: article

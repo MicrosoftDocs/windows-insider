@@ -5,7 +5,7 @@ description: What was new in preview builds for Windows Insider for Business
 author: bleblanc
 manager: bleblanc
 ms.tgt_pltfrm: na
-ms.devlang: na
+
 ms.author: allieshields
 ms.localizationpriority: medium
 ms.topic: article
