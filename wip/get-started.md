@@ -71,6 +71,14 @@ Afrikaans (South Africa), Albanian (Albania), Amharic, Armenian, Assamese, Azerb
 
 *Windows Insider Preview Builds may be substantially modified before they're commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here. Some product features and functionality may require additional hardware or software.*
 
+## If You like to Opt Out from Insider Program
+
+If you like to stop receiving insider builds then:
+Select the Start  button, then select Settings  > Update & security > Windows Insider Program, and then choose Stop Insider builds.
+Follow the instructions to opt out your device.
+
+Stop receiving insider builds for Windows 10[https://tinyurl.com/mps3mstw]
+
 ## Give feedback
 
 1. Once you've had a chance to explore Windows Insider Preview Builds, use the [Feedback Hub](https://aka.ms/WIPFeedbackHub) to let us know what you think of the latest updates, report issues, or suggest new features. This feedback goes directly to our engineers working to improve Windows. Not sure how to get started in the Feedback Hub? [Learn more about how to give great feedback.](./feedback.md)
