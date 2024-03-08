@@ -45,6 +45,16 @@
       "titleSuffix": "Windows Insider Program",
       "feedback_system": "None",
       "contributors_to_exclude": [
+        "dstrome2",
+        "rjagiewich",  
+        "American-Dipper",
+        "claydetels19", 
+        "jborsecnik",
+        "v-stchambers",
+        "shdyas",
+        "Stacyrch140",
+        "garycentric",
+        "dstrome",
         "beccarobins"
       ],
       "_op_documentIdPathDepotMapping": {
