@@ -25,7 +25,8 @@ Preview builds for Windows 11, version 24H2.
 
 | Build | Canary | Dev | SDK | ISO |
 |-----|---------|---------|---------|---------|
-|26090|[**3/28/2024**](https://blogs.windows.com/windows-insider/2024/03/28/announcing-windows-11-insider-preview-build-26090-canary-and-dev-channels/)|[**3/28/2024**](https://blogs.windows.com/windows-insider/2024/03/28/announcing-windows-11-insider-preview-build-26090-canary-and-dev-channels/)|[**3/28/2024**](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_26090_1.iso)|
+|26100|[**4/3/2024**](https://blogs.windows.com/windows-insider/2024/03/28/announcing-windows-11-insider-preview-build-26090-canary-and-dev-channels/)|[**4/3/2024**](https://blogs.windows.com/windows-insider/2024/03/28/announcing-windows-11-insider-preview-build-26090-canary-and-dev-channels/)|[**4/3/2024**](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_26100_1.iso)|
+|26090|[3/28/2024](https://blogs.windows.com/windows-insider/2024/03/28/announcing-windows-11-insider-preview-build-26090-canary-and-dev-channels/)|[3/28/2024](https://blogs.windows.com/windows-insider/2024/03/28/announcing-windows-11-insider-preview-build-26090-canary-and-dev-channels/)|[3/28/2024](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_26090_1.iso)|
 |26085|[3/20/2024](https://blogs.windows.com/windows-insider/2024/03/20/announcing-windows-11-insider-preview-build-26085-canary-and-dev-channels/)|[3/20/2024](https://blogs.windows.com/windows-insider/2024/03/20/announcing-windows-11-insider-preview-build-26085-canary-and-dev-channels/)|[3/20/2024](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_26085_1.iso)|
 |26080|[3/13/2024](https://blogs.windows.com/windows-insider/2024/03/13/announcing-windows-11-insider-preview-build-26080-canary-and-dev-channels/)|[3/13/2024](https://blogs.windows.com/windows-insider/2024/03/13/announcing-windows-11-insider-preview-build-26080-canary-and-dev-channels/)|[3/13/2024](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_26080_1.iso)|[**3/13/2024**](https://aka.ms/wipISO)
 |26063|[2/22/2024](https://blogs.windows.com/windows-insider/2024/02/22/announcing-windows-11-insider-preview-build-26063-canary-channel/)||[2/22/2024](https://software-static.download.prss.microsoft.com/dbazure/Windows_InsiderPreview_SDK_en-us_26063_1.iso)|
@@ -152,8 +153,9 @@ Preview builds for updates to Windows 11, version 23H2 (Build 22631).
 
 | Build | Beta | RP |
 |-------|------|------|
+|22635.3420*|[**3/29/2024**](https://blogs.windows.com/windows-insider/2024/03/29/announcing-windows-11-insider-preview-build-22635-3420-beta-channel/)|
 |22631.3371||[**3/21/2024**](https://blogs.windows.com/windows-insider/2024/03/21/releasing-windows-11-builds-22621-3371-and-22631-3371-to-the-release-preview-channel/)
-|22635.3350*|[**3/13/2024**](https://blogs.windows.com/windows-insider/2024/03/13/announcing-windows-11-insider-preview-build-22635-3350-beta-channel/)|
+|22635.3350*|[3/13/2024](https://blogs.windows.com/windows-insider/2024/03/13/announcing-windows-11-insider-preview-build-22635-3350-beta-channel/)|
 |22635.3286*|[3/8/2024](https://blogs.windows.com/windows-insider/2024/03/08/announcing-windows-11-insider-preview-build-22635-3286-beta-channel)|
 |22635.3276*|[3/4/2024](https://blogs.windows.com/windows-insider/2024/03/04/announcing-windows-11-insider-preview-build-22635-3276-beta-channel/)|
 |22631.3227||[2/15/2024](https://blogs.windows.com/windows-insider/2024/02/15/releasing-windows-11-builds-22621-3227-and-22631-3227-to-the-release-preview-channel/)
