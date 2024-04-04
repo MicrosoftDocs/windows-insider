@@ -5,11 +5,11 @@ description: How to get started with the Windows Insider Program
 author: bleblanc
 manager: bleblanc
 ms.tgt_pltfrm: na
-ms.devlang: na
+
 ms.author: bleblanc
 ms.localizationpriority: medium
 ms.topic: article
-ms.prod: w10
+ms.service: windows-10
 ---
 
 # Get started with the Windows Insider Program

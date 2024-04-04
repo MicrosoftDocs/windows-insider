@@ -5,11 +5,11 @@ description: Understanding flighting, channels, and updates
 author: bleblanc
 manager: bleblanc
 ms.tgt_pltfrm: na
-ms.devlang: na
+
 ms.author: bleblanc
-ms.localizationpriority: medium
+ms.localizationpriority: high
 ms.topic: article
-ms.prod: w11
+ms.service: windows-11
 ---
 
 # Deeper look at flighting

@@ -5,11 +5,11 @@ description: What was new in preview builds for Windows Insider for Business
 author: bleblanc
 manager: bleblanc
 ms.tgt_pltfrm: na
-ms.devlang: na
+
 ms.author: allieshields
 ms.localizationpriority: medium
 ms.topic: article
-ms.prod: w10
+ms.service: windows-10
 ---
 
 # What was new for business in Windows 10 Insider Preview Builds

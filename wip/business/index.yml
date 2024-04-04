@@ -11,7 +11,7 @@ metadata:
   manager: bleblanc
   ms.author: elizapo #Required; microsoft alias of author; optional team alias.
   ms.localizationpriority: medium
-  ms.prod: w10
+  ms.service: windows-10
   ms.date: 06/30/2020 #Required; mm/dd/yyyy format.
 
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
