@@ -2,18 +2,10 @@
 
 
 
-## Week of March 14, 2022
+## Week of February 12, 2024
 
 
 | Published On |Topic title | Change |
 |------|------------|--------|
-| 3/18/2022 | [What was new in 20H1 Windows 10 Insider Preview Builds](/windows-insider/archive/new-in-20h1) | modified |
-| 3/18/2022 | [Flight Hub](/windows-insider/flight-hub/index) | modified |
-
-
-## Week of March 07, 2022
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 3/11/2022 | [Flight Hub](/windows-insider/flight-hub/index) | modified |
+| 2/12/2024 | [Flight Hub](/windows-insider/flight-hub/index) | modified |
+| 2/16/2024 | [Flight Hub](/windows-insider/flight-hub/index) | modified |

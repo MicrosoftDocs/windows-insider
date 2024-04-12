@@ -1,14 +1,15 @@
 ---
+ms.date: 10/07/2019
 title: What was new in 19H2 Windows 10 Insider Preview Builds
 description: What was new in 19H2 preview builds
 author: bleblanc
-manager: dougkim
+manager: bleblanc
 ms.tgt_pltfrm: na
-ms.devlang: na
-ms.author: v-allsh
+
+ms.author: allieshields
 ms.localizationpriority: medium
 ms.topic: article
-ms.prod: w10
+ms.service: windows-10
 ---
 
 # What was new in 19H2 Windows 10 Insider Preview Builds
@@ -57,3 +58,4 @@ The following new features are being introduced as part of this update.
 - We’re updating the search box in File Explorer to now be powered by Windows Search. This change will help integrate your OneDrive content online with the traditional indexed results. [More details here.](https://blogs.windows.com/windowsexperience/2019/05/08/announcing-windows-10-insider-preview-build-18894/)
 
 - We have added the ability for Narrator and other assistive technologies to read and learn where the FN key is located on keyboards and what state it is in (locked versus unlocked).
+

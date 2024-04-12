@@ -1,14 +1,15 @@
 ---
+ms.date: 06/18/2018
 title: What was new in RS5 Windows 10 Insider Preview Builds
 description: What was new in RS5 preview builds
 author: bleblanc
-manager: dougkim
+manager: bleblanc
 ms.tgt_pltfrm: na
-ms.devlang: na
-ms.author: v-allsh
+
+ms.author: allieshields
 ms.localizationpriority: medium
 ms.topic: article
-ms.prod: w10
+ms.service: windows-10
 ---
 
 #  What was new in RS5 Windows 10 Insider Preview Builds
@@ -573,7 +574,7 @@ Local Experience Packs are Microsoft Store apps that deliver Windows display lan
 
 The Settings app provides improved discoverability of features supported for each language.
 
-We have also started utilizing Artificial Intelligence (AI) and neural network-based Machine Learning (ML) for Windows localization. Having the Local Experience Packs in the Microsoft Store allows us to take advantage of ML improvements and user feedback via [Language Community App](https://www.microsoft.com/en-us/store/p/language-community) to release better translations more frequently. This will consistently improve the experience of our international customers with Windows.
+We have also started utilizing Artificial Intelligence (AI) and neural network-based Machine Learning (ML) for Windows localization. Having the Local Experience Packs in the Microsoft Store allows us to take advantage of ML improvements and user feedback via Language Community App to release better translations more frequently. This will consistently improve the experience of our international customers with Windows.
 
 We have introduced a new __Region__ page that allows overrides to default regional format settings such as Calendar, First day of the week, Dates, Times, and Currency. 
 
@@ -779,3 +780,4 @@ New Power Usage Columns: Task Manager now includes 2 new columns in the “Proce
 Have you ever been typing into the regedit address bar, and the next part of the path is just on the tip of your tongue, but you can’t remember? Starting with today’s build, you’ll now see a dropdown as you type to help complete the next part of the path! Oh, and you can also press Ctrl + Backspace to delete the last “word”, which makes backing up work that much faster (Ctrl + Delete will delete the next word).
 
 ![Registry Editor.](images/reg-editor.png)
+

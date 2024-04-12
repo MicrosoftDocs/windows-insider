@@ -1,21 +1,22 @@
 ---
+ms.date: 08/11/2020
 title: Get started with the Windows Insider Program for Windows Server
 description: How to get started with the Windows Insider Program for Windows Server
 author: bleblanc
-manager: dougkim
+manager: bleblanc
 ms.tgt_pltfrm: na
-ms.devlang: na
-ms.author: v-allsh
+
+ms.author: allieshields
 ms.localizationpriority: medium
 ms.topic: article
-ms.prod: w10
+ms.service: windows-10
 ---
 
 # Get started with the Windows Insider Program for Windows Server
 
 ## Register for the Windows Insider Program
 
-1. Register with either your Azure Active Directory (AAD) work account, which we recommend for the best experience, or your personal account. When you use your organization's account, you'll be able to give us feedback on behalf of your organization to help shape Windows to meet your business's specific needs. You must have an AAD account to sign up as your organization. If you don't have one, [find out how to get an AAD tenant](/azure/active-directory/develop/active-directory-howto-tenant). You can also register with your personal Microsoft account, which is the same account you use for other Microsoft services, like email, Microsoft Office, or OneDrive. (Don't have a Microsoft account? [Sign up now!](https://account.microsoft.com/account))
+1. Register with either your Microsoft Entra ID work account, which we recommend for the best experience, or your personal account. When you use your organization's account, you'll be able to give us feedback on behalf of your organization to help shape Windows to meet your business's specific needs. You must have a Microsoft Entra account to sign up as your organization. If you don't have one, [find out how to get a Microsoft Entra tenant](/azure/active-directory/develop/active-directory-howto-tenant). You can also register with your personal Microsoft account, which is the same account you use for other Microsoft services, like email, Microsoft Office, or OneDrive. (Don't have a Microsoft account? [Sign up now!](https://account.microsoft.com/account))
 
 2. Accept the terms of our Program Agreement and Privacy Statement and submit. Welcome to the Windows Insider Program!
 
@@ -37,7 +38,7 @@ ms.prod: w10
 
 1. Once you've had a chance to explore Windows Server Insider Preview Builds, give us feedback in the [Feedback Hub](https://aka.ms/FeedbackHub) by selecting the Windows Server category and the right subcategory for your feedback. Be sure to include the build number you're using. This feedback goes directly to our engineers working to improve Windows Server. Not sure how to get started in the Feedback Hub? [Learn more about how to give great feedback.](../feedback.md)
 
-2. When you register with your work's Azure Active Directory (AAD) account, you can also search in the Feedback Hub to see feedback from other Windows Insiders in your organization. Only Microsoft and users registered under your company's domain in AAD can view your organization's feedback. [Learn how to see your organization's feedback.](./server-feedback.md)
+2. When you register with your work's Microsoft Entra account, you can also search in the Feedback Hub to see feedback from other Windows Insiders in your organization. Only Microsoft and users registered under your company's domain in Microsoft Entra ID can view your organization's feedback. [Learn how to see your organization's feedback.](./server-feedback.md)
 
 3. Join us in the [Windows Server Insider Tech Community](https://techcommunity.microsoft.com/t5/windows-server-insiders/bd-p/WindowsServerInsiders) to engage with our community of IT professionals, learn from experts, and get help quickly resolving critical issues.
 
