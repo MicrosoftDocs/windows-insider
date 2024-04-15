@@ -210,7 +210,7 @@ Preview builds for updates to Windows 11, version 22H2. Windows 11, version 22H2
 | Build | Dev | Beta | RP | SDK | ISO |
 |---|---|---|---|---|---|
 |22621.3520| | |[**4/11/2024**](https://blogs.windows.com/windows-insider/2024/04/11/releasing-windows-11-builds-22621-3520-and-22631-3520-to-the-release-preview-channel/)| | |
-|22621.3371| | |[**3/21/2024**](https://blogs.windows.com/windows-insider/2024/03/21/releasing-windows-11-builds-22621-3371-and-22631-3371-to-the-release-preview-channel/)| | |
+|22621.3371| | |[3/21/2024](https://blogs.windows.com/windows-insider/2024/03/21/releasing-windows-11-builds-22621-3371-and-22631-3371-to-the-release-preview-channel/)| | |
 |22621.3227| | |[2/15/2024](https://blogs.windows.com/windows-insider/2024/02/15/releasing-windows-11-builds-22621-3227-and-22631-3227-to-the-release-preview-channel/)| | |
 |22621.3078| | |[1/11/2024](https://blogs.windows.com/windows-insider/2024/01/11/releasing-windows-11-builds-22621-3078-and-22631-3078-to-the-release-preview-channel/)| | |
 |22621.2787| | |[11/16/2023](https://blogs.windows.com/windows-insider/2023/11/16/releasing-windows-11-builds-22621-2787-and-22631-2787-to-the-release-preview-channel/)| | |
