@@ -16,9 +16,6 @@ Welcome to Flight Hub! Use this dashboard to quickly identify the latest Windows
 
 Please read [this blog post](https://blogs.windows.com/windows-insider/2021/06/24/preparing-for-insider-preview-builds-of-windows-11/) on how the Windows 11 hardware requirements may impact flighting on your PC and your options to get started.
 
-> [!IMPORTANT]
-> We have introduced a new Canary Channel and rebooted the Dev Channel. Read about these channel changes and how they impact Windows Insiders [here in this blog post](https://blogs.windows.com/windows-insider/2023/03/06/whats-coming-for-the-windows-insider-program-in-2023/).
-
 ## Active Development 26200 Series Builds of Windows 11
 26200 series builds reflect some of the latest work in progress code from our engineers.
 
@@ -29,7 +26,8 @@ Please read [this blog post](https://blogs.windows.com/windows-insider/2021/06/2
 ## Windows 11 2024 Update (24H2)
 Preview builds for Windows 11, version 24H2.
 
-*These builds include represent an enablement package to Build 22635 for the Beta Channel ONLY. It should not be assumed that this build number will be used beyond the Beta Channel.
+> [!IMPORTANT]
+>*These builds include represent an enablement package to Build 26120 for the Dev Channel ONLY. It should not be assumed that this build number will be used beyond the Dev Channel.
 
 | Build | Canary | Dev | SDK | ISO |
 |---|---|---|---|---|
