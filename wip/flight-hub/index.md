@@ -27,7 +27,7 @@ Please read [this blog post](https://blogs.windows.com/windows-insider/2021/06/2
 Preview builds for Windows 11, version 24H2.
 
 > [!IMPORTANT]
->*These builds include represent an enablement package to Build 26120 for the Dev Channel ONLY. It should not be assumed that this build number will be used beyond the Dev Channel.
+>*These builds use an enablement package to Build 26120 for the Dev Channel ONLY. It should not be assumed that this build number will be used beyond the Dev Channel.
 
 | Build | Canary | Dev | SDK | ISO |
 |---|---|---|---|---|
@@ -156,7 +156,7 @@ Preview builds for Windows 11, version 24H2.
 Preview builds for updates to Windows 11, version 23H2 (Build 22631). 
 
 >[!IMPORTANT]
->*These builds include represent an enablement package to Build 22635 for the Beta Channel ONLY. It should not be assumed that this build number will be used beyond the Beta Channel.
+>*These builds use an enablement package to Build 22635 for the Beta Channel ONLY. It should not be assumed that this build number will be used beyond the Beta Channel.
 
 | Build | Beta | RP |
 |---|---|---|
