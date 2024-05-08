@@ -21,7 +21,8 @@ Please read [this blog post](https://blogs.windows.com/windows-insider/2021/06/2
 
 | Build | Canary | ISO |
 |---|---|---|---|
-|26200|[**4/19/2024**](https://blogs.windows.com/windows-insider/2024/04/19/announcing-windows-11-insider-preview-build-26200-canary-channel/)||
+|26212|[**5/8/2024**](https://blogs.windows.com/windows-insider/2024/05/08/announcing-windows-11-insider-preview-build-26212-canary-channel/)||
+|26200|[4/19/2024](https://blogs.windows.com/windows-insider/2024/04/19/announcing-windows-11-insider-preview-build-26200-canary-channel/)||
 
 ## Windows 11 2024 Update (24H2)
 Preview builds for Windows 11, version 24H2.
