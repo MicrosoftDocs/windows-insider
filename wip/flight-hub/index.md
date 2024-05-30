@@ -7,7 +7,7 @@ ms.tgt_pltfrm: na
 ms.author: bleblanc
 ms.localizationpriority: medium
 ms.topic: article
-ms.service: windows-10
+ms.service: windows-insider
 ---
 
 # Flight Hub
