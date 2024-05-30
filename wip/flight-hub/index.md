@@ -35,6 +35,7 @@ Preview builds for Windows 11, version 24H2.
 | Build | Canary | Dev | RP | SDK | ISO |
 |---|---|---|---|---|---|
 |26100.712| | |[**5/22/2024**](https://blogs.windows.com/windows-insider/2024/05/22/releasing-windows-11-version-24h2-to-the-release-preview-channel/)| | |
+|26100.560| | |[**5/22/2024**](https://blogs.windows.com/windows-insider/2024/05/22/releasing-windows-11-version-24h2-to-the-release-preview-channel/)| |[**5/22/2024**](https://aka.ms/wipISO)|
 |26120.670*||[**5/17/2024**](https://blogs.windows.com/windows-insider/2024/05/17/announcing-windows-11-insider-preview-build-26120-670-dev-channel/)| | | |
 |26120.470*||[5/10/2024](https://blogs.windows.com/windows-insider/2024/05/10/announcing-windows-11-insider-preview-build-26120-470-dev-channel/)| | | |
 |26120.461*||[5/3/2024](https://blogs.windows.com/windows-insider/2024/05/03/announcing-windows-11-insider-preview-build-26120-461-dev-channel/)| | | |
