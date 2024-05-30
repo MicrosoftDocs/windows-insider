@@ -9,7 +9,7 @@ metadata:
   title: Windows Insider Program documentation # Required; page title displayed in search results. Include the brand. < 60 chars.
   description: In the Windows Insider Program, be the first to see what's next and help shape Windows' future by running Windows 10 Insider Preview Builds and giving feedback. # Required; article description that is displayed in search results. < 160 chars.
   services: product-insights
-  ms.service: product-insights #Required; service per approved list. service slug assigned to your service by ACOM.
+  ms.service: windows-insider
   ms.subservice:  # Optional; Remove if no subservice is used.
   ms.topic: hub-page # Required
   ms.collection:  # Optional; Remove if no collection is used.
