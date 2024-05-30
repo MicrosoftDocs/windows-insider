@@ -9,7 +9,7 @@ ms.tgt_pltfrm: na
 ms.author: allieshields
 ms.localizationpriority: medium
 ms.topic: article
-ms.service: windows-10
+ms.service: windows-insider
 ---
 
 # Tools to get feedback from your customers
