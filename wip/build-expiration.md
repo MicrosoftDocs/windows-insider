@@ -9,7 +9,7 @@ ms.tgt_pltfrm: na
 ms.author: allieshields
 ms.localizationpriority: high
 ms.topic: article
-ms.service: windows-10
+ms.service: windows-insider
 ---
 
 # Updating from an expiring Insider Preview build
