@@ -9,7 +9,7 @@ ms.tgt_pltfrm: na
 ms.author: bleblanc
 ms.localizationpriority: high
 ms.topic: article
-ms.service: windows-11
+ms.service: windows-insider
 ---
 
 # Deeper look at flighting

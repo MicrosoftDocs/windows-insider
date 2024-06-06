@@ -9,7 +9,7 @@ ms.tgt_pltfrm: na
 ms.author: jhow
 ms.localizationpriority: medium
 ms.topic: article
-ms.service: windows-11
+ms.service: windows-insider
 ---
 
 # Using ISOs
