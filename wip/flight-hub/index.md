@@ -21,7 +21,8 @@ Please read [this blog post](https://blogs.windows.com/windows-insider/2021/06/2
 
 | Build | Canary | ISO |
 |---|---|---|---|
-|26227|[**5/30/2024**](https://blogs.windows.com/windows-insider/2024/05/30/announcing-windows-11-insider-preview-build-26227-canary-channel/)||
+|26231|[**6/6/2024**](https://blogs.windows.com/windows-insider/2024/06/06/announcing-windows-11-insider-preview-build-26231-canary-channel/)||
+|26227|[5/30/2024](https://blogs.windows.com/windows-insider/2024/05/30/announcing-windows-11-insider-preview-build-26227-canary-channel/)||
 |26217|[5/15/2024](https://blogs.windows.com/windows-insider/2024/05/15/announcing-windows-11-insider-preview-build-26217-canary-channel/)||
 |26212|[5/8/2024](https://blogs.windows.com/windows-insider/2024/05/08/announcing-windows-11-insider-preview-build-26212-canary-channel/)||
 |26200|[4/19/2024](https://blogs.windows.com/windows-insider/2024/04/19/announcing-windows-11-insider-preview-build-26200-canary-channel/)||
@@ -174,7 +175,7 @@ Preview builds for updates to Windows 11, version 23H2 (Build 22631).
 |22631.3570|[5/3/2024](https://blogs.windows.com/windows-insider/2024/05/03/announcing-windows-11-insider-preview-build-22635-3570-beta-channel/)| |
 |22631.3566|[4/26/2024](https://blogs.windows.com/windows-insider/2024/04/26/announcing-windows-11-insider-preview-build-22635-3566-beta-channel/)| |
 |22631.3520| |[4/11/2024](https://blogs.windows.com/windows-insider/2024/04/11/releasing-windows-11-builds-22621-3520-and-22631-3520-to-the-release-preview-channel/)|
-|22635.3500*|[4/19/2024](https://blogs.windows.com/windows-insider/2024/04/12/announcing-windows-11-insider-preview-build-22635-3495-beta-channel/)| |
+|22635.3500*|[4/19/2024](https://blogs.windows.com/windows-insider/2024/04/19/announcing-windows-11-insider-preview-build-22635-3500-beta-channel/)| |
 |22635.3495*|[4/12/2024](https://blogs.windows.com/windows-insider/2024/04/12/announcing-windows-11-insider-preview-build-22635-3495-beta-channel/)| |
 |22635.3430*|[4/5/2024](https://blogs.windows.com/windows-insider/2024/04/05/announcing-windows-11-insider-preview-build-22635-3430-beta-channel/)| |
 |22635.3420*|[3/29/2024](https://blogs.windows.com/windows-insider/2024/03/29/announcing-windows-11-insider-preview-build-22635-3420-beta-channel/)|  |
