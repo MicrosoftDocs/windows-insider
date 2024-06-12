@@ -1,0 +1,89 @@
+  items:
+  - name: Flight Hub
+    href: ./flight-hub/index.md
+  - name: The Changelog
+    href: ./Active-Dev-Branch.md
+  - name: Get started
+    href: ./get-started.md
+  - name: Deeper look at flighting
+    href: ./flighting.md
+  - name: Deeper look at feedback
+    href: ./feedback.md
+    items:
+    - name: Understand feedback categories and diagnostics
+      href: ./feedback-categories.md
+    - name: Track your feedback
+      href: ./tracking-feedback.md
+    - name: Explore the Feedback Hub
+      href: ./feedback-hub/feedback-hub-app.md
+  - name: Troubleshooting
+    href: ./troubleshooting.md
+    items:
+    - name: Choosing your data settings
+      href: ./data-settings.md
+    - name: Using ISOs
+      href: ./ISOs.md
+    - name: Checking if you're flighting
+      href: ./check-flighting-status.md
+    - name: Updating from an expiring Insider Preview build
+      href: ./build-expiration.md
+  - name: Windows Insider Program for Business
+    items:
+    - name: Register
+      href: ./business/register.md
+    - name: Start flighting
+      href: ./business/flighting.md
+    - name: Manage Insider Preview builds
+      href: ./business/manage-builds.md
+    - name: Explore in the Beta Channel
+      href: ./business/explore-Beta-Channel.md
+    - name: Validate in the Release Preview Channel
+      href: ./business/validate-Release-Preview-Channel.md
+    - name: Give feedback
+      href: ./business/feedback.md
+    - name: FAQ
+      href: ./business/FAQ.yml
+    - name: Windows Insider Program for Server
+      items:
+      - name: Get started
+        href: ./business/server-get-started.md
+      - name: Give feedback
+        href: ./business/server-feedback.md
+  - name: Windows Insider Program for Developers
+    items:
+    - name: Get started
+      href: ./developers/get-started.md
+    - name: Tools to get feedback
+      href: ./developers/tools.md
+  - name: App updates
+    items:
+    - name: Your Phone
+      href: ./apps/your-phone.md
+    - name: PowerToys
+      href: https://github.com/microsoft/PowerToys/wiki
+    - name: Mail & Calendar
+      href: ./apps/mail-and-calendar.md
+    - name: Snip & Sketch
+      href: ./apps/snip-and-sketch.md
+    - name: Sticky Notes
+      href: ./apps/sticky-notes.md
+    - name: Feedback Hub
+      href: ./apps/feedback-hub.md
+    - name: Game Bar
+      href: ./apps/game-bar.md
+  - name: Archive
+    items:
+    - name: 20H1 features
+      href: ./archive/new-in-20H1.md
+    - name: 19H2 features
+      href: ./archive/new-in-19H2.md
+    - name: 19H1 features
+      href: ./archive/new-in-19H1.md
+    - name: RS5 features
+      href: ./archive/new-in-RS5.md
+    - name: RS5 Server features
+      href: ./archive/new-in-RS5-server.md
+    - name: Past business features
+      href: ./archive/new-for-business.md
+  - name: Glossary
+    href: ./glossary.md
