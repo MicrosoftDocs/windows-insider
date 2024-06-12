@@ -21,7 +21,8 @@ Please read [this blog post](https://blogs.windows.com/windows-insider/2021/06/2
 
 | Build | Canary | ISO |
 |---|---|---|---|
-|26231|[**6/6/2024**](https://blogs.windows.com/windows-insider/2024/06/06/announcing-windows-11-insider-preview-build-26231-canary-channel/)||
+|26236|[**6/12/2024**](https://blogs.windows.com/windows-insider/2024/06/12/announcing-windows-11-insider-preview-build-26236-canary-channel/)||
+|26231|[6/6/2024](https://blogs.windows.com/windows-insider/2024/06/06/announcing-windows-11-insider-preview-build-26231-canary-channel/)||
 |26227|[5/30/2024](https://blogs.windows.com/windows-insider/2024/05/30/announcing-windows-11-insider-preview-build-26227-canary-channel/)||
 |26217|[5/15/2024](https://blogs.windows.com/windows-insider/2024/05/15/announcing-windows-11-insider-preview-build-26217-canary-channel/)||
 |26212|[5/8/2024](https://blogs.windows.com/windows-insider/2024/05/08/announcing-windows-11-insider-preview-build-26212-canary-channel/)||
