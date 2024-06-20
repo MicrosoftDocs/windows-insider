@@ -27,8 +27,11 @@ We release Insider Preview builds to you through channels, which are each design
 
 As we continue to evolve the way we’re building and releasing Windows in the future, we may introduce new channels to bring you new experiences.
 
+### Canary Channel
+The Canary Channel is for highly technical users who want to see the latest platform changes that are early in the development cycle. These builds have limited documentation and could be very unstable. They do not have extentive validation and/or testing.
+
 ### Dev Channel
-The Dev Channel is for highly technical users who love to be the first to see the latest features and updates for all things Windows. It will get builds that are earliest in a development cycle with the latest work-in-progress code from our engineers. These aren't always stable builds, and sometimes you will see issues that block key activities or require workarounds while flighting in this channel.
+The Dev Channel is for enthusiasts who love to be the first to see the latest validated features and updates for all things Windows. It will get builds that are earliest in a development cycle with the latest work-in-progress code from our engineers. These aren't always stable builds, and sometimes you will see issues that block key activities or require workarounds while flighting in this channel.
 
 These builds aren't matched to a specific release, which means these may simply be the latest work-in-progress code from our engineers. New features and OS improvements in this channel will show up in future Windows releases when they're ready, and we may deliver them as full OS build updates or servicing releases. Your feedback here will help our engineers with major fixes and changes to the latest code.
 
