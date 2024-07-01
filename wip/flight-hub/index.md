@@ -21,7 +21,7 @@ Welcome to Flight Hub! Use this dashboard to quickly identify the latest Windows
 | Build | Canary | ISO |
 |---|---|---|---|
 |26244|[**6/28/2024**](https://blogs.windows.com/windows-insider/2024/06/28/announcing-windows-11-insider-preview-build-26244-canary-channel/)||
-|26241|[**6/19/2024**](https://blogs.windows.com/windows-insider/2024/06/19/announcing-windows-11-insider-preview-build-26241-canary-channel/)||
+|26241|[6/19/2024](https://blogs.windows.com/windows-insider/2024/06/19/announcing-windows-11-insider-preview-build-26241-canary-channel/)||
 |26236|[6/12/2024](https://blogs.windows.com/windows-insider/2024/06/12/announcing-windows-11-insider-preview-build-26236-canary-channel/)||
 |26231|[6/6/2024](https://blogs.windows.com/windows-insider/2024/06/06/announcing-windows-11-insider-preview-build-26231-canary-channel/)||
 |26227|[5/30/2024](https://blogs.windows.com/windows-insider/2024/05/30/announcing-windows-11-insider-preview-build-26227-canary-channel/)||
