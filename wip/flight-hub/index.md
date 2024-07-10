@@ -20,7 +20,8 @@ Welcome to Flight Hub! Use this dashboard to quickly identify the latest Windows
 
 | Build | Canary | ISO |
 |---|---|---|---|
-|26244|[**6/28/2024**](https://blogs.windows.com/windows-insider/2024/06/28/announcing-windows-11-insider-preview-build-26244-canary-channel/)||
+|26252|[**7/10/2024**](https://blogs.windows.com/windows-insider/2024/07/10/announcing-windows-11-insider-preview-build-26252-canary-channel/)||
+|26244|[6/28/2024](https://blogs.windows.com/windows-insider/2024/06/28/announcing-windows-11-insider-preview-build-26244-canary-channel/)||
 |26241|[6/19/2024](https://blogs.windows.com/windows-insider/2024/06/19/announcing-windows-11-insider-preview-build-26241-canary-channel/)||
 |26236|[6/12/2024](https://blogs.windows.com/windows-insider/2024/06/12/announcing-windows-11-insider-preview-build-26236-canary-channel/)||
 |26231|[6/6/2024](https://blogs.windows.com/windows-insider/2024/06/06/announcing-windows-11-insider-preview-build-26231-canary-channel/)||
@@ -174,8 +175,8 @@ Preview builds for updates to Windows 11, version 23H2 (Build 22631).
 
 | Build | Beta | RP |
 |---|---|---|
-|22635.3858*|[**6/28/2024**](https://blogs.windows.com/windows-insider/2024/06/28/announcing-windows-11-insider-preview-build-22635-3858-beta-channel/)| |
 |22635.3790*|[**6/21/2024**](https://blogs.windows.com/windows-insider/2024/06/21/announcing-windows-11-insider-preview-build-22635-3790-beta-channel/)| |
+|22635.3858*|[6/28/2024](https://blogs.windows.com/windows-insider/2024/06/28/announcing-windows-11-insider-preview-build-22635-3858-beta-channel/)| |
 |22631.3807| |[**6/13/2024**](https://blogs.windows.com/windows-insider/2024/06/13/releasing-windows-11-builds-22621-3807-and-22631-3807-to-the-release-preview-channel/)|
 |22635.3785*|[6/14/2024](https://blogs.windows.com/windows-insider/2024/06/14/announcing-windows-11-insider-preview-build-22635-3785-beta-channel/)| |
 |22635.3720*|[6/7/2024](https://blogs.windows.com/windows-insider/2024/06/07/announcing-windows-11-insider-preview-build-22635-3720-beta-channel/)| |
