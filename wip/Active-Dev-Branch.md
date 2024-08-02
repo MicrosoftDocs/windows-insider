@@ -1070,7 +1070,7 @@ For some time now, you’ve been able to reset your UWP apps in Settings – wit
 
 The benefit of enabling this via PowerShell is that if needed you will now be able to run the reset commands for certain system components that are not currently listed as available to reset in Settings, for example Start.
 
-Please note by nature of this command, if you choose to run it it will reset your experience back to the default experience and you will lose the associated app data.
+Please note by nature of this command, if you choose to run it, it will reset your experience back to the default experience and you will lose the associated app data.
 
 ### Make a more personal connection with Eye Contact on Surface Pro X
 Powered by artificial intelligence capabilities of the Microsoft SQ1(TM) processor, Eye Contact helps to adjust your gaze on video calls so you appear to be looking directly in the camera on your Surface Pro X. Windows Insiders can turn this feature on via the Surface app on their Surface Pro X.

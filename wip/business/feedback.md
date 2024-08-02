@@ -59,7 +59,7 @@ You can sign into the Feedback Hub using either your personal Microsoft account 
 
 ## Track feedback from your organization
 
-When you're signed in with your Microsoft Entra acccount, you can also see feedback from other users in your organization.
+When you're signed in with your Microsoft Entra account, you can also see feedback from other users in your organization.
 
 1. Open the [Feedback Hub](https://aka.ms/WIPFeedbackHub) app on your device and make sure you're logged in with your registered Microsoft Entra account by checking the person icon on the bottom of the side menu. If you're already signed in with your personal Microsoft account, you can switch to your work account by signing out and signing back in.
 

@@ -26,7 +26,7 @@ To register your domain:
 
 * You must already be registered with the work email address tied to your Microsoft Entra Global Administrator account. [Learn more about registering with your work email address.](./register.md)  
 * It must be in Microsoft Entra ID. We don't support Active Directory on premises in the Windows Insider Program.
-* Use a production tenant of Microsoft Entra ID, not a test tenant, to make the most of the program. The Microsoft Entra tenant is just used for authentication, so you won't need to worry about changes to it from the the program.
+* Use a production tenant of Microsoft Entra ID, not a test tenant, to make the most of the program. The Microsoft Entra tenant is just used for authentication, so you won't need to worry about changes to it from the program.
 
 > [!div class="nextstepaction"]
 > [Register your domain now](https://insider.windows.com/for-business-getting-started#flight)
@@ -91,7 +91,7 @@ Note:  If you configure this setting to Disabled, the Windows Insider page setti
 
 7. Under **Feature update deferral period**, you can also choose to defer Insider Preview builds for a certain number of days after a release. 
 
-8. Select **OK** to comfirm your settings.
+8. Select **OK** to confirm your settings.
 
 9. Select **Create** to save the policy.
 
