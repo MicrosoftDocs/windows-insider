@@ -20,7 +20,8 @@ Welcome to Flight Hub! Use this dashboard to quickly identify the latest Windows
 
 | Build | Canary | ISO |
 |---|---|---|---|
-|26252|[**7/10/2024**](https://blogs.windows.com/windows-insider/2024/07/10/announcing-windows-11-insider-preview-build-26252-canary-channel/)||
+|26257|[**7/24/2024**](https://blogs.windows.com/windows-insider/2024/07/24/announcing-windows-11-insider-preview-build-26257-canary-channel/)||
+|26252|[7/10/2024](https://blogs.windows.com/windows-insider/2024/07/10/announcing-windows-11-insider-preview-build-26252-canary-channel/)||
 |26244|[6/28/2024](https://blogs.windows.com/windows-insider/2024/06/28/announcing-windows-11-insider-preview-build-26244-canary-channel/)||
 |26241|[6/19/2024](https://blogs.windows.com/windows-insider/2024/06/19/announcing-windows-11-insider-preview-build-26241-canary-channel/)||
 |26236|[6/12/2024](https://blogs.windows.com/windows-insider/2024/06/12/announcing-windows-11-insider-preview-build-26236-canary-channel/)||
@@ -38,8 +39,10 @@ Preview builds for Windows 11, version 24H2.
 
 | Build | Canary | Dev | RP | SDK | ISO |
 |---|---|---|---|---|---|
-|26120.1252*||[**7/15/2024**](https://blogs.windows.com/windows-insider/2024/07/15/announcing-windows-11-insider-preview-build-26120-1252-dev-channel/)| | | |
-|26100.994| | |[**6/20/2024**](https://blogs.windows.com/windows-insider/2024/06/20/releasing-windows-11-build-26100-994-to-the-release-preview-channel/) | |
+|26120.1330*||[**7/26/2024**](https://blogs.windows.com/windows-insider/2024/07/26/announcing-windows-11-insider-preview-build-26120-1330-dev-channel/)| | | | 
+|26100.1297| | |[**7/25/2024**](https://blogs.windows.com/windows-insider/2024/07/25/releasing-windows-11-build-26100-1297-to-the-release-preview-channel/) | |
+|26120.1252*||[7/15/2024](https://blogs.windows.com/windows-insider/2024/07/15/announcing-windows-11-insider-preview-build-26120-1252-dev-channel/)| | | |
+|26100.994| | |[6/20/2024](https://blogs.windows.com/windows-insider/2024/06/20/releasing-windows-11-build-26100-994-to-the-release-preview-channel/) | |
 |26120.961*||[6/14/2024](https://blogs.windows.com/windows-insider/2024/06/14/announcing-windows-11-insider-preview-build-26120-961-dev-channel/)| | | |
 |26100.863| | |[6/15/2024](https://blogs.windows.com/windows-insider/2024/05/22/releasing-windows-11-version-24h2-to-the-release-preview-channel/) | |[**6/19/2024**](https://aka.ms/wipISO)
 |26120.770*||[6/7/2024](https://blogs.windows.com/windows-insider/2024/06/07/announcing-windows-11-insider-preview-build-26120-770-dev-channel/)| | | |
@@ -176,8 +179,11 @@ Preview builds for updates to Windows 11, version 23H2 (Build 22631).
 
 | Build | Beta | RP |
 |---|---|---|
+|22635.4005*|[**8/2/2024**](https://blogs.windows.com/windows-insider/2024/08/02/announcing-windows-11-insider-preview-build-22635-4005-beta-channel/)| |
+|22635.4000*|[7/26/2024](https://blogs.windows.com/windows-insider/2024/07/26/announcing-windows-11-insider-preview-build-22635-4000-beta-channel/)| |
 |22631.3951| |[**7/11/2024**](https://blogs.windows.com/windows-insider/2024/07/11/releasing-windows-11-builds-22621-3951-and-22631-3951-to-the-release-preview-channel/)|
-|22635.3930*|[**7/12/2024**](https://blogs.windows.com/windows-insider/2024/07/12/announcing-windows-11-insider-preview-build-22635-3930-beta-channel/)| |
+|22635.3936*|[7/22/2024](https://blogs.windows.com/windows-insider/2024/07/22/announcing-windows-11-insider-preview-build-22635-3936-beta-channel/)| |
+|22635.3930*|[7/12/2024](https://blogs.windows.com/windows-insider/2024/07/12/announcing-windows-11-insider-preview-build-22635-3930-beta-channel/)| |
 |22635.3858*|[6/28/2024](https://blogs.windows.com/windows-insider/2024/06/28/announcing-windows-11-insider-preview-build-22635-3858-beta-channel/)| |
 |22631.3807| |[6/13/2024](https://blogs.windows.com/windows-insider/2024/06/13/releasing-windows-11-builds-22621-3807-and-22631-3807-to-the-release-preview-channel/)|
 |22635.3790*|[6/21/2024](https://blogs.windows.com/windows-insider/2024/06/21/announcing-windows-11-insider-preview-build-22635-3790-beta-channel/)| |
