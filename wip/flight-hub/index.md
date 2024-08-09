@@ -39,7 +39,8 @@ Preview builds for Windows 11, version 24H2.
 
 | Build | Canary | Dev | RP | SDK | ISO |
 |---|---|---|---|---|---|
-|26120.1340*||[**8/5/2024**](https://blogs.windows.com/windows-insider/2024/08/05/announcing-windows-11-insider-preview-build-26120-1340-dev-channel/)| | | | 
+|26120.1350*||[**8/9/2024**](https://blogs.windows.com/windows-insider/2024/08/09/announcing-windows-11-insider-preview-build-26120-1350-dev-channel/)| | | | 
+|26120.1340*||[8/5/2024](https://blogs.windows.com/windows-insider/2024/08/05/announcing-windows-11-insider-preview-build-26120-1340-dev-channel/)| | | | 
 |26120.1330*||[7/26/2024](https://blogs.windows.com/windows-insider/2024/07/26/announcing-windows-11-insider-preview-build-26120-1330-dev-channel/)| | | | 
 |26100.1297| | |[**7/25/2024**](https://blogs.windows.com/windows-insider/2024/07/25/releasing-windows-11-build-26100-1297-to-the-release-preview-channel/) | |
 |26120.1252*||[7/15/2024](https://blogs.windows.com/windows-insider/2024/07/15/announcing-windows-11-insider-preview-build-26120-1252-dev-channel/)| | | |
@@ -180,7 +181,8 @@ Preview builds for updates to Windows 11, version 23H2 (Build 22631).
 
 | Build | Beta | RP |
 |---|---|---|
-|22635.4005*|[**8/2/2024**](https://blogs.windows.com/windows-insider/2024/08/02/announcing-windows-11-insider-preview-build-22635-4005-beta-channel/)| |
+|22635.4010*|[**8/9/2024**](https://blogs.windows.com/windows-insider/2024/08/09/announcing-windows-11-insider-preview-build-22635-4010-beta-channel/)| |
+|22635.4005*|[8/2/2024](https://blogs.windows.com/windows-insider/2024/08/02/announcing-windows-11-insider-preview-build-22635-4005-beta-channel/)| |
 |22635.4000*|[7/26/2024](https://blogs.windows.com/windows-insider/2024/07/26/announcing-windows-11-insider-preview-build-22635-4000-beta-channel/)| |
 |22631.3951| |[**7/11/2024**](https://blogs.windows.com/windows-insider/2024/07/11/releasing-windows-11-builds-22621-3951-and-22631-3951-to-the-release-preview-channel/)|
 |22635.3936*|[7/22/2024](https://blogs.windows.com/windows-insider/2024/07/22/announcing-windows-11-insider-preview-build-22635-3936-beta-channel/)| |
