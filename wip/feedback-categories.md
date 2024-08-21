@@ -34,7 +34,7 @@ Use this for issues you experience while gaming or using Xbox features on Window
 
 ### Accessibility
 
-Use this for features we've built specifically to help users make the most of their device, especially users with special needs, like Narrator, Magnifier, eye control, or live captions. Do not use this for just any issue accessing something. If your feedback isn't for one of these features or something available as a setting in the **Settings** > **Accessibility** section, it probably needs to be sent directly to the feature's category instead. Still be sure to tell us that it's an accessibility issue in your feedback description though.
+Use this for features we've built specifically to help users make the most of their device, especially users with functional needs, like Narrator, Magnifier, eye control, or live captions. Do not use this for just any issue accessing something. If your feedback isn't for one of these features or something available as a setting in the **Settings** > **Accessibility** section, it probably needs to be sent directly to the feature's category instead. Still be sure to tell us that it's an accessibility issue in your feedback description though.
 
 ### Customer programs
 
