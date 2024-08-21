@@ -14,7 +14,7 @@ ms.service: windows-insider
 
 # Feedback Hub 
 
-The latest major updates and features for the Feedback Hub. Let us know what you think about these changes in the [Feedback Hub](https://aka.ms/WIPFeedbackHub) by choosing **Apps** > **Feedback Hub** under **Category** when filing feeback.
+The latest major updates and features for the Feedback Hub. Let us know what you think about these changes in the [Feedback Hub](https://aka.ms/WIPFeedbackHub) by choosing **Apps** > **Feedback Hub** under **Category** when filing feedback.
 
 ## August 21, 2019
 
