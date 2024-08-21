@@ -41,7 +41,7 @@ If your device is hard to use because of an issue, or if you want to switch out 
 
 4. Select the setup.exe file to launch the install process.
 
-5. During setup, select the **Change what to keep** option, and then choose **Nothing** on the next screen to complete a clean intall.
+5. During setup, select the **Change what to keep** option, and then choose **Nothing** on the next screen to complete a clean install.
 
 6. Once it's finished installing, make sure your Windows Insider settings are correct.
 
@@ -105,7 +105,7 @@ If you're having certain issues that prevent you from downloading an ISO to your
 
 4. Select the setup.exe file to launch the install process.
 
-5. During setup, select the **Change what to keep** option, and then choose **Nothing** on the next screen to complete a clean intall.
+5. During setup, select the **Change what to keep** option, and then choose **Nothing** on the next screen to complete a clean install.
 
 6. Once it's finished installing, go to [**Settings** > **Update & Security** > **Windows Insider Program**](https://aka.ms/WIPSettings) if you'd like to set up Insider Preview builds again. [Get more help setting up Insider Preview builds.](./get-started.md)
 

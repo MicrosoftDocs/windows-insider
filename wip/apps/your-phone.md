@@ -53,7 +53,7 @@ This is a gradual rollout, so it may take a few days for notifications pinning t
 
 ### Your Phone apps experience is now gradually rolling out to the general public
 
-We're excited to announce that the Your Phone apps feature which was highlighted during the Aug 5 [Samsung Unpacked](https://blogs.windows.com/windowsexperience/2020/08/05/microsoft-and-samsung-expand-partnership-empowering-you-across-work-and-play/) event is now gradually rolling out to the gneral public. 
+We're excited to announce that the Your Phone apps feature which was highlighted during the Aug 5 [Samsung Unpacked](https://blogs.windows.com/windowsexperience/2020/08/05/microsoft-and-samsung-expand-partnership-empowering-you-across-work-and-play/) event is now gradually rolling out to the general public. 
 
 As a reminder, the Your Phone apps feature allows you to instantly access your Android phone’s mobile apps directly from your Windows 10 device. You can conveniently pin your favorite mobile apps to your Taskbar or Start menu for quick and easy access. When you launch an app, it opens in a separate window outside of the Your Phone app to let you multitask. So, whether you need to quickly reply to a conversation, respond to your social posts, or order food, you can do it quickly using your PC’s large screen, keyboard, mouse, pen, and touch screen alongside your other PC apps!
 

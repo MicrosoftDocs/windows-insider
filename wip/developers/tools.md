@@ -23,7 +23,7 @@ We're always testing different versions of features with our user, and with our 
 > [!div class="nextstepaction"]
 > [Set up package flights](/windows/uwp/publish/package-flights#create-a-new-flight-group)
 
-**Perform A/B testing.** You can use the [Windows Dev Center dashboard](/windows/uwp/publish/using-the-windows-dev-center-dashboard) to define and test remote variables inside your UWP apps, then monitor how they drive your users' behavior. Variables can be used to configure different types of app experiences, like in-app purchases, sign-up flowa, captions, and ad placements.
+**Perform A/B testing.** You can use the [Windows Dev Center dashboard](/windows/uwp/publish/using-the-windows-dev-center-dashboard) to define and test remote variables inside your UWP apps, then monitor how they drive your users' behavior. Variables can be used to configure different types of app experiences, like in-app purchases, sign-up flow, captions, and ad placements.
 
 > [!div class="nextstepaction"]
 > [Set up A/B testing](/windows/uwp/monetize/run-app-experiments-with-a-b-testing)

@@ -160,7 +160,7 @@ If you no longer want to receive Insider Preview builds, you'll have to unenroll
 
 1. Go to [**Settings** > **Update & Security** > **Windows Insider Program**](https://aka.ms/WIPSettings) > **Stop Insider Preview Builds** to see your options.
 
-2. If you're in the Beta Channel or the Release Preview Channel, you can flip the switch to stop stop getting preview builds on your device when the next major release of Windows 10 launches to the public. (If your device is currently running a public release of Windows, this will immediately opt you out of getting preview builds. Just restart your device to complete the process.)
+2. If you're in the Beta Channel or the Release Preview Channel, you can flip the switch to stop getting preview builds on your device when the next major release of Windows 10 launches to the public. (If your device is currently running a public release of Windows, this will immediately opt you out of getting preview builds. Just restart your device to complete the process.)
 
 3. If you're in the Dev Channel or you'd like to stop getting preview builds immediately, you should [use these instructions to complete a clean installation of Windows 10](https://support.microsoft.com/help/4000735/windows-10-reinstall#Clean%20install%20of%20Windows%2010%20using%20installation%20media).
 
