@@ -14,7 +14,7 @@ ms.service: windows-insider
 
 # Mail & Calendar 
 
-The latest major updates and features for the Mail & Calendar apps. Let us know what you think in the [Feedback Hub](https://aka.ms/WIPFeedbackHub) by choosing **Apps** > **Mail** or **Calendar** under **Category** when filing feeback.
+The latest major updates and features for the Mail & Calendar apps. Let us know what you think in the [Feedback Hub](https://aka.ms/WIPFeedbackHub) by choosing **Apps** > **Mail** or **Calendar** under **Category** when filing feedback.
 
 ## February 12, 2020
 

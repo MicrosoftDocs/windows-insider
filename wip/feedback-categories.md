@@ -90,7 +90,7 @@ Use this if something is wrong with your device and its hardware, like audio or 
 
 ### Display and graphics
 
-Use this if something is wrong with your display, like using multiple displays, graphics driver installtion, bug check blue screens, brightness, night light, scaling, or resolutions.
+Use this if something is wrong with your display, like using multiple displays, graphics driver installation, bug check blue screens, brightness, night light, scaling, or resolutions.
 
 ### Files, folders, and online storage
 
