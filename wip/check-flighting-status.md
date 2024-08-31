@@ -47,6 +47,11 @@ Hit enter, and it will pull up which version your device is on. The last numbers
 
 ![Windows PowerShell running this command to check your version, highlighting that you're on Build 20211.](images/Powershell.jpg "Channels overview and how rings move to them.")
 
+## Check your build with System Information
+
+Open Search and in the prompt, type in System, then hit the Enter key. The System Information window will pop up. It will show the operating system name and version.
+
+
 ## Double-check your Windows Insider settings
 
 If checking your device information made you realize you’re not on the build that you expected, make sure your Windows Insider Program settings are right. Go to [**Settings** > **Windows Upadate** > **Windows Insider Program**](https://aka.ms/WIPSettings) to check if your registered Insider account is connected and if you’re in the right channel. [Learn more about our channels and what you can expect to see in each.](./flighting.md)
