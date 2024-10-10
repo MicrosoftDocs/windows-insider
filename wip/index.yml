@@ -1,13 +1,13 @@
 ### YamlMime:Hub
 
 title: Windows Insider Program documentation # < 60 chars
-summary: In the Windows Insider Program, be the first to see what's next and help shape Windows' future by running Windows 10 Insider Preview Builds and giving feedback. # < 160 chars
+summary: In the Windows Insider Program, be the first to see what's next and help shape Windows' future by running Windows 11 Insider Preview Builds and giving feedback. # < 160 chars
 # brand: aspnet | azure | dotnet | dynamics | m365 | ms-graph | office | power-bi | power-platform | sql | sql-server | vs | visual-studio | windows | xamarin
 brand: windows
 
 metadata:
   title: Windows Insider Program documentation # Required; page title displayed in search results. Include the brand. < 60 chars.
-  description: In the Windows Insider Program, be the first to see what's next and help shape Windows' future by running Windows 10 Insider Preview Builds and giving feedback. # Required; article description that is displayed in search results. < 160 chars.
+  description: In the Windows Insider Program, be the first to see what's next and help shape Windows' future by running Windows 11 Insider Preview Builds and giving feedback. # Required; article description that is displayed in search results. < 160 chars.
   services: product-insights
   ms.service: windows-insider
   ms.subservice:  # Optional; Remove if no subservice is used.
@@ -35,7 +35,7 @@ productDirectory:
     # Card
     - title: Windows Insider Program for Developers
       imageSrc: /media/common/i_code-blocks.svg
-      summary: Learn how to run Insider Preview builds and preview the Windows 10 Software Development Kit to bring better applications to your customers faster.
+      summary: Learn how to run Insider Preview builds and preview the Windows 10 or Windows 11 Software Development Kit to bring better applications to your customers faster.
       url: ./developers/index.yml
       
 # additionalContent section (optional)
