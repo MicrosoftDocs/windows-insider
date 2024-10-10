@@ -12,6 +12,9 @@ ms.topic: article
 ms.service: windows-insider
 ---
 
+> [!IMPORTANT]
+> This page is obsolete. See the [Windows Insider Blog](https://blogs.windows.com/windows-insider/)) for the latest builds of the Canary and Dev channels.
+
 # The Changelog
 The Changelog represents everything new from all the builds from the Active Development Branch released to the **Dev Channel**. This page includes everything noted as part of the "What's new" and "General changes & improvements" sections of the blog posts published for each build [on the Windows Blog](https://blogs.windows.com/windows-insider/) and does not contain other noted updates for Insiders, fixes, or known issues. 
 
